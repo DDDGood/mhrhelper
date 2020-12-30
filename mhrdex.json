@@ -1,0 +1,2775 @@
+{
+  "青熊獸": {
+    "nameTW": "青熊獸",
+    "nameJP": "アオアシラ",
+    "nameEN": "Aoashira",
+    "spacies": "牙獸種",
+    "image": "http://hobbigame.com/wp-content/uploads/2017/08/mhxx34.png",
+    "icon": "https://truth.bahamut.com.tw/s01/201809/d1decb3c3fdd703258c7cfa6053507de.PNG",
+    "breakables": "手",
+    "weakness": {
+      "weapon": [
+        {
+          "part": null,
+          "cut": 0,
+          "blunt": 0,
+          "ammo": 0
+        }
+      ],
+      "element": [
+        {
+          "condition": "normal",
+          "fire": 0,
+          "water": 0,
+          "thunder": 0,
+          "ice": 0,
+          "dragon": 0
+        }
+      ],
+      "aliment": [
+        {
+          "condition": "normal",
+          "poison": 0,
+          "sleep": 0,
+          "paralysis": 0,
+          "blast": 0,
+          "stun": 0
+        }
+      ],
+      "item": [
+        {
+          "condition": "normal",
+          "pitfalltrap": 0,
+          "shocktrap": 0,
+          "flashpod": 0,
+          "screamerpod": 0
+        }
+      ]
+    },
+    "parts": [
+      {
+        "name": "頭部",
+        "state": "通常",
+        "extract": "赤",
+        "hitData": [
+          55,
+          55,
+          55,
+          20,
+          5,
+          10,
+          15,
+          0,
+          0
+        ]
+      },
+      {
+        "name": "上半身",
+        "state": "通常",
+        "extract": "緑",
+        "hitData": [
+          50,
+          50,
+          62,
+          25,
+          5,
+          10,
+          15,
+          0,
+          0
+        ]
+      },
+      {
+        "name": "前脚",
+        "state": "通常",
+        "extract": "赤",
+        "hitData": [
+          33,
+          35,
+          28,
+          30,
+          5,
+          30,
+          20,
+          0,
+          0
+        ]
+      },
+      {
+        "name": "腹部・後脚",
+        "state": "通常",
+        "extract": "白",
+        "hitData": [
+          55,
+          55,
+          38,
+          15,
+          5,
+          10,
+          20,
+          0,
+          0
+        ]
+      },
+      {
+        "name": "尻",
+        "state": "通常",
+        "extract": "橙",
+        "hitData": [
+          66,
+          66,
+          43,
+          15,
+          5,
+          10,
+          20,
+          0,
+          0
+        ]
+      }
+    ],
+    "trait": {
+      "roar": null,
+      "tremer": null,
+      "wind": null
+    }
+  },
+  "白電龍": {
+    "nameTW": "白電龍",
+    "nameJP": "フルフル",
+    "nameEN": "Khezu",
+    "spacies": "飛龍種",
+    "image": "http://hobbigame.com/wp-content/uploads/2017/10/mhxx90.png",
+    "icon": "https://truth.bahamut.com.tw/s01/201809/c4b53b3d50855a7ae5de0859512cd998.PNG",
+    "breakables": "頭、身體",
+    "weakness": {
+      "weapon": [
+        {
+          "part": null,
+          "cut": 0,
+          "blunt": 0,
+          "ammo": 0
+        }
+      ],
+      "element": [
+        {
+          "condition": "normal",
+          "fire": 0,
+          "water": 0,
+          "thunder": 0,
+          "ice": 0,
+          "dragon": 0
+        }
+      ],
+      "aliment": [
+        {
+          "condition": "normal",
+          "poison": 0,
+          "sleep": 0,
+          "paralysis": 0,
+          "blast": 0,
+          "stun": 0
+        }
+      ],
+      "item": [
+        {
+          "condition": "normal",
+          "pitfalltrap": 0,
+          "shocktrap": 0,
+          "flashpod": 0,
+          "screamerpod": 0
+        }
+      ]
+    },
+    "parts": [
+      {
+        "name": "頭部",
+        "state": "通常",
+        "extract": "赤",
+        "hitData": [
+          63,
+          70,
+          80,
+          30,
+          5,
+          0,
+          5,
+          5,
+          0
+        ]
+      },
+      {
+        "name": "首",
+        "state": "通常",
+        "extract": "赤",
+        "hitData": [
+          75,
+          50,
+          50,
+          25,
+          5,
+          0,
+          5,
+          5,
+          0
+        ]
+      },
+      {
+        "name": "胴",
+        "state": "通常",
+        "extract": "橙",
+        "hitData": [
+          45,
+          45,
+          25,
+          25,
+          5,
+          0,
+          5,
+          5,
+          0
+        ]
+      },
+      {
+        "name": "尻尾",
+        "state": "通常",
+        "extract": "緑",
+        "hitData": [
+          20,
+          20,
+          30,
+          20,
+          5,
+          0,
+          5,
+          5,
+          0
+        ]
+      },
+      {
+        "name": "翼",
+        "state": "通常",
+        "extract": "白",
+        "hitData": [
+          25,
+          25,
+          25,
+          20,
+          5,
+          0,
+          5,
+          5,
+          0
+        ]
+      },
+      {
+        "name": "脚",
+        "state": "通常",
+        "extract": "白",
+        "hitData": [
+          25,
+          20,
+          35,
+          15,
+          5,
+          0,
+          5,
+          5,
+          0
+        ]
+      }
+    ],
+    "trait": {
+      "roar": null,
+      "tremer": null,
+      "wind": null
+    }
+  },
+  "水獸": {
+    "nameTW": "水獸",
+    "nameJP": "ロアルドロス",
+    "nameEN": "Royal Ludroth",
+    "spacies": "海龍種",
+    "image": "https://www.monsterhunter.com/rise/assets/images/monster/modal/royal-ludroth.png",
+    "icon": "https://truth.bahamut.com.tw/s01/201809/648f6023d115730988c864ea53d2f813.PNG",
+    "breakables": "頭、鬣、尾",
+    "weakness": {
+      "weapon": [
+        {
+          "part": null,
+          "cut": 0,
+          "blunt": 0,
+          "ammo": 0
+        }
+      ],
+      "element": [
+        {
+          "condition": "normal",
+          "fire": 0,
+          "water": 0,
+          "thunder": 0,
+          "ice": 0,
+          "dragon": 0
+        }
+      ],
+      "aliment": [
+        {
+          "condition": "normal",
+          "poison": 0,
+          "sleep": 0,
+          "paralysis": 0,
+          "blast": 0,
+          "stun": 0
+        }
+      ],
+      "item": [
+        {
+          "condition": "normal",
+          "pitfalltrap": 0,
+          "shocktrap": 0,
+          "flashpod": 0,
+          "screamerpod": 0
+        }
+      ]
+    },
+    "parts": [
+      {
+        "name": "頭部",
+        "state": "通常",
+        "extract": "白",
+        "hitData": [
+          40,
+          45,
+          65,
+          30,
+          0,
+          5,
+          5,
+          5,
+          0
+        ]
+      },
+      {
+        "name": "腹",
+        "state": "通常",
+        "extract": "橙",
+        "hitData": [
+          50,
+          40,
+          35,
+          35,
+          0,
+          10,
+          10,
+          0,
+          0
+        ]
+      },
+      {
+        "name": "たてがみ",
+        "state": "通常",
+        "extract": "橙",
+        "hitData": [
+          65,
+          50,
+          35,
+          40,
+          0,
+          15,
+          10,
+          0,
+          0
+        ]
+      },
+      {
+        "name": "背中",
+        "state": "通常",
+        "extract": "橙",
+        "hitData": [
+          30,
+          45,
+          35,
+          30,
+          0,
+          10,
+          5,
+          5,
+          0
+        ]
+      },
+      {
+        "name": "前脚",
+        "state": "通常",
+        "extract": "赤",
+        "hitData": [
+          24,
+          40,
+          25,
+          20,
+          0,
+          10,
+          10,
+          0,
+          0
+        ]
+      },
+      {
+        "name": "後脚",
+        "state": "通常",
+        "extract": "赤",
+        "hitData": [
+          30,
+          24,
+          30,
+          20,
+          0,
+          10,
+          5,
+          0,
+          0
+        ]
+      },
+      {
+        "name": "尻尾",
+        "state": "通常",
+        "extract": "白",
+        "hitData": [
+          40,
+          30,
+          40,
+          25,
+          0,
+          5,
+          5,
+          0,
+          0
+        ]
+      }
+    ],
+    "trait": {
+      "roar": null,
+      "tremer": null,
+      "wind": null
+    }
+  },
+  "岩龍": {
+    "nameTW": "岩龍",
+    "nameJP": "バサルモス",
+    "nameEN": "Basarios",
+    "spacies": "飛龍種",
+    "image": "http://hobbigame.com/wp-content/uploads/2017/10/mhxx91.png",
+    "icon": "https://truth.bahamut.com.tw/s01/201809/394252284bbf26be900afab87cb90b09.PNG",
+    "breakables": "胸、背、翼、尾",
+    "weakness": {
+      "weapon": [
+        {
+          "part": null,
+          "cut": 0,
+          "blunt": 0,
+          "ammo": 0
+        }
+      ],
+      "element": [
+        {
+          "condition": "normal",
+          "fire": 0,
+          "water": 0,
+          "thunder": 0,
+          "ice": 0,
+          "dragon": 0
+        }
+      ],
+      "aliment": [
+        {
+          "condition": "normal",
+          "poison": 0,
+          "sleep": 0,
+          "paralysis": 0,
+          "blast": 0,
+          "stun": 0
+        }
+      ],
+      "item": [
+        {
+          "condition": "normal",
+          "pitfalltrap": 0,
+          "shocktrap": 0,
+          "flashpod": 0,
+          "screamerpod": 0
+        }
+      ]
+    },
+    "parts": [
+      {
+        "name": "頭部",
+        "state": "通常",
+        "extract": "赤",
+        "hitData": [
+          20,
+          20,
+          20,
+          10,
+          15,
+          10,
+          10,
+          18,
+          0
+        ]
+      },
+      {
+        "name": "首",
+        "state": "通常",
+        "extract": "橙",
+        "hitData": [
+          15,
+          20,
+          20,
+          10,
+          15,
+          10,
+          10,
+          18,
+          0
+        ]
+      },
+      {
+        "name": "腹部",
+        "state": "通常",
+        "extract": "橙",
+        "hitData": [
+          21,
+          25,
+          30,
+          10,
+          20,
+          10,
+          10,
+          18,
+          0
+        ]
+      },
+      {
+        "name": "腹部(破壊後)",
+        "state": "通常",
+        "extract": "赤",
+        "hitData": [
+          50,
+          50,
+          55,
+          25,
+          35,
+          10,
+          10,
+          33,
+          0
+        ]
+      },
+      {
+        "name": "背中",
+        "state": "通常",
+        "extract": "白",
+        "hitData": [
+          15,
+          20,
+          20,
+          10,
+          15,
+          10,
+          10,
+          18,
+          0
+        ]
+      },
+      {
+        "name": "翼",
+        "state": "通常",
+        "extract": "白",
+        "hitData": [
+          15,
+          20,
+          20,
+          10,
+          15,
+          10,
+          10,
+          18,
+          0
+        ]
+      },
+      {
+        "name": "脚",
+        "state": "通常",
+        "extract": "白",
+        "hitData": [
+          25,
+          26,
+          30,
+          10,
+          15,
+          10,
+          10,
+          10,
+          0
+        ]
+      },
+      {
+        "name": "尻尾",
+        "state": "通常",
+        "extract": "緑",
+        "hitData": [
+          15,
+          15,
+          15,
+          10,
+          15,
+          10,
+          10,
+          18,
+          0
+        ]
+      },
+      {
+        "name": "尻尾先端",
+        "state": "通常",
+        "extract": "緑",
+        "hitData": [
+          28,
+          15,
+          15,
+          10,
+          10,
+          10,
+          10,
+          15,
+          0
+        ]
+      }
+    ],
+    "trait": {
+      "roar": null,
+      "tremer": null,
+      "wind": null
+    }
+  },
+  "雷狼龍": {
+    "nameTW": "雷狼龍",
+    "nameJP": "ジンオウガ",
+    "nameEN": "Zinogre",
+    "spacies": "牙龍種",
+    "image": "http://hobbigame.com/wp-content/uploads/2017/09/mhxx64.jpg",
+    "icon": "https://truth.bahamut.com.tw/s01/201809/54151d0600726f4ad7c4769c6c4804b8.PNG",
+    "breakables": "頭、前腳、背、尾",
+    "trait": {
+      "roar": "小",
+      "wind": "小",
+      "tremer": "無"
+    },
+    "weakness": {
+      "weapon": [
+        {
+          "part": "頭",
+          "cut": 3,
+          "blunt": 3,
+          "ammo": 3
+        },
+        {
+          "part": "前腳",
+          "cut": 2,
+          "blunt": 2,
+          "ammo": 2
+        },
+        {
+          "part": "尾",
+          "cut": 2,
+          "blunt": 2,
+          "ammo": 2
+        }
+      ],
+      "element": [
+        {
+          "condition": "normal",
+          "fire": 1,
+          "water": 2,
+          "thunder": 0,
+          "ice": 3,
+          "dragon": 1
+        }
+      ],
+      "aliment": [
+        {
+          "condition": "normal",
+          "poison": 2,
+          "sleep": 2,
+          "paralysis": 1,
+          "blast": 2,
+          "stun": 2
+        }
+      ],
+      "item": [
+        {
+          "condition": "normal",
+          "pitfalltrap": 2,
+          "shocktrap": 1,
+          "flashpod": 2,
+          "screamerpod": 0
+        },
+        {
+          "condition": "超帶電",
+          "pitfalltrap": 2,
+          "shocktrap": 0,
+          "flashpod": 2,
+          "screamerpod": 0
+        }
+      ]
+    },
+    "parts": [
+      {
+        "name": "頭",
+        "state": "通常",
+        "extract": "赤",
+        "hitData": [
+          45,
+          45,
+          50,
+          5,
+          10,
+          0,
+          15,
+          5,
+          100
+        ]
+      },
+      {
+        "name": "頭",
+        "state": "超帶電",
+        "extract": "赤",
+        "hitData": [
+          65,
+          65,
+          55,
+          10,
+          20,
+          0,
+          25,
+          10,
+          100
+        ]
+      },
+      {
+        "name": "頸",
+        "state": "通常",
+        "extract": "赤",
+        "hitData": [
+          40,
+          40,
+          45,
+          5,
+          10,
+          0,
+          15,
+          5,
+          100
+        ]
+      },
+      {
+        "name": "頸",
+        "state": "超帶電",
+        "extract": "赤",
+        "hitData": [
+          60,
+          60,
+          50,
+          5,
+          15,
+          0,
+          20,
+          5,
+          100
+        ]
+      },
+      {
+        "name": "身體",
+        "state": "通常",
+        "extract": "橙",
+        "hitData": [
+          30,
+          30,
+          20,
+          0,
+          5,
+          0,
+          5,
+          0,
+          0
+        ]
+      },
+      {
+        "name": "身體",
+        "state": "超帶電",
+        "extract": "橙",
+        "hitData": [
+          25,
+          25,
+          15,
+          0,
+          5,
+          0,
+          10,
+          0,
+          0
+        ]
+      },
+      {
+        "name": "背",
+        "state": "通常",
+        "extract": "赤",
+        "hitData": [
+          30,
+          30,
+          20,
+          0,
+          5,
+          0,
+          10,
+          0,
+          0
+        ]
+      },
+      {
+        "name": "背",
+        "state": "超帶電",
+        "extract": "赤",
+        "hitData": [
+          40,
+          40,
+          45,
+          5,
+          10,
+          0,
+          15,
+          5,
+          0
+        ]
+      },
+      {
+        "name": "前腳",
+        "state": "通常",
+        "extract": "赤",
+        "hitData": [
+          40,
+          40,
+          35,
+          5,
+          10,
+          0,
+          15,
+          5,
+          0
+        ]
+      },
+      {
+        "name": "前腳",
+        "state": "超帶電",
+        "extract": "赤",
+        "hitData": [
+          45,
+          45,
+          45,
+          5,
+          15,
+          0,
+          20,
+          5,
+          0
+        ]
+      },
+      {
+        "name": "後腳",
+        "state": "通常",
+        "extract": "白",
+        "hitData": [
+          30,
+          30,
+          20,
+          0,
+          5,
+          0,
+          5,
+          0,
+          0
+        ]
+      },
+      {
+        "name": "後腳",
+        "state": "超帶電",
+        "extract": "白",
+        "hitData": [
+          25,
+          25,
+          15,
+          0,
+          5,
+          0,
+          10,
+          0,
+          0
+        ]
+      },
+      {
+        "name": "尾",
+        "state": "通常",
+        "extract": "橙",
+        "hitData": [
+          30,
+          30,
+          20,
+          0,
+          5,
+          0,
+          5,
+          0,
+          0
+        ]
+      },
+      {
+        "name": "尾",
+        "state": "超帶電",
+        "extract": "橙",
+        "hitData": [
+          45,
+          45,
+          45,
+          5,
+          10,
+          0,
+          15,
+          5,
+          0
+        ]
+      }
+    ]
+  },
+  "雌火龍": {
+    "nameTW": "雌火龍",
+    "nameJP": "リオレイア",
+    "nameEN": "Rathian",
+    "spacies": "飛龍種",
+    "image": "http://hobbigame.com/wp-content/uploads/2017/10/mhxx93.png",
+    "icon": "https://truth.bahamut.com.tw/s01/201809/376ee5952e5d92a4293ee258f3e997f8.PNG",
+    "breakables": "頭、翼、背、尾",
+    "trait": {
+      "roar": "小",
+      "wind": "小",
+      "tremer": "無"
+    },
+    "weakness": {
+      "weapon": [
+        {
+          "part": "頭",
+          "cut": 3,
+          "blunt": 3,
+          "ammo": 3
+        },
+        {
+          "part": "翼",
+          "cut": 2,
+          "blunt": 2,
+          "ammo": 2
+        },
+        {
+          "part": "尾",
+          "cut": 2,
+          "blunt": 2,
+          "ammo": 2
+        }
+      ],
+      "element": [
+        {
+          "condition": "normal",
+          "fire": 0,
+          "water": 1,
+          "thunder": 2,
+          "ice": 1,
+          "dragon": 3
+        }
+      ],
+      "aliment": [
+        {
+          "condition": "normal",
+          "poison": 1,
+          "sleep": 2,
+          "paralysis": 2,
+          "blast": 1,
+          "stun": 3
+        }
+      ],
+      "item": [
+        {
+          "condition": "normal",
+          "pitfalltrap": 2,
+          "shocktrap": 2,
+          "flashpod": 2,
+          "screamerpod": 0
+        }
+      ]
+    },
+    "parts": [
+      {
+        "name": "頭",
+        "state": "通常",
+        "extract": "赤",
+        "hitData": [
+          60,
+          60,
+          45,
+          0,
+          15,
+          20,
+          15,
+          30,
+          100
+        ]
+      },
+      {
+        "name": "頸",
+        "state": "通常",
+        "extract": "赤",
+        "hitData": [
+          37,
+          45,
+          30,
+          0,
+          0,
+          5,
+          0,
+          15,
+          0
+        ]
+      },
+      {
+        "name": "身體",
+        "state": "通常",
+        "extract": "橙",
+        "hitData": [
+          35,
+          30,
+          25,
+          0,
+          5,
+          10,
+          5,
+          20,
+          0
+        ]
+      },
+      {
+        "name": "背",
+        "state": "通常",
+        "extract": "橙",
+        "hitData": [
+          35,
+          30,
+          25,
+          0,
+          5,
+          10,
+          5,
+          20,
+          0
+        ]
+      },
+      {
+        "name": "翼",
+        "state": "通常",
+        "extract": "緑",
+        "hitData": [
+          21,
+          21,
+          45,
+          0,
+          10,
+          15,
+          10,
+          25,
+          0
+        ]
+      },
+      {
+        "name": "腳",
+        "state": "通常",
+        "extract": "白",
+        "hitData": [
+          37,
+          37,
+          25,
+          0,
+          0,
+          5,
+          0,
+          15,
+          0
+        ]
+      },
+      {
+        "name": "尾",
+        "state": "通常",
+        "extract": "赤",
+        "hitData": [
+          45,
+          37,
+          30,
+          0,
+          5,
+          10,
+          5,
+          20,
+          0
+        ]
+      }
+    ]
+  },
+  "火龍": {
+    "nameTW": "火龍",
+    "nameJP": "リオレウス",
+    "nameEN": "Rathian",
+    "spacies": "飛龍種",
+    "image": "http://hobbigame.com/wp-content/uploads/2017/10/mhxx93.png",
+    "icon": "https://truth.bahamut.com.tw/s01/201809/25b577d1625be9bd4ea9d61fa1d47923.PNG",
+    "breakables": "頭、翼、背、尾",
+    "trait": {
+      "roar": "小",
+      "wind": "小",
+      "tremer": "無"
+    },
+    "weakness": {
+      "weapon": [
+        {
+          "part": "頭",
+          "cut": 3,
+          "blunt": 3,
+          "ammo": 3
+        },
+        {
+          "part": "翼",
+          "cut": 2,
+          "blunt": 2,
+          "ammo": 2
+        },
+        {
+          "part": "尾",
+          "cut": 2,
+          "blunt": 2,
+          "ammo": 2
+        }
+      ],
+      "element": [
+        {
+          "condition": "normal",
+          "fire": 0,
+          "water": 1,
+          "thunder": 2,
+          "ice": 1,
+          "dragon": 3
+        }
+      ],
+      "aliment": [
+        {
+          "condition": "normal",
+          "poison": 1,
+          "sleep": 2,
+          "paralysis": 2,
+          "blast": 1,
+          "stun": 2
+        }
+      ],
+      "item": [
+        {
+          "condition": "normal",
+          "pitfalltrap": 2,
+          "shocktrap": 2,
+          "flashpod": 2,
+          "screamerpod": 0
+        }
+      ]
+    },
+    "parts": [
+      {
+        "name": "頭",
+        "state": "通常",
+        "extract": "赤",
+        "hitData": [
+          60,
+          65,
+          50,
+          0,
+          15,
+          20,
+          15,
+          30,
+          100
+        ]
+      },
+      {
+        "name": "頸",
+        "state": "通常",
+        "extract": "赤",
+        "hitData": [
+          35,
+          37,
+          30,
+          0,
+          5,
+          10,
+          5,
+          20,
+          0
+        ]
+      },
+      {
+        "name": "身體",
+        "state": "通常",
+        "extract": "橙",
+        "hitData": [
+          25,
+          25,
+          20,
+          0,
+          5,
+          10,
+          5,
+          20,
+          0
+        ]
+      },
+      {
+        "name": "背",
+        "state": "通常",
+        "extract": "橙",
+        "hitData": [
+          25,
+          25,
+          20,
+          0,
+          5,
+          10,
+          5,
+          20,
+          0
+        ]
+      },
+      {
+        "name": "翼",
+        "state": "通常",
+        "extract": "緑",
+        "hitData": [
+          20,
+          21,
+          19,
+          0,
+          10,
+          15,
+          10,
+          25,
+          0
+        ]
+      },
+      {
+        "name": "腳",
+        "state": "通常",
+        "extract": "白",
+        "hitData": [
+          35,
+          35,
+          30,
+          0,
+          0,
+          5,
+          0,
+          15,
+          0
+        ]
+      },
+      {
+        "name": "尾",
+        "state": "通常",
+        "extract": "赤",
+        "hitData": [
+          45,
+          40,
+          35,
+          0,
+          5,
+          10,
+          5,
+          20,
+          0
+        ]
+      }
+    ]
+  },
+  "毒妖鳥": {
+    "nameTW": "毒妖鳥",
+    "nameJP": "プケプケ",
+    "nameEN": "Pukei-Pukei",
+    "spacies": "鳥龍種",
+    "image": "https://oyster.ignimgs.com/mediawiki/apis.ign.com/monster-hunter-world/6/6a/MHW-Pukei-Pukei_Render_001_copy.jpg",
+    "icon": "https://oyster.ignimgs.com/mediawiki/apis.ign.com/monster-hunter-world/a/a8/Pukei-Pukei20.jpg",
+    "breakables": "頭、翼、尾",
+    "trait": {
+      "roar": "小",
+      "wind": "小",
+      "tremer": "無"
+    },
+    "weakness": {
+      "weapon": [
+        {
+          "part": "頭",
+          "cut": 3,
+          "blunt": 3,
+          "ammo": 3
+        },
+        {
+          "part": "翼",
+          "cut": 2,
+          "blunt": 2,
+          "ammo": 2
+        },
+        {
+          "part": "尾",
+          "cut": 2,
+          "blunt": 2,
+          "ammo": 2
+        }
+      ],
+      "element": [
+        {
+          "condition": "normal",
+          "fire": 2,
+          "water": 0,
+          "thunder": 3,
+          "ice": 2,
+          "dragon": 1
+        }
+      ],
+      "aliment": [
+        {
+          "condition": "normal",
+          "poison": 1,
+          "sleep": 3,
+          "paralysis": 3,
+          "blast": 2,
+          "stun": 2
+        }
+      ],
+      "item": [
+        {
+          "condition": "normal",
+          "pitfalltrap": 2,
+          "shocktrap": 2,
+          "flashpod": 2,
+          "screamerpod": 0
+        }
+      ]
+    },
+    "parts": [
+      {
+        "name": "頭",
+        "state": "通常",
+        "extract": "赤",
+        "hitData": [
+          60,
+          64,
+          56,
+          15,
+          0,
+          30,
+          20,
+          10,
+          100
+        ]
+      },
+      {
+        "name": "舌",
+        "state": "通常",
+        "extract": "赤",
+        "hitData": [
+          76,
+          72,
+          68,
+          15,
+          0,
+          30,
+          20,
+          10,
+          100
+        ]
+      },
+      {
+        "name": "頸",
+        "state": "通常",
+        "extract": "赤",
+        "hitData": [
+          40,
+          35,
+          30,
+          5,
+          0,
+          20,
+          10,
+          5,
+          0
+        ]
+      },
+      {
+        "name": "身體",
+        "state": "通常",
+        "extract": "橙",
+        "hitData": [
+          35,
+          35,
+          30,
+          0,
+          0,
+          15,
+          5,
+          5,
+          0
+        ]
+      },
+      {
+        "name": "翼",
+        "state": "通常",
+        "extract": "白",
+        "hitData": [
+          50,
+          45,
+          40,
+          10,
+          0,
+          25,
+          15,
+          5,
+          0
+        ]
+      },
+      {
+        "name": "腳",
+        "state": "通常",
+        "extract": "橙",
+        "hitData": [
+          23,
+          23,
+          20,
+          0,
+          0,
+          15,
+          5,
+          0,
+          0
+        ]
+      },
+      {
+        "name": "尾",
+        "state": "通常",
+        "extract": "赤",
+        "hitData": [
+          55,
+          50,
+          45,
+          10,
+          0,
+          25,
+          15,
+          5,
+          0
+        ]
+      }
+    ]
+  },
+  "搔鳥": {
+    "nameTW": "搔鳥",
+    "nameJP": "クルルャック",
+    "nameEN": "Kulu-Ya-Ku",
+    "spacies": "鳥龍種",
+    "image": "https://oyster.ignimgs.com/mediawiki/apis.ign.com/monster-hunter-world/c/c1/Kulu.jpg",
+    "icon": "https://oyster.ignimgs.com/mediawiki/apis.ign.com/monster-hunter-world/9/90/Kulu-Ya-Ku12.jpg",
+    "breakables": "頭、翼、尾",
+    "trait": {
+      "roar": "無",
+      "wind": "無",
+      "tremer": "無"
+    },
+    "weakness": {
+      "weapon": [
+        {
+          "part": "頭",
+          "cut": 3,
+          "blunt": 3,
+          "ammo": 3
+        }
+      ],
+      "element": [
+        {
+          "condition": "normal",
+          "fire": 2,
+          "water": 3,
+          "thunder": 2,
+          "ice": 2,
+          "dragon": 2
+        }
+      ],
+      "aliment": [
+        {
+          "condition": "normal",
+          "poison": 2,
+          "sleep": 2,
+          "paralysis": 2,
+          "blast": 2,
+          "stun": 2
+        }
+      ],
+      "item": [
+        {
+          "condition": "normal",
+          "pitfalltrap": 2,
+          "shocktrap": 2,
+          "flashpod": 2,
+          "screamerpod": 0
+        }
+      ]
+    },
+    "parts": [
+      {
+        "name": "頭",
+        "state": "通常",
+        "extract": "赤",
+        "hitData": [
+          68,
+          68,
+          60,
+          15,
+          20,
+          15,
+          15,
+          15,
+          100
+        ]
+      },
+      {
+        "name": "身體",
+        "state": "通常",
+        "extract": "白",
+        "hitData": [
+          45,
+          45,
+          40,
+          15,
+          20,
+          15,
+          15,
+          15,
+          0
+        ]
+      },
+      {
+        "name": "前腳",
+        "state": "通常",
+        "extract": "赤",
+        "hitData": [
+          52,
+          56,
+          45,
+          15,
+          20,
+          15,
+          15,
+          15,
+          0
+        ]
+      },
+      {
+        "name": "尾",
+        "state": "通常",
+        "extract": "赤",
+        "hitData": [
+          55,
+          50,
+          35,
+          15,
+          20,
+          15,
+          15,
+          15,
+          0
+        ]
+      }
+    ]
+  },
+  "飛雷龍": {
+    "nameTW": "飛雷龍",
+    "nameJP": "卜ピカガチ",
+    "nameEN": "Tobi-Kadachi",
+    "spacies": "牙龍種",
+    "image": "https://oyster.ignimgs.com/mediawiki/apis.ign.com/monster-hunter-world/4/43/MHW-Tobi-Kadachi_Render_001_copy.jpg",
+    "image (copy)": "https://oyster.ignimgs.com/mediawiki/apis.ign.com/monster-hunter-world/3/36/Tobi-Kadachi25.jpg",
+    "breakables": "頭、尾",
+    "trait": {
+      "roar": "小",
+      "wind": "無",
+      "tremer": "無"
+    },
+    "weakness": {
+      "weapon": [
+        {
+          "part": "頭",
+          "cut": 2,
+          "blunt": 2,
+          "ammo": 2
+        },
+        {
+          "part": "尾",
+          "cut": 3,
+          "blunt": 3,
+          "ammo": 3
+        }
+      ],
+      "element": [
+        {
+          "condition": "normal",
+          "fire": 2,
+          "water": 3,
+          "thunder": 0,
+          "ice": 2,
+          "dragon": 1
+        }
+      ],
+      "aliment": [
+        {
+          "condition": "normal",
+          "poison": 3,
+          "sleep": 2,
+          "paralysis": 2,
+          "blast": 2,
+          "stun": 2
+        }
+      ],
+      "item": [
+        {
+          "condition": "normal",
+          "pitfalltrap": 2,
+          "shocktrap": 2,
+          "flashpod": 2,
+          "screamerpod": 0
+        }
+      ]
+    },
+    "parts": [
+      {
+        "name": "頭",
+        "state": "通常",
+        "extract": "赤",
+        "hitData": [
+          48,
+          48,
+          45,
+          10,
+          20,
+          0,
+          10,
+          5,
+          100
+        ]
+      },
+      {
+        "name": "頸",
+        "state": "通常",
+        "extract": "赤",
+        "hitData": [
+          48,
+          48,
+          45,
+          10,
+          20,
+          0,
+          10,
+          5,
+          50
+        ]
+      },
+      {
+        "name": "身體",
+        "state": "通常",
+        "extract": "橙",
+        "hitData": [
+          45,
+          45,
+          35,
+          5,
+          15,
+          0,
+          5,
+          0,
+          0
+        ]
+      },
+      {
+        "name": "背",
+        "state": "通常",
+        "extract": "橙",
+        "hitData": [
+          45,
+          45,
+          48,
+          5,
+          15,
+          0,
+          5,
+          0,
+          0
+        ]
+      },
+      {
+        "name": "前腳",
+        "state": "通常",
+        "extract": "白",
+        "hitData": [
+          35,
+          35,
+          15,
+          5,
+          15,
+          0,
+          5,
+          0,
+          0
+        ]
+      },
+      {
+        "name": "後腳",
+        "state": "通常",
+        "extract": "白",
+        "hitData": [
+          30,
+          30,
+          10,
+          5,
+          15,
+          0,
+          5,
+          0,
+          0
+        ]
+      },
+      {
+        "name": "尾",
+        "state": "通常",
+        "extract": "赤",
+        "hitData": [
+          65,
+          65,
+          55,
+          20,
+          30,
+          0,
+          20,
+          15,
+          0
+        ]
+      }
+    ]
+  },
+  "蠻顎龍": {
+    "nameTW": "蠻顎龍",
+    "nameJP": "アンジャナフ",
+    "nameEN": "Anjanath",
+    "spacies": "獸龍種",
+    "image": "https://oyster.ignimgs.com/mediawiki/apis.ign.com/monster-hunter-world/8/8c/MHW-Anjanath_Render_001_copy.jpg",
+    "icon": "https://oyster.ignimgs.com/mediawiki/apis.ign.com/monster-hunter-world/c/c5/Anjanath1.jpg",
+    "breakables": "頭、尾",
+    "trait": {
+      "roar": "小",
+      "wind": "小",
+      "tremer": "小"
+    },
+    "weakness": {
+      "weapon": [
+        {
+          "part": "頭",
+          "cut": 3,
+          "blunt": 3,
+          "ammo": 3
+        },
+        {
+          "part": "尾",
+          "cut": 2,
+          "blunt": 2,
+          "ammo": 2
+        }
+      ],
+      "element": [
+        {
+          "condition": "normal",
+          "fire": 0,
+          "water": 3,
+          "thunder": 2,
+          "ice": 2,
+          "dragon": 1
+        }
+      ],
+      "aliment": [
+        {
+          "condition": "normal",
+          "poison": 2,
+          "sleep": 2,
+          "paralysis": 2,
+          "blast": 1,
+          "stun": 2
+        }
+      ],
+      "item": [
+        {
+          "condition": "normal",
+          "pitfalltrap": 2,
+          "shocktrap": 2,
+          "flashpod": 2,
+          "screamerpod": 0
+        }
+      ]
+    },
+    "parts": [
+      {
+        "name": "頭",
+        "state": "通常",
+        "extract": "赤",
+        "hitData": [
+          60,
+          60,
+          45,
+          0,
+          25,
+          10,
+          15,
+          5,
+          100
+        ]
+      },
+      {
+        "name": "鼻",
+        "state": "通常",
+        "extract": "赤",
+        "hitData": [
+          65,
+          63,
+          55,
+          0,
+          30,
+          15,
+          20,
+          10,
+          0
+        ]
+      },
+      {
+        "name": "頸",
+        "state": "通常",
+        "extract": "赤",
+        "hitData": [
+          30,
+          30,
+          10,
+          0,
+          20,
+          5,
+          15,
+          5,
+          50
+        ]
+      },
+      {
+        "name": "身體",
+        "state": "通常",
+        "extract": "橙",
+        "hitData": [
+          30,
+          30,
+          45,
+          0,
+          15,
+          5,
+          10,
+          0,
+          0
+        ]
+      },
+      {
+        "name": "翼",
+        "state": "通常",
+        "extract": "橙",
+        "hitData": [
+          63,
+          45,
+          55,
+          0,
+          30,
+          15,
+          20,
+          10,
+          0
+        ]
+      },
+      {
+        "name": "腳",
+        "state": "通常",
+        "extract": "白",
+        "hitData": [
+          21,
+          21,
+          15,
+          0,
+          15,
+          5,
+          10,
+          0,
+          0
+        ]
+      },
+      {
+        "name": "腳",
+        "state": "破壞後",
+        "extract": "白",
+        "hitData": [
+          45,
+          45,
+          50,
+          0,
+          15,
+          5,
+          10,
+          0,
+          0
+        ]
+      },
+      {
+        "name": "尾",
+        "state": "通常",
+        "extract": "橙",
+        "hitData": [
+          60,
+          60,
+          75,
+          0,
+          20,
+          10,
+          15,
+          5,
+          0
+        ]
+      }
+    ]
+  },
+  "泥魚龍": {
+    "nameTW": "泥魚龍",
+    "nameJP": "ジユラ卜ドス",
+    "nameEN": "Jyuratodus",
+    "spacies": "魚龍種",
+    "image": "https://oyster.ignimgs.com/mediawiki/apis.ign.com/monster-hunter-world/6/6a/JyuratodusRender.jpg",
+    "icon": "https://oyster.ignimgs.com/mediawiki/apis.ign.com/monster-hunter-world/e/eb/Jyuratodus10.jpg",
+    "breakables": "頭、尾",
+    "trait": {
+      "roar": "無",
+      "wind": "無",
+      "tremer": "無"
+    },
+    "weakness": {
+      "weapon": [
+        {
+          "part": "頭",
+          "cut": 3,
+          "blunt": 3,
+          "ammo": 3
+        },
+        {
+          "part": "尾",
+          "cut": 3,
+          "blunt": 3,
+          "ammo": 2
+        }
+      ],
+      "element": [
+        {
+          "condition": "normal",
+          "fire": 1,
+          "water": 0,
+          "thunder": 3,
+          "ice": 1,
+          "dragon": 1
+        },
+        {
+          "condition": "泥纏狀態",
+          "fire": 0,
+          "water": 3,
+          "thunder": 0,
+          "ice": 1,
+          "dragon": 1
+        }
+      ],
+      "aliment": [
+        {
+          "condition": "normal",
+          "poison": 2,
+          "sleep": 1,
+          "paralysis": 2,
+          "blast": 1,
+          "stun": 3
+        }
+      ],
+      "item": [
+        {
+          "condition": "normal",
+          "pitfalltrap": 2,
+          "shocktrap": 2,
+          "flashpod": 2,
+          "screamerpod": 2
+        }
+      ]
+    },
+    "parts": [
+      {
+        "name": "頭",
+        "state": "通常",
+        "extract": "赤",
+        "hitData": [
+          58,
+          58,
+          58,
+          5,
+          0,
+          10,
+          5,
+          5,
+          100
+        ]
+      },
+      {
+        "name": "頭",
+        "state": "泥纏狀態",
+        "extract": "赤",
+        "hitData": [
+          23,
+          23,
+          23,
+          0,
+          25,
+          0,
+          5,
+          5,
+          100
+        ]
+      },
+      {
+        "name": "頸",
+        "state": "通常",
+        "extract": "赤",
+        "hitData": [
+          43,
+          43,
+          43,
+          5,
+          0,
+          10,
+          5,
+          5,
+          0
+        ]
+      },
+      {
+        "name": "身體",
+        "state": "通常",
+        "extract": "白",
+        "hitData": [
+          35,
+          35,
+          35,
+          10,
+          0,
+          25,
+          5,
+          5,
+          0
+        ]
+      },
+      {
+        "name": "身體",
+        "state": "泥纏狀態",
+        "extract": "白",
+        "hitData": [
+          21,
+          21,
+          21,
+          0,
+          25,
+          0,
+          5,
+          5,
+          0
+        ]
+      },
+      {
+        "name": "背",
+        "state": "通常",
+        "extract": "白",
+        "hitData": [
+          24,
+          24,
+          24,
+          5,
+          0,
+          15,
+          5,
+          5,
+          0
+        ]
+      },
+      {
+        "name": "鰭",
+        "state": "通常",
+        "extract": "白",
+        "hitData": [
+          25,
+          25,
+          25,
+          10,
+          0,
+          20,
+          5,
+          5,
+          0
+        ]
+      },
+      {
+        "name": "腳",
+        "state": "通常",
+        "extract": "白",
+        "hitData": [
+          30,
+          30,
+          25,
+          15,
+          0,
+          30,
+          5,
+          5,
+          0
+        ]
+      },
+      {
+        "name": "腳",
+        "state": "泥纏狀態",
+        "extract": "白",
+        "hitData": [
+          21,
+          21,
+          21,
+          0,
+          25,
+          0,
+          5,
+          5,
+          0
+        ]
+      },
+      {
+        "name": "尾",
+        "state": "通常",
+        "extract": "橙",
+        "hitData": [
+          55,
+          50,
+          45,
+          5,
+          0,
+          10,
+          5,
+          5,
+          0
+        ]
+      },
+      {
+        "name": "尾",
+        "state": "泥纏狀態",
+        "extract": "橙",
+        "hitData": [
+          23,
+          23,
+          23,
+          0,
+          25,
+          0,
+          5,
+          5,
+          0
+        ]
+      }
+    ]
+  },
+  "河童蛙": {
+    "nameTW": "河童蛙",
+    "nameJP": "ヨツミワドウ",
+    "nameEN": "Tetranadon",
+    "spacies": "兩生種",
+    "image": "https://www.monsterhunter.com/rise/assets/images/monster/modal/tetranadon.png",
+    "breakables": "-",
+    "trait": {
+      "roar": -1,
+      "wind": -1,
+      "tremer": -1
+    },
+    "weakness": {
+      "weapon": [
+        {
+          "part": -1,
+          "cut": -1,
+          "blunt": -1,
+          "ammo": -1
+        }
+      ],
+      "element": [
+        {
+          "condition": "normal",
+          "fire": -1,
+          "water": -1,
+          "thunder": -1,
+          "ice": -1,
+          "dragon": -1
+        }
+      ],
+      "aliment": [
+        {
+          "condition": "normal",
+          "poison": -1,
+          "sleep": -1,
+          "paralysis": -1,
+          "blast": -1,
+          "stun": -1
+        }
+      ],
+      "item": [
+        {
+          "condition": "normal",
+          "pitfalltrap": -1,
+          "shocktrap": -1,
+          "flashpod": -1,
+          "screamerpod": -1
+        }
+      ]
+    },
+    "parts": [
+      {
+        "name": "尚未公布",
+        "state": "-",
+        "extract": "-",
+        "hitData": [
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1
+        ]
+      }
+    ]
+  },
+  "傘鳥": {
+    "nameTW": "傘鳥",
+    "nameJP": "アケノシルム",
+    "nameEN": "Aknosom",
+    "spacies": "鳥龍種",
+    "image": "https://www.monsterhunter.com/rise/assets/images/monster/modal/aknosom.png",
+    "breakables": "-",
+    "trait": {
+      "roar": -1,
+      "wind": -1,
+      "tremer": -1
+    },
+    "weakness": {
+      "weapon": [
+        {
+          "part": -1,
+          "cut": -1,
+          "blunt": -1,
+          "ammo": -1
+        }
+      ],
+      "element": [
+        {
+          "condition": "normal",
+          "fire": -1,
+          "water": -1,
+          "thunder": -1,
+          "ice": -1,
+          "dragon": -1
+        }
+      ],
+      "aliment": [
+        {
+          "condition": "normal",
+          "poison": -1,
+          "sleep": -1,
+          "paralysis": -1,
+          "blast": -1,
+          "stun": -1
+        }
+      ],
+      "item": [
+        {
+          "condition": "normal",
+          "pitfalltrap": -1,
+          "shocktrap": -1,
+          "flashpod": -1,
+          "screamerpod": -1
+        }
+      ]
+    },
+    "parts": [
+      {
+        "name": "尚未公布",
+        "state": "-",
+        "extract": "-",
+        "hitData": [
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1
+        ]
+      }
+    ]
+  },
+  "鐮鼬龍王": {
+    "nameTW": "鐮鼬龍王",
+    "nameJP": "オサイズチ",
+    "nameEN": "Great Izuchi",
+    "spacies": "鳥龍種",
+    "image": "https://www.monsterhunter.com/rise/assets/images/monster/modal/great-izuchi.png",
+    "breakables": "-",
+    "trait": {
+      "roar": -1,
+      "wind": -1,
+      "tremer": -1
+    },
+    "weakness": {
+      "weapon": [
+        {
+          "part": -1,
+          "cut": -1,
+          "blunt": -1,
+          "ammo": -1
+        }
+      ],
+      "element": [
+        {
+          "condition": "normal",
+          "fire": -1,
+          "water": -1,
+          "thunder": -1,
+          "ice": -1,
+          "dragon": -1
+        }
+      ],
+      "aliment": [
+        {
+          "condition": "normal",
+          "poison": -1,
+          "sleep": -1,
+          "paralysis": -1,
+          "blast": -1,
+          "stun": -1
+        }
+      ],
+      "item": [
+        {
+          "condition": "normal",
+          "pitfalltrap": -1,
+          "shocktrap": -1,
+          "flashpod": -1,
+          "screamerpod": -1
+        }
+      ]
+    },
+    "parts": [
+      {
+        "name": "尚未公布",
+        "state": "-",
+        "extract": "-",
+        "hitData": [
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1
+        ]
+      }
+    ]
+  },
+  "毒狗龍王": {
+    "nameTW": "毒狗龍王",
+    "nameJP": "",
+    "nameEN": "",
+    "spacies": "鳥龍種",
+    "image": "https://www.monsterhunter.com/rise/assets/images/monster/modal/great-wroggi.png",
+    "breakables": "-",
+    "trait": {
+      "roar": -1,
+      "wind": -1,
+      "tremer": -1
+    },
+    "weakness": {
+      "weapon": [
+        {
+          "part": -1,
+          "cut": -1,
+          "blunt": -1,
+          "ammo": -1
+        }
+      ],
+      "element": [
+        {
+          "condition": "normal",
+          "fire": -1,
+          "water": -1,
+          "thunder": -1,
+          "ice": -1,
+          "dragon": -1
+        }
+      ],
+      "aliment": [
+        {
+          "condition": "normal",
+          "poison": -1,
+          "sleep": -1,
+          "paralysis": -1,
+          "blast": -1,
+          "stun": -1
+        }
+      ],
+      "item": [
+        {
+          "condition": "normal",
+          "pitfalltrap": -1,
+          "shocktrap": -1,
+          "flashpod": -1,
+          "screamerpod": -1
+        }
+      ]
+    },
+    "parts": [
+      {
+        "name": "尚未公布",
+        "state": "-",
+        "extract": "-",
+        "hitData": [
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1
+        ]
+      }
+    ]
+  },
+  "人魚龍": {
+    "nameTW": "人魚龍",
+    "nameJP": "イソネミクニ",
+    "nameEN": "Somnacanth",
+    "spacies": "海龍種",
+    "image": "https://www.monsterhunter.com/rise/assets/images/monster/modal/somnacanth.png",
+    "breakables": "-",
+    "trait": {
+      "roar": -1,
+      "wind": -1,
+      "tremer": -1
+    },
+    "weakness": {
+      "weapon": [
+        {
+          "part": -1,
+          "cut": -1,
+          "blunt": -1,
+          "ammo": -1
+        }
+      ],
+      "element": [
+        {
+          "condition": "normal",
+          "fire": -1,
+          "water": -1,
+          "thunder": -1,
+          "ice": -1,
+          "dragon": -1
+        }
+      ],
+      "aliment": [
+        {
+          "condition": "normal",
+          "poison": -1,
+          "sleep": -1,
+          "paralysis": -1,
+          "blast": -1,
+          "stun": -1
+        }
+      ],
+      "item": [
+        {
+          "condition": "normal",
+          "pitfalltrap": -1,
+          "shocktrap": -1,
+          "flashpod": -1,
+          "screamerpod": -1
+        }
+      ]
+    },
+    "parts": [
+      {
+        "name": "尚未公布",
+        "state": "-",
+        "extract": "-",
+        "hitData": [
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1
+        ]
+      }
+    ]
+  },
+  "天狗獸": {
+    "nameTW": "天狗獸",
+    "nameJP": "ビシュテンゴ",
+    "nameEN": "Bishaten",
+    "spacies": "牙獸種",
+    "image": "https://www.monsterhunter.com/rise/assets/images/monster/modal/bishaten.png",
+    "breakables": "-",
+    "trait": {
+      "roar": -1,
+      "wind": -1,
+      "tremer": -1
+    },
+    "weakness": {
+      "weapon": [
+        {
+          "part": -1,
+          "cut": -1,
+          "blunt": -1,
+          "ammo": -1
+        }
+      ],
+      "element": [
+        {
+          "condition": "normal",
+          "fire": -1,
+          "water": -1,
+          "thunder": -1,
+          "ice": -1,
+          "dragon": -1
+        }
+      ],
+      "aliment": [
+        {
+          "condition": "normal",
+          "poison": -1,
+          "sleep": -1,
+          "paralysis": -1,
+          "blast": -1,
+          "stun": -1
+        }
+      ],
+      "item": [
+        {
+          "condition": "normal",
+          "pitfalltrap": -1,
+          "shocktrap": -1,
+          "flashpod": -1,
+          "screamerpod": -1
+        }
+      ]
+    },
+    "parts": [
+      {
+        "name": "尚未公布",
+        "state": "-",
+        "extract": "-",
+        "hitData": [
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1
+        ]
+      }
+    ]
+  },
+  "絡新婦": {
+    "nameTW": "絡新婦",
+    "nameJP": "ヤツカダキ",
+    "nameEN": "Yatsukadaki",
+    "spacies": "鋏角種",
+    "image": "https://static.wikia.nocookie.net/monsterhunter/images/8/83/MHRise-Yatsukadaki_Screenshot_001.png/revision/latest/scale-to-width-down/350?cb=20200918014107",
+    "breakables": "-",
+    "trait": {
+      "roar": -1,
+      "wind": -1,
+      "tremer": -1
+    },
+    "weakness": {
+      "weapon": [
+        {
+          "part": -1,
+          "cut": -1,
+          "blunt": -1,
+          "ammo": -1
+        }
+      ],
+      "element": [
+        {
+          "condition": "normal",
+          "fire": -1,
+          "water": -1,
+          "thunder": -1,
+          "ice": -1,
+          "dragon": -1
+        }
+      ],
+      "aliment": [
+        {
+          "condition": "normal",
+          "poison": -1,
+          "sleep": -1,
+          "paralysis": -1,
+          "blast": -1,
+          "stun": -1
+        }
+      ],
+      "item": [
+        {
+          "condition": "normal",
+          "pitfalltrap": -1,
+          "shocktrap": -1,
+          "flashpod": -1,
+          "screamerpod": -1
+        }
+      ]
+    },
+    "parts": [
+      {
+        "name": "尚未公布",
+        "state": "-",
+        "extract": "-",
+        "hitData": [
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1
+        ]
+      }
+    ]
+  },
+  "怨虎龍": {
+    "nameTW": "怨虎龍",
+    "nameJP": "マガイマガド",
+    "nameEN": "Magnamalo",
+    "spacies": "牙龍種",
+    "image": "https://www.monsterhunter.com/rise/assets/images/monster/modal/magnamalo.png",
+    "breakables": "-",
+    "trait": {
+      "roar": -1,
+      "wind": -1,
+      "tremer": -1
+    },
+    "weakness": {
+      "weapon": [
+        {
+          "part": -1,
+          "cut": -1,
+          "blunt": -1,
+          "ammo": -1
+        }
+      ],
+      "element": [
+        {
+          "condition": "normal",
+          "fire": -1,
+          "water": -1,
+          "thunder": -1,
+          "ice": -1,
+          "dragon": -1
+        }
+      ],
+      "aliment": [
+        {
+          "condition": "normal",
+          "poison": -1,
+          "sleep": -1,
+          "paralysis": -1,
+          "blast": -1,
+          "stun": -1
+        }
+      ],
+      "item": [
+        {
+          "condition": "normal",
+          "pitfalltrap": -1,
+          "shocktrap": -1,
+          "flashpod": -1,
+          "screamerpod": -1
+        }
+      ]
+    },
+    "parts": [
+      {
+        "name": "尚未公布",
+        "state": "-",
+        "extract": "-",
+        "hitData": [
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1
+        ]
+      }
+    ]
+  }
+}
