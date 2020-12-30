@@ -14,7 +14,7 @@ var movesObj = {};
 var currentMonMoves = {};
 var spaciesDictionary = {};
 
-document.addEventListener("DOMContentLoaded", Initialize);
+//document.addEventListener("DOMContentLoaded", Initialize);
 //google.script.run.withSuccessHandler(onDexLoaded).LoadRiseData();
 
 alert("test");
