@@ -102,8 +102,12 @@ var{
 
 /* phones */
 @media (max-width: 1199.98px) { 
-   table {
-     width: 100%;}
+
+  table {
+    width: 100%;
+  }
+
+  /*
   button {
   font-size: 32px;
   }
@@ -115,7 +119,7 @@ var{
   }
   th{ font-size: 24px;}
   td{ font-size: 24px;}
-  
+  */
   .btnmon{
      width :  25%;
   }
@@ -132,7 +136,7 @@ var{
     width : 100%;
     align-items: center;
   }
-  
+  /*
   .panel-text{
      font-size: 32px;
   }
@@ -145,6 +149,7 @@ var{
    .combo-condition-text{
      font-size: 24px;
   }
+  */
   
  #layer2-grid{
   display: grid;
