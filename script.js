@@ -52,7 +52,6 @@ function Initialize() {
 
     fetch('mhrdex.json')
         .then(res => {
-            alert(res.ok);
             if (!res.ok) {
                 throw new Error(res.statusText);
             }
