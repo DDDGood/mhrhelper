@@ -18,6 +18,8 @@ document.addEventListener("DOMContentLoaded", Initialize);
 //google.script.run.withSuccessHandler(onDexLoaded).LoadRiseData();
 
 
+alert(window.visualViewport.height + "_" + window.visualViewport.width);
+
 fetch('mhrdex.json')
     .then(res => {
         return res.json();
