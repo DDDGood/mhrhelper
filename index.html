@@ -1,15 +1,17 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <base target="_top" />
-        <link rel="stylesheet" type="text/css" href="style.css" />
-		<script type="text/javascript" src="script.js"></script>
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-    </head>
-    <body>
-        <h1>MHHelper</h1>
 
-        <!--
+<head>
+   <base target="_top" />
+   <link rel="stylesheet" type="text/css" href="style.css" />
+   <script type="text/javascript" src="script.js"></script>
+   <meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+
+<body>
+   <h1>MHHelper</h1>
+
+   <!--
     <div>
     <form method="GET" action="https://script.google.com/macros/s/AKfycbwS0Q7d3xCl2SLezr8cKsTGFtcbAWwlp2pqhnT47yLQC_MERcQ/exec"> 
     <input type="hidden" name="ver" value="gu"/>
@@ -18,16 +20,16 @@
     </div>
      -->
 
-        <div id="topbar">
-            <button width="20%" class="topbarbtn" id="topbarlayer0" onclick="OnSelectLayer(0)">全部類型</button>
-            <button width="20%" class="topbarbtn" id="topbarlayer1" onclick="OnSelectLayer(1)">魔物列表</button>
-            <button width="20%" class="topbarbtn" id="topbarlayer2" onclick="OnSelectLayer(2)">魔物名稱</button>
-        </div>
+   <div id="topbar">
+      <button width="20%" class="topbarbtn" id="topbarlayer0" onclick="OnSelectLayer(0)">全部類型</button>
+      <button width="20%" class="topbarbtn" id="topbarlayer1" onclick="OnSelectLayer(1)">魔物列表</button>
+      <button width="20%" class="topbarbtn" id="topbarlayer2" onclick="OnSelectLayer(2)">魔物名稱</button>
+   </div>
 
-        <div id="layer0">
-            <h3>種類</h3>
-            <div id="spacieslist">
-                <!--
+   <div id="layer0">
+      <h3>種類</h3>
+      <div id="spacieslist">
+         <!--
                 <button class="btnspacies" onclick="SetSpacies('全部')">全部</button>
                 <button class="btnspacies" onclick="SetSpacies('飛龍種')">飛龍種</button>
                 <button class="btnspacies" onclick="SetSpacies('獸龍種')">獸龍種</button>
@@ -45,55 +47,55 @@
                 <button class="btnspacies" onclick="SetSpacies('其他種類')">其他種類</button>
                 <button class="btnspacies" onclick="SetSpacies('二名魔物')">二名魔物</button>
                 -->
-            </div>
-        </div>
+      </div>
+   </div>
 
-        <div id="layer1">
-            <h3>列表</h3>
-            <div id="monlist"></div>
-        </div>
+   <div id="layer1">
+      <h3>列表</h3>
+      <div id="monlist"></div>
+   </div>
 
-        <div id="layer2">
-          <div id="layer2-grid">
-            <div class="grid-area-right">
-              <div id="panel-basicinfo">
-                <div class="panel-row">
-                    <div id="nameblock" class="panel-block-1" style="flex:2;">
-                       <div id="title" class="panel-text-title"> </div>
-                       <div class="panel-row" style="align-items:center;">
-                          <div id="namejp" class="panel-text" style="flex:1;"> blabla </div>
-                          <div id="nameen" class="panel-text" style="flex:1;"> blabla </div>
-                       </div>
-                    </div>
-                    <div class="panel-block-1" style=" display:flex; align-items: center; justify-content:center">
-                       <div id="spacies" class="panel-text"></div>
-                    </div>                  
-                </div>
-                <div class="panel-block-1" style="padding-top:5%;padding-bottom:5%;">
-                   <img id="monimage" src="" alt="Image"/>
-                </div>
-                <div class="panel-row">
-                   <div class="panel-block-2">
-                      <div class="panel-text-bold">咆嘯</div>  
-                      <div id="roar" class="panel-block-1 panel-text">-</div>  
-                   </div>
-                   <div class="panel-block-2">
-                      <div class="panel-text-bold">風壓</div>  
-                      <div id="wind" class="panel-block-1 panel-text">-</div>  
-                   </div>
-                   <div class="panel-block-2">
-                      <div class="panel-text-bold">震動</div>  
-                      <div id="tremer" class="panel-block-1 panel-text">-</div>  
-                   </div>
-                </div>
-                <div id="weakness-weapon"  class="panel-block-2">
-                   <div class="panel-row panel-block">
-                      <div class="panel-block panel-text-bold">部位</div>  
-                      <div class="panel-block panel-text-bold">斬</div>
-                      <div class="panel-block panel-text-bold">打</div>
-                      <div class="panel-block panel-text-bold">彈</div>        
-                   </div>
-                   <!-- sample
+   <div id="layer2">
+      <div id="layer2-grid">
+         <div class="grid-area-right">
+            <div id="panel-basicinfo">
+               <div class="panel-row">
+                  <div id="nameblock" class="panel-block-1" style="flex:2;">
+                     <div id="title" class="panel-text-title"> </div>
+                     <div class="panel-row" style="align-items:center;">
+                        <div id="namejp" class="panel-text" style="flex:1;"> blabla </div>
+                        <div id="nameen" class="panel-text" style="flex:1;"> blabla </div>
+                     </div>
+                  </div>
+                  <div class="panel-block-1" style=" display:flex; align-items: center; justify-content:center">
+                     <div id="spacies" class="panel-text"></div>
+                  </div>
+               </div>
+               <div class="panel-block-1" style="padding-top:5%;padding-bottom:5%;">
+                  <img id="monimage" src="" alt="Image" />
+               </div>
+               <div class="panel-row">
+                  <div class="panel-block-2">
+                     <div class="panel-text-bold">咆嘯</div>
+                     <div id="roar" class="panel-block-1 panel-text">-</div>
+                  </div>
+                  <div class="panel-block-2">
+                     <div class="panel-text-bold">風壓</div>
+                     <div id="wind" class="panel-block-1 panel-text">-</div>
+                  </div>
+                  <div class="panel-block-2">
+                     <div class="panel-text-bold">震動</div>
+                     <div id="tremer" class="panel-block-1 panel-text">-</div>
+                  </div>
+               </div>
+               <div id="weakness-weapon" class="panel-block-2">
+                  <div class="panel-row panel-block">
+                     <div class="panel-block panel-text-bold">部位</div>
+                     <div class="panel-block panel-text-bold">斬</div>
+                     <div class="panel-block panel-text-bold">打</div>
+                     <div class="panel-block panel-text-bold">彈</div>
+                  </div>
+                  <!-- sample
                    <div class="panel-row panel-block-1">
                       <div class="panel-block panel-text">頭</div>  
                       <div class="panel-block panel-text">AAA</div>
@@ -101,120 +103,124 @@
                       <div class="panel-block panel-text">A</div>        
                    </div>
                    -->
-                </div>
-                <div id="weakness-element" style="margin-top:20px; margin-bottom:20px; ">
+               </div>
+               <div id="weakness-element" style="margin-top:20px; margin-bottom:20px; ">
                   <div class="panel-block-2 panel-text-bold" style="position:relative;">屬性弱點
-                   <div id="weakness-element-special" style="position: absolute; text-align:right; top:15px;right:25px;" >(AAAAAA)</div>
-                   <div class="panel-row panel-block-2"> 
-                      <div class="panel-block-1 panel-text">火
-                         <div id="weakness-element-fire" class="panel-text">-</div>
-                      </div>
-                      <div class="panel-block-1 panel-text">水
-                         <div id="weakness-element-water" class="panel-text">-</div>
-                      </div>
-                      <div class="panel-block-1 panel-text">雷
-                         <div id="weakness-element-thunder" class="panel-text">-</div>
-                      </div>  
-                      <div class="panel-block-1 panel-text">冰
-                         <div id="weakness-element-ice" class="panel-text">-</div>
-                      </div> 
-                      <div class="panel-block-1 panel-text">龍
-                         <div id="weakness-element-dragon" class="panel-text">-</div>
-                      </div>       
-                   </div>
+                     <div id="weakness-element-special"
+                        style="position: absolute; text-align:right; top:15px;right:25px;">(AAAAAA)</div>
+                     <div class="panel-row panel-block-2">
+                        <div class="panel-block-1 panel-text">火
+                           <div id="weakness-element-fire" class="panel-text">-</div>
+                        </div>
+                        <div class="panel-block-1 panel-text">水
+                           <div id="weakness-element-water" class="panel-text">-</div>
+                        </div>
+                        <div class="panel-block-1 panel-text">雷
+                           <div id="weakness-element-thunder" class="panel-text">-</div>
+                        </div>
+                        <div class="panel-block-1 panel-text">冰
+                           <div id="weakness-element-ice" class="panel-text">-</div>
+                        </div>
+                        <div class="panel-block-1 panel-text">龍
+                           <div id="weakness-element-dragon" class="panel-text">-</div>
+                        </div>
+                     </div>
                   </div>
-                </div>
-                <div id="weakness-aliment panel-block" style="margin-top:20px; margin-bottom:20px;">
+               </div>
+               <div id="weakness-aliment panel-block" style="margin-top:20px; margin-bottom:20px;">
                   <div class="panel-block-2 panel-text-bold" style="position:relative;">異常弱點
-                   <div id="weakness-aliment-special" style="position: absolute; text-align:right; top:15px;right:25px;" >(AAAAAA)</div>
-                   <div class="panel-row panel-block-2"> 
-                      <div class="panel-block-1 panel-text">中毒
-                         <div id="weakness-aliment-poison" class="panel-text">-</div>
-                      </div>
-                      <div class="panel-block-1 panel-text">睡眠
-                         <div id="weakness-aliment-sleep" class="panel-text">-</div>
-                      </div>
-                      <div class="panel-block-1 panel-text">麻痺
-                         <div id="weakness-aliment-paralysis" class="panel-text">-</div>
-                      </div>  
-                      <div class="panel-block-1 panel-text">爆破
-                         <div id="weakness-aliment-blast" class="panel-text">-</div>
-                      </div> 
-                      <div class="panel-block-1 panel-text">昏厥
-                         <div id="weakness-aliment-stun" class="panel-text">-</div>
-                      </div>       
-                   </div>
+                     <div id="weakness-aliment-special"
+                        style="position: absolute; text-align:right; top:15px;right:25px;">(AAAAAA)</div>
+                     <div class="panel-row panel-block-2">
+                        <div class="panel-block-1 panel-text">中毒
+                           <div id="weakness-aliment-poison" class="panel-text">-</div>
+                        </div>
+                        <div class="panel-block-1 panel-text">睡眠
+                           <div id="weakness-aliment-sleep" class="panel-text">-</div>
+                        </div>
+                        <div class="panel-block-1 panel-text">麻痺
+                           <div id="weakness-aliment-paralysis" class="panel-text">-</div>
+                        </div>
+                        <div class="panel-block-1 panel-text">爆破
+                           <div id="weakness-aliment-blast" class="panel-text">-</div>
+                        </div>
+                        <div class="panel-block-1 panel-text">昏厥
+                           <div id="weakness-aliment-stun" class="panel-text">-</div>
+                        </div>
+                     </div>
                   </div>
-                </div>                
-                <div id="weakness-item panel-block" style="margin-top:20px; margin-bottom:20px;">
+               </div>
+               <div id="weakness-item panel-block" style="margin-top:20px; margin-bottom:20px;">
                   <div class="panel-block-2 panel-text-bold" style="position:relative;">道具效果
-                   <div id="weakness-item-special" style="position: absolute; text-align:right; top:15px;right:25px;" >(AAAAAA)</div>
-                   <div class="panel-row panel-block-2"> 
-                      <div class="panel-block-1 panel-text">落穴
-                         <div id="weakness-item-pitfalltrap" class="panel-text">-</div>
-                      </div>
-                      <div class="panel-block-1 panel-text">麻痺
-                         <div id="weakness-item-shocktrap" class="panel-text">-</div>
-                      </div>  
-                      <div class="panel-block-1 panel-text">閃光彈
-                         <div id="weakness-item-flashpod" class="panel-text">-</div>
-                      </div> 
-                      <div class="panel-block-1 panel-text">音爆彈
-                         <div id="weakness-item-screamerpod" class="panel-text">-</div>
-                      </div>       
-                   </div>
+                     <div id="weakness-item-special" style="position: absolute; text-align:right; top:15px;right:25px;">
+                        (AAAAAA)</div>
+                     <div class="panel-row panel-block-2">
+                        <div class="panel-block-1 panel-text">落穴
+                           <div id="weakness-item-pitfalltrap" class="panel-text">-</div>
+                        </div>
+                        <div class="panel-block-1 panel-text">麻痺
+                           <div id="weakness-item-shocktrap" class="panel-text">-</div>
+                        </div>
+                        <div class="panel-block-1 panel-text">閃光彈
+                           <div id="weakness-item-flashpod" class="panel-text">-</div>
+                        </div>
+                        <div class="panel-block-1 panel-text">音爆彈
+                           <div id="weakness-item-screamerpod" class="panel-text">-</div>
+                        </div>
+                     </div>
                   </div>
-                </div>
-              </div>
+               </div>
             </div>
-            <div class="grid-area-main">
-                <p id="breakables"></p>
-                <h3>詳細肉質</h3>
-                <table id="table_hitdata">
-                    <tbody id="tbody_hitdata">
-                        <tr>
-                            <th>部位</th>
-                            <th>斬</th>
-                            <th>打</th>
-                            <th>彈</th>
-                            <th>火</th>
-                            <th>水</th>
-                            <th>雷</th>
-                            <th>冰</th>
-                            <th>龍</th>
-                        </tr>
-                    </tbody>
-                </table>
-                
-            <div id="divmoves">
-                <h3 id="movestitle">招式派生</h3>
-                <p id="moveoutline"></p>
-                <div id="combos">
-                </div>
-                <h3>所有招式</h3>
-                <table id="table_moves">
-                    <tbody id="tbody_startermoves">
-                        <tr>
-                            <th>招式</th>
-                            <th>前兆</th>
-                            <th>動作</th>
-                            <th>後搖</th>
-                            <th>備註</th>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-                
-            </div>
-            
-          
-          </div>
-            
+         </div>
+         <div class="grid-area-main">
+            <p id="breakables"></p>
+            <h3>詳細肉質</h3>
+            <table id="table_hitdata">
+               <tbody id="tbody_hitdata">
+                  <tr>
+                     <th>部位</th>
+                     <th>斬</th>
+                     <th>打</th>
+                     <th>彈</th>
+                     <th>火</th>
+                     <th>水</th>
+                     <th>雷</th>
+                     <th>冰</th>
+                     <th>龍</th>
+                  </tr>
+               </tbody>
+            </table>
 
-        </div>
-        
-       <div id="test" class="flexcontainer">
-       </div>
-        <div id="debug"></div>
-    </body>
+            <div id="divmoves">
+               <h3 id="movestitle">招式派生</h3>
+               <p id="moveoutline"></p>
+               <div id="combos">
+               </div>
+               <h3>所有招式</h3>
+               <table id="table_moves">
+                  <tbody id="tbody_startermoves">
+                     <tr>
+                        <th>招式</th>
+                        <th>前兆</th>
+                        <th>動作</th>
+                        <th>後搖</th>
+                        <th>備註</th>
+                     </tr>
+                  </tbody>
+               </table>
+            </div>
+
+         </div>
+
+
+      </div>
+
+
+   </div>
+
+   <div id="test" class="flexcontainer">
+   </div>
+   <div id="debug"></div>
+</body>
+
 </html>
