@@ -1,6 +1,297 @@
-.container {
- overflow: scroll;
- width : 800px;
- height : 600px;
- border:3px #cccccc dashed;
+<style>
+
+td{ text-align: center;}
+
+table,
+td {
+    border: 1px solid #333;
 }
+
+thead,
+tfoot {
+    background-color: #333;
+    color: #fff;
+}
+
+var{
+  display:none; 
+}
+
+#topbar {
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+  background-color: #333; 
+  z-index : 1;
+  margin-bottom: 40px;
+}
+
+.topbarbtn {
+  border: none;
+  background-color: #333; 
+  color: white;
+  padding-top : 10px;
+  padding-bottom : 10px;
+  padding-left : 10px;
+  padding-right : 10px;
+}
+
+.btnspacies{
+  width :  20%;
+  padding-top : 20px;
+  padding-bottom : 20px;    
+  margin-right: 0px;
+}
+.btnmon{
+  width :  20%;
+  padding-top : 20px;
+  padding-bottom : 20px;
+}
+
+
+
+@viewport {
+  width: device-width ;
+  zoom: 1.0 ;
+}
+
+
+
+/* desktops */
+@media (min-width: 1200px) { 
+
+   button {
+    font-size: 16px;
+  }
+  
+    
+  .moveimage{
+    max-width:640px;
+    width:auto;
+    height:480;
+    align-items: center;
+  }  
+  
+  .panel-text{
+     font-size: 16px;
+  }
+  .panel-text-bold{
+     font-size: 16px;
+  }
+  .panel-text-title{
+     font-size: 24px;
+  }
+  
+  
+  #layer2-grid{
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+}
+.grid-area-main{    
+    grid-column-start: 1;
+    grid-row-start: 1;
+}
+.grid-area-right{
+    grid-column-start: 2;
+    grid-row-start: 1;
+}
+
+}
+
+
+/* phones */
+@media (max-width: 1199.98px) { 
+   table {
+     width: 100%;}
+  button {
+  font-size: 32px;
+  }
+  p {
+   font-size: 32px;
+  }
+  h3 {
+  font-size: 32px;
+  }
+  th{ font-size: 24px;}
+  td{ font-size: 24px;}
+  
+  .btnmon{
+     width :  25%;
+  }
+  
+
+  
+  .moveimage{
+  width : 100%;
+  align-items: center;
+  }
+  
+  .move-video{
+  
+    width : 100%;
+    align-items: center;
+  }
+  
+  .panel-text{
+     font-size: 32px;
+  }
+  .panel-text-bold{
+     font-size: 32px;
+  }
+  .panel-text-title{
+     font-size: 48px;
+  }
+   .combo-condition-text{
+     font-size: 24px;
+  }
+  
+ #layer2-grid{
+  display: grid;
+  grid-template-columns: 1fr;
+ }
+}
+
+
+
+
+#panel-basicinfo{
+  background-color: #4B9AFF;
+  border:2px #FFAC55 solid;
+  padding:10px;
+  border-radius : 20px;
+}
+.panel-row{
+  display:flex; 
+  flex-direction: row;
+  align-items: stretch;
+}
+.panel-block{
+  flex: 1;
+  margin: 10px;
+}
+.panel-block-1{
+  flex: 1;
+  background-color: #FFFFFF;
+  margin: 10px;
+  border-radius : 20px;
+}
+.panel-block-2{
+  flex: 1;
+  background-color: #BDD5FF;
+  margin: 10px;
+  border-radius : 20px;
+}
+.panel-text{
+  text-align:center;
+  font-weight:normal;
+}
+.panel-text-bold{
+  text-align:center;
+  font-weight:bold;
+}
+.panel-text-title{
+  text-align:center;
+  font-weight:bold;
+}
+#monimage{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 30vh;
+}
+
+
+.flexboxrow{
+  display:flex; 
+  flex-direction: row;
+  align-items: center;
+  padding-top: 10px; 
+  padding-bottom: 10px; 
+  position:relative;
+}
+.flexboxcolumn{
+  display:flex;
+  justify-content: space-around;
+  flex-direction: column;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  /*border: 1px solid #333;*/
+}
+  .flexitem{
+    display: flex;
+    background-color: #BDD5FF;
+    border: 1px solid #333;
+    border-radius : 10px;
+    margin-left: 2vw;
+    margin-right: 2vw;
+    padding : 5px;
+  }
+  .combo-condition-container-normal{
+    border-radius : 10px;
+  }
+  .combo-condition-container{
+    border: 4px dashed #C1C3C4;
+    border-radius : 10px;
+  }
+  .combo-condition-text{
+    top:0px;
+    left:4px;
+  }
+
+
+#combos{
+ /*position:relative;*/
+ height:auto;
+ width:100%;
+}
+
+
+
+ /*   SVG   */
+svg{
+ position:absolute;
+ top: 0;
+ left: 0;
+ pointer-events: none;
+ width : 100%;
+ overflow-y:visible;
+ overflow-x:visible;
+}
+
+line{
+ position:absolute;
+  stroke:#C1C3C4;
+  stroke-width:2;
+}
+
+text{
+ position:absolute;
+ text-anchor : middle;
+ width:10px; 
+ font-size: 20px;
+}
+.svgTextSmaill{
+ font-size: 12px;
+}
+
+
+
+button:hover {
+  background-color: #4CAF50; /* Green */
+  color: white;
+}
+
+.moveinfo{
+ position:absolute;
+ background-color: #DEDEDE; 
+ top: 10%;
+ left: 13%;
+ width: 70%;
+ padding: 2%;
+}
+
+
+
+</style>
+
