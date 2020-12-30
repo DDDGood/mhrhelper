@@ -1,0 +1,6 @@
+.container {
+ overflow: scroll;
+ width : 800px;
+ height : 600px;
+ border:3px #cccccc dashed;
+}
