@@ -1,6 +1,6 @@
 
 html {
-  font-size: 4vw;
+  font-size: 1vw;
 }
 
 td{ text-align: center;}
@@ -65,7 +65,7 @@ var{
 @media (min-width: 1200px) { 
 
    button {
-    font-size: 16px;
+    font-size: 4rem;
   }
   
     
@@ -77,13 +77,13 @@ var{
   }  
   
   .panel-text{
-     font-size: 16px;
+     font-size: 4rem;
   }
   .panel-text-bold{
-     font-size: 16px;
+     font-size: 4rem;
   }
   .panel-text-title{
-     font-size: 24px;
+     font-size: 6rem;
   }
   
   
@@ -141,16 +141,16 @@ var{
   }
   
   .panel-text{
-     font-size: px;
+     font-size: 3rem;
   }
   .panel-text-bold{
-     font-size: 32px;
+     font-size:  3rem;
   }
   .panel-text-title{
-     font-size: 48px;
+     font-size:  6rem;
   }
    .combo-condition-text{
-     font-size: 24px;
+     font-size: 1rem;
   }
   
 
