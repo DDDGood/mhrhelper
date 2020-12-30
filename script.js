@@ -17,15 +17,12 @@ var spaciesDictionary = {};
 document.addEventListener("DOMContentLoaded", Initialize);
 //google.script.run.withSuccessHandler(onDexLoaded).LoadRiseData();
 
-alert("test");
 
 fetch('mhrdex.json')
     .then(res => {
         return res.json();
     }).then(result => {
         dexObj = result;
-        alert('dexLoaded');
-
         if (movesObj !== undefined)
             onDexLoaded();
 
@@ -36,8 +33,6 @@ fetch('mhrmoves.json')
         return res.json();
     }).then(result => {
         movesObj = result;
-        alert('move loaded');
-
         if (dexObj !== undefined)
             onDexLoaded();
     });
