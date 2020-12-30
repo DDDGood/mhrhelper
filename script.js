@@ -9,28 +9,38 @@ var topbarlayer2;
 var svg;
 var moveInfo;
 
-var dexObj = {};
-var movesObj = {};
+var dexObj;
+var movesObj;
 var currentMonMoves = {};
 var spaciesDictionary = {};
 
-//document.addEventListener("DOMContentLoaded", Initialize);
+document.addEventListener("DOMContentLoaded", Initialize);
 //google.script.run.withSuccessHandler(onDexLoaded).LoadRiseData();
 
 alert("test");
 
 fetch('mhrdex.json')
-.then(res => {
-    return res.json();
-}).then(result => {
-    alert(result);
-});
-fetch('mhrmove.json')
-.then(res => {
-    return res.json();
-}).then(result => {
-    alert(result);
-});
+    .then(res => {
+        return res.json();
+    }).then(result => {
+        dexObj = result;
+        alert('dexLoaded');
+
+        if (movesObj !== undefined)
+            onDexLoaded();
+
+    });
+
+fetch('mhrmoves.json')
+    .then(res => {
+        return res.json();
+    }).then(result => {
+        movesObj = result;
+        alert('move loaded');
+
+        if (dexObj !== undefined)
+            onDexLoaded();
+    });
 
 function Initialize() {
     layer0 = document.getElementById('layer0');
@@ -48,10 +58,7 @@ function Initialize() {
     topbarlayer2.style.display = "none";
 }
 
-function onDexLoaded(data) {
-
-    dexObj = data.dex;
-    movesObj = data.moves;
+function onDexLoaded() {
 
     var div = document.getElementById('title');
     div.innerHTML = "TEMP Title";
@@ -114,7 +121,7 @@ function SetMon(key) {
     SetElementById('namejp', monObj.nameJP);
     SetElementById('nameen', monObj.nameEN);
     SetElementById('spacies', monObj.spacies);
-    
+
     var image = document.getElementById('monimage');
     image.setAttribute("src", monObj.image);
 
@@ -171,7 +178,7 @@ function SetMon(key) {
             WriteWeaknessData(itemData);
         }
     }
-//    SetElementById('breakables', "可破壞部位：" + monObj.breakables);
+    //    SetElementById('breakables', "可破壞部位：" + monObj.breakables);
 
     //hit data
     var hdTableBody = document.getElementById('tbody_hitdata');
@@ -212,7 +219,7 @@ function SetMon(key) {
 
         svg = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
         divCombos.appendChild(svg);
-        
+
         var normalCondition = CreateClassElement("div", "combo-condition-container-normal");
         divCombos.appendChild(normalCondition);
 
@@ -221,10 +228,10 @@ function SetMon(key) {
             if (move.onlyincombo == false) {
 
                 var nodeFlex = CreateClassElement("div", "flexboxrow");
-                if(!IsNullOrEmpty(move.condition))
-                   FindOrAddComboConditionContainer(move.condition).appendChild(nodeFlex); 
+                if (!IsNullOrEmpty(move.condition))
+                    FindOrAddComboConditionContainer(move.condition).appendChild(nodeFlex);
                 else
-                   normalCondition.appendChild(nodeFlex);
+                    normalCondition.appendChild(nodeFlex);
 
                 var rootFlex = CreateClassElement("button", "flexitem", move.name);
                 rootFlex.setAttribute("onclick", "OnClickMoveButton(this)");
@@ -235,15 +242,15 @@ function SetMon(key) {
         for (var id = 0; id < currentMonMoves['combos'].length; id++) {
             var combo = currentMonMoves['combos'][id];
             var root = combo.nodes[combo.root];
-            
+
             var container = normalCondition;
-            if(!IsNullOrEmpty(combo.condition))
-               container = FindOrAddComboConditionContainer(combo.condition); 
-            
+            if (!IsNullOrEmpty(combo.condition))
+                container = FindOrAddComboConditionContainer(combo.condition);
+
             AppendNode(root, container, combo.nodes, combo.condition);
-            
-            if(!IsNullOrEmpty(combo.note)){
-               
+
+            if (!IsNullOrEmpty(combo.note)) {
+
             }
         }
 
@@ -284,7 +291,7 @@ function WriteWeaknessData(params) {
     var doms = [];
     for (var id of params.dataIDs) {
         var dom = document.getElementById(id)
-            doms.push(dom);
+        doms.push(dom);
         specialCaseValues.push("");
     }
 
@@ -325,63 +332,63 @@ function AppendNode(node, container, nodeList, condition) {
     rootFlex.setAttribute("onclick", "OnClickMoveButton(this)");
     nodeFlex.appendChild(rootFlex);
 
-  if(container.parentElement.id !== "combos"){
-    var fromNode = nodeFlex.parentElement.previousSibling;
-    window.setTimeout(
-        function () {
-        var rect = rootFlex.getBoundingClientRect();
-        var rectSVG = svg.getBoundingClientRect();
-        var rectFrom = fromNode.getBoundingClientRect();
+    if (container.parentElement.id !== "combos") {
+        var fromNode = nodeFlex.parentElement.previousSibling;
+        window.setTimeout(
+            function () {
+                var rect = rootFlex.getBoundingClientRect();
+                var rectSVG = svg.getBoundingClientRect();
+                var rectFrom = fromNode.getBoundingClientRect();
 
-        var fromX = rectFrom.right - rectSVG.left;
-        var fromY = (rectFrom.top + rectFrom.bottom) / 2 - rectSVG.top;
-        var toX = rect.left - rectSVG.left;
-        var toY = (rect.top + rect.bottom) / 2 - rectSVG.top;
+                var fromX = rectFrom.right - rectSVG.left;
+                var fromY = (rectFrom.top + rectFrom.bottom) / 2 - rectSVG.top;
+                var toX = rect.left - rectSVG.left;
+                var toY = (rect.top + rect.bottom) / 2 - rectSVG.top;
 
-        var line = CreateLine(fromX, fromY, toX, toY);
-        svg.appendChild(line);
+                var line = CreateLine(fromX, fromY, toX, toY);
+                svg.appendChild(line);
 
-        if (condition !== undefined && condition !== "") {
-            var text = createSVGtext(condition, (fromX + toX) / 2, (fromY + toY) / 2);
-            svg.appendChild(text);
-        }
-    }, 200);
-  }
+                if (condition !== undefined && condition !== "") {
+                    var text = createSVGtext(condition, (fromX + toX) / 2, (fromY + toY) / 2);
+                    svg.appendChild(text);
+                }
+            }, 200);
+    }
 
     var linksFlex = CreateClassElement("div", "flexboxcolumn");
     nodeFlex.appendChild(linksFlex);
-    
+
     var maxConditionTextLength = 0;
     for (var link of node.links) {
-        
+
         var linkNodeID = link.node;
         var linkNode = nodeList[linkNodeID];
-        if(link.condition && link.condition.length > 0){
-           maxConditionTextLength = link.condition.length;
+        if (link.condition && link.condition.length > 0) {
+            maxConditionTextLength = link.condition.length;
         }
-        
+
         AppendNode(linkNode, linksFlex, nodeList, link.condition);
     }
-    
-    if(maxConditionTextLength > 0 ){
-       rootFlex.style.marginRight = Math.min( Math.max(maxConditionTextLength*2,2),16) + "vw";
-    }  
+
+    if (maxConditionTextLength > 0) {
+        rootFlex.style.marginRight = Math.min(Math.max(maxConditionTextLength * 2, 2), 16) + "vw";
+    }
 }
 
-function FindOrAddComboConditionContainer(condition){
+function FindOrAddComboConditionContainer(condition) {
     var divCombos = document.getElementById('combos');
     var findContainer;
-    for(var container of divCombos.children){
-       if(container.id === condition)
-          findContainer = container;
+    for (var container of divCombos.children) {
+        if (container.id === condition)
+            findContainer = container;
     }
-    if(!findContainer){
-       findContainer = CreateClassElement("div", "combo-condition-container");
-       findContainer.id = condition;
-       var conditionText = CreateClassElement("div","combo-condition-text",condition);
-       findContainer.appendChild(conditionText);
-       divCombos.appendChild(findContainer);
-    } 
+    if (!findContainer) {
+        findContainer = CreateClassElement("div", "combo-condition-container");
+        findContainer.id = condition;
+        var conditionText = CreateClassElement("div", "combo-condition-text", condition);
+        findContainer.appendChild(conditionText);
+        divCombos.appendChild(findContainer);
+    }
     return findContainer;
 }
 
@@ -412,7 +419,7 @@ function OnClickMoveButton(btn) {
     source.setAttribute("src", move.image);
     video.appendChild(source);
     panel.appendChild(video);
-    
+
     var preaction = CreateSimpleElement("p", "預兆: " + move.preaction);
     panel.appendChild(preaction);
     var action = CreateSimpleElement("p", "動作: " + move.action);
@@ -433,40 +440,40 @@ function OnClickCloseMoveInfo(e) {
 function OnSelectLayer(layer, label) {
     OnClickCloseMoveInfo();
     switch (layer) {
-    case 0:
-        layer0.style.display = "block";
-        layer1.style.display = "none";
-        layer2.style.display = "none";
-        topbarlayer0.style.display = "inline";
-        topbarlayer1.style.display = "none";
-        topbarlayer2.style.display = "none";
-        topbarlayer0.style.background = '#4CAF50';
-        break;
-    case 1:
-        layer0.style.display = "none";
-        layer1.style.display = "block";
-        layer2.style.display = "none";
-        topbarlayer0.style.display = "inline";
-        topbarlayer1.style.display = "inline";
-        topbarlayer2.style.display = "none";
-        topbarlayer0.style.background = '#333';
-        topbarlayer1.style.background = '#4CAF50';
-        if (label)
-            topbarlayer1.innerHTML = label;
-        break;
-    case 2:
-        layer0.style.display = "none";
-        layer1.style.display = "none";
-        layer2.style.display = "block";
-        topbarlayer0.style.display = "inline";
-        topbarlayer1.style.display = "inline";
-        topbarlayer2.style.display = "inline";
-        topbarlayer0.style.background = '#333';
-        topbarlayer1.style.background = '#333';
-        topbarlayer2.style.background = '#4CAF50';
-        if (label)
-            topbarlayer2.innerHTML = label;
-        break;
+        case 0:
+            layer0.style.display = "block";
+            layer1.style.display = "none";
+            layer2.style.display = "none";
+            topbarlayer0.style.display = "inline";
+            topbarlayer1.style.display = "none";
+            topbarlayer2.style.display = "none";
+            topbarlayer0.style.background = '#4CAF50';
+            break;
+        case 1:
+            layer0.style.display = "none";
+            layer1.style.display = "block";
+            layer2.style.display = "none";
+            topbarlayer0.style.display = "inline";
+            topbarlayer1.style.display = "inline";
+            topbarlayer2.style.display = "none";
+            topbarlayer0.style.background = '#333';
+            topbarlayer1.style.background = '#4CAF50';
+            if (label)
+                topbarlayer1.innerHTML = label;
+            break;
+        case 2:
+            layer0.style.display = "none";
+            layer1.style.display = "none";
+            layer2.style.display = "block";
+            topbarlayer0.style.display = "inline";
+            topbarlayer1.style.display = "inline";
+            topbarlayer2.style.display = "inline";
+            topbarlayer0.style.background = '#333';
+            topbarlayer1.style.background = '#333';
+            topbarlayer2.style.background = '#4CAF50';
+            if (label)
+                topbarlayer2.innerHTML = label;
+            break;
     }
 }
 
@@ -492,11 +499,11 @@ function createSVGtext(caption, x, y) {
     //  it up into "tspan" pieces, if the caption is too long
     //
     var svgText = document.createElementNS('http://www.w3.org/2000/svg', 'text');
-//    var textNode = document.createTextNode(caption);
-//    svgText.appendChild(textNode);
-//    svgText.setAttributeNS(null, 'x', x);
-//    svgText.setAttributeNS(null, 'y', y);
-//    return svgText;
+    //    var textNode = document.createTextNode(caption);
+    //    svgText.appendChild(textNode);
+    //    svgText.setAttributeNS(null, 'x', x);
+    //    svgText.setAttributeNS(null, 'y', y);
+    //    return svgText;
 
     //  The following two variables should really be passed as parameters
     var MAXIMUM_CHARS_PER_LINE = 9;
@@ -581,8 +588,8 @@ function ParseStars(text) {
     return result;
 }
 
-function IsNullOrEmpty(string){
-   return(!string || string.length === 0);
+function IsNullOrEmpty(string) {
+    return (!string || string.length === 0);
 }
 
 //       const queryString = window.location.search;
