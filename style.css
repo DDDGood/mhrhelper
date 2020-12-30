@@ -1,6 +1,6 @@
 
 html {
-  font-size: 1vw;
+  font-size: 4vw;
 }
 
 td{ text-align: center;}
@@ -130,7 +130,7 @@ var{
 
   
   .moveimage{
-  width : 100%;
+  width : 80%;
   align-items: center;
   }
   
@@ -139,9 +139,9 @@ var{
     width : 100%;
     align-items: center;
   }
-  /*
+  
   .panel-text{
-     font-size: 32px;
+     font-size: px;
   }
   .panel-text-bold{
      font-size: 32px;
@@ -152,7 +152,7 @@ var{
    .combo-condition-text{
      font-size: 24px;
   }
-  */
+  
 
  #layer2-grid{
   display: grid;

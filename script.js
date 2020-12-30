@@ -31,23 +31,7 @@ document.addEventListener("DOMContentLoaded", Initialize);
 //         onDexLoaded();
 // });
 
-fetch('mhrdex.json')
-    .then(res => {
-        return res.json();
-    }).then(result => {
-        dexObj = result;
-        if (movesObj !== undefined)
-            onDexLoaded();
-    });
 
-fetch('mhrmoves.json')
-    .then(res => {
-        return res.json();
-    }).then(result => {
-        movesObj = result;
-        if (dexObj !== undefined)
-            onDexLoaded();
-    });
 
 function Initialize() {
     layer0 = document.getElementById('layer0');
@@ -63,9 +47,48 @@ function Initialize() {
     topbarlayer0.style.display = "none";
     topbarlayer1.style.display = "none";
     topbarlayer2.style.display = "none";
+
+
+
+    fetch('mhrdex.json')
+        .then(res => {
+            alert(res.ok);
+            if (!res.ok) {
+                throw new Error(res.statusText);
+            }
+            return res.json();
+        })
+        .then(result => {
+            dexObj = result;
+            if (movesObj !== undefined)
+                onDexLoaded("move load then");
+        })
+        .catch(error => {
+            dexObj = JSON.parse("{\"\u96F7\u72FC\u9F8D\":{\"nameTW\":\"\u96F7\u72FC\u9F8D\",\"nameJP\":\"\u30B8\u30F3\u30AA\u30A6\u30AC\",\"nameEN\":\"Zinogre\",\"spacies\":\"\u7259\u9F8D\u7A2E\",\"image\":\"http:\/\/hobbigame.com\/wp-content\/uploads\/2017\/09\/mhxx64.jpg\",\"icon\":\"https:\/\/truth.bahamut.com.tw\/s01\/201809\/54151d0600726f4ad7c4769c6c4804b8.PNG\",\"breakables\":\"\u982D\u3001\u524D\u8173\u3001\u80CC\u3001\u5C3E\",\"trait\":{\"roar\":\"\u5C0F\",\"wind\":\"\u5C0F\",\"tremer\":\"\u7121\"},\"weakness\":{\"weapon\":[{\"part\":\"\u982D\",\"cut\":3,\"blunt\":3,\"ammo\":3},{\"part\":\"\u524D\u8173\",\"cut\":2,\"blunt\":2,\"ammo\":2},{\"part\":\"\u5C3E\",\"cut\":2,\"blunt\":2,\"ammo\":2}],\"element\":[{\"condition\":\"normal\",\"fire\":1,\"water\":2,\"thunder\":0,\"ice\":3,\"dragon\":1}],\"aliment\":[{\"condition\":\"normal\",\"poison\":2,\"sleep\":2,\"paralysis\":1,\"blast\":2,\"stun\":2}],\"item\":[{\"condition\":\"normal\",\"pitfalltrap\":2,\"shocktrap\":1,\"flashpod\":2,\"screamerpod\":0},{\"condition\":\"\u8D85\u5E36\u96FB\",\"pitfalltrap\":2,\"shocktrap\":0,\"flashpod\":2,\"screamerpod\":0}]},\"parts\":[{\"name\":\"\u982D\",\"state\":\"\u901A\u5E38\",\"extract\":\"\u8D64\",\"hitData\":[45,45,50,5,10,0,15,5,100]},{\"name\":\"\u982D\",\"state\":\"\u8D85\u5E36\u96FB\",\"extract\":\"\u8D64\",\"hitData\":[65,65,55,10,20,0,25,10,100]},{\"name\":\"\u9838\",\"state\":\"\u901A\u5E38\",\"extract\":\"\u8D64\",\"hitData\":[40,40,45,5,10,0,15,5,100]},{\"name\":\"\u9838\",\"state\":\"\u8D85\u5E36\u96FB\",\"extract\":\"\u8D64\",\"hitData\":[60,60,50,5,15,0,20,5,100]},{\"name\":\"\u8EAB\u9AD4\",\"state\":\"\u901A\u5E38\",\"extract\":\"\u6A59\",\"hitData\":[30,30,20,0,5,0,5,0,0]},{\"name\":\"\u8EAB\u9AD4\",\"state\":\"\u8D85\u5E36\u96FB\",\"extract\":\"\u6A59\",\"hitData\":[25,25,15,0,5,0,10,0,0]},{\"name\":\"\u80CC\",\"state\":\"\u901A\u5E38\",\"extract\":\"\u8D64\",\"hitData\":[30,30,20,0,5,0,10,0,0]},{\"name\":\"\u80CC\",\"state\":\"\u8D85\u5E36\u96FB\",\"extract\":\"\u8D64\",\"hitData\":[40,40,45,5,10,0,15,5,0]},{\"name\":\"\u524D\u8173\",\"state\":\"\u901A\u5E38\",\"extract\":\"\u8D64\",\"hitData\":[40,40,35,5,10,0,15,5,0]},{\"name\":\"\u524D\u8173\",\"state\":\"\u8D85\u5E36\u96FB\",\"extract\":\"\u8D64\",\"hitData\":[45,45,45,5,15,0,20,5,0]},{\"name\":\"\u5F8C\u8173\",\"state\":\"\u901A\u5E38\",\"extract\":\"\u767D\",\"hitData\":[30,30,20,0,5,0,5,0,0]},{\"name\":\"\u5F8C\u8173\",\"state\":\"\u8D85\u5E36\u96FB\",\"extract\":\"\u767D\",\"hitData\":[25,25,15,0,5,0,10,0,0]},{\"name\":\"\u5C3E\",\"state\":\"\u901A\u5E38\",\"extract\":\"\u6A59\",\"hitData\":[30,30,20,0,5,0,5,0,0]},{\"name\":\"\u5C3E\",\"state\":\"\u8D85\u5E36\u96FB\",\"extract\":\"\u6A59\",\"hitData\":[45,45,45,5,10,0,15,5,0]}]}}");
+            if (movesObj !== undefined)
+                onDexLoaded("move load then");
+        });
+
+    fetch('mhrmoves.json')
+        .then(res => {
+            if (!res.ok)
+                throw new Error(res.statusText);
+            return res.json();
+        })
+        .then(result => {
+            movesObj = result;
+            if (dexObj !== undefined)
+                onDexLoaded("move load then");
+        })
+        .catch(error => {
+            movesObj = {};
+            if (dexObj !== undefined)
+                onDexLoaded("move load err");
+        });
 }
 
-function onDexLoaded() {
+
+function onDexLoaded(tmsg) {
 
     var div = document.getElementById('title');
     div.innerHTML = "TEMP Title";
