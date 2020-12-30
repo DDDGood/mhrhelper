@@ -18,7 +18,18 @@ document.addEventListener("DOMContentLoaded", Initialize);
 //google.script.run.withSuccessHandler(onDexLoaded).LoadRiseData();
 
 
-alert(window.visualViewport.height + "_" + window.visualViewport.width);
+// alert(window.visualViewport.height + "_" + window.visualViewport.width);
+
+// $.getJSON('./mhrdex.json', function (result) {
+//     dexObj = result;
+//     if (movesObj !== undefined)
+//         onDexLoaded();
+// });
+// $.getJSON('./mhrmoves.json', function (result) {
+//     movesObj = result;
+//     if (dexObj !== undefined)
+//         onDexLoaded();
+// });
 
 fetch('mhrdex.json')
     .then(res => {
@@ -27,7 +38,6 @@ fetch('mhrdex.json')
         dexObj = result;
         if (movesObj !== undefined)
             onDexLoaded();
-
     });
 
 fetch('mhrmoves.json')
