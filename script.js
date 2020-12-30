@@ -16,6 +16,9 @@ var spaciesDictionary = {};
 
 document.addEventListener("DOMContentLoaded", Initialize);
 //google.script.run.withSuccessHandler(onDexLoaded).LoadRiseData();
+
+alert("test");
+
 fetch('mhrdex.json')
 .then(res => {
     return res.json();
