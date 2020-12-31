@@ -4,22 +4,9 @@ html {
 }
 
 body{
-
   margin:  0px;
 }
 
-td{ text-align: center;}
-
-table,
-td {
-    border: 1px solid #333;
-}
-
-thead,
-tfoot {
-    background-color: #333;
-    color: #fff;
-}
 
 var{
   display:none; 
@@ -73,9 +60,11 @@ var{
     font-size: 1rem;
   }
 
+
   #panel-basicinfo{
     padding:0.5vw;
     border-radius : 0.5vw;
+    width: 100%;
   }
   .panel-block{
     margin: 5px;
@@ -120,11 +109,23 @@ var{
     grid-row-start: 1;
   }
   
+
+  table {
+    width:100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
   .flexboxrow{
     padding-top: 10px; 
     padding-bottom: 10px; 
   }
-  
+  .flexitem{
+    border-radius : 8px;
+    padding : 8px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+  }
   .moveimage{
     max-width:640px;
     width:auto;
@@ -150,8 +151,14 @@ var{
     font-size: 3rem;
   }
 
+  .header2{
+    font-size: 18px;
+  }
+
   table {
-    width: 100%;
+    width:100%;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .btnmon{
@@ -171,23 +178,23 @@ var{
 
   #panel-basicinfo{
     width:stretch;
-    padding:1vw;
-    border-radius : 2vw;
+    padding:2px;
+    border-radius : 4px;
   }
   
   .panel-block{
-    padding:0.5vw;
-    margin: 0.5vw;
+    padding:2px;
+    margin: 2px;
   }
   .panel-block-1{
-    padding:0.5vw;
-    margin: 0.5vw;
-    border-radius : 2vw;
+    padding:2px;
+    margin: 2px;
+    border-radius : 4px;
   }
   .panel-block-2{
-    padding:0.5vw;
-    margin: 0.5vw;
-    border-radius : 2vw;
+    padding:2px;
+    margin: 2px;
+    border-radius : 4px;
   }
   .panel-text{
      font-size: 3rem;
@@ -201,8 +208,8 @@ var{
   .panel-text-special{
     position: absolute; 
     text-align:right;
-     top : 1vw;
-     right: 1vw;
+     top : 2px;
+     right: 4px;
      font-size: 2rem;
   }
   
@@ -211,10 +218,22 @@ var{
     display: grid;
     grid-template-columns: 1fr;
   }
+  .grid-area-main{    
+    margin: 8px;
+  }
+  .grid-area-right{
+    margin: 8px;
+  }
 
   .flexboxrow{
     padding-top: 5px; 
     padding-bottom: 5px; 
+  }  
+  .flexitem{
+    border-radius : 4px;
+    padding : 4px;
+    margin-top: 8px;
+    margin-bottom: 8px;
   }
    .combo-condition-text{
      font-size: 3rem;
@@ -224,12 +243,35 @@ var{
 
   text{
     width:10px; 
-    font-size: 11px;
+    font-size: 10px;
   }
 }
 
 
+#page-content{
+  padding:0px;
+}
 
+summary {
+  outline: none;
+}
+summary::-webkit-details-marker {
+  display: none
+}
+summary:after {
+  content: "+";
+  float: left;
+  border-radius: 5px;
+  font-weight: bold;
+  padding: 0;
+  text-align: center;
+  width: 20px;
+}
+
+
+details[open] > summary:after {
+    content: "-";
+}
 
 #panel-basicinfo{
   background-color: #4B9AFF;
@@ -280,30 +322,49 @@ var{
   margin-right: auto;
   align-items: center;
   width:auto;
-  height:90%;
+  max-width: 90%;
+  height:auto;
 }
 
+th{
+  background-color: #BDD5FF;
+}
+
+td{ 
+  text-align: center;
+  background-color: #FFFFFF;
+}
+
+table{
+  background-color: #4B9AFF;
+  padding: 2px;
+  border-radius: 2px;
+}
+
+thead,
+tfoot {
+    background-color: #333;
+    color: #fff;
+}
 
 .flexboxrow{
   display:flex; 
   flex-direction: row;
   align-items: center;
   position:relative;
+  padding: 0px;
+  /* box-shadow:0px 0px 0px 2px green inset; */
 }
 .flexboxcolumn{
   display:flex;
   justify-content: space-around;
   flex-direction: column;
-    margin-top: 0px;
-    margin-bottom: 0px;
-  /*border: 1px solid #333;*/
+  /* box-shadow:0px 0px 0px 2px blue inset; */
 }
   .flexitem{
     display: flex;
     background-color: #BDD5FF;
     border: 1px solid #333;
-    border-radius : 5px;
-    padding : 5px;
     white-space:nowrap
   }
   .combo-condition-container-normal{
@@ -322,7 +383,13 @@ var{
 #combos{
  position:relative;
  height:auto;
- width:100%;
+ width:95vw;
+ overflow:auto;
+ /* box-shadow:0px 0px 0px 2px black inset; */
+}
+
+#divmoves{
+  width:100%;
 }
 
 

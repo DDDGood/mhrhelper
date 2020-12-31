@@ -27,27 +27,29 @@
       <button width="20%" class="topbarbtn" id="topbarlayer2" onclick="OnSelectLayer(2)">魔物名稱</button>
    </div>
 
+
+
    <div id="layer0">
       <h3>種類</h3>
       <div id="spacieslist">
          <!--
-                <button class="btnspacies" onclick="SetSpacies('全部')">全部</button>
-                <button class="btnspacies" onclick="SetSpacies('飛龍種')">飛龍種</button>
-                <button class="btnspacies" onclick="SetSpacies('獸龍種')">獸龍種</button>
-                <button class="btnspacies" onclick="SetSpacies('海龍種')">海龍種</button>
-                <button class="btnspacies" onclick="SetSpacies('鳥龍種')">鳥龍種</button>
-                <button class="btnspacies" onclick="SetSpacies('魚龍種')">魚龍種</button>
-                <button class="btnspacies" onclick="SetSpacies('牙龍種')">牙龍種</button>
-                <button class="btnspacies" onclick="SetSpacies('蛇龍種')">蛇龍種</button>
-                <button class="btnspacies" onclick="SetSpacies('古龍種')">古龍種</button>
-                <button class="btnspacies" onclick="SetSpacies('兩生種')">兩生種</button>
-                <button class="btnspacies" onclick="SetSpacies('牙獸種')">牙獸種</button>
-                <button class="btnspacies" onclick="SetSpacies('甲殼種')">甲殼種</button>
-                <button class="btnspacies" onclick="SetSpacies('甲蟲種')">甲蟲種</button>
-                <button class="btnspacies" onclick="SetSpacies('鋏角種')">鋏角種</button>
-                <button class="btnspacies" onclick="SetSpacies('其他種類')">其他種類</button>
-                <button class="btnspacies" onclick="SetSpacies('二名魔物')">二名魔物</button>
-                -->
+                   <button class="btnspacies" onclick="SetSpacies('全部')">全部</button>
+                   <button class="btnspacies" onclick="SetSpacies('飛龍種')">飛龍種</button>
+                   <button class="btnspacies" onclick="SetSpacies('獸龍種')">獸龍種</button>
+                   <button class="btnspacies" onclick="SetSpacies('海龍種')">海龍種</button>
+                   <button class="btnspacies" onclick="SetSpacies('鳥龍種')">鳥龍種</button>
+                   <button class="btnspacies" onclick="SetSpacies('魚龍種')">魚龍種</button>
+                   <button class="btnspacies" onclick="SetSpacies('牙龍種')">牙龍種</button>
+                   <button class="btnspacies" onclick="SetSpacies('蛇龍種')">蛇龍種</button>
+                   <button class="btnspacies" onclick="SetSpacies('古龍種')">古龍種</button>
+                   <button class="btnspacies" onclick="SetSpacies('兩生種')">兩生種</button>
+                   <button class="btnspacies" onclick="SetSpacies('牙獸種')">牙獸種</button>
+                   <button class="btnspacies" onclick="SetSpacies('甲殼種')">甲殼種</button>
+                   <button class="btnspacies" onclick="SetSpacies('甲蟲種')">甲蟲種</button>
+                   <button class="btnspacies" onclick="SetSpacies('鋏角種')">鋏角種</button>
+                   <button class="btnspacies" onclick="SetSpacies('其他種類')">其他種類</button>
+                   <button class="btnspacies" onclick="SetSpacies('二名魔物')">二名魔物</button>
+                   -->
       </div>
    </div>
 
@@ -100,13 +102,13 @@
                      <div class="panel-block panel-text-bold">彈</div>
                   </div>
                   <!-- sample
-                   <div class="panel-row panel-block-1">
-                      <div class="panel-block panel-text">頭</div>  
-                      <div class="panel-block panel-text">AAA</div>
-                      <div class="panel-block panel-text">AA</div>
-                      <div class="panel-block panel-text">A</div>        
-                   </div>
-                   -->
+                      <div class="panel-row panel-block-1">
+                         <div class="panel-block panel-text">頭</div>  
+                         <div class="panel-block panel-text">AAA</div>
+                         <div class="panel-block panel-text">AA</div>
+                         <div class="panel-block panel-text">A</div>        
+                      </div>
+                      -->
                </div>
                <div id="weakness-element" style="margin-top:1vw; margin-bottom:1vw; ">
                   <div class="panel-block-2 panel-text-bold" style="position:relative;">屬性弱點
@@ -178,8 +180,9 @@
             <h3>詳細肉質</h3>
             <table id="table_hitdata">
                <tbody id="tbody_hitdata">
-                  <tr>
+                  <tr class="panel-text-bold">
                      <th>部位</th>
+                     <th>狀態</th>
                      <th>斬</th>
                      <th>打</th>
                      <th>彈</th>
@@ -193,22 +196,25 @@
             </table>
 
             <div id="divmoves">
-               <h3 id="movestitle">招式派生</h3>
-               <p id="moveoutline"></p>
-               <div id="combos">
-               </div>
-               <h3>所有招式</h3>
-               <table id="table_moves">
-                  <tbody id="tbody_startermoves">
-                     <tr>
-                        <th>招式</th>
-                        <th>前兆</th>
-                        <th>動作</th>
-                        <th>後搖</th>
-                        <th>備註</th>
-                     </tr>
-                  </tbody>
-               </table>
+               <details open>
+                  <summary class="header2">招式派生</summary>
+                  <p id="moveoutline"></p>
+                  <div id="combos"></div>
+               </details>
+               <details>
+                  <summary class="header2">所有招式</summary>
+                  <table id="table_moves">
+                     <tbody id="tbody_startermoves">
+                        <tr>
+                           <th>招式</th>
+                           <th>前兆</th>
+                           <th>動作</th>
+                           <th>後搖</th>
+                           <th>備註</th>
+                        </tr>
+                     </tbody>
+                  </table>
+               </details>
             </div>
 
          </div>
@@ -218,6 +224,9 @@
 
 
    </div>
+
+
+
 
    <div id="test" class="flexcontainer">
    </div>

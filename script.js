@@ -11,6 +11,7 @@ var moveInfo;
 
 var dexObj;
 var movesObj;
+var currentMon = {};
 var currentMonMoves = {};
 var spaciesDictionary = {};
 
@@ -145,6 +146,7 @@ function SetSpacies(key) {
 function SetMon(key) {
 
     var monObj = dexObj[key];
+    currentMon = dexObj[key];
 
     SetElementById('title', monObj.nameTW);
     SetElementById('namejp', monObj.nameJP);
@@ -180,7 +182,7 @@ function SetMon(key) {
                 row.appendChild(ammo);
                 weaponBlock.appendChild(row);
             }
-            weaponBlock.style.paddingBottom = "0.5vw";
+            weaponBlock.style.paddingBottom = "2px";
         }
         if (monObj.weakness.hasOwnProperty("element")) {
             var elementData = {
@@ -214,12 +216,14 @@ function SetMon(key) {
 
     //hit data
     var hdTableBody = document.getElementById('tbody_hitdata');
-    hdTableBody.innerHTML = "<tr><th width=120>部位</th><th width=120>狀態</th><th width=40>斬</th><th width=40>打</th><th width=40>彈</th><th width=40>火</th><th width=40>水</th><th width=40>雷</th><th width=40>冰</th><th width=40>龍</th></tr>";
+    while (hdTableBody.children.length > 1) {
+        hdTableBody.removeChild(hdTableBody.children[1]);
+    }
 
     for (var id = 0; id < monObj['parts'].length; id++) {
         var part = monObj['parts'][id];
 
-        var trPart = document.createElement("tr");
+        var trPart = CreateClassElement("tr", "panel-text");
 
         var tdPartName = document.createElement("td");
         tdPartName.innerHTML = part.name;
@@ -232,6 +236,13 @@ function SetMon(key) {
         for (var i = 0; i < 8; i++) {
             var tdPartHitData = document.createElement("td");
             tdPartHitData.innerHTML = part.hitData[i];
+            if (i < 3) {
+                if (part.hitData[i] >= 45)
+                    tdPartHitData.style.backgroundColor = "#FFCFCF";
+            } else {
+                if (part.hitData[i] >= 25)
+                    tdPartHitData.style.backgroundColor = "#FFCFCF";
+            }
             trPart.appendChild(tdPartHitData);
         }
 
@@ -243,51 +254,10 @@ function SetMon(key) {
     if (movesObj.hasOwnProperty(key)) {
         divMoves.style.display = "block";
         currentMonMoves = movesObj[key];
-        var outline = SetElementById('moveoutline', currentMonMoves.outline);
+        SetElementById('moveoutline', currentMonMoves.outline);
 
         //combos
-        var divCombos = document.getElementById('combos');
-        divCombos.innerHTML = "";
-
-        svg = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
-        divCombos.appendChild(svg);
-
-        var normalCondition = CreateClassElement("div", "combo-condition-container-normal");
-        divCombos.appendChild(normalCondition);
-
-        for (var id = 0; id < currentMonMoves['moves'].length; id++) {
-            var move = currentMonMoves['moves'][id];
-            if (move.onlyincombo == false) {
-
-                var nodeFlex = CreateClassElement("div", "flexboxrow");
-                if (!IsNullOrEmpty(move.condition))
-                    FindOrAddComboConditionContainer(move.condition).appendChild(nodeFlex);
-                else
-                    normalCondition.appendChild(nodeFlex);
-
-                var rootFlex = CreateClassElement("button", "flexitem", move.name);
-                rootFlex.setAttribute("onclick", "OnClickMoveButton(this)");
-                var marginLeftVW = 2;
-                var marginLeftPX = Math.ceil((window.innerWidth * marginLeftVW / 100));
-                rootFlex.style.marginLeft = marginLeftPX + "px";
-                nodeFlex.appendChild(rootFlex);
-            }
-        }
-
-        for (var id = 0; id < currentMonMoves['combos'].length; id++) {
-            var combo = currentMonMoves['combos'][id];
-            var root = combo.nodes[combo.root];
-
-            var container = normalCondition;
-            if (!IsNullOrEmpty(combo.condition))
-                container = FindOrAddComboConditionContainer(combo.condition);
-
-            AppendNode(root, container, combo.nodes, combo.condition);
-
-            if (!IsNullOrEmpty(combo.note)) {
-
-            }
-        }
+        SetMonCombos();
 
         //all moves
         var smovesTableBody = document.getElementById('tbody_startermoves');
@@ -355,6 +325,51 @@ function WriteWeaknessData(params) {
     }
 }
 
+function SetMonCombos() {
+    var divCombos = document.getElementById('combos');
+    divCombos.innerHTML = "";
+
+    svg = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
+    divCombos.appendChild(svg);
+
+    var normalCondition = CreateClassElement("div", "combo-condition-container-normal");
+    divCombos.appendChild(normalCondition);
+
+    for (var id = 0; id < currentMonMoves['moves'].length; id++) {
+        var move = currentMonMoves['moves'][id];
+        if (move.onlyincombo == false) {
+
+            var nodeFlex = CreateClassElement("div", "flexboxrow");
+            if (!IsNullOrEmpty(move.condition))
+                FindOrAddComboConditionContainer(move.condition).appendChild(nodeFlex);
+            else
+                normalCondition.appendChild(nodeFlex);
+
+            var rootFlex = CreateClassElement("button", "flexitem", move.name);
+            rootFlex.setAttribute("onclick", "OnClickMoveButton(this)");
+            var marginLeftVW = 2;
+            var marginLeftPX = Math.ceil((window.innerWidth * marginLeftVW / 100));
+            rootFlex.style.marginLeft = marginLeftPX + "px";
+            nodeFlex.appendChild(rootFlex);
+        }
+    }
+
+    for (var id = 0; id < currentMonMoves['combos'].length; id++) {
+        var combo = currentMonMoves['combos'][id];
+        var root = combo.nodes[combo.root];
+
+        var container = normalCondition;
+        if (!IsNullOrEmpty(combo.condition))
+            container = FindOrAddComboConditionContainer(combo.condition);
+
+        AppendNode(root, container, combo.nodes, combo.condition);
+
+        if (!IsNullOrEmpty(combo.note)) {
+
+        }
+    }
+}
+
 function AppendNode(node, container, nodeList, condition) {
 
     if (node === undefined)
@@ -403,10 +418,10 @@ function AppendNode(node, container, nodeList, condition) {
         AppendNode(linkNode, linksFlex, nodeList, link.condition);
     }
 
-    var marginLeftVW = 2;
-    var marginRightVW = 2;
+    var marginLeftVW = 3;
+    var marginRightVW = 3;
     if (maxConditionTextLength > 0) {
-        marginRightVW = Math.min(Math.max(maxConditionTextLength * 2, 2), 18);
+        marginRightVW = Math.min(Math.max(maxConditionTextLength * 2.5, 2), 20);
     }
     var marginLeftPX = Math.ceil((window.innerWidth * marginLeftVW / 100));
     var marginRightPX = Math.ceil((window.innerWidth * marginRightVW / 100));
@@ -546,7 +561,7 @@ function createSVGtext(caption, x, y) {
 
     //  The following two variables should really be passed as parameters
     var MAXIMUM_CHARS_PER_LINE = 9;
-    var LINE_HEIGHT = 16;
+    var LINE_HEIGHT = CheckMobile() ? 9 : 16;
 
     var words = caption.split("");
     var line = "";
@@ -629,6 +644,11 @@ function ParseStars(text) {
 
 function IsNullOrEmpty(string) {
     return (!string || string.length === 0);
+}
+
+function CheckMobile() {
+    SetElementById("debug", window.innerWidth);
+    return (window.innerWidth < 1200);
 }
 
 //       const queryString = window.location.search;
