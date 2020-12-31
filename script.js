@@ -80,7 +80,7 @@ function Initialize() {
                 onDexLoaded("move load then");
         })
         .catch(error => {
-            movesObj = {};
+            movesObj = JSON.parse("{\"\u96F7\u72FC\u9F8D\":{\"outline\":\"\",\"moves\":[{\"name\":\"\u9F8D\u543C\",\"preaction\":\"\",\"action\":\"\",\"recovery\":\"\",\"note\":\"\",\"image\":\"\",\"onlyincombo\":false},{\"name\":\"\u524D\u9802\",\"preaction\":\"\",\"action\":\"\",\"recovery\":\"\",\"note\":\"\",\"image\":\"\",\"onlyincombo\":false}],\"combos\":[{\"root\":0,\"condition\":\"\",\"nodes\":[{\"move\":\"\u524D\u9802\",\"links\":[{\"node\":1,\"condition\":\"\u8EAB\u5074\"},{\"node\":2,\"condition\":\"\u8EAB\u524D\"},{\"node\":3,\"condition\":\"\u8EAB\u5F8C\"}]},{\"move\":\"\u9435\u5C71\u9760\",\"links\":[]},{\"move\":\"\u5F8C\u8DF3\u64B2\",\"links\":[{\"node\":4,\"condition\":\"\u7121\u5E36\u96FB\"},{\"node\":5,\"condition\":\"\u8EAB\u5074\u4E14\u8D85\u96FB\"},{\"node\":6,\"condition\":\"\u8EAB\u524D\u4E14\u8D85\u96FB\"}]},{\"move\":\"\u5C0F\u7529\u5C3E\",\"links\":[{\"node\":7,\"condition\":\"\u8D85\u96FB\u6012\"}]},{\"move\":\"\u5F37\u84C4\u96FB\",\"links\":[]},{\"move\":\"\u9435\u5C71\u9760\",\"links\":[{\"node\":7,\"condition\":\"\u8D85\u96FB\u6012\"}]},{\"move\":\"\u84C4\u529B\u62F3\",\"links\":[{\"node\":8,\"condition\":\"\u8D85\u96FB\u6012\"}]},{\"move\":\"\u6258\u99AC\u65AF\",\"links\":[]},{\"move\":\"\u80CC\u7838\",\"links\":[]}]},{\"root\":0,\"condition\":\"\",\"nodes\":[{\"move\":\"\u5FEB\u901F\u62F3\",\"links\":[{\"node\":1,\"condition\":\"\u8EAB\u524D\u4E14\u8D85\u96FB\uFF08\u6A5F\u7387\uFF09\uFF0F\u8D85\u96FB\u6012\uFF08\u5FC5\u51FA\uFF09\"},{\"node\":2,\"condition\":\"\u8EAB\u5074\u4E14\u8D85\u96FB\uFF08\u6A5F\u7387\uFF09\"}]},{\"move\":\"\u5FEB\u901F\u62F3\",\"links\":[{\"node\":3,\"condition\":\"\"}]},{\"move\":\"\u5FEB\u901F\u62F3\",\"links\":[{\"node\":5,\"condition\":\"\"}]},{\"move\":\"\u84C4\u529B\u62F3\",\"links\":[{\"node\":4,\"condition\":\"\u8D85\u96FB\u6012\"}]},{\"move\":\"\u80CC\u7838\",\"links\":[]},{\"move\":\"\u5C3E\u7838\",\"links\":[{\"node\":6,\"condition\":\"\"}]},{\"move\":\"\u6258\u99AC\u65AF\",\"links\":[{\"node\":4,\"condition\":\"\u8D85\u96FB\u6012\"}]}]}]}}");
             if (dexObj !== undefined)
                 onDexLoaded("move load err");
         });
@@ -177,7 +177,7 @@ function SetMon(key) {
                 row.appendChild(ammo);
                 weaponBlock.appendChild(row);
             }
-            weaponBlock.style.paddingBottom = "10px";
+            weaponBlock.style.paddingBottom = "0.5vw";
         }
         if (monObj.weakness.hasOwnProperty("element")) {
             var elementData = {

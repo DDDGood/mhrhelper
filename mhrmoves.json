@@ -1,1 +1,1380 @@
-{"泡狐龍":{"outline":"連招很多，把握部分連招結尾的大空檔進行輸出。平常以蹭刀為主。","moves":[{"name":"龍吼","preaction":"頭往後縮，龍的左手會抬起。","action":"左手下踩，發出吼聲。","recovery":"小","note":"除了見面吼，戰鬥進憤怒時必先側跳或繞後跳才派生龍吼。這一跳會無視進行中的連段或硬直，很好觀察。","image":"","onlyincombo":false},{"name":"小咬","preaction":"頭往他的右上抬","action":"快速往前小咬","recovery":"小","note":"","image":"","onlyincombo":false},{"name":"二連咬","preaction":"頭往他的左上抬","action":"往前二連咬，向前位移，兩段判定。","recovery":"小","note":"","image":"","onlyincombo":false},{"name":"逆時針甩尾","preaction":"身體往左後縮","action":"逆時針甩尾，帶一段向前位移。","recovery":"小","note":"","image":"","onlyincombo":false},{"name":"順時針甩尾","preaction":"身體往右後縮","action":"順時針甩尾，攻擊後發呆。","recovery":"大","note":"","image":"","onlyincombo":false},{"name":"尾勾","preaction":"身體下壓，身下有泡泡。","action":"尾巴由下到上向前甩出","recovery":"小","note":"若尾勾時甩出紅色泡泡，會派生第二下尾勾。(二連的起手蓄力也會稍微久一點)","image":"","onlyincombo":false},{"name":"繞後跳噴水","preaction":"有伸脖張嘴的小動作。","action":"繞後跳到玩家身後，接著口中噴水由上至下。","recovery":"中","note":"較少單獨使出，常從後退吐三顆泡派生。有可能會變化成橫掃噴水(觀察)。噴水時易推倒。","image":"","onlyincombo":false},{"name":"八卦掌","preaction":"身體後縮抬起，單手抬高","action":"向前下拍","recovery":"小","note":"高機率無徵兆派生第二下，往尾巴方向是盲區。結束後若玩家位於身側有機會打轉頭。","image":"","onlyincombo":false},{"name":"下壓旋轉","preaction":"抬起身，雙手舉起，頭尾會側向一邊","action":"下壓後身體旋轉攻擊。","recovery":"小","note":"","image":"","onlyincombo":false},{"name":"下壓滑行","preaction":"抬起身，雙手舉起。","action":"下壓，身體向前小幅度滑行，射出Y字型三個方向的泡泡","recovery":"小","note":"","image":"","onlyincombo":false},{"name":"滑行龍車","preaction":"","action":"身體向前長距離滑行，身後留下綠色泡泡。","recovery":"小","note":"較少單獨使用或作為起手，通常為連招接在繞後跳之後，之後接三泡、洗衣機。","image":"","onlyincombo":false},{"name":"飄移大甩尾","preaction":"側跳後向玩家飄移滑行一小段","action":"側跳飄移滑行後，尾巴用力向前甩。","recovery":"小","note":"","image":"","onlyincombo":false},{"name":"側跳","preaction":"","action":"翻身側跳，常會勾出兩顆泡泡。","recovery":"小","note":"通常作為連招起手，也常常會二連側跳或來回側跳。","image":"","onlyincombo":false},{"name":"繞後跳","preaction":"","action":"繞後跳至玩家身後，有時會甩出泡泡。","recovery":"小","note":"通常作為連招起手，或是進憤怒狀態時接龍吼。","image":"","onlyincombo":true},{"name":"原地二連吐泡泡","preaction":"","action":"第一次三顆，第二次兩顆，位置交錯。","recovery":"小","note":"距離較遠時容易使出。","image":"","onlyincombo":false},{"name":"後退吐三泡","preaction":"原地後退幾步","action":"後退幾步後吐出三顆泡泡。","recovery":"","note":"這招接下來必會繞後跳噴水","image":"","onlyincombo":true},{"name":"後跳大泡泡","preaction":"","action":"後跳，吐出一顆大泡泡","recovery":"小","note":"常作為招牌連招的起手，較少單獨使用。","image":"","onlyincombo":false},{"name":"前跳三泡泡","preaction":"","action":"前跳，吐出三顆泡泡","recovery":"小","note":"作為連招中間段，後面必接飛身洗衣機。","image":"","onlyincombo":true},{"name":"飛身洗衣機","preaction":"","action":"飛身撲向玩家位置後，原地旋轉攻擊。","recovery":"大","note":"招牌連招結尾，距離很遠方向修正強，結束後有大空檔。","image":"","onlyincombo":true},{"name":"橫掃噴水","preaction":"頭會先逆時針向後縮起。","action":"順時針噴水，結束時會往最後頭面對的方向小後跳。","recovery":"大","note":"只會作為連招結尾，結束後有大空檔。","image":"","onlyincombo":true}],"combos":[{"root":0,"condition":"","nodes":[{"move":"後跳大泡泡","links":[{"node":1,"condition":""}]},{"move":"前跳三泡泡","links":[{"node":2,"condition":""}]},{"move":"飛身洗衣機","links":[]}]},{"root":0,"condition":"","nodes":[{"move":"側跳","links":[{"node":1,"condition":"機率發生第二下"}]},{"move":"側跳","links":[{"node":2,"condition":""},{"node":3,"condition":""},{"node":4,"condition":""},{"node":6,"condition":""}]},{"move":"尾勾","links":[{"node":5,"condition":"機率"}]},{"move":"二連咬","links":[]},{"move":"八卦掌","links":[]},{"move":"尾勾","links":[]},{"move":"逆時針甩尾","links":[{"node":7,"condition":"機率"}]},{"move":"順時針甩尾","links":[]}]},{"root":0,"condition":"","nodes":[{"move":"後退吐三泡","links":[{"node":1,"condition":""}]},{"move":"繞後跳噴水","links":[{"condition":""}]}]},{"root":0,"condition":"","nodes":[{"move":"八卦掌","links":[{"node":1,"condition":"機率"}]},{"move":"八卦掌","links":[{"condition":""}]}]}]},"傘鳥":{"outline":"","moves":[{"name":"龍吼","preaction":"先搖頭晃腦，兩翼中間合起。","action":"頭往前伸，就龍吼沒什麼好說。","recovery":"小","note":"","image":"https://drive.google.com/uc?export=download&id=1K9u40s0JQ7Ux1mtkdumT2bLtA2HV4B0Y","onlyincombo":false},{"name":"翅膀橫掃","preaction":"身體側後縮，高舉後側翅膀。","action":"大範圍橫掃，身體會轉180度。","recovery":"小","note":"機率派生二連。","image":"https://drive.google.com/uc?export=download&id=1Y-ovKae2ufziF8YNPFCGiuSTOQFH4ey-","onlyincombo":false},{"name":"後跳上撩","preaction":"有兩次略帶轉身的後跳。","action":"兩次後跳後，轉身上撩，攻擊方向大約是第一次後跳時離玩家近的翅膀所指的方向。","recovery":"中","note":"","image":"https://drive.google.com/uc?export=download&id=1HgtKg10Hcn74fF5llZrdq50qXU8pkH9W","onlyincombo":false},{"name":"後踢","preaction":"原地小跳，翅膀抬起，頭從翅膀下往後看，抬起單腳。","action":"先後跳踩踏，再接一個後踢。","recovery":"不太確定後面拜年動作","note":"","image":"https://drive.google.com/uc?export=download&id=1efBLdperIPyF1q00OnrkokbvMsXLKytG","onlyincombo":false},{"name":"跨步踩","preaction":"似乎會先抬起單腳，轉向玩家。","action":"單腳向前下踩。","recovery":"小","note":"若尾勾時甩出紅色泡泡，會派生第二下尾勾。(二連的起手蓄力也會稍微久一點)","image":"https://drive.google.com/uc?export=download&id=1i2L7gbmuUDBlgMlNR_ko1Gre307d-fhI","onlyincombo":false},{"name":"跳踩","preaction":"極短","action":"雙腳跳起往玩家方向踩下。","recovery":"小","note":"","image":"https://drive.google.com/uc?export=download&id=1TzcSJf2uUY1mB2XVM3j4SoKMKpOfbE5D","onlyincombo":false},{"name":"磕頭","preaction":"先有一個插腰抬腿的動作","action":"轉向玩家後頭砸","recovery":"小","note":"","image":"https://drive.google.com/uc?export=download&id=1TS_9WGWe0KUNzh5_n-nEhSxn3vnAn1vq","onlyincombo":false},{"name":"跨步磕頭","preaction":"有個張傘威嚇的動作，然後原地小踏一步","action":"向前頭砸","recovery":"小","note":"","image":"https://drive.google.com/uc?export=download&id=1wjJiv_Uh6kK7t4x59rkGcW640MtjnUmE","onlyincombo":false},{"name":"二連磕頭","preaction":"","action":"連續兩次頭下砸，第二次索敵很強。","recovery":"小","note":"似乎怒後高機率出，先一個跳步接二連磕頭。","image":"https://drive.google.com/uc?export=download&id=1joSQwgsNSEcEjkhuuq9wF_9qx3WWgwl8","onlyincombo":false},{"name":"後跳起飛火球","preaction":"很短，翅膀快速上抬後就跳起。","action":"後跳起飛，吐出中、左、右三顆火球。有時候會啞火？","recovery":"小","note":"","image":"https://drive.google.com/uc?export=download&id=1w-EsCm5iZ7GQOYx-qfoAbPIn6kJjb7y_","onlyincombo":true},{"name":"空中迴旋火球","preaction":"空中身體側向一邊","action":"往側面迴旋兩圈後落地，轉圈時吐出火球。有時候會啞火？","recovery":"中","note":"","image":"https://drive.google.com/uc?export=download&id=1xEDsHsV_Y4aTxI-6qJzXeZg3z_ILaCcy","onlyincombo":true},{"name":"火球","preaction":"小","action":"吐出一顆火球。","recovery":"小","note":"","image":"https://drive.google.com/uc?export=download&id=1EAUTMi2UvH9FTvJM8-VJ836zDPCT-A_R","onlyincombo":false},{"name":"三連火球","preaction":"抬頭畜力動作","action":"吐出中、左、右三顆火球。有時候會啞火？","recovery":"大","note":"","image":"https://drive.google.com/uc?export=download&id=1oDIv5g89BYVjTV5N3kY5tfCTkctu312I","onlyincombo":false},{"name":"開傘龍車","preaction":"明顯的後跳準備動作","action":"翅膀張開向前衝，S型前進","recovery":"大","note":"","image":"https://drive.google.com/uc?export=download&id=1AgBqTUjhCVf8im68Nl-Fnm-UF4OtTKHZ","onlyincombo":false},{"name":"合傘龍車","preaction":"明顯的後跳準備動作，頭上傘會收起","action":"翅膀張開向前衝，直線前進","recovery":"大","note":"","image":"https://drive.google.com/uc?export=download&id=1KEpuEQQJLzaKggpt08ZvRv9-2gtXPvyf","onlyincombo":false}],"combos":[{"root":0,"condition":"","nodes":[{"move":"後跳起飛火球","links":[{"node":1,"condition":""}]},{"move":"空中迴旋火球","links":[]}]}]},"河童蛙":{"outline":"","moves":[{"name":"威嚇","preaction":"","action":"","recovery":"","note":"","image":"https://drive.google.com/uc?export=download&id=1_q-GDK0I0YjGwlaojcnQZt7-vtZ7mAYj","onlyincombo":false},{"name":"前咬","preaction":"","action":"","recovery":"","note":"","image":"https://drive.google.com/uc?export=download&id=1GrkaM_PMZNgBj1eXYDFUzMrZjsp0ivYJ","onlyincombo":false},{"name":"重咬","preaction":"","action":"","recovery":"","note":"","image":"https://drive.google.com/uc?export=download&id=1yV4POi6nYUnQjNfN4SeGwvVaaFS8Bp1S","onlyincombo":false},{"name":"二連拍","preaction":"","action":"","recovery":"","note":"","image":"https://drive.google.com/uc?export=download&id=1bWYu54Yx4ZGNVSMYxtegJKcc0Aks-qVc","onlyincombo":false},{"name":"熊抱","preaction":"","action":"","recovery":"","note":"","image":"https://drive.google.com/uc?export=download&id=1ng6X-wCQVnhg51kSNCs0h2foip_ER-dH","onlyincombo":false},{"name":"前撲","preaction":"","action":"","recovery":"","note":"高機率接大後搖的威嚇動作。","image":"https://drive.google.com/uc?export=download&id=1sLv_pfWsc9UIQNpbjSp9qAu30shygxGc","onlyincombo":false},{"name":"前撲龍車","preaction":"","action":"","recovery":"","note":"高機率接大後搖的威嚇動作。","image":"https://drive.google.com/uc?export=download&id=1sZBM9Ezj63RpuuHmq86phMyj7rcX4RXy","onlyincombo":false},{"name":"跳","preaction":"","action":"","recovery":"","note":"","image":"https://drive.google.com/uc?export=download&id=1DeIQ6KZZztwQDXGn0TADYXi6T5TqdAC7","onlyincombo":false},{"name":"吐痰","preaction":"","action":"","recovery":"","note":"","image":"https://drive.google.com/uc?export=download&id=1PrTk_voC2jm6hWgNC77EydTTRwwIkE-R","onlyincombo":false},{"name":"型態轉換","preaction":"","action":"","recovery":"","note":"最後會龍吼","image":"https://drive.google.com/uc?export=download&id=1PudTMwhn5RzlrijIKAgvsdqgBvXeDA5M","onlyincombo":false},{"name":"肥宅威嚇","condition":"肥宅狀態","preaction":"","action":"","recovery":"","note":"","image":"https://drive.google.com/uc?export=download&id=1tlN4e4vkxwydxT8Yee1-E-tmPQM8OQ5y","onlyincombo":false},{"name":"肥宅潑水","condition":"肥宅狀態","preaction":"","action":"","recovery":"","note":"","image":"https://drive.google.com/uc?export=download&id=17AsnWiQ2bu5v3OQb8L7v-iZh6MBogEJU","onlyincombo":false},{"name":"肥宅吐痰","condition":"肥宅狀態","preaction":"","action":"","recovery":"","note":"","image":"https://drive.google.com/uc?export=download&id=1Nj7xo1XzQMpvDu_xw7hxubvHZWRRdPu0","onlyincombo":false},{"name":"肥宅重壓","condition":"肥宅狀態","preaction":"","action":"","recovery":"大","note":"","image":"https://drive.google.com/uc?export=download&id=1QJeE9xTpajdvUei0E-ib_ZDmG9vOt6Fv","onlyincombo":false},{"name":"肥宅側壓","condition":"肥宅狀態","preaction":"","action":"","recovery":"大","note":"","image":"https://drive.google.com/uc?export=download&id=1f4k0wSIwc2F7FFeK6pvF0YH3-Zfao4II","onlyincombo":false},{"name":"肥宅狂奔","condition":"肥宅狀態","preaction":"","action":"","recovery":"大","note":"","image":"https://drive.google.com/uc?export=download&id=1ftdiY1Tupk8Na0pTaRLUVjDiGnLxRKY-","onlyincombo":false},{"name":"肥宅跳","condition":"肥宅狀態","preaction":"","action":"","recovery":"大","note":"","image":"https://drive.google.com/uc?export=download&id=1lMIvfcLTL2jirnMCCU_V-WXPeoEcLhDE","onlyincombo":false},{"name":"肥宅捕食","condition":"肥宅狀態","preaction":"","action":"","recovery":"大","note":"","image":"https://drive.google.com/uc?export=download&id=1lE9y37eoqQVyh2VRPN9V-hRHdLpnqc7D","onlyincombo":false}],"combos":[]},"青熊獸":{"outline":"","moves":[{"name":"威嚇","preaction":"","action":"","recovery":"","note":"","image":"https://drive.google.com/uc?export=download&id=1dnDcPxGqjEnyPgIBwnjG8RVLw900Gllt","onlyincombo":false},{"name":"威嚇2","preaction":"","action":"","recovery":"","note":"","image":"https://drive.google.com/uc?export=download&id=1enIZrK7m5uBv1SAyd14QREF4q_RwTF8d","onlyincombo":false},{"name":"重揮","preaction":"","action":"","recovery":"","note":"","image":"https://drive.google.com/uc?export=download&id=1RZqoqoP_M-5qcg40DzpxudQ7q79555-O","onlyincombo":false},{"name":"連環巴掌","preaction":"","action":"","recovery":"","note":"","image":"https://drive.google.com/uc?export=download&id=1gQQuXxTAffOAjmiabHJwZgGp5X1sRQkY","onlyincombo":false},{"name":"回首掏","preaction":"","action":"","recovery":"","note":"","image":"https://drive.google.com/uc?export=download&id=1DlSaGBlMQWIe_h0F8sHfEoofqVAOTq_z","onlyincombo":false},{"name":"熊抱","preaction":"","action":"","recovery":"","note":"","image":"https://drive.google.com/uc?export=download&id=1K-IJeN-r6-1UauP42Gg8T13u6IPQNoK5","onlyincombo":false},{"name":"前撲","preaction":"","action":"","recovery":"","note":"","image":"https://drive.google.com/uc?export=download&id=18WhBQC1_53zqyoBjn0oYjr50hne15c0A","onlyincombo":false},{"name":"熊車","preaction":"","action":"","recovery":"","note":"","image":"https://drive.google.com/uc?export=download&id=1k_c9TTTL3Rin3ZZCxjMrZSEhHahx5u6t","onlyincombo":false},{"name":"下壓","preaction":"","action":"","recovery":"","note":"方向修正強。","image":"https://drive.google.com/uc?export=download&id=1e4bBgjSjstAg7VuKJMlgTA4ySIicU0e4","onlyincombo":false},{"name":"捕食","preaction":"","action":"","recovery":"","note":"","image":"https://drive.google.com/uc?export=download&id=1-uSuT_ZRiP1P3hEXduENfggcFm1-Z2F0","onlyincombo":false}],"combos":[]},"鐮鼬龍王":{"outline":"","moves":[{"name":"側甩尾","preaction":"","action":"","recovery":"","note":"","image":"https://drive.google.com/uc?export=download&id=1WFjWmVtd7CSTWLw4O_Nvus7GDZTY6l8A","onlyincombo":false},{"name":"前甩尾","preaction":"","action":"","recovery":"","note":"","image":"https://drive.google.com/uc?export=download&id=1rTj93nRBTpvt7zMI0vceQG5J67NPXEeH","onlyincombo":false},{"name":"迴旋甩尾","preaction":"","action":"","recovery":"","note":"","image":"https://drive.google.com/uc?export=download&id=1sDMRWLy9VJNnpI6W2WERR_uGGBKkWAZk","onlyincombo":false}],"combos":[]},"人魚龍":{"outline":"","moves":[{"name":"吐息","preaction":"","action":"","recovery":"","note":"","image":"https://drive.google.com/uc?export=download&id=1dwWZDQPvZvZ0FXbVpMo1qGk9o-_EEcWm","onlyincombo":false},{"name":"蓄力拍","condition":"站立時","preaction":"","action":"","recovery":"","note":"","image":"https://drive.google.com/uc?export=download&id=1hsZnfbsTstHJjsjfYTodGTvox7u-BV1u","onlyincombo":false},{"name":"二連拍","preaction":"","action":"","recovery":"","note":"","image":"https://drive.google.com/uc?export=download&id=1V-wjQxiF3cXI8DysxBtgxV-E7aTc30id","onlyincombo":false},{"name":"下壓","condition":"站立時","preaction":"","action":"","recovery":"","note":"","image":"https://drive.google.com/uc?export=download&id=13dd8RDiVSSwMA8tqevQDS8XKambogNIP","onlyincombo":false},{"name":"玩手機","preaction":"","action":"","recovery":"","note":"","image":"https://drive.google.com/uc?export=download&id=1E9aMZvuqvqlOo-5qAREuhP2KS9CZzfyX","onlyincombo":false}],"combos":[]},"雷狼龍":{"outline":"","moves":[{"name":"龍吼","preaction":"","action":"","recovery":"","note":"","image":"","onlyincombo":false},{"name":"前頂","preaction":"","action":"","recovery":"","note":"","image":"","onlyincombo":false},{"name":"鐵山靠","preaction":"","action":"","recovery":"","note":"","image":"","onlyincombo":false},{"name":"蓄力鐵山靠","preaction":"","action":"","recovery":"","note":"","image":"","onlyincombo":false},{"name":"後跳撲","preaction":"","action":"","recovery":"","note":"","image":"","onlyincombo":true},{"name":"小甩尾","preaction":"","action":"","recovery":"","note":"","image":"","onlyincombo":true},{"name":"強蓄電","preaction":"","action":"","recovery":"","note":"","image":"","onlyincombo":true},{"name":"快速拳","preaction":"","action":"","recovery":"","note":"","image":"","onlyincombo":true},{"name":"蓄力拳","preaction":"","action":"","recovery":"","note":"","image":"","onlyincombo":true},{"name":"托馬斯","preaction":"","action":"","recovery":"","note":"","image":"","onlyincombo":false},{"name":"二連灌籃","condition":"超電","preaction":"","action":"","recovery":"","note":"玩家超過三人時會變三連灌籃。","image":"","onlyincombo":false},{"name":"尾砸","preaction":"","action":"","recovery":"","note":"","image":"","onlyincombo":true},{"name":"背砸","preaction":"","action":"","recovery":"","note":"","image":"","onlyincombo":true},{"name":"電球甩尾","preaction":"","action":"","recovery":"","note":"","image":"","onlyincombo":true},{"name":"龍車","preaction":"","action":"","recovery":"","note":"","image":"","onlyincombo":false}],"combos":[{"root":0,"condition":"","nodes":[{"move":"前頂","links":[{"node":1,"condition":"身側"},{"node":2,"condition":"身前"},{"node":3,"condition":"身後"}]},{"move":"鐵山靠","links":[]},{"move":"後跳撲","links":[{"node":4,"condition":"無帶電"},{"node":5,"condition":"身側且超電"},{"node":6,"condition":"身前且超電"}]},{"move":"小甩尾","links":[{"node":7,"condition":"超電怒"}]},{"move":"強蓄電","links":[]},{"move":"鐵山靠","links":[{"node":7,"condition":"超電怒"}]},{"move":"蓄力拳","links":[{"node":8,"condition":"超電怒"}]},{"move":"托馬斯","links":[]},{"move":"背砸","links":[]}]},{"root":0,"condition":"","nodes":[{"move":"快速拳","links":[{"node":1,"condition":"身前且超電（機率）／超電怒（必出）"},{"node":2,"condition":"身側且超電（機率）"}]},{"move":"快速拳","links":[{"node":3,"condition":""}]},{"move":"快速拳","links":[{"node":5,"condition":""}]},{"move":"蓄力拳","links":[{"node":4,"condition":"超電怒"}]},{"move":"背砸","links":[]},{"move":"尾砸","links":[{"node":6,"condition":""}]},{"move":"托馬斯","links":[{"node":4,"condition":"超電怒"}]}]},{"root":0,"condition":"","nodes":[{"move":"飛撲","links":[{"node":1,"condition":"身前且超電"},{"node":2,"condition":"身側且超電"},{"node":3,"condition":"身後且超電"}]},{"move":"快速拳","links":[{"node":4,"condition":""}]},{"move":"蓄力鐵山靠","links":[{"node":6,"condition":"超電怒"}]},{"move":"小甩尾","links":[{"node":6,"condition":"超電怒"}]},{"move":"蓄力拳","links":[{"node":5,"condition":"超電怒"}]},{"move":"背砸","links":[]},{"move":"托馬斯","links":[]}]},{"root":0,"condition":"","note":"超電怒連段中造成一定傷害就會出現反擊連段。","nodes":[{"move":"反擊後仰","links":[{"node":1,"condition":"近"},{"node":2,"condition":"遠"}]},{"move":"蓄力拳","links":[{"node":3,"condition":""},{"node":5,"condition":""}]},{"move":"飛撲","links":[{"node":4,"condition":"身前"},{"node":7,"condition":"身側"}]},{"move":"蓄力拳","links":[{"node":4,"condition":""}]},{"move":"蓄力拳","links":[]},{"move":"尾砸","links":[{"node":6,"condition":""}]},{"move":"背砸","links":[]},{"move":"托馬斯","links":[{"node":4,"condition":""}]}]},{"root":0,"condition":"超電","nodes":[{"move":"電球甩尾","links":[{"node":1,"condition":"機率"}]},{"move":"電球甩尾","links":[]}]},{"root":0,"condition":"","nodes":[{"move":"尾拍","links":[{"node":1,"condition":"擊中且超電"},{"node":4,"condition":"側身且超電"},{"node":6,"condition":"未擊中且超電"}]},{"move":"尾砸","links":[{"node":2,"condition":""}]},{"move":"龍車","links":[{"node":3,"condition":"超電怒"}]},{"move":"背砸","links":[]},{"move":"鐵山靠","links":[{"node":5,"condition":""}]},{"move":"托馬斯","links":[]},{"move":"小甩尾","links":[{"node":5,"condition":""}]}]}]}}
+{
+    "泡狐龍": {
+        "outline": "連招很多，把握部分連招結尾的大空檔進行輸出。平常以蹭刀為主。",
+        "moves": [
+            {
+                "name": "龍吼",
+                "preaction": "頭往後縮，龍的左手會抬起。",
+                "action": "左手下踩，發出吼聲。",
+                "recovery": "小",
+                "note": "除了見面吼，戰鬥進憤怒時必先側跳或繞後跳才派生龍吼。這一跳會無視進行中的連段或硬直，很好觀察。",
+                "image": "",
+                "onlyincombo": false
+            },
+            {
+                "name": "小咬",
+                "preaction": "頭往他的右上抬",
+                "action": "快速往前小咬",
+                "recovery": "小",
+                "note": "",
+                "image": "",
+                "onlyincombo": false
+            },
+            {
+                "name": "二連咬",
+                "preaction": "頭往他的左上抬",
+                "action": "往前二連咬，向前位移，兩段判定。",
+                "recovery": "小",
+                "note": "",
+                "image": "",
+                "onlyincombo": false
+            },
+            {
+                "name": "逆時針甩尾",
+                "preaction": "身體往左後縮",
+                "action": "逆時針甩尾，帶一段向前位移。",
+                "recovery": "小",
+                "note": "",
+                "image": "",
+                "onlyincombo": false
+            },
+            {
+                "name": "順時針甩尾",
+                "preaction": "身體往右後縮",
+                "action": "順時針甩尾，攻擊後發呆。",
+                "recovery": "大",
+                "note": "",
+                "image": "",
+                "onlyincombo": false
+            },
+            {
+                "name": "尾勾",
+                "preaction": "身體下壓，身下有泡泡。",
+                "action": "尾巴由下到上向前甩出",
+                "recovery": "小",
+                "note": "若尾勾時甩出紅色泡泡，會派生第二下尾勾。(二連的起手蓄力也會稍微久一點)",
+                "image": "",
+                "onlyincombo": false
+            },
+            {
+                "name": "繞後跳噴水",
+                "preaction": "有伸脖張嘴的小動作。",
+                "action": "繞後跳到玩家身後，接著口中噴水由上至下。",
+                "recovery": "中",
+                "note": "較少單獨使出，常從後退吐三顆泡派生。有可能會變化成橫掃噴水(觀察)。噴水時易推倒。",
+                "image": "",
+                "onlyincombo": false
+            },
+            {
+                "name": "八卦掌",
+                "preaction": "身體後縮抬起，單手抬高",
+                "action": "向前下拍",
+                "recovery": "小",
+                "note": "高機率無徵兆派生第二下，往尾巴方向是盲區。結束後若玩家位於身側有機會打轉頭。",
+                "image": "",
+                "onlyincombo": false
+            },
+            {
+                "name": "下壓旋轉",
+                "preaction": "抬起身，雙手舉起，頭尾會側向一邊",
+                "action": "下壓後身體旋轉攻擊。",
+                "recovery": "小",
+                "note": "",
+                "image": "",
+                "onlyincombo": false
+            },
+            {
+                "name": "下壓滑行",
+                "preaction": "抬起身，雙手舉起。",
+                "action": "下壓，身體向前小幅度滑行，射出Y字型三個方向的泡泡",
+                "recovery": "小",
+                "note": "",
+                "image": "",
+                "onlyincombo": false
+            },
+            {
+                "name": "滑行龍車",
+                "preaction": "",
+                "action": "身體向前長距離滑行，身後留下綠色泡泡。",
+                "recovery": "小",
+                "note": "較少單獨使用或作為起手，通常為連招接在繞後跳之後，之後接三泡、洗衣機。",
+                "image": "",
+                "onlyincombo": false
+            },
+            {
+                "name": "飄移大甩尾",
+                "preaction": "側跳後向玩家飄移滑行一小段",
+                "action": "側跳飄移滑行後，尾巴用力向前甩。",
+                "recovery": "小",
+                "note": "",
+                "image": "",
+                "onlyincombo": false
+            },
+            {
+                "name": "側跳",
+                "preaction": "",
+                "action": "翻身側跳，常會勾出兩顆泡泡。",
+                "recovery": "小",
+                "note": "通常作為連招起手，也常常會二連側跳或來回側跳。",
+                "image": "",
+                "onlyincombo": false
+            },
+            {
+                "name": "繞後跳",
+                "preaction": "",
+                "action": "繞後跳至玩家身後，有時會甩出泡泡。",
+                "recovery": "小",
+                "note": "通常作為連招起手，或是進憤怒狀態時接龍吼。",
+                "image": "",
+                "onlyincombo": true
+            },
+            {
+                "name": "原地二連吐泡泡",
+                "preaction": "",
+                "action": "第一次三顆，第二次兩顆，位置交錯。",
+                "recovery": "小",
+                "note": "距離較遠時容易使出。",
+                "image": "",
+                "onlyincombo": false
+            },
+            {
+                "name": "後退吐三泡",
+                "preaction": "原地後退幾步",
+                "action": "後退幾步後吐出三顆泡泡。",
+                "recovery": "",
+                "note": "這招接下來必會繞後跳噴水",
+                "image": "",
+                "onlyincombo": true
+            },
+            {
+                "name": "後跳大泡泡",
+                "preaction": "",
+                "action": "後跳，吐出一顆大泡泡",
+                "recovery": "小",
+                "note": "常作為招牌連招的起手，較少單獨使用。",
+                "image": "",
+                "onlyincombo": false
+            },
+            {
+                "name": "前跳三泡泡",
+                "preaction": "",
+                "action": "前跳，吐出三顆泡泡",
+                "recovery": "小",
+                "note": "作為連招中間段，後面必接飛身洗衣機。",
+                "image": "",
+                "onlyincombo": true
+            },
+            {
+                "name": "飛身洗衣機",
+                "preaction": "",
+                "action": "飛身撲向玩家位置後，原地旋轉攻擊。",
+                "recovery": "大",
+                "note": "招牌連招結尾，距離很遠方向修正強，結束後有大空檔。",
+                "image": "",
+                "onlyincombo": true
+            },
+            {
+                "name": "橫掃噴水",
+                "preaction": "頭會先逆時針向後縮起。",
+                "action": "順時針噴水，結束時會往最後頭面對的方向小後跳。",
+                "recovery": "大",
+                "note": "只會作為連招結尾，結束後有大空檔。",
+                "image": "",
+                "onlyincombo": true
+            }
+        ],
+        "combos": [
+            {
+                "root": 0,
+                "condition": "",
+                "nodes": [
+                    {
+                        "move": "後跳大泡泡",
+                        "links": [
+                            {
+                                "node": 1,
+                                "condition": ""
+                            }
+                        ]
+                    },
+                    {
+                        "move": "前跳三泡泡",
+                        "links": [
+                            {
+                                "node": 2,
+                                "condition": ""
+                            }
+                        ]
+                    },
+                    {
+                        "move": "飛身洗衣機",
+                        "links": []
+                    }
+                ]
+            },
+            {
+                "root": 0,
+                "condition": "",
+                "nodes": [
+                    {
+                        "move": "側跳",
+                        "links": [
+                            {
+                                "node": 1,
+                                "condition": "機率發生第二下"
+                            }
+                        ]
+                    },
+                    {
+                        "move": "側跳",
+                        "links": [
+                            {
+                                "node": 2,
+                                "condition": ""
+                            },
+                            {
+                                "node": 3,
+                                "condition": ""
+                            },
+                            {
+                                "node": 4,
+                                "condition": ""
+                            },
+                            {
+                                "node": 6,
+                                "condition": ""
+                            }
+                        ]
+                    },
+                    {
+                        "move": "尾勾",
+                        "links": [
+                            {
+                                "node": 5,
+                                "condition": "機率"
+                            }
+                        ]
+                    },
+                    {
+                        "move": "二連咬",
+                        "links": []
+                    },
+                    {
+                        "move": "八卦掌",
+                        "links": []
+                    },
+                    {
+                        "move": "尾勾",
+                        "links": []
+                    },
+                    {
+                        "move": "逆時針甩尾",
+                        "links": [
+                            {
+                                "node": 7,
+                                "condition": "機率"
+                            }
+                        ]
+                    },
+                    {
+                        "move": "順時針甩尾",
+                        "links": []
+                    }
+                ]
+            },
+            {
+                "root": 0,
+                "condition": "",
+                "nodes": [
+                    {
+                        "move": "後退吐三泡",
+                        "links": [
+                            {
+                                "node": 1,
+                                "condition": ""
+                            }
+                        ]
+                    },
+                    {
+                        "move": "繞後跳噴水",
+                        "links": [
+                            {
+                                "condition": ""
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "root": 0,
+                "condition": "",
+                "nodes": [
+                    {
+                        "move": "八卦掌",
+                        "links": [
+                            {
+                                "node": 1,
+                                "condition": "機率"
+                            }
+                        ]
+                    },
+                    {
+                        "move": "八卦掌",
+                        "links": [
+                            {
+                                "condition": ""
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "傘鳥": {
+        "outline": "",
+        "moves": [
+            {
+                "name": "龍吼",
+                "preaction": "先搖頭晃腦，兩翼中間合起。",
+                "action": "頭往前伸，就龍吼沒什麼好說。",
+                "recovery": "小",
+                "note": "",
+                "image": "https://drive.google.com/uc?export=download&id=1K9u40s0JQ7Ux1mtkdumT2bLtA2HV4B0Y",
+                "onlyincombo": false
+            },
+            {
+                "name": "翅膀橫掃",
+                "preaction": "身體側後縮，高舉後側翅膀。",
+                "action": "大範圍橫掃，身體會轉180度。",
+                "recovery": "小",
+                "note": "機率派生二連。",
+                "image": "https://drive.google.com/uc?export=download&id=1Y-ovKae2ufziF8YNPFCGiuSTOQFH4ey-",
+                "onlyincombo": false
+            },
+            {
+                "name": "後跳上撩",
+                "preaction": "有兩次略帶轉身的後跳。",
+                "action": "兩次後跳後，轉身上撩，攻擊方向大約是第一次後跳時離玩家近的翅膀所指的方向。",
+                "recovery": "中",
+                "note": "",
+                "image": "https://drive.google.com/uc?export=download&id=1HgtKg10Hcn74fF5llZrdq50qXU8pkH9W",
+                "onlyincombo": false
+            },
+            {
+                "name": "後踢",
+                "preaction": "原地小跳，翅膀抬起，頭從翅膀下往後看，抬起單腳。",
+                "action": "先後跳踩踏，再接一個後踢。",
+                "recovery": "不太確定後面拜年動作",
+                "note": "",
+                "image": "https://drive.google.com/uc?export=download&id=1efBLdperIPyF1q00OnrkokbvMsXLKytG",
+                "onlyincombo": false
+            },
+            {
+                "name": "跨步踩",
+                "preaction": "似乎會先抬起單腳，轉向玩家。",
+                "action": "單腳向前下踩。",
+                "recovery": "小",
+                "note": "若尾勾時甩出紅色泡泡，會派生第二下尾勾。(二連的起手蓄力也會稍微久一點)",
+                "image": "https://drive.google.com/uc?export=download&id=1i2L7gbmuUDBlgMlNR_ko1Gre307d-fhI",
+                "onlyincombo": false
+            },
+            {
+                "name": "跳踩",
+                "preaction": "極短",
+                "action": "雙腳跳起往玩家方向踩下。",
+                "recovery": "小",
+                "note": "",
+                "image": "https://drive.google.com/uc?export=download&id=1TzcSJf2uUY1mB2XVM3j4SoKMKpOfbE5D",
+                "onlyincombo": false
+            },
+            {
+                "name": "磕頭",
+                "preaction": "先有一個插腰抬腿的動作",
+                "action": "轉向玩家後頭砸",
+                "recovery": "小",
+                "note": "",
+                "image": "https://drive.google.com/uc?export=download&id=1TS_9WGWe0KUNzh5_n-nEhSxn3vnAn1vq",
+                "onlyincombo": false
+            },
+            {
+                "name": "跨步磕頭",
+                "preaction": "有個張傘威嚇的動作，然後原地小踏一步",
+                "action": "向前頭砸",
+                "recovery": "小",
+                "note": "",
+                "image": "https://drive.google.com/uc?export=download&id=1wjJiv_Uh6kK7t4x59rkGcW640MtjnUmE",
+                "onlyincombo": false
+            },
+            {
+                "name": "二連磕頭",
+                "preaction": "",
+                "action": "連續兩次頭下砸，第二次索敵很強。",
+                "recovery": "小",
+                "note": "似乎怒後高機率出，先一個跳步接二連磕頭。",
+                "image": "https://drive.google.com/uc?export=download&id=1joSQwgsNSEcEjkhuuq9wF_9qx3WWgwl8",
+                "onlyincombo": false
+            },
+            {
+                "name": "後跳起飛火球",
+                "preaction": "很短，翅膀快速上抬後就跳起。",
+                "action": "後跳起飛，吐出中、左、右三顆火球。有時候會啞火？",
+                "recovery": "小",
+                "note": "",
+                "image": "https://drive.google.com/uc?export=download&id=1w-EsCm5iZ7GQOYx-qfoAbPIn6kJjb7y_",
+                "onlyincombo": true
+            },
+            {
+                "name": "空中迴旋火球",
+                "preaction": "空中身體側向一邊",
+                "action": "往側面迴旋兩圈後落地，轉圈時吐出火球。有時候會啞火？",
+                "recovery": "中",
+                "note": "",
+                "image": "https://drive.google.com/uc?export=download&id=1xEDsHsV_Y4aTxI-6qJzXeZg3z_ILaCcy",
+                "onlyincombo": true
+            },
+            {
+                "name": "火球",
+                "preaction": "小",
+                "action": "吐出一顆火球。",
+                "recovery": "小",
+                "note": "",
+                "image": "https://drive.google.com/uc?export=download&id=1EAUTMi2UvH9FTvJM8-VJ836zDPCT-A_R",
+                "onlyincombo": false
+            },
+            {
+                "name": "三連火球",
+                "preaction": "抬頭畜力動作",
+                "action": "吐出中、左、右三顆火球。有時候會啞火？",
+                "recovery": "大",
+                "note": "",
+                "image": "https://drive.google.com/uc?export=download&id=1oDIv5g89BYVjTV5N3kY5tfCTkctu312I",
+                "onlyincombo": false
+            },
+            {
+                "name": "開傘龍車",
+                "preaction": "明顯的後跳準備動作",
+                "action": "翅膀張開向前衝，S型前進",
+                "recovery": "大",
+                "note": "",
+                "image": "https://drive.google.com/uc?export=download&id=1AgBqTUjhCVf8im68Nl-Fnm-UF4OtTKHZ",
+                "onlyincombo": false
+            },
+            {
+                "name": "合傘龍車",
+                "preaction": "明顯的後跳準備動作，頭上傘會收起",
+                "action": "翅膀張開向前衝，直線前進",
+                "recovery": "大",
+                "note": "",
+                "image": "https://drive.google.com/uc?export=download&id=1KEpuEQQJLzaKggpt08ZvRv9-2gtXPvyf",
+                "onlyincombo": false
+            }
+        ],
+        "combos": [
+            {
+                "root": 0,
+                "condition": "",
+                "nodes": [
+                    {
+                        "move": "後跳起飛火球",
+                        "links": [
+                            {
+                                "node": 1,
+                                "condition": ""
+                            }
+                        ]
+                    },
+                    {
+                        "move": "空中迴旋火球",
+                        "links": []
+                    }
+                ]
+            }
+        ]
+    },
+    "河童蛙": {
+        "outline": "",
+        "moves": [
+            {
+                "name": "威嚇",
+                "preaction": "",
+                "action": "",
+                "recovery": "",
+                "note": "",
+                "image": "https://drive.google.com/uc?export=download&id=1_q-GDK0I0YjGwlaojcnQZt7-vtZ7mAYj",
+                "onlyincombo": false
+            },
+            {
+                "name": "前咬",
+                "preaction": "",
+                "action": "",
+                "recovery": "",
+                "note": "",
+                "image": "https://drive.google.com/uc?export=download&id=1GrkaM_PMZNgBj1eXYDFUzMrZjsp0ivYJ",
+                "onlyincombo": false
+            },
+            {
+                "name": "重咬",
+                "preaction": "",
+                "action": "",
+                "recovery": "",
+                "note": "",
+                "image": "https://drive.google.com/uc?export=download&id=1yV4POi6nYUnQjNfN4SeGwvVaaFS8Bp1S",
+                "onlyincombo": false
+            },
+            {
+                "name": "二連拍",
+                "preaction": "",
+                "action": "",
+                "recovery": "",
+                "note": "",
+                "image": "https://drive.google.com/uc?export=download&id=1bWYu54Yx4ZGNVSMYxtegJKcc0Aks-qVc",
+                "onlyincombo": false
+            },
+            {
+                "name": "熊抱",
+                "preaction": "",
+                "action": "",
+                "recovery": "",
+                "note": "",
+                "image": "https://drive.google.com/uc?export=download&id=1ng6X-wCQVnhg51kSNCs0h2foip_ER-dH",
+                "onlyincombo": false
+            },
+            {
+                "name": "前撲",
+                "preaction": "",
+                "action": "",
+                "recovery": "",
+                "note": "高機率接大後搖的威嚇動作。",
+                "image": "https://drive.google.com/uc?export=download&id=1sLv_pfWsc9UIQNpbjSp9qAu30shygxGc",
+                "onlyincombo": false
+            },
+            {
+                "name": "前撲龍車",
+                "preaction": "",
+                "action": "",
+                "recovery": "",
+                "note": "高機率接大後搖的威嚇動作。",
+                "image": "https://drive.google.com/uc?export=download&id=1sZBM9Ezj63RpuuHmq86phMyj7rcX4RXy",
+                "onlyincombo": false
+            },
+            {
+                "name": "跳",
+                "preaction": "",
+                "action": "",
+                "recovery": "",
+                "note": "",
+                "image": "https://drive.google.com/uc?export=download&id=1DeIQ6KZZztwQDXGn0TADYXi6T5TqdAC7",
+                "onlyincombo": false
+            },
+            {
+                "name": "吐痰",
+                "preaction": "",
+                "action": "",
+                "recovery": "",
+                "note": "",
+                "image": "https://drive.google.com/uc?export=download&id=1PrTk_voC2jm6hWgNC77EydTTRwwIkE-R",
+                "onlyincombo": false
+            },
+            {
+                "name": "型態轉換",
+                "preaction": "",
+                "action": "",
+                "recovery": "",
+                "note": "最後會龍吼",
+                "image": "https://drive.google.com/uc?export=download&id=1PudTMwhn5RzlrijIKAgvsdqgBvXeDA5M",
+                "onlyincombo": false
+            },
+            {
+                "name": "肥宅威嚇",
+                "condition": "肥宅狀態",
+                "preaction": "",
+                "action": "",
+                "recovery": "",
+                "note": "",
+                "image": "https://drive.google.com/uc?export=download&id=1tlN4e4vkxwydxT8Yee1-E-tmPQM8OQ5y",
+                "onlyincombo": false
+            },
+            {
+                "name": "肥宅潑水",
+                "condition": "肥宅狀態",
+                "preaction": "",
+                "action": "",
+                "recovery": "",
+                "note": "",
+                "image": "https://drive.google.com/uc?export=download&id=17AsnWiQ2bu5v3OQb8L7v-iZh6MBogEJU",
+                "onlyincombo": false
+            },
+            {
+                "name": "肥宅吐痰",
+                "condition": "肥宅狀態",
+                "preaction": "",
+                "action": "",
+                "recovery": "",
+                "note": "",
+                "image": "https://drive.google.com/uc?export=download&id=1Nj7xo1XzQMpvDu_xw7hxubvHZWRRdPu0",
+                "onlyincombo": false
+            },
+            {
+                "name": "肥宅重壓",
+                "condition": "肥宅狀態",
+                "preaction": "",
+                "action": "",
+                "recovery": "大",
+                "note": "",
+                "image": "https://drive.google.com/uc?export=download&id=1QJeE9xTpajdvUei0E-ib_ZDmG9vOt6Fv",
+                "onlyincombo": false
+            },
+            {
+                "name": "肥宅側壓",
+                "condition": "肥宅狀態",
+                "preaction": "",
+                "action": "",
+                "recovery": "大",
+                "note": "",
+                "image": "https://drive.google.com/uc?export=download&id=1f4k0wSIwc2F7FFeK6pvF0YH3-Zfao4II",
+                "onlyincombo": false
+            },
+            {
+                "name": "肥宅狂奔",
+                "condition": "肥宅狀態",
+                "preaction": "",
+                "action": "",
+                "recovery": "大",
+                "note": "",
+                "image": "https://drive.google.com/uc?export=download&id=1ftdiY1Tupk8Na0pTaRLUVjDiGnLxRKY-",
+                "onlyincombo": false
+            },
+            {
+                "name": "肥宅跳",
+                "condition": "肥宅狀態",
+                "preaction": "",
+                "action": "",
+                "recovery": "大",
+                "note": "",
+                "image": "https://drive.google.com/uc?export=download&id=1lMIvfcLTL2jirnMCCU_V-WXPeoEcLhDE",
+                "onlyincombo": false
+            },
+            {
+                "name": "肥宅捕食",
+                "condition": "肥宅狀態",
+                "preaction": "",
+                "action": "",
+                "recovery": "大",
+                "note": "",
+                "image": "https://drive.google.com/uc?export=download&id=1lE9y37eoqQVyh2VRPN9V-hRHdLpnqc7D",
+                "onlyincombo": false
+            }
+        ],
+        "combos": []
+    },
+    "青熊獸": {
+        "outline": "",
+        "moves": [
+            {
+                "name": "威嚇",
+                "preaction": "",
+                "action": "",
+                "recovery": "",
+                "note": "",
+                "image": "https://drive.google.com/uc?export=download&id=1dnDcPxGqjEnyPgIBwnjG8RVLw900Gllt",
+                "onlyincombo": false
+            },
+            {
+                "name": "威嚇2",
+                "preaction": "",
+                "action": "",
+                "recovery": "",
+                "note": "",
+                "image": "https://drive.google.com/uc?export=download&id=1enIZrK7m5uBv1SAyd14QREF4q_RwTF8d",
+                "onlyincombo": false
+            },
+            {
+                "name": "重揮",
+                "preaction": "",
+                "action": "",
+                "recovery": "",
+                "note": "",
+                "image": "https://drive.google.com/uc?export=download&id=1RZqoqoP_M-5qcg40DzpxudQ7q79555-O",
+                "onlyincombo": false
+            },
+            {
+                "name": "連環巴掌",
+                "preaction": "",
+                "action": "",
+                "recovery": "",
+                "note": "",
+                "image": "https://drive.google.com/uc?export=download&id=1gQQuXxTAffOAjmiabHJwZgGp5X1sRQkY",
+                "onlyincombo": false
+            },
+            {
+                "name": "回首掏",
+                "preaction": "",
+                "action": "",
+                "recovery": "",
+                "note": "",
+                "image": "https://drive.google.com/uc?export=download&id=1DlSaGBlMQWIe_h0F8sHfEoofqVAOTq_z",
+                "onlyincombo": false
+            },
+            {
+                "name": "熊抱",
+                "preaction": "",
+                "action": "",
+                "recovery": "",
+                "note": "",
+                "image": "https://drive.google.com/uc?export=download&id=1K-IJeN-r6-1UauP42Gg8T13u6IPQNoK5",
+                "onlyincombo": false
+            },
+            {
+                "name": "前撲",
+                "preaction": "",
+                "action": "",
+                "recovery": "",
+                "note": "",
+                "image": "https://drive.google.com/uc?export=download&id=18WhBQC1_53zqyoBjn0oYjr50hne15c0A",
+                "onlyincombo": false
+            },
+            {
+                "name": "熊車",
+                "preaction": "",
+                "action": "",
+                "recovery": "",
+                "note": "",
+                "image": "https://drive.google.com/uc?export=download&id=1k_c9TTTL3Rin3ZZCxjMrZSEhHahx5u6t",
+                "onlyincombo": false
+            },
+            {
+                "name": "下壓",
+                "preaction": "",
+                "action": "",
+                "recovery": "",
+                "note": "方向修正強。",
+                "image": "https://drive.google.com/uc?export=download&id=1e4bBgjSjstAg7VuKJMlgTA4ySIicU0e4",
+                "onlyincombo": false
+            },
+            {
+                "name": "捕食",
+                "preaction": "",
+                "action": "",
+                "recovery": "",
+                "note": "",
+                "image": "https://drive.google.com/uc?export=download&id=1-uSuT_ZRiP1P3hEXduENfggcFm1-Z2F0",
+                "onlyincombo": false
+            }
+        ],
+        "combos": []
+    },
+    "鐮鼬龍王": {
+        "outline": "",
+        "moves": [
+            {
+                "name": "側甩尾",
+                "preaction": "",
+                "action": "",
+                "recovery": "",
+                "note": "",
+                "image": "https://drive.google.com/uc?export=download&id=1WFjWmVtd7CSTWLw4O_Nvus7GDZTY6l8A",
+                "onlyincombo": false
+            },
+            {
+                "name": "前甩尾",
+                "preaction": "",
+                "action": "",
+                "recovery": "",
+                "note": "",
+                "image": "https://drive.google.com/uc?export=download&id=1rTj93nRBTpvt7zMI0vceQG5J67NPXEeH",
+                "onlyincombo": false
+            },
+            {
+                "name": "迴旋甩尾",
+                "preaction": "",
+                "action": "",
+                "recovery": "",
+                "note": "",
+                "image": "https://drive.google.com/uc?export=download&id=1sDMRWLy9VJNnpI6W2WERR_uGGBKkWAZk",
+                "onlyincombo": false
+            }
+        ],
+        "combos": []
+    },
+    "人魚龍": {
+        "outline": "",
+        "moves": [
+            {
+                "name": "吐息",
+                "preaction": "",
+                "action": "",
+                "recovery": "",
+                "note": "",
+                "image": "https://drive.google.com/uc?export=download&id=1dwWZDQPvZvZ0FXbVpMo1qGk9o-_EEcWm",
+                "onlyincombo": false
+            },
+            {
+                "name": "蓄力拍",
+                "condition": "站立時",
+                "preaction": "",
+                "action": "",
+                "recovery": "",
+                "note": "",
+                "image": "https://drive.google.com/uc?export=download&id=1hsZnfbsTstHJjsjfYTodGTvox7u-BV1u",
+                "onlyincombo": false
+            },
+            {
+                "name": "二連拍",
+                "preaction": "",
+                "action": "",
+                "recovery": "",
+                "note": "",
+                "image": "https://drive.google.com/uc?export=download&id=1V-wjQxiF3cXI8DysxBtgxV-E7aTc30id",
+                "onlyincombo": false
+            },
+            {
+                "name": "下壓",
+                "condition": "站立時",
+                "preaction": "",
+                "action": "",
+                "recovery": "",
+                "note": "",
+                "image": "https://drive.google.com/uc?export=download&id=13dd8RDiVSSwMA8tqevQDS8XKambogNIP",
+                "onlyincombo": false
+            },
+            {
+                "name": "玩手機",
+                "preaction": "",
+                "action": "",
+                "recovery": "",
+                "note": "",
+                "image": "https://drive.google.com/uc?export=download&id=1E9aMZvuqvqlOo-5qAREuhP2KS9CZzfyX",
+                "onlyincombo": false
+            }
+        ],
+        "combos": []
+    },
+    "雷狼龍": {
+        "outline": "",
+        "moves": [
+            {
+                "name": "龍吼",
+                "preaction": "",
+                "action": "",
+                "recovery": "",
+                "note": "",
+                "image": "",
+                "onlyincombo": false
+            },
+            {
+                "name": "前頂",
+                "preaction": "",
+                "action": "",
+                "recovery": "",
+                "note": "",
+                "image": "",
+                "onlyincombo": false
+            },
+            {
+                "name": "鐵山靠",
+                "preaction": "",
+                "action": "",
+                "recovery": "",
+                "note": "",
+                "image": "",
+                "onlyincombo": false
+            },
+            {
+                "name": "蓄力鐵山靠",
+                "preaction": "",
+                "action": "",
+                "recovery": "",
+                "note": "",
+                "image": "",
+                "onlyincombo": false
+            },
+            {
+                "name": "後跳撲",
+                "preaction": "",
+                "action": "",
+                "recovery": "",
+                "note": "",
+                "image": "",
+                "onlyincombo": true
+            },
+            {
+                "name": "小甩尾",
+                "preaction": "",
+                "action": "",
+                "recovery": "",
+                "note": "",
+                "image": "",
+                "onlyincombo": true
+            },
+            {
+                "name": "強蓄電",
+                "preaction": "",
+                "action": "",
+                "recovery": "",
+                "note": "",
+                "image": "",
+                "onlyincombo": true
+            },
+            {
+                "name": "快速拳",
+                "preaction": "",
+                "action": "",
+                "recovery": "",
+                "note": "",
+                "image": "",
+                "onlyincombo": true
+            },
+            {
+                "name": "蓄力拳",
+                "preaction": "",
+                "action": "",
+                "recovery": "",
+                "note": "",
+                "image": "",
+                "onlyincombo": true
+            },
+            {
+                "name": "托馬斯",
+                "preaction": "",
+                "action": "",
+                "recovery": "",
+                "note": "",
+                "image": "",
+                "onlyincombo": false
+            },
+            {
+                "name": "二連灌籃",
+                "condition": "超電",
+                "preaction": "",
+                "action": "",
+                "recovery": "",
+                "note": "玩家超過三人時會變三連灌籃。",
+                "image": "",
+                "onlyincombo": false
+            },
+            {
+                "name": "尾砸",
+                "preaction": "",
+                "action": "",
+                "recovery": "",
+                "note": "",
+                "image": "",
+                "onlyincombo": true
+            },
+            {
+                "name": "背砸",
+                "preaction": "",
+                "action": "",
+                "recovery": "",
+                "note": "",
+                "image": "",
+                "onlyincombo": true
+            },
+            {
+                "name": "電球甩尾",
+                "preaction": "",
+                "action": "",
+                "recovery": "",
+                "note": "",
+                "image": "",
+                "onlyincombo": true
+            },
+            {
+                "name": "龍車",
+                "preaction": "",
+                "action": "",
+                "recovery": "",
+                "note": "",
+                "image": "",
+                "onlyincombo": false
+            }
+        ],
+        "combos": [
+            {
+                "root": 0,
+                "condition": "",
+                "nodes": [
+                    {
+                        "move": "前頂",
+                        "links": [
+                            {
+                                "node": 1,
+                                "condition": "身側"
+                            },
+                            {
+                                "node": 2,
+                                "condition": "身前"
+                            },
+                            {
+                                "node": 3,
+                                "condition": "身後"
+                            }
+                        ]
+                    },
+                    {
+                        "move": "鐵山靠",
+                        "links": []
+                    },
+                    {
+                        "move": "後跳撲",
+                        "links": [
+                            {
+                                "node": 4,
+                                "condition": "無帶電"
+                            },
+                            {
+                                "node": 5,
+                                "condition": "身側且超電"
+                            },
+                            {
+                                "node": 6,
+                                "condition": "身前且超電"
+                            }
+                        ]
+                    },
+                    {
+                        "move": "小甩尾",
+                        "links": [
+                            {
+                                "node": 7,
+                                "condition": "超電怒"
+                            }
+                        ]
+                    },
+                    {
+                        "move": "強蓄電",
+                        "links": []
+                    },
+                    {
+                        "move": "鐵山靠",
+                        "links": [
+                            {
+                                "node": 7,
+                                "condition": "超電怒"
+                            }
+                        ]
+                    },
+                    {
+                        "move": "蓄力拳",
+                        "links": [
+                            {
+                                "node": 8,
+                                "condition": "超電怒"
+                            }
+                        ]
+                    },
+                    {
+                        "move": "托馬斯",
+                        "links": []
+                    },
+                    {
+                        "move": "背砸",
+                        "links": []
+                    }
+                ]
+            },
+            {
+                "root": 0,
+                "condition": "",
+                "nodes": [
+                    {
+                        "move": "快速拳",
+                        "links": [
+                            {
+                                "node": 1,
+                                "condition": "身前且超電（機率）／超電怒（必出）"
+                            },
+                            {
+                                "node": 2,
+                                "condition": "身側且超電（機率）"
+                            }
+                        ]
+                    },
+                    {
+                        "move": "快速拳",
+                        "links": [
+                            {
+                                "node": 3,
+                                "condition": ""
+                            }
+                        ]
+                    },
+                    {
+                        "move": "快速拳",
+                        "links": [
+                            {
+                                "node": 5,
+                                "condition": ""
+                            }
+                        ]
+                    },
+                    {
+                        "move": "蓄力拳",
+                        "links": [
+                            {
+                                "node": 4,
+                                "condition": "超電怒"
+                            }
+                        ]
+                    },
+                    {
+                        "move": "背砸",
+                        "links": []
+                    },
+                    {
+                        "move": "尾砸",
+                        "links": [
+                            {
+                                "node": 6,
+                                "condition": ""
+                            }
+                        ]
+                    },
+                    {
+                        "move": "托馬斯",
+                        "links": [
+                            {
+                                "node": 4,
+                                "condition": "超電怒"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "root": 0,
+                "condition": "",
+                "nodes": [
+                    {
+                        "move": "飛撲",
+                        "links": [
+                            {
+                                "node": 1,
+                                "condition": "身前且超電"
+                            },
+                            {
+                                "node": 2,
+                                "condition": "身側且超電"
+                            },
+                            {
+                                "node": 3,
+                                "condition": "身後且超電"
+                            }
+                        ]
+                    },
+                    {
+                        "move": "快速拳",
+                        "links": [
+                            {
+                                "node": 4,
+                                "condition": ""
+                            }
+                        ]
+                    },
+                    {
+                        "move": "蓄力鐵山靠",
+                        "links": [
+                            {
+                                "node": 6,
+                                "condition": "超電怒"
+                            }
+                        ]
+                    },
+                    {
+                        "move": "小甩尾",
+                        "links": [
+                            {
+                                "node": 6,
+                                "condition": "超電怒"
+                            }
+                        ]
+                    },
+                    {
+                        "move": "蓄力拳",
+                        "links": [
+                            {
+                                "node": 5,
+                                "condition": "超電怒"
+                            }
+                        ]
+                    },
+                    {
+                        "move": "背砸",
+                        "links": []
+                    },
+                    {
+                        "move": "托馬斯",
+                        "links": []
+                    }
+                ]
+            },
+            {
+                "root": 0,
+                "condition": "",
+                "note": "超電怒連段中造成一定傷害就會出現反擊連段。",
+                "nodes": [
+                    {
+                        "move": "反擊後仰",
+                        "links": [
+                            {
+                                "node": 1,
+                                "condition": "近"
+                            },
+                            {
+                                "node": 2,
+                                "condition": "遠"
+                            }
+                        ]
+                    },
+                    {
+                        "move": "蓄力拳",
+                        "links": [
+                            {
+                                "node": 3,
+                                "condition": ""
+                            },
+                            {
+                                "node": 5,
+                                "condition": ""
+                            }
+                        ]
+                    },
+                    {
+                        "move": "飛撲",
+                        "links": [
+                            {
+                                "node": 4,
+                                "condition": "身前"
+                            },
+                            {
+                                "node": 7,
+                                "condition": "身側"
+                            }
+                        ]
+                    },
+                    {
+                        "move": "蓄力拳",
+                        "links": [
+                            {
+                                "node": 4,
+                                "condition": ""
+                            }
+                        ]
+                    },
+                    {
+                        "move": "蓄力拳",
+                        "links": []
+                    },
+                    {
+                        "move": "尾砸",
+                        "links": [
+                            {
+                                "node": 6,
+                                "condition": ""
+                            }
+                        ]
+                    },
+                    {
+                        "move": "背砸",
+                        "links": []
+                    },
+                    {
+                        "move": "托馬斯",
+                        "links": [
+                            {
+                                "node": 4,
+                                "condition": ""
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "root": 0,
+                "condition": "超電",
+                "nodes": [
+                    {
+                        "move": "電球甩尾",
+                        "links": [
+                            {
+                                "node": 1,
+                                "condition": "機率"
+                            }
+                        ]
+                    },
+                    {
+                        "move": "電球甩尾",
+                        "links": []
+                    }
+                ]
+            },
+            {
+                "root": 0,
+                "condition": "",
+                "nodes": [
+                    {
+                        "move": "尾拍",
+                        "links": [
+                            {
+                                "node": 1,
+                                "condition": "擊中且超電"
+                            },
+                            {
+                                "node": 4,
+                                "condition": "側身且超電"
+                            },
+                            {
+                                "node": 6,
+                                "condition": "未擊中且超電"
+                            }
+                        ]
+                    },
+                    {
+                        "move": "尾砸",
+                        "links": [
+                            {
+                                "node": 2,
+                                "condition": ""
+                            }
+                        ]
+                    },
+                    {
+                        "move": "龍車",
+                        "links": [
+                            {
+                                "node": 3,
+                                "condition": "超電怒"
+                            }
+                        ]
+                    },
+                    {
+                        "move": "背砸",
+                        "links": []
+                    },
+                    {
+                        "move": "鐵山靠",
+                        "links": [
+                            {
+                                "node": 5,
+                                "condition": ""
+                            }
+                        ]
+                    },
+                    {
+                        "move": "托馬斯",
+                        "links": []
+                    },
+                    {
+                        "move": "小甩尾",
+                        "links": [
+                            {
+                                "node": 5,
+                                "condition": ""
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}
