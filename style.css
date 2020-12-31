@@ -97,6 +97,13 @@ var{
   .panel-text-title{
      font-size: 1.5rem;
   }
+  .panel-text-special{
+    position: absolute; 
+    text-align:right;
+     top : 5px;
+     right: 10px;
+     font-size: 1rem;
+  }
   
 
   
@@ -117,12 +124,11 @@ var{
     padding-top: 10px; 
     padding-bottom: 10px; 
   }
-
+  
   .moveimage{
     max-width:640px;
     width:auto;
     height:480;
-    align-items: center;
   }  
   text{
     width:10px; 
@@ -168,6 +174,7 @@ var{
     padding:1vw;
     border-radius : 2vw;
   }
+  
   .panel-block{
     padding:0.5vw;
     margin: 0.5vw;
@@ -191,7 +198,13 @@ var{
   .panel-text-title{
      font-size:  6rem;
   }
-
+  .panel-text-special{
+    position: absolute; 
+    text-align:right;
+     top : 1vw;
+     right: 1vw;
+     font-size: 2rem;
+  }
   
 
   #layer2-grid{
@@ -203,16 +216,15 @@ var{
     padding-top: 5px; 
     padding-bottom: 5px; 
   }
-
    .combo-condition-text{
-     font-size: 2rem;
+     font-size: 3rem;
   }
 
 
 
   text{
     width:10px; 
-    font-size: 10px;
+    font-size: 11px;
   }
 }
 
@@ -250,12 +262,25 @@ var{
   text-align:center;
   font-weight:bold;
 }
+
+.panel-text-special{
+  position: absolute; 
+  text-align:right;
+}
 #monimage{
   display: block;
   margin-left: auto;
   margin-right: auto;
   max-width: 80%;
   height: 30vh;
+}
+#monicon{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+  width:auto;
+  height:90%;
 }
 
 

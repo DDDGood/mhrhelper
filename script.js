@@ -151,6 +151,9 @@ function SetMon(key) {
     SetElementById('nameen', monObj.nameEN);
     SetElementById('spacies', monObj.spacies);
 
+    var icon = document.getElementById('monicon');
+    icon.setAttribute("src", monObj.icon);
+
     var image = document.getElementById('monimage');
     image.setAttribute("src", monObj.image);
 
