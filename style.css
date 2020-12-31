@@ -3,6 +3,11 @@ html {
   font-size: 1vw;
 }
 
+body{
+
+  margin:  0px;
+}
+
 td{ text-align: center;}
 
 table,
@@ -68,7 +73,10 @@ var{
     font-size: 1rem;
   }
 
-  
+  #panel-basicinfo{
+    padding:0.5vw;
+    border-radius : 0.5vw;
+  }
   .panel-block{
     margin: 5px;
   }
@@ -90,6 +98,7 @@ var{
      font-size: 1.5rem;
   }
   
+
   
   #layer2-grid{
     display: grid;
@@ -104,17 +113,36 @@ var{
     grid-row-start: 1;
   }
   
+  .flexboxrow{
+    padding-top: 10px; 
+    padding-bottom: 10px; 
+  }
+
   .moveimage{
     max-width:640px;
     width:auto;
     height:480;
     align-items: center;
   }  
+  text{
+    width:10px; 
+    font-size: 16px;
+  }
 }
 
 
 /* phones */
 @media (max-width: 1199.98px) { 
+
+  h1{
+    font-size: 5rem;
+  } 
+  h2{
+    font-size: 4rem;
+  } 
+  h3{
+    font-size: 3rem;
+  }
 
   table {
     width: 100%;
@@ -135,6 +163,11 @@ var{
     align-items: center;
   }
 
+  #panel-basicinfo{
+    width:stretch;
+    padding:1vw;
+    border-radius : 2vw;
+  }
   .panel-block{
     margin: 0.5vw;
   }
@@ -155,21 +188,29 @@ var{
   .panel-text-title{
      font-size:  6rem;
   }
-   .combo-condition-text{
-     font-size: 1rem;
-  }
 
-  #panel-basicinfo{
-    width:stretch;
-    padding:0vw;
-  }
   
 
- #layer2-grid{
+  #layer2-grid{
     display: grid;
     grid-template-columns: 1fr;
   }
 
+  .flexboxrow{
+    padding-top: 5px; 
+    padding-bottom: 5px; 
+  }
+
+   .combo-condition-text{
+     font-size: 2rem;
+  }
+
+
+
+  text{
+    width:10px; 
+    font-size: 12px;
+  }
 }
 
 
@@ -177,8 +218,6 @@ var{
 
 #panel-basicinfo{
   background-color: #4B9AFF;
-  padding:0.5vw;
-  border-radius : 0.5vw;
 }
 .panel-row{
   display:flex; 
@@ -213,7 +252,7 @@ var{
   margin-left: auto;
   margin-right: auto;
   max-width: 80%;
-  max-height: 30vh;
+  height: 30vh;
 }
 
 
@@ -221,8 +260,6 @@ var{
   display:flex; 
   flex-direction: row;
   align-items: center;
-  padding-top: 10px; 
-  padding-bottom: 10px; 
   position:relative;
 }
 .flexboxcolumn{
@@ -237,10 +274,9 @@ var{
     display: flex;
     background-color: #BDD5FF;
     border: 1px solid #333;
-    border-radius : 10px;
-    margin-left: 2vw;
-    margin-right: 2vw;
+    border-radius : 5px;
     padding : 5px;
+    white-space:nowrap
   }
   .combo-condition-container-normal{
     border-radius : 10px;
@@ -256,7 +292,7 @@ var{
 
 
 #combos{
- /*position:relative;*/
+ position:relative;
  height:auto;
  width:100%;
 }
@@ -265,7 +301,7 @@ var{
 
  /*   SVG   */
 svg{
- position:absolute;
+ position: absolute;
  top: 0;
  left: 0;
  pointer-events: none;
@@ -283,8 +319,6 @@ line{
 text{
  position:absolute;
  text-anchor : middle;
- width:10px; 
- font-size: 2rem;
 }
 .svgTextSmaill{
  font-size: 12px;

@@ -264,6 +264,9 @@ function SetMon(key) {
 
                 var rootFlex = CreateClassElement("button", "flexitem", move.name);
                 rootFlex.setAttribute("onclick", "OnClickMoveButton(this)");
+                var marginLeftVW = 2;
+                var marginLeftPX = Math.ceil((window.innerWidth * marginLeftVW / 100));
+                rootFlex.style.marginLeft = marginLeftPX + "px";
                 nodeFlex.appendChild(rootFlex);
             }
         }
@@ -389,19 +392,23 @@ function AppendNode(node, container, nodeList, condition) {
 
     var maxConditionTextLength = 0;
     for (var link of node.links) {
-
         var linkNodeID = link.node;
         var linkNode = nodeList[linkNodeID];
         if (link.condition && link.condition.length > 0) {
             maxConditionTextLength = link.condition.length;
         }
-
         AppendNode(linkNode, linksFlex, nodeList, link.condition);
     }
 
+    var marginLeftVW = 2;
+    var marginRightVW = 2;
     if (maxConditionTextLength > 0) {
-        rootFlex.style.marginRight = Math.min(Math.max(maxConditionTextLength * 2, 2), 16) + "vw";
+        marginRightVW = Math.min(Math.max(maxConditionTextLength * 2.5, 2), 20);
     }
+    var marginLeftPX = Math.ceil((window.innerWidth * marginLeftVW / 100));
+    var marginRightPX = Math.ceil((window.innerWidth * marginRightVW / 100));
+    rootFlex.style.marginLeft = marginLeftPX + "px";
+    rootFlex.style.marginRight = marginRightPX + "px";
 }
 
 function FindOrAddComboConditionContainer(condition) {
