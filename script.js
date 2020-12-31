@@ -403,7 +403,7 @@ function AppendNode(node, container, nodeList, condition) {
     var marginLeftVW = 2;
     var marginRightVW = 2;
     if (maxConditionTextLength > 0) {
-        marginRightVW = Math.min(Math.max(maxConditionTextLength * 2.5, 2), 20);
+        marginRightVW = Math.min(Math.max(maxConditionTextLength * 2, 2), 18);
     }
     var marginLeftPX = Math.ceil((window.innerWidth * marginLeftVW / 100));
     var marginRightPX = Math.ceil((window.innerWidth * marginRightVW / 100));

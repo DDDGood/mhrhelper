@@ -169,13 +169,16 @@ var{
     border-radius : 2vw;
   }
   .panel-block{
+    padding:0.5vw;
     margin: 0.5vw;
   }
   .panel-block-1{
+    padding:0.5vw;
     margin: 0.5vw;
     border-radius : 2vw;
   }
   .panel-block-2{
+    padding:0.5vw;
     margin: 0.5vw;
     border-radius : 2vw;
   }
@@ -209,7 +212,7 @@ var{
 
   text{
     width:10px; 
-    font-size: 12px;
+    font-size: 10px;
   }
 }
 
