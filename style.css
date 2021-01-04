@@ -165,7 +165,9 @@ var{
      width :  25%;
   }
   
-
+  #combos{
+    width:95vw;
+   }
   
   .moveimage{
   align-items: center;
@@ -383,7 +385,6 @@ tfoot {
 #combos{
  position:relative;
  height:auto;
- width:95vw;
  overflow:auto;
  /* box-shadow:0px 0px 0px 2px black inset; */
 }
