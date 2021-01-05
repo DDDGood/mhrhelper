@@ -65,36 +65,42 @@ var{
   }
 
   #panel-basicinfo{
-    padding:0.5vw;
-    border-radius : 0.5vw;
+    padding:4px;
+    border-radius : 4px;
     width: 100%;
   }
+  .margin{
+    margin: 4px;
+  }
   .panel-block{
-    margin: 5px;
   }
   .panel-block-1{
-    margin: 5px;
     border-radius : 5px;
   }
   .panel-block-2{
-    margin: 5px;
     border-radius : 5px;
   }
+  .panel-block-1 + .panel-block-1{
+    margin-left: 4px;
+  }
+  .panel-block-2 + .panel-block-2{
+    margin-left: 4px;
+  }
   .panel-text{
-     font-size: 1rem;
+     font-size: 14px;
   }
   .panel-text-bold{
-     font-size: 1rem;
+     font-size: 14px;
   }
   .panel-text-title{
-     font-size: 1.5rem;
+     font-size: 22px;
   }
   .panel-text-special{
     position: absolute; 
     text-align:right;
      top : 5px;
      right: 10px;
-     font-size: 1rem;
+     font-size: 10px;
   }
   
 
@@ -105,11 +111,13 @@ var{
   }
   .grid-area-main{    
     grid-column-start: 1;
-    grid-row-start: 1;
+    grid-row-start: 1; 
+    margin: 8px;
   }
   .grid-area-right{
     grid-column-start: 2;
     grid-row-start: 1;
+    margin: 8px;
   }
   
 
@@ -184,22 +192,34 @@ var{
 
   #panel-basicinfo{
     width:stretch;
-    padding:2px;
+    /* padding:2px; */
     border-radius : 4px;
+    margin: 0px;
+    padding-top:2px;
+    padding-bottom:2px;
   }
   
+  .margin{
+    margin: 4px;
+  }
+  .panel-row{
+    /* box-shadow:0px 0px 0px 2px green inset; */
+  }
   .panel-block{
-    padding:2px;
-    margin: 2px;
+    /* padding:2px; */
   }
   .panel-block-1{
     padding:2px;
-    margin: 2px;
     border-radius : 4px;
   }
+.panel-block-1 + .panel-block-1{
+  margin-left: 4px;
+}
+.panel-block-2 + .panel-block-2{
+  margin-left: 4px;
+}
   .panel-block-2{
     padding:2px;
-    margin: 2px;
     border-radius : 4px;
   }
   .panel-text{
@@ -289,6 +309,7 @@ details[open] > summary:after {
   display:flex; 
   flex-direction: row;
   align-items: stretch;
+  justify-content:space-around;
 }
 .panel-block{
   flex: 1;
@@ -323,7 +344,6 @@ details[open] > summary:after {
   margin-left: auto;
   margin-right: auto;
   max-width: 80%;
-  height: 30vh;
 }
 #monicon{
   display: block;

@@ -171,7 +171,7 @@ function SetMon(key) {
     if (monObj.hasOwnProperty("weakness")) {
         if (monObj.weakness.hasOwnProperty("weapon")) {
             for (var weakPart of monObj.weakness.weapon) {
-                var row = CreateClassElement("div", "panel-block-1 panel-row");
+                var row = CreateClassElement("div", "panel-block-1 panel-row margin");
                 var name = CreateClassElement("div", "panel-block panel-text", weakPart.part);
                 var cut = CreateClassElement("div", "panel-block panel-text", ParseStars(weakPart.cut));
                 var blunt = CreateClassElement("div", "panel-block panel-text", ParseStars(weakPart.blunt));
