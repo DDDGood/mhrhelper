@@ -182,7 +182,7 @@ function SetMon(key) {
                 row.appendChild(ammo);
                 weaponBlock.appendChild(row);
             }
-            weaponBlock.style.paddingBottom = "2px";
+            // weaponBlock.style.paddingBottom = "2px";
         }
         if (monObj.weakness.hasOwnProperty("element")) {
             var elementData = {
