@@ -59,7 +59,10 @@ var{
    button {
     font-size: 1rem;
   }
-
+  .header2{
+    font-size: 28px;
+    padding: 24px;
+  }
 
   #panel-basicinfo{
     padding:0.5vw;
@@ -153,6 +156,7 @@ var{
 
   .header2{
     font-size: 18px;
+    padding: 16px;
   }
 
   table {
@@ -199,20 +203,20 @@ var{
     border-radius : 4px;
   }
   .panel-text{
-     font-size: 3rem;
+     font-size: 14px;
   }
   .panel-text-bold{
-     font-size:  3rem;
+     font-size: 14px;
   }
   .panel-text-title{
-     font-size:  6rem;
+     font-size:  24px;
   }
   .panel-text-special{
     position: absolute; 
     text-align:right;
      top : 2px;
      right: 4px;
-     font-size: 2rem;
+     font-size: 12px;
   }
   
 
@@ -238,10 +242,8 @@ var{
     margin-bottom: 8px;
   }
    .combo-condition-text{
-     font-size: 3rem;
+     font-size: 12px;
   }
-
-
 
   text{
     width:10px; 
@@ -252,6 +254,11 @@ var{
 
 #page-content{
   padding:0px;
+}
+
+.header2{
+  font-weight: bold;
+  border-bottom: 1px solid rgb(199, 199, 199);
 }
 
 summary {

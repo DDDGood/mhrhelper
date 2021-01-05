@@ -2,6 +2,7 @@
 <html>
 
 <head>
+   <title>MHRise魔物筆記</title>
    <base target="_top" />
    <link rel="stylesheet" type="text/css" href="style.css" />
    <script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
@@ -177,23 +178,26 @@
          </div>
          <div class="grid-area-main">
             <p id="breakables"></p>
-            <h3>詳細肉質</h3>
-            <table id="table_hitdata">
-               <tbody id="tbody_hitdata">
-                  <tr class="panel-text-bold">
-                     <th>部位</th>
-                     <th>狀態</th>
-                     <th>斬</th>
-                     <th>打</th>
-                     <th>彈</th>
-                     <th>火</th>
-                     <th>水</th>
-                     <th>雷</th>
-                     <th>冰</th>
-                     <th>龍</th>
-                  </tr>
-               </tbody>
-            </table>
+            <details open>
+               <summary class="header2">詳細肉質</summary>
+               <table id="table_hitdata">
+                  <tbody id="tbody_hitdata">
+                     <tr class="panel-text-bold">
+                        <th>部位</th>
+                        <th>狀態</th>
+                        <th>斬</th>
+                        <th>打</th>
+                        <th>彈</th>
+                        <th>火</th>
+                        <th>水</th>
+                        <th>雷</th>
+                        <th>冰</th>
+                        <th>龍</th>
+                     </tr>
+                  </tbody>
+               </table>
+            </details>
+
 
             <div id="divmoves">
                <details open>
