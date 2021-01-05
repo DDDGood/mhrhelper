@@ -10,39 +10,51 @@
     "weakness": {
       "weapon": [
         {
-          "part": null,
-          "cut": 0,
-          "blunt": 0,
-          "ammo": 0
+          "part": "頭",
+          "cut": 2,
+          "blunt": 2,
+          "ammo": 2
+        },
+        {
+          "part": "腹部、後脚",
+          "cut": 3,
+          "blunt": 3,
+          "ammo": 1
+        },
+        {
+          "part": "上半身",
+          "cut": 1,
+          "blunt": 1,
+          "ammo": 3
         }
       ],
       "element": [
         {
           "condition": "normal",
-          "fire": 0,
+          "fire": 3,
           "water": 0,
-          "thunder": 0,
-          "ice": 0,
+          "thunder": 1,
+          "ice": 1,
           "dragon": 0
         }
       ],
       "aliment": [
         {
           "condition": "normal",
-          "poison": 0,
-          "sleep": 0,
-          "paralysis": 0,
-          "blast": 0,
-          "stun": 0
+          "poison": 3,
+          "sleep": 3,
+          "paralysis": 3,
+          "blast": 2,
+          "stun": 3
         }
       ],
       "item": [
         {
           "condition": "normal",
-          "pitfalltrap": 0,
-          "shocktrap": 0,
-          "flashpod": 0,
-          "screamerpod": 0
+          "pitfalltrap": 2,
+          "shocktrap": 2,
+          "flashpod": 2,
+          "screamerpod": 2
         }
       ]
     },
@@ -129,9 +141,9 @@
       }
     ],
     "trait": {
-      "roar": null,
-      "tremer": null,
-      "wind": null
+      "roar": "無",
+      "tremer": "無",
+      "wind": "無"
     }
   },
   "白電龍": {
