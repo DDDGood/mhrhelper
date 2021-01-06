@@ -6,13 +6,15 @@
    <LINK REL="SHORTCUT ICON" HREF="/favicon.ico">
    <base target="_top" />
    <link rel="stylesheet" type="text/css" href="style.css" />
+   <link rel="stylesheet" type="text/css" href="style_mobile.css" />
+   <link rel="stylesheet" type="text/css" href="style_desktop.css" />
    <script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
    <script type="text/javascript" src="script.js"></script>
    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=0">
 </head>
 
 <body>
-   <h1>MHHelper</h1>
+   <div class="header1">MHRise Helper</div>
 
    <!--
     <div>
@@ -24,15 +26,17 @@
      -->
 
    <div id="topbar">
-      <button width="20%" class="topbarbtn" id="topbarlayer0" onclick="OnSelectLayer(0)">全部類型</button>
-      <button width="20%" class="topbarbtn" id="topbarlayer1" onclick="OnSelectLayer(1)">魔物列表</button>
-      <button width="20%" class="topbarbtn" id="topbarlayer2" onclick="OnSelectLayer(2)">魔物名稱</button>
+      <button class="topbarbtn" id="topbarlayer0" onclick="OnSelectLayer(0)">全部類型</button>
+      <div class="topbarlink" id="topbarlink01"> > </div>
+      <button class="topbarbtn" id="topbarlayer1" onclick="OnSelectLayer(1)">魔物列表</button>
+      <div class="topbarlink" id="topbarlink12"> > </div>
+      <button w class="topbarbtn" id="topbarlayer2" onclick="OnSelectLayer(2)">魔物名稱</button>
    </div>
 
 
 
    <div id="layer0">
-      <h3>種類</h3>
+      <div class="header2">種類</div>
       <div id="spacieslist">
          <!--
                    <button class="btnspacies" onclick="SetSpacies('全部')">全部</button>
@@ -56,7 +60,7 @@
    </div>
 
    <div id="layer1">
-      <h3>列表</h3>
+      <div class="header2">列表</div>
       <div id="monlist"></div>
    </div>
 
@@ -184,7 +188,7 @@
          <div class="grid-area-main">
             <p id="breakables"></p>
             <details open>
-               <summary class="header2">詳細肉質</summary>
+               <summary class="header2">詳細肉質(目前為舊版資訊)</summary>
                <table id="table_hitdata">
                   <tbody id="tbody_hitdata">
                      <tr class="panel-text-bold">
@@ -232,6 +236,45 @@
       </div>
 
 
+   </div>
+
+   <div id="panel-moveinfo">
+      <div class="panel-row margin">
+         <div id="moveinfo-title" class="panel-text-title">招式名稱</div>
+      </div>
+      <div class="panel-row margin">
+         <div class="panel-block-1">
+            <div class="panel-text">暫無影片</div>
+            <video id="moveinfo-video" width="100%">
+               <source />
+            </video>
+         </div>
+      </div>
+      <div class="panel-row margin">
+         <div class="panel-block-2 panel-text-bold" style="display:flex; align-items: center;  justify-content:center;">
+            預兆
+            <div id="moveinfo-preaction" class="panel-block-1 panel-text  margin">硬直</div>
+         </div>
+      </div>
+      <div class="panel-row margin">
+         <div class="panel-block-2 panel-text-bold" style="display:flex; align-items: center; justify-content:center;">
+            動作
+            <div id="moveinfo-action" class="panel-block-1 panel-text  margin">硬直</div>
+         </div>
+      </div>
+      <div class="panel-row margin">
+         <div class="panel-block-2 panel-text-bold" style="display:flex; align-items: center; justify-content:center;">
+            硬直
+            <div id="moveinfo-recovery" class="panel-block-1 panel-text  margin">硬直</div>
+         </div>
+      </div>
+      <div class="panel-row margin">
+         <div class="panel-block-2 panel-text-bold" style="display:flex; align-items: center; justify-content:center;">
+            備註
+            <div id="moveinfo-note" class="panel-block-1 panel-text  margin">
+               -</div>
+         </div>
+      </div>
    </div>
 
 

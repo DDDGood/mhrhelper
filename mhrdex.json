@@ -1623,7 +1623,7 @@
     "nameEN": "Tobi-Kadachi",
     "spacies": "牙龍種",
     "image": "https://oyster.ignimgs.com/mediawiki/apis.ign.com/monster-hunter-world/4/43/MHW-Tobi-Kadachi_Render_001_copy.jpg",
-    "image (copy)": "https://oyster.ignimgs.com/mediawiki/apis.ign.com/monster-hunter-world/3/36/Tobi-Kadachi25.jpg",
+    "icon": "https://oyster.ignimgs.com/mediawiki/apis.ign.com/monster-hunter-world/3/36/Tobi-Kadachi25.jpg",
     "breakables": "頭、尾",
     "trait": {
       "roar": "小",

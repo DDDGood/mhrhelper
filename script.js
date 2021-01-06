@@ -6,6 +6,8 @@ var layer2;
 var topbarlayer0;
 var topbarlayer1;
 var topbarlayer2;
+var topbarlink01;
+var topbarlink12;
 var svg;
 var moveInfo;
 
@@ -104,10 +106,15 @@ function onDexLoaded(tmsg) {
             }
             spaciesDictionary[mon.spacies].push(key);
         }
-        var btn = document.createElement("BUTTON");
-        btn.innerHTML = key;
+        var btn = CreateClassElement("BUTTON", "button-mon");
+        // btn.innerHTML = key;
         btn.setAttribute("onclick", "SetMon('" + key + "')");
-        btn.className = "btnmon";
+        var btnicon = new Image();
+        btnicon.className = "image-button-mon-icon";
+        btnicon.src = mon.icon;
+        var btnText = CreateClassElement("div", "text-button-mon-name", key);
+        btn.appendChild(btnicon);
+        btn.appendChild(btnText);
         monlist.appendChild(btn);
     }
 
@@ -132,7 +139,7 @@ function SetSpacies(key) {
         if (key === '全部') {
             btn.style.display = "inline";
         } else {
-            if (dexObj[btn.innerHTML].spacies === key)
+            if (dexObj[btn.children[1].innerHTML].spacies === key)
                 btn.style.display = "inline";
             else
                 btn.style.display = "none";
@@ -454,34 +461,76 @@ function OnClickMoveButton(btn) {
         return;
 
     var panel = GetMoveInfoPanel();
-    panel.innerHTML = "";
     panel.style.display = "block";
     panel.style.top = window.pageYOffset + 200 + "px";
     panel.addEventListener("click", OnClickCloseMoveInfo);
 
-    var title = CreateSimpleElement("p", "招式: " + move.name);
-    panel.appendChild(title);
+    SetElementById("moveinfo-title", move.name);
+    // panel.appendChild(title);
     //  var image = CreateClassElement("img","moveimage");
     //  image.setAttribute('src', move.image);
 
-    var video = CreateClassElement("video", "move-video");
-    video.setAttribute("preload", "auto");
-    video.setAttribute("autoplay", "autoplay");
-    video.setAttribute("loop", "loop");
-    video.setAttribute("type", "video/mp4");
-    var source = CreateSimpleElement("source");
-    source.setAttribute("src", move.image);
-    video.appendChild(source);
-    panel.appendChild(video);
+    var video = document.getElementById("moveinfo-video");
+    var altText = video.previousElementSibling;
+    if (IsNullOrEmpty(move.image)) {
+        video.style.display = "none";
+        altText.style.display = "block";
+    } else {
+        video.style.display = "block";
+        altText.style.display = "none";
+        video.setAttribute("preload", "auto");
+        video.setAttribute("autoplay", "autoplay");
+        video.setAttribute("loop", "loop");
+        video.setAttribute("type", "video/mp4");
+        // video.removeChild(video.children[0]);
+        // video.innerHTML = "";
+        var source = video.children[0];
+        source.setAttribute("src", move.image);
+        video.load();
+        video.play();
+    }
 
-    var preaction = CreateSimpleElement("p", "預兆: " + move.preaction);
-    panel.appendChild(preaction);
-    var action = CreateSimpleElement("p", "動作: " + move.action);
-    panel.appendChild(action);
-    var recovery = CreateSimpleElement("p", "硬直: " + move.recovery);
-    panel.appendChild(recovery);
-    var note = CreateSimpleElement("p", "備註: " + move.note);
-    panel.appendChild(note);
+
+    var preaction = document.getElementById("moveinfo-preaction");
+    if (!IsNullOrEmpty(move.preaction)) {
+        preaction.parentNode.style.display = "flex";
+        preaction.innerHTML = move.preaction;
+    } else
+        preaction.parentNode.style.display = "none";
+
+    var action = document.getElementById("moveinfo-action");
+    if (!IsNullOrEmpty(move.action)) {
+        action.parentNode.style.display = "flex";
+        action.innerHTML = move.action;
+    } else
+        action.parentNode.style.display = "none";
+
+    var recovery = document.getElementById("moveinfo-recovery");
+    if (!IsNullOrEmpty(move.recovery)) {
+        recovery.parentNode.style.display = "flex";
+        recovery.innerHTML = move.recovery;
+    } else
+        recovery.parentNode.style.display = "none";
+
+    var note = document.getElementById("moveinfo-note");
+    if (!IsNullOrEmpty(move.note)) {
+        note.parentNode.style.display = "flex";
+        note.innerHTML = move.note;
+    } else
+        note.parentNode.style.display = "none";
+
+    // SetElementById("moveinfo-action", move.action);
+    // SetElementById("moveinfo-recovery", move.recovery);
+    // SetElementById("moveinfo-note", move.note);
+
+    // var preaction = CreateSimpleElement("p", "預兆: " + move.preaction);
+    // panel.appendChild(preaction);
+    // var action = CreateSimpleElement("p", "動作: " + move.action);
+    // panel.appendChild(action);
+    // var recovery = CreateSimpleElement("p", "硬直: " + move.recovery);
+    // panel.appendChild(recovery);
+    // var note = CreateSimpleElement("p", "備註: " + move.note);
+    // panel.appendChild(note);
 
 }
 
@@ -502,6 +551,8 @@ function OnSelectLayer(layer, label) {
             topbarlayer1.style.display = "none";
             topbarlayer2.style.display = "none";
             topbarlayer0.style.background = '#4CAF50';
+            topbarlayer0.nextElementSibling.style.display = "none";
+            topbarlayer1.nextElementSibling.style.display = "none";
             break;
         case 1:
             layer0.style.display = "none";
@@ -512,6 +563,8 @@ function OnSelectLayer(layer, label) {
             topbarlayer2.style.display = "none";
             topbarlayer0.style.background = '#333';
             topbarlayer1.style.background = '#4CAF50';
+            topbarlayer0.nextElementSibling.style.display = "flex";
+            topbarlayer1.nextElementSibling.style.display = "none";
             if (label)
                 topbarlayer1.innerHTML = label;
             break;
@@ -525,6 +578,8 @@ function OnSelectLayer(layer, label) {
             topbarlayer0.style.background = '#333';
             topbarlayer1.style.background = '#333';
             topbarlayer2.style.background = '#4CAF50';
+            topbarlayer0.nextElementSibling.style.display = "flex";
+            topbarlayer1.nextElementSibling.style.display = "flex";
             if (label)
                 topbarlayer2.innerHTML = label;
             break;
@@ -619,8 +674,7 @@ function SetElementById(id, innerHTML) {
 
 function GetMoveInfoPanel() {
     if (moveInfo === undefined) {
-        moveInfo = CreateClassElement("div", "moveinfo");
-        layer2.appendChild(moveInfo);
+        moveInfo = document.getElementById("panel-moveinfo");
     }
 
     return moveInfo;
@@ -647,7 +701,6 @@ function IsNullOrEmpty(string) {
 }
 
 function CheckMobile() {
-    SetElementById("debug", window.innerWidth);
     return (window.innerWidth < 1200);
 }
 

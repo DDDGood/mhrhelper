@@ -1,0 +1,153 @@
+/* phones */
+@media (max-width: 1199.98px) { 
+
+  .topbarbtn {
+    font-size: 20px;
+    padding-top : 10px;
+    padding-bottom : 10px;
+    padding-left : 10px;
+    padding-right : 10px;
+  }
+  .topbarlink{
+    font-size: 20px;
+  }
+
+  .header1{
+    font-size: 24px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    margin: 4px;
+  }
+  .header2{
+    font-size: 18px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    margin: 8px;
+  }
+
+  table {
+    width:100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .btnspacies{
+    font-size: 16px;
+    border: 1px solid rgb(66, 66, 66);
+  }
+
+
+
+   #monlist{
+    justify-content:flex-start;
+    /* border : 2px double black; */
+  }
+  .button-mon{
+    width:72px;
+    height:72px;
+    border : 2px solid white;
+  }
+  .image-button-mon-icon{
+    width:40px;
+    height:40px;
+  }
+  .text-button-mon-name{
+    font-size: 12px;
+  }
+
+
+  #panel-basicinfo{
+    width:stretch;
+    /* padding:2px; */
+    border-radius : 4px;
+    margin: 0px;
+    padding-top:1px;
+    padding-bottom:1px;
+  }
+  
+
+  #panel-moveinfo{
+    top: 10%;
+    left: 13%;
+    width: 70%;
+    padding: 0%;	
+    border-radius : 4px;
+   }
+  .margin{
+    margin: 4px;
+  }
+  .panel-row{
+    /* box-shadow:0px 0px 0px 2px green inset; */
+  }
+  .panel-block{
+    /* padding:2px; */
+  }
+  .panel-block-1{
+    padding:2px;
+    border-radius : 4px;
+  }
+.panel-block-1 + .panel-block-1{
+  margin-left: 4px;
+}
+.panel-block-2 + .panel-block-2{
+  margin-left: 4px;
+}
+  .panel-block-2{
+    padding:2px;
+    border-radius : 4px;
+  }
+  .panel-text{
+     font-size: 14px;
+  }
+  .panel-text-bold{
+     font-size: 14px;
+  }
+  .panel-text-title{
+     font-size:  24px;
+  }
+  .panel-text-special{
+    position: absolute; 
+    text-align:right;
+     top : 2px;
+     right: 4px;
+     font-size: 12px;
+  }
+  
+
+  #layer2-grid{
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .grid-area-main{    
+    margin: 8px;
+  }
+  .grid-area-right{
+    margin: 8px;
+  }
+
+    
+  #combos{
+    width:95vw;
+   }
+  
+
+  .flexboxrow{
+    padding-top: 5px; 
+    padding-bottom: 5px; 
+  }  
+  .flexitem{
+    border-radius : 4px;
+    padding : 4px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    font-size: 14px;
+  }
+   .combo-condition-text{
+     font-size: 12px;
+  }
+
+  text{
+    width:10px; 
+    font-size: 10px;
+  }
+}
+
