@@ -16,7 +16,7 @@
 <body>
    <div class="wrapper">
 
-      <div class="header1">MHRise Helper</div>
+      <div class="header1" onclick="javascript:location.href='https://dddgood.github.io/mhrhelper/'">MHRise 魔物筆記</div>
 
       <!--
     <div>
@@ -28,7 +28,7 @@
      -->
 
       <div id="topbar">
-         <button class="topbarbtn" id="topbarlayer0" onclick="OnSelectLayer(0)">全部類型</button>
+         <button class="topbarbtn" id="topbarlayer0" onclick="OnSelectLayer(0)">魔物類型</button>
          <div class="topbarlink" id="topbarlink01"> > </div>
          <button class="topbarbtn" id="topbarlayer1" onclick="OnSelectLayer(1)">魔物列表</button>
          <div class="topbarlink" id="topbarlink12"> > </div>
@@ -38,31 +38,13 @@
 
 
       <div id="layer0">
-         <div class="header2">種類</div>
+         <div class="header3">種類</div>
          <div id="spacieslist">
-            <!--
-                   <button class="btnspacies" onclick="SetSpacies('全部')">全部</button>
-                   <button class="btnspacies" onclick="SetSpacies('飛龍種')">飛龍種</button>
-                   <button class="btnspacies" onclick="SetSpacies('獸龍種')">獸龍種</button>
-                   <button class="btnspacies" onclick="SetSpacies('海龍種')">海龍種</button>
-                   <button class="btnspacies" onclick="SetSpacies('鳥龍種')">鳥龍種</button>
-                   <button class="btnspacies" onclick="SetSpacies('魚龍種')">魚龍種</button>
-                   <button class="btnspacies" onclick="SetSpacies('牙龍種')">牙龍種</button>
-                   <button class="btnspacies" onclick="SetSpacies('蛇龍種')">蛇龍種</button>
-                   <button class="btnspacies" onclick="SetSpacies('古龍種')">古龍種</button>
-                   <button class="btnspacies" onclick="SetSpacies('兩生種')">兩生種</button>
-                   <button class="btnspacies" onclick="SetSpacies('牙獸種')">牙獸種</button>
-                   <button class="btnspacies" onclick="SetSpacies('甲殼種')">甲殼種</button>
-                   <button class="btnspacies" onclick="SetSpacies('甲蟲種')">甲蟲種</button>
-                   <button class="btnspacies" onclick="SetSpacies('鋏角種')">鋏角種</button>
-                   <button class="btnspacies" onclick="SetSpacies('其他種類')">其他種類</button>
-                   <button class="btnspacies" onclick="SetSpacies('二名魔物')">二名魔物</button>
-                   -->
          </div>
       </div>
 
       <div id="layer1">
-         <div class="header2">列表</div>
+         <div class="header3">列表</div>
          <div id="monlist"></div>
       </div>
 
@@ -70,8 +52,8 @@
          <div id="layer2-grid">
             <div class="grid-area-right">
                <div id="panel-basicinfo">
-                  <div class="panel-row margin">
-                     <div id="icon" class="panel-block" style=" flex:0.65; align-items: center; justify-content:center">
+                  <div id="panel-row-title" class="panel-row margin">
+                     <div id="panel-block-monicon">
                         <img id="monicon" src="" alt="icon" />
                      </div>
                      <div id="nameblock" class="panel-block-1" style="flex:2;">
@@ -299,7 +281,10 @@
       <div id="debug"></div>
 
    </div>
-   <footer></footer>
+   <footer>
+      <div class="footer-text unselectable">作者信箱：</div>
+      <div class="footer-text"> forever9409@gmail.com </div>
+   </footer>
 </body>
 
 

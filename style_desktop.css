@@ -15,6 +15,17 @@
     padding-bottom: 24px;
     margin: 12px;
   }
+  .header3{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  button:hover {
+    background-color: #4CAF50; /* Green */
+    color: white;
+  }
 
   .topbarbtn {
     font-size: 20px;
@@ -35,24 +46,26 @@
   }
   .flex-1{
     font-size: 18px;
+    height:80px;
   }
   .flex-2{
     font-size: 24px;
+    height:120px;
   }
-
   #monlist{ 
-    grid-template-columns: repeat(5, 1fr);
-    margin: 6px;
+    grid-template-columns: repeat(6, 1fr);
     /* border : 2px double black; */
   }
   .button-mon{
     /* width:72px;
     height:72px; */
-    margin: 6px;
+    padding-top: 8px;
+    padding-bottom: 8px;
   }
   .image-button-mon-icon{
     width:80px;
     height:80px;
+    border-radius: 8px;
   }
   .text-button-mon-name{
     font-size: 16px;
@@ -61,7 +74,9 @@
 
   
   #panel-basicinfo{
-    padding:4px;
+    /* padding:4px; */
+    padding-top:1px;
+    padding-bottom:1px;
     border-radius : 4px;
     width: 100%;
   }
@@ -75,6 +90,23 @@
    }
   .margin{
     margin: 4px;
+  }
+  #panel-row-title{
+    height: 60px;
+  }
+  #panel-block-monicon{
+    margin-right: 8px;
+    flex:0; 
+    width:56px; 
+    height :56px; 
+    align-items: center; 
+    justify-content:center;
+  }
+  #monicon{
+    display: block;
+    width: 60px;
+    height: 60px;
+    border-radius: 4px;
   }
   .panel-block{
   }

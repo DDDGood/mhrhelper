@@ -22,6 +22,14 @@ body{
 footer{
   height: 100px; /*設定footer本身高度*/
   background-color: #31363D;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer-text{
+  text-align: center;
+  color:white;
+  font-size: 12px;
 }
 
 
@@ -43,7 +51,28 @@ var{
   font-weight: bold;
   border-bottom: 1px solid rgb(199, 199, 199);
 }
+.header3{
+  font-weight: bold;
+  color:#31363D;
+}
 
+.unselectable {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+#layer0{
+  padding-left:12px;
+  padding-right:12px;
+}
+#layer1{
+  padding-left:12px;
+  padding-right:12px;
+}
 
 #topbar {
   display:flex;
@@ -51,9 +80,9 @@ var{
   position: sticky;
   top: 0; /* Position the navbar at the top of the page */
   width: 100%; /* Full width */
+  height:60px;
   background-color: #31363D; 
   z-index : 1;
-  margin-bottom: 12px;
 }
 
 .topbarlink{
@@ -64,6 +93,7 @@ var{
 }
 
 .topbarbtn {
+  font-family: Montserrat;
   border: none;
   background-color: #333; 
   color: white;
@@ -76,13 +106,12 @@ var{
 #spacieslist{
   display:  grid;
   justify-content:center;
-  margin: 8px;
+  grid-gap: 12px;
 }
 .btnspacies{
   white-space:nowrap;
   flex-grow : 0;
   word-wrap: normal;
-  margin: 6px;
   padding-top : 20px;
   padding-bottom : 20px;    
   background-color:  #E5E5E5;
@@ -102,6 +131,7 @@ var{
 
 #monlist{
   display: grid;
+  grid-gap: 12px;
   /* border : 2px double black; */
 }
 .button-mon{
@@ -143,6 +173,7 @@ details[open] > summary:after {
 }
 
 #panel-moveinfo{
+  display: none;
   position:absolute;
   background-color: #4B9AFF;
   box-shadow: 0px 0px 8px #969696;
@@ -189,15 +220,6 @@ details[open] > summary:after {
   margin-bottom: 10%;
   max-width: 80%;
   max-height: 30vh;
-}
-#monicon{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  align-items: center;
-  width:auto;
-  max-width: 90%;
-  height:auto;
 }
 
 
@@ -301,10 +323,6 @@ text{
 
 
 
-button:hover {
-  background-color: #4CAF50; /* Green */
-  color: white;
-}
 
 
 .moveinfo{
