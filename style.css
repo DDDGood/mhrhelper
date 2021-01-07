@@ -1,7 +1,27 @@
 
 
+@viewport {
+  width: device-width ;
+  zoom: 1.0 ;
+}
+
+
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
 body{
-  margin:  0px;
+  min-height: calc(100% - 100px); /*減去footer高度*/
+}
+.wrapper {
+  min-height: 100%;
+  margin-bottom: 50px;
+}
+footer{
+  height: 100px; /*設定footer本身高度*/
+  background-color: #31363D;
 }
 
 
@@ -9,13 +29,29 @@ var{
   display:none; 
 }
 
+#page-content{
+  padding:0px;
+}
+
+.header1{
+  font-weight: bold;
+  text-align: center;
+  font-family: montserrat;
+  color : #353535;
+}
+.header2{
+  font-weight: bold;
+  border-bottom: 1px solid rgb(199, 199, 199);
+}
+
+
 #topbar {
   display:flex;
   position: -webkit-sticky; /* Safari */
   position: sticky;
   top: 0; /* Position the navbar at the top of the page */
   width: 100%; /* Full width */
-  background-color: #333; 
+  background-color: #31363D; 
   z-index : 1;
   margin-bottom: 12px;
 }
@@ -37,49 +73,41 @@ var{
   padding-right : 10px;
 }
 
+#spacieslist{
+  display:  grid;
+  justify-content:center;
+  margin: 8px;
+}
 .btnspacies{
-  width :  20%;
+  white-space:nowrap;
+  flex-grow : 0;
+  word-wrap: normal;
+  margin: 6px;
   padding-top : 20px;
   padding-bottom : 20px;    
-  margin-right: 0px;
-  background-color:  rgb(241, 241, 241);
+  background-color:  #E5E5E5;
+  border: none;
+  border-radius: 6px;
+  color : 31363D;
+}
+.flex-1{
+
+}
+.flex-2{
+  grid-column-start: 1;
+  grid-column-end: 3;
 }
 
-
-
-@viewport {
-  width: device-width ;
-  zoom: 1.0 ;
-}
-
-
-
-
-
-
-#page-content{
-  padding:0px;
-}
-
-.header1{
-  font-weight: bold;
-  text-align: center;
-}
-.header2{
-  font-weight: bold;
-  border-bottom: 1px solid rgb(199, 199, 199);
-}
 
 
 #monlist{
-  width:stretch;
-  display: flex;
-  flex-wrap:wrap;
-  justify-content:flex-start;
+  display: grid;
   /* border : 2px double black; */
 }
 .button-mon{
-  background-color: rgb(241, 241, 241);
+  border-radius: 8px;
+  border: none;
+  background-color: #E5E5E5;
 }
 .image-button-mon-icon{
   margin-left:auto;
@@ -157,7 +185,10 @@ details[open] > summary:after {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 10%;
+  margin-bottom: 10%;
   max-width: 80%;
+  max-height: 30vh;
 }
 #monicon{
   display: block;

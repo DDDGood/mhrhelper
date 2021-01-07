@@ -13,10 +13,11 @@
   }
 
   .header1{
-    font-size: 24px;
     padding-top: 4px;
     padding-bottom: 4px;
     margin: 4px;
+    font-size: 24px;
+    line-height: 36px;
   }
   .header2{
     font-size: 18px;
@@ -30,21 +31,27 @@
     margin-left: auto;
     margin-right: auto;
   }
-  .btnspacies{
-    font-size: 16px;
-    border: 1px solid rgb(66, 66, 66);
+
+  #spacieslist{
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .flex-1{
+    font-size: 18px;
+  }
+  .flex-2{
+    font-size: 24px;
   }
 
 
-
-   #monlist{
-    justify-content:flex-start;
+   #monlist{ 
+    grid-template-columns: repeat(5, 1fr);
+    margin: 6px;
     /* border : 2px double black; */
   }
   .button-mon{
-    width:72px;
-    height:72px;
-    border : 2px solid white;
+    /* width:72px;
+    height:72px; */
+    margin: 6px;
   }
   .image-button-mon-icon{
     width:40px;

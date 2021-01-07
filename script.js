@@ -119,11 +119,11 @@ function onDexLoaded(tmsg) {
     }
 
     var spaciesList = document.getElementById('spacieslist');
-    var allSpaciesBtn = CreateClassElement("BUTTON", "btnspacies", "全部");
+    var allSpaciesBtn = CreateClassElement("BUTTON", "btnspacies flex-2", "全部");
     allSpaciesBtn.setAttribute("onclick", "SetSpacies('全部')");
     spaciesList.appendChild(allSpaciesBtn);
     for (var spacie in spaciesDictionary) {
-        var btn = CreateClassElement("BUTTON", "btnspacies", spacie);
+        var btn = CreateClassElement("BUTTON", "btnspacies flex-1", spacie);
         btn.setAttribute("onclick", "SetSpacies('" + spacie + "')");
         spaciesList.appendChild(btn);
     }
@@ -220,6 +220,17 @@ function SetMon(key) {
         }
     }
     //    SetElementById('breakables', "可破壞部位：" + monObj.breakables);
+
+    // description
+    if (!IsNullOrEmpty(monObj.description)) {
+        var descSpan = document.getElementById("description");
+        descSpan.innerHTML = "";
+        var descTexts = monObj.description.split("\n");
+        for (var text of descTexts) {
+            var p = CreateClassElement("p", "text-description", text);
+            descSpan.appendChild(p);
+        }
+    }
 
     //hit data
     var hdTableBody = document.getElementById('tbody_hitdata');
