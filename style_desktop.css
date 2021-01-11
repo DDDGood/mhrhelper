@@ -26,7 +26,9 @@
     background-color: #4CAF50; /* Green */
     color: white;
   }
-
+  #topbar {
+    padding-left : 150px;
+  }
   .topbarbtn {
     font-size: 20px;
     padding-top : 10px;
@@ -38,8 +40,19 @@
     font-size: 20px;
   }
 
+  #layer0{
+    padding-left:150px;
+    padding-right:150px;
+  }
+  #layer1{
+    padding-left:150px;
+    padding-right:150px;
+  }
+
+
   #spacieslist{
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
   }
   .btnspacies{
     
@@ -51,6 +64,8 @@
   .flex-2{
     font-size: 24px;
     height:120px;
+    grid-column-start: 1;
+    grid-column-end: 4;
   }
   #monlist{ 
     grid-template-columns: repeat(6, 1fr);

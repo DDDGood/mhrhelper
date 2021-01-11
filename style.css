@@ -65,21 +65,14 @@ var{
   user-select: none;
 }
 
-#layer0{
-  padding-left:12px;
-  padding-right:12px;
-}
-#layer1{
-  padding-left:12px;
-  padding-right:12px;
-}
+
 
 #topbar {
   display:flex;
   position: -webkit-sticky; /* Safari */
   position: sticky;
   top: 0; /* Position the navbar at the top of the page */
-  width: 100%; /* Full width */
+  width: stretch; /* Full width */
   height:60px;
   background-color: #31363D; 
   z-index : 1;
@@ -106,7 +99,6 @@ var{
 #spacieslist{
   display:  grid;
   justify-content:center;
-  grid-gap: 12px;
 }
 .btnspacies{
   white-space:nowrap;
@@ -123,8 +115,7 @@ var{
 
 }
 .flex-2{
-  grid-column-start: 1;
-  grid-column-end: 3;
+
 }
 
 
@@ -216,8 +207,8 @@ details[open] > summary:after {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 10%;
-  margin-bottom: 10%;
+  margin-top: 5%;
+  margin-bottom: 5%;
   max-width: 80%;
   max-height: 30vh;
 }

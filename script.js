@@ -51,8 +51,6 @@ function Initialize() {
     topbarlayer1.style.display = "none";
     topbarlayer2.style.display = "none";
 
-
-
     fetch('mhrdex.json')
         .then(res => {
             if (!res.ok) {
@@ -90,10 +88,7 @@ function Initialize() {
 }
 
 
-function onDexLoaded(tmsg) {
-
-    var div = document.getElementById('title');
-    div.innerHTML = "TEMP Title";
+function onDexLoaded() {
 
     var monlist = document.getElementById('monlist');
 
@@ -127,7 +122,15 @@ function onDexLoaded(tmsg) {
         btn.setAttribute("onclick", "SetSpacies('" + spacie + "')");
         spaciesList.appendChild(btn);
     }
-    OnSelectLayer(0);
+
+
+    let searchParams = new URLSearchParams(location.search);
+    let navMon = searchParams.get('mon');
+    if (dexObj.hasOwnProperty(navMon)) {
+        SetMon(navMon);
+    } else {
+        OnSelectLayer(0);
+    }
 }
 
 function SetSpacies(key) {
@@ -170,6 +173,8 @@ function SetMon(key) {
         SetElementById('roar', monObj.trait.roar);
         SetElementById('wind', monObj.trait.wind);
         SetElementById('tremer', monObj.trait.tremer);
+        SetElementById('element', monObj.trait.element);
+        SetElementById('aliment', monObj.trait.aliment);
     }
     var weaponBlock = document.getElementById('weakness-weapon');
     while (weaponBlock.children.length > 1) {
@@ -222,13 +227,21 @@ function SetMon(key) {
     //    SetElementById('breakables', "可破壞部位：" + monObj.breakables);
 
     // description
+    var descSpan = SetElementById("description", "");
     if (!IsNullOrEmpty(monObj.description)) {
-        var descSpan = document.getElementById("description");
-        descSpan.innerHTML = "";
         var descTexts = monObj.description.split("\n");
         for (var text of descTexts) {
             var p = CreateClassElement("p", "text-description", text);
             descSpan.appendChild(p);
+        }
+    }
+    var detailSpan = SetElementById("detail", "");
+    // detail
+    if (!IsNullOrEmpty(monObj.detail)) {
+        var texts = monObj.detail.split("\n");
+        for (var text of texts) {
+            var p = CreateClassElement("p", "text-description", text);
+            detailSpan.appendChild(p);
         }
     }
 

@@ -1,6 +1,9 @@
 /* phones */
 @media (max-width: 1199.98px) { 
 
+  #topbar {
+    padding-left : 12px;
+  }
   .topbarbtn {
     font-size: 20px;
     padding-top : 10px;
@@ -38,8 +41,18 @@
     margin-right: auto;
   }
 
+  #layer0{
+    padding-left:12px;
+    padding-right:12px;
+  }
+  #layer1{
+    padding-left:12px;
+    padding-right:12px;
+  }
+
   #spacieslist{
     grid-template-columns: repeat(2, 1fr);
+    grid-gap: 12px;
   }
   .flex-1{
     font-size: 18px;
@@ -48,6 +61,8 @@
   .flex-2{
     font-size: 24px;
     height:120px;
+    grid-column-start: 1;
+    grid-column-end: 3;
   }
 
 
@@ -146,8 +161,6 @@
   }
   
 
-  #monicon{
-  }
 
   #layer2-grid{
     display: grid;
