@@ -129,7 +129,7 @@
         "combos": []
     },
     "泡狐龍": {
-        "outline": "泡狐龍在怒後顏色會變鮮豔，解鎖一些新招。怒後大概率會使用「洗澡」，進入泡泡狀態，身上冒小泡泡，部分攻擊會帶飄移。泡泡狀態下累積一定傷害會打出倒地硬直並解除該狀態。打破泡狐龍散出的紅色泡泡可以加攻擊力，綠色泡泡回血。",
+        "outline": "泡狐龍主要有四種狀態，戰鬥中隨時注意狀態轉換有助於判斷他的出招。\n 1. 普通狀態。\n 2. 憤怒狀態：普通狀態下，泡狐龍側跳+龍吼進入憤怒狀態。此時泡狐龍的顏色會變鮮豔，並解鎖一些新招式。\n 3. 泡泡狀態：憤怒狀態下，泡狐龍做出旋轉一圈半後跳回的「洗澡」動作，則會進入泡泡狀態。戰鬥中憤怒後通常會馬上洗澡進入泡泡狀態，其他時候如果泡狐龍憤怒下沒有泡泡，通常也很快會進行洗澡進入泡泡狀態。泡泡狀態下泡狐龍的部分招是會附帶飄移。對泡狐龍造成一定的傷害後會打出倒地硬直且解除泡泡狀態。\n 4. 疲勞狀態：戰鬥進行一段時間後泡狐龍會進入疲勞狀態，此時招式大多單一使用，且會銜接發呆動作。要注意的是發呆後會無預警龍車，貪刀難躲。龍車一次後就會滑倒。\n \n泡狐龍戰鬥中會甩出很多泡泡，碰到兩次後會讓角色變成打滑狀態，俗稱「皂滑弄人」XD。可用消散劑去除。\n打破泡狐龍散出的紅色泡泡可以加攻擊力，綠色泡泡回血。",
         "moves": [
             {
                 "name": "龍吼",
@@ -164,7 +164,7 @@
                 "preaction": "",
                 "action": "側向走五步",
                 "recovery": "",
-                "note": "",
+                "note": "似乎是退怒的動作之一，另一個是發呆。",
                 "image": "videos/泡狐龍/泡狐龍_散步.mp4",
                 "onlyincombo": false
             },
@@ -173,7 +173,7 @@
                 "preaction": "頭往左抬(他的右)",
                 "action": "快速往前小咬",
                 "recovery": "小",
-                "note": "憤怒後似乎只會用二連咬？",
+                "note": "",
                 "image": "videos/泡狐龍/泡狐龍_小咬.mp4",
                 "onlyincombo": false
             },
@@ -190,7 +190,7 @@
             {
                 "name": "二連咬",
                 "preaction": "頭往右抬(他的左)，若玩家距離遠會先往前走幾步靠近。",
-                "condition": "憤怒後",
+                "condition": "",
                 "action": "往前二連咬，向前位移，兩段判定。",
                 "recovery": "小",
                 "note": "",
@@ -202,14 +202,14 @@
                 "preaction": "身體往左後縮，張嘴蓄力",
                 "action": "逆時針甩尾，帶一段向前位移。散出泡泡。偏左方向有綠色泡泡。",
                 "recovery": "中",
-                "note": "憤怒後因為要飄移，若玩家太進會先拉開距離。",
+                "note": "憤怒後因為要飄移，若玩家太近會先拉開距離。",
                 "image": "videos/泡狐龍/泡狐龍_逆時針甩尾.mp4",
                 "onlyincombo": false
             },
             {
                 "name": "順時針甩尾",
                 "preaction": "身體往右後縮，張嘴蓄力",
-                "action": "順時針甩尾，不會位移。散出泡泡。偏右方向有綠色泡泡。",
+                "action": "順時針甩尾，不會位移。散出泡泡。偏右方向有紅色泡泡。",
                 "recovery": "大",
                 "note": "",
                 "image": "",
@@ -222,6 +222,15 @@
                 "recovery": "大",
                 "note": "有時會先快速繞行到玩家身側使用。",
                 "image": "",
+                "onlyincombo": false
+            },
+            {
+                "name": "飄移甩尾",
+                "preaction": "從遠處向玩家跳，帶一小段飄移。",
+                "action": "飄移滑行後，尾巴用力向前甩。",
+                "recovery": "大",
+                "note": "",
+                "image": "/videos/泡狐龍/泡狐龍_飄移甩尾.mp4",
                 "onlyincombo": false
             },
             {
@@ -243,13 +252,23 @@
                 "onlyincombo": false
             },
             {
+                "name": "下壓滑行",
+                "condition": "",
+                "preaction": "抬起身，雙手舉起。",
+                "action": "下壓後身體向前滑行一小段，散出泡泡。",
+                "recovery": "小",
+                "note": "遠距離較容易出。",
+                "image": "",
+                "onlyincombo": false
+            },
+            {
                 "name": "側跳",
                 "preaction": "",
                 "action": "翻身側跳，通常會甩出三顆泡泡。沒有的話可能是要龍吼。",
                 "recovery": "小",
                 "note": "通常作為連招起手。?有時也會二連側跳或來回側跳。",
                 "image": "videos/泡狐龍/泡狐龍_側跳.mp4",
-                "onlyincombo": false
+                "onlyincombo": true
             },
             {
                 "name": "繞後跳",
@@ -261,13 +280,13 @@
                 "onlyincombo": true
             },
             {
-                "name": "飄移甩尾",
-                "preaction": "從遠處向玩家跳，帶一小段飄移。",
-                "action": "側跳飄移滑行後，尾巴用力向前甩。",
-                "recovery": "大",
-                "note": "",
-                "image": "/videos/泡狐龍/泡狐龍_飄移甩尾.mp4",
-                "onlyincombo": true
+                "name": "後跳大泡泡",
+                "preaction": "",
+                "action": "往後跳並吐出一顆大泡泡",
+                "recovery": "小",
+                "note": "常作為連招的起手，較少單獨使用。",
+                "image": "",
+                "onlyincombo": false
             },
             {
                 "name": "吐水球",
@@ -276,13 +295,13 @@
                 "action": "",
                 "recovery": "大",
                 "note": "",
-                "image": "/videos/泡狐龍/泡狐龍_吐水球.mp4",
+                "image": "videos/泡狐龍/泡狐龍_吐水球.mp4",
                 "onlyincombo": false
             },
             {
                 "name": "十字噴水",
                 "preaction": "突然抬起身體向下噴水",
-                "condition": "皂滑弄人狀態?",
+                "condition": "憤怒後",
                 "action": "先從下到上噴水，接著隨機方向的橫掃噴水。",
                 "recovery": "小",
                 "note": "被第一下噴到就乖乖躺好不要馬上受身。",
@@ -292,19 +311,29 @@
             {
                 "name": "迴旋噴水",
                 "preaction": "下壓轉圈後，脖子朝後蓄力",
-                "action": "逆時針旋轉噴水，非泡泡狀態時是一圈，泡泡狀態兩圈後側跳。",
+                "action": "逆時針旋轉噴水，非泡泡狀態時是一圈，泡泡狀態兩圈，結束後側跳。",
                 "recovery": "大",
                 "note": "近距離可以往他身後鑽。遠距離各憑本事了XD動作開始時尾巴會指向最後側跳的位置。",
                 "image": "videos/泡狐龍/泡狐龍_迴旋噴水.mp4",
                 "onlyincombo": false
             },
             {
+                "name": "垂直噴水",
+                "condition": "",
+                "preaction": "怒前會龍車到玩家身後，怒後會繞後跳(沒泡泡)。",
+                "action": "繞到玩家身後，接著口中噴水由上至下。若是在泡泡狀態會飄移。",
+                "recovery": "大",
+                "note": "飄移的話盡量往他飄的反方向走位有機會躲掉",
+                "image": "",
+                "onlyincombo": false
+            },
+            {
                 "name": "滑行龍車",
-                "condition": "皂滑弄人狀態?",
+                "condition": "",
                 "preaction": "",
                 "action": "身體向前長距離滑行，身後留下綠色泡泡。會來回滑兩次，疲勞狀態下第一次就會跌倒。",
                 "recovery": "大",
-                "note": "",
+                "note": "注意疲勞狀態發呆後會無預警龍車。",
                 "image": "videos/泡狐龍/泡狐龍_滑行龍車.mp4",
                 "onlyincombo": false
             },
@@ -319,40 +348,11 @@
                 "onlyincombo": false
             },
             {
-                "name": "原地二連吐泡泡",
-                "preaction": "下壓轉圈後，沒有迴旋噴水?",
+                "name": "二連吐泡泡",
+                "preaction": "",
                 "action": "第一次三顆，第二次兩顆，位置交錯。",
                 "recovery": "小",
                 "note": "距離較遠時容易使出。",
-                "image": "",
-                "onlyincombo": false
-            },
-            {
-                "name": "垂直噴水",
-                "condition": "",
-                "preaction": "怒前會龍車到玩家身後，怒後會繞後跳(沒泡泡)。",
-                "action": "繞到玩家身後，接著口中噴水由上至下。若是在泡泡狀態會飄移。",
-                "recovery": "大",
-                "note": "飄移的話盡量往他飄的反方向走位有機會躲掉",
-                "image": "",
-                "onlyincombo": false
-            },
-            {
-                "name": "後跳大泡泡",
-                "preaction": "",
-                "action": "後跳，吐出一顆大泡泡",
-                "recovery": "小",
-                "note": "常作為連招的起手，較少單獨使用。",
-                "image": "",
-                "onlyincombo": false
-            },
-            {
-                "name": "下壓滑行",
-                "condition": "還有嗎？",
-                "preaction": "抬起身，雙手舉起。",
-                "action": "下壓，身體向前小幅度滑行，射出Y字型三個方向的泡泡",
-                "recovery": "小",
-                "note": "",
                 "image": "",
                 "onlyincombo": false
             }
@@ -379,76 +379,6 @@
             },
             {
                 "root": 0,
-                "condition": "",
-                "nodes": [
-                    {
-                        "move": "側跳",
-                        "links": [
-                            {
-                                "node": 1,
-                                "condition": "機率發生第二下"
-                            }
-                        ]
-                    },
-                    {
-                        "move": "側跳",
-                        "links": [
-                            {
-                                "node": 2,
-                                "condition": ""
-                            },
-                            {
-                                "node": 3,
-                                "condition": ""
-                            },
-                            {
-                                "node": 4,
-                                "condition": ""
-                            },
-                            {
-                                "node": 6,
-                                "condition": ""
-                            }
-                        ]
-                    },
-                    {
-                        "move": "尾勾",
-                        "links": [
-                            {
-                                "node": 5,
-                                "condition": "機率"
-                            }
-                        ]
-                    },
-                    {
-                        "move": "二連咬",
-                        "links": []
-                    },
-                    {
-                        "move": "八卦掌",
-                        "links": []
-                    },
-                    {
-                        "move": "尾勾",
-                        "links": []
-                    },
-                    {
-                        "move": "逆時針甩尾",
-                        "links": [
-                            {
-                                "node": 7,
-                                "condition": "機率"
-                            }
-                        ]
-                    },
-                    {
-                        "move": "順時針甩尾",
-                        "links": []
-                    }
-                ]
-            },
-            {
-                "root": 0,
                 "condition": "憤怒後",
                 "nodes": [
                     {
@@ -462,6 +392,112 @@
                     },
                     {
                         "move": "垂直噴水",
+                        "links": [
+                            {
+                                "condition": ""
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "root": 0,
+                "condition": "",
+                "nodes": [
+                    {
+                        "move": "繞後跳",
+                        "links": [
+                            {
+                                "node": 1,
+                                "condition": ""
+                            },
+                            {
+                                "node": 2,
+                                "condition": ""
+                            },
+                            {
+                                "node": 3,
+                                "condition": ""
+                            }
+                        ]
+                    },
+                    {
+                        "move": "八卦掌",
+                        "links": [
+                            {
+                                "condition": ""
+                            }
+                        ]
+                    },
+                    {
+                        "move": "尾勾",
+                        "links": [
+                            {
+                                "condition": ""
+                            }
+                        ]
+                    },
+                    {
+                        "move": "逆時針甩尾",
+                        "links": [
+                            {
+                                "condition": ""
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "root": 0,
+                "condition": "",
+                "nodes": [
+                    {
+                        "move": "側跳",
+                        "links": [
+                            {
+                                "node": 1,
+                                "condition": "往玩家靠近"
+                            },
+                            {
+                                "node": 2,
+                                "condition": ""
+                            },
+                            {
+                                "node": 3,
+                                "condition": ""
+                            },
+                            {
+                                "node": 4,
+                                "condition": ""
+                            }
+                        ]
+                    },
+                    {
+                        "move": "二連咬",
+                        "links": [
+                            {
+                                "condition": ""
+                            }
+                        ]
+                    },
+                    {
+                        "move": "飄移甩尾",
+                        "links": [
+                            {
+                                "condition": ""
+                            }
+                        ]
+                    },
+                    {
+                        "move": "逆時針甩尾",
+                        "links": [
+                            {
+                                "condition": ""
+                            }
+                        ]
+                    },
+                    {
+                        "move": "迴旋噴水",
                         "links": [
                             {
                                 "condition": ""

@@ -229,11 +229,7 @@ function SetMon(key) {
     // description
     var descSpan = SetElementById("description", "");
     if (!IsNullOrEmpty(monObj.description)) {
-        var descTexts = monObj.description.split("\n");
-        for (var text of descTexts) {
-            var p = CreateClassElement("p", "text-description", text);
-            descSpan.appendChild(p);
-        }
+        WriteDescriptionTexts(descSpan, monObj.description);
     }
     var detailSpan = SetElementById("detail", "");
     // detail
@@ -285,7 +281,10 @@ function SetMon(key) {
     if (movesObj.hasOwnProperty(key)) {
         divMoves.style.display = "block";
         currentMonMoves = movesObj[key];
-        SetElementById('moveoutline', currentMonMoves.outline);
+        var outlineSpan = SetElementById("moveoutline", "");
+        if (!IsNullOrEmpty(currentMonMoves.outline)) {
+            WriteDescriptionTexts(outlineSpan, currentMonMoves.outline);
+        }
 
         //combos
         SetMonCombos();
@@ -314,6 +313,14 @@ function SetMon(key) {
     }
 
     OnSelectLayer(2, monObj.nameTW);
+}
+
+function WriteDescriptionTexts(root, fullText) {
+    var descTexts = fullText.split("\n");
+    for (var text of descTexts) {
+        var p = CreateClassElement("p", "text-description", text);
+        root.appendChild(p);
+    }
 }
 
 function WriteWeaknessData(params) {

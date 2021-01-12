@@ -269,8 +269,9 @@ tfoot {
     border-radius : 10px;
   }
   .combo-condition-text{
+    text-align: center;
     top:0px;
-    left:4px;
+    /* left:4px; */
   }
   .movebutton-name{
     pointer-events: none;
