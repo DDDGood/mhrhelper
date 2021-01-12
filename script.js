@@ -376,8 +376,7 @@ function SetMonCombos() {
             else
                 normalCondition.appendChild(nodeFlex);
 
-            var rootFlex = CreateClassElement("button", "flexitem", move.name);
-            rootFlex.setAttribute("onclick", "OnClickMoveButton(this)");
+            var rootFlex = CreateMoveNode(move);
             var marginLeftVW = 2;
             var marginLeftPX = Math.ceil((window.innerWidth * marginLeftVW / 100));
             rootFlex.style.marginLeft = marginLeftPX + "px";
@@ -409,8 +408,12 @@ function AppendNode(node, container, nodeList, condition) {
     var nodeFlex = CreateClassElement("div", "flexboxrow");
     container.appendChild(nodeFlex);
 
-    var rootFlex = CreateClassElement("button", "flexitem", node.move);
-    rootFlex.setAttribute("onclick", "OnClickMoveButton(this)");
+    var move = currentMonMoves['moves'].find(x => x.name === node.move);
+    var rootFlex;
+    if (move === undefined)
+        rootFlex = CreateClassElement("button", "flexitem", node.move);
+    else
+        var rootFlex = CreateMoveNode(move);
     nodeFlex.appendChild(rootFlex);
 
     if (container.parentElement.id !== "combos") {
@@ -449,8 +452,8 @@ function AppendNode(node, container, nodeList, condition) {
         AppendNode(linkNode, linksFlex, nodeList, link.condition);
     }
 
-    var marginLeftVW = 3;
-    var marginRightVW = 3;
+    var marginLeftVW = 2;
+    var marginRightVW = 2;
     if (maxConditionTextLength > 0) {
         marginRightVW = Math.min(Math.max(maxConditionTextLength * 2.5, 2), 20);
     }
@@ -458,6 +461,21 @@ function AppendNode(node, container, nodeList, condition) {
     var marginRightPX = Math.ceil((window.innerWidth * marginRightVW / 100));
     rootFlex.style.marginLeft = marginLeftPX + "px";
     rootFlex.style.marginRight = marginRightPX + "px";
+}
+
+function CreateMoveNode(move) {
+    var moveFlex = CreateClassElement("button", "flexitem", "");
+    var moveName = CreateClassElement("div", "movebutton-name", move.name);
+    moveFlex.appendChild(moveName);
+    // 大硬直
+    if (move.recovery === "大") {
+        var tag = CreateClassElement("div", "movebutton-tag", "硬直大");
+        moveFlex.appendChild(tag);
+    }
+    moveFlex.onclick = function () {
+        OnClickMoveButton(move);
+    };
+    return moveFlex;
 }
 
 function FindOrAddComboConditionContainer(condition) {
@@ -477,9 +495,7 @@ function FindOrAddComboConditionContainer(condition) {
     return findContainer;
 }
 
-function OnClickMoveButton(btn) {
-
-    var move = currentMonMoves['moves'].find(x => x.name === btn.innerHTML);
+function OnClickMoveButton(move) {
 
     if (move === undefined)
         return;

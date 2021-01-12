@@ -256,7 +256,7 @@ tfoot {
   /* box-shadow:0px 0px 0px 2px blue inset; */
 }
   .flexitem{
-    display: flex;
+    /* display: flex; */
     background-color: #BDD5FF;
     border: 1px solid #333;
     white-space:nowrap
@@ -272,7 +272,16 @@ tfoot {
     top:0px;
     left:4px;
   }
-
+  .movebutton-name{
+    pointer-events: none;
+  }
+.movebutton-tag{
+  pointer-events: none;
+  background-color: #ffcf91;
+  border-radius: 4px;
+  font-size: 10px;
+  text-align: center;
+}
 
 #combos{
  position:relative;
