@@ -290,23 +290,23 @@ function SetMon(key) {
         SetMonCombos();
 
         //all moves
-        var smovesTableBody = document.getElementById('tbody_startermoves');
-        smovesTableBody.innerHTML = "";
-        for (var id = 0; id < currentMonMoves['moves'].length; id++) {
-            var move = currentMonMoves['moves'][id];
-            var trMove = CreateSimpleElement("tr", "");
-            var tdMoveName = CreateSimpleElement("td", move.name);
-            trMove.appendChild(tdMoveName);
-            var tdMovePre = CreateSimpleElement("td", move.preaction);
-            trMove.appendChild(tdMovePre);
-            var tdMoveAction = CreateSimpleElement("td", move.action);
-            trMove.appendChild(tdMoveAction);
-            var tdMoveRecovery = CreateSimpleElement("td", move.recovery);
-            trMove.appendChild(tdMoveRecovery);
-            var tdMoveNote = CreateSimpleElement("td", move.note);
-            trMove.appendChild(tdMoveNote);
-            smovesTableBody.appendChild(trMove);
-        }
+        // var smovesTableBody = document.getElementById('tbody_startermoves');
+        // smovesTableBody.innerHTML = "";
+        // for (var id = 0; id < currentMonMoves['moves'].length; id++) {
+        //     var move = currentMonMoves['moves'][id];
+        //     var trMove = CreateSimpleElement("tr", "");
+        //     var tdMoveName = CreateSimpleElement("td", move.name);
+        //     trMove.appendChild(tdMoveName);
+        //     var tdMovePre = CreateSimpleElement("td", move.preaction);
+        //     trMove.appendChild(tdMovePre);
+        //     var tdMoveAction = CreateSimpleElement("td", move.action);
+        //     trMove.appendChild(tdMoveAction);
+        //     var tdMoveRecovery = CreateSimpleElement("td", move.recovery);
+        //     trMove.appendChild(tdMoveRecovery);
+        //     var tdMoveNote = CreateSimpleElement("td", move.note);
+        //     trMove.appendChild(tdMoveNote);
+        //     smovesTableBody.appendChild(trMove);
+        // }
 
     } else {
         divMoves.style.display = "none";
