@@ -316,9 +316,9 @@ function SetMon(key) {
 }
 
 function WriteDescriptionTexts(root, fullText) {
-    var descTexts = fullText.split("\n");
+    var descTexts = fullText.split("\n", -1);
     for (var text of descTexts) {
-        var p = CreateClassElement("p", "text-description", text);
+        var p = CreateClassElement("p", "text-description", IsNullOrEmpty(text) ? "<br>" : text);
         root.appendChild(p);
     }
 }
@@ -453,7 +453,7 @@ function AppendNode(node, container, nodeList, condition) {
     for (var link of node.links) {
         var linkNodeID = link.node;
         var linkNode = nodeList[linkNodeID];
-        if (link.condition && link.condition.length > 0) {
+        if (link.condition && link.condition.length > maxConditionTextLength) {
             maxConditionTextLength = link.condition.length;
         }
         AppendNode(linkNode, linksFlex, nodeList, link.condition);
