@@ -234,11 +234,7 @@ function SetMon(key) {
     var detailSpan = SetElementById("detail", "");
     // detail
     if (!IsNullOrEmpty(monObj.detail)) {
-        var texts = monObj.detail.split("\n");
-        for (var text of texts) {
-            var p = CreateClassElement("p", "text-description", text);
-            detailSpan.appendChild(p);
-        }
+        WriteDescriptionTexts(detailSpan, monObj.detail);
     }
 
     //hit data
@@ -289,25 +285,6 @@ function SetMon(key) {
         //combos
         SetMonCombos();
 
-        //all moves
-        // var smovesTableBody = document.getElementById('tbody_startermoves');
-        // smovesTableBody.innerHTML = "";
-        // for (var id = 0; id < currentMonMoves['moves'].length; id++) {
-        //     var move = currentMonMoves['moves'][id];
-        //     var trMove = CreateSimpleElement("tr", "");
-        //     var tdMoveName = CreateSimpleElement("td", move.name);
-        //     trMove.appendChild(tdMoveName);
-        //     var tdMovePre = CreateSimpleElement("td", move.preaction);
-        //     trMove.appendChild(tdMovePre);
-        //     var tdMoveAction = CreateSimpleElement("td", move.action);
-        //     trMove.appendChild(tdMoveAction);
-        //     var tdMoveRecovery = CreateSimpleElement("td", move.recovery);
-        //     trMove.appendChild(tdMoveRecovery);
-        //     var tdMoveNote = CreateSimpleElement("td", move.note);
-        //     trMove.appendChild(tdMoveNote);
-        //     smovesTableBody.appendChild(trMove);
-        // }
-
     } else {
         divMoves.style.display = "none";
     }
@@ -318,8 +295,14 @@ function SetMon(key) {
 function WriteDescriptionTexts(root, fullText) {
     var descTexts = fullText.split("\n", -1);
     for (var text of descTexts) {
-        var p = CreateClassElement("p", "text-description", IsNullOrEmpty(text) ? "<br>" : text);
-        root.appendChild(p);
+        if (text.startsWith("[img]")) {
+            var img = CreateClassElement("img", "description-image");
+            img.setAttribute('src', text.substring(5));
+            root.appendChild(img);
+        } else {
+            var p = CreateClassElement("p", "description-text", IsNullOrEmpty(text) ? "<br>" : text);
+            root.appendChild(p);
+        }
     }
 }
 

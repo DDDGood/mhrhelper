@@ -171,9 +171,10 @@
     margin: 8px;
   }
 
-  .text-description{
+  .description-text{
+    margin:12px;
     font-size: 16px;
-    line-height: 18px;
+    line-height: 20px;
   }
   
 
