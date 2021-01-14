@@ -447,7 +447,7 @@
                             },
                             {
                                 "node": 2,
-                                "condition": "怒後高機率"
+                                "condition": ""
                             },
                             {
                                 "node": 3,
@@ -472,11 +472,11 @@
                         "links": []
                     },
                     {
-                        "move": "二連吐泡泡",
+                        "move": "迴旋噴水",
                         "links": []
                     },
                     {
-                        "move": "迴旋噴水",
+                        "move": "二連吐泡泡",
                         "links": []
                     },
                     {
@@ -541,16 +541,24 @@
                             },
                             {
                                 "node": 2,
-                                "condition": "落地後飄移"
+                                "condition": ""
                             },
                             {
                                 "node": 3,
+                                "condition": ""
+                            },
+                            {
+                                "node": 4,
                                 "condition": "較低機率"
                             }
                         ]
                     },
                     {
                         "move": "迴旋噴水",
+                        "links": []
+                    },
+                    {
+                        "move": "飄移尾砸",
                         "links": []
                     },
                     {
