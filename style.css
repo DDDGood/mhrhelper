@@ -145,6 +145,7 @@ var{
   text-align: center;
 }
 
+
 summary {
   outline: none;
 }
@@ -220,11 +221,15 @@ details[open] > summary:after {
   max-height: 30vh;
 }
 
+#monicon{
+  background-color: #eeeade;
+}
 
   
   .moveinfo-video{
     width :50%;
     align-items: center;
+    
   }
 
 th{
