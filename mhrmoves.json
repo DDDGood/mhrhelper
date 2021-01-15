@@ -8,7 +8,7 @@
                 "action": "",
                 "recovery": "",
                 "note": "",
-                "image": "https://drive.google.com/uc?export=download&id=1WFjWmVtd7CSTWLw4O_Nvus7GDZTY6l8A",
+                "image": "videos/鐮鼬龍王/鐮鼬龍王_側甩尾.mp4",
                 "onlyincombo": false
             },
             {
@@ -17,7 +17,7 @@
                 "action": "",
                 "recovery": "",
                 "note": "",
-                "image": "https://drive.google.com/uc?export=download&id=1rTj93nRBTpvt7zMI0vceQG5J67NPXEeH",
+                "image": "videos/鐮鼬龍王/鐮鼬龍王_前甩尾.mp4",
                 "onlyincombo": false
             },
             {
@@ -26,7 +26,7 @@
                 "action": "",
                 "recovery": "",
                 "note": "",
-                "image": "https://drive.google.com/uc?export=download&id=1sDMRWLy9VJNnpI6W2WERR_uGGBKkWAZk",
+                "image": "videos/鐮鼬龍王/鐮鼬龍王_迴旋甩尾.mp4",
                 "onlyincombo": false
             }
         ],
@@ -41,7 +41,7 @@
                 "action": "",
                 "recovery": "",
                 "note": "",
-                "image": "https://drive.google.com/uc?export=download&id=1dnDcPxGqjEnyPgIBwnjG8RVLw900Gllt",
+                "image": "videos/青熊獸/青熊獸_威嚇.mp4",
                 "onlyincombo": false
             },
             {
@@ -50,7 +50,7 @@
                 "action": "",
                 "recovery": "",
                 "note": "",
-                "image": "https://drive.google.com/uc?export=download&id=1enIZrK7m5uBv1SAyd14QREF4q_RwTF8d",
+                "image": "videos/青熊獸/青熊獸_威嚇2.mp4",
                 "onlyincombo": false
             },
             {
@@ -59,7 +59,7 @@
                 "action": "",
                 "recovery": "",
                 "note": "",
-                "image": "https://drive.google.com/uc?export=download&id=1RZqoqoP_M-5qcg40DzpxudQ7q79555-O",
+                "image": "videos/青熊獸/青熊獸_重揮.mp4",
                 "onlyincombo": false
             },
             {
@@ -68,7 +68,7 @@
                 "action": "",
                 "recovery": "",
                 "note": "",
-                "image": "https://drive.google.com/uc?export=download&id=1gQQuXxTAffOAjmiabHJwZgGp5X1sRQkY",
+                "image": "videos/青熊獸/青熊獸_連環巴掌.mp4",
                 "onlyincombo": false
             },
             {
@@ -77,7 +77,7 @@
                 "action": "",
                 "recovery": "",
                 "note": "",
-                "image": "https://drive.google.com/uc?export=download&id=1DlSaGBlMQWIe_h0F8sHfEoofqVAOTq_z",
+                "image": "videos/青熊獸/青熊獸_回首掏.mp4",
                 "onlyincombo": false
             },
             {
@@ -86,7 +86,7 @@
                 "action": "",
                 "recovery": "",
                 "note": "",
-                "image": "https://drive.google.com/uc?export=download&id=1K-IJeN-r6-1UauP42Gg8T13u6IPQNoK5",
+                "image": "videos/青熊獸/青熊獸_熊抱.mp4",
                 "onlyincombo": false
             },
             {
@@ -95,7 +95,7 @@
                 "action": "",
                 "recovery": "",
                 "note": "",
-                "image": "https://drive.google.com/uc?export=download&id=18WhBQC1_53zqyoBjn0oYjr50hne15c0A",
+                "image": "videos/青熊獸/青熊獸_前撲.mp4",
                 "onlyincombo": false
             },
             {
@@ -104,7 +104,7 @@
                 "action": "",
                 "recovery": "",
                 "note": "",
-                "image": "https://drive.google.com/uc?export=download&id=1k_c9TTTL3Rin3ZZCxjMrZSEhHahx5u6t",
+                "image": "videos/青熊獸/青熊獸_熊車.mp4",
                 "onlyincombo": false
             },
             {
@@ -113,7 +113,7 @@
                 "action": "",
                 "recovery": "",
                 "note": "方向修正強。",
-                "image": "https://drive.google.com/uc?export=download&id=1e4bBgjSjstAg7VuKJMlgTA4ySIicU0e4",
+                "image": "videos/青熊獸/青熊獸_下壓.mp4",
                 "onlyincombo": false
             },
             {
@@ -122,14 +122,18 @@
                 "action": "",
                 "recovery": "",
                 "note": "",
-                "image": "https://drive.google.com/uc?export=download&id=1-uSuT_ZRiP1P3hEXduENfggcFm1-Z2F0",
+                "image": "videos/青熊獸/青熊獸_捕食.mp4",
                 "onlyincombo": false
             }
         ],
         "combos": []
     },
     "雌火龍": {
-        "outline": "雌火龍主要有三種狀態：\n1. 普通狀態。\n2. 憤怒狀態：普通狀態下，雌火龍龍吼後進入憤怒狀態。口中含火是明顯的特徵，將會解鎖三連火球、蓄力火球、三連龍車等新招是，且後空翻後會銜接空中聯招。\n4. 疲勞狀態：戰鬥進行一段時間後雌火龍會進入疲勞狀態，流口水是明顯的特徵，不定時會原地發呆，不再起飛且火球會啞火，是進攻的好時機。\n\n雌火龍的招式硬直普遍較短，需多利用招式的盲區進行攻擊。注意唯一大硬直的後空翻動作在怒後高機率會連續使用。",
+        "outline": "雌火龍主要有三種狀態：\n1. 普通狀態。\n2. 憤怒狀態：普通狀態下，雌火龍龍吼後進入憤怒狀態。口中含火是明顯的特徵。火球將會變成三連火球，另外解鎖蓄力火球、三連龍車等新招式，且後空翻後會銜接空中連招。\n4. 疲勞狀態：戰鬥進行一段時間後雌火龍會進入疲勞狀態，流口水是明顯的特徵，不定時會原地發呆，不再起飛且火球會啞火，是進攻的好時機。\n\n雌火龍的招式硬直普遍較短，需多利用招式的盲區進行攻擊。注意唯一大硬直的後空翻動作在怒後高機率會連續使用。",
+        "reference": {
+            "MHRise Demo : Rathian Solo with Charge Blade": "https://youtu.be/H7m4VIzN_ZI",
+            "[MH RISE - Demo] Rathian - Charge Blade solo - [8'55] - Day 1": "https://youtu.be/EvrcTI-6lsQ"
+        },
         "moves": [
             {
                 "name": "龍吼",
@@ -784,7 +788,7 @@
                 "action": "",
                 "recovery": "",
                 "note": "",
-                "image": "https://drive.google.com/uc?export=download&id=1_q-GDK0I0YjGwlaojcnQZt7-vtZ7mAYj",
+                "image": "videos/河童蛙/河童蛙_威嚇.mp4",
                 "onlyincombo": false
             },
             {
@@ -793,7 +797,7 @@
                 "action": "",
                 "recovery": "",
                 "note": "",
-                "image": "https://drive.google.com/uc?export=download&id=1GrkaM_PMZNgBj1eXYDFUzMrZjsp0ivYJ",
+                "image": "videos/河童蛙/河童蛙_前咬.mp4",
                 "onlyincombo": false
             },
             {
@@ -802,7 +806,7 @@
                 "action": "",
                 "recovery": "",
                 "note": "",
-                "image": "https://drive.google.com/uc?export=download&id=1yV4POi6nYUnQjNfN4SeGwvVaaFS8Bp1S",
+                "image": "videos/河童蛙/河童蛙_重咬.mp4",
                 "onlyincombo": false
             },
             {
@@ -811,7 +815,7 @@
                 "action": "",
                 "recovery": "",
                 "note": "",
-                "image": "https://drive.google.com/uc?export=download&id=1bWYu54Yx4ZGNVSMYxtegJKcc0Aks-qVc",
+                "image": "videos/河童蛙/河童蛙_二連拍.mp4",
                 "onlyincombo": false
             },
             {
@@ -820,7 +824,7 @@
                 "action": "",
                 "recovery": "",
                 "note": "",
-                "image": "https://drive.google.com/uc?export=download&id=1ng6X-wCQVnhg51kSNCs0h2foip_ER-dH",
+                "image": "videos/河童蛙/河童蛙_熊抱.mp4",
                 "onlyincombo": false
             },
             {
@@ -829,7 +833,7 @@
                 "action": "",
                 "recovery": "",
                 "note": "高機率接大後搖的威嚇動作。",
-                "image": "https://drive.google.com/uc?export=download&id=1sLv_pfWsc9UIQNpbjSp9qAu30shygxGc",
+                "image": "videos/河童蛙/河童蛙_前撲.mp4",
                 "onlyincombo": false
             },
             {
@@ -838,7 +842,7 @@
                 "action": "",
                 "recovery": "",
                 "note": "高機率接大後搖的威嚇動作。",
-                "image": "https://drive.google.com/uc?export=download&id=1sZBM9Ezj63RpuuHmq86phMyj7rcX4RXy",
+                "image": "videos/河童蛙/河童蛙_前撲龍車.mp4",
                 "onlyincombo": false
             },
             {
@@ -847,7 +851,7 @@
                 "action": "",
                 "recovery": "",
                 "note": "",
-                "image": "https://drive.google.com/uc?export=download&id=1DeIQ6KZZztwQDXGn0TADYXi6T5TqdAC7",
+                "image": "videos/河童蛙/河童蛙_跳.mp4",
                 "onlyincombo": false
             },
             {
@@ -856,7 +860,7 @@
                 "action": "",
                 "recovery": "",
                 "note": "",
-                "image": "https://drive.google.com/uc?export=download&id=1PrTk_voC2jm6hWgNC77EydTTRwwIkE-R",
+                "image": "videos/河童蛙/河童蛙_吐痰.mp4",
                 "onlyincombo": false
             },
             {
@@ -865,7 +869,7 @@
                 "action": "",
                 "recovery": "",
                 "note": "最後會龍吼",
-                "image": "https://drive.google.com/uc?export=download&id=1PudTMwhn5RzlrijIKAgvsdqgBvXeDA5M",
+                "image": "videos/河童蛙/河童蛙_型態轉換.mp4",
                 "onlyincombo": false
             },
             {
@@ -875,7 +879,7 @@
                 "action": "",
                 "recovery": "",
                 "note": "",
-                "image": "https://drive.google.com/uc?export=download&id=1tlN4e4vkxwydxT8Yee1-E-tmPQM8OQ5y",
+                "image": "videos/河童蛙/河童蛙_肥宅威嚇.mp4",
                 "onlyincombo": false
             },
             {
@@ -885,7 +889,7 @@
                 "action": "",
                 "recovery": "",
                 "note": "",
-                "image": "https://drive.google.com/uc?export=download&id=17AsnWiQ2bu5v3OQb8L7v-iZh6MBogEJU",
+                "image": "videos/河童蛙/河童蛙_肥宅潑水.mp4",
                 "onlyincombo": false
             },
             {
@@ -895,7 +899,7 @@
                 "action": "",
                 "recovery": "",
                 "note": "",
-                "image": "https://drive.google.com/uc?export=download&id=1Nj7xo1XzQMpvDu_xw7hxubvHZWRRdPu0",
+                "image": "videos/河童蛙/河童蛙_肥宅吐痰.mp4",
                 "onlyincombo": false
             },
             {
@@ -905,7 +909,7 @@
                 "action": "",
                 "recovery": "大",
                 "note": "",
-                "image": "https://drive.google.com/uc?export=download&id=1QJeE9xTpajdvUei0E-ib_ZDmG9vOt6Fv",
+                "image": "videos/河童蛙/河童蛙_肥宅重壓.mp4",
                 "onlyincombo": false
             },
             {
@@ -915,7 +919,7 @@
                 "action": "",
                 "recovery": "大",
                 "note": "",
-                "image": "https://drive.google.com/uc?export=download&id=1f4k0wSIwc2F7FFeK6pvF0YH3-Zfao4II",
+                "image": "videos/河童蛙/河童蛙_肥宅側壓.mp4",
                 "onlyincombo": false
             },
             {
@@ -925,7 +929,7 @@
                 "action": "",
                 "recovery": "大",
                 "note": "",
-                "image": "https://drive.google.com/uc?export=download&id=1ftdiY1Tupk8Na0pTaRLUVjDiGnLxRKY-",
+                "image": "videos/河童蛙/河童蛙_肥宅狂奔.mp4",
                 "onlyincombo": false
             },
             {
@@ -935,7 +939,7 @@
                 "action": "",
                 "recovery": "大",
                 "note": "",
-                "image": "https://drive.google.com/uc?export=download&id=1lMIvfcLTL2jirnMCCU_V-WXPeoEcLhDE",
+                "image": "videos/河童蛙/河童蛙_肥宅跳.mp4",
                 "onlyincombo": false
             },
             {
@@ -945,7 +949,7 @@
                 "action": "",
                 "recovery": "大",
                 "note": "",
-                "image": "https://drive.google.com/uc?export=download&id=1lE9y37eoqQVyh2VRPN9V-hRHdLpnqc7D",
+                "image": "videos/河童蛙/河童蛙_肥宅捕食.mp4",
                 "onlyincombo": false
             }
         ],
@@ -960,7 +964,7 @@
                 "action": "頭往前伸，龍吼同時搖晃傘狀頭部。",
                 "recovery": "小",
                 "note": "",
-                "image": "https://drive.google.com/uc?export=download&id=1K9u40s0JQ7Ux1mtkdumT2bLtA2HV4B0Y",
+                "image": "videos/傘鳥/傘鳥_龍吼.mp4",
                 "onlyincombo": false
             },
             {
@@ -969,7 +973,7 @@
                 "action": "大範圍橫掃，身體會轉180度。",
                 "recovery": "小",
                 "note": "機率派生二連。",
-                "image": "https://drive.google.com/uc?export=download&id=1Y-ovKae2ufziF8YNPFCGiuSTOQFH4ey-",
+                "image": "videos/傘鳥/傘鳥_翅膀橫掃.mp4",
                 "onlyincombo": false
             },
             {
@@ -978,7 +982,7 @@
                 "action": "兩次後跳後，轉身上撩，攻擊方向大約是第一次後跳時離玩家近的翅膀所指的方向。",
                 "recovery": "中",
                 "note": "",
-                "image": "https://drive.google.com/uc?export=download&id=1HgtKg10Hcn74fF5llZrdq50qXU8pkH9W",
+                "image": "videos/傘鳥/傘鳥_後跳上撩.mp4",
                 "onlyincombo": false
             },
             {
@@ -987,7 +991,7 @@
                 "action": "先後跳踩踏，再接一個後踢。",
                 "recovery": "不太確定後面拜年動作",
                 "note": "",
-                "image": "https://drive.google.com/uc?export=download&id=1efBLdperIPyF1q00OnrkokbvMsXLKytG",
+                "image": "videos/傘鳥/傘鳥_後踢.mp4",
                 "onlyincombo": false
             },
             {
@@ -996,7 +1000,7 @@
                 "action": "單腳向前下踩。",
                 "recovery": "小",
                 "note": "",
-                "image": "https://drive.google.com/uc?export=download&id=1i2L7gbmuUDBlgMlNR_ko1Gre307d-fhI",
+                "image": "videos/傘鳥/傘鳥_跨步踩.mp4",
                 "onlyincombo": false
             },
             {
@@ -1005,7 +1009,7 @@
                 "action": "雙腳跳起往玩家方向踩下。",
                 "recovery": "小",
                 "note": "",
-                "image": "https://drive.google.com/uc?export=download&id=1TzcSJf2uUY1mB2XVM3j4SoKMKpOfbE5D",
+                "image": "videos/傘鳥/傘鳥_跳踩.mp4",
                 "onlyincombo": false
             },
             {
@@ -1014,7 +1018,7 @@
                 "action": "轉向玩家後頭砸",
                 "recovery": "小",
                 "note": "",
-                "image": "https://drive.google.com/uc?export=download&id=1TS_9WGWe0KUNzh5_n-nEhSxn3vnAn1vq",
+                "image": "videos/傘鳥/傘鳥_磕頭.mp4",
                 "onlyincombo": false
             },
             {
@@ -1023,7 +1027,7 @@
                 "action": "向前頭砸",
                 "recovery": "小",
                 "note": "",
-                "image": "https://drive.google.com/uc?export=download&id=1wjJiv_Uh6kK7t4x59rkGcW640MtjnUmE",
+                "image": "videos/傘鳥/傘鳥_跨步磕頭.mp4",
                 "onlyincombo": false
             },
             {
@@ -1032,7 +1036,7 @@
                 "action": "連續兩次頭下砸，第二次索敵很強。",
                 "recovery": "小",
                 "note": "似乎怒後高機率出，先一個跳步接二連磕頭。",
-                "image": "https://drive.google.com/uc?export=download&id=1joSQwgsNSEcEjkhuuq9wF_9qx3WWgwl8",
+                "image": "videos/傘鳥/傘鳥_二連磕頭.mp4",
                 "onlyincombo": false
             },
             {
@@ -1041,7 +1045,7 @@
                 "action": "後跳起飛，吐出中、左、右三顆火球。有時候會啞火？",
                 "recovery": "小",
                 "note": "",
-                "image": "https://drive.google.com/uc?export=download&id=1w-EsCm5iZ7GQOYx-qfoAbPIn6kJjb7y_",
+                "image": "videos/傘鳥/傘鳥_後跳起飛火球.mp4",
                 "onlyincombo": true
             },
             {
@@ -1050,7 +1054,7 @@
                 "action": "往側面迴旋兩圈後落地，轉圈時吐出火球。有時候會啞火？",
                 "recovery": "中",
                 "note": "",
-                "image": "https://drive.google.com/uc?export=download&id=1xEDsHsV_Y4aTxI-6qJzXeZg3z_ILaCcy",
+                "image": "videos/傘鳥/傘鳥_空中迴旋火球.mp4",
                 "onlyincombo": true
             },
             {
@@ -1059,7 +1063,7 @@
                 "action": "吐出一顆火球。",
                 "recovery": "小",
                 "note": "",
-                "image": "https://drive.google.com/uc?export=download&id=1EAUTMi2UvH9FTvJM8-VJ836zDPCT-A_R",
+                "image": "videos/傘鳥/傘鳥_火球.mp4",
                 "onlyincombo": false
             },
             {
@@ -1068,7 +1072,7 @@
                 "action": "吐出中、左、右三顆火球。有時候會啞火？",
                 "recovery": "大",
                 "note": "",
-                "image": "https://drive.google.com/uc?export=download&id=1oDIv5g89BYVjTV5N3kY5tfCTkctu312I",
+                "image": "videos/傘鳥/傘鳥_三連火球.mp4",
                 "onlyincombo": false
             },
             {
@@ -1077,7 +1081,7 @@
                 "action": "翅膀張開向前衝，S型前進",
                 "recovery": "大",
                 "note": "",
-                "image": "https://drive.google.com/uc?export=download&id=1AgBqTUjhCVf8im68Nl-Fnm-UF4OtTKHZ",
+                "image": "videos/傘鳥/傘鳥_開傘龍車.mp4",
                 "onlyincombo": false
             },
             {
@@ -1086,7 +1090,7 @@
                 "action": "翅膀張開向前衝，直線前進",
                 "recovery": "大",
                 "note": "",
-                "image": "https://drive.google.com/uc?export=download&id=1KEpuEQQJLzaKggpt08ZvRv9-2gtXPvyf",
+                "image": "videos/傘鳥/傘鳥_合傘龍車.mp4",
                 "onlyincombo": false
             }
         ],
@@ -1121,7 +1125,7 @@
                 "action": "",
                 "recovery": "",
                 "note": "",
-                "image": "https://drive.google.com/uc?export=download&id=1dwWZDQPvZvZ0FXbVpMo1qGk9o-_EEcWm",
+                "image": "videos/人魚龍/人魚龍_吐息.mp4",
                 "onlyincombo": false
             },
             {
@@ -1131,7 +1135,7 @@
                 "action": "",
                 "recovery": "",
                 "note": "",
-                "image": "https://drive.google.com/uc?export=download&id=1hsZnfbsTstHJjsjfYTodGTvox7u-BV1u",
+                "image": "videos/人魚龍/人魚龍_蓄力拍.mp4",
                 "onlyincombo": false
             },
             {
@@ -1140,7 +1144,7 @@
                 "action": "",
                 "recovery": "",
                 "note": "",
-                "image": "https://drive.google.com/uc?export=download&id=1V-wjQxiF3cXI8DysxBtgxV-E7aTc30id",
+                "image": "videos/人魚龍/人魚龍_二連拍.mp4",
                 "onlyincombo": false
             },
             {
@@ -1150,7 +1154,7 @@
                 "action": "",
                 "recovery": "",
                 "note": "",
-                "image": "https://drive.google.com/uc?export=download&id=13dd8RDiVSSwMA8tqevQDS8XKambogNIP",
+                "image": "videos/人魚龍/人魚龍_下壓.mp4",
                 "onlyincombo": false
             },
             {
@@ -1159,7 +1163,7 @@
                 "action": "",
                 "recovery": "",
                 "note": "",
-                "image": "https://drive.google.com/uc?export=download&id=1E9aMZvuqvqlOo-5qAREuhP2KS9CZzfyX",
+                "image": "videos/人魚龍/人魚龍_玩手機.mp4",
                 "onlyincombo": false
             }
         ],

@@ -339,4 +339,12 @@ text{
  padding: 2%;
 }
 
+#reference{
+display: grid;
+}
+.reference-link{
+/* display: block; */
+/* font-size: 10px; */
+}
+
 

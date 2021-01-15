@@ -106,7 +106,7 @@ function onDexLoaded() {
         btn.setAttribute("onclick", "SetMon('" + key + "')");
         var btnicon = new Image();
         btnicon.className = "image-button-mon-icon";
-        btnicon.src = mon.icon;
+        btnicon.src = IsNullOrEmpty(mon.icon) ? "images/icons/icon_unknown.png" : mon.icon;
         var btnText = CreateClassElement("div", "text-button-mon-name", key);
         btn.appendChild(btnicon);
         btn.appendChild(btnText);
@@ -164,7 +164,7 @@ function SetMon(key) {
     SetElementById('spacies', monObj.spacies);
 
     var icon = document.getElementById('monicon');
-    icon.setAttribute("src", monObj.icon);
+    icon.setAttribute("src", IsNullOrEmpty(monObj.icon) ? "images/icons/icon_unknown.png" : monObj.icon);
 
     var image = document.getElementById('monimage');
     image.setAttribute("src", monObj.image);
@@ -272,6 +272,17 @@ function SetMon(key) {
         hdTableBody.appendChild(trPart);
     }
 
+    var referenceDiv = document.getElementById('reference');
+    referenceDiv.innerHTML = "";
+    //reference
+    if (!IsNullOrEmpty(monObj.reference)) {
+        for (var key in monObj.reference) {
+            var link = CreateClassElement("a", "reference-link", key);
+            link.setAttribute("href", monObj.reference[key]);
+            referenceDiv.AppendNode(link);
+        }
+    }
+
     //moves
     var divMoves = document.getElementById('divmoves');
     if (movesObj.hasOwnProperty(key)) {
@@ -285,9 +296,20 @@ function SetMon(key) {
         //combos
         SetMonCombos();
 
+        //reference
+        if (!IsNullOrEmpty(currentMonMoves.reference)) {
+            for (var key in currentMonMoves.reference) {
+                var link = CreateClassElement("a", "reference-link", key);
+                link.setAttribute("href", currentMonMoves.reference[key]);
+                referenceDiv.appendChild(link);
+            }
+        }
+
     } else {
         divMoves.style.display = "none";
     }
+
+
 
     OnSelectLayer(2, monObj.nameTW);
 }
