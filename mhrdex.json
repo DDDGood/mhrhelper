@@ -1146,8 +1146,8 @@
       "roar": "小",
       "wind": "小",
       "tremer": "無",
-      "element": null,
-      "aliment": null
+      "element": "火",
+      "aliment": "燃燒、中毒"
     },
     "weakness": {
       "weapon": [
