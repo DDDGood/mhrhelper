@@ -33,7 +33,7 @@
         "combos": []
     },
     "青熊獸": {
-        "outline": "",
+        "outline": "若獵人身上有攜帶蜂蜜，青熊獸會在使用捕食攻擊後偷走並就地開吃。",
         "moves": [
             {
                 "name": "威嚇",
@@ -139,7 +139,7 @@
         "moves": [
             {
                 "name": "龍吼",
-                "preaction": "口中含火，身體抬起，頭向後蓄力",
+                "preaction": "身體抬起，頭向後蓄力，(憤怒時)口中含火。",
                 "action": "",
                 "recovery": "",
                 "note": "左腳向前踏是滾吼時機。雌火龍會在見面時、憤怒時、地盤爭奪時、換區時使用龍吼。",
@@ -151,7 +151,7 @@
                 "preaction": "前搖短不易觀察。",
                 "action": "",
                 "recovery": "",
-                "note": "(待觀察)空中使用龍吼代表要換區了。",
+                "note": "當觸發龍吼條件時雌火龍處於空中，則會進行空中龍吼。",
                 "image": "videos/雌火龍/雌火龍_空中龍吼.mp4",
                 "onlyincombo": false
             },
@@ -214,7 +214,7 @@
                 "name": "蓄力火球",
                 "condition": "憤怒後",
                 "preaction": "口中含火，整個身體向後蓄力，蓄力的時間比一般火球還長。",
-                "action": "蓄力火球落地後會在一個區域內留下火海，觸碰到會燃燒。",
+                "action": "蓄力火球落地後會爆炸產生範圍傷害並留下火海，觸碰到會燃燒。",
                 "recovery": "中",
                 "note": "",
                 "image": "videos/雌火龍/雌火龍_蓄力火球.mp4",
@@ -257,10 +257,37 @@
                 "recovery": "",
                 "note": "產生風壓。",
                 "image": "videos/雌火龍/雌火龍_起飛.mp4",
-                "onlyincombo": false
+                "onlyincombo": true
             }
         ],
         "combos": [
+            {
+                "root": 0,
+                "condition": "",
+                "nodes": [
+                    {
+                        "move": "起飛",
+                        "links": [
+                            {
+                                "node": 1,
+                                "condition": "目標距離近"
+                            },
+                            {
+                                "node": 2,
+                                "condition": "目標距離遠"
+                            }
+                        ]
+                    },
+                    {
+                        "move": "空中後空翻",
+                        "links": []
+                    },
+                    {
+                        "move": "空中龍車",
+                        "links": []
+                    }
+                ]
+            },
             {
                 "root": 0,
                 "condition": "憤怒後",
