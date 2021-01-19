@@ -1,0 +1,10 @@
+{
+    "測試礦石": {
+        "icon": "images/mapresources/testicon.png",
+        "description": "這是一項測試的資源。"
+    },
+    "測試龍骨": {
+        "icon": "images/mapresources/testicon2.png",
+        "description": "這是另一項測試的資源。"
+    }
+}

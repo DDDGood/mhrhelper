@@ -1,0 +1,61 @@
+
+
+@viewport {
+  width: device-width ;
+  zoom: 1.0 ;
+}
+
+
+#map{
+  position: relative;
+}
+
+#map-data{
+  position: absolute;
+  top:0;
+  left:0;
+}
+
+#resourse-list{
+  display: flex;
+}
+
+.resources-type-button{
+  display: flex;
+  width: 120px;
+  height: 24px;
+  border-radius: 4px;
+  border: 1px solid gray;
+  background-color: rgb(89, 226, 84);
+}
+.resources-type-icon{
+  widows: 20px;
+  height: 20px;
+}
+.resources-type-name{
+  pointer-events: none;
+  widows: 20px;
+  height: 20px;
+}
+
+.resources-button {
+  position:absolute;
+}
+.resources-icon{
+  pointer-events: none;
+  width: 100%;
+  height: 100%;
+}
+
+
+#infopanel{
+  display: none;
+  position:absolute;
+  background-color: #70C6E2;
+}
+
+var{
+  display:none; 
+}
+
+
