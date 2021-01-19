@@ -9,6 +9,8 @@ var containerDic = {};
 var RES_ICON_WIDTH_WINDOWS = 20;
 var RES_ICON_WIDTH_MOBILE = 20;
 
+var isEditMode = false;
+
 try {
     document.addEventListener("DOMContentLoaded", test);
 
@@ -58,6 +60,8 @@ function OnSelectMap(mapName) {
         .then(result => {
             mapData = result;
             SetMapData(mapData);
+            let mapImage = document.getElementById("map-image");
+            mapImage.onclick = OnClickMap;
         })
         .catch(error => {
 
@@ -114,7 +118,13 @@ function SetMapData(mapData) {
     }
 }
 
-
+function OnClickMap(event) {
+    // alert(event.clientX);
+    let button = document.getElementById("edit-add-button");
+    button.style.display = "block";
+    button.style.left = event.clientX + "px";
+    button.style.top = event.clientY + "px";
+}
 
 function OnSelectType(type) {
     var container = containerDic[type];

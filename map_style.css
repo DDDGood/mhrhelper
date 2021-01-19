@@ -54,6 +54,12 @@
   background-color: #70C6E2;
 }
 
+
+#edit-add-button{
+  display: none;
+  position:absolute;
+}
+
 var{
   display:none; 
 }
