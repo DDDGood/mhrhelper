@@ -33,76 +33,98 @@
         "combos": []
     },
     "青熊獸": {
-        "outline": "若獵人身上有攜帶蜂蜜，青熊獸會在使用捕食攻擊後偷走並就地開吃。",
+        "outline": "青熊獸大多招式的硬直都不大，且盲區多半在背後，戰鬥中的主要策略就是在他攻擊時往身後躲，迴避攻擊的同時還能針對他的主要弱點－屁股進行輸出。當玩家處在青熊獸身後時，只需特別注意回首掏以及屁股坐兩招針對後方的攻擊即可。\n另外需注意當青熊獸面對目標突然趴下時，極有可能銜接一些快速的撲擊動作。\n青熊獸憤怒時口中會冒白煙，疲勞時則會流口水，狀態對戰鬥招式的改變並不明顯，主要注意憤怒時連環巴掌最能連續四下、疲勞時熊車會滑倒。\n若獵人身上有攜帶蜂蜜，青熊獸會在使用捕食攻擊後偷走並就地開吃，是進攻的好機會。",
+        "reference": {
+            "21 Minutes of Monster Hunter Rise Dual Blades Gameplay | TGS 2020": "https://www.youtube.com/watch?v=PhxcYiAxbsM",
+            "魔物獵人崛起 Monster Hunter 太刀挑戰！镰鼬龙王! 青熊獸！《體驗版》": "https://youtu.be/-Cmu2rtA_JE"
+        },
         "moves": [
             {
                 "name": "威嚇",
                 "preaction": "",
                 "action": "",
                 "recovery": "",
-                "note": "",
+                "note": "基本的威嚇動作。無傷害判定。",
                 "image": "videos/青熊獸/青熊獸_威嚇.mp4",
                 "onlyincombo": false
             },
             {
-                "name": "威嚇2",
+                "name": "熊吼",
                 "preaction": "",
-                "action": "",
+                "action": "雙手上舉，張嘴大吼。(無吼叫判定)",
                 "recovery": "",
-                "note": "",
-                "image": "videos/青熊獸/青熊獸_威嚇2.mp4",
+                "note": "若口吐白煙表示進入憤怒狀態。",
+                "image": "videos/青熊獸/青熊獸_熊吼.mp4",
                 "onlyincombo": false
             },
             {
-                "name": "重揮",
-                "preaction": "",
-                "action": "",
-                "recovery": "",
+                "name": "巴掌",
+                "preaction": "雙手上舉",
+                "action": "向前方揮擊。",
+                "recovery": "小",
                 "note": "",
-                "image": "videos/青熊獸/青熊獸_重揮.mp4",
+                "image": "videos/青熊獸/青熊獸_巴掌.mp4",
                 "onlyincombo": false
             },
             {
                 "name": "連環巴掌",
-                "preaction": "",
-                "action": "",
-                "recovery": "",
-                "note": "",
+                "preaction": "雙手上舉",
+                "action": "連續揮動的巴掌攻擊。",
+                "recovery": "小",
+                "note": "怒前最高三下，怒後最高四下。",
                 "image": "videos/青熊獸/青熊獸_連環巴掌.mp4",
                 "onlyincombo": false
             },
             {
                 "name": "回首掏",
-                "preaction": "",
-                "action": "",
-                "recovery": "",
-                "note": "",
+                "preaction": "背對目標時彎下腰發力。",
+                "action": "轉過身來，雙手往後揮擊。",
+                "recovery": "小",
+                "note": "目標在身後時容易出。",
                 "image": "videos/青熊獸/青熊獸_回首掏.mp4",
                 "onlyincombo": false
             },
             {
+                "name": "屁股坐",
+                "preaction": "有挺胸扭臀的明顯動作。",
+                "action": "屁股向後頂並跌坐在地。",
+                "recovery": "大",
+                "note": "目標在身後時容易出。",
+                "image": "videos/青熊獸/青熊獸_屁股坐.mp4",
+                "onlyincombo": false
+            },
+            {
                 "name": "熊抱",
-                "preaction": "",
-                "action": "",
-                "recovery": "",
+                "preaction": "雙手往兩旁張開。",
+                "action": "雙手往前熊抱。",
+                "recovery": "小",
                 "note": "",
                 "image": "videos/青熊獸/青熊獸_熊抱.mp4",
                 "onlyincombo": false
             },
             {
                 "name": "前撲",
-                "preaction": "",
-                "action": "",
-                "recovery": "",
+                "preaction": "有突然趴下的動作。",
+                "action": "向前撲擊。",
+                "recovery": "小",
                 "note": "",
                 "image": "videos/青熊獸/青熊獸_前撲.mp4",
                 "onlyincombo": false
             },
             {
+                "name": "衝刺潑沙",
+                "preaction": "會先趴下，身體向後微微蓄力。",
+                "action": "向前短距離衝刺並潑沙(水)。",
+                "recovery": "小",
+                "note": "",
+                "image": "videos/青熊獸/青熊獸_衝刺潑沙.mp4",
+                "onlyincombo": false
+            },
+            {
                 "name": "熊車",
-                "preaction": "",
-                "action": "",
-                "recovery": "",
+                "preaction": "彎下腰，手往一旁甩。",
+                "action": "衝向目標，可能會急停或者折返跑。疲勞時則會滑倒。",
+                "recovery": "小",
                 "note": "",
                 "image": "videos/青熊獸/青熊獸_熊車.mp4",
                 "onlyincombo": false
@@ -110,18 +132,18 @@
             {
                 "name": "下壓",
                 "preaction": "",
-                "action": "",
-                "recovery": "",
-                "note": "方向修正強。",
+                "action": "轉向目標後趴下，傷害低。",
+                "recovery": "小",
+                "note": "騷擾招式，方向修正強，但不會將玩家打出硬直。",
                 "image": "videos/青熊獸/青熊獸_下壓.mp4",
                 "onlyincombo": false
             },
             {
                 "name": "捕食",
-                "preaction": "",
-                "action": "",
-                "recovery": "",
-                "note": "",
+                "preaction": "有甩頭抬手的明顯動作。",
+                "action": "撲向玩家，將玩家拘束一陣子後甩出，最後撲擊。",
+                "recovery": "中",
+                "note": "若目標身上攜帶蜂蜜，拘束並甩出後會偷走蜂蜜並坐下開吃。",
                 "image": "videos/青熊獸/青熊獸_捕食.mp4",
                 "onlyincombo": false
             }
