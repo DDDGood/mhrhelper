@@ -59,9 +59,21 @@
   display: none;
   position:absolute;
 }
+#edit-position-panel{
+  display: none;
+  position:absolute;
+  background-color: #70C6E2;
+}
+#edit-position-target{
+  display: none;
+  position:absolute;
+  width: 20px;
+  height: 20px;
+}
 
 var{
   display:none; 
 }
+
 
 

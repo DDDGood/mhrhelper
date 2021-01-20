@@ -6,14 +6,18 @@ var mapData;
 var typeBtnDic = {};
 var containerDic = {};
 
+var mapInstances = {};
+var currentPosition;
+var currentType;
+
 var RES_ICON_WIDTH_WINDOWS = 20;
 var RES_ICON_WIDTH_MOBILE = 20;
 
-var isEditMode = false;
+var isEditMode = true;
+var editPanelOpened = false;
 
 try {
     document.addEventListener("DOMContentLoaded", test);
-
 }
 catch (e) {
     alert(e);
@@ -98,33 +102,129 @@ function SetMapData(mapData) {
         map.appendChild(container);
 
         for (var position of mapData[resourseType]) {
-            let posBtn = CreateClassElement("div", "resources-button");
-            var icon = CreateClassElement("img", "resources-icon");
-            icon.setAttribute("src", mapResources[resourseType].icon);
-            posBtn.appendChild(icon);
-
-            var width = CheckMobile() ? RES_ICON_WIDTH_MOBILE : RES_ICON_WIDTH_WINDOWS;
-            posBtn.style.width = posBtn.style.height = width + "px";
-            posBtn.style.left = position.coords[0] - width / 2 + 'px';
-            posBtn.style.top = position.coords[1] - width / 2 + 'px';
-
-            posBtn.onclick = function () {
-                OnClickResource(posBtn, resourseType);
-            };
-
-            container.appendChild(posBtn);
-
+            DrawPosition(position, resourseType)
         }
     }
 }
 
+function DrawPosition(position, resourseType) {
+    let posBtn = CreateClassElement("div", "resources-button");
+    var icon = CreateClassElement("img", "resources-icon");
+    icon.setAttribute("src", mapResources[resourseType].icon);
+    posBtn.appendChild(icon);
+
+    var width = CheckMobile() ? RES_ICON_WIDTH_MOBILE : RES_ICON_WIDTH_WINDOWS;
+    posBtn.style.width = posBtn.style.height = width + "px";
+    SetPositionCenter(posBtn, position.coords[0], position.coords[1]);
+    posBtn.onclick = function () {
+        OnClickPosition(position, resourseType);
+    };
+
+    containerDic[resourseType].appendChild(posBtn);
+}
+
+//Edit 
 function OnClickMap(event) {
     // alert(event.clientX);
+    if (editPanelOpened)
+        return;
     let button = document.getElementById("edit-add-button");
     button.style.display = "block";
     button.style.left = event.clientX + "px";
     button.style.top = event.clientY + "px";
+
+    alert("position changes " + event.clientX + "," + event.clientY);
+    currentPosition = {
+        coords: [event.clientX, event.clientY]
+    }
 }
+function OnClickAddButton() {
+    let button = document.getElementById("edit-add-button");
+    button.style.display = "none";
+
+    let target = document.getElementById("edit-position-target");
+    target.style.display = "block";
+    var width = CheckMobile() ? RES_ICON_WIDTH_MOBILE : RES_ICON_WIDTH_WINDOWS;
+    target.style.width = target.style.height = width + "px";
+    SetPositionCenter(target, currentPosition.coords[0], currentPosition.coords[1]);
+
+    OpenEditPositionPanel(currentPosition, "", true);
+}
+function OpenEditPositionPanel(position, resourseType, isAdd) {
+    let button = document.getElementById("edit-add-button");
+    button.style.display = "none";
+
+    if (isAdd) {
+        document.getElementById("edit-position-confirm-edit").style.display = "none";
+        document.getElementById("edit-position-confirm-add").style.display = "block";
+    } else {
+        document.getElementById("edit-position-confirm-edit").style.display = "block";
+        document.getElementById("edit-position-confirm-add").style.display = "none";
+    }
+
+    let editPanel = document.getElementById("edit-position-panel");
+    editPanel.style.display = "block";
+    editPanel.style.left = position.coords[0] + "px";
+    editPanel.style.top = position.coords[1] + "px";
+
+    document.getElementById("edit-position-type").innerHTML = currentType;
+    let typeList = document.getElementById("edit-position-type-list");
+    while (typeList.children.length > 0) {
+        typeList.removeChild(typeList.children[0]);
+    }
+    for (let type in mapResources) {
+        let typebtn = CreateClassElement("button", "edit-position-type-button", type);
+        typeList.appendChild(typebtn);
+        typebtn.onclick = function () { currentType = type; document.getElementById("edit-position-type").innerHTML = currentType; }
+    }
+    editPanelOpened = true;
+}
+function CloseEditPositionPanel() {
+    let editPanel = document.getElementById("edit-position-panel");
+    editPanel.style.display = "none";
+    let target = document.getElementById("edit-position-target");
+    target.style.display = "none";
+    editPanelOpened = false;
+}
+function ConfirmAddPosition() {
+    mapData[currentType].push(currentPosition);
+    DrawPosition(currentPosition, currentType);
+
+    let target = document.getElementById("edit-position-target");
+    target.style.display = "block";
+    SetPositionCenter(target, currentPosition.coords[0], currentPosition.coords[1]);
+
+}
+function ConfirmEditPosition() {
+    alert(mapData[currentType].indexOf(currentPosition));
+}
+function CreateDownloadFile() {
+
+}
+function SaveData() {
+    let text = JSON.stringify(mapData);
+    let file = new Blob([text], { type: 'text/json' });
+    let url = window.URL.createObjectURL(file);
+
+    let a = document.createElement("a");
+    a.style = "display: none";
+    document.body.appendChild(a);
+    a.href = url;
+    a.download = "map.json";
+    a.click();
+    window.URL.revokeObjectURL(url);
+    a.remove();
+}
+
+
+
+function SetPositionCenter(element, x, y) {
+    let width = parseInt(element.style.width, 10);
+    element.style.left = x - width / 2 + 'px';
+    let height = parseInt(element.style.height, 10);
+    element.style.top = y - height / 2 + 'px';
+}
+
 
 function OnSelectType(type) {
     var container = containerDic[type];
@@ -144,16 +244,25 @@ function OnSelectType(type) {
 }
 
 
-function OnClickResource(e, resourseType) {
+function OnClickPosition(position, resourseType) {
+
+    currentPosition = position;
+    currentType = resourseType;
     // alert();
+    if (!isEditMode)
+        ShowInfoPanel(position, resourseType);
+    else
+        OpenEditPositionPanel(position, resourseType, false);
+}
+
+function ShowInfoPanel(position, resourseType) {
     var panel = document.getElementById("infopanel");
     panel.style.display = "block";
-    panel.style.top = e.offsetTop + "px";
-    panel.style.left = e.offsetLeft + "px";
+    panel.style.top = position.coords[0] + "px";
+    panel.style.left = position.coords[1] + "px";
 
     var description = document.getElementById("infopanel-description");
     description.innerHTML = mapResources[resourseType].description;
-    // panel.addEventListener("click", ClosePanel);
 }
 
 function ClosePanel() {
@@ -169,7 +278,6 @@ function ClosePanel() {
 function DataToMapCoords(x, y) {
 
 }
-
 
 
 

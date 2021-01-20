@@ -14,6 +14,9 @@
 <body>
    <div class="wrapper">
 
+      <button onclick="SaveData()">Create file</button>
+      <!-- <a onclick="SaveData()" download="mapdata.json">儲存</a> -->
+
       <div id="resourse-list">
       </div>
 
@@ -30,8 +33,18 @@
          <button onclick="ClosePanel()">關閉</button>
       </div>
 
+      <div id="edit-position-panel">
+         <div id="edit-position-type">AAA</div>
+         <div id="edit-position-type-list"></div>
 
-      <button id="edit-add-button" onclick="ClosePanel()">新增</button>
+         <button onclick="CloseEditPositionPanel()">關閉</button>
+         <button id="edit-position-confirm-edit" onclick="ConfirmEditPosition()">確認</button>
+         <button id="edit-position-confirm-add" onclick="ConfirmAddPosition()">新增</button>
+      </div>
+
+
+      <button id="edit-add-button" onclick="OnClickAddButton()">新增</button>
+      <img id="edit-position-target" src="images/mapresources/target.png" />
 
 
 
