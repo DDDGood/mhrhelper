@@ -2,57 +2,57 @@
 <html>
 
 <head>
-   <title>MHRise魔物筆記-互動地圖</title>
-   <LINK REL="SHORTCUT ICON" HREF="/favicon.ico">
-   <base target="_top" />
-   <link rel="stylesheet" type="text/css" href="map_style.css" />
-   <script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
-   <script type="text/javascript" src="map.js"></script>
-   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=0">
+    <title>MHRise魔物筆記-互動地圖</title>
+    <LINK REL="SHORTCUT ICON" HREF="/favicon.ico">
+    <base target="_top" />
+    <link rel="stylesheet" type="text/css" href="map_style.css" />
+    <script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script type="text/javascript" src="map.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=0">
 </head>
 
 <body>
-   <div class="wrapper">
+    <div class="wrapper">
+        <input id="contentFile" type="file" accept="application/json" />
+        <button onclick="SaveData()">儲存檔案</button>
+        <!-- <a onclick="SaveData()" download="mapdata.json">儲存</a> -->
 
-      <button onclick="SaveData()">Create file</button>
-      <!-- <a onclick="SaveData()" download="mapdata.json">儲存</a> -->
+        <div id="resourse-list">
+        </div>
 
-      <div id="resourse-list">
-      </div>
+        <div id="map">
+            <img id="map-image" src="images/maps/shrineruins.png">
+            </img>
+            <div id="map-data">
 
-      <div id="map">
-         <img id="map-image" src="images/maps/shrineruins.png">
-         </img>
-         <div id="map-data">
+            </div>
+            <img id="edit-position-target" src="images/mapresources/target.png" />
+        </div>
 
-         </div>
-      </div>
+        <div id="infopanel">
+            <div id="infopanel-description">AAA</div>
+            <button onclick="ClosePanel()">關閉</button>
+        </div>
 
-      <div id="infopanel">
-         <div id="infopanel-description">AAA</div>
-         <button onclick="ClosePanel()">關閉</button>
-      </div>
+        <div id="edit-position-panel">
+            <div id="edit-position-type">AAA</div>
+            <div id="edit-position-type-list"></div>
 
-      <div id="edit-position-panel">
-         <div id="edit-position-type">AAA</div>
-         <div id="edit-position-type-list"></div>
-
-         <button onclick="CloseEditPositionPanel()">關閉</button>
-         <button id="edit-position-confirm-edit" onclick="ConfirmEditPosition()">確認</button>
-         <button id="edit-position-confirm-add" onclick="ConfirmAddPosition()">新增</button>
-      </div>
-
-
-      <button id="edit-add-button" onclick="OnClickAddButton()">新增</button>
-      <img id="edit-position-target" src="images/mapresources/target.png" />
+            <button onclick="CloseEditPositionPanel()">關閉</button>
+            <button id="edit-position-confirm-edit" onclick="ConfirmEditPosition()">確認</button>
+            <button id="edit-position-confirm-add" onclick="ConfirmAddPosition()">新增</button>
+        </div>
 
 
+        <button id="edit-add-button" onclick="OnClickAddButton()">新增</button>
 
-      <div id="debug"></div>
 
-   </div>
 
-   <!-- <footer>
+        <div id="debug"></div>
+
+    </div>
+
+    <!-- <footer>
       <div class="footer-text unselectable">作者信箱：</div>
       <div class="footer-text"> forever9409@gmail.com </div>
    </footer> -->

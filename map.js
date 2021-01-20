@@ -26,6 +26,9 @@ catch (e) {
 
 
 function test() {
+
+    InitUploadButton();
+
     map = document.getElementById('map');
     // map.innerHTML = "";
 
@@ -51,6 +54,8 @@ function test() {
 
 }
 
+
+
 function OnSelectMap(mapName) {
 
 
@@ -62,8 +67,7 @@ function OnSelectMap(mapName) {
             return res.json();
         })
         .then(result => {
-            mapData = result;
-            SetMapData(mapData);
+            SetMapData(result);
             let mapImage = document.getElementById("map-image");
             mapImage.onclick = OnClickMap;
         })
@@ -74,17 +78,16 @@ function OnSelectMap(mapName) {
 
 }
 
-function SetMapData(mapData) {
-    var resourseList = document.getElementById("resourse-list");
-    resourseList.innerHTML = "";
+function SetMapData(data) {
 
-    var map = document.getElementById("map");
+    ClearMap();
+    mapData = data;
+    // console.log(result);
 
-    var mapDataContainer = document.getElementById("map-data");
-    for (let resourseType in mapData) {
-        if (!mapResources.hasOwnProperty(resourseType)) {
-            continue;
-        }
+    let map = document.getElementById("map");
+    let resourseList = document.getElementById("resourse-list");
+
+    for (let resourseType in mapResources) {
         mapResources[resourseType].show = true;
         var button = CreateClassElement("div", "resources-type-button");
         button.setAttribute("onclick", "OnSelectType('" + resourseType + "')");
@@ -94,18 +97,33 @@ function SetMapData(mapData) {
         var typeName = CreateClassElement("div", "resources-type-name", resourseType);
         button.appendChild(typeName);
         resourseList.appendChild(button);
-
         typeBtnDic[resourseType] = button;
-
         var container = CreateClassElement("div", "map-data-container");
         containerDic[resourseType] = container;
         map.appendChild(container);
+    }
 
+    // var mapDataContainer = document.getElementById("map-data");
+    for (let resourseType in mapData) {
+        if (!mapResources.hasOwnProperty(resourseType)) {
+            continue;
+        }
         for (var position of mapData[resourseType]) {
             DrawPosition(position, resourseType)
         }
     }
 }
+function ClearMap() {
+    let resourseList = document.getElementById("resourse-list");
+    resourseList.innerHTML = "";
+    typeBtnDic = {};
+    let map = document.getElementById("map");
+    for (var type in containerDic) {
+        map.removeChild(containerDic[type]);
+    }
+    containerDic = {};
+}
+
 
 function DrawPosition(position, resourseType) {
     let posBtn = CreateClassElement("div", "resources-button");
@@ -120,6 +138,11 @@ function DrawPosition(position, resourseType) {
         OnClickPosition(position, resourseType);
     };
 
+    if (!containerDic.hasOwnProperty(resourseType)) {
+        var container = CreateClassElement("div", "map-data-container");
+        containerDic[resourseType] = container;
+        map.appendChild(container);
+    }
     containerDic[resourseType].appendChild(posBtn);
 }
 
@@ -128,25 +151,34 @@ function OnClickMap(event) {
     // alert(event.clientX);
     if (editPanelOpened)
         return;
+
+    let map = document.getElementById("map");
+
+    let mapCoordX = event.clientX - map.offsetLeft;
+    let mapCoordY = event.clientY - map.offsetTop;
+
+    // alert("clientX:" + event.clientX + " clientY:" + event.clientY);
+
+    let target = document.getElementById("edit-position-target");
+    target.style.display = "block";
+    let width = CheckMobile() ? RES_ICON_WIDTH_MOBILE : RES_ICON_WIDTH_WINDOWS;
+    target.style.width = target.style.height = width + "px";
+    SetPositionCenter(target, mapCoordX, mapCoordY);
+
     let button = document.getElementById("edit-add-button");
     button.style.display = "block";
-    button.style.left = event.clientX + "px";
-    button.style.top = event.clientY + "px";
+    button.style.left = event.clientX + width / 2 + "px";
+    button.style.top = event.clientY + width / 2 + "px";
 
-    alert("position changes " + event.clientX + "," + event.clientY);
+    // alert("position changes " + event.clientX + "," + event.clientY);
     currentPosition = {
-        coords: [event.clientX, event.clientY]
+        coords: [mapCoordX, mapCoordY]
     }
 }
 function OnClickAddButton() {
     let button = document.getElementById("edit-add-button");
     button.style.display = "none";
 
-    let target = document.getElementById("edit-position-target");
-    target.style.display = "block";
-    var width = CheckMobile() ? RES_ICON_WIDTH_MOBILE : RES_ICON_WIDTH_WINDOWS;
-    target.style.width = target.style.height = width + "px";
-    SetPositionCenter(target, currentPosition.coords[0], currentPosition.coords[1]);
 
     OpenEditPositionPanel(currentPosition, "", true);
 }
@@ -164,8 +196,9 @@ function OpenEditPositionPanel(position, resourseType, isAdd) {
 
     let editPanel = document.getElementById("edit-position-panel");
     editPanel.style.display = "block";
-    editPanel.style.left = position.coords[0] + "px";
-    editPanel.style.top = position.coords[1] + "px";
+    let width = CheckMobile() ? RES_ICON_WIDTH_MOBILE : RES_ICON_WIDTH_WINDOWS;
+    editPanel.style.left = position.coords[0] + width / 2 + "px";
+    editPanel.style.top = position.coords[1] + width / 2 + "px";
 
     document.getElementById("edit-position-type").innerHTML = currentType;
     let typeList = document.getElementById("edit-position-type-list");
@@ -187,13 +220,11 @@ function CloseEditPositionPanel() {
     editPanelOpened = false;
 }
 function ConfirmAddPosition() {
+    if (!mapData.hasOwnProperty(currentType))
+        mapData[currentType] = [];
     mapData[currentType].push(currentPosition);
     DrawPosition(currentPosition, currentType);
-
-    let target = document.getElementById("edit-position-target");
-    target.style.display = "block";
-    SetPositionCenter(target, currentPosition.coords[0], currentPosition.coords[1]);
-
+    CloseEditPositionPanel();
 }
 function ConfirmEditPosition() {
     alert(mapData[currentType].indexOf(currentPosition));
@@ -214,6 +245,30 @@ function SaveData() {
     a.click();
     window.URL.revokeObjectURL(url);
     a.remove();
+}
+function InitUploadButton() {
+    document.getElementById('contentFile').onchange = function (evt) {
+        console.log('FILE chaned');
+        try {
+            let files = evt.target.files;
+            if (!files.length) {
+                alert('No file selected!');
+                return;
+            }
+            let file = files[0];
+            let reader = new FileReader();
+            const self = this;
+            reader.onload = (event) => {
+                console.log('FILE CONTENT', event.target.result);
+
+                ClearMap();
+                SetMapData(JSON.parse(event.target.result));
+            };
+            reader.readAsText(file);
+        } catch (err) {
+            console.error(err);
+        }
+    }
 }
 
 

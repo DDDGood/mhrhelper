@@ -6,5 +6,13 @@
     "測試龍骨": {
         "icon": "images/mapresources/testicon2.png",
         "description": "這是另一項測試的資源。"
+    },
+    "藥草": {
+        "icon": "images/icons/items/藥草.png",
+        "description": "藥草。"
+    },
+    "解毒草": {
+        "icon": "images/icons/items/解毒草.png",
+        "description": "解毒草。"
     }
 }
