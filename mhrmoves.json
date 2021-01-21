@@ -1,36 +1,128 @@
 {
     "鐮鼬龍王": {
-        "outline": "",
+        "outline": "鐮鼬龍王有多種無判定的吼叫動作，都是白給的攻擊機會。",
         "moves": [
             {
-                "name": "側甩尾",
+                "name": "見面吼",
                 "preaction": "",
-                "action": "",
+                "action": "無吼叫判定，一長兩短的吼叫動作。",
                 "recovery": "",
                 "note": "",
+                "image": "videos/鐮鼬龍王/鐮鼬龍王_見面吼.mp4",
+                "onlyincombo": false
+            },
+            {
+                "name": "單次吼",
+                "preaction": "",
+                "action": "無吼叫判定，單次較長的吼叫動作。",
+                "recovery": "",
+                "note": "",
+                "image": "videos/鐮鼬龍王/鐮鼬龍王_單次吼.mp4",
+                "onlyincombo": false
+            },
+            {
+                "name": "後跳吼",
+                "preaction": "連續後跳兩次。",
+                "action": "頭高高抬起，兩次較短的吼叫動作。",
+                "recovery": "",
+                "note": "",
+                "image": "videos/鐮鼬龍王/鐮鼬龍王_後跳吼.mp4",
+                "onlyincombo": false
+            },
+            {
+                "name": "後跳吐口水",
+                "preaction": "單次後跳",
+                "action": "向前方吐出小水球。",
+                "recovery": "中",
+                "note": "",
+                "image": "videos/鐮鼬龍王/鐮鼬龍王_後跳吐口水.mp4",
+                "onlyincombo": false
+            },
+            {
+                "name": "小咬",
+                "preaction": "",
+                "action": "快速向前小咬。",
+                "recovery": "小",
+                "note": "",
+                "image": "videos/鐮鼬龍王/鐮鼬龍王_小咬.mp4",
+                "onlyincombo": false
+            },
+            {
+                "name": "爪擊",
+                "preaction": "上身抬起，舉起一隻爪子。",
+                "action": "快速向前爪擊。",
+                "recovery": "小",
+                "note": "",
+                "image": "videos/鐮鼬龍王/鐮鼬龍王_爪擊.mp4",
+                "onlyincombo": false
+            },
+            {
+                "name": "龍車",
+                "preaction": "壓低身體，兩爪向兩側張開。",
+                "action": "向前突進的同時揮舞龍爪。",
+                "recovery": "小",
+                "note": "",
+                "image": "videos/鐮鼬龍王/鐮鼬龍王_龍車.mp4",
+                "onlyincombo": false
+            },
+            {
+                "name": "側甩尾",
+                "preaction": "壓低身體，尾巴抬起。",
+                "action": "尾巴由側面往前甩。",
+                "recovery": "小",
+                "note": "不會造成玩家硬直。注意此招後機率接尾砸。",
                 "image": "videos/鐮鼬龍王/鐮鼬龍王_側甩尾.mp4",
                 "onlyincombo": false
             },
             {
-                "name": "前甩尾",
-                "preaction": "",
-                "action": "",
-                "recovery": "",
+                "name": "尾砸",
+                "preaction": "抬頭抬尾的威嚇動作。",
+                "action": "尾巴由上到下往前砸，下砸後尾巴會卡在地上。",
+                "recovery": "大",
                 "note": "",
-                "image": "videos/鐮鼬龍王/鐮鼬龍王_前甩尾.mp4",
+                "image": "videos/鐮鼬龍王/鐮鼬龍王_尾砸.mp4",
                 "onlyincombo": false
             },
             {
                 "name": "迴旋甩尾",
                 "preaction": "",
                 "action": "",
-                "recovery": "",
-                "note": "",
+                "recovery": "小",
+                "note": "身側、身後容易引出此招。",
                 "image": "videos/鐮鼬龍王/鐮鼬龍王_迴旋甩尾.mp4",
+                "onlyincombo": false
+            },
+            {
+                "name": "三連突進甩尾",
+                "preaction": "",
+                "action": "連續三次突進並旋轉身體甩尾。",
+                "recovery": "中",
+                "note": "",
+                "image": "videos/鐮鼬龍王/鐮鼬龍王_三連突進甩尾.mp4",
                 "onlyincombo": false
             }
         ],
-        "combos": []
+        "combos": [
+            {
+                "root": 0,
+                "condition": "",
+                "nodes": [
+                    {
+                        "move": "側甩尾",
+                        "links": [
+                            {
+                                "node": 1,
+                                "condition": ""
+                            }
+                        ]
+                    },
+                    {
+                        "move": "尾砸",
+                        "links": []
+                    }
+                ]
+            }
+        ]
     },
     "青熊獸": {
         "outline": "青熊獸大多招式的硬直都不大，且盲區多半在背後，戰鬥中的主要策略就是在他攻擊時往身後躲，迴避攻擊的同時還能針對他的主要弱點－屁股進行輸出。當玩家處在青熊獸身後時，只需特別注意回首掏以及屁股坐兩招針對後方的攻擊即可。\n另外需注意當青熊獸面對目標突然趴下時，極有可能銜接一些快速的撲擊動作。\n青熊獸憤怒時口中會冒白煙，疲勞時則會流口水，狀態對戰鬥招式的改變並不明顯，主要注意憤怒時連環巴掌最能連續四下、疲勞時熊車會滑倒。\n若獵人身上有攜帶蜂蜜，青熊獸會在使用捕食攻擊後偷走並就地開吃，是進攻的好機會。",
