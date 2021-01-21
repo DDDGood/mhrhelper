@@ -1,6 +1,13 @@
 {
     "鐮鼬龍王": {
-        "outline": "鐮鼬龍王有多種無判定的吼叫動作，都是白給的攻擊機會。",
+        "outline": "鐮鼬龍王有多種無判定的吼叫動作，都是不錯的攻擊機會。",
+        "reference": {
+            "Monster Hunter Rise Demo : Rider Hunter VS Great Izuchi": "https://youtu.be/CP5N_F_lHe8",
+            "Monster Hunter Rise - Slaying A Great Izuchi Gameplay": "https://youtu.be/XmMMlegHLxQ",
+            "FIRST HUNT EXPERIENCE - Monster Hunter Rise Demo - Great Izuchi Solo Gameplay": "https://youtu.be/npkNRcTMRoA",
+            "SWITCHAXE IS SO GOOD THO Monster Hunter Rise Demo - Great Izuchi First Hunt": "https://youtu.be/T0SqEwDJMsk",
+            "Monster Hunter Rise Demo | Great Izuchi Hunt Gameplay 4K ULTRA HD 60fps": "https://youtu.be/BoS0N1rE84I"
+        },
         "moves": [
             {
                 "name": "見面吼",
@@ -125,7 +132,7 @@
         ]
     },
     "青熊獸": {
-        "outline": "青熊獸大多招式的硬直都不大，且盲區多半在背後，戰鬥中的主要策略就是在他攻擊時往身後躲，迴避攻擊的同時還能針對他的主要弱點－屁股進行輸出。當玩家處在青熊獸身後時，只需特別注意回首掏以及屁股坐兩招針對後方的攻擊即可。\n另外需注意當青熊獸面對目標突然趴下時，極有可能銜接一些快速的撲擊動作。\n青熊獸憤怒時口中會冒白煙，疲勞時則會流口水，狀態對戰鬥招式的改變並不明顯，主要注意憤怒時連環巴掌最能連續四下、疲勞時熊車會滑倒。\n若獵人身上有攜帶蜂蜜，青熊獸會在使用捕食攻擊後偷走並就地開吃，是進攻的好機會。",
+        "outline": "青熊獸大多招式的硬直都不大，且盲區多半在背後，戰鬥中可採用不斷往身後躲的策略，迴避攻擊的同時還能針對他的主要弱點－屁股進行輸出。當玩家處在青熊獸身後時，只需特別注意回首掏以及屁股坐兩招針對後方的攻擊即可。\n另外需注意當青熊獸面對目標突然趴下時，極有可能銜接一些快速的撲擊動作。\n青熊獸憤怒時口中會冒白煙，疲勞時則會流口水，狀態對戰鬥招式的改變並不明顯，主要注意憤怒時連環巴掌最能連續四下、疲勞時熊車會滑倒。\n若獵人身上有攜帶蜂蜜，青熊獸會在使用捕食攻擊後偷走並就地開吃，是進攻的好機會。",
         "reference": {
             "21 Minutes of Monster Hunter Rise Dual Blades Gameplay | TGS 2020": "https://www.youtube.com/watch?v=PhxcYiAxbsM",
             "魔物獵人崛起 Monster Hunter 太刀挑戰！镰鼬龙王! 青熊獸！《體驗版》": "https://youtu.be/-Cmu2rtA_JE"
