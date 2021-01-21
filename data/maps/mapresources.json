@@ -3,16 +3,84 @@
         "icon": "images/mapresources/testicon.png",
         "description": "這是一項測試的資源。"
     },
-    "測試龍骨": {
-        "icon": "images/mapresources/testicon2.png",
-        "description": "這是另一項測試的資源。"
-    },
     "藥草": {
         "icon": "images/icons/items/藥草.png",
-        "description": "藥草。"
+        "description": "作為恢復藥核心素材的草。"
     },
     "解毒草": {
         "icon": "images/icons/items/解毒草.png",
-        "description": "解毒草。"
+        "description": "作為解毒藥核心素材的草。"
+    },
+    "火藥草": {
+        "icon": "images/icons/items/火藥草.png",
+        "description": "秘藏發火作用的奇草。調和爆彈所需爆藥或火炎彈的必要素材。"
+    },
+    "常春藤葉": {
+        "icon": "images/icons/items/常春藤葉.png",
+        "description": "尚未新增描述。"
+    },
+    "眠草": {
+        "icon": "images/icons/items/眠草.png",
+        "description": "尚未新增描述。"
+    },
+    "流水草": {
+        "icon": "images/icons/items/流水草.png",
+        "description": "尚未新增描述。"
+    },
+    "木天蓼": {
+        "icon": "",
+        "description": "尚未新增描述。"
+    },
+    "怪力種子": {
+        "icon": "images/icons/items/怪力種子.png",
+        "description": "尚未新增描述。"
+    },
+    "忍耐種子": {
+        "icon": "images/icons/items/忍耐種子.png",
+        "description": "尚未新增描述。"
+    },
+    "蜂蜜": {
+        "icon": "images/icons/items/蜂蜜.png",
+        "description": "尚未新增描述。"
+    },
+    "青菇": {
+        "icon": "images/icons/items/青菇.png",
+        "description": "尚未新增描述。"
+    },
+    "爆炸菇": {
+        "icon": "images/icons/items/爆炸菇.png",
+        "description": "尚未新增描述。"
+    },
+    "麻痺菇": {
+        "icon": "images/icons/items/麻痺菇.png",
+        "description": "尚未新增描述。"
+    },
+    "毒菇": {
+        "icon": "images/icons/items/毒菇.png",
+        "description": "尚未新增描述。"
+    },
+    "心跳加速菇": {
+        "icon": "images/icons/items/心跳加速菇.png",
+        "description": "尚未新增描述。"
+    },
+    "風茄": {
+        "icon": "images/icons/items/風茄.png",
+        "description": "尚未新增描述。"
+    },
+    "苦蟲": {
+        "icon": "images/icons/items/苦蟲.png",
+        "description": "尚未新增描述。"
+    },
+    "不死蟲": {
+        "icon": "images/icons/items/不死蟲.png",
+        "description": "尚未新增描述。"
+    },
+    "光蟲": {
+        "icon": "images/icons/items/光蟲.png",
+        "description": "尚未新增描述。"
+    },
+    "雷光蟲": {
+        "icon": "images/icons/items/雷光蟲.png",
+        "description": "尚未新增描述。"
     }
 }

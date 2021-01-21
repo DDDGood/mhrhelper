@@ -13,18 +13,23 @@
 
 <body>
     <div class="wrapper">
-        <input id="contentFile" type="file" accept="application/json" />
-        <button onclick="SaveData()">儲存檔案</button>
+        <button id="edit-mode-button" onclick="OnClickEditModeButton()">開啟編輯模式</button>
+        <div>
+            <input id="contentFile" type="file" accept="application/json" />
+            <button onclick="SaveData()">儲存檔案</button>
+        </div>
         <!-- <a onclick="SaveData()" download="mapdata.json">儲存</a> -->
 
+        <div>類型顯示開關</div>
         <div id="resourse-list">
         </div>
 
         <div id="map">
+            <!-- <img id="map-image-reference" src="images/temp/MONSTER HUNTER RISE DEMO/藥草.jpg">
+            </img> -->
             <img id="map-image" src="images/maps/shrineruins.png">
             </img>
             <div id="map-data">
-
             </div>
             <img id="edit-position-target" src="images/mapresources/target.png" />
         </div>
@@ -35,12 +40,24 @@
         </div>
 
         <div id="edit-position-panel">
-            <div id="edit-position-type">AAA</div>
-            <div id="edit-position-type-list"></div>
 
-            <button onclick="CloseEditPositionPanel()">關閉</button>
-            <button id="edit-position-confirm-edit" onclick="ConfirmEditPosition()">確認</button>
-            <button id="edit-position-confirm-add" onclick="ConfirmAddPosition()">新增</button>
+
+
+
+
+            <div style=" display:flex">
+                <button onclick="CloseEditPinPanel()">關閉</button>
+                <button id="edit-position-confirm-edit" onclick="ConfirmEditPin()">確認</button>
+                <button id="edit-position-confirm-delete" onclick="DeletePin()">刪除</button>
+                <button id="edit-position-confirm-add" onclick="ConfirmAddPin()">新增</button>
+            </div>
+
+            <div style=" display:flex">
+                <div>目前類型：</div>
+                <div id="edit-position-type">尚未選擇</div>
+            </div>
+
+            <div id="edit-position-type-list"></div>
         </div>
 
 

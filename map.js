@@ -4,16 +4,20 @@ var mapResources;
 var mapData;
 
 var typeBtnDic = {};
-var containerDic = {};
+var typeContainers = {};
 
-var mapInstances = {};
+var pinInstances = {};
+var idCount = 0;
+var currentPin;
+
 var currentPosition;
 var currentType;
+var currentPositionButton;
 
 var RES_ICON_WIDTH_WINDOWS = 20;
 var RES_ICON_WIDTH_MOBILE = 20;
 
-var isEditMode = true;
+var isEditMode = false;
 var editPanelOpened = false;
 
 try {
@@ -47,14 +51,18 @@ function test() {
 
         });
 
-
-
-    // svg = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
-    // map.appendChild(svg);
-
 }
 
-
+function OnClickEditModeButton() {
+    if (isEditMode) {
+        document.getElementById("edit-mode-button").innerHTML = "開啟編輯模式";
+        isEditMode = false;
+    }
+    else {
+        document.getElementById("edit-mode-button").innerHTML = "關閉編輯模式";
+        isEditMode = true;
+    }
+}
 
 function OnSelectMap(mapName) {
 
@@ -89,17 +97,12 @@ function SetMapData(data) {
 
     for (let resourseType in mapResources) {
         mapResources[resourseType].show = true;
-        var button = CreateClassElement("div", "resources-type-button");
+        var button = CreateTypeButtonWithIcon(resourseType);
         button.setAttribute("onclick", "OnSelectType('" + resourseType + "')");
-        var typeicon = CreateClassElement("img", "resources-type-icon");
-        typeicon.setAttribute("src", mapResources[resourseType].icon);
-        button.appendChild(typeicon);
-        var typeName = CreateClassElement("div", "resources-type-name", resourseType);
-        button.appendChild(typeName);
         resourseList.appendChild(button);
         typeBtnDic[resourseType] = button;
         var container = CreateClassElement("div", "map-data-container");
-        containerDic[resourseType] = container;
+        typeContainers[resourseType] = container;
         map.appendChild(container);
     }
 
@@ -109,56 +112,82 @@ function SetMapData(data) {
             continue;
         }
         for (var position of mapData[resourseType]) {
-            DrawPosition(position, resourseType)
+            DrawPin(position, resourseType)
         }
     }
+}
+function CreateTypeButtonWithIcon(type) {
+    var button = CreateClassElement("div", "resources-type-button");
+    var typeicon = CreateClassElement("img", "resources-type-icon");
+    typeicon.setAttribute("src", mapResources[type].icon);
+    button.appendChild(typeicon);
+    var typeName = CreateClassElement("div", "resources-type-name", type);
+    button.appendChild(typeName);
+    return button;
 }
 function ClearMap() {
     let resourseList = document.getElementById("resourse-list");
     resourseList.innerHTML = "";
     typeBtnDic = {};
     let map = document.getElementById("map");
-    for (var type in containerDic) {
-        map.removeChild(containerDic[type]);
+    for (var type in typeContainers) {
+        map.removeChild(typeContainers[type]);
     }
-    containerDic = {};
+    typeContainers = {};
+    pinInstances = {};
 }
 
 
-function DrawPosition(position, resourseType) {
-    let posBtn = CreateClassElement("div", "resources-button");
-    var icon = CreateClassElement("img", "resources-icon");
-    icon.setAttribute("src", mapResources[resourseType].icon);
-    posBtn.appendChild(icon);
+function DrawPin(position, resourseType) {
 
-    var width = CheckMobile() ? RES_ICON_WIDTH_MOBILE : RES_ICON_WIDTH_WINDOWS;
-    posBtn.style.width = posBtn.style.height = width + "px";
-    SetPositionCenter(posBtn, position.coords[0], position.coords[1]);
-    posBtn.onclick = function () {
-        OnClickPosition(position, resourseType);
-    };
-
-    if (!containerDic.hasOwnProperty(resourseType)) {
+    if (!typeContainers.hasOwnProperty(resourseType)) {
         var container = CreateClassElement("div", "map-data-container");
-        containerDic[resourseType] = container;
+        typeContainers[resourseType] = container;
         map.appendChild(container);
     }
-    containerDic[resourseType].appendChild(posBtn);
+
+    let id = idCount + "-" + resourseType;
+    idCount += 1;
+
+    let pinButton = CreateClassElement("div", "resources-button");
+    pinButton.id = id;
+
+    var icon = CreateClassElement("img", "resources-icon");
+    icon.setAttribute("src", mapResources[resourseType].icon);
+    pinButton.appendChild(icon);
+
+    var width = CheckMobile() ? RES_ICON_WIDTH_MOBILE : RES_ICON_WIDTH_WINDOWS;
+    pinButton.style.width = pinButton.style.height = width + "px";
+    SetPositionCenter(pinButton, position.coords[0], position.coords[1]);
+    pinButton.onclick = function (event) {
+        currentPositionButton = event.target;
+        OnClickPin(id);
+    };
+
+    pinInstances[id] = {
+        id: id,
+        type: resourseType,
+        button: pinButton,
+        position: position
+    }
+
+    typeContainers[resourseType].appendChild(pinButton);
 }
 
 //Edit 
 function OnClickMap(event) {
     // alert(event.clientX);
-    if (editPanelOpened)
+    if (!isEditMode || editPanelOpened)
         return;
 
     let map = document.getElementById("map");
 
-    let mapCoordX = event.clientX - map.offsetLeft;
-    let mapCoordY = event.clientY - map.offsetTop;
+    let mapCoordX = event.pageX - map.offsetLeft;
+    let mapCoordY = event.pageY - map.offsetTop;
 
     // alert("clientX:" + event.clientX + " clientY:" + event.clientY);
 
+    //Show Target
     let target = document.getElementById("edit-position-target");
     target.style.display = "block";
     let width = CheckMobile() ? RES_ICON_WIDTH_MOBILE : RES_ICON_WIDTH_WINDOWS;
@@ -167,8 +196,8 @@ function OnClickMap(event) {
 
     let button = document.getElementById("edit-add-button");
     button.style.display = "block";
-    button.style.left = event.clientX + width / 2 + "px";
-    button.style.top = event.clientY + width / 2 + "px";
+    button.style.left = map.offsetLeft + mapCoordX + width / 2 + "px";
+    button.style.top = map.offsetTop + mapCoordY + width / 2 + "px";
 
     // alert("position changes " + event.clientX + "," + event.clientY);
     currentPosition = {
@@ -179,55 +208,92 @@ function OnClickAddButton() {
     let button = document.getElementById("edit-add-button");
     button.style.display = "none";
 
-
-    OpenEditPositionPanel(currentPosition, "", true);
+    OpenEditPinPanel(true);
 }
-function OpenEditPositionPanel(position, resourseType, isAdd) {
+function OpenEditPinPanel(isAdd) {
+
+    let position = isAdd ? currentPosition : currentPin.position;
+    let type = isAdd ? currentType : currentPin.type;
     let button = document.getElementById("edit-add-button");
     button.style.display = "none";
 
     if (isAdd) {
         document.getElementById("edit-position-confirm-edit").style.display = "none";
+        document.getElementById("edit-position-confirm-delete").style.display = "none";
         document.getElementById("edit-position-confirm-add").style.display = "block";
     } else {
         document.getElementById("edit-position-confirm-edit").style.display = "block";
+        document.getElementById("edit-position-confirm-delete").style.display = "block";
         document.getElementById("edit-position-confirm-add").style.display = "none";
     }
 
     let editPanel = document.getElementById("edit-position-panel");
     editPanel.style.display = "block";
     let width = CheckMobile() ? RES_ICON_WIDTH_MOBILE : RES_ICON_WIDTH_WINDOWS;
-    editPanel.style.left = position.coords[0] + width / 2 + "px";
-    editPanel.style.top = position.coords[1] + width / 2 + "px";
+    editPanel.style.left = map.offsetLeft + position.coords[0] + width / 2 + "px";
+    editPanel.style.top = map.offsetTop + position.coords[1] + width / 2 + "px";
 
-    document.getElementById("edit-position-type").innerHTML = currentType;
+    document.getElementById("edit-position-type").innerHTML = type;
     let typeList = document.getElementById("edit-position-type-list");
     while (typeList.children.length > 0) {
         typeList.removeChild(typeList.children[0]);
     }
-    for (let type in mapResources) {
-        let typebtn = CreateClassElement("button", "edit-position-type-button", type);
-        typeList.appendChild(typebtn);
-        typebtn.onclick = function () { currentType = type; document.getElementById("edit-position-type").innerHTML = currentType; }
+    for (let existType in mapResources) {
+        let typeBtn = CreateClassElement("button", "edit-position-type-button", existType);
+        typeList.appendChild(typeBtn);
+        typeBtn.onclick = function () {
+            ChangeCurrentType(existType);
+            if (!isAdd)
+                currentPin.button.children[0].setAttribute("src", mapResources[existType].icon);
+            document.getElementById("edit-position-type").innerHTML = existType;
+        }
     }
     editPanelOpened = true;
 }
-function CloseEditPositionPanel() {
+function CloseEditPinPanel() {
     let editPanel = document.getElementById("edit-position-panel");
     editPanel.style.display = "none";
     let target = document.getElementById("edit-position-target");
     target.style.display = "none";
+
+    currentPin = undefined;
     editPanelOpened = false;
 }
-function ConfirmAddPosition() {
-    if (!mapData.hasOwnProperty(currentType))
-        mapData[currentType] = [];
-    mapData[currentType].push(currentPosition);
-    DrawPosition(currentPosition, currentType);
-    CloseEditPositionPanel();
+function ConfirmAddPin() {
+    AddMapData(currentType, currentPosition);
+    DrawPin(currentPosition, currentType);
+    CloseEditPinPanel();
 }
-function ConfirmEditPosition() {
-    alert(mapData[currentType].indexOf(currentPosition));
+function AddMapData(type, position) {
+    if (!mapData.hasOwnProperty(type))
+        mapData[type] = [];
+    mapData[type].push(position);
+}
+function DeletePin() {
+    if (currentPin === undefined) {
+        alert("ERROR on delete pin: no currentPin");
+        return;
+    } else if (!pinInstances.hasOwnProperty(currentPin.id)) {
+        alert("ERROR on delete pin: no ID " + currentPin.id);
+        return;
+    }
+    typeContainers[currentPin.type].removeChild(currentPin.button);
+
+    let index = mapData[currentPin.type].indexOf(currentPin.position);
+    if (index > -1) {
+        mapData[currentPin.type].splice(index, 1);
+    }
+
+    delete pinInstances[currentPin.id];
+    CloseEditPinPanel();
+}
+function ConfirmEditPin() {
+
+    if (currentType != currentPin.type) {
+        AddMapData(currentType, currentPin.position);
+        DrawPin(currentPin.position, currentType);
+        DeletePin();
+    }
 }
 function CreateDownloadFile() {
 
@@ -243,7 +309,7 @@ function SaveData() {
     a.href = url;
     a.download = "map.json";
     a.click();
-    window.URL.revokeObjectURL(url);
+    // window.URL.revokeObjectURL(url);
     a.remove();
 }
 function InitUploadButton() {
@@ -270,6 +336,10 @@ function InitUploadButton() {
         }
     }
 }
+function ChangeCurrentType(type) {
+    document.getElementById("edit-position-target").setAttribute("src", mapResources[type].icon);
+    currentType = type;
+}
 
 
 
@@ -282,7 +352,7 @@ function SetPositionCenter(element, x, y) {
 
 
 function OnSelectType(type) {
-    var container = containerDic[type];
+    var container = typeContainers[type];
     if (mapResources[type].show) {
         for (var e of container.children) {
             e.style.display = "none";
@@ -299,25 +369,27 @@ function OnSelectType(type) {
 }
 
 
-function OnClickPosition(position, resourseType) {
-
-    currentPosition = position;
-    currentType = resourseType;
+function OnClickPin(id) {
+    if (!pinInstances.hasOwnProperty(id)) {
+        alert("ERROR: no pin id " + id);
+        return;
+    }
+    currentPin = pinInstances[id];
     // alert();
     if (!isEditMode)
-        ShowInfoPanel(position, resourseType);
+        ShowInfoPanel();
     else
-        OpenEditPositionPanel(position, resourseType, false);
+        OpenEditPinPanel(false);
 }
 
-function ShowInfoPanel(position, resourseType) {
+function ShowInfoPanel() {
     var panel = document.getElementById("infopanel");
     panel.style.display = "block";
-    panel.style.top = position.coords[0] + "px";
-    panel.style.left = position.coords[1] + "px";
+    panel.style.left = map.offsetLeft + currentPin.position.coords[0] + "px";
+    panel.style.top = map.offsetTop + currentPin.position.coords[1] + "px";
 
     var description = document.getElementById("infopanel-description");
-    description.innerHTML = mapResources[resourseType].description;
+    description.innerHTML = mapResources[currentPin.type].description;
 }
 
 function ClosePanel() {
