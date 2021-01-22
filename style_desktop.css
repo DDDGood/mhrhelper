@@ -153,7 +153,11 @@
      right: 10px;
      font-size: 10px;
   }
-  
+  .panel-text-icon{
+    width:14px;
+    height:14px;
+    margin-right:2px;
+  }
 
   
   #layer2-grid{
@@ -161,9 +165,11 @@
     grid-template-columns: 3fr 1fr;
   }
   .grid-area-main{    
+    padding-left:150px;
     grid-column-start: 1;
     grid-row-start: 1; 
-    margin: 8px;
+    padding-right:8px;
+    /* margin: 8px; */
   }
   .grid-area-right{
     grid-column-start: 2;

@@ -32,6 +32,9 @@ footer{
   font-size: 12px;
 }
 
+button{
+  outline:none;
+}
 
 var{
   display:none; 
@@ -125,7 +128,10 @@ var{
 
 }
 
-
+.flex-container-center{
+  align-items:center; 
+  justify-content: center;
+}
 
 #monlist{
   display: grid;
@@ -206,10 +212,12 @@ details[open] > summary:after {
   text-align:center;
   font-weight:bold;
 }
-
 .panel-text-special{
   position: absolute; 
   text-align:right;
+}
+.panel-text-icon{
+  display:inline-block;
 }
 #monimage{
   display: block;

@@ -20,22 +20,6 @@ var spaciesDictionary = {};
 document.addEventListener("DOMContentLoaded", Initialize);
 //google.script.run.withSuccessHandler(onDexLoaded).LoadRiseData();
 
-
-// alert(window.visualViewport.height + "_" + window.visualViewport.width);
-
-// $.getJSON('./mhrdex.json', function (result) {
-//     dexObj = result;
-//     if (movesObj !== undefined)
-//         onDexLoaded();
-// });
-// $.getJSON('./mhrmoves.json', function (result) {
-//     movesObj = result;
-//     if (dexObj !== undefined)
-//         onDexLoaded();
-// });
-
-
-
 function Initialize() {
     layer0 = document.getElementById('layer0');
     layer1 = document.getElementById('layer1');
@@ -106,7 +90,7 @@ function onDexLoaded() {
         btn.setAttribute("onclick", "SetMon('" + key + "')");
         var btnicon = new Image();
         btnicon.className = "image-button-mon-icon";
-        btnicon.src = IsNullOrEmpty(mon.icon) ? "images/icons/icon_unknown.png" : mon.icon;
+        btnicon.src = IsNullOrEmpty(mon.icon) ? "images/icons/monsters/icon_unknown.png" : mon.icon;
         var btnText = CreateClassElement("div", "text-button-mon-name", key);
         btn.appendChild(btnicon);
         btn.appendChild(btnText);
@@ -518,9 +502,6 @@ function OnClickMoveButton(move) {
     panel.addEventListener("click", OnClickCloseMoveInfo);
 
     SetElementById("moveinfo-title", move.name);
-    // panel.appendChild(title);
-    //  var image = CreateClassElement("img","moveimage");
-    //  image.setAttribute('src', move.image);
 
     var video = document.getElementById("moveinfo-video");
     var altText = video.previousElementSibling;
@@ -534,14 +515,11 @@ function OnClickMoveButton(move) {
         video.setAttribute("autoplay", "autoplay");
         video.setAttribute("loop", "loop");
         video.setAttribute("type", "video/mp4");
-        // video.removeChild(video.children[0]);
-        // video.innerHTML = "";
         var source = video.children[0];
         source.setAttribute("src", move.image);
         video.load();
         video.play();
     }
-
 
     var preaction = document.getElementById("moveinfo-preaction");
     if (!IsNullOrEmpty(move.preaction)) {
@@ -570,20 +548,6 @@ function OnClickMoveButton(move) {
         note.innerHTML = move.note;
     } else
         note.parentNode.style.display = "none";
-
-    // SetElementById("moveinfo-action", move.action);
-    // SetElementById("moveinfo-recovery", move.recovery);
-    // SetElementById("moveinfo-note", move.note);
-
-    // var preaction = CreateSimpleElement("p", "預兆: " + move.preaction);
-    // panel.appendChild(preaction);
-    // var action = CreateSimpleElement("p", "動作: " + move.action);
-    // panel.appendChild(action);
-    // var recovery = CreateSimpleElement("p", "硬直: " + move.recovery);
-    // panel.appendChild(recovery);
-    // var note = CreateSimpleElement("p", "備註: " + move.note);
-    // panel.appendChild(note);
-
 }
 
 function OnClickCloseMoveInfo(e) {
@@ -613,7 +577,7 @@ function OnSelectLayer(layer, label) {
             topbarlayer0.style.display = "inline";
             topbarlayer1.style.display = "inline";
             topbarlayer2.style.display = "none";
-            topbarlayer0.style.background = '#333';
+            topbarlayer0.style.background = '#31363D';
             topbarlayer1.style.background = '#4CAF50';
             topbarlayer0.nextElementSibling.style.display = "flex";
             topbarlayer1.nextElementSibling.style.display = "none";
@@ -627,8 +591,8 @@ function OnSelectLayer(layer, label) {
             topbarlayer0.style.display = "inline";
             topbarlayer1.style.display = "inline";
             topbarlayer2.style.display = "inline";
-            topbarlayer0.style.background = '#333';
-            topbarlayer1.style.background = '#333';
+            topbarlayer0.style.background = '#31363D';
+            topbarlayer1.style.background = '#31363D';
             topbarlayer2.style.background = '#4CAF50';
             topbarlayer0.nextElementSibling.style.display = "flex";
             topbarlayer1.nextElementSibling.style.display = "flex";
