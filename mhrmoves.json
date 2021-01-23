@@ -66,7 +66,7 @@
             {
                 "name": "龍車",
                 "preaction": "壓低身體，兩爪向兩側張開。",
-                "action": "向前突進的同時揮舞龍爪。",
+                "action": "向前突進的同時揮舞雙爪。",
                 "recovery": "小",
                 "note": "",
                 "image": "videos/鐮鼬龍王/鐮鼬龍王_龍車.mp4",
@@ -92,8 +92,8 @@
             },
             {
                 "name": "迴旋甩尾",
-                "preaction": "",
-                "action": "",
+                "preaction": "回頭看的同時，尾巴彎起蓄力。",
+                "action": "尾巴迴旋甩出後跳回正面",
                 "recovery": "小",
                 "note": "身側、身後容易引出此招。",
                 "image": "videos/鐮鼬龍王/鐮鼬龍王_迴旋甩尾.mp4",
@@ -161,7 +161,7 @@
                 "preaction": "雙手上舉",
                 "action": "向前方揮擊。",
                 "recovery": "小",
-                "note": "",
+                "note": "單次巴掌不常見，需隨時提防連環巴掌。",
                 "image": "videos/青熊獸/青熊獸_巴掌.mp4",
                 "onlyincombo": false
             },
@@ -179,7 +179,7 @@
                 "preaction": "背對目標時彎下腰發力。",
                 "action": "轉過身來，雙手往後揮擊。",
                 "recovery": "小",
-                "note": "目標在身後時容易出。",
+                "note": "這招是青熊獸對身後目標的兩個應對動作之一，速度較快。",
                 "image": "videos/青熊獸/青熊獸_回首掏.mp4",
                 "onlyincombo": false
             },
@@ -188,7 +188,7 @@
                 "preaction": "有挺胸扭臀的明顯動作。",
                 "action": "屁股向後頂並跌坐在地。",
                 "recovery": "大",
-                "note": "目標在身後時容易出。",
+                "note": "另一招對身後目標的動作，前兆明顯且硬直極大，是很好的攻擊時機",
                 "image": "videos/青熊獸/青熊獸_屁股坐.mp4",
                 "onlyincombo": false
             },
@@ -231,9 +231,9 @@
             {
                 "name": "下壓",
                 "preaction": "",
-                "action": "轉向目標後趴下，傷害低。",
+                "action": "轉向目標後下壓。",
                 "recovery": "小",
-                "note": "騷擾招式，方向修正強，但不會將玩家打出硬直。",
+                "note": "方向修正強的騷擾招式，傷害低但不會將玩家打出硬直。",
                 "image": "videos/青熊獸/青熊獸_下壓.mp4",
                 "onlyincombo": false
             },
