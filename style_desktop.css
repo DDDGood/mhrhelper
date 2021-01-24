@@ -18,6 +18,7 @@
   .header3{
     margin-top: 20px;
     margin-bottom: 20px;
+    width: 1140px;
     font-size: 18px;
     font-weight: bold;
   }
@@ -27,7 +28,9 @@
     color: white;
   }
   #topbar {
-    padding-left : 150px;
+    max-width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
   }
   .topbarbtn {
     font-size: 20px;
@@ -41,12 +44,14 @@
   }
 
   #layer0{
-    padding-left:150px;
-    padding-right:150px;
+    max-width: 1140px; 
+    margin-left: auto;
+    margin-right: auto;
   }
   #layer1{
-    padding-left:150px;
-    padding-right:150px;
+    max-width: 1140px; 
+    margin-left: auto;
+    margin-right: auto;
   }
 
 
@@ -67,7 +72,7 @@
     grid-column-start: 1;
     grid-column-end: 4;
   }
-  #monlist{ 
+  #monlist{
     grid-template-columns: repeat(6, 1fr);
     /* border : 2px double black; */
   }
@@ -163,15 +168,19 @@
   #layer2-grid{
     display: grid;
     grid-template-columns: 3fr 1fr;
+    max-width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
   }
   .grid-area-main{    
-    padding-left:150px;
+    /* padding-left:150px; */
     grid-column-start: 1;
     grid-row-start: 1; 
     padding-right:8px;
     /* margin: 8px; */
   }
   .grid-area-right{
+    /* position: absolute; */
     grid-column-start: 2;
     grid-row-start: 1;
     margin: 8px;

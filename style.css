@@ -84,8 +84,10 @@ var{
   top: 0; /* Position the navbar at the top of the page */
   width: stretch; /* Full width */
   height:60px;
-  background-color: #31363D; 
   z-index : 1;
+}
+#topbar-background{
+  background-color: #31363D; 
 }
 
 .topbarlink{
