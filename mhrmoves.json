@@ -1,6 +1,6 @@
 {
     "鐮鼬龍王": {
-        "outline": "鐮鼬龍王有多種無判定的吼叫動作，都是不錯的攻擊機會。",
+        "outline": "鐮鼬龍王的動作快速，招式硬直幾乎都不大，但個體素質較差，容易被玩家打出小硬直和倒地，並且有多種無判定的吼叫動作，也是不錯的攻擊機會。戰鬥時只需特別注意側甩尾接尾砸的連招即可。",
         "reference": {
             "Monster Hunter Rise Demo : Rider Hunter VS Great Izuchi": "https://youtu.be/CP5N_F_lHe8",
             "Monster Hunter Rise - Slaying A Great Izuchi Gameplay": "https://youtu.be/XmMMlegHLxQ",
@@ -518,7 +518,7 @@
                 "preaction": "身體往左後縮，張嘴蓄力。怒後會飄移。",
                 "action": "逆時針甩尾，帶一段向前位移。散出泡泡。偏左方向有綠色泡泡。",
                 "recovery": "中",
-                "note": "憤怒後有較明顯的索敵機制，若玩家太近會先拉開距離。",
+                "note": "這招會向玩家的右側(泡狐龍的左)偏移，所以向左後方閃避較容易。憤怒後有較明顯的索敵機制，若玩家太近會先拉開距離。",
                 "image": "videos/泡狐龍/泡狐龍_逆時針甩尾.mp4",
                 "onlyincombo": false
             },
@@ -561,7 +561,7 @@
             {
                 "name": "下壓滑行",
                 "condition": "",
-                "preaction": "抬起身，雙手舉起。",
+                "preaction": "抬起身，雙手舉起。蓄力時間較下壓轉身長。",
                 "action": "下壓後身體向前滑行一小段，散出泡泡。",
                 "recovery": "小",
                 "note": "遠距離較容易出，注意全身都有攻擊判定。",
