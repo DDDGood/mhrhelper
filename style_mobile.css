@@ -155,6 +155,9 @@
   .panel-text{
      font-size: 14px;
   }
+  .panel-text-small{
+     font-size: 10px;
+  }
   .panel-text-bold{
      font-size: 14px;
   }

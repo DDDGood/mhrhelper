@@ -148,7 +148,7 @@ function SetMon(key) {
     SetElementById('spacies', monObj.spacies);
 
     var icon = document.getElementById('monicon');
-    icon.setAttribute("src", IsNullOrEmpty(monObj.icon) ? "images/icons/icon_unknown.png" : monObj.icon);
+    icon.setAttribute("src", IsNullOrEmpty(monObj.icon) ? "images/icons/monsters/icon_unknown.png" : monObj.icon);
 
     var image = document.getElementById('monimage');
     image.setAttribute("src", monObj.image);

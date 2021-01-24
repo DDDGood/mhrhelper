@@ -202,6 +202,9 @@ details[open] > summary:after {
   flex: 1;
   background-color: #BDD5FF;
 }
+.text-center{
+  text-align:center;
+}
 .panel-text{
   text-align:center;
   font-weight:normal;

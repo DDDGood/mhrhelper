@@ -145,6 +145,9 @@
   .panel-text{
      font-size: 14px;
   }
+  .panel-text-small{
+     font-size: 10px;
+  }
   .panel-text-bold{
      font-size: 14px;
   }
@@ -167,7 +170,7 @@
   
   #layer2-grid{
     display: grid;
-    grid-template-columns: 3fr 1fr;
+    grid-template-columns: 2fr 1fr;
     max-width: 1140px;
     margin-left: auto;
     margin-right: auto;
