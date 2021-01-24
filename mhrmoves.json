@@ -1279,8 +1279,26 @@
                 "onlyincombo": false
             },
             {
+                "name": "龍車",
+                "preaction": "",
+                "action": "",
+                "recovery": "",
+                "note": "",
+                "image": "videos/人魚龍/人魚龍_龍車.mp4",
+                "onlyincombo": false
+            },
+            {
+                "name": "跳撲",
+                "preaction": "",
+                "action": "",
+                "recovery": "",
+                "note": "",
+                "image": "videos/人魚龍/人魚龍_跳撲.mp4",
+                "onlyincombo": false
+            },
+            {
                 "name": "蓄力拍",
-                "condition": "站立時",
+                "condition": "",
                 "preaction": "",
                 "action": "",
                 "recovery": "",
@@ -1299,7 +1317,7 @@
             },
             {
                 "name": "下壓",
-                "condition": "站立時",
+                "condition": "",
                 "preaction": "",
                 "action": "",
                 "recovery": "",
@@ -1318,6 +1336,529 @@
             }
         ],
         "combos": []
+    },
+    "怨虎龍": {
+        "outline": "",
+        "moves": [
+            {
+                "name": "龍吼",
+                "preaction": "",
+                "action": "",
+                "recovery": "",
+                "note": "",
+                "image": "videos/怨虎龍/怨虎龍_龍吼.mp4",
+                "onlyincombo": false
+            },
+            {
+                "name": "尾砸",
+                "preaction": "",
+                "action": "",
+                "recovery": "",
+                "note": "",
+                "image": "videos/怨虎龍/怨虎龍_尾砸.mp4",
+                "onlyincombo": false
+            },
+            {
+                "name": "突刺",
+                "preaction": "",
+                "action": "",
+                "recovery": "",
+                "note": "",
+                "image": "videos/怨虎龍/怨虎龍_突刺.mp4",
+                "onlyincombo": false
+            },
+            {
+                "name": "二連撲",
+                "preaction": "",
+                "action": "",
+                "recovery": "",
+                "note": "",
+                "image": "videos/怨虎龍/怨虎龍_二連撲.mp4",
+                "onlyincombo": false
+            },
+            {
+                "name": "三連甩火",
+                "preaction": "",
+                "action": "",
+                "recovery": "",
+                "note": "",
+                "image": "videos/怨虎龍/怨虎龍_三連甩火.mp4",
+                "onlyincombo": false
+            },
+            {
+                "name": "散步甩火",
+                "preaction": "",
+                "action": "",
+                "recovery": "",
+                "note": "",
+                "image": "videos/怨虎龍/怨虎龍_散步甩火.mp4",
+                "onlyincombo": false
+            }
+        ],
+        "combos": []
+    },
+    "奇怪龍": {
+        "outline": "",
+        "moves": [
+            {
+                "name": "龍吼",
+                "preaction": "",
+                "action": "",
+                "recovery": "",
+                "note": "",
+                "image": "videos/奇怪龍/奇怪龍_龍吼.mp4",
+                "onlyincombo": false
+            },
+            {
+                "name": "電球",
+                "preaction": "",
+                "action": "",
+                "recovery": "",
+                "note": "",
+                "image": "videos/奇怪龍/奇怪龍_電球.mp4",
+                "onlyincombo": false
+            },
+            {
+                "name": "小咬",
+                "preaction": "",
+                "action": "",
+                "recovery": "",
+                "note": "",
+                "image": "videos/奇怪龍/奇怪龍_小咬.mp4",
+                "onlyincombo": false
+            },
+            {
+                "name": "彎曲伸脖",
+                "preaction": "",
+                "action": "",
+                "recovery": "",
+                "note": "",
+                "image": "videos/奇怪龍/奇怪龍_彎曲伸脖.mp4",
+                "onlyincombo": false
+            },
+            {
+                "name": "飛撲",
+                "preaction": "",
+                "action": "",
+                "recovery": "",
+                "note": "",
+                "image": "videos/奇怪龍/奇怪龍_飛撲.mp4",
+                "onlyincombo": false
+            }
+        ],
+        "combos": []
+    },
+    "天狗獸": {
+        "outline": "",
+        "moves": [
+            {
+                "name": "陀螺",
+                "preaction": "",
+                "action": "",
+                "recovery": "",
+                "note": "",
+                "image": "videos/天狗獸/天狗獸_陀螺.mp4",
+                "onlyincombo": false
+            },
+            {
+                "name": "閃光果實",
+                "preaction": "",
+                "action": "",
+                "recovery": "",
+                "note": "",
+                "image": "videos/天狗獸/天狗獸_閃光果實.mp4",
+                "onlyincombo": false
+            },
+            {
+                "name": "二連尾砸",
+                "preaction": "",
+                "action": "",
+                "recovery": "",
+                "note": "",
+                "image": "videos/天狗獸/天狗獸_二連尾砸.mp4",
+                "onlyincombo": false
+            },
+            {
+                "name": "翅膀揮擊",
+                "preaction": "",
+                "action": "",
+                "recovery": "",
+                "note": "",
+                "image": "videos/天狗獸/天狗獸_翅膀揮擊.mp4",
+                "onlyincombo": false
+            },
+            {
+                "name": "雙色地瓜球",
+                "preaction": "",
+                "action": "",
+                "recovery": "",
+                "note": "",
+                "image": "videos/天狗獸/天狗獸_雙色地瓜球.mp4",
+                "onlyincombo": false
+            },
+            {
+                "name": "上牆",
+                "preaction": "",
+                "action": "",
+                "recovery": "",
+                "note": "",
+                "image": "videos/天狗獸/天狗獸_上牆.mp4",
+                "onlyincombo": false
+            }
+        ],
+        "combos": []
+    },
+    "水獸": {
+        "outline": "",
+        "moves": [
+            {
+                "name": "龍吼",
+                "preaction": "",
+                "action": "",
+                "recovery": "",
+                "note": "",
+                "image": "videos/水獸/水獸_龍吼.mp4",
+                "onlyincombo": false
+            },
+            {
+                "name": "吐口水",
+                "preaction": "",
+                "action": "",
+                "recovery": "",
+                "note": "",
+                "image": "videos/水獸/水獸_吐口水.mp4",
+                "onlyincombo": false
+            },
+            {
+                "name": "飛撲",
+                "preaction": "",
+                "action": "",
+                "recovery": "",
+                "note": "",
+                "image": "videos/水獸/水獸_飛撲.mp4",
+                "onlyincombo": false
+            }
+        ],
+        "combos": []
+    },
+    "毒狗龍王": {
+        "outline": "",
+        "moves": [
+            {
+                "name": "龍吼",
+                "preaction": "",
+                "action": "",
+                "recovery": "",
+                "note": "",
+                "image": "videos/毒狗龍王/毒狗龍王_龍吼.mp4",
+                "onlyincombo": false
+            },
+            {
+                "name": "小咬",
+                "preaction": "",
+                "action": "",
+                "recovery": "",
+                "note": "",
+                "image": "videos/毒狗龍王/毒狗龍王_小咬.mp4",
+                "onlyincombo": false
+            },
+            {
+                "name": "威嚇",
+                "preaction": "",
+                "action": "",
+                "recovery": "",
+                "note": "",
+                "image": "videos/毒狗龍王/毒狗龍王_威嚇.mp4",
+                "onlyincombo": false
+            }
+        ],
+        "combos": []
+    },
+    "雪鬼獸": {
+        "outline": "",
+        "moves": [
+            {
+                "name": "冰刃下劈",
+                "preaction": "",
+                "action": "",
+                "recovery": "",
+                "note": "",
+                "image": "videos/雪鬼獸/雪鬼獸_冰刃下劈.mp4",
+                "onlyincombo": false
+            },
+            {
+                "name": "冰刃飛刀",
+                "preaction": "",
+                "action": "",
+                "recovery": "",
+                "note": "",
+                "image": "videos/雪鬼獸/雪鬼獸_冰刃飛刀.mp4",
+                "onlyincombo": false
+            },
+            {
+                "name": "震地衝擊",
+                "preaction": "",
+                "action": "",
+                "recovery": "",
+                "note": "",
+                "image": "videos/雪鬼獸/雪鬼獸_震地衝擊.mp4",
+                "onlyincombo": false
+            },
+            {
+                "name": "橫掃吐息",
+                "preaction": "",
+                "action": "",
+                "recovery": "",
+                "note": "",
+                "image": "videos/雪鬼獸/雪鬼獸_橫掃吐息.mp4",
+                "onlyincombo": false
+            }
+        ],
+        "combos": []
+    },
+    "轟龍": {
+        "outline": "",
+        "moves": [
+            {
+                "name": "推石",
+                "preaction": "",
+                "action": "",
+                "recovery": "",
+                "note": "",
+                "image": "videos/轟龍/轟龍_推石.mp4",
+                "onlyincombo": false
+            },
+            {
+                "name": "龍車",
+                "preaction": "",
+                "action": "",
+                "recovery": "",
+                "note": "",
+                "image": "videos/轟龍/轟龍_龍車.mp4",
+                "onlyincombo": false
+            }
+        ],
+        "combos": []
+    },
+    "眠狗龍王": {
+        "outline": "",
+        "moves": [
+            {
+                "name": "吐口水",
+                "preaction": "",
+                "action": "",
+                "recovery": "",
+                "note": "",
+                "image": "videos/眠狗龍王/眠狗龍王_吐口水.mp4",
+                "onlyincombo": false
+            },
+            {
+                "name": "甩頭",
+                "preaction": "",
+                "action": "",
+                "recovery": "",
+                "note": "",
+                "image": "videos/眠狗龍王/眠狗龍王_甩頭.mp4",
+                "onlyincombo": false
+            },
+            {
+                "name": "鐵山靠",
+                "preaction": "",
+                "action": "",
+                "recovery": "",
+                "note": "",
+                "image": "videos/眠狗龍王/眠狗龍王_鐵山靠.mp4",
+                "onlyincombo": false
+            }
+        ],
+        "combos": [
+            {
+                "root": 0,
+                "condition": "",
+                "nodes": [
+                    {
+                        "move": "吐口水",
+                        "links": [
+                            {
+                                "node": 1,
+                                "condition": ""
+                            },
+                            {
+                                "node": 2,
+                                "condition": ""
+                            }
+                        ]
+                    },
+                    {
+                        "move": "甩頭",
+                        "links": []
+                    },
+                    {
+                        "move": "鐵山靠",
+                        "links": []
+                    }
+                ]
+            }
+        ]
+    },
+    "冰牙龍": {
+        "outline": "",
+        "moves": [
+            {
+                "name": "泰山壓頂",
+                "preaction": "",
+                "action": "",
+                "recovery": "",
+                "note": "",
+                "image": "videos/冰牙龍/冰牙龍_泰山壓頂.mp4",
+                "onlyincombo": false
+            },
+            {
+                "name": "翅膀揮擊",
+                "preaction": "",
+                "action": "",
+                "recovery": "",
+                "note": "",
+                "image": "videos/冰牙龍/冰牙龍_翅膀揮擊.mp4",
+                "onlyincombo": false
+            },
+            {
+                "name": "側跳起飛",
+                "preaction": "",
+                "action": "",
+                "recovery": "",
+                "note": "",
+                "image": "videos/冰牙龍/冰牙龍_側跳起飛.mp4",
+                "onlyincombo": false
+            },
+            {
+                "name": "吐息",
+                "preaction": "",
+                "action": "",
+                "recovery": "",
+                "note": "",
+                "image": "videos/冰牙龍/冰牙龍_吐息.mp4",
+                "onlyincombo": false
+            },
+            {
+                "name": "空中吐息",
+                "preaction": "",
+                "action": "",
+                "recovery": "",
+                "note": "",
+                "image": "videos/冰牙龍/冰牙龍_空中吐息.mp4",
+                "onlyincombo": false
+            }
+        ],
+        "combos": [
+            {
+                "root": 0,
+                "condition": "",
+                "nodes": [
+                    {
+                        "move": "側跳起飛",
+                        "links": [
+                            {
+                                "node": 1,
+                                "condition": ""
+                            }
+                        ]
+                    },
+                    {
+                        "move": "空中吐息",
+                        "links": []
+                    }
+                ]
+            }
+        ]
+    },
+    "白兔獸": {
+        "outline": "",
+        "moves": [
+            {
+                "name": "正雪球",
+                "preaction": "",
+                "action": "",
+                "recovery": "",
+                "note": "",
+                "image": "videos/白兔獸/白兔獸_正雪球.mp4",
+                "onlyincombo": false
+            },
+            {
+                "name": "側雪球",
+                "preaction": "",
+                "action": "",
+                "recovery": "",
+                "note": "",
+                "image": "videos/白兔獸/白兔獸_側雪球.mp4",
+                "onlyincombo": false
+            },
+            {
+                "name": "二連雪球",
+                "preaction": "",
+                "action": "",
+                "recovery": "",
+                "note": "",
+                "image": "videos/白兔獸/白兔獸_二連雪球.mp4",
+                "onlyincombo": false
+            },
+            {
+                "name": "前滾翻",
+                "preaction": "",
+                "action": "",
+                "recovery": "",
+                "note": "",
+                "image": "videos/白兔獸/白兔獸_前滾翻.mp4",
+                "onlyincombo": false
+            },
+            {
+                "name": "屁股坐",
+                "preaction": "",
+                "action": "",
+                "recovery": "",
+                "note": "",
+                "image": "videos/白兔獸/白兔獸_屁股坐.mp4",
+                "onlyincombo": false
+            },
+            {
+                "name": "噴射龍車",
+                "preaction": "",
+                "action": "",
+                "recovery": "",
+                "note": "",
+                "image": "videos/白兔獸/白兔獸_噴射龍車.mp4",
+                "onlyincombo": false
+            }
+        ],
+        "combos": [
+            {
+                "root": 0,
+                "condition": "",
+                "nodes": [
+                    {
+                        "move": "正雪球",
+                        "links": [
+                            {
+                                "node": 1,
+                                "condition": ""
+                            },
+                            {
+                                "node": 2,
+                                "condition": ""
+                            }
+                        ]
+                    },
+                    {
+                        "move": "側雪球",
+                        "links": []
+                    },
+                    {
+                        "move": "噴射龍車",
+                        "links": []
+                    }
+                ]
+            }
+        ]
     },
     "泡狐龍_Old": {
         "outline": "連招很多，把握部分連招結尾的大空檔進行輸出。平常以蹭刀為主。",
