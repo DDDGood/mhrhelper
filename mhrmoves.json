@@ -1138,8 +1138,8 @@
             {
                 "name": "後踢",
                 "preaction": "原地小跳，翅膀抬起，頭從翅膀下往後看，抬起單腳。",
-                "action": "先後跳踩踏，再接一個後踢。",
-                "recovery": "不太確定後面拜年動作",
+                "action": "先後跳踩踏，再接一個後踢。結束後有拜年動作。",
+                "recovery": "中",
                 "note": "",
                 "image": "videos/傘鳥/傘鳥_後踢.mp4",
                 "onlyincombo": false
@@ -1181,6 +1181,15 @@
                 "onlyincombo": false
             },
             {
+                "name": "跳步磕頭",
+                "preaction": "",
+                "action": "跳向目標並頭砸，結束有張傘威嚇的動作。",
+                "recovery": "中",
+                "note": "",
+                "image": "videos/傘鳥/傘鳥_跳步磕頭.mp4",
+                "onlyincombo": true
+            },
+            {
                 "name": "二連磕頭",
                 "preaction": "",
                 "action": "連續兩次頭下砸，第二次索敵很強。",
@@ -1201,7 +1210,7 @@
             {
                 "name": "空中迴旋火球",
                 "preaction": "空中身體側向一邊",
-                "action": "往側面迴旋兩圈後落地，轉圈時吐出火球。有時候會啞火？",
+                "action": "往側面迴旋兩圈後落地，轉圈時吐出火球。(待觀察)疲勞時會啞火。",
                 "recovery": "中",
                 "note": "",
                 "image": "videos/傘鳥/傘鳥_空中迴旋火球.mp4",
@@ -1260,6 +1269,53 @@
                     },
                     {
                         "move": "空中迴旋火球",
+                        "links": []
+                    }
+                ]
+            },
+            {
+                "root": 0,
+                "condition": "憤怒後",
+                "nodes": [
+                    {
+                        "move": "跨步磕頭",
+                        "links": [
+                            {
+                                "node": 1,
+                                "condition": ""
+                            }
+                        ]
+                    },
+                    {
+                        "move": "跳步磕頭",
+                        "links": []
+                    }
+                ]
+            },
+            {
+                "root": 0,
+                "condition": "憤怒後",
+                "nodes": [
+                    {
+                        "move": "跨步踩",
+                        "links": [
+                            {
+                                "node": 1,
+                                "condition": ""
+                            }
+                        ]
+                    },
+                    {
+                        "move": "跨步磕頭",
+                        "links": [
+                            {
+                                "node": 2,
+                                "condition": ""
+                            }
+                        ]
+                    },
+                    {
+                        "move": "跳步磕頭",
                         "links": []
                     }
                 ]

@@ -20,7 +20,14 @@ var spaciesDictionary = {};
 document.addEventListener("DOMContentLoaded", Initialize);
 //google.script.run.withSuccessHandler(onDexLoaded).LoadRiseData();
 
+var time;
 function Initialize() {
+
+    var date = new Date();
+
+    time = Date.now();
+    console.log(time);
+
     layer0 = document.getElementById('layer0');
     layer1 = document.getElementById('layer1');
     layer2 = document.getElementById('layer2');
@@ -73,6 +80,12 @@ function Initialize() {
 
 
 function onDexLoaded() {
+
+    var date = new Date();
+    var newtime = Date.now();
+
+    console.log(newtime);
+    console.log(newtime - time);
 
     var monlist = document.getElementById('monlist');
 
