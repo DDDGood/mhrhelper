@@ -11,8 +11,9 @@ var topbarlink12;
 var svg;
 var moveInfo;
 
-var dexObj;
-var movesObj;
+var data = {};
+// var dexObj;
+// var movesObj;
 var currentMon = {};
 var currentMonMoves = {};
 var spaciesDictionary = {};
@@ -24,6 +25,14 @@ time = Date.now();
 console.log("startTime:" + time);
 
 document.addEventListener("DOMContentLoaded", Initialize);
+
+function GetDexData() {
+    return data["dex"];
+}
+
+function GetMovesData() {
+    return data["moves"];
+}
 
 function Initialize() {
 
@@ -45,41 +54,58 @@ function Initialize() {
     topbarlayer1.style.display = "none";
     topbarlayer2.style.display = "none";
 
-    fetch('mhrdex.json')
-        .then(res => {
-            if (!res.ok) {
-                throw new Error(res.statusText);
-            }
-            return res.json();
-        })
-        .then(result => {
-            dexObj = result;
-            if (movesObj !== undefined)
-                onDexLoaded("move load then");
-        })
-        .catch(error => {
-            dexObj = JSON.parse("{\"\u96F7\u72FC\u9F8D\":{\"nameTW\":\"\u96F7\u72FC\u9F8D\",\"nameJP\":\"\u30B8\u30F3\u30AA\u30A6\u30AC\",\"nameEN\":\"Zinogre\",\"spacies\":\"\u7259\u9F8D\u7A2E\",\"image\":\"http:\/\/hobbigame.com\/wp-content\/uploads\/2017\/09\/mhxx64.jpg\",\"icon\":\"https:\/\/truth.bahamut.com.tw\/s01\/201809\/54151d0600726f4ad7c4769c6c4804b8.PNG\",\"breakables\":\"\u982D\u3001\u524D\u8173\u3001\u80CC\u3001\u5C3E\",\"trait\":{\"roar\":\"\u5C0F\",\"wind\":\"\u5C0F\",\"tremer\":\"\u7121\"},\"weakness\":{\"weapon\":[{\"part\":\"\u982D\",\"cut\":3,\"blunt\":3,\"ammo\":3},{\"part\":\"\u524D\u8173\",\"cut\":2,\"blunt\":2,\"ammo\":2},{\"part\":\"\u5C3E\",\"cut\":2,\"blunt\":2,\"ammo\":2}],\"element\":[{\"condition\":\"normal\",\"fire\":1,\"water\":2,\"thunder\":0,\"ice\":3,\"dragon\":1}],\"aliment\":[{\"condition\":\"normal\",\"poison\":2,\"sleep\":2,\"paralysis\":1,\"blast\":2,\"stun\":2}],\"item\":[{\"condition\":\"normal\",\"pitfalltrap\":2,\"shocktrap\":1,\"flashpod\":2,\"screamerpod\":0},{\"condition\":\"\u8D85\u5E36\u96FB\",\"pitfalltrap\":2,\"shocktrap\":0,\"flashpod\":2,\"screamerpod\":0}]},\"parts\":[{\"name\":\"\u982D\",\"state\":\"\u901A\u5E38\",\"extract\":\"\u8D64\",\"hitData\":[45,45,50,5,10,0,15,5,100]},{\"name\":\"\u982D\",\"state\":\"\u8D85\u5E36\u96FB\",\"extract\":\"\u8D64\",\"hitData\":[65,65,55,10,20,0,25,10,100]},{\"name\":\"\u9838\",\"state\":\"\u901A\u5E38\",\"extract\":\"\u8D64\",\"hitData\":[40,40,45,5,10,0,15,5,100]},{\"name\":\"\u9838\",\"state\":\"\u8D85\u5E36\u96FB\",\"extract\":\"\u8D64\",\"hitData\":[60,60,50,5,15,0,20,5,100]},{\"name\":\"\u8EAB\u9AD4\",\"state\":\"\u901A\u5E38\",\"extract\":\"\u6A59\",\"hitData\":[30,30,20,0,5,0,5,0,0]},{\"name\":\"\u8EAB\u9AD4\",\"state\":\"\u8D85\u5E36\u96FB\",\"extract\":\"\u6A59\",\"hitData\":[25,25,15,0,5,0,10,0,0]},{\"name\":\"\u80CC\",\"state\":\"\u901A\u5E38\",\"extract\":\"\u8D64\",\"hitData\":[30,30,20,0,5,0,10,0,0]},{\"name\":\"\u80CC\",\"state\":\"\u8D85\u5E36\u96FB\",\"extract\":\"\u8D64\",\"hitData\":[40,40,45,5,10,0,15,5,0]},{\"name\":\"\u524D\u8173\",\"state\":\"\u901A\u5E38\",\"extract\":\"\u8D64\",\"hitData\":[40,40,35,5,10,0,15,5,0]},{\"name\":\"\u524D\u8173\",\"state\":\"\u8D85\u5E36\u96FB\",\"extract\":\"\u8D64\",\"hitData\":[45,45,45,5,15,0,20,5,0]},{\"name\":\"\u5F8C\u8173\",\"state\":\"\u901A\u5E38\",\"extract\":\"\u767D\",\"hitData\":[30,30,20,0,5,0,5,0,0]},{\"name\":\"\u5F8C\u8173\",\"state\":\"\u8D85\u5E36\u96FB\",\"extract\":\"\u767D\",\"hitData\":[25,25,15,0,5,0,10,0,0]},{\"name\":\"\u5C3E\",\"state\":\"\u901A\u5E38\",\"extract\":\"\u6A59\",\"hitData\":[30,30,20,0,5,0,5,0,0]},{\"name\":\"\u5C3E\",\"state\":\"\u8D85\u5E36\u96FB\",\"extract\":\"\u6A59\",\"hitData\":[45,45,45,5,10,0,15,5,0]}]}}");
-            if (movesObj !== undefined)
-                onDexLoaded("move load then");
-        });
+    // fetch('mhrdex.json')
+    //     .then(res => {
+    //         if (!res.ok) {
+    //             throw new Error(res.statusText);
+    //         }
+    //         return res.json();
+    //     })
+    //     .then(result => {
+    //         dexObj = result;
+    //         if (movesObj !== undefined)
+    //             onDexLoaded("move load then");
+    //     })
+    //     .catch(error => {
+    //         dexObj = JSON.parse("{\"\u96F7\u72FC\u9F8D\":{\"nameTW\":\"\u96F7\u72FC\u9F8D\",\"nameJP\":\"\u30B8\u30F3\u30AA\u30A6\u30AC\",\"nameEN\":\"Zinogre\",\"spacies\":\"\u7259\u9F8D\u7A2E\",\"image\":\"http:\/\/hobbigame.com\/wp-content\/uploads\/2017\/09\/mhxx64.jpg\",\"icon\":\"https:\/\/truth.bahamut.com.tw\/s01\/201809\/54151d0600726f4ad7c4769c6c4804b8.PNG\",\"breakables\":\"\u982D\u3001\u524D\u8173\u3001\u80CC\u3001\u5C3E\",\"trait\":{\"roar\":\"\u5C0F\",\"wind\":\"\u5C0F\",\"tremer\":\"\u7121\"},\"weakness\":{\"weapon\":[{\"part\":\"\u982D\",\"cut\":3,\"blunt\":3,\"ammo\":3},{\"part\":\"\u524D\u8173\",\"cut\":2,\"blunt\":2,\"ammo\":2},{\"part\":\"\u5C3E\",\"cut\":2,\"blunt\":2,\"ammo\":2}],\"element\":[{\"condition\":\"normal\",\"fire\":1,\"water\":2,\"thunder\":0,\"ice\":3,\"dragon\":1}],\"aliment\":[{\"condition\":\"normal\",\"poison\":2,\"sleep\":2,\"paralysis\":1,\"blast\":2,\"stun\":2}],\"item\":[{\"condition\":\"normal\",\"pitfalltrap\":2,\"shocktrap\":1,\"flashpod\":2,\"screamerpod\":0},{\"condition\":\"\u8D85\u5E36\u96FB\",\"pitfalltrap\":2,\"shocktrap\":0,\"flashpod\":2,\"screamerpod\":0}]},\"parts\":[{\"name\":\"\u982D\",\"state\":\"\u901A\u5E38\",\"extract\":\"\u8D64\",\"hitData\":[45,45,50,5,10,0,15,5,100]},{\"name\":\"\u982D\",\"state\":\"\u8D85\u5E36\u96FB\",\"extract\":\"\u8D64\",\"hitData\":[65,65,55,10,20,0,25,10,100]},{\"name\":\"\u9838\",\"state\":\"\u901A\u5E38\",\"extract\":\"\u8D64\",\"hitData\":[40,40,45,5,10,0,15,5,100]},{\"name\":\"\u9838\",\"state\":\"\u8D85\u5E36\u96FB\",\"extract\":\"\u8D64\",\"hitData\":[60,60,50,5,15,0,20,5,100]},{\"name\":\"\u8EAB\u9AD4\",\"state\":\"\u901A\u5E38\",\"extract\":\"\u6A59\",\"hitData\":[30,30,20,0,5,0,5,0,0]},{\"name\":\"\u8EAB\u9AD4\",\"state\":\"\u8D85\u5E36\u96FB\",\"extract\":\"\u6A59\",\"hitData\":[25,25,15,0,5,0,10,0,0]},{\"name\":\"\u80CC\",\"state\":\"\u901A\u5E38\",\"extract\":\"\u8D64\",\"hitData\":[30,30,20,0,5,0,10,0,0]},{\"name\":\"\u80CC\",\"state\":\"\u8D85\u5E36\u96FB\",\"extract\":\"\u8D64\",\"hitData\":[40,40,45,5,10,0,15,5,0]},{\"name\":\"\u524D\u8173\",\"state\":\"\u901A\u5E38\",\"extract\":\"\u8D64\",\"hitData\":[40,40,35,5,10,0,15,5,0]},{\"name\":\"\u524D\u8173\",\"state\":\"\u8D85\u5E36\u96FB\",\"extract\":\"\u8D64\",\"hitData\":[45,45,45,5,15,0,20,5,0]},{\"name\":\"\u5F8C\u8173\",\"state\":\"\u901A\u5E38\",\"extract\":\"\u767D\",\"hitData\":[30,30,20,0,5,0,5,0,0]},{\"name\":\"\u5F8C\u8173\",\"state\":\"\u8D85\u5E36\u96FB\",\"extract\":\"\u767D\",\"hitData\":[25,25,15,0,5,0,10,0,0]},{\"name\":\"\u5C3E\",\"state\":\"\u901A\u5E38\",\"extract\":\"\u6A59\",\"hitData\":[30,30,20,0,5,0,5,0,0]},{\"name\":\"\u5C3E\",\"state\":\"\u8D85\u5E36\u96FB\",\"extract\":\"\u6A59\",\"hitData\":[45,45,45,5,10,0,15,5,0]}]}}");
+    //         if (movesObj !== undefined)
+    //             onDexLoaded("move load then");
+    //     });
 
-    fetch('mhrmoves.json')
-        .then(res => {
-            if (!res.ok)
-                throw new Error(res.statusText);
-            return res.json();
-        })
-        .then(result => {
-            movesObj = result;
-            if (dexObj !== undefined)
-                onDexLoaded("move load then");
-        })
-        .catch(error => {
-            movesObj = JSON.parse("{\"\u96F7\u72FC\u9F8D\":{\"outline\":\"\",\"moves\":[{\"name\":\"\u9F8D\u543C\",\"preaction\":\"\",\"action\":\"\",\"recovery\":\"\",\"note\":\"\",\"image\":\"\",\"onlyincombo\":false},{\"name\":\"\u524D\u9802\",\"preaction\":\"\",\"action\":\"\",\"recovery\":\"\",\"note\":\"\",\"image\":\"\",\"onlyincombo\":false}],\"combos\":[{\"root\":0,\"condition\":\"\",\"nodes\":[{\"move\":\"\u524D\u9802\",\"links\":[{\"node\":1,\"condition\":\"\u8EAB\u5074\"},{\"node\":2,\"condition\":\"\u8EAB\u524D\"},{\"node\":3,\"condition\":\"\u8EAB\u5F8C\"}]},{\"move\":\"\u9435\u5C71\u9760\",\"links\":[]},{\"move\":\"\u5F8C\u8DF3\u64B2\",\"links\":[{\"node\":4,\"condition\":\"\u7121\u5E36\u96FB\"},{\"node\":5,\"condition\":\"\u8EAB\u5074\u4E14\u8D85\u96FB\"},{\"node\":6,\"condition\":\"\u8EAB\u524D\u4E14\u8D85\u96FB\"}]},{\"move\":\"\u5C0F\u7529\u5C3E\",\"links\":[{\"node\":7,\"condition\":\"\u8D85\u96FB\u6012\"}]},{\"move\":\"\u5F37\u84C4\u96FB\",\"links\":[]},{\"move\":\"\u9435\u5C71\u9760\",\"links\":[{\"node\":7,\"condition\":\"\u8D85\u96FB\u6012\"}]},{\"move\":\"\u84C4\u529B\u62F3\",\"links\":[{\"node\":8,\"condition\":\"\u8D85\u96FB\u6012\"}]},{\"move\":\"\u6258\u99AC\u65AF\",\"links\":[]},{\"move\":\"\u80CC\u7838\",\"links\":[]}]},{\"root\":0,\"condition\":\"\",\"nodes\":[{\"move\":\"\u5FEB\u901F\u62F3\",\"links\":[{\"node\":1,\"condition\":\"\u8EAB\u524D\u4E14\u8D85\u96FB\uFF08\u6A5F\u7387\uFF09\uFF0F\u8D85\u96FB\u6012\uFF08\u5FC5\u51FA\uFF09\"},{\"node\":2,\"condition\":\"\u8EAB\u5074\u4E14\u8D85\u96FB\uFF08\u6A5F\u7387\uFF09\"}]},{\"move\":\"\u5FEB\u901F\u62F3\",\"links\":[{\"node\":3,\"condition\":\"\"}]},{\"move\":\"\u5FEB\u901F\u62F3\",\"links\":[{\"node\":5,\"condition\":\"\"}]},{\"move\":\"\u84C4\u529B\u62F3\",\"links\":[{\"node\":4,\"condition\":\"\u8D85\u96FB\u6012\"}]},{\"move\":\"\u80CC\u7838\",\"links\":[]},{\"move\":\"\u5C3E\u7838\",\"links\":[{\"node\":6,\"condition\":\"\"}]},{\"move\":\"\u6258\u99AC\u65AF\",\"links\":[{\"node\":4,\"condition\":\"\u8D85\u96FB\u6012\"}]}]}]}}");
-            if (dexObj !== undefined)
-                onDexLoaded("move load err");
-        });
+    // fetch('mhrmoves.json')
+    //     .then(res => {
+    //         if (!res.ok)
+    //             throw new Error(res.statusText);
+    //         return res.json();
+    //     })
+    //     .then(result => {
+    //         movesObj = result;
+    //         if (dexObj !== undefined)
+    //             onDexLoaded("move load then");
+    //     })
+    //     .catch(error => {
+    //         movesObj = JSON.parse("{\"\u96F7\u72FC\u9F8D\":{\"outline\":\"\",\"moves\":[{\"name\":\"\u9F8D\u543C\",\"preaction\":\"\",\"action\":\"\",\"recovery\":\"\",\"note\":\"\",\"image\":\"\",\"onlyincombo\":false},{\"name\":\"\u524D\u9802\",\"preaction\":\"\",\"action\":\"\",\"recovery\":\"\",\"note\":\"\",\"image\":\"\",\"onlyincombo\":false}],\"combos\":[{\"root\":0,\"condition\":\"\",\"nodes\":[{\"move\":\"\u524D\u9802\",\"links\":[{\"node\":1,\"condition\":\"\u8EAB\u5074\"},{\"node\":2,\"condition\":\"\u8EAB\u524D\"},{\"node\":3,\"condition\":\"\u8EAB\u5F8C\"}]},{\"move\":\"\u9435\u5C71\u9760\",\"links\":[]},{\"move\":\"\u5F8C\u8DF3\u64B2\",\"links\":[{\"node\":4,\"condition\":\"\u7121\u5E36\u96FB\"},{\"node\":5,\"condition\":\"\u8EAB\u5074\u4E14\u8D85\u96FB\"},{\"node\":6,\"condition\":\"\u8EAB\u524D\u4E14\u8D85\u96FB\"}]},{\"move\":\"\u5C0F\u7529\u5C3E\",\"links\":[{\"node\":7,\"condition\":\"\u8D85\u96FB\u6012\"}]},{\"move\":\"\u5F37\u84C4\u96FB\",\"links\":[]},{\"move\":\"\u9435\u5C71\u9760\",\"links\":[{\"node\":7,\"condition\":\"\u8D85\u96FB\u6012\"}]},{\"move\":\"\u84C4\u529B\u62F3\",\"links\":[{\"node\":8,\"condition\":\"\u8D85\u96FB\u6012\"}]},{\"move\":\"\u6258\u99AC\u65AF\",\"links\":[]},{\"move\":\"\u80CC\u7838\",\"links\":[]}]},{\"root\":0,\"condition\":\"\",\"nodes\":[{\"move\":\"\u5FEB\u901F\u62F3\",\"links\":[{\"node\":1,\"condition\":\"\u8EAB\u524D\u4E14\u8D85\u96FB\uFF08\u6A5F\u7387\uFF09\uFF0F\u8D85\u96FB\u6012\uFF08\u5FC5\u51FA\uFF09\"},{\"node\":2,\"condition\":\"\u8EAB\u5074\u4E14\u8D85\u96FB\uFF08\u6A5F\u7387\uFF09\"}]},{\"move\":\"\u5FEB\u901F\u62F3\",\"links\":[{\"node\":3,\"condition\":\"\"}]},{\"move\":\"\u5FEB\u901F\u62F3\",\"links\":[{\"node\":5,\"condition\":\"\"}]},{\"move\":\"\u84C4\u529B\u62F3\",\"links\":[{\"node\":4,\"condition\":\"\u8D85\u96FB\u6012\"}]},{\"move\":\"\u80CC\u7838\",\"links\":[]},{\"move\":\"\u5C3E\u7838\",\"links\":[{\"node\":6,\"condition\":\"\"}]},{\"move\":\"\u6258\u99AC\u65AF\",\"links\":[{\"node\":4,\"condition\":\"\u8D85\u96FB\u6012\"}]}]}]}}");
+    //         if (dexObj !== undefined)
+    //             onDexLoaded("move load err");
+    //     });
+
+    data = {};
+    Promise.all([fetch('mhrdex.json'), fetch('mhrmoves.json')]).then((results) => {
+        var jsonPromises = [];
+        for (let res of results) {
+            jsonPromises.push(res.json());
+        }
+        return Promise.all(jsonPromises);
+    }).then((jsonDatas) => {
+        for (let jsonData of jsonDatas) {
+            for (let key in jsonData) {
+                data[key] = jsonData[key];
+            }
+        }
+        onDexLoaded();
+    })
 }
+
 
 
 function onDexLoaded() {
@@ -90,9 +116,11 @@ function onDexLoaded() {
 
     var monlist = document.getElementById('monlist');
 
-    for (key in dexObj) {
+    let dexData = GetDexData();
 
-        var mon = dexObj[key];
+    for (key in dexData) {
+
+        var mon = dexData[key];
         if (mon.spacies !== "") {
             if (spaciesDictionary.hasOwnProperty(mon.spacies) == false) {
                 spaciesDictionary[mon.spacies] = [];
@@ -124,7 +152,7 @@ function onDexLoaded() {
 
     let searchParams = new URLSearchParams(location.search);
     let navMon = searchParams.get('mon');
-    if (dexObj.hasOwnProperty(navMon)) {
+    if (dexData.hasOwnProperty(navMon)) {
         SetMon(navMon);
     } else {
         OnSelectLayer(0);
@@ -144,7 +172,7 @@ function SetSpacies(key) {
         if (key === '全部') {
             btn.style.display = "inline";
         } else {
-            if (dexObj[btn.children[1].innerHTML].spacies === key)
+            if (GetDexData()[btn.children[1].innerHTML].spacies === key)
                 btn.style.display = "inline";
             else
                 btn.style.display = "none";
@@ -157,8 +185,8 @@ function SetSpacies(key) {
 
 function SetMon(key) {
 
-    var monObj = dexObj[key];
-    currentMon = dexObj[key];
+    var monObj = GetDexData()[key];
+    currentMon = monObj;
 
     SetElementById('title', monObj.nameTW);
     SetElementById('namejp', monObj.nameJP);
@@ -286,10 +314,11 @@ function SetMon(key) {
     }
 
     //moves
+    let movesData = GetMovesData();
     var divMoves = document.getElementById('divmoves');
-    if (movesObj.hasOwnProperty(key)) {
+    if (movesData.hasOwnProperty(key)) {
         divMoves.style.display = "block";
-        currentMonMoves = movesObj[key];
+        currentMonMoves = movesData[key];
         var outlineSpan = SetElementById("moveoutline", "");
         if (!IsNullOrEmpty(currentMonMoves.outline)) {
             WriteDescriptionTexts(outlineSpan, currentMonMoves.outline);
