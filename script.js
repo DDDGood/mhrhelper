@@ -17,16 +17,19 @@ var currentMon = {};
 var currentMonMoves = {};
 var spaciesDictionary = {};
 
-document.addEventListener("DOMContentLoaded", Initialize);
 //google.script.run.withSuccessHandler(onDexLoaded).LoadRiseData();
 
 var time;
+time = Date.now();
+console.log("startTime:" + time);
+
+document.addEventListener("DOMContentLoaded", Initialize);
+
 function Initialize() {
 
-    var date = new Date();
-
-    time = Date.now();
-    console.log(time);
+    var newtime = Date.now();
+    console.log("startInit:" + (newtime - time));
+    time = newtime;
 
     layer0 = document.getElementById('layer0');
     layer1 = document.getElementById('layer1');
@@ -81,11 +84,9 @@ function Initialize() {
 
 function onDexLoaded() {
 
-    var date = new Date();
     var newtime = Date.now();
-
-    console.log(newtime);
-    console.log(newtime - time);
+    console.log("DexLoaded:" + (newtime - time));
+    time = newtime;
 
     var monlist = document.getElementById('monlist');
 
@@ -128,6 +129,10 @@ function onDexLoaded() {
     } else {
         OnSelectLayer(0);
     }
+
+    var newtime = Date.now();
+    console.log("Finished:" + (newtime - time));
+    time = newtime;
 }
 
 function SetSpacies(key) {
