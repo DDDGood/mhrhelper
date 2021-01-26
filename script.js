@@ -72,10 +72,27 @@ function InitVue() {
         data: {
             monData: {
                 trait: {},
-                weakness: { weapon: {} }
+                weakness: { weapon: {}, element: {} }
             }
         },
         methods: {
+            GetWeaknessData(type, index) {
+                try {
+                    return this.monData.weakness[type].values[index];
+                } catch {
+                    console.log("failed");
+                    return "－";
+                }
+            },
+            GetWeaknessCondition(type) {
+                try {
+                    // alert(this.monData.weakness[type].condition);
+                    return this.monData.weakness[type].condition;
+                } catch {
+                    console.log("failed");
+                    return "";
+                }
+            },
             ParseStars: function (num) {
                 return ParseStars(num);
             },
@@ -88,39 +105,50 @@ function InitVue() {
                 if (IsNullOrEmpty(inputData.images)) this.monData.images = "images/icons/monsters/icon_unknown.png";
                 if (!inputData.hasOwnProperty("trait"))
                     this.monData.trait = { roar: "－", wind: "－", tremer: "－", element: "－", aliment: "－" };
-                // if (inputData.hasOwnProperty(weakness)) {
-                //     if (inputData.weakness.hasOwnProperty("weapon")) {
-                //         for (var weakPart of inputData.weakness.weapon) {
-                //             this.mon.weakness.weapon[weakPart].cut = 
-                //         }
-                //     }
-                // }
-                // this.monData.name1 = IsNullOrEmpty(inputData.nameTW) ? "－" : inputData.nameTW;
-                // this.monData.name2 = IsNullOrEmpty(inputData.nameJP) ? "－" : inputData.nameJP;
-                // this.monData.name3 = IsNullOrEmpty(inputData.nameEN) ? "－" : inputData.nameEN;
-                // this.monData.spacies = IsNullOrEmpty(inputData.spacies) ? "－" : inputData.spacies;
-                // this.monData.icon = IsNullOrEmpty(inputData.icon) ? "images/icons/monsters/icon_unknown.png" : inputData.icon;
-                // this.monData.image = IsNullOrEmpty(inputData.image) ? "images/icons/monsters/icon_unknown.png" : inputData.image;
-                // this.monData.trait = inputData.hasOwnProperty("trait") ? inputData.trait : {},
-                //     this.monData.trait.roar = IsNullOrEmpty(inputData.trait.roar) ? "－" : inputData.trait.roar;
-                // this.monData.trait.wind = IsNullOrEmpty(inputData.trait.wind) ? "－" : inputData.trait.wind;
-                // this.monData.spacies = IsNullOrEmpty(inputData.spacies) ? "－" : inputData.spacies;
-                // this.monData.spacies = IsNullOrEmpty(inputData.spacies) ? "－" : inputData.spacies;
-                // this.monData.spacies = IsNullOrEmpty(inputData.spacies) ? "－" : inputData.spacies;
-                // if (inputData.weakness.hasOwnProperty("weapon")) {
-                //     for (var weakPart of inputData.weakness.weapon) {
-                //         var row = CreateClassElement("div", "panel-block-1 panel-row margin");
-                //         var name = CreateClassElement("div", "panel-block panel-text", weakPart.part);
-                //         var cut = CreateClassElement("div", "panel-block panel-text", ParseStars(weakPart.cut));
-                //         var blunt = CreateClassElement("div", "panel-block panel-text", ParseStars(weakPart.blunt));
-                //         var ammo = CreateClassElement("div", "panel-block panel-text", ParseStars(weakPart.ammo));
-                //         row.appendChild(name);
-                //         row.appendChild(cut);
-                //         row.appendChild(blunt);
-                //         row.appendChild(ammo);
-                //         weaponBlock.appendChild(row);
-                //     }
-                // }
+                if (inputData.weakness.hasOwnProperty("element")) {
+                    var elementData = {
+                        type: "element",
+                        weakData: inputData.weakness.element,
+                        dataKeys: ["fire", "water", "thunder", "ice", "dragon"]
+                    };
+                    this.SetWeaknessData(elementData);
+                }
+                if (inputData.weakness.hasOwnProperty("aliment")) {
+                    var alimentData = {
+                        type: "aliment",
+                        weakData: inputData.weakness.aliment,
+                        dataKeys: ["poison", "sleep", "paralysis", "blast", "stun"]
+                    };
+                    this.SetWeaknessData(alimentData);
+                }
+            },
+            SetWeaknessData: function (params) {
+
+                let specialCase = false;
+                let conditionText = "";
+                let values = {}
+
+                for (let weakState of params.weakData) {
+                    if (weakState.condition === "normal") {
+                        for (let i = 0; i < params.dataKeys.length; i++) {
+                            values[params.dataKeys[i]] = ParseStars(weakState[params.dataKeys[i]]);
+                        }
+                    } else {
+                        if (specialCase === false) {
+                            specialCase = true;
+                            conditionText += weakState.condition;
+                        } else {
+                            conditionText += "、" + weakState.condition;
+                        }
+                        for (let key in values) {
+                            values[key] += "<br>(" + ParseStars(weakState[key]) + ")";
+                        }
+                    }
+                }
+                this.monData.weakness[params.type] = {
+                    condition: specialCase ? "(" + conditionText + ")" : "",
+                    values: values
+                };
             }
         }
     });
@@ -292,24 +320,24 @@ function SetMon(key) {
         //     }
         //     // weaponBlock.style.paddingBottom = "2px";
         // }
-        if (monObj.weakness.hasOwnProperty("element")) {
-            var elementData = {
-                weakData: monObj.weakness.element,
-                dataIDs: ["weakness-element-fire", "weakness-element-water", "weakness-element-thunder", "weakness-element-ice", "weakness-element-dragon"],
-                dataKeys: ["fire", "water", "thunder", "ice", "dragon"],
-                specialTextID: "weakness-element-special",
-            };
-            WriteWeaknessData(elementData);
-        }
-        if (monObj.weakness.hasOwnProperty("aliment")) {
-            var alimentData = {
-                weakData: monObj.weakness.aliment,
-                dataIDs: ["weakness-aliment-poison", "weakness-aliment-sleep", "weakness-aliment-paralysis", "weakness-aliment-blast", "weakness-aliment-stun"],
-                dataKeys: ["poison", "sleep", "paralysis", "blast", "stun"],
-                specialTextID: "weakness-aliment-special",
-            };
-            WriteWeaknessData(alimentData);
-        }
+        // if (monObj.weakness.hasOwnProperty("element")) {
+        //     var elementData = {
+        //         weakData: monObj.weakness.element,
+        //         dataIDs: ["weakness-element-fire", "weakness-element-water", "weakness-element-thunder", "weakness-element-ice", "weakness-element-dragon"],
+        //         dataKeys: ["fire", "water", "thunder", "ice", "dragon"],
+        //         specialTextID: "weakness-element-special",
+        //     };
+        //     WriteWeaknessData(elementData);
+        // }
+        // if (monObj.weakness.hasOwnProperty("aliment")) {
+        //     var alimentData = {
+        //         weakData: monObj.weakness.aliment,
+        //         dataIDs: ["weakness-aliment-poison", "weakness-aliment-sleep", "weakness-aliment-paralysis", "weakness-aliment-blast", "weakness-aliment-stun"],
+        //         dataKeys: ["poison", "sleep", "paralysis", "blast", "stun"],
+        //         specialTextID: "weakness-aliment-special",
+        //     };
+        //     WriteWeaknessData(alimentData);
+        // }
         if (monObj.weakness.hasOwnProperty("item")) {
             var itemData = {
                 weakData: monObj.weakness.item,
