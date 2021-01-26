@@ -18,12 +18,13 @@
   <link rel="stylesheet" type="text/css" href="style_mobile.css" />
   <link rel="stylesheet" type="text/css" href="style_desktop.css" />
   <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vue@2.6.12"></script>
   <script type="text/javascript" src="script.js"></script>
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=0">
 </head>
 
 <body>
-  <div class="wrapper">
+  <div id="wrapper">
 
     <div class="header1" onclick="javascript:location.href='https://dddgood.github.io/mhrhelper/'">MHRise 魔物筆記</div>
 
@@ -65,47 +66,47 @@
           <div id="panel-basicinfo">
             <div id="panel-row-title" class="panel-row margin">
               <div id="panel-block-monicon">
-                <img id="monicon" src="" alt="icon" />
+                <img id="monicon" v-bind:src="monData.icon" alt="icon" />
               </div>
               <div id="nameblock" class="panel-block-1"
                 style="flex:2; display: flex; flex-direction:column; align-items:stretch;justify-content:center;">
-                <div id="title" class="panel-text-title"> </div>
+                <div id="title" class="panel-text-title"> {{monData.name1}}</div>
                 <div class="panel-row" style="display: flex; align-items:center;">
-                  <div id="namejp" class="text-center panel-text-small" style="flex:1;"> blabla </div>
-                  <div id="nameen" class="text-center panel-text-small" style="flex:1;"> blabla </div>
+                  <div id="namejp" class="text-center panel-text-small" style="flex:1;"> {{monData.name2}} </div>
+                  <div id="nameen" class="text-center panel-text-small" style="flex:1;"> {{monData.name3}} </div>
                 </div>
               </div>
               <div class="panel-block-1" style=" display:flex; align-items: center; justify-content:center">
-                <div id="spacies" class="panel-text-bold"></div>
+                <div id="spacies" class="panel-text-bold">{{monData.spacies}}</div>
               </div>
             </div>
             <div class="panel-row margin">
               <div class="panel-block-1">
-                <img id="monimage" src="" alt="Image" />
+                <img id="monimage" v-bind:src="monData.image" alt="Image" />
               </div>
             </div>
             <div class="panel-row margin">
               <div class="panel-block-2 ">
                 <div class="panel-text-bold">咆嘯</div>
-                <div id="roar" class="panel-block-1 panel-text margin">-</div>
+                <div id="roar" class="panel-block-1 panel-text margin">{{monData.trait.roar}}</div>
               </div>
               <div class="panel-block-2 ">
                 <div class="panel-text-bold">風壓</div>
-                <div id="wind" class="panel-block-1 panel-text margin">-</div>
+                <div id="wind" class="panel-block-1 panel-text margin">{{monData.trait.wind}}</div>
               </div>
               <div class="panel-block-2 ">
                 <div class="panel-text-bold">震動</div>
-                <div id="tremer" class="panel-block-1 panel-text margin">-</div>
+                <div id="tremer" class="panel-block-1 panel-text margin">{{monData.trait.tremer}}</div>
               </div>
             </div>
             <div class="panel-row margin">
               <div class="panel-block-2 ">
                 <div class="panel-text-bold">主要屬性</div>
-                <div id="element" class="panel-block-1 panel-text margin">-</div>
+                <div id="element" class="panel-block-1 panel-text margin">{{monData.trait.element}}</div>
               </div>
               <div class="panel-block-2 ">
                 <div class="panel-text-bold">異常狀態</div>
-                <div id="aliment" class="panel-block-1 panel-text margin">-</div>
+                <div id="aliment" class="panel-block-1 panel-text margin">{{monData.trait.aliment}}</div>
               </div>
             </div>
             <div class="panel-row margin">
@@ -116,14 +117,12 @@
                   <div class="panel-block panel-text-bold">打</div>
                   <div class="panel-block panel-text-bold">彈</div>
                 </div>
-                <!-- sample
-                         <div class="panel-row panel-block-1">
-                            <div class="panel-block panel-text">頭</div>  
-                            <div class="panel-block panel-text">AAA</div>
-                            <div class="panel-block panel-text">AA</div>
-                            <div class="panel-block panel-text">A</div>        
-                         </div>
-                         -->
+                <div class="panel-row panel-block-1 margin" v-for="weakPart of monData.weakness.weapon">
+                  <div class="panel-block panel-text">{{weakPart.part}}</div>
+                  <div class="panel-block panel-text">{{ParseStars(weakPart.cut)}}</div>
+                  <div class="panel-block panel-text">{{ParseStars(weakPart.blunt)}}</div>
+                  <div class="panel-block panel-text">{{ParseStars(weakPart.ammo)}}</div>
+                </div>
               </div>
             </div>
             <div id="weakness-element" class="panel-row margin">

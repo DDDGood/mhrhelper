@@ -15,7 +15,8 @@ html, body {
 body{
   min-height: calc(100% - 100px); /*減去footer高度*/
 }
-.wrapper {
+#wrapper {
+  display: none;
   min-height: 100%;
   margin-bottom: 50px;
 }
@@ -89,6 +90,9 @@ var{
 #topbar-background{
   background-color: #31363D; 
 }
+#topbar-background-highlight{
+  background-color: #4CAF50 !important; 
+}
 
 .topbarlink{
   color : white;  
@@ -100,7 +104,6 @@ var{
 .topbarbtn {
   font-family: Montserrat;
   border: none;
-  background-color: #333; 
   color: white;
   padding-top : 10px;
   padding-bottom : 10px;

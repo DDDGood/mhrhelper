@@ -12,8 +12,10 @@ var svg;
 var moveInfo;
 
 var data = {};
-// var dexObj;
-// var movesObj;
+function GetData(key) {
+    return data[key];
+}
+
 var currentMon = {};
 var currentMonMoves = {};
 var spaciesDictionary = {};
@@ -24,21 +26,16 @@ var time;
 time = Date.now();
 console.log("startTime:" + time);
 
-document.addEventListener("DOMContentLoaded", Initialize);
+var panel;
 
-function GetDexData() {
-    return data["dex"];
-}
-
-function GetMovesData() {
-    return data["moves"];
-}
+$(document).ready(Initialize);
 
 function Initialize() {
 
     var newtime = Date.now();
     console.log("startInit:" + (newtime - time));
     time = newtime;
+
 
     layer0 = document.getElementById('layer0');
     layer1 = document.getElementById('layer1');
@@ -47,50 +44,95 @@ function Initialize() {
     topbarlayer1 = document.getElementById('topbarlayer1');
     topbarlayer2 = document.getElementById('topbarlayer2');
 
-    layer0.style.display = "none";
-    layer1.style.display = "none";
-    layer2.style.display = "none";
-    topbarlayer0.style.display = "none";
-    topbarlayer1.style.display = "none";
-    topbarlayer2.style.display = "none";
+    // layer0.style.display = "none";
+    // layer1.style.display = "none";
+    // layer2.style.display = "none";
+    // topbarlayer0.style.display = "none";
+    // topbarlayer1.style.display = "none";
+    // topbarlayer2.style.display = "none";
 
-    // fetch('mhrdex.json')
-    //     .then(res => {
-    //         if (!res.ok) {
-    //             throw new Error(res.statusText);
-    //         }
-    //         return res.json();
-    //     })
-    //     .then(result => {
-    //         dexObj = result;
-    //         if (movesObj !== undefined)
-    //             onDexLoaded("move load then");
-    //     })
-    //     .catch(error => {
-    //         dexObj = JSON.parse("{\"\u96F7\u72FC\u9F8D\":{\"nameTW\":\"\u96F7\u72FC\u9F8D\",\"nameJP\":\"\u30B8\u30F3\u30AA\u30A6\u30AC\",\"nameEN\":\"Zinogre\",\"spacies\":\"\u7259\u9F8D\u7A2E\",\"image\":\"http:\/\/hobbigame.com\/wp-content\/uploads\/2017\/09\/mhxx64.jpg\",\"icon\":\"https:\/\/truth.bahamut.com.tw\/s01\/201809\/54151d0600726f4ad7c4769c6c4804b8.PNG\",\"breakables\":\"\u982D\u3001\u524D\u8173\u3001\u80CC\u3001\u5C3E\",\"trait\":{\"roar\":\"\u5C0F\",\"wind\":\"\u5C0F\",\"tremer\":\"\u7121\"},\"weakness\":{\"weapon\":[{\"part\":\"\u982D\",\"cut\":3,\"blunt\":3,\"ammo\":3},{\"part\":\"\u524D\u8173\",\"cut\":2,\"blunt\":2,\"ammo\":2},{\"part\":\"\u5C3E\",\"cut\":2,\"blunt\":2,\"ammo\":2}],\"element\":[{\"condition\":\"normal\",\"fire\":1,\"water\":2,\"thunder\":0,\"ice\":3,\"dragon\":1}],\"aliment\":[{\"condition\":\"normal\",\"poison\":2,\"sleep\":2,\"paralysis\":1,\"blast\":2,\"stun\":2}],\"item\":[{\"condition\":\"normal\",\"pitfalltrap\":2,\"shocktrap\":1,\"flashpod\":2,\"screamerpod\":0},{\"condition\":\"\u8D85\u5E36\u96FB\",\"pitfalltrap\":2,\"shocktrap\":0,\"flashpod\":2,\"screamerpod\":0}]},\"parts\":[{\"name\":\"\u982D\",\"state\":\"\u901A\u5E38\",\"extract\":\"\u8D64\",\"hitData\":[45,45,50,5,10,0,15,5,100]},{\"name\":\"\u982D\",\"state\":\"\u8D85\u5E36\u96FB\",\"extract\":\"\u8D64\",\"hitData\":[65,65,55,10,20,0,25,10,100]},{\"name\":\"\u9838\",\"state\":\"\u901A\u5E38\",\"extract\":\"\u8D64\",\"hitData\":[40,40,45,5,10,0,15,5,100]},{\"name\":\"\u9838\",\"state\":\"\u8D85\u5E36\u96FB\",\"extract\":\"\u8D64\",\"hitData\":[60,60,50,5,15,0,20,5,100]},{\"name\":\"\u8EAB\u9AD4\",\"state\":\"\u901A\u5E38\",\"extract\":\"\u6A59\",\"hitData\":[30,30,20,0,5,0,5,0,0]},{\"name\":\"\u8EAB\u9AD4\",\"state\":\"\u8D85\u5E36\u96FB\",\"extract\":\"\u6A59\",\"hitData\":[25,25,15,0,5,0,10,0,0]},{\"name\":\"\u80CC\",\"state\":\"\u901A\u5E38\",\"extract\":\"\u8D64\",\"hitData\":[30,30,20,0,5,0,10,0,0]},{\"name\":\"\u80CC\",\"state\":\"\u8D85\u5E36\u96FB\",\"extract\":\"\u8D64\",\"hitData\":[40,40,45,5,10,0,15,5,0]},{\"name\":\"\u524D\u8173\",\"state\":\"\u901A\u5E38\",\"extract\":\"\u8D64\",\"hitData\":[40,40,35,5,10,0,15,5,0]},{\"name\":\"\u524D\u8173\",\"state\":\"\u8D85\u5E36\u96FB\",\"extract\":\"\u8D64\",\"hitData\":[45,45,45,5,15,0,20,5,0]},{\"name\":\"\u5F8C\u8173\",\"state\":\"\u901A\u5E38\",\"extract\":\"\u767D\",\"hitData\":[30,30,20,0,5,0,5,0,0]},{\"name\":\"\u5F8C\u8173\",\"state\":\"\u8D85\u5E36\u96FB\",\"extract\":\"\u767D\",\"hitData\":[25,25,15,0,5,0,10,0,0]},{\"name\":\"\u5C3E\",\"state\":\"\u901A\u5E38\",\"extract\":\"\u6A59\",\"hitData\":[30,30,20,0,5,0,5,0,0]},{\"name\":\"\u5C3E\",\"state\":\"\u8D85\u5E36\u96FB\",\"extract\":\"\u6A59\",\"hitData\":[45,45,45,5,10,0,15,5,0]}]}}");
-    //         if (movesObj !== undefined)
-    //             onDexLoaded("move load then");
-    //     });
+    $("#layer0").hide();
+    $("#layer1").hide();
+    $("#layer2").hide();
+    $("#topbarlayer0").hide();
+    $("#topbarlayer1").hide();
+    $("#topbarlayer2").hide();
 
-    // fetch('mhrmoves.json')
-    //     .then(res => {
-    //         if (!res.ok)
-    //             throw new Error(res.statusText);
-    //         return res.json();
-    //     })
-    //     .then(result => {
-    //         movesObj = result;
-    //         if (dexObj !== undefined)
-    //             onDexLoaded("move load then");
-    //     })
-    //     .catch(error => {
-    //         movesObj = JSON.parse("{\"\u96F7\u72FC\u9F8D\":{\"outline\":\"\",\"moves\":[{\"name\":\"\u9F8D\u543C\",\"preaction\":\"\",\"action\":\"\",\"recovery\":\"\",\"note\":\"\",\"image\":\"\",\"onlyincombo\":false},{\"name\":\"\u524D\u9802\",\"preaction\":\"\",\"action\":\"\",\"recovery\":\"\",\"note\":\"\",\"image\":\"\",\"onlyincombo\":false}],\"combos\":[{\"root\":0,\"condition\":\"\",\"nodes\":[{\"move\":\"\u524D\u9802\",\"links\":[{\"node\":1,\"condition\":\"\u8EAB\u5074\"},{\"node\":2,\"condition\":\"\u8EAB\u524D\"},{\"node\":3,\"condition\":\"\u8EAB\u5F8C\"}]},{\"move\":\"\u9435\u5C71\u9760\",\"links\":[]},{\"move\":\"\u5F8C\u8DF3\u64B2\",\"links\":[{\"node\":4,\"condition\":\"\u7121\u5E36\u96FB\"},{\"node\":5,\"condition\":\"\u8EAB\u5074\u4E14\u8D85\u96FB\"},{\"node\":6,\"condition\":\"\u8EAB\u524D\u4E14\u8D85\u96FB\"}]},{\"move\":\"\u5C0F\u7529\u5C3E\",\"links\":[{\"node\":7,\"condition\":\"\u8D85\u96FB\u6012\"}]},{\"move\":\"\u5F37\u84C4\u96FB\",\"links\":[]},{\"move\":\"\u9435\u5C71\u9760\",\"links\":[{\"node\":7,\"condition\":\"\u8D85\u96FB\u6012\"}]},{\"move\":\"\u84C4\u529B\u62F3\",\"links\":[{\"node\":8,\"condition\":\"\u8D85\u96FB\u6012\"}]},{\"move\":\"\u6258\u99AC\u65AF\",\"links\":[]},{\"move\":\"\u80CC\u7838\",\"links\":[]}]},{\"root\":0,\"condition\":\"\",\"nodes\":[{\"move\":\"\u5FEB\u901F\u62F3\",\"links\":[{\"node\":1,\"condition\":\"\u8EAB\u524D\u4E14\u8D85\u96FB\uFF08\u6A5F\u7387\uFF09\uFF0F\u8D85\u96FB\u6012\uFF08\u5FC5\u51FA\uFF09\"},{\"node\":2,\"condition\":\"\u8EAB\u5074\u4E14\u8D85\u96FB\uFF08\u6A5F\u7387\uFF09\"}]},{\"move\":\"\u5FEB\u901F\u62F3\",\"links\":[{\"node\":3,\"condition\":\"\"}]},{\"move\":\"\u5FEB\u901F\u62F3\",\"links\":[{\"node\":5,\"condition\":\"\"}]},{\"move\":\"\u84C4\u529B\u62F3\",\"links\":[{\"node\":4,\"condition\":\"\u8D85\u96FB\u6012\"}]},{\"move\":\"\u80CC\u7838\",\"links\":[]},{\"move\":\"\u5C3E\u7838\",\"links\":[{\"node\":6,\"condition\":\"\"}]},{\"move\":\"\u6258\u99AC\u65AF\",\"links\":[{\"node\":4,\"condition\":\"\u8D85\u96FB\u6012\"}]}]}]}}");
-    //         if (dexObj !== undefined)
-    //             onDexLoaded("move load err");
-    //     });
+    $("#wrapper").show();
 
+    InitVue();
+
+    LoadData(['mhrdex.json', 'mhrmoves.json'], onDexLoaded);
+
+}
+
+function InitVue() {
+    panel = new Vue({
+        el: "#panel-basicinfo",
+        data: {
+            monData: {
+                trait: {},
+                weakness: { weapon: {} }
+            }
+        },
+        methods: {
+            ParseStars: function (num) {
+                return ParseStars(num);
+            },
+            Refresh: function (inputData) {
+                this.monData = inputData;
+                this.monData.name1 = inputData.nameTW;
+                this.monData.name2 = inputData.nameJP;
+                this.monData.name3 = inputData.nameEN;
+                if (IsNullOrEmpty(inputData.icon)) this.monData.icon = "images/icons/monsters/icon_unknown.png";
+                if (IsNullOrEmpty(inputData.images)) this.monData.images = "images/icons/monsters/icon_unknown.png";
+                if (!inputData.hasOwnProperty("trait"))
+                    this.monData.trait = { roar: "－", wind: "－", tremer: "－", element: "－", aliment: "－" };
+                // if (inputData.hasOwnProperty(weakness)) {
+                //     if (inputData.weakness.hasOwnProperty("weapon")) {
+                //         for (var weakPart of inputData.weakness.weapon) {
+                //             this.mon.weakness.weapon[weakPart].cut = 
+                //         }
+                //     }
+                // }
+                // this.monData.name1 = IsNullOrEmpty(inputData.nameTW) ? "－" : inputData.nameTW;
+                // this.monData.name2 = IsNullOrEmpty(inputData.nameJP) ? "－" : inputData.nameJP;
+                // this.monData.name3 = IsNullOrEmpty(inputData.nameEN) ? "－" : inputData.nameEN;
+                // this.monData.spacies = IsNullOrEmpty(inputData.spacies) ? "－" : inputData.spacies;
+                // this.monData.icon = IsNullOrEmpty(inputData.icon) ? "images/icons/monsters/icon_unknown.png" : inputData.icon;
+                // this.monData.image = IsNullOrEmpty(inputData.image) ? "images/icons/monsters/icon_unknown.png" : inputData.image;
+                // this.monData.trait = inputData.hasOwnProperty("trait") ? inputData.trait : {},
+                //     this.monData.trait.roar = IsNullOrEmpty(inputData.trait.roar) ? "－" : inputData.trait.roar;
+                // this.monData.trait.wind = IsNullOrEmpty(inputData.trait.wind) ? "－" : inputData.trait.wind;
+                // this.monData.spacies = IsNullOrEmpty(inputData.spacies) ? "－" : inputData.spacies;
+                // this.monData.spacies = IsNullOrEmpty(inputData.spacies) ? "－" : inputData.spacies;
+                // this.monData.spacies = IsNullOrEmpty(inputData.spacies) ? "－" : inputData.spacies;
+                // if (inputData.weakness.hasOwnProperty("weapon")) {
+                //     for (var weakPart of inputData.weakness.weapon) {
+                //         var row = CreateClassElement("div", "panel-block-1 panel-row margin");
+                //         var name = CreateClassElement("div", "panel-block panel-text", weakPart.part);
+                //         var cut = CreateClassElement("div", "panel-block panel-text", ParseStars(weakPart.cut));
+                //         var blunt = CreateClassElement("div", "panel-block panel-text", ParseStars(weakPart.blunt));
+                //         var ammo = CreateClassElement("div", "panel-block panel-text", ParseStars(weakPart.ammo));
+                //         row.appendChild(name);
+                //         row.appendChild(cut);
+                //         row.appendChild(blunt);
+                //         row.appendChild(ammo);
+                //         weaponBlock.appendChild(row);
+                //     }
+                // }
+            }
+        }
+    });
+}
+
+function LoadData(paths, callback) {
     data = {};
-    Promise.all([fetch('mhrdex.json'), fetch('mhrmoves.json')]).then((results) => {
+    let fetchTasks = [];
+    for (let path of paths) {
+        fetchTasks.push(fetch(path));
+    }
+    Promise.all(fetchTasks).then((results) => {
         var jsonPromises = [];
         for (let res of results) {
             jsonPromises.push(res.json());
@@ -102,7 +144,8 @@ function Initialize() {
                 data[key] = jsonData[key];
             }
         }
-        onDexLoaded();
+        if (callback != undefined)
+            callback();
     })
 }
 
@@ -116,7 +159,7 @@ function onDexLoaded() {
 
     var monlist = document.getElementById('monlist');
 
-    let dexData = GetDexData();
+    let dexData = GetData("dex");
 
     for (key in dexData) {
 
@@ -172,7 +215,7 @@ function SetSpacies(key) {
         if (key === '全部') {
             btn.style.display = "inline";
         } else {
-            if (GetDexData()[btn.children[1].innerHTML].spacies === key)
+            if (GetData("dex")[btn.children[1].innerHTML].spacies === key)
                 btn.style.display = "inline";
             else
                 btn.style.display = "none";
@@ -183,49 +226,72 @@ function SetSpacies(key) {
     OnSelectLayer(1, key);
 }
 
+
+
+
+
 function SetMon(key) {
 
-    var monObj = GetDexData()[key];
+    var monObj = GetData("dex")[key];
+
     currentMon = monObj;
 
-    SetElementById('title', monObj.nameTW);
-    SetElementById('namejp', monObj.nameJP);
-    SetElementById('nameen', monObj.nameEN);
-    SetElementById('spacies', monObj.spacies);
+    panel.Refresh(monObj);
+    // panel.monData = monObj;
 
-    var icon = document.getElementById('monicon');
-    icon.setAttribute("src", IsNullOrEmpty(monObj.icon) ? "images/icons/monsters/icon_unknown.png" : monObj.icon);
+    // var panel = new Vue({
+    //     data: {
+    //         name1: monObj.nameTW,
+    //         name2: monObj.nameJP,
+    //         name3: monObj.nameEN,
+    //         spacies: monObj.spacies,
+    //         icon: monObj.icon,
+    //         image: monObj.image
+    //     }
+    // });
 
-    var image = document.getElementById('monimage');
-    image.setAttribute("src", monObj.image);
+    // panel.$mount("#panel-basicinfo")
 
-    if (monObj.hasOwnProperty("trait")) {
-        SetElementById('roar', monObj.trait.roar);
-        SetElementById('wind', monObj.trait.wind);
-        SetElementById('tremer', monObj.trait.tremer);
-        SetElementById('element', monObj.trait.element);
-        SetElementById('aliment', monObj.trait.aliment);
-    }
-    var weaponBlock = document.getElementById('weakness-weapon');
-    while (weaponBlock.children.length > 1) {
-        weaponBlock.removeChild(weaponBlock.children[1]);
-    }
+    // panel.Refresh(monObj);
+    // SetElementById('title', monObj.nameTW);
+    // SetElementById('namejp', monObj.nameJP);
+    // SetElementById('nameen', monObj.nameEN);
+    // SetElementById('spacies', monObj.spacies);
+
+    // var icon = document.getElementById('monicon');
+    // icon.setAttribute("src", IsNullOrEmpty(monObj.icon) ? "images/icons/monsters/icon_unknown.png" : monObj.icon);
+
+    // var image = document.getElementById('monimage');
+    // image.setAttribute("src", monObj.image);
+
+    // if (monObj.hasOwnProperty("trait")) {
+    // SetElementById('roar', monObj.trait.roar);
+    // SetElementById('wind', monObj.trait.wind);
+    // SetElementById('tremer', monObj.trait.tremer);
+    // SetElementById('element', monObj.trait.element);
+    // SetElementById('aliment', monObj.trait.aliment);
+    // }
+
+    // var weaponBlock = document.getElementById('weakness-weapon');
+    // while (weaponBlock.children.length > 1) {
+    //     weaponBlock.removeChild(weaponBlock.children[1]);
+    // }
     if (monObj.hasOwnProperty("weakness")) {
-        if (monObj.weakness.hasOwnProperty("weapon")) {
-            for (var weakPart of monObj.weakness.weapon) {
-                var row = CreateClassElement("div", "panel-block-1 panel-row margin");
-                var name = CreateClassElement("div", "panel-block panel-text", weakPart.part);
-                var cut = CreateClassElement("div", "panel-block panel-text", ParseStars(weakPart.cut));
-                var blunt = CreateClassElement("div", "panel-block panel-text", ParseStars(weakPart.blunt));
-                var ammo = CreateClassElement("div", "panel-block panel-text", ParseStars(weakPart.ammo));
-                row.appendChild(name);
-                row.appendChild(cut);
-                row.appendChild(blunt);
-                row.appendChild(ammo);
-                weaponBlock.appendChild(row);
-            }
-            // weaponBlock.style.paddingBottom = "2px";
-        }
+        // if (monObj.weakness.hasOwnProperty("weapon")) {
+        //     for (var weakPart of monObj.weakness.weapon) {
+        //         var row = CreateClassElement("div", "panel-block-1 panel-row margin");
+        //         var name = CreateClassElement("div", "panel-block panel-text", weakPart.part);
+        //         var cut = CreateClassElement("div", "panel-block panel-text", ParseStars(weakPart.cut));
+        //         var blunt = CreateClassElement("div", "panel-block panel-text", ParseStars(weakPart.blunt));
+        //         var ammo = CreateClassElement("div", "panel-block panel-text", ParseStars(weakPart.ammo));
+        //         row.appendChild(name);
+        //         row.appendChild(cut);
+        //         row.appendChild(blunt);
+        //         row.appendChild(ammo);
+        //         weaponBlock.appendChild(row);
+        //     }
+        //     // weaponBlock.style.paddingBottom = "2px";
+        // }
         if (monObj.weakness.hasOwnProperty("element")) {
             var elementData = {
                 weakData: monObj.weakness.element,
@@ -314,7 +380,7 @@ function SetMon(key) {
     }
 
     //moves
-    let movesData = GetMovesData();
+    let movesData = GetData("moves");
     var divMoves = document.getElementById('divmoves');
     if (movesData.hasOwnProperty(key)) {
         divMoves.style.display = "block";
@@ -607,23 +673,38 @@ function OnSelectLayer(layer, label) {
     OnClickCloseMoveInfo();
     switch (layer) {
         case 0:
-            layer0.style.display = "block";
-            layer1.style.display = "none";
-            layer2.style.display = "none";
-            topbarlayer0.style.display = "inline";
-            topbarlayer1.style.display = "none";
-            topbarlayer2.style.display = "none";
+
+            $("#layer0").show();
+            $("#layer1").hide();
+            $("#layer2").hide();
+            $("#topbarlayer0").show();
+            $("#topbarlayer1").hide();
+            $("#topbarlayer2").hide();
+
+            // layer0.style.display = "block";
+            // layer1.style.display = "none";
+            // layer2.style.display = "none";
+            // topbarlayer0.style.display = "inline";
+            // topbarlayer1.style.display = "none";
+            // topbarlayer2.style.display = "none";
             topbarlayer0.style.background = '#4CAF50';
             topbarlayer0.nextElementSibling.style.display = "none";
             topbarlayer1.nextElementSibling.style.display = "none";
             break;
         case 1:
-            layer0.style.display = "none";
-            layer1.style.display = "block";
-            layer2.style.display = "none";
-            topbarlayer0.style.display = "inline";
-            topbarlayer1.style.display = "inline";
-            topbarlayer2.style.display = "none";
+
+            $("#layer0").hide();
+            $("#layer1").show();
+            $("#layer2").hide();
+            $("#topbarlayer0").show();
+            $("#topbarlayer1").show();
+            $("#topbarlayer2").hide();
+            // layer0.style.display = "none";
+            // layer1.style.display = "block";
+            // layer2.style.display = "none";
+            // topbarlayer0.style.display = "inline";
+            // topbarlayer1.style.display = "inline";
+            // topbarlayer2.style.display = "none";
             topbarlayer0.style.background = '#31363D';
             topbarlayer1.style.background = '#4CAF50';
             topbarlayer0.nextElementSibling.style.display = "flex";
@@ -632,12 +713,18 @@ function OnSelectLayer(layer, label) {
                 topbarlayer1.innerHTML = label;
             break;
         case 2:
-            layer0.style.display = "none";
-            layer1.style.display = "none";
-            layer2.style.display = "block";
-            topbarlayer0.style.display = "inline";
-            topbarlayer1.style.display = "inline";
-            topbarlayer2.style.display = "inline";
+            $("#layer0").hide();
+            $("#layer1").hide();
+            $("#layer2").show();
+            $("#topbarlayer0").show();
+            $("#topbarlayer1").show();
+            $("#topbarlayer2").show();
+            // layer0.style.display = "none";
+            // layer1.style.display = "none";
+            // layer2.style.display = "block";
+            // topbarlayer0.style.display = "inline";
+            // topbarlayer1.style.display = "inline";
+            // topbarlayer2.style.display = "inline";
             topbarlayer0.style.background = '#31363D';
             topbarlayer1.style.background = '#31363D';
             topbarlayer2.style.background = '#4CAF50';
