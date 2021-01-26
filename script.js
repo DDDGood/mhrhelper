@@ -72,7 +72,7 @@ function InitVue() {
         data: {
             monData: {
                 trait: {},
-                weakness: { weapon: {}, element: {} }
+                weakness: { weapon: {}, element: {}, aliment: {} }
             }
         },
         methods: {
@@ -97,14 +97,20 @@ function InitVue() {
                 return ParseStars(num);
             },
             Refresh: function (inputData) {
-                this.monData = inputData;
                 this.monData.name1 = inputData.nameTW;
                 this.monData.name2 = inputData.nameJP;
                 this.monData.name3 = inputData.nameEN;
+                this.monData.spacies = inputData.spacies;
                 if (IsNullOrEmpty(inputData.icon)) this.monData.icon = "images/icons/monsters/icon_unknown.png";
-                if (IsNullOrEmpty(inputData.images)) this.monData.images = "images/icons/monsters/icon_unknown.png";
+                else this.monData.icon = inputData.icon;
+                if (IsNullOrEmpty(inputData.image)) this.monData.images = "images/icons/monsters/icon_unknown.png";
+                else this.monData.image = inputData.image;
                 if (!inputData.hasOwnProperty("trait"))
                     this.monData.trait = { roar: "－", wind: "－", tremer: "－", element: "－", aliment: "－" };
+                else
+                    this.monData.trait = inputData.trait;
+                if (inputData.weakness.hasOwnProperty("weapon"))
+                    this.monData.weakness.weapon = inputData.weakness.weapon;
                 if (inputData.weakness.hasOwnProperty("element")) {
                     var elementData = {
                         type: "element",
@@ -127,7 +133,7 @@ function InitVue() {
                 let specialCase = false;
                 let conditionText = "";
                 let values = {}
-
+                console.log(params.weakData);
                 for (let weakState of params.weakData) {
                     if (weakState.condition === "normal") {
                         for (let i = 0; i < params.dataKeys.length; i++) {
