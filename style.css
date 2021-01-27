@@ -80,14 +80,16 @@ var{
 
 #topbar {
   display:flex;
+  justify-content: flex-start;
+  height:60px;
+}
+#topbar-background{
+  display:flex;
   position: -webkit-sticky; /* Safari */
   position: sticky;
   top: 0; /* Position the navbar at the top of the page */
   width: stretch; /* Full width */
-  height:60px;
   z-index : 1;
-}
-#topbar-background{
   background-color: #31363D; 
 }
 #topbar-background-highlight{
