@@ -26,7 +26,7 @@ var time;
 time = Date.now();
 console.log("startTime:" + time);
 
-var panel;
+// var panel;
 
 $(document).ready(Initialize);
 
@@ -65,15 +65,23 @@ function Initialize() {
     LoadData(['mhrdex.json', 'mhrmoves.json'], onDexLoaded);
 
 }
-
+var panel;
 function InitVue() {
     panel = new Vue({
-        el: "#panel-basicinfo",
+        el: "#mon-card",
+        components: {
+            "mon_card": httpVueLoader("mon_card.vue")
+        },
         data: {
             monData: {
+                name1: "aa",
+                icon: "",
+                image: "",
                 trait: {},
                 weakness: { weapon: {}, element: {}, aliment: {} }
-            }
+            },
+            viewData: { p1: "AAA" },
+            text: "aaa"
         },
         methods: {
             GetWeaknessData(type, index) {
@@ -86,7 +94,6 @@ function InitVue() {
             },
             GetWeaknessCondition(type) {
                 try {
-                    // alert(this.monData.weakness[type].condition);
                     return this.monData.weakness[type].condition;
                 } catch {
                     console.log("failed");
@@ -97,7 +104,9 @@ function InitVue() {
                 return ParseStars(num);
             },
             Refresh: function (inputData) {
+                this.text = "BBB" + inputData.nameTW;
                 this.monData.name1 = inputData.nameTW;
+                console.log(this.monData.name1);
                 this.monData.name2 = inputData.nameJP;
                 this.monData.name3 = inputData.nameEN;
                 this.monData.spacies = inputData.spacies;
@@ -108,53 +117,52 @@ function InitVue() {
                 if (!inputData.hasOwnProperty("trait"))
                     this.monData.trait = { roar: "－", wind: "－", tremer: "－", element: "－", aliment: "－" };
                 else
-                    this.monData.trait = inputData.trait;
-                if (inputData.weakness.hasOwnProperty("weapon"))
-                    this.monData.weakness.weapon = inputData.weakness.weapon;
-                if (inputData.weakness.hasOwnProperty("element")) {
-                    var elementData = {
-                        type: "element",
-                        weakData: inputData.weakness.element,
-                        dataKeys: ["fire", "water", "thunder", "ice", "dragon"]
-                    };
-                    this.SetWeaknessData(elementData);
-                }
-                if (inputData.weakness.hasOwnProperty("aliment")) {
-                    var alimentData = {
-                        type: "aliment",
-                        weakData: inputData.weakness.aliment,
-                        dataKeys: ["poison", "sleep", "paralysis", "blast", "stun"]
-                    };
-                    this.SetWeaknessData(alimentData);
-                }
-            },
-            SetWeaknessData: function (params) {
+                    this.monData.trait = JSON.parse(JSON.stringify(inputData.trait));
+                for (let weakType in inputData.weakness) {
+                    if (weakType === "weapon") {
+                        this.monData.weakness.weapon = [];
+                        for (let weakPart of inputData.weakness.weapon) {
+                            this.monData.weakness.weapon.push(
+                                {
+                                    part: weakPart.part,
+                                    cut: ParseStars(weakPart.cut),
+                                    blunt: ParseStars(weakPart.blunt),
+                                    ammo: ParseStars(weakPart.ammo)
+                                }
+                            );
+                        }
+                        continue;
+                    }
+                    let weakData = inputData.weakness[weakType];
+                    let specialCase = false;
+                    let conditionText = "";
+                    let values = {}
+                    for (let weakState of weakData) {
 
-                let specialCase = false;
-                let conditionText = "";
-                let values = {}
-                console.log(params.weakData);
-                for (let weakState of params.weakData) {
-                    if (weakState.condition === "normal") {
-                        for (let i = 0; i < params.dataKeys.length; i++) {
-                            values[params.dataKeys[i]] = ParseStars(weakState[params.dataKeys[i]]);
-                        }
-                    } else {
-                        if (specialCase === false) {
-                            specialCase = true;
-                            conditionText += weakState.condition;
+                        console.log("-" + weakState);
+                        if (weakState.condition === "normal") {
+                            for (let dataKey in weakState) {
+                                if (dataKey == "condition")
+                                    continue;
+                                values[dataKey] = ParseStars(weakState[dataKey]);
+                            }
                         } else {
-                            conditionText += "、" + weakState.condition;
-                        }
-                        for (let key in values) {
-                            values[key] += "<br>(" + ParseStars(weakState[key]) + ")";
+                            if (specialCase === false) {
+                                specialCase = true;
+                                conditionText += weakState.condition;
+                            } else {
+                                conditionText += "、" + weakState.condition;
+                            }
+                            for (let dataKey in weakState) {
+                                values[dataKey] += "<br>(" + ParseStars(weakState[dataKey]) + ")";
+                            }
                         }
                     }
+                    this.monData.weakness[weakType] = {
+                        condition: specialCase ? "(" + conditionText + ")" : "",
+                        values: values
+                    };
                 }
-                this.monData.weakness[params.type] = {
-                    condition: specialCase ? "(" + conditionText + ")" : "",
-                    values: values
-                };
             }
         }
     });
@@ -264,13 +272,16 @@ function SetSpacies(key) {
 
 
 
+
 function SetMon(key) {
 
     var monObj = GetData("dex")[key];
-
     currentMon = monObj;
-
     panel.Refresh(monObj);
+
+    // panel.monData = obj;
+    // panel.text = monObj.nameTW;
+
     // panel.monData = monObj;
 
     // var panel = new Vue({
@@ -310,50 +321,50 @@ function SetMon(key) {
     // while (weaponBlock.children.length > 1) {
     //     weaponBlock.removeChild(weaponBlock.children[1]);
     // }
-    if (monObj.hasOwnProperty("weakness")) {
-        // if (monObj.weakness.hasOwnProperty("weapon")) {
-        //     for (var weakPart of monObj.weakness.weapon) {
-        //         var row = CreateClassElement("div", "panel-block-1 panel-row margin");
-        //         var name = CreateClassElement("div", "panel-block panel-text", weakPart.part);
-        //         var cut = CreateClassElement("div", "panel-block panel-text", ParseStars(weakPart.cut));
-        //         var blunt = CreateClassElement("div", "panel-block panel-text", ParseStars(weakPart.blunt));
-        //         var ammo = CreateClassElement("div", "panel-block panel-text", ParseStars(weakPart.ammo));
-        //         row.appendChild(name);
-        //         row.appendChild(cut);
-        //         row.appendChild(blunt);
-        //         row.appendChild(ammo);
-        //         weaponBlock.appendChild(row);
-        //     }
-        //     // weaponBlock.style.paddingBottom = "2px";
-        // }
-        // if (monObj.weakness.hasOwnProperty("element")) {
-        //     var elementData = {
-        //         weakData: monObj.weakness.element,
-        //         dataIDs: ["weakness-element-fire", "weakness-element-water", "weakness-element-thunder", "weakness-element-ice", "weakness-element-dragon"],
-        //         dataKeys: ["fire", "water", "thunder", "ice", "dragon"],
-        //         specialTextID: "weakness-element-special",
-        //     };
-        //     WriteWeaknessData(elementData);
-        // }
-        // if (monObj.weakness.hasOwnProperty("aliment")) {
-        //     var alimentData = {
-        //         weakData: monObj.weakness.aliment,
-        //         dataIDs: ["weakness-aliment-poison", "weakness-aliment-sleep", "weakness-aliment-paralysis", "weakness-aliment-blast", "weakness-aliment-stun"],
-        //         dataKeys: ["poison", "sleep", "paralysis", "blast", "stun"],
-        //         specialTextID: "weakness-aliment-special",
-        //     };
-        //     WriteWeaknessData(alimentData);
-        // }
-        if (monObj.weakness.hasOwnProperty("item")) {
-            var itemData = {
-                weakData: monObj.weakness.item,
-                dataIDs: ["weakness-item-pitfalltrap", "weakness-item-shocktrap", "weakness-item-flashpod", "weakness-item-screamerpod"],
-                dataKeys: ["pitfalltrap", "shocktrap", "flashpod", "screamerpod"],
-                specialTextID: "weakness-item-special",
-            };
-            WriteWeaknessData(itemData);
-        }
-    }
+    // if (monObj.hasOwnProperty("weakness")) {
+    // if (monObj.weakness.hasOwnProperty("weapon")) {
+    //     for (var weakPart of monObj.weakness.weapon) {
+    //         var row = CreateClassElement("div", "panel-block-1 panel-row margin");
+    //         var name = CreateClassElement("div", "panel-block panel-text", weakPart.part);
+    //         var cut = CreateClassElement("div", "panel-block panel-text", ParseStars(weakPart.cut));
+    //         var blunt = CreateClassElement("div", "panel-block panel-text", ParseStars(weakPart.blunt));
+    //         var ammo = CreateClassElement("div", "panel-block panel-text", ParseStars(weakPart.ammo));
+    //         row.appendChild(name);
+    //         row.appendChild(cut);
+    //         row.appendChild(blunt);
+    //         row.appendChild(ammo);
+    //         weaponBlock.appendChild(row);
+    //     }
+    //     // weaponBlock.style.paddingBottom = "2px";
+    // }
+    // if (monObj.weakness.hasOwnProperty("element")) {
+    //     var elementData = {
+    //         weakData: monObj.weakness.element,
+    //         dataIDs: ["weakness-element-fire", "weakness-element-water", "weakness-element-thunder", "weakness-element-ice", "weakness-element-dragon"],
+    //         dataKeys: ["fire", "water", "thunder", "ice", "dragon"],
+    //         specialTextID: "weakness-element-special",
+    //     };
+    //     WriteWeaknessData(elementData);
+    // }
+    // if (monObj.weakness.hasOwnProperty("aliment")) {
+    //     var alimentData = {
+    //         weakData: monObj.weakness.aliment,
+    //         dataIDs: ["weakness-aliment-poison", "weakness-aliment-sleep", "weakness-aliment-paralysis", "weakness-aliment-blast", "weakness-aliment-stun"],
+    //         dataKeys: ["poison", "sleep", "paralysis", "blast", "stun"],
+    //         specialTextID: "weakness-aliment-special",
+    //     };
+    //     WriteWeaknessData(alimentData);
+    // }
+    // if (monObj.weakness.hasOwnProperty("item")) {
+    //     var itemData = {
+    //         weakData: monObj.weakness.item,
+    //         dataIDs: ["weakness-item-pitfalltrap", "weakness-item-shocktrap", "weakness-item-flashpod", "weakness-item-screamerpod"],
+    //         dataKeys: ["pitfalltrap", "shocktrap", "flashpod", "screamerpod"],
+    //         specialTextID: "weakness-item-special",
+    //     };
+    //     WriteWeaknessData(itemData);
+    // }
+    // }
     //    SetElementById('breakables', "可破壞部位：" + monObj.breakables);
 
     // description

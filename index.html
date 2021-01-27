@@ -19,6 +19,7 @@
   <link rel="stylesheet" type="text/css" href="style_desktop.css" />
   <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/vue@2.6.12"></script>
+  <script src="https://unpkg.com/http-vue-loader"></script>
   <script type="text/javascript" src="script.js"></script>
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=0">
 </head>
@@ -63,7 +64,11 @@
     <div id="layer2">
       <div id="layer2-grid">
         <div class="grid-area-right">
-          <div id="panel-basicinfo">
+          <div id="mon-card">
+            <div>{{text}}</div>
+            <mon_card v-bind:mondata="monData" v-bind:text="text"> </mon_card>
+          </div>
+          <!-- <div id="panel-basicinfo">
             <div id="panel-row-title" class="panel-row margin">
               <div id="panel-block-monicon">
                 <img id="monicon" v-bind:src="monData.icon" alt="icon" />
@@ -252,7 +257,7 @@
                 </div>
               </div>
             </div>
-          </div>
+          </div> -->
         </div>
         <div class="grid-area-main">
           <p id="breakables"></p>
