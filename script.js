@@ -68,61 +68,69 @@ function Initialize() {
 var panel;
 function InitVue() {
     panel = new Vue({
-        el: "#mon-card",
+        el: "#layer2",
         components: {
             "mon_card": httpVueLoader("mon_card.vue")
         },
         data: {
-            monData: {
-                name1: "aa",
-                icon: "",
-                image: "",
-                trait: {},
-                weakness: { weapon: {}, element: {}, aliment: {} }
-            },
-            viewData: { p1: "AAA" },
-            text: "aaa"
+            monData: {}
         },
         methods: {
-            GetWeaknessData(type, index) {
-                try {
-                    return this.monData.weakness[type].values[index];
-                } catch {
-                    console.log("failed");
-                    return "－";
-                }
-            },
-            GetWeaknessCondition(type) {
-                try {
-                    return this.monData.weakness[type].condition;
-                } catch {
-                    console.log("failed");
+            // GetWeaknessData(type, index) {
+            //     try {
+            //         return this.cardData.weakness[type].values[index];
+            //     } catch {
+            //         console.log("failed");
+            //         return "－";
+            //     }
+            // },
+            // GetWeaknessCondition(type) {
+            //     try {
+            //         return this.cardData.weakness[type].condition;
+            //     } catch {
+            //         console.log("failed");
+            //         return "";
+            //     }
+            // },
+            GetDescriptionText: function (key) {
+                if (this.monData.hasOwnProperty(key)) {
+                    let result = "";
+                    var descTexts = this.monData[key].split("\n", -1);
+                    for (let text of descTexts) {
+                        if (text.startsWith("[img]"))
+                            result += "<img class='description-image' src='" + text.substring(5) + "'>";
+                        else
+                            result += "<p class='description-text'>" + (IsNullOrEmpty(text) ? "<br>" : text) + "</p>";
+                    }
+                    return result;
+                } else
                     return "";
-                }
             },
-            ParseStars: function (num) {
-                return ParseStars(num);
-            },
-            Refresh: function (inputData) {
-                this.text = "BBB" + inputData.nameTW;
-                this.monData.name1 = inputData.nameTW;
-                console.log(this.monData.name1);
-                this.monData.name2 = inputData.nameJP;
-                this.monData.name3 = inputData.nameEN;
-                this.monData.spacies = inputData.spacies;
-                if (IsNullOrEmpty(inputData.icon)) this.monData.icon = "images/icons/monsters/icon_unknown.png";
-                else this.monData.icon = inputData.icon;
-                if (IsNullOrEmpty(inputData.image)) this.monData.images = "images/icons/monsters/icon_unknown.png";
-                else this.monData.image = inputData.image;
-                if (!inputData.hasOwnProperty("trait"))
-                    this.monData.trait = { roar: "－", wind: "－", tremer: "－", element: "－", aliment: "－" };
+            GetCardData: function () {
+                let cardData = {
+                    name1: "",
+                    icon: "",
+                    image: "",
+                    trait: {},
+                    weakness: { weapon: {}, element: {}, aliment: {} }
+                };
+                cardData.name1 = this.monData.nameTW;
+                cardData.name2 = this.monData.nameJP;
+                cardData.name3 = this.monData.nameEN;
+                cardData.spacies = this.monData.spacies;
+                if (IsNullOrEmpty(this.monData.icon)) cardData.icon = "images/icons/monsters/icon_unknown.png";
+                else cardData.icon = this.monData.icon;
+                if (IsNullOrEmpty(this.monData.image)) cardData.images = "images/icons/monsters/icon_unknown.png";
+                else cardData.image = this.monData.image;
+                if (!this.monData.hasOwnProperty("trait"))
+                    cardData.trait = { roar: "－", wind: "－", tremer: "－", element: "－", aliment: "－" };
                 else
-                    this.monData.trait = JSON.parse(JSON.stringify(inputData.trait));
-                for (let weakType in inputData.weakness) {
+                    cardData.trait = JSON.parse(JSON.stringify(this.monData.trait));
+                for (let weakType in this.monData.weakness) {
                     if (weakType === "weapon") {
-                        this.monData.weakness.weapon = [];
-                        for (let weakPart of inputData.weakness.weapon) {
-                            this.monData.weakness.weapon.push(
+                        cardData.weakness.weapon = [];
+                        for (let weakPart of this.monData.weakness.weapon) {
+                            cardData.weakness.weapon.push(
                                 {
                                     part: weakPart.part,
                                     cut: ParseStars(weakPart.cut),
@@ -133,7 +141,7 @@ function InitVue() {
                         }
                         continue;
                     }
-                    let weakData = inputData.weakness[weakType];
+                    let weakData = this.monData.weakness[weakType];
                     let specialCase = false;
                     let conditionText = "";
                     let values = {}
@@ -158,11 +166,18 @@ function InitVue() {
                             }
                         }
                     }
-                    this.monData.weakness[weakType] = {
+                    cardData.weakness[weakType] = {
                         condition: specialCase ? "(" + conditionText + ")" : "",
                         values: values
                     };
                 }
+                return cardData;
+            },
+            ParseStars: function (num) {
+                return ParseStars(num);
+            },
+            Refresh: function (inputData) {
+                this.monData = inputData;
             }
         }
     });
@@ -276,8 +291,8 @@ function SetSpacies(key) {
 function SetMon(key) {
 
     var monObj = GetData("dex")[key];
-    currentMon = monObj;
     panel.Refresh(monObj);
+    currentMon = monObj;
 
     // panel.monData = obj;
     // panel.text = monObj.nameTW;
@@ -368,15 +383,15 @@ function SetMon(key) {
     //    SetElementById('breakables', "可破壞部位：" + monObj.breakables);
 
     // description
-    var descSpan = SetElementById("description", "");
-    if (!IsNullOrEmpty(monObj.description)) {
-        WriteDescriptionTexts(descSpan, monObj.description);
-    }
-    var detailSpan = SetElementById("detail", "");
-    // detail
-    if (!IsNullOrEmpty(monObj.detail)) {
-        WriteDescriptionTexts(detailSpan, monObj.detail);
-    }
+    // var descSpan = SetElementById("description", "");
+    // if (!IsNullOrEmpty(monObj.description)) {
+    //     WriteDescriptionTexts(descSpan, monObj.description);
+    // }
+    // var detailSpan = SetElementById("detail", "");
+    // // detail
+    // if (!IsNullOrEmpty(monObj.detail)) {
+    //     WriteDescriptionTexts(detailSpan, monObj.detail);
+    // }
 
     //hit data
     var hdTableBody = document.getElementById('tbody_hitdata');
@@ -470,45 +485,45 @@ function WriteDescriptionTexts(root, fullText) {
     }
 }
 
-function WriteWeaknessData(params) {
+// function WriteWeaknessData(params) {
 
-    var specialCaseTextHandler = document.getElementById(params.specialTextID);
-    specialCaseTextHandler.innerHTML = "";
-    var specialCase = false;
-    var specialCaseText = "";
-    var specialCaseValues = []
+//     var specialCaseTextHandler = document.getElementById(params.specialTextID);
+//     specialCaseTextHandler.innerHTML = "";
+//     var specialCase = false;
+//     var specialCaseText = "";
+//     var specialCaseValues = []
 
-    var doms = [];
-    for (var id of params.dataIDs) {
-        var dom = document.getElementById(id)
-        doms.push(dom);
-        specialCaseValues.push("");
-    }
+//     var doms = [];
+//     for (var id of params.dataIDs) {
+//         var dom = document.getElementById(id)
+//         doms.push(dom);
+//         specialCaseValues.push("");
+//     }
 
-    for (var weakState of params.weakData) {
-        if (weakState.condition === "normal") {
-            for (var i = 0; i < doms.length; i++) {
-                doms[i].innerHTML = ParseStars(weakState[params.dataKeys[i]]);
-            }
-        } else {
-            if (specialCase === false) {
-                specialCase = true;
-                specialCaseText += weakState.condition;
-            } else {
-                specialCaseText += "、" + weakState.condition;
-            }
-            for (var i = 0; i < specialCaseValues.length; i++) {
-                specialCaseValues[i] += "<br>(" + ParseStars(weakState[params.dataKeys[i]]) + ")";
-            }
-        }
-    }
-    if (specialCase === true) {
-        specialCaseTextHandler.innerHTML = "(" + specialCaseText + ")";
-        for (var i = 0; i < doms.length; i++) {
-            doms[i].innerHTML += specialCaseValues[i];
-        }
-    }
-}
+//     for (var weakState of params.weakData) {
+//         if (weakState.condition === "normal") {
+//             for (var i = 0; i < doms.length; i++) {
+//                 doms[i].innerHTML = ParseStars(weakState[params.dataKeys[i]]);
+//             }
+//         } else {
+//             if (specialCase === false) {
+//                 specialCase = true;
+//                 specialCaseText += weakState.condition;
+//             } else {
+//                 specialCaseText += "、" + weakState.condition;
+//             }
+//             for (var i = 0; i < specialCaseValues.length; i++) {
+//                 specialCaseValues[i] += "<br>(" + ParseStars(weakState[params.dataKeys[i]]) + ")";
+//             }
+//         }
+//     }
+//     if (specialCase === true) {
+//         specialCaseTextHandler.innerHTML = "(" + specialCaseText + ")";
+//         for (var i = 0; i < doms.length; i++) {
+//             doms[i].innerHTML += specialCaseValues[i];
+//         }
+//     }
+// }
 
 function SetMonCombos() {
     var divCombos = document.getElementById('combos');

@@ -65,8 +65,7 @@
       <div id="layer2-grid">
         <div class="grid-area-right">
           <div id="mon-card">
-            <div>{{text}}</div>
-            <mon_card v-bind:mondata="monData" v-bind:text="text"> </mon_card>
+            <mon_card v-bind:mondata="GetCardData()"> </mon_card>
           </div>
           <!-- <div id="panel-basicinfo">
             <div id="panel-row-title" class="panel-row margin">
@@ -261,13 +260,10 @@
         </div>
         <div class="grid-area-main">
           <p id="breakables"></p>
-
           <details open>
             <summary class="header2">基本介紹</summary>
-            <span id="description">
-            </span>
+            <span id="description" v-html="GetDescriptionText('description')"></span>
           </details>
-
           <details open>
             <summary class="header2">詳細肉質(舊版資訊)</summary>
             <table id="table_hitdata">
@@ -287,8 +283,6 @@
               </tbody>
             </table>
           </details>
-
-
           <div id="divmoves">
             <details open>
               <summary class="header2">對戰要點</summary>
@@ -318,7 +312,7 @@
 
           <details>
             <summary class="header2">設定細節</summary>
-            <span id="detail">
+            <span id="detail" v-html="GetDescriptionText('detail')">
             </span>
           </details>
           <details>
