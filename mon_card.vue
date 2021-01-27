@@ -41,19 +41,19 @@
       <div class="panel-block-2">
         <div class="panel-text-bold">咆嘯</div>
         <div id="roar" class="panel-block-1 panel-text margin">
-          {{ mondata.trait.roar }}
+          {{ GetTraitData("roar") }}
         </div>
       </div>
       <div class="panel-block-2">
         <div class="panel-text-bold">風壓</div>
         <div id="wind" class="panel-block-1 panel-text margin">
-          {{ mondata.trait.wind }}
+          {{ GetTraitData("wind") }}
         </div>
       </div>
       <div class="panel-block-2">
         <div class="panel-text-bold">震動</div>
         <div id="tremer" class="panel-block-1 panel-text margin">
-          {{ mondata.trait.tremer }}
+          {{ GetTraitData("tremer") }}
         </div>
       </div>
     </div>
@@ -61,13 +61,13 @@
       <div class="panel-block-2">
         <div class="panel-text-bold">主要屬性</div>
         <div id="element" class="panel-block-1 panel-text margin">
-          {{ mondata.trait.element }}
+          {{ GetTraitData("element") }}
         </div>
       </div>
       <div class="panel-block-2">
         <div class="panel-text-bold">異常狀態</div>
         <div id="aliment" class="panel-block-1 panel-text margin">
-          {{ mondata.trait.aliment }}
+          {{ GetTraitData("aliment") }}
         </div>
       </div>
     </div>
@@ -361,6 +361,16 @@
 <script>
 module.exports = {
   methods: {
+    GetTraitData: function (key) {
+      if (
+        this.mondata.hasOwnProperty("trait") &&
+        this.mondata.trait.hasOwnProperty(key)
+      ) {
+        return this.mondata.trait[key] == ("" || undefined)
+          ? "－"
+          : this.mondata.trait[key];
+      } else return "－";
+    },
     GetWeaknessData(type, index) {
       try {
         return this.mondata.weakness[type].values[index];

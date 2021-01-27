@@ -280,6 +280,18 @@
                   <th>冰</th>
                   <th>龍</th>
                 </tr>
+                <tr class="panel-text" v-for="part of monData.parts" :key="part.name+part.state">
+                  <td>{{part.name}}</td>
+                  <td>{{part.state}}</td>
+                  <td v-bind:class="{'hitdata-highlight':part.hitData[0]>=45}">{{part.hitData[0]}}</td>
+                  <td v-bind:class="{'hitdata-highlight':part.hitData[1]>=45}">{{part.hitData[1]}}</td>
+                  <td v-bind:class="{'hitdata-highlight':part.hitData[2]>=45}">{{part.hitData[2]}}</td>
+                  <td v-bind:class="{'hitdata-highlight':part.hitData[3]>=25}">{{part.hitData[3]}}</td>
+                  <td v-bind:class="{'hitdata-highlight':part.hitData[4]>=25}">{{part.hitData[4]}}</td>
+                  <td v-bind:class="{'hitdata-highlight':part.hitData[5]>=25}">{{part.hitData[5]}}</td>
+                  <td v-bind:class="{'hitdata-highlight':part.hitData[6]>=25}">{{part.hitData[6]}}</td>
+                  <td v-bind:class="{'hitdata-highlight':part.hitData[7]>=25}">{{part.hitData[7]}}</td>
+                </tr>
               </tbody>
             </table>
           </details>

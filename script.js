@@ -76,24 +76,8 @@ function InitVue() {
             monData: {}
         },
         methods: {
-            // GetWeaknessData(type, index) {
-            //     try {
-            //         return this.cardData.weakness[type].values[index];
-            //     } catch {
-            //         console.log("failed");
-            //         return "－";
-            //     }
-            // },
-            // GetWeaknessCondition(type) {
-            //     try {
-            //         return this.cardData.weakness[type].condition;
-            //     } catch {
-            //         console.log("failed");
-            //         return "";
-            //     }
-            // },
             GetDescriptionText: function (key) {
-                if (this.monData.hasOwnProperty(key)) {
+                if (this.monData.hasOwnProperty(key) && this.monData[key] != undefined) {
                     let result = "";
                     var descTexts = this.monData[key].split("\n", -1);
                     for (let text of descTexts) {
@@ -394,39 +378,39 @@ function SetMon(key) {
     // }
 
     //hit data
-    var hdTableBody = document.getElementById('tbody_hitdata');
-    while (hdTableBody.children.length > 1) {
-        hdTableBody.removeChild(hdTableBody.children[1]);
-    }
+    // var hdTableBody = document.getElementById('tbody_hitdata');
+    // while (hdTableBody.children.length > 1) {
+    //     hdTableBody.removeChild(hdTableBody.children[1]);
+    // }
 
-    for (var id = 0; id < monObj['parts'].length; id++) {
-        var part = monObj['parts'][id];
+    // for (var id = 0; id < monObj['parts'].length; id++) {
+    //     var part = monObj['parts'][id];
 
-        var trPart = CreateClassElement("tr", "panel-text");
+    //     var trPart = CreateClassElement("tr", "panel-text");
 
-        var tdPartName = document.createElement("td");
-        tdPartName.innerHTML = part.name;
-        trPart.appendChild(tdPartName);
+    //     var tdPartName = document.createElement("td");
+    //     tdPartName.innerHTML = part.name;
+    //     trPart.appendChild(tdPartName);
 
-        var tdPartState = document.createElement("td");
-        tdPartState.innerHTML = part.state;
-        trPart.appendChild(tdPartState);
+    //     var tdPartState = document.createElement("td");
+    //     tdPartState.innerHTML = part.state;
+    //     trPart.appendChild(tdPartState);
 
-        for (var i = 0; i < 8; i++) {
-            var tdPartHitData = document.createElement("td");
-            tdPartHitData.innerHTML = part.hitData[i];
-            if (i < 3) {
-                if (part.hitData[i] >= 45)
-                    tdPartHitData.style.backgroundColor = "#FFCFCF";
-            } else {
-                if (part.hitData[i] >= 25)
-                    tdPartHitData.style.backgroundColor = "#FFCFCF";
-            }
-            trPart.appendChild(tdPartHitData);
-        }
+    //     for (var i = 0; i < 8; i++) {
+    //         var tdPartHitData = document.createElement("td");
+    //         tdPartHitData.innerHTML = part.hitData[i];
+    //         if (i < 3) {
+    //             if (part.hitData[i] >= 45)
+    //                 tdPartHitData.style.backgroundColor = "#FFCFCF";
+    //         } else {
+    //             if (part.hitData[i] >= 25)
+    //                 tdPartHitData.style.backgroundColor = "#FFCFCF";
+    //         }
+    //         trPart.appendChild(tdPartHitData);
+    //     }
 
-        hdTableBody.appendChild(trPart);
-    }
+    //     hdTableBody.appendChild(trPart);
+    // }
 
     var referenceDiv = document.getElementById('reference');
     referenceDiv.innerHTML = "";

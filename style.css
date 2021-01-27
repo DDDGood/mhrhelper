@@ -258,6 +258,9 @@ td{
   text-align: center;
   background-color: #FFFFFF;
 }
+.hitdata-highlight{
+  background-color: #FFCFCF !important;
+}
 
 table{
   background-color: #4B9AFF;
