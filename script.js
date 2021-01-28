@@ -71,26 +71,6 @@ function InitRouter() {
     const MonListComp = httpVueLoader("mon_monlist.vue");
     const MonComp = httpVueLoader("mon_monster.vue");
 
-    // let monRoute = {
-    //     name: 'mon',
-    //     path: '/mon',
-    //     component: SpeciesListComp,
-    //     props: { specieslist: speciesDictionary },
-    //     children: [{
-    //         path: "why",
-    //         component: SpeciesListComp,
-    //         props: { specieslist: speciesDictionary }
-    //     }]
-    // };
-    // for (let species in speciesDictionary) {
-    //     monRoute.children.push({
-    //         path: species,
-    //         component: MonListComp,
-    //         props: { monlist: speciesDictionary[species] }
-    //     });
-    // }
-    // console.log(monRoute);
-
     const router = new VueRouter({
         routes: [
             {
@@ -280,12 +260,11 @@ function onDexLoaded() {
     console.log("DexLoaded:" + (newtime - time));
     time = newtime;
 
-    var monlist = document.getElementById('monlist');
+    // var monlist = document.getElementById('monlist');
 
     let dexData = GetData("dex");
 
     for (key in dexData) {
-
         var mon = dexData[key];
         if (mon.species !== "") {
             if (speciesDictionary.hasOwnProperty(mon.species) == false) {
@@ -293,35 +272,33 @@ function onDexLoaded() {
             }
             speciesDictionary[mon.species][key] = dexData[key];
         }
-        var btn = CreateClassElement("BUTTON", "button-mon");
-        // btn.innerHTML = key;
-        btn.setAttribute("onclick", "SetMon('" + key + "')");
-        var btnicon = new Image();
-        btnicon.className = "image-button-mon-icon";
-        btnicon.src = IsNullOrEmpty(mon.icon) ? "images/icons/monsters/icon_unknown.png" : mon.icon;
-        var btnText = CreateClassElement("div", "text-button-mon-name", key);
-        btn.appendChild(btnicon);
-        btn.appendChild(btnText);
-        monlist.appendChild(btn);
+
+        // var btn = CreateClassElement("BUTTON", "button-mon");
+        // btn.setAttribute("onclick", "SetMon('" + key + "')");
+        // var btnicon = new Image();
+        // btnicon.className = "image-button-mon-icon";
+        // btnicon.src = IsNullOrEmpty(mon.icon) ? "images/icons/monsters/icon_unknown.png" : mon.icon;
+        // var btnText = CreateClassElement("div", "text-button-mon-name", key);
+        // btn.appendChild(btnicon);
+        // btn.appendChild(btnText);
+        // monlist.appendChild(btn);
     }
 
-    var speciesList = document.getElementById('specieslist');
-    var allspeciesBtn = CreateClassElement("BUTTON", "btnspecies flex-2", "全部");
-    allspeciesBtn.setAttribute("onclick", "Setspecies('全部')");
-    speciesList.appendChild(allspeciesBtn);
-    for (var specie in speciesDictionary) {
-        var btn = CreateClassElement("BUTTON", "btnspecies flex-1", specie);
-        btn.setAttribute("onclick", "Setspecies('" + specie + "')");
-        speciesList.appendChild(btn);
-    }
+    // var speciesList = document.getElementById('specieslist');
+    // var allspeciesBtn = CreateClassElement("BUTTON", "btnspecies flex-2", "全部");
+    // allspeciesBtn.setAttribute("onclick", "Setspecies('全部')");
+    // speciesList.appendChild(allspeciesBtn);
+    // for (var specie in speciesDictionary) {
+    //     var btn = CreateClassElement("BUTTON", "btnspecies flex-1", specie);
+    //     btn.setAttribute("onclick", "Setspecies('" + specie + "')");
+    //     speciesList.appendChild(btn);
+    // }
 
 
     let searchParams = new URLSearchParams(location.search);
     let navMon = searchParams.get('mon');
     if (dexData.hasOwnProperty(navMon)) {
         SetMon(navMon);
-    } else {
-        OnSelectLayer(0);
     }
 
     var newtime = Date.now();
@@ -329,7 +306,7 @@ function onDexLoaded() {
     time = newtime;
 
     InitRouter();
-    InitVue();
+    // InitVue();
 }
 
 function Setspecies(key) {
@@ -643,70 +620,6 @@ function SetMonCombos() {
 
 
 
-function OnClickMoveButton(move) {
-
-    if (move === undefined)
-        return;
-
-    var panel = GetMoveInfoPanel();
-    panel.style.display = "block";
-    panel.style.top = window.pageYOffset + 200 + "px";
-    panel.addEventListener("click", OnClickCloseMoveInfo);
-
-    SetElementById("moveinfo-title", move.name);
-
-    var video = document.getElementById("moveinfo-video");
-    var altText = video.previousElementSibling;
-    if (IsNullOrEmpty(move.image)) {
-        video.style.display = "none";
-        altText.style.display = "block";
-    } else {
-        video.style.display = "block";
-        altText.style.display = "none";
-        video.setAttribute("preload", "auto");
-        video.setAttribute("autoplay", "autoplay");
-        video.setAttribute("loop", "loop");
-        video.setAttribute("type", "video/mp4");
-        var source = video.children[0];
-        source.setAttribute("src", move.image);
-        video.load();
-        video.play();
-    }
-
-    var preaction = document.getElementById("moveinfo-preaction");
-    if (!IsNullOrEmpty(move.preaction)) {
-        preaction.parentNode.style.display = "flex";
-        preaction.innerHTML = move.preaction;
-    } else
-        preaction.parentNode.style.display = "none";
-
-    var action = document.getElementById("moveinfo-action");
-    if (!IsNullOrEmpty(move.action)) {
-        action.parentNode.style.display = "flex";
-        action.innerHTML = move.action;
-    } else
-        action.parentNode.style.display = "none";
-
-    var recovery = document.getElementById("moveinfo-recovery");
-    if (!IsNullOrEmpty(move.recovery)) {
-        recovery.parentNode.style.display = "flex";
-        recovery.innerHTML = move.recovery;
-    } else
-        recovery.parentNode.style.display = "none";
-
-    var note = document.getElementById("moveinfo-note");
-    if (!IsNullOrEmpty(move.note)) {
-        note.parentNode.style.display = "flex";
-        note.innerHTML = move.note;
-    } else
-        note.parentNode.style.display = "none";
-}
-
-function OnClickCloseMoveInfo(e) {
-    var panel = GetMoveInfoPanel();
-    panel.style.display = "none";
-    panel.removeEventListener("click", OnClickCloseMoveInfo);
-}
 
 function OnSelectLayer(layer, label) {
     OnClickCloseMoveInfo();

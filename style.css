@@ -189,7 +189,7 @@ details[open] > summary:after {
 }
 
 #panel-moveinfo{
-  display: none;
+  /* display: none; */
   position:absolute;
   background-color: #4B9AFF;
   box-shadow: 0px 0px 8px #969696;
