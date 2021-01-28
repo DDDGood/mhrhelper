@@ -59,7 +59,7 @@
     padding-right:12px;
   }
 
-  #spacieslist{
+  #specieslist{
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 12px;
   }
@@ -75,7 +75,7 @@
   }
 
 
-   #monlist{ 
+   .monlist{ 
     grid-template-columns: repeat(4, 1fr);
     /* border : 2px double black; */
   }

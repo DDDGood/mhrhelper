@@ -55,11 +55,11 @@
   }
 
 
-  #spacieslist{
+  #specieslist{
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 30px;
   }
-  .btnspacies{
+  .btnspecies{
     
   }
   .flex-1{
@@ -72,7 +72,7 @@
     grid-column-start: 1;
     grid-column-end: 4;
   }
-  #monlist{
+  .monlist{
     grid-template-columns: repeat(6, 1fr);
     /* border : 2px double black; */
   }

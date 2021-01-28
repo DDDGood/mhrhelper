@@ -17,19 +17,15 @@
       >
         <div id="title" class="panel-text-title">{{ mondata.name1 }}</div>
         <div class="panel-row" style="display: flex; align-items: center">
-          <div id="namejp" class="text-center panel-text-small" style="flex: 1">
-            {{ mondata.name2 }}
-          </div>
-          <div id="nameen" class="text-center panel-text-small" style="flex: 1">
-            {{ mondata.name3 }}
-          </div>
+          <div id="namejp" class="text-center panel-text-small" style="flex: 1">{{ mondata.name2 }}</div>
+          <div id="nameen" class="text-center panel-text-small" style="flex: 1">{{ mondata.name3 }}</div>
         </div>
       </div>
       <div
         class="panel-block-1"
         style="display: flex; align-items: center; justify-content: center"
       >
-        <div id="spacies" class="panel-text-bold">{{ mondata.spacies }}</div>
+        <div id="species" class="panel-text-bold">{{ mondata.species }}</div>
       </div>
     </div>
     <div class="panel-row margin">
@@ -40,35 +36,25 @@
     <div class="panel-row margin">
       <div class="panel-block-2">
         <div class="panel-text-bold">咆嘯</div>
-        <div id="roar" class="panel-block-1 panel-text margin">
-          {{ GetTraitData("roar") }}
-        </div>
+        <div id="roar" class="panel-block-1 panel-text margin">{{ GetTraitData("roar") }}</div>
       </div>
       <div class="panel-block-2">
         <div class="panel-text-bold">風壓</div>
-        <div id="wind" class="panel-block-1 panel-text margin">
-          {{ GetTraitData("wind") }}
-        </div>
+        <div id="wind" class="panel-block-1 panel-text margin">{{ GetTraitData("wind") }}</div>
       </div>
       <div class="panel-block-2">
         <div class="panel-text-bold">震動</div>
-        <div id="tremer" class="panel-block-1 panel-text margin">
-          {{ GetTraitData("tremer") }}
-        </div>
+        <div id="tremer" class="panel-block-1 panel-text margin">{{ GetTraitData("tremer") }}</div>
       </div>
     </div>
     <div class="panel-row margin">
       <div class="panel-block-2">
         <div class="panel-text-bold">主要屬性</div>
-        <div id="element" class="panel-block-1 panel-text margin">
-          {{ GetTraitData("element") }}
-        </div>
+        <div id="element" class="panel-block-1 panel-text margin">{{ GetTraitData("element") }}</div>
       </div>
       <div class="panel-block-2">
         <div class="panel-text-bold">異常狀態</div>
-        <div id="aliment" class="panel-block-1 panel-text margin">
-          {{ GetTraitData("aliment") }}
-        </div>
+        <div id="aliment" class="panel-block-1 panel-text margin">{{ GetTraitData("aliment") }}</div>
       </div>
     </div>
     <div class="panel-row margin">
@@ -94,19 +80,14 @@
     <div id="weakness-element" class="panel-row margin">
       <div class="panel-block-2 panel-text-bold" style="position: relative">
         屬性弱點
-        <div id="weakness-element-special" class="panel-text-special">
-          {{ GetWeaknessCondition("element") }}
-        </div>
+        <div
+          id="weakness-element-special"
+          class="panel-text-special"
+        >{{ GetWeaknessCondition("element") }}</div>
         <div class="panel-row panel-block-2">
           <div class="panel-block-1 panel-text margin">
-            <div
-              class="panel-row"
-              style="align-items: center; justify-content: center"
-            >
-              <img
-                class="panel-text-icon"
-                src="images/icons/element/element_fire.png"
-              />
+            <div class="panel-row" style="align-items: center; justify-content: center">
+              <img class="panel-text-icon" src="images/icons/element/element_fire.png" />
               <div>火</div>
             </div>
             <div
@@ -116,14 +97,8 @@
             ></div>
           </div>
           <div class="panel-block-1 panel-text margin">
-            <div
-              class="panel-row"
-              style="align-items: center; justify-content: center"
-            >
-              <img
-                class="panel-text-icon"
-                src="images/icons/element/element_water.png"
-              />
+            <div class="panel-row" style="align-items: center; justify-content: center">
+              <img class="panel-text-icon" src="images/icons/element/element_water.png" />
               <div>水</div>
             </div>
             <div
@@ -133,14 +108,8 @@
             ></div>
           </div>
           <div class="panel-block-1 panel-text margin">
-            <div
-              class="panel-row"
-              style="align-items: center; justify-content: center"
-            >
-              <img
-                class="panel-text-icon"
-                src="images/icons/element/element_thunder.png"
-              />
+            <div class="panel-row" style="align-items: center; justify-content: center">
+              <img class="panel-text-icon" src="images/icons/element/element_thunder.png" />
               <div>雷</div>
             </div>
             <div
@@ -150,14 +119,8 @@
             ></div>
           </div>
           <div class="panel-block-1 panel-text margin">
-            <div
-              class="panel-row"
-              style="align-items: center; justify-content: center"
-            >
-              <img
-                class="panel-text-icon"
-                src="images/icons/element/element_ice.png"
-              />
+            <div class="panel-row" style="align-items: center; justify-content: center">
+              <img class="panel-text-icon" src="images/icons/element/element_ice.png" />
               <div>冰</div>
             </div>
             <div
@@ -167,14 +130,8 @@
             ></div>
           </div>
           <div class="panel-block-1 panel-text margin">
-            <div
-              class="panel-row"
-              style="align-items: center; justify-content: center"
-            >
-              <img
-                class="panel-text-icon"
-                src="images/icons/element/element_dragon.png"
-              />
+            <div class="panel-row" style="align-items: center; justify-content: center">
+              <img class="panel-text-icon" src="images/icons/element/element_dragon.png" />
               <div>龍</div>
             </div>
             <div
@@ -189,19 +146,14 @@
     <div id="weakness-aliment" class="panel-row margin">
       <div class="panel-block-2 panel-text-bold" style="position: relative">
         異常弱點
-        <div id="weakness-aliment-special" class="panel-text-special">
-          {{ GetWeaknessCondition("aliment") }}
-        </div>
+        <div
+          id="weakness-aliment-special"
+          class="panel-text-special"
+        >{{ GetWeaknessCondition("aliment") }}</div>
         <div class="panel-row panel-block-2">
           <div class="panel-block-1 panel-text margin">
-            <div
-              class="panel-row"
-              style="align-items: center; justify-content: center"
-            >
-              <img
-                class="panel-text-icon"
-                src="images/icons/state/state_poison.png"
-              />
+            <div class="panel-row" style="align-items: center; justify-content: center">
+              <img class="panel-text-icon" src="images/icons/state/state_poison.png" />
               <div>中毒</div>
             </div>
             <div
@@ -211,14 +163,8 @@
             ></div>
           </div>
           <div class="panel-block-1 panel-text margin">
-            <div
-              class="panel-row"
-              style="align-items: center; justify-content: center"
-            >
-              <img
-                class="panel-text-icon"
-                src="images/icons/state/state_sleep.png"
-              />
+            <div class="panel-row" style="align-items: center; justify-content: center">
+              <img class="panel-text-icon" src="images/icons/state/state_sleep.png" />
               <div>睡眠</div>
             </div>
             <div
@@ -228,14 +174,8 @@
             ></div>
           </div>
           <div class="panel-block-1 panel-text margin">
-            <div
-              class="panel-row"
-              style="align-items: center; justify-content: center"
-            >
-              <img
-                class="panel-text-icon"
-                src="images/icons/state/state_paralysis.png"
-              />
+            <div class="panel-row" style="align-items: center; justify-content: center">
+              <img class="panel-text-icon" src="images/icons/state/state_paralysis.png" />
               <div>麻痺</div>
             </div>
             <div
@@ -245,14 +185,8 @@
             ></div>
           </div>
           <div class="panel-block-1 panel-text margin">
-            <div
-              class="panel-row"
-              style="align-items: center; justify-content: center"
-            >
-              <img
-                class="panel-text-icon"
-                src="images/icons/state/state_blast.png"
-              />
+            <div class="panel-row" style="align-items: center; justify-content: center">
+              <img class="panel-text-icon" src="images/icons/state/state_blast.png" />
               <div>爆破</div>
             </div>
             <div
@@ -262,14 +196,8 @@
             ></div>
           </div>
           <div class="panel-block-1 panel-text margin">
-            <div
-              class="panel-row"
-              style="align-items: center; justify-content: center"
-            >
-              <img
-                class="panel-text-icon"
-                src="images/icons/state/state_stun.png"
-              />
+            <div class="panel-row" style="align-items: center; justify-content: center">
+              <img class="panel-text-icon" src="images/icons/state/state_stun.png" />
               <div>昏厥</div>
             </div>
             <div
@@ -284,15 +212,13 @@
     <div id="weakness-item" class="panel-row margin">
       <div class="panel-block-2 panel-text-bold" style="position: relative">
         道具效果
-        <div id="weakness-item-special" class="panel-text-special">
-          {{ GetWeaknessCondition("item") }}
-        </div>
+        <div
+          id="weakness-item-special"
+          class="panel-text-special"
+        >{{ GetWeaknessCondition("item") }}</div>
         <div class="panel-row panel-block-2">
           <div class="panel-block-1 panel-text margin">
-            <div
-              class="panel-row"
-              style="align-items: center; justify-content: center"
-            >
+            <div class="panel-row" style="align-items: center; justify-content: center">
               <img class="panel-text-icon" src="images/icons/items/落穴.png" />
               <div>落穴</div>
             </div>
@@ -303,14 +229,8 @@
             ></div>
           </div>
           <div class="panel-block-1 panel-text margin">
-            <div
-              class="panel-row"
-              style="align-items: center; justify-content: center"
-            >
-              <img
-                class="panel-text-icon"
-                src="images/icons/items/麻痺陷阱.png"
-              />
+            <div class="panel-row" style="align-items: center; justify-content: center">
+              <img class="panel-text-icon" src="images/icons/items/麻痺陷阱.png" />
               <div>麻痺</div>
             </div>
             <div
@@ -320,14 +240,8 @@
             ></div>
           </div>
           <div class="panel-block-1 panel-text margin">
-            <div
-              class="panel-row"
-              style="align-items: center; justify-content: center"
-            >
-              <img
-                class="panel-text-icon"
-                src="images/icons/items/閃光彈.png"
-              />
+            <div class="panel-row" style="align-items: center; justify-content: center">
+              <img class="panel-text-icon" src="images/icons/items/閃光彈.png" />
               <div>閃光</div>
             </div>
             <div
@@ -337,14 +251,8 @@
             ></div>
           </div>
           <div class="panel-block-1 panel-text margin">
-            <div
-              class="panel-row"
-              style="align-items: center; justify-content: center"
-            >
-              <img
-                class="panel-text-icon"
-                src="images/icons/items/音爆彈.png"
-              />
+            <div class="panel-row" style="align-items: center; justify-content: center">
+              <img class="panel-text-icon" src="images/icons/items/音爆彈.png" />
               <div>音爆</div>
             </div>
             <div
@@ -362,13 +270,8 @@
 module.exports = {
   methods: {
     GetTraitData: function (key) {
-      if (
-        this.mondata.hasOwnProperty("trait") &&
-        this.mondata.trait.hasOwnProperty(key)
-      ) {
-        return this.mondata.trait[key] == ("" || undefined)
-          ? "－"
-          : this.mondata.trait[key];
+      if (this.mondata.hasOwnProperty("trait") && this.mondata.trait.hasOwnProperty(key)) {
+        return this.mondata.trait[key] == ("" || undefined) ? "－" : this.mondata.trait[key];
       } else return "－";
     },
     GetWeaknessData(type, index) {

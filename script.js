@@ -18,7 +18,7 @@ function GetData(key) {
 
 var currentMon = {};
 var currentMonMoves = {};
-var spaciesDictionary = {};
+var speciesDictionary = {};
 
 //google.script.run.withSuccessHandler(onDexLoaded).LoadRiseData();
 
@@ -60,10 +60,92 @@ function Initialize() {
 
     $("#wrapper").show();
 
-    InitVue();
-
     LoadData(['mhrdex.json', 'mhrmoves.json'], onDexLoaded);
 
+}
+function InitRouter() {
+    Vue.use(VueRouter);
+    const Foo = { template: '<div>foo</div>' }
+    const Bar = httpVueLoader("temp.vue");
+    const SpeciesListComp = httpVueLoader("mon_specieslist.vue");
+    const MonListComp = httpVueLoader("mon_monlist.vue");
+    const MonComp = httpVueLoader("mon_monster.vue");
+
+    // let monRoute = {
+    //     name: 'mon',
+    //     path: '/mon',
+    //     component: SpeciesListComp,
+    //     props: { specieslist: speciesDictionary },
+    //     children: [{
+    //         path: "why",
+    //         component: SpeciesListComp,
+    //         props: { specieslist: speciesDictionary }
+    //     }]
+    // };
+    // for (let species in speciesDictionary) {
+    //     monRoute.children.push({
+    //         path: species,
+    //         component: MonListComp,
+    //         props: { monlist: speciesDictionary[species] }
+    //     });
+    // }
+    // console.log(monRoute);
+
+    const router = new VueRouter({
+        routes: [
+            {
+                name: 'home',
+                path: '/',
+                redirect: { path: '/mon' }
+            },
+            {
+                name: 'test',
+                path: '/test',
+                component: Bar,
+                props: { obj: "DDD" }
+            },
+            {
+                name: 'mon',
+                path: '/mon',
+                component: SpeciesListComp,
+                props: { specieslist: speciesDictionary }
+            },
+            {
+                path: '/mon/:species',
+                component: MonListComp,
+                props: { specieslist: speciesDictionary, mondata: GetData("dex") }
+            },
+            {
+                path: '/mon/:species/:name',
+                component: MonComp,
+                props: { dex: GetData("dex"), moves: GetData("moves") }
+            }
+        ]
+    });
+    new Vue({
+        el: '#app',
+        methods: {
+            GetCurrentLayer(id) {
+
+                let success = false;
+                let text = "";
+
+                let decodePath = decodeURI(this.$router.currentRoute.path).substring(1);
+                console.log("----" + decodePath);
+                let tags = decodePath.split('/');
+
+                if (id <= tags.length) {
+                    success = true;
+                    text = tags[id];
+                }
+                return {
+                    success: success,
+                    text: text
+                }
+            }
+        },
+        router
+    })
 }
 var panel;
 function InitVue() {
@@ -101,7 +183,7 @@ function InitVue() {
                 cardData.name1 = this.monData.nameTW;
                 cardData.name2 = this.monData.nameJP;
                 cardData.name3 = this.monData.nameEN;
-                cardData.spacies = this.monData.spacies;
+                cardData.species = this.monData.species;
                 if (IsNullOrEmpty(this.monData.icon)) cardData.icon = "images/icons/monsters/icon_unknown.png";
                 else cardData.icon = this.monData.icon;
                 if (IsNullOrEmpty(this.monData.image)) cardData.images = "images/icons/monsters/icon_unknown.png";
@@ -205,11 +287,11 @@ function onDexLoaded() {
     for (key in dexData) {
 
         var mon = dexData[key];
-        if (mon.spacies !== "") {
-            if (spaciesDictionary.hasOwnProperty(mon.spacies) == false) {
-                spaciesDictionary[mon.spacies] = [];
+        if (mon.species !== "") {
+            if (speciesDictionary.hasOwnProperty(mon.species) == false) {
+                speciesDictionary[mon.species] = {};
             }
-            spaciesDictionary[mon.spacies].push(key);
+            speciesDictionary[mon.species][key] = dexData[key];
         }
         var btn = CreateClassElement("BUTTON", "button-mon");
         // btn.innerHTML = key;
@@ -223,14 +305,14 @@ function onDexLoaded() {
         monlist.appendChild(btn);
     }
 
-    var spaciesList = document.getElementById('spacieslist');
-    var allSpaciesBtn = CreateClassElement("BUTTON", "btnspacies flex-2", "全部");
-    allSpaciesBtn.setAttribute("onclick", "SetSpacies('全部')");
-    spaciesList.appendChild(allSpaciesBtn);
-    for (var spacie in spaciesDictionary) {
-        var btn = CreateClassElement("BUTTON", "btnspacies flex-1", spacie);
-        btn.setAttribute("onclick", "SetSpacies('" + spacie + "')");
-        spaciesList.appendChild(btn);
+    var speciesList = document.getElementById('specieslist');
+    var allspeciesBtn = CreateClassElement("BUTTON", "btnspecies flex-2", "全部");
+    allspeciesBtn.setAttribute("onclick", "Setspecies('全部')");
+    speciesList.appendChild(allspeciesBtn);
+    for (var specie in speciesDictionary) {
+        var btn = CreateClassElement("BUTTON", "btnspecies flex-1", specie);
+        btn.setAttribute("onclick", "Setspecies('" + specie + "')");
+        speciesList.appendChild(btn);
     }
 
 
@@ -245,9 +327,12 @@ function onDexLoaded() {
     var newtime = Date.now();
     console.log("Finished:" + (newtime - time));
     time = newtime;
+
+    InitRouter();
+    InitVue();
 }
 
-function SetSpacies(key) {
+function Setspecies(key) {
 
     var monlist = document.getElementById('monlist');
     var monBtns = monlist.getElementsByTagName('button');
@@ -256,7 +341,7 @@ function SetSpacies(key) {
         if (key === '全部') {
             btn.style.display = "inline";
         } else {
-            if (GetData("dex")[btn.children[1].innerHTML].spacies === key)
+            if (GetData("dex")[btn.children[1].innerHTML].species === key)
                 btn.style.display = "inline";
             else
                 btn.style.display = "none";
@@ -288,7 +373,7 @@ function SetMon(key) {
     //         name1: monObj.nameTW,
     //         name2: monObj.nameJP,
     //         name3: monObj.nameEN,
-    //         spacies: monObj.spacies,
+    //         species: monObj.species,
     //         icon: monObj.icon,
     //         image: monObj.image
     //     }
@@ -300,7 +385,7 @@ function SetMon(key) {
     // SetElementById('title', monObj.nameTW);
     // SetElementById('namejp', monObj.nameJP);
     // SetElementById('nameen', monObj.nameEN);
-    // SetElementById('spacies', monObj.spacies);
+    // SetElementById('species', monObj.species);
 
     // var icon = document.getElementById('monicon');
     // icon.setAttribute("src", IsNullOrEmpty(monObj.icon) ? "images/icons/monsters/icon_unknown.png" : monObj.icon);
@@ -424,35 +509,35 @@ function SetMon(key) {
     }
 
     //moves
-    let movesData = GetData("moves");
-    var divMoves = document.getElementById('divmoves');
-    if (movesData.hasOwnProperty(key)) {
-        divMoves.style.display = "block";
-        currentMonMoves = movesData[key];
-        var outlineSpan = SetElementById("moveoutline", "");
-        if (!IsNullOrEmpty(currentMonMoves.outline)) {
-            WriteDescriptionTexts(outlineSpan, currentMonMoves.outline);
-        }
+    // let movesData = GetData("moves");
+    // var divMoves = document.getElementById('divmoves');
+    // if (movesData.hasOwnProperty(key)) {
+    //     divMoves.style.display = "block";
+    //     currentMonMoves = movesData[key];
+    //     var outlineSpan = SetElementById("moveoutline", "");
+    //     if (!IsNullOrEmpty(currentMonMoves.outline)) {
+    //         WriteDescriptionTexts(outlineSpan, currentMonMoves.outline);
+    //     }
 
-        //combos
-        SetMonCombos();
+    //     //combos
+    //     SetMonCombos();
 
-        //reference
-        if (!IsNullOrEmpty(currentMonMoves.reference)) {
-            for (var key in currentMonMoves.reference) {
-                var link = CreateClassElement("a", "reference-link", key);
-                link.setAttribute("href", currentMonMoves.reference[key]);
-                referenceDiv.appendChild(link);
-            }
-        }
+    //     //reference
+    //     if (!IsNullOrEmpty(currentMonMoves.reference)) {
+    //         for (var key in currentMonMoves.reference) {
+    //             var link = CreateClassElement("a", "reference-link", key);
+    //             link.setAttribute("href", currentMonMoves.reference[key]);
+    //             referenceDiv.appendChild(link);
+    //         }
+    //     }
 
-    } else {
-        divMoves.style.display = "none";
-    }
+    // } else {
+    //     divMoves.style.display = "none";
+    // }
 
 
 
-    OnSelectLayer(2, monObj.nameTW);
+    // OnSelectLayer(2, monObj.nameTW);
 }
 
 function WriteDescriptionTexts(root, fullText) {
@@ -553,100 +638,10 @@ function SetMonCombos() {
     }
 }
 
-function AppendNode(node, container, nodeList, condition) {
 
-    if (node === undefined)
-        return;
 
-    var nodeFlex = CreateClassElement("div", "flexboxrow");
-    container.appendChild(nodeFlex);
 
-    var move = currentMonMoves['moves'].find(x => x.name === node.move);
-    var rootFlex;
-    if (move === undefined)
-        rootFlex = CreateClassElement("button", "flexitem", node.move);
-    else
-        var rootFlex = CreateMoveNode(move);
-    nodeFlex.appendChild(rootFlex);
 
-    if (container.parentElement.id !== "combos") {
-        var fromNode = nodeFlex.parentElement.previousSibling;
-        window.setTimeout(
-            function () {
-                var rect = rootFlex.getBoundingClientRect();
-                var rectSVG = svg.getBoundingClientRect();
-                var rectFrom = fromNode.getBoundingClientRect();
-
-                var fromX = rectFrom.right - rectSVG.left;
-                var fromY = (rectFrom.top + rectFrom.bottom) / 2 - rectSVG.top;
-                var toX = rect.left - rectSVG.left;
-                var toY = (rect.top + rect.bottom) / 2 - rectSVG.top;
-
-                var line = CreateLine(fromX, fromY, toX, toY);
-                svg.appendChild(line);
-
-                if (condition !== undefined && condition !== "") {
-                    var text = createSVGtext(condition, (fromX + toX) / 2, (fromY + toY) / 2);
-                    svg.appendChild(text);
-                }
-            }, 200);
-    }
-
-    var linksFlex = CreateClassElement("div", "flexboxcolumn");
-    nodeFlex.appendChild(linksFlex);
-
-    var maxConditionTextLength = 0;
-    for (var link of node.links) {
-        var linkNodeID = link.node;
-        var linkNode = nodeList[linkNodeID];
-        if (link.condition && link.condition.length > maxConditionTextLength) {
-            maxConditionTextLength = link.condition.length;
-        }
-        AppendNode(linkNode, linksFlex, nodeList, link.condition);
-    }
-
-    var marginLeftVW = 2;
-    var marginRightVW = 2;
-    if (maxConditionTextLength > 0) {
-        marginRightVW = Math.min(Math.max(maxConditionTextLength * 2.5, 2), 20);
-    }
-    var marginLeftPX = Math.ceil((window.innerWidth * marginLeftVW / 100));
-    var marginRightPX = Math.ceil((window.innerWidth * marginRightVW / 100));
-    rootFlex.style.marginLeft = marginLeftPX + "px";
-    rootFlex.style.marginRight = marginRightPX + "px";
-}
-
-function CreateMoveNode(move) {
-    var moveFlex = CreateClassElement("button", "flexitem", "");
-    var moveName = CreateClassElement("div", "movebutton-name", move.name);
-    moveFlex.appendChild(moveName);
-    // 大硬直
-    if (move.recovery === "大") {
-        var tag = CreateClassElement("div", "movebutton-tag", "硬直大");
-        moveFlex.appendChild(tag);
-    }
-    moveFlex.onclick = function () {
-        OnClickMoveButton(move);
-    };
-    return moveFlex;
-}
-
-function FindOrAddComboConditionContainer(condition) {
-    var divCombos = document.getElementById('combos');
-    var findContainer;
-    for (var container of divCombos.children) {
-        if (container.id === condition)
-            findContainer = container;
-    }
-    if (!findContainer) {
-        findContainer = CreateClassElement("div", "combo-condition-container");
-        findContainer.id = condition;
-        var conditionText = CreateClassElement("div", "combo-condition-text", condition);
-        findContainer.appendChild(conditionText);
-        divCombos.appendChild(findContainer);
-    }
-    return findContainer;
-}
 
 function OnClickMoveButton(move) {
 
@@ -897,15 +892,4 @@ function IsNullOrEmpty(string) {
 function CheckMobile() {
     return (window.innerWidth < 1200);
 }
-
-//       const queryString = window.location.search;
-//   var title = document.getElementById("title");
-//   title.innerHTML = "TEST";
-
-
-//    document.write("KKK");
-//    var btn = document.createElement("Button");
-//    btn.innerHTML = "test";
-//    btn.setAttribute('onclick', 'google.script.run.ButtonTest()');
-//    document.body.appendChild(btn);
 

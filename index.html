@@ -20,6 +20,7 @@
   <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/vue@2.6.12"></script>
   <script src="https://unpkg.com/http-vue-loader"></script>
+  <script src="https://unpkg.com/vue-router/dist/vue-router.js"></script>
   <script type="text/javascript" src="script.js"></script>
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=0">
 </head>
@@ -40,19 +41,34 @@
 
     <div id="topbar-background">
       <div id="topbar">
-        <button class="topbarbtn" id="topbarlayer0" onclick="OnSelectLayer(0)">魔物類型</button>
+        <router-link class="topbarbtn" id="topbarlayer0" to="/mon">
+        </router-link>
         <div class="topbarlink" id="topbarlink01"> > </div>
-        <button class="topbarbtn" id="topbarlayer1" onclick="OnSelectLayer(1)">魔物列表</button>
+        <router-link class="topbarbtn" id="topbarlayer1" to="/mon">魔物列表</router-link>
         <div class="topbarlink" id="topbarlink12"> > </div>
-        <button w class="topbarbtn" id="topbarlayer2" onclick="OnSelectLayer(2)">魔物名稱</button>
+        <router-link w class="topbarbtn" id="topbarlayer2" to="/mon">魔物名稱</router-link>
       </div>
+    </div>
+
+    <div id="app">
+      <div id="topbar-background">
+        <div id="topbar">
+          <router-link tag="button" class="topbarbtn" to="/mon">
+            魔物類型</router-link>
+          <div class="topbarlink" v-show="GetCurrentLayer(2).success"> > </div>
+          <router-link tag="button" class="topbarbtn" to="/mon/全部">{{GetCurrentLayer(1).text}}</router-link>
+          <div class="topbarlink" v-show="GetCurrentLayer(3).success"> > </div>
+          <router-link tag="button" class="topbarbtn" to="/mon/全部/泡狐龍">{{GetCurrentLayer(2).text}}</router-link>
+        </div>
+      </div>
+      <router-view> </router-view>
     </div>
 
 
 
     <div id="layer0">
       <div class="header3">種類</div>
-      <div id="spacieslist">
+      <div id="specieslist">
       </div>
     </div>
 
@@ -81,7 +97,7 @@
                 </div>
               </div>
               <div class="panel-block-1" style=" display:flex; align-items: center; justify-content:center">
-                <div id="spacies" class="panel-text-bold">{{monData.spacies}}</div>
+                <div id="species" class="panel-text-bold">{{monData.species}}</div>
               </div>
             </div>
             <div class="panel-row margin">
