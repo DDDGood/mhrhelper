@@ -65,7 +65,28 @@
           <details open>
             <summary class="header2">招式派生</summary>
             <div class="description-text">(點擊可查看招式介紹)</div>
-            <div id="combos" ref="combos"></div>
+            <div id="combos" ref="combos">
+              <svg ref="combosvg" />
+              <template v-for="(conditiondata,condition) in moveconditions">
+                <div
+                  :class="{ 'combo-condition-container-normal':condition=='normal', 'combo-condition-container' : condition!='normal'}"
+                  :key="condition"
+                >
+                  <div class="combo-condition-text" v-if="condition!='normal'">{{condition}}</div>
+                  <template v-for="item of conditiondata.moves">
+                    <div class="flexboxrow" :key="item.name" v-if="!item.onlyincombo">
+                      <button class="flexitem">
+                        <div class="movebutton-name">{{item.name}}</div>
+                        <div class="movebutton-tag" v-if="item.recovery == '大'">硬直大</div>
+                      </button>
+                    </div>
+                  </template>
+                  <template v-for="(combo,index) in conditiondata.combos">
+                    <mon_move_combo :combo="combo" :moves="movedata.moves" :key="index"></mon_move_combo>
+                  </template>
+                </div>
+              </template>
+            </div>
           </details>
         </div>
         <details>
@@ -84,6 +105,12 @@
 module.exports = {
   data: function () {
     return {
+      moveconditions: {
+        normal: {
+          moves: [],
+          combos: []
+        },
+      },
       currentmove: {
         name: "fromparrent",
         image: "333",
@@ -99,13 +126,14 @@ module.exports = {
   components: {
     "mon_card": httpVueLoader("mon_card.vue"),
     "mon_moveinfopanel": httpVueLoader("mon_moveinfopanel.vue"),
+    "mon_move_combo": httpVueLoader("mon_move_combo.vue")
   },
   created: function () {
     this.mondata = this.dex[this.$route.params.name];
     this.movedata = this.moves[this.$route.params.name];
   },
   mounted: function () {
-    this.SetCombo();
+    this.SetMoves();
   },
   methods: {
     GetCardData: function () {
@@ -197,6 +225,36 @@ module.exports = {
         }
         return result;
       } else return "";
+    },
+    SetMoves: function () {
+      console.log("setMoves");
+      for (let move of this.movedata['moves']) {
+        if (!IsNullOrEmpty(move.condition)) {
+          if (!this.moveconditions.hasOwnProperty(move.condition)) {
+            this.moveconditions[move.condition] = {
+              moves: [],
+              combos: []
+            };
+          }
+          this.moveconditions[move.condition].moves.push(move);
+        }
+        else
+          this.moveconditions["normal"].moves.push(move);
+      }
+      for (let combo of this.movedata['combos']) {
+        if (!IsNullOrEmpty(combo.condition)) {
+          if (!this.moveconditions.hasOwnProperty(combo.condition)) {
+            this.moveconditions[combo.condition] = {
+              moves: [],
+              combos: []
+            };
+          }
+          this.moveconditions[combo.condition].combos.push(combo);
+        }
+        else
+          this.moveconditions["normal"].combos.push(combo);
+      }
+      console.log(this.moveconditions);
     },
     SetCombo: function () {
       let divCombos = this.$refs.combos;

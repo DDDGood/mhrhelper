@@ -111,7 +111,7 @@ function InitRouter() {
                 let text = "";
 
                 let decodePath = decodeURI(this.$router.currentRoute.path).substring(1);
-                console.log("----" + decodePath);
+                // console.log("----" + decodePath);
                 let tags = decodePath.split('/');
 
                 if (id <= tags.length) {
