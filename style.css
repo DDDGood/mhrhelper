@@ -188,12 +188,6 @@ details[open] > summary:after {
   background-color: #4B9AFF;
 }
 
-#panel-moveinfo{
-  /* display: none; */
-  position:absolute;
-  background-color: #4B9AFF;
-  box-shadow: 0px 0px 8px #969696;
- }
 .panel-row{
   display:flex; 
   flex-direction: row;
@@ -247,12 +241,7 @@ details[open] > summary:after {
   background-color: #eeeade;
 }
 
-  
-  .moveinfo-video{
-    width :50%;
-    align-items: center;
-    
-  }
+
 
 th{
   background-color: #BDD5FF;
@@ -300,10 +289,12 @@ tfoot {
   }
   .combo-condition-container-normal{
     border-radius : 10px;
+    padding-left: 10px;
   }
   .combo-condition-container{
     border: 4px dashed #C1C3C4;
     border-radius : 10px;
+    padding-left: 10px;
   }
   .combo-condition-text{
     text-align: center;
@@ -336,7 +327,7 @@ tfoot {
 
  /*   SVG   */
 svg{
- border: 2px solid black;
+ /* border: 2px solid black; */
  position: absolute;
  top: 0;
  left: 0;

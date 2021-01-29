@@ -18,8 +18,7 @@
     <template v-for="(pos,index) in toPositions">
       <div :style="GetLinkTextStyle(pos)" :key="index">{{pos.condition}}</div>
     </template>
-    <button class="flexitem" ref="root">
-      <!-- <div class="movebutton-name">{{rootpos.x}}</div> -->
+    <button class="flexitem" ref="root" @click="HandleClick(move)">
       <div class="movebutton-name">{{rootnode.move}}</div>
       <div class="movebutton-tag" v-if="move == undefined? false: move.recovery == '大'">硬直大</div>
     </button>
@@ -58,11 +57,13 @@ module.exports = {
     id: function (rootnode, link) {
       return (rootnode.move + "_" + link.node);
     },
+    HandleClick: function (move) {
+      this.$emit("click", move);
+    },
     GetLinkTextStyle: function (toPos) {
-      console.log(this.$refs.root.style.marginRight);
+      // console.log(this.$refs.root.style.marginRight);
       let widthText = this.$refs.root.style.marginRight.substring(0, this.$refs.root.style.marginRight.length - 2);
-      let width = parseInt(widthText, 10) * 3 / 4;
-      console.log(width);
+      let width = parseInt(widthText, 10) * 4 / 5;
       return {
         position: "absolute",
         left: (this.rootpos.x + toPos.x) / 2 + "px",
@@ -71,7 +72,6 @@ module.exports = {
         "margin-left": "-" + width / 2 + "px",
         "margin-top": "-8px",
         "font-size": "10px",
-        "background-color": "#ffffff",
         "text-align": "center",
         "text-anchor": "middle"
       }
@@ -89,7 +89,7 @@ module.exports = {
         maxConditionTextLength = link.condition.length;
       }
     }
-    let minTextWidth = (Math.min(maxConditionTextLength, 8) * 10) + 20;
+    let minTextWidth = (Math.min(maxConditionTextLength, 12) * 12) + 20;
     this.$refs.root.style.marginRight = Math.max(0, minTextWidth) + "px";
     for (let link of this.rootnode.links) {
       let refLink = this.$refs[this.rootnode.move + "_" + link.node][0];

@@ -1,6 +1,6 @@
 <template>
   <div id="layer0">
-    <mon_moveinfopanel v-bind:mdata="currentmove" :test="aaa"></mon_moveinfopanel>
+    <mon_moveinfopanel ref="movepanel" v-bind:movedata="currentmove"></mon_moveinfopanel>
     <div id="layer2-grid">
       <div class="grid-area-right">
         <mon_card v-bind:mondata="GetCardData()"></mon_card>
@@ -75,7 +75,7 @@
                   <div class="combo-condition-text" v-if="condition!='normal'">{{condition}}</div>
                   <template v-for="item of conditiondata.moves">
                     <div class="flexboxrow" :key="item.name" v-if="!item.onlyincombo">
-                      <button class="flexitem">
+                      <button class="flexitem" @click="OnClickMove(item)">
                         <div class="movebutton-name">{{item.name}}</div>
                         <div class="movebutton-tag" v-if="item.recovery == '大'">硬直大</div>
                       </button>
@@ -111,14 +111,7 @@ module.exports = {
           combos: []
         },
       },
-      currentmove: {
-        name: "fromparrent",
-        image: "333",
-        preaction: "444",
-        action: "555",
-        recovery: "666",
-        note: "777"
-      },
+      currentmove: {},
       aaa: "watch"
     }
   },
@@ -177,8 +170,7 @@ module.exports = {
         let conditionText = "";
         let values = {}
         for (let weakState of weakData) {
-
-          console.log("-" + weakState);
+          // console.log("-" + weakState);
           if (weakState.condition === "normal") {
             for (let dataKey in weakState) {
               if (dataKey == "condition")
@@ -404,19 +396,11 @@ module.exports = {
         console.log(this.currentmove.name);
       });
       moveFlex.addEventListener("click", this.TestClick);
-      // onclick = this.TestClick;
-      // moveFlex.onclick = function () {
-      //   this.currentmove = move;
-      //   this.aaa = "onclick";
-      //   console.log(this.currentmove.name);
-      //   this.TestClick();
-      // };
       return moveFlex;
     },
-    TestClick: function () {
-      console.log("CLICK");
-      console.log(this.aaa);
-      console.log(this.currentmove.name);
+    OnClickMove: function (move) {
+      this.currentmove = move;
+      this.$refs.movepanel.Show();
     },
     OnClickMoveButton: function (moveName) {
       console.log("CLICK");
