@@ -312,13 +312,6 @@ tfoot {
   text-align: center;
 }
 
-#combos{
- position:relative;
- height:auto;
- overflow:auto;
- /* box-shadow:0px 0px 0px 2px black inset; */
-}
-
 #divmoves{
   width:100%;
 }

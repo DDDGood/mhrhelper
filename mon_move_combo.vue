@@ -1,5 +1,10 @@
 <template >
-  <nodelink :rootnode="rootnode" :nodes="combo.nodes" :moves="moves" @click="HandleClick(move)"></nodelink>
+  <nodelink
+    :rootnode="rootnode"
+    :nodes="combo.nodes"
+    :moves="moves"
+    @clickmove="clickmove"
+  ></nodelink>
 </template>
 <script>
 module.exports = {
@@ -8,16 +13,15 @@ module.exports = {
     nodelink: httpVueLoader("mon_move_combo_link.vue"),
   },
   methods: {
-    HandleClick: function (move) {
-      console.log(move.name);
-      this.$emit("click", move);
-    }
+    clickmove: function (move) {
+      this.$emit("clickmove", move);
+    },
   },
   computed: {
     rootnode: function () {
       return this.combo.nodes[this.combo.root];
-    }
-  }
+    },
+  },
 };
 </script>  
 

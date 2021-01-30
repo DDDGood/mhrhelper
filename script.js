@@ -1,32 +1,14 @@
 
-var currentLayer = 0;
-var layer0;
-var layer1;
-var layer2;
-var topbarlayer0;
-var topbarlayer1;
-var topbarlayer2;
-var topbarlink01;
-var topbarlink12;
-var svg;
-var moveInfo;
-
 var data = {};
 function GetData(key) {
     return data[key];
 }
-
-var currentMon = {};
-var currentMonMoves = {};
 var speciesDictionary = {};
 
-//google.script.run.withSuccessHandler(onDexLoaded).LoadRiseData();
 
 var time;
 time = Date.now();
 console.log("startTime:" + time);
-
-// var panel;
 
 $(document).ready(Initialize);
 
@@ -36,33 +18,12 @@ function Initialize() {
     console.log("startInit:" + (newtime - time));
     time = newtime;
 
-
-    layer0 = document.getElementById('layer0');
-    layer1 = document.getElementById('layer1');
-    layer2 = document.getElementById('layer2');
-    topbarlayer0 = document.getElementById('topbarlayer0');
-    topbarlayer1 = document.getElementById('topbarlayer1');
-    topbarlayer2 = document.getElementById('topbarlayer2');
-
-    // layer0.style.display = "none";
-    // layer1.style.display = "none";
-    // layer2.style.display = "none";
-    // topbarlayer0.style.display = "none";
-    // topbarlayer1.style.display = "none";
-    // topbarlayer2.style.display = "none";
-
-    $("#layer0").hide();
-    $("#layer1").hide();
-    $("#layer2").hide();
-    $("#topbarlayer0").hide();
-    $("#topbarlayer1").hide();
-    $("#topbarlayer2").hide();
-
     $("#wrapper").show();
 
     LoadData(['mhrdex.json', 'mhrmoves.json'], onDexLoaded);
 
 }
+var router;
 function InitRouter() {
     Vue.use(VueRouter);
     const Foo = { template: '<div>foo</div>' }
@@ -71,7 +32,7 @@ function InitRouter() {
     const MonListComp = httpVueLoader("mon_monlist.vue");
     const MonComp = httpVueLoader("mon_monster.vue");
 
-    const router = new VueRouter({
+    router = new VueRouter({
         routes: [
             {
                 name: 'home',
@@ -85,7 +46,7 @@ function InitRouter() {
                 props: { obj: "DDD" }
             },
             {
-                name: 'mon',
+                name: 'monlist',
                 path: '/mon',
                 component: SpeciesListComp,
                 props: { specieslist: speciesDictionary }
@@ -96,6 +57,7 @@ function InitRouter() {
                 props: { specieslist: speciesDictionary, mondata: GetData("dex") }
             },
             {
+                name: 'mon',
                 path: '/mon/:species/:name',
                 component: MonComp,
                 props: { dex: GetData("dex"), moves: GetData("moves") }
@@ -105,128 +67,30 @@ function InitRouter() {
     new Vue({
         el: '#app',
         methods: {
+            GetLayerTexts() {
+                let decodePath = decodeURI(this.$router.currentRoute.path).substring(1);
+                return decodePath.split('/');
+            },
             GetCurrentLayer(id) {
 
                 let success = false;
                 let text = "";
 
                 let decodePath = decodeURI(this.$router.currentRoute.path).substring(1);
-                // console.log("----" + decodePath);
                 let tags = decodePath.split('/');
 
-                if (id <= tags.length) {
-                    success = true;
-                    text = tags[id];
-                }
+                // if (id <= tags.length) {
+                //     success = true;
+                //     text = tags[id];
+                // }
                 return {
-                    success: success,
-                    text: text
+                    // success: success,
+                    texts: tags
                 }
             }
         },
         router
     })
-}
-var panel;
-function InitVue() {
-    panel = new Vue({
-        el: "#layer2",
-        components: {
-            "mon_card": httpVueLoader("mon_card.vue")
-        },
-        data: {
-            monData: {}
-        },
-        methods: {
-            GetDescriptionText: function (key) {
-                if (this.monData.hasOwnProperty(key) && this.monData[key] != undefined) {
-                    let result = "";
-                    var descTexts = this.monData[key].split("\n", -1);
-                    for (let text of descTexts) {
-                        if (text.startsWith("[img]"))
-                            result += "<img class='description-image' src='" + text.substring(5) + "'>";
-                        else
-                            result += "<p class='description-text'>" + (IsNullOrEmpty(text) ? "<br>" : text) + "</p>";
-                    }
-                    return result;
-                } else
-                    return "";
-            },
-            GetCardData: function () {
-                let cardData = {
-                    name1: "",
-                    icon: "",
-                    image: "",
-                    trait: {},
-                    weakness: { weapon: {}, element: {}, aliment: {} }
-                };
-                cardData.name1 = this.monData.nameTW;
-                cardData.name2 = this.monData.nameJP;
-                cardData.name3 = this.monData.nameEN;
-                cardData.species = this.monData.species;
-                if (IsNullOrEmpty(this.monData.icon)) cardData.icon = "images/icons/monsters/icon_unknown.png";
-                else cardData.icon = this.monData.icon;
-                if (IsNullOrEmpty(this.monData.image)) cardData.images = "images/icons/monsters/icon_unknown.png";
-                else cardData.image = this.monData.image;
-                if (!this.monData.hasOwnProperty("trait"))
-                    cardData.trait = { roar: "－", wind: "－", tremer: "－", element: "－", aliment: "－" };
-                else
-                    cardData.trait = JSON.parse(JSON.stringify(this.monData.trait));
-                for (let weakType in this.monData.weakness) {
-                    if (weakType === "weapon") {
-                        cardData.weakness.weapon = [];
-                        for (let weakPart of this.monData.weakness.weapon) {
-                            cardData.weakness.weapon.push(
-                                {
-                                    part: weakPart.part,
-                                    cut: ParseStars(weakPart.cut),
-                                    blunt: ParseStars(weakPart.blunt),
-                                    ammo: ParseStars(weakPart.ammo)
-                                }
-                            );
-                        }
-                        continue;
-                    }
-                    let weakData = this.monData.weakness[weakType];
-                    let specialCase = false;
-                    let conditionText = "";
-                    let values = {}
-                    for (let weakState of weakData) {
-
-                        console.log("-" + weakState);
-                        if (weakState.condition === "normal") {
-                            for (let dataKey in weakState) {
-                                if (dataKey == "condition")
-                                    continue;
-                                values[dataKey] = ParseStars(weakState[dataKey]);
-                            }
-                        } else {
-                            if (specialCase === false) {
-                                specialCase = true;
-                                conditionText += weakState.condition;
-                            } else {
-                                conditionText += "、" + weakState.condition;
-                            }
-                            for (let dataKey in weakState) {
-                                values[dataKey] += "<br>(" + ParseStars(weakState[dataKey]) + ")";
-                            }
-                        }
-                    }
-                    cardData.weakness[weakType] = {
-                        condition: specialCase ? "(" + conditionText + ")" : "",
-                        values: values
-                    };
-                }
-                return cardData;
-            },
-            ParseStars: function (num) {
-                return ParseStars(num);
-            },
-            Refresh: function (inputData) {
-                this.monData = inputData;
-            }
-        }
-    });
 }
 
 function LoadData(paths, callback) {
@@ -264,495 +128,31 @@ function onDexLoaded() {
 
     let dexData = GetData("dex");
 
+    speciesDictionary["全部"] = {};
     for (key in dexData) {
         var mon = dexData[key];
+        speciesDictionary["全部"][key] = mon;
         if (mon.species !== "") {
             if (speciesDictionary.hasOwnProperty(mon.species) == false) {
                 speciesDictionary[mon.species] = {};
             }
-            speciesDictionary[mon.species][key] = dexData[key];
+            speciesDictionary[mon.species][key] = mon;
         }
-
-        // var btn = CreateClassElement("BUTTON", "button-mon");
-        // btn.setAttribute("onclick", "SetMon('" + key + "')");
-        // var btnicon = new Image();
-        // btnicon.className = "image-button-mon-icon";
-        // btnicon.src = IsNullOrEmpty(mon.icon) ? "images/icons/monsters/icon_unknown.png" : mon.icon;
-        // var btnText = CreateClassElement("div", "text-button-mon-name", key);
-        // btn.appendChild(btnicon);
-        // btn.appendChild(btnText);
-        // monlist.appendChild(btn);
     }
 
-    // var speciesList = document.getElementById('specieslist');
-    // var allspeciesBtn = CreateClassElement("BUTTON", "btnspecies flex-2", "全部");
-    // allspeciesBtn.setAttribute("onclick", "Setspecies('全部')");
-    // speciesList.appendChild(allspeciesBtn);
-    // for (var specie in speciesDictionary) {
-    //     var btn = CreateClassElement("BUTTON", "btnspecies flex-1", specie);
-    //     btn.setAttribute("onclick", "Setspecies('" + specie + "')");
-    //     speciesList.appendChild(btn);
+    // let searchParams = new URLSearchParams(location.search);
+    // let navMon = searchParams.get('mon');
+    // if (dexData.hasOwnProperty(navMon)) {
+    //     SetMon(navMon);
     // }
-
-
-    let searchParams = new URLSearchParams(location.search);
-    let navMon = searchParams.get('mon');
-    if (dexData.hasOwnProperty(navMon)) {
-        SetMon(navMon);
-    }
 
     var newtime = Date.now();
     console.log("Finished:" + (newtime - time));
     time = newtime;
 
     InitRouter();
-    // InitVue();
 }
 
-function Setspecies(key) {
-
-    var monlist = document.getElementById('monlist');
-    var monBtns = monlist.getElementsByTagName('button');
-    for (btn of monBtns) {
-
-        if (key === '全部') {
-            btn.style.display = "inline";
-        } else {
-            if (GetData("dex")[btn.children[1].innerHTML].species === key)
-                btn.style.display = "inline";
-            else
-                btn.style.display = "none";
-        }
-
-    }
-
-    OnSelectLayer(1, key);
-}
-
-
-
-
-
-
-function SetMon(key) {
-
-    var monObj = GetData("dex")[key];
-    panel.Refresh(monObj);
-    currentMon = monObj;
-
-    // panel.monData = obj;
-    // panel.text = monObj.nameTW;
-
-    // panel.monData = monObj;
-
-    // var panel = new Vue({
-    //     data: {
-    //         name1: monObj.nameTW,
-    //         name2: monObj.nameJP,
-    //         name3: monObj.nameEN,
-    //         species: monObj.species,
-    //         icon: monObj.icon,
-    //         image: monObj.image
-    //     }
-    // });
-
-    // panel.$mount("#panel-basicinfo")
-
-    // panel.Refresh(monObj);
-    // SetElementById('title', monObj.nameTW);
-    // SetElementById('namejp', monObj.nameJP);
-    // SetElementById('nameen', monObj.nameEN);
-    // SetElementById('species', monObj.species);
-
-    // var icon = document.getElementById('monicon');
-    // icon.setAttribute("src", IsNullOrEmpty(monObj.icon) ? "images/icons/monsters/icon_unknown.png" : monObj.icon);
-
-    // var image = document.getElementById('monimage');
-    // image.setAttribute("src", monObj.image);
-
-    // if (monObj.hasOwnProperty("trait")) {
-    // SetElementById('roar', monObj.trait.roar);
-    // SetElementById('wind', monObj.trait.wind);
-    // SetElementById('tremer', monObj.trait.tremer);
-    // SetElementById('element', monObj.trait.element);
-    // SetElementById('aliment', monObj.trait.aliment);
-    // }
-
-    // var weaponBlock = document.getElementById('weakness-weapon');
-    // while (weaponBlock.children.length > 1) {
-    //     weaponBlock.removeChild(weaponBlock.children[1]);
-    // }
-    // if (monObj.hasOwnProperty("weakness")) {
-    // if (monObj.weakness.hasOwnProperty("weapon")) {
-    //     for (var weakPart of monObj.weakness.weapon) {
-    //         var row = CreateClassElement("div", "panel-block-1 panel-row margin");
-    //         var name = CreateClassElement("div", "panel-block panel-text", weakPart.part);
-    //         var cut = CreateClassElement("div", "panel-block panel-text", ParseStars(weakPart.cut));
-    //         var blunt = CreateClassElement("div", "panel-block panel-text", ParseStars(weakPart.blunt));
-    //         var ammo = CreateClassElement("div", "panel-block panel-text", ParseStars(weakPart.ammo));
-    //         row.appendChild(name);
-    //         row.appendChild(cut);
-    //         row.appendChild(blunt);
-    //         row.appendChild(ammo);
-    //         weaponBlock.appendChild(row);
-    //     }
-    //     // weaponBlock.style.paddingBottom = "2px";
-    // }
-    // if (monObj.weakness.hasOwnProperty("element")) {
-    //     var elementData = {
-    //         weakData: monObj.weakness.element,
-    //         dataIDs: ["weakness-element-fire", "weakness-element-water", "weakness-element-thunder", "weakness-element-ice", "weakness-element-dragon"],
-    //         dataKeys: ["fire", "water", "thunder", "ice", "dragon"],
-    //         specialTextID: "weakness-element-special",
-    //     };
-    //     WriteWeaknessData(elementData);
-    // }
-    // if (monObj.weakness.hasOwnProperty("aliment")) {
-    //     var alimentData = {
-    //         weakData: monObj.weakness.aliment,
-    //         dataIDs: ["weakness-aliment-poison", "weakness-aliment-sleep", "weakness-aliment-paralysis", "weakness-aliment-blast", "weakness-aliment-stun"],
-    //         dataKeys: ["poison", "sleep", "paralysis", "blast", "stun"],
-    //         specialTextID: "weakness-aliment-special",
-    //     };
-    //     WriteWeaknessData(alimentData);
-    // }
-    // if (monObj.weakness.hasOwnProperty("item")) {
-    //     var itemData = {
-    //         weakData: monObj.weakness.item,
-    //         dataIDs: ["weakness-item-pitfalltrap", "weakness-item-shocktrap", "weakness-item-flashpod", "weakness-item-screamerpod"],
-    //         dataKeys: ["pitfalltrap", "shocktrap", "flashpod", "screamerpod"],
-    //         specialTextID: "weakness-item-special",
-    //     };
-    //     WriteWeaknessData(itemData);
-    // }
-    // }
-    //    SetElementById('breakables', "可破壞部位：" + monObj.breakables);
-
-    // description
-    // var descSpan = SetElementById("description", "");
-    // if (!IsNullOrEmpty(monObj.description)) {
-    //     WriteDescriptionTexts(descSpan, monObj.description);
-    // }
-    // var detailSpan = SetElementById("detail", "");
-    // // detail
-    // if (!IsNullOrEmpty(monObj.detail)) {
-    //     WriteDescriptionTexts(detailSpan, monObj.detail);
-    // }
-
-    //hit data
-    // var hdTableBody = document.getElementById('tbody_hitdata');
-    // while (hdTableBody.children.length > 1) {
-    //     hdTableBody.removeChild(hdTableBody.children[1]);
-    // }
-
-    // for (var id = 0; id < monObj['parts'].length; id++) {
-    //     var part = monObj['parts'][id];
-
-    //     var trPart = CreateClassElement("tr", "panel-text");
-
-    //     var tdPartName = document.createElement("td");
-    //     tdPartName.innerHTML = part.name;
-    //     trPart.appendChild(tdPartName);
-
-    //     var tdPartState = document.createElement("td");
-    //     tdPartState.innerHTML = part.state;
-    //     trPart.appendChild(tdPartState);
-
-    //     for (var i = 0; i < 8; i++) {
-    //         var tdPartHitData = document.createElement("td");
-    //         tdPartHitData.innerHTML = part.hitData[i];
-    //         if (i < 3) {
-    //             if (part.hitData[i] >= 45)
-    //                 tdPartHitData.style.backgroundColor = "#FFCFCF";
-    //         } else {
-    //             if (part.hitData[i] >= 25)
-    //                 tdPartHitData.style.backgroundColor = "#FFCFCF";
-    //         }
-    //         trPart.appendChild(tdPartHitData);
-    //     }
-
-    //     hdTableBody.appendChild(trPart);
-    // }
-
-    var referenceDiv = document.getElementById('reference');
-    referenceDiv.innerHTML = "";
-    //reference
-    if (!IsNullOrEmpty(monObj.reference)) {
-        for (var key in monObj.reference) {
-            var link = CreateClassElement("a", "reference-link", key);
-            link.setAttribute("href", monObj.reference[key]);
-            referenceDiv.AppendNode(link);
-        }
-    }
-
-    //moves
-    // let movesData = GetData("moves");
-    // var divMoves = document.getElementById('divmoves');
-    // if (movesData.hasOwnProperty(key)) {
-    //     divMoves.style.display = "block";
-    //     currentMonMoves = movesData[key];
-    //     var outlineSpan = SetElementById("moveoutline", "");
-    //     if (!IsNullOrEmpty(currentMonMoves.outline)) {
-    //         WriteDescriptionTexts(outlineSpan, currentMonMoves.outline);
-    //     }
-
-    //     //combos
-    //     SetMonCombos();
-
-    //     //reference
-    //     if (!IsNullOrEmpty(currentMonMoves.reference)) {
-    //         for (var key in currentMonMoves.reference) {
-    //             var link = CreateClassElement("a", "reference-link", key);
-    //             link.setAttribute("href", currentMonMoves.reference[key]);
-    //             referenceDiv.appendChild(link);
-    //         }
-    //     }
-
-    // } else {
-    //     divMoves.style.display = "none";
-    // }
-
-
-
-    // OnSelectLayer(2, monObj.nameTW);
-}
-
-function WriteDescriptionTexts(root, fullText) {
-    var descTexts = fullText.split("\n", -1);
-    for (var text of descTexts) {
-        if (text.startsWith("[img]")) {
-            var img = CreateClassElement("img", "description-image");
-            img.setAttribute('src', text.substring(5));
-            root.appendChild(img);
-        } else {
-            var p = CreateClassElement("p", "description-text", IsNullOrEmpty(text) ? "<br>" : text);
-            root.appendChild(p);
-        }
-    }
-}
-
-// function WriteWeaknessData(params) {
-
-//     var specialCaseTextHandler = document.getElementById(params.specialTextID);
-//     specialCaseTextHandler.innerHTML = "";
-//     var specialCase = false;
-//     var specialCaseText = "";
-//     var specialCaseValues = []
-
-//     var doms = [];
-//     for (var id of params.dataIDs) {
-//         var dom = document.getElementById(id)
-//         doms.push(dom);
-//         specialCaseValues.push("");
-//     }
-
-//     for (var weakState of params.weakData) {
-//         if (weakState.condition === "normal") {
-//             for (var i = 0; i < doms.length; i++) {
-//                 doms[i].innerHTML = ParseStars(weakState[params.dataKeys[i]]);
-//             }
-//         } else {
-//             if (specialCase === false) {
-//                 specialCase = true;
-//                 specialCaseText += weakState.condition;
-//             } else {
-//                 specialCaseText += "、" + weakState.condition;
-//             }
-//             for (var i = 0; i < specialCaseValues.length; i++) {
-//                 specialCaseValues[i] += "<br>(" + ParseStars(weakState[params.dataKeys[i]]) + ")";
-//             }
-//         }
-//     }
-//     if (specialCase === true) {
-//         specialCaseTextHandler.innerHTML = "(" + specialCaseText + ")";
-//         for (var i = 0; i < doms.length; i++) {
-//             doms[i].innerHTML += specialCaseValues[i];
-//         }
-//     }
-// }
-
-function SetMonCombos() {
-    var divCombos = document.getElementById('combos');
-    divCombos.innerHTML = "";
-
-    svg = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
-    divCombos.appendChild(svg);
-
-    var normalCondition = CreateClassElement("div", "combo-condition-container-normal");
-    divCombos.appendChild(normalCondition);
-
-    for (var id = 0; id < currentMonMoves['moves'].length; id++) {
-        var move = currentMonMoves['moves'][id];
-        if (move.onlyincombo == false) {
-
-            var nodeFlex = CreateClassElement("div", "flexboxrow");
-            if (!IsNullOrEmpty(move.condition))
-                FindOrAddComboConditionContainer(move.condition).appendChild(nodeFlex);
-            else
-                normalCondition.appendChild(nodeFlex);
-
-            var rootFlex = CreateMoveNode(move);
-            var marginLeftVW = 2;
-            var marginLeftPX = Math.ceil((window.innerWidth * marginLeftVW / 100));
-            rootFlex.style.marginLeft = marginLeftPX + "px";
-            nodeFlex.appendChild(rootFlex);
-        }
-    }
-
-    for (var id = 0; id < currentMonMoves['combos'].length; id++) {
-        var combo = currentMonMoves['combos'][id];
-        var root = combo.nodes[combo.root];
-
-        var container = normalCondition;
-        if (!IsNullOrEmpty(combo.condition))
-            container = FindOrAddComboConditionContainer(combo.condition);
-
-        AppendNode(root, container, combo.nodes, combo.condition);
-
-        if (!IsNullOrEmpty(combo.note)) {
-
-        }
-    }
-}
-
-
-
-
-
-
-
-function OnSelectLayer(layer, label) {
-    OnClickCloseMoveInfo();
-    switch (layer) {
-        case 0:
-
-            $("#layer0").show();
-            $("#layer1").hide();
-            $("#layer2").hide();
-            $("#topbarlayer0").show();
-            $("#topbarlayer1").hide();
-            $("#topbarlayer2").hide();
-
-            // layer0.style.display = "block";
-            // layer1.style.display = "none";
-            // layer2.style.display = "none";
-            // topbarlayer0.style.display = "inline";
-            // topbarlayer1.style.display = "none";
-            // topbarlayer2.style.display = "none";
-            topbarlayer0.style.background = '#4CAF50';
-            topbarlayer0.nextElementSibling.style.display = "none";
-            topbarlayer1.nextElementSibling.style.display = "none";
-            break;
-        case 1:
-
-            $("#layer0").hide();
-            $("#layer1").show();
-            $("#layer2").hide();
-            $("#topbarlayer0").show();
-            $("#topbarlayer1").show();
-            $("#topbarlayer2").hide();
-            // layer0.style.display = "none";
-            // layer1.style.display = "block";
-            // layer2.style.display = "none";
-            // topbarlayer0.style.display = "inline";
-            // topbarlayer1.style.display = "inline";
-            // topbarlayer2.style.display = "none";
-            topbarlayer0.style.background = '#31363D';
-            topbarlayer1.style.background = '#4CAF50';
-            topbarlayer0.nextElementSibling.style.display = "flex";
-            topbarlayer1.nextElementSibling.style.display = "none";
-            if (label)
-                topbarlayer1.innerHTML = label;
-            break;
-        case 2:
-            $("#layer0").hide();
-            $("#layer1").hide();
-            $("#layer2").show();
-            $("#topbarlayer0").show();
-            $("#topbarlayer1").show();
-            $("#topbarlayer2").show();
-            // layer0.style.display = "none";
-            // layer1.style.display = "none";
-            // layer2.style.display = "block";
-            // topbarlayer0.style.display = "inline";
-            // topbarlayer1.style.display = "inline";
-            // topbarlayer2.style.display = "inline";
-            topbarlayer0.style.background = '#31363D';
-            topbarlayer1.style.background = '#31363D';
-            topbarlayer2.style.background = '#4CAF50';
-            topbarlayer0.nextElementSibling.style.display = "flex";
-            topbarlayer1.nextElementSibling.style.display = "flex";
-            if (label)
-                topbarlayer2.innerHTML = label;
-            break;
-    }
-}
-
-function CreateLine(x1, y1, x2, y2) {
-    var line = document.createElementNS('http://www.w3.org/2000/svg', 'line');
-    line.setAttribute('x1', x1);
-    line.setAttribute('y1', y1);
-    line.setAttribute('x2', x2);
-    line.setAttribute('y2', y2);
-    return line;
-}
-function CreateText(innerHTML, x, y) {
-    var text = document.createElementNS('http://www.w3.org/2000/svg', 'text');
-    text.innerHTML = innerHTML;
-    text.setAttribute('x', x);
-    text.setAttribute('y', y);
-    text.setAttribute('inline-size', '20');
-    return text;
-}
-
-function createSVGtext(caption, x, y) {
-    //  This function attempts to create a new svg "text" element, chopping
-    //  it up into "tspan" pieces, if the caption is too long
-    //
-    var svgText = document.createElementNS('http://www.w3.org/2000/svg', 'text');
-    //    var textNode = document.createTextNode(caption);
-    //    svgText.appendChild(textNode);
-    //    svgText.setAttributeNS(null, 'x', x);
-    //    svgText.setAttributeNS(null, 'y', y);
-    //    return svgText;
-
-    //  The following two variables should really be passed as parameters
-    var MAXIMUM_CHARS_PER_LINE = 9;
-    var LINE_HEIGHT = CheckMobile() ? 9 : 16;
-
-    var words = caption.split("");
-    var line = "";
-
-    for (var n = 0; n < words.length; n++) {
-        var testLine = line + words[n];
-        if (testLine.length > MAXIMUM_CHARS_PER_LINE) {
-            //  Add a new <tspan> element
-            var svgTSpan = document.createElementNS('http://www.w3.org/2000/svg', 'tspan');
-            svgTSpan.setAttributeNS(null, 'x', x);
-            svgTSpan.setAttributeNS(null, 'y', y);
-
-            var tSpanTextNode = document.createTextNode(line);
-            svgTSpan.appendChild(tSpanTextNode);
-            svgText.appendChild(svgTSpan);
-
-            line = words[n];
-            y += LINE_HEIGHT;
-        } else {
-            line = testLine;
-        }
-    }
-
-    var svgTSpan = document.createElementNS('http://www.w3.org/2000/svg', 'tspan');
-    svgTSpan.setAttributeNS(null, 'x', x);
-    svgTSpan.setAttributeNS(null, 'y', y);
-
-    var tSpanTextNode = document.createTextNode(line);
-    svgTSpan.appendChild(tSpanTextNode);
-
-    svgText.appendChild(svgTSpan);
-
-    return svgText;
-}
 
 function CreateClassElement(type, className, innerHTML) {
     var e = CreateSimpleElement(type, innerHTML);
@@ -772,14 +172,6 @@ function SetElementById(id, innerHTML) {
     var e = document.getElementById(id);
     e.innerHTML = innerHTML;
     return e;
-}
-
-function GetMoveInfoPanel() {
-    if (moveInfo === undefined) {
-        moveInfo = document.getElementById("panel-moveinfo");
-    }
-
-    return moveInfo;
 }
 
 function ParseStars(text) {

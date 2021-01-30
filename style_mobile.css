@@ -29,8 +29,8 @@
     margin: 8px;
   }
   .header3{
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     font-size: 18px;
     font-weight: bold;
   }
@@ -51,8 +51,9 @@
   }
 
   #layer0{
-    padding-left:12px;
-    padding-right:12px;
+    padding: 12px;
+    /* padding-left:12px;
+    padding-right:12px; */
   }
   #layer1{
     padding-left:12px;
@@ -169,24 +170,6 @@
      height:14px;
      margin-right:2px;
   }
-  
-
-
-  #layer2-grid{
-    display: grid;
-    grid-template-columns: 1fr;
-  }
-  .grid-area-main{    
-    margin: 8px;
-  }
-  .grid-area-right{
-    margin: 8px;
-  }
-
-    
-  #combos{
-    width:95vw;
-   }
   
 
   .flexboxrow{

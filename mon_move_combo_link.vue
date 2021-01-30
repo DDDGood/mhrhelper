@@ -1,35 +1,37 @@
-<template >
+<template>
   <div class="flexboxrow">
     <svg>
-      <circle :cx="rootpos.x" :cy="rootpos.y" r="2" stroke="green" stroke-width="4" fill="yellow" />
-      <template v-for="(pos,index) in toPositions">
-        <circle
+      <template v-for="(pos, index) in toPositions">
+        <line
           :key="index"
-          :cx="pos.x"
-          :cy="pos.y"
-          r="2"
-          stroke="green"
-          stroke-width="4"
-          fill="red"
+          :x1="rootpos.x"
+          :y1="rootpos.y"
+          :x2="pos.x"
+          :y2="pos.y"
         />
-        <line :key="index" :x1="rootpos.x" :y1="rootpos.y" :x2="pos.x" :y2="pos.y" />
       </template>
     </svg>
-    <template v-for="(pos,index) in toPositions">
-      <div :style="GetLinkTextStyle(pos)" :key="index">{{pos.condition}}</div>
+    <template v-for="(pos, index) in toPositions">
+      <div :style="GetLinkTextStyle(pos)" :key="index">{{ pos.condition }}</div>
     </template>
-    <button class="flexitem" ref="root" @click="HandleClick(move)">
-      <div class="movebutton-name">{{rootnode.move}}</div>
-      <div class="movebutton-tag" v-if="move == undefined? false: move.recovery == '大'">硬直大</div>
+    <button class="flexitem" ref="root" @click="clickmove(move)">
+      <div class="movebutton-name">{{ rootnode.move }}</div>
+      <div
+        class="movebutton-tag"
+        v-if="move == undefined ? false : move.recovery == '大'"
+      >
+        硬直大
+      </div>
     </button>
     <div class="flexboxcolumn">
-      <template v-for="(anotherlink,index) in rootnode.links">
+      <template v-for="(anotherlink, index) in rootnode.links">
         <nodelink
           :key="index"
           :rootnode="nodes[anotherlink.node]"
           :nodes="nodes"
           :moves="moves"
           :ref="id(rootnode, anotherlink)"
+          @clickmove="clickmove"
         ></nodelink>
       </template>
     </div>
@@ -42,28 +44,31 @@ module.exports = {
     return {
       rootpos: {
         x: "0",
-        y: "0"
+        y: "0",
       },
-      toPositions: []
-    }
+      toPositions: [],
+    };
   },
   props: ["rootnode", "nodes", "moves"],
   computed: {
     move: function () {
       return this.moves.find((x) => x.name === this.rootnode.move);
-    }
+    },
   },
   methods: {
     id: function (rootnode, link) {
-      return (rootnode.move + "_" + link.node);
+      return rootnode.move + "_" + link.node;
     },
-    HandleClick: function (move) {
-      this.$emit("click", move);
+    clickmove: function (move) {
+      this.$emit("clickmove", move);
     },
     GetLinkTextStyle: function (toPos) {
       // console.log(this.$refs.root.style.marginRight);
-      let widthText = this.$refs.root.style.marginRight.substring(0, this.$refs.root.style.marginRight.length - 2);
-      let width = parseInt(widthText, 10) * 4 / 5;
+      let widthText = this.$refs.root.style.marginRight.substring(
+        0,
+        this.$refs.root.style.marginRight.length - 2
+      );
+      let width = (parseInt(widthText, 10) * 4) / 5;
       return {
         position: "absolute",
         left: (this.rootpos.x + toPos.x) / 2 + "px",
@@ -73,33 +78,36 @@ module.exports = {
         "margin-top": "-8px",
         "font-size": "10px",
         "text-align": "center",
-        "text-anchor": "middle"
-      }
-    }
+        "text-anchor": "middle",
+      };
+    },
   },
   mounted: function () {
     // console.log(this.rootpos.x);
     this.rootpos = {
       x: this.$refs.root.offsetLeft + this.$refs.root.clientWidth,
-      y: this.$refs.root.offsetTop + (this.$refs.root.clientHeight / 2),
-    }
+      y: this.$refs.root.offsetTop + this.$refs.root.clientHeight / 2,
+    };
     maxConditionTextLength = 0;
     for (let link of this.rootnode.links) {
       if (link.condition && link.condition.length > maxConditionTextLength) {
         maxConditionTextLength = link.condition.length;
       }
     }
-    let minTextWidth = (Math.min(maxConditionTextLength, 12) * 12) + 20;
+    let minTextWidth = Math.min(maxConditionTextLength, 12) * 12 + 20;
     this.$refs.root.style.marginRight = Math.max(0, minTextWidth) + "px";
     for (let link of this.rootnode.links) {
       let refLink = this.$refs[this.rootnode.move + "_" + link.node][0];
       this.toPositions.push({
-        x: refLink.$el.offsetLeft + refLink.rootpos.x - refLink.$refs.root.clientWidth,
+        x:
+          refLink.$el.offsetLeft +
+          refLink.rootpos.x -
+          refLink.$refs.root.clientWidth,
         y: refLink.$el.offsetTop + refLink.rootpos.y,
-        condition: link.condition
+        condition: link.condition,
       });
     }
-  }
+  },
 };
 </script>  
 

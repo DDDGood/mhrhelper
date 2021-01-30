@@ -55,10 +55,12 @@
         <div id="topbar">
           <router-link tag="button" class="topbarbtn" to="/mon">
             魔物類型</router-link>
-          <div class="topbarlink" v-show="GetCurrentLayer(2).success"> > </div>
-          <router-link tag="button" class="topbarbtn" to="/mon/全部">{{GetCurrentLayer(1).text}}</router-link>
-          <div class="topbarlink" v-show="GetCurrentLayer(3).success"> > </div>
-          <router-link tag="button" class="topbarbtn" to="/mon/全部/泡狐龍">{{GetCurrentLayer(2).text}}</router-link>
+          <div class="topbarlink" v-show="GetLayerTexts().length>1"> > </div>
+          <router-link tag="button" class="topbarbtn" to="/mon/全部">{{GetLayerTexts().length>1?GetLayerTexts()[1]:""}}
+          </router-link>
+          <div class="topbarlink" v-show="GetLayerTexts().length>2"> > </div>
+          <router-link tag="button" class="topbarbtn" to="/mon/全部/泡狐龍">
+            {{GetLayerTexts().length>2?GetLayerTexts()[2]]:""}}</router-link>
         </div>
       </div>
       <router-view> </router-view>

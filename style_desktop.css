@@ -160,27 +160,6 @@
     margin-right:2px;
   }
 
-  
-  #layer2-grid{
-    display: grid;
-    grid-template-columns: 2fr 1fr;
-    max-width: 1140px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  .grid-area-main{    
-    /* padding-left:150px; */
-    grid-column-start: 1;
-    grid-row-start: 1; 
-    padding-right:8px;
-    /* margin: 8px; */
-  }
-  .grid-area-right{
-    /* position: absolute; */
-    grid-column-start: 2;
-    grid-row-start: 1;
-    margin: 8px;
-  }
 
   .description-text{
     margin:12px;
