@@ -23,7 +23,6 @@ function Initialize() {
     LoadData(['mhrdex.json', 'mhrmoves.json'], onDexLoaded);
 
 }
-var router;
 function InitRouter() {
     Vue.use(VueRouter);
     const Foo = { template: '<div>foo</div>' }
@@ -32,7 +31,7 @@ function InitRouter() {
     const MonListComp = httpVueLoader("mon_monlist.vue");
     const MonComp = httpVueLoader("mon_monster.vue");
 
-    router = new VueRouter({
+    const router = new VueRouter({
         routes: [
             {
                 name: 'home',
@@ -91,6 +90,7 @@ function InitRouter() {
         },
         router
     })
+    return router;
 }
 
 function LoadData(paths, callback) {
@@ -150,7 +150,15 @@ function onDexLoaded() {
     console.log("Finished:" + (newtime - time));
     time = newtime;
 
-    InitRouter();
+    let router = InitRouter();
+
+    let searchParams = new URLSearchParams(location.search);
+    let navMon = searchParams.get('mon');
+    if (dexData.hasOwnProperty(navMon)) {
+        router.push({
+            path: "/mon/" + dexData[navMon].species + "/" + navMon
+        });
+    }
 }
 
 

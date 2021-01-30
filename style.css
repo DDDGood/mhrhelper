@@ -92,7 +92,7 @@ var{
   z-index : 1;
   background-color: #31363D; 
 }
-#topbar-background-highlight{
+.topbar-highlight{
   background-color: #4CAF50 !important; 
 }
 

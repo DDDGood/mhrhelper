@@ -164,21 +164,32 @@ module.exports = {
       currentmove: {},
     };
   },
-  props: ["dex", "moves", "mondata", "movedata"],
+  props: ["dex", "moves"],
   components: {
     mon_card: httpVueLoader("mon_card.vue"),
     mon_moveinfopanel: httpVueLoader("mon_moveinfopanel.vue"),
     mon_move_combo: httpVueLoader("mon_move_combo.vue"),
   },
+  computed: {
+    mondata: function () {
+      return this.dex[this.$route.params.name];
+    },
+    movedata: function () {
+      return this.moves[this.$route.params.name];
+    },
+  },
   created: function () {
-    this.mondata = this.dex[this.$route.params.name];
-    this.movedata = this.moves[this.$route.params.name];
+    // console.log("setdata");
+    // this.mondata = this.dex[this.$route.params.name];
+    // this.movedata = this.moves[this.$route.params.name];
   },
   mounted: function () {
     if (this.movedata !== undefined) this.SetMoves();
   },
   methods: {
     GetCardData: function () {
+      // console.log("trygetcard from ");
+      // console.log(this.mondata);
       let cardData = {
         name1: "",
         icon: "",
@@ -186,6 +197,7 @@ module.exports = {
         trait: {},
         weakness: { weapon: {}, element: {}, aliment: {} },
       };
+      if (this.mondata == undefined) return cardData;
       cardData.name1 = this.mondata.nameTW;
       cardData.name2 = this.mondata.nameJP;
       cardData.name3 = this.mondata.nameEN;
