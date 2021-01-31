@@ -21,6 +21,8 @@
             loop="loop"
             type="video/mp4"
             v-show="!IsNullOrEmpty(movedata.image)"
+            webkit-playsinline
+            playsinline
           >
             <source :src="movedata.image" />
           </video>
