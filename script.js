@@ -25,8 +25,8 @@ function Initialize() {
 }
 function InitRouter() {
     Vue.use(VueRouter);
-    const Foo = { template: '<div>foo</div>' }
-    const Bar = httpVueLoader("temp.vue");
+    // const Foo = { template: '<div>foo</div>' }
+    // const Bar = httpVueLoader("temp.vue");
     const SpeciesListComp = httpVueLoader("mon_specieslist.vue");
     const MonListComp = httpVueLoader("mon_monlist.vue");
     const MonComp = httpVueLoader("mon_monster.vue");
@@ -37,12 +37,6 @@ function InitRouter() {
                 name: 'home',
                 path: '/',
                 redirect: { path: '/mon' }
-            },
-            {
-                name: 'test',
-                path: '/test',
-                component: Bar,
-                props: { obj: "DDD" }
             },
             {
                 name: 'monlist',
@@ -65,28 +59,8 @@ function InitRouter() {
     });
     new Vue({
         el: '#app',
-        methods: {
-            GetLayerTexts() {
-                let decodePath = decodeURI(this.$router.currentRoute.path).substring(1);
-                return decodePath.split('/');
-            },
-            GetCurrentLayer(id) {
-
-                let success = false;
-                let text = "";
-
-                let decodePath = decodeURI(this.$router.currentRoute.path).substring(1);
-                let tags = decodePath.split('/');
-
-                // if (id <= tags.length) {
-                //     success = true;
-                //     text = tags[id];
-                // }
-                return {
-                    // success: success,
-                    texts: tags
-                }
-            }
+        components: {
+            topbar: httpVueLoader("topbar.vue")
         },
         router
     })

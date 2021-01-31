@@ -1107,20 +1107,24 @@
             "combos": []
         },
         "傘鳥": {
-            "outline": "",
+            "outline": "傘鳥的攻擊動作以腳踩、頭砸、翅膀撩為主，動作豐富但大多有明顯前兆，熟悉動作後應該不會太困難。與火龍類似，可從口中是否含火來判斷傘鳥的憤怒狀態。憤怒狀態下要注意傘鳥的磕頭招式高機率會變成連招。",
+            "reference": {
+                "Monster Hunter Rise - Great Sword Gameplay Trailer": "https://youtu.be/PJN9_37rmUw",
+                "『モンスターハンターライズ』実機プレイ#3 【11/4 放送：カプコンTV！で公開】": "https://youtu.be/a4s1X1_OiHE"
+            },
             "moves": [
                 {
                     "name": "龍吼",
                     "preaction": "先搖頭晃腦，兩翼中間合起。",
                     "action": "頭往前伸，龍吼同時搖晃傘狀頭部。",
                     "recovery": "小",
-                    "note": "",
+                    "note": "口中含火就是進入憤怒狀態。",
                     "image": "videos/傘鳥/傘鳥_龍吼.mp4",
                     "onlyincombo": false
                 },
                 {
                     "name": "翅膀橫掃",
-                    "preaction": "身體側後縮，高舉後側翅膀。",
+                    "preaction": "身體轉向一旁，俯身蓄力，高舉後方翅膀。",
                     "action": "大範圍橫掃，身體會轉180度。",
                     "recovery": "小",
                     "note": "機率派生二連。",
@@ -1130,15 +1134,15 @@
                 {
                     "name": "後跳上撩",
                     "preaction": "有兩次略帶轉身的後跳。",
-                    "action": "兩次後跳後，轉身上撩，攻擊方向大約是第一次後跳時離玩家近的翅膀所指的方向。",
-                    "recovery": "中",
-                    "note": "",
+                    "action": "兩次後跳後，轉身翅膀上撩。",
+                    "recovery": "大",
+                    "note": "攻擊方向大約是第一次後跳時離玩家近的翅膀所指的方向。落地動作較慢是攻擊機會。",
                     "image": "videos/傘鳥/傘鳥_後跳上撩.mp4",
                     "onlyincombo": false
                 },
                 {
                     "name": "後踢",
-                    "preaction": "原地小跳，翅膀抬起，頭從翅膀下往後看，抬起單腳。",
+                    "preaction": "原地小跳單腳抬起，頭從翅膀下往後看。",
                     "action": "先後跳踩踏，再接一個後踢。結束後有拜年動作。",
                     "recovery": "中",
                     "note": "",
@@ -1147,8 +1151,8 @@
                 },
                 {
                     "name": "跨步踩",
-                    "preaction": "似乎會先抬起單腳，轉向玩家。",
-                    "action": "單腳向前下踩。",
+                    "preaction": "使用這招前會先抬起單腳，轉向玩家。",
+                    "action": "單腳向前跨步下踩。",
                     "recovery": "小",
                     "note": "",
                     "image": "videos/傘鳥/傘鳥_跨步踩.mp4",
@@ -1165,7 +1169,7 @@
                 },
                 {
                     "name": "磕頭",
-                    "preaction": "先有一個插腰抬腿的動作",
+                    "preaction": "先做一個插腰抬腿的動作",
                     "action": "轉向玩家後頭砸",
                     "recovery": "小",
                     "note": "",
@@ -1174,7 +1178,7 @@
                 },
                 {
                     "name": "跨步磕頭",
-                    "preaction": "有個張傘威嚇的動作，然後原地小踏一步",
+                    "preaction": "明顯的張傘威嚇動作，然後原地小踏一步",
                     "action": "向前頭砸",
                     "recovery": "小",
                     "note": "",
@@ -1185,42 +1189,43 @@
                     "name": "跳步磕頭",
                     "preaction": "",
                     "action": "跳向目標並頭砸，結束有張傘威嚇的動作。",
-                    "recovery": "中",
+                    "recovery": "大",
                     "note": "",
                     "image": "videos/傘鳥/傘鳥_跳步磕頭.mp4",
                     "onlyincombo": true
                 },
                 {
                     "name": "二連磕頭",
-                    "preaction": "",
-                    "action": "連續兩次頭下砸，第二次索敵很強。",
+                    "condition": "憤怒後",
+                    "preaction": "明顯的拜年動作後會先往目標方向跳步。",
+                    "action": "連續兩次跳步頭砸。",
                     "recovery": "小",
-                    "note": "似乎怒後高機率出，先一個跳步接二連磕頭。",
+                    "note": "怒吼後高機率直接使出這招。索敵機制很強，要持續移動躲避。",
                     "image": "videos/傘鳥/傘鳥_二連磕頭.mp4",
                     "onlyincombo": false
                 },
                 {
                     "name": "後跳起飛火球",
-                    "preaction": "很短，翅膀快速上抬後就跳起。",
-                    "action": "後跳起飛，吐出中、左、右三顆火球。有時候會啞火？",
+                    "preaction": "預兆不明顯，翅膀一揮後跳就起飛。",
+                    "action": "後跳起飛後吐出中、左、右三顆火球。",
                     "recovery": "小",
-                    "note": "",
+                    "note": "有時候會啞火，條件待觀察。(可能疲勞)",
                     "image": "videos/傘鳥/傘鳥_後跳起飛火球.mp4",
                     "onlyincombo": true
                 },
                 {
                     "name": "空中迴旋火球",
-                    "preaction": "空中身體側向一邊",
-                    "action": "往側面迴旋兩圈後落地，轉圈時吐出火球。(待觀察)疲勞時會啞火。",
+                    "preaction": "",
+                    "action": "往側前方迴旋兩圈後落地，轉圈時吐出火球。",
                     "recovery": "中",
-                    "note": "",
+                    "note": "有時候會啞火，條件待觀察。(可能疲勞)",
                     "image": "videos/傘鳥/傘鳥_空中迴旋火球.mp4",
                     "onlyincombo": true
                 },
                 {
                     "name": "火球",
-                    "preaction": "小",
-                    "action": "吐出一顆火球。",
+                    "preaction": "",
+                    "action": "快速吐出一顆火球。",
                     "recovery": "小",
                     "note": "",
                     "image": "videos/傘鳥/傘鳥_火球.mp4",
@@ -1228,17 +1233,17 @@
                 },
                 {
                     "name": "三連火球",
-                    "preaction": "抬頭畜力動作",
-                    "action": "吐出中、左、右三顆火球。有時候會啞火？",
+                    "preaction": "抬頭蓄力動作",
+                    "action": "吐出中、左、右三顆火球。",
                     "recovery": "大",
-                    "note": "",
+                    "note": "有時候會啞火，條件待觀察(可能疲勞)",
                     "image": "videos/傘鳥/傘鳥_三連火球.mp4",
                     "onlyincombo": false
                 },
                 {
                     "name": "開傘龍車",
-                    "preaction": "明顯的後跳準備動作",
-                    "action": "翅膀張開向前衝，S型前進",
+                    "preaction": "明顯的後跳準備動作。",
+                    "action": "翅膀張開向前S型前進。",
                     "recovery": "大",
                     "note": "",
                     "image": "videos/傘鳥/傘鳥_開傘龍車.mp4",
@@ -1246,8 +1251,8 @@
                 },
                 {
                     "name": "合傘龍車",
-                    "preaction": "明顯的後跳準備動作，頭上傘會收起",
-                    "action": "翅膀張開向前衝，直線前進",
+                    "preaction": "明顯的後跳準備動作，頭上傘會收起。",
+                    "action": "翅膀張開向前衝，直線前進。",
                     "recovery": "大",
                     "note": "",
                     "image": "videos/傘鳥/傘鳥_合傘龍車.mp4",
