@@ -710,3 +710,27 @@ function OnClickCloseMoveInfo(e) {
 // //     btn.setAttribute("onclick", "Setspecies('" + specie + "')");
 // //     speciesList.appendChild(btn);
 // // }
+
+
+
+
+
+function CreateClassElement(type, className, innerHTML) {
+    var e = CreateSimpleElement(type, innerHTML);
+    e.className = className;
+    return e;
+}
+
+function CreateSimpleElement(type, innerHTML) {
+    var e = document.createElement(type);
+    if (innerHTML !== undefined) {
+        e.innerHTML = innerHTML;
+    }
+    return e;
+}
+
+function SetElementById(id, innerHTML) {
+    var e = document.getElementById(id);
+    e.innerHTML = innerHTML;
+    return e;
+}

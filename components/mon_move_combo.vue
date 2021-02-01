@@ -1,16 +1,11 @@
 <template >
-  <nodelink
-    :rootnode="rootnode"
-    :nodes="combo.nodes"
-    :moves="moves"
-    @clickmove="clickmove"
-  ></nodelink>
+  <nodelink :rootnode="rootnode" :nodes="combo.nodes" :moves="moves" @clickmove="clickmove"></nodelink>
 </template>
 <script>
 module.exports = {
   props: ["combo", "moves"],
   components: {
-    nodelink: httpVueLoader("mon_move_combo_link.vue"),
+    nodelink: httpVueLoader("components/mon_move_combo_link.vue"),
   },
   methods: {
     clickmove: function (move) {
