@@ -1,9 +1,6 @@
 <template>
   <div id="layer0">
-    <mon_moveinfopanel
-      ref="movepanel"
-      v-bind:movedata="currentmove"
-    ></mon_moveinfopanel>
+    <mon_moveinfopanel ref="movepanel" v-bind:movedata="currentmove"></mon_moveinfopanel>
     <div id="layer2-grid">
       <div class="grid-area-right">
         <mon_card v-bind:mondata="GetCardData()"></mon_card>
@@ -11,10 +8,7 @@
       <div class="grid-area-main">
         <details open>
           <summary class="header2">基本介紹</summary>
-          <span
-            id="description"
-            v-html="GetDescriptionText('description')"
-          ></span>
+          <span id="description" v-html="GetDescriptionText('description')"></span>
         </details>
         <details open>
           <summary class="header2">詳細肉質(舊版資訊)</summary>
@@ -32,53 +26,33 @@
                 <th>冰</th>
                 <th>龍</th>
               </tr>
-              <tr
-                class="panel-text"
-                v-for="part of mondata.parts"
-                :key="part.name + part.state"
-              >
+              <tr class="panel-text" v-for="part of mondata.parts" :key="part.name + part.state">
                 <td>{{ part.name }}</td>
                 <td>{{ part.state }}</td>
                 <td
                   v-bind:class="{ 'hitdata-highlight': part.hitData[0] >= 45 }"
-                >
-                  {{ part.hitData[0] }}
-                </td>
+                >{{ part.hitData[0] }}</td>
                 <td
                   v-bind:class="{ 'hitdata-highlight': part.hitData[1] >= 45 }"
-                >
-                  {{ part.hitData[1] }}
-                </td>
+                >{{ part.hitData[1] }}</td>
                 <td
                   v-bind:class="{ 'hitdata-highlight': part.hitData[2] >= 45 }"
-                >
-                  {{ part.hitData[2] }}
-                </td>
+                >{{ part.hitData[2] }}</td>
                 <td
                   v-bind:class="{ 'hitdata-highlight': part.hitData[3] >= 25 }"
-                >
-                  {{ part.hitData[3] }}
-                </td>
+                >{{ part.hitData[3] }}</td>
                 <td
                   v-bind:class="{ 'hitdata-highlight': part.hitData[4] >= 25 }"
-                >
-                  {{ part.hitData[4] }}
-                </td>
+                >{{ part.hitData[4] }}</td>
                 <td
                   v-bind:class="{ 'hitdata-highlight': part.hitData[5] >= 25 }"
-                >
-                  {{ part.hitData[5] }}
-                </td>
+                >{{ part.hitData[5] }}</td>
                 <td
                   v-bind:class="{ 'hitdata-highlight': part.hitData[6] >= 25 }"
-                >
-                  {{ part.hitData[6] }}
-                </td>
+                >{{ part.hitData[6] }}</td>
                 <td
                   v-bind:class="{ 'hitdata-highlight': part.hitData[7] >= 25 }"
-                >
-                  {{ part.hitData[7] }}
-                </td>
+                >{{ part.hitData[7] }}</td>
               </tr>
             </tbody>
           </table>
@@ -86,10 +60,7 @@
         <div id="divmoves">
           <details open>
             <summary class="header2">對戰要點</summary>
-            <span
-              id="moveoutline"
-              v-html="GetDescriptionText('outline', 'move')"
-            ></span>
+            <span id="moveoutline" v-html="GetDescriptionText('outline', 'move')"></span>
           </details>
           <details open>
             <summary class="header2">招式派生</summary>
@@ -103,26 +74,12 @@
                   }"
                   :key="condition"
                 >
-                  <div
-                    class="combo-condition-text"
-                    v-if="condition != 'normal'"
-                  >
-                    {{ condition }}
-                  </div>
+                  <div class="combo-condition-text" v-if="condition != 'normal'">{{ condition }}</div>
                   <template v-for="item of conditiondata.moves">
-                    <div
-                      class="flexboxrow"
-                      :key="item.name"
-                      v-if="!item.onlyincombo"
-                    >
+                    <div class="flexboxrow" :key="item.name" v-if="!item.onlyincombo">
                       <button class="flexitem" @click="OnClickMove(item)">
                         <div class="movebutton-name">{{ item.name }}</div>
-                        <div
-                          class="movebutton-tag"
-                          v-if="item.recovery == '大'"
-                        >
-                          硬直大
-                        </div>
+                        <div class="movebutton-tag" v-if="item.recovery == '大'">硬直大</div>
                       </button>
                     </div>
                   </template>
@@ -166,9 +123,9 @@ module.exports = {
   },
   props: ["dex", "moves"],
   components: {
-    mon_card: httpVueLoader("mon_card.vue"),
-    mon_moveinfopanel: httpVueLoader("mon_moveinfopanel.vue"),
-    mon_move_combo: httpVueLoader("mon_move_combo.vue"),
+    mon_card: httpVueLoader("components/mon_card.vue"),
+    mon_moveinfopanel: httpVueLoader("components/mon_moveinfopanel.vue"),
+    mon_move_combo: httpVueLoader("components/mon_move_combo.vue"),
   },
   computed: {
     mondata: function () {

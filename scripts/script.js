@@ -20,16 +20,15 @@ function Initialize() {
 
     $("#wrapper").show();
 
-    LoadData(['mhrdex.json', 'mhrmoves.json'], onDexLoaded);
+    LoadData(['data/mhrdex.json', 'data/mhrmoves.json'], onDexLoaded);
 
 }
 function InitRouter() {
     Vue.use(VueRouter);
     const Foo = { template: '<div>foo</div>' }
-    const Bar = httpVueLoader("temp.vue");
-    const SpeciesListComp = httpVueLoader("mon_specieslist.vue");
-    const MonListComp = httpVueLoader("mon_monlist.vue");
-    const MonComp = httpVueLoader("mon_monster.vue");
+    const SpeciesListComp = httpVueLoader("components/mon_specieslist.vue");
+    const MonListComp = httpVueLoader("components/mon_monlist.vue");
+    const MonComp = httpVueLoader("components/mon_monster.vue");
 
     const router = new VueRouter({
         routes: [
@@ -37,12 +36,6 @@ function InitRouter() {
                 name: 'home',
                 path: '/',
                 redirect: { path: '/mon' }
-            },
-            {
-                name: 'test',
-                path: '/test',
-                component: Bar,
-                props: { obj: "DDD" }
             },
             {
                 name: 'monlist',
