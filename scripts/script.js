@@ -5,7 +5,6 @@ function GetData(key) {
 }
 var speciesDictionary = {};
 
-
 $(document).ready(Initialize);
 
 function Initialize() {
@@ -38,7 +37,8 @@ function LoadData(paths, callback) {
 
 
 function onDexLoaded() {
-    let dexData = GetData("dex");
+
+    const dexData = GetData("dex");
 
     speciesDictionary["全部"] = {};
     for (key in dexData) {
@@ -52,10 +52,10 @@ function onDexLoaded() {
         }
     }
 
-    let router = InitRouter();
+    const router = InitRouter();
 
-    let searchParams = new URLSearchParams(location.search);
-    let navMon = searchParams.get('mon');
+    const searchParams = new URLSearchParams(location.search);
+    const navMon = searchParams.get('mon');
     if (dexData.hasOwnProperty(navMon)) {
         router.push({
             path: "/mon/" + dexData[navMon].species + "/" + navMon
@@ -108,14 +108,14 @@ function InitRouter() {
 }
 
 function ParseStars(text) {
-    var value = parseInt(text, 10);
-    var result = "–";
+    const value = parseInt(text, 10);
+    let result = "–";
     if (!isNaN(value)) {
         if (value === 0) {
             result = "x";
         } else if (value > 0) {
             result = "";
-            for (var i = 0; i < value; i++) {
+            for (let i = 0; i < value; i++) {
                 result += "⭐";
             }
         }

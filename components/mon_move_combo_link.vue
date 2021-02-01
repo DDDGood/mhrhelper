@@ -2,13 +2,7 @@
   <div class="flexboxrow">
     <svg>
       <template v-for="(pos, index) in toPositions">
-        <line
-          :key="index"
-          :x1="rootpos.x"
-          :y1="rootpos.y"
-          :x2="pos.x"
-          :y2="pos.y"
-        />
+        <line :key="index" :x1="rootpos.x" :y1="rootpos.y" :x2="pos.x" :y2="pos.y" />
       </template>
     </svg>
     <template v-for="(pos, index) in toPositions">
@@ -16,12 +10,7 @@
     </template>
     <button class="flexitem" ref="root" @click="clickmove(move)">
       <div class="movebutton-name">{{ rootnode.move }}</div>
-      <div
-        class="movebutton-tag"
-        v-if="move == undefined ? false : move.recovery == '大'"
-      >
-        硬直大
-      </div>
+      <div class="movebutton-tag" v-if="move == undefined ? false : move.recovery == '大'">硬直大</div>
     </button>
     <div class="flexboxcolumn">
       <template v-for="(anotherlink, index) in rootnode.links">
@@ -60,6 +49,7 @@ module.exports = {
       return rootnode.move + "_" + link.node;
     },
     clickmove: function (move) {
+      // console.log("clickmove");
       this.$emit("clickmove", move);
     },
     GetLinkTextStyle: function (toPos) {
@@ -111,3 +101,28 @@ module.exports = {
 };
 </script>  
 
+<style scoped>
+/*   SVG   */
+svg {
+  /* border: 2px solid black; */
+  position: absolute;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+  width: 100%;
+  height: 100%;
+  overflow-y: visible;
+  overflow-x: visible;
+}
+
+line {
+  position: absolute;
+  stroke: #c1c3c4;
+  stroke-width: 2;
+}
+
+text {
+  position: absolute;
+  text-anchor: middle;
+}
+</style>

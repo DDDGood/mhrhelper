@@ -27,21 +27,6 @@
     background-color: #4CAF50; /* Green */
     color: white;
   }
-  #topbar {
-    width: 1140px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  .topbarbtn {
-    font-size: 20px;
-    padding-top : 10px;
-    padding-bottom : 10px;
-    padding-left : 10px;
-    padding-right : 10px;
-  }
-  .topbarlink{
-    font-size: 20px;
-  }
 
   #layer0{
     width: 1140px; 
@@ -168,11 +153,6 @@
   }
   
 
-  table {
-    width:100%;
-    margin-left: auto;
-    margin-right: auto;
-  }
 
   .flexboxrow{
     /* padding-top: 10px; 

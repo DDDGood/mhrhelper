@@ -78,42 +78,6 @@ var{
 }
 
 
-#topbar {
-  display:flex;
-  justify-content: flex-start;
-  height:60px;
-}
-#topbar-background{
-  display:flex;
-  position: -webkit-sticky; /* Safari */
-  position: sticky;
-  top: 0; /* Position the navbar at the top of the page */
-  width: stretch; /* Full width */
-  z-index : 1;
-  background-color: #31363D; 
-}
-.topbar-highlight{
-  background-color: #4CAF50 !important; 
-}
-
-.topbarlink{
-  color : white;  
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.topbarbtn {
-  text-decoration: none;
-  font-family: Montserrat;
-  border: none;
-  color: white;
-  background-color: #31363D; 
-  padding-top : 10px;
-  padding-bottom : 10px;
-  padding-left : 10px;
-  padding-right : 10px;
-}
 
 #specieslist{
   display:  grid;
@@ -227,15 +191,6 @@ details[open] > summary:after {
 .panel-text-icon{
   display:inline-block;
 }
-#monimage{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 5%;
-  margin-bottom: 5%;
-  max-width: 80%;
-  max-height: 30vh;
-}
 
 #monicon{
   background-color: #eeeade;
@@ -243,29 +198,6 @@ details[open] > summary:after {
 
 
 
-th{
-  background-color: #BDD5FF;
-}
-
-td{ 
-  text-align: center;
-  background-color: #FFFFFF;
-}
-.hitdata-highlight{
-  background-color: #FFCFCF !important;
-}
-
-table{
-  background-color: #4B9AFF;
-  padding: 2px;
-  border-radius: 2px;
-}
-
-thead,
-tfoot {
-    background-color: #333;
-    color: #fff;
-}
 
 .flexboxrow{
   display:flex; 
@@ -316,44 +248,6 @@ tfoot {
   width:100%;
 }
 
-
-
- /*   SVG   */
-svg{
- /* border: 2px solid black; */
- position: absolute;
- top: 0;
- left: 0;
- pointer-events: none;
- width : 100%;
- height: 100%;
- overflow-y:visible;
- overflow-x:visible;
-}
-
-line{
- position:absolute;
-  stroke:#C1C3C4;
-  stroke-width:2;
-}
-
-text{
- position:absolute;
- text-anchor : middle;
-}
-
-
-
-
-
-.moveinfo{
- position:absolute;
- background-color: #DEDEDE; 
- top: 10%;
- left: 13%;
- width: 70%;
- padding: 2%;
-}
 
 #reference{
 display: grid;

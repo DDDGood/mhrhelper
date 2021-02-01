@@ -3,7 +3,7 @@
     <mon_moveinfopanel ref="movepanel" v-bind:movedata="currentmove"></mon_moveinfopanel>
     <div id="layer2-grid">
       <div class="grid-area-right">
-        <mon_card v-bind:mondata="GetCardData()"></mon_card>
+        <mon_card v-bind:mondata="mondata"></mon_card>
       </div>
       <div class="grid-area-main">
         <details open>
@@ -12,8 +12,8 @@
         </details>
         <details open>
           <summary class="header2">詳細肉質(舊版資訊)</summary>
-          <table id="table_hitdata">
-            <tbody id="tbody_hitdata">
+          <table id="hitdata-table">
+            <tbody id="hitdata_table_tbody">
               <tr class="panel-text-bold">
                 <th>部位</th>
                 <th>狀態</th>
@@ -144,79 +144,6 @@ module.exports = {
     if (this.movedata !== undefined) this.SetMoves();
   },
   methods: {
-    GetCardData: function () {
-      // console.log("trygetcard from ");
-      // console.log(this.mondata);
-      let cardData = {
-        name1: "",
-        icon: "",
-        image: "",
-        trait: {},
-        weakness: { weapon: {}, element: {}, aliment: {} },
-      };
-      if (this.mondata == undefined) return cardData;
-      cardData.name1 = this.mondata.nameTW;
-      cardData.name2 = this.mondata.nameJP;
-      cardData.name3 = this.mondata.nameEN;
-      cardData.species = this.mondata.species;
-      if (IsNullOrEmpty(this.mondata.icon))
-        cardData.icon = "images/icons/monsters/icon_unknown.png";
-      else cardData.icon = this.mondata.icon;
-      if (IsNullOrEmpty(this.mondata.image))
-        cardData.images = "images/icons/monsters/icon_unknown.png";
-      else cardData.image = this.mondata.image;
-      if (!this.mondata.hasOwnProperty("trait"))
-        cardData.trait = {
-          roar: "－",
-          wind: "－",
-          tremer: "－",
-          element: "－",
-          aliment: "－",
-        };
-      else cardData.trait = JSON.parse(JSON.stringify(this.mondata.trait));
-      for (let weakType in this.mondata.weakness) {
-        if (weakType === "weapon") {
-          cardData.weakness.weapon = [];
-          for (let weakPart of this.mondata.weakness.weapon) {
-            cardData.weakness.weapon.push({
-              part: weakPart.part,
-              cut: ParseStars(weakPart.cut),
-              blunt: ParseStars(weakPart.blunt),
-              ammo: ParseStars(weakPart.ammo),
-            });
-          }
-          continue;
-        }
-        let weakData = this.mondata.weakness[weakType];
-        let specialCase = false;
-        let conditionText = "";
-        let values = {};
-        for (let weakState of weakData) {
-          // console.log("-" + weakState);
-          if (weakState.condition === "normal") {
-            for (let dataKey in weakState) {
-              if (dataKey == "condition") continue;
-              values[dataKey] = ParseStars(weakState[dataKey]);
-            }
-          } else {
-            if (specialCase === false) {
-              specialCase = true;
-              conditionText += weakState.condition;
-            } else {
-              conditionText += "、" + weakState.condition;
-            }
-            for (let dataKey in weakState) {
-              values[dataKey] += "<br>(" + ParseStars(weakState[dataKey]) + ")";
-            }
-          }
-        }
-        cardData.weakness[weakType] = {
-          condition: specialCase ? "(" + conditionText + ")" : "",
-          values: values,
-        };
-      }
-      return cardData;
-    },
     GetDescriptionText: function (key, from) {
       let data = from === "move" ? this.movedata : this.mondata;
       if (
@@ -287,18 +214,46 @@ details {
 #layer2-grid {
   display: grid;
 }
+
+table {
+  background-color: #4b9aff;
+  padding: 2px;
+  border-radius: 2px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+th {
+  background-color: #bdd5ff;
+}
+td {
+  text-align: center;
+  background-color: #ffffff;
+}
+.hitdata-highlight {
+  background-color: #ffcfcf !important;
+}
+
+thead,
+tfoot {
+  background-color: #333;
+  color: #fff;
+}
+
 /* mobile */
 @media (max-width: 1199.98px) {
   #layer2-grid {
     grid-template-columns: minmax(0, 1fr);
   }
   /* .grid-area-main {
-  margin: 8px;
+    margin: 8px;
+  }
+  .grid-area-right {
+    margin: 8px;
+  } */
 }
-.grid-area-right {
-  margin: 8px;
-} */
-}
+
 /* desktops */
 @media (min-width: 1200px) {
   #layer2-grid {
