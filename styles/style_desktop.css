@@ -22,6 +22,12 @@
     font-size: 18px;
     font-weight: bold;
   }
+  .layout-main{
+    width: 1140px; 
+    margin-left: auto;
+    margin-right: auto;
+  }
+
 
   button:hover {
     background-color: #4CAF50; /* Green */
@@ -75,7 +81,19 @@
   .text-button-mon-name{
     font-size: 16px;
   }
-
+  
+  .link-list{
+    grid-template-columns: repeat(6, 1fr);
+    /* border : 2px double black; */
+  }
+  .link-icon{
+    width:40px;
+    height:40px;
+    border-radius: 8px;
+  }
+  .link-text{
+    font-size: 16px;
+  }
 
   
   #panel-basicinfo{

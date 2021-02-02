@@ -32,6 +32,10 @@
   }
 
 
+  .layout-main{
+    padding: 12px;
+  }
+  
   #layer0{
     padding: 12px;
     /* padding-left:12px;
@@ -74,6 +78,20 @@
     border-radius: 8px;
   }
   .text-button-mon-name{
+    font-size: 12px;
+  }
+
+  
+  .link-list{
+    grid-template-columns: repeat(4, 1fr);
+    /* border : 2px double black; */
+  }
+  .link-icon{
+    width:40px;
+    height:40px;
+    border-radius: 8px;
+  }
+  .link-text{
     font-size: 12px;
   }
 

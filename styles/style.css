@@ -69,6 +69,10 @@ var{
   user-select: none;
 }
 
+.layout-main{
+  
+}
+
 
 .description-image{
   display: block;
@@ -118,10 +122,27 @@ var{
   background-color: #E5E5E5;
 }
 .image-button-mon-icon{
+}
+.text-button-mon-name{
+  text-decoration: none;
+  text-align: center;
+}
+
+.link-list{
+  display: grid;
+  grid-gap: 12px;
+}
+.link-button{
+  border-radius: 8px;
+  border: none;
+  background-color: #E5E5E5;
+  padding: 8px;
+}
+.link-icon{
   margin-left:auto;
   margin-right:auto;
 }
-.text-button-mon-name{
+.link-text{
   text-decoration: none;
   text-align: center;
 }
