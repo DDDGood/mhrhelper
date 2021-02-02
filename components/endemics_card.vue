@@ -3,7 +3,7 @@
     <div class="flex-column">
       <div class="flex-row interval-y">
         <div class="icon-background rounded interval-x">
-          <img ref="icon" v-bind:src="endemicdata.icon" alt="icon" />
+          <img id="icon" ref="icon" v-bind:src="endemicdata.icon" alt="icon" />
         </div>
         <div class="flex1 flex-center color2 rounded interval-x">
           <div class="text text-large bold">{{endemicdata.nameTW}}</div>
@@ -52,18 +52,16 @@
 module.exports = {
   props: ["endemicdata"],
   mounted: function () {
-    // let image = this.$refs.icon;
-    let icon = this.$refs.icon;
-    icon.src = this.endemicdata.icon;
-    icon.crossOrigin = "Anonymous";
-    icon.style.height = "100%";
-    icon.style.width = "100%";
-    // icon.style.float = "left";
-    icon.onload = function () {
-      //   //  r,   g,   b,   a
-      convertImageColor(icon, "#ff61fc");
-    };
-    // document.body.appendChild(image);
+    // let icon = this.$refs.icon;
+    // icon.src = this.endemicdata.icon;
+    // icon.crossOrigin = "Anonymous";
+    // icon.style.height = "100%";
+    // icon.style.width = "100%";
+    // // icon.style.float = "left";
+    // icon.onload = function () {
+    //   //   //  r,   g,   b,   a
+    //   convertImageColor(icon, "#ff61fc");
+    // };
   }
 }
 </script>
@@ -146,6 +144,10 @@ module.exports = {
   height: 40px;
   width: 40px;
   background-color: #eeeade;
+}
+#icon {
+  width: 100%;
+  height: 100%;
 }
 /* mobile */
 @media (max-width: 1199.98px) {

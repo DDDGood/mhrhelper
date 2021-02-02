@@ -3,6 +3,7 @@
     "紅鬼火鳥": {
       "nameTW": "紅鬼火鳥",
       "type": "持續強化生物",
+      "icon": "images/icons/endemics/紅鬼火鳥.png",
       "image": "images/endemics/紅鬼火鳥.png",
       "video": "videos/endemics/紅鬼火鳥.mp4",
       "attributes": {
@@ -13,7 +14,7 @@
     "橙鬼火鳥": {
       "nameTW": "橙鬼火鳥",
       "type": "持續強化生物",
-      "icon": "",
+      "icon": "images/icons/endemics/橙鬼火鳥.png",
       "image": "images/endemics/橙鬼火鳥.png",
       "video": "videos/endemics/橙鬼火鳥.mp4",
       "attributes": {
@@ -24,7 +25,7 @@
     "綠鬼火鳥": {
       "nameTW": "綠鬼火鳥",
       "type": "持續強化生物",
-      "icon": "",
+      "icon": "images/icons/endemics/綠鬼火鳥.png",
       "image": "images/endemics/綠鬼火鳥.png",
       "video": "videos/endemics/綠鬼火鳥.mp4",
       "attributes": {
@@ -35,7 +36,7 @@
     "黃鬼火鳥": {
       "nameTW": "黃鬼火鳥",
       "type": "持續強化生物",
-      "icon": "",
+      "icon": "images/icons/endemics/黃鬼火鳥.png",
       "image": "images/endemics/黃鬼火鳥.png",
       "video": "videos/endemics/黃鬼火鳥.mp4",
       "attributes": {
@@ -46,7 +47,7 @@
     "劇毒瓦斯蛙": {
       "nameTW": "劇毒瓦斯蛙",
       "type": "獵具生物",
-      "icon": "images/icons/endemics/toad.png",
+      "icon": "images/icons/endemics/劇毒瓦斯蛙.png",
       "image": "images/endemics/劇毒瓦斯蛙.png",
       "video": "videos/endemics/劇毒瓦斯蛙.mp4",
       "attributes": {
@@ -61,6 +62,7 @@
     "炸彈瓦斯蛙": {
       "nameTW": "劇毒瓦斯蛙",
       "type": "獵具生物",
+      "icon": "images/icons/endemics/炸彈瓦斯蛙.png",
       "image": "images/endemics/炸彈瓦斯蛙.png",
       "video": "videos/endemics/炸彈瓦斯蛙.mp4",
       "attributes": {
@@ -74,8 +76,9 @@
       "description": "特徵是身體呈紅色的大型青蛙。\n會鼓起肚子，射出儲存於體內的爆炸瓦斯。\n當瓦斯與空氣混合並達到一定比例時，\n便會產生劇烈反應並引發爆炸。\n其爆炸威力十分巨大，即使是大型魔物，\n一旦受到波及也將必然倒下。"
     },
     "火石甲蟲": {
+      "nameTW": "火石甲蟲",
       "type": "獵具生物",
-      "icon": "",
+      "icon": "images/icons/endemics/火石甲蟲.png",
       "image": "images/endemics/火石甲蟲.png",
       "video": "videos/endemics/火石甲蟲.mp4",
       "attributes": {
@@ -85,8 +88,9 @@
       "description": "能靈活地運用後腳搬運球狀物的小型昆蟲。\n牠所搬運的火石含有火屬性的成分，\n將其撿起並去向目標，\n就能使被擊中的大型魔物陷入火屬性異常狀態。\n由於火石受到包含其中的火屬性成分影響，\n因此會維持一定的熱度，握在手中時能感受到一股暖流，\n但若持續觸碰，便有燙傷的危險，務必加以留意。"
     },
     "泥球甲蟲": {
+      "nameTW": "泥球甲蟲",
       "type": "獵具生物",
-      "icon": "",
+      "icon": "images/icons/endemics/泥球甲蟲.png",
       "image": "images/endemics/泥球甲蟲.png",
       "video": "videos/endemics/泥球甲蟲.mp4",
       "attributes": {
@@ -96,8 +100,9 @@
       "description": "能靈活地運用後腳搬運球狀物的小型昆蟲。\n牠所搬運的泥球含有水屬性的成分，\n將其撿起並去向目標，\n就能使被擊中的大型魔物陷入水屬性異常狀態。\n由於泥球受到包含其中的水屬性成分影響，\n質地就像泥巴子一樣，隨時都保有水分。"
     },
     "雷毛甲蟲": {
+      "nameTW": "雷毛甲蟲",
       "type": "獵具生物",
-      "icon": "",
+      "icon": "images/icons/endemics/雷毛甲蟲.png",
       "image": "images/endemics/雷毛甲蟲.png",
       "video": "videos/endemics/雷毛甲蟲.mp4",
       "attributes": {
@@ -110,8 +115,9 @@
       "description": "能靈活地運用後腳搬運球狀物的小型昆蟲。\n所搬運的土球裡帶有雷屬性魔物的體毛，\n將其撿起並丟向目標，\n就能使被擊中的大型魔物陷入雷屬性異常狀態。\n而他為何只會收集帶有雷屬性毛髮\n加入土球的原因與生態，至今仍是不解之謎。"
     },
     "雪石甲蟲": {
+      "nameTW": "雪石甲蟲",
       "type": "獵具生物",
-      "icon": "",
+      "icon": "images/icons/endemics/雪石甲蟲.png",
       "image": "images/endemics/雪石甲蟲.png",
       "video": "videos/endemics/雪石甲蟲.mp4",
       "attributes": {
@@ -119,6 +125,234 @@
         "特殊效果": "持續時間內怪物動作變遲緩。對憤怒狀態的魔物特別有效，對疲勞狀態的魔物則無效。"
       },
       "description": "能靈活地運用後腳搬運球狀物的小型昆蟲。\n牠所搬運的雪石含有冰屬性的成分，\n將其撿起並去向目標，\n就能使被擊中的大型魔物陷入冰屬性異常狀態。\n由於雪石受到包含其中的冰屬性成分影響，\n觸碰時會頓時覺得涼爽，\n但若持續觸碰，便有凍傷的危險，務必多加留意。"
+    },
+    "臭臭鼬鼠": {
+      "nameTW": "臭臭鼬鼠",
+      "type": "獵具生物",
+      "icon": "images/icons/endemics/臭臭鼬鼠.png",
+      "image": "images/endemics/臭臭鼬鼠.png",
+      "video": "videos/endemics/臭臭鼬鼠.mp4",
+      "attributes": {
+        "持續時間": "",
+        "特殊效果": ""
+      },
+      "description": "擁有雪白色體毛的一種融鼠。\n其極具特徵性的體毛不僅輕盈，還擁有良好的保暖性。\n一旦察覺到危險，牠就會從位於尾巴根部的臭腺，\n噴出有如煙霧般的特殊費洛蒙，\n並用動長滿毛的尾巴使其擴散開來。\n煙霧所含的費洛蒙裡具有把魔物引出來的效果，\n而牠就能趁沾染到費洛蒙的魔物們\n打鬥的時候，逃往安全的場所。"
+    },
+    "落雨蝸牛": {
+      "nameTW": "落雨蝸牛",
+      "type": "獵具生物",
+      "icon": "images/icons/endemics/落雨蝸牛.png",
+      "image": "images/endemics/落雨蝸牛.png",
+      "video": "videos/endemics/落雨蝸牛.mp4",
+      "attributes": {
+        "持續時間": "",
+        "特殊效果": ""
+      },
+      "description": "有著綠色外殼的大型蝸牛。\n體內儲有具回復效果的液體，\n在缺乏食物的時候，會消耗液體來維持身骨體活動。\n若受到外部的刺激，其外殼頂端\n就會噴出霧狀的液體，干擾敵人的視覺。\n只要持續待在這個霧裡深呼吸，\n就能緩緩地治癒身上的傷口。"
+    },
+    "傀儡蜘蛛": {
+      "nameTW": "傀儡蜘蛛",
+      "type": "獵具生物",
+      "icon": "images/icons/endemics/傀儡蜘蛛.png",
+      "image": "images/endemics/傀儡蜘蛛.png",
+      "video": "videos/endemics/傀儡蜘蛛.mp4",
+      "attributes": {
+        "持續時間": "",
+        "特殊效果": ""
+      },
+      "description": "特徵是有著黃色斑紋體毛的蜘蛛。\n會從臀部噴出具有高黏性的蜘蛛絲，\n其黏度極強，即使魔物死命挣扎也無法掙脫。\n在進行捕食或逃離敵人的時候，\n會用蜘蛛絲將其包覆起來，使目標無法動彈。\n遇到比自己體型還大的生物，會用蜘蛛絲纏繞起來，\n限制牠們行動並捕食。由於其姿態看上去\n就像是在操縱玩偶，因此才會被冠上這個名字。"
+    },
+    "子泣雉雞": {
+      "nameTW": "子泣雉雞",
+      "type": "獵具生物",
+      "icon": "images/icons/endemics/子泣雉雞.png",
+      "image": "images/endemics/子泣雉雞.png",
+      "video": "videos/endemics/子泣雉雞.mp4",
+      "attributes": {
+        "持續時間": "",
+        "特殊效果": ""
+      },
+      "description": "一種雉雞，特徵為又大又鼓的紅色鳴袋。\n會發出像小孩的哭泣聲，\n吸引周遭的大型魔物，\n再趁敵人注意力分散時逃走。\n獵人抓到牠之後，可以利用牠的聲音，\n作為將大型魔物吸引過來的手段。\n平常非常溫馴，大多會將自己隱藏起來。\n雖然擁有翅膀，但不太會飛。"
+    },
+    "撒菱蟲": {
+      "nameTW": "撒菱蟲",
+      "type": "獵具生物",
+      "icon": "images/icons/endemics/撒菱蟲.png",
+      "image": "images/endemics/撒菱蟲.png",
+      "video": "videos/endemics/撒菱蟲.mp4",
+      "attributes": {
+        "持續時間": "",
+        "特殊效果": ""
+      },
+      "description": "特徵為頭部有著尖銳突起物的昆蟲。\n經常集體棲息在樹枝上。\n受到衝擊便會把身體縮起來，\n並豎起頭部的突起物防衛自己。\n由於其強度非比尋常，\n踩到牠的魔物甚至會因疼痛而膽怯。\n在狩獵中將其用來當作天然的陷阱撒出去，\n想必能夠創造出反擊或逃跑的一瞬間空檔吧。"
+    },
+    "轆轤蛇": {
+      "nameTW": "轆轤蛇",
+      "type": "獵具生物",
+      "icon": "images/icons/endemics/轆轤蛇.png",
+      "image": "images/endemics/轆轤蛇.png",
+      "video": "videos/endemics/轆轤蛇.mp4",
+      "attributes": {
+        "持續時間": "",
+        "特殊效果": ""
+      },
+      "description": "一種頸部特別發達且巨大的蛇類。\n體內會生成能解百毒的解毒液，獵人喝下去以後，\n就能從狀態異常中恢復，\n並在一定時間內防止陷入異常狀態。\n後背上有個看似人臉的圖案，其作用是負責嚇走外敵。\n看起來也很像是個脖子很長、處於盛怒狀態的人類。\n在其龐大的身軀下，其實個性非常膽小懦弱。"
+    },
+    "加釀兔": {
+      "nameTW": "加釀兔",
+      "type": "獵具生物",
+      "icon": "images/icons/endemics/加釀兔.png",
+      "image": "images/endemics/加釀兔.png",
+      "video": "videos/endemics/加釀兔.mp4",
+      "attributes": {
+        "持續時間": "",
+        "特殊效果": ""
+      },
+      "description": "特徵是擁有圓圓身軀的兔子。\n毛茸茸的體毛看可愛，但其實卻是某種徵菌的菌絲。\n作為讓其住在體表的回報，這種傲菌能夠\n將食物發酵，替寄主補充營養，\n兩者之間發展出了一種特殊的共生關係。\n只要將其擁入懷裡，就能透過徵菌的作用\n提升獵人吃下的道具效果，\n可惜牠不會乖乖待在懷裡，總會頓時跑得不見蹤影。"
+    },
+    "翔蟲": {
+      "nameTW": "翔蟲",
+      "type": "瞬間強化生物",
+      "icon": "images/icons/endemics/翔蟲.png",
+      "image": "images/endemics/翔蟲.png",
+      "video": "videos/endemics/翔蟲.mp4",
+      "attributes": {
+        "持續時間": "",
+        "特殊效果": ""
+      },
+      "description": "棲息在神火村周遭的甲蟲。雌性個體被稱作翔蟲。\n能吐出十分強韌、具有黏性的絲線，並以其纏住築巢材料，\n透過飛行的方式搬運，這種絲也被稱作鏡蟲絲。\n村民和獵人看上牠的特性，自古便一直在訓練翔蟲，\n並將其作為一種移動方法使用。\n雖然受過訓練的翔蟲十分聽話，但野外的蟲\n在被捕捉之後，經過一段時間便會逃走。\n平時以勾玉草的蜜為主食，有時會受香氣吸引聚集而來。"
+    },
+    "回復蜜蟲": {
+      "nameTW": "回復蜜蟲",
+      "type": "瞬間強化生物",
+      "icon": "images/icons/endemics/回復蜜蟲.png",
+      "image": "images/endemics/回復蜜蟲.png",
+      "video": "videos/endemics/回復蜜蟲.mp4",
+      "attributes": {
+        "持續時間": "",
+        "特殊效果": ""
+      },
+      "description": "一種具有將蜜汁儲存於體內為習性的昆蟲。\n其儲存在體內的蜜汁擁有治療受傷部位的效果。\n只須稍微對牠施加衝擊，就會向周圍噴出蜜汁。\n妥善利用的話，將對狩獵有所幫助。"
+    },
+    "一反粉蝶": {
+      "nameTW": "一反粉蝶",
+      "type": "瞬間強化生物",
+      "icon": "images/icons/endemics/一反粉蝶.png",
+      "image": "images/endemics/一反粉蝶.png",
+      "video": "videos/endemics/一反粉蝶.mp4",
+      "attributes": {
+        "持續時間": "",
+        "特殊效果": ""
+      },
+      "description": "特徵是背後有著巨大長翅的蝴蝶。\n由於看起來像是在空中飛舞的\n一塊白布，故因此得名。\n只要施加刺激，就會使牠灌下鱗粉並振翅逃跑。\n由於其鱗粉含有能讓皮膚加速癒合的成分，\n因此只要讓鳞粉附著到身上，\n就能產生不易受傷的效果。"
+    },
+    "火紅焰蝶": {
+      "nameTW": "火紅焰蝶",
+      "type": "瞬間強化生物",
+      "icon": "images/icons/endemics/火紅焰蝶.png",
+      "image": "images/endemics/火紅焰蝶.png",
+      "video": "videos/endemics/火紅焰蝶.mp4",
+      "attributes": {
+        "持續時間": "",
+        "特殊效果": ""
+      },
+      "description": "特徵是身上有著紅色刺狀翅膀的蝴蝶。\n其飛舞的姿態，宛如赤紅的火焰在空中摇曳起舞。\n過去，在人們了解牠們的生態之前，\n還曾被認為是火災或幽靈，因而引起騷動。\n只要受到刺激，就會噴灑鱗粉並逃走。\n吸入該鱗粉的獵人，爆發力將暫時提升，\n並獲得攻擊力增加的效果。"
+    },
+    "百目斑蝶": {
+      "nameTW": "百目斑蝶",
+      "type": "瞬間強化生物",
+      "icon": "images/icons/endemics/百目斑蝶.png",
+      "image": "images/endemics/百目斑蝶.png",
+      "video": "videos/endemics/百目斑蝶.mp4",
+      "attributes": {
+        "持續時間": "",
+        "特殊效果": ""
+      },
+      "description": "特徵是身上有著黃色斑點花紋翅膀的蝴蝶。\n經常群聚飛行，如果聽見有人說:\n「我看到無數顆眼珠漂浮在半空中」，\n你就可以告訴對方他看到的正是這種蝴蝶。\n只要受到刺激，就會噴灑鱗粉並逃走。\n吸入該鱗粉的獵人，肺活量將暫時提升，\n並獲得抑制耐力消耗的效果。"
+    },
+    "網切蜻蜓": {
+      "nameTW": "網切蜻蜓",
+      "type": "瞬間強化生物",
+      "icon": "images/icons/endemics/網切蜻蜓.png",
+      "image": "images/endemics/網切蜻蜓.png",
+      "video": "videos/endemics/網切蜻蜓.mp4",
+      "attributes": {
+        "持續時間": "",
+        "特殊效果": ""
+      },
+      "description": "特徵是擁有紅色銳利尾巴的大型蜻蜓。\n受到刺激後，便會從尾巴噴出特殊的費洛蒙。\n在繁殖期時，會以尾巴四處摩擦，傳播自己的費洛蒙，\n有時更會因此割破漁網，\n導致漁夫誤認成是妖怪所為。\n據說獵人只要吸入這種費洛蒙，\n就能暫時增加專注力，\n變得較容易使出會心攻擊。"
+    },
+    "閃光翅蟲": {
+      "nameTW": "閃光翅蟲",
+      "type": "陷阱生物",
+      "icon": "images/icons/endemics/閃光翅蟲.png",
+      "image": "images/endemics/閃光翅蟲.png",
+      "video": "videos/endemics/閃光翅蟲.mp4",
+      "attributes": {
+        "持續時間": "",
+        "特殊效果": ""
+      },
+      "description": "只要受到刺激，就會發出強烈光芒的翅蟲。\n牠們平時為群聚生活，並且會同時發光，\n產生足以令大型魔物膽怯的強烈光芒。\n發出光芒後，牠們會趁敵人膽怯時，\n飛向四周各自逃逸。等到危機解除，\n就會不知道從哪裡冒出，再次聚集起來。"
+    },
+    "石守蜥蜴": {
+      "nameTW": "石守蜥蜴",
+      "type": "素材生物",
+      "icon": "images/icons/endemics/石守蜥蜴.png",
+      "image": "images/endemics/石守蜥蜴.png",
+      "video": "videos/endemics/石守蜥蜴.mp4",
+      "attributes": {
+        "持續時間": "",
+        "特殊效果": ""
+      },
+      "description": "棲息在各地的小型蜥蜴。\n具有把自己地盤的石頭和礦石黏在背後的習性。 這\n麼做除了可以用來偽裝之外，\n還能在被襲擊的時候，以受到衝擊脫落的\n石頭和礦石引開敵的注意，\n再趁機潛入地底，保護自身的安全。\n如果把掉落的石頭和礦石收集起來，\n對獵人來說會是很有幫助的素材。"
+    },
+    "岩守蜥蜴": {
+      "nameTW": "岩守蜥蜴",
+      "type": "素材生物",
+      "icon": "images/icons/endemics/岩守蜥蜴.png",
+      "image": "images/endemics/岩守蜥蜴.png",
+      "video": "videos/endemics/岩守蜥蜴.mp4",
+      "attributes": {
+        "持續時間": "",
+        "特殊效果": ""
+      },
+      "description": "棲息在各地的小型蜥蜴。\n同種蜥蜴裡，雖然也有會背負石頭和礦石的石守蜥蜴，\n但此種蜥蜴背負的是硬度更高的礦石。\n只有強大的個體能夠找到硬度更高的礁石，\n並將其背負在身上。\n看到這隻蜥蜴的時候，就施加刺激，\n讓牠背上的礦石掉落下來吧。"
+    },
+    "鱗守蜥蜴": {
+      "nameTW": "鱗守蜥蜴",
+      "type": "素材生物",
+      "icon": "images/icons/endemics/鱗守蜥蜴.png",
+      "image": "images/endemics/鱗守蜥蜴.png",
+      "video": "videos/endemics/鱗守蜥蜴.mp4",
+      "attributes": {
+        "持續時間": "",
+        "特殊效果": ""
+      },
+      "description": "棲息在各地的小型蜥蜴。\n同種蜥蜴裡，雖然有背負著石頭和礦石的石守蜥蜴，\n但牠身上背負的不是礦石，而是魔物的鱗片和爪子。\n當魔物正在活動的時候，只有成熟的高等個體，\n才有辦法撿拾魔物掉落在巢穴等處的素材。\n由於棲息數量稀少，且都棲息在平常獵人\n不會經過的地點，因此非常難以發現。\n想必應該有高機率會掉落頗具價值的素材吧"
+    },
+    "大翔蟲": {
+      "nameTW": "大翔蟲",
+      "type": "其他",
+      "icon": "images/icons/endemics/大翔蟲.png",
+      "image": "images/endemics/大翔蟲.png",
+      "video": "videos/endemics/大翔蟲.mp4",
+      "attributes": {
+        "持續時間": "",
+        "特殊效果": ""
+      },
+      "description": "棲息在神火村周遭的甲蟲。由於雄性翔蟲\n龐大的體型及巨大的力量，因而又獲此別名。\n相較於雌性翔盡力氣較大，\n故常被用於長距離移動等方面。\n不過在操作上較為笨重，使用上並不容易。\n此外，和准性相比，雄性翔蟲的數量極為稀少。\n若是將牠抓到勾玉草上，\n牠便會以該地為住處，不會主動離開。"
+    },
+    "金靈瓢蟲": {
+      "nameTW": "金靈瓢蟲",
+      "type": "其他",
+      "icon": "images/icons/endemics/金靈瓢蟲.png",
+      "image": "images/endemics/金靈瓢蟲.png",
+      "video": "videos/endemics/金靈瓢蟲.mp4",
+      "attributes": {
+        "持續時間": "",
+        "特殊效果": ""
+      },
+      "description": "會發出閃亮金色光芒的甲蟲。\n其振翅聲具有讓聽者稍稍舒解疲勞的效果。\n主要食物為喜愛吸食結花環原料一蒼蒼草蜜汁的蟲類，\n故有接近穿戴結花環的人的習性。\n因此那些從狩獵歸來的獵人，\n身上的結花環聚集了許多金靈鄭蟲，也是常見的事。\n以此墓製成的顏料為神火村的特產，且廣受好評。\n若交貨到村裡的公會，他們應該會很高興吧。"
     }
   }
 }
