@@ -12,7 +12,7 @@
         >
           <img
             class="link-icon"
-            v-bind:src="IsNullOrEmpty(item.icon) ? 'images/icons/endemics/unknown.png': item.icon "
+            v-bind:src="IsNullOrEmpty(item.image) ? 'images/icons/endemics/unknown.png': item.image "
           />
           <div class="link-text">{{ key }}</div>
         </router-link>

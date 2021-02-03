@@ -10,7 +10,7 @@
           <span id="description" v-html="ParseDescriptionText(endemicdata.description)"></span>
         </details>
         <details open v-show="!IsNullOrEmpty(endemicdata.video)">
-          <summary class="header2">使用特效</summary>
+          <summary class="header2">使用效果影片</summary>
           <video
             ref="video"
             width="100%"
@@ -21,6 +21,7 @@
             type="video/mp4"
             webkit-playsinline
             playsinline
+            muted
           >
             <source :src="endemicdata.video" />
           </video>
@@ -39,8 +40,8 @@ module.exports = {
     }
   },
   mounted: function () {
-    const video = this.$refs.video;
-    video.load();
+    // const video = this.$refs.video;
+    // video.load();
     // video.play();
   },
   components: {

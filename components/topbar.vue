@@ -1,6 +1,8 @@
 <template>
+  <!-- <div> -->
   <div id="topbar-background">
     <div id="topbar">
+      <!-- <button class="topbarbtn" @click="ToggleSideMenu">三</button> -->
       <router-link
         tag="button"
         class="topbarbtn"
@@ -22,17 +24,28 @@
         :to="'/'+ GetLayerTexts()[0] + '/' + GetLayerTexts()[1] + '/' + GetLayerTexts()[2]"
       >{{ GetLayerTexts().length > 2 ? GetLayerTexts()[2] : "" }}</router-link>
     </div>
+    <!-- <div id="menu" v-show="show">測試中</div> -->
   </div>
+  <!-- </div> -->
 </template>
 <script>
 module.exports = {
+  data: function () {
+    return {
+      show: false,
+    }
+  },
   methods: {
-    GetLayerTexts() {
+    ToggleSideMenu: function () {
+      this.show = !this.show;
+      console.log(this.show);
+    },
+    GetLayerTexts: function () {
       //   console.log(this.$route);
       let decodePath = decodeURI(this.$route.path).substring(1);
       return decodePath.split("/");
     },
-    ToDataTypeText(key) {
+    ToDataTypeText: function (key) {
       switch (key) {
         case "mon":
           return "大型魔物"
@@ -49,14 +62,20 @@ module.exports = {
   display: flex;
   justify-content: flex-start;
   height: 60px;
+  background-color: #31363d;
+  width: stretch; /* Full width */
 }
 #topbar-background {
-  display: flex;
   position: -webkit-sticky; /* Safari */
   position: sticky;
   top: 0; /* Position the navbar at the top of the page */
-  width: stretch; /* Full width */
   z-index: 1;
+}
+#menu {
+  top: 60px; /* Position the navbar at the top of the page */
+  left: 0px;
+  width: 160px;
+  height: 100vh;
   background-color: #31363d;
 }
 .topbar-highlight {

@@ -2,7 +2,7 @@
   <div id="card" class="rounded">
     <div class="flex-column">
       <div class="flex-row interval-y">
-        <div class="icon-background rounded interval-x">
+        <div class="icon-background rounded interval-x flex-center">
           <img id="icon" ref="icon" v-bind:src="endemicdata.icon" alt="icon" />
         </div>
         <div class="flex1 flex-center color2 rounded interval-x">
@@ -29,8 +29,8 @@
               v-for="(value,key) in endemicdata.attributes"
               :key="key"
             >
-              <div class="flex1 color2 rounded-left interval-x text">{{key}}</div>
-              <div class="flex2 color2 rounded-right interval-x text">{{value}}</div>
+              <div class="flex1 color2 rounded-left interval-x text flex-center">{{key}}</div>
+              <div class="flex2 color2 rounded-right interval-x text flex-center">{{value}}</div>
             </div>
           </div>
         </div>
@@ -146,8 +146,8 @@ module.exports = {
   background-color: #eeeade;
 }
 #icon {
-  width: 100%;
-  height: 100%;
+  width: 80%;
+  height: 80%;
 }
 /* mobile */
 @media (max-width: 1199.98px) {
