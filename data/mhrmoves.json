@@ -1333,11 +1333,42 @@
             "moves": [
                 {
                     "name": "吐息",
+                    "condition": "站立姿勢",
+                    "preaction": "",
+                    "action": "",
+                    "recovery": "",
+                    "note": "憤怒時會橫掃。",
+                    "image": "videos/人魚龍/人魚龍_吐息.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "頭橫掃",
+                    "condition": "站立姿勢",
+                    "preaction": "",
+                    "action": "",
+                    "recovery": "大",
+                    "note": "",
+                    "image": "",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "大招睡眠氣體",
+                    "condition": "站立姿勢",
                     "preaction": "",
                     "action": "",
                     "recovery": "",
                     "note": "",
-                    "image": "videos/人魚龍/人魚龍_吐息.mp4",
+                    "image": "",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "鱗片飛鏢",
+                    "condition": "站立姿勢",
+                    "preaction": "",
+                    "action": "",
+                    "recovery": "",
+                    "note": "",
+                    "image": "",
                     "onlyincombo": false
                 },
                 {
@@ -1351,6 +1382,7 @@
                 },
                 {
                     "name": "跳撲",
+                    "condition": "站立姿勢",
                     "preaction": "",
                     "action": "",
                     "recovery": "",
@@ -1360,7 +1392,7 @@
                 },
                 {
                     "name": "蓄力拍",
-                    "condition": "",
+                    "condition": "站立姿勢",
                     "preaction": "",
                     "action": "",
                     "recovery": "",
@@ -1379,7 +1411,7 @@
                 },
                 {
                     "name": "下壓",
-                    "condition": "",
+                    "condition": "站立姿勢",
                     "preaction": "",
                     "action": "",
                     "recovery": "",
@@ -1390,9 +1422,10 @@
                 {
                     "name": "玩手機",
                     "preaction": "",
+                    "condition": "躺滑姿勢",
                     "action": "",
                     "recovery": "",
-                    "note": "",
+                    "note": "貝殼有回復、閃光、爆破三種。",
                     "image": "videos/人魚龍/人魚龍_玩手機.mp4",
                     "onlyincombo": false
                 }
@@ -1640,6 +1673,24 @@
             "outline": "",
             "moves": [
                 {
+                    "name": "衝刺拳",
+                    "preaction": "",
+                    "action": "",
+                    "recovery": "",
+                    "note": "",
+                    "image": "videos/雪鬼獸/雪鬼獸_衝刺拳.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "二連下砸",
+                    "preaction": "",
+                    "action": "",
+                    "recovery": "",
+                    "note": "",
+                    "image": "videos/雪鬼獸/雪鬼獸_二連下砸.mp4",
+                    "onlyincombo": false
+                },
+                {
                     "name": "冰刃下劈",
                     "preaction": "",
                     "action": "",
@@ -1766,6 +1817,15 @@
         "冰牙龍": {
             "outline": "",
             "moves": [
+                {
+                    "name": "飛撲",
+                    "preaction": "",
+                    "action": "",
+                    "recovery": "",
+                    "note": "",
+                    "image": "videos/冰牙龍/冰牙龍_飛撲.mp4",
+                    "onlyincombo": false
+                },
                 {
                     "name": "泰山壓頂",
                     "preaction": "",

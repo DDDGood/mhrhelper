@@ -11,6 +11,7 @@
         </details>
         <details open v-show="!IsNullOrEmpty(endemicdata.video)">
           <summary class="header2">使用效果影片</summary>
+          <span><p class="description-text">影片來自巴哈姆特：<a href="https://forum.gamer.com.tw/C.php?bsn=5786&snA=158908"> 環境生物整理原文<a>，感謝版友馬雲巴巴(jimmerican55)提供影片。</P></span>
           <video
             ref="video"
             width="100%"

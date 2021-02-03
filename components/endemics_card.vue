@@ -87,11 +87,6 @@ module.exports = {
 .color2 {
   background-color: #ffffff;
 }
-.flex-center {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
 .flex1 {
   flex: 1;
 }
