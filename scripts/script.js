@@ -127,9 +127,15 @@ function ParseDescriptionText(inputText) {
     if (IsNullOrEmpty(inputText) === false) {
         const descTexts = inputText.split("\n", -1);
         for (const text of descTexts) {
-            if (text.startsWith("[img]"))
+            let subText = "";
+            if (text.startsWith("[img")) {
+                const tag = text.substring(0, text.indexOf(']'));
+                if (tag.indexOf("text") > -1) {
+                    subText = tag.substring(tag.indexOf("text=") + 5);
+                }
                 result +=
-                    "<img class='description-image' src='" + text.substring(5) + "'>";
+                    "<div class='flex-column description-image-container'><img class='description-image' src='" + text.substring(text.indexOf(']') + 1) + "'><span class='description-image-text'>" + subText + "</span></div>";
+            }
             else
                 result +=
                     "<p class='description-text'>" +

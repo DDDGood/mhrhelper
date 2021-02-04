@@ -71,9 +71,11 @@
           <summary class="header2">設定細節</summary>
           <span id="detail" v-html="GetDescriptionText('detail')"></span>
         </details>
-        <details>
+        <details open>
           <summary class="header2">參考資料</summary>
-          <div id="reference"></div>
+          <div v-for="(link,key) in this.reference" :key="key">
+            <a class="description-text" :href="link">{{key}}</a>
+          </div>
         </details>
       </div>
     </div>
@@ -83,6 +85,7 @@
 module.exports = {
   data: function () {
     return {
+      reference: {}
     };
   },
   props: ["dex", "moves"],
@@ -101,6 +104,12 @@ module.exports = {
   created: function () {
   },
   mounted: function () {
+    for (const key in this.mondata.reference) {
+      this.reference[key] = this.mondata.reference[key];
+    }
+    for (const key in this.movedata.reference) {
+      this.reference[key] = this.movedata.reference[key];
+    }
   },
   methods: {
     GetDescriptionText: function (key, from) {

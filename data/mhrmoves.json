@@ -251,7 +251,7 @@
             "combos": []
         },
         "雌火龍": {
-            "outline": "雌火龍有三種狀態：\n1. 普通狀態。\n2. 憤怒狀態：普通狀態下，雌火龍龍吼後進入憤怒狀態。口中含火是明顯的特徵。火球將會變成三連火球，另外解鎖蓄力火球、三連龍車等新招式，且後空翻後會銜接空中連招。\n4. 疲勞狀態：戰鬥進行一段時間後雌火龍會進入疲勞狀態，流口水是明顯的特徵，不定時會原地發呆，不再起飛且火球會啞火，是進攻的好時機。\n[img]images/contents/rathian_states.jpg\n雌火龍的招式硬直普遍較短，需多利用招式的盲區進行攻擊。\n若是對雌火龍的頭部累積足夠傷害，並當牠在空中時打出頭部硬直會使其墜機，觸發長期間的倒地硬直，最佳的空中打頭時機是使用後空翻之後尚未落地前的期間，但須注意後空翻動作在怒後高機率會連續使用，或者銜接空中龍車。若是空中對腿部打出硬直則會使雌火龍搖晃，但不會墜地。",
+            "outline": "雌火龍有三種狀態：\n1. 普通狀態。\n2. 憤怒狀態：普通狀態下，雌火龍龍吼後進入憤怒狀態。口中含火是明顯的特徵。火球將會變成三連火球，另外解鎖蓄力火球、三連龍車等新招式，且後空翻後會銜接空中連招。\n4. 疲勞狀態：戰鬥進行一段時間後雌火龍會進入疲勞狀態，流口水是明顯的特徵，不定時會原地發呆，不再起飛且火球會啞火，是進攻的好時機。\n[img text=雌火龍的狀態特徵。]images/contents/rathian_states.jpg\n雌火龍的招式硬直普遍較短，需多利用招式的盲區進行攻擊。\n若是對雌火龍的頭部累積足夠傷害，並當牠在空中時打出頭部硬直會使其墜機，觸發長期間的倒地硬直，最佳的空中打頭時機是使用後空翻之後尚未落地前的期間，但須注意後空翻動作在怒後高機率會連續使用，或者銜接空中龍車。若是空中對腿部打出硬直則會使雌火龍搖晃，但不會墜地。",
             "reference": {
                 "MHRise Demo : Rathian Solo with Charge Blade": "https://youtu.be/H7m4VIzN_ZI",
                 "[MH RISE - Demo] Rathian - Charge Blade solo - [8'55] - Day 1": "https://youtu.be/EvrcTI-6lsQ",
@@ -440,7 +440,7 @@
             ]
         },
         "泡狐龍": {
-            "outline": "泡狐龍戰鬥中會甩出很多泡泡，碰到兩次後會讓角色變成打滑狀態，俗稱...皂滑弄人XD。可用消散劑去除。打破泡狐龍散出的紅色泡泡可以加攻擊力，綠色泡泡回血。\n\n泡狐龍有四種狀態，戰鬥中注意狀態轉換有助於判斷他的出招。\n  1. 普通狀態。\n  2. 憤怒狀態：普通狀態下，泡狐龍翻身一跳並龍吼進入憤怒狀態。此時泡狐龍的顏色會變鮮豔，並解鎖一些新招式。\n  3. 泡泡狀態：憤怒狀態下，泡狐龍做出旋轉一圈半後跳回的「洗澡」動作，則會進入泡泡狀態。怒吼後通常會馬上洗澡進入泡泡狀態。對泡狐龍造成一定的傷害後會打出倒地硬直且解除泡泡。如果泡狐龍還在憤怒但沒有泡泡，通常很快會進行洗澡再次進入泡泡狀態。泡泡狀態下泡狐龍的部分招是會附帶飄移。\n  4. 疲勞狀態：戰鬥進行一段時間後泡狐龍會進入疲勞狀態，此時不會使用跳躍連招，且攻擊後常會銜接發呆動作。要注意的是發呆後會無預警龍車，貪刀難躲。龍車一次後就會滑倒。\n[img]images/contents/mizutsune_states.jpg\n\n泡狐龍的連招：\n泡狐龍的連招通常會用跳躍招起手。泡狐龍的跳躍有好幾種，剛開始打可能較難分辨。跳躍後的派生複雜且隨機性高，但若是記得常見的一些派生會很有幫助。",
+            "outline": "泡狐龍戰鬥中會甩出很多泡泡，碰到兩次後會讓角色變成打滑狀態，俗稱...皂滑弄人XD。可用消散劑去除。打破泡狐龍散出的紅色泡泡可以加攻擊力，綠色泡泡回血。\n\n泡狐龍有四種狀態，戰鬥中注意狀態轉換有助於判斷他的出招。\n  1. 普通狀態。\n  2. 憤怒狀態：普通狀態下，泡狐龍翻身一跳並龍吼進入憤怒狀態。此時泡狐龍的顏色會變鮮豔，並解鎖一些新招式。\n  3. 泡泡狀態：憤怒狀態下，泡狐龍做出旋轉一圈半後跳回的「洗澡」動作，則會進入泡泡狀態。怒吼後通常會馬上洗澡進入泡泡狀態。對泡狐龍造成一定的傷害後會打出倒地硬直且解除泡泡。如果泡狐龍還在憤怒但沒有泡泡，通常很快會進行洗澡再次進入泡泡狀態。泡泡狀態下泡狐龍的部分招是會附帶飄移。\n  4. 疲勞狀態：戰鬥進行一段時間後泡狐龍會進入疲勞狀態，此時不會使用跳躍連招，且攻擊後常會銜接發呆動作。要注意的是發呆後會無預警龍車，貪刀難躲。龍車一次後就會滑倒。\n[img text=泡狐龍的狀態特徵。]images/contents/mizutsune_states.jpg\n\n泡狐龍的連招：\n泡狐龍的連招通常會用跳躍招起手。泡狐龍的跳躍有好幾種，剛開始打可能較難分辨。跳躍後的派生複雜且隨機性高，但若是記得常見的一些派生會很有幫助。",
             "moves": [
                 {
                     "name": "龍吼",
@@ -931,85 +931,98 @@
             ]
         },
         "河童蛙": {
-            "outline": "",
+            "outline": "河童蛙主要有兩種型態：普通型態與肥宅型態。肥宅型態下河童蛙會雙腳站立且肚子鼓起，很容易辨認。\n[img text=河童蛙的狀態特徵：普通狀態(左)、肥宅狀態(右)]images/contents/tetranadon_state.png\n普通型態的招式速度較快且硬直較小，可以先遊走蹭刀。可注意前撲、前撲龍車兩招後會高機率出現白給的威嚇動作，是不錯的攻擊機會。\n肥宅狀態下，河童蛙的招式預兆明顯，速度較慢但範圍變大，部分會附帶地震波，防禦或閃避後多半都有不錯的反擊機會。",
+            "reference": {
+                "Monster Hunter Rise New Longsword Vs Tetranadon Gameplay": "https://youtu.be/dQ4J1MjN8HE",
+                "21 Minutes of Monster Hunter Rise Dual Blades Gameplay | TGS 2020": "https://youtu.be/PhxcYiAxbsM"
+            },
             "moves": [
                 {
                     "name": "威嚇",
                     "preaction": "",
-                    "action": "",
+                    "action": "張嘴甩頭的威嚇動作。",
                     "recovery": "",
-                    "note": "",
+                    "note": "見面及部分招式後使用，無吼叫判定。",
                     "image": "videos/河童蛙/河童蛙_威嚇.mp4",
                     "onlyincombo": false
                 },
                 {
                     "name": "前咬",
-                    "preaction": "",
-                    "action": "",
-                    "recovery": "",
+                    "preaction": "張大嘴向後蓄力。",
+                    "action": "快速向前咬。",
+                    "recovery": "小",
                     "note": "",
                     "image": "videos/河童蛙/河童蛙_前咬.mp4",
                     "onlyincombo": false
                 },
                 {
                     "name": "重咬",
-                    "preaction": "",
-                    "action": "",
-                    "recovery": "",
+                    "preaction": "張大嘴側頭蓄力。",
+                    "action": "向前重咬，同時帶一小段位移，",
+                    "recovery": "小",
                     "note": "",
                     "image": "videos/河童蛙/河童蛙_重咬.mp4",
                     "onlyincombo": false
                 },
                 {
                     "name": "二連拍",
-                    "preaction": "",
-                    "action": "",
-                    "recovery": "",
+                    "preaction": "抬起一隻手蓄力",
+                    "action": "連續向前拍擊。",
+                    "recovery": "小",
                     "note": "",
                     "image": "videos/河童蛙/河童蛙_二連拍.mp4",
                     "onlyincombo": false
                 },
                 {
                     "name": "熊抱",
-                    "preaction": "",
-                    "action": "",
-                    "recovery": "",
+                    "preaction": "抬起雙手。",
+                    "action": "快速向前合抱。",
+                    "recovery": "小",
                     "note": "",
                     "image": "videos/河童蛙/河童蛙_熊抱.mp4",
                     "onlyincombo": false
                 },
                 {
                     "name": "前撲",
-                    "preaction": "",
-                    "action": "",
-                    "recovery": "",
-                    "note": "高機率接大後搖的威嚇動作。",
+                    "preaction": "上身抬起，揮舞雙手。",
+                    "action": "向前短距離前撲。",
+                    "recovery": "大",
+                    "note": "高機率接威嚇動作，是攻擊機會。(非必出，還是得小心變招。)",
                     "image": "videos/河童蛙/河童蛙_前撲.mp4",
                     "onlyincombo": false
                 },
                 {
                     "name": "前撲龍車",
-                    "preaction": "",
-                    "action": "",
-                    "recovery": "",
-                    "note": "高機率接大後搖的威嚇動作。",
+                    "preaction": "上身及雙手抬起。",
+                    "action": "向前龍車後撲擊。",
+                    "recovery": "大",
+                    "note": "高機率接威嚇動作，是攻擊機會。(非必出，還是得小心變招。)",
                     "image": "videos/河童蛙/河童蛙_前撲龍車.mp4",
                     "onlyincombo": false
                 },
                 {
-                    "name": "跳",
-                    "preaction": "",
-                    "action": "",
-                    "recovery": "",
+                    "name": "側壓",
+                    "preaction": "身體一側高高抬起。",
+                    "action": "壓向側方目標。",
+                    "recovery": "中",
                     "note": "",
-                    "image": "videos/河童蛙/河童蛙_跳.mp4",
+                    "image": "videos/河童蛙/河童蛙_側壓.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "泰山壓頂",
+                    "preaction": "先向上甩頭後高高跳起。",
+                    "action": "砸向目標位置。",
+                    "recovery": "中",
+                    "note": "",
+                    "image": "videos/河童蛙/河童蛙_泰山壓頂.mp4",
                     "onlyincombo": false
                 },
                 {
                     "name": "吐痰",
-                    "preaction": "",
-                    "action": "",
-                    "recovery": "",
+                    "preaction": "快速後跳一小步。",
+                    "action": "朝目標吐口水。",
+                    "recovery": "小",
                     "note": "",
                     "image": "videos/河童蛙/河童蛙_吐痰.mp4",
                     "onlyincombo": false
@@ -1017,47 +1030,47 @@
                 {
                     "name": "型態轉換",
                     "preaction": "",
-                    "action": "",
+                    "action": "原地吃魚喝水後龍吼。",
                     "recovery": "",
-                    "note": "最後會龍吼",
+                    "note": "進入肥宅狀態。",
                     "image": "videos/河童蛙/河童蛙_型態轉換.mp4",
                     "onlyincombo": false
                 },
                 {
                     "name": "肥宅威嚇",
                     "condition": "肥宅狀態",
-                    "preaction": "",
-                    "action": "",
+                    "preaction": "左右手依序扶地。",
+                    "action": "張嘴甩頭的威嚇動作。",
                     "recovery": "",
-                    "note": "",
+                    "note": "無吼叫判定。",
                     "image": "videos/河童蛙/河童蛙_肥宅威嚇.mp4",
                     "onlyincombo": false
                 },
                 {
-                    "name": "肥宅潑水",
+                    "name": "肥宅潑沙",
                     "condition": "肥宅狀態",
-                    "preaction": "",
-                    "action": "",
-                    "recovery": "",
+                    "preaction": "身體轉向一側。",
+                    "action": "向遠處目標潑沙(水)。",
+                    "recovery": "中",
                     "note": "",
-                    "image": "videos/河童蛙/河童蛙_肥宅潑水.mp4",
+                    "image": "videos/河童蛙/河童蛙_肥宅潑沙.mp4",
                     "onlyincombo": false
                 },
                 {
                     "name": "肥宅吐痰",
                     "condition": "肥宅狀態",
-                    "preaction": "",
-                    "action": "",
-                    "recovery": "",
-                    "note": "",
+                    "preaction": "口中含水氣向後蓄力。",
+                    "action": "向遠處目標吐口水。",
+                    "recovery": "中",
+                    "note": "水球比普通狀態的大顆且飛更遠。",
                     "image": "videos/河童蛙/河童蛙_肥宅吐痰.mp4",
                     "onlyincombo": false
                 },
                 {
                     "name": "肥宅重壓",
                     "condition": "肥宅狀態",
-                    "preaction": "",
-                    "action": "",
+                    "preaction": "俯身蓄力後抬起身。",
+                    "action": "壓向前方目標，並對攻擊方向產生地震波。",
                     "recovery": "大",
                     "note": "",
                     "image": "videos/河童蛙/河童蛙_肥宅重壓.mp4",
@@ -1066,8 +1079,8 @@
                 {
                     "name": "肥宅側壓",
                     "condition": "肥宅狀態",
-                    "preaction": "",
-                    "action": "",
+                    "preaction": "身體一側高高抬起。",
+                    "action": "壓向側方目標，並對攻擊方向產生地震波。",
                     "recovery": "大",
                     "note": "",
                     "image": "videos/河童蛙/河童蛙_肥宅側壓.mp4",
@@ -1076,30 +1089,40 @@
                 {
                     "name": "肥宅狂奔",
                     "condition": "肥宅狀態",
-                    "preaction": "",
-                    "action": "",
+                    "preaction": "抬起身向後蓄力。",
+                    "action": "向目標來回龍車。",
                     "recovery": "大",
                     "note": "",
                     "image": "videos/河童蛙/河童蛙_肥宅狂奔.mp4",
                     "onlyincombo": false
                 },
                 {
-                    "name": "肥宅跳",
+                    "name": "肥宅搬石頭",
                     "condition": "肥宅狀態",
-                    "preaction": "",
-                    "action": "",
+                    "preaction": "掘地挖出大石頭。",
+                    "action": "搬向目標後下砸。",
                     "recovery": "大",
                     "note": "",
-                    "image": "videos/河童蛙/河童蛙_肥宅跳.mp4",
+                    "image": "videos/河童蛙/河童蛙_肥宅搬石頭.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "肥宅泰山壓頂",
+                    "condition": "肥宅狀態",
+                    "preaction": "俯身蓄力後跳起。",
+                    "action": "朝目標方向壓下，並產生地震波。",
+                    "recovery": "大",
+                    "note": "",
+                    "image": "videos/河童蛙/河童蛙_肥宅泰山壓頂.mp4",
                     "onlyincombo": false
                 },
                 {
                     "name": "肥宅捕食",
                     "condition": "肥宅狀態",
-                    "preaction": "",
-                    "action": "",
+                    "preaction": "高高抬起身，明顯的搖晃動作。",
+                    "action": "撲向目標並抓起。",
                     "recovery": "大",
-                    "note": "",
+                    "note": "預兆明顯，應盡量避免被抓到。",
                     "image": "videos/河童蛙/河童蛙_肥宅捕食.mp4",
                     "onlyincombo": false
                 }

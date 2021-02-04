@@ -85,11 +85,21 @@ var{
 .layout-grid-right {
 }
 
+.description-image-container{
+  margin: 16px;
+}
+
 .description-image{
   display: block;
   max-width: 90%;
   margin-left: auto;
   margin-right: auto;
+}
+
+.description-image-text{
+  text-align: center;
+  font-size: 14px;
+  color: rgb(49, 61, 167);
 }
 
 
