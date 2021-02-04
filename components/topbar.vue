@@ -1,8 +1,8 @@
 <template>
   <div id="topbar-root">
     <div id="topbar">
-      <button class="hamburger flex-center" @click="ToggleSideMenu">
-        <img id="hamburger" src="svg/hamburger-menu.svg" alt="My Happy SVG" />
+      <button class="hamburger-button flex-center" @click="ToggleSideMenu">
+        <i class="icon-menu hamburger-icon"></i>
       </button>
       <router-link :to="'/' + GetLayerTexts()[0]" custom v-slot="{ navigate }">
         <button
@@ -11,7 +11,9 @@
           :class="{ 'topbar-highlight': GetLayerTexts().length == 1 }"
         >{{ToDataTypeText( GetLayerTexts()[0])}}</button>
       </router-link>
-      <div class="topbarlink" v-show="GetLayerTexts().length > 1">></div>
+      <div class="topbarlink" v-show="GetLayerTexts().length > 1">
+        <i class="icon-right-dir"></i>
+      </div>
       <router-link
         :to="'/' + GetLayerTexts()[0] + '/' + GetLayerTexts()[1]"
         custom
@@ -24,7 +26,9 @@
           :class="{ 'topbar-highlight': GetLayerTexts().length == 2 }"
         >{{ GetLayerTexts().length > 1 ? GetLayerTexts()[1] : "" }}</button>
       </router-link>
-      <div class="topbarlink" v-show="GetLayerTexts().length > 2">></div>
+      <div class="topbarlink" v-show="GetLayerTexts().length > 2">
+        <i class="icon-right-dir"></i>
+      </div>
       <router-link
         :to="'/'+ GetLayerTexts()[0] + '/' + GetLayerTexts()[1] + '/' + GetLayerTexts()[2]"
         custom
@@ -106,10 +110,6 @@ module.exports = {
   background-color: #31363d;
   width: stretch; /* Full width */
 }
-#hamburger {
-  width: 60%;
-  height: 60%;
-}
 .topbar-highlight {
   background-color: #4caf50 !important;
 }
@@ -130,13 +130,12 @@ module.exports = {
   padding-left: 10px;
   padding-right: 10px;
 }
-.hamburger {
-  /* text-decoration: none;
-  font-family: Montserrat; */
+.hamburger-button {
   border: none;
-  /* color: white; */
-  width: 60px;
   background-color: #31363d;
+}
+.hamburger-icon {
+  color: white;
   font-size: 20px;
 }
 

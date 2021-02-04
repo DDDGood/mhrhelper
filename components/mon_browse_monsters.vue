@@ -1,23 +1,25 @@
 <template>
-  <div id="layer0">
+  <div class="layout-main">
     <div class="header3">列表</div>
-    <div class="monlist">
+    <div class="link-list">
       <router-link
-        tag="button"
-        class="button-mon flex-1"
         v-for="(item, key) in specieslist[$route.params.species]"
         v-bind:key="key"
         v-bind:to="'/mon/' + $route.params.species + '/' + key"
+        custom
+        v-slot="{ navigate }"
       >
-        <img
-          class="image-button-mon-icon"
-          v-bind:src="
+        <button @click="navigate" class="link-button">
+          <img
+            class="link-icon"
+            v-bind:src="
             !item.icon || item.icon.length === 0
               ? 'images/icons/monsters/icon_unknown.png'
               : item.icon
           "
-        />
-        <div class="text-button-mon-name">{{ key }}</div>
+          />
+          <div class="link-text">{{ key }}</div>
+        </button>
       </router-link>
       <router-view></router-view>
     </div>
@@ -28,6 +30,15 @@ module.exports = {
   props: {
     specieslist: {},
   },
-  created: function () {},
+  created: function () { },
 };
 </script>  
+
+<style scoped>
+/* mobile */
+@media (max-width: 1199.98px) {
+}
+/* desktops */
+@media (min-width: 1200px) {
+}
+</style>

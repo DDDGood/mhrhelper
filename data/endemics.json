@@ -3,7 +3,7 @@
     "紅鬼火鳥": {
       "nameTW": "紅鬼火鳥",
       "type": "持續強化生物",
-      "icon": "images/icons/endemics/紅鬼火鳥.png",
+      "icon": "images/endemics/icons/紅鬼火鳥.png",
       "image": "images/endemics/紅鬼火鳥.png",
       "attributes": {
         "屬性強化": "攻擊+2"
@@ -13,7 +13,7 @@
     "橙鬼火鳥": {
       "nameTW": "橙鬼火鳥",
       "type": "持續強化生物",
-      "icon": "images/icons/endemics/橙鬼火鳥.png",
+      "icon": "images/endemics/icons/橙鬼火鳥.png",
       "image": "images/endemics/橙鬼火鳥.png",
       "attributes": {
         "屬性強化": "防禦+2"
@@ -23,7 +23,7 @@
     "綠鬼火鳥": {
       "nameTW": "綠鬼火鳥",
       "type": "持續強化生物",
-      "icon": "images/icons/endemics/綠鬼火鳥.png",
+      "icon": "images/endemics/icons/綠鬼火鳥.png",
       "image": "images/endemics/綠鬼火鳥.png",
       "attributes": {
         "屬性強化": "體力+5"
@@ -33,7 +33,7 @@
     "黃鬼火鳥": {
       "nameTW": "黃鬼火鳥",
       "type": "持續強化生物",
-      "icon": "images/icons/endemics/黃鬼火鳥.png",
+      "icon": "images/endemics/icons/黃鬼火鳥.png",
       "image": "images/endemics/黃鬼火鳥.png",
       "attributes": {
         "屬性強化": "耐力+5"
@@ -43,7 +43,7 @@
     "劇毒瓦斯蛙": {
       "nameTW": "劇毒瓦斯蛙",
       "type": "獵具生物",
-      "icon": "images/icons/endemics/劇毒瓦斯蛙.png",
+      "icon": "images/endemics/icons/劇毒瓦斯蛙.png",
       "image": "images/endemics/劇毒瓦斯蛙.png",
       "video": "videos/endemics/劇毒瓦斯蛙.mp4",
       "attributes": {
@@ -52,14 +52,14 @@
         "效果持續時間": "20s"
       },
       "notes": [
-        "*對玩家也會造成傷害(~25)。"
+        "對玩家也會造成中毒傷害。"
       ],
       "description": "特徵是身體呈紫色的大型青蛙。\n會鼓起肚子，射出儲存於體內的速效劇毒瓦斯。\n其毒性相當猛烈，\n只要身體一接觸到牠的劇毒瓦斯，\n就連大型魔物也會瞬間受到劇毒侵入。"
     },
     "炸彈瓦斯蛙": {
       "nameTW": "炸彈瓦斯蛙",
       "type": "獵具生物",
-      "icon": "images/icons/endemics/炸彈瓦斯蛙.png",
+      "icon": "images/endemics/icons/炸彈瓦斯蛙.png",
       "image": "images/endemics/炸彈瓦斯蛙.png",
       "video": "videos/endemics/炸彈瓦斯蛙.mp4",
       "attributes": {
@@ -68,15 +68,15 @@
         "特殊效果": "魔物觸發後，造成約10秒的倒地狀態。"
       },
       "notes": [
-        "*玩家也會觸發效果。",
-        "*不是必定倒地，但倒地積蓄值極高。"
+        "玩家也會觸發效果。",
+        "不是必定倒地，但倒地積蓄值極高。"
       ],
       "description": "特徵是身體呈紅色的大型青蛙。\n會鼓起肚子，射出儲存於體內的爆炸瓦斯。\n當瓦斯與空氣混合並達到一定比例時，\n便會產生劇烈反應並引發爆炸。\n其爆炸威力十分巨大，即使是大型魔物，\n一旦受到波及也將必然倒下。"
     },
     "火石甲蟲": {
       "nameTW": "火石甲蟲",
       "type": "獵具生物",
-      "icon": "images/icons/endemics/火石甲蟲.png",
+      "icon": "images/endemics/icons/火石甲蟲.png",
       "image": "images/endemics/火石甲蟲.png",
       "video": "videos/endemics/火石甲蟲.mp4",
       "attributes": {
@@ -88,7 +88,7 @@
     "泥球甲蟲": {
       "nameTW": "泥球甲蟲",
       "type": "獵具生物",
-      "icon": "images/icons/endemics/泥球甲蟲.png",
+      "icon": "images/endemics/icons/泥球甲蟲.png",
       "image": "images/endemics/泥球甲蟲.png",
       "video": "videos/endemics/泥球甲蟲.mp4",
       "attributes": {
@@ -96,14 +96,14 @@
         "效果持續時間": "30s"
       },
       "notes": [
-        "*軟化公式為：[不可小於原肉質(原肉質 * 0.63 + 22.2)] + 3"
+        "軟化公式為：[不可小於原肉質(原肉質 * 0.63 + 22.2)] + 3"
       ],
       "description": "能靈活地運用後腳搬運球狀物的小型昆蟲。\n牠所搬運的泥球含有水屬性的成分，\n將其撿起並去向目標，\n就能使被擊中的大型魔物陷入水屬性異常狀態。\n由於泥球受到包含其中的水屬性成分影響，\n質地就像泥巴子一樣，隨時都保有水分。"
     },
     "雷毛甲蟲": {
       "nameTW": "雷毛甲蟲",
       "type": "獵具生物",
-      "icon": "images/icons/endemics/雷毛甲蟲.png",
+      "icon": "images/endemics/icons/雷毛甲蟲.png",
       "image": "images/endemics/雷毛甲蟲.png",
       "video": "videos/endemics/雷毛甲蟲.mp4",
       "attributes": {
@@ -111,14 +111,14 @@
         "效果持續時間": "40s"
       },
       "notes": [
-        "*最後倒地還是得打頭觸發。"
+        "最後倒地還是得打頭觸發。"
       ],
       "description": "能靈活地運用後腳搬運球狀物的小型昆蟲。\n所搬運的土球裡帶有雷屬性魔物的體毛，\n將其撿起並丟向目標，\n就能使被擊中的大型魔物陷入雷屬性異常狀態。\n而他為何只會收集帶有雷屬性毛髮\n加入土球的原因與生態，至今仍是不解之謎。"
     },
     "雪石甲蟲": {
       "nameTW": "雪石甲蟲",
       "type": "獵具生物",
-      "icon": "images/icons/endemics/雪石甲蟲.png",
+      "icon": "images/endemics/icons/雪石甲蟲.png",
       "image": "images/endemics/雪石甲蟲.png",
       "video": "videos/endemics/雪石甲蟲.mp4",
       "attributes": {
@@ -130,7 +130,7 @@
     "臭臭鼬鼠": {
       "nameTW": "臭臭鼬鼠",
       "type": "獵具生物",
-      "icon": "images/icons/endemics/臭臭鼬鼠.png",
+      "icon": "images/endemics/icons/臭臭鼬鼠.png",
       "image": "images/endemics/臭臭鼬鼠.png",
       "video": "videos/endemics/臭臭鼬鼠.mp4",
       "attributes": {
@@ -142,7 +142,7 @@
     "落雨蝸牛": {
       "nameTW": "落雨蝸牛",
       "type": "獵具生物",
-      "icon": "images/icons/endemics/落雨蝸牛.png",
+      "icon": "images/endemics/icons/落雨蝸牛.png",
       "image": "images/endemics/落雨蝸牛.png",
       "video": "videos/endemics/落雨蝸牛.mp4",
       "attributes": {
@@ -154,35 +154,35 @@
     "傀儡蜘蛛": {
       "nameTW": "傀儡蜘蛛",
       "type": "獵具生物",
-      "icon": "images/icons/endemics/傀儡蜘蛛.png",
+      "icon": "images/endemics/icons/傀儡蜘蛛.png",
       "image": "images/endemics/傀儡蜘蛛.png",
       "video": "videos/endemics/傀儡蜘蛛.mp4",
       "attributes": {
         "特殊效果": "使用後對魔物累積大量操龍值，使魔物進入待操龍狀態。"
       },
       "notes": [
-        "*不確定詳細機制，目前試玩版中翔蟲技能與傀儡蜘蛛總共只能觸發一次操龍。（不含地盤爭奪）"
+        "不確定詳細機制，目前試玩版中翔蟲技能與傀儡蜘蛛總共只能觸發一次操龍。（不含地盤爭奪）"
       ],
       "description": "特徵是有著黃色斑紋體毛的蜘蛛。\n會從臀部噴出具有高黏性的蜘蛛絲，\n其黏度極強，即使魔物死命挣扎也無法掙脫。\n在進行捕食或逃離敵人的時候，\n會用蜘蛛絲將其包覆起來，使目標無法動彈。\n遇到比自己體型還大的生物，會用蜘蛛絲纏繞起來，\n限制牠們行動並捕食。由於其姿態看上去\n就像是在操縱玩偶，因此才會被冠上這個名字。"
     },
     "子泣雉雞": {
       "nameTW": "子泣雉雞",
       "type": "獵具生物",
-      "icon": "images/icons/endemics/子泣雉雞.png",
+      "icon": "images/endemics/icons/子泣雉雞.png",
       "image": "images/endemics/子泣雉雞.png",
       "video": "videos/endemics/子泣雉雞.mp4",
       "attributes": {
         "特殊效果": "使用後將一定範圍內的大型魔物吸引到當前位置。"
       },
       "notes": [
-        "*範圍很大，地圖上會出現粉色圈圈的範圍標示。"
+        "範圍很大，地圖上會出現粉色圈圈的範圍標示。"
       ],
       "description": "一種雉雞，特徵為又大又鼓的紅色鳴袋。\n會發出像小孩的哭泣聲，\n吸引周遭的大型魔物，\n再趁敵人注意力分散時逃走。\n獵人抓到牠之後，可以利用牠的聲音，\n作為將大型魔物吸引過來的手段。\n平常非常溫馴，大多會將自己隱藏起來。\n雖然擁有翅膀，但不太會飛。"
     },
     "撒菱蟲": {
       "nameTW": "撒菱蟲",
       "type": "獵具生物",
-      "icon": "images/icons/endemics/撒菱蟲.png",
+      "icon": "images/endemics/icons/撒菱蟲.png",
       "image": "images/endemics/撒菱蟲.png",
       "video": "videos/endemics/撒菱蟲.mp4",
       "attributes": {
@@ -190,15 +190,15 @@
         "特殊效果": "使用後設下陷阱，大型魔物觸發後造成小硬直"
       },
       "notes": [
-        "*能打斷魔物的大部分招式。",
-        "*小怪碰到不會觸發但會扣血。"
+        "能打斷魔物的大部分招式。",
+        "小怪碰到不會觸發但會扣血。"
       ],
       "description": "特徵為頭部有著尖銳突起物的昆蟲。\n經常集體棲息在樹枝上。\n受到衝擊便會把身體縮起來，\n並豎起頭部的突起物防衛自己。\n由於其強度非比尋常，\n踩到牠的魔物甚至會因疼痛而膽怯。\n在狩獵中將其用來當作天然的陷阱撒出去，\n想必能夠創造出反擊或逃跑的一瞬間空檔吧。"
     },
     "轆轤蛇": {
       "nameTW": "轆轤蛇",
       "type": "獵具生物",
-      "icon": "images/icons/endemics/轆轤蛇.png",
+      "icon": "images/endemics/icons/轆轤蛇.png",
       "image": "images/endemics/轆轤蛇.png",
       "video": "videos/endemics/轆轤蛇.mp4",
       "attributes": {
@@ -211,7 +211,7 @@
     "加釀兔": {
       "nameTW": "加釀兔",
       "type": "獵具生物",
-      "icon": "images/icons/endemics/加釀兔.png",
+      "icon": "images/endemics/icons/加釀兔.png",
       "image": "images/endemics/加釀兔.png",
       "video": "videos/endemics/加釀兔.mp4",
       "attributes": {
@@ -222,7 +222,7 @@
     "翔蟲": {
       "nameTW": "翔蟲",
       "type": "瞬間強化生物",
-      "icon": "images/icons/endemics/翔蟲.png",
+      "icon": "images/endemics/icons/翔蟲.png",
       "image": "images/endemics/翔蟲.png",
       "video": "videos/endemics/翔蟲.mp4",
       "attributes": {
@@ -230,14 +230,14 @@
         "效果持續時間": "90s"
       },
       "notes": [
-        "*重複拾取不會增加數量，但可刷新效果持續時間。"
+        "重複拾取不會增加數量，但可刷新效果持續時間。"
       ],
       "description": "棲息在神火村周遭的甲蟲。雌性個體被稱作翔蟲。\n能吐出十分強韌、具有黏性的絲線，並以其纏住築巢材料，\n透過飛行的方式搬運，這種絲也被稱作鏡蟲絲。\n村民和獵人看上牠的特性，自古便一直在訓練翔蟲，\n並將其作為一種移動方法使用。\n雖然受過訓練的翔蟲十分聽話，但野外的蟲\n在被捕捉之後，經過一段時間便會逃走。\n平時以勾玉草的蜜為主食，有時會受香氣吸引聚集而來。"
     },
     "回復蜜蟲": {
       "nameTW": "回復蜜蟲",
       "type": "瞬間強化生物",
-      "icon": "images/icons/endemics/回復蜜蟲.png",
+      "icon": "images/endemics/icons/回復蜜蟲.png",
       "image": "images/endemics/回復蜜蟲.png",
       "video": "videos/endemics/回復蜜蟲.mp4",
       "attributes": {
@@ -248,7 +248,7 @@
     "一反粉蝶": {
       "nameTW": "一反粉蝶",
       "type": "瞬間強化生物",
-      "icon": "images/icons/endemics/一反粉蝶.png",
+      "icon": "images/endemics/icons/一反粉蝶.png",
       "image": "images/endemics/一反粉蝶.png",
       "video": "videos/endemics/一反粉蝶.mp4",
       "attributes": {
@@ -260,7 +260,7 @@
     "火紅焰蝶": {
       "nameTW": "火紅焰蝶",
       "type": "瞬間強化生物",
-      "icon": "images/icons/endemics/火紅焰蝶.png",
+      "icon": "images/endemics/icons/火紅焰蝶.png",
       "image": "images/endemics/火紅焰蝶.png",
       "video": "videos/endemics/火紅焰蝶.mp4",
       "attributes": {
@@ -272,7 +272,7 @@
     "百目斑蝶": {
       "nameTW": "百目斑蝶",
       "type": "瞬間強化生物",
-      "icon": "images/icons/endemics/百目斑蝶.png",
+      "icon": "images/endemics/icons/百目斑蝶.png",
       "image": "images/endemics/百目斑蝶.png",
       "video": "videos/endemics/百目斑蝶.mp4",
       "attributes": {
@@ -284,7 +284,7 @@
     "網切蜻蜓": {
       "nameTW": "網切蜻蜓",
       "type": "瞬間強化生物",
-      "icon": "images/icons/endemics/網切蜻蜓.png",
+      "icon": "images/endemics/icons/網切蜻蜓.png",
       "image": "images/endemics/網切蜻蜓.png",
       "video": "videos/endemics/網切蜻蜓.mp4",
       "attributes": {
@@ -296,7 +296,7 @@
     "閃光翅蟲": {
       "nameTW": "閃光翅蟲",
       "type": "陷阱生物",
-      "icon": "images/icons/endemics/閃光翅蟲.png",
+      "icon": "images/endemics/icons/閃光翅蟲.png",
       "image": "images/endemics/閃光翅蟲.png",
       "video": "videos/endemics/閃光翅蟲.mp4",
       "attributes": {
@@ -307,35 +307,35 @@
     "石守蜥蜴": {
       "nameTW": "石守蜥蜴",
       "type": "素材生物",
-      "icon": "images/icons/endemics/石守蜥蜴.png",
+      "icon": "images/endemics/icons/石守蜥蜴.png",
       "image": "images/endemics/石守蜥蜴.png",
       "video": "videos/endemics/石守蜥蜴.mp4",
       "attributes": {
         "特殊效果": "原地觸發後會隨機掉落礦石材料。"
       },
       "notes": [
-        "*目前測試掉落：大地結晶、鐵礦石、鎧玉"
+        "目前測試掉落：大地結晶、鐵礦石、鎧玉"
       ],
       "description": "棲息在各地的小型蜥蜴。\n具有把自己地盤的石頭和礦石黏在背後的習性。 這\n麼做除了可以用來偽裝之外，\n還能在被襲擊的時候，以受到衝擊脫落的\n石頭和礦石引開敵的注意，\n再趁機潛入地底，保護自身的安全。\n如果把掉落的石頭和礦石收集起來，\n對獵人來說會是很有幫助的素材。"
     },
     "岩守蜥蜴": {
       "nameTW": "岩守蜥蜴",
       "type": "素材生物",
-      "icon": "images/icons/endemics/岩守蜥蜴.png",
+      "icon": "images/endemics/icons/岩守蜥蜴.png",
       "image": "images/endemics/岩守蜥蜴.png",
       "video": "videos/endemics/岩守蜥蜴.mp4",
       "attributes": {
         "特殊效果": "原地觸發後會隨機掉落礦石材料。"
       },
       "notes": [
-        "*目前測試掉落：大地結晶、鐵礦石、鎧玉"
+        "目前測試掉落：大地結晶、鐵礦石、鎧玉"
       ],
       "description": "棲息在各地的小型蜥蜴。\n同種蜥蜴裡，雖然也有會背負石頭和礦石的石守蜥蜴，\n但此種蜥蜴背負的是硬度更高的礦石。\n只有強大的個體能夠找到硬度更高的礁石，\n並將其背負在身上。\n看到這隻蜥蜴的時候，就施加刺激，\n讓牠背上的礦石掉落下來吧。"
     },
     "鱗守蜥蜴": {
       "nameTW": "鱗守蜥蜴",
       "type": "素材生物",
-      "icon": "images/icons/endemics/鱗守蜥蜴.png",
+      "icon": "images/endemics/icons/鱗守蜥蜴.png",
       "image": "images/endemics/鱗守蜥蜴.png",
       "video": "videos/endemics/鱗守蜥蜴.mp4",
       "attributes": {
@@ -346,7 +346,7 @@
     "大翔蟲": {
       "nameTW": "大翔蟲",
       "type": "其他",
-      "icon": "images/icons/endemics/大翔蟲.png",
+      "icon": "images/endemics/icons/大翔蟲.png",
       "image": "images/endemics/大翔蟲.png",
       "video": "videos/endemics/大翔蟲.mp4",
       "attributes": {
@@ -357,7 +357,7 @@
     "金靈瓢蟲": {
       "nameTW": "金靈瓢蟲",
       "type": "其他",
-      "icon": "images/icons/endemics/金靈瓢蟲.png",
+      "icon": "images/endemics/icons/金靈瓢蟲.png",
       "image": "images/endemics/金靈瓢蟲.png",
       "video": "videos/endemics/金靈瓢蟲.mp4",
       "attributes": {

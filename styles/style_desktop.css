@@ -27,6 +27,24 @@
     margin-left: auto;
     margin-right: auto;
   }
+  .layout-grid {
+    grid-template-columns: 2fr 1fr;
+    max-width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .layout-grid-main {
+    /* padding-left:150px; */
+    grid-column-start: 1;
+    grid-row-start: 1;
+    padding-right: 8px;
+    /* margin: 8px; */
+  }
+  .layout-grid-right {
+    grid-column-start: 2;
+    grid-row-start: 1;
+    margin: 8px;
+  }
 
 
   button:hover {
@@ -34,53 +52,9 @@
     color: white;
   }
 
-  #layer0{
-    width: 1140px; 
-    margin-left: auto;
-    margin-right: auto;
-  }
-  #layer1{
-    width: 1140px; 
-    margin-left: auto;
-    margin-right: auto;
-  }
 
 
-  #specieslist{
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 30px;
-  }
-  .btnspecies{
-    
-  }
-  .flex-1{
-    font-size: 18px;
-    height:80px;
-  }
-  .flex-2{
-    font-size: 24px;
-    height:120px;
-    grid-column-start: 1;
-    grid-column-end: 4;
-  }
-  .monlist{
-    grid-template-columns: repeat(6, 1fr);
-    /* border : 2px double black; */
-  }
-  .button-mon{
-    /* width:72px;
-    height:72px; */
-    padding-top: 8px;
-    padding-bottom: 8px;
-  }
-  .image-button-mon-icon{
-    width:40px;
-    height:40px;
-    border-radius: 8px;
-  }
-  .text-button-mon-name{
-    font-size: 16px;
-  }
+
   
   .link-list{
     grid-template-columns: repeat(6, 1fr);
@@ -95,74 +69,7 @@
     font-size: 16px;
   }
 
-  
-  #panel-basicinfo{
-    /* padding:4px; */
-    padding-top:1px;
-    padding-bottom:1px;
-    border-radius : 4px;
-    width: 100%;
-  }
-  
-  .margin{
-    margin: 4px;
-  }
-  #panel-row-title{
-    height: 60px;
-  }
-  #panel-block-monicon{
-    margin-right: 8px;
-    flex:0; 
-    width:56px; 
-    height :56px; 
-    align-items: center; 
-    justify-content:center;
-  }
-  #monicon{
-    display: block;
-    width: 60px;
-    height: 60px;
-    border-radius: 4px;
-  }
-  .panel-block{
-  }
-  .panel-block-1{
-    border-radius : 5px;
-  }
-  .panel-block-2{
-    border-radius : 5px;
-  }
-  .panel-block-1 + .panel-block-1{
-    margin-left: 4px;
-  }
-  .panel-block-2 + .panel-block-2{
-    margin-left: 4px;
-  }
-  .panel-text{
-     font-size: 14px;
-  }
-  .panel-text-small{
-    font-size: 12px;
-  }
-  .panel-text-bold{
-     font-size: 14px;
-  }
-  .panel-text-title{
-     font-size: 22px;
-  }
-  .panel-text-special{
-    position: absolute; 
-    text-align:right;
-     top : 5px;
-     right: 10px;
-     font-size: 10px;
-  }
-  .panel-text-icon{
-    width:14px;
-    height:14px;
-    margin-right:2px;
-  }
-
+ 
 
   .description-text{
     margin:12px;
