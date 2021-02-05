@@ -25,7 +25,10 @@
         <div class="flex1 margin">
           <div class="flex-row interval-y" v-for="(value,key) in endemicdata.attributes" :key="key">
             <div class="flex1 color2 rounded-left interval-x card-text flex-center">{{key}}</div>
-            <div class="flex2 color2 rounded-right interval-x card-text flex-center">{{value}}</div>
+            <div
+              class="flex2 color2 rounded-right interval-x card-text flex-center"
+              :class="{'text-left':value.length>10}"
+            >{{value}}</div>
           </div>
         </div>
       </div>

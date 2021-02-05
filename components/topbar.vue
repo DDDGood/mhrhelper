@@ -108,7 +108,6 @@ module.exports = {
   justify-content: flex-start;
   height: 60px;
   background-color: #31363d;
-  width: stretch; /* Full width */
 }
 .topbar-highlight {
   background-color: #4caf50 !important;
@@ -125,10 +124,11 @@ module.exports = {
   border: none;
   color: white;
   background-color: #31363d;
+  font-size: 20px;
   padding-top: 10px;
   padding-bottom: 10px;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding-left: 4px;
+  padding-right: 4px;
 }
 .hamburger-button {
   border: none;
@@ -166,11 +166,6 @@ module.exports = {
   #topbar {
   }
   .topbarbtn {
-    font-size: 20px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
   }
   .topbarlink {
     font-size: 20px;
@@ -187,11 +182,6 @@ module.exports = {
   #topbar {
   }
   .topbarbtn {
-    font-size: 20px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
   }
   .topbarlink {
     font-size: 20px;

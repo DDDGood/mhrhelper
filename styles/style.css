@@ -85,6 +85,14 @@ var{
 .layout-grid-right {
 }
 
+.description-text-quote{
+font-size: 14px;
+background-color: rgb(253, 239, 214);
+border-radius: 8px;
+margin: 16px;
+padding:10px;
+}
+
 .description-image-container{
   margin: 16px;
 }
@@ -219,8 +227,7 @@ details[open] > summary:after {
   text-align: center;
   font-weight: normal;
   font-family: montserrat;
-  padding-top: 2px;
-  padding-bottom: 2px;
+  padding: 2px;
 }  
 .card-text-icon{
   display: inline-block;
@@ -245,6 +252,9 @@ details[open] > summary:after {
 }
 .text-center{
   text-align:center;
+}
+.text-left{
+  text-align:left!important;
 }
 .text-nowrap{
   white-space:nowrap;
