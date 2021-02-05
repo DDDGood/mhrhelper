@@ -18,7 +18,7 @@
               : item.icon
           "
           />
-          <div class="link-text">{{ key }}</div>
+          <div class="link-text">{{ item.nameTW }}</div>
         </button>
       </router-link>
       <router-view></router-view>

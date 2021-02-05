@@ -95,6 +95,7 @@ module.exports = {
   },
   computed: {
     mondata: function () {
+      console.log(this.dex[this.$route.params.name])
       return this.dex[this.$route.params.name];
     },
     movedata: function () {
@@ -104,12 +105,14 @@ module.exports = {
   created: function () {
   },
   mounted: function () {
-    for (const key in this.mondata.reference) {
-      this.reference[key] = this.mondata.reference[key];
-    }
-    for (const key in this.movedata.reference) {
-      this.reference[key] = this.movedata.reference[key];
-    }
+    if (this.mondata !== undefined && this.mondata.hasOwnProperty("reference"))
+      for (const key in this.mondata.reference) {
+        this.reference[key] = this.mondata.reference[key];
+      }
+    if (this.movedata !== undefined && this.movedata.hasOwnProperty("reference"))
+      for (const key in this.movedata.reference) {
+        this.reference[key] = this.movedata.reference[key];
+      }
   },
   methods: {
     GetDescriptionText: function (key, from) {
@@ -124,6 +127,11 @@ module.exports = {
       } else return "";
     }
   },
+  watch: {
+    dex: function (newVal, oldVal) {
+      console.log("dex changed");
+    }
+  }
 };
 </script>  
 

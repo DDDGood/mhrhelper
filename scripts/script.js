@@ -1,15 +1,28 @@
 
+var vue;
 var data = {};
 function GetData(key) {
     return data[key];
 }
 var speciesDictionary = {};
+var local = "tw";
+function SetLocal(key) {
+    const langData = GetData("localization")[key];
+    if (langData !== undefined) {
+        Object.deepExtend(data, langData);
+        this.data.dex["火龍"] = {};
+    }
+}
+
+function doSomething(ob) {
+    console.log(ob);
+}
 
 $(document).ready(Initialize);
 
 function Initialize() {
     $("#wrapper").show();
-    LoadData(['data/mhrdex.json', 'data/mhrmoves.json', 'data/endemics.json'], onDexLoaded);
+    LoadData(['data/mhrdex.json', 'data/mhrmoves.json', 'data/endemics.json', 'localization/en.json'], onDexLoaded);
 }
 
 function LoadData(paths, callback) {
@@ -61,6 +74,15 @@ function onDexLoaded() {
             path: "/mon/" + dexData[navMon].species + "/" + navMon
         });
     }
+
+    if (data.hasOwnProperty('localization')) {
+        data["localization"]["tw"] = {};
+        for (const key in data) {
+            if (key === "localization")
+                continue;
+            data["localization"]["tw"][key] = JSON.parse(JSON.stringify(data[key]));
+        }
+    }
 }
 
 function InitRouter() {
@@ -111,7 +133,7 @@ function InitRouter() {
             }
         ]
     });
-    new Vue({
+    vue = new Vue({
         el: '#app',
         components: {
             topbar: httpVueLoader("components/topbar.vue")
@@ -170,3 +192,14 @@ function CheckMobile() {
     return (window.innerWidth < 1200);
 }
 
+Object.deepExtend = function (destination, source) {
+    for (var property in source) {
+        if (typeof source[property] === "object" &&
+            source[property] !== null) {
+            destination[property] = destination[property] || {};
+            arguments.callee(destination[property], source[property]);
+        } else {
+            destination[property] = source[property];
+        }
+    }
+};

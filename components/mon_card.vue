@@ -301,6 +301,11 @@ module.exports = {
     },
   },
   props: ["mondata"],
+  watch: {
+    mondata: function () {
+      console.log("mondata changed");
+    }
+  }
 };
 </script>
 
