@@ -78,7 +78,7 @@ function SetMon(key) {
     // if (monObj.hasOwnProperty("trait")) {
     // SetElementById('roar', monObj.trait.roar);
     // SetElementById('wind', monObj.trait.wind);
-    // SetElementById('tremer', monObj.trait.tremer);
+    // SetElementById('tremor', monObj.trait.tremor);
     // SetElementById('element', monObj.trait.element);
     // SetElementById('aliment', monObj.trait.aliment);
     // }

@@ -2,36 +2,42 @@
   <div class="card rounded flex-column">
     <div id="mon-card-title-row" class="flex-row interval-y">
       <div id="mon-card-icon-background" class="rounded interval-x flex-center">
-        <img id="monicon" v-bind:src="carddata.icon" alt="icon" />
+        <img id="monicon" v-bind:src="mondata.icon" alt="icon" />
       </div>
       <div id="nameblock" class="color2 flex2 flex-center rounded interval-x flex-column">
-        <div id="title" class="text-large text-center text-bold">{{ carddata.name1 }}</div>
+        <div id="title" class="text-large text-center text-bold">{{ mondata.nameTW }}</div>
         <div class="flex-row flex-center">
-          <div id="namejp" class="text-center text-small">{{ carddata.name2 }}</div>
-          <div id="nameen" class="text-center text-small">{{ carddata.name3 }}</div>
+          <div id="namejp" class="text-center text-small">{{ mondata.nameEN }}</div>
+          <div id="nameen" class="text-center text-small">{{ mondata.nameJP }}</div>
         </div>
       </div>
       <div class="color2 flex1 flex-center rounded interval-x">
-        <div class="card-text text-bold">{{ carddata.species }}</div>
+        <div class="card-text text-bold">{{ mondata.species }}</div>
       </div>
     </div>
     <div class="flex-row interval-y">
       <div class="flex1 color2 rounded">
-        <img id="monimage" v-bind:src="carddata.image" alt="Image" />
+        <img id="monimage" v-bind:src="mondata.image" alt="Image" />
       </div>
     </div>
-    <div class="flex-row interval-y">
+    <div class="flex-row interval-y" v-if="mondata.hasOwnProperty('trait')">
       <div class="flex1 color1 rounded interval-x">
         <div class="card-text text-bold">咆嘯</div>
-        <div id="roar" class="color2 rounded card-text margin">{{ GetTraitData("roar") }}</div>
+        <div
+          id="roar"
+          class="color2 rounded card-text margin"
+        >{{ IsNullOrEmpty(mondata.trait.roar)? "－":mondata.trait.roar }}</div>
       </div>
       <div class="flex1 color1 rounded interval-x">
         <div class="card-text text-bold">風壓</div>
-        <div id="wind" class="color2 rounded card-text margin">{{ GetTraitData("wind") }}</div>
+        <div
+          id="wind"
+          class="color2 rounded card-text margin"
+        >{{ IsNullOrEmpty(mondata.trait.wind)? "－":mondata.trait.wind }}</div>
       </div>
       <div class="flex1 color1 rounded interval-x">
         <div class="card-text text-bold">震動</div>
-        <div id="tremer" class="color2 rounded card-text margin">{{ GetTraitData("tremer") }}</div>
+        <div id="tremor" class="color2 rounded card-text margin">{{ GetTraitData("tremor") }}</div>
       </div>
     </div>
     <div class="flex-row interval-y">
@@ -193,16 +199,15 @@
 module.exports = {
   data: function () {
     return {
-      carddata: {}
+      // carddata: {}
     }
   },
   created: function () {
-    this.carddata = this.GetCardData();
+    // this.carddata = this.GetCardData();
   },
-  methods: {
-    GetCardData: function () {
-      // console.log("trygetcard from ");
-      // console.log(this.mondata);
+  computed: {
+    carddata: function () {
+      console.log("computed carddata");
       let cardData = {
         name1: "",
         icon: "",
@@ -210,7 +215,10 @@ module.exports = {
         trait: {},
         weakness: { weapon: {}, element: {}, aliment: {} },
       };
-      if (this.mondata == undefined) return this.cardData;
+      if (this.mondata == undefined) {
+        console.log("no mondata");
+        return this.cardData;
+      }
       cardData.name1 = this.mondata.nameTW;
       cardData.name2 = this.mondata.nameJP;
       cardData.name3 = this.mondata.nameEN;
@@ -225,7 +233,7 @@ module.exports = {
         cardData.trait = {
           roar: "－",
           wind: "－",
-          tremer: "－",
+          tremor: "－",
           element: "－",
           aliment: "－",
         };
@@ -272,7 +280,80 @@ module.exports = {
         };
       }
       return cardData;
-    },
+    }
+  },
+  methods: {
+    // GetCardData: function () {
+    //   let cardData = {
+    //     name1: "",
+    //     icon: "",
+    //     image: "",
+    //     trait: {},
+    //     weakness: { weapon: {}, element: {}, aliment: {} },
+    //   };
+    //   if (this.mondata == undefined) return this.cardData;
+    //   cardData.name1 = this.mondata.nameTW;
+    //   cardData.name2 = this.mondata.nameJP;
+    //   cardData.name3 = this.mondata.nameEN;
+    //   cardData.species = this.mondata.species;
+    //   if (IsNullOrEmpty(this.mondata.icon))
+    //     cardData.icon = "images/icons/monsters/icon_unknown.png";
+    //   else cardData.icon = this.mondata.icon;
+    //   if (IsNullOrEmpty(this.mondata.image))
+    //     cardData.images = "images/icons/monsters/icon_unknown.png";
+    //   else cardData.image = this.mondata.image;
+    //   if (!this.mondata.hasOwnProperty("trait"))
+    //     cardData.trait = {
+    //       roar: "－",
+    //       wind: "－",
+    //       tremor: "－",
+    //       element: "－",
+    //       aliment: "－",
+    //     };
+    //   else cardData.trait = JSON.parse(JSON.stringify(this.mondata.trait));
+    //   for (let weakType in this.mondata.weakness) {
+    //     if (weakType === "weapon") {
+    //       cardData.weakness.weapon = [];
+    //       for (let weakPart of this.mondata.weakness.weapon) {
+    //         cardData.weakness.weapon.push({
+    //           part: weakPart.part,
+    //           cut: ParseStars(weakPart.cut),
+    //           blunt: ParseStars(weakPart.blunt),
+    //           ammo: ParseStars(weakPart.ammo),
+    //         });
+    //       }
+    //       continue;
+    //     }
+    //     let weakData = this.mondata.weakness[weakType];
+    //     let specialCase = false;
+    //     let conditionText = "";
+    //     let values = {};
+    //     for (let weakState of weakData) {
+    //       // console.log("-" + weakState);
+    //       if (weakState.condition === "normal") {
+    //         for (let dataKey in weakState) {
+    //           if (dataKey == "condition") continue;
+    //           values[dataKey] = ParseStars(weakState[dataKey]);
+    //         }
+    //       } else {
+    //         if (specialCase === false) {
+    //           specialCase = true;
+    //           conditionText += weakState.condition;
+    //         } else {
+    //           conditionText += "、" + weakState.condition;
+    //         }
+    //         for (let dataKey in weakState) {
+    //           values[dataKey] += "<br>(" + ParseStars(weakState[dataKey]) + ")";
+    //         }
+    //       }
+    //     }
+    //     cardData.weakness[weakType] = {
+    //       condition: specialCase ? "(" + conditionText + ")" : "",
+    //       values: values,
+    //     };
+    //   }
+    //   return cardData;
+    // },
     GetTraitData: function (key) {
       if (
         this.carddata.hasOwnProperty("trait") &&
@@ -284,10 +365,11 @@ module.exports = {
       } else return "－";
     },
     GetWeaknessData(type, index) {
+      console.log(this.carddata.weakness);
       try {
         return this.carddata.weakness[type].values[index];
-      } catch {
-        console.log("failed");
+      } catch (e) {
+        console.log("failed: " + type + "_" + index + "_" + e);
         return "－";
       }
     },
@@ -302,8 +384,11 @@ module.exports = {
   },
   props: ["mondata"],
   watch: {
-    mondata: function () {
-      console.log("mondata changed");
+    mondata: {
+      deep: true,
+      handler: function () {
+        console.log("mondata changed");
+      }
     }
   }
 };

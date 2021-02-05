@@ -1,8 +1,9 @@
 <template>
   <div class="layout-main">
+    <div>{{test.aaa}}</div>
     <div class="layout-grid">
       <div class="layout-grid-right">
-        <mon_card v-bind:mondata="mondata"></mon_card>
+        <mon_card :mondata="mondata"></mon_card>
       </div>
       <div class="layout-grid-main">
         <details open>
@@ -85,19 +86,19 @@
 module.exports = {
   data: function () {
     return {
+      mondata: {},
       reference: {}
     };
   },
-  props: ["dex", "moves"],
+  props: ["dex", "moves", "test"],
   components: {
     mon_card: httpVueLoader("components/mon_card.vue"),
     mon_moves: httpVueLoader("components/mon_moves.vue")
   },
   computed: {
-    mondata: function () {
-      console.log(this.dex[this.$route.params.name])
-      return this.dex[this.$route.params.name];
-    },
+    // mondata: function () {
+    //   return this.dex[this.$route.params.name];
+    // },
     movedata: function () {
       return this.moves[this.$route.params.name];
     },
@@ -105,6 +106,7 @@ module.exports = {
   created: function () {
   },
   mounted: function () {
+    this.mondata = this.dex[this.$route.params.name];
     if (this.mondata !== undefined && this.mondata.hasOwnProperty("reference"))
       for (const key in this.mondata.reference) {
         this.reference[key] = this.mondata.reference[key];
@@ -128,8 +130,18 @@ module.exports = {
     }
   },
   watch: {
-    dex: function (newVal, oldVal) {
-      console.log("dex changed");
+    dex: {
+      deep: true,
+      handler: function (newVal, oldVal) {
+        console.log("dex changed");
+        this.mondata = this.dex[this.$route.params.name];
+      }
+    },
+    test: {
+      deep: true,
+      handler: function (newVal, oldVal) {
+        console.log("test changed");
+      }
     }
   }
 };

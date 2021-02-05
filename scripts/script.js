@@ -6,12 +6,16 @@ function GetData(key) {
 }
 var speciesDictionary = {};
 var local = "tw";
+var testobj = Vue.observable({ aaa: 'aaa' });
 function SetLocal(key) {
     const langData = GetData("localization")[key];
     if (langData !== undefined) {
         Object.deepExtend(data, langData);
         this.data.dex["火龍"] = {};
     }
+    local = key;
+    testobj.aaa = key;
+    console.log(local);
 }
 
 function doSomething(ob) {
@@ -83,6 +87,8 @@ function onDexLoaded() {
             data["localization"]["tw"][key] = JSON.parse(JSON.stringify(data[key]));
         }
     }
+
+    data = Vue.observable(data);
 }
 
 function InitRouter() {
@@ -106,7 +112,8 @@ function InitRouter() {
                 name: 'monlist',
                 path: '/mon',
                 component: SpeciesListComp,
-                props: { specieslist: speciesDictionary }
+                // props: (route) => ({ specieslist: speciesDictionary, test: Vue.observable(testobj) })
+                props: { specieslist: speciesDictionary, test: testobj }
             },
             {
                 path: '/mon/:species',
@@ -117,7 +124,7 @@ function InitRouter() {
                 name: 'mon',
                 path: '/mon/:species/:name',
                 component: MonComp,
-                props: { dex: GetData("dex"), moves: GetData("moves") }
+                props: { dex: GetData("dex"), moves: GetData("moves"), test: testobj }
             },
             {
                 name: 'endemiclist',
