@@ -47,7 +47,7 @@
       "image": "images/endemics/劇毒瓦斯蛙.png",
       "video": "videos/endemics/劇毒瓦斯蛙.mp4",
       "attributes": {
-        "放置持續時間": "6s",
+        "陷阱持續時間": "6s",
         "特殊效果": "魔物觸發後，持續時間內造成中毒傷害，且附加虛弱狀態。",
         "效果持續時間": "20s"
       },
@@ -63,7 +63,7 @@
       "image": "images/endemics/炸彈瓦斯蛙.png",
       "video": "videos/endemics/炸彈瓦斯蛙.mp4",
       "attributes": {
-        "放置持續時間": "6s",
+        "陷阱持續時間": "6s",
         "造成傷害": "140",
         "特殊效果": "魔物觸發後，造成約10秒的倒地狀態。"
       },
@@ -186,7 +186,7 @@
       "image": "images/endemics/撒菱蟲.png",
       "video": "videos/endemics/撒菱蟲.mp4",
       "attributes": {
-        "放置持續時間": "180s",
+        "陷阱持續時間": "180s",
         "特殊效果": "使用後設下陷阱，大型魔物觸發後造成小硬直"
       },
       "notes": [
