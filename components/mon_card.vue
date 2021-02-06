@@ -220,69 +220,11 @@ module.exports = {
   },
   created: function () {
     console.log("created")
-    console.log(this.mondata);
-    // this.carddata = this.GetCardData();
   },
   mounted: function () {
     console.log("mounted")
-    console.log(this.mondata);
-    // this.carddata = this.GetCardData();
   },
   computed: {
-    carddata: function () {
-      console.log("computed carddata");
-      let cardData = {
-        name1: "",
-        icon: "",
-        image: "",
-        trait: {},
-        weakness: { weapon: {}, element: {}, aliment: {} },
-      };
-      if (this.mondata == undefined) {
-        console.log("no mondata");
-        return this.cardData;
-      }
-      cardData.name1 = this.mondata.nameTW;
-      cardData.name2 = this.mondata.nameJP;
-      cardData.name3 = this.mondata.nameEN;
-      cardData.species = this.mondata.species;
-      if (IsNullOrEmpty(this.mondata.icon))
-        cardData.icon = "images/icons/monsters/icon_unknown.png";
-      else cardData.icon = this.mondata.icon;
-      if (IsNullOrEmpty(this.mondata.image))
-        cardData.images = "images/icons/monsters/icon_unknown.png";
-      else cardData.image = this.mondata.image;
-
-      // let weakData = this.mondata.weakness[weakType];
-      // let specialCase = false;
-      // let conditionText = "";
-      // let values = {};
-      // for (let weakState of weakData) {
-      //   // console.log("-" + weakState);
-      //   if (weakState.condition === "normal") {
-      //     for (let dataKey in weakState) {
-      //       if (dataKey == "condition") continue;
-      //       values[dataKey] = ParseStars(weakState[dataKey]);
-      //     }
-      //   } else {
-      //     if (specialCase === false) {
-      //       specialCase = true;
-      //       conditionText += weakState.condition;
-      //     } else {
-      //       conditionText += "、" + weakState.condition;
-      //     }
-      //     for (let dataKey in weakState) {
-      //       values[dataKey] += "<br>(" + ParseStars(weakState[dataKey]) + ")";
-      //     }
-      //   }
-      // }
-      // cardData.weakness[weakType] = {
-      //   condition: specialCase ? "(" + conditionText + ")" : "",
-      //   values: values,
-      // };
-      return cardData;
-
-    },
     weakdata: function () {
       console.log("compute weakdata")
       let weakness = {
@@ -339,114 +281,16 @@ module.exports = {
         return item !== i18n.locale;
       });
       return array[index - 1];
-    },
-    GetCardData: function () {
-      let cardData = {
-        name1: "",
-        icon: "",
-        image: "",
-        trait: {},
-        weakness: {},
-      };
-      if (this.mondata == undefined) return this.cardData;
-      cardData.name1 = this.mondata.nameTW;
-      cardData.name2 = this.mondata.nameJP;
-      cardData.name3 = this.mondata.nameEN;
-      cardData.species = this.mondata.species;
-      if (IsNullOrEmpty(this.mondata.icon))
-        cardData.icon = "images/icons/monsters/icon_unknown.png";
-      else cardData.icon = this.mondata.icon;
-      if (IsNullOrEmpty(this.mondata.image))
-        cardData.images = "images/icons/monsters/icon_unknown.png";
-      else cardData.image = this.mondata.image;
-      if (!this.mondata.hasOwnProperty("trait"))
-        cardData.trait = {
-          roar: "－",
-          wind: "－",
-          tremor: "－",
-          element: "－",
-          aliment: "－",
-        };
-      else cardData.trait = JSON.parse(JSON.stringify(this.mondata.trait));
-      for (let weakType in this.mondata.weakness) {
-        if (weakType === "weapon") {
-          cardData.weakness.weapon = [];
-          for (let weakPart of this.mondata.weakness.weapon) {
-            cardData.weakness.weapon.push({
-              part: weakPart.part,
-              cut: ParseStars(weakPart.cut),
-              blunt: ParseStars(weakPart.blunt),
-              ammo: ParseStars(weakPart.ammo),
-            });
-          }
-          continue;
-        }
-        let weakData = this.mondata.weakness[weakType];
-        let specialCase = false;
-        let conditionText = "";
-        let values = {};
-        for (let weakState of weakData) {
-          // console.log("-" + weakState);
-          if (weakState.condition === "normal") {
-            for (let dataKey in weakState) {
-              if (dataKey == "condition") continue;
-              values[dataKey] = ParseStars(weakState[dataKey]);
-            }
-          } else {
-            if (specialCase === false) {
-              specialCase = true;
-              conditionText += weakState.condition;
-            } else {
-              conditionText += "、" + weakState.condition;
-            }
-            for (let dataKey in weakState) {
-              values[dataKey] += "<br>(" + ParseStars(weakState[dataKey]) + ")";
-            }
-          }
-        }
-        cardData.weakness[weakType] = {
-          condition: specialCase ? "(" + conditionText + ")" : "",
-          values: values,
-        };
-      }
-      return cardData;
-    },
-    GetTraitData: function (key) {
-      if (
-        this.carddata.hasOwnProperty("trait") &&
-        this.carddata.trait.hasOwnProperty(key)
-      ) {
-        return this.carddata.trait[key] == ("" || undefined)
-          ? "－"
-          : this.carddata.trait[key];
-      } else return "－";
-    },
-    GetWeaknessData(type, index) {
-      console.log(this.carddata.weakness);
-      try {
-        return this.carddata.weakness[type].values[index];
-      } catch (e) {
-        console.log("failed: " + type + "_" + index + "_" + e);
-        return "－";
-      }
-    },
-    GetWeaknessCondition(type) {
-      try {
-        return this.carddata.weakness[type].condition;
-      } catch {
-        console.log("failed");
-        return "";
-      }
-    },
+    }
   },
   props: ["mondata"],
   watch: {
     mondata: {
       deep: true,
       handler: function (oldVal, newVal) {
-        console.log(oldVal);
-        console.log("mondata changed");
-        console.log(newVal);
+        // console.log(oldVal);
+        // console.log("mondata changed");
+        // console.log(newVal);
       },
     },
   },

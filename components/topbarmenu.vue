@@ -16,43 +16,6 @@
           <i class="icon-right-dir"></i>
         </div>
       </template>
-      <!-- <router-link :to="'/' + GetLayerTexts(0)" custom v-slot="{ navigate }">
-        <button
-          @click="navigate"
-          class="topbarbtn"
-          :class="{ 'topbar-highlight': layerLength === 1 }"
-        >{{ToDataTypeText( GetLayerTexts(0))}}</button>
-      </router-link>
-      <div class="topbarlink" v-show="layerLength > 1">
-        <i class="icon-right-dir"></i>
-      </div>
-      <router-link
-        :to="'/' + GetLayerTexts(0) + '/' + GetLayerTexts(1)"
-        custom
-        v-slot="{ navigate }"
-        v-show="layerLength>1"
-      >
-        <button
-          @click="navigate"
-          class="topbarbtn"
-          :class="{ 'topbar-highlight': layerLength === 2 }"
-        >{{ layerLength>1 ? GetLayerTexts(1) : "" }}</button>
-      </router-link>
-      <div class="topbarlink" v-show="layerLength > 2">
-        <i class="icon-right-dir"></i>
-      </div>
-      <router-link
-        :to="'/'+ GetLayerTexts(0) + '/' + GetLayerTexts(1) + '/' + GetLayerTexts(2)"
-        custom
-        v-slot="{ navigate }"
-        v-show="layerLength > 2"
-      >
-        <button
-          @click="navigate"
-          class="topbarbtn"
-          :class="{ 'topbar-highlight': layerLength === 3 }"
-        >{{ layerLength > 2 ? GetLayerTexts(2) : "" }}</button>
-      </router-link>-->
     </div>
     <div id="menu" v-show="show">
       <router-link to="/mon" custom v-slot="{ navigate }">
@@ -74,17 +37,10 @@ module.exports = {
   },
   mounted: function () {
   },
-  watch: {
-    $route(to, from) {
-      // this.show = false;
-    }
-  },
   computed: {
     items: function () {
-      console.log("computed topbar items")
       let items = [];
       const pathArr = decodeURI(this.$route.path).substring(1).split("/");
-      console.log(pathArr);
       switch (pathArr[0]) {
         case "mon":
           items.push({ name: this.$t("dataType.largeMonster"), path: "/mon" })
@@ -103,11 +59,7 @@ module.exports = {
           break;
       }
       return items;
-    },
-    layerLength: function () {
-      let decodePath = decodeURI(this.$route.path).substring(1);
-      return decodePath.split("/").length;
-    },
+    }
   },
   methods: {
     ToggleSideMenu: function (event) {
@@ -121,29 +73,6 @@ module.exports = {
         return
       this.show = false;
       document.removeEventListener('click', this.CloseMenu);
-    },
-    GetLayerTexts: function (index) {
-      //   console.log(this.$route);
-      let decodePath = decodeURI(this.$route.path).substring(1);
-      const array = decodePath.split("/");
-      if (index < array.length) {
-        switch (array[0]) {
-          case "mon":
-            break;
-          case "endemics":
-            break;
-        }
-        return array[index];
-      }
-      else return undefined;
-    },
-    ToDataTypeText: function (key) {
-      switch (key) {
-        case "mon":
-          return this.$t("dataType.largeMonster");
-        case "endemics":
-          return this.$t("dataType.endemicLifes");
-      }
     }
   },
 };

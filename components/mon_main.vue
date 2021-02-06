@@ -14,7 +14,7 @@
           <table id="hitdata-table">
             <tbody id="hitdata_table_tbody">
               <tr class="card-text text-bold">
-                <th>部位</th>
+                <th>{{$t('monster.part')}}</th>
                 <th>狀態</th>
                 <th>斬</th>
                 <th>打</th>

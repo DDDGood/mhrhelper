@@ -1,29 +1,30 @@
 
 var vue;
-var i18n;
-var data = {};
+
+var data;
+var dataTW;
 function GetData(key) {
     return data[key];
 }
 var speciesDictionary = {};
 function SetLocal(key) {
-    const langData = GetData("localization")[key];
+    let langData;
+    if (key === "tw")
+        langData = dataTW;
+    else
+        langData = i18n.messages[key]?.data;
     if (langData !== undefined) {
         Object.deepExtend(data, langData);
     }
     i18n.locale = key;
-    console.log(i18n.locale);
 }
 
-function doSomething(ob) {
-    console.log(ob);
-}
 
 $(document).ready(Initialize);
 
 function Initialize() {
     $("#wrapper").show();
-    LoadData(['data/mhrdex.json', 'data/mhrmoves.json', 'data/endemics.json', 'localization/data/en.json'], onDexLoaded);
+    LoadData(['data/mhrdex.json', 'data/mhrmoves.json', 'data/endemics.json'], onDexLoaded);
 }
 
 function LoadData(paths, callback) {
@@ -67,11 +68,7 @@ function onDexLoaded() {
     }
 
     const router = InitRouter();
-    i18n = new VueI18n({
-        locale: 'tw', // 語系可以先指定或之後指定
-        fallbackLocale: 'tw',
-        messages: messages
-    });
+
     vue = new Vue({
         el: '#app',
         data: function () {
@@ -104,17 +101,7 @@ function onDexLoaded() {
     }
 
     data = Vue.observable(data);
-
-    // console.log(data.dex);
-    // let temp = {}
-    // for (let id in data.dex) {
-    //     let mon = data.dex[id];
-    //     let key = mon.name.tw;
-    //     // let key = mon.name.en.trim().replace(" ", "_").toLowerCase();
-    //     let value = mon.name.jp;
-    //     temp[key] = value;
-    // }
-    // console.log(JSON.stringify(temp));
+    dataTW = JSON.parse(JSON.stringify(data));
 }
 
 function InitRouter() {

@@ -1,0 +1,107 @@
+{
+    "en": {
+        "mhrhelper": "MHRHelper",
+        "species": "Species",
+        "list": "List",
+        "description": "Description",
+        "description_details": "Details",
+        "reference": "Reference",
+        "dataType": {
+            "largeMonster": "Large Monster",
+            "endemicLifes": "Endemic Lifes"
+        },
+        "monster": {
+            "name": {
+                "鐮鼬龍王": "Great Izuchi",
+                "青熊獸": "Aoashira",
+                "雌火龍": "Rathian",
+                "泡狐龍": "Mizutsune",
+                "河童蛙": "Tetranadon",
+                "傘鳥": "Aknosom",
+                "人魚龍": "Somnacanth",
+                "奇怪龍": "Khezu",
+                "水獸": "Royal Ludroth",
+                "火龍": "Rathalos",
+                "毒妖鳥": "Pukei-Pukei",
+                "搔鳥": "Kulu-Ya-Ku",
+                "飛雷龍": "Tobi-Kadachi",
+                "蠻顎龍": "Anjanath",
+                "泥魚龍": "Jyuratodus",
+                "毒狗龍王": "Great Wroggi",
+                "天狗獸": "Bishaten",
+                "怨虎龍": "Magnamalo",
+                "雪鬼獸": "Goss Harag",
+                "眠狗龍王": "Great Baggi",
+                "白兔獸": "Lagombi",
+                "冰牙龍": "Barioth",
+                "轟龍": "Tigrex",
+                "土砂龍": "Barroth",
+                "迅龍": "Nargacuga",
+                "赤甲獸": "Volvidon",
+                "岩龍": "Basarios",
+                "雷狼龍": "Zinogre",
+                "絡新婦": "Yatsukadaki"
+            },
+            "species": {
+                "全部": "All",
+                "鳥龍種": "Bird Wyverns",
+                "牙獸種": "Fanged Beasts",
+                "飛龍種": "Flying Wryven",
+                "海龍種": "Leviathans",
+                "兩生種": "Amphibians",
+                "牙龍種": "Fanged Wyverns",
+                "獸龍種": "Brute Wyverns",
+                "魚龍種": "Flying Wyverns",
+                "鋏角種": "Temnocerans"
+            },
+            "trait": {
+                "roar": "roar",
+                "wind": "wind",
+                "tremor": "tremor",
+                "element": "element",
+                "aliment": "aliment"
+            },
+            "weakness": {
+                "cut": "cut",
+                "blunt": "blunt",
+                "ammo": "ammo",
+                "element": "Element Weakness",
+                "aliment": "Aliment Weakness",
+                "item": "Items Effectness",
+                "items": {
+                    "pitfalltrap": "pitfalltrap",
+                    "shocktrap": "shocktrap",
+                    "flashpod": "flashpod",
+                    "screamerpod": "screamerpod"
+                }
+            },
+            "part": "Part",
+            "state": "State",
+            "hitdata": "Hit Data (previous ver.)",
+            "battlestrategy": "Battle Strategy",
+            "moves": "Attack Patterns",
+            "moveshint": "(Click to see informations)"
+        },
+        "element": {
+            "fire": "fire",
+            "water": "water",
+            "thunder": "thunder",
+            "ice": "ice",
+            "dragon": "dragon"
+        },
+        "aliment": {
+            "poison": "poison",
+            "sleep": "sleep",
+            "paralysis": "paralysis",
+            "blast": "blast",
+            "stun": "stun"
+        },
+        "data": {
+            "dex": {
+                "鐮鼬龍王": {
+                    "description": "The alpha Izuchi of its pack, identified by its larger build, upended white fur and scythe-like tail. A Great Izuchi forms a herd of many smaller Izuchi and selects two from the group to accompany it on territory patrols. Once it spots prey or senses danger, the Great Izuchi issues commands to their fellow Izuchi, and coordinates their movements. Take care that you don't get overwhelmed."
+                }
+            }
+        }
+    }
+}
