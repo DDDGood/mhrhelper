@@ -1,21 +1,18 @@
 
 var vue;
+var i18n;
 var data = {};
 function GetData(key) {
     return data[key];
 }
 var speciesDictionary = {};
-var local = "tw";
-var testobj = Vue.observable({ aaa: 'aaa' });
 function SetLocal(key) {
     const langData = GetData("localization")[key];
     if (langData !== undefined) {
         Object.deepExtend(data, langData);
-        this.data.dex["火龍"] = {};
     }
-    local = key;
-    testobj.aaa = key;
-    console.log(local);
+    i18n.locale = key;
+    console.log(i18n.locale);
 }
 
 function doSomething(ob) {
@@ -26,7 +23,7 @@ $(document).ready(Initialize);
 
 function Initialize() {
     $("#wrapper").show();
-    LoadData(['data/mhrdex.json', 'data/mhrmoves.json', 'data/endemics.json', 'localization/en.json'], onDexLoaded);
+    LoadData(['data/mhrdex.json', 'data/mhrmoves.json', 'data/endemics.json', 'localization/data/en.json'], onDexLoaded);
 }
 
 function LoadData(paths, callback) {
@@ -70,6 +67,24 @@ function onDexLoaded() {
     }
 
     const router = InitRouter();
+    i18n = new VueI18n({
+        locale: 'tw', // 語系可以先指定或之後指定
+        fallbackLocale: 'tw',
+        messages: messages
+    });
+    vue = new Vue({
+        el: '#app',
+        data: function () {
+            return {
+                menuitems: [{ "name": "ddd" }]
+            }
+        },
+        components: {
+            topbarmenu: httpVueLoader("components/topbarmenu.vue")
+        },
+        router,
+        i18n
+    })
 
     const searchParams = new URLSearchParams(location.search);
     const navMon = searchParams.get('mon');
@@ -89,6 +104,17 @@ function onDexLoaded() {
     }
 
     data = Vue.observable(data);
+
+    // console.log(data.dex);
+    // let temp = {}
+    // for (let id in data.dex) {
+    //     let mon = data.dex[id];
+    //     let key = mon.name.tw;
+    //     // let key = mon.name.en.trim().replace(" ", "_").toLowerCase();
+    //     let value = mon.name.jp;
+    //     temp[key] = value;
+    // }
+    // console.log(JSON.stringify(temp));
 }
 
 function InitRouter() {
@@ -112,8 +138,7 @@ function InitRouter() {
                 name: 'monlist',
                 path: '/mon',
                 component: SpeciesListComp,
-                // props: (route) => ({ specieslist: speciesDictionary, test: Vue.observable(testobj) })
-                props: { specieslist: speciesDictionary, test: testobj }
+                props: { dex: GetData("dex"), specieslist: speciesDictionary }
             },
             {
                 path: '/mon/:species',
@@ -124,7 +149,7 @@ function InitRouter() {
                 name: 'mon',
                 path: '/mon/:species/:name',
                 component: MonComp,
-                props: { dex: GetData("dex"), moves: GetData("moves"), test: testobj }
+                props: { dex: GetData("dex"), moves: GetData("moves") }
             },
             {
                 name: 'endemiclist',
@@ -140,13 +165,6 @@ function InitRouter() {
             }
         ]
     });
-    vue = new Vue({
-        el: '#app',
-        components: {
-            topbar: httpVueLoader("components/topbar.vue")
-        },
-        router
-    })
     return router;
 }
 

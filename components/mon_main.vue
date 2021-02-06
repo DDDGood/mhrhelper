@@ -1,17 +1,16 @@
 <template>
   <div class="layout-main">
-    <div>{{test.aaa}}</div>
     <div class="layout-grid">
       <div class="layout-grid-right">
         <mon_card :mondata="mondata"></mon_card>
       </div>
       <div class="layout-grid-main">
         <details open>
-          <summary class="header2">基本介紹</summary>
+          <summary class="header2">{{$t('description')}}</summary>
           <span id="description" v-html="GetDescriptionText('description')"></span>
         </details>
         <details open>
-          <summary class="header2">詳細肉質(舊版資訊)</summary>
+          <summary class="header2">{{$t('monster.hitdata')}}</summary>
           <table id="hitdata-table">
             <tbody id="hitdata_table_tbody">
               <tr class="card-text text-bold">
@@ -59,21 +58,21 @@
         </details>
         <div id="divmoves">
           <details open>
-            <summary class="header2">對戰要點</summary>
+            <summary class="header2">{{$t('monster.battlestrategy')}}</summary>
             <span id="moveoutline" v-html="GetDescriptionText('outline', 'move')"></span>
           </details>
           <details open>
-            <summary class="header2">招式派生</summary>
-            <div class="description-text">(點擊可查看招式介紹)</div>
+            <summary class="header2">{{$t('monster.moves')}}</summary>
+            <div class="description-text">{{$t('monster.moveshint')}}</div>
             <mon_moves :monmoves="movedata"></mon_moves>
           </details>
         </div>
         <details>
-          <summary class="header2">設定細節</summary>
+          <summary class="header2">{{$t('description_details')}}</summary>
           <span id="detail" v-html="GetDescriptionText('detail')"></span>
         </details>
         <details open>
-          <summary class="header2">參考資料</summary>
+          <summary class="header2">{{$t('reference')}}</summary>
           <div v-for="(link,key) in this.reference" :key="key">
             <a class="description-text" :href="link">{{key}}</a>
           </div>
@@ -86,19 +85,19 @@
 module.exports = {
   data: function () {
     return {
-      mondata: {},
+      // mondata: {},
       reference: {}
     };
   },
-  props: ["dex", "moves", "test"],
+  props: ["dex", "moves"],
   components: {
     mon_card: httpVueLoader("components/mon_card.vue"),
     mon_moves: httpVueLoader("components/mon_moves.vue")
   },
   computed: {
-    // mondata: function () {
-    //   return this.dex[this.$route.params.name];
-    // },
+    mondata: function () {
+      return this.dex[this.$route.params.name];
+    },
     movedata: function () {
       return this.moves[this.$route.params.name];
     },
@@ -106,7 +105,7 @@ module.exports = {
   created: function () {
   },
   mounted: function () {
-    this.mondata = this.dex[this.$route.params.name];
+    // this.mondata = this.dex[this.$route.params.name];
     if (this.mondata !== undefined && this.mondata.hasOwnProperty("reference"))
       for (const key in this.mondata.reference) {
         this.reference[key] = this.mondata.reference[key];

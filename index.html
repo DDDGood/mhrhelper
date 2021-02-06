@@ -23,22 +23,26 @@
   <script src="https://unpkg.com/http-vue-loader"></script>
   <script src="https://unpkg.com/vue-router/dist/vue-router.js"></script>
   <script src="https://unpkg.com/vue-i18n/dist/vue-i18n.js"></script>
+  <script type="text/javascript" src="localization/website.js"></script>
   <script type="text/javascript" src="scripts/script.js"></script>
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=0">
 </head>
 
 <body>
   <div id="wrapper">
-    <div class="header1" onclick="javascript:location.href='https://dddgood.github.io/mhrhelper/'">MHRise 魔物筆記</div>
     <div id="app">
-      <topbar></topbar>
-      <router-view> </router-view>
+      <div id="header">
+        <div class="header1" onclick="javascript:location.href='https://dddgood.github.io/mhrhelper/'">
+          {{$t('mhrhelper')}}
+        </div>
+        <select id="localization" onchange="SetLocal(this.options[this.options.selectedIndex].value);">
+          <option value="tw">中文</option>
+          <option value="en">English</option>
+        </select>
+      </div>
+      <topbarmenu></topbarmenu>
+      <router-view></router-view>
     </div>
-    <select onchange="if (this.selectedIndex) SetLocal(this.options[this.options.selectedIndex].value);">
-      <option>語言</option>
-      <option value="tw">tw</option>
-      <option value="en">en</option>
-    </select>
   </div>
   <footer>
     <div class="footer-text unselectable">作者信箱：</div>

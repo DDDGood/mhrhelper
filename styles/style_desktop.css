@@ -1,7 +1,11 @@
 
 /* desktops */
 @media (min-width: 1200px) { 
-
+  #header{
+    width: 1140px; 
+    margin-left: auto;
+    margin-right: auto;
+  }
   .header1{
     font-size: 36px;
     padding-top: 12px;

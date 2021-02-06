@@ -1,23 +1,36 @@
 <template>
-  <div class="layout-main">
-    <div class="header3">種類</div>
-    <div id="specieslist">
-      <!-- <router-link tag="button" class="btnspecies flex-2" to="/mon/全部">全部</router-link> -->
-      <router-link
-        tag="button"
-        class="btnspecies"
-        :class="{ 'flex-1': key !== '全部', 'flex-2': key === '全部' }"
-        v-for="(item, key) in specieslist"
-        v-bind:key="key"
-        v-bind:to="'/mon/' + key"
-      >{{ key }}</router-link>
+  <div>
+    <div class="layout-main">
+      <div class="header3">{{$t('species')}}</div>
+      <div id="specieslist">
+        <!-- <router-link tag="button" class="btnspecies flex-2" to="/mon/全部">全部</router-link> -->
+        <router-link
+          tag="button"
+          class="btnspecies"
+          :class="{ 'flex-1': key !== '全部', 'flex-2': key === '全部' }"
+          v-for="(item, key) in specieslist"
+          v-bind:key="key"
+          v-bind:to="'/mon/' + key"
+        >{{ $t('monster.species.'+ key) }}</router-link>
+      </div>
+      <!-- <router-view></router-view> -->
     </div>
-    <!-- <router-view></router-view> -->
   </div>
 </template>
 <script>
 module.exports = {
-  props: ["specieslist"],
+  data: function () {
+    return {
+    }
+  },
+  props: ["specieslist", "dex"],
+  computed: {
+    list: function () {
+
+    }
+  },
+  created: function () {
+  }
 };
 </script>  
 

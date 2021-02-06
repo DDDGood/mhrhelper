@@ -1,6 +1,6 @@
 <template>
   <div class="layout-main">
-    <div class="header3">列表</div>
+    <div class="header3">{{$t('list')}}</div>
     <div class="link-list">
       <router-link
         v-for="(item, key) in specieslist[$route.params.species]"
@@ -18,7 +18,9 @@
               : item.icon
           "
           />
-          <div class="link-text">{{ item.nameTW }}</div>
+          <div
+            class="link-text"
+          >{{ item.name?.hasOwnProperty(i18n.locale)? item.name[i18n.locale]:key }}</div>
         </button>
       </router-link>
       <router-view></router-view>

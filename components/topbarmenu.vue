@@ -4,7 +4,19 @@
       <button class="hamburger-button flex-center" @click="ToggleSideMenu">
         <i class="icon-menu hamburger-icon"></i>
       </button>
-      <router-link :to="'/' + GetLayerTexts(0)" custom v-slot="{ navigate }">
+      <template v-for="(nav,id) in items">
+        <router-link :key="id" :to="nav.path" custom v-slot="{ navigate }">
+          <button
+            @click="navigate"
+            class="topbarbtn"
+            :class="{ 'topbar-highlight': id == items.length-1 }"
+          >{{nav.name}}</button>
+        </router-link>
+        <div :key="id" class="topbarlink" v-if="id<items.length-1">
+          <i class="icon-right-dir"></i>
+        </div>
+      </template>
+      <!-- <router-link :to="'/' + GetLayerTexts(0)" custom v-slot="{ navigate }">
         <button
           @click="navigate"
           class="topbarbtn"
@@ -40,7 +52,7 @@
           class="topbarbtn"
           :class="{ 'topbar-highlight': layerLength === 3 }"
         >{{ layerLength > 2 ? GetLayerTexts(2) : "" }}</button>
-      </router-link>
+      </router-link>-->
     </div>
     <div id="menu" v-show="show">
       <router-link to="/mon" custom v-slot="{ navigate }">
@@ -60,12 +72,38 @@ module.exports = {
       menuDOM: {}
     }
   },
+  mounted: function () {
+  },
   watch: {
     $route(to, from) {
       // this.show = false;
     }
   },
   computed: {
+    items: function () {
+      console.log("computed topbar items")
+      let items = [];
+      const pathArr = decodeURI(this.$route.path).substring(1).split("/");
+      console.log(pathArr);
+      switch (pathArr[0]) {
+        case "mon":
+          items.push({ name: this.$t("dataType.largeMonster"), path: "/mon" })
+          if (pathArr[1] !== undefined)
+            items.push({ name: this.$t("monster.species." + pathArr[1]), path: "/mon/" + pathArr[1] })
+          if (pathArr[2] !== undefined)
+            items.push({ name: this.$t("monster.name." + pathArr[2]), path: "/mon/" + pathArr[2] })
+          break;
+        case "endemics":
+          items.push({ name: this.$t("dataType.endemicLifes"), path: "/endemics" })
+          if (pathArr[1] !== undefined)
+            items.push({ name: pathArr[1], path: "/endemics/" + pathArr[1] })
+          break;
+        default:
+          items.push({ name: "??", path: "/mon" })
+          break;
+      }
+      return items;
+    },
     layerLength: function () {
       let decodePath = decodeURI(this.$route.path).substring(1);
       return decodePath.split("/").length;

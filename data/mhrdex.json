@@ -1,9 +1,14 @@
 {
   "dex": {
     "鐮鼬龍王": {
-      "nameTW": "鐮鼬龍王",
-      "nameJP": "オサイズチ",
-      "nameEN": "Great Izuchi",
+      "name": {
+        "tw": "鐮鼬龍王",
+        "jp": "オサイズチ",
+        "en": "Great Izuchi"
+      },
+      "tw": "鐮鼬龍王",
+      "jp": "オサイズチ",
+      "en": "Great Izuchi",
       "species": "鳥龍種",
       "image": "https://www.monsterhunter.com/rise/assets/images/monster/modal/great-izuchi.png",
       "icon": "images/icons/monsters/large/icon_greatizuchi.png",
@@ -75,9 +80,11 @@
       ]
     },
     "青熊獸": {
-      "nameTW": "青熊獸",
-      "nameJP": "アオアシラ",
-      "nameEN": "Aoashira",
+      "name": {
+        "tw": "青熊獸",
+        "jp": "アオアシラ",
+        "en": "Aoashira"
+      },
       "species": "牙獸種",
       "image": "http://hobbigame.com/wp-content/uploads/2017/08/mhxx34.png",
       "icon": "images/icons/monsters/large/icon_aoashira.png",
@@ -226,9 +233,11 @@
       ]
     },
     "雌火龍": {
-      "nameTW": "雌火龍",
-      "nameJP": "リオレイア",
-      "nameEN": "Rathian",
+      "name": {
+        "tw": "雌火龍",
+        "jp": "リオレイア",
+        "en": "Rathian"
+      },
       "species": "飛龍種",
       "image": "http://hobbigame.com/wp-content/uploads/2017/10/mhxx93.png",
       "icon": "images/icons/monsters/large/icon_rathian.png",
@@ -409,9 +418,11 @@
       ]
     },
     "泡狐龍": {
-      "nameTW": "泡狐龍",
-      "nameJP": "タマミツネ",
-      "nameEN": "Mizutsune",
+      "name": {
+        "tw": "泡狐龍",
+        "jp": "タマミツネ",
+        "en": "Mizutsune"
+      },
       "species": "海龍種",
       "image": "https://www.monsterhunter.com/rise/assets/images/monster/modal/mizutsune.png",
       "icon": "images/icons/monsters/large/icon_mizutsune.png",
@@ -586,9 +597,11 @@
       ]
     },
     "河童蛙": {
-      "nameTW": "河童蛙",
-      "nameJP": "ヨツミワドウ",
-      "nameEN": "Tetranadon",
+      "name": {
+        "tw": "河童蛙",
+        "jp": "ヨツミワドウ",
+        "en": "Tetranadon"
+      },
       "species": "兩生種",
       "image": "https://www.monsterhunter.com/rise/assets/images/monster/modal/tetranadon.png",
       "icon": "images/icons/monsters/large/icon_tetranadon.png",
@@ -660,9 +673,11 @@
       ]
     },
     "傘鳥": {
-      "nameTW": "傘鳥",
-      "nameJP": "アケノシルム",
-      "nameEN": "Aknosom",
+      "name": {
+        "tw": "傘鳥",
+        "jp": "アケノシルム",
+        "en": "Aknosom"
+      },
       "species": "鳥龍種",
       "image": "https://www.monsterhunter.com/rise/assets/images/monster/modal/aknosom.png",
       "icon": "images/icons/monsters/large/icon_aknosom.png",
@@ -734,9 +749,11 @@
       ]
     },
     "人魚龍": {
-      "nameTW": "人魚龍",
-      "nameJP": "イソネミクニ",
-      "nameEN": "Somnacanth",
+      "name": {
+        "tw": "人魚龍",
+        "jp": "イソネミクニ",
+        "en": "Somnacanth"
+      },
       "species": "海龍種",
       "image": "https://www.monsterhunter.com/rise/assets/images/monster/modal/somnacanth.png",
       "icon": "images/icons/monsters/large/icon_somnacanth.png",
@@ -808,9 +825,11 @@
       ]
     },
     "奇怪龍": {
-      "nameTW": "奇怪龍",
-      "nameJP": "フルフル",
-      "nameEN": "Khezu",
+      "name": {
+        "tw": "奇怪龍",
+        "jp": "フルフル",
+        "en": "Khezu"
+      },
       "species": "飛龍種",
       "image": "https://www.monsterhunter.com/rise/assets/images/monster/modal/khezu.png",
       "icon": "images/icons/monsters/large/icon_khezu.png",
@@ -963,9 +982,11 @@
       ]
     },
     "水獸": {
-      "nameTW": "水獸",
-      "nameJP": "ロアルドロス",
-      "nameEN": "Royal Ludroth",
+      "name": {
+        "tw": "水獸",
+        "jp": "ロアルドロス",
+        "en": "Royal Ludroth"
+      },
       "species": "海龍種",
       "image": "https://www.monsterhunter.com/rise/assets/images/monster/modal/royal-ludroth.png",
       "icon": "",
@@ -1134,9 +1155,11 @@
       ]
     },
     "火龍": {
-      "nameTW": "火龍",
-      "nameJP": "リオレウス",
-      "nameEN": "Rathalos",
+      "name": {
+        "tw": "火龍",
+        "jp": "リオレウス",
+        "en": "Rathalos"
+      },
       "species": "飛龍種",
       "image": "https://www.monsterhunter.com/rise/assets/images/monster/modal/rathalos.png",
       "icon": "images/icons/monsters/large/icon_rathalos.png",
@@ -1317,9 +1340,11 @@
       ]
     },
     "毒妖鳥": {
-      "nameTW": "毒妖鳥",
-      "nameJP": "プケプケ",
-      "nameEN": "Pukei-Pukei",
+      "name": {
+        "tw": "毒妖鳥",
+        "jp": "プケプケ",
+        "en": "Pukei-Pukei"
+      },
       "species": "鳥龍種",
       "image": "https://oyster.ignimgs.com/mediawiki/apis.ign.com/monster-hunter-world/6/6a/MHW-Pukei-Pukei_Render_001_copy.jpg",
       "icon": "",
@@ -1500,9 +1525,11 @@
       ]
     },
     "搔鳥": {
-      "nameTW": "搔鳥",
-      "nameJP": "クルルヤック",
-      "nameEN": "Kulu-Ya-Ku",
+      "name": {
+        "tw": "搔鳥",
+        "jp": "クルルヤック",
+        "en": "Kulu-Ya-Ku"
+      },
       "species": "鳥龍種",
       "image": "https://oyster.ignimgs.com/mediawiki/apis.ign.com/monster-hunter-world/c/c1/Kulu.jpg",
       "icon": "",
@@ -1623,9 +1650,11 @@
       ]
     },
     "飛雷龍": {
-      "nameTW": "飛雷龍",
-      "nameJP": "トビカガチ",
-      "nameEN": "Tobi-Kadachi",
+      "name": {
+        "tw": "飛雷龍",
+        "jp": "トビカガチ",
+        "en": "Tobi-Kadachi"
+      },
       "species": "牙龍種",
       "image": "https://oyster.ignimgs.com/mediawiki/apis.ign.com/monster-hunter-world/4/43/MHW-Tobi-Kadachi_Render_001_copy.jpg",
       "icon": "",
@@ -1800,9 +1829,11 @@
       ]
     },
     "蠻顎龍": {
-      "nameTW": "蠻顎龍",
-      "nameJP": "アンジャナフ",
-      "nameEN": "Anjanath",
+      "name": {
+        "tw": "蠻顎龍",
+        "jp": "アンジャナフ",
+        "en": "Anjanath"
+      },
       "species": "獸龍種",
       "image": "https://oyster.ignimgs.com/mediawiki/apis.ign.com/monster-hunter-world/8/8c/MHW-Anjanath_Render_001_copy.jpg",
       "icon": "",
@@ -1993,9 +2024,11 @@
       ]
     },
     "泥魚龍": {
-      "nameTW": "泥魚龍",
-      "nameJP": "ジュラトドス",
-      "nameEN": "Jyuratodus",
+      "name": {
+        "tw": "泥魚龍",
+        "jp": "ジュラトドス",
+        "en": "Jyuratodus"
+      },
       "species": "魚龍種",
       "image": "https://oyster.ignimgs.com/mediawiki/apis.ign.com/monster-hunter-world/6/6a/JyuratodusRender.jpg",
       "icon": "",
@@ -2242,9 +2275,11 @@
       ]
     },
     "毒狗龍王": {
-      "nameTW": "毒狗龍王",
-      "nameJP": "",
-      "nameEN": "",
+      "name": {
+        "tw": "毒狗龍王",
+        "jp": "ドスフロギィ",
+        "en": "Great Wroggi"
+      },
       "species": "鳥龍種",
       "image": "https://www.monsterhunter.com/rise/assets/images/monster/modal/great-wroggi.png",
       "icon": null,
@@ -2317,9 +2352,11 @@
       ]
     },
     "天狗獸": {
-      "nameTW": "天狗獸",
-      "nameJP": "ビシュテンゴ",
-      "nameEN": "Bishaten",
+      "name": {
+        "tw": "天狗獸",
+        "jp": "ビシュテンゴ",
+        "en": "Bishaten"
+      },
       "species": "牙獸種",
       "image": "https://www.monsterhunter.com/rise/assets/images/monster/modal/bishaten.png",
       "icon": "images/icons/monsters/large/icon_bishaten.png",
@@ -2391,9 +2428,11 @@
       ]
     },
     "怨虎龍": {
-      "nameTW": "怨虎龍",
-      "nameJP": "マガイマガド",
-      "nameEN": "Magnamalo",
+      "name": {
+        "tw": "怨虎龍",
+        "jp": "マガイマガド",
+        "en": "Magnamalo"
+      },
       "species": "牙龍種",
       "image": "https://www.monsterhunter.com/rise/assets/images/monster/modal/magnamalo.png",
       "icon": "images/icons/monsters/large/icon_magnamalo.png",
@@ -2465,9 +2504,11 @@
       ]
     },
     "雪鬼獸": {
-      "nameTW": "雪鬼獸",
-      "nameJP": "",
-      "nameEN": "Goss Harag",
+      "name": {
+        "tw": "雪鬼獸",
+        "jp": "ゴシャハギ",
+        "en": "Goss Harag"
+      },
       "species": "牙獸種",
       "image": "https://www.monsterhunter.com/rise/assets/images/monster/modal/goss-harag.png",
       "icon": "images/icons/monsters/large/icon_gossharag.png",
@@ -2539,9 +2580,11 @@
       ]
     },
     "眠狗龍王": {
-      "nameTW": "眠狗龍王",
-      "nameJP": "",
-      "nameEN": "Great Baggi",
+      "name": {
+        "tw": "眠狗龍王",
+        "jp": "ドスバギィ",
+        "en": "Great Baggi"
+      },
       "species": "鳥龍種",
       "image": "https://www.monsterhunter.com/rise/assets/images/monster/modal/great-baggi.png",
       "icon": null,
@@ -2614,9 +2657,11 @@
       ]
     },
     "白兔獸": {
-      "nameTW": "白兔獸",
-      "nameJP": "ウルクスス",
-      "nameEN": "Lagombi",
+      "name": {
+        "tw": "白兔獸",
+        "jp": "ウルクスス",
+        "en": "Lagombi"
+      },
       "species": "牙獸種",
       "image": "https://www.monsterhunter.com/rise/assets/images/monster/modal/lagombi.png",
       "icon": "",
@@ -2753,9 +2798,11 @@
       ]
     },
     "冰牙龍": {
-      "nameTW": "冰牙龍",
-      "nameJP": "ベリオロス",
-      "nameEN": "Barioth",
+      "name": {
+        "tw": "冰牙龍",
+        "jp": "ベリオロス",
+        "en": "Barioth"
+      },
       "species": "飛龍種",
       "image": "https://www.monsterhunter.com/rise/assets/images/monster/modal/barioth.png",
       "icon": "",
@@ -2984,9 +3031,11 @@
       ]
     },
     "轟龍": {
-      "nameTW": "轟龍",
-      "nameJP": "ティガレックス",
-      "nameEN": "Tigrex",
+      "name": {
+        "tw": "轟龍",
+        "jp": "ティガレックス",
+        "en": "Tigrex"
+      },
       "species": "飛龍種",
       "image": "https://www.monsterhunter.com/rise/assets/images/monster/modal/tigrex.png",
       "icon": "images/icons/monsters/large/icon_tigrex.png",
@@ -3235,9 +3284,11 @@
       ]
     },
     "(未定)土砂龍": {
-      "nameTW": "土砂龍",
-      "nameJP": "",
-      "nameEN": "Barroth",
+      "name": {
+        "tw": "土砂龍",
+        "jp": "ボルボロス",
+        "en": "Barroth"
+      },
       "species": "獸龍種",
       "image": null,
       "icon": null,
@@ -3310,9 +3361,11 @@
       ]
     },
     "(未定)迅龍": {
-      "nameTW": "迅龍",
-      "nameJP": "",
-      "nameEN": "Nargacuga",
+      "name": {
+        "tw": "迅龍",
+        "jp": "ナルガクルガ",
+        "en": "Nargacuga"
+      },
       "species": "飛龍種",
       "image": null,
       "icon": null,
@@ -3385,9 +3438,11 @@
       ]
     },
     "(未定)赤甲獸": {
-      "nameTW": "赤甲獸",
-      "nameJP": "",
-      "nameEN": "Volvidon",
+      "name": {
+        "tw": "赤甲獸",
+        "jp": "ラングロトラ",
+        "en": "Volvidon"
+      },
       "species": "牙獸種",
       "image": null,
       "icon": null,
@@ -3460,9 +3515,11 @@
       ]
     },
     "(未定)岩龍": {
-      "nameTW": "岩龍",
-      "nameJP": "バサルモス",
-      "nameEN": "Basarios",
+      "name": {
+        "tw": "岩龍",
+        "jp": "バサルモス",
+        "en": "Basarios"
+      },
       "species": "飛龍種",
       "image": "http://hobbigame.com/wp-content/uploads/2017/10/mhxx91.png",
       "icon": "",
@@ -3663,9 +3720,11 @@
       ]
     },
     "(未定)雷狼龍": {
-      "nameTW": "雷狼龍",
-      "nameJP": "ジンオウガ",
-      "nameEN": "Zinogre",
+      "name": {
+        "tw": "雷狼龍",
+        "jp": "ジンオウガ",
+        "en": "Zinogre"
+      },
       "species": "牙龍種",
       "image": "http://hobbigame.com/wp-content/uploads/2017/09/mhxx64.jpg",
       "icon": "",
@@ -3965,9 +4024,11 @@
       ]
     },
     "(未定)絡新婦": {
-      "nameTW": "絡新婦",
-      "nameJP": "ヤツカダキ",
-      "nameEN": "Yatsukadaki",
+      "name": {
+        "tw": "絡新婦",
+        "jp": "ヤツカダキ",
+        "en": "Yatsukadaki"
+      },
       "species": "鋏角種",
       "image": "https://livedoor.blogimg.jp/monhan2ch/imgs/c/d/cd6a23c4-s.png",
       "icon": null,
