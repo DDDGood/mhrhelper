@@ -1,0 +1,150 @@
+{
+    "en": {
+        "mhrhelper": "MHRHelper",
+        "species": "Species",
+        "list": "List",
+        "description": "Description",
+        "description_details": "Details",
+        "reference": "Reference",
+        "type": "Type",
+        "trait": "Trait",
+        "dataType": {
+            "largeMonster": "Large Monster",
+            "endemicLifes": "Endemic Lifes"
+        },
+        "monster": {
+            "name": {
+                "鐮鼬龍王": "Great Izuchi",
+                "青熊獸": "Aoashira",
+                "雌火龍": "Rathian",
+                "泡狐龍": "Mizutsune",
+                "河童蛙": "Tetranadon",
+                "傘鳥": "Aknosom",
+                "人魚龍": "Somnacanth",
+                "奇怪龍": "Khezu",
+                "水獸": "Royal Ludroth",
+                "火龍": "Rathalos",
+                "毒妖鳥": "Pukei-Pukei",
+                "搔鳥": "Kulu-Ya-Ku",
+                "飛雷龍": "Tobi-Kadachi",
+                "蠻顎龍": "Anjanath",
+                "泥魚龍": "Jyuratodus",
+                "毒狗龍王": "Great Wroggi",
+                "天狗獸": "Bishaten",
+                "怨虎龍": "Magnamalo",
+                "雪鬼獸": "Goss Harag",
+                "眠狗龍王": "Great Baggi",
+                "白兔獸": "Lagombi",
+                "冰牙龍": "Barioth",
+                "轟龍": "Tigrex",
+                "土砂龍": "Barroth",
+                "迅龍": "Nargacuga",
+                "赤甲獸": "Volvidon",
+                "岩龍": "Basarios",
+                "雷狼龍": "Zinogre",
+                "絡新婦": "Yatsukadaki"
+            },
+            "species": {
+                "全部": "All",
+                "鳥龍種": "Bird Wyverns",
+                "牙獸種": "Fanged Beasts",
+                "飛龍種": "Flying Wryven",
+                "海龍種": "Leviathans",
+                "兩生種": "Amphibians",
+                "牙龍種": "Fanged Wyverns",
+                "獸龍種": "Brute Wyverns",
+                "魚龍種": "Piscine Wyverns",
+                "鋏角種": "Temnocerans"
+            },
+            "trait": {
+                "roar": "roar",
+                "wind": "wind",
+                "tremor": "tremor",
+                "element": "element",
+                "aliment": "aliment"
+            },
+            "weakness": {
+                "cut": "cut",
+                "blunt": "blunt",
+                "ammo": "ammo",
+                "element": "Element Weakness",
+                "aliment": "Aliment Weakness",
+                "item": "Items Effectness",
+                "items": {
+                    "pitfalltrap": "pitfalltrap",
+                    "shocktrap": "shocktrap",
+                    "flashpod": "flashpod",
+                    "screamerpod": "screamerpod"
+                }
+            },
+            "part": "Part",
+            "state": "State",
+            "hitdata": "Hit Data (previous ver.)",
+            "battlestrategy": "Battle Strategy",
+            "moves": "Attack Patterns",
+            "moveshint": "(Click to see informations)"
+        },
+        "element": {
+            "fire": "fire",
+            "water": "water",
+            "thunder": "thunder",
+            "ice": "ice",
+            "dragon": "dragon"
+        },
+        "aliment": {
+            "poison": "poison",
+            "sleep": "sleep",
+            "paralysis": "paralysis",
+            "blast": "blast",
+            "stun": "stun"
+        },
+        "endemics": {
+            "name": {
+                "紅鬼火鳥": "Red Spiribird",
+                "橙鬼火鳥": "Orange Spiribird",
+                "綠鬼火鳥": "Green Spiribird",
+                "黃鬼火鳥": "Yellow Spiribird",
+                "劇毒瓦斯蛙": "Poisontoad",
+                "炸彈瓦斯蛙": "Blastoad",
+                "火石甲蟲": "Firebeetle",
+                "泥球甲蟲": "Mudbeetle",
+                "雷毛甲蟲": "Thunderbeetle",
+                "雪石甲蟲": "Snowbeetle",
+                "臭臭鼬鼠": "Stinkmink",
+                "落雨蝸牛": "Escuregot",
+                "傀儡蜘蛛": "Puppet Spider",
+                "子泣雉雞": "Wailnard",
+                "撒菱蟲": "Trapbugs",
+                "轆轤蛇": "Antidobra",
+                "加釀兔": "Brewhare",
+                "翔蟲": "Wirebug",
+                "回復蜜蟲": "Vigorwasp",
+                "一反粉蝶": "Clothfly",
+                "火紅焰蝶": "Butterflame",
+                "百目斑蝶": "Peepersects",
+                "網切蜻蜓": "Cutterfly",
+                "閃光翅蟲": "Flashfly",
+                "石守蜥蜴": "Rock Lizard",
+                "岩守蜥蜴": "Boulder Lizard",
+                "鱗守蜥蜴": "Scale Lizard",
+                "大翔蟲": "Great Wirebug",
+                "金靈瓢蟲": "Golden Spiribug"
+            },
+            "type": {
+                "持續強化生物": "Permabuffer",
+                "獵具生物": "Hunting Helper",
+                "瞬間強化生物": "Temp Buffer",
+                "陷阱生物": "Ensnaring Life",
+                "素材生物": "Crafty Creature",
+                "其他": "Other"
+            }
+        },
+        "data": {
+            "dex": {
+                "鐮鼬龍王": {
+                    "description": "The alpha Izuchi of its pack, identified by its larger build, upended white fur and scythe-like tail. A Great Izuchi forms a herd of many smaller Izuchi and selects two from the group to accompany it on territory patrols. Once it spots prey or senses danger, the Great Izuchi issues commands to their fellow Izuchi, and coordinates their movements. Take care that you don't get overwhelmed."
+                }
+            }
+        }
+    }
+}

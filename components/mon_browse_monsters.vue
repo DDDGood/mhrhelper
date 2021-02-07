@@ -1,7 +1,7 @@
 <template>
   <div class="layout-main">
-    <div class="header3">列表</div>
-    <div class="link-list">
+    <div class="header3">{{$t('list')}}</div>
+    <div :class="layoutClass">
       <router-link
         v-for="(item, key) in specieslist[$route.params.species]"
         v-bind:key="key"
@@ -18,7 +18,9 @@
               : item.icon
           "
           />
-          <div class="link-text">{{ key }}</div>
+          <div
+            class="link-text"
+          >{{ item.name?.hasOwnProperty(i18n.locale)? item.name[i18n.locale]:key }}</div>
         </button>
       </router-link>
       <router-view></router-view>
@@ -27,6 +29,14 @@
 </template>
 <script>
 module.exports = {
+  data: function (params) {
+    return {
+      layoutClass: {
+        'link-list': this.$i18n.locale === "tw" || window.innerWidth > 350,
+        'link-list-thin': !(this.$i18n.locale === "tw" || window.innerWidth > 350),
+      }
+    }
+  },
   props: {
     specieslist: {},
   },

@@ -4,50 +4,25 @@
       <button class="hamburger-button flex-center" @click="ToggleSideMenu">
         <i class="icon-menu hamburger-icon"></i>
       </button>
-      <router-link :to="'/' + GetLayerTexts()[0]" custom v-slot="{ navigate }">
-        <button
-          @click="navigate"
-          class="topbarbtn"
-          :class="{ 'topbar-highlight': GetLayerTexts().length == 1 }"
-        >{{ToDataTypeText( GetLayerTexts()[0])}}</button>
-      </router-link>
-      <div class="topbarlink" v-show="GetLayerTexts().length > 1">
-        <i class="icon-right-dir"></i>
-      </div>
-      <router-link
-        :to="'/' + GetLayerTexts()[0] + '/' + GetLayerTexts()[1]"
-        custom
-        v-slot="{ navigate }"
-        v-show="GetLayerTexts().length > 1"
-      >
-        <button
-          @click="navigate"
-          class="topbarbtn"
-          :class="{ 'topbar-highlight': GetLayerTexts().length == 2 }"
-        >{{ GetLayerTexts().length > 1 ? GetLayerTexts()[1] : "" }}</button>
-      </router-link>
-      <div class="topbarlink" v-show="GetLayerTexts().length > 2">
-        <i class="icon-right-dir"></i>
-      </div>
-      <router-link
-        :to="'/'+ GetLayerTexts()[0] + '/' + GetLayerTexts()[1] + '/' + GetLayerTexts()[2]"
-        custom
-        v-slot="{ navigate }"
-        v-show="GetLayerTexts().length > 2"
-      >
-        <button
-          @click="navigate"
-          class="topbarbtn"
-          :class="{ 'topbar-highlight': GetLayerTexts().length == 3 }"
-        >{{ GetLayerTexts().length > 2 ? GetLayerTexts()[2] : "" }}</button>
-      </router-link>
+      <template v-for="(nav,id) in items">
+        <router-link :key="id" :to="nav.path" custom v-slot="{ navigate }">
+          <button
+            @click="navigate"
+            class="topbarbtn"
+            :class="{ 'topbar-highlight': id == items.length-1 }"
+          >{{nav.name}}</button>
+        </router-link>
+        <div :key="id" class="topbarlink" v-if="id<items.length-1">
+          <i class="icon-right-dir"></i>
+        </div>
+      </template>
     </div>
     <div id="menu" v-show="show">
       <router-link to="/mon" custom v-slot="{ navigate }">
-        <button @click="navigate" class="menu-button">大型魔物</button>
+        <button @click="navigate" class="menu-button">{{$t("dataType.largeMonster")}}</button>
       </router-link>
       <router-link to="/endemics" custom v-slot="{ navigate }">
-        <button @click="navigate" class="menu-button">環境生物</button>
+        <button @click="navigate" class="menu-button">{{$t("dataType.endemicLifes")}}</button>
       </router-link>
     </div>
   </div>
@@ -60,9 +35,30 @@ module.exports = {
       menuDOM: {}
     }
   },
-  watch: {
-    $route(to, from) {
-      // this.show = false;
+  mounted: function () {
+  },
+  computed: {
+    items: function () {
+      let items = [];
+      const pathArr = decodeURI(this.$route.path).substring(1).split("/");
+      switch (pathArr[0]) {
+        case "mon":
+          items.push({ name: this.$t("dataType.largeMonster"), path: "/mon" })
+          if (pathArr[1] !== undefined)
+            items.push({ name: this.$t("monster.species." + pathArr[1]), path: "/mon/" + pathArr[1] })
+          if (pathArr[2] !== undefined)
+            items.push({ name: this.$t("monster.name." + pathArr[2]), path: "/mon/" + pathArr[1] + "/" + pathArr[2] })
+          break;
+        case "endemics":
+          items.push({ name: this.$t("dataType.endemicLifes"), path: "/endemics" })
+          if (pathArr[1] !== undefined)
+            items.push({ name: this.$t("endemics.name." + pathArr[1]), path: "/endemics/" + pathArr[1] })
+          break;
+        default:
+          items.push({ name: "??", path: "/mon" })
+          break;
+      }
+      return items;
     }
   },
   methods: {
@@ -77,19 +73,6 @@ module.exports = {
         return
       this.show = false;
       document.removeEventListener('click', this.CloseMenu);
-    },
-    GetLayerTexts: function () {
-      //   console.log(this.$route);
-      let decodePath = decodeURI(this.$route.path).substring(1);
-      return decodePath.split("/");
-    },
-    ToDataTypeText: function (key) {
-      switch (key) {
-        case "mon":
-          return "大型魔物"
-        case "endemics":
-          return "環境生物"
-      }
     }
   },
 };

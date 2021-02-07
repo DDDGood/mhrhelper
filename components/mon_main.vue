@@ -2,28 +2,44 @@
   <div class="layout-main">
     <div class="layout-grid">
       <div class="layout-grid-right">
-        <mon_card v-bind:mondata="mondata"></mon_card>
+        <mon_card :mondata="mondata"></mon_card>
       </div>
       <div class="layout-grid-main">
         <details open>
-          <summary class="header2">基本介紹</summary>
+          <summary class="header2">{{$t('description')}}</summary>
           <span id="description" v-html="GetDescriptionText('description')"></span>
         </details>
         <details open>
-          <summary class="header2">詳細肉質(舊版資訊)</summary>
+          <summary class="header2">{{$t('monster.hitdata')}}</summary>
           <table id="hitdata-table">
             <tbody id="hitdata_table_tbody">
               <tr class="card-text text-bold">
-                <th>部位</th>
-                <th>狀態</th>
-                <th>斬</th>
-                <th>打</th>
-                <th>彈</th>
-                <th>火</th>
-                <th>水</th>
-                <th>雷</th>
-                <th>冰</th>
-                <th>龍</th>
+                <th>{{$t('monster.part')}}</th>
+                <th>{{$t('monster.state')}}</th>
+                <th class="number">
+                  <img class="hitdata-icon" src="images/icons/equipments/greatsword.png" />
+                </th>
+                <th class="number">
+                  <img class="hitdata-icon" src="images/icons/equipments/hammer.png" />
+                </th>
+                <th class="number">
+                  <img class="hitdata-icon" src="images/icons/maps/ammo_normal.png" />
+                </th>
+                <th class="number">
+                  <img class="hitdata-icon" src="images/icons/element/element_fire.png" />
+                </th>
+                <th class="number">
+                  <img class="hitdata-icon" src="images/icons/element/element_water.png" />
+                </th>
+                <th class="number">
+                  <img class="hitdata-icon" src="images/icons/element/element_thunder.png" />
+                </th>
+                <th class="number">
+                  <img class="hitdata-icon" src="images/icons/element/element_ice.png" />
+                </th>
+                <th class="number">
+                  <img class="hitdata-icon" src="images/icons/element/element_dragon.png" />
+                </th>
               </tr>
               <tr class="card-text" v-for="part of mondata.parts" :key="part.name + part.state">
                 <td>{{ part.name }}</td>
@@ -58,21 +74,21 @@
         </details>
         <div id="divmoves">
           <details open>
-            <summary class="header2">對戰要點</summary>
+            <summary class="header2">{{$t('monster.battlestrategy')}}</summary>
             <span id="moveoutline" v-html="GetDescriptionText('outline', 'move')"></span>
           </details>
           <details open>
-            <summary class="header2">招式派生</summary>
-            <div class="description-text">(點擊可查看招式介紹)</div>
+            <summary class="header2">{{$t('monster.moves')}}</summary>
+            <div class="description-text">{{$t('monster.moveshint')}}</div>
             <mon_moves :monmoves="movedata"></mon_moves>
           </details>
         </div>
         <details>
-          <summary class="header2">設定細節</summary>
+          <summary class="header2">{{$t('description_details')}}</summary>
           <span id="detail" v-html="GetDescriptionText('detail')"></span>
         </details>
         <details open>
-          <summary class="header2">參考資料</summary>
+          <summary class="header2">{{$t('reference')}}</summary>
           <div v-for="(link,key) in this.reference" :key="key">
             <a class="description-text" :href="link">{{key}}</a>
           </div>
@@ -85,6 +101,7 @@
 module.exports = {
   data: function () {
     return {
+      // mondata: {},
       reference: {}
     };
   },
@@ -104,12 +121,15 @@ module.exports = {
   created: function () {
   },
   mounted: function () {
-    for (const key in this.mondata.reference) {
-      this.reference[key] = this.mondata.reference[key];
-    }
-    for (const key in this.movedata.reference) {
-      this.reference[key] = this.movedata.reference[key];
-    }
+    // this.mondata = this.dex[this.$route.params.name];
+    if (this.mondata !== undefined && this.mondata.hasOwnProperty("reference"))
+      for (const key in this.mondata.reference) {
+        this.reference[key] = this.mondata.reference[key];
+      }
+    if (this.movedata !== undefined && this.movedata.hasOwnProperty("reference"))
+      for (const key in this.movedata.reference) {
+        this.reference[key] = this.movedata.reference[key];
+      }
   },
   methods: {
     GetDescriptionText: function (key, from) {
@@ -124,6 +144,21 @@ module.exports = {
       } else return "";
     }
   },
+  watch: {
+    dex: {
+      deep: true,
+      handler: function (newVal, oldVal) {
+        console.log("dex changed");
+        this.mondata = this.dex[this.$route.params.name];
+      }
+    },
+    test: {
+      deep: true,
+      handler: function (newVal, oldVal) {
+        console.log("test changed");
+      }
+    }
+  }
 };
 </script>  
 
@@ -144,6 +179,11 @@ table {
 th {
   background-color: #bdd5ff;
 }
+th.text {
+}
+th.number {
+  width: 8%;
+}
 td {
   text-align: center;
   background-color: #ffffff;
@@ -156,6 +196,12 @@ thead,
 tfoot {
   background-color: #333;
   color: #fff;
+}
+
+.hitdata-icon {
+  width: 80%;
+  max-width: 20px;
+  max-height: 20px;
 }
 
 /* mobile */

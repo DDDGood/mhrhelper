@@ -1,14 +1,28 @@
 
-var data = {};
+var vue;
+
+var data;
+var dataTW;
 function GetData(key) {
     return data[key];
 }
 var speciesDictionary = {};
+function SetLocal(key) {
+    let langData;
+    if (key === "tw")
+        langData = dataTW;
+    else
+        langData = i18n.messages[key]?.data;
+    if (langData !== undefined) {
+        Object.deepExtend(data, langData);
+    }
+    i18n.locale = key;
+}
+
 
 $(document).ready(Initialize);
 
 function Initialize() {
-    $("#wrapper").show();
     LoadData(['data/mhrdex.json', 'data/mhrmoves.json', 'data/endemics.json'], onDexLoaded);
 }
 
@@ -54,6 +68,20 @@ function onDexLoaded() {
 
     const router = InitRouter();
 
+    vue = new Vue({
+        el: '#app',
+        data: function () {
+            return {
+                menuitems: [{ "name": "ddd" }]
+            }
+        },
+        components: {
+            topbarmenu: httpVueLoader("components/topbarmenu.vue")
+        },
+        router,
+        i18n
+    })
+
     const searchParams = new URLSearchParams(location.search);
     const navMon = searchParams.get('mon');
     if (dexData.hasOwnProperty(navMon)) {
@@ -61,6 +89,29 @@ function onDexLoaded() {
             path: "/mon/" + dexData[navMon].species + "/" + navMon
         });
     }
+
+    // if (data.hasOwnProperty('localization')) {
+    //     data["localization"]["tw"] = {};
+    //     for (const key in data) {
+    //         if (key === "localization")
+    //             continue;
+    //         data["localization"]["tw"][key] = JSON.parse(JSON.stringify(data[key]));
+    //     }
+    // }
+
+    data = Vue.observable(data);
+    dataTW = JSON.parse(JSON.stringify(data));
+
+    $("#wrapper").show();
+
+
+    // let temp = {};
+    // for (let id in data.endemics) {
+    //     let key = id;
+    //     let val = data.endemics[id].nameTW;
+    //     temp[key] = val;
+    // }
+    // console.log(JSON.stringify(temp));
 }
 
 function InitRouter() {
@@ -84,7 +135,7 @@ function InitRouter() {
                 name: 'monlist',
                 path: '/mon',
                 component: SpeciesListComp,
-                props: { specieslist: speciesDictionary }
+                props: { dex: GetData("dex"), specieslist: speciesDictionary }
             },
             {
                 path: '/mon/:species',
@@ -111,13 +162,6 @@ function InitRouter() {
             }
         ]
     });
-    new Vue({
-        el: '#app',
-        components: {
-            topbar: httpVueLoader("components/topbar.vue")
-        },
-        router
-    })
     return router;
 }
 
@@ -170,3 +214,14 @@ function CheckMobile() {
     return (window.innerWidth < 1200);
 }
 
+Object.deepExtend = function (destination, source) {
+    for (var property in source) {
+        if (typeof source[property] === "object" &&
+            source[property] !== null) {
+            destination[property] = destination[property] || {};
+            arguments.callee(destination[property], source[property]);
+        } else {
+            destination[property] = source[property];
+        }
+    }
+};

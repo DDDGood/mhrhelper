@@ -1,6 +1,13 @@
+
+
+
 /* phones */
 @media (max-width: 1199.98px) { 
 
+  #header{
+    padding-left: 12px;
+    padding-right: 12px;
+  }
 
   .header1{
     padding-top: 4px;
