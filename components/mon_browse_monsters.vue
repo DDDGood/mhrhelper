@@ -1,7 +1,7 @@
 <template>
   <div class="layout-main">
     <div class="header3">{{$t('list')}}</div>
-    <div class="link-list">
+    <div :class="layoutClass">
       <router-link
         v-for="(item, key) in specieslist[$route.params.species]"
         v-bind:key="key"
@@ -29,6 +29,14 @@
 </template>
 <script>
 module.exports = {
+  data: function (params) {
+    return {
+      layoutClass: {
+        'link-list': this.$i18n.locale === "tw" || window.innerWidth > 350,
+        'link-list-thin': !(this.$i18n.locale === "tw" || window.innerWidth > 350),
+      }
+    }
+  },
   props: {
     specieslist: {},
   },

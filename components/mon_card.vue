@@ -69,9 +69,18 @@
       <div class="flex1 color1 rounded">
         <div class="flex-row interval-y margin">
           <div class="flex1 card-text text-bold">{{$t('monster.part')}}</div>
-          <div class="flex1 card-text text-bold">{{$t('monster.weakness.cut')}}</div>
-          <div class="flex1 card-text text-bold">{{$t('monster.weakness.blunt')}}</div>
-          <div class="flex1 card-text text-bold">{{$t('monster.weakness.ammo')}}</div>
+          <div class="flex1 flex-center">
+            <img class="card-text-icon" src="images/icons/equipments/greatsword.png" />
+            <div class="card-text text-bold">{{$t('monster.weakness.cut')}}</div>
+          </div>
+          <div class="flex1 flex-center">
+            <img class="card-text-icon" src="images/icons/equipments/hammer.png" />
+            <div class="card-text text-bold">{{$t('monster.weakness.blunt')}}</div>
+          </div>
+          <div class="flex1 flex-center">
+            <img class="card-text-icon" src="images/icons/maps/ammo_normal.png" />
+            <div class="card-text text-bold">{{$t('monster.weakness.ammo')}}</div>
+          </div>
         </div>
         <div
           class="flex-row color2 interval-y margin rounded"
@@ -92,37 +101,36 @@
         <div class="flex-row margin">
           <div class="flex1 color2 card-text interval-x rounded">
             <div class="flex-center">
-              <img class="card-text-icon" src="images/icons/element/element_fire.png" />
-              <i class="fas fa-star"></i>
-              <div>{{$t('element.fire')}}</div>
+              <img :class="weaknessIconClass" src="images/icons/element/element_fire.png" />
+              <div :class="weaknessTextClass">{{$t('element.fire')}}</div>
             </div>
             <div class="card-text" v-html="weakdata.element.values?.fire"></div>
           </div>
           <div class="flex1 color2 card-text interval-x rounded">
             <div class="flex-center">
-              <img class="card-text-icon" src="images/icons/element/element_water.png" />
-              <div>{{$t('element.water')}}</div>
+              <img :class="weaknessIconClass" src="images/icons/element/element_water.png" />
+              <div :class="weaknessTextClass">{{$t('element.water')}}</div>
             </div>
             <div class="card-text" v-html="weakdata.element.values?.water"></div>
           </div>
           <div class="flex1 color2 card-text interval-x rounded">
             <div class="flex-center">
-              <img class="card-text-icon" src="images/icons/element/element_thunder.png" />
-              <div>{{$t('element.thunder')}}</div>
+              <img :class="weaknessIconClass" src="images/icons/element/element_thunder.png" />
+              <div :class="weaknessTextClass">{{$t('element.thunder')}}</div>
             </div>
             <div class="card-text" v-html="weakdata.element.values?.thunder"></div>
           </div>
           <div class="flex1 color2 card-text interval-x rounded">
             <div class="flex-center">
-              <img class="card-text-icon" src="images/icons/element/element_ice.png" />
-              <div>{{$t('element.ice')}}</div>
+              <img :class="weaknessIconClass" src="images/icons/element/element_ice.png" />
+              <div :class="weaknessTextClass">{{$t('element.ice')}}</div>
             </div>
             <div class="card-text" v-html="weakdata.element.values?.ice"></div>
           </div>
           <div class="flex1 color2 card-text interval-x rounded">
             <div class="flex-center">
-              <img class="card-text-icon" src="images/icons/element/element_dragon.png" />
-              <div>{{$t('element.dragon')}}</div>
+              <img :class="weaknessIconClass" src="images/icons/element/element_dragon.png" />
+              <div :class="weaknessTextClass">{{$t('element.dragon')}}</div>
             </div>
             <div class="card-text" v-html="weakdata.element.values?.dragon"></div>
           </div>
@@ -136,36 +144,36 @@
         <div class="flex-row margin">
           <div class="flex1 color2 card-text interval-x rounded">
             <div class="flex-center">
-              <img class="card-text-icon" src="images/icons/state/state_poison.png" />
-              <div>{{$t('aliment.poison')}}</div>
+              <img :class="weaknessIconClass" src="images/icons/state/state_poison.png" />
+              <div :class="weaknessTextClass">{{$t('aliment.poison')}}</div>
             </div>
             <div class="card-text" v-html="weakdata.aliment.values?.poison"></div>
           </div>
           <div class="flex1 color2 card-text interval-x rounded">
             <div class="flex-center">
-              <img class="card-text-icon" src="images/icons/state/state_sleep.png" />
-              <div>{{$t('aliment.sleep')}}</div>
+              <img :class="weaknessIconClass" src="images/icons/state/state_sleep.png" />
+              <div :class="weaknessTextClass">{{$t('aliment.sleep')}}</div>
             </div>
             <div class="card-text" v-html="weakdata.aliment.values?.sleep"></div>
           </div>
           <div class="flex1 color2 card-text interval-x rounded">
             <div class="flex-center">
-              <img class="card-text-icon" src="images/icons/state/state_paralysis.png" />
-              <div>{{$t('aliment.paralysis')}}</div>
+              <img :class="weaknessIconClass" src="images/icons/state/state_paralysis.png" />
+              <div :class="weaknessTextClass">{{$t('aliment.paralysis')}}</div>
             </div>
             <div class="card-text" v-html="weakdata.aliment.values?.paralysis"></div>
           </div>
           <div class="flex1 color2 card-text interval-x rounded">
             <div class="flex-center">
-              <img class="card-text-icon" src="images/icons/state/state_blast.png" />
-              <div>{{$t('aliment.blast')}}</div>
+              <img :class="weaknessIconClass" src="images/icons/state/state_blast.png" />
+              <div :class="weaknessTextClass">{{$t('aliment.blast')}}</div>
             </div>
             <div class="card-text" v-html="weakdata.aliment.values?.blast"></div>
           </div>
           <div class="flex1 color2 card-text interval-x rounded">
             <div class="flex-center">
-              <img class="card-text-icon" src="images/icons/state/state_stun.png" />
-              <div>{{$t('aliment.stun')}}</div>
+              <img :class="weaknessIconClass" src="images/icons/state/state_stun.png" />
+              <div :class="weaknessTextClass">{{$t('aliment.stun')}}</div>
             </div>
             <div class="card-text" v-html="weakdata.aliment.values?.stun"></div>
           </div>
@@ -179,29 +187,29 @@
         <div class="flex-row margin">
           <div class="flex1 color2 card-text interval-x rounded">
             <div class="flex-center">
-              <img class="card-text-icon" src="images/icons/items/落穴.png" />
-              <div>{{$t('monster.weakness.items.pitfalltrap')}}</div>
+              <img :class="weaknessIconClass" src="images/icons/items/落穴.png" />
+              <div :class="weaknessTextClass">{{$t('monster.weakness.items.pitfalltrap')}}</div>
             </div>
             <div class="card-text" v-html="weakdata.item.values?.pitfalltrap"></div>
           </div>
           <div class="flex1 color2 card-text interval-x rounded">
             <div class="flex-center">
-              <img class="card-text-icon" src="images/icons/items/麻痺陷阱.png" />
-              <div>{{$t('monster.weakness.items.shocktrap')}}</div>
+              <img :class="weaknessIconClass" src="images/icons/items/麻痺陷阱.png" />
+              <div :class="weaknessTextClass">{{$t('monster.weakness.items.shocktrap')}}</div>
             </div>
             <div class="card-text" v-html="weakdata.item.values?.shocktrap"></div>
           </div>
           <div class="flex1 color2 card-text interval-x rounded">
             <div class="flex-center">
-              <img class="card-text-icon" src="images/icons/items/閃光彈.png" />
-              <div>{{$t('monster.weakness.items.flashpod')}}</div>
+              <img :class="weaknessIconClass" src="images/icons/items/閃光彈.png" />
+              <div :class="weaknessTextClass">{{$t('monster.weakness.items.flashpod')}}</div>
             </div>
             <div class="card-text" v-html="weakdata.item.values?.flashpod"></div>
           </div>
           <div class="flex1 color2 card-text interval-x rounded">
             <div class="flex-center">
-              <img class="card-text-icon" src="images/icons/items/音爆彈.png" />
-              <div>{{$t('monster.weakness.items.screamerpod')}}</div>
+              <img :class="weaknessIconClass" src="images/icons/items/音爆彈.png" />
+              <div :class="weaknessTextClass">{{$t('monster.weakness.items.screamerpod')}}</div>
             </div>
             <div class="card-text" v-html="weakdata.item.values?.screamerpod"></div>
           </div>
@@ -214,8 +222,15 @@
 module.exports = {
   data: function () {
     return {
-      preferedLang: ["jp", "en", "tw"]
-      // carddata: {}
+      preferedLang: ["jp", "en", "tw"],
+      weaknessTextClass: {
+        "card-text": true,
+        "hide": !(this.$i18n.locale === "tw" || window.innerWidth > 400)
+      },
+      weaknessIconClass: {
+        "card-text-icon": this.$i18n.locale === "tw" || window.innerWidth > 400,
+        "card-text-icon-large": !(this.$i18n.locale === "tw" || window.innerWidth > 400)
+      }
     };
   },
   created: function () {

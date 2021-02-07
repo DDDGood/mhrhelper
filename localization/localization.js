@@ -34,7 +34,6 @@ function LoadLocaleData(paths, callback) {
     })
 }
 function OnLocaleLoaded() {
-    console.log(i18n.messages);
 }
 
 // const messages = {

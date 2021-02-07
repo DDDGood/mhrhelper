@@ -15,15 +15,31 @@
             <tbody id="hitdata_table_tbody">
               <tr class="card-text text-bold">
                 <th>{{$t('monster.part')}}</th>
-                <th>狀態</th>
-                <th>斬</th>
-                <th>打</th>
-                <th>彈</th>
-                <th>火</th>
-                <th>水</th>
-                <th>雷</th>
-                <th>冰</th>
-                <th>龍</th>
+                <th>{{$t('monster.state')}}</th>
+                <th class="number">
+                  <img class="hitdata-icon" src="images/icons/equipments/greatsword.png" />
+                </th>
+                <th class="number">
+                  <img class="hitdata-icon" src="images/icons/equipments/hammer.png" />
+                </th>
+                <th class="number">
+                  <img class="hitdata-icon" src="images/icons/maps/ammo_normal.png" />
+                </th>
+                <th class="number">
+                  <img class="hitdata-icon" src="images/icons/element/element_fire.png" />
+                </th>
+                <th class="number">
+                  <img class="hitdata-icon" src="images/icons/element/element_water.png" />
+                </th>
+                <th class="number">
+                  <img class="hitdata-icon" src="images/icons/element/element_thunder.png" />
+                </th>
+                <th class="number">
+                  <img class="hitdata-icon" src="images/icons/element/element_ice.png" />
+                </th>
+                <th class="number">
+                  <img class="hitdata-icon" src="images/icons/element/element_dragon.png" />
+                </th>
               </tr>
               <tr class="card-text" v-for="part of mondata.parts" :key="part.name + part.state">
                 <td>{{ part.name }}</td>
@@ -163,6 +179,11 @@ table {
 th {
   background-color: #bdd5ff;
 }
+th.text {
+}
+th.number {
+  width: 8%;
+}
 td {
   text-align: center;
   background-color: #ffffff;
@@ -175,6 +196,12 @@ thead,
 tfoot {
   background-color: #333;
   color: #fff;
+}
+
+.hitdata-icon {
+  width: 80%;
+  max-width: 20px;
+  max-height: 20px;
 }
 
 /* mobile */

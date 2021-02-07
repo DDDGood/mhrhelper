@@ -23,7 +23,6 @@ function SetLocal(key) {
 $(document).ready(Initialize);
 
 function Initialize() {
-    $("#wrapper").show();
     LoadData(['data/mhrdex.json', 'data/mhrmoves.json', 'data/endemics.json'], onDexLoaded);
 }
 
@@ -102,6 +101,9 @@ function onDexLoaded() {
 
     data = Vue.observable(data);
     dataTW = JSON.parse(JSON.stringify(data));
+
+
+    $("#wrapper").show();
 }
 
 function InitRouter() {
