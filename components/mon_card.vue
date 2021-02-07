@@ -234,10 +234,10 @@ module.exports = {
     };
   },
   created: function () {
-    console.log("created")
+    // console.log("created")
   },
   mounted: function () {
-    console.log("mounted")
+    // console.log("mounted")
   },
   computed: {
     weakdata: function () {

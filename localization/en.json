@@ -6,6 +6,8 @@
         "description": "Description",
         "description_details": "Details",
         "reference": "Reference",
+        "type": "Type",
+        "trait": "Trait",
         "dataType": {
             "largeMonster": "Large Monster",
             "endemicLifes": "Endemic Lifes"
@@ -95,6 +97,47 @@
             "paralysis": "paralysis",
             "blast": "blast",
             "stun": "stun"
+        },
+        "endemics": {
+            "name": {
+                "紅鬼火鳥": "Red Spiribird",
+                "橙鬼火鳥": "Orange Spiribird",
+                "綠鬼火鳥": "Green Spiribird",
+                "黃鬼火鳥": "Yellow Spiribird",
+                "劇毒瓦斯蛙": "Poisontoad",
+                "炸彈瓦斯蛙": "Blastoad",
+                "火石甲蟲": "Firebeetle",
+                "泥球甲蟲": "Mudbeetle",
+                "雷毛甲蟲": "Thunderbeetle",
+                "雪石甲蟲": "Snowbeetle",
+                "臭臭鼬鼠": "Stinkmink",
+                "落雨蝸牛": "Escuregot",
+                "傀儡蜘蛛": "Puppet Spider",
+                "子泣雉雞": "Wailnard",
+                "撒菱蟲": "Trapbugs",
+                "轆轤蛇": "Antidobra",
+                "加釀兔": "Brewhare",
+                "翔蟲": "Wirebug",
+                "回復蜜蟲": "Vigorwasp",
+                "一反粉蝶": "Clothfly",
+                "火紅焰蝶": "Butterflame",
+                "百目斑蝶": "Peepersects",
+                "網切蜻蜓": "Cutterfly",
+                "閃光翅蟲": "Flashfly",
+                "石守蜥蜴": "Rock Lizard",
+                "岩守蜥蜴": "Boulder Lizard",
+                "鱗守蜥蜴": "Scale Lizard",
+                "大翔蟲": "Great Wirebug",
+                "金靈瓢蟲": "Golden Spiribug"
+            },
+            "type": {
+                "持續強化生物": "Permabuffer",
+                "獵具生物": "Hunting Helper",
+                "瞬間強化生物": "Temp Buffer",
+                "陷阱生物": "Ensnaring Life",
+                "素材生物": "Crafty Creature",
+                "其他": "Other"
+            }
         },
         "data": {
             "dex": {

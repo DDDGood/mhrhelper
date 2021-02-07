@@ -1,7 +1,7 @@
 <template>
   <div class="layout-main">
     <template v-for="(items, type) in types">
-      <div class="header3" :key="type">{{type}}</div>
+      <div class="header3" :key="type">{{$t('endemics.type.'+type)}}</div>
       <div class="link-list" :key="type">
         <router-link
           tag="button"
@@ -14,7 +14,7 @@
             class="link-icon"
             v-bind:src="IsNullOrEmpty(item.image) ? 'images/icons/endemics/unknown.png': item.image "
           />
-          <div class="link-text">{{ key }}</div>
+          <div class="link-text">{{ $t('endemics.name.'+key) }}</div>
         </router-link>
       </div>
     </template>

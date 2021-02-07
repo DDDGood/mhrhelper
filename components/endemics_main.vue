@@ -6,7 +6,7 @@
       </div>
       <div class="layout-grid-main">
         <details open>
-          <summary class="header2">基本介紹</summary>
+          <summary class="header2">{{$t('description')}}</summary>
           <span id="description" v-html="ParseDescriptionText(endemicdata.description)"></span>
         </details>
         <details open v-show="!IsNullOrEmpty(endemicdata.video)">

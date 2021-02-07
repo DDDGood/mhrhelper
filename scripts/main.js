@@ -90,20 +90,28 @@ function onDexLoaded() {
         });
     }
 
-    if (data.hasOwnProperty('localization')) {
-        data["localization"]["tw"] = {};
-        for (const key in data) {
-            if (key === "localization")
-                continue;
-            data["localization"]["tw"][key] = JSON.parse(JSON.stringify(data[key]));
-        }
-    }
+    // if (data.hasOwnProperty('localization')) {
+    //     data["localization"]["tw"] = {};
+    //     for (const key in data) {
+    //         if (key === "localization")
+    //             continue;
+    //         data["localization"]["tw"][key] = JSON.parse(JSON.stringify(data[key]));
+    //     }
+    // }
 
     data = Vue.observable(data);
     dataTW = JSON.parse(JSON.stringify(data));
 
-
     $("#wrapper").show();
+
+
+    // let temp = {};
+    // for (let id in data.endemics) {
+    //     let key = id;
+    //     let val = data.endemics[id].nameTW;
+    //     temp[key] = val;
+    // }
+    // console.log(JSON.stringify(temp));
 }
 
 function InitRouter() {
