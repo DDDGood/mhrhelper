@@ -9,52 +9,58 @@
         "type": "Type",
         "trait": "Trait",
         "dataType": {
-            "largeMonster": "Large Monster",
-            "endemicLifes": "Endemic Lifes"
+            "large_monsters": "Large Monsters",
+            "small_monsters": "Small Monsters",
+            "endemic_lifes": "Endemic Lifes"
         },
         "monster": {
             "name": {
-                "鐮鼬龍王": "Great Izuchi",
-                "青熊獸": "Aoashira",
-                "雌火龍": "Rathian",
-                "泡狐龍": "Mizutsune",
-                "河童蛙": "Tetranadon",
-                "傘鳥": "Aknosom",
-                "人魚龍": "Somnacanth",
-                "奇怪龍": "Khezu",
-                "水獸": "Royal Ludroth",
-                "火龍": "Rathalos",
-                "毒妖鳥": "Pukei-Pukei",
-                "搔鳥": "Kulu-Ya-Ku",
-                "飛雷龍": "Tobi-Kadachi",
-                "蠻顎龍": "Anjanath",
-                "泥魚龍": "Jyuratodus",
-                "毒狗龍王": "Great Wroggi",
-                "天狗獸": "Bishaten",
-                "怨虎龍": "Magnamalo",
-                "雪鬼獸": "Goss Harag",
-                "眠狗龍王": "Great Baggi",
-                "白兔獸": "Lagombi",
-                "冰牙龍": "Barioth",
-                "轟龍": "Tigrex",
-                "土砂龍": "Barroth",
-                "迅龍": "Nargacuga",
-                "赤甲獸": "Volvidon",
-                "岩龍": "Basarios",
-                "雷狼龍": "Zinogre",
-                "絡新婦": "Yatsukadaki"
+                "great_izuchi": "Great Izuchi",
+                "aoashira": "Aoashira",
+                "rathian": "Rathian",
+                "mizutsune": "Mizutsune",
+                "tetranadon": "Tetranadon",
+                "aknosom": "Aknosom",
+                "somnacanth": "Somnacanth",
+                "khezu": "Khezu",
+                "royal_ludroth": "Royal Ludroth",
+                "rathalos": "Rathalos",
+                "pukei-pukei": "Pukei-Pukei",
+                "kulu-ya-ku": "Kulu-Ya-Ku",
+                "tobi-kadachi": "Tobi-Kadachi",
+                "anjanath": "Anjanath",
+                "jyuratodus": "Jyuratodus",
+                "great_wroggi": "Great Wroggi",
+                "bishaten": "Bishaten",
+                "magnamalo": "Magnamalo",
+                "goss_harag": "Goss Harag",
+                "great_baggi": "Great Baggi",
+                "lagombi": "Lagombi",
+                "barioth": "Barioth",
+                "tigrex": "Tigrex",
+                "barroth": "Barroth",
+                "nargacuga": "Nargacuga",
+                "volvidon": "Volvidon",
+                "basarios": "Basarios",
+                "zinogre": "Zinogre",
+                "yatsukadaki": "Yatsukadaki"
             },
             "species": {
-                "全部": "All",
-                "鳥龍種": "Bird Wyverns",
-                "牙獸種": "Fanged Beasts",
-                "飛龍種": "Flying Wryven",
-                "海龍種": "Leviathans",
-                "兩生種": "Amphibians",
-                "牙龍種": "Fanged Wyverns",
-                "獸龍種": "Brute Wyverns",
-                "魚龍種": "Piscine Wyverns",
-                "鋏角種": "Temnocerans"
+                "all": "All",
+                "bird_wyvern": "Bird Wyvern",
+                "fanged_beast": "Fanged Beast",
+                "flying_wryven": "Flying Wryven",
+                "leviathan": "Leviathan",
+                "amphibian": "Amphibian",
+                "fanged_wyvern": "Fanged Wyvern",
+                "brute_wyvern": "Brute Wyvern",
+                "piscine_wyvern": "Piscine Wyvern",
+                "temnoceran": "Temnoceran",
+                "neopteron": "Neopteron",
+                "herbivore": "Herbivore",
+                "lynian": "Lynian",
+                "fish": "Fish",
+                "snake_wyvern": "Snake Wyvern"
             },
             "trait": {
                 "roar": "roar",
@@ -83,6 +89,28 @@
             "battlestrategy": "Battle Strategy",
             "moves": "Attack Patterns",
             "moveshint": "(Click to see informations)"
+        },
+        "smonster": {
+            "name": {
+                "altaroth": "Altaroth",
+                "anteka": "Anteka",
+                "baggi": "Baggi",
+                "bnahabra": "Bnahabra",
+                "bombadgy": "Bombadgy",
+                "bullfango": "Bullfango",
+                "felyne": "Felyne",
+                "gajau": "Gajau",
+                "gargwa": "Gargwa",
+                "izuchi": "Izuchi",
+                "jagras": "Jagras",
+                "kelbi": "Kelbi",
+                "melynx": "Melynx",
+                "remobra": "Remobra",
+                "wroggi": "Wroggi",
+                "popo": "Popo",
+                "slagtoth": "Slagtoth",
+                "zamite": "Zamite"
+            }
         },
         "element": {
             "fire": "fire",
@@ -131,18 +159,72 @@
                 "金靈瓢蟲": "Golden Spiribug"
             },
             "type": {
-                "持續強化生物": "Permabuffer",
-                "獵具生物": "Hunting Helper",
-                "瞬間強化生物": "Temp Buffer",
-                "陷阱生物": "Ensnaring Life",
-                "素材生物": "Crafty Creature",
-                "其他": "Other"
+                "permabuffer": "Permabuffer",
+                "hunting_helper": "Hunting Helper",
+                "temp_buffer": "Temp Buffer",
+                "ensnaring_life": "Ensnaring Life",
+                "crafty_creature": "Crafty Creature",
+                "other": "Other"
             }
         },
         "data": {
             "dex": {
-                "鐮鼬龍王": {
+                "great_izuchi": {
                     "description": "The alpha Izuchi of its pack, identified by its larger build, upended white fur and scythe-like tail. A Great Izuchi forms a herd of many smaller Izuchi and selects two from the group to accompany it on territory patrols. Once it spots prey or senses danger, the Great Izuchi issues commands to their fellow Izuchi, and coordinates their movements. Take care that you don't get overwhelmed."
+                }
+            },
+            "smonster": {
+                "altaroth": {
+                    "name": "Altaroth",
+                    "description": "Insects that widely inhabit many areas. They absorb fruit, musrooms, and honey, and then carry them back to their nest. Materials can thus be collected from their swollen abdomens, whose color is related to what they're carrying."
+                },
+                "bnahabra": {
+                    "name": "Bnahabra",
+                    "description": "Pervasive flying insects that attack invaders with paralyzing venom and lay eggs in carrion along with a fluid that hastens decomposition. It is best to kill them with poison so that their parts are left ripe for the carving."
+                },
+                "bombadgy": {
+                    "name": "Bombadgy",
+                    "description": "An omnivorous small monster with a distinct round shape. Its whole body courses with flammable gas, which it expels in defense when threatened. Once expelled, this gas has explosive properties. This trait has led to Bombadgy being used in combat by many crafty hunters throughout history."
+                },
+                "bullfango": {
+                    "name": "Bullfango",
+                    "description": "Large, wild boars with a foul temper. Fertile and wide-ranging, they have been konwn to form large herds. They are so aggressive that they will attack other members of their own herd if they don't recognize them. Those without a particular reason to hunt them are better off keeping their distance."
+                },
+                "felyne": {
+                    "name": "Felyne",
+                    "description": "Bipedal creatures resembling cats, known for their light hair. Though usually docile, they will attack viciously if provoked. Naturally curious, some try to enter human society, and are often hired by the Guild to cook for and otherwise assist hunters."
+                },
+                "gajau": {
+                    "name": "Gajau",
+                    "description": "Vicious piscine creatures that form groups to defend their territory from intruders. Though primarily aquatic creatures, they have been known to chase their prey onto land, before wriggling back into the banks and into the water. Be sure not to venture too closely to their habitat!"
+                },
+                "gargwa": {
+                    "name": "Gargwa",
+                    "description": "Flightless bird wyverns with vestigial wings, known to inhabit the Shrine Ruins. Quite timid, Gargwa have been known to lay eggs when other creatures surprise them from behind. They are raised as livestock in numerous villages."
+                },
+                "izuchi": {
+                    "name": "Izuchi",
+                    "description": "An omnivorous bird wyvern that has a characteristic scythe-shaped tail. It uses this tail to attack, but also to climb trees and chop down fruit. Most Izuchi fall into herds led by a Great Izuchi; in each herd, the two beset fighters are selected by the two best fighters are selected by the leader to help it hunt prey."
+                },
+                "jagras": {
+                    "name": "Jagras",
+                    "description": "A smaller monster that travels and hunts in packs. Its hide blends in with its forest environment, and it has characteristic spikes on its back. If you chase a few away, the rest will usually follow suit. They tend to keep their distance when large monsters enter their territory, but sometimes the entire group will attack if they feel particularly threatened."
+                },
+                "kelbi": {
+                    "name": "Kelbi",
+                    "description": "Small herbivores known for their gentle demeanor and the medicinal properties of their horns. Those wishing to harvest a horn should aim for the head when attacking them."
+                },
+                "melynx": {
+                    "name": "Melynx",
+                    "description": "Bidepal creatures resembling cats, known for their dark hair. More curious than Felynes and possessed by kleptomania, Melynxes take what they steal back to their dens."
+                },
+                "remobra": {
+                    "name": "Remobra",
+                    "description": "Small but agile flying wyverns that seek out weakened creatures to attack. Often seen near elder dragons, they're considered a portent of disaster. Originally classified as flying wyverns, after further research they were reclassified as snake wyverns."
+                },
+                "wroggi": {
+                    "name": "Wroggi",
+                    "description": "Small, carnivorous bird wyverns with poison-generating organs that run from their mouths to their throats. They run in packs, often led by a large alpha male. Lesser members of the order are fiercely loyal, and will eagerly lay down their lives to protect the alpha."
                 }
             }
         }

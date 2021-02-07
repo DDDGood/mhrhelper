@@ -4,7 +4,7 @@
       <div id="mon-card-icon-background" class="rounded interval-x flex-center">
         <img
           id="monicon"
-          :src="IsNullOrEmpty(mondata.icon)? 'images/icons/monsters/icon_unknown.png':mondata.icon"
+          :src="IsNullOrEmpty(mondata.icon)? 'images/monsters/icons/icon_unknown.png':mondata.icon"
           alt="icon"
         />
       </div>
@@ -23,7 +23,7 @@
       <div class="flex1 color2 rounded">
         <img
           id="monimage"
-          :src="IsNullOrEmpty(mondata.image)? 'images/icons/monsters/icon_unknown.png':mondata.image"
+          :src="IsNullOrEmpty(mondata.image)? 'images/monsters/icons/icon_unknown.png':mondata.image"
           alt="Image"
         />
       </div>
@@ -241,7 +241,7 @@ module.exports = {
   },
   computed: {
     weakdata: function () {
-      console.log("compute weakdata")
+      // console.log("compute weakdata")
       let weakness = {
         weapon: [], element: {}, aliment: {}, item: {}
       }

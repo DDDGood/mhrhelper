@@ -1,0 +1,159 @@
+{
+    "smonster": {
+        "altaroth": {
+            "name": "甲蟲",
+            "species": "neopteron",
+            "habitats": [
+                "shrine_ruins"
+            ],
+            "description": "棲息在各種地方的「甲蟲」。具有將果實或香菇等東西納入體內，運回巢中的習性。因此在其腹部隆起的個體上可以採集到有益的素材。另外，其腹部的顏色似乎會隨著攝取到的素材而跟著產生變化。",
+            "icon": "images/smonster/icons/altaroth.png",
+            "image": "images/smonster/altaroth.png"
+        },
+        "bnahabra": {
+            "name": "飛甲蟲",
+            "species": "neopteron",
+            "habitats": [
+                "shrine_ruins"
+            ],
+            "description": "能棲息於任何環境的「飛甲蟲」。會使用帶有麻痺性的毒，攻擊入侵其勢力範圍者。還會在屍體上產卵繁殖，並且分泌能夠降低耐性的特殊體液，促進腐化作用。要取得這種「飛甲蟲」的素材，最好的手段是使用毒。",
+            "icon": "images/smonster/icons/bnahabra.png",
+            "image": "images/smonster/bnahabra.png"
+        },
+        "bombadgy": {
+            "name": "狸獸",
+            "species": "fanged_beast",
+            "habitats": [
+                "shrine_ruins"
+            ],
+            "description": "小型的雜食性魔物，特徵為其圓滾滾的外型，人稱「狸獸」。全身上下都充滿著可燃的瓦斯，因此外觀經常呈現鼓起的樣子。遇上危險時，會噴出瓦斯來保護自己。一旦狸獸噴出瓦斯，該瓦斯就會隨之爆炸，據說人們從很久以前就懂得使用這種習性狩獵。",
+            "icon": "images/smonster/icons/bombadgy.png",
+            "image": "images/smonster/bombadgy.png"
+        },
+        "bullfango": {
+            "name": "野豬",
+            "species": "fanged_beast",
+            "habitats": [
+                "shrine_ruins"
+            ],
+            "description": "大型的野豬。繁殖力強，幾乎各地都能見到牠們的蹤跡。生性凶暴，一旦有分不清是敵是友的東西出現在視線範圍內，牠們便會毫不留情地衝撞過去。如果沒有什麼特別的事需要找牠們，碰上時還是趕緊逃走為妙。",
+            "icon": "images/smonster/icons/bullfango.png",
+            "image": "images/smonster/bullfango.png"
+        },
+        "felyne": {
+            "name": "艾路",
+            "species": "lynian",
+            "habitats": [
+                "shrine_ruins"
+            ],
+            "description": "外貌形似猫的獸人族。特徵為白毛。平常雖然很溫和，但是遭到攻擊時便會大發雷霆，不分青紅皂白地發動攻擊。好奇心旺盛，部分族群會製作料理招待人類，或是受公會雇用協助獵人。依此可見似乎也有能夠理解人話，融入人類社會的個體。",
+            "icon": "images/smonster/icons/felyne.png",
+            "image": "images/smonster/felyne.png"
+        },
+        "gajau": {
+            "name": "咬魚",
+            "species": "fish",
+            "habitats": [
+                "shrine_ruins"
+            ],
+            "description": "一旦發現入侵地盤者，就會發起猛攻的好戰魚類。雖是水棲生物，但也能在陸地上進行短時間活動。在陸地上追逐完獵物之後，會擺動身體，嘗試回到水邊。也被稱為「咬魚」。 最好不要隨意接近牠們棲息區域附近的水源。",
+            "icon": "images/smonster/icons/gajau.png",
+            "image": "images/smonster/gajau.png"
+        },
+        "gargwa": {
+            "name": "丸鳥",
+            "species": "bird_wyvern",
+            "habitats": [
+                "shrine_ruins"
+            ],
+            "description": "棲息於大社遺跡等等地方的鳥龍種魔物。雖然擁有翅膀，但由於已經退化，因此無法飛翔。在各個村莊都被當成家畜，融入人們的日常生活，用途相當廣泛。由於牠的個性極為膽小，若突然從背後受到驚嚇，有時候還會嚇到生出蛋來。",
+            "icon": "images/smonster/icons/gargwa.png",
+            "image": "images/smonster/gargwa.png"
+        },
+        "izuchi": {
+            "name": "鐮鼬龍",
+            "species": "bird_wyvern",
+            "habitats": [
+                "shrine_ruins"
+            ],
+            "description": "雜食性的鳥龍種，特徵為像镰刀一樣發達的尾巴。牠的尾巴不只可以用來攻擊，還能用來爬樹，或是摘取樹木的果實。鎌鼬龍主要待在镰鼬龍王所率領的龍群中生活，而在群體中 體格較好，且狩獵能力較佳的2隻镰鼬龍，則會跟著鐮鼬龍王一同狩獵。",
+            "icon": "images/smonster/icons/izuchi.png",
+            "image": "images/smonster/izuchi.png"
+        },
+        "jagras": {
+            "name": "凶豺龍",
+            "species": "fanged_wyvern",
+            "habitats": [
+                "shrine_ruins"
+            ],
+            "description": "採取集體生活的小型牙龍種魔物。特徵為具有保護色，能夠融入森林的外皮，以及背上巨大的尖刺。當同伴遭到擊退時，就會全數撤退。如果有大型魔物入侵牠們的地盤，就會退到一定距離外觀察情況，但若感受到危機，也會聯合群體發起攻擊。",
+            "icon": "images/smonster/icons/jagras.png",
+            "image": "images/smonster/jagras.png"
+        },
+        "kelbi": {
+            "name": "精靈鹿",
+            "species": "herbivore",
+            "habitats": [
+                "shrine_ruins"
+            ],
+            "description": "眾所皆知，個性溫和的小型草食獸。其角含有特殊的成分，是廣為人知，能夠治百病的藥材。 想要獲取的話，只要瞄準頭部攻擊即可。",
+            "icon": "images/smonster/icons/kelbi.png",
+            "image": "images/smonster/kelbi.png"
+        },
+        "melynx": {
+            "name": "梅拉路",
+            "species": "lynian",
+            "habitats": [
+                "shrine_ruins"
+            ],
+            "description": "外形像是貓的獸人族。特徵為黑毛的獸人種，比艾路更加活潑好動，好奇心旺盛，非常喜歡惡作劇。手腳不乾淨，會從人的身上偷走東西並帶回部落。",
+            "icon": "images/smonster/icons/melynx.png",
+            "image": "images/smonster/melynx.png"
+        },
+        "remobra": {
+            "name": "翼蛇龍",
+            "species": "snake_wyvern",
+            "habitats": [
+                "shrine_ruins"
+            ],
+            "description": "擁有出色飛行能力的蛇龍種，人稱「翼蛇龍」。會在空中徘徊，積極攻擊弱小的生物。由於時常被目擊到和古龍種同時出現，因此又被稱為「災厄的前兆」。原本被分類為飛龍種，但隨著分類系統調整，現被歸類於蛇龍種。",
+            "icon": "images/smonster/icons/remobra.png",
+            "image": "images/smonster/remobra.png"
+        },
+        "wroggi": {
+            "name": "毒狗龍",
+            "species": "bird_wyvern",
+            "habitats": [
+                "shrine_ruins"
+            ],
+            "description": "小型肉食魔物，其口內到咽喉具有可以生成毒液的器官。原則上大多採取集體行動，並會跟隨大型的雄性個體。在這種情況下，團體的成員會無比忠誠，只需一聲令下，便會挺身保護首領。",
+            "icon": "images/smonster/icons/wroggi.png",
+            "image": "images/smonster/wroggi.png"
+        },
+        "anteka": {
+            "name": "大角鹿",
+            "species": "herbivore",
+            "image": "images/smonster/anteka.png"
+        },
+        "baggi": {
+            "name": "眠狗龍",
+            "species": "bird_wyvern",
+            "image": "images/smonster/baggi.png"
+        },
+        "popo": {
+            "name": "波波",
+            "species": "herbivore",
+            "image": "images/smonster/popo.png"
+        },
+        "slagtoth": {
+            "name": "眠狗龍",
+            "species": "bird_wyvern",
+            "image": "images/smonster/slagtoth.png"
+        },
+        "zamite": {
+            "name": "小冰鮫鯊",
+            "species": "amphibian",
+            "image": "images/smonster/zamite.png"
+        }
+    }
+}

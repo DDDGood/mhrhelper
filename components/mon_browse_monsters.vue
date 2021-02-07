@@ -14,7 +14,7 @@
             class="link-icon"
             v-bind:src="
             !item.icon || item.icon.length === 0
-              ? 'images/icons/monsters/icon_unknown.png'
+              ? 'images/monsters/icons/icon_unknown.png'
               : item.icon
           "
           />

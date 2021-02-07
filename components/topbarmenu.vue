@@ -19,10 +19,13 @@
     </div>
     <div id="menu" v-show="show">
       <router-link to="/mon" custom v-slot="{ navigate }">
-        <button @click="navigate" class="menu-button">{{$t("dataType.largeMonster")}}</button>
+        <button @click="navigate" class="menu-button">{{$t("dataType.large_monsters")}}</button>
       </router-link>
       <router-link to="/endemics" custom v-slot="{ navigate }">
-        <button @click="navigate" class="menu-button">{{$t("dataType.endemicLifes")}}</button>
+        <button @click="navigate" class="menu-button">{{$t("dataType.endemic_lifes")}}</button>
+      </router-link>
+      <router-link to="/smonster" custom v-slot="{ navigate }">
+        <button @click="navigate" class="menu-button">{{$t("dataType.small_monsters")}}</button>
       </router-link>
     </div>
   </div>
@@ -43,16 +46,21 @@ module.exports = {
       const pathArr = decodeURI(this.$route.path).substring(1).split("/");
       switch (pathArr[0]) {
         case "mon":
-          items.push({ name: this.$t("dataType.largeMonster"), path: "/mon" })
+          items.push({ name: this.$t("dataType.large_monsters"), path: "/mon" })
           if (pathArr[1] !== undefined)
             items.push({ name: this.$t("monster.species." + pathArr[1]), path: "/mon/" + pathArr[1] })
           if (pathArr[2] !== undefined)
             items.push({ name: this.$t("monster.name." + pathArr[2]), path: "/mon/" + pathArr[1] + "/" + pathArr[2] })
           break;
         case "endemics":
-          items.push({ name: this.$t("dataType.endemicLifes"), path: "/endemics" })
+          items.push({ name: this.$t("dataType.endemic_lifes"), path: "/endemics" })
           if (pathArr[1] !== undefined)
             items.push({ name: this.$t("endemics.name." + pathArr[1]), path: "/endemics/" + pathArr[1] })
+          break;
+        case "smonster":
+          items.push({ name: this.$t("dataType.small_monsters"), path: "/smonster" })
+          if (pathArr[1] !== undefined)
+            items.push({ name: this.$t("smonster.name." + pathArr[1]), path: "/smonster/" + pathArr[1] })
           break;
         default:
           items.push({ name: "??", path: "/mon" })

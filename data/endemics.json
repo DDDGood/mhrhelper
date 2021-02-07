@@ -2,7 +2,7 @@
   "endemics": {
     "紅鬼火鳥": {
       "nameTW": "紅鬼火鳥",
-      "type": "持續強化生物",
+      "type": "permabuffer",
       "icon": "images/endemics/icons/紅鬼火鳥.png",
       "image": "images/endemics/紅鬼火鳥.png",
       "attributes": {
@@ -12,7 +12,7 @@
     },
     "橙鬼火鳥": {
       "nameTW": "橙鬼火鳥",
-      "type": "持續強化生物",
+      "type": "permabuffer",
       "icon": "images/endemics/icons/橙鬼火鳥.png",
       "image": "images/endemics/橙鬼火鳥.png",
       "attributes": {
@@ -22,7 +22,7 @@
     },
     "綠鬼火鳥": {
       "nameTW": "綠鬼火鳥",
-      "type": "持續強化生物",
+      "type": "permabuffer",
       "icon": "images/endemics/icons/綠鬼火鳥.png",
       "image": "images/endemics/綠鬼火鳥.png",
       "attributes": {
@@ -32,7 +32,7 @@
     },
     "黃鬼火鳥": {
       "nameTW": "黃鬼火鳥",
-      "type": "持續強化生物",
+      "type": "permabuffer",
       "icon": "images/endemics/icons/黃鬼火鳥.png",
       "image": "images/endemics/黃鬼火鳥.png",
       "attributes": {
@@ -42,7 +42,7 @@
     },
     "劇毒瓦斯蛙": {
       "nameTW": "劇毒瓦斯蛙",
-      "type": "獵具生物",
+      "type": "hunting_helper",
       "icon": "images/endemics/icons/劇毒瓦斯蛙.png",
       "image": "images/endemics/劇毒瓦斯蛙.png",
       "video": "videos/endemics/劇毒瓦斯蛙.mp4",
@@ -58,7 +58,7 @@
     },
     "炸彈瓦斯蛙": {
       "nameTW": "炸彈瓦斯蛙",
-      "type": "獵具生物",
+      "type": "hunting_helper",
       "icon": "images/endemics/icons/炸彈瓦斯蛙.png",
       "image": "images/endemics/炸彈瓦斯蛙.png",
       "video": "videos/endemics/炸彈瓦斯蛙.mp4",
@@ -75,7 +75,7 @@
     },
     "火石甲蟲": {
       "nameTW": "火石甲蟲",
-      "type": "獵具生物",
+      "type": "hunting_helper",
       "icon": "images/endemics/icons/火石甲蟲.png",
       "image": "images/endemics/火石甲蟲.png",
       "video": "videos/endemics/火石甲蟲.mp4",
@@ -87,7 +87,7 @@
     },
     "泥球甲蟲": {
       "nameTW": "泥球甲蟲",
-      "type": "獵具生物",
+      "type": "hunting_helper",
       "icon": "images/endemics/icons/泥球甲蟲.png",
       "image": "images/endemics/泥球甲蟲.png",
       "video": "videos/endemics/泥球甲蟲.mp4",
@@ -102,7 +102,7 @@
     },
     "雷毛甲蟲": {
       "nameTW": "雷毛甲蟲",
-      "type": "獵具生物",
+      "type": "hunting_helper",
       "icon": "images/endemics/icons/雷毛甲蟲.png",
       "image": "images/endemics/雷毛甲蟲.png",
       "video": "videos/endemics/雷毛甲蟲.mp4",
@@ -117,7 +117,7 @@
     },
     "雪石甲蟲": {
       "nameTW": "雪石甲蟲",
-      "type": "獵具生物",
+      "type": "hunting_helper",
       "icon": "images/endemics/icons/雪石甲蟲.png",
       "image": "images/endemics/雪石甲蟲.png",
       "video": "videos/endemics/雪石甲蟲.mp4",
@@ -129,7 +129,7 @@
     },
     "臭臭鼬鼠": {
       "nameTW": "臭臭鼬鼠",
-      "type": "獵具生物",
+      "type": "hunting_helper",
       "icon": "images/endemics/icons/臭臭鼬鼠.png",
       "image": "images/endemics/臭臭鼬鼠.png",
       "video": "videos/endemics/臭臭鼬鼠.mp4",
@@ -141,7 +141,7 @@
     },
     "落雨蝸牛": {
       "nameTW": "落雨蝸牛",
-      "type": "獵具生物",
+      "type": "hunting_helper",
       "icon": "images/endemics/icons/落雨蝸牛.png",
       "image": "images/endemics/落雨蝸牛.png",
       "video": "videos/endemics/落雨蝸牛.mp4",
@@ -153,7 +153,7 @@
     },
     "傀儡蜘蛛": {
       "nameTW": "傀儡蜘蛛",
-      "type": "獵具生物",
+      "type": "hunting_helper",
       "icon": "images/endemics/icons/傀儡蜘蛛.png",
       "image": "images/endemics/傀儡蜘蛛.png",
       "video": "videos/endemics/傀儡蜘蛛.mp4",
@@ -167,7 +167,7 @@
     },
     "子泣雉雞": {
       "nameTW": "子泣雉雞",
-      "type": "獵具生物",
+      "type": "hunting_helper",
       "icon": "images/endemics/icons/子泣雉雞.png",
       "image": "images/endemics/子泣雉雞.png",
       "video": "videos/endemics/子泣雉雞.mp4",
@@ -181,7 +181,7 @@
     },
     "撒菱蟲": {
       "nameTW": "撒菱蟲",
-      "type": "獵具生物",
+      "type": "hunting_helper",
       "icon": "images/endemics/icons/撒菱蟲.png",
       "image": "images/endemics/撒菱蟲.png",
       "video": "videos/endemics/撒菱蟲.mp4",
@@ -197,7 +197,7 @@
     },
     "轆轤蛇": {
       "nameTW": "轆轤蛇",
-      "type": "獵具生物",
+      "type": "hunting_helper",
       "icon": "images/endemics/icons/轆轤蛇.png",
       "image": "images/endemics/轆轤蛇.png",
       "video": "videos/endemics/轆轤蛇.mp4",
@@ -210,7 +210,7 @@
     },
     "加釀兔": {
       "nameTW": "加釀兔",
-      "type": "獵具生物",
+      "type": "hunting_helper",
       "icon": "images/endemics/icons/加釀兔.png",
       "image": "images/endemics/加釀兔.png",
       "video": "videos/endemics/加釀兔.mp4",
@@ -221,7 +221,7 @@
     },
     "翔蟲": {
       "nameTW": "翔蟲",
-      "type": "瞬間強化生物",
+      "type": "temp_buffer",
       "icon": "images/endemics/icons/翔蟲.png",
       "image": "images/endemics/翔蟲.png",
       "video": "videos/endemics/翔蟲.mp4",
@@ -236,7 +236,7 @@
     },
     "回復蜜蟲": {
       "nameTW": "回復蜜蟲",
-      "type": "瞬間強化生物",
+      "type": "temp_buffer",
       "icon": "images/endemics/icons/回復蜜蟲.png",
       "image": "images/endemics/回復蜜蟲.png",
       "video": "videos/endemics/回復蜜蟲.mp4",
@@ -247,7 +247,7 @@
     },
     "一反粉蝶": {
       "nameTW": "一反粉蝶",
-      "type": "瞬間強化生物",
+      "type": "temp_buffer",
       "icon": "images/endemics/icons/一反粉蝶.png",
       "image": "images/endemics/一反粉蝶.png",
       "video": "videos/endemics/一反粉蝶.mp4",
@@ -259,7 +259,7 @@
     },
     "火紅焰蝶": {
       "nameTW": "火紅焰蝶",
-      "type": "瞬間強化生物",
+      "type": "temp_buffer",
       "icon": "images/endemics/icons/火紅焰蝶.png",
       "image": "images/endemics/火紅焰蝶.png",
       "video": "videos/endemics/火紅焰蝶.mp4",
@@ -271,7 +271,7 @@
     },
     "百目斑蝶": {
       "nameTW": "百目斑蝶",
-      "type": "瞬間強化生物",
+      "type": "temp_buffer",
       "icon": "images/endemics/icons/百目斑蝶.png",
       "image": "images/endemics/百目斑蝶.png",
       "video": "videos/endemics/百目斑蝶.mp4",
@@ -283,7 +283,7 @@
     },
     "網切蜻蜓": {
       "nameTW": "網切蜻蜓",
-      "type": "瞬間強化生物",
+      "type": "temp_buffer",
       "icon": "images/endemics/icons/網切蜻蜓.png",
       "image": "images/endemics/網切蜻蜓.png",
       "video": "videos/endemics/網切蜻蜓.mp4",
@@ -295,7 +295,7 @@
     },
     "閃光翅蟲": {
       "nameTW": "閃光翅蟲",
-      "type": "陷阱生物",
+      "type": "ensnaring_life",
       "icon": "images/endemics/icons/閃光翅蟲.png",
       "image": "images/endemics/閃光翅蟲.png",
       "video": "videos/endemics/閃光翅蟲.mp4",
@@ -306,7 +306,7 @@
     },
     "石守蜥蜴": {
       "nameTW": "石守蜥蜴",
-      "type": "素材生物",
+      "type": "crafty_creature",
       "icon": "images/endemics/icons/石守蜥蜴.png",
       "image": "images/endemics/石守蜥蜴.png",
       "video": "videos/endemics/石守蜥蜴.mp4",
@@ -320,7 +320,7 @@
     },
     "岩守蜥蜴": {
       "nameTW": "岩守蜥蜴",
-      "type": "素材生物",
+      "type": "crafty_creature",
       "icon": "images/endemics/icons/岩守蜥蜴.png",
       "image": "images/endemics/岩守蜥蜴.png",
       "video": "videos/endemics/岩守蜥蜴.mp4",
@@ -334,7 +334,7 @@
     },
     "鱗守蜥蜴": {
       "nameTW": "鱗守蜥蜴",
-      "type": "素材生物",
+      "type": "crafty_creature",
       "icon": "images/endemics/icons/鱗守蜥蜴.png",
       "image": "images/endemics/鱗守蜥蜴.png",
       "video": "videos/endemics/鱗守蜥蜴.mp4",
@@ -345,7 +345,7 @@
     },
     "大翔蟲": {
       "nameTW": "大翔蟲",
-      "type": "其他",
+      "type": "other",
       "icon": "images/endemics/icons/大翔蟲.png",
       "image": "images/endemics/大翔蟲.png",
       "video": "videos/endemics/大翔蟲.mp4",
@@ -356,7 +356,7 @@
     },
     "金靈瓢蟲": {
       "nameTW": "金靈瓢蟲",
-      "type": "其他",
+      "type": "other",
       "icon": "images/endemics/icons/金靈瓢蟲.png",
       "image": "images/endemics/金靈瓢蟲.png",
       "video": "videos/endemics/金靈瓢蟲.mp4",

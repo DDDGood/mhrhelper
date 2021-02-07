@@ -70,7 +70,7 @@ function SetMon(key) {
     // SetElementById('species', monObj.species);
 
     // var icon = document.getElementById('monicon');
-    // icon.setAttribute("src", IsNullOrEmpty(monObj.icon) ? "images/icons/monsters/icon_unknown.png" : monObj.icon);
+    // icon.setAttribute("src", IsNullOrEmpty(monObj.icon) ? "images/monsters/icons/icon_unknown.png" : monObj.icon);
 
     // var image = document.getElementById('monimage');
     // image.setAttribute("src", monObj.image);
@@ -694,7 +694,7 @@ function OnClickCloseMoveInfo(e) {
 //     // btn.setAttribute("onclick", "SetMon('" + key + "')");
 //     // var btnicon = new Image();
 //     // btnicon.className = "image-button-mon-icon";
-//     // btnicon.src = IsNullOrEmpty(mon.icon) ? "images/icons/monsters/icon_unknown.png" : mon.icon;
+//     // btnicon.src = IsNullOrEmpty(mon.icon) ? "images/monsters/icons/icon_unknown.png" : mon.icon;
 //     // var btnText = CreateClassElement("div", "text-button-mon-name", key);
 //     // btn.appendChild(btnicon);
 //     // btn.appendChild(btnText);
@@ -702,7 +702,7 @@ function OnClickCloseMoveInfo(e) {
 // }
 
 // // var speciesList = document.getElementById('specieslist');
-// // var allspeciesBtn = CreateClassElement("BUTTON", "btnspecies flex-2", "全部");
+// // var allspeciesBtn = CreateClassElement("BUTTON", "btnspecies flex-2", "all");
 // // allspeciesBtn.setAttribute("onclick", "Setspecies('全部')");
 // // speciesList.appendChild(allspeciesBtn);
 // // for (var specie in speciesDictionary) {

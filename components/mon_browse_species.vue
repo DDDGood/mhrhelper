@@ -3,11 +3,10 @@
     <div class="layout-main">
       <div class="header3">{{$t('species')}}</div>
       <div id="specieslist">
-        <!-- <router-link tag="button" class="btnspecies flex-2" to="/mon/全部">全部</router-link> -->
         <router-link
           tag="button"
           class="btnspecies"
-          :class="{ 'flex-1': key !== '全部', 'flex-2': key === '全部' }"
+          :class="{ 'flex-1': key !== 'all', 'flex-2': key === 'all' }"
           v-for="(item, key) in specieslist"
           v-bind:key="key"
           v-bind:to="'/mon/' + key"
@@ -30,6 +29,7 @@ module.exports = {
     }
   },
   created: function () {
+    // console.log(this.specieslist);
   }
 };
 </script>  

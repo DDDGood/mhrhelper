@@ -18,12 +18,27 @@ function SetLocal(key) {
     }
     i18n.locale = key;
 }
+// function GetLocaleNameByKey(dataType, key) {
+//     const typeData = GetData(dataType);
+//     if (typeData !== undefined) {
+//         const objData = typeData[key];
+//         if (objData !== undefined) {
+//             const nameData = objData.name;
+//             if (nameData !== undefined) {
+//                 const localeName = nameData[i18n.locale];
+//                 if (localeName !== undefined)
+//                     return localeName
+//             }
+//         }
+//     }
+//     return key;
+// }
 
 
 $(document).ready(Initialize);
 
 function Initialize() {
-    LoadData(['data/mhrdex.json', 'data/mhrmoves.json', 'data/endemics.json'], onDexLoaded);
+    LoadData(['data/mhrdex.json', 'data/mhrmoves.json', 'data/endemics.json', "data/smonster.json"], onDexLoaded);
 }
 
 function LoadData(paths, callback) {
@@ -54,10 +69,10 @@ function onDexLoaded() {
 
     const dexData = GetData("dex");
 
-    speciesDictionary["全部"] = {};
+    speciesDictionary["all"] = {};
     for (key in dexData) {
         var mon = dexData[key];
-        speciesDictionary["全部"][key] = mon;
+        speciesDictionary["all"][key] = mon;
         if (mon.species !== "") {
             if (speciesDictionary.hasOwnProperty(mon.species) == false) {
                 speciesDictionary[mon.species] = {};
@@ -82,22 +97,16 @@ function onDexLoaded() {
         i18n
     })
 
-    const searchParams = new URLSearchParams(location.search);
-    const navMon = searchParams.get('mon');
-    if (dexData.hasOwnProperty(navMon)) {
-        router.push({
-            path: "/mon/" + dexData[navMon].species + "/" + navMon
-        });
-    }
-
-    // if (data.hasOwnProperty('localization')) {
-    //     data["localization"]["tw"] = {};
-    //     for (const key in data) {
-    //         if (key === "localization")
-    //             continue;
-    //         data["localization"]["tw"][key] = JSON.parse(JSON.stringify(data[key]));
-    //     }
+    // const searchParams = new URLSearchParams(location.search);
+    // const navMon = searchParams.get('mon');
+    // var result = Object.keys(dexData).find(key => dexData[key].name.tw === navMon);
+    // console.log(navMon);
+    // if (dexData.hasOwnProperty(result)) {
+    //     router.push({
+    //         path: "/mon/" + dexData[result].species + "/" + result
+    //     });
     // }
+
 
     data = Vue.observable(data);
     dataTW = JSON.parse(JSON.stringify(data));
@@ -106,9 +115,21 @@ function onDexLoaded() {
 
 
     // let temp = {};
-    // for (let id in data.endemics) {
-    //     let key = id;
-    //     let val = data.endemics[id].nameTW;
+    // for (let id in data['endemics']) {
+    //     let key = i18n.messages.en.endemics.name[id].toLowerCase().replace(' ', "_");
+    //     let val = data['endemics'][id].name;
+    //     temp[key] = val;
+    // }
+
+    // console.log(JSON.stringify(temp));
+
+    // const win = window.open('about:blank', '_blank');
+    // win.document.write(JSON.stringify(temp));
+
+    // let temp = {};
+    // for (let id in i18n.messages.en.endemics.name) {
+    //     let key = i18n.messages.en.endemics.name[id].toLowerCase().replace(' ', "_");
+    //     let val = i18n.messages.en.endemics.name[id];
     //     temp[key] = val;
     // }
     // console.log(JSON.stringify(temp));
@@ -121,6 +142,8 @@ function InitRouter() {
     const SpeciesListComp = httpVueLoader("components/mon_browse_species.vue");
     const MonListComp = httpVueLoader("components/mon_browse_monsters.vue");
     const MonComp = httpVueLoader("components/mon_main.vue");
+    const SMonsterListComp = httpVueLoader("components/smonster_browse_all.vue");
+    const SMonsterComp = httpVueLoader("components/smonster_main.vue");
     const EndemicListComp = httpVueLoader("components/endemics_browse_all.vue");
     const EndemicComp = httpVueLoader("components/endemics_main.vue");
 
@@ -147,6 +170,18 @@ function InitRouter() {
                 path: '/mon/:species/:name',
                 component: MonComp,
                 props: { dex: GetData("dex"), moves: GetData("moves") }
+            },
+            {
+                name: 'smonsterlist',
+                path: '/smonster',
+                component: SMonsterListComp,
+                props: { smonsters: GetData("smonster") }
+            },
+            {
+                name: 'smonster',
+                path: '/smonster/:name',
+                component: SMonsterComp,
+                props: { smonsters: GetData("smonster") }
             },
             {
                 name: 'endemiclist',
