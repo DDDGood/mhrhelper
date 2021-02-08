@@ -23,7 +23,7 @@ function Setspecies(key) {
         if (key === '全部') {
             btn.style.display = "inline";
         } else {
-            if (GetData("dex")[btn.children[1].innerHTML].species === key)
+            if (GetData("monster")[btn.children[1].innerHTML].species === key)
                 btn.style.display = "inline";
             else
                 btn.style.display = "none";
@@ -41,7 +41,7 @@ function Setspecies(key) {
 
 function SetMon(key) {
 
-    var monObj = GetData("dex")[key];
+    var monObj = GetData("monster")[key];
     panel.Refresh(monObj);
     currentMon = monObj;
 

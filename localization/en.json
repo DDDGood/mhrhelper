@@ -6,6 +6,7 @@
         "description": "Description",
         "description_details": "Details",
         "reference": "Reference",
+        "note": "Note",
         "type": "Type",
         "trait": "Trait",
         "dataType": {
@@ -90,7 +91,7 @@
             "moves": "Attack Patterns",
             "moveshint": "(Click to see informations)"
         },
-        "smonster": {
+        "small_monster": {
             "name": {
                 "altaroth": "Altaroth",
                 "anteka": "Anteka",
@@ -128,35 +129,35 @@
         },
         "endemics": {
             "name": {
-                "紅鬼火鳥": "Red Spiribird",
-                "橙鬼火鳥": "Orange Spiribird",
-                "綠鬼火鳥": "Green Spiribird",
-                "黃鬼火鳥": "Yellow Spiribird",
-                "劇毒瓦斯蛙": "Poisontoad",
-                "炸彈瓦斯蛙": "Blastoad",
-                "火石甲蟲": "Firebeetle",
-                "泥球甲蟲": "Mudbeetle",
-                "雷毛甲蟲": "Thunderbeetle",
-                "雪石甲蟲": "Snowbeetle",
-                "臭臭鼬鼠": "Stinkmink",
-                "落雨蝸牛": "Escuregot",
-                "傀儡蜘蛛": "Puppet Spider",
-                "子泣雉雞": "Wailnard",
-                "撒菱蟲": "Trapbugs",
-                "轆轤蛇": "Antidobra",
-                "加釀兔": "Brewhare",
-                "翔蟲": "Wirebug",
-                "回復蜜蟲": "Vigorwasp",
-                "一反粉蝶": "Clothfly",
-                "火紅焰蝶": "Butterflame",
-                "百目斑蝶": "Peepersects",
-                "網切蜻蜓": "Cutterfly",
-                "閃光翅蟲": "Flashfly",
-                "石守蜥蜴": "Rock Lizard",
-                "岩守蜥蜴": "Boulder Lizard",
-                "鱗守蜥蜴": "Scale Lizard",
-                "大翔蟲": "Great Wirebug",
-                "金靈瓢蟲": "Golden Spiribug"
+                "red_spiribird": "Red Spiribird",
+                "orange_spiribird": "Orange Spiribird",
+                "green_spiribird": "Green Spiribird",
+                "yellow_spiribird": "Yellow Spiribird",
+                "poisontoad": "Poisontoad",
+                "blastoad": "Blastoad",
+                "firebeetle": "Firebeetle",
+                "mudbeetle": "Mudbeetle",
+                "thunderbeetle": "Thunderbeetle",
+                "snowbeetle": "Snowbeetle",
+                "stinkmink": "Stinkmink",
+                "escuregot": "Escuregot",
+                "puppet_spider": "Puppet Spider",
+                "wailnard": "Wailnard",
+                "trapbugs": "Trapbugs",
+                "antidobra": "Antidobra",
+                "brewhare": "Brewhare",
+                "wirebug": "Wirebug",
+                "vigorwasp": "Vigorwasp",
+                "clothfly": "Clothfly",
+                "butterflame": "Butterflame",
+                "peepersects": "Peepersects",
+                "cutterfly": "Cutterfly",
+                "flashfly": "Flashfly",
+                "rock_lizard": "Rock Lizard",
+                "boulder_lizard": "Boulder Lizard",
+                "scale_lizard": "Scale Lizard",
+                "great_wirebug": "Great Wirebug",
+                "golden_spiribug": "Golden Spiribug"
             },
             "type": {
                 "permabuffer": "Permabuffer",
@@ -165,15 +166,114 @@
                 "ensnaring_life": "Ensnaring Life",
                 "crafty_creature": "Crafty Creature",
                 "other": "Other"
-            }
+            },
+            "attribute": {
+                "buff": "Buff",
+                "effect": "Special Effect",
+                "trap_duration": "Trap Duration",
+                "effect_duration": "Effect Duration",
+                "placement_duration": "Placement Duration",
+                "deal_damage": "Deal Damage"
+            },
+            "video": "Video",
+            "video_reference": "Source: <a href='https://forum.gamer.com.tw/C.php?bsn=5786&snA=158908'> 環境生物整理<a>，Thanks jimmerican55(馬雲巴巴) for providing video."
         },
         "data": {
-            "dex": {
+            "monster": {
                 "great_izuchi": {
                     "description": "The alpha Izuchi of its pack, identified by its larger build, upended white fur and scythe-like tail. A Great Izuchi forms a herd of many smaller Izuchi and selects two from the group to accompany it on territory patrols. Once it spots prey or senses danger, the Great Izuchi issues commands to their fellow Izuchi, and coordinates their movements. Take care that you don't get overwhelmed."
                 }
             },
-            "smonster": {
+            "endemics": {
+                "red_spiribird": {
+                    "name": "Red Spiribird"
+                },
+                "orange_spiribird": {
+                    "name": "Orange Spiribird"
+                },
+                "green_spiribird": {
+                    "name": "Green Spiribird"
+                },
+                "yellow_spiribird": {
+                    "name": "Yellow Spiribird"
+                },
+                "poisontoad": {
+                    "name": "Poisontoad"
+                },
+                "blastoad": {
+                    "name": "Blastoad"
+                },
+                "firebeetle": {
+                    "name": "Firebeetle"
+                },
+                "mudbeetle": {
+                    "name": "Mudbeetle"
+                },
+                "thunderbeetle": {
+                    "name": "Thunderbeetle"
+                },
+                "snowbeetle": {
+                    "name": "Snowbeetle"
+                },
+                "stinkmink": {
+                    "name": "Stinkmink"
+                },
+                "escuregot": {
+                    "name": "Escuregot"
+                },
+                "puppet_spider": {
+                    "name": "Puppet Spider"
+                },
+                "wailnard": {
+                    "name": "Wailnard"
+                },
+                "trapbugs": {
+                    "name": "Trapbugs"
+                },
+                "antidobra": {
+                    "name": "Antidobra"
+                },
+                "brewhare": {
+                    "name": "Brewhare"
+                },
+                "wirebug": {
+                    "name": "Wirebug"
+                },
+                "vigorwasp": {
+                    "name": "Vigorwasp"
+                },
+                "clothfly": {
+                    "name": "Clothfly"
+                },
+                "butterflame": {
+                    "name": "Butterflame"
+                },
+                "peepersects": {
+                    "name": "Peepersects"
+                },
+                "cutterfly": {
+                    "name": "Cutterfly"
+                },
+                "flashfly": {
+                    "name": "Flashfly"
+                },
+                "rock_lizard": {
+                    "name": "Rock Lizard"
+                },
+                "boulder_lizard": {
+                    "name": "Boulder Lizard"
+                },
+                "scale_lizard": {
+                    "name": "Scale Lizard"
+                },
+                "great_wirebug": {
+                    "name": "Great Wirebug"
+                },
+                "golden_spiribug": {
+                    "name": "Golden Spiribug"
+                }
+            },
+            "small_monster": {
                 "altaroth": {
                     "name": "Altaroth",
                     "description": "Insects that widely inhabit many areas. They absorb fruit, musrooms, and honey, and then carry them back to their nest. Materials can thus be collected from their swollen abdomens, whose color is related to what they're carrying."

@@ -5,7 +5,7 @@
         <img id="icon" ref="icon" v-bind:src="endemicdata.icon" alt="icon" />
       </div>
       <div class="flex1 flex-center color2 rounded interval-x">
-        <div class="card-text text-large text-bold">{{$t('endemics.name.' + endemicdata.nameTW)}}</div>
+        <div class="card-text text-large text-bold">{{endemicdata.name}}</div>
       </div>
     </div>
     <div class="flex-row interval-y">
@@ -26,7 +26,9 @@
         <div class="flex1 card-text text-bold">{{$t('trait')}}</div>
         <div class="flex1 margin">
           <div class="flex-row interval-y" v-for="(value,key) in endemicdata.attributes" :key="key">
-            <div class="flex1 color2 rounded-left interval-x card-text flex-center">{{key}}</div>
+            <div
+              class="flex1 color2 rounded-left interval-x card-text flex-center"
+            >{{$t('endemics.attribute.'+key)}}</div>
             <div
               class="flex2 color2 rounded-right interval-x card-text flex-center"
               :class="{'text-left':value.length>10}"
@@ -37,7 +39,7 @@
     </div>
     <div class="flex-row interval-y" v-show="endemicdata.notes!==undefined">
       <div class="flex1 flex-column color1 rounded">
-        <div class="flex1 card-text text-bold">備註</div>
+        <div class="flex1 card-text text-bold">{{$t('note')}}</div>
         <div class="flex1 margin">
           <div class="flex-row interval-y" v-for="(value,id) in endemicdata.notes" :key="id">
             <div class="flex2 card-text">{{'*' + value}}</div>

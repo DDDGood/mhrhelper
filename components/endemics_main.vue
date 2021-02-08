@@ -10,8 +10,10 @@
           <span id="description" v-html="ParseDescriptionText(endemicdata.description)"></span>
         </details>
         <details open v-show="!IsNullOrEmpty(endemicdata.video)">
-          <summary class="header2">使用效果影片</summary>
-          <span><p class="description-text-quote">影片來自巴哈姆特：<a href="https://forum.gamer.com.tw/C.php?bsn=5786&snA=158908"> 環境生物整理<a>，感謝版友jimmerican55(馬雲巴巴)提供影片。</P></span>
+          <summary class="header2">{{$t('endemics.video')}}</summary>
+          <span>
+            <p class="description-text-quote" v-html="$t('endemics.video_reference')"></p>
+          </span>
           <video
             ref="video"
             width="100%"
@@ -22,7 +24,7 @@
             playsinline
             muted
           >
-            <source :src="endemicdata.video" type="video/mp4"/>
+            <source :src="endemicdata.video" type="video/mp4" />
           </video>
         </details>
       </div>
@@ -49,14 +51,11 @@ module.exports = {
 }
 </script>
 <style scoped>
-
 /* mobile */
 @media (max-width: 1199.98px) {
-
 }
 
 /* desktops */
 @media (min-width: 1200px) {
-
 }
 </style>

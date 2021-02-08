@@ -13,7 +13,7 @@
           class="link-icon"
           v-bind:src="IsNullOrEmpty(item.icon) ? 'images/monsters/icons/icon_unknown.png': item.icon "
         />
-        <div class="link-text">{{$t('smonster.name.' + key)}}</div>
+        <div class="link-text">{{$t('small_monster.name.' + key)}}</div>
       </router-link>
     </div>
   </div>

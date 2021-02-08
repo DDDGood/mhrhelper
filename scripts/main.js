@@ -39,7 +39,7 @@ $(document).ready(Initialize);
 
 function Initialize() {
 
-    LoadData(['data/mhrdex.json', 'data/mhrmoves.json', 'data/endemics.json', "data/smonster.json"], onDexLoaded);
+    LoadData(['data/mhrdex.json', 'data/mhrmoves.json', 'data/endemics.json', "data/small_monster.json"], onDexLoaded);
 }
 
 function LoadData(paths, callback) {
@@ -68,7 +68,7 @@ function LoadData(paths, callback) {
 
 function onDexLoaded() {
 
-    const dexData = GetData("dex");
+    const dexData = GetData("monster");
 
     speciesDictionary["all"] = {};
     for (key in dexData) {
@@ -131,8 +131,10 @@ function onDexLoaded() {
 
     // let temp = {};
     // for (let id in data['endemics']) {
-    //     let key = i18n.messages.en.endemics.name[id].toLowerCase().replace(' ', "_");
-    //     let val = data['endemics'][id].name;
+    //     let key = id;
+    //     let val = {
+    //         name: i18n.messages.en.endemics.name[id]
+    //     };
     //     temp[key] = val;
     // }
 
@@ -174,30 +176,30 @@ function InitRouter() {
                 name: 'monlist',
                 path: '/mon',
                 component: SpeciesListComp,
-                props: { dex: GetData("dex"), specieslist: speciesDictionary }
+                props: { dex: GetData("monster"), specieslist: speciesDictionary }
             },
             {
                 path: '/mon/:species',
                 component: MonListComp,
-                props: { specieslist: speciesDictionary, mondata: GetData("dex") }
+                props: { specieslist: speciesDictionary, mondata: GetData("monster") }
             },
             {
                 name: 'mon',
                 path: '/mon/:species/:name',
                 component: MonComp,
-                props: { dex: GetData("dex"), moves: GetData("moves") }
+                props: { dex: GetData("monster"), moves: GetData("moves") }
             },
             {
                 name: 'smonsterlist',
                 path: '/smonster',
                 component: SMonsterListComp,
-                props: { smonsters: GetData("smonster") }
+                props: { smonsters: GetData("small_monster") }
             },
             {
                 name: 'smonster',
                 path: '/smonster/:name',
                 component: SMonsterComp,
-                props: { smonsters: GetData("smonster") }
+                props: { smonsters: GetData("small_monster") }
             },
             {
                 name: 'endemiclist',

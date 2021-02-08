@@ -60,7 +60,7 @@ module.exports = {
         case "smonster":
           items.push({ name: this.$t("dataType.small_monsters"), path: "/smonster" })
           if (pathArr[1] !== undefined)
-            items.push({ name: this.$t("smonster.name." + pathArr[1]), path: "/smonster/" + pathArr[1] })
+            items.push({ name: this.$t("small_monster.name." + pathArr[1]), path: "/smonster/" + pathArr[1] })
           break;
         default:
           items.push({ name: "??", path: "/mon" })
