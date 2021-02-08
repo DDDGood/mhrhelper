@@ -38,6 +38,7 @@ function SetLocal(key) {
 $(document).ready(Initialize);
 
 function Initialize() {
+
     LoadData(['data/mhrdex.json', 'data/mhrmoves.json', 'data/endemics.json', "data/smonster.json"], onDexLoaded);
 }
 
@@ -97,21 +98,35 @@ function onDexLoaded() {
         i18n
     })
 
-    // const searchParams = new URLSearchParams(location.search);
-    // const navMon = searchParams.get('mon');
-    // var result = Object.keys(dexData).find(key => dexData[key].name.tw === navMon);
-    // console.log(navMon);
-    // if (dexData.hasOwnProperty(result)) {
-    //     router.push({
-    //         path: "/mon/" + dexData[result].species + "/" + result
-    //     });
-    // }
-
 
     data = Vue.observable(data);
     dataTW = JSON.parse(JSON.stringify(data));
 
     $("#wrapper").show();
+
+    let uri = window.location.href.split('?');
+    if (uri.length == 2) {
+        let vars = uri[1].split('&');
+        let getVars = {};
+        let tmp = '';
+        vars.forEach(function (v) {
+            tmp = v.split('=');
+            if (tmp.length == 2)
+                getVars[tmp[0]] = tmp[1];
+        });
+
+        if (getVars['mon'] !== undefined) {
+            const navMon = decodeURI(getVars['mon']);
+            var result = Object.keys(dexData).find(key => dexData[key].name.tw === navMon);
+            console.log('try redirect to: ' + navMon);
+            if (dexData.hasOwnProperty(result)) {
+                router.push({
+                    path: "/mon/" + dexData[result].species + "/" + result
+                });
+            }
+        }
+    }
+
 
 
     // let temp = {};
