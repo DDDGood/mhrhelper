@@ -156,6 +156,7 @@ function InitRouter() {
     // const Bar = httpVueLoader("temp.vue");
     const SpeciesListComp = httpVueLoader("components/mon_browse_species.vue");
     const MonListComp = httpVueLoader("components/mon_browse_monsters.vue");
+    const newMonList = httpVueLoader("components/mon_browse_all.vue");
     const MonComp = httpVueLoader("components/mon_main.vue");
     const SMonsterListComp = httpVueLoader("components/smonster_browse_all.vue");
     const SMonsterComp = httpVueLoader("components/smonster_main.vue");
