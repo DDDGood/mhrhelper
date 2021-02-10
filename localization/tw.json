@@ -4,7 +4,7 @@
         "species": "種類",
         "list": "列表",
         "description": "基本介紹",
-        "description_details": "設定細節",
+        "description_detail": "設定細節",
         "reference": "參考資料",
         "note": "備註",
         "dataType": {
@@ -17,7 +17,7 @@
         "monster": {
             "name": {
                 "great_izuchi": "鐮鼬龍王",
-                "aoashira": "青熊獸",
+                "arzuros": "青熊獸",
                 "rathian": "雌火龍",
                 "mizutsune": "泡狐龍",
                 "tetranadon": "河童蛙",
@@ -89,7 +89,13 @@
             "hitdata": "詳細肉質(舊版資訊)",
             "battlestrategy": "對戰要點",
             "moves": "招式派生",
-            "moveshint": "(點擊可查看招式介紹)"
+            "move": {
+                "moveshint": "(點擊可查看招式介紹)",
+                "preaction": "預兆",
+                "action": "動作",
+                "recovery": "硬直",
+                "note": "備註"
+            }
         },
         "small_monster": {
             "name": {
@@ -157,7 +163,9 @@
                 "boulder_lizard": "岩守蜥蜴",
                 "scale_lizard": "鱗守蜥蜴",
                 "great_wirebug": "大翔蟲",
-                "golden_spiribug": "金靈瓢蟲"
+                "golden_spiribug": "金靈瓢蟲",
+                "tricktoad": "檜扇蛙",
+                "giganha": "飢餓凶魚"
             },
             "type": {
                 "permabuffer": "持續強化生物",
@@ -175,8 +183,14 @@
                 "placement_duration": "放置持續時間",
                 "deal_damage": "造成傷害"
             },
+            "map_locations": "地圖分布",
             "video": "使用效果影片",
             "video_reference": "影片來自巴哈姆特：<a href='https://forum.gamer.com.tw/C.php?bsn=5786&snA=158908'> 環境生物整理<a>，感謝版友jimmerican55(馬雲巴巴)提供影片。"
+        },
+        "map": {
+            "name": {
+                "shrine_ruins": "大社遺跡"
+            }
         }
     }
 }

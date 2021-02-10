@@ -130,10 +130,11 @@ function onDexLoaded() {
 
 
     // let temp = {};
-    // for (let id in data['endemics']) {
+    // for (let id in data['monster']) {
     //     let key = id;
     //     let val = {
-    //         name: i18n.messages.en.endemics.name[id]
+    //         name: i18n.messages.en.monster.name[id],
+    //         description: ""
     //     };
     //     temp[key] = val;
     // }

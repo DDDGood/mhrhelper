@@ -42,14 +42,14 @@ function OnLocaleLoaded() {
 //         species: "種類",
 //         list: "列表",
 //         description: "基本介紹",
-//         description_details: "設定細節",
+//         description_detail: "設定細節",
 //         reference: "參考資料",
 //         dataType: {
 //             large_monsters: "大型魔物",
 //             endemic_lifes: "環境生物"
 //         },
 //         monster: {
-//             name: { "great_izuchi": "great_izuchi", "aoashira": "aoashira", "rathian": "rathian", "mizutsune": "mizutsune", "tetranadon": "tetranadon", "aknosom": "aknosom", "somnacanth": "somnacanth", "khezu": "khezu", "royal_ludroth": "royal_ludroth", "rathalos": "rathalos", "pukei-pukei": "pukei-pukei", "kulu-ya-ku": "kulu-ya-ku", "tobi-kadachi": "tobi-kadachi", "anjanath": "anjanath", "jyuratodus": "jyuratodus", "great_wroggi": "great_wroggi", "bishaten": "bishaten", "magnamalo": "magnamalo", "goss_harag": "goss_harag", "great_baggi": "great_baggi", "lagombi": "lagombi", "barioth": "barioth", "tigrex": "tigrex", "barroth": "barroth", "nargacuga": "nargacuga", "volvidon": "volvidon", "basarios": "basarios", "zinogre": "zinogre", "yatsukadaki": "yatsukadaki" },
+//             name: { "great_izuchi": "great_izuchi", "arzuros": "arzuros", "rathian": "rathian", "mizutsune": "mizutsune", "tetranadon": "tetranadon", "aknosom": "aknosom", "somnacanth": "somnacanth", "khezu": "khezu", "royal_ludroth": "royal_ludroth", "rathalos": "rathalos", "pukei-pukei": "pukei-pukei", "kulu-ya-ku": "kulu-ya-ku", "tobi-kadachi": "tobi-kadachi", "anjanath": "anjanath", "jyuratodus": "jyuratodus", "great_wroggi": "great_wroggi", "bishaten": "bishaten", "magnamalo": "magnamalo", "goss_harag": "goss_harag", "great_baggi": "great_baggi", "lagombi": "lagombi", "barioth": "barioth", "tigrex": "tigrex", "barroth": "barroth", "nargacuga": "nargacuga", "volvidon": "volvidon", "basarios": "basarios", "zinogre": "zinogre", "yatsukadaki": "yatsukadaki" },
 //             species: {
 //                 全部: "all",
 //                 鳥龍種: "bird_wyvern",
@@ -110,7 +110,7 @@ function OnLocaleLoaded() {
 //         species: "Species",
 //         list: "List",
 //         description: "Description",
-//         description_details: "Details",
+//         description_detail: "Details",
 //         reference: "Reference",
 //         dataType: {
 //             large_monsters: "Large Monster",
@@ -119,7 +119,7 @@ function OnLocaleLoaded() {
 //         monster: {
 //             name: {
 //                 "great_izuchi": "Great Izuchi",
-//                 "aoashira": "Aoashira",
+//                 "arzuros": "Aoashira",
 //                 "rathian": "Rathian",
 //                 "mizutsune": "Mizutsune",
 //                 "tetranadon": "Tetranadon",
@@ -207,7 +207,7 @@ function OnLocaleLoaded() {
 //         mhrhelper: "MHRHelper",
 //         name: {
 //             "great_izuchi": "オサイズチ",
-//             "aoashira": "アオアシラ",
+//             "arzuros": "アオアシラ",
 //             "rathian": "リオレイア",
 //             "mizutsune": "タマミツネ",
 //             "tetranadon": "ヨツミワドウ",

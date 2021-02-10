@@ -4,7 +4,7 @@
         "species": "種類",
         "list": "列表",
         "description": "基本介紹",
-        "description_details": "設定細節",
+        "description_detail": "設定細節",
         "reference": "參考資料",
         "dataType": {
             "large_monsters": "大型魔物",
@@ -16,7 +16,7 @@
             "name": {
                 "name": {
                     "great_izuchi": "オサイズチ",
-                    "aoashira": "アオアシラ",
+                    "arzuros": "アオアシラ",
                     "rathian": "リオレイア",
                     "mizutsune": "タマミツネ",
                     "tetranadon": "ヨツミワドウ",

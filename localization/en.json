@@ -4,7 +4,7 @@
         "species": "Species",
         "list": "List",
         "description": "Description",
-        "description_details": "Details",
+        "description_detail": "Detail",
         "reference": "Reference",
         "note": "Note",
         "type": "Type",
@@ -17,7 +17,7 @@
         "monster": {
             "name": {
                 "great_izuchi": "Great Izuchi",
-                "aoashira": "Aoashira",
+                "arzuros": "Arzuros",
                 "rathian": "Rathian",
                 "mizutsune": "Mizutsune",
                 "tetranadon": "Tetranadon",
@@ -89,7 +89,13 @@
             "hitdata": "Hit Data (previous ver.)",
             "battlestrategy": "Battle Strategy",
             "moves": "Attack Patterns",
-            "moveshint": "(Click to see informations)"
+            "move": {
+                "moveshint": "(Click to see informations)",
+                "preaction": "Pre-action",
+                "action": "Action",
+                "recovery": "Recovery",
+                "note": "Note"
+            }
         },
         "small_monster": {
             "name": {
@@ -157,7 +163,9 @@
                 "boulder_lizard": "Boulder Lizard",
                 "scale_lizard": "Scale Lizard",
                 "great_wirebug": "Great Wirebug",
-                "golden_spiribug": "Golden Spiribug"
+                "golden_spiribug": "Golden Spiribug",
+                "tricktoad": "Tricktoad",
+                "giganha": "Giganha"
             },
             "type": {
                 "permabuffer": "Permabuffer",
@@ -175,102 +183,219 @@
                 "placement_duration": "Placement Duration",
                 "deal_damage": "Deal Damage"
             },
+            "map_locations": "Map Locations",
             "video": "Video",
             "video_reference": "Source: <a href='https://forum.gamer.com.tw/C.php?bsn=5786&snA=158908'> 環境生物整理<a>，Thanks jimmerican55(馬雲巴巴) for providing video."
+        },
+        "map": {
+            "name": {
+                "shrine_ruins": "Shrine Ruins"
+            }
         },
         "data": {
             "monster": {
                 "great_izuchi": {
                     "description": "The alpha Izuchi of its pack, identified by its larger build, upended white fur and scythe-like tail. A Great Izuchi forms a herd of many smaller Izuchi and selects two from the group to accompany it on territory patrols. Once it spots prey or senses danger, the Great Izuchi issues commands to their fellow Izuchi, and coordinates their movements. Take care that you don't get overwhelmed."
-                }
+                },
+                "arzuros": {
+                    "description": "Beasts known to dwell in humid forests and mountain regions. Though known more for fishing and standing upright to collect honey, their thick claws and heavy forearm plating allow them to deliver powerful blows to any aggressor."
+                },
+                "rathian": {
+                    "description": "Fire-breathing female wyverns, also known as the 'Queens of the Land.' With powerful legs and poison-secreting tails, they hunt mainly on the ground. Sometimes seen preying as a couple, Rathian and Rathalos cooperate well."
+                },
+                "mizutsune": {
+                    "description": "Mizutsune can secrete a peculiar foam that allows it to slide along the ground as it attacks its prey. It is as graceful as it is deadly."
+                },
+                "tetranadon": {
+                    "description": "An Amphibian easily recognized by its gigantic, rotund body. It is extremely gluttonous and swallows everything that moves whole, gravel and all. Once it's done eating, its stomach swells and it becomes slower, but its attacks also become heavier and much more destructive."
+                },
+                "aknosom": {
+                    "description": "When this huge Bird Wyvern stands on one leg, its peculiar collar gives it the appearance of a monstrous parasol. It is fiercely territorial, and whenever it finds intruders, it spreads its wings and unfolds the eye-like crest on its head to terrifying effect."
+                },
+                "somnacanth": {
+                    "description": "A formidable aquatic serpent that crests on moonlit nights—likely why it has often been mistaken for a mermaid. Despite its appearance, it is extremely aggressive, and tolerates no trespassers on its turf. It expels an intoxicating sleep powder from an organ on its neck, knocking out prey before it can resist."
+                },
+                "khezu": {
+                    "description": "The creepy Flying Wyvern returns to once again strike fear into the hearts of many a hunter. Its long, elastic neck stretching out while it clings to a wall or the ceiling is a sight straight out of a nightmare. Make sure you do not get overwhelmed by its horrific appearance."
+                },
+                "royal_ludroth": {
+                    "description": "A larger male form of the regular Ludroth. Royal Ludroth use their sponge-like mane to absorb water and keep from drying out on land. Once the sponge loses moisture, they will seek out water to recover. They also spew mucus to trip up their prey."
+                },
+                "rathalos": {
+                    "description": "The biggest representative of the Monster Hunter series. It descends on invaders from the sky, attacking with poison claws. Be especially careful of its fiery breath!"
+                },
+                "pukei-pukei": {
+                    "description": "A flying wyvern known to possess poisonous toxins in its body. It's been spotted storing scatternuts in its mouth or tail, coating them with poison and spitting them out at threats."
+                },
+                "kulu-ya-ku": {
+                    "description": "An odd Bird Wyvern that has developed limbs capable of carrying weapons. It's been spotted stealing eggs from nests found in the Ancient Forest and Wildspire Waste. (Description from MHW)"
+                },
+                "tobi-kadachi": {
+                    "description": "A Fanged Wyvern that flies among the trees of the Ancient Forest. Its penchant to brush against the ground and the trees as it moves around builds up static electricity within its fur. (Description from MHW)"
+                },
+                "anjanath": {
+                    "description": "The Anjanath patrols the Ancient Forest looking for its favorite meal, Aptonoth. This belligerent monster will attack anything without the slightest provocation. (Description from MHW)"
+                },
+                "jyuratodus": {
+                    "description": "A large Piscine Wyvern that inhabits the swamps of the Wildspire Waste. It uses mud to capture prey, and it's known to battle other monsters over territory. (Description from MHW)"
+                },
+                "great_wroggi": {
+                    "description": "A larger form of the regular Wroggi. Wroggi are bird wyverns that travel in packs that are led by the largest and most toxic member. Be careful when one raises its head and its poison sac expands—that signals that it's about to spit a cloud of poisonous mist."
+                },
+                "bishaten": {
+                    "description": "A monster with a distinctive tail. While it is omnivorous, it has a preference for fruit, and keeps various fruits with all kinds of effects in its belly pouch. An incredibly curious beast, it enjoys playing tricks on people, and has been seen to bat fruit at its prey using its tail."
+                },
+                "magnamalo": {
+                    "description": "Magnamalo is the flagship monster of Monster Hunter Rise (MHRise). Its face exudes a fearsome malice, and its hide is as tough as armor, as if it were the physical manifestation of the grudges of fallen warriors. The purple gas that rises from its body when it eats other monsters is called 'Hellfire', and it makes Magnamalo's already ferocious attacks even more destructive."
+                },
+                "goss_harag": {
+                    "description": "A Fanged Beast roaming snowy plains in search of prey. Its body is covered in fur so thick it keeps out the harsh frost. It can inhale the cold air to freeze its own bodily fluids and then spit them out to create icy blades on its arms. When riled up, it turns red and becomes exceedingly dangerous."
+                },
+                "great_baggi": {
+                    "description": "The crafty Bird Wyvern returns with it characteristic ability to stun prey with a tranquilizing fluid. Noted for its projecting cranial crests and bluish-white skin that's adapted to snowy climates. It craftily commands other Baggi to surround their prey before instigating an all-out attack."
+                },
+                "lagombi": {
+                    "description": "Lagombi returns after his most recent appearance in Monster Hunter Generations. A fanged beast whose warm pelt and thick layers of fat help it survive in cold climates. It has exceptional hearing as well. It can glide swiftly on ice to sneak up on prey."
+                },
+                "barioth": {
+                    "description": "The Wyvern that rules the eternally frozen tundra is back again with freshly-sharpened fangs. It uses its forelegs, tail and spiked scales to traverse the slippery ice with ease."
+                },
+                "tigrex": {
+                    "description": "A Flying Wyvern whose primitive origins are obvious. It displays incredible ferocity with its claws, jaws, and developed limbs. Be wary of its thunderous roar!"
+                },
+                "barroth": {},
+                "nargacuga": {},
+                "volvidon": {},
+                "basarios": {},
+                "zinogre": {},
+                "yatsukadaki": {}
             },
             "endemics": {
                 "red_spiribird": {
-                    "name": "Red Spiribird"
+                    "name": "Red Spiribird",
+                    "description": "A tiny, softly glowing bird. The aroma of the pollen on its body grants a boon to attack."
                 },
                 "orange_spiribird": {
-                    "name": "Orange Spiribird"
+                    "name": "Orange Spiribird",
+                    "description": "A tiny, softly glowing bird. The aroma of the pollen on its body grants a boon to defense."
                 },
                 "green_spiribird": {
-                    "name": "Green Spiribird"
+                    "name": "Green Spiribird",
+                    "description": "A tiny, softly glowing bird. The aroma of the pollen on its body grants a boon to health."
                 },
                 "yellow_spiribird": {
-                    "name": "Yellow Spiribird"
+                    "name": "Yellow Spiribird",
+                    "description": "A tiny, softly glowing bird. The aroma of the pollen on its body grants a boon to stamina."
                 },
                 "poisontoad": {
-                    "name": "Poisontoad"
+                    "name": "Poisontoad",
+                    "description": "A frog that discharges a poisonous gas."
                 },
                 "blastoad": {
-                    "name": "Blastoad"
+                    "name": "Blastoad",
+                    "description": "A frog that discharges a combustible gas guaranteed to be a blast!"
                 },
                 "firebeetle": {
-                    "name": "Firebeetle"
+                    "name": "Firebeetle",
+                    "description": "A beetle that rolls up lava rocks into balls. Throw the ball to engulf a target in flames."
                 },
                 "mudbeetle": {
-                    "name": "Mudbeetle"
+                    "name": "Mudbeetle",
+                    "description": "A beetle that rolls up mud into a ball. When thrown, the ball is imbued with water element."
                 },
                 "thunderbeetle": {
-                    "name": "Thunderbeetle"
+                    "name": "Thunderbeetle",
+                    "description": "A beetle that rolls up mud containing thunder-infused monster hair into balls. ZAP!"
                 },
                 "snowbeetle": {
-                    "name": "Snowbeetle"
+                    "name": "Snowbeetle",
+                    "description": "A beetle that rolls up snow into ice balls. Not recommended for a friendly snowball fight."
                 },
                 "stinkmink": {
-                    "name": "Stinkmink"
+                    "name": "Stinkmink",
+                    "description": "A weasel that sprays special pheromones that attract monsters."
                 },
                 "escuregot": {
-                    "name": "Escuregot"
+                    "name": "Escuregot",
+                    "description": "A large green snail. Sprays a restorative mist when used."
                 },
                 "puppet_spider": {
-                    "name": "Puppet Spider"
+                    "name": "Puppet Spider",
+                    "description": "A spider that spits a sticky web, which can be used like reins for Wyvern Riding."
                 },
                 "wailnard": {
-                    "name": "Wailnard"
+                    "name": "Wailnard",
+                    "description": "A pheasant with a unique red sac. Its call draws in large monsters."
                 },
                 "trapbugs": {
-                    "name": "Trapbugs"
+                    "name": "Trapbugs",
+                    "description": "Insects with sharp horns. A monster that tramples them will flee temporarily."
                 },
                 "antidobra": {
-                    "name": "Antidobra"
+                    "name": "Antidobra",
+                    "description": "A snake that shoots a poison antidote. Can be used to cure and prevent poison."
                 },
                 "brewhare": {
-                    "name": "Brewhare"
+                    "name": "Brewhare",
+                    "description": "A moss-covered rabbit. Can be used to improve the effects of some items."
                 },
                 "wirebug": {
-                    "name": "Wirebug"
+                    "name": "Wirebug",
+                    "description": "A wild Wirebug. When caught, your Wirebug gauge will temporarily increase by 1."
                 },
                 "vigorwasp": {
-                    "name": "Vigorwasp"
+                    "name": "Vigorwasp",
+                    "description": "An insect that releases a cloud of restorative nectar when struck."
                 },
                 "clothfly": {
-                    "name": "Clothfly"
+                    "name": "Clothfly",
+                    "description": "A butterfly that, if struck, will release a powder that briefly boosts defense."
                 },
                 "butterflame": {
-                    "name": "Butterflame"
+                    "name": "Butterflame",
+                    "description": "A butterfly that, if struck, will release a powder that briefly boosts attack."
                 },
                 "peepersects": {
-                    "name": "Peepersects"
+                    "name": "Peepersects",
+                    "description": "A butterfly that, if struck, will release a powder that briefly curbs stamina loss."
                 },
                 "cutterfly": {
-                    "name": "Cutterfly"
+                    "name": "Cutterfly",
+                    "description": "A dragonfly that releases a cloud of pheromones that temporarily boosts affinity."
                 },
                 "flashfly": {
-                    "name": "Flashfly"
+                    "name": "Flashfly",
+                    "description": "An insect that releases a blinding flash of light when struck."
                 },
                 "rock_lizard": {
-                    "name": "Rock Lizard"
+                    "name": "Rock Lizard",
+                    "description": "A small lizard that lives in various locales. To protect itself from predators, Rock Lizards will attack minerals to their body in order to blend in with their surroundings. If attacked, they will shed these minerals and escape. They are popular among hunters as the minerals have many uses."
                 },
                 "boulder_lizard": {
-                    "name": "Boulder Lizard"
+                    "name": "Boulder Lizard",
+                    "description": "A relative of the Rock Lizard, these lizards can also be found in a number of locales. And like the Rock Lizard, it also attaches a variety of minerals to its body to protect itself. However, these minerals are typically harder than those found on Rock Lizzards and are more sought after by hunters."
                 },
                 "scale_lizard": {
-                    "name": "Scale Lizard"
+                    "name": "Scale Lizard",
+                    "description": "Relatives of the Rock Lizard, these lizards can also be found in a number of locales. Unlike the Rock Lizard, they don't attach minerals to their bodies—instead, they tend to use monster scales and claws. Scale Lizards are extremely rare as they inhabit areas seldom traveled. They are prized by hunters as the materials they drop fetch a high price."
                 },
                 "great_wirebug": {
-                    "name": "Great Wirebug"
+                    "name": "Great Wirebug",
+                    "description": "A large Wirebug. Uses Jewel Lilies to send you soaring in a specified direction."
                 },
                 "golden_spiribug": {
-                    "name": "Golden Spiribug"
+                    "name": "Golden Spiribug",
+                    "description": "A golden insect. Restores some stamina when picked up and can be stored."
+                },
+                "tricktoad": {
+                    "name": "Tricktoad",
+                    "video_reference": "Source: <a href='https://twitter.com/i/status/1348313656094814214'>Official Twitter</a>",
+                    "description": "The Tricktoad is a bodacious Endemic Life that will daringly challenge bigger monsters by flaring its fins and releasing strong pheromones. They make for great decoys!"
+                },
+                "giganha": {
+                    "name": "Giganha",
+                    "video_reference": "Source: <a href='https://twitter.com/i/status/1342017169505222656'>Official Twitter</a>",
+                    "description": "A species of carnivorous fish that goes absolutely wild when you give them raw meat. Any monster or hunter nearby is bound to get swept up in their ferociously voracious behavior, taking damage in the process."
                 }
             },
             "small_monster": {

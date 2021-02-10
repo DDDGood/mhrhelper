@@ -5,7 +5,7 @@
         <mon_card :mondata="mondata"></mon_card>
       </div>
       <div class="layout-grid-main">
-        <details open>
+        <details open v-show="!IsNullOrEmpty(this.mondata.description)">
           <summary class="header2">{{$t('description')}}</summary>
           <span id="description" v-html="GetDescriptionText('description')"></span>
         </details>
@@ -72,22 +72,22 @@
             </tbody>
           </table>
         </details>
-        <div id="divmoves">
-          <details open>
+        <div id="divmoves" v-if="!IsNullOrEmpty(movedata)">
+          <details open v-show="!IsNullOrEmpty(movedata.outline)">
             <summary class="header2">{{$t('monster.battlestrategy')}}</summary>
             <span id="moveoutline" v-html="GetDescriptionText('outline', 'move')"></span>
           </details>
-          <details open>
+          <details open v-show="!IsNullOrEmpty(movedata)">
             <summary class="header2">{{$t('monster.moves')}}</summary>
-            <div class="description-text">{{$t('monster.moveshint')}}</div>
+            <div class="description-text">{{$t('monster.move.moveshint')}}</div>
             <mon_moves :monmoves="movedata"></mon_moves>
           </details>
         </div>
-        <details>
-          <summary class="header2">{{$t('description_details')}}</summary>
+        <details v-if="!IsNullOrEmpty(mondata.detail)">
+          <summary class="header2">{{$t('description_detail')}}</summary>
           <span id="detail" v-html="GetDescriptionText('detail')"></span>
         </details>
-        <details open>
+        <details open v-if="this.reference.length >0">
           <summary class="header2">{{$t('reference')}}</summary>
           <div v-for="(link,key) in this.reference" :key="key">
             <a class="description-text" :href="link">{{key}}</a>

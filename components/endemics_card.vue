@@ -2,7 +2,12 @@
   <div class="card rounded flex-column">
     <div class="flex-row interval-y">
       <div class="icon-background rounded interval-x flex-center">
-        <img id="icon" ref="icon" v-bind:src="endemicdata.icon" alt="icon" />
+        <img
+          id="icon"
+          ref="icon"
+          v-bind:src="IsNullOrEmpty(endemicdata.icon)? 'images/endemics/icons/unknown.png':endemicdata.icon"
+          alt="icon"
+        />
       </div>
       <div class="flex1 flex-center color2 rounded interval-x">
         <div class="card-text text-large text-bold">{{endemicdata.name}}</div>

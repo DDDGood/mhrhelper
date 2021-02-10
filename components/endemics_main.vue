@@ -12,7 +12,10 @@
         <details open v-show="!IsNullOrEmpty(endemicdata.video)">
           <summary class="header2">{{$t('endemics.video')}}</summary>
           <span>
-            <p class="description-text-quote" v-html="$t('endemics.video_reference')"></p>
+            <p
+              class="description-text-quote"
+              v-html="IsNullOrEmpty(endemicdata.video_reference)? $t('endemics.video_reference') : endemicdata.video_reference"
+            ></p>
           </span>
           <video
             ref="video"
@@ -26,6 +29,13 @@
           >
             <source :src="endemicdata.video" type="video/mp4" />
           </video>
+        </details>
+        <details open v-if="!IsNullOrEmpty(endemicdata.locations)">
+          <summary class="header2">{{$t('endemics.map_locations')}}</summary>
+          <div class="flex-column" v-for="(src,map) in endemicdata.locations" :key="map">
+            <img class="full-width" :src="src" />
+            <span class="description-image-text">{{$t('map.name.' + map)}}</span>
+          </div>
         </details>
       </div>
     </div>

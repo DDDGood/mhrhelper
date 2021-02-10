@@ -119,6 +119,10 @@ padding:10px;
   margin-right: auto;
 }
 
+.full-width{
+  max-width: 100%;
+}
+
 .description-image-text{
   text-align: center;
   font-size: 14px;

@@ -25,25 +25,25 @@
       </div>
       <div class="flex-row interval-y" v-show="!IsNullOrEmpty(movedata.preaction)">
         <div class="flex1 flex-row color1 rounded">
-          <div class="card-text text-bold flex-center margin">預兆</div>
+          <div class="card-text text-bold flex-center margin">{{$t('monster.move.preaction')}}</div>
           <div class="flex1 color2 card-text rounded margin">{{ this.movedata.preaction }}</div>
         </div>
       </div>
       <div class="flex-row interval-y" v-show="!IsNullOrEmpty(movedata.action)">
         <div class="flex1 flex-row color1 rounded">
-          <div class="card-text text-bold flex-center margin">動作</div>
+          <div class="card-text text-bold flex-center margin">{{$t('monster.move.action')}}</div>
           <div class="flex1 color2 card-text rounded margin">{{ movedata.action }}</div>
         </div>
       </div>
       <div class="flex-row interval-y" v-show="!IsNullOrEmpty(movedata.recovery)">
         <div class="flex1 flex-row color1 rounded">
-          <div class="card-text text-bold flex-center margin">硬直</div>
+          <div class="card-text text-bold flex-center margin">{{$t('monster.move.recovery')}}</div>
           <div class="flex1 color2 card-text rounded margin">{{ movedata.recovery }}</div>
         </div>
       </div>
       <div class="flex-row interval-y" v-show="!IsNullOrEmpty(movedata.note)">
         <div class="flex1 flex-row color1 rounded">
-          <div class="card-text text-bold flex-center margin">備註</div>
+          <div class="card-text text-bold flex-center margin">{{$t('monster.move.note')}}</div>
           <div class="flex1 color2 card-text rounded margin">{{ movedata.note }}</div>
         </div>
       </div>
