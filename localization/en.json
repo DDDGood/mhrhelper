@@ -44,7 +44,10 @@
                 "volvidon": "Volvidon",
                 "basarios": "Basarios",
                 "zinogre": "Zinogre",
-                "yatsukadaki": "Yatsukadaki"
+                "rakna-kadaki": "Rakna-Kadaki",
+                "diablos": "Diablos",
+                "rajang": "Rajang",
+                "almudron": "Almudron"
             },
             "species": {
                 "all": "All",
@@ -268,7 +271,7 @@
                 "volvidon": {},
                 "basarios": {},
                 "zinogre": {},
-                "yatsukadaki": {}
+                "rakna-kadaki": {}
             },
             "endemics": {
                 "red_spiribird": {
