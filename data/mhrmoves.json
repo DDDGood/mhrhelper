@@ -666,7 +666,7 @@
                     "preaction": "單次龍車到玩家身後。",
                     "action": "繞到玩家身後，回頭口中噴水由上至下。",
                     "recovery": "大",
-                    "note": "這招較少使用，不會飄移，往左右容易閃躲。",
+                    "note": "怒前出龍車必定是這招，較少使用，不會飄移，水柱拉下時再往左右閃。",
                     "image": "videos/泡狐龍/泡狐龍_龍車噴水.mp4",
                     "onlyincombo": false
                 },
@@ -1355,6 +1355,26 @@
             "outline": "",
             "moves": [
                 {
+                    "name": "龍吼",
+                    "condition": "",
+                    "preaction": "",
+                    "action": "",
+                    "recovery": "",
+                    "note": "",
+                    "image": "videos/人魚龍/人魚龍_龍吼.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "站立龍吼",
+                    "condition": "站立姿勢",
+                    "preaction": "",
+                    "action": "",
+                    "recovery": "",
+                    "note": "",
+                    "image": "videos/人魚龍/人魚龍_站立龍吼.mp4",
+                    "onlyincombo": false
+                },
+                {
                     "name": "吐息",
                     "condition": "站立姿勢",
                     "preaction": "",
@@ -1371,7 +1391,7 @@
                     "action": "",
                     "recovery": "大",
                     "note": "",
-                    "image": "",
+                    "image": "videos/人魚龍/人魚龍_頭橫掃.mp4",
                     "onlyincombo": false
                 },
                 {
@@ -1385,20 +1405,20 @@
                     "onlyincombo": false
                 },
                 {
-                    "name": "鱗片飛鏢",
+                    "name": "鱗片射擊",
                     "condition": "站立姿勢",
-                    "preaction": "",
-                    "action": "",
-                    "recovery": "",
+                    "preaction": "快速向後退一步，頭微微側縮。",
+                    "action": "向前方扇形射出鱗片飛鏢。",
+                    "recovery": "小",
                     "note": "",
-                    "image": "",
+                    "image": "videos/人魚龍/人魚龍_鱗片射擊.mp4",
                     "onlyincombo": false
                 },
                 {
                     "name": "龍車",
-                    "preaction": "",
-                    "action": "",
-                    "recovery": "",
+                    "preaction": "身體稍微後縮蓄力。",
+                    "action": "向前滑行龍車。",
+                    "recovery": "中",
                     "note": "",
                     "image": "videos/人魚龍/人魚龍_龍車.mp4",
                     "onlyincombo": false
@@ -1416,9 +1436,9 @@
                 {
                     "name": "蓄力拍",
                     "condition": "站立姿勢",
-                    "preaction": "",
-                    "action": "",
-                    "recovery": "",
+                    "preaction": "側身蓄力，抬起單手。",
+                    "action": "向前拍擊。",
+                    "recovery": "小",
                     "note": "",
                     "image": "videos/人魚龍/人魚龍_蓄力拍.mp4",
                     "onlyincombo": false
@@ -1435,19 +1455,19 @@
                 {
                     "name": "下壓",
                     "condition": "站立姿勢",
-                    "preaction": "",
-                    "action": "",
-                    "recovery": "",
+                    "preaction": "胸前海狗拍手。",
+                    "action": "下壓，頭前出水波。",
+                    "recovery": "中",
                     "note": "",
                     "image": "videos/人魚龍/人魚龍_下壓.mp4",
                     "onlyincombo": false
                 },
                 {
                     "name": "玩手機",
-                    "preaction": "",
+                    "preaction": "身體翻一圈，掏出一個貝殼。",
                     "condition": "躺滑姿勢",
-                    "action": "",
-                    "recovery": "",
+                    "action": "在胸口弄破貝殼，產生回復、閃光、爆破其中之一的效果。",
+                    "recovery": "中",
                     "note": "貝殼有回復、閃光、爆破三種。",
                     "image": "videos/人魚龍/人魚龍_玩手機.mp4",
                     "onlyincombo": false
