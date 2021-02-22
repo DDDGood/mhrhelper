@@ -7,7 +7,7 @@
         class="link-button"
         v-for="(item, key) in weapons"
         :key="key"
-        :to="'/weapons/' + key"
+        :to="'/weapon/' + key"
       >
         <img
           class="link-icon"

@@ -25,7 +25,7 @@ module.exports = {
   mounted: function () {
   },
   components: {
-    card: httpVueLoader("components/smonster_card.vue"),
+    card: httpVueLoader("components/smon_card.vue"),
   },
 }
 </script>

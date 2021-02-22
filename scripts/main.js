@@ -39,7 +39,7 @@ $(document).ready(Initialize);
 
 function Initialize() {
 
-    LoadData(['data/mhrdex.json', 'data/mhrmoves.json', 'data/endemics.json', "data/small_monster.json"], onDexLoaded);
+    LoadData(['data/mhrdex.json', 'data/mhrmoves.json', 'data/endemics.json', "data/small_monster.json", "data/weapons.json"], onDexLoaded);
 }
 
 function LoadData(paths, callback) {
@@ -68,7 +68,7 @@ function LoadData(paths, callback) {
 
 function onDexLoaded() {
 
-    const dexData = GetData("monster");
+    const dexData = GetData("large_monsters");
 
     speciesDictionary["all"] = {};
     for (key in dexData) {
@@ -161,10 +161,11 @@ function InitRouter() {
     const MonListComp = httpVueLoader("components/mon_browse_monsters.vue");
     const newMonList = httpVueLoader("components/mon_browse_all.vue");
     const MonComp = httpVueLoader("components/mon_main.vue");
-    const SMonsterListComp = httpVueLoader("components/smonster_browse_all.vue");
-    const SMonsterComp = httpVueLoader("components/smonster_main.vue");
+    const SMonListComp = httpVueLoader("components/smon_browse_all.vue");
+    const SMonComp = httpVueLoader("components/smon_main.vue");
     const EndemicListComp = httpVueLoader("components/endemics_browse_all.vue");
     const EndemicComp = httpVueLoader("components/endemics_main.vue");
+    const WeaponListComp = httpVueLoader("components/weapon_browse_all.vue");
 
     const router = new VueRouter({
         routes: [
@@ -177,42 +178,48 @@ function InitRouter() {
                 name: 'monlist',
                 path: '/mon',
                 component: SpeciesListComp,
-                props: { dex: GetData("monster"), specieslist: speciesDictionary }
+                props: { dex: GetData("large_monsters"), specieslist: speciesDictionary }
             },
             {
                 path: '/mon/:species',
                 component: MonListComp,
-                props: { specieslist: speciesDictionary, mondata: GetData("monster") }
+                props: { specieslist: speciesDictionary, mondata: GetData("large_monsters") }
             },
             {
                 name: 'mon',
                 path: '/mon/:species/:name',
                 component: MonComp,
-                props: { dex: GetData("monster"), moves: GetData("moves") }
+                props: { dex: GetData("large_monsters"), moves: GetData("moves") }
             },
             {
-                name: 'smonsterlist',
-                path: '/smonster',
-                component: SMonsterListComp,
-                props: { smonsters: GetData("small_monster") }
+                name: 'smonlist',
+                path: '/smon',
+                component: SMonListComp,
+                props: { smonsters: GetData("small_monsters") }
             },
             {
-                name: 'smonster',
-                path: '/smonster/:name',
-                component: SMonsterComp,
-                props: { smonsters: GetData("small_monster") }
+                name: 'smon',
+                path: '/smon/:name',
+                component: SMonComp,
+                props: { smonsters: GetData("small_monsters") }
             },
             {
                 name: 'endemiclist',
                 path: '/endemics',
                 component: EndemicListComp,
-                props: { endemics: GetData("endemics") }
+                props: { endemics: GetData("endemic_lifes") }
             },
             {
                 name: 'endemics',
                 path: '/endemics/:name',
                 component: EndemicComp,
-                props: { endemics: GetData("endemics") }
+                props: { endemics: GetData("endemic_lifes") }
+            },
+            {
+                name: 'weaponlist',
+                path: '/weapon',
+                component: WeaponListComp,
+                props: { weapons: GetData("weapons") }
             }
         ]
     });

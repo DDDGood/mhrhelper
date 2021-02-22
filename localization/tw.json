@@ -10,7 +10,8 @@
         "dataType": {
             "large_monsters": "大型魔物",
             "small_monsters": "小型魔物",
-            "endemic_lifes": "環境生物"
+            "endemic_lifes": "環境生物",
+            "weapons": "武器"
         },
         "type": "類型",
         "trait": "特性",
@@ -189,6 +190,11 @@
             "map_locations": "地圖分布",
             "video": "使用效果影片",
             "video_reference": "影片來自巴哈姆特：<a href='https://forum.gamer.com.tw/C.php?bsn=5786&snA=158908'> 環境生物整理<a>，感謝版友jimmerican55(馬雲巴巴)提供影片。"
+        },
+        "weapons": {
+            "name": {
+                "charge_blade": "充能斧"
+            }
         },
         "map": {
             "name": {

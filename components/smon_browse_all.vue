@@ -7,7 +7,7 @@
         class="link-button"
         v-for="(item, key) in smonsters"
         :key="key"
-        :to="'/smonster/' + key"
+        :to="'/smon/' + key"
       >
         <img
           class="link-icon"

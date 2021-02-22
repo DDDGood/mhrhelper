@@ -12,7 +12,8 @@
         "dataType": {
             "large_monsters": "Large Monsters",
             "small_monsters": "Small Monsters",
-            "endemic_lifes": "Endemic Lifes"
+            "endemic_lifes": "Endemic Lifes",
+            "weapons": "Weapons"
         },
         "monster": {
             "name": {
@@ -190,13 +191,18 @@
             "video": "Video",
             "video_reference": "Source: <a href='https://forum.gamer.com.tw/C.php?bsn=5786&snA=158908'> 環境生物整理<a>，Thanks jimmerican55(馬雲巴巴) for providing video."
         },
+        "weapons": {
+            "name": {
+                "charge_blade": "Charge Blade"
+            }
+        },
         "map": {
             "name": {
                 "shrine_ruins": "Shrine Ruins"
             }
         },
         "data": {
-            "monster": {
+            "large_monsters": {
                 "great_izuchi": {
                     "description": "The alpha Izuchi of its pack, identified by its larger build, upended white fur and scythe-like tail. A Great Izuchi forms a herd of many smaller Izuchi and selects two from the group to accompany it on territory patrols. Once it spots prey or senses danger, the Great Izuchi issues commands to their fellow Izuchi, and coordinates their movements. Take care that you don't get overwhelmed."
                 },
@@ -273,7 +279,7 @@
                 "zinogre": {},
                 "rakna-kadaki": {}
             },
-            "endemics": {
+            "endemic_lifes": {
                 "red_spiribird": {
                     "name": "Red Spiribird",
                     "description": "A tiny, softly glowing bird. The aroma of the pollen on its body grants a boon to attack."
@@ -401,7 +407,7 @@
                     "description": "A species of carnivorous fish that goes absolutely wild when you give them raw meat. Any monster or hunter nearby is bound to get swept up in their ferociously voracious behavior, taking damage in the process."
                 }
             },
-            "small_monster": {
+            "small_monsters": {
                 "altaroth": {
                     "name": "Altaroth",
                     "description": "Insects that widely inhabit many areas. They absorb fruit, musrooms, and honey, and then carry them back to their nest. Materials can thus be collected from their swollen abdomens, whose color is related to what they're carrying."
