@@ -1,0 +1,16 @@
+{
+    "weapons": {
+        "charge_blade": {
+            "icon": "",
+            "image": "",
+            "moves": {
+                "move01": {
+                    "name": "",
+                    "description": "",
+                    "video": ""
+                }
+            },
+            "control": {}
+        }
+    }
+}
