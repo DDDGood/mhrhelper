@@ -166,6 +166,7 @@ function InitRouter() {
     const EndemicListComp = httpVueLoader("components/endemics_browse_all.vue");
     const EndemicComp = httpVueLoader("components/endemics_main.vue");
     const WeaponListComp = httpVueLoader("components/weapon_browse_all.vue");
+    const WeaponComp = httpVueLoader("components/weapon_main.vue");
 
     const router = new VueRouter({
         routes: [
@@ -219,6 +220,12 @@ function InitRouter() {
                 name: 'weaponlist',
                 path: '/weapon',
                 component: WeaponListComp,
+                props: { weapons: GetData("weapons") }
+            },
+            {
+                name: 'weapon',
+                path: '/weapon/:name',
+                component: WeaponComp,
                 props: { weapons: GetData("weapons") }
             }
         ]

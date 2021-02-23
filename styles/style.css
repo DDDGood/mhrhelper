@@ -26,9 +26,10 @@ body{
 footer{
   height: 100px; /*設定footer本身高度*/
   background-color: #31363D;
-  display: flex;
+  padding: 16px;
+  /* display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: center; */
 }
 .footer-text{
   text-align: center;

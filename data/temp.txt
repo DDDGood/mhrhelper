@@ -1,0 +1,233 @@
+
+New Moves Of All Weapons
+~Great Sword - New Silkbind Actions
+Hunting Edge
+hunting Edge
+Command
+[ZL] + [X] While in mid-air, press [X] or [ZR] after a successful hit
+A forward leaping attack. After landing a hit, press [X] or [ZR] to follow up with Plunging Thrust or Charged Slash for an additional damage. This new move increases the mobility of Great Sword users significantly.
+
+Power Sheathe
+power sheathe
+Command
+[ZL] + [A]
+Power Sheathe increases your attack power for a short period of time as you sheathe the weapon. Since you'll be sheathing the weapon frequently, this move will come in handy in many situations.
+
+Great Sword Combos
+Best Great Sword Builds
+
+~Long Sword - New Silkbind Actions
+Soaring Kick
+Soaring Kick
+Command
+[ZL] + [A]
+Consumes 1 Wirebug gauge to jump kick the enemy. When successfully hit, it connects to a Plunging Thrust. Hitting this Plunging Thrust fills up your Spirit Gauge automatically for certain period of time. You can also perform a Spirit Helm Breaker after the jump kick by spending one level of Spirit Gauge.
+
+Serene Pose
+serene pose
+Command
+[ZL] + [X]
+By activating the Serene Pose before getting hit by enemy's attack actives a counter attack. This consumes 2 gauges of Wirebug.
+
+Longsword Combos
+Best Longsword Builds
+
+~Sword & Shield - New Silkbind Actions
+Falling Shadow
+Falling Shadow
+Command
+[ZL] + [X]
+A forward leaping attack. A succsssful hit will lead into a Scaling Slash. You can also follow up with a Falling Bash to stun your enemies.
+
+Windmill
+Windmill
+Command
+[ZL] + [A]
+Uses Wirebug to swing your blade around. You can nullified monster's attack at the beginning of this move. This consumes 2 gauges of Wirebug.
+
+Sword And Shield Combos
+Best Sword and Shield Builds
+~Dual Blades - New Silkbind Actions
+Piercing Bind
+piercing bind
+Command
+[ZL] + [X]
+This move throws a kunai to the enemy that detonates after a certain period of time. You can increase the damage of the kunai's explosion by landing more attacks while the kunai is stuck on the enemy.
+
+Shrouded Vault
+Shrouded Vault
+Command
+[ZL] + [A]
+Hurls you forward in a designated direction. Getting hit while in motion triggers a counter-attack. Since the reach of dual blades tends to be short, this move can compensate for that weakness by leaping toward the enemy quickly.
+
+Dual Blades Combos
+Best Dual Blades Builds
+~Hammer - New Silkbind Actions
+Silkbind Spinning Bludgeon
+Silkbind Spinning Bludgeon
+Command
+[ZL] + [X]
+This move Leaps forward and unleashes a spinning attack. You could do something similar in previous Monster Hunter World while sliding down the slope but this time, you don't have to have slope to perform this.
+
+You Can Charge And Change The Timing
+You can increase the power of the Silkbind Spinning Bludgeon by charging. Your character also won't flinch while charging. However, you'd have to stand still for quite a long time when charging while this move is active so charge before using this move.
+
+Impact Crater
+Impact Crater
+Command
+[ZL] + [A]
+Jump straight up and dish out a devastating rising attack. The number of hits you'll land, the more damage you'll deal depends on how much you charge prior to activation.
+
+Hammer Combos
+Best Hammer Builds
+
+~Hunting Horn - New Silkbind Actions
+Slide Beat
+Slide Beat
+Command
+[ZL] + [X]
+This move uses a Wirebug to propel you forward into a spinning attack. The final performance grants a status boosts. You'll be invulnerable to knockback effects while moving forward.
+
+Earthshaker
+Command
+[ZL] + [A]
+Flings forth a blade, connects it to your weapon with Ironsilk, and transmits booming sonic attacks. By attaching the string to enemy's weakness such as its head, which can deal heavy damage.
+
+Hunting Horn Combos
+Best Hunting Horn Builds
+~Lance - New Silkbind Actions
+Twin Vine
+twin vine
+Command
+[ZL] + [X]
+Jabs a kunai straight into the target and connects you to the enemy with the ironsilk. By pressing [ZR]+[B] while the kunai is attached to the target, you can quickly jump toward the enemy.
+
+Anchor Rage
+Anchor Rage
+Command
+[ZL] + [A]
+Taking enemy's attack with your shield while the Anchor Rage is active boosts your attack power. The more attacks you've received by your shield, the more attack boost you'll get.
+
+Lance Combos
+Best Lance Builds
+
+~Gunlance - New Silkbind Actions
+Hail Cutter
+hail cutter
+Command
+[ZL] + [X]
+Performs a Rising Slash and then an Overhead Smash. Each usage reduces the cooldown time for Wyvern's Fire.
+
+Guard Edge
+guard edge
+Command
+[ZL] + [A]
+A well-timed guard regenerates your weapon's sharpness. You can follow up with various attack combos after guarding.
+
+Gunlance Combos
+Best Gunlance Builds
+~Switch Axe - New Silkbind Actions
+Invincible Gambit
+Invincible Gambit
+Command
+[ZL] + [X]
+Moves you forward while performing a spinning attack. You'll be immune to flinching or being knocked back while this move is active.
+
+Switch Charger
+Switch Charger
+Command
+[ZL] + [A]
+Uses a Wirebug to launch you forward while quickly regenerating your Switch Gauge. Your Switch Gauge won't decrease for a short time after activating this move.
+
+Switch Axe Guide Combos
+Best Switch Axe Builds
+~Charge Blade - New Silkbind Actions
+Morphing Advance
+Morphing Advance
+Command
+[ZL] + [X]
+Uses a Wirebug to launch you forward while your charge blade changes to axe form. You'll be immune to knockback and stun while this move is active.
+
+Counter Peak Performance
+Counter Peak Performance
+Command
+[ZL] + [A]
+Stretches silk to the ground and protects you from the enemy's attack. When enemy's attack hit while your shield is ready, your phials fill to maximum.
+
+Charge Blade Combos
+Best Charge Blade Builds
+
+~Bow - New Silkbind Actions
+Herculean Draw
+Herculean Draw
+Command
+[R] + [A]
+Surge forward in a designated direction. This move boosts your attack power for a short period of time as well.
+
+Focus Shot
+Focus Shot
+Command
+[R] + [X]
+Dodges backward and crouches. While crouching, your stamina rapidly regenerates. If timed right, you can nullify a monster's attack. Use the Left Stick to change the direction of dodging.
+
+Bow Combos
+Best Bow Builds
+~Insect Glaive - New Silkbind Actions
+Silkbind Vault
+Silkbind Vault
+Command
+[ZL] + [X]
+It's a leaping attack & can be used in mid-air and follow up with a Jumping Slash, a Jumping Advancing Slash, or a mid-air evade.
+
+Recall Kinsect
+recall
+Command
+[ZL] + [A]
+Dodges enemy's attack while calling back your Kinsect. The returning Kinsect performs spinning attacks that scatter healing extracts. Its stamina will fully recover once it gets back to its master.
+
+Insect Glaive Combos
+Best Insect Glaive Builds
+~Light Bowgun - New Silkbind Actions
+Silkbind Glide
+Silkbind Glide
+Command
+[R] + [X]
+Surge forward quickly. By pressing [ZR], you can unleash a powerful close-range severing attack.
+
+Fanning Vault
+Fanning Vault
+Command
+[R] + [A]
+Uses a Wirebug to vault you forward. You can fire, reload, or fire a Wyvernblast directly below you while in mid-air.
+
+Light Bowgun Combos
+Best Light Bowgun Builds
+~Heavy Bowgun - New Silkbind Actions
+Free Silkbind Glide
+Free Silkbind Glide
+Command
+[R] + [A]
+Uses a Wirebug to hurl you forward. By pressing [X]+[A] to follow up with a melee attack or press [Y] to follow up with a quick sheathe. Gives mobility to Heavy Bowgun users.
+
+Counter Shot
+Counter Shot
+Command
+[R] + [X]
+Stretches out a web of silk and counters the enemy's attack. You can change the direction of your counter-attack so you can hit the opponent charging towards you.
+
+Heavy Bowgun Combos
+Best Heavy Bowgun Builds
+Related Articles - Monster Hunter Rise (MH Rise)
+Back To Top Page
+Weapon Data Base & Tier List
+All Weapon TypesAll Weapon Types	Best Weapon Tier ListWeapon Tier List
+Guides By Weapon Type
+Great SwordGreat Sword	Long SwordLong Sword	Sword & ShieldSword & Shield
+Dual BladesDual Blades	HammerHammer	Hunting HornHunting Horn
+LanceLance	GunlanceGunlance	Switch AxeSwitch Axe
+Charge BladeCharge Blade	bowBow	Insect GlaiveInsect Glaive
+Light BowgunLight Bowgun	Heavy BowgunHeavy Bowgun	-
+©CAPCOM CO., LTD. ALL RIGHTS RESERVED.
+All trademarks referenced herein are the properties of their respective owners.
+d.
+

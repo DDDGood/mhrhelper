@@ -27,6 +27,9 @@
       <router-link to="/smon" custom v-slot="{ navigate }">
         <button @click="navigate" class="menu-button">{{$t("dataType.small_monsters")}}</button>
       </router-link>
+      <router-link to="/weapon" custom v-slot="{ navigate }">
+        <button @click="navigate" class="menu-button">{{$t("dataType.weapons")}}</button>
+      </router-link>
     </div>
   </div>
 </template>

@@ -193,7 +193,20 @@
         },
         "weapons": {
             "name": {
-                "charge_blade": "Charge Blade"
+                "great_sword": "Great Sword",
+                "long_sword": "Long Sword",
+                "sword_and_shield": "Sword & Shield",
+                "dual_blades": "Dual Blades",
+                "hammer": "Hammer",
+                "hunting_horn": "Hunting Horn",
+                "lance": "Lance",
+                "gunlance": "Gunlance",
+                "switch_axe": "Switch Axe",
+                "charge_blade": "Charge Blade",
+                "insect_glaive": "Insect Glaive",
+                "light_bowgun": "Light Bowgun",
+                "heavy_bowgun": "Heavy Bowgun",
+                "bow": "Bow"
             }
         },
         "map": {
@@ -459,6 +472,218 @@
                 "wroggi": {
                     "name": "Wroggi",
                     "description": "Small, carnivorous bird wyverns with poison-generating organs that run from their mouths to their throats. They run in packs, often led by a large alpha male. Lesser members of the order are fiercely loyal, and will eagerly lay down their lives to protect the alpha."
+                }
+            },
+            "weapons": {
+                "great_sword": {
+                    "name": "Great Sword",
+                    "silkbind_attacks": {
+                        "hunting_edge": {
+                            "name": "Hunting Edge",
+                            "input": "[ZL] + [X] While in mid-air, press [X] or [ZR] after a successful hit",
+                            "description": "A forward leaping attack. After landing a hit, press [X] or [ZR] to follow up with Plunging Thrust or Charged Slash for an additional damage. This new move increases the mobility of Great Sword users significantly."
+                        },
+                        "power_sheathe": {
+                            "name": "Power Sheathe",
+                            "input": "[ZL] + [A]",
+                            "description": "Power Sheathe increases your attack power for a short period of time as you sheathe the weapon. Since you'll be sheathing the weapon frequently, this move will come in handy in many situations."
+                        }
+                    }
+                },
+                "long_sword": {
+                    "name": "Long Sword",
+                    "silkbind_attacks": {
+                        "soaring_kick": {
+                            "name": "Soaring Kick",
+                            "input": "[ZL] + [A]",
+                            "description": "Consumes 1 Wirebug gauge to jump kick the enemy. When successfully hit, it connects to a Plunging Thrust. Hitting this Plunging Thrust fills up your Spirit Gauge automatically for certain period of time. You can also perform a Spirit Helm Breaker after the jump kick by spending one level of Spirit Gauge."
+                        },
+                        "serene_pose": {
+                            "name": "Serene Pose",
+                            "input": "[ZL] + [X]",
+                            "description": "By activating the Serene Pose before getting hit by enemy's attack actives a counter attack. This consumes 2 gauges of Wirebug."
+                        }
+                    }
+                },
+                "sword_and_shield": {
+                    "name": "Sword & Shield",
+                    "silkbind_attacks": {
+                        "falling_shadow": {
+                            "name": "Falling Shadow",
+                            "input": "[ZL] + [X]",
+                            "description": "A forward leaping attack. A succsssful hit will lead into a Scaling Slash. You can also follow up with a Falling Bash to stun your enemies."
+                        },
+                        "windmill": {
+                            "name": "Windmill",
+                            "input": "[ZL] + [A]",
+                            "description": "Uses Wirebug to swing your blade around. You can nullified monster's attack at the beginning of this move. This consumes 2 gauges of Wirebug."
+                        }
+                    }
+                },
+                "dual_blades": {
+                    "name": "Dual Blades",
+                    "silkbind_attacks": {
+                        "piercing_bind": {
+                            "name": "Piercing Bind",
+                            "input": "[ZL] + [X]",
+                            "description": "This move throws a kunai to the enemy that detonates after a certain period of time. You can increase the damage of the kunai's explosion by landing more attacks while the kunai is stuck on the enemy."
+                        },
+                        "shrouded_vault": {
+                            "name": "Shrouded Vault",
+                            "input": "[ZL] + [A]",
+                            "description": "Hurls you forward in a designated direction. Getting hit while in motion triggers a counter-attack. Since the reach of dual blades tends to be short, this move can compensate for that weakness by leaping toward the enemy quickly."
+                        }
+                    }
+                },
+                "hammer": {
+                    "name": "Hammer",
+                    "silkbind_attacks": {
+                        "silkbind_spinning_bludgeon": {
+                            "name": "Silkbind Spinning Bludgeon",
+                            "input": "[ZL] + [X]",
+                            "description": "This move Leaps forward and unleashes a spinning attack. You could do something similar in previous Monster Hunter World while sliding down the slope but this time, you don't have to have slope to perform this."
+                        },
+                        "impact_crater": {
+                            "name": "Impact Crater",
+                            "input": "[ZL] + [A]",
+                            "description": "Jump straight up and dish out a devastating rising attack. The number of hits you'll land, the more damage you'll deal depends on how much you charge prior to activation."
+                        }
+                    }
+                },
+                "hunting_horn": {
+                    "name": "Hunting Horn",
+                    "silkbind_attacks": {
+                        "slide_beat": {
+                            "name": "Slide Beat",
+                            "input": "[ZL] + [X]",
+                            "description": "This move uses a Wirebug to propel you forward into a spinning attack. The final performance grants a status boosts. You'll be invulnerable to knockback effects while moving forward."
+                        },
+                        "earthshaker": {
+                            "name": "Earthshaker",
+                            "input": "[ZL] + [A]",
+                            "description": "Flings forth a blade, connects it to your weapon with Ironsilk, and transmits booming sonic attacks. By attaching the string to enemy's weakness such as its head, which can deal heavy damage."
+                        }
+                    }
+                },
+                "lance": {
+                    "name": "Lance",
+                    "silkbind_attacks": {
+                        "twin_vine": {
+                            "name": "Twin Vine",
+                            "input": "[ZL] + [X]",
+                            "description": "Jabs a kunai straight into the target and connects you to the enemy with the ironsilk. By pressing [ZR]+[B] while the kunai is attached to the target, you can quickly jump toward the enemy."
+                        },
+                        "anchor_rage": {
+                            "name": "Anchor Rage",
+                            "input": "[ZL] + [A]",
+                            "description": "Taking enemy's attack with your shield while the Anchor Rage is active boosts your attack power. The more attacks you've received by your shield, the more attack boost you'll get."
+                        }
+                    }
+                },
+                "gunlance": {
+                    "name": "Gunlance",
+                    "silkbind_attacks": {
+                        "hail_cutter": {
+                            "name": "Hail Cutter",
+                            "input": "[ZL] + [X]",
+                            "description": "Performs a Rising Slash and then an Overhead Smash. Each usage reduces the cooldown time for Wyvern's Fire."
+                        },
+                        "guard_edge": {
+                            "name": "Guard Edge",
+                            "input": "[ZL] + [A]",
+                            "description": "A well-timed guard regenerates your weapon's sharpness. You can follow up with various attack combos after guarding."
+                        }
+                    }
+                },
+                "switch_axe": {
+                    "name": "Switch Axe",
+                    "silkbind_attacks": {
+                        "invincible_gambit": {
+                            "name": "Invincible Gambit",
+                            "input": "[ZL] + [X]",
+                            "description": "Moves you forward while performing a spinning attack. You'll be immune to flinching or being knocked back while this move is active."
+                        },
+                        "switch_charger": {
+                            "name": "Switch Charger",
+                            "input": "[ZL] + [A]",
+                            "description": "Uses a Wirebug to launch you forward while quickly regenerating your Switch Gauge. Your Switch Gauge won't decrease for a short time after activating this move."
+                        }
+                    }
+                },
+                "charge_blade": {
+                    "name": "Charge Blade",
+                    "silkbind_attacks": {
+                        "morphing_advance": {
+                            "name": "Morphing Advance",
+                            "input": "[ZL] + [X]",
+                            "description": "Uses a Wirebug to launch you forward while your charge blade changes to axe form. You'll be immune to knockback and stun while this move is active."
+                        },
+                        "counter_peak_performance": {
+                            "name": "Counter Peak Performance",
+                            "input": "[ZL] + [A]",
+                            "description": "Stretches silk to the ground and protects you from the enemy's attack. When enemy's attack hit while your shield is ready, your phials fill to maximum."
+                        }
+                    }
+                },
+                "bow": {
+                    "name": "Bow",
+                    "silkbind_attacks": {
+                        "herculean_draw": {
+                            "name": "Herculean Draw",
+                            "input": "[R] + [A]",
+                            "description": "Surge forward in a designated direction. This move boosts your attack power for a short period of time as well."
+                        },
+                        "focus_shot": {
+                            "name": "Focus Shot",
+                            "input": "[R] + [X]",
+                            "description": "Dodges backward and crouches. While crouching, your stamina rapidly regenerates. If timed right, you can nullify a monster's attack. Use the Left Stick to change the direction of dodging."
+                        }
+                    }
+                },
+                "insect_glaive": {
+                    "name": "Insect Glaive",
+                    "silkbind_attacks": {
+                        "silkbind_vault": {
+                            "name": "Silkbind Vault",
+                            "input": "[ZL] + [X]",
+                            "description": "It's a leaping attack & can be used in mid-air and follow up with a Jumping Slash, a Jumping Advancing Slash, or a mid-air evade."
+                        },
+                        "recall_kinsect": {
+                            "name": "Recall Kinsect",
+                            "input": "[ZL] + [A]",
+                            "description": "Dodges enemy's attack while calling back your Kinsect. The returning Kinsect performs spinning attacks that scatter healing extracts. Its stamina will fully recover once it gets back to its master."
+                        }
+                    }
+                },
+                "light_bowgun": {
+                    "name": "Light Bowgun",
+                    "silkbind_attacks": {
+                        "silkbind_glide": {
+                            "name": "Silkbind Glide",
+                            "input": "[R] + [X]",
+                            "description": "Surge forward quickly. By pressing [ZR], you can unleash a powerful close-range severing attack."
+                        },
+                        "fanning_vault": {
+                            "name": "Fanning Vault",
+                            "input": "[R] + [A]",
+                            "description": "Uses a Wirebug to vault you forward. You can fire, reload, or fire a Wyvernblast directly below you while in mid-air."
+                        }
+                    }
+                },
+                "heavy_bowgun": {
+                    "name": "Heavy Bowgun",
+                    "silkbind_attacks": {
+                        "free_silkbind_glide": {
+                            "name": "Free Silkbind Glide",
+                            "input": "[R] + [A]",
+                            "description": "Uses a Wirebug to hurl you forward. By pressing [X]+[A] to follow up with a melee attack or press [Y] to follow up with a quick sheathe. Gives mobility to Heavy Bowgun users."
+                        },
+                        "counter_shot": {
+                            "name": "Counter Shot",
+                            "input": "[R] + [X]",
+                            "description": "Stretches out a web of silk and counters the enemy's attack. You can change the direction of your counter-attack so you can hit the opponent charging towards you."
+                        }
+                    }
                 }
             }
         }

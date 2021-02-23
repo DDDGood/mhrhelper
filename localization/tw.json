@@ -11,7 +11,7 @@
             "large_monsters": "大型魔物",
             "small_monsters": "小型魔物",
             "endemic_lifes": "環境生物",
-            "weapons": "武器"
+            "weapons": "武器(施工中)"
         },
         "type": "類型",
         "trait": "特性",
@@ -193,8 +193,22 @@
         },
         "weapons": {
             "name": {
-                "charge_blade": "充能斧"
-            }
+                "great_sword": "大劍",
+                "long_sword": "太刀",
+                "sword_and_shield": "單手劍",
+                "dual_blades": "雙劍",
+                "hammer": "大錘",
+                "hunting_horn": "狩獵笛",
+                "lance": "長槍",
+                "gunlance": "銃槍",
+                "switch_axe": "斬擊斧",
+                "charge_blade": "充能斧",
+                "insect_glaive": "操蟲棍",
+                "light_bowgun": "輕弩槍",
+                "heavy_bowgun": "重弩槍",
+                "bow": "弓"
+            },
+            "silkbind_attacks": "鐵蟲絲技能"
         },
         "map": {
             "name": {

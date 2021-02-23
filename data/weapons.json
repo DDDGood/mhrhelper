@@ -1,16 +1,328 @@
 {
     "weapons": {
-        "charge_blade": {
-            "icon": "",
-            "image": "",
-            "moves": {
-                "move01": {
-                    "name": "",
-                    "description": "",
-                    "video": ""
+        "great_sword": {
+            "name": "大劍",
+            "icon": "images/weapons/icons/great_sword.png",
+            "image": "images/weapons/great_sword_male.png",
+            "description": "大劍擁有巨大的刀身，每一下斬擊皆有著巨大的威力，且攻擊範圍廣，在遇到危機時也可用於防禦。\n而大劍的蓄力斬蓄力時間越長威力越大，蓄力至最大時的威力相當驚人。",
+            "video_embed": "https://www.youtube.com/embed/0BXai6hJAuc",
+            "silkbind_attacks": {
+                "power_sheathe": {
+                    "name": "強化收刀",
+                    "input": "[ZL] + [A]",
+                    "slogan": "養銳蓄威，一刀兩斷",
+                    "description": "迅速向前方移動並同時收刀。\n收刀後，攻擊力會提升一段時間。",
+                    "image": "https://www.monsterhunter.com/rise/assets/images/weapon/modal/great-sword_img03.jpg"
+                },
+                "hunting_edge": {
+                    "name": "狩獵之刃",
+                    "input": "[ZL] + [X] While in mid-air, press [X] or [ZR] after a successful hit",
+                    "slogan": "大劍劈雲，驚天動地",
+                    "description": "向前方跳躍並同時進行攻擊。\n攻擊命中後，可於空中使出強勁的蓄力斬和蓄力下墜突刺。",
+                    "image": "https://www.monsterhunter.com/rise/assets/images/weapon/modal/great-sword_img04.jpg"
                 }
             },
+            "moves": {},
             "control": {}
+        },
+        "long_sword": {
+            "name": "太刀",
+            "icon": "images/weapons/icons/long_sword.png",
+            "image": "images/weapons/long_sword_male.png",
+            "description": "太刀的魅力在於其出色的銳利度。\n以太刀不斷斬擊獵物，就能累積練氣計量表，並能藉此施展高威力的氣刃斬。\n還能使出極需技巧的動作，看破將至的攻擊並加以反擊。",
+            "video_embed": "https://www.youtube.com/embed/7o2SpuGIork",
+            "silkbind_attacks": {
+                "serene_pose": {
+                    "name": "水月之型",
+                    "input": "[ZL] + [X]",
+                    "slogan": "靜如止水，弧月一閃",
+                    "description": "若發動期間受到攻擊，將會迅速朝對方進行反擊。",
+                    "image": "https://www.monsterhunter.com/rise/assets/images/weapon/modal/long-sword_img03.jpg"
+                },
+                "soaring_kick": {
+                    "name": "飛踢",
+                    "input": "[ZL] + [A]",
+                    "slogan": "衝天一躍，無情一閃",
+                    "description": "向前方跳躍並同時進行攻擊。\n命中後會發動下墜突刺，若擊中目標，練氣計量表會自動上升一段時間。\n另外，在練氣計量表的顏色階段上升的狀態下，在攻擊命中時按下按鈕，則會消耗練氣計量表1段顏色階段，接續強力的氣刃兜割。",
+                    "image": "https://www.monsterhunter.com/rise/assets/images/weapon/modal/long-sword_img04.jpg"
+                }
+            }
+        },
+        "sword_and_shield": {
+            "name": "單手劍",
+            "icon": "images/weapons/icons/sword_and_shield.png",
+            "image": "images/weapons/sword_and_shield_male.png",
+            "description": "單手劍破綻小，適合連續攻擊。\n魅力在於其千變萬化的招式，許多攻擊動作都能快速銜接至迴避行動。\n而盾牌除了防禦外，還能用於打擊目標。",
+            "video_embed": "https://www.youtube.com/embed/7v0vO4atf0c",
+            "silkbind_attacks": {
+                "falling_shadow": {
+                    "name": "飛影",
+                    "input": "[ZL] + [X]",
+                    "slogan": "翔空飛影，舞天碎地",
+                    "description": "向前方跳躍並同時進行攻擊。\n攻擊命中後，會接續使出上衝斬。\n之後可於空中緊接使出向下強鎚等攻擊。",
+                    "image": "https://www.monsterhunter.com/rise/assets/images/weapon/modal/sword-and-shield_img03.jpg"
+                },
+                "windmill": {
+                    "name": "風車",
+                    "input": "[ZL] + [A]",
+                    "slogan": "斬風旋車，無從入侵",
+                    "description": "讓鐵蟲絲纏繞在劍上並揮動。\n發動招式時不會受到魔物的攻擊。",
+                    "image": "https://www.monsterhunter.com/rise/assets/images/weapon/modal/sword-and-shield_img04.jpg"
+                }
+            }
+        },
+        "dual_blades": {
+            "name": "雙劍",
+            "icon": "images/weapons/icons/dual_blades.png",
+            "image": "images/weapons/dual_blades_male.png",
+            "description": "此武器的攻擊次數勇冠群兵，能夠施展怒濤般的連續攻擊。\n還能施展鬼人化，以耐力為代價，再度提升行動速度，使出宛如飛舞一般的連擊。",
+            "video_embed": "https://www.youtube.com/embed/ElK_WEyzMsg",
+            "silkbind_attacks": {
+                "shrouded_vault": {
+                    "name": "朦朧幻翔",
+                    "input": "[ZL] + [A]",
+                    "slogan": "幻翔飛舞，血仇必報",
+                    "description": "發動後會朝操控搖桿的方向移動，若在移動中受到攻擊，則會翻身迴避並同時進行攻擊。",
+                    "image": "https://www.monsterhunter.com/rise/assets/images/weapon/modal/dual-blades_img03.jpg"
+                },
+                "piercing_bind": {
+                    "name": "鐵蟲斬絲",
+                    "input": "[ZL] + [X]",
+                    "slogan": "斬絲纏敵，窮追猛打",
+                    "description": "將會定時爆炸的鐵蟲絲纏繞在苦無上，並以其攻擊目標。\n並在之後按照武器攻擊命中的次數給予追擊傷害。",
+                    "image": "https://www.monsterhunter.com/rise/assets/images/weapon/modal/dual-blades_img04.jpg"
+                }
+            }
+        },
+        "hammer": {
+            "name": "大錘",
+            "icon": "images/weapons/icons/hammer.png",
+            "image": "images/weapons/hammer_male.png",
+            "description": "以重量增加破壞力的打擊武器，同時卻又擁有與外觀不符的機動性。\n擊中頭部時，還能夠使目標昏厥。蓄力攻擊的威力也很出色，能夠使出多變的攻擊。",
+            "video_embed": "https://www.youtube.com/embed/Sr3cD0sPJpI",
+            "silkbind_attacks": {
+                "impact_crater": {
+                    "name": "流星穿地擊",
+                    "input": "[ZL] + [A]",
+                    "slogan": "空降流星，貫穿萬物",
+                    "description": "往正上方跳起，並進行強力的攻擊。\n此招會依據發動攻擊前的蓄力階段提升攻擊次數及傷害量。",
+                    "image": "https://www.monsterhunter.com/rise/assets/images/weapon/modal/hammer_img03.jpg"
+                },
+                "silkbind_spinning_bludgeon": {
+                    "name": "鐵蟲迴轉攻擊",
+                    "input": "[ZL] + [X]",
+                    "slogan": "壓敵迴旋大車輪",
+                    "description": "向前方跳躍並同時進行多重迴旋攻擊。\n除了可在蓄力狀態下使出此招式之外，還可以在剛使出招式時長按蓄力按鈕來蓄力，並隨時放開按鈕來展開攻擊。",
+                    "image": "https://www.monsterhunter.com/rise/assets/images/weapon/modal/hammer_img04.jpg"
+                }
+            }
+        },
+        "hunting_horn": {
+            "name": "狩獵笛",
+            "icon": "images/weapons/icons/hunting_horn.png",
+            "image": "images/weapons/hunting_horn_male.png",
+            "description": "能夠演奏音樂來強化自己和夥伴的打擊武器。\n可以選擇在攻擊的同時累積同色音符，平穩地進行強化；或是湊齊三色音符，透過演奏一口氣進行全面性強化。",
+            "video_embed": "https://www.youtube.com/embed/5VN1RwpIZUY",
+            "silkbind_attacks": {
+                "slide_beat": {
+                    "name": "滑音節奏",
+                    "input": "[ZL] + [X]",
+                    "slogan": "絲弦輓歌，音震靈魂",
+                    "description": "向前方移動並進行攻擊。\n最後的演奏除了可以強化自身之外，還令前進部份不會被擊飛。",
+                    "image": "https://www.monsterhunter.com/rise/assets/images/weapon/modal/hunting-horn_img03.jpg"
+                },
+                "earthshaker": {
+                    "name": "震打",
+                    "input": "[ZL] + [A]",
+                    "slogan": "裂頭震音，隨弦飛翔",
+                    "description": "將纏著鐵蟲絲的刀身砍向獵物，音擊所產生的超震動會沿著絲線傳入獵物體內。",
+                    "image": "https://www.monsterhunter.com/rise/assets/images/weapon/modal/hunting-horn_img04.jpg"
+                }
+            }
+        },
+        "lance": {
+            "name": "長槍",
+            "icon": "images/weapons/icons/lance.png",
+            "image": "images/weapons/lance_male.png",
+            "description": "防禦性能十分強大的武器。\n擁有堅固的盾牌，能夠擋下強力的攻擊而不為所動，還能在防禦狀態下進行攻擊與移動。\n其反擊技和猛烈的連續攻擊也極具魅力。",
+            "video_embed": "https://www.youtube.com/embed/M8M9It249QU",
+            "silkbind_attacks": {
+                "twin_vine": {
+                    "name": "決鬥沾身擊",
+                    "input": "[ZL] + [X]",
+                    "slogan": "決鬥因緣一絲牽，無路可逃",
+                    "description": "使用苦無攻擊目標，藉此吸引目標的注意。\n當苦無停留在目標身上時，按下按鈕便能在防禦的同時往魔物的位置跳躍。",
+                    "image": "https://www.monsterhunter.com/rise/assets/images/weapon/modal/lance_img03.jpg"
+                },
+                "anchor_rage": {
+                    "name": "鐵錨狂怒",
+                    "input": "[ZL] + [A]",
+                    "slogan": "怒火燃燒，後發制人",
+                    "description": "若在架盾時受到攻擊，便可使攻擊力提升一段時間。\n攻擊力的提升幅度會隨著承受攻擊之威力而變化。",
+                    "image": "https://www.monsterhunter.com/rise/assets/images/weapon/modal/lance_img04.jpg"
+                }
+            }
+        },
+        "gunlance": {
+            "name": "銃槍",
+            "icon": "images/weapons/icons/gunlance.png",
+            "image": "images/weapons/gunlance_female.png",
+            "description": "銃槍的攻擊力出眾，除了長槍本身的防禦性能外，還追加了砲擊功能。\n透過各式各樣的砲擊動作壓制獵物，尋找良機，施展威力強大的絕招吧。",
+            "video_embed": "https://www.youtube.com/embed/j9waBSCgOic",
+            "silkbind_attacks": {
+                "guard_edge": {
+                    "name": "鐵壁尖槍",
+                    "input": "[ZL] + [A]",
+                    "slogan": "矜牙舞爪，化為鋒刃",
+                    "description": "若抓準時機防禦攻擊，便能回復銳利度。\n防禦後也能接續各種攻擊。",
+                    "image": "https://www.monsterhunter.com/rise/assets/images/weapon/modal/gunlance_img03.jpg"
+                },
+                "hail_cutter": {
+                    "name": "剛鋒利刃",
+                    "input": "[ZL] + [X]",
+                    "slogan": "振作炮身，復活銃槍",
+                    "description": "垂直向上移動並同時施展上撈斬和裝填彈藥，降落時會施展敲打攻擊。\n可以縮短龍擊砲的過熱時間。",
+                    "image": "https://www.monsterhunter.com/rise/assets/images/weapon/modal/gunlance_img04.jpg"
+                }
+            }
+        },
+        "switch_axe": {
+            "name": "斬擊斧",
+            "icon": "images/weapons/icons/switch_axe.png",
+            "image": "images/weapons/switch_axe_female.png",
+            "description": "此武器可因應不同需求變換模式。\n一是擁有優秀機動力，同時能施展重擊的斧模式；二是攻擊速度快的劍模式。\n以劍攻擊使瓶覺醒後，在斧模式下依然能發揮其效果。",
+            "video_embed": "https://www.youtube.com/embed/BywxcTc76FQ",
+            "silkbind_attacks": {
+                "switch_charger": {
+                    "name": "斬擊蓄力",
+                    "input": "[ZL] + [A]",
+                    "slogan": "化蟲絲為劍之活力",
+                    "description": "發動後會朝操控搖桿的方向移動，並迅速回復斬擊計量表。\n發動後一段時間內，斬擊計量表將不會減少。",
+                    "image": "https://www.monsterhunter.com/rise/assets/images/weapon/modal/switch-axe_img03.jpg"
+                },
+                "invincible_gambit": {
+                    "name": "金剛連斧",
+                    "input": "[ZL] + [X]",
+                    "slogan": "金剛進擊，勢如破竹",
+                    "description": "向前方移動並同時進行攻擊。\n金剛連斧的動作相當強韌，無論受到任何攻擊都不會後仰，也不會遭到擊飛。",
+                    "image": "https://www.monsterhunter.com/rise/assets/images/weapon/modal/switch-axe_img04.jpg"
+                }
+            }
+        },
+        "charge_blade": {
+            "name": "充能斧",
+            "icon": "images/weapons/icons/charge_blade.png",
+            "image": "images/weapons/charge_blade_female.png",
+            "description": "擁有劍模式與斧模式兩種型態的武器。\n可以先靠移動靈活的劍模式累積能量，再以劍盾合體後的斧模式解放能量，藉此施展強力的攻擊。",
+            "video_embed": "https://www.youtube.com/embed/3G_4Wrwo_vM",
+            "silkbind_attacks": {
+                "morphing_advance": {
+                    "name": "變形前進",
+                    "input": "[ZL] + [X]",
+                    "slogan": "迅猛重斧，勢不可擋",
+                    "description": "將武器變形為斧狀態，並同時朝操控搖桿的方向移動。\n發動招式時，受到攻擊不會後仰，也不會遭到擊飛。\n移動後可接續使出各種招式。",
+                    "image": "https://www.monsterhunter.com/rise/assets/images/weapon/modal/charge-blade_img03.jpg"
+                },
+                "counter_peak_performance": {
+                    "name": "反擊全填充",
+                    "input": "[ZL] + [A]",
+                    "slogan": "化猛獸暴擊為反擊之糧",
+                    "description": "發射鐵蟲絲到地面上並同時架起盾牌。\n若在此狀態下受到攻擊，即可使瓶填充至最大限度。",
+                    "image": "https://www.monsterhunter.com/rise/assets/images/weapon/modal/charge-blade_img04.jpg"
+                }
+            }
+        },
+        "insect_glaive": {
+            "name": "操蟲棍",
+            "icon": "images/weapons/icons/insect_glaive.png",
+            "image": "images/weapons/insect_glaive_female.png",
+            "description": "操蟲棍可以操縱名為獵蟲的蟲子，從獵物身上採集精華，強化自身的能力。\n能夠縱身一躍跳向空中、腳踩獵物，足不落地、飛舞於天，來去自如地攻擊。",
+            "video_embed": "https://www.youtube.com/embed/YZ_K5x_NQ58",
+            "silkbind_attacks": {
+                "silkbind_vault": {
+                    "name": "鐵蟲絲跳躍",
+                    "input": "[ZL] + [X]",
+                    "slogan": "一躍登天，縱橫四方",
+                    "description": "大幅跳躍並同時進行攻擊。\n按下按鈕可接續使出跳躍斬、跳躍突進斬和空中迴避。\n另外，此招式也能在空中發動。",
+                    "image": "https://www.monsterhunter.com/rise/assets/images/weapon/modal/insect-glaive_img03.jpg"
+                },
+                "recall_kinsect": {
+                    "name": "獵蟲回歸",
+                    "input": "[ZL] + [A]",
+                    "slogan": "蟲絲妙藥，治愈百傷",
+                    "description": "能在進行迴避的同時喚回獵蟲。\n返回時，獵蟲會施展可獲得回復精華的迴旋攻擊。\n另外，獵蟲返回後耐力會完全回復。",
+                    "image": "https://www.monsterhunter.com/rise/assets/images/weapon/modal/insect-glaive_img04.jpg"
+                }
+            }
+        },
+        "light_bowgun": {
+            "name": "輕弩槍",
+            "icon": "images/weapons/icons/light_bowgun.png",
+            "image": "images/weapons/light_bowgun_female.png",
+            "description": "可從遠距離展開攻勢的射擊武器。\n能使用不同的子彈來應對各種情況。例如以速射進行連續攻擊，或是以狀態異常彈進行輔助等。",
+            "video_embed": "https://www.youtube.com/embed/A93FCN77xig",
+            "silkbind_attacks": {
+                "silkbind_glide": {
+                    "name": "鐵蟲絲滑走",
+                    "input": "[R] + [X]",
+                    "slogan": "進攻如水",
+                    "description": "迅速向前方移動拉近距離。\n再按下按鈕可使出具有切斷屬性的近距離攻擊。",
+                    "image": "https://www.monsterhunter.com/rise/assets/images/weapon/modal/light-bowgun_img03.jpg"
+                },
+                "fanning_vault": {
+                    "name": "迴旋跳躍",
+                    "input": "[R] + [A]",
+                    "slogan": "登雲跳躍，轟箭如雷",
+                    "description": "向前方高高跳起。\n發動期間可按下按鈕接續射擊或裝填，亦可朝正下方發射起爆龍彈，使之插在魔物身上。",
+                    "image": "https://www.monsterhunter.com/rise/assets/images/weapon/modal/light-bowgun_img04.jpg"
+                }
+            }
+        },
+        "heavy_bowgun": {
+            "name": "重弩槍",
+            "icon": "images/weapons/icons/heavy_bowgun.png",
+            "image": "images/weapons/heavy_bowgun_female.png",
+            "description": "可從遠距離展開攻勢的射擊武器。\n能使用不同的子彈來應對各種情況。例如以速射進行連續攻擊，或是以狀態異常彈進行輔助等。",
+            "video_embed": "https://www.youtube.com/embed/5c0NAz_InJI",
+            "silkbind_attacks": {
+                "free_silkbind_glide": {
+                    "name": "自在鐵蟲絲滑走",
+                    "input": "[R] + [A]",
+                    "slogan": "風驅電掃，進退自在",
+                    "description": "發動後會朝操控搖桿的方向移動。\n按下按鈕可使出近身攻擊或迅速收刀。",
+                    "image": "https://www.monsterhunter.com/rise/assets/images/weapon/modal/heavy-bowgun_img03.jpg"
+                },
+                "counter_shot": {
+                    "name": "反擊射擊",
+                    "input": "[R] + [X]",
+                    "slogan": "金剛定位，破魔反擊",
+                    "description": "施放鐵蟲絲，擺出反擊架勢。\n若在此狀態下受到攻擊，將會迅速朝對方進行反擊。",
+                    "image": "https://www.monsterhunter.com/rise/assets/images/weapon/modal/heavy-bowgun_img04.jpg"
+                }
+            }
+        },
+        "bow": {
+            "name": "弓",
+            "icon": "images/weapons/icons/bow.png",
+            "image": "images/weapons/bow_female.png",
+            "description": "可使用多種射擊方式的武器。\n不僅擁有高機動性，還能以曲射支援夥伴，或是以高威力的剛射攻擊獵物，在各種場合都能充分發揮。\n也能裝填多種瓶，使獵物陷入各種狀態異常。",
+            "video_embed": "https://www.youtube.com/embed/VOlh0BPurZk",
+            "silkbind_attacks": {
+                "herculean_draw": {
+                    "name": "猛力拉弓",
+                    "input": "[R] + [A]",
+                    "slogan": "鐵蟲借力，剛力無比",
+                    "description": "發動後會迅速朝操控搖桿的方向移動。\n並在一段時間內強化攻擊力。",
+                    "image": "https://www.monsterhunter.com/rise/assets/images/weapon/modal/bow_img03.jpg"
+                },
+                "focus_shot": {
+                    "name": "弓之吐息",
+                    "input": "[R] + [X]",
+                    "slogan": "蟲絲同調，回復活力",
+                    "description": "可在迴避的同時蹲下。\n蹲下時，耐力會急速回復。\n發動招式時不會受到魔物的攻擊。\n另外，亦可透過操控搖桿朝左、右及後方發動。",
+                    "image": "https://www.monsterhunter.com/rise/assets/images/weapon/modal/bow_img04.jpg"
+                }
+            }
         }
     }
 }
