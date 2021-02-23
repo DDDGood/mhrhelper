@@ -16,7 +16,7 @@
                 },
                 "hunting_edge": {
                     "name": "狩獵之刃",
-                    "input": "[ZL] + [X] While in mid-air, press [X] or [ZR] after a successful hit",
+                    "input": "[ZL] + [X] 命中後於空中按 [X] 或 [ZR] ",
                     "slogan": "大劍劈雲，驚天動地",
                     "description": "向前方跳躍並同時進行攻擊。\n攻擊命中後，可於空中使出強勁的蓄力斬和蓄力下墜突刺。",
                     "image": "https://www.monsterhunter.com/rise/assets/images/weapon/modal/great-sword_img04.jpg"
