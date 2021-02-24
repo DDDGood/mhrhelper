@@ -20,14 +20,18 @@
         <details open>
           <summary class="header2">{{$t('weapons.silkbind_attacks')}}</summary>
           <template v-for="(attack, key) in weapondata.silkbind_attacks">
-            <div class="description-text" :key="key">{{attack.name}}</div>
-            <div class="description-text" :key="key">{{attack.input}}</div>
-            <div class="description-text" :key="key">{{attack.slogan}}</div>
+            <div class="description-text text-bold" :key="key">{{attack.name}}</div>
+            <div class="description-text text-italic" :key="key">{{"「" + attack.slogan + "」"}}</div>
+            <div class="description-text" :key="key">{{attack.command}}</div>
             <span :key="key" v-html="ParseDescriptionText(attack.description)"></span>
             <div class="flex-column description-image-container" :key="key">
               <img class="description-image" :src="attack.image" />
             </div>
           </template>
+        </details>
+        <details open v-if="!IsNullOrEmpty(weapondata.controls)">
+          <summary class="header2">{{$t('monster.moves')}}</summary>
+          <moves :weapondata="weapondata"></moves>
         </details>
       </div>
     </div>
@@ -46,6 +50,7 @@ module.exports = {
   },
   components: {
     card: httpVueLoader("components/weapon_card.vue"),
+    moves: httpVueLoader("components/weapon_moves.vue")
   },
 }
 </script>
