@@ -22,7 +22,7 @@
           <template v-for="(attack, key) in weapondata.silkbind_attacks">
             <div class="description-text text-bold" :key="key">{{attack.name}}</div>
             <div class="description-text text-italic" :key="key">{{"「" + attack.slogan + "」"}}</div>
-            <div class="description-text" :key="key">{{attack.command}}</div>
+            <div class="description-text" :key="key" v-html="ParseCommand(attack.command)"></div>
             <span :key="key" v-html="ParseDescriptionText(attack.description)"></span>
             <div class="flex-column description-image-container" :key="key">
               <img class="description-image" :src="attack.image" />

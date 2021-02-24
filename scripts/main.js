@@ -274,6 +274,59 @@ function ParseStars(text) {
     return result;
 }
 
+
+function ParseCommand(text) {
+    let final = "";
+    let array = text.split('[');
+    for (let part of array) {
+        if (part.length === 0)
+            continue;
+        // console.log("part:" + part + part.length)
+        const closeTag = part.indexOf("]");
+        if (closeTag > -1) {
+            const key = part.substring(0, closeTag);
+            final += "<img class='command-icon' src='" + GetInputIcon(key) + "'>";
+            // console.log("key:" + key)
+        }
+        final += "<span class='card-text'>" + part.substring(closeTag + 1) + "</span>";
+    }
+    return final;
+}
+function GetInputIcon(key) {
+    switch (key) {
+        case "X":
+            return "images/icons/inputs/x.png"
+            break;
+        case "Y":
+            return "images/icons/inputs/y.png"
+            break;
+        case "A":
+            return "images/icons/inputs/a.png"
+            break;
+        case "B":
+            return "images/icons/inputs/b.png"
+            break;
+        case "L":
+            return "images/icons/inputs/l.png"
+            break;
+        case "R":
+            return "images/icons/inputs/r.png"
+            break;
+        case "ZL":
+            return "images/icons/inputs/zl.png"
+            break;
+        case "ZR":
+            return "images/icons/inputs/zr.png"
+            break;
+        case "LS":
+            return "images/icons/inputs/ls.png"
+            break;
+        case "RS":
+            return "images/icons/inputs/rs.png"
+            break;
+    }
+}
+
 function IsNullOrEmpty(string) {
     return (!string || string.length === 0);
 }

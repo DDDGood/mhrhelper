@@ -16,7 +16,7 @@
       </div>
       <div class="flex-row interval-y">
         <div class="flex1 rounded-left interval-x card-text text-bold color1 flex-center">指令</div>
-        <div class="flex1 rounded-right interval-x flex-column color2">
+        <div class="flex2 rounded-right interval-x flex-column color2">
           <template v-for="(command, id) in move.commands">
             <div class="flex1 flex-row flex-intense" :key="id" v-html="parsecommand(command)"></div>
           </template>
@@ -67,27 +67,56 @@ module.exports = {
       this.showlinks = !this.showlinks
     },
     parsecommand: function (text) {
-      var result = text;
-      result = this.replacecmdicon(result, "[X]", "images/icons/inputs/x.png");
-      result = this.replacecmdicon(result, "[A]", "images/icons/inputs/a.png");
-      result = this.replacecmdicon(result, "[L]", "images/icons/inputs/l.png");
-      result = this.replacecmdicon(result, "[R]", "images/icons/inputs/r.png");
-      result = this.replacecmdicon(result, "[ZL]", "images/icons/inputs/zl.png");
-      result = this.replacecmdicon(result, "[ZR]", "images/icons/inputs/zr.png");
-      result = this.replacecmdicon(result, "[LS]", "images/icons/inputs/ls.png");
-      result = this.replacecmdicon(result, "[RS]", "images/icons/inputs/rs.png");
-      return result;
+      let final = "";
+      let array = text.split('[');
+      for (let part of array) {
+        if (part.length === 0)
+          continue;
+        // console.log("part:" + part + part.length)
+        const closeTag = part.indexOf("]");
+        if (closeTag > -1) {
+          const key = part.substring(0, closeTag);
+          final += "<img class='command-icon' src='" + this.getInputIcon(key) + "'>";
+          // console.log("key:" + key)
+        }
+        final += "<span class='card-text'>" + part.substring(closeTag + 1) + "</span>";
+      }
+      return final;
     },
-    replacecmdicon: function (input, tag, iconpath) {
-      var result = "";
-      var array = input.split(tag);
-      // for (let i = 0; i < array.length; i++) {
-      //   array[i] = ("<span class='card-text'>" + array[i] + "</span>");
-      // }
-      result = array.join("<img class='command-icon' src='" + iconpath + "'>");
-      // console.log(result);
-      return result;
-    }
+    getInputIcon: function (key) {
+      switch (key) {
+        case "X":
+          return "images/icons/inputs/x.png"
+          break;
+        case "Y":
+          return "images/icons/inputs/y.png"
+          break;
+        case "A":
+          return "images/icons/inputs/a.png"
+          break;
+        case "B":
+          return "images/icons/inputs/b.png"
+          break;
+        case "L":
+          return "images/icons/inputs/l.png"
+          break;
+        case "R":
+          return "images/icons/inputs/r.png"
+          break;
+        case "ZL":
+          return "images/icons/inputs/zl.png"
+          break;
+        case "ZR":
+          return "images/icons/inputs/zr.png"
+          break;
+        case "LS":
+          return "images/icons/inputs/ls.png"
+          break;
+        case "RS":
+          return "images/icons/inputs/rs.png"
+          break;
+      }
+    },
   },
   computed: {
     rootnode: function () {
@@ -97,9 +126,4 @@ module.exports = {
 };
 </script>  
 <style scoped>
-.command-icon {
-  display: inline-block;
-  width: 22px;
-  height: 22px;
-}
 </style>

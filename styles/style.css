@@ -384,3 +384,10 @@ display: grid;
 }
 
 
+.command-icon {
+  display: inline-block;
+  width: 22px;
+  height: 22px;
+}
+
+
