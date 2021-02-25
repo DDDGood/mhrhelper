@@ -22,6 +22,9 @@
           </template>
         </div>
       </div>
+      <div class="flex-row interval-y">
+        <div class="flex1 rounded-left card-text color2 flex-center">{{move.description}}</div>
+      </div>
       <div class="flex-row interval-y" v-if="move.links!== undefined">
         <div class="flex1 color1 rounded flex-column">
           <div class="card-text text-bold interval-y" @click="togglelinks()">派生</div>

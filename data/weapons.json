@@ -267,72 +267,6 @@
                         }
                     ]
                 },
-                "sword_double_slash": {
-                    "name": "劍：蓄力二連斬",
-                    "condition": "劍模式",
-                    "hits": [
-                        {
-                            "type": "cut",
-                            "damage": "27"
-                        },
-                        {
-                            "type": "cut",
-                            "damage": "18"
-                        }
-                    ],
-                    "commands": [
-                        "[A] 長按後放開"
-                    ],
-                    "links": [
-                        {
-                            "node": "sword_spinning_slash",
-                            "command": "[X]"
-                        },
-                        {
-                            "node": "sword_shield_thrust",
-                            "command": "[X] + [A]"
-                        },
-                        {
-                            "node": "morph_slash_into_axe",
-                            "command": "[ZR] + [X]"
-                        },
-                        {
-                            "node": "sword_fade_slash",
-                            "command": "[LS] + [A]"
-                        }
-                    ]
-                },
-                "sword_charged_rising_slash": {
-                    "name": "劍：蓄力上撈斬 (蓄力取消)",
-                    "condition": "劍模式",
-                    "hits": [
-                        {
-                            "type": "cut",
-                            "damage": "13"
-                        }
-                    ],
-                    "commands": [
-                        "[A] 或 [A] 長按過久"
-                    ],
-                    "links": [
-                        {
-                            "node": "sword_spinning_slash",
-                            "command": "[X]"
-                        },
-                        {
-                            "node": "sword_shield_thrust",
-                            "command": "[X] + [A]"
-                        },
-                        {
-                            "node": "morph_slash_into_axe",
-                            "command": "[ZR] + [X]"
-                        },
-                        {
-                            "node": "sword_fade_slash",
-                            "command": "[LS] + [A]"
-                        }
-                    ]
-                },
                 "sword_forward_slash": {
                     "name": "劍：突進斬",
                     "condition": "劍模式",
@@ -406,17 +340,137 @@
                         }
                     ]
                 },
-                "sword_fade_slash": {
-                    "name": "劍：移動斬",
-                    "condition": "劍模式"
-                },
-                "sword_condensed_element_slash": {
-                    "name": "劍：高壓屬性斬",
-                    "condition": "劍模式"
-                },
                 "sword_spinning_slash": {
                     "name": "劍：迴旋斬",
-                    "condition": "劍模式"
+                    "condition": "劍模式",
+                    "description": "後半段有GP判定。",
+                    "hits": [
+                        {
+                            "type": "cut",
+                            "damage": "28"
+                        }
+                    ],
+                    "commands": [
+                        "反擊斬後 [X]",
+                        "蓄力二連斬/蓄力上撈斬後 [X]",
+                        "側跳後 [X]"
+                    ],
+                    "links": [
+                        {
+                            "node": "sword_double_slash",
+                            "command": "[A] 長按"
+                        },
+                        {
+                            "node": "sword_shield_thrust",
+                            "command": "[X] + [A]"
+                        },
+                        {
+                            "node": "morph_slash_into_axe",
+                            "command": "[ZR] + [X]"
+                        },
+                        {
+                            "node": "sword_fade_slash",
+                            "command": "[LS] + [A]"
+                        }
+                    ]
+                },
+                "sword_fade_slash": {
+                    "name": "劍：移動斬",
+                    "condition": "劍模式",
+                    "description": "可往前後左右移動，攻擊後半段有GP判定。",
+                    "hits": [
+                        {
+                            "type": "cut",
+                            "damage": "25"
+                        }
+                    ],
+                    "commands": [
+                        "連招中 [LS] + [A]"
+                    ],
+                    "links": [
+                        {
+                            "node": "sword_return_stroke",
+                            "command": "[X]"
+                        },
+                        {
+                            "node": "sword_double_slash",
+                            "command": "[A] 長按"
+                        },
+                        {
+                            "node": "sword_shield_thrust",
+                            "command": "[X] + [A]"
+                        },
+                        {
+                            "node": "morph_slash_into_axe",
+                            "command": "[ZR] + [X]"
+                        }
+                    ]
+                },
+                "sword_double_slash": {
+                    "name": "劍：蓄力二連斬",
+                    "condition": "劍模式",
+                    "hits": [
+                        {
+                            "type": "cut",
+                            "damage": "27"
+                        },
+                        {
+                            "type": "cut",
+                            "damage": "18"
+                        }
+                    ],
+                    "commands": [
+                        "[A] 長按後放開"
+                    ],
+                    "links": [
+                        {
+                            "node": "sword_spinning_slash",
+                            "command": "[X]"
+                        },
+                        {
+                            "node": "sword_shield_thrust",
+                            "command": "[X] + [A]"
+                        },
+                        {
+                            "node": "morph_slash_into_axe",
+                            "command": "[ZR] + [X]"
+                        },
+                        {
+                            "node": "sword_fade_slash",
+                            "command": "[LS] + [A]"
+                        }
+                    ]
+                },
+                "sword_charged_rising_slash": {
+                    "name": "劍：蓄力上撈斬 (蓄力取消)",
+                    "condition": "劍模式",
+                    "hits": [
+                        {
+                            "type": "cut",
+                            "damage": "13"
+                        }
+                    ],
+                    "commands": [
+                        "[A] 或 [A] 長按過久"
+                    ],
+                    "links": [
+                        {
+                            "node": "sword_spinning_slash",
+                            "command": "[X]"
+                        },
+                        {
+                            "node": "sword_shield_thrust",
+                            "command": "[X] + [A]"
+                        },
+                        {
+                            "node": "morph_slash_into_axe",
+                            "command": "[ZR] + [X]"
+                        },
+                        {
+                            "node": "sword_fade_slash",
+                            "command": "[LS] + [A]"
+                        }
+                    ]
                 },
                 "sword_element_up_roundslash": {
                     "name": "劍：屬性強化迴旋斬",
@@ -430,12 +484,32 @@
                     "name": "變形斬（變斧）",
                     "condition": "劍模式"
                 },
+                "sword_shield_thrust": {
+                    "name": "劍：盾突",
+                    "condition": "劍模式"
+                },
+                "change": {
+                    "name": "裝填",
+                    "condition": "劍模式"
+                },
+                "sword_condensed_element_slash": {
+                    "name": "劍：高壓屬性斬",
+                    "condition": "劍模式"
+                },
                 "sword_jumping_slash": {
                     "name": "劍：跳躍斬",
                     "condition": "劍模式"
                 },
-                "sword_shield_thrust": {
-                    "name": "劍：盾突",
+                "guard": {
+                    "name": "防禦",
+                    "condition": "劍模式"
+                },
+                "side_step": {
+                    "name": "側跳",
+                    "condition": "劍模式"
+                },
+                "axe": {
+                    "name": "側跳",
                     "condition": "劍模式"
                 }
             },
