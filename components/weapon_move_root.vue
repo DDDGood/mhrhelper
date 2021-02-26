@@ -16,13 +16,13 @@
       </div>
       <div class="flex-row interval-y">
         <div class="flex1 rounded-left interval-x card-text text-bold color1 flex-center">指令</div>
-        <div class="flex2 rounded-right interval-x flex-column color2">
+        <div class="flex3 rounded-right interval-x flex-column color2">
           <template v-for="(command, id) in move.commands">
             <div class="flex1 flex-row flex-intense" :key="id" v-html="parsecommand(command)"></div>
           </template>
         </div>
       </div>
-      <div class="flex-row interval-y">
+      <div class="flex-row interval-y" v-if="move.description!== undefined">
         <div class="flex1 rounded-left card-text color2 flex-center">{{move.description}}</div>
       </div>
       <div class="flex-row interval-y" v-if="move.links!== undefined">

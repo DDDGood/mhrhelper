@@ -232,6 +232,50 @@
                 }
             },
             "moves": {
+                "morphing_advance": {
+                    "name": "變形前進",
+                    "condition": "鐵蟲絲技能",
+                    "description": "消耗1翔蟲。變為斧型態並往搖桿推的方向位移。冷卻時間7秒。",
+                    "commands": [
+                        "[ZL] + [X]"
+                    ],
+                    "links": [
+                        {
+                            "node": "sword_spinning_slash",
+                            "command": "[X] or [ZR]"
+                        },
+                        {
+                            "node": "axe_element_discharge_2",
+                            "command": "[A]"
+                        },
+                        {
+                            "node": "axe_amped_element_discharge",
+                            "command": "[X] + [A]"
+                        }
+                    ]
+                },
+                "counter_peak_performance": {
+                    "name": "反擊全填充",
+                    "condition": "鐵蟲絲技能",
+                    "description": "消耗1翔蟲。架盾防禦，其中受到攻擊可使瓶能量完全裝填。冷卻時間13秒。",
+                    "commands": [
+                        "[ZL] + [A]"
+                    ],
+                    "links": [
+                        {
+                            "node": "sword_condensed_element_slash",
+                            "command": "成功防禦後 [X]"
+                        },
+                        {
+                            "node": "sword_morph_slash_into_axe",
+                            "command": "成功防禦後 [A]"
+                        },
+                        {
+                            "node": "axe_amped_element_discharge",
+                            "command": "成功防禦後 [X] + [A]"
+                        }
+                    ]
+                },
                 "sword_weak_slash": {
                     "name": "劍：牽制斬",
                     "condition": "劍模式",
@@ -258,7 +302,7 @@
                             "command": "[X] + [A]"
                         },
                         {
-                            "node": "morph_slash_into_axe",
+                            "node": "sword_morph_slash_into_axe",
                             "command": "[ZR] + [X]"
                         },
                         {
@@ -294,7 +338,7 @@
                             "command": "[X] + [A]"
                         },
                         {
-                            "node": "morph_slash_into_axe",
+                            "node": "sword_morph_slash_into_axe",
                             "command": "[ZR] + [X]"
                         },
                         {
@@ -331,7 +375,7 @@
                             "command": "[X] + [A]"
                         },
                         {
-                            "node": "morph_slash_into_axe",
+                            "node": "sword_morph_slash_into_axe",
                             "command": "[ZR] + [X]"
                         },
                         {
@@ -365,7 +409,7 @@
                             "command": "[X] + [A]"
                         },
                         {
-                            "node": "morph_slash_into_axe",
+                            "node": "sword_morph_slash_into_axe",
                             "command": "[ZR] + [X]"
                         },
                         {
@@ -401,7 +445,7 @@
                             "command": "[X] + [A]"
                         },
                         {
-                            "node": "morph_slash_into_axe",
+                            "node": "sword_morph_slash_into_axe",
                             "command": "[ZR] + [X]"
                         }
                     ]
@@ -432,7 +476,7 @@
                             "command": "[X] + [A]"
                         },
                         {
-                            "node": "morph_slash_into_axe",
+                            "node": "sword_morph_slash_into_axe",
                             "command": "[ZR] + [X]"
                         },
                         {
@@ -463,7 +507,7 @@
                             "command": "[X] + [A]"
                         },
                         {
-                            "node": "morph_slash_into_axe",
+                            "node": "sword_morph_slash_into_axe",
                             "command": "[ZR] + [X]"
                         },
                         {
@@ -472,45 +516,485 @@
                         }
                     ]
                 },
-                "sword_element_up_roundslash": {
-                    "name": "劍：屬性強化迴旋斬",
-                    "condition": "劍模式"
-                },
-                "morph_slash_into_sword": {
-                    "name": "變形斬（變劍）",
-                    "condition": "劍模式"
-                },
-                "morph_slash_into_axe": {
-                    "name": "變形斬（變斧）",
-                    "condition": "劍模式"
-                },
                 "sword_shield_thrust": {
                     "name": "劍：盾突",
-                    "condition": "劍模式"
+                    "condition": "劍模式",
+                    "hits": [
+                        {
+                            "type": "cut",
+                            "damage": "12+8"
+                        }
+                    ],
+                    "commands": [
+                        "任意攻擊中 [X] + [A]"
+                    ],
+                    "links": [
+                        {
+                            "node": "sword_weak_slash",
+                            "command": "[X]"
+                        },
+                        {
+                            "node": "sword_double_slash",
+                            "command": "[A] 長按"
+                        },
+                        {
+                            "node": "axe_amped_element_discharge",
+                            "command": "[X] + [A]"
+                        },
+                        {
+                            "node": "sword_morph_slash_into_axe",
+                            "command": "[ZR] + [X]"
+                        },
+                        {
+                            "node": "sword_fade_slash",
+                            "command": "[LS] + [A]"
+                        }
+                    ]
                 },
                 "change": {
                     "name": "裝填",
-                    "condition": "劍模式"
+                    "condition": "劍模式",
+                    "description": "需要劍擊能量累積至黃瓶以上。",
+                    "commands": [
+                        "[ZR] + [A]"
+                    ],
+                    "links": [
+                        {
+                            "node": "sword_return_stroke",
+                            "command": "[X]"
+                        },
+                        {
+                            "node": "sword_condensed_element_slash",
+                            "command": "[X] 長按"
+                        },
+                        {
+                            "node": "axe_element_discharge_1",
+                            "command": "[A]"
+                        }
+                    ]
                 },
                 "sword_condensed_element_slash": {
                     "name": "劍：高壓屬性斬",
-                    "condition": "劍模式"
+                    "condition": "劍模式",
+                    "description": "屬性強化狀態(紅盾)下使用可進入劍強化狀態(紅劍)。",
+                    "hits": [
+                        {
+                            "type": "cut",
+                            "damage": "75"
+                        }
+                    ],
+                    "commands": [
+                        "裝填中 [X] 長按至蓄力完成放開",
+                        "反擊全填充成功防禦後 [X]"
+                    ],
+                    "links": [
+                        {
+                            "node": "sword_spinning_slash",
+                            "command": "[X]"
+                        },
+                        {
+                            "node": "sword_double_slash",
+                            "command": "[A] 長按"
+                        },
+                        {
+                            "node": "sword_shield_thrust",
+                            "command": "[X] + [A]"
+                        },
+                        {
+                            "node": "sword_morph_slash_into_axe",
+                            "command": "[ZR] + [X]"
+                        },
+                        {
+                            "node": "sword_fade_slash",
+                            "command": "[LS] + [A]"
+                        }
+                    ]
                 },
                 "sword_jumping_slash": {
                     "name": "劍：跳躍斬",
-                    "condition": "劍模式"
+                    "condition": "劍模式",
+                    "hits": [
+                        {
+                            "type": "cut",
+                            "damage": "22"
+                        }
+                    ],
+                    "commands": [
+                        "收刀/持劍於空中 [X] ",
+                        "持斧於空中 [ZR]"
+                    ],
+                    "links": [
+                        {
+                            "node": "sword_spinning_slash",
+                            "command": "[X]"
+                        },
+                        {
+                            "node": "sword_double_slash",
+                            "command": "[A] 長按"
+                        },
+                        {
+                            "node": "sword_shield_thrust",
+                            "command": "[X] + [A]"
+                        },
+                        {
+                            "node": "sword_morph_slash_into_axe",
+                            "command": "[ZR] + [X]"
+                        },
+                        {
+                            "node": "sword_fade_slash",
+                            "command": "[LS] + [A]"
+                        }
+                    ]
                 },
                 "guard": {
                     "name": "防禦",
-                    "condition": "劍模式"
+                    "condition": "劍模式",
+                    "commands": [
+                        "[ZR]"
+                    ]
                 },
                 "side_step": {
                     "name": "側跳",
-                    "condition": "劍模式"
+                    "condition": "劍模式",
+                    "commands": [
+                        "攻擊後 [LS] 左右 + [B]"
+                    ],
+                    "links": [
+                        {
+                            "node": "sword_spinning_slash",
+                            "command": "[X]"
+                        },
+                        {
+                            "node": "sword_double_slash",
+                            "command": "[A] 長按"
+                        }
+                    ]
                 },
-                "axe": {
-                    "name": "側跳",
-                    "condition": "劍模式"
+                "sword_morph_slash_into_axe": {
+                    "name": "劍：變形斬（變斧）",
+                    "condition": "劍模式",
+                    "description": "進入斧型態。前半段有GP判定。",
+                    "hits": [
+                        {
+                            "type": "cut",
+                            "damage": "37"
+                        }
+                    ],
+                    "commands": [
+                        "[ZR] + [X]"
+                    ],
+                    "links": [
+                        {
+                            "node": "axe_rising_slash",
+                            "command": "[X]"
+                        },
+                        {
+                            "node": "axe_element_discharge_2",
+                            "command": "[A]"
+                        },
+                        {
+                            "node": "axe_amped_element_discharge",
+                            "command": "[X] + [A]"
+                        },
+                        {
+                            "node": "axe_morph_slash_into_sword",
+                            "command": "[ZR]"
+                        }
+                    ]
+                },
+                "axe_morph_slash_into_sword": {
+                    "name": "斧：變形斬（變劍）",
+                    "condition": "劍模式",
+                    "description": "進入劍型態。後半段有GP判定。",
+                    "hits": [
+                        {
+                            "type": "cut",
+                            "damage": "28"
+                        }
+                    ],
+                    "commands": [
+                        "[ZR]"
+                    ],
+                    "links": [
+                        {
+                            "node": "sword_weak_slash",
+                            "command": "[X]"
+                        },
+                        {
+                            "node": "sword_double_slash",
+                            "command": "[A] 長按"
+                        },
+                        {
+                            "node": "sword_shield_thrust",
+                            "command": "[X] + [A]"
+                        },
+                        {
+                            "node": "sword_morph_slash_into_axe",
+                            "command": "[ZR] + [X]"
+                        }
+                    ]
+                },
+                "axe_rising_slash": {
+                    "name": "斧：上撈斬",
+                    "condition": "斧模式",
+                    "hits": [
+                        {
+                            "type": "cut",
+                            "damage": "35"
+                        }
+                    ],
+                    "commands": [
+                        "[X]"
+                    ],
+                    "links": [
+                        {
+                            "node": "axe_overhead_slash",
+                            "command": "[X]"
+                        },
+                        {
+                            "node": "axe_element_discharge_2",
+                            "command": "[A]"
+                        },
+                        {
+                            "node": "axe_amped_element_discharge",
+                            "command": "[X] + [A]"
+                        },
+                        {
+                            "node": "axe_morph_slash_into_sword",
+                            "command": "[ZR]"
+                        }
+                    ]
+                },
+                "axe_overhead_slash": {
+                    "name": "斧：縱斬",
+                    "condition": "斧模式",
+                    "hits": [
+                        {
+                            "type": "cut",
+                            "damage": "37"
+                        }
+                    ],
+                    "commands": [
+                        "上撈斬後 [X]"
+                    ],
+                    "links": [
+                        {
+                            "node": "axe_rising_slash",
+                            "command": "[X]"
+                        },
+                        {
+                            "node": "axe_element_discharge_2",
+                            "command": "[A]"
+                        },
+                        {
+                            "node": "axe_amped_element_discharge",
+                            "command": "[X] + [A]"
+                        },
+                        {
+                            "node": "axe_morph_slash_into_sword",
+                            "command": "[ZR]"
+                        },
+                        {
+                            "node": "axe_dash_slam",
+                            "command": "[LS] 前 + [X]"
+                        }
+                    ]
+                },
+                "axe_smash": {
+                    "name": "斧：敲打",
+                    "condition": "斧模式",
+                    "description": "拔刀時前半段有GP判定。",
+                    "hits": [
+                        {
+                            "type": "cut",
+                            "damage": "37"
+                        }
+                    ],
+                    "commands": [
+                        "收刀時 [ZR]",
+                        "屬性解放斬2後延遲按 [X]"
+                    ],
+                    "links": [
+                        {
+                            "node": "axe_rising_slash",
+                            "command": "[X]"
+                        },
+                        {
+                            "node": "axe_element_discharge_2",
+                            "command": "[A]"
+                        },
+                        {
+                            "node": "axe_amped_element_discharge",
+                            "command": "[X] + [A]"
+                        },
+                        {
+                            "node": "axe_morph_slash_into_sword",
+                            "command": "[ZR]"
+                        },
+                        {
+                            "node": "axe_dash_slam",
+                            "command": "[LS] 前 + [X]"
+                        }
+                    ]
+                },
+                "axe_dash_slam": {
+                    "name": "斧：突進敲打",
+                    "condition": "斧模式",
+                    "hits": [
+                        {
+                            "type": "cut",
+                            "damage": "45"
+                        }
+                    ],
+                    "commands": [
+                        "[LS] + [X]"
+                    ],
+                    "links": [
+                        {
+                            "node": "axe_rising_slash",
+                            "command": "[X]"
+                        },
+                        {
+                            "node": "axe_element_discharge_2",
+                            "command": "[A]"
+                        },
+                        {
+                            "node": "axe_amped_element_discharge",
+                            "command": "[X] + [A]"
+                        },
+                        {
+                            "node": "axe_morph_slash_into_sword",
+                            "command": "[ZR]"
+                        }
+                    ]
+                },
+                "axe_element_discharge_1": {
+                    "name": "斧：屬性解放斬1",
+                    "condition": "斧模式",
+                    "description": "若有瓶能量則消耗1瓶，消耗瓶能量時攻擊附帶心眼效果，並產生額外瓶爆炸傷害。若向前推搖桿會先前踏一步",
+                    "hits": [
+                        {
+                            "type": "cut",
+                            "damage": "21"
+                        }
+                    ],
+                    "commands": [
+                        "[A]"
+                    ],
+                    "links": [
+                        {
+                            "node": "axe_rising_slash",
+                            "command": "[X]"
+                        },
+                        {
+                            "node": "axe_element_discharge_2",
+                            "command": "[A]"
+                        },
+                        {
+                            "node": "axe_amped_element_discharge",
+                            "command": "[X] + [A]"
+                        },
+                        {
+                            "node": "axe_morph_slash_into_sword",
+                            "command": "[ZR]"
+                        }
+                    ]
+                },
+                "axe_element_discharge_2": {
+                    "name": "斧：屬性解放斬2",
+                    "condition": "斧模式",
+                    "description": "若有瓶能量則消耗1瓶，消耗瓶能量時攻擊附帶心眼效果，並產生額外瓶爆炸傷害。",
+                    "hits": [
+                        {
+                            "type": "cut",
+                            "damage": "30+46"
+                        }
+                    ],
+                    "commands": [
+                        "屬性解放斬1後 [A]",
+                        "上撈斬/敲打/跳躍斬後 [A]",
+                        "劍：變形斬後 [A]",
+                        "變形前進後 [A]"
+                    ],
+                    "links": [
+                        {
+                            "node": "axe_rising_slash",
+                            "command": "[X]"
+                        },
+                        {
+                            "node": "axe_amped_element_discharge",
+                            "command": "[A]"
+                        },
+                        {
+                            "node": "axe_morph_slash_into_sword",
+                            "command": "[ZR]"
+                        },
+                        {
+                            "node": "axe_smash",
+                            "command": "延遲按 [X]"
+                        }
+                    ]
+                },
+                "axe_amped_element_discharge": {
+                    "name": "斧：高出力屬性解放斬",
+                    "condition": "斧模式",
+                    "description": "俗稱「大解」。若有瓶能量則消耗1瓶，消耗瓶能量時產生三次瓶爆炸傷害。進入劍模式。",
+                    "hits": [
+                        {
+                            "type": "cut",
+                            "damage": "90"
+                        }
+                    ],
+                    "commands": [
+                        "[X] + [A]",
+                        "斧：屬性解放斬2後 [A]",
+                        "劍：盾突後 [X] + [A]",
+                        "反擊全填充成功防禦時 [X] + [A]"
+                    ],
+                    "links": [
+                        {
+                            "node": "sword_element_up_roundslash",
+                            "command": "[ZR]"
+                        }
+                    ]
+                },
+                "axe_super_amped_element_discharge": {
+                    "name": "斧：超高出力屬性解放斬",
+                    "condition": "斧模式",
+                    "description": "俗稱「超解」。消耗全部瓶能量產生多次瓶爆炸傷害。進入劍模式。",
+                    "hits": [
+                        {
+                            "type": "cut",
+                            "damage": "15+90+72"
+                        }
+                    ],
+                    "commands": [
+                        "與高出力屬性解放斬操作相同，若為屬性強化狀態(紅盾)則會使出超解。"
+                    ],
+                    "links": [
+                        {
+                            "node": "axe_amped_element_discharge",
+                            "command": "前半動作中 [LS] 後 + [X]"
+                        },
+                        {
+                            "node": "sword_element_up_roundslash",
+                            "command": "[ZR]"
+                        }
+                    ]
+                },
+                "sword_element_up_roundslash": {
+                    "name": "劍：屬性強化迴旋斬",
+                    "condition": "斧模式",
+                    "description": "消耗全部瓶能量並進入屬性強化狀態(紅盾)，持續時間為消耗瓶數*30。進入劍模式。",
+                    "hits": [
+                        {
+                            "type": "cut",
+                            "damage": "28"
+                        }
+                    ],
+                    "commands": [
+                        "(超)高出力屬性解放斬前半動作中 [ZR]"
+                    ]
                 }
             },
             "controls": [
@@ -559,7 +1043,7 @@
                             "links": []
                         },
                         {
-                            "move": "morph_slash_into_axe",
+                            "move": "sword_morph_slash_into_axe",
                             "links": []
                         },
                         {
@@ -614,7 +1098,7 @@
                             "links": []
                         },
                         {
-                            "move": "morph_slash_into_axe",
+                            "move": "sword_morph_slash_into_axe",
                             "links": []
                         },
                         {
