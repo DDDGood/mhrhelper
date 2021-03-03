@@ -11,9 +11,15 @@
         </details>
         <details open>
           <summary class="header2">{{$t('monster.hitdata')}}</summary>
+          <img
+            v-if="IsNullOrEmpty(mondata.hitzone_image) === false"
+            class="hitzone-image"
+            :src="mondata.hitzone_image"
+          />
           <table id="hitdata-table">
             <tbody id="hitdata_table_tbody">
               <tr class="card-text text-bold">
+                <th>#</th>
                 <th>{{$t('monster.part')}}</th>
                 <th>{{$t('monster.state')}}</th>
                 <th class="number">
@@ -40,8 +46,12 @@
                 <th class="number">
                   <img class="hitdata-icon" src="images/icons/element/element_dragon.png" />
                 </th>
+                <th class="number">
+                  <img class="hitdata-icon" src="images/icons/state/state_stun.png" />
+                </th>
               </tr>
               <tr class="card-text" v-for="part of mondata.parts" :key="part.name + part.state">
+                <td :style="{width: '1%',background: part.hitzone_color}"></td>
                 <td>{{ part.name }}</td>
                 <td>{{ part.state }}</td>
                 <td
@@ -68,6 +78,7 @@
                 <td
                   v-bind:class="{ 'hitdata-highlight': part.hitData[7] >= 25 }"
                 >{{ part.hitData[7] }}</td>
+                <td>{{ part.hitData[8] }}</td>
               </tr>
             </tbody>
           </table>
@@ -87,7 +98,7 @@
           <summary class="header2">{{$t('description_detail')}}</summary>
           <span id="detail" v-html="GetDescriptionText('detail')"></span>
         </details>
-        <details open v-if="this.reference.length >0">
+        <details open v-if="Object.keys(reference).length > 0">
           <summary class="header2">{{$t('reference')}}</summary>
           <div v-for="(link,key) in this.reference" :key="key">
             <a class="description-text" :href="link">{{key}}</a>
@@ -102,7 +113,8 @@ module.exports = {
   data: function () {
     return {
       // mondata: {},
-      reference: {}
+      reference: {
+      }
     };
   },
   props: ["dex", "moves"],
@@ -130,6 +142,7 @@ module.exports = {
       for (const key in this.movedata.reference) {
         this.reference[key] = this.movedata.reference[key];
       }
+    this.$forceUpdate();
   },
   methods: {
     GetDescriptionText: function (key, from) {
@@ -202,6 +215,16 @@ tfoot {
   width: 80%;
   max-width: 20px;
   max-height: 20px;
+}
+
+.hitzone-image {
+  display: block;
+  max-width: 80%;
+  max-height: 30%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* mobile */

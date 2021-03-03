@@ -39,7 +39,7 @@ $(document).ready(Initialize);
 
 function Initialize() {
 
-    LoadData(['data/mhrdex.json', 'data/mhrmoves.json', 'data/endemics.json', "data/small_monster.json", "data/weapons.json"], onDexLoaded);
+    LoadData(['data/mhrdex.json', 'data/mhrmoves.json', 'data/endemics.json', "data/small_monster.json", "data/weapons.json", "data/demo-hitdata.json"], onDexLoaded);
 }
 
 function LoadData(paths, callback) {
@@ -128,21 +128,50 @@ function onDexLoaded() {
     }
 
 
+    // const PART_COLOR = ["#e6194B", "#3cb44b", "#ffe119", "#4363d8", "#f58231", "#911eb4", "#42d4f4", "#f032e6", "#bfef45"];
+    // for (let m of data['hitdata']) {
+    //     console.log(m.name_en);
+    //     for (let id in data['large_monsters']) {
+    //         let mon = data['large_monsters'][id];
+    //         if (mon.name.en === m.name_en) {
+    //             console.log("find!: " + mon.name.tw);
+    //             mon.hitzone_image = "";
+    //             mon.parts = [];
 
-    // let temp = {};
-    // for (let id in data['monster']) {
-    //     let key = id;
-    //     let val = {
-    //         name: i18n.messages.en.monster.name[id],
-    //         description: ""
-    //     };
-    //     temp[key] = val;
+    //             let currentColorID = -1;
+    //             let lastPart = "";
+    //             for (let partID in m.rouzhi_array) {
+    //                 let part = m.rouzhi_array[partID];
+    //                 if (lastPart != part.part) {
+    //                     currentColorID++;
+    //                 }
+    //                 lastPart = part.part;
+    //                 mon.parts.push({
+    //                     "name": part.part,
+    //                     "state": part.partCondition,
+    //                     "hitzone_color": PART_COLOR[currentColorID],
+    //                     "hitData": [
+    //                         part.cut,
+    //                         part.hit,
+    //                         part.shot,
+    //                         part.fire,
+    //                         part.water,
+    //                         part.thunder,
+    //                         part.ice,
+    //                         part.dragon,
+    //                         part.dizzy
+    //                     ]
+    //                 })
+    //             }
+    //             console.log(JSON.stringify(mon.parts));
+    //         }
+    //     }
     // }
 
     // console.log(JSON.stringify(temp));
 
     // const win = window.open('about:blank', '_blank');
-    // win.document.write(JSON.stringify(temp));
+    // win.document.write(JSON.stringify(data['large_monsters']));
 
     // let temp = {};
     // for (let id in i18n.messages.en.endemics.name) {
