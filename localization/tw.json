@@ -90,7 +90,7 @@
             },
             "part": "部位",
             "state": "狀態",
-            "hitdata": "詳細肉質(舊版資訊)",
+            "hitdata": "詳細肉質(非正式版資訊)",
             "battlestrategy": "對戰要點",
             "moves": "招式派生",
             "move": {
