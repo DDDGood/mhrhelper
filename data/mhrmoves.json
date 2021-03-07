@@ -1521,6 +1521,9 @@
         },
         "magnamalo": {
             "outline": "",
+            "reference": {
+                "(twitter)モンスターハンターライズ公式": "https://twitter.com/mh_rise_jp"
+            },
             "moves": [
                 {
                     "name": "龍吼",
@@ -1581,6 +1584,10 @@
         },
         "khezu": {
             "outline": "",
+            "reference": {
+                "(twitter)モンスターハンターライズ公式": "https://twitter.com/mh_rise_jp",
+                "Monster Hunter Rise Khezu Boss Fight – New Gameplay Today": "https://www.youtube.com/watch?v=xlRccx2ASG8"
+            },
             "moves": [
                 {
                     "name": "龍吼",
@@ -1626,12 +1633,61 @@
                     "note": "",
                     "image": "videos/奇怪龍/奇怪龍_飛撲.mp4",
                     "onlyincombo": false
+                },
+                {
+                    "name": "發電",
+                    "preaction": "",
+                    "action": "",
+                    "recovery": "",
+                    "note": "",
+                    "image": "videos/奇怪龍/奇怪龍_發電.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "甩尾",
+                    "preaction": "",
+                    "action": "",
+                    "recovery": "",
+                    "note": "",
+                    "image": "videos/奇怪龍/奇怪龍_甩尾.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "帶電突進",
+                    "preaction": "",
+                    "action": "",
+                    "recovery": "",
+                    "note": "",
+                    "image": "videos/奇怪龍/奇怪龍_帶電突進.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "散步",
+                    "preaction": "",
+                    "action": "",
+                    "recovery": "",
+                    "note": "",
+                    "image": "videos/奇怪龍/奇怪龍_散步.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "懸掛電球",
+                    "condition": "攀於洞穴頂端時",
+                    "preaction": "",
+                    "action": "",
+                    "recovery": "",
+                    "note": "",
+                    "image": "videos/奇怪龍/奇怪龍_懸掛電球.mp4",
+                    "onlyincombo": false
                 }
             ],
             "combos": []
         },
         "bishaten": {
             "outline": "",
+            "reference": {
+                "(twitter)モンスターハンターライズ公式": "https://twitter.com/mh_rise_jp"
+            },
             "moves": [
                 {
                     "name": "陀螺",
@@ -1692,6 +1748,9 @@
         },
         "royal_ludroth": {
             "outline": "",
+            "reference": {
+                "(twitter)モンスターハンターライズ公式": "https://twitter.com/mh_rise_jp"
+            },
             "moves": [
                 {
                     "name": "龍吼",
@@ -1725,6 +1784,9 @@
         },
         "great_wroggi": {
             "outline": "",
+            "reference": {
+                "(twitter)モンスターハンターライズ公式": "https://twitter.com/mh_rise_jp"
+            },
             "moves": [
                 {
                     "name": "龍吼",
@@ -1758,6 +1820,9 @@
         },
         "goss_harag": {
             "outline": "",
+            "reference": {
+                "(twitter)モンスターハンターライズ公式": "https://twitter.com/mh_rise_jp"
+            },
             "moves": [
                 {
                     "name": "衝刺拳",
@@ -1818,6 +1883,9 @@
         },
         "tigrex": {
             "outline": "",
+            "reference": {
+                "(twitter)モンスターハンターライズ公式": "https://twitter.com/mh_rise_jp"
+            },
             "moves": [
                 {
                     "name": "推石",
@@ -1842,6 +1910,9 @@
         },
         "great_baggi": {
             "outline": "",
+            "reference": {
+                "(twitter)モンスターハンターライズ公式": "https://twitter.com/mh_rise_jp"
+            },
             "moves": [
                 {
                     "name": "吐口水",
@@ -1903,6 +1974,9 @@
         },
         "barioth": {
             "outline": "",
+            "reference": {
+                "(twitter)モンスターハンターライズ公式": "https://twitter.com/mh_rise_jp"
+            },
             "moves": [
                 {
                     "name": "飛撲",
@@ -1983,6 +2057,9 @@
         },
         "lagombi": {
             "outline": "",
+            "reference": {
+                "(twitter)モンスターハンターライズ公式": "https://twitter.com/mh_rise_jp"
+            },
             "moves": [
                 {
                     "name": "正雪球",
