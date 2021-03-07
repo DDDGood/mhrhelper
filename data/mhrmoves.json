@@ -1353,6 +1353,11 @@
         },
         "somnacanth": {
             "outline": "人魚龍有三種進攻姿勢，一般(趴下)、站立、躺滑。三種姿勢會使用的攻擊動作各不相同：在一般(趴下)姿勢時，須特別留意發動極快的「突進」招式；在站立姿勢時，部分招式使用前會先後退一步拉開距離，最常見的是例子「鱗片射擊」；在躺滑姿勢時，通常就是滑行遊走後「玩貝殼」了。人魚龍的招式種類並不多，注意人魚龍的姿勢，可作為判斷人魚龍招式的依據。\n人魚龍的憤怒狀態對招式的變化影響不多，只須注意「吐息」會橫掃、躺滑遊走時會產生睡眠氣體，另外解鎖一招「睡眠氣體爆發」的大招。可從口中冒白煙的特徵來判斷人魚龍是否處於憤怒狀態。",
+            "reference": {
+                "(twitter)モンスターハンターライズ公式": "https://twitter.com/mh_rise_jp",
+                "《怪物猎人/魔物獵人:崛起》人魚龍討伐演示 Monster Hunter Rise Somnacanth Complete Quest Gameplay IGN First": "https://www.youtube.com/watch?v=BCJnEsdAR8Y",
+                "《怪物猎人/魔物獵人:崛起》狩獵笛討伐人魚龍討伐": "https://youtu.be/IPSLw7GMB8E"
+            },
             "moves": [
                 {
                     "name": "龍吼",
