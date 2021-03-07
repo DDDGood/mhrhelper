@@ -354,6 +354,9 @@ details[open] > summary:after {
     border-radius : 10px;
     padding-left: 10px;
   }
+   .combo-condition-container +  .combo-condition-container{
+     margin-top: 10px;
+   }
   .combo-condition-text{
     text-align: center;
     top:0px;

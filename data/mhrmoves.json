@@ -1352,13 +1352,13 @@
             ]
         },
         "somnacanth": {
-            "outline": "",
+            "outline": "人魚龍有三種進攻姿勢，一般(趴下)、站立、躺滑。三種姿勢會使用的攻擊動作各不相同：在一般(趴下)姿勢時，須特別留意發動極快的「突進」招式；在站立姿勢時，部分招式使用前會先後退一步拉開距離，最常見的是例子「鱗片射擊」；在躺滑姿勢時，通常就是滑行遊走後「玩貝殼」了。人魚龍的招式種類並不多，注意人魚龍的姿勢，可作為判斷人魚龍招式的依據。\n人魚龍的憤怒狀態對招式的變化影響不多，只須注意「吐息」會橫掃、躺滑遊走時會產生睡眠氣體，另外解鎖一招「睡眠氣體爆發」的大招。可從口中冒白煙的特徵來判斷人魚龍是否處於憤怒狀態。",
             "moves": [
                 {
                     "name": "龍吼",
                     "condition": "",
-                    "preaction": "",
-                    "action": "",
+                    "preaction": "脖子後縮，抬起單手。",
+                    "action": "單手下踩並發出吼叫。",
                     "recovery": "",
                     "note": "",
                     "image": "videos/人魚龍/人魚龍_龍吼.mp4",
@@ -1368,66 +1368,53 @@
                     "name": "威嚇",
                     "condition": "",
                     "preaction": "",
-                    "action": "",
+                    "action": "頭向上一甩，往前伸。",
                     "recovery": "",
-                    "note": "",
+                    "note": "無吼叫判定的動作。",
                     "image": "videos/人魚龍/人魚龍_威嚇.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "二連拍",
+                    "preaction": "身體側縮蓄力，抬起單手。",
+                    "action": "向前二連突進拍擊。",
+                    "recovery": "小",
+                    "note": "",
+                    "image": "videos/人魚龍/人魚龍_二連拍.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "突進",
+                    "preaction": "身體稍微後縮蓄力。",
+                    "action": "向目標短距離快速突進。",
+                    "recovery": "小",
+                    "note": "前置動作短且不明顯，在人魚龍趴下姿態時需特別留意此招。",
+                    "image": "videos/人魚龍/人魚龍_突進.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "龍車",
+                    "preaction": "前置動作不明顯，距離目標遠時使用。",
+                    "action": "向目標蛇行前進。",
+                    "recovery": "小",
+                    "note": "",
+                    "image": "videos/人魚龍/人魚龍_龍車.mp4",
                     "onlyincombo": false
                 },
                 {
                     "name": "站立龍吼",
                     "condition": "站立姿勢",
-                    "preaction": "",
-                    "action": "",
+                    "preaction": "上身抬起後縮。",
+                    "action": "向前俯身吼叫。",
                     "recovery": "",
                     "note": "",
                     "image": "videos/人魚龍/人魚龍_站立龍吼.mp4",
                     "onlyincombo": false
                 },
                 {
-                    "name": "躺滑龍吼",
-                    "condition": "躺滑姿勢",
-                    "preaction": "",
-                    "action": "",
-                    "recovery": "",
-                    "note": "",
-                    "image": "videos/人魚龍/人魚龍_躺滑龍吼.mp4",
-                    "onlyincombo": false
-                },
-                {
-                    "name": "吐息",
-                    "condition": "站立姿勢",
-                    "preaction": "口中發光，縮頭蓄力。",
-                    "action": "向前吐出使人睡眠的氣體。",
-                    "recovery": "大",
-                    "note": "普通狀態只向前，憤怒時會左右橫掃。",
-                    "image": "videos/人魚龍/人魚龍_吐息.mp4",
-                    "onlyincombo": false
-                },
-                {
-                    "name": "頭橫掃",
-                    "condition": "站立姿勢",
-                    "preaction": "",
-                    "action": "",
-                    "recovery": "大",
-                    "note": "",
-                    "image": "videos/人魚龍/人魚龍_頭橫掃.mp4",
-                    "onlyincombo": false
-                },
-                {
-                    "name": "大招睡眠氣體",
-                    "condition": "站立姿勢",
-                    "preaction": "",
-                    "action": "",
-                    "recovery": "",
-                    "note": "",
-                    "image": "",
-                    "onlyincombo": false
-                },
-                {
                     "name": "鱗片射擊",
                     "condition": "站立姿勢",
-                    "preaction": "快速向後退一步，頭微微側縮。",
+                    "preaction": "若與目標距離過近會先快速後退一步，接著頭微微側縮。",
                     "action": "向前方扇形射出鱗片飛鏢。",
                     "recovery": "小",
                     "note": "",
@@ -1435,18 +1422,9 @@
                     "onlyincombo": false
                 },
                 {
-                    "name": "龍車",
-                    "preaction": "身體稍微後縮蓄力。",
-                    "action": "向目標滑行龍車，距離可近可遠。",
-                    "recovery": "小",
-                    "note": "前置動作短且不明顯，在人魚龍趴下姿態時需留意此招。",
-                    "image": "videos/人魚龍/人魚龍_龍車.mp4",
-                    "onlyincombo": false
-                },
-                {
                     "name": "跳撲",
                     "condition": "站立姿勢",
-                    "preaction": "會先後退，然後俯低身體蓄力。",
+                    "preaction": "若目標距離過近會先後退，然後俯低身體蓄力。",
                     "action": "高高躍起，向目標飛撲。",
                     "recovery": "中",
                     "note": "",
@@ -1464,22 +1442,53 @@
                     "onlyincombo": false
                 },
                 {
-                    "name": "二連拍",
-                    "preaction": "身體側縮蓄力，抬起單手。",
-                    "action": "向前二連突進拍擊。",
-                    "recovery": "小",
-                    "note": "",
-                    "image": "videos/人魚龍/人魚龍_二連拍.mp4",
-                    "onlyincombo": false
-                },
-                {
                     "name": "下壓",
                     "condition": "站立姿勢",
-                    "preaction": "胸前海狗拍手。",
+                    "preaction": "若目標距離過近會先後退，在胸前做海狗拍手。",
                     "action": "下壓，頭前出水波。",
                     "recovery": "中",
                     "note": "",
                     "image": "videos/人魚龍/人魚龍_下壓.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "頭橫掃",
+                    "condition": "站立姿勢",
+                    "preaction": "上身後仰，雙手在胸前亂揮。",
+                    "action": "用頭上的鰭向前大範圍橫掃。",
+                    "recovery": "大",
+                    "note": "橫掃範圍大，可貼近身下是盲區。是人魚龍少數硬直大的招式。",
+                    "image": "videos/人魚龍/人魚龍_頭橫掃.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "吐息",
+                    "condition": "站立姿勢",
+                    "preaction": "口中發光，縮頭蓄力。",
+                    "action": "向前吐出使人睡眠的氣體。",
+                    "recovery": "大",
+                    "note": "普通狀態只向前，憤怒時後半段會變化成橫掃。",
+                    "image": "videos/人魚龍/人魚龍_吐息.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "睡眠氣體爆發",
+                    "condition": "站立姿勢",
+                    "preaction": "有非常明顯且長的抬頭蓄力動作。",
+                    "action": "爆發環形擴散的睡眠氣體。",
+                    "recovery": "大",
+                    "note": "憤怒狀態下使用。遠離或是翔蟲掛天上可躲避。",
+                    "image": "videos/人魚龍/人魚龍_睡眠氣體爆發.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "躺滑龍吼",
+                    "condition": "躺滑姿勢",
+                    "preaction": "前置動作不明顯，頭稍微向前伸。",
+                    "action": "躺著的吼叫動作。",
+                    "recovery": "",
+                    "note": "通常是見面時觸發。",
+                    "image": "videos/人魚龍/人魚龍_躺滑龍吼.mp4",
                     "onlyincombo": false
                 },
                 {
@@ -1488,18 +1497,18 @@
                     "condition": "躺滑姿勢",
                     "action": "在胸口弄破貝殼，產生回復、閃光、爆破其中之一的效果。",
                     "recovery": "中",
-                    "note": "貝殼有回復、閃光、爆破三種。",
+                    "note": "貝殼有回復、閃光、爆破三種。可從貝殼特效判斷。",
                     "image": "videos/人魚龍/人魚龍_玩貝殼.mp4",
                     "onlyincombo": false
                 },
                 {
-                    "name": "滑行放屁",
+                    "name": "迂迴滑行",
                     "preaction": "",
                     "condition": "躺滑姿勢",
-                    "action": "進行多段四處遊走，(憤怒時?)每一段都會留下一坨睡眠瓦斯。",
+                    "action": "進行多段四處遊走，(憤怒時)會留下睡眠氣體。",
                     "recovery": "小",
                     "note": "",
-                    "image": "videos/人魚龍/人魚龍_滑行放屁.mp4",
+                    "image": "videos/人魚龍/人魚龍_迂迴滑行.mp4",
                     "onlyincombo": false
                 }
             ],
