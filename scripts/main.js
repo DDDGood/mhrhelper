@@ -289,7 +289,7 @@ function ParseDescriptionText(inputText) {
 
 function ParseStars(text) {
     const value = parseInt(text, 10);
-    let result = "–";
+    let result = "-";
     if (!isNaN(value)) {
         if (value === 0) {
             result = "x";
