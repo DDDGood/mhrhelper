@@ -24,10 +24,16 @@
       "weakness": {
         "weapon": [
           {
-            "part": "-1",
-            "cut": -1,
-            "blunt": -1,
-            "ammo": -1
+            "part": "頭",
+            "cut": 3,
+            "blunt": 3,
+            "ammo": 3
+          },
+          {
+            "part": "尾尖",
+            "cut": 3,
+            "blunt": 3,
+            "ammo": 3
           }
         ],
         "element": [
@@ -43,19 +49,19 @@
         "aliment": [
           {
             "condition": "normal",
-            "poison": -1,
-            "sleep": -1,
-            "paralysis": -1,
-            "blast": -1,
-            "stun": -1
+            "poison": 2,
+            "sleep": 2,
+            "paralysis": 2,
+            "blast": 2,
+            "stun": 2
           }
         ],
         "item": [
           {
             "condition": "normal",
-            "pitfalltrap": -1,
-            "shocktrap": -1,
-            "flashpod": -1,
+            "pitfalltrap": 2,
+            "shocktrap": 2,
+            "flashpod": 2,
             "screamerpod": -1
           }
         ]
@@ -126,7 +132,7 @@
           ]
         },
         {
-          "name": "尾巴前端",
+          "name": "尾尖",
           "state": "0",
           "hitzone_color": "#f58231",
           "hitData": [

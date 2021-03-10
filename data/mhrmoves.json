@@ -1535,6 +1535,51 @@
                     "onlyincombo": false
                 },
                 {
+                    "name": "小咬",
+                    "preaction": "",
+                    "action": "",
+                    "recovery": "",
+                    "note": "",
+                    "image": "videos/怨虎龍/怨虎龍_小咬.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "橫掃",
+                    "preaction": "",
+                    "action": "",
+                    "recovery": "",
+                    "note": "",
+                    "image": "videos/怨虎龍/怨虎龍_橫掃.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "蓄力拍",
+                    "preaction": "",
+                    "action": "",
+                    "recovery": "",
+                    "note": "",
+                    "image": "videos/怨虎龍/怨虎龍_蓄力拍.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "肩撞",
+                    "preaction": "",
+                    "action": "",
+                    "recovery": "",
+                    "note": "",
+                    "image": "videos/怨虎龍/怨虎龍_肩撞.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "假摔",
+                    "preaction": "",
+                    "action": "",
+                    "recovery": "",
+                    "note": "",
+                    "image": "videos/怨虎龍/怨虎龍_假摔.mp4",
+                    "onlyincombo": false
+                },
+                {
                     "name": "尾砸",
                     "preaction": "",
                     "action": "",
@@ -1544,12 +1589,48 @@
                     "onlyincombo": false
                 },
                 {
-                    "name": "突刺",
+                    "name": "飛天尾砸",
                     "preaction": "",
                     "action": "",
                     "recovery": "",
                     "note": "",
-                    "image": "videos/怨虎龍/怨虎龍_突刺.mp4",
+                    "image": "videos/怨虎龍/怨虎龍_飛天尾砸.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "尾部突刺",
+                    "preaction": "",
+                    "action": "",
+                    "recovery": "",
+                    "note": "",
+                    "image": "videos/怨虎龍/怨虎龍_尾部突刺.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "升龍甩尾",
+                    "preaction": "",
+                    "action": "",
+                    "recovery": "",
+                    "note": "",
+                    "image": "videos/怨虎龍/怨虎龍_升龍甩尾.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "蓄力尾砲",
+                    "preaction": "",
+                    "action": "",
+                    "recovery": "",
+                    "note": "",
+                    "image": "videos/怨虎龍/怨虎龍_蓄力尾砲.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "飛撲",
+                    "preaction": "",
+                    "action": "",
+                    "recovery": "",
+                    "note": "",
+                    "image": "videos/怨虎龍/怨虎龍_飛撲.mp4",
                     "onlyincombo": false
                 },
                 {
@@ -1580,7 +1661,46 @@
                     "onlyincombo": false
                 }
             ],
-            "combos": []
+            "combos": [
+                {
+                    "root": 0,
+                    "condition": "",
+                    "nodes": [
+                        {
+                            "move": "升龍甩尾",
+                            "links": [
+                                {
+                                    "node": 1,
+                                    "condition": ""
+                                }
+                            ]
+                        },
+                        {
+                            "move": "蓄力拍",
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "root": 0,
+                    "condition": "",
+                    "nodes": [
+                        {
+                            "move": "二連噗",
+                            "links": [
+                                {
+                                    "node": 1,
+                                    "condition": ""
+                                }
+                            ]
+                        },
+                        {
+                            "move": "橫掃",
+                            "links": []
+                        }
+                    ]
+                }
+            ]
         },
         "khezu": {
             "outline": "",
