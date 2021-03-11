@@ -1306,6 +1306,74 @@
         "MHRice by wwylele": "http://mhrise.mhrice.info/"
       }
     },
+    "magnamalo": {
+      "name": {
+        "tw": "怨虎龍",
+        "jp": "マガイマガド",
+        "en": "Magnamalo"
+      },
+      "species": "fanged_wyvern",
+      "image": "images/monsters/fullbody/magnamalo.png",
+      "icon": "images/monsters/icons/magnamalo.png",
+      "description": "「怨虎龍」是本作的主題魔物。\n其充滿怒氣的可怕面貌，加上盔甲般充滿威嚴的甲殼，仿如帶著怨念的亡靈武者……\n獵食其他魔物後，身體會冒出被稱為「鬼火」的紫色氣體，令本身已具壓倒性破壞力的怨虎龍更為強大。\n－官方網站。",
+      "breakables": "-",
+      "trait": {
+        "roar": "-1",
+        "wind": "-1",
+        "tremor": "-1",
+        "element": null,
+        "aliment": null
+      },
+      "weakness": {
+        "element": [
+          {
+            "condition": "normal",
+            "fire": -1,
+            "water": -1,
+            "thunder": -1,
+            "ice": -1,
+            "dragon": -1
+          }
+        ],
+        "aliment": [
+          {
+            "condition": "normal",
+            "poison": -1,
+            "sleep": -1,
+            "paralysis": -1,
+            "blast": -1,
+            "stun": -1
+          }
+        ],
+        "item": [
+          {
+            "condition": "normal",
+            "pitfalltrap": -1,
+            "shocktrap": -1,
+            "flashpod": -1,
+            "screamerpod": -1
+          }
+        ]
+      },
+      "parts": [
+        {
+          "name": "尚未公布",
+          "state": "-",
+          "extract": "-",
+          "hitData": [
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1
+          ]
+        }
+      ]
+    },
     "tetranadon": {
       "name": {
         "tw": "河童蛙",
@@ -3023,74 +3091,6 @@
       "image": "https://www.monsterhunter.com/rise/assets/images/monster/modal/bishaten.png",
       "icon": "images/monsters/icons/bishaten.png",
       "description": "以發達的尾巴為特徵的怪物。雖是雜食性生物，但特別喜歡果實，腹部的袋子裡藏著柿子。\n 好奇心旺盛，有喜歡惡作劇的一面，有人目擊到，它在狩獵時用尾巴把柿子扔給獵物的樣子。\n－官方網站",
-      "breakables": "-",
-      "trait": {
-        "roar": "-1",
-        "wind": "-1",
-        "tremor": "-1",
-        "element": null,
-        "aliment": null
-      },
-      "weakness": {
-        "element": [
-          {
-            "condition": "normal",
-            "fire": -1,
-            "water": -1,
-            "thunder": -1,
-            "ice": -1,
-            "dragon": -1
-          }
-        ],
-        "aliment": [
-          {
-            "condition": "normal",
-            "poison": -1,
-            "sleep": -1,
-            "paralysis": -1,
-            "blast": -1,
-            "stun": -1
-          }
-        ],
-        "item": [
-          {
-            "condition": "normal",
-            "pitfalltrap": -1,
-            "shocktrap": -1,
-            "flashpod": -1,
-            "screamerpod": -1
-          }
-        ]
-      },
-      "parts": [
-        {
-          "name": "尚未公布",
-          "state": "-",
-          "extract": "-",
-          "hitData": [
-            -1,
-            -1,
-            -1,
-            -1,
-            -1,
-            -1,
-            -1,
-            -1,
-            -1
-          ]
-        }
-      ]
-    },
-    "magnamalo": {
-      "name": {
-        "tw": "怨虎龍",
-        "jp": "マガイマガド",
-        "en": "Magnamalo"
-      },
-      "species": "fanged_wyvern",
-      "image": "images/monsters/fullbody/magnamalo.png",
-      "icon": "images/monsters/icons/magnamalo.png",
-      "description": "「怨虎龍」是本作的主題魔物。\n其充滿怒氣的可怕面貌，加上盔甲般充滿威嚴的甲殼，仿如帶著怨念的亡靈武者……\n獵食其他魔物後，身體會冒出被稱為「鬼火」的紫色氣體，令本身已具壓倒性破壞力的怨虎龍更為強大。\n－官方網站。",
       "breakables": "-",
       "trait": {
         "roar": "-1",
