@@ -65,7 +65,8 @@
                 "herbivore": "Herbivore",
                 "lynian": "Lynian",
                 "fish": "Fish",
-                "snake_wyvern": "Snake Wyvern"
+                "snake_wyvern": "Snake Wyvern",
+                "elder_dragon": "Elder Dragon"
             },
             "trait": {
                 "roar": "roar",
@@ -120,7 +121,13 @@
                 "wroggi": "Wroggi",
                 "popo": "Popo",
                 "slagtoth": "Slagtoth",
-                "zamite": "Zamite"
+                "zamite": "Zamite",
+                "kestodon": "Kestodon",
+                "jaggi": "Jaggi",
+                "jaggia": "Jaggia",
+                "rachnoid": "Rachnoid",
+                "delex": "Delex",
+                "ludroth": "Ludroth"
             }
         },
         "element": {

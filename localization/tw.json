@@ -65,7 +65,8 @@
                 "herbivore": "草食種",
                 "lynian": "獸人種",
                 "fish": "魚類",
-                "snake_wyvern": "蛇龍種"
+                "snake_wyvern": "蛇龍種",
+                "elder_dragon": "古龍種"
             },
             "trait": {
                 "roar": "咆嘯",
@@ -120,7 +121,13 @@
                 "wroggi": "毒狗龍",
                 "popo": "波波",
                 "slagtoth": "垂皮龍",
-                "zamite": "小冰鮫鯊"
+                "zamite": "小冰鮫鯊",
+                "kestodon": "冠突龍",
+                "jaggi": "狗龍",
+                "jaggia": "雌狗龍",
+                "rachnoid": "臣蜘蛛",
+                "delex": "沙魚龍",
+                "ludroth": "水生獸"
             }
         },
         "element": {

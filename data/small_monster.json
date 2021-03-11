@@ -146,7 +146,7 @@
             "image": "images/smonster/popo.png"
         },
         "slagtoth": {
-            "name": "眠狗龍",
+            "name": "垂皮龍",
             "species": "bird_wyvern",
             "image": "images/smonster/slagtoth.png"
         },
@@ -154,6 +154,36 @@
             "name": "小冰鮫鯊",
             "species": "amphibian",
             "image": "images/smonster/zamite.png"
+        },
+        "kestodon": {
+            "name": "冠突龍",
+            "species": "herbivore",
+            "image": "images/smonster/kestodon.png"
+        },
+        "jaggi": {
+            "name": "狗龍",
+            "species": "bird_wyvern",
+            "image": "images/smonster/jaggi.png"
+        },
+        "jaggia": {
+            "name": "雌狗龍",
+            "species": "bird_wyvern",
+            "image": "images/smonster/jaggia.png"
+        },
+        "rachnoid": {
+            "name": "臣蜘蛛",
+            "species": "temnoceran",
+            "image": "images/smonster/rachnoid.png"
+        },
+        "delex": {
+            "name": "沙魚龍",
+            "species": "piscine_wyvern",
+            "image": "images/smonster/delex.png"
+        },
+        "ludroth": {
+            "name": "水生獸",
+            "species": "leviathan",
+            "image": "images/smonster/ludroth.png"
         }
     }
 }
