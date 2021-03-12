@@ -1544,6 +1544,25 @@
                     "onlyincombo": false
                 },
                 {
+                    "name": "二連咬",
+                    "preaction": "",
+                    "action": "S形向前位移，二段前咬。",
+                    "recovery": "小",
+                    "note": "",
+                    "image": "",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "昇龍前頂",
+                    "preaction": "",
+                    "condition": "口中帶火",
+                    "action": "",
+                    "recovery": "",
+                    "note": "",
+                    "image": "",
+                    "onlyincombo": false
+                },
+                {
                     "name": "橫掃",
                     "preaction": "左手先下壓，濺起沙石。",
                     "action": "往另一側揮爪橫掃。",
@@ -1557,24 +1576,24 @@
                     "preaction": "抬起上身，高舉單手向目標逼近。",
                     "action": "單手下拍。",
                     "recovery": "大",
-                    "note": "",
+                    "note": "若前爪帶火會變成二連拍，且附帶小範圍爆破。往沒抬起的那隻手移動容易躲。",
                     "image": "videos/怨虎龍/怨虎龍_蓄力拍.mp4",
                     "onlyincombo": false
                 },
                 {
                     "name": "肩撞",
-                    "preaction": "",
-                    "action": "身體微側，衝刺撞向目標。",
+                    "preaction": "先做一個抬頭威嚇的動作。",
+                    "action": "身體微側，衝刺肩撞向目標。",
                     "recovery": "小",
-                    "note": "",
+                    "note": "往尾巴那一側較容易躲避。",
                     "image": "videos/怨虎龍/怨虎龍_肩撞.mp4",
                     "onlyincombo": false
                 },
                 {
                     "name": "假摔",
                     "preaction": "",
-                    "action": "原地向後一翻滾一圈。",
-                    "recovery": "",
+                    "action": "原地向後一翻滾一圈，順便用前爪蹭一下目標。",
+                    "recovery": "小",
                     "note": "",
                     "image": "videos/怨虎龍/怨虎龍_假摔.mp4",
                     "onlyincombo": false
@@ -1601,8 +1620,8 @@
                     "name": "尾部突刺",
                     "preaction": "尾巴指向目標，身體向後縮。(與飛天尾砸不同是身體會向後縮，且前指的尾巴與身體靠得更近)",
                     "action": "衝向目標，尾巴向前突刺。",
-                    "recovery": "中",
-                    "note": "(憤怒後?)會留下粉塵，並在舉尾動作後引爆。",
+                    "recovery": "大",
+                    "note": "若尾部有鬼火會留下粉塵，並在舉尾動作後引爆。",
                     "image": "videos/怨虎龍/怨虎龍_尾部突刺.mp4",
                     "onlyincombo": false
                 },
@@ -1610,15 +1629,24 @@
                     "name": "升龍甩尾",
                     "preaction": "尾巴先往側面一砸。",
                     "action": "尾巴向前上撩，同時身體跳起後空翻。",
+                    "recovery": "小",
+                    "note": "固定連招起手式，接蓄力拍。",
+                    "image": "videos/怨虎龍/怨虎龍_升龍甩尾.mp4",
+                    "onlyincombo": true
+                },
+                {
+                    "name": "後撤甩尾",
+                    "preaction": "",
+                    "action": "",
                     "recovery": "",
                     "note": "",
-                    "image": "videos/怨虎龍/怨虎龍_升龍甩尾.mp4",
-                    "onlyincombo": false
+                    "image": "",
+                    "onlyincombo": true
                 },
                 {
                     "name": "蓄力尾砲",
                     "preaction": "身體側後縮，高舉尾巴蓄力。",
-                    "action": "尾巴指向目標，同時射出爆破鬼火。",
+                    "action": "尾巴指向目標，同時射出爆破鬼火。攻擊距離遠。",
                     "recovery": "大",
                     "note": "",
                     "image": "videos/怨虎龍/怨虎龍_蓄力尾砲.mp4",
@@ -1656,8 +1684,17 @@
                     "preaction": "",
                     "action": "側向散步遊走，並不斷甩尾發射鬼火。",
                     "recovery": "",
-                    "note": "",
+                    "note": "受到攻擊會引發反擊招式。",
                     "image": "videos/怨虎龍/怨虎龍_散步甩火.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "小狗轉圈",
+                    "preaction": "",
+                    "action": "",
+                    "recovery": "",
+                    "note": "",
+                    "image": "",
                     "onlyincombo": false
                 },
                 {
@@ -1667,6 +1704,24 @@
                     "recovery": "小",
                     "note": "(待觀察)這招過後怨虎龍火焰由藍轉紅，可能是狀態轉換。",
                     "image": "videos/怨虎龍/怨虎龍_粉塵爆破.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "飛天俯衝塵爆",
+                    "preaction": "憤怒吼後高機率使用，先後跳一步蓄力起跳(起跳動作類似飛天尾砸)",
+                    "action": "遠距離俯衝向目標後造成粉塵爆炸。",
+                    "recovery": "大",
+                    "note": "(待測試)可背身防禦。",
+                    "image": "",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "後跳小吼塵爆",
+                    "preaction": "後跳一步小吼",
+                    "action": "吼完後會蓄力塵爆。",
+                    "recovery": "",
+                    "note": "有點欺騙性的招式，吼完不要靠近。",
+                    "image": "",
                     "onlyincombo": false
                 }
             ],
@@ -1695,6 +1750,25 @@
                     "condition": "",
                     "nodes": [
                         {
+                            "move": "後撤甩尾",
+                            "links": [
+                                {
+                                    "node": 1,
+                                    "condition": ""
+                                }
+                            ]
+                        },
+                        {
+                            "move": "尾砸",
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "root": 0,
+                    "condition": "",
+                    "nodes": [
+                        {
                             "move": "二連撲",
                             "links": [
                                 {
@@ -1705,6 +1779,25 @@
                         },
                         {
                             "move": "橫掃",
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "root": 0,
+                    "condition": "",
+                    "nodes": [
+                        {
+                            "move": "小咬",
+                            "links": [
+                                {
+                                    "node": 1,
+                                    "condition": ""
+                                }
+                            ]
+                        },
+                        {
+                            "move": "尾砸",
                             "links": []
                         }
                     ]
