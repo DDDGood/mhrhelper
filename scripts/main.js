@@ -128,6 +128,8 @@ function onDexLoaded() {
     }
 
 
+
+
     // const PART_COLOR = ["#e6194B", "#3cb44b", "#ffe119", "#4363d8", "#f58231", "#911eb4", "#42d4f4", "#f032e6", "#bfef45"];
     // for (let m of data['hitdata']) {
     //     console.log(m.name_en);
@@ -173,13 +175,15 @@ function onDexLoaded() {
     // const win = window.open('about:blank', '_blank');
     // win.document.write(JSON.stringify(data['large_monsters']));
 
-    // let temp = {};
-    // for (let id in i18n.messages.en.endemics.name) {
-    //     let key = i18n.messages.en.endemics.name[id].toLowerCase().replace(' ', "_");
-    //     let val = i18n.messages.en.endemics.name[id];
-    //     temp[key] = val;
-    // }
-    // console.log(JSON.stringify(temp));
+    var tmp = "";
+    for (let id in GetData("moves")["magnamalo"].moves) {
+        var move = GetData("moves")["magnamalo"].moves[id];
+        tmp += move.name + "\n";
+        tmp += "預兆：" + move.preaction + "\n";
+        tmp += "動作：" + move.action + "\n";
+        tmp += "備註：" + move.note + "\n";
+    }
+    console.log(tmp);
 }
 
 function InitRouter() {

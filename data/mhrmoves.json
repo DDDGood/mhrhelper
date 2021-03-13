@@ -1520,27 +1520,53 @@
             "combos": []
         },
         "magnamalo": {
-            "outline": "鬼火部位\n怨虎龍的特定身體部位(前腳、口、尾、背)會在戰鬥中點燃鬼火，點燃後該部位肉質會稍微變好，並且部分使用該部位攻擊的招式會有變化，或者解鎖新招：\n-前腳：「蓄力拍」會變成二連發且附帶爆炸，拍地橫掃會附帶爆炸。\n-尾：「尾部突刺」會散出粉塵，之後引爆。\n-口：解鎖酷炫招式－「前頂升天塵爆」。\n攻擊點燃鬼火的部位，累積一定傷害後會觸發炸膛倒地，持續時間6秒，同時解除全身部位的鬼火。\n\n鬼火附體\n被怨虎龍的鬼火攻擊到，會受到一個「鬼火附體」的負面狀態，持續時間內被攻擊到就會爆炸造成傷害，持續時間到了也會自動爆炸。使用翔蟲位移後可甩開鬼火，將鬼火留在原地。若怨虎龍接觸到此鬼火會產生爆炸，並對怨虎龍造成大量炸膛累積值(幾乎必定引發炸膛倒地)。\n\n紫火爆發\n(待補充細節)怨虎龍點燃背部鬼火後，若抬起身使出「環形塵爆」，身上的鬼火會由藍轉為紅紫色，進入紫火狀態。此狀態一段時間後，會使用「紫火爆發」的連招，結束後解除紫火狀態。",
+            "outline": "鬼火部位\n怨虎龍的特定身體部位(前腳、口、尾、背)會在戰鬥中點燃鬼火，點燃後該部位肉質會稍微變好，並且部分使用該部位攻擊的招式會有變化，或者解鎖新招：\n．前腳：「蓄力拍」會變成二連發且附帶爆炸，拍地橫掃會附帶爆炸。\n．尾：「尾部突刺」會散出粉塵，之後引爆，解鎖招式－「蓄力尾砲」。\n．口：解鎖酷炫招式－「前頂升天」。\n攻擊點燃鬼火的部位，累積一定傷害後會觸發炸膛倒地，持續時間6秒，同時解除全身部位的鬼火。\n\n鬼火附體\n被怨虎龍的鬼火攻擊到，會受到一個「鬼火附體」的負面狀態，持續時間內被攻擊到就會爆炸造成傷害，持續時間到了也會自動爆炸。使用翔蟲位移後可甩開鬼火，將鬼火留在原地。若怨虎龍接觸到此鬼火會產生爆炸，並對怨虎龍造成炸膛倒地，多利用此機制對戰鬥會很有幫助。\n\n紫火爆發\n怨虎龍點燃背部鬼火後，若抬起身使出「環形塵爆」，身上的鬼火會由藍轉為紅紫色，進入紫火狀態。維持此狀態一段時間後，會使用「紫火爆發」的連招，結束後背火熄滅，解除紫火狀態。",
             "reference": {
-                "(twitter)モンスターハンターライズ公式": "https://twitter.com/mh_rise_jp"
+                "(twitter)モンスターハンターライズ公式": "https://twitter.com/mh_rise_jp",
+                "Monster Hunter Rise - Magnamalo [Greatsword Solo]": "https://youtu.be/lHHbH7EvPXg",
+                "MHRise | Long Sword Solo 7:58 Magnamalo": "https://youtu.be/J_qLaFqzG6Y",
+                "【怨虎龙招式全解析】看完你肯定能一周内打死一次": "https://www.bilibili.com/video/BV1YX4y1V7nR",
+                "【MHRise】マガイマガド チャージアックス 9'44 (不潔な声あり、操竜、罠あり)/Magnamalo charge blade": "https://youtu.be/s7kP6ZKTnCY"
             },
             "moves": [
                 {
-                    "name": "龍吼",
+                    "name": "見面吼",
+                    "condition": "狀態變化相關",
                     "preaction": "側身，抬起單手。",
-                    "action": "單手下踩時怒吼。",
+                    "action": "單手下踩時怒吼。手火熄滅，尾火點燃。",
                     "recovery": "",
                     "note": "",
-                    "image": "videos/怨虎龍/怨虎龍_龍吼.mp4",
+                    "image": "videos/怨虎龍/怨虎龍_見面吼.mp4",
                     "onlyincombo": false
                 },
                 {
                     "name": "怒吼",
-                    "preaction": "往後小跳，甩一下頭。",
-                    "action": "抬頭怒吼，。",
+                    "condition": "狀態變化相關",
+                    "preaction": "後跳一小步，然後會先甩一下頭。",
+                    "action": "抬頭怒吼，點燃手火，口火、尾火會熄滅，。背刺張開。",
                     "recovery": "",
                     "note": "",
-                    "image": "videos/怨虎龍/怨虎龍_龍吼.mp4",
+                    "image": "videos/怨虎龍/怨虎龍_怒吼.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "爆發怒吼",
+                    "condition": "狀態變化相關",
+                    "preaction": "後跳一小步。(比起一般怒吼少一個甩頭動作)",
+                    "action": "吼完會蓄力塵爆，同時點燃手火、背火。全身的刺張開。",
+                    "recovery": "",
+                    "note": "被第一下吼住後起身很快，貼近身要提防接下來的塵爆。",
+                    "image": "videos/怨虎龍/怨虎龍_爆發怒吼.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "點燃口火",
+                    "condition": "狀態變化相關",
+                    "preaction": "",
+                    "action": "非常快速的小動作，抖抖身體口中點燃鬼火。",
+                    "recovery": "",
+                    "note": "口火狀態小心新招式前頂升天。",
+                    "image": "videos/怨虎龍/怨虎龍_點燃口火.mp4",
                     "onlyincombo": false
                 },
                 {
@@ -1554,11 +1580,21 @@
                 },
                 {
                     "name": "二連咬",
-                    "preaction": "",
+                    "preaction": "側抬身體蓄力。",
                     "action": "S形向前位移，二段前咬。",
                     "recovery": "小",
                     "note": "",
-                    "image": "",
+                    "image": "videos/怨虎龍/怨虎龍_二連咬.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "前頂升天",
+                    "preaction": "面向目標抬起上身。",
+                    "condition": "口中有火",
+                    "action": "將目標頂上天空，接著會用粉塵爆破造成大量傷害。",
+                    "recovery": "中",
+                    "note": "被頂升天時使用翔蟲受身逃離，可避免遭受到後續粉塵爆破。",
+                    "image": "videos/怨虎龍/怨虎龍_前頂升天.mp4",
                     "onlyincombo": false
                 },
                 {
@@ -1584,8 +1620,17 @@
                     "preaction": "先做一個抬頭威嚇的動作。",
                     "action": "身體微側，衝刺肩撞向目標。",
                     "recovery": "小",
-                    "note": "往尾巴那一側較容易躲避。",
+                    "note": "全身都有碰撞判定。",
                     "image": "videos/怨虎龍/怨虎龍_肩撞.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "飛撲",
+                    "preaction": "會先抬頭一吼。",
+                    "action": "飛撲向目標。",
+                    "recovery": "小",
+                    "note": "此招後若接連招，會折返跑同時射出鬼火。",
+                    "image": "videos/怨虎龍/怨虎龍_飛撲.mp4",
                     "onlyincombo": false
                 },
                 {
@@ -1625,12 +1670,12 @@
                     "onlyincombo": false
                 },
                 {
-                    "name": "側拍空翻甩尾",
-                    "preaction": "尾巴先往側面拍地。",
+                    "name": "拍地空翻甩尾",
+                    "preaction": "尾巴先往側後方拍地。",
                     "action": "尾巴向前上撩，同時身體跳起後空翻。",
                     "recovery": "",
                     "note": "固定連招起手式，接蓄力拍。",
-                    "image": "videos/怨虎龍/怨虎龍_側拍空翻甩尾.mp4",
+                    "image": "videos/怨虎龍/怨虎龍_拍地空翻甩尾.mp4",
                     "onlyincombo": true
                 },
                 {
@@ -1639,44 +1684,27 @@
                     "action": "斜向甩出尾巴後空翻跳起。",
                     "recovery": "",
                     "note": "固定連招起手式，接尾砸。",
-                    "image": "",
+                    "image": "videos/怨虎龍/怨虎龍_迴旋空翻甩尾.mp4",
                     "onlyincombo": true
                 },
                 {
                     "name": "二連空翻甩尾",
-                    "condition": "(待觀察)憤怒狀態？或是尾部帶火？",
+                    "condition": "",
                     "preaction": "往後小跳一步並高舉尾巴",
                     "action": "連續兩次斜向空翻，尾巴朝目標上撩，並往斜向散出爆破粉塵，之後引爆。",
-                    "recovery": "",
-                    "note": "",
-                    "image": "",
+                    "recovery": "中",
+                    "note": "較少出現。",
+                    "image": "videos/怨虎龍/怨虎龍_二連空翻甩尾.mp4",
                     "onlyincombo": false
                 },
                 {
                     "name": "蓄力尾砲",
+                    "condition": "尾部有火",
                     "preaction": "身體側後縮，高舉尾巴蓄力。",
                     "action": "尾巴指向目標，同時射出爆破鬼火。攻擊距離遠。",
                     "recovery": "大",
                     "note": "",
                     "image": "videos/怨虎龍/怨虎龍_蓄力尾砲.mp4",
-                    "onlyincombo": false
-                },
-                {
-                    "name": "飛撲",
-                    "preaction": "會先抬頭一吼。",
-                    "action": "飛撲向目標",
-                    "recovery": "小",
-                    "note": "此招後若接連招，會折返跑同時射出鬼火。",
-                    "image": "videos/怨虎龍/怨虎龍_飛撲.mp4",
-                    "onlyincombo": false
-                },
-                {
-                    "name": "二連撲",
-                    "preaction": "先抬手朝天一吼。",
-                    "action": "飛撲向目標，衝過身後折返並甩出三個鬼火，再次撲向目標。",
-                    "recovery": "中",
-                    "note": "",
-                    "image": "videos/怨虎龍/怨虎龍_二連撲.mp4",
                     "onlyincombo": false
                 },
                 {
@@ -1689,25 +1717,26 @@
                     "onlyincombo": false
                 },
                 {
-                    "name": "散步甩火",
+                    "name": "散步",
                     "preaction": "",
                     "action": "側向散步遊走，並不斷甩尾發射鬼火。",
                     "recovery": "",
                     "note": "受到攻擊會引發反擊招式。鬼火會定位目標，每次甩火都會定位一次。",
-                    "image": "videos/怨虎龍/怨虎龍_散步甩火.mp4",
+                    "image": "videos/怨虎龍/怨虎龍_散步.mp4",
                     "onlyincombo": false
                 },
                 {
                     "name": "小狗轉圈",
-                    "preaction": "",
+                    "preaction": "側抬起身體蓄力。",
                     "action": "連續兩次轉圈，頭咬的同時甩尾。",
-                    "recovery": "",
+                    "recovery": "小",
                     "note": "頭尾都有判定。",
-                    "image": "",
+                    "image": "videos/怨虎龍/怨虎龍_小狗轉圈.mp4",
                     "onlyincombo": false
                 },
                 {
                     "name": "環形塵爆",
+                    "condition": "狀態變化相關",
                     "preaction": "抬起上身，周圍散出粉塵。",
                     "action": "周圍的粉塵爆炸造成傷害。",
                     "recovery": "小",
@@ -1717,48 +1746,30 @@
                 },
                 {
                     "name": "側身塵爆",
-                    "preaction": "",
-                    "action": "",
+                    "preaction": "側身一抖，向前撒出橫向粉塵。",
+                    "condition": "",
+                    "action": "粉塵爆炸造成傷害。",
                     "recovery": "",
-                    "note": "",
-                    "image": "",
+                    "note": "貼近身不會受到傷害。",
+                    "image": "videos/怨虎龍/怨虎龍_側身塵爆.mp4",
                     "onlyincombo": false
                 },
                 {
                     "name": "飛天俯衝塵爆",
-                    "preaction": "後跳怒吼後高機率使用，先後跳一步蓄力起跳(起跳動作類似飛天尾砸)",
+                    "preaction": "後跳怒吼後高機率使用，俯身蓄力後起跳(起跳動作類似飛天尾砸)，空中會再竄高一次",
                     "action": "遠距離俯衝向目標後造成粉塵爆炸。",
                     "recovery": "大",
                     "note": "持盾可背身防禦。",
-                    "image": "",
-                    "onlyincombo": false
-                },
-                {
-                    "name": "後跳怒吼變身",
-                    "preaction": "後跳一步會先吼叫",
-                    "action": "吼完會蓄力，接著塵爆變身為憤怒狀態，背上、手上、尾巴的刺會張開。同時手部、尾部點燃鬼火。",
-                    "recovery": "",
-                    "note": "",
-                    "image": "",
-                    "onlyincombo": false
-                },
-                {
-                    "name": "前頂升天塵爆",
-                    "preaction": "",
-                    "condition": "口中帶火",
-                    "action": "將目標頂上天空，接著會用粉塵爆破造成大量傷害。",
-                    "recovery": "",
-                    "note": "被頂升天時使用翔蟲受身逃離，可避免遭受到後續粉塵爆破。",
-                    "image": "",
+                    "image": "videos/怨虎龍/怨虎龍_飛天俯衝塵爆.mp4",
                     "onlyincombo": false
                 },
                 {
                     "name": "折返跑",
                     "preaction": "",
-                    "action": "遠離目標跑開，轉身折返同時甩出三顆鬼火後銜接連招。",
+                    "action": "遠離目標跑開，轉身折返同時甩出鬼火後銜接連招。",
                     "recovery": "",
                     "note": "連招起手，此招派生的連段最後會多一個仰頭發呆的硬直動作(除了飛撲)，是攻擊機會。",
-                    "image": "",
+                    "image": "videos/怨虎龍/怨虎龍_折返跑.mp4",
                     "onlyincombo": true
                 },
                 {
@@ -1767,27 +1778,27 @@
                     "action": "橫向跑，小繞半圈到目標側面。",
                     "recovery": "",
                     "note": "連招起手，此招派生的連段最後會多一個仰頭發呆的硬直動作，是攻擊機會。",
-                    "image": "",
+                    "image": "videos/怨虎龍/怨虎龍_迂迴跑.mp4",
                     "onlyincombo": true
                 },
                 {
                     "name": "爆發突進",
                     "preaction": "跑開後銜接的連段招式之一。",
-                    "action": "躍起後從空中瞬間加速衝至目標身後，伴隨粉塵爆炸。",
+                    "action": "躍起後空中塵爆突進加速衝至目標身後。",
                     "recovery": "",
-                    "note": "",
-                    "image": "",
+                    "note": "此招後根據目標距離遠近派生後續連招。",
+                    "image": "videos/怨虎龍/怨虎龍_爆發突進.mp4",
                     "onlyincombo": true
                 },
                 {
-                    "name": "紫火爆發",
-                    "condition": "紫火狀態",
-                    "preaction": "",
-                    "action": "",
-                    "recovery": "",
+                    "name": "紫火爆發終結技",
+                    "condition": "狀態變化相關",
+                    "preaction": "先空翻後跳，朝天一吼(無判定)同時全身紫火燃燒，玩家鏡頭會被拉遠。",
+                    "action": "吼叫後折返跑留下粉塵，接著爆衝後躍起，落地引爆粉塵。",
+                    "recovery": "大",
                     "note": "此連段後解除紫火狀態。",
-                    "image": "",
-                    "onlyincombo": true
+                    "image": "videos/怨虎龍/怨虎龍_紫火爆發終結技.mp4",
+                    "onlyincombo": false
                 }
             ],
             "combos": [
@@ -1796,11 +1807,30 @@
                     "condition": "",
                     "nodes": [
                         {
-                            "move": "側拍空翻甩尾",
+                            "move": "怒吼",
                             "links": [
                                 {
                                     "node": 1,
                                     "condition": ""
+                                }
+                            ]
+                        },
+                        {
+                            "move": "飛天俯衝塵爆",
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "root": 0,
+                    "condition": "",
+                    "nodes": [
+                        {
+                            "move": "拍地空翻甩尾",
+                            "links": [
+                                {
+                                    "node": 1,
+                                    "condition": "必出"
                                 }
                             ]
                         },
@@ -1819,31 +1849,12 @@
                             "links": [
                                 {
                                     "node": 1,
-                                    "condition": ""
+                                    "condition": "必出"
                                 }
                             ]
                         },
                         {
                             "move": "尾砸",
-                            "links": []
-                        }
-                    ]
-                },
-                {
-                    "root": 0,
-                    "condition": "",
-                    "nodes": [
-                        {
-                            "move": "飛撲",
-                            "links": [
-                                {
-                                    "node": 1,
-                                    "condition": "甩出火球"
-                                }
-                            ]
-                        },
-                        {
-                            "move": "拍地橫掃",
                             "links": []
                         }
                     ]
@@ -1900,6 +1911,10 @@
                                 {
                                     "node": 2,
                                     "condition": ""
+                                },
+                                {
+                                    "node": 3,
+                                    "condition": "需口中有火"
                                 }
                             ]
                         },
@@ -1907,11 +1922,15 @@
                             "move": "爆發突進",
                             "links": [
                                 {
-                                    "node": 3,
+                                    "node": 4,
+                                    "condition": "距離遠"
+                                },
+                                {
+                                    "node": 5,
                                     "condition": ""
                                 },
                                 {
-                                    "node": 4,
+                                    "node": 6,
                                     "condition": ""
                                 }
                             ]
@@ -1921,11 +1940,19 @@
                             "links": []
                         },
                         {
+                            "move": "前頂升天",
+                            "links": []
+                        },
+                        {
                             "move": "尾部突刺",
                             "links": []
                         },
                         {
                             "move": "尾砸",
+                            "links": []
+                        },
+                        {
+                            "move": "拍地橫掃",
                             "links": []
                         }
                     ]
@@ -1951,19 +1978,27 @@
                 },
                 {
                     "root": 0,
-                    "condition": "紫火狀態",
+                    "condition": "",
                     "nodes": [
                         {
-                            "move": "紫火爆發",
+                            "move": "飛撲",
                             "links": [
                                 {
                                     "node": 1,
+                                    "condition": ""
+                                },
+                                {
+                                    "node": 2,
                                     "condition": ""
                                 }
                             ]
                         },
                         {
-                            "move": "飛天俯衝塵爆",
+                            "move": "飛撲",
+                            "links": []
+                        },
+                        {
+                            "move": "拍地橫掃",
                             "links": []
                         }
                     ]
