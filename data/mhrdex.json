@@ -1370,23 +1370,8 @@
             5,
             0,
             100
-          ]
-        },
-        {
-          "name": "頭部",
-          "state": "鬼火",
-          "extract": "-",
-          "hitData": [
-            60,
-            60,
-            45,
-            0,
-            10,
-            15,
-            5,
-            0,
-            100
-          ]
+          ],
+          "hitzone_color": "#e6194B"
         },
         {
           "name": "身體",
@@ -1402,7 +1387,8 @@
             10,
             0,
             0
-          ]
+          ],
+          "hitzone_color": "#3cb44b"
         },
         {
           "name": "前腳",
@@ -1418,23 +1404,8 @@
             5,
             0,
             0
-          ]
-        },
-        {
-          "name": "前腳",
-          "state": "鬼火",
-          "extract": "-",
-          "hitData": [
-            48,
-            48,
-            45,
-            0,
-            10,
-            15,
-            0,
-            0,
-            0
-          ]
+          ],
+          "hitzone_color": "#ffe119"
         },
         {
           "name": "後腳",
@@ -1450,7 +1421,8 @@
             5,
             0,
             0
-          ]
+          ],
+          "hitzone_color": "#4363d8"
         },
         {
           "name": "尾巴",
@@ -1466,26 +1438,11 @@
             5,
             0,
             0
-          ]
+          ],
+          "hitzone_color": "#f58231"
         },
         {
-          "name": "尾巴",
-          "state": "鬼火",
-          "extract": "-",
-          "hitData": [
-            48,
-            48,
-            45,
-            0,
-            10,
-            15,
-            0,
-            0,
-            0
-          ]
-        },
-        {
-          "name": "背部",
+          "name": "背中",
           "state": "通常",
           "extract": "-",
           "hitData": [
@@ -1498,23 +1455,8 @@
             5,
             0,
             0
-          ]
-        },
-        {
-          "name": "背部",
-          "state": "鬼火",
-          "extract": "-",
-          "hitData": [
-            63,
-            63,
-            50,
-            0,
-            5,
-            10,
-            5,
-            0,
-            0
-          ]
+          ],
+          "hitzone_color": "#911eb4"
         },
         {
           "name": "刃(手)",
@@ -1530,7 +1472,8 @@
             5,
             0,
             0
-          ]
+          ],
+          "hitzone_color": "#42d4f4"
         },
         {
           "name": "尾尖",
@@ -1546,9 +1489,62 @@
             5,
             0,
             0
-          ]
+          ],
+          "hitzone_color": "#f032e6"
+        },
+        {
+          "name": "尾巴/前腳鬼火",
+          "state": "鬼火",
+          "extract": "-",
+          "hitData": [
+            48,
+            48,
+            45,
+            0,
+            10,
+            15,
+            0,
+            0,
+            0
+          ],
+          "hitzone_color": "#bfef45"
+        },
+        {
+          "name": "背部瓦斯池",
+          "state": "鬼火",
+          "extract": "-",
+          "hitData": [
+            63,
+            63,
+            50,
+            0,
+            5,
+            10,
+            5,
+            0,
+            0
+          ],
+          "hitzone_color": "#fabed4"
+        },
+        {
+          "name": "臉部鬼火",
+          "state": "鬼火",
+          "extract": "-",
+          "hitData": [
+            60,
+            60,
+            45,
+            0,
+            10,
+            15,
+            5,
+            0,
+            100
+          ],
+          "hitzone_color": "#469990"
         }
-      ]
+      ],
+      "hitzone_image": "images/monsters/hitzone/magnamalo.png"
     },
     "tetranadon": {
       "name": {

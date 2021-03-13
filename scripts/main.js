@@ -130,7 +130,20 @@ function onDexLoaded() {
 
 
 
-    // const PART_COLOR = ["#e6194B", "#3cb44b", "#ffe119", "#4363d8", "#f58231", "#911eb4", "#42d4f4", "#f032e6", "#bfef45"];
+    const PART_COLOR = ["#e6194B", "#3cb44b", "#ffe119", "#4363d8", "#f58231", "#911eb4", "#42d4f4", "#f032e6", "#bfef45", "#fabed4", "#469990"];
+
+    // let currentColorID = -1;
+    // let lastPart = "";
+    // for (let part of data['large_monsters']["magnamalo"].parts) {
+    //     console.log(part.name);
+    //     if (lastPart != part.name) {
+    //         currentColorID++;
+    //     }
+    //     lastPart = part.name;
+    //     part.hitzone_color = PART_COLOR[currentColorID];
+    // }
+    // console.log(JSON.stringify(data['large_monsters']["magnamalo"].parts))
+
     // for (let m of data['hitdata']) {
     //     console.log(m.name_en);
     //     for (let id in data['large_monsters']) {
@@ -170,20 +183,21 @@ function onDexLoaded() {
     //     }
     // }
 
+
     // console.log(JSON.stringify(temp));
 
     // const win = window.open('about:blank', '_blank');
     // win.document.write(JSON.stringify(data['large_monsters']));
 
-    var tmp = "";
-    for (let id in GetData("moves")["magnamalo"].moves) {
-        var move = GetData("moves")["magnamalo"].moves[id];
-        tmp += move.name + "\n";
-        tmp += "預兆：" + move.preaction + "\n";
-        tmp += "動作：" + move.action + "\n";
-        tmp += "備註：" + move.note + "\n";
-    }
-    console.log(tmp);
+    // var tmp = "";
+    // for (let id in GetData("moves")["magnamalo"].moves) {
+    //     var move = GetData("moves")["magnamalo"].moves[id];
+    //     tmp += move.name + "\n";
+    //     tmp += "預兆：" + move.preaction + "\n";
+    //     tmp += "動作：" + move.action + "\n";
+    //     tmp += "備註：" + move.note + "\n";
+    // }
+    // console.log(tmp);
 }
 
 function InitRouter() {
