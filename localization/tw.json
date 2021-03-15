@@ -92,6 +92,7 @@
             "part": "部位",
             "state": "狀態",
             "hitdata": "詳細肉質(非正式版資訊)",
+            "riding_moves": "御龍招式",
             "battlestrategy": "對戰要點",
             "moves": "招式派生",
             "move": {

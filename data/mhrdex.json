@@ -1321,18 +1321,18 @@
         "roar": "大",
         "wind": "-",
         "tremor": "-",
-        "element": "",
+        "element": "-",
         "aliment": "鬼火"
       },
       "weakness": {
         "element": [
           {
             "condition": "normal",
-            "fire": -1,
-            "water": -1,
-            "thunder": -1,
-            "ice": -1,
-            "dragon": -1
+            "fire": 0,
+            "water": 3,
+            "thunder": 2,
+            "ice": 1,
+            "dragon": 0
           }
         ],
         "aliment": [
@@ -1544,7 +1544,10 @@
           "hitzone_color": "#469990"
         }
       ],
-      "hitzone_image": "images/monsters/hitzone/magnamalo.png"
+      "hitzone_image": "images/monsters/hitzone/magnamalo.png",
+      "reference": {
+        "MHRice by wwylele": "http://mhrise.mhrice.info/"
+      }
     },
     "tetranadon": {
       "name": {

@@ -88,7 +88,7 @@ var{
 }
 .flex-start {
   display: flex;
-  align-items:flex-start!important;
+  /* align-items:flex-start!important; */
   justify-content:flex-start !important;
 }
 
@@ -259,6 +259,9 @@ details[open] > summary:after {
 }
 .interval-x + .interval-x {
   margin-left: 4px;
+}
+.interval-y-large + .interval-y-large {
+  margin-top: 16px;
 }
 .card-text {
   font-size: 14px;

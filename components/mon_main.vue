@@ -83,6 +83,16 @@
             </tbody>
           </table>
         </details>
+        <details open v-show="!IsNullOrEmpty(movedata.riding_moves)">
+          <summary class="header2">{{$t('monster.riding_moves')}}</summary>
+          <div class="interval-y-large" :key="key" v-for="(move, key) in movedata.riding_moves">
+            <div class="flex-row flex-start">
+              <div class="description-text text-bold">{{move.name}}</div>
+              <div class="flex-row flex-intense" v-html="ParseCommand(move.command)"></div>
+            </div>
+            <div v-if="!IsNullOrEmpty(move.note)" class="description-text">{{'*' + move.note}}</div>
+          </div>
+        </details>
         <div id="divmoves" v-if="!IsNullOrEmpty(movedata)">
           <details open v-show="!IsNullOrEmpty(movedata.outline)">
             <summary class="header2">{{$t('monster.battlestrategy')}}</summary>
