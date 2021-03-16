@@ -488,7 +488,7 @@
                 {
                     "name": "後空翻",
                     "command": "[A]",
-                    "note": "結束後特定時機↓+A可派生空中龍車。"
+                    "note": "結束後特定時機↓+A可派生空中龍車。造成毒異常狀態，約19下毒傷。"
                 },
                 {
                     "name": "三連火球",
@@ -1655,7 +1655,7 @@
                     "preaction": "抬起頭向後縮。",
                     "action": "向前小咬。",
                     "recovery": "小",
-                    "note": "",
+                    "note": "注意有機率接前搖短的尾砸。",
                     "image": "videos/怨虎龍/怨虎龍_小咬.mp4",
                     "onlyincombo": false
                 },
@@ -1701,7 +1701,7 @@
                     "preaction": "先做一個抬頭威嚇的動作。",
                     "action": "身體微側，衝刺肩撞向目標。",
                     "recovery": "小",
-                    "note": "全身都有碰撞判定。",
+                    "note": "全身都有碰撞判定。此招後建議遠離怨虎龍，容易引出大硬直招式。",
                     "image": "videos/怨虎龍/怨虎龍_肩撞.mp4",
                     "onlyincombo": false
                 },
@@ -1719,7 +1719,7 @@
                     "preaction": "",
                     "action": "原地向後一翻滾一圈，順便用前爪蹭一下目標。",
                     "recovery": "小",
-                    "note": "對腳部造成一定傷害也會觸發的欺騙性動作。",
+                    "note": "對腳部造成一定傷害也會觸發。起身時如果目標在近距離(內側)，高機率引出肩撞",
                     "image": "videos/怨虎龍/怨虎龍_假摔.mp4",
                     "onlyincombo": false
                 },
@@ -1802,7 +1802,7 @@
                     "preaction": "",
                     "action": "側向散步遊走，並不斷甩尾發射鬼火。",
                     "recovery": "",
-                    "note": "受到攻擊會引發反擊招式。鬼火會定位目標，每次甩火都會定位一次。",
+                    "note": "受到攻擊會引發反擊招式。鬼火會定位目標，每次甩火都會定位一次。若第一步時目標在近距離，則會在第二步後變招出肩撞。",
                     "image": "videos/怨虎龍/怨虎龍_散步.mp4",
                     "onlyincombo": false
                 },
@@ -1864,10 +1864,10 @@
                 },
                 {
                     "name": "爆發突進",
-                    "preaction": "跑開後銜接的連段招式之一。",
+                    "preaction": "橫向一躍而起。跑開後銜接的連段招式之一。",
                     "action": "躍起後空中塵爆突進加速衝至目標身後。",
                     "recovery": "",
-                    "note": "此招後根據目標距離遠近派生後續連招。",
+                    "note": "低機率會直接起手使用。此招後根據目標距離遠近派生後續連招。",
                     "image": "videos/怨虎龍/怨虎龍_爆發突進.mp4",
                     "onlyincombo": true
                 },
@@ -1968,11 +1968,19 @@
                             "links": [
                                 {
                                     "node": 1,
-                                    "condition": ""
+                                    "condition": "距離遠"
                                 },
                                 {
                                     "node": 2,
-                                    "condition": ""
+                                    "condition": "距離遠"
+                                },
+                                {
+                                    "node": 3,
+                                    "condition": "距離近"
+                                },
+                                {
+                                    "node": 4,
+                                    "condition": "距離近"
                                 }
                             ]
                         },
@@ -1982,6 +1990,70 @@
                         },
                         {
                             "move": "蓄力拍",
+                            "links": []
+                        },
+                        {
+                            "move": "小狗轉圈",
+                            "links": []
+                        },
+                        {
+                            "move": "小咬",
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "root": 0,
+                    "condition": "",
+                    "nodes": [
+                        {
+                            "move": "散步",
+                            "links": [
+                                {
+                                    "node": 1,
+                                    "condition": "距離近則變招"
+                                }
+                            ]
+                        },
+                        {
+                            "move": "肩撞",
+                            "links": [
+                                {
+                                    "node": 2,
+                                    "condition": ""
+                                }
+                            ]
+                        },
+                        {
+                            "move": "肩撞後續連招",
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "root": 0,
+                    "condition": "",
+                    "nodes": [
+                        {
+                            "move": "假摔",
+                            "links": [
+                                {
+                                    "node": 1,
+                                    "condition": "距離近"
+                                }
+                            ]
+                        },
+                        {
+                            "move": "肩撞",
+                            "links": [
+                                {
+                                    "node": 2,
+                                    "condition": ""
+                                }
+                            ]
+                        },
+                        {
+                            "move": "肩撞後續連招",
                             "links": []
                         }
                     ]

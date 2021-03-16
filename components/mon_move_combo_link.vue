@@ -8,7 +8,11 @@
     <template v-for="(pos, index) in toPositions">
       <div :style="GetLinkTextStyle(pos)" :key="index">{{ pos.condition }}</div>
     </template>
-    <button class="flexitem" ref="root" @click="clickmove(move)">
+    <button
+      :class="{'flexitem':true, 'move-button-virtual':move === undefined}"
+      ref="root"
+      @click="clickmove(move)"
+    >
       <div class="movebutton-name">{{ rootnode.move }}</div>
       <div class="movebutton-tag" v-if="move == undefined ? false : move.recovery == '大'">硬直大</div>
     </button>
@@ -50,6 +54,8 @@ module.exports = {
     },
     clickmove: function (move) {
       // console.log("clickmove");
+      if (move === undefined)
+        return;
       this.$emit("clickmove", move);
     },
     GetLinkTextStyle: function (toPos) {

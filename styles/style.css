@@ -348,6 +348,10 @@ details[open] > summary:after {
     border: 1px solid #333;
     white-space:nowrap
   }
+  .move-button-virtual{
+    background-color: #ffffff !important;
+    border: 1px dashed #333 !important;
+  }
   .combo-condition-container-normal{
     border-radius : 10px;
     padding-left: 10px;
