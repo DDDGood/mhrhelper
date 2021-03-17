@@ -2583,6 +2583,150 @@
                 }
             ]
         },
+        "basarios": {
+            "outline": "",
+            "reference": {
+                "(twitter)モンスターハンターライズ公式": "https://twitter.com/mh_rise_jp"
+            },
+            "moves": [
+                {
+                    "name": "鑽地前行",
+                    "preaction": "",
+                    "action": "",
+                    "recovery": "",
+                    "note": "",
+                    "image": "videos/岩龍/岩龍_鑽地前行.mp4",
+                    "onlyincombo": false
+                }
+            ],
+            "combos": []
+        },
+        "volvidon": {
+            "outline": "",
+            "reference": {
+                "(twitter)モンスターハンターライズ公式": "https://twitter.com/mh_rise_jp"
+            },
+            "moves": [
+                {
+                    "name": "鉛球",
+                    "preaction": "",
+                    "action": "",
+                    "recovery": "",
+                    "note": "",
+                    "image": "videos/赤甲獸/赤甲獸_鉛球.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "放屁",
+                    "preaction": "",
+                    "action": "",
+                    "recovery": "",
+                    "note": "",
+                    "image": "videos/赤甲獸/赤甲獸_放屁.mp4",
+                    "onlyincombo": false
+                }
+            ],
+            "combos": []
+        },
+        "rakna-kadaki": {
+            "outline": "",
+            "reference": {
+                "(twitter)モンスターハンターライズ公式": "https://twitter.com/mh_rise_jp"
+            },
+            "moves": [
+                {
+                    "name": "吐絲",
+                    "preaction": "",
+                    "action": "",
+                    "recovery": "",
+                    "note": "",
+                    "image": "videos/妃蜘蛛/妃蜘蛛_吐絲.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "橫掃噴火",
+                    "preaction": "",
+                    "action": "",
+                    "recovery": "",
+                    "note": "",
+                    "image": "videos/妃蜘蛛/妃蜘蛛_橫掃噴火.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "蟲絲突進",
+                    "preaction": "",
+                    "action": "",
+                    "recovery": "",
+                    "note": "",
+                    "image": "videos/妃蜘蛛/妃蜘蛛_蟲絲突進.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "蟲絲突進噴火",
+                    "preaction": "",
+                    "action": "",
+                    "recovery": "",
+                    "note": "",
+                    "image": "videos/妃蜘蛛/妃蜘蛛_蟲絲突進噴火.mp4",
+                    "onlyincombo": false
+                }
+            ],
+            "combos": []
+        },
+        "almudron": {
+            "outline": "",
+            "reference": {
+                "(twitter)モンスターハンターライズ公式": "https://twitter.com/mh_rise_jp"
+            },
+            "moves": [
+                {
+                    "name": "尖石攻擊",
+                    "preaction": "",
+                    "action": "",
+                    "recovery": "",
+                    "note": "",
+                    "image": "videos/泥翁龍/泥翁龍_尖石攻擊.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "反身尾砸",
+                    "preaction": "",
+                    "action": "",
+                    "recovery": "",
+                    "note": "",
+                    "image": "videos/泥翁龍/泥翁龍_反身尾砸.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "鑽地尾砸",
+                    "preaction": "",
+                    "action": "",
+                    "recovery": "",
+                    "note": "",
+                    "image": "videos/泥翁龍/泥翁龍_鑽地尾砸.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "拍地掃尾",
+                    "preaction": "",
+                    "action": "",
+                    "recovery": "",
+                    "note": "",
+                    "image": "videos/泥翁龍/泥翁龍_拍地掃尾.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "二連甩尾",
+                    "preaction": "",
+                    "action": "",
+                    "recovery": "",
+                    "note": "",
+                    "image": "videos/泥翁龍/泥翁龍_二連甩尾.mp4",
+                    "onlyincombo": false
+                }
+            ],
+            "combos": []
+        },
         "barioth": {
             "outline": "",
             "reference": {
