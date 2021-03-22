@@ -50,9 +50,16 @@
                   <img class="hitdata-icon" src="images/icons/state/state_stun.png" />
                 </th>
               </tr>
-              <tr class="card-text" v-for="part of mondata.parts" :key="part.name + part.state">
+              <tr
+                class="card-text"
+                v-for="(part,id) in mondata.parts"
+                :key="part.name + part.state"
+              >
                 <td :style="{width: '1%',background: part.hitzone_color}"></td>
-                <td>{{ part.name }}</td>
+                <td
+                  v-if="id===0 || part.name!==mondata.parts[id-1].name"
+                  :rowspan="CheckSamePartCount(part.name)"
+                >{{ part.name }}</td>
                 <td>{{ part.state }}</td>
                 <td
                   v-bind:class="{ 'hitdata-highlight': part.hitData[0] >= 45 }"
@@ -165,6 +172,15 @@ module.exports = {
         let result = ParseDescriptionText(data[key]);
         return result;
       } else return "";
+    },
+    CheckSamePartCount: function (partName) {
+      let count = 0;
+      for (const part of this.mondata.parts) {
+        if (part.name === partName) {
+          count++;
+        }
+      }
+      return count;
     }
   },
   watch: {
