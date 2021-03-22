@@ -83,7 +83,7 @@
             </tbody>
           </table>
         </details>
-        <details open v-if="!movedata?.riding_moves===undefined">
+        <details open v-if="!(movedata?.riding_moves===undefined)">
           <summary class="header2">{{$t('monster.riding_moves')}}</summary>
           <div class="interval-y-large" :key="key" v-for="(move, key) in movedata.riding_moves">
             <div class="flex-row flex-start">
