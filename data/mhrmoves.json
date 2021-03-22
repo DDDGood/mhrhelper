@@ -2597,6 +2597,42 @@
                     "note": "",
                     "image": "videos/岩龍/岩龍_鑽地前行.mp4",
                     "onlyincombo": false
+                },
+                {
+                    "name": "噴射火焰",
+                    "preaction": "",
+                    "action": "",
+                    "recovery": "",
+                    "note": "",
+                    "image": "videos/岩龍/岩龍_噴射火焰.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "火焰壓",
+                    "preaction": "",
+                    "action": "",
+                    "recovery": "",
+                    "note": "",
+                    "image": "videos/岩龍/岩龍_火焰壓.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "火球",
+                    "preaction": "",
+                    "action": "",
+                    "recovery": "",
+                    "note": "",
+                    "image": "videos/岩龍/岩龍_火球.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "翻滾",
+                    "preaction": "",
+                    "action": "",
+                    "recovery": "",
+                    "note": "",
+                    "image": "videos/岩龍/岩龍_翻滾.mp4",
+                    "onlyincombo": false
                 }
             ],
             "combos": []
@@ -2608,12 +2644,48 @@
             },
             "moves": [
                 {
+                    "name": "前滾",
+                    "preaction": "",
+                    "action": "",
+                    "recovery": "",
+                    "note": "",
+                    "image": "videos/赤甲獸/赤甲獸_前滾.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "側滾",
+                    "preaction": "",
+                    "action": "",
+                    "recovery": "",
+                    "note": "",
+                    "image": "videos/赤甲獸/赤甲獸_側滾.mp4",
+                    "onlyincombo": false
+                },
+                {
                     "name": "鉛球",
                     "preaction": "",
                     "action": "",
                     "recovery": "",
                     "note": "",
                     "image": "videos/赤甲獸/赤甲獸_鉛球.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "連環巴掌",
+                    "preaction": "",
+                    "action": "",
+                    "recovery": "",
+                    "note": "",
+                    "image": "videos/赤甲獸/赤甲獸_連環巴掌.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "吐口水",
+                    "preaction": "",
+                    "action": "",
+                    "recovery": "",
+                    "note": "",
+                    "image": "videos/赤甲獸/赤甲獸_吐口水.mp4",
                     "onlyincombo": false
                 },
                 {
@@ -2626,7 +2698,40 @@
                     "onlyincombo": false
                 }
             ],
-            "combos": []
+            "combos": [
+                {
+                    "root": 0,
+                    "condition": "",
+                    "nodes": [
+                        {
+                            "move": "前滾",
+                            "links": [
+                                {
+                                    "node": 1,
+                                    "condition": ""
+                                },
+                                {
+                                    "node": 2,
+                                    "condition": ""
+                                }
+                            ]
+                        },
+                        {
+                            "move": "吐口水",
+                            "links": []
+                        },
+                        {
+                            "move": "側滾",
+                            "links": [
+                                {
+                                    "node": 1,
+                                    "condition": ""
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
         },
         "rakna-kadaki": {
             "outline": "",
@@ -2641,6 +2746,15 @@
                     "recovery": "",
                     "note": "",
                     "image": "videos/妃蜘蛛/妃蜘蛛_吐絲.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "螃蟹鉗",
+                    "preaction": "",
+                    "action": "",
+                    "recovery": "",
+                    "note": "",
+                    "image": "videos/妃蜘蛛/妃蜘蛛_螃蟹鉗.mp4",
                     "onlyincombo": false
                 },
                 {
@@ -2668,6 +2782,15 @@
                     "recovery": "",
                     "note": "",
                     "image": "videos/妃蜘蛛/妃蜘蛛_蟲絲突進噴火.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "蟲絲迴旋噴火",
+                    "preaction": "",
+                    "action": "",
+                    "recovery": "",
+                    "note": "",
+                    "image": "videos/妃蜘蛛/妃蜘蛛_蟲絲迴旋噴火.mp4",
                     "onlyincombo": false
                 }
             ],
