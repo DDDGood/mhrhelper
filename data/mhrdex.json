@@ -2766,7 +2766,7 @@
       },
       "species": "brute_wyvern",
       "image": "https://oyster.ignimgs.com/mediawiki/apis.ign.com/monster-hunter-world/8/8c/MHW-Anjanath_Render_001_copy.jpg",
-      "icon": "",
+      "icon": "images/monsters/icons/anjanath.png",
       "description": "",
       "detail": "獸龍種-龍盤目-？？？亞目-？？？上科-？？？科\n　　危險度：★4\n　　在新大陸古龍調查團停留的【新大陸】之中棲息的大型獸龍種怪物。主要活動於調查團活動據點【星辰】向東部擴展的【古代木之森】等地。徘徊於森林和其周邊地帶，如果發現到獵物的話，就會猛烈地襲擊獵物。再加上其非常執著的性格，會對自己的獵物窮追不捨，覆蓋著下頜的大棘是其頭部的主要特徵。特別是在戰鬥中，十分擅長以強有力的顎來捕食獵物和攻擊外敵。從這種特性上來看，也被稱為【蠻顎龍】\n　　蠻顎龍擁有著幾乎與其它大部分獸龍相同的體態——強健有力的後肢與短小無用的前肢，即使是已經為大型怪物的範疇，但它的運動能力確實是非常輕快的。尤其是蠻顎龍的腳力十分發達，就連大的階梯差和懸崖般的岩壁能夠輕鬆地跨越。其身體覆蓋著粗糙的桃粉色鱗片，而從背部到其尾部澤覆蓋著大量的黑色毛髮，正如它的名字那樣，其攻擊主要是使用強有力的顎來進行撕咬為主，以鋒利的牙齒和強韌的咬合力來對獵物造成致命的傷害。\n　　而作為獸龍種之中十分罕見的特徵，蠻顎龍的背中部位收放著一對形似翼的帆狀物。平時會將其收放起來，而在興奮時則會將以此為扇狀展開。將其張開的主要目的是為了讓自己的體型看起來更大，借以來威嚇敵人。同時，在天氣晴朗的日子裡也能夠目擊到蠻顎龍把帆狀物張開，並且悠閒地享受日光浴的情形，基於上述的行為，蠻顎龍的帆狀物可能還會起到調節體溫的作用。\n　　另外，雖然蠻顎龍的頭部看起來非常平滑，但是其鼻尖部位卻存在著非常具有特徵性的構造。其鼻骨在內部形成了非常獨特的鼻腔器官，在蠻顎龍有需要或者是興奮時就會張開，第一眼看上去往往會把它張開的鼻骨誤認成它的頭冠，如此的構造賦予了蠻顎龍異常敏銳的嗅覺，使它能夠遁著獵物殘存下來的氣味找到獵物的行蹤，並且蠻顎龍會通過它來噴射自己的鼻腔粘液來標記自己的領地。\n　　一旦被其強有力的大顎捕捉到的話，拼命掙扎的中型怪物也無法輕易逃離，只用下顎的力量就可以直接扔出與其對峙外敵，在棲息地區一帶都表現的十分蠻橫，在古代木之森生態系統中也可以說是名列前茅的存在。但是，面對同地區作為生態系統頂端的火龍，蠻顎龍在實力上就要顯得遜色一些。很多情況下，在爭奪地盤的競爭中直接發展到戰鬥或者是因為過度追求獵物，蠻顎龍有時就會踏入了被火龍占據的棲息範圍，並且遭受到來自保衛領地的火龍的急襲。\n　　當蠻顎龍憤怒時，其背部的帆狀物和鼻骨會同時展開，展現出與平常時不同的輪廓姿態。另外，由於其體內存在有類似火焰袋的器官，因此能夠較為明顯的發現其喉部出現了紅熱化，進入被稱為【炎熱積蓄】的狀態。在這個狀態下，對火和熱耐受能力不佳的東西是隻接觸到其下顎就會起火，另外，隨著時間的流逝，其積蓄的熱能也會逐漸提高，從其口邊可以明顯觀察到有火炎粉塵的外露，當熱能積蓄到極限時，蠻顎龍就從口中或是鼻骨內噴射出高熱的火炎吐息。\n　　蠻顎龍的素材被自身放出的火焰和熱所鍛煉，因此非常結實。以強化武器和製作框架為中心受到廣泛的使用。據說使用其素材打造的武具，獵物受攻擊翻出的血都會散髮出熱量，也可以讓人感覺到擁有了粗暴野蠻的蠻顎龍的那般鬥志。雖然是閒談，但蠻顎龍的尾巴也有作為食材的需求。",
       "breakables": "頭、尾",
@@ -5065,6 +5065,210 @@
             15,
             5,
             0
+          ]
+        }
+      ]
+    },
+    "wind_serpent_ibushi": {
+      "name": {
+        "tw": "風神龍",
+        "jp": "",
+        "en": "Wind Serpent Ibushi"
+      },
+      "species": "elder_dragon",
+      "image": "images/monsters/fullbody/wind_serpent_ibushi.jfif",
+      "icon": null,
+      "description": "",
+      "breakables": "-",
+      "trait": {
+        "roar": "-1",
+        "wind": "-1",
+        "tremor": "-1",
+        "element": "-",
+        "aliment": null
+      },
+      "weakness": {
+        "element": [
+          {
+            "condition": "normal",
+            "fire": -1,
+            "water": -1,
+            "thunder": -1,
+            "ice": -1,
+            "dragon": -1
+          }
+        ],
+        "aliment": [
+          {
+            "condition": "normal",
+            "poison": -1,
+            "sleep": -1,
+            "paralysis": -1,
+            "blast": -1,
+            "stun": -1
+          }
+        ],
+        "item": [
+          {
+            "condition": "normal",
+            "pitfalltrap": -1,
+            "shocktrap": -1,
+            "flashpod": -1,
+            "screamerpod": -1
+          }
+        ]
+      },
+      "parts": [
+        {
+          "name": "尚未公布",
+          "state": "-",
+          "extract": "-",
+          "hitData": [
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1
+          ]
+        }
+      ]
+    },
+    "thunder_serpent_narwa": {
+      "name": {
+        "tw": "雷神龍",
+        "jp": "",
+        "en": "Thunder Serpent Narwa"
+      },
+      "species": "elder_dragon",
+      "image": "images/monsters/fullbody/thunder_serpent_narwa.jfif",
+      "icon": null,
+      "description": "",
+      "breakables": "-",
+      "trait": {
+        "roar": "-1",
+        "wind": "-1",
+        "tremor": "-1",
+        "element": "-",
+        "aliment": null
+      },
+      "weakness": {
+        "element": [
+          {
+            "condition": "normal",
+            "fire": -1,
+            "water": -1,
+            "thunder": -1,
+            "ice": -1,
+            "dragon": -1
+          }
+        ],
+        "aliment": [
+          {
+            "condition": "normal",
+            "poison": -1,
+            "sleep": -1,
+            "paralysis": -1,
+            "blast": -1,
+            "stun": -1
+          }
+        ],
+        "item": [
+          {
+            "condition": "normal",
+            "pitfalltrap": -1,
+            "shocktrap": -1,
+            "flashpod": -1,
+            "screamerpod": -1
+          }
+        ]
+      },
+      "parts": [
+        {
+          "name": "尚未公布",
+          "state": "-",
+          "extract": "-",
+          "hitData": [
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1
+          ]
+        }
+      ]
+    },
+    "chameleos": {
+      "name": {
+        "tw": "霞龍",
+        "jp": "",
+        "en": "Chameleos"
+      },
+      "species": "elder_dragon",
+      "image": "images/monsters/fullbody/chameleos.png",
+      "icon": "images/monsters/icons/chameleos.png",
+      "description": "",
+      "breakables": "-",
+      "trait": {
+        "roar": "-1",
+        "wind": "-1",
+        "tremor": "-1",
+        "element": "-",
+        "aliment": null
+      },
+      "weakness": {
+        "element": [
+          {
+            "condition": "normal",
+            "fire": -1,
+            "water": -1,
+            "thunder": -1,
+            "ice": -1,
+            "dragon": -1
+          }
+        ],
+        "aliment": [
+          {
+            "condition": "normal",
+            "poison": -1,
+            "sleep": -1,
+            "paralysis": -1,
+            "blast": -1,
+            "stun": -1
+          }
+        ],
+        "item": [
+          {
+            "condition": "normal",
+            "pitfalltrap": -1,
+            "shocktrap": -1,
+            "flashpod": -1,
+            "screamerpod": -1
+          }
+        ]
+      },
+      "parts": [
+        {
+          "name": "尚未公布",
+          "state": "-",
+          "extract": "-",
+          "hitData": [
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1
           ]
         }
       ]
