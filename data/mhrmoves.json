@@ -2301,6 +2301,24 @@
             },
             "moves": [
                 {
+                    "name": "龍吼",
+                    "preaction": "",
+                    "action": "",
+                    "recovery": "",
+                    "note": "",
+                    "image": "videos/天狗獸/天狗獸_龍吼.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "滑行",
+                    "preaction": "",
+                    "action": "",
+                    "recovery": "",
+                    "note": "",
+                    "image": "videos/天狗獸/天狗獸_滑行.mp4",
+                    "onlyincombo": false
+                },
+                {
                     "name": "陀螺",
                     "preaction": "",
                     "action": "",
@@ -3023,6 +3041,114 @@
                     ]
                 }
             ]
+        },
+        "zinogre": {
+            "outline": "",
+            "reference": {
+                "(twitter)モンスターハンターライズ公式": "https://twitter.com/mh_rise_jp"
+            },
+            "moves": [
+                {
+                    "name": "前頂",
+                    "preaction": "",
+                    "action": "",
+                    "recovery": "",
+                    "note": "",
+                    "image": "videos/雷狼龍/雷狼龍_前頂.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "落雷",
+                    "preaction": "",
+                    "action": "",
+                    "recovery": "",
+                    "note": "",
+                    "image": "videos/雷狼龍/雷狼龍_落雷.mp4",
+                    "onlyincombo": false
+                }
+            ],
+            "combos": []
+        },
+        "rajang": {
+            "outline": "",
+            "reference": {
+                "(twitter)モンスターハンターライズ公式": "https://twitter.com/mh_rise_jp"
+            },
+            "moves": [
+                {
+                    "name": "連續拳",
+                    "preaction": "",
+                    "action": "",
+                    "recovery": "",
+                    "note": "",
+                    "image": "videos/金獅子/金獅子_連續拳.mp4",
+                    "onlyincombo": false
+                }
+            ],
+            "combos": []
+        },
+        "nargacuga": {
+            "outline": "",
+            "reference": {
+                "(twitter)モンスターハンターライズ公式": "https://twitter.com/mh_rise_jp"
+            },
+            "moves": [
+                {
+                    "name": "甩尾",
+                    "preaction": "",
+                    "action": "",
+                    "recovery": "",
+                    "note": "",
+                    "image": "videos/迅龍/迅龍_甩尾.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "尾鏢",
+                    "preaction": "",
+                    "action": "",
+                    "recovery": "",
+                    "note": "",
+                    "image": "videos/迅龍/迅龍_尾鏢.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "繞後撲",
+                    "preaction": "",
+                    "action": "",
+                    "recovery": "",
+                    "note": "",
+                    "image": "videos/迅龍/迅龍_繞後撲.mp4",
+                    "onlyincombo": false
+                }
+            ],
+            "combos": []
+        },
+        "tobi-kadachi": {
+            "outline": "",
+            "reference": {
+                "(twitter)モンスターハンターライズ公式": "https://twitter.com/mh_rise_jp"
+            },
+            "moves": [
+                {
+                    "name": "小咬",
+                    "preaction": "",
+                    "action": "",
+                    "recovery": "",
+                    "note": "",
+                    "image": "videos/飛雷龍/飛雷龍_小咬.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "折返撲",
+                    "preaction": "",
+                    "action": "",
+                    "recovery": "",
+                    "note": "",
+                    "image": "videos/飛雷龍/飛雷龍_折返撲.mp4",
+                    "onlyincombo": false
+                }
+            ],
+            "combos": []
         },
         "泡狐龍_Old": {
             "outline": "連招很多，把握部分連招結尾的大空檔進行輸出。平常以蹭刀為主。",
