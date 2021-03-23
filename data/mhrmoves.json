@@ -133,7 +133,7 @@
             ],
             "riding_moves": [
                 {
-                    "name": "小咬",
+                    "name": "龍車",
                     "command": "[X]"
                 },
                 {
@@ -477,7 +477,7 @@
             ],
             "riding_moves": [
                 {
-                    "name": "小咬",
+                    "name": "龍車",
                     "command": "[X]"
                 },
                 {
