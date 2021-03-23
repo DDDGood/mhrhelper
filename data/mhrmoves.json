@@ -2323,7 +2323,7 @@
                     "preaction": "",
                     "action": "",
                     "recovery": "",
-                    "note": "",
+                    "note": "可倒掛在牆上使用。",
                     "image": "videos/天狗獸/天狗獸_陀螺.mp4",
                     "onlyincombo": false
                 },
@@ -2337,12 +2337,12 @@
                     "onlyincombo": false
                 },
                 {
-                    "name": "二連尾砸",
+                    "name": "連續尾砸",
                     "preaction": "",
                     "action": "",
                     "recovery": "",
-                    "note": "",
-                    "image": "videos/天狗獸/天狗獸_二連尾砸.mp4",
+                    "note": "怒前兩下，怒後三下。",
+                    "image": "videos/天狗獸/天狗獸_連續尾砸.mp4",
                     "onlyincombo": false
                 },
                 {
