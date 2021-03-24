@@ -39,7 +39,7 @@ $(document).ready(Initialize);
 
 function Initialize() {
 
-    LoadData(['data/mhrdex.json', 'data/mhrmoves.json', 'data/endemics.json', "data/small_monster.json", "data/weapons.json", "data/demo-hitdata.json"], onDexLoaded);
+    LoadData(['data/mhrdex.json', 'data/mhrmoves.json', 'data/endemics.json', "data/small_monster.json", "data/weapons.json", "data/output.json"], onDexLoaded);
 }
 
 function LoadData(paths, callback) {
