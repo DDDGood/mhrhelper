@@ -67,33 +67,72 @@
       v-if="mondata.hasOwnProperty('weakness') && mondata.weakness.weapon!==undefined"
     >
       <div class="flex1 color1 rounded">
+        <div class="card-text text-bold">{{$t('monster.weakness.weapon')}}</div>
         <div class="flex-row interval-y margin">
-          <div class="flex1 card-text text-bold">{{$t('monster.part')}}</div>
-          <div class="flex1 flex-center">
-            <img class="card-text-icon" src="images/icons/equipments/greatsword.png" />
-            <div class="card-text text-bold">{{$t('monster.weakness.cut')}}</div>
+          <!-- <div class="flex1 card-text text-bold">{{$t('monster.state')}}</div> -->
+          <div class="flex1 flex-row color2 rounded-left interval-x">
+            <div class="flex1 card-text text-bold">{{$t('monster.state')}}</div>
           </div>
-          <div class="flex1 flex-center">
-            <img class="card-text-icon" src="images/icons/equipments/hammer.png" />
-            <div class="card-text text-bold">{{$t('monster.weakness.blunt')}}</div>
-          </div>
-          <div class="flex1 flex-center">
-            <img class="card-text-icon" src="images/icons/maps/ammo_normal.png" />
-            <div class="card-text text-bold">{{$t('monster.weakness.ammo')}}</div>
+          <div class="flex3 flex-row color2 rounded-right interval-x">
+            <div class="flex1 flex-center interval-x">
+              <img class="card-text-icon" src="images/icons/equipments/greatsword.png" />
+              <div class="card-text text-bold">{{$t('monster.weakness.cut')}}</div>
+            </div>
+            <div class="flex1 flex-center interval-x">
+              <img class="card-text-icon" src="images/icons/equipments/hammer.png" />
+              <div class="card-text text-bold">{{$t('monster.weakness.blunt')}}</div>
+            </div>
+            <div class="flex1 flex-center interval-x">
+              <img class="card-text-icon" src="images/icons/maps/ammo_normal.png" />
+              <div class="card-text text-bold">{{$t('monster.weakness.ammo')}}</div>
+            </div>
           </div>
         </div>
         <div
-          class="flex-row color2 interval-y margin rounded"
+          class="flex-row interval-y margin rounded"
           v-for="weakPart of mondata.weakness.weapon"
           :key="weakPart.part"
         >
-          <div class="flex1 card-text text-bold">{{ weakPart.part }}</div>
-          <div class="flex1 card-text text-bold">{{ ParseStars(weakPart.cut) }}</div>
-          <div class="flex1 card-text text-bold">{{ ParseStars(weakPart.blunt) }}</div>
-          <div class="flex1 card-text text-bold">{{ ParseStars(weakPart.ammo) }}</div>
+          <div class="flex1 flex-row color2 rounded-left interval-x">
+            <div class="flex1 card-text interval-x flex-center">{{ weakPart.condition }}</div>
+          </div>
+          <div class="flex3 flex-row color2 rounded-right interval-x">
+            <div class="flex1 card-text interval-x flex-center">{{ weakPart.cut }}</div>
+            <div class="flex1 card-text interval-x flex-center">{{ weakPart.blunt }}</div>
+            <div class="flex1 card-text interval-x flex-center">{{ weakPart.ammo }}</div>
+          </div>
         </div>
       </div>
     </div>
+    <!-- <div class="flex-row interval-y" v-if="weakdata.weapon!== undefined">
+      <div class="flex1 color1 rounded" style="position: relative">
+        <div class="card-text text-bold">{{$t('monster.weakness.weapon')}}</div>
+        <div class="card-text text-small special-align-right">{{ weakdata.weapon.condition }}</div>
+        <div class="flex-row margin">
+          <div class="flex1 color2 card-text interval-x rounded">
+            <div class="flex-center">
+              <img :class="weaknessIconClass" src="images/icons/equipments/greatsword.png" />
+              <div :class="weaknessTextClass">{{$t('monster.weakness.cut')}}</div>
+            </div>
+            <div class="card-text" v-html="weakdata.weapon.values?.cut"></div>
+          </div>
+          <div class="flex1 color2 card-text interval-x rounded">
+            <div class="flex-center">
+              <img :class="weaknessIconClass" src="images/icons/equipments/hammer.png" />
+              <div :class="weaknessTextClass">{{$t('monster.weakness.blunt')}}</div>
+            </div>
+            <div class="card-text" v-html="weakdata.weapon.values?.blunt"></div>
+          </div>
+          <div class="flex1 color2 card-text interval-x rounded">
+            <div class="flex-center">
+              <img :class="weaknessIconClass" src="images/icons/maps/ammo_normal.png" />
+              <div :class="weaknessTextClass">{{$t('monster.weakness.ammo')}}</div>
+            </div>
+            <div class="card-text" v-html="weakdata.weapon.values?.ammo"></div>
+          </div>
+        </div>
+      </div>
+    </div>-->
     <div class="flex-row interval-y" v-if="weakdata.element!== undefined">
       <div class="flex1 color1 rounded" style="position: relative">
         <div class="card-text text-bold">{{$t('monster.weakness.element')}}</div>
@@ -206,13 +245,13 @@
             </div>
             <div class="card-text" v-html="weakdata.item.values?.flashpod"></div>
           </div>
-          <div class="flex1 color2 card-text interval-x rounded">
+          <!-- <div class="flex1 color2 card-text interval-x rounded">
             <div class="flex-center">
               <img :class="weaknessIconClass" src="images/icons/items/音爆彈.png" />
               <div :class="weaknessTextClass">{{$t('monster.weakness.items.screamerpod')}}</div>
             </div>
             <div class="card-text" v-html="weakdata.item.values?.screamerpod"></div>
-          </div>
+          </div>-->
         </div>
       </div>
     </div>
@@ -243,21 +282,21 @@ module.exports = {
     weakdata: function () {
       // console.log("compute weakdata")
       let weakness = {
-        weapon: [], element: {}, aliment: {}, item: {}
+        weapon: {}, element: {}, aliment: {}, item: {}
       }
       for (let weakType in this.mondata.weakness) {
-        if (weakType === "weapon") {
-          weakness.weapon = [];
-          for (let weakPart of this.mondata.weakness.weapon) {
-            weakness.weapon.push({
-              part: weakPart.part,
-              cut: ParseStars(weakPart.cut),
-              blunt: ParseStars(weakPart.blunt),
-              ammo: ParseStars(weakPart.ammo),
-            });
-          }
-          continue;
-        }
+        // if (weakType === "weapon") {
+        //   weakness.weapon = [];
+        //   for (let weakPart of this.mondata.weakness.weapon) {
+        //     weakness.weapon.push({
+        //       part: weakPart.part,
+        //       cut: ParseStars(weakPart.cut),
+        //       blunt: ParseStars(weakPart.blunt),
+        //       ammo: ParseStars(weakPart.ammo),
+        //     });
+        //   }
+        //   continue;
+        // }
         let weakData = this.mondata.weakness[weakType];
         let specialCase = false;
         let conditionText = "";
@@ -267,6 +306,7 @@ module.exports = {
             for (let dataKey in weakState) {
               if (dataKey == "condition") continue;
               values[dataKey] = ParseStars(weakState[dataKey]);
+              // values[dataKey] = (weakState[dataKey]);
             }
           } else {
             if (specialCase === false) {
@@ -277,11 +317,13 @@ module.exports = {
             }
             for (let dataKey in weakState) {
               values[dataKey] += "<br>(" + ParseStars(weakState[dataKey]) + ")";
+              // values[dataKey] += "<br>*" + (weakState[dataKey]) + "";
             }
           }
         }
         weakness[weakType] = {
           condition: specialCase ? "(" + conditionText + ")" : "",
+          // condition: specialCase ? "*" + conditionText : "",
           values: values,
         };
       }

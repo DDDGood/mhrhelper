@@ -85,6 +85,7 @@
                 "cut": "cut",
                 "blunt": "blunt",
                 "ammo": "ammo",
+                "weapon": "Weapon Weakness",
                 "element": "Element Weakness",
                 "aliment": "Aliment Weakness",
                 "item": "Items Effectness",

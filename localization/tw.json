@@ -85,6 +85,7 @@
                 "cut": "切",
                 "blunt": "打",
                 "ammo": "彈",
+                "weapon": "武器弱點",
                 "element": "屬性弱點",
                 "aliment": "異常弱點",
                 "item": "道具效果",
