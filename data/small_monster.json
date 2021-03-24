@@ -46,7 +46,7 @@
             "habitats": [
                 "shrine_ruins"
             ],
-            "description": "外貌形似猫的獸人族。特徵為白毛。平常雖然很溫和，但是遭到攻擊時便會大發雷霆，不分青紅皂白地發動攻擊。好奇心旺盛，部分族群會製作料理招待人類，或是受公會雇用協助獵人。依此可見似乎也有能夠理解人話，融入人類社會的個體。",
+            "description": "外貌形似貓的獸人族。特徵為白毛。平常雖然很溫和，但是遭到攻擊時便會大發雷霆，不分青紅皂白地發動攻擊。好奇心旺盛，部分族群會製作料理招待人類，或是受公會雇用協助獵人。依此可見似乎也有能夠理解人話，融入人類社會的個體。",
             "icon": "images/smonster/icons/felyne.png",
             "image": "images/smonster/felyne.png"
         },
@@ -56,7 +56,7 @@
             "habitats": [
                 "shrine_ruins"
             ],
-            "description": "一旦發現入侵地盤者，就會發起猛攻的好戰魚類。雖是水棲生物，但也能在陸地上進行短時間活動。在陸地上追逐完獵物之後，會擺動身體，嘗試回到水邊。也被稱為「咬魚」。 最好不要隨意接近牠們棲息區域附近的水源。",
+            "description": "一旦發現入侵地盤者，就會發起猛攻的好戰魚類。雖是水棲生物，但也能在陸地上進行短時間活動。在陸地上追逐完獵物之後，會擺動身體，嘗試回到水邊。也被稱為「咬魚」。最好不要隨意接近牠們棲息區域附近的水源。",
             "icon": "images/smonster/icons/gajau.png",
             "image": "images/smonster/gajau.png"
         },
@@ -76,7 +76,7 @@
             "habitats": [
                 "shrine_ruins"
             ],
-            "description": "雜食性的鳥龍種，特徵為像镰刀一樣發達的尾巴。牠的尾巴不只可以用來攻擊，還能用來爬樹，或是摘取樹木的果實。鎌鼬龍主要待在镰鼬龍王所率領的龍群中生活，而在群體中 體格較好，且狩獵能力較佳的2隻镰鼬龍，則會跟著鐮鼬龍王一同狩獵。",
+            "description": "雜食性的鳥龍種，特徵為像鐮刀一樣發達的尾巴。牠的尾巴不只可以用來攻擊，還能用來爬樹，或是摘取樹木的果實。鐮鼬龍主要待在鐮鼬龍王所率領的龍群中生活，而在群體中體格較好，且狩獵能力較佳的2隻鐮鼬龍，則會跟著鐮鼬龍王一同狩獵。",
             "icon": "images/smonster/icons/izuchi.png",
             "image": "images/smonster/izuchi.png"
         },
@@ -96,7 +96,7 @@
             "habitats": [
                 "shrine_ruins"
             ],
-            "description": "眾所皆知，個性溫和的小型草食獸。其角含有特殊的成分，是廣為人知，能夠治百病的藥材。 想要獲取的話，只要瞄準頭部攻擊即可。",
+            "description": "眾所皆知，個性溫和的小型草食獸。其角含有特殊的成分，是廣為人知，能夠治百病的藥材。想要獲取的話，只要瞄準頭部攻擊即可。",
             "icon": "images/smonster/icons/kelbi.png",
             "image": "images/smonster/kelbi.png"
         },
@@ -133,68 +133,93 @@
         "anteka": {
             "name": "大角鹿",
             "species": "herbivore",
+            "description": "生活在寒冷地區的草食魔物。雖然平常個性溫和，但如果遭遇到危險，便會揮動巨大的角進行攻擊。其優質毛皮利用價值很高，那對大角也相當受到公會重視。",
             "icon": "images/smonster/icons/anteka.png",
             "image": "images/smonster/anteka.png"
         },
         "baggi": {
             "name": "眠狗龍",
             "species": "bird_wyvern",
+            "description": "會集體進行狩獵，擁有高智商的鳥龍種肉食魔物。淺藍色鱗片和銳利的目光為其特徵。會成群結隊追趕獵物，並以特殊的體液使其昏睡後再獵殺。若接觸到牠們那惡名昭彰的體液，即便是成年人也會在數秒內陷入昏睡，對獵人們是一大威脅。",
             "icon": "images/smonster/icons/baggi.png",
             "image": "images/smonster/baggi.png"
         },
         "popo": {
             "name": "波波",
             "species": "herbivore",
+            "description": "擁有群居習性的草食獸。全身包覆著能夠抵禦寒冷的長毛，個性溫厚，遭到攻擊時會成群逃走。另外，牠的肉營養價值極高，尤其是舌頭更被視為珍饈。",
             "icon": "images/smonster/icons/popo.png",
             "image": "images/smonster/popo.png"
         },
         "slagtoth": {
             "name": "垂皮龍",
-            "species": "bird_wyvern",
+            "species": "herbivore",
+            "description": "主要棲息在水邊，屬於地盤意識極強的草食種，正如其名所示，垂皮龍擁有較厚的鬆軟外皮，並將營養儲存在裡面。其外皮的耐熱及防水性相當出色，可以用來加工成雨衣等等的服裝。",
             "icon": "images/smonster/icons/slagtoth.png",
             "image": "images/smonster/slagtoth.png"
         },
         "zamite": {
             "name": "冰鮫幼鯊",
             "species": "amphibian",
+            "description": "棲息於寒冷地區的兩生種幼體。一旦發現獵物，便會以其銳牙咬住不放，將獵物身上咬出一個洞後，便鑽入體內大肆啃食。只要獲得了養分，便會急遽地成長。發達的下顎非常強大，若想甩開牠，必須使用翔蟲，或是在地面用力翻滾才行。此外，若是使用苦無則能夠一擊甩開牠們。",
             "icon": "images/smonster/icons/zamite.png",
             "image": "images/smonster/zamite.png"
         },
         "kestodon": {
             "name": "冠突龍",
             "species": "herbivore",
+            "description": "由負責攻擊的雄性與擅長察覺危機的雌性形成族群。遇到侵入地盤者，就會以堅硬的頭發動突進攻擊，只要擋下來就能使其露出破綻。雄性的個體比雌性較大，也可以透過顏色和頭殼的形狀來分辨。",
             "icon": "images/smonster/icons/kestodon.png",
             "image": "images/smonster/kestodon.png"
         },
         "jaggi": {
             "name": "狗龍",
             "species": "bird_wyvern",
+            "description": "肉食性的鳥龍種。擁有較強的社會性，會組成大規模的族群共同生活。雌雄個體的外觀不同，年輕的雄狗龍體型較雌狗龍要小。年輕的雄狗龍會組成群體，狩獵體型比自己大上數倍的獵物。",
             "icon": "images/smonster/icons/jaggi.png",
             "image": "images/smonster/jaggi.png"
         },
         "jaggia": {
             "name": "雌狗龍",
             "species": "bird_wyvern",
+            "description": "採取群體生活的鳥龍種――狗龍的雌性個體。原則上僅會在巢穴的附近活動，負責保護巢穴與育兒。雖然與成熟的雄性相比體型較小，但較群體內無數的年輕雄性要大，肉體也相當強韌。",
             "icon": "images/smonster/icons/jaggia.png",
             "image": "images/smonster/jaggia.png"
         },
         "rachnoid": {
             "name": "臣蜘蛛",
             "species": "temnoceran",
+            "description": "妃蜘蛛的幼體，人稱「臣蜘蛛」。幼年期會附著在母體的腹部上生活，主要的食物來源為母體捕食後吐出的獵物。一出生馬上就能吐絲，並且擁有不遜於母體的強度。會聽從母體的命令吐絲束縛獵物，或利用絲線協助行動緩慢的母體支撐身體及移動。",
             "icon": "images/smonster/icons/rachnoid.png",
             "image": "images/smonster/rachnoid.png"
         },
         "delex": {
             "name": "沙魚龍",
             "species": "piscine_wyvern",
+            "description": "棲息在沙漠地帶的肉食魔物。通常會四到五隻集體行動。牠們會在大型魔物狩獵時，在一旁等著撿吃剩的殘渣。對聲音非常敏感。",
             "icon": "images/smonster/icons/delex.png",
             "image": "images/smonster/delex.png"
         },
         "ludroth": {
             "name": "水生獸",
             "species": "leviathan",
+            "description": "雌性的水棲魔物，人稱「水生獸」，會以大型的雄性為中心，建立名副其實的後宮。雄性會為了繁殖而製造地盤，此時許多水生獸便會受到吸引聚集而來。牠對入侵地盤的敵人會非常具攻擊性，必須注意。",
             "icon": "images/smonster/icons/ludroth.png",
             "image": "images/smonster/ludroth.png"
+        },
+        "rhenoplos": {
+            "name": "原角龍",
+            "species": "herbivore",
+            "description": "地盤意識極強的草食龍。雖然視力較差，無法辨識遠處的東西，但是出色的聽覺讓牠得以察覺接近的生物，並且會極為執著地追趕對方。另外，或許是因為牠一旦開始奔跑就難以停下，也有人見過牠被盾牌等擋下突進後膽怯的場面。",
+            "icon": "images/smonster/icons/rhenoplos.png",
+            "image": "images/smonster/rhenoplos.png"
+        },
+        "uroktor": {
+            "name": "熔岩獸",
+            "species": "leviathan",
+            "description": "棲息於火山的海龍種幼體。以腐肉為食，會群聚在大型魔物吃剩的食物旁。偶爾也會自行狩獵，從地底下發動突襲，突刺地面上的獵物。另外，對接近者的攻擊性極強。人稱「熔岩獸」。",
+            "icon": "images/smonster/icons/uroktor.png",
+            "image": "images/smonster/uroktor.png"
         }
     }
 }
