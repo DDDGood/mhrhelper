@@ -304,131 +304,209 @@
                 "rakna-kadaki": {}
             },
             "endemic_lifes": {
-                "red_spiribird": {
-                    "name": "Red Spiribird",
-                    "description": "A tiny, softly glowing bird. The aroma of the pollen on its body grants a boon to attack."
+                "vigorwasp": {
+                    "name": "Vigorwasp",
+                    "description": "An insect that collects a restorative nectar andstores it in a sac. When struck, the sac releasesa healing mist that's sure to be useful for huntersin a pinch."
                 },
-                "orange_spiribird": {
-                    "name": "Orange Spiribird",
-                    "description": "A tiny, softly glowing bird. The aroma of the pollen on its body grants a boon to defense."
+                "paratoad": {
+                    "name": "Paratoad",
+                    "description": "A large toad with a distinct yellow body.It stores a paralyzing gas that, when emitted,is powerful enough to incapacitate evenlarge monsters. Kamura hunters are quitefamiliar with this creature as they are oftenutilized for traps."
                 },
-                "green_spiribird": {
-                    "name": "Green Spiribird",
-                    "description": "A tiny, softly glowing bird. The aroma of the pollen on its body grants a boon to health."
-                },
-                "yellow_spiribird": {
-                    "name": "Yellow Spiribird",
-                    "description": "A tiny, softly glowing bird. The aroma of the pollen on its body grants a boon to stamina."
-                },
-                "poisontoad": {
-                    "name": "Poisontoad",
-                    "description": "A frog that discharges a poisonous gas."
+                "sleeptoad": {
+                    "name": "Sleeptoad",
+                    "description": "A large toad with a distinct blue body.It stores a soporific gas that, when emitted,is powerful enough to knock out even largemonsters. Using it in conjunction witha Bomb Barrel on a sleeping monster makesfor a powerful all-out attack, provided you getthe timing right."
                 },
                 "blastoad": {
                     "name": "Blastoad",
-                    "description": "A frog that discharges a combustible gas guaranteed to be a blast!"
+                    "description": "A large toad with a distinct red body.It stores an explosive gas that, when emittedand mixed with the air, can cause an explosionpowerful enough to topple even largemonsters."
                 },
-                "firebeetle": {
-                    "name": "Firebeetle",
-                    "description": "A beetle that rolls up lava rocks into balls. Throw the ball to engulf a target in flames."
+                "poisontoad": {
+                    "name": "Poisontoad",
+                    "description": "A large toad with a distinct purple body.It stores a poisonous gas that, when emitted,is powerful enough to instantly poison anythingthat it comes in contact with, even large monsters."
                 },
-                "mudbeetle": {
-                    "name": "Mudbeetle",
-                    "description": "A beetle that rolls up mud into a ball. When thrown, the ball is imbued with water element."
+                "lanternbug": {
+                    "name": "Lanternbug",
+                    "description": "A glowing caterpillar that secretes a stickyfluid to attach leaves or wood to its body,making it look larger. This body fluid ishighly volatile, and applying shock to itwill cause it to explode in self-defense.When worn, it detonates when struck,mitigating some damage to the wearer."
                 },
-                "thunderbeetle": {
-                    "name": "Thunderbeetle",
-                    "description": "A beetle that rolls up mud containing thunder-infused monster hair into balls. ZAP!"
-                },
-                "snowbeetle": {
-                    "name": "Snowbeetle",
-                    "description": "A beetle that rolls up snow into ice balls. Not recommended for a friendly snowball fight."
-                },
-                "stinkmink": {
-                    "name": "Stinkmink",
-                    "description": "A weasel that sprays special pheromones that attract monsters."
-                },
-                "escuregot": {
-                    "name": "Escuregot",
-                    "description": "A large green snail. Sprays a restorative mist when used."
-                },
-                "puppet_spider": {
-                    "name": "Puppet Spider",
-                    "description": "A spider that spits a sticky web, which can be used like reins for Wyvern Riding."
-                },
-                "wailnard": {
-                    "name": "Wailnard",
-                    "description": "A pheasant with a unique red sac. Its call draws in large monsters."
-                },
-                "trapbugs": {
-                    "name": "Trapbugs",
-                    "description": "Insects with sharp horns. A monster that tramples them will flee temporarily."
-                },
-                "antidobra": {
-                    "name": "Antidobra",
-                    "description": "A snake that shoots a poison antidote. Can be used to cure and prevent poison."
-                },
-                "brewhare": {
-                    "name": "Brewhare",
-                    "description": "A moss-covered rabbit. Can be used to improve the effects of some items."
-                },
-                "wirebug": {
-                    "name": "Wirebug",
-                    "description": "A wild Wirebug. When caught, your Wirebug gauge will temporarily increase by 1."
-                },
-                "vigorwasp": {
-                    "name": "Vigorwasp",
-                    "description": "An insect that releases a cloud of restorative nectar when struck."
+                "aurortle": {
+                    "name": "Aurortle",
+                    "description": "A large tortoise with an anthill on its back.If you capture it, the anthill absorbs damagefor you when you take a fatal blow. Aurortlesand the ants that reside in the anthill havea symbiotic relationship where the antsprotect the shell with their hill, in exchangefor the tortoise's food scraps and excrement."
                 },
                 "clothfly": {
                     "name": "Clothfly",
-                    "description": "A butterfly that, if struck, will release a powder that briefly boosts defense."
+                    "description": "A butterfly with long wings. In flight, it lookslike a flowing piece of cloth, giving it its name.When struck, it scatters a dust cloud andflees. The dust has a tightening effect onhuman skin making it more resistant toinjury."
                 },
-                "butterflame": {
-                    "name": "Butterflame",
-                    "description": "A butterfly that, if struck, will release a powder that briefly boosts attack."
+                "antidobra": {
+                    "name": "Antidobra",
+                    "description": "A snake with an unusually developedneck region. Its body is filled with anantidote that works on various poisons.When a hunter absorbs it, ailments arehealed, and resistance is heightenedtemporarily. The pattern on the back ofits head resembles a scary human face.Despite its size, it has a timid nature."
                 },
-                "peepersects": {
-                    "name": "Peepersects",
-                    "description": "A butterfly that, if struck, will release a powder that briefly curbs stamina loss."
+                "wirebug": {
+                    "name": "Wirebug",
+                    "description": "A beetle native to the Kamura area. The term Wirebuggenerally refers to the females of the species. It iscapable of producing a super-strong silk colloquiallyknown as Ironsilk, which it uses to carry materials tobuild its nest. For ages, the villagers of Kamurahave trained Wirebugs to make use of their mobility.It's skittish when feral, but quite obedient oncetrained. Loves Jewel Lilies."
                 },
-                "cutterfly": {
-                    "name": "Cutterfly",
-                    "description": "A dragonfly that releases a cloud of pheromones that temporarily boosts affinity."
+                "red_spiribird": {
+                    "name": "Red Spiribird",
+                    "description": "A small bird that glows a faint red. This glowcomes from pollen that accumulates on itsbody while drinking nectar. Many mistakethis glow for a human soul, hence the name.Petalaces become fragrant and gain anattack boost when imbued with this pollen."
+                },
+                "orange_spiribird": {
+                    "name": "Orange Spiribird",
+                    "description": "A small bird that glows a faint orange. Thisglow comes from pollen that accumulateson its body while drinking nectar. Manymistake this glow for a human soul, hencethe name. Petalaces become fragrant andgain a defense boost when imbued withthis pollen."
+                },
+                "green_spiribird": {
+                    "name": "Green Spiribird",
+                    "description": "A small bird that glows a faint green. Thisglow comes from pollen that accumulateson its body while drinking nectar. Manymistake this glow for a human soul, hencethe name. Petalaces become fragrant andgain a health boost when imbued with thispollen."
+                },
+                "yellow_spiribird": {
+                    "name": "Yellow Spiribird",
+                    "description": "A small bird that glows a faint yellow. Thisglow comes from pollen that accumulateson its body while drinking nectar. Manymistake this glow for a human soul, hencethe name. Petalaces become fragrant andgain a stamina boost when imbued withthis pollen."
+                },
+                "prism_spiribird": {
+                    "name": "Prism Spiribird",
+                    "description": "A small bird that glows a spectrum of colors.This glow comes from pollen that accumulateson its body while drinking nectar. Many mistakethis glow for a human soul, hence the name.Petalaces become fragrant and gain maximizedabilities when imbued with this pollen."
+                },
+                "mudbeetle": {
+                    "name": "Mudbeetle",
+                    "description": "A tiny beetle that pushes around a mud ballwith its hind legs. The mud ball has waterproperties, and throwing it at a target willinflict it with waterblight. The water elementmakes the mud ball seem wet all the time."
+                },
+                "thunderbeetle": {
+                    "name": "Thunderbeetle",
+                    "description": "A tiny beetle that pushes around a dirt ballwith its hind legs. The dirt ball has thunderproperties, and throwing it at a target willinflict it with thunderblight. No one seemsto understand why the dirt ball has theseproperties."
+                },
+                "snowbeetle": {
+                    "name": "Snowbeetle",
+                    "description": "A tiny beetle that pushes around a snowballwith its hind legs. The snowball has ice proper-ties, and throwing it at a target will inflict it withiceblight. The snowballs are so cold that you'llget frostbite if you hold them for too long."
+                },
+                "firebeetle": {
+                    "name": "Firebeetle",
+                    "description": "A tiny beetle that pushes around a lavarock with its hind legs. The lava rock itpushes has fire properties, and throwingit at a target will inflict it with fireblight.The lava rocks may feel warm to hold,but hold them too long and you mayget burned."
                 },
                 "flashfly": {
                     "name": "Flashfly",
-                    "description": "An insect that releases a blinding flash of light when struck."
+                    "description": "Winged insects that emit a bright light when struck.To survive, Flashflies live together in a swarm andhave a defense mechanism that allows them to emita blinding flash if threatened, giving them time toflee to safety. The flash is so bright that it's possibleto cause a large monster to flinch. Once the threathas disappeared the swarm will gather together again."
                 },
                 "rock_lizard": {
                     "name": "Rock Lizard",
-                    "description": "A small lizard that lives in various locales. To protect itself from predators, Rock Lizards will attack minerals to their body in order to blend in with their surroundings. If attacked, they will shed these minerals and escape. They are popular among hunters as the minerals have many uses."
+                    "description": "A small lizard that lives in various locales. Toprotect itself from predators, Rock Lizards willattach minerals to their body in order to blendin with their surroundings. If attacked, they willshed these minerals and escape. They arepopular among hunters as the mineralshave many uses."
                 },
                 "boulder_lizard": {
                     "name": "Boulder Lizard",
-                    "description": "A relative of the Rock Lizard, these lizards can also be found in a number of locales. And like the Rock Lizard, it also attaches a variety of minerals to its body to protect itself. However, these minerals are typically harder than those found on Rock Lizzards and are more sought after by hunters."
+                    "description": "A relative of the Rock Lizard, these lizardscan also be found in a number of locales.And like the Rock Lizard, it also attachesa variety of minerals to its body to protectitself. However, these minerals are typicallyharder than those found on Rock Lizardsand are more sought after by hunters."
                 },
                 "scale_lizard": {
                     "name": "Scale Lizard",
-                    "description": "Relatives of the Rock Lizard, these lizards can also be found in a number of locales. Unlike the Rock Lizard, they don't attach minerals to their bodies—instead, they tend to use monster scales and claws. Scale Lizards are extremely rare as they inhabit areas seldom traveled. They are prized by hunters as the materials they drop fetch a high price."
+                    "description": "Relatives of the Rock Lizard, these lizards canalso be found in a number of locales. Unlike theRock Lizard, they don't attach minerals to theirbodiesâ€”instead, they tend to use monster scalesand claws. Scale Lizards are extremely rare asthey inhabit areas seldom traveled. They areprized by hunters as the materials they dropfetch a high price."
+                },
+                "stinkmink": {
+                    "name": "Stinkmink",
+                    "description": "A weasel with distinct snow-white fur that islight and warm. When threatened, it emitsa type of pheromone from the scent glandsnear the base of its tail in the form of a smoke-like cloud. It uses its tail to spread the cloudin an attempt to attract any monster nearby.If a monster is successfully lured to itslocation, it'll use this chance to escape."
+                },
+                "escuregot": {
+                    "name": "Escuregot",
+                    "description": "A large snail with a green shell. It stores fluidswith healing properties in its body, consuming themwhen food is scarce. When attacked, it emits a typeof mist from its shell to blind its attacker. Immuneto the mist's blinding effects, they are often usedby hunters out in the field as a means to heal."
+                },
+                "puppet_spider": {
+                    "name": "Puppet Spider",
+                    "description": "A spider with a distinct yellow-spotted pattern.It shoots out a sticky web from its abdomenthat is robust enough to restrain monsters.When feeding or fleeing from enemies, it usesstrings of web to immobilize its target. Whenfeeding in particular, this behavior is reminiscentof a puppeteer manipulating a marionette, whichis how its name came about."
+                },
+                "wailnard": {
+                    "name": "Wailnard",
+                    "description": "A pheasant with a giant red vocal sac.It sounds like a crying child, which it usesto attract large monsters that will, in turn,distract its predators. Hunters capture and useWailnards to lure large monsters to their vicinity.It is a usually docile creature that spends mostof its time in hiding. Despite its wings, it's notvery good at flying."
                 },
                 "great_wirebug": {
                     "name": "Great Wirebug",
-                    "description": "A large Wirebug. Uses Jewel Lilies to send you soaring in a specified direction."
+                    "description": "A beetle native to the Kamura area. This namerefers to male Wirebugs, so called for their larger,more powerful bodies. As they are stronger thanfemale Wirebugs, they are often used for long-distance movement, though they are less nimbleand harder to control. They are also far lesscommon than females. Once placed in a patchof Jewel Lilies, it'll never leave."
+                },
+                "butterflame": {
+                    "name": "Butterflame",
+                    "description": "A butterfly with crimson wings. In flight,they look like dancing flames and in thepast, were often mistaken for fire or ghosts.When attacked, they release a type of dustbefore fleeing. This dust can temporarily boostattack strength if inhaled."
+                },
+                "peepersects": {
+                    "name": "Peepersects",
+                    "description": "A butterfly with spotted yellow wings thatcan be found living in swarms in variouslocales across the region. In the past theywere mistaken for flying eyeballs hence theircreepy name. When attacked, they releasea type of dust before fleeing. This dust cantemporarily boost stamina if inhaled."
                 },
                 "golden_spiribug": {
                     "name": "Golden Spiribug",
-                    "description": "A golden insect. Restores some stamina when picked up and can be stored."
+                    "description": "A golden beetle. When in flight, the sound of itswings flapping has a relaxing effect. Its diet mostlyconsists of other tiny insects. The ones that it favorsmost can be found on the plants that Petalaces aremade from. Hunters wearing a Petalace will attractGolden Spiribugs and often return from hunts withtheir Petalace covered in them. A dye made fromthis bug is a famous specialty of Kamura Village."
                 },
-                "tricktoad": {
-                    "name": "Tricktoad",
-                    "video_reference": "Source: <a href='https://twitter.com/i/status/1348313656094814214'>Official Twitter</a>",
-                    "description": "The Tricktoad is a bodacious Endemic Life that will daringly challenge bigger monsters by flaring its fins and releasing strong pheromones. They make for great decoys!"
+                "gilded_spiribug": {
+                    "name": "Gilded Spiribug",
+                    "description": "A gold beetle related to Golden Spiribugs. Thesound of its wings flapping has a relaxing effect.Its diet mostly consists of the tiny insects thatfeed on the plants that Petalaces are made from.Hunters wearing a Petalace will attract GildedSpiribugs and often return from hunts with theirPetalace covered in them. A dye made fromthis bug is a famous specialty of Kamura Village."
                 },
                 "giganha": {
                     "name": "Giganha",
-                    "video_reference": "Source: <a href='https://twitter.com/i/status/1342017169505222656'>Official Twitter</a>",
-                    "description": "A species of carnivorous fish that goes absolutely wild when you give them raw meat. Any monster or hunter nearby is bound to get swept up in their ferociously voracious behavior, taking damage in the process."
+                    "description": "Carnivorous fish native to the Flooded Forest.Though usually docile, they'll go into a frenzywhen they smell meat. Giganha will attemptto sink their teeth into anything, monstersand hunters alike. Their ravenous behaviorsubsides once they have had their fill, butwill return when hunger sets in."
+                },
+                "red_lampsquid": {
+                    "name": "Red Lampsquid",
+                    "description": "A squid that inhabits the Frost Islands,swimming in schools and spitting ink at threats.It emits a phosphorescence the same color asits ink, and can be sighted lighting up the seaslike an underwater lamp, hence its name. Red Lampsquid ink temporarily increasesconcentration, granting the consumer ahigher chance of landing critical strikes."
+                },
+                "yellow_lampsquid": {
+                    "name": "Yellow Lampsquid",
+                    "description": "A squid that inhabits the Frost Islands,swimming in schools and spitting ink at threats.It emits a phosphorescence the same color asits ink, and can be sighted lighting up the seaslike an underwater lamp, hence its name. YellowLampsquid ink temporarily dulls the nerves,making the consumer more resistant to pain."
+                },
+                "green_lampsquid": {
+                    "name": "Green Lampsquid",
+                    "description": "A squid that inhabits the Frost Islands,swimming in schools and spitting ink at threats.It emits a phosphorescence the same color asits ink, and can be sighted lighting up the seaslike an underwater lamp, hence its name. GreenLampsquid ink has curative properties, healinginjuries and wounds to an extent."
+                },
+                "golden_lampsquid": {
+                    "name": "Golden Lampsquid",
+                    "description": "A squid that inhabits the Frost Islands.Unlike other Lampsquid, it swims alone. It owesits aureate glow to its ink, which is known topromote concentration, fortitude, and the healingof any and all wounds. It is so rare that it hasearned the name \"King of the Lampsquid.\""
+                },
+                "pincercrab": {
+                    "name": "Pincercrab",
+                    "description": "A hermit crab native to the Sandy Plains.It sticks to cliffs in small groups and eatsplants and smaller creatures there, dirt andall. The consumed dirt accumulates in theshell and is excreted when it's large enough.When attacked, the group goes into highalert, shooting lumps of earth at their attacker."
+                },
+                "echobat": {
+                    "name": "Echobat",
+                    "description": "Bats found in Lava Caverns. They live in groupsand eat small flying bugs. Highly territorial, theywill threaten invaders by turning themselves redand releasing scales that act like gunpowder tocause explosions large enough to hurt even largemonsters."
+                },
+                "snow-faced_fox": {
+                    "name": "Snow-faced Fox",
+                    "description": "A fox that inhabits the Shrine Ruins. Extremelyrare, it has been seen perched atop the gate leadinginto the Ruins. Its large bushy tail has a unique patternthat gives off the impression that it's split into nineseparate parts, but in reality, it's just one large tail.Despite its majestic appearance, it's quite a playfulcreature."
+                },
+                "quetzalcobra": {
+                    "name": "Quetzalcobra",
+                    "description": "A rare snake that inhabits the Flooded Forest.It can fan out its neck, appearing like the wingsof a bird, in a display used to threaten predatorsor attract mates. It secretes a fluid from its mouththat has healing properties. It used to be worshippedby humans, but this practice has disappeared overtime, and now it just lives its enigmatic life free ofall the fuss."
+                },
+                "monksnail": {
+                    "name": "Monksnail",
+                    "description": "A gigantic sea snail from the Frost Islands.It hates bright lights, and so remains inthe sea during the day. At night, it surfaceswhere squids and other such potential preygather. It possesses an organ that projectsvarious patterns of light onto its skin.Its eyeball-like glow and colossal silhouetteare the dread of every sailor in the region."
+                },
+                "regitrice": {
+                    "name": "Regitrice",
+                    "description": "A rare wingdrake of the Sandy Plains. It usuallynests in caves, but will occasionally emergeto bask in the sun, improving its metabolism.On its head is a comb that looks like a wingedcrown or cape, which, combined with its glitteringscales and languid form, gives it something of aregal air."
+                },
+                "hellbill": {
+                    "name": "Hellbill",
+                    "description": "A rare bird found near the crater of the LavaCaverns. Its vibrant red feathers grant it immunityto the dangers of magma. It bathes in lava to burnoff germs and metabolic waste. This spectaclehas resulted in it becoming a symbol of rebirthamong mankind."
+                },
+                "fortune_owl": {
+                    "name": "Fortune Owl",
+                    "description": "An auspicious owl of this region, with goldenfeathers on its chest and a cat-like face. Dueto its extreme rarity, it has been a symbol ofwealth since ancient times. Those who encounterit are said to come into great fortune."
+                },
+                "felicicrow": {
+                    "name": "Felicicrow",
+                    "description": "A large crow with beautiful blue and black feathers.It possesses a lavish white collar and tail feathersso highly developed that it's able to use them as athird leg. It is said those who can snatch a twigfrom its beak will come into great fortune."
+                },
+                "trapbugs": {
+                    "name": "Trapbugs",
+                    "description": "Insects with sharp horns that live in coloniesaffixed to tree branches. If attacked, their hornswill stick out in a defensive position. Their hornsare so tough that they can even pierce the thickhide on the bottom of a monster's foot. They areoften used by hunters as a natural trap or as ameans to slow down or turn away pursuers."
+                },
+                "brewhare": {
+                    "name": "Brewhare",
+                    "description": "This round rabbit may appear cute and fluffy,but its furry coat is actually made of mold.By allowing bacteria to grow on it, it gainsan increased amount of nutrition from its food.Simply keeping this rabbit on their person canferment a hunter's food for added nutritionalvalue. As they are clever creatures, they usuallyescape their captors after a period of time."
+                },
+                "tricktoad": {
+                    "name": "Tricktoad",
+                    "description": "A frog known primarily for its distinctive red fins.It can puff itself up with pheromones to float likea balloon. Not one to shy away from confrontation,it instead spreads its menacing fins in a show ofintimidation, even against much larger foes, thoughnot always wisely. This show sometimes has theopposite effect, instead attracting predators. Thus,some hunters use it as a decoy, hence the name."
+                },
+                "cutterfly": {
+                    "name": "Cutterfly",
+                    "description": "A dragonfly with a sharp red tail that releasespheromones when under threat. During mating season,it rubs its tail on various surfaces to spread thechemical secretion. This action often cuts throughfishing nets. As a result, Cutterflies are shroudedin superstition, particularly amongst fishermen.Breathing in the pheromone grants hunters increasedconcentration for a higher chance at critical hits."
+                },
+                "gustcrab": {
+                    "name": "Gustcrab",
+                    "description": "A terrestrial crab with mushrooms on its body.When attacked, it rustles its shell, causing themushrooms to expel spores, which it uses forprotection. It also feeds on insects that areattracted to fungi, forming a mutually beneficialrelationship. The eyeball-like mushrooms on itsback are extremely bitter and not suitable forconsumption."
                 }
             },
             "small_monsters": {

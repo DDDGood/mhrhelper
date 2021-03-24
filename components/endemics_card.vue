@@ -23,7 +23,7 @@
         <div class="flex1 rounded card-text text-bold">{{$t('type')}}</div>
         <div
           class="flex2 color2 rounded card-text margin"
-        >{{$t('endemics.type.' +endemicdata.type)}}</div>
+        >{{ IsNullOrEmpty(endemicdata.type)? $t('endemics.type.unknown'): $t('endemics.type.' +endemicdata.type)}}</div>
       </div>
     </div>
     <div class="flex-row interval-y" v-show="endemicdata.attributes!==undefined">

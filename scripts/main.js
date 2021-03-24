@@ -130,6 +130,11 @@ function onDexLoaded() {
 
 
 
+
+}
+function someDataWorks() {
+
+
     const PART_COLOR = ["#e6194B", "#3cb44b", "#ffe119", "#4363d8", "#f58231", "#911eb4", "#42d4f4", "#f032e6", "#bfef45", "#fabed4", "#469990"];
 
     // let currentColorID = -1;
@@ -183,6 +188,28 @@ function onDexLoaded() {
     //     }
     // }
 
+    var container = {}
+    for (let key in i18n.messages["tw"].data.endemic_lifes) {
+        var currentData;
+        if (data.endemic_lifes[key] === undefined) {
+            console.log("cant find " + key);
+            currentData = {
+                "name": "",
+                "type": "",
+                "image": "images/endemics/" + i18n.messages["tw"].data.endemic_lifes[key].name + ".png",
+                "video": "",
+                "attributes": null,
+                "description": ""
+            }
+            container[key] = currentData;
+        } else {
+            currentData = data.endemic_lifes[key];
+        }
+        currentData.name = i18n.messages["tw"].data.endemic_lifes[key].name;
+        currentData.description = i18n.messages["tw"].data.endemic_lifes[key].description;
+    }
+    // outputText(JSON.stringify(container));
+
 
     // for (let id in data.large_monsters) {
     //     let mon = data.large_monsters[id];
@@ -194,7 +221,6 @@ function onDexLoaded() {
 
 
     // console.log(JSON.stringify(temp));
-
 
 }
 

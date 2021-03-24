@@ -61,7 +61,7 @@ module.exports = {
         case "endemics":
           items.push({ name: this.$t("dataType.endemic_lifes"), path: "/endemics" })
           if (pathArr[1] !== undefined)
-            items.push({ name: this.$t("endemics.name." + pathArr[1]), path: "/endemics/" + pathArr[1] })
+            items.push({ name: this.$t("data.endemic_lifes." + pathArr[1] + ".name"), path: "/endemics/" + pathArr[1] })
           break;
         case "smon":
           items.push({ name: this.$t("dataType.small_monsters"), path: "/smon" })
