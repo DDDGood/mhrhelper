@@ -184,20 +184,56 @@ function onDexLoaded() {
     // }
 
 
+    let temparray = ["name", "species", "image", "icon", "icon_large", "description", "breakables", "trait", "weakness", "parts", "hitzone_image", "reference"];
+    for (let id in data.large_monsters) {
+        let mon = data.large_monsters[id];
+        mon["icon_large"] = "images/monsters/icons/large/" + id + ".png";
+        mon = orderKeys(mon, temparray);
+    }
+    outputText(JSON.stringify(data.large_monsters));
+
+
     // console.log(JSON.stringify(temp));
 
-    // const win = window.open('about:blank', '_blank');
-    // win.document.write(JSON.stringify(data['large_monsters']));
 
-    // var tmp = "";
-    // for (let id in GetData("moves")["magnamalo"].moves) {
-    //     var move = GetData("moves")["magnamalo"].moves[id];
-    //     tmp += move.name + "\n";
-    //     tmp += "預兆：" + move.preaction + "\n";
-    //     tmp += "動作：" + move.action + "\n";
-    //     tmp += "備註：" + move.note + "\n";
-    // }
-    // console.log(tmp);
+}
+
+function orderKeys(obj, keys) {
+    const newObj = {};
+    for (let key of keys) {
+        newObj[key] = obj[key];
+    }
+    return newObj;
+}
+
+function outputText(text) {
+    const win = window.open('about:blank', '_blank');
+    win.document.write(text);
+}
+
+//currentKey: the key you want to move
+//afterKey: position to move-after the currentKey, null or '' if it must be in position [0]
+//obj: object
+function moveObjectElement(currentKey, afterKey, obj) {
+    var result = {};
+    var val = obj[currentKey];
+    delete obj[currentKey];
+    var next = -1;
+    var i = 0;
+    if (typeof afterKey == 'undefined' || afterKey == null) afterKey = '';
+    $.each(obj, function (k, v) {
+        if ((afterKey == '' && i == 0) || next == 1) {
+            result[currentKey] = val;
+            next = 0;
+        }
+        if (k == afterKey) { next = 1; }
+        result[k] = v;
+        ++i;
+    });
+    if (next == 1) {
+        result[currentKey] = val;
+    }
+    if (next !== -1) return result; else return obj;
 }
 
 function InitRouter() {
