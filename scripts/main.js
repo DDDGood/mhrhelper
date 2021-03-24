@@ -271,6 +271,7 @@ function InitRouter() {
             },
             {
                 path: '/mon/all/:name',
+                redirect: '/mon/:name',
                 component: MonComp,
                 props: { dex: GetData("large_monsters"), moves: GetData("moves") }
             },
