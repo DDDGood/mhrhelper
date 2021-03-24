@@ -184,13 +184,13 @@ function onDexLoaded() {
     // }
 
 
-    let temparray = ["name", "species", "image", "icon", "icon_large", "description", "breakables", "trait", "weakness", "parts", "hitzone_image", "reference"];
-    for (let id in data.large_monsters) {
-        let mon = data.large_monsters[id];
-        mon["icon_large"] = "images/monsters/icons/large/" + id + ".png";
-        mon = orderKeys(mon, temparray);
-    }
-    outputText(JSON.stringify(data.large_monsters));
+    // for (let id in data.large_monsters) {
+    //     let mon = data.large_monsters[id];
+    //     mon["icon_large"] = "images/monsters/icons/large/" + id + ".png";
+    //     mon = moveObjectElement("icon_large", "icon", mon);
+    //     data.large_monsters[id] = mon;
+    // }
+    // outputText(JSON.stringify(data.large_monsters));
 
 
     // console.log(JSON.stringify(temp));
@@ -265,15 +265,20 @@ function InitRouter() {
                 props: { dex: GetData("large_monsters"), specieslist: speciesDictionary }
             },
             {
-                path: '/mon/:species',
-                component: MonListComp,
-                props: { specieslist: speciesDictionary, mondata: GetData("large_monsters") }
+                path: '/mon/:name',
+                component: MonComp,
+                props: { dex: GetData("large_monsters"), moves: GetData("moves") }
+            },
+            {
+                path: '/mon/all/:name',
+                component: MonComp,
+                props: { dex: GetData("large_monsters"), moves: GetData("moves") }
             },
             {
                 name: 'mon',
-                path: '/mon/:species/:name',
-                component: MonComp,
-                props: { dex: GetData("large_monsters"), moves: GetData("moves") }
+                path: '/mon/species/:species',
+                component: MonListComp,
+                props: { specieslist: speciesDictionary, mondata: GetData("large_monsters") }
             },
             {
                 name: 'smonlist',
