@@ -5,7 +5,7 @@
       <router-link
         v-for="(item, key) in specieslist[$route.params.species]"
         v-bind:key="key"
-        v-bind:to="'/mon/' + $route.params.species + '/' + key"
+        v-bind:to="'/mon/' + key"
         custom
         v-slot="{ navigate }"
       >

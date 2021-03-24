@@ -4,7 +4,7 @@
       <div id="mon-card-icon-background" class="rounded interval-x flex-center">
         <img
           id="monicon"
-          :src="IsNullOrEmpty(mondata.icon)? 'images/monsters/icons/icon_unknown.png':mondata.icon"
+          :src="IsNullOrEmpty(mondata.icon)? 'images/monsters/icons/icon_unknown.png':mondata.icon_large"
           alt="icon"
         />
       </div>

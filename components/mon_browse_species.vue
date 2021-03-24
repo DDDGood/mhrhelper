@@ -9,7 +9,7 @@
           :class="{ 'flex-1': key !== 'all', 'flex-2': key === 'all' }"
           v-for="(item, key) in specieslist"
           v-bind:key="key"
-          v-bind:to="'/mon/' + key"
+          v-bind:to="'/mon/species/' + key"
         >{{ $t('monster.species.'+ key) }}</router-link>
       </div>
       <!-- <router-view></router-view> -->

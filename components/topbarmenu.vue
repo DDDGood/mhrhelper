@@ -50,10 +50,16 @@ module.exports = {
       switch (pathArr[0]) {
         case "mon":
           items.push({ name: this.$t("dataType.large_monsters"), path: "/mon" })
-          if (pathArr[1] !== undefined)
-            items.push({ name: this.$t("monster.species." + pathArr[1]), path: "/mon/" + pathArr[1] })
-          if (pathArr[2] !== undefined)
-            items.push({ name: this.$t("monster.name." + pathArr[2]), path: "/mon/" + pathArr[1] + "/" + pathArr[2] })
+          if (pathArr[1] !== undefined) {
+            if (pathArr[1] === "species" && pathArr[2] !== undefined) {
+              items.push({ name: this.$t("monster.species." + pathArr[2]), path: "/species/" + pathArr[2] })
+            } else {
+              if (pathArr[1] === "all" && pathArr[2] !== undefined)
+                items.push({ name: this.$t("monster.name." + pathArr[2]), path: "/mon/" + pathArr[2] })
+              else
+                items.push({ name: this.$t("monster.name." + pathArr[1]), path: "/mon/" + pathArr[1] })
+            }
+          }
           break;
         case "endemics":
           items.push({ name: this.$t("dataType.endemic_lifes"), path: "/endemics" })
