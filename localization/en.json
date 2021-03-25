@@ -98,7 +98,7 @@
             },
             "part": "Part",
             "state": "State",
-            "hitdata": "Hit Data (previous ver.)",
+            "hitdata": "Hit Data",
             "riding_moves": "Riding Attacks",
             "battlestrategy": "Battle Strategy",
             "moves": "Attack Patterns",
