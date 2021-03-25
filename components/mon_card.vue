@@ -319,7 +319,6 @@ module.exports = {
             }
             for (let dataKey in weakState) {
               values[dataKey] += "<br>(" + ParseStars(weakState[dataKey]) + ")";
-              // values[dataKey] += "<br>*" + (weakState[dataKey]) + "";
             }
           }
         }

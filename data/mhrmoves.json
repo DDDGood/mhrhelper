@@ -2295,85 +2295,339 @@
             "combos": []
         },
         "bishaten": {
-            "outline": "",
+            "outline": "天狗獸的部份攻擊會投擲果實，若是被其中紫色的果實砸中會陷入中毒狀態。黃色果實不會造成異常狀態，但在「閃光尾砸」的動作中會對玩家造成閃光彈的效果。\n在天狗獸用尾巴站立時，對尾巴造成一定傷害會使天狗獸倒地，同時掉出可拾取的果實。拾起紫色果實丟向天狗獸可造成中毒異常，黃色果實命中牆壁地形時可以對天狗獸產生閃光彈的效果。",
             "reference": {
                 "(twitter)モンスターハンターライズ公式": "https://twitter.com/mh_rise_jp"
             },
             "moves": [
                 {
-                    "name": "龍吼",
-                    "preaction": "",
-                    "action": "",
+                    "name": "見面吼",
+                    "preaction": "會先雙手往下拍地。",
+                    "action": "雙手拍地後，再單手拍地，同時吼叫。",
                     "recovery": "",
                     "note": "",
-                    "image": "videos/天狗獸/天狗獸_龍吼.mp4",
+                    "image": "videos/天狗獸/天狗獸_見面吼.mp4",
                     "onlyincombo": false
                 },
                 {
-                    "name": "滑行",
-                    "preaction": "",
-                    "action": "",
+                    "name": "怒吼",
+                    "preaction": "發動很快，難以防範。",
+                    "action": "單手拍地，發出吼叫。",
                     "recovery": "",
                     "note": "",
-                    "image": "videos/天狗獸/天狗獸_滑行.mp4",
+                    "image": "videos/天狗獸/天狗獸_怒吼.mp4",
                     "onlyincombo": false
                 },
                 {
-                    "name": "陀螺",
-                    "preaction": "",
-                    "action": "",
+                    "name": "陀螺突進",
+                    "preaction": "以尾巴為軸心旋轉身體，像是上發條的動作。",
+                    "action": "旋轉身體，向目標突進。",
                     "recovery": "",
                     "note": "可倒掛在牆上使用。",
-                    "image": "videos/天狗獸/天狗獸_陀螺.mp4",
+                    "image": "videos/天狗獸/天狗獸_陀螺突進.mp4",
                     "onlyincombo": false
                 },
                 {
-                    "name": "閃光果實",
-                    "preaction": "",
-                    "action": "",
-                    "recovery": "",
+                    "name": "突進甩尾",
+                    "preaction": "俯身舉尾。",
+                    "action": "短距離向前突進，尾巴甩向目標。怒後多了一個跳向一旁擺姿勢的動作。",
+                    "recovery": "中",
                     "note": "",
-                    "image": "videos/天狗獸/天狗獸_閃光果實.mp4",
+                    "image": "videos/天狗獸/天狗獸_突進甩尾.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "側身尾砸",
+                    "preaction": "側身看向目標，張嘴威嚇。",
+                    "action": "向目標翻身尾砸。",
+                    "recovery": "中",
+                    "note": "",
+                    "image": "videos/天狗獸/天狗獸_側身尾砸.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "閃光尾砸",
+                    "preaction": "從懷中掏出一顆黃色果實，往後丟到尾巴上。",
+                    "action": "向前尾砸，附帶閃光彈效果。",
+                    "recovery": "大",
+                    "note": "命中後會接連續尾砸。",
+                    "image": "videos/天狗獸/天狗獸_閃光尾砸.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "毒霧尾砸",
+                    "preaction": "從懷中掏出一顆紫色果實，往後丟到尾巴上。",
+                    "action": "向前尾砸，附帶毒霧效果。",
+                    "recovery": "大",
+                    "note": "",
+                    "image": "videos/天狗獸/天狗獸_毒霧尾砸.mp4",
                     "onlyincombo": false
                 },
                 {
                     "name": "連續尾砸",
-                    "preaction": "",
-                    "action": "",
-                    "recovery": "",
-                    "note": "怒前兩下，怒後三下。",
+                    "preaction": "張開雙手向前威嚇。",
+                    "action": "向前空翻尾砸。怒前兩下，怒後三下。",
+                    "recovery": "中",
+                    "note": "",
                     "image": "videos/天狗獸/天狗獸_連續尾砸.mp4",
                     "onlyincombo": false
                 },
                 {
-                    "name": "翅膀揮擊",
-                    "preaction": "",
-                    "action": "",
-                    "recovery": "",
+                    "name": "迴旋甩尾突進",
+                    "preaction": "翻身單手倒立。",
+                    "action": "向目標迴旋甩尾突進。怒後會連續突進兩次。",
+                    "recovery": "大",
                     "note": "",
-                    "image": "videos/天狗獸/天狗獸_翅膀揮擊.mp4",
+                    "image": "videos/天狗獸/天狗獸_迴旋甩尾突進.mp4",
                     "onlyincombo": false
                 },
                 {
-                    "name": "雙色地瓜球",
+                    "name": "投擲",
+                    "preaction": "單手舉起一顆黃色果實。",
+                    "action": "將果實直線投向目標。",
+                    "recovery": "大",
+                    "note": "",
+                    "image": "videos/天狗獸/天狗獸_投擲.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "迴旋投擲",
+                    "preaction": "尾巴接住黃色果實，轉身蓄力。",
+                    "action": "身體旋轉，向目標投出多顆黃色果實。",
+                    "recovery": "中",
+                    "note": "",
+                    "image": "videos/天狗獸/天狗獸_迴旋投擲.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "後撤投擲",
                     "preaction": "",
-                    "action": "",
+                    "action": "後跳步的同時向目標投出一顆黃色果實。",
+                    "recovery": "小",
+                    "note": "",
+                    "image": "videos/天狗獸/天狗獸_迴旋投擲.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "螃蟹步投擲",
+                    "preaction": "",
+                    "action": "向目標拋出一顆紫色果實，同時向側面螃蟹步移動。",
                     "recovery": "",
+                    "note": "紫果造成中毒狀態。此招後必接迴旋甩尾突進。",
+                    "image": "videos/天狗獸/天狗獸_螃蟹步投擲.mp4",
+                    "onlyincombo": true
+                },
+                {
+                    "name": "雙色地瓜球",
+                    "preaction": "從懷中掏出雙色果實。",
+                    "action": "不斷從懷中掏出雙色果實投向目標。",
+                    "recovery": "中",
                     "note": "",
                     "image": "videos/天狗獸/天狗獸_雙色地瓜球.mp4",
                     "onlyincombo": false
                 },
                 {
+                    "name": "二連拍",
+                    "preaction": "舉起單手蓄力。",
+                    "action": "雙手依序向前拍。疲勞狀態下只會拍一次。",
+                    "recovery": "小",
+                    "note": "",
+                    "image": "videos/天狗獸/天狗獸_二連拍.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "翅膀橫掃",
+                    "preaction": "彎下腰，側身翼爪蓄力。",
+                    "action": "單邊翼爪向前橫掃。",
+                    "recovery": "中",
+                    "note": "",
+                    "image": "videos/天狗獸/天狗獸_翅膀橫掃.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "搖晃橫掃",
+                    "preaction": "以尾巴站立，左右搖晃身體。",
+                    "action": "單側翼爪向前橫掃。",
+                    "recovery": "中",
+                    "note": "",
+                    "image": "videos/天狗獸/天狗獸_搖晃橫掃.mp4",
+                    "onlyincombo": false
+                },
+                {
                     "name": "上牆",
                     "preaction": "",
-                    "action": "",
+                    "action": "攀上附近的岩壁地形。",
                     "recovery": "",
                     "note": "",
                     "image": "videos/天狗獸/天狗獸_上牆.mp4",
                     "onlyincombo": false
+                },
+                {
+                    "name": "陀螺轉",
+                    "preaction": "",
+                    "action": "以尾巴為支點旋轉身體朝目標移動。",
+                    "recovery": "",
+                    "note": "",
+                    "image": "videos/天狗獸/天狗獸_陀螺轉.mp4",
+                    "onlyincombo": true
+                },
+                {
+                    "name": "二連陀螺轉",
+                    "preaction": "",
+                    "action": "連續兩次以尾巴為支點旋轉身體朝目標移動。",
+                    "recovery": "",
+                    "note": "",
+                    "image": "videos/天狗獸/天狗獸_二連陀螺轉.mp4",
+                    "onlyincombo": true
+                },
+                {
+                    "name": "滑行",
+                    "preaction": "雙手往地上一拍。",
+                    "action": "向目標低空滑行衝撞。",
+                    "recovery": "小",
+                    "note": "",
+                    "image": "videos/天狗獸/天狗獸_滑行.mp4",
+                    "onlyincombo": false
                 }
             ],
-            "combos": []
+            "combos": [
+                {
+                    "root": 0,
+                    "condition": "",
+                    "nodes": [
+                        {
+                            "move": "螃蟹步投擲",
+                            "links": [
+                                {
+                                    "node": 1,
+                                    "condition": ""
+                                }
+                            ]
+                        },
+                        {
+                            "move": "迴旋甩尾突進",
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "root": 0,
+                    "condition": "",
+                    "nodes": [
+                        {
+                            "move": "二連拍",
+                            "links": [
+                                {
+                                    "node": 1,
+                                    "condition": ""
+                                }
+                            ]
+                        },
+                        {
+                            "move": "側身尾砸",
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "root": 0,
+                    "condition": "",
+                    "nodes": [
+                        {
+                            "move": "黃果尾砸",
+                            "links": [
+                                {
+                                    "node": 1,
+                                    "condition": "閃光彈命中"
+                                }
+                            ]
+                        },
+                        {
+                            "move": "連續尾砸",
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "root": 0,
+                    "condition": "",
+                    "nodes": [
+                        {
+                            "move": "搖晃橫掃",
+                            "links": [
+                                {
+                                    "node": 1,
+                                    "condition": "怒後"
+                                }
+                            ]
+                        },
+                        {
+                            "move": "翅膀橫掃",
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "root": 0,
+                    "condition": "",
+                    "nodes": [
+                        {
+                            "move": "二連陀螺轉",
+                            "links": [
+                                {
+                                    "node": 1,
+                                    "condition": ""
+                                },
+                                {
+                                    "node": 2,
+                                    "condition": ""
+                                },
+                                {
+                                    "node": 3,
+                                    "condition": ""
+                                },
+                                {
+                                    "node": 4,
+                                    "condition": ""
+                                },
+                                {
+                                    "node": 5,
+                                    "condition": ""
+                                }
+                            ]
+                        },
+                        {
+                            "move": "雙色地瓜球",
+                            "links": []
+                        },
+                        {
+                            "move": "陀螺突進",
+                            "links": []
+                        },
+                        {
+                            "move": "搖晃橫掃",
+                            "links": [
+                                {
+                                    "node": 6,
+                                    "condition": "怒後"
+                                }
+                            ]
+                        },
+                        {
+                            "move": "連續尾砸",
+                            "links": []
+                        },
+                        {
+                            "move": "陀螺轉",
+                            "links": []
+                        },
+                        {
+                            "move": "翅膀橫掃",
+                            "links": []
+                        }
+                    ]
+                }
+            ]
         },
         "royal_ludroth": {
             "outline": "",
