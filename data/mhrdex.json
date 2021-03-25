@@ -532,6 +532,7 @@
           {
             "hitzone_color": "#e6194B",
             "part": "頭",
+            "condition": "泡纏",
             "cut": "73",
             "blunt": "73",
             "ammo": "55",
@@ -556,6 +557,7 @@
           {
             "hitzone_color": "#3cb44b",
             "part": "頸",
+            "condition": "泡纏",
             "cut": "53",
             "blunt": "53",
             "ammo": "50",
@@ -580,6 +582,7 @@
           {
             "hitzone_color": "#f032e6",
             "part": "背鰭",
+            "condition": "泡纏",
             "cut": "48",
             "blunt": "48",
             "ammo": "50",
@@ -604,6 +607,7 @@
           {
             "hitzone_color": "#911eb4",
             "part": "身",
+            "condition": "泡纏",
             "cut": "30",
             "blunt": "30",
             "ammo": "25",
@@ -628,6 +632,7 @@
           {
             "hitzone_color": "#4363d8",
             "part": "前腳",
+            "condition": "泡纏",
             "cut": "33",
             "blunt": "33",
             "ammo": "15",
@@ -652,6 +657,7 @@
           {
             "hitzone_color": "#ffe119",
             "part": "左前爪",
+            "condition": "泡纏",
             "cut": "29",
             "blunt": "29",
             "ammo": "15",
@@ -676,6 +682,7 @@
           {
             "hitzone_color": "#bfef45",
             "part": "右前爪",
+            "condition": "泡纏",
             "cut": "29",
             "blunt": "29",
             "ammo": "15",
@@ -700,6 +707,7 @@
           {
             "hitzone_color": "#f58231",
             "part": "後腳",
+            "condition": "泡纏",
             "cut": "43",
             "blunt": "43",
             "ammo": "30",
@@ -724,6 +732,7 @@
           {
             "hitzone_color": "#42d4f4",
             "part": "尾巴",
+            "condition": "泡纏",
             "cut": "53",
             "blunt": "43",
             "ammo": "50",
