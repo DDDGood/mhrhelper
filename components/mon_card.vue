@@ -282,7 +282,7 @@ module.exports = {
     weakdata: function () {
       // console.log("compute weakdata")
       let weakness = {
-        weapon: {}, element: {}, aliment: {}, item: {}
+        // weapon: {}, element: {}, aliment: {}, item: {}
       }
       for (let weakType in this.mondata.weakness) {
         // if (weakType === "weapon") {
@@ -302,7 +302,7 @@ module.exports = {
         let conditionText = "";
         let values = {};
         for (let weakState of weakData) {
-          if (weakState.condition === "normal") {
+          if (weakState.condition === undefined || weakState.condition === "normal") {
             for (let dataKey in weakState) {
               if (dataKey == "condition") continue;
               values[dataKey] = ParseStars(weakState[dataKey]);

@@ -9,12 +9,12 @@
           <summary class="header2">{{$t('description')}}</summary>
           <span id="description" v-html="GetDescriptionText('description')"></span>
         </details>
-        <details open>
+        <details open v-if="mondata.hitdata!== undefined">
           <summary class="header2">{{$t('monster.hitdata')}}</summary>
           <img
-            v-if="IsNullOrEmpty(mondata.hitzone_image) === false"
+            v-if="IsNullOrEmpty(mondata.hitdata.hitzone_image) === false"
             class="hitzone-image"
-            :src="mondata.hitzone_image"
+            :src="mondata.hitdata.hitzone_image"
           />
           <table id="hitdata-table">
             <tbody id="hitdata_table_tbody">
@@ -46,46 +46,30 @@
                 <th class="number">
                   <img class="hitdata-icon" src="images/icons/element/element_dragon.png" />
                 </th>
-                <th class="number">
+                <!-- <th class="number">
                   <img class="hitdata-icon" src="images/icons/state/state_stun.png" />
-                </th>
+                </th>-->
               </tr>
               <tr
                 class="card-text"
-                v-for="(part,id) in mondata.parts"
-                :key="part.name + part.state"
+                v-for="(part,id) in mondata.hitdata.parts"
+                :key="part.part + part.state"
               >
                 <td :style="{width: '1%',background: part.hitzone_color}"></td>
                 <td
-                  v-if="id===0 || part.name!==mondata.parts[id-1].name"
-                  :rowspan="CheckSamePartCount(part.name)"
-                >{{ part.name }}</td>
-                <td>{{ part.state }}</td>
-                <td
-                  v-bind:class="{ 'hitdata-highlight': part.hitData[0] >= 45 }"
-                >{{ part.hitData[0] }}</td>
-                <td
-                  v-bind:class="{ 'hitdata-highlight': part.hitData[1] >= 45 }"
-                >{{ part.hitData[1] }}</td>
-                <td
-                  v-bind:class="{ 'hitdata-highlight': part.hitData[2] >= 45 }"
-                >{{ part.hitData[2] }}</td>
-                <td
-                  v-bind:class="{ 'hitdata-highlight': part.hitData[3] >= 25 }"
-                >{{ part.hitData[3] }}</td>
-                <td
-                  v-bind:class="{ 'hitdata-highlight': part.hitData[4] >= 25 }"
-                >{{ part.hitData[4] }}</td>
-                <td
-                  v-bind:class="{ 'hitdata-highlight': part.hitData[5] >= 25 }"
-                >{{ part.hitData[5] }}</td>
-                <td
-                  v-bind:class="{ 'hitdata-highlight': part.hitData[6] >= 25 }"
-                >{{ part.hitData[6] }}</td>
-                <td
-                  v-bind:class="{ 'hitdata-highlight': part.hitData[7] >= 25 }"
-                >{{ part.hitData[7] }}</td>
-                <td>{{ part.hitData[8] }}</td>
+                  v-if="id===0 || part.part!==mondata.hitdata.parts[id-1].part"
+                  :rowspan="CheckSamePartCount(part.part)"
+                >{{ part.part }}</td>
+                <td>{{ part.condition === undefined? "通常" : part.condition }}</td>
+                <td v-bind:class="{ 'hitdata-highlight': part.cut >= 45 }">{{ part.cut }}</td>
+                <td v-bind:class="{ 'hitdata-highlight': part.blunt >= 45 }">{{ part.blunt }}</td>
+                <td v-bind:class="{ 'hitdata-highlight': part.ammo >= 45 }">{{ part.ammo }}</td>
+                <td v-bind:class="{ 'hitdata-highlight': part.fire >= 25 }">{{ part.fire }}</td>
+                <td v-bind:class="{ 'hitdata-highlight': part.water >= 25 }">{{ part.water }}</td>
+                <td v-bind:class="{ 'hitdata-highlight': part.thunder >= 25 }">{{ part.thunder }}</td>
+                <td v-bind:class="{ 'hitdata-highlight': part.ice >= 25 }">{{ part.ice }}</td>
+                <td v-bind:class="{ 'hitdata-highlight': part.dragon >= 25 }">{{ part.dragon }}</td>
+                <!-- <td>{{ part.hitData[8] }}</td> -->
               </tr>
             </tbody>
           </table>

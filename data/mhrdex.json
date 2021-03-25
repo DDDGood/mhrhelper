@@ -23,38 +23,109 @@
         "weapon": [
           {
             "condition": "通常",
-            "cut": "頭>尾尖",
-            "blunt": "頭/尾尖",
-            "ammo": "頭/尾尖"
+            "cut": "頭>尾先",
+            "blunt": "頭/尾先",
+            "ammo": "頭/尾先",
+            "fire": "1",
+            "water": "2",
+            "thunder": "3",
+            "ice": "1",
+            "dragon": "0"
           }
         ],
         "element": [
           {
-            "condition": "normal",
-            "fire": 2,
-            "water": 2,
-            "thunder": 3,
-            "ice": 2,
-            "dragon": 1
+            "fire": "1",
+            "water": "2",
+            "thunder": "3",
+            "ice": "1",
+            "dragon": "0"
           }
         ],
         "aliment": [
           {
-            "condition": "normal",
-            "poison": 2,
-            "sleep": 2,
-            "paralysis": 2,
-            "blast": 2,
-            "stun": 2
+            "poison": "3",
+            "stun": "2",
+            "paralysis": "3",
+            "sleep": "3",
+            "blast": "2",
+            "riding": "3"
           }
         ],
         "item": [
           {
-            "condition": "normal",
-            "pitfalltrap": 2,
-            "shocktrap": 2,
-            "flashpod": 2,
-            "screamerpod": -1
+            "fire_aliment": "1",
+            "water_aliment": "1",
+            "thunder_aliment": "2",
+            "ice_aliment": "1",
+            "shocktrap": "2",
+            "pitfalltrap": "2",
+            "flashpod": "2"
+          }
+        ]
+      },
+      "hitdata": {
+        "hitzone_image": "images/monsters/hitzone/great_izuchi.png",
+        "parts": [
+          {
+            "hitzone_color": "#e6194B",
+            "part": "頭",
+            "cut": "80",
+            "blunt": "80",
+            "ammo": "75",
+            "fire": "10",
+            "water": "20",
+            "thunder": "25",
+            "ice": "10",
+            "dragon": "5"
+          },
+          {
+            "hitzone_color": "#ffe119",
+            "part": "前脚",
+            "cut": "50",
+            "blunt": "50",
+            "ammo": "55",
+            "fire": "10",
+            "water": "10",
+            "thunder": "15",
+            "ice": "10",
+            "dragon": "0"
+          },
+          {
+            "hitzone_color": "#3cb44b",
+            "part": "胴・後脚",
+            "cut": "45",
+            "blunt": "45",
+            "ammo": "40",
+            "fire": "10",
+            "water": "10",
+            "thunder": "15",
+            "ice": "10",
+            "dragon": "5"
+          },
+          {
+            "hitzone_color": "#4363d8",
+            "part": "尻尾",
+            "cut": "55",
+            "blunt": "50",
+            "ammo": "35",
+            "fire": "10",
+            "water": "15",
+            "thunder": "20",
+            "ice": "10",
+            "dragon": "5"
+          },
+          {
+            "hitzone_color": "#f58231",
+            "part": "尾先",
+            "cut": "75",
+            "blunt": "80",
+            "ammo": "75",
+            "fire": "15",
+            "water": "20",
+            "thunder": "25",
+            "ice": "15",
+            "dragon": "10"
           }
         ]
       },
@@ -176,31 +247,110 @@
         ],
         "element": [
           {
-            "condition": "normal",
-            "fire": 3,
-            "water": 1,
-            "thunder": 2,
-            "ice": 2,
-            "dragon": 0
+            "fire": "3",
+            "water": "1",
+            "thunder": "2",
+            "ice": "2",
+            "dragon": "0"
           }
         ],
         "aliment": [
           {
-            "condition": "normal",
-            "poison": 2,
-            "sleep": 2,
-            "paralysis": 2,
-            "blast": 2,
-            "stun": 2
+            "poison": "2",
+            "stun": "2",
+            "paralysis": "2",
+            "sleep": "2",
+            "blast": "2",
+            "riding": ""
           }
         ],
         "item": [
           {
-            "condition": "normal",
-            "pitfalltrap": 2,
-            "shocktrap": 2,
-            "flashpod": 2,
-            "screamerpod": 2
+            "fire_aliment": "",
+            "water_aliment": "",
+            "thunder_aliment": "",
+            "ice_aliment": "",
+            "shocktrap": "2",
+            "pitfalltrap": "2",
+            "flashpod": "2"
+          }
+        ]
+      },
+      "hitdata": {
+        "hitzone_image": "images/monsters/hitzone/arzuros.png",
+        "parts": [
+          {
+            "part": "頭",
+            "cut": "55",
+            "blunt": "55",
+            "ammo": "55",
+            "fire": "20",
+            "water": "5",
+            "thunder": "10",
+            "ice": "15",
+            "dragon": "0",
+            "hitzone_color": "#e6194B"
+          },
+          {
+            "part": "上半身",
+            "cut": "50",
+            "blunt": "50",
+            "ammo": "62",
+            "fire": "25",
+            "water": "5",
+            "thunder": "10",
+            "ice": "15",
+            "dragon": "0",
+            "hitzone_color": "#3cb44b"
+          },
+          {
+            "part": "前脚",
+            "cut": "33",
+            "blunt": "35",
+            "ammo": "28",
+            "fire": "30",
+            "water": "5",
+            "thunder": "30",
+            "ice": "20",
+            "dragon": "0",
+            "hitzone_color": "#ffe119"
+          },
+          {
+            "part": "前脚",
+            "condition": "破壊後",
+            "cut": "42",
+            "blunt": "45",
+            "ammo": "36",
+            "fire": "38",
+            "water": "5",
+            "thunder": "38",
+            "ice": "20",
+            "dragon": "0",
+            "hitzone_color": "#ffe119"
+          },
+          {
+            "part": "腹・後脚",
+            "cut": "55",
+            "blunt": "55",
+            "ammo": "38",
+            "fire": "15",
+            "water": "5",
+            "thunder": "10",
+            "ice": "20",
+            "dragon": "0",
+            "hitzone_color": "#f58231"
+          },
+          {
+            "part": "尻",
+            "cut": "66",
+            "blunt": "66",
+            "ammo": "43",
+            "fire": "15",
+            "water": "5",
+            "thunder": "10",
+            "ice": "20",
+            "dragon": "0",
+            "hitzone_color": "#4363d8"
           }
         ]
       },
@@ -350,31 +500,121 @@
         ],
         "element": [
           {
-            "condition": "normal",
-            "fire": 0,
-            "water": 1,
-            "thunder": 2,
-            "ice": 1,
-            "dragon": 3
+            "fire": "0",
+            "water": "1",
+            "thunder": "2",
+            "ice": "1",
+            "dragon": "3"
           }
         ],
         "aliment": [
           {
-            "condition": "normal",
-            "poison": 1,
-            "sleep": 2,
-            "paralysis": 2,
-            "blast": 1,
-            "stun": 3
+            "poison": "1",
+            "stun": "3",
+            "paralysis": "2",
+            "sleep": "2",
+            "blast": "1",
+            "riding": ""
           }
         ],
         "item": [
           {
-            "condition": "normal",
-            "pitfalltrap": 2,
-            "shocktrap": 2,
-            "flashpod": 2,
-            "screamerpod": 0
+            "fire_aliment": "",
+            "water_aliment": "",
+            "thunder_aliment": "",
+            "ice_aliment": "",
+            "shocktrap": "2",
+            "pitfalltrap": "2",
+            "flashpod": "2"
+          }
+        ]
+      },
+      "hitdata": {
+        "hitzone_image": "images/monsters/hitzone/rathian.png",
+        "parts": [
+          {
+            "hitzone_color": "#e6194B",
+            "part": "頭",
+            "cut": "70",
+            "blunt": "75",
+            "ammo": "65",
+            "fire": "0",
+            "water": "15",
+            "thunder": "20",
+            "ice": "15",
+            "dragon": "30"
+          },
+          {
+            "hitzone_color": "#3cb44b",
+            "part": "首",
+            "cut": "40",
+            "blunt": "45",
+            "ammo": "35",
+            "fire": "0",
+            "water": "0",
+            "thunder": "5",
+            "ice": "0",
+            "dragon": "15"
+          },
+          {
+            "hitzone_color": "#ffe119",
+            "part": "胴",
+            "cut": "35",
+            "blunt": "30",
+            "ammo": "25",
+            "fire": "0",
+            "water": "5",
+            "thunder": "10",
+            "ice": "5",
+            "dragon": "20"
+          },
+          {
+            "hitzone_color": "#4363d8",
+            "part": "背",
+            "cut": "35",
+            "blunt": "30",
+            "ammo": "25",
+            "fire": "0",
+            "water": "5",
+            "thunder": "10",
+            "ice": "5",
+            "dragon": "20"
+          },
+          {
+            "hitzone_color": "#f58231",
+            "part": "翼",
+            "cut": "45",
+            "blunt": "45",
+            "ammo": "35",
+            "fire": "0",
+            "water": "10",
+            "thunder": "15",
+            "ice": "10",
+            "dragon": "25"
+          },
+          {
+            "hitzone_color": "#911eb4",
+            "part": "脚",
+            "cut": "40",
+            "blunt": "40",
+            "ammo": "35",
+            "fire": "0",
+            "water": "0",
+            "thunder": "5",
+            "ice": "0",
+            "dragon": "15"
+          },
+          {
+            "hitzone_color": "#42d4f4",
+            "part": "尻尾",
+            "cut": "45",
+            "blunt": "40",
+            "ammo": "35",
+            "fire": "0",
+            "water": "5",
+            "thunder": "10",
+            "ice": "5",
+            "dragon": "20"
           }
         ]
       },
