@@ -159,8 +159,8 @@ module.exports = {
     },
     CheckSamePartCount: function (partName) {
       let count = 0;
-      for (const part of this.mondata.parts) {
-        if (part.name === partName) {
+      for (const part of this.mondata.hitdata.parts) {
+        if (part.part === partName) {
           count++;
         }
       }

@@ -94,7 +94,9 @@
           :key="weakPart.part"
         >
           <div class="flex1 flex-row color2 rounded-left interval-x">
-            <div class="flex1 card-text interval-x flex-center">{{ weakPart.condition }}</div>
+            <div
+              class="flex1 card-text interval-x flex-center"
+            >{{ weakPart.condition === undefined? "通常":weakPart.condition }}</div>
           </div>
           <div class="flex3 flex-row color2 rounded-right interval-x">
             <div class="flex1 card-text interval-x flex-center">{{ weakPart.cut }}</div>
