@@ -6,11 +6,11 @@
       </div>
       <div class="flex-row interval-y">
         <div class="flex1 color2 rounded">
-          <div class="card-text" v-show="IsNullOrEmpty(movedata.image)">暫無影片</div>
+          <div class="card-text" v-show="IsNullOrEmpty(movedata.video)">暫無影片</div>
           <video
             id="moveinfo-video"
             ref="moveimage"
-            v-show="!IsNullOrEmpty(movedata.image)"
+            v-show="!IsNullOrEmpty(movedata.video)"
             width="100%"
             height="100%"
             autoplay
@@ -19,7 +19,7 @@
             playsinline
             muted
           >
-            <source :src="movedata.image" type="video/mp4" />
+            <source :src="movedata.video" type="video/mp4" />
           </video>
         </div>
       </div>
@@ -75,7 +75,7 @@ module.exports = {
     movedata: function (newVal, oldVal) {
       // watch it
       // this.show = true;
-      if (!IsNullOrEmpty(this.movedata.image)) {
+      if (!IsNullOrEmpty(this.movedata.video)) {
         let video = this.$refs.moveimage;
         video.load();
         video.play();

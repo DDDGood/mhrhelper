@@ -16,7 +16,7 @@
                     "action": "無吼叫判定，一長兩短的吼叫動作。",
                     "recovery": "",
                     "note": "",
-                    "image": "videos/鐮鼬龍王/鐮鼬龍王_見面吼.mp4",
+                    "video": "videos/鐮鼬龍王/鐮鼬龍王_見面吼.mp4",
                     "onlyincombo": false
                 },
                 {
@@ -25,7 +25,7 @@
                     "action": "無吼叫判定，單次較長的吼叫動作。",
                     "recovery": "",
                     "note": "",
-                    "image": "videos/鐮鼬龍王/鐮鼬龍王_單次吼.mp4",
+                    "video": "videos/鐮鼬龍王/鐮鼬龍王_單次吼.mp4",
                     "onlyincombo": false
                 },
                 {
@@ -34,7 +34,7 @@
                     "action": "頭高高抬起，兩次較短的吼叫動作。",
                     "recovery": "",
                     "note": "",
-                    "image": "videos/鐮鼬龍王/鐮鼬龍王_後跳吼.mp4",
+                    "video": "videos/鐮鼬龍王/鐮鼬龍王_後跳吼.mp4",
                     "onlyincombo": false
                 },
                 {
@@ -43,7 +43,7 @@
                     "action": "向前方吐出小水球。",
                     "recovery": "中",
                     "note": "",
-                    "image": "videos/鐮鼬龍王/鐮鼬龍王_後跳吐口水.mp4",
+                    "video": "videos/鐮鼬龍王/鐮鼬龍王_後跳吐口水.mp4",
                     "onlyincombo": false
                 },
                 {
@@ -52,7 +52,7 @@
                     "action": "快速向前小咬。",
                     "recovery": "小",
                     "note": "",
-                    "image": "videos/鐮鼬龍王/鐮鼬龍王_小咬.mp4",
+                    "video": "videos/鐮鼬龍王/鐮鼬龍王_小咬.mp4",
                     "onlyincombo": false
                 },
                 {
@@ -61,7 +61,7 @@
                     "action": "快速向前爪擊。",
                     "recovery": "小",
                     "note": "",
-                    "image": "videos/鐮鼬龍王/鐮鼬龍王_爪擊.mp4",
+                    "video": "videos/鐮鼬龍王/鐮鼬龍王_爪擊.mp4",
                     "onlyincombo": false
                 },
                 {
@@ -70,7 +70,7 @@
                     "action": "向前突進的同時揮舞雙爪。",
                     "recovery": "小",
                     "note": "",
-                    "image": "videos/鐮鼬龍王/鐮鼬龍王_龍車.mp4",
+                    "video": "videos/鐮鼬龍王/鐮鼬龍王_龍車.mp4",
                     "onlyincombo": false
                 },
                 {
@@ -79,7 +79,7 @@
                     "action": "尾巴由側面往前甩。",
                     "recovery": "小",
                     "note": "不會造成玩家硬直。注意此招後機率接尾砸。",
-                    "image": "videos/鐮鼬龍王/鐮鼬龍王_側甩尾.mp4",
+                    "video": "videos/鐮鼬龍王/鐮鼬龍王_側甩尾.mp4",
                     "onlyincombo": false
                 },
                 {
@@ -88,7 +88,7 @@
                     "action": "尾巴由上到下往前砸，下砸後尾巴會卡在地上。",
                     "recovery": "大",
                     "note": "",
-                    "image": "videos/鐮鼬龍王/鐮鼬龍王_尾砸.mp4",
+                    "video": "videos/鐮鼬龍王/鐮鼬龍王_尾砸.mp4",
                     "onlyincombo": false
                 },
                 {
@@ -97,7 +97,7 @@
                     "action": "尾巴迴旋甩出後跳回正面",
                     "recovery": "小",
                     "note": "身側、身後容易引出此招。",
-                    "image": "videos/鐮鼬龍王/鐮鼬龍王_迴旋甩尾.mp4",
+                    "video": "videos/鐮鼬龍王/鐮鼬龍王_迴旋甩尾.mp4",
                     "onlyincombo": false
                 },
                 {
@@ -106,7 +106,7 @@
                     "action": "連續三次突進並旋轉身體甩尾。",
                     "recovery": "中",
                     "note": "",
-                    "image": "videos/鐮鼬龍王/鐮鼬龍王_三連突進甩尾.mp4",
+                    "video": "videos/鐮鼬龍王/鐮鼬龍王_三連突進甩尾.mp4",
                     "onlyincombo": false
                 }
             ],
@@ -163,7 +163,7 @@
                     "action": "",
                     "recovery": "",
                     "note": "基本的威嚇動作。無傷害判定。",
-                    "image": "videos/青熊獸/青熊獸_威嚇.mp4",
+                    "video": "videos/青熊獸/青熊獸_威嚇.mp4",
                     "onlyincombo": false
                 },
                 {
@@ -172,7 +172,7 @@
                     "action": "雙手上舉，張嘴大吼。(無吼叫判定)",
                     "recovery": "",
                     "note": "若口吐白煙表示進入憤怒狀態。",
-                    "image": "videos/青熊獸/青熊獸_熊吼.mp4",
+                    "video": "videos/青熊獸/青熊獸_熊吼.mp4",
                     "onlyincombo": false
                 },
                 {
@@ -181,7 +181,7 @@
                     "action": "向前方揮擊。",
                     "recovery": "小",
                     "note": "單次巴掌不常見，需隨時提防連環巴掌。",
-                    "image": "videos/青熊獸/青熊獸_巴掌.mp4",
+                    "video": "videos/青熊獸/青熊獸_巴掌.mp4",
                     "onlyincombo": false
                 },
                 {
@@ -190,7 +190,7 @@
                     "action": "連續揮動的巴掌攻擊。",
                     "recovery": "小",
                     "note": "怒前最高三下，怒後最高四下。不要輕易受身。",
-                    "image": "videos/青熊獸/青熊獸_連環巴掌.mp4",
+                    "video": "videos/青熊獸/青熊獸_連環巴掌.mp4",
                     "onlyincombo": false
                 },
                 {
@@ -199,7 +199,7 @@
                     "action": "轉過身來，雙手往後揮擊。",
                     "recovery": "小",
                     "note": "這招是青熊獸對身後目標的兩個應對動作之一，速度較快。",
-                    "image": "videos/青熊獸/青熊獸_回首掏.mp4",
+                    "video": "videos/青熊獸/青熊獸_回首掏.mp4",
                     "onlyincombo": false
                 },
                 {
@@ -208,7 +208,7 @@
                     "action": "屁股向後頂並跌坐在地。",
                     "recovery": "大",
                     "note": "另一招對身後目標的動作，前兆明顯且硬直極大，是很好的攻擊時機",
-                    "image": "videos/青熊獸/青熊獸_屁股坐.mp4",
+                    "video": "videos/青熊獸/青熊獸_屁股坐.mp4",
                     "onlyincombo": false
                 },
                 {
@@ -217,7 +217,7 @@
                     "action": "雙手往前熊抱。",
                     "recovery": "小",
                     "note": "",
-                    "image": "videos/青熊獸/青熊獸_熊抱.mp4",
+                    "video": "videos/青熊獸/青熊獸_熊抱.mp4",
                     "onlyincombo": false
                 },
                 {
@@ -226,7 +226,7 @@
                     "action": "向前撲擊。",
                     "recovery": "小",
                     "note": "",
-                    "image": "videos/青熊獸/青熊獸_前撲.mp4",
+                    "video": "videos/青熊獸/青熊獸_前撲.mp4",
                     "onlyincombo": false
                 },
                 {
@@ -235,7 +235,7 @@
                     "action": "向前短距離衝刺並潑沙(水)。",
                     "recovery": "小",
                     "note": "",
-                    "image": "videos/青熊獸/青熊獸_衝刺潑沙.mp4",
+                    "video": "videos/青熊獸/青熊獸_衝刺潑沙.mp4",
                     "onlyincombo": false
                 },
                 {
@@ -244,7 +244,7 @@
                     "action": "衝向目標，可能會急停或者折返跑。疲勞時則會滑倒。",
                     "recovery": "小",
                     "note": "",
-                    "image": "videos/青熊獸/青熊獸_熊車.mp4",
+                    "video": "videos/青熊獸/青熊獸_熊車.mp4",
                     "onlyincombo": false
                 },
                 {
@@ -253,7 +253,7 @@
                     "action": "轉向目標後下壓。",
                     "recovery": "小",
                     "note": "方向修正強的騷擾招式，傷害低但不會將玩家打出硬直。",
-                    "image": "videos/青熊獸/青熊獸_下壓.mp4",
+                    "video": "videos/青熊獸/青熊獸_下壓.mp4",
                     "onlyincombo": false
                 },
                 {
@@ -262,7 +262,7 @@
                     "action": "撲向玩家，將玩家拘束一陣子後甩出，最後撲擊。",
                     "recovery": "中",
                     "note": "若目標身上攜帶蜂蜜，拘束並甩出後會偷走蜂蜜並坐下開吃。",
-                    "image": "videos/青熊獸/青熊獸_捕食.mp4",
+                    "video": "videos/青熊獸/青熊獸_捕食.mp4",
                     "onlyincombo": false
                 }
             ],
@@ -302,7 +302,7 @@
                     "action": "",
                     "recovery": "",
                     "note": "左腳向前踏是滾吼時機。雌火龍會在見面時、憤怒時、地盤爭奪時、換區時使用龍吼。",
-                    "image": "videos/雌火龍/雌火龍_龍吼.mp4",
+                    "video": "videos/雌火龍/雌火龍_龍吼.mp4",
                     "onlyincombo": false
                 },
                 {
@@ -311,7 +311,7 @@
                     "action": "",
                     "recovery": "",
                     "note": "當觸發龍吼條件時雌火龍處於空中，則會進行空中龍吼。",
-                    "image": "videos/雌火龍/雌火龍_空中龍吼.mp4",
+                    "video": "videos/雌火龍/雌火龍_空中龍吼.mp4",
                     "onlyincombo": false
                 },
                 {
@@ -320,7 +320,7 @@
                     "action": "向側前方走幾步後轉頭側咬。",
                     "recovery": "小",
                     "note": "",
-                    "image": "videos/雌火龍/雌火龍_側咬.mp4",
+                    "video": "videos/雌火龍/雌火龍_側咬.mp4",
                     "onlyincombo": false
                 },
                 {
@@ -329,7 +329,7 @@
                     "action": "連續兩次轉身甩尾，各轉半圈回到正面。",
                     "recovery": "小",
                     "note": "注意這招在正前方的小範圍內，會吃到兩次甩尾的攻擊判定。離得太近可以往身下鑽，身體下方是盲區。",
-                    "image": "videos/雌火龍/雌火龍_迴旋甩尾.mp4",
+                    "video": "videos/雌火龍/雌火龍_迴旋甩尾.mp4",
                     "onlyincombo": false
                 },
                 {
@@ -338,7 +338,7 @@
                     "action": "後空翻起飛的同時尾巴從下往上甩出。",
                     "recovery": "大",
                     "note": "這招傷害極高且會造成中毒狀態，盡量避免中招。注意憤怒狀態下，使用後將會停留在空中使用空中連招。",
-                    "image": "videos/雌火龍/雌火龍_後空翻.mp4",
+                    "video": "videos/雌火龍/雌火龍_後空翻.mp4",
                     "onlyincombo": false
                 },
                 {
@@ -347,7 +347,7 @@
                     "action": "空中後空翻的同時尾巴從下往上甩出。",
                     "recovery": "大",
                     "note": "這招傷害極高且會造成中毒狀態，盡量避免中招。雌火龍在空中時，若目標距離近高機率使用此招。攻擊後必定會落地。",
-                    "image": "videos/雌火龍/雌火龍_空中後空翻.mp4",
+                    "video": "videos/雌火龍/雌火龍_空中後空翻.mp4",
                     "onlyincombo": true
                 },
                 {
@@ -356,7 +356,7 @@
                     "action": "向前吐出一顆火球。",
                     "recovery": "中",
                     "note": "脖子下方就沒有傷害判定，但靠近嘴邊會蹭到燃燒狀態。憤怒後會變成三連火球。疲勞時會啞火是穩定的輸出時機。",
-                    "image": "videos/雌火龍/雌火龍_火球.mp4",
+                    "video": "videos/雌火龍/雌火龍_火球.mp4",
                     "onlyincombo": false
                 },
                 {
@@ -366,7 +366,7 @@
                     "action": "依序向前、左、右吐出一顆火球。落地後產生小範圍的燃燒效果。",
                     "recovery": "中",
                     "note": "動作時間長，若在正中抵禦住第一顆，或是處於盲區，是不錯的攻擊機會。",
-                    "image": "videos/雌火龍/雌火龍_三連火球.mp4",
+                    "video": "videos/雌火龍/雌火龍_三連火球.mp4",
                     "onlyincombo": false
                 },
                 {
@@ -376,7 +376,7 @@
                     "action": "蓄力火球落地後會爆炸產生範圍傷害並留下火海，觸碰到會燃燒。",
                     "recovery": "中",
                     "note": "",
-                    "image": "videos/雌火龍/雌火龍_蓄力火球.mp4",
+                    "video": "videos/雌火龍/雌火龍_蓄力火球.mp4",
                     "onlyincombo": false
                 },
                 {
@@ -386,7 +386,7 @@
                     "action": "向前衝刺的同時前咬。",
                     "recovery": "中",
                     "note": "注意全身都有攻擊判定。",
-                    "image": "videos/雌火龍/雌火龍_龍車.mp4",
+                    "video": "videos/雌火龍/雌火龍_龍車.mp4",
                     "onlyincombo": false
                 },
                 {
@@ -396,7 +396,7 @@
                     "action": "來回連續三次的龍車，前兩次的結尾會回頭看向目標。",
                     "recovery": "中",
                     "note": "注意全身都有攻擊判定，若中了前兩下不要輕易受身，以免遭到連續攻擊。",
-                    "image": "videos/雌火龍/雌火龍_三連龍車.mp4",
+                    "video": "videos/雌火龍/雌火龍_三連龍車.mp4",
                     "onlyincombo": false
                 },
                 {
@@ -406,7 +406,7 @@
                     "action": "空中飛行衝撞目標後落地。",
                     "recovery": "中",
                     "note": "雌火龍在空中時，若目標距離遠高機率使用此招。",
-                    "image": "videos/雌火龍/雌火龍_空中龍車.mp4",
+                    "video": "videos/雌火龍/雌火龍_空中龍車.mp4",
                     "onlyincombo": true
                 },
                 {
@@ -415,7 +415,7 @@
                     "action": "",
                     "recovery": "",
                     "note": "產生風壓。",
-                    "image": "videos/雌火龍/雌火龍_起飛.mp4",
+                    "video": "videos/雌火龍/雌火龍_起飛.mp4",
                     "onlyincombo": true
                 }
             ],
@@ -505,7 +505,7 @@
                     "preaction": "怒前突然翻身一跳(無泡泡)多半就是要龍吼。",
                     "action": "單手下踩，發出吼聲。",
                     "note": "憤怒時必先跳才吼叫，單手下踩時是滾吼時機。龍吼過程中被打斷也會進憤怒狀態。",
-                    "image": "videos/泡狐龍/泡狐龍_龍吼.mp4",
+                    "video": "videos/泡狐龍/泡狐龍_龍吼.mp4",
                     "onlyincombo": false
                 },
                 {
@@ -513,7 +513,7 @@
                     "preaction": "",
                     "action": "原地旋轉一圈半後再跳回正面，過程中產生大量泡泡。左側有紅泡。",
                     "note": "泡狐龍使用這招後會進入泡泡狀態。憤怒後若不處於泡泡狀態時，有很大可能出這招。",
-                    "image": "videos/泡狐龍/泡狐龍_洗澡.mp4",
+                    "video": "videos/泡狐龍/泡狐龍_洗澡.mp4",
                     "onlyincombo": false
                 },
                 {
@@ -522,7 +522,7 @@
                     "condition": "",
                     "action": "和洗澡很像，原地轉一圈產生大量泡泡。",
                     "note": "一定機率接散步。可以留意。",
-                    "image": "videos/泡狐龍/泡狐龍_後退轉圈.mp4",
+                    "video": "videos/泡狐龍/泡狐龍_後退轉圈.mp4",
                     "onlyincombo": false
                 },
                 {
@@ -531,7 +531,7 @@
                     "action": "側向走五步",
                     "recovery": "",
                     "note": "固定會走五步，位置容易預判。",
-                    "image": "videos/泡狐龍/泡狐龍_散步.mp4",
+                    "video": "videos/泡狐龍/泡狐龍_散步.mp4",
                     "onlyincombo": false
                 },
                 {
@@ -540,7 +540,7 @@
                     "action": "快速往前小咬",
                     "recovery": "小",
                     "note": "",
-                    "image": "videos/泡狐龍/泡狐龍_小咬.mp4",
+                    "video": "videos/泡狐龍/泡狐龍_小咬.mp4",
                     "onlyincombo": false
                 },
                 {
@@ -550,7 +550,7 @@
                     "action": "繞行到玩家身後回頭咬，過程中散出泡泡。",
                     "recovery": "小",
                     "note": "",
-                    "image": "videos/泡狐龍/泡狐龍_繞後回咬.mp4",
+                    "video": "videos/泡狐龍/泡狐龍_繞後回咬.mp4",
                     "onlyincombo": false
                 },
                 {
@@ -560,7 +560,7 @@
                     "action": "往前二連咬，向前位移，兩段判定。",
                     "recovery": "小",
                     "note": "",
-                    "image": "videos/泡狐龍/泡狐龍_二連咬.mp4",
+                    "video": "videos/泡狐龍/泡狐龍_二連咬.mp4",
                     "onlyincombo": false
                 },
                 {
@@ -569,7 +569,7 @@
                     "action": "尾巴由下到上向前甩出，怒後會甩出泡泡。",
                     "recovery": "大",
                     "note": "有時會先快速繞行到玩家身側使用。留意這招硬直其實不算非常大。",
-                    "image": "videos/泡狐龍/泡狐龍_尾勾.mp4",
+                    "video": "videos/泡狐龍/泡狐龍_尾勾.mp4",
                     "onlyincombo": false
                 },
                 {
@@ -578,7 +578,7 @@
                     "action": "逆時針甩尾，帶一段向前位移。散出泡泡。偏左方向有綠色泡泡。",
                     "recovery": "中",
                     "note": "這招會向玩家的右側(泡狐龍的左)偏移，所以向左後方閃避較容易。憤怒後有較明顯的索敵機制，若玩家太近會先拉開距離。",
-                    "image": "videos/泡狐龍/泡狐龍_逆時針甩尾.mp4",
+                    "video": "videos/泡狐龍/泡狐龍_逆時針甩尾.mp4",
                     "onlyincombo": false
                 },
                 {
@@ -587,7 +587,7 @@
                     "action": "順時針甩尾，不會位移。散出泡泡。偏右方向有紅色泡泡。",
                     "recovery": "大",
                     "note": "怒前是極大硬直招式，可以把握機會輸出。注意怒後硬直會變小。",
-                    "image": "videos/泡狐龍/泡狐龍_順時針甩尾.mp4",
+                    "video": "videos/泡狐龍/泡狐龍_順時針甩尾.mp4",
                     "onlyincombo": false
                 },
                 {
@@ -596,7 +596,7 @@
                     "action": "飄移滑行後，尾巴用力向前甩。",
                     "recovery": "大",
                     "note": "",
-                    "image": "videos/泡狐龍/泡狐龍_飄移尾砸.mp4",
+                    "video": "videos/泡狐龍/泡狐龍_飄移尾砸.mp4",
                     "onlyincombo": false
                 },
                 {
@@ -605,7 +605,7 @@
                     "action": "向前下拍",
                     "recovery": "中",
                     "note": "這招是全方向判定，可以背身防禦。但判定範圍很小，閃避的話接近後往左右側都很好躲開。距離近往前走就可以了。",
-                    "image": "videos/泡狐龍/泡狐龍_八卦掌.mp4",
+                    "video": "videos/泡狐龍/泡狐龍_八卦掌.mp4",
                     "onlyincombo": false
                 },
                 {
@@ -614,7 +614,7 @@
                     "action": "下壓後身體會往一側轉90度。散出泡泡。",
                     "recovery": "小",
                     "note": "玩家在身後容易引出，注意全身都有攻擊判定。",
-                    "image": "videos/泡狐龍/泡狐龍_下壓轉身.mp4",
+                    "video": "videos/泡狐龍/泡狐龍_下壓轉身.mp4",
                     "onlyincombo": false
                 },
                 {
@@ -624,7 +624,7 @@
                     "action": "下壓後身體向前滑行一小段，散出泡泡。",
                     "recovery": "小",
                     "note": "遠距離較容易出，注意全身都有攻擊判定。",
-                    "image": "videos/泡狐龍/泡狐龍_下壓滑行.mp4",
+                    "video": "videos/泡狐龍/泡狐龍_下壓滑行.mp4",
                     "onlyincombo": false
                 },
                 {
@@ -632,7 +632,7 @@
                     "preaction": "",
                     "action": "繞後跳至玩家身後，通常不會有泡泡。",
                     "note": "通常作為連招起手。",
-                    "image": "videos/泡狐龍/泡狐龍_繞後跳.mp4",
+                    "video": "videos/泡狐龍/泡狐龍_繞後跳.mp4",
                     "onlyincombo": true
                 },
                 {
@@ -640,7 +640,7 @@
                     "preaction": "",
                     "action": "翻身側跳，通常會甩出三顆泡泡。沒有的話可能是要龍吼。",
                     "note": "通常作為連招起手。。",
-                    "image": "videos/泡狐龍/泡狐龍_側跳.mp4",
+                    "video": "videos/泡狐龍/泡狐龍_側跳.mp4",
                     "onlyincombo": true
                 },
                 {
@@ -649,7 +649,7 @@
                     "condition": "",
                     "action": "較少使用，跳起時會像尾勾那樣尾巴會往前甩，但沒有傷害判定。怒後會甩出泡泡",
                     "note": "通常作為連招起手。",
-                    "image": "videos/泡狐龍/泡狐龍_前跳.mp4",
+                    "video": "videos/泡狐龍/泡狐龍_前跳.mp4",
                     "onlyincombo": true
                 },
                 {
@@ -659,7 +659,7 @@
                     "action": "較少使用，動作像是側跳，但起始會多一個稍微蓄力的動作，兩次跳可能同一側或是來回跳。",
                     "recovery": "小",
                     "note": "通常作為連招起手。注意飄移噴水的起手同樣是蓄力側跳，但跳一次落地後會飄移。",
-                    "image": "videos/泡狐龍/泡狐龍_蓄力二連側跳.mp4",
+                    "video": "videos/泡狐龍/泡狐龍_蓄力二連側跳.mp4",
                     "onlyincombo": true
                 },
                 {
@@ -668,7 +668,7 @@
                     "action": "往後跳並吐出一顆大泡泡",
                     "recovery": "小",
                     "note": "通常會接飄移尾砸，偶爾會派生其他招式。疲勞時會沒有泡泡",
-                    "image": "videos/泡狐龍/泡狐龍_後跳大泡泡.mp4",
+                    "video": "videos/泡狐龍/泡狐龍_後跳大泡泡.mp4",
                     "onlyincombo": true
                 },
                 {
@@ -677,7 +677,7 @@
                     "action": "第一次三顆，第二次兩顆，位置交錯。",
                     "recovery": "小",
                     "note": "距離較遠時容易使出。",
-                    "image": "videos/泡狐龍/泡狐龍_二連吐泡泡.mp4",
+                    "video": "videos/泡狐龍/泡狐龍_二連吐泡泡.mp4",
                     "onlyincombo": false
                 },
                 {
@@ -686,7 +686,7 @@
                     "action": "原地後退幾步吐泡泡。",
                     "recovery": "",
                     "note": "這招後面固定會接飄移噴水。",
-                    "image": "videos/泡狐龍/泡狐龍_後退吐泡泡.mp4",
+                    "video": "videos/泡狐龍/泡狐龍_後退吐泡泡.mp4",
                     "onlyincombo": true
                 },
                 {
@@ -696,7 +696,7 @@
                     "action": "",
                     "recovery": "大",
                     "note": "",
-                    "image": "videos/泡狐龍/泡狐龍_吐水球.mp4",
+                    "video": "videos/泡狐龍/泡狐龍_吐水球.mp4",
                     "onlyincombo": false
                 },
                 {
@@ -706,7 +706,7 @@
                     "action": "先從下到上噴水，接著隨機方向的橫掃噴水。",
                     "recovery": "小",
                     "note": "被第一下噴到就乖乖躺好不要馬上受身。",
-                    "image": "videos/泡狐龍/泡狐龍_十字噴水.mp4",
+                    "video": "videos/泡狐龍/泡狐龍_十字噴水.mp4",
                     "onlyincombo": false
                 },
                 {
@@ -715,7 +715,7 @@
                     "action": "逆時針旋轉噴水，非泡泡狀態時是一圈，泡泡狀態兩圈，結束後側跳。有時候會是假動作不會噴水",
                     "recovery": "大",
                     "note": "下壓轉圈時全身有攻擊判定，之後近距離可以往他身後鑽。遠距離各憑本事了XD動作開始時尾巴會指向最後側跳的位置。",
-                    "image": "videos/泡狐龍/泡狐龍_迴旋噴水.mp4",
+                    "video": "videos/泡狐龍/泡狐龍_迴旋噴水.mp4",
                     "onlyincombo": false
                 },
                 {
@@ -725,7 +725,7 @@
                     "action": "繞到玩家身後，回頭口中噴水由上至下。",
                     "recovery": "大",
                     "note": "怒前出龍車必定是這招，較少使用，不會飄移，水柱拉下時再往左右閃。",
-                    "image": "videos/泡狐龍/泡狐龍_龍車噴水.mp4",
+                    "video": "videos/泡狐龍/泡狐龍_龍車噴水.mp4",
                     "onlyincombo": false
                 },
                 {
@@ -735,7 +735,7 @@
                     "action": "蓄力跳落地後一邊飄移，一邊從上方開始，往下噴水到前方。",
                     "recovery": "大",
                     "note": "盡量往他飄的反方向走位有機會躲掉。",
-                    "image": "videos/泡狐龍/泡狐龍_飄移噴水.mp4",
+                    "video": "videos/泡狐龍/泡狐龍_飄移噴水.mp4",
                     "onlyincombo": false
                 },
                 {
@@ -745,7 +745,7 @@
                     "action": "身體向前長距離滑行，身後留下綠色泡泡。會來回滑兩次，疲勞狀態下第一次就會跌倒。",
                     "recovery": "大",
                     "note": "注意疲勞狀態發呆後會無預警龍車。",
-                    "image": "videos/泡狐龍/泡狐龍_龍車.mp4",
+                    "video": "videos/泡狐龍/泡狐龍_龍車.mp4",
                     "onlyincombo": false
                 },
                 {
@@ -755,7 +755,7 @@
                     "action": "飛身撲向玩家位置後，原地旋轉攻擊。",
                     "recovery": "大",
                     "note": "",
-                    "image": "videos/泡狐龍/泡狐龍_飛身洗衣機.mp4",
+                    "video": "videos/泡狐龍/泡狐龍_飛身洗衣機.mp4",
                     "onlyincombo": false
                 }
             ],
@@ -1024,7 +1024,7 @@
                     "action": "張嘴甩頭的威嚇動作。",
                     "recovery": "",
                     "note": "見面及部分招式後使用，無吼叫判定。",
-                    "image": "videos/河童蛙/河童蛙_威嚇.mp4",
+                    "video": "videos/河童蛙/河童蛙_威嚇.mp4",
                     "onlyincombo": false
                 },
                 {
@@ -1033,7 +1033,7 @@
                     "action": "快速向前咬。",
                     "recovery": "小",
                     "note": "",
-                    "image": "videos/河童蛙/河童蛙_前咬.mp4",
+                    "video": "videos/河童蛙/河童蛙_前咬.mp4",
                     "onlyincombo": false
                 },
                 {
@@ -1042,7 +1042,7 @@
                     "action": "向前重咬，同時帶一小段位移，",
                     "recovery": "小",
                     "note": "",
-                    "image": "videos/河童蛙/河童蛙_重咬.mp4",
+                    "video": "videos/河童蛙/河童蛙_重咬.mp4",
                     "onlyincombo": false
                 },
                 {
@@ -1051,7 +1051,7 @@
                     "action": "連續向前拍擊。",
                     "recovery": "小",
                     "note": "",
-                    "image": "videos/河童蛙/河童蛙_二連拍.mp4",
+                    "video": "videos/河童蛙/河童蛙_二連拍.mp4",
                     "onlyincombo": false
                 },
                 {
@@ -1060,7 +1060,7 @@
                     "action": "快速向前合抱。",
                     "recovery": "小",
                     "note": "",
-                    "image": "videos/河童蛙/河童蛙_熊抱.mp4",
+                    "video": "videos/河童蛙/河童蛙_熊抱.mp4",
                     "onlyincombo": false
                 },
                 {
@@ -1069,7 +1069,7 @@
                     "action": "向前短距離前撲。",
                     "recovery": "大",
                     "note": "高機率接威嚇動作，是攻擊機會。(非必出，還是得小心變招。)",
-                    "image": "videos/河童蛙/河童蛙_前撲.mp4",
+                    "video": "videos/河童蛙/河童蛙_前撲.mp4",
                     "onlyincombo": false
                 },
                 {
@@ -1078,7 +1078,7 @@
                     "action": "向前龍車後撲擊。",
                     "recovery": "大",
                     "note": "高機率接威嚇動作，是攻擊機會。(非必出，還是得小心變招。)",
-                    "image": "videos/河童蛙/河童蛙_前撲龍車.mp4",
+                    "video": "videos/河童蛙/河童蛙_前撲龍車.mp4",
                     "onlyincombo": false
                 },
                 {
@@ -1087,7 +1087,7 @@
                     "action": "壓向側方目標。",
                     "recovery": "中",
                     "note": "",
-                    "image": "videos/河童蛙/河童蛙_側壓.mp4",
+                    "video": "videos/河童蛙/河童蛙_側壓.mp4",
                     "onlyincombo": false
                 },
                 {
@@ -1096,7 +1096,7 @@
                     "action": "砸向目標位置。",
                     "recovery": "中",
                     "note": "",
-                    "image": "videos/河童蛙/河童蛙_泰山壓頂.mp4",
+                    "video": "videos/河童蛙/河童蛙_泰山壓頂.mp4",
                     "onlyincombo": false
                 },
                 {
@@ -1105,7 +1105,7 @@
                     "action": "朝目標吐口水。",
                     "recovery": "小",
                     "note": "",
-                    "image": "videos/河童蛙/河童蛙_吐痰.mp4",
+                    "video": "videos/河童蛙/河童蛙_吐痰.mp4",
                     "onlyincombo": false
                 },
                 {
@@ -1114,7 +1114,7 @@
                     "action": "原地吃魚喝水後龍吼。",
                     "recovery": "",
                     "note": "進入肥宅狀態。",
-                    "image": "videos/河童蛙/河童蛙_型態轉換.mp4",
+                    "video": "videos/河童蛙/河童蛙_型態轉換.mp4",
                     "onlyincombo": false
                 },
                 {
@@ -1124,7 +1124,7 @@
                     "action": "張嘴甩頭的威嚇動作。",
                     "recovery": "",
                     "note": "無吼叫判定。",
-                    "image": "videos/河童蛙/河童蛙_肥宅威嚇.mp4",
+                    "video": "videos/河童蛙/河童蛙_肥宅威嚇.mp4",
                     "onlyincombo": false
                 },
                 {
@@ -1134,7 +1134,7 @@
                     "action": "向遠處目標潑沙(水)。",
                     "recovery": "中",
                     "note": "",
-                    "image": "videos/河童蛙/河童蛙_肥宅潑沙.mp4",
+                    "video": "videos/河童蛙/河童蛙_肥宅潑沙.mp4",
                     "onlyincombo": false
                 },
                 {
@@ -1144,7 +1144,7 @@
                     "action": "向遠處目標吐口水。",
                     "recovery": "中",
                     "note": "水球比普通狀態的大顆且飛更遠。",
-                    "image": "videos/河童蛙/河童蛙_肥宅吐痰.mp4",
+                    "video": "videos/河童蛙/河童蛙_肥宅吐痰.mp4",
                     "onlyincombo": false
                 },
                 {
@@ -1154,7 +1154,7 @@
                     "action": "壓向前方目標，並對攻擊方向產生地震波。",
                     "recovery": "大",
                     "note": "",
-                    "image": "videos/河童蛙/河童蛙_肥宅重壓.mp4",
+                    "video": "videos/河童蛙/河童蛙_肥宅重壓.mp4",
                     "onlyincombo": false
                 },
                 {
@@ -1164,7 +1164,7 @@
                     "action": "壓向側方目標，並對攻擊方向產生地震波。",
                     "recovery": "大",
                     "note": "",
-                    "image": "videos/河童蛙/河童蛙_肥宅側壓.mp4",
+                    "video": "videos/河童蛙/河童蛙_肥宅側壓.mp4",
                     "onlyincombo": false
                 },
                 {
@@ -1174,7 +1174,7 @@
                     "action": "向目標來回龍車。",
                     "recovery": "大",
                     "note": "",
-                    "image": "videos/河童蛙/河童蛙_肥宅狂奔.mp4",
+                    "video": "videos/河童蛙/河童蛙_肥宅狂奔.mp4",
                     "onlyincombo": false
                 },
                 {
@@ -1184,7 +1184,7 @@
                     "action": "搬向目標後下砸。",
                     "recovery": "大",
                     "note": "",
-                    "image": "videos/河童蛙/河童蛙_肥宅搬石頭.mp4",
+                    "video": "videos/河童蛙/河童蛙_肥宅搬石頭.mp4",
                     "onlyincombo": false
                 },
                 {
@@ -1194,7 +1194,7 @@
                     "action": "朝目標方向壓下，並產生地震波。",
                     "recovery": "大",
                     "note": "",
-                    "image": "videos/河童蛙/河童蛙_肥宅泰山壓頂.mp4",
+                    "video": "videos/河童蛙/河童蛙_肥宅泰山壓頂.mp4",
                     "onlyincombo": false
                 },
                 {
@@ -1204,11 +1204,28 @@
                     "action": "撲向目標並抓起。",
                     "recovery": "大",
                     "note": "預兆明顯，應盡量避免被抓到。",
-                    "image": "videos/河童蛙/河童蛙_肥宅捕食.mp4",
+                    "video": "videos/河童蛙/河童蛙_肥宅捕食.mp4",
                     "onlyincombo": false
                 }
             ],
-            "combos": []
+            "combos": [],
+            "riding_moves": [
+                {
+                    "name": "二連拍→前撲",
+                    "command": "[X] 連按。",
+                    "video": "videos/河童蛙/河童蛙_操龍_二連拍前撲.mp4"
+                },
+                {
+                    "name": "前撲龍車",
+                    "command": "[A]",
+                    "video": "videos/河童蛙/河童蛙_操龍_前撲龍車.mp4"
+                },
+                {
+                    "name": "泰山壓頂",
+                    "command": "[LS]↓ + [A]",
+                    "video": "videos/河童蛙/河童蛙_操龍_泰山壓頂.mp4"
+                }
+            ]
         },
         "aknosom": {
             "outline": "傘鳥的攻擊動作以腳踩、頭砸、翅膀撩為主，動作豐富但大多有明顯前兆，熟悉動作後應該不會太困難。與火龍類似，可從口中是否含火來判斷傘鳥的憤怒狀態。憤怒狀態下要注意傘鳥的磕頭招式高機率會變成連招。",
@@ -1223,7 +1240,7 @@
                     "action": "頭往前伸，龍吼同時搖晃傘狀頭部。",
                     "recovery": "小",
                     "note": "口中含火就是進入憤怒狀態。",
-                    "image": "videos/傘鳥/傘鳥_龍吼.mp4",
+                    "video": "videos/傘鳥/傘鳥_龍吼.mp4",
                     "onlyincombo": false
                 },
                 {
@@ -1232,7 +1249,7 @@
                     "action": "大範圍橫掃，身體會轉180度。",
                     "recovery": "小",
                     "note": "機率派生二連。",
-                    "image": "videos/傘鳥/傘鳥_翅膀橫掃.mp4",
+                    "video": "videos/傘鳥/傘鳥_翅膀橫掃.mp4",
                     "onlyincombo": false
                 },
                 {
@@ -1241,7 +1258,7 @@
                     "action": "兩次後跳後，轉身翅膀上撩。",
                     "recovery": "大",
                     "note": "攻擊方向大約是第一次後跳時離玩家近的翅膀所指的方向。落地動作較慢是攻擊機會。",
-                    "image": "videos/傘鳥/傘鳥_後跳上撩.mp4",
+                    "video": "videos/傘鳥/傘鳥_後跳上撩.mp4",
                     "onlyincombo": false
                 },
                 {
@@ -1250,7 +1267,7 @@
                     "action": "先後跳踩踏，再接一個後踢。結束後有拜年動作。",
                     "recovery": "中",
                     "note": "",
-                    "image": "videos/傘鳥/傘鳥_後踢.mp4",
+                    "video": "videos/傘鳥/傘鳥_後踢.mp4",
                     "onlyincombo": false
                 },
                 {
@@ -1259,7 +1276,7 @@
                     "action": "單腳向前跨步下踩。",
                     "recovery": "小",
                     "note": "",
-                    "image": "videos/傘鳥/傘鳥_跨步踩.mp4",
+                    "video": "videos/傘鳥/傘鳥_跨步踩.mp4",
                     "onlyincombo": false
                 },
                 {
@@ -1268,7 +1285,7 @@
                     "action": "雙腳跳起往玩家方向踩下。",
                     "recovery": "小",
                     "note": "",
-                    "image": "videos/傘鳥/傘鳥_跳踩.mp4",
+                    "video": "videos/傘鳥/傘鳥_跳踩.mp4",
                     "onlyincombo": false
                 },
                 {
@@ -1277,7 +1294,7 @@
                     "action": "轉向玩家後頭砸",
                     "recovery": "小",
                     "note": "",
-                    "image": "videos/傘鳥/傘鳥_磕頭.mp4",
+                    "video": "videos/傘鳥/傘鳥_磕頭.mp4",
                     "onlyincombo": false
                 },
                 {
@@ -1286,7 +1303,7 @@
                     "action": "向前頭砸",
                     "recovery": "小",
                     "note": "",
-                    "image": "videos/傘鳥/傘鳥_跨步磕頭.mp4",
+                    "video": "videos/傘鳥/傘鳥_跨步磕頭.mp4",
                     "onlyincombo": false
                 },
                 {
@@ -1295,7 +1312,7 @@
                     "action": "跳向目標並頭砸，結束有張傘威嚇的動作。",
                     "recovery": "大",
                     "note": "",
-                    "image": "videos/傘鳥/傘鳥_跳步磕頭.mp4",
+                    "video": "videos/傘鳥/傘鳥_跳步磕頭.mp4",
                     "onlyincombo": true
                 },
                 {
@@ -1305,7 +1322,7 @@
                     "action": "連續兩次跳步頭砸。",
                     "recovery": "小",
                     "note": "怒吼後高機率直接使出這招。索敵機制很強，要持續移動躲避。",
-                    "image": "videos/傘鳥/傘鳥_二連磕頭.mp4",
+                    "video": "videos/傘鳥/傘鳥_二連磕頭.mp4",
                     "onlyincombo": false
                 },
                 {
@@ -1314,7 +1331,7 @@
                     "action": "後跳起飛後吐出中、左、右三顆火球。",
                     "recovery": "小",
                     "note": "有時候會啞火，條件待觀察。(可能疲勞)",
-                    "image": "videos/傘鳥/傘鳥_後跳起飛火球.mp4",
+                    "video": "videos/傘鳥/傘鳥_後跳起飛火球.mp4",
                     "onlyincombo": true
                 },
                 {
@@ -1323,7 +1340,7 @@
                     "action": "往側前方迴旋兩圈後落地，轉圈時吐出火球。",
                     "recovery": "中",
                     "note": "有時候會啞火，條件待觀察。(可能疲勞)",
-                    "image": "videos/傘鳥/傘鳥_空中迴旋火球.mp4",
+                    "video": "videos/傘鳥/傘鳥_空中迴旋火球.mp4",
                     "onlyincombo": true
                 },
                 {
@@ -1332,7 +1349,7 @@
                     "action": "快速吐出一顆火球。",
                     "recovery": "小",
                     "note": "",
-                    "image": "videos/傘鳥/傘鳥_火球.mp4",
+                    "video": "videos/傘鳥/傘鳥_火球.mp4",
                     "onlyincombo": false
                 },
                 {
@@ -1341,7 +1358,7 @@
                     "action": "吐出中、左、右三顆火球。",
                     "recovery": "大",
                     "note": "有時候會啞火，條件待觀察(可能疲勞)",
-                    "image": "videos/傘鳥/傘鳥_三連火球.mp4",
+                    "video": "videos/傘鳥/傘鳥_三連火球.mp4",
                     "onlyincombo": false
                 },
                 {
@@ -1350,7 +1367,7 @@
                     "action": "翅膀張開向前S型前進。",
                     "recovery": "大",
                     "note": "",
-                    "image": "videos/傘鳥/傘鳥_開傘龍車.mp4",
+                    "video": "videos/傘鳥/傘鳥_開傘龍車.mp4",
                     "onlyincombo": false
                 },
                 {
@@ -1359,7 +1376,7 @@
                     "action": "翅膀張開向前衝，直線前進。",
                     "recovery": "大",
                     "note": "",
-                    "image": "videos/傘鳥/傘鳥_合傘龍車.mp4",
+                    "video": "videos/傘鳥/傘鳥_合傘龍車.mp4",
                     "onlyincombo": false
                 }
             ],
@@ -1430,6 +1447,28 @@
                         }
                     ]
                 }
+            ],
+            "riding_moves": [
+                {
+                    "name": "火球",
+                    "command": "[X]",
+                    "note": "需連按可吐三顆。"
+                },
+                {
+                    "name": "跳踩",
+                    "command": "？",
+                    "video": "videos/傘鳥/傘鳥_操龍_跳踩.mp4"
+                },
+                {
+                    "name": "磕頭",
+                    "command": "[A]",
+                    "video": "videos/傘鳥/傘鳥_操龍_磕頭.mp4"
+                },
+                {
+                    "name": "後跳上撩",
+                    "command": "[LS]↓ + [A]",
+                    "video": "videos/傘鳥/傘鳥_操龍_後跳上撩.mp4"
+                }
             ]
         },
         "somnacanth": {
@@ -1447,7 +1486,7 @@
                     "action": "單手下踩並發出吼叫。",
                     "recovery": "",
                     "note": "",
-                    "image": "videos/人魚龍/人魚龍_龍吼.mp4",
+                    "video": "videos/人魚龍/人魚龍_龍吼.mp4",
                     "onlyincombo": false
                 },
                 {
@@ -1457,7 +1496,7 @@
                     "action": "頭向上一甩，往前伸。",
                     "recovery": "",
                     "note": "無吼叫判定的動作。",
-                    "image": "videos/人魚龍/人魚龍_威嚇.mp4",
+                    "video": "videos/人魚龍/人魚龍_威嚇.mp4",
                     "onlyincombo": false
                 },
                 {
@@ -1466,7 +1505,7 @@
                     "action": "向前二連突進拍擊。",
                     "recovery": "小",
                     "note": "",
-                    "image": "videos/人魚龍/人魚龍_二連拍.mp4",
+                    "video": "videos/人魚龍/人魚龍_二連拍.mp4",
                     "onlyincombo": false
                 },
                 {
@@ -1475,7 +1514,7 @@
                     "action": "向目標短距離快速突進。",
                     "recovery": "小",
                     "note": "前置動作短且不明顯，在人魚龍趴下姿態時需特別留意此招。",
-                    "image": "videos/人魚龍/人魚龍_突進.mp4",
+                    "video": "videos/人魚龍/人魚龍_突進.mp4",
                     "onlyincombo": false
                 },
                 {
@@ -1484,7 +1523,7 @@
                     "action": "向目標蛇行前進。",
                     "recovery": "小",
                     "note": "",
-                    "image": "videos/人魚龍/人魚龍_龍車.mp4",
+                    "video": "videos/人魚龍/人魚龍_龍車.mp4",
                     "onlyincombo": false
                 },
                 {
@@ -1494,7 +1533,7 @@
                     "action": "向前俯身吼叫。",
                     "recovery": "",
                     "note": "",
-                    "image": "videos/人魚龍/人魚龍_站立龍吼.mp4",
+                    "video": "videos/人魚龍/人魚龍_站立龍吼.mp4",
                     "onlyincombo": false
                 },
                 {
@@ -1504,7 +1543,7 @@
                     "action": "向前方扇形射出鱗片飛鏢。",
                     "recovery": "小",
                     "note": "",
-                    "image": "videos/人魚龍/人魚龍_鱗片射擊.mp4",
+                    "video": "videos/人魚龍/人魚龍_鱗片射擊.mp4",
                     "onlyincombo": false
                 },
                 {
@@ -1514,7 +1553,7 @@
                     "action": "高高躍起，向目標飛撲。",
                     "recovery": "中",
                     "note": "",
-                    "image": "videos/人魚龍/人魚龍_跳撲.mp4",
+                    "video": "videos/人魚龍/人魚龍_跳撲.mp4",
                     "onlyincombo": false
                 },
                 {
@@ -1524,7 +1563,7 @@
                     "action": "向前拍擊。",
                     "recovery": "小",
                     "note": "",
-                    "image": "videos/人魚龍/人魚龍_蓄力拍.mp4",
+                    "video": "videos/人魚龍/人魚龍_蓄力拍.mp4",
                     "onlyincombo": false
                 },
                 {
@@ -1534,7 +1573,7 @@
                     "action": "下壓，頭前出水波。",
                     "recovery": "中",
                     "note": "",
-                    "image": "videos/人魚龍/人魚龍_下壓.mp4",
+                    "video": "videos/人魚龍/人魚龍_下壓.mp4",
                     "onlyincombo": false
                 },
                 {
@@ -1544,7 +1583,7 @@
                     "action": "用頭上的鰭向前大範圍橫掃。",
                     "recovery": "大",
                     "note": "橫掃範圍大，可貼近身下是盲區。是人魚龍少數硬直大的招式。",
-                    "image": "videos/人魚龍/人魚龍_頭橫掃.mp4",
+                    "video": "videos/人魚龍/人魚龍_頭橫掃.mp4",
                     "onlyincombo": false
                 },
                 {
@@ -1554,7 +1593,7 @@
                     "action": "向前吐出使人睡眠的氣體。",
                     "recovery": "大",
                     "note": "普通狀態只向前，憤怒時後半段會變化成橫掃。",
-                    "image": "videos/人魚龍/人魚龍_吐息.mp4",
+                    "video": "videos/人魚龍/人魚龍_吐息.mp4",
                     "onlyincombo": false
                 },
                 {
@@ -1564,7 +1603,7 @@
                     "action": "爆發環形擴散的睡眠氣體。",
                     "recovery": "大",
                     "note": "憤怒狀態下使用。遠離或是翔蟲掛天上可躲避。",
-                    "image": "videos/人魚龍/人魚龍_睡眠氣體爆發.mp4",
+                    "video": "videos/人魚龍/人魚龍_睡眠氣體爆發.mp4",
                     "onlyincombo": false
                 },
                 {
@@ -1574,7 +1613,7 @@
                     "action": "躺著的吼叫動作。",
                     "recovery": "",
                     "note": "通常是見面時觸發。",
-                    "image": "videos/人魚龍/人魚龍_躺滑龍吼.mp4",
+                    "video": "videos/人魚龍/人魚龍_躺滑龍吼.mp4",
                     "onlyincombo": false
                 },
                 {
@@ -1584,7 +1623,7 @@
                     "action": "在胸口弄破貝殼，產生回復、閃光、爆破其中之一的效果。",
                     "recovery": "中",
                     "note": "貝殼有回復、閃光、爆破三種。可從貝殼特效判斷。",
-                    "image": "videos/人魚龍/人魚龍_玩貝殼.mp4",
+                    "video": "videos/人魚龍/人魚龍_玩貝殼.mp4",
                     "onlyincombo": false
                 },
                 {
@@ -1594,7 +1633,7 @@
                     "action": "進行多段四處遊走，(憤怒時)會留下睡眠氣體。",
                     "recovery": "小",
                     "note": "",
-                    "image": "videos/人魚龍/人魚龍_迂迴滑行.mp4",
+                    "video": "videos/人魚龍/人魚龍_迂迴滑行.mp4",
                     "onlyincombo": false
                 }
             ],
@@ -1617,7 +1656,7 @@
                     "action": "單手下踩時怒吼。點燃尾火，手火熄滅。",
                     "recovery": "",
                     "note": "",
-                    "image": "videos/怨虎龍/怨虎龍_見面吼.mp4",
+                    "video": "videos/怨虎龍/怨虎龍_見面吼.mp4",
                     "onlyincombo": false
                 },
                 {
@@ -1627,7 +1666,7 @@
                     "action": "抬頭怒吼，點燃手火，熄滅口火、尾火。背刺張開。",
                     "recovery": "",
                     "note": "",
-                    "image": "videos/怨虎龍/怨虎龍_怒吼.mp4",
+                    "video": "videos/怨虎龍/怨虎龍_怒吼.mp4",
                     "onlyincombo": false
                 },
                 {
@@ -1637,7 +1676,7 @@
                     "action": "吼完會蓄力塵爆，同時點燃手火、背火。全身的刺張開。",
                     "recovery": "",
                     "note": "被第一下吼住後起身很快，貼近身要提防接下來的塵爆。",
-                    "image": "videos/怨虎龍/怨虎龍_爆發怒吼.mp4",
+                    "video": "videos/怨虎龍/怨虎龍_爆發怒吼.mp4",
                     "onlyincombo": false
                 },
                 {
@@ -1647,7 +1686,7 @@
                     "action": "非常快速的小動作，抖抖身體口中點燃鬼火。",
                     "recovery": "",
                     "note": "口火狀態小心新招式前頂升天。",
-                    "image": "videos/怨虎龍/怨虎龍_點燃口火.mp4",
+                    "video": "videos/怨虎龍/怨虎龍_點燃口火.mp4",
                     "onlyincombo": false
                 },
                 {
@@ -1656,7 +1695,7 @@
                     "action": "向前小咬。",
                     "recovery": "小",
                     "note": "注意有機率接前搖短的尾砸。",
-                    "image": "videos/怨虎龍/怨虎龍_小咬.mp4",
+                    "video": "videos/怨虎龍/怨虎龍_小咬.mp4",
                     "onlyincombo": false
                 },
                 {
@@ -1665,7 +1704,7 @@
                     "action": "S形向前位移，二段前咬。",
                     "recovery": "小",
                     "note": "",
-                    "image": "videos/怨虎龍/怨虎龍_二連咬.mp4",
+                    "video": "videos/怨虎龍/怨虎龍_二連咬.mp4",
                     "onlyincombo": false
                 },
                 {
@@ -1675,7 +1714,7 @@
                     "action": "將目標頂上天空，接著會用粉塵爆破造成大量傷害。",
                     "recovery": "中",
                     "note": "被頂升天時使用翔蟲受身逃離，可避免遭受到後續粉塵爆破。",
-                    "image": "videos/怨虎龍/怨虎龍_前頂升天.mp4",
+                    "video": "videos/怨虎龍/怨虎龍_前頂升天.mp4",
                     "onlyincombo": false
                 },
                 {
@@ -1684,7 +1723,7 @@
                     "action": "往另一側揮爪橫掃。",
                     "recovery": "中",
                     "note": "手上有火時附帶範圍爆炸。",
-                    "image": "videos/怨虎龍/怨虎龍_拍地橫掃.mp4",
+                    "video": "videos/怨虎龍/怨虎龍_拍地橫掃.mp4",
                     "onlyincombo": false
                 },
                 {
@@ -1693,7 +1732,7 @@
                     "action": "單手下拍。",
                     "recovery": "大",
                     "note": "若前爪帶火會變成二連拍，且附帶小範圍爆破。往沒抬起的那隻手移動容易躲。",
-                    "image": "videos/怨虎龍/怨虎龍_蓄力拍.mp4",
+                    "video": "videos/怨虎龍/怨虎龍_蓄力拍.mp4",
                     "onlyincombo": false
                 },
                 {
@@ -1702,7 +1741,7 @@
                     "action": "身體微側，衝刺肩撞向目標。",
                     "recovery": "小",
                     "note": "全身都有碰撞判定。此招後建議遠離怨虎龍，容易引出大硬直招式。",
-                    "image": "videos/怨虎龍/怨虎龍_肩撞.mp4",
+                    "video": "videos/怨虎龍/怨虎龍_肩撞.mp4",
                     "onlyincombo": false
                 },
                 {
@@ -1711,7 +1750,7 @@
                     "action": "飛撲向目標。",
                     "recovery": "小",
                     "note": "此招後若接連招，會折返跑同時射出鬼火。",
-                    "image": "videos/怨虎龍/怨虎龍_飛撲.mp4",
+                    "video": "videos/怨虎龍/怨虎龍_飛撲.mp4",
                     "onlyincombo": false
                 },
                 {
@@ -1720,7 +1759,7 @@
                     "action": "原地向後一翻滾一圈，順便用前爪蹭一下目標。",
                     "recovery": "小",
                     "note": "對腳部造成一定傷害也會觸發。起身時如果目標在近距離(內側)，高機率引出肩撞。",
-                    "image": "videos/怨虎龍/怨虎龍_假摔.mp4",
+                    "video": "videos/怨虎龍/怨虎龍_假摔.mp4",
                     "onlyincombo": false
                 },
                 {
@@ -1729,7 +1768,7 @@
                     "action": "尾巴從上往下猛砸。",
                     "recovery": "中",
                     "note": "最後頭部會往前回到尾巴的位置。",
-                    "image": "videos/怨虎龍/怨虎龍_尾砸.mp4",
+                    "video": "videos/怨虎龍/怨虎龍_尾砸.mp4",
                     "onlyincombo": false
                 },
                 {
@@ -1738,7 +1777,7 @@
                     "action": "衝天跳起，翻身後尾巴向下猛砸。",
                     "recovery": "大",
                     "note": "",
-                    "image": "videos/怨虎龍/怨虎龍_飛天尾砸.mp4",
+                    "video": "videos/怨虎龍/怨虎龍_飛天尾砸.mp4",
                     "onlyincombo": false
                 },
                 {
@@ -1747,7 +1786,7 @@
                     "action": "衝向目標，尾巴向前突刺。",
                     "recovery": "大",
                     "note": "若尾部有鬼火會留下粉塵，並在舉尾動作後引爆。",
-                    "image": "videos/怨虎龍/怨虎龍_尾部突刺.mp4",
+                    "video": "videos/怨虎龍/怨虎龍_尾部突刺.mp4",
                     "onlyincombo": false
                 },
                 {
@@ -1756,7 +1795,7 @@
                     "action": "尾巴向前上撩，同時身體跳起後空翻。",
                     "recovery": "",
                     "note": "固定連招起手式，接蓄力拍。",
-                    "image": "videos/怨虎龍/怨虎龍_拍地空翻甩尾.mp4",
+                    "video": "videos/怨虎龍/怨虎龍_拍地空翻甩尾.mp4",
                     "onlyincombo": true
                 },
                 {
@@ -1765,7 +1804,7 @@
                     "action": "斜向甩出尾巴後空翻跳起。",
                     "recovery": "",
                     "note": "固定連招起手式，接尾砸。",
-                    "image": "videos/怨虎龍/怨虎龍_迴旋空翻甩尾.mp4",
+                    "video": "videos/怨虎龍/怨虎龍_迴旋空翻甩尾.mp4",
                     "onlyincombo": true
                 },
                 {
@@ -1775,7 +1814,7 @@
                     "action": "連續兩次斜向空翻，尾巴朝目標上撩，並往斜向散出爆破粉塵，之後引爆。",
                     "recovery": "中",
                     "note": "較少出現。",
-                    "image": "videos/怨虎龍/怨虎龍_二連空翻甩尾.mp4",
+                    "video": "videos/怨虎龍/怨虎龍_二連空翻甩尾.mp4",
                     "onlyincombo": false
                 },
                 {
@@ -1785,7 +1824,7 @@
                     "action": "尾巴指向目標，同時射出爆破鬼火。攻擊距離遠。",
                     "recovery": "大",
                     "note": "",
-                    "image": "videos/怨虎龍/怨虎龍_蓄力尾砲.mp4",
+                    "video": "videos/怨虎龍/怨虎龍_蓄力尾砲.mp4",
                     "onlyincombo": false
                 },
                 {
@@ -1794,7 +1833,7 @@
                     "action": "連續三次甩動尾巴，每次朝目標射出三個鬼火。",
                     "recovery": "中",
                     "note": "",
-                    "image": "videos/怨虎龍/怨虎龍_三連甩火.mp4",
+                    "video": "videos/怨虎龍/怨虎龍_三連甩火.mp4",
                     "onlyincombo": false
                 },
                 {
@@ -1803,7 +1842,7 @@
                     "action": "側向散步遊走，並不斷甩尾發射鬼火。",
                     "recovery": "",
                     "note": "受到攻擊會引發反擊招式。鬼火會定位目標，每次甩火都會定位一次。若第一步時目標在近距離，則會在第二步後變招出肩撞。",
-                    "image": "videos/怨虎龍/怨虎龍_散步.mp4",
+                    "video": "videos/怨虎龍/怨虎龍_散步.mp4",
                     "onlyincombo": false
                 },
                 {
@@ -1812,7 +1851,7 @@
                     "action": "連續兩次轉圈，頭咬的同時甩尾。",
                     "recovery": "小",
                     "note": "頭尾都有判定。",
-                    "image": "videos/怨虎龍/怨虎龍_小狗轉圈.mp4",
+                    "video": "videos/怨虎龍/怨虎龍_小狗轉圈.mp4",
                     "onlyincombo": false
                 },
                 {
@@ -1822,7 +1861,7 @@
                     "action": "周圍的粉塵爆炸造成傷害。",
                     "recovery": "小",
                     "note": "貼近身不會受到傷害。使用此招時若無背火則點燃背火，若有背火時，火焰由紫轉為粉紅色，進入粉火狀態。",
-                    "image": "videos/怨虎龍/怨虎龍_環形塵爆.mp4",
+                    "video": "videos/怨虎龍/怨虎龍_環形塵爆.mp4",
                     "onlyincombo": false
                 },
                 {
@@ -1832,7 +1871,7 @@
                     "action": "粉塵爆炸造成傷害。",
                     "recovery": "中",
                     "note": "貼近身不會受到傷害。",
-                    "image": "videos/怨虎龍/怨虎龍_側身塵爆.mp4",
+                    "video": "videos/怨虎龍/怨虎龍_側身塵爆.mp4",
                     "onlyincombo": false
                 },
                 {
@@ -1841,7 +1880,7 @@
                     "action": "遠距離俯衝向目標後造成粉塵爆炸。",
                     "recovery": "大",
                     "note": "持盾可背身防禦。",
-                    "image": "videos/怨虎龍/怨虎龍_飛天俯衝塵爆.mp4",
+                    "video": "videos/怨虎龍/怨虎龍_飛天俯衝塵爆.mp4",
                     "onlyincombo": false
                 },
                 {
@@ -1850,7 +1889,7 @@
                     "action": "遠離目標跑開，轉身折返同時甩出鬼火後銜接連招。",
                     "recovery": "",
                     "note": "連招起手，此招派生的連段最後會多一個仰頭發呆的硬直動作(除了飛撲)，是攻擊機會。",
-                    "image": "videos/怨虎龍/怨虎龍_折返跑.mp4",
+                    "video": "videos/怨虎龍/怨虎龍_折返跑.mp4",
                     "onlyincombo": true
                 },
                 {
@@ -1859,7 +1898,7 @@
                     "action": "橫向跑，小繞半圈到目標側面。",
                     "recovery": "",
                     "note": "連招起手，此招派生的連段最後會多一個仰頭發呆的硬直動作，是攻擊機會。",
-                    "image": "videos/怨虎龍/怨虎龍_迂迴跑.mp4",
+                    "video": "videos/怨虎龍/怨虎龍_迂迴跑.mp4",
                     "onlyincombo": true
                 },
                 {
@@ -1868,7 +1907,7 @@
                     "action": "躍起後空中塵爆突進加速衝至目標身後。",
                     "recovery": "",
                     "note": "低機率會直接起手使用。此招後根據目標距離遠近派生後續連招。",
-                    "image": "videos/怨虎龍/怨虎龍_爆發突進.mp4",
+                    "video": "videos/怨虎龍/怨虎龍_爆發突進.mp4",
                     "onlyincombo": true
                 },
                 {
@@ -1878,7 +1917,7 @@
                     "action": "吼叫後折返跑留下粉塵，接著爆衝後躍起，落地引爆粉塵。",
                     "recovery": "大",
                     "note": "此連段後解除粉火狀態。前段的衝刺軌跡是往玩家的右側畫三角，因此往左走較容易閃躲。",
-                    "image": "videos/怨虎龍/怨虎龍_粉火爆發終結技.mp4",
+                    "video": "videos/怨虎龍/怨虎龍_粉火爆發終結技.mp4",
                     "onlyincombo": false
                 }
             ],
@@ -2206,7 +2245,7 @@
                     "action": "",
                     "recovery": "",
                     "note": "",
-                    "image": "videos/奇怪龍/奇怪龍_龍吼.mp4",
+                    "video": "videos/奇怪龍/奇怪龍_龍吼.mp4",
                     "onlyincombo": false
                 },
                 {
@@ -2215,7 +2254,7 @@
                     "action": "",
                     "recovery": "",
                     "note": "",
-                    "image": "videos/奇怪龍/奇怪龍_電球.mp4",
+                    "video": "videos/奇怪龍/奇怪龍_電球.mp4",
                     "onlyincombo": false
                 },
                 {
@@ -2224,7 +2263,7 @@
                     "action": "",
                     "recovery": "",
                     "note": "",
-                    "image": "videos/奇怪龍/奇怪龍_小咬.mp4",
+                    "video": "videos/奇怪龍/奇怪龍_小咬.mp4",
                     "onlyincombo": false
                 },
                 {
@@ -2233,7 +2272,7 @@
                     "action": "",
                     "recovery": "",
                     "note": "",
-                    "image": "videos/奇怪龍/奇怪龍_彎曲伸脖.mp4",
+                    "video": "videos/奇怪龍/奇怪龍_彎曲伸脖.mp4",
                     "onlyincombo": false
                 },
                 {
@@ -2242,7 +2281,7 @@
                     "action": "",
                     "recovery": "",
                     "note": "",
-                    "image": "videos/奇怪龍/奇怪龍_飛撲.mp4",
+                    "video": "videos/奇怪龍/奇怪龍_飛撲.mp4",
                     "onlyincombo": false
                 },
                 {
@@ -2251,7 +2290,7 @@
                     "action": "",
                     "recovery": "",
                     "note": "",
-                    "image": "videos/奇怪龍/奇怪龍_發電.mp4",
+                    "video": "videos/奇怪龍/奇怪龍_發電.mp4",
                     "onlyincombo": false
                 },
                 {
@@ -2260,7 +2299,7 @@
                     "action": "",
                     "recovery": "",
                     "note": "",
-                    "image": "videos/奇怪龍/奇怪龍_甩尾.mp4",
+                    "video": "videos/奇怪龍/奇怪龍_甩尾.mp4",
                     "onlyincombo": false
                 },
                 {
@@ -2269,7 +2308,7 @@
                     "action": "",
                     "recovery": "",
                     "note": "",
-                    "image": "videos/奇怪龍/奇怪龍_帶電突進.mp4",
+                    "video": "videos/奇怪龍/奇怪龍_帶電突進.mp4",
                     "onlyincombo": false
                 },
                 {
@@ -2278,7 +2317,7 @@
                     "action": "",
                     "recovery": "",
                     "note": "",
-                    "image": "videos/奇怪龍/奇怪龍_散步.mp4",
+                    "video": "videos/奇怪龍/奇怪龍_散步.mp4",
                     "onlyincombo": false
                 },
                 {
@@ -2288,7 +2327,7 @@
                     "action": "",
                     "recovery": "",
                     "note": "",
-                    "image": "videos/奇怪龍/奇怪龍_懸掛電球.mp4",
+                    "video": "videos/奇怪龍/奇怪龍_懸掛電球.mp4",
                     "onlyincombo": false
                 }
             ],
@@ -2306,7 +2345,7 @@
                     "action": "雙手拍地後，再單手拍地，同時吼叫。",
                     "recovery": "",
                     "note": "",
-                    "image": "videos/天狗獸/天狗獸_見面吼.mp4",
+                    "video": "videos/天狗獸/天狗獸_見面吼.mp4",
                     "onlyincombo": false
                 },
                 {
@@ -2315,7 +2354,7 @@
                     "action": "單手拍地，發出吼叫。",
                     "recovery": "",
                     "note": "",
-                    "image": "videos/天狗獸/天狗獸_怒吼.mp4",
+                    "video": "videos/天狗獸/天狗獸_怒吼.mp4",
                     "onlyincombo": false
                 },
                 {
@@ -2324,7 +2363,7 @@
                     "action": "旋轉身體，向目標突進。",
                     "recovery": "",
                     "note": "可倒掛在牆上使用。",
-                    "image": "videos/天狗獸/天狗獸_陀螺突進.mp4",
+                    "video": "videos/天狗獸/天狗獸_陀螺突進.mp4",
                     "onlyincombo": false
                 },
                 {
@@ -2333,7 +2372,7 @@
                     "action": "短距離向前突進，尾巴甩向目標。怒後多了一個跳向一旁擺姿勢的動作。",
                     "recovery": "中",
                     "note": "",
-                    "image": "videos/天狗獸/天狗獸_突進甩尾.mp4",
+                    "video": "videos/天狗獸/天狗獸_突進甩尾.mp4",
                     "onlyincombo": false
                 },
                 {
@@ -2342,7 +2381,7 @@
                     "action": "向目標翻身尾砸。",
                     "recovery": "中",
                     "note": "",
-                    "image": "videos/天狗獸/天狗獸_側身尾砸.mp4",
+                    "video": "videos/天狗獸/天狗獸_側身尾砸.mp4",
                     "onlyincombo": false
                 },
                 {
@@ -2351,7 +2390,7 @@
                     "action": "向前尾砸，附帶閃光彈效果。",
                     "recovery": "大",
                     "note": "命中後會接連續尾砸。",
-                    "image": "videos/天狗獸/天狗獸_閃光尾砸.mp4",
+                    "video": "videos/天狗獸/天狗獸_閃光尾砸.mp4",
                     "onlyincombo": false
                 },
                 {
@@ -2360,7 +2399,7 @@
                     "action": "向前尾砸，附帶毒霧效果。",
                     "recovery": "大",
                     "note": "",
-                    "image": "videos/天狗獸/天狗獸_毒霧尾砸.mp4",
+                    "video": "videos/天狗獸/天狗獸_毒霧尾砸.mp4",
                     "onlyincombo": false
                 },
                 {
@@ -2369,7 +2408,7 @@
                     "action": "向前空翻尾砸。怒前兩下，怒後三下。",
                     "recovery": "中",
                     "note": "",
-                    "image": "videos/天狗獸/天狗獸_連續尾砸.mp4",
+                    "video": "videos/天狗獸/天狗獸_連續尾砸.mp4",
                     "onlyincombo": false
                 },
                 {
@@ -2378,7 +2417,7 @@
                     "action": "向目標迴旋甩尾突進。怒後會連續突進兩次。",
                     "recovery": "大",
                     "note": "",
-                    "image": "videos/天狗獸/天狗獸_迴旋甩尾突進.mp4",
+                    "video": "videos/天狗獸/天狗獸_迴旋甩尾突進.mp4",
                     "onlyincombo": false
                 },
                 {
@@ -2387,7 +2426,7 @@
                     "action": "將果實直線投向目標。",
                     "recovery": "大",
                     "note": "",
-                    "image": "videos/天狗獸/天狗獸_投擲.mp4",
+                    "video": "videos/天狗獸/天狗獸_投擲.mp4",
                     "onlyincombo": false
                 },
                 {
@@ -2396,7 +2435,7 @@
                     "action": "身體旋轉，向目標投出多顆黃色果實。",
                     "recovery": "中",
                     "note": "",
-                    "image": "videos/天狗獸/天狗獸_迴旋投擲.mp4",
+                    "video": "videos/天狗獸/天狗獸_迴旋投擲.mp4",
                     "onlyincombo": false
                 },
                 {
@@ -2405,7 +2444,7 @@
                     "action": "後跳步的同時向目標投出一顆黃色果實。",
                     "recovery": "小",
                     "note": "",
-                    "image": "videos/天狗獸/天狗獸_迴旋投擲.mp4",
+                    "video": "videos/天狗獸/天狗獸_迴旋投擲.mp4",
                     "onlyincombo": false
                 },
                 {
@@ -2414,7 +2453,7 @@
                     "action": "向目標拋出一顆紫色果實，同時向側面螃蟹步移動。",
                     "recovery": "",
                     "note": "紫果造成中毒狀態。此招後必接迴旋甩尾突進。",
-                    "image": "videos/天狗獸/天狗獸_螃蟹步投擲.mp4",
+                    "video": "videos/天狗獸/天狗獸_螃蟹步投擲.mp4",
                     "onlyincombo": true
                 },
                 {
@@ -2423,7 +2462,7 @@
                     "action": "不斷從懷中掏出雙色果實投向目標。",
                     "recovery": "中",
                     "note": "",
-                    "image": "videos/天狗獸/天狗獸_雙色地瓜球.mp4",
+                    "video": "videos/天狗獸/天狗獸_雙色地瓜球.mp4",
                     "onlyincombo": false
                 },
                 {
@@ -2432,7 +2471,7 @@
                     "action": "雙手依序向前拍。疲勞狀態下只會拍一次。",
                     "recovery": "小",
                     "note": "",
-                    "image": "videos/天狗獸/天狗獸_二連拍.mp4",
+                    "video": "videos/天狗獸/天狗獸_二連拍.mp4",
                     "onlyincombo": false
                 },
                 {
@@ -2441,7 +2480,7 @@
                     "action": "單邊翼爪向前橫掃。",
                     "recovery": "中",
                     "note": "",
-                    "image": "videos/天狗獸/天狗獸_翅膀橫掃.mp4",
+                    "video": "videos/天狗獸/天狗獸_翅膀橫掃.mp4",
                     "onlyincombo": false
                 },
                 {
@@ -2450,7 +2489,7 @@
                     "action": "單側翼爪向前橫掃。",
                     "recovery": "中",
                     "note": "",
-                    "image": "videos/天狗獸/天狗獸_搖晃橫掃.mp4",
+                    "video": "videos/天狗獸/天狗獸_搖晃橫掃.mp4",
                     "onlyincombo": false
                 },
                 {
@@ -2459,7 +2498,7 @@
                     "action": "攀上附近的岩壁地形。",
                     "recovery": "",
                     "note": "",
-                    "image": "videos/天狗獸/天狗獸_上牆.mp4",
+                    "video": "videos/天狗獸/天狗獸_上牆.mp4",
                     "onlyincombo": false
                 },
                 {
@@ -2468,7 +2507,7 @@
                     "action": "以尾巴為支點旋轉身體朝目標移動。",
                     "recovery": "",
                     "note": "",
-                    "image": "videos/天狗獸/天狗獸_陀螺轉.mp4",
+                    "video": "videos/天狗獸/天狗獸_陀螺轉.mp4",
                     "onlyincombo": true
                 },
                 {
@@ -2477,7 +2516,7 @@
                     "action": "連續兩次以尾巴為支點旋轉身體朝目標移動。",
                     "recovery": "",
                     "note": "",
-                    "image": "videos/天狗獸/天狗獸_二連陀螺轉.mp4",
+                    "video": "videos/天狗獸/天狗獸_二連陀螺轉.mp4",
                     "onlyincombo": true
                 },
                 {
@@ -2486,7 +2525,7 @@
                     "action": "向目標低空滑行衝撞。",
                     "recovery": "小",
                     "note": "",
-                    "image": "videos/天狗獸/天狗獸_滑行.mp4",
+                    "video": "videos/天狗獸/天狗獸_滑行.mp4",
                     "onlyincombo": false
                 }
             ],
@@ -2627,6 +2666,71 @@
                         }
                     ]
                 }
+            ],
+            "riding_moves": [
+                {
+                    "name": "迴旋甩尾突進",
+                    "command": "[X]",
+                    "video": "videos/天狗獸/天狗獸_操龍_迴旋甩尾突進.mp4"
+                },
+                {
+                    "name": "突進甩尾",
+                    "command": "？",
+                    "video": "videos/天狗獸/天狗獸_操龍_突進甩尾.mp4"
+                },
+                {
+                    "name": "紫果尾砸",
+                    "command": "？",
+                    "video": "videos/天狗獸/天狗獸_操龍_紫果尾砸.mp4"
+                },
+                {
+                    "name": "後撤投擲→飛天尾砸",
+                    "command": "[LS]↓ + [A]",
+                    "note": "中間連段指令還不太確定。",
+                    "video": "videos/天狗獸/天狗獸_操龍_後撤投擲飛天尾砸.mp4"
+                }
+            ]
+        },
+        "barroth": {
+            "moves": [],
+            "combos": [],
+            "riding_moves": [
+                {
+                    "name": "小咬",
+                    "command": "[X]",
+                    "video": "videos/土砂龍/土砂龍_操龍_小咬.mp4"
+                },
+                {
+                    "name": "龍車",
+                    "command": "[A]",
+                    "video": "videos/土砂龍/土砂龍_操龍_龍車.mp4"
+                },
+                {
+                    "name": "頭砸",
+                    "command": "[LS]↓ + [A]",
+                    "video": "videos/土砂龍/土砂龍_操龍_頭砸.mp4"
+                }
+            ]
+        },
+        "kulu-ya-ku": {
+            "moves": [],
+            "combos": [],
+            "riding_moves": [
+                {
+                    "name": "小雞吃米",
+                    "command": "[X]",
+                    "video": "videos/搔鳥/搔鳥_操龍_小雞吃米.mp4"
+                },
+                {
+                    "name": "跳撲",
+                    "command": "[A]",
+                    "video": "videos/搔鳥/搔鳥_操龍_跳撲.mp4"
+                },
+                {
+                    "name": "二連拍",
+                    "command": "[LS]↓ + [A]",
+                    "video": "videos/搔鳥/搔鳥_操龍_二連拍.mp4"
+                }
             ]
         },
         "royal_ludroth": {
@@ -2641,7 +2745,7 @@
                     "action": "",
                     "recovery": "",
                     "note": "",
-                    "image": "videos/水獸/水獸_龍吼.mp4",
+                    "video": "videos/水獸/水獸_龍吼.mp4",
                     "onlyincombo": false
                 },
                 {
@@ -2650,7 +2754,7 @@
                     "action": "",
                     "recovery": "",
                     "note": "",
-                    "image": "videos/水獸/水獸_吐口水.mp4",
+                    "video": "videos/水獸/水獸_吐口水.mp4",
                     "onlyincombo": false
                 },
                 {
@@ -2659,11 +2763,28 @@
                     "action": "",
                     "recovery": "",
                     "note": "",
-                    "image": "videos/水獸/水獸_飛撲.mp4",
+                    "video": "videos/水獸/水獸_飛撲.mp4",
                     "onlyincombo": false
                 }
             ],
-            "combos": []
+            "combos": [],
+            "riding_moves": [
+                {
+                    "name": "二連咬",
+                    "command": "[X]",
+                    "video": "videos/水獸/水獸_操龍_二連咬.mp4"
+                },
+                {
+                    "name": "飛撲",
+                    "command": "[A]",
+                    "video": "videos/水獸/水獸_操龍_飛撲.mp4"
+                },
+                {
+                    "name": "下壓",
+                    "command": "[LS]↓ + [A]",
+                    "video": "videos/水獸/水獸_操龍_下壓.mp4"
+                }
+            ]
         },
         "great_wroggi": {
             "outline": "(招式素材仍在蒐集中)",
@@ -2677,7 +2798,7 @@
                     "action": "",
                     "recovery": "",
                     "note": "",
-                    "image": "videos/毒狗龍王/毒狗龍王_龍吼.mp4",
+                    "video": "videos/毒狗龍王/毒狗龍王_龍吼.mp4",
                     "onlyincombo": false
                 },
                 {
@@ -2686,7 +2807,7 @@
                     "action": "",
                     "recovery": "",
                     "note": "",
-                    "image": "videos/毒狗龍王/毒狗龍王_小咬.mp4",
+                    "video": "videos/毒狗龍王/毒狗龍王_小咬.mp4",
                     "onlyincombo": false
                 },
                 {
@@ -2695,11 +2816,33 @@
                     "action": "",
                     "recovery": "",
                     "note": "",
-                    "image": "videos/毒狗龍王/毒狗龍王_威嚇.mp4",
+                    "video": "videos/毒狗龍王/毒狗龍王_威嚇.mp4",
                     "onlyincombo": false
                 }
             ],
-            "combos": []
+            "combos": [],
+            "riding_moves": [
+                {
+                    "name": "小咬",
+                    "command": "[X]",
+                    "video": "videos/毒狗龍王/毒狗龍王_操龍_小咬.mp4"
+                },
+                {
+                    "name": "毒球",
+                    "command": "[LS]↓ + [X]",
+                    "video": "videos/毒狗龍王/毒狗龍王_操龍_毒球.mp4"
+                },
+                {
+                    "name": "鐵山靠",
+                    "command": "[A]",
+                    "video": "videos/毒狗龍王/毒狗龍王_操龍_鐵山靠.mp4"
+                },
+                {
+                    "name": "毒霧",
+                    "command": "[LS]↓ + [A]",
+                    "video": "videos/毒狗龍王/毒狗龍王_操龍_毒霧.mp4"
+                }
+            ]
         },
         "goss_harag": {
             "outline": "(招式素材仍在蒐集中)",
@@ -2713,7 +2856,7 @@
                     "action": "",
                     "recovery": "",
                     "note": "",
-                    "image": "videos/雪鬼獸/雪鬼獸_衝刺拳.mp4",
+                    "video": "videos/雪鬼獸/雪鬼獸_衝刺拳.mp4",
                     "onlyincombo": false
                 },
                 {
@@ -2722,7 +2865,7 @@
                     "action": "",
                     "recovery": "",
                     "note": "",
-                    "image": "videos/雪鬼獸/雪鬼獸_二連下砸.mp4",
+                    "video": "videos/雪鬼獸/雪鬼獸_二連下砸.mp4",
                     "onlyincombo": false
                 },
                 {
@@ -2731,7 +2874,7 @@
                     "action": "",
                     "recovery": "",
                     "note": "",
-                    "image": "videos/雪鬼獸/雪鬼獸_冰刃下劈.mp4",
+                    "video": "videos/雪鬼獸/雪鬼獸_冰刃下劈.mp4",
                     "onlyincombo": false
                 },
                 {
@@ -2740,7 +2883,7 @@
                     "action": "",
                     "recovery": "",
                     "note": "",
-                    "image": "videos/雪鬼獸/雪鬼獸_冰刃飛刀.mp4",
+                    "video": "videos/雪鬼獸/雪鬼獸_冰刃飛刀.mp4",
                     "onlyincombo": false
                 },
                 {
@@ -2749,7 +2892,7 @@
                     "action": "",
                     "recovery": "",
                     "note": "",
-                    "image": "videos/雪鬼獸/雪鬼獸_震地衝擊.mp4",
+                    "video": "videos/雪鬼獸/雪鬼獸_震地衝擊.mp4",
                     "onlyincombo": false
                 },
                 {
@@ -2758,7 +2901,7 @@
                     "action": "",
                     "recovery": "",
                     "note": "",
-                    "image": "videos/雪鬼獸/雪鬼獸_橫掃吐息.mp4",
+                    "video": "videos/雪鬼獸/雪鬼獸_橫掃吐息.mp4",
                     "onlyincombo": false
                 }
             ],
@@ -2776,7 +2919,7 @@
                     "action": "",
                     "recovery": "",
                     "note": "",
-                    "image": "videos/轟龍/轟龍_推石.mp4",
+                    "video": "videos/轟龍/轟龍_推石.mp4",
                     "onlyincombo": false
                 },
                 {
@@ -2785,7 +2928,7 @@
                     "action": "",
                     "recovery": "",
                     "note": "",
-                    "image": "videos/轟龍/轟龍_龍車.mp4",
+                    "video": "videos/轟龍/轟龍_龍車.mp4",
                     "onlyincombo": false
                 }
             ],
@@ -2803,7 +2946,16 @@
                     "action": "",
                     "recovery": "",
                     "note": "",
-                    "image": "videos/眠狗龍王/眠狗龍王_吐口水.mp4",
+                    "video": "videos/眠狗龍王/眠狗龍王_吐口水.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "小咬",
+                    "preaction": "",
+                    "action": "",
+                    "recovery": "",
+                    "note": "",
+                    "video": "videos/眠狗龍王/眠狗龍王_小咬.mp4",
                     "onlyincombo": false
                 },
                 {
@@ -2812,7 +2964,7 @@
                     "action": "",
                     "recovery": "",
                     "note": "",
-                    "image": "videos/眠狗龍王/眠狗龍王_甩頭.mp4",
+                    "video": "videos/眠狗龍王/眠狗龍王_甩頭.mp4",
                     "onlyincombo": false
                 },
                 {
@@ -2821,7 +2973,25 @@
                     "action": "",
                     "recovery": "",
                     "note": "",
-                    "image": "videos/眠狗龍王/眠狗龍王_鐵山靠.mp4",
+                    "video": "videos/眠狗龍王/眠狗龍王_鐵山靠.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "二連甩尾",
+                    "preaction": "",
+                    "action": "",
+                    "recovery": "",
+                    "note": "",
+                    "video": "videos/眠狗龍王/眠狗龍王_二連甩尾.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "後跳",
+                    "preaction": "",
+                    "action": "",
+                    "recovery": "",
+                    "note": "",
+                    "video": "videos/眠狗龍王/眠狗龍王_後跳.mp4",
                     "onlyincombo": false
                 }
             ],
@@ -2853,6 +3023,28 @@
                         }
                     ]
                 }
+            ],
+            "riding_moves": [
+                {
+                    "name": "小咬",
+                    "command": "",
+                    "video": "videos/眠狗龍王/眠狗龍王_操龍_小咬.mp4"
+                },
+                {
+                    "name": "跳撲",
+                    "command": "",
+                    "video": "videos/眠狗龍王/眠狗龍王_操龍_跳撲.mp4"
+                },
+                {
+                    "name": "鐵山靠",
+                    "command": "",
+                    "video": "videos/眠狗龍王/眠狗龍王_操龍_鐵山靠.mp4"
+                },
+                {
+                    "name": "二連甩尾",
+                    "command": "",
+                    "video": "videos/眠狗龍王/眠狗龍王_操龍_二連甩尾.mp4"
+                }
             ]
         },
         "basarios": {
@@ -2867,7 +3059,7 @@
                     "action": "",
                     "recovery": "",
                     "note": "",
-                    "image": "videos/岩龍/岩龍_鑽地前行.mp4",
+                    "video": "videos/岩龍/岩龍_鑽地前行.mp4",
                     "onlyincombo": false
                 },
                 {
@@ -2876,7 +3068,7 @@
                     "action": "",
                     "recovery": "",
                     "note": "",
-                    "image": "videos/岩龍/岩龍_噴射火焰.mp4",
+                    "video": "videos/岩龍/岩龍_噴射火焰.mp4",
                     "onlyincombo": false
                 },
                 {
@@ -2885,7 +3077,7 @@
                     "action": "",
                     "recovery": "",
                     "note": "",
-                    "image": "videos/岩龍/岩龍_火焰壓.mp4",
+                    "video": "videos/岩龍/岩龍_火焰壓.mp4",
                     "onlyincombo": false
                 },
                 {
@@ -2894,7 +3086,7 @@
                     "action": "",
                     "recovery": "",
                     "note": "",
-                    "image": "videos/岩龍/岩龍_火球.mp4",
+                    "video": "videos/岩龍/岩龍_火球.mp4",
                     "onlyincombo": false
                 },
                 {
@@ -2903,7 +3095,7 @@
                     "action": "",
                     "recovery": "",
                     "note": "",
-                    "image": "videos/岩龍/岩龍_翻滾.mp4",
+                    "video": "videos/岩龍/岩龍_翻滾.mp4",
                     "onlyincombo": false
                 }
             ],
@@ -2921,7 +3113,7 @@
                     "action": "",
                     "recovery": "",
                     "note": "",
-                    "image": "videos/赤甲獸/赤甲獸_前滾.mp4",
+                    "video": "videos/赤甲獸/赤甲獸_前滾.mp4",
                     "onlyincombo": false
                 },
                 {
@@ -2930,7 +3122,7 @@
                     "action": "",
                     "recovery": "",
                     "note": "",
-                    "image": "videos/赤甲獸/赤甲獸_側滾.mp4",
+                    "video": "videos/赤甲獸/赤甲獸_側滾.mp4",
                     "onlyincombo": false
                 },
                 {
@@ -2939,7 +3131,7 @@
                     "action": "",
                     "recovery": "",
                     "note": "",
-                    "image": "videos/赤甲獸/赤甲獸_鉛球.mp4",
+                    "video": "videos/赤甲獸/赤甲獸_鉛球.mp4",
                     "onlyincombo": false
                 },
                 {
@@ -2948,7 +3140,7 @@
                     "action": "",
                     "recovery": "",
                     "note": "",
-                    "image": "videos/赤甲獸/赤甲獸_連環巴掌.mp4",
+                    "video": "videos/赤甲獸/赤甲獸_連環巴掌.mp4",
                     "onlyincombo": false
                 },
                 {
@@ -2957,7 +3149,7 @@
                     "action": "",
                     "recovery": "",
                     "note": "",
-                    "image": "videos/赤甲獸/赤甲獸_吐口水.mp4",
+                    "video": "videos/赤甲獸/赤甲獸_吐口水.mp4",
                     "onlyincombo": false
                 },
                 {
@@ -2966,7 +3158,7 @@
                     "action": "",
                     "recovery": "",
                     "note": "",
-                    "image": "videos/赤甲獸/赤甲獸_放屁.mp4",
+                    "video": "videos/赤甲獸/赤甲獸_放屁.mp4",
                     "onlyincombo": false
                 }
             ],
@@ -3017,7 +3209,7 @@
                     "action": "",
                     "recovery": "",
                     "note": "",
-                    "image": "videos/妃蜘蛛/妃蜘蛛_吐絲.mp4",
+                    "video": "videos/妃蜘蛛/妃蜘蛛_吐絲.mp4",
                     "onlyincombo": false
                 },
                 {
@@ -3026,7 +3218,7 @@
                     "action": "",
                     "recovery": "",
                     "note": "",
-                    "image": "videos/妃蜘蛛/妃蜘蛛_螃蟹鉗.mp4",
+                    "video": "videos/妃蜘蛛/妃蜘蛛_螃蟹鉗.mp4",
                     "onlyincombo": false
                 },
                 {
@@ -3035,7 +3227,7 @@
                     "action": "",
                     "recovery": "",
                     "note": "",
-                    "image": "videos/妃蜘蛛/妃蜘蛛_橫掃噴火.mp4",
+                    "video": "videos/妃蜘蛛/妃蜘蛛_橫掃噴火.mp4",
                     "onlyincombo": false
                 },
                 {
@@ -3044,7 +3236,7 @@
                     "action": "",
                     "recovery": "",
                     "note": "",
-                    "image": "videos/妃蜘蛛/妃蜘蛛_蟲絲突進.mp4",
+                    "video": "videos/妃蜘蛛/妃蜘蛛_蟲絲突進.mp4",
                     "onlyincombo": false
                 },
                 {
@@ -3053,7 +3245,7 @@
                     "action": "",
                     "recovery": "",
                     "note": "",
-                    "image": "videos/妃蜘蛛/妃蜘蛛_蟲絲突進噴火.mp4",
+                    "video": "videos/妃蜘蛛/妃蜘蛛_蟲絲突進噴火.mp4",
                     "onlyincombo": false
                 },
                 {
@@ -3062,7 +3254,7 @@
                     "action": "",
                     "recovery": "",
                     "note": "",
-                    "image": "videos/妃蜘蛛/妃蜘蛛_蟲絲迴旋噴火.mp4",
+                    "video": "videos/妃蜘蛛/妃蜘蛛_蟲絲迴旋噴火.mp4",
                     "onlyincombo": false
                 }
             ],
@@ -3080,7 +3272,7 @@
                     "action": "",
                     "recovery": "",
                     "note": "",
-                    "image": "videos/泥翁龍/泥翁龍_尖石攻擊.mp4",
+                    "video": "videos/泥翁龍/泥翁龍_尖石攻擊.mp4",
                     "onlyincombo": false
                 },
                 {
@@ -3089,7 +3281,7 @@
                     "action": "",
                     "recovery": "",
                     "note": "",
-                    "image": "videos/泥翁龍/泥翁龍_反身尾砸.mp4",
+                    "video": "videos/泥翁龍/泥翁龍_反身尾砸.mp4",
                     "onlyincombo": false
                 },
                 {
@@ -3098,7 +3290,7 @@
                     "action": "",
                     "recovery": "",
                     "note": "",
-                    "image": "videos/泥翁龍/泥翁龍_鑽地尾砸.mp4",
+                    "video": "videos/泥翁龍/泥翁龍_鑽地尾砸.mp4",
                     "onlyincombo": false
                 },
                 {
@@ -3107,7 +3299,7 @@
                     "action": "",
                     "recovery": "",
                     "note": "",
-                    "image": "videos/泥翁龍/泥翁龍_拍地掃尾.mp4",
+                    "video": "videos/泥翁龍/泥翁龍_拍地掃尾.mp4",
                     "onlyincombo": false
                 },
                 {
@@ -3116,7 +3308,7 @@
                     "action": "",
                     "recovery": "",
                     "note": "",
-                    "image": "videos/泥翁龍/泥翁龍_二連甩尾.mp4",
+                    "video": "videos/泥翁龍/泥翁龍_二連甩尾.mp4",
                     "onlyincombo": false
                 }
             ],
@@ -3134,7 +3326,7 @@
                     "action": "",
                     "recovery": "",
                     "note": "",
-                    "image": "videos/冰牙龍/冰牙龍_飛撲.mp4",
+                    "video": "videos/冰牙龍/冰牙龍_飛撲.mp4",
                     "onlyincombo": false
                 },
                 {
@@ -3143,7 +3335,7 @@
                     "action": "",
                     "recovery": "",
                     "note": "",
-                    "image": "videos/冰牙龍/冰牙龍_泰山壓頂.mp4",
+                    "video": "videos/冰牙龍/冰牙龍_泰山壓頂.mp4",
                     "onlyincombo": false
                 },
                 {
@@ -3152,7 +3344,7 @@
                     "action": "",
                     "recovery": "",
                     "note": "",
-                    "image": "videos/冰牙龍/冰牙龍_翅膀揮擊.mp4",
+                    "video": "videos/冰牙龍/冰牙龍_翅膀揮擊.mp4",
                     "onlyincombo": false
                 },
                 {
@@ -3161,7 +3353,7 @@
                     "action": "",
                     "recovery": "",
                     "note": "",
-                    "image": "videos/冰牙龍/冰牙龍_側跳起飛.mp4",
+                    "video": "videos/冰牙龍/冰牙龍_側跳起飛.mp4",
                     "onlyincombo": false
                 },
                 {
@@ -3170,7 +3362,7 @@
                     "action": "",
                     "recovery": "",
                     "note": "",
-                    "image": "videos/冰牙龍/冰牙龍_吐息.mp4",
+                    "video": "videos/冰牙龍/冰牙龍_吐息.mp4",
                     "onlyincombo": false
                 },
                 {
@@ -3179,7 +3371,7 @@
                     "action": "",
                     "recovery": "",
                     "note": "",
-                    "image": "videos/冰牙龍/冰牙龍_空中吐息.mp4",
+                    "video": "videos/冰牙龍/冰牙龍_空中吐息.mp4",
                     "onlyincombo": false
                 }
             ],
@@ -3212,12 +3404,21 @@
             },
             "moves": [
                 {
+                    "name": "威嚇",
+                    "preaction": "",
+                    "action": "",
+                    "recovery": "",
+                    "note": "",
+                    "video": "videos/白兔獸/白兔獸_威嚇.mp4",
+                    "onlyincombo": false
+                },
+                {
                     "name": "正雪球",
                     "preaction": "",
                     "action": "",
                     "recovery": "",
                     "note": "",
-                    "image": "videos/白兔獸/白兔獸_正雪球.mp4",
+                    "video": "videos/白兔獸/白兔獸_正雪球.mp4",
                     "onlyincombo": false
                 },
                 {
@@ -3226,7 +3427,7 @@
                     "action": "",
                     "recovery": "",
                     "note": "",
-                    "image": "videos/白兔獸/白兔獸_側雪球.mp4",
+                    "video": "videos/白兔獸/白兔獸_側雪球.mp4",
                     "onlyincombo": false
                 },
                 {
@@ -3235,7 +3436,16 @@
                     "action": "",
                     "recovery": "",
                     "note": "",
-                    "image": "videos/白兔獸/白兔獸_二連雪球.mp4",
+                    "video": "videos/白兔獸/白兔獸_二連雪球.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "前撲",
+                    "preaction": "",
+                    "action": "",
+                    "recovery": "",
+                    "note": "",
+                    "video": "videos/白兔獸/白兔獸_前撲.mp4",
                     "onlyincombo": false
                 },
                 {
@@ -3244,7 +3454,7 @@
                     "action": "",
                     "recovery": "",
                     "note": "",
-                    "image": "videos/白兔獸/白兔獸_前滾翻.mp4",
+                    "video": "videos/白兔獸/白兔獸_前滾翻.mp4",
                     "onlyincombo": false
                 },
                 {
@@ -3253,16 +3463,52 @@
                     "action": "",
                     "recovery": "",
                     "note": "",
-                    "image": "videos/白兔獸/白兔獸_屁股坐.mp4",
+                    "video": "videos/白兔獸/白兔獸_屁股坐.mp4",
                     "onlyincombo": false
                 },
                 {
-                    "name": "噴射龍車",
+                    "name": "回首掏",
                     "preaction": "",
                     "action": "",
                     "recovery": "",
                     "note": "",
-                    "image": "videos/白兔獸/白兔獸_噴射龍車.mp4",
+                    "video": "videos/白兔獸/白兔獸_回首掏.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "連環巴掌",
+                    "preaction": "",
+                    "action": "",
+                    "recovery": "",
+                    "note": "",
+                    "video": "videos/白兔獸/白兔獸_連環巴掌.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "噴射滑行",
+                    "preaction": "",
+                    "action": "",
+                    "recovery": "",
+                    "note": "",
+                    "video": "videos/白兔獸/白兔獸_噴射滑行.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "側滑行",
+                    "preaction": "",
+                    "action": "",
+                    "recovery": "",
+                    "note": "",
+                    "video": "videos/白兔獸/白兔獸_側滑行.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "自轉滑行",
+                    "preaction": "",
+                    "action": "",
+                    "recovery": "",
+                    "note": "",
+                    "video": "videos/白兔獸/白兔獸_自轉滑行.mp4",
                     "onlyincombo": false
                 }
             ],
@@ -3289,7 +3535,35 @@
                             "links": []
                         },
                         {
-                            "move": "噴射龍車",
+                            "move": "噴射滑行",
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "root": 0,
+                    "condition": "",
+                    "nodes": [
+                        {
+                            "move": "噴射滑行",
+                            "links": [
+                                {
+                                    "node": 1,
+                                    "condition": ""
+                                }
+                            ]
+                        },
+                        {
+                            "move": "噴射滑行",
+                            "links": [
+                                {
+                                    "node": 2,
+                                    "condition": ""
+                                }
+                            ]
+                        },
+                        {
+                            "move": "噴射滑行",
                             "links": []
                         }
                     ]
@@ -3308,7 +3582,7 @@
                     "action": "",
                     "recovery": "",
                     "note": "",
-                    "image": "videos/雷狼龍/雷狼龍_前頂.mp4",
+                    "video": "videos/雷狼龍/雷狼龍_前頂.mp4",
                     "onlyincombo": false
                 },
                 {
@@ -3317,7 +3591,7 @@
                     "action": "",
                     "recovery": "",
                     "note": "",
-                    "image": "videos/雷狼龍/雷狼龍_落雷.mp4",
+                    "video": "videos/雷狼龍/雷狼龍_落雷.mp4",
                     "onlyincombo": false
                 }
             ],
@@ -3335,7 +3609,7 @@
                     "action": "",
                     "recovery": "",
                     "note": "",
-                    "image": "videos/金獅子/金獅子_連續拳.mp4",
+                    "video": "videos/金獅子/金獅子_連續拳.mp4",
                     "onlyincombo": false
                 }
             ],
@@ -3353,7 +3627,7 @@
                     "action": "",
                     "recovery": "",
                     "note": "",
-                    "image": "videos/迅龍/迅龍_甩尾.mp4",
+                    "video": "videos/迅龍/迅龍_甩尾.mp4",
                     "onlyincombo": false
                 },
                 {
@@ -3362,7 +3636,7 @@
                     "action": "",
                     "recovery": "",
                     "note": "",
-                    "image": "videos/迅龍/迅龍_尾鏢.mp4",
+                    "video": "videos/迅龍/迅龍_尾鏢.mp4",
                     "onlyincombo": false
                 },
                 {
@@ -3371,7 +3645,7 @@
                     "action": "",
                     "recovery": "",
                     "note": "",
-                    "image": "videos/迅龍/迅龍_繞後撲.mp4",
+                    "video": "videos/迅龍/迅龍_繞後撲.mp4",
                     "onlyincombo": false
                 }
             ],
@@ -3389,7 +3663,7 @@
                     "action": "",
                     "recovery": "",
                     "note": "",
-                    "image": "videos/飛雷龍/飛雷龍_小咬.mp4",
+                    "video": "videos/飛雷龍/飛雷龍_小咬.mp4",
                     "onlyincombo": false
                 },
                 {
@@ -3398,7 +3672,7 @@
                     "action": "",
                     "recovery": "",
                     "note": "",
-                    "image": "videos/飛雷龍/飛雷龍_折返撲.mp4",
+                    "video": "videos/飛雷龍/飛雷龍_折返撲.mp4",
                     "onlyincombo": false
                 }
             ],
@@ -3413,7 +3687,7 @@
                     "action": "單手下踩，發出吼聲。",
                     "recovery": "大",
                     "note": "戰鬥進憤怒時必先側跳或繞後跳才吼，這一跳會無視進行中的連段或硬直，很容易觀察。單手下踩時是滾吼時機",
-                    "image": "",
+                    "video": "",
                     "onlyincombo": false
                 },
                 {
@@ -3422,7 +3696,7 @@
                     "action": "快速往前小咬",
                     "recovery": "小",
                     "note": "",
-                    "image": "",
+                    "video": "",
                     "onlyincombo": false
                 },
                 {
@@ -3431,7 +3705,7 @@
                     "action": "往前二連咬，向前位移，兩段判定。",
                     "recovery": "小",
                     "note": "",
-                    "image": "",
+                    "video": "",
                     "onlyincombo": false
                 },
                 {
@@ -3440,7 +3714,7 @@
                     "action": "逆時針甩尾，帶一段向前位移。",
                     "recovery": "中",
                     "note": "",
-                    "image": "",
+                    "video": "",
                     "onlyincombo": false
                 },
                 {
@@ -3449,7 +3723,7 @@
                     "action": "順時針甩尾，攻擊後發呆。",
                     "recovery": "大",
                     "note": "",
-                    "image": "",
+                    "video": "",
                     "onlyincombo": false
                 },
                 {
@@ -3458,7 +3732,7 @@
                     "action": "尾巴由下到上向前甩出",
                     "recovery": "小",
                     "note": "若尾勾時甩出紅色泡泡，會派生第二下尾勾。(二連的起手蓄力也會稍微久一點)",
-                    "image": "",
+                    "video": "",
                     "onlyincombo": false
                 },
                 {
@@ -3467,7 +3741,7 @@
                     "action": "繞後跳到玩家身後，接著口中噴水由上至下。",
                     "recovery": "中",
                     "note": "較少單獨使出，常從後退吐三顆泡派生。有可能會變化成橫掃噴水(觀察)。噴水時易推倒。",
-                    "image": "",
+                    "video": "",
                     "onlyincombo": false
                 },
                 {
@@ -3476,7 +3750,7 @@
                     "action": "向前下拍",
                     "recovery": "小",
                     "note": "高機率無徵兆派生第二下，往尾巴方向是盲區。結束後若玩家位於身側有機會打轉頭。",
-                    "image": "",
+                    "video": "",
                     "onlyincombo": false
                 },
                 {
@@ -3485,7 +3759,7 @@
                     "action": "下壓後身體旋轉攻擊。",
                     "recovery": "小",
                     "note": "",
-                    "image": "",
+                    "video": "",
                     "onlyincombo": false
                 },
                 {
@@ -3494,7 +3768,7 @@
                     "action": "下壓，身體向前小幅度滑行，射出Y字型三個方向的泡泡",
                     "recovery": "小",
                     "note": "",
-                    "image": "",
+                    "video": "",
                     "onlyincombo": false
                 },
                 {
@@ -3503,7 +3777,7 @@
                     "action": "身體向前長距離滑行，身後留下綠色泡泡。",
                     "recovery": "小",
                     "note": "較少單獨使用或作為起手，通常為連招接在繞後跳之後，之後接三泡、洗衣機。",
-                    "image": "",
+                    "video": "",
                     "onlyincombo": false
                 },
                 {
@@ -3512,7 +3786,7 @@
                     "action": "側跳飄移滑行後，尾巴用力向前甩。",
                     "recovery": "小",
                     "note": "",
-                    "image": "",
+                    "video": "",
                     "onlyincombo": false
                 },
                 {
@@ -3521,7 +3795,7 @@
                     "action": "翻身側跳，常會勾出兩顆泡泡。",
                     "recovery": "小",
                     "note": "通常作為連招起手，也常常會二連側跳或來回側跳。",
-                    "image": "",
+                    "video": "",
                     "onlyincombo": false
                 },
                 {
@@ -3530,7 +3804,7 @@
                     "action": "繞後跳至玩家身後，有時會甩出泡泡。",
                     "recovery": "小",
                     "note": "通常作為連招起手，或是進憤怒狀態時接龍吼。",
-                    "image": "",
+                    "video": "",
                     "onlyincombo": true
                 },
                 {
@@ -3539,7 +3813,7 @@
                     "action": "第一次三顆，第二次兩顆，位置交錯。",
                     "recovery": "小",
                     "note": "距離較遠時容易使出。",
-                    "image": "",
+                    "video": "",
                     "onlyincombo": false
                 },
                 {
@@ -3548,7 +3822,7 @@
                     "action": "後退幾步後吐出三顆泡泡。",
                     "recovery": "",
                     "note": "這招接下來必會繞後跳噴水",
-                    "image": "",
+                    "video": "",
                     "onlyincombo": true
                 },
                 {
@@ -3557,7 +3831,7 @@
                     "action": "後跳，吐出一顆大泡泡",
                     "recovery": "小",
                     "note": "常作為招牌連招的起手，較少單獨使用。",
-                    "image": "",
+                    "video": "",
                     "onlyincombo": false
                 },
                 {
@@ -3566,7 +3840,7 @@
                     "action": "前跳，吐出三顆泡泡",
                     "recovery": "小",
                     "note": "作為連招中間段，後面必接飛身洗衣機。",
-                    "image": "",
+                    "video": "",
                     "onlyincombo": true
                 },
                 {
@@ -3575,7 +3849,7 @@
                     "action": "飛身撲向玩家位置後，原地旋轉攻擊。",
                     "recovery": "大",
                     "note": "招牌連招結尾，距離很遠方向修正強，結束後有大空檔。",
-                    "image": "",
+                    "video": "",
                     "onlyincombo": true
                 },
                 {
@@ -3584,7 +3858,7 @@
                     "action": "順時針噴水，結束時會往最後頭面對的方向小後跳。",
                     "recovery": "大",
                     "note": "只會作為連招結尾，結束後有大空檔。",
-                    "image": "",
+                    "video": "",
                     "onlyincombo": true
                 }
             ],
@@ -3744,7 +4018,7 @@
                     "action": "",
                     "recovery": "",
                     "note": "",
-                    "image": "",
+                    "video": "",
                     "onlyincombo": false
                 },
                 {
@@ -3753,7 +4027,7 @@
                     "action": "",
                     "recovery": "",
                     "note": "",
-                    "image": "",
+                    "video": "",
                     "onlyincombo": false
                 },
                 {
@@ -3762,7 +4036,7 @@
                     "action": "",
                     "recovery": "",
                     "note": "",
-                    "image": "",
+                    "video": "",
                     "onlyincombo": false
                 },
                 {
@@ -3771,7 +4045,7 @@
                     "action": "",
                     "recovery": "",
                     "note": "",
-                    "image": "",
+                    "video": "",
                     "onlyincombo": false
                 },
                 {
@@ -3780,7 +4054,7 @@
                     "action": "",
                     "recovery": "",
                     "note": "",
-                    "image": "",
+                    "video": "",
                     "onlyincombo": true
                 },
                 {
@@ -3789,7 +4063,7 @@
                     "action": "",
                     "recovery": "",
                     "note": "",
-                    "image": "",
+                    "video": "",
                     "onlyincombo": true
                 },
                 {
@@ -3798,7 +4072,7 @@
                     "action": "",
                     "recovery": "",
                     "note": "",
-                    "image": "",
+                    "video": "",
                     "onlyincombo": true
                 },
                 {
@@ -3807,7 +4081,7 @@
                     "action": "",
                     "recovery": "",
                     "note": "",
-                    "image": "",
+                    "video": "",
                     "onlyincombo": true
                 },
                 {
@@ -3816,7 +4090,7 @@
                     "action": "",
                     "recovery": "",
                     "note": "",
-                    "image": "",
+                    "video": "",
                     "onlyincombo": true
                 },
                 {
@@ -3825,7 +4099,7 @@
                     "action": "",
                     "recovery": "",
                     "note": "",
-                    "image": "",
+                    "video": "",
                     "onlyincombo": false
                 },
                 {
@@ -3835,7 +4109,7 @@
                     "action": "",
                     "recovery": "",
                     "note": "玩家超過三人時會變三連灌籃。",
-                    "image": "",
+                    "video": "",
                     "onlyincombo": false
                 },
                 {
@@ -3844,7 +4118,7 @@
                     "action": "",
                     "recovery": "",
                     "note": "",
-                    "image": "",
+                    "video": "",
                     "onlyincombo": true
                 },
                 {
@@ -3853,7 +4127,7 @@
                     "action": "",
                     "recovery": "",
                     "note": "",
-                    "image": "",
+                    "video": "",
                     "onlyincombo": true
                 },
                 {
@@ -3862,7 +4136,7 @@
                     "action": "",
                     "recovery": "",
                     "note": "",
-                    "image": "",
+                    "video": "",
                     "onlyincombo": true
                 },
                 {
@@ -3871,7 +4145,7 @@
                     "action": "",
                     "recovery": "",
                     "note": "",
-                    "image": "",
+                    "video": "",
                     "onlyincombo": false
                 }
             ],

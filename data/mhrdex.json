@@ -2992,7 +2992,7 @@
         "en": "Barroth"
       },
       "species": "brute_wyvern",
-      "image": null,
+      "image": "images/monsters/fullbody/barroth.png",
       "icon": "images/monsters/icons/barroth.png",
       "icon_large": "images/monsters/icons/large/barroth.png",
       "description": "人稱「土砂龍」。或許是為了讓身體不受高溫影響，平常也會潛在泥中。一種可能性較高的假設指出，牠將泥巴包覆在身上是為了避暑，也會將其用於攻擊，須小心留意。另外，牠討厭擾亂泥沼的訪客，會橫衝直撞地攻擊不速之客。\n土砂龍會甩出泥巴，將所經之處弄得滿是泥濘。如果想要在狩獵時獲得優勢，不妨攻擊土砂龍身上包覆著泥巴的部位使其剝落。在牠身上沒有泥巴時，對付起來應該會相對輕鬆。",

@@ -74,17 +74,9 @@
             </tbody>
           </table>
         </details>
-        <details open v-if="!(movedata?.riding_moves===undefined)">
-          <summary class="header2">{{$t('monster.riding_moves')}}</summary>
-          <div class="interval-y-large" :key="key" v-for="(move, key) in movedata.riding_moves">
-            <div class="flex-row flex-start">
-              <div class="description-text text-bold">{{move.name}}</div>
-              <div class="flex-row flex-intense" v-html="ParseCommand(move.command)"></div>
-            </div>
-            <div v-if="!IsNullOrEmpty(move.note)" class="description-text">{{'*' + move.note}}</div>
-          </div>
-        </details>
-        <div id="divmoves" v-if="!IsNullOrEmpty(movedata)">
+
+        <mon_moves :monmoves="movedata" v-if="!IsNullOrEmpty(movedata)"></mon_moves>
+        <!-- <div id="divmoves" v-if="!IsNullOrEmpty(movedata)">
           <details open v-show="!IsNullOrEmpty(movedata.outline)">
             <summary class="header2">{{$t('monster.battlestrategy')}}</summary>
             <span id="moveoutline" v-html="GetDescriptionText('outline', 'move')"></span>
@@ -94,7 +86,7 @@
             <div class="description-text">{{$t('monster.move.moveshint')}}</div>
             <mon_moves :monmoves="movedata"></mon_moves>
           </details>
-        </div>
+        </div>-->
         <details v-if="!IsNullOrEmpty(mondata.detail)">
           <summary class="header2">{{$t('description_detail')}}</summary>
           <span id="detail" v-html="GetDescriptionText('detail')"></span>
