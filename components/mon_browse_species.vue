@@ -1,6 +1,26 @@
 <template>
   <div>
     <div class="layout-main">
+      <!-- <template v-for="(container, species) in specieslist">
+        <div v-if="species!=='all'" :key="species">
+          <div class="header3" :key="species">{{ $t('monster.species.' + species)}}</div>
+          <div class="link-list" :key="species">
+            <router-link
+              tag="button"
+              class="link-button"
+              v-for="(mon, key) in container"
+              :key="key"
+              :to="'/mon/' + key"
+            >
+              <img
+                class="link-icon"
+                v-bind:src="IsNullOrEmpty(mon.icon) ? 'images/icons/endemics/unknown.png': mon.icon "
+              />
+              <div class="link-text">{{ $t('monster.name.'+key ) }}</div>
+            </router-link>
+          </div>
+        </div>
+      </template>-->
       <div class="header3">{{$t('species')}}</div>
       <div id="specieslist">
         <router-link
@@ -24,7 +44,7 @@ module.exports = {
   },
   props: ["specieslist", "dex"],
   computed: {
-    list: function () {
+    listWithoutAll: function () {
 
     }
   },

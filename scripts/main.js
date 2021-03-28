@@ -39,7 +39,7 @@ $(document).ready(Initialize);
 
 function Initialize() {
 
-    LoadData(['data/mhrdex.json', 'data/mhrmoves.json', 'data/endemics.json', "data/small_monster.json", "data/weapons.json", "data/output.json"], onDexLoaded);
+    LoadData(['data/mhrdex.json', 'data/mhrmoves.json', 'data/endemics.json', "data/small_monster.json", "data/weapons.json", "data/monparsed.json"], onDexLoaded);
 }
 
 function LoadData(paths, callback) {
@@ -127,7 +127,7 @@ function onDexLoaded() {
         }
     }
 
-
+    // someDataWorks();
 
 
 
@@ -188,25 +188,74 @@ function someDataWorks() {
     //     }
     // }
 
-    var container = {}
-    for (let key in i18n.messages["tw"].data.endemic_lifes) {
-        var currentData;
-        if (data.endemic_lifes[key] === undefined) {
-            console.log("cant find " + key);
-            currentData = {
-                "name": "",
-                "type": "",
-                "image": "images/endemics/" + i18n.messages["tw"].data.endemic_lifes[key].name + ".png",
-                "video": "",
-                "attributes": null,
-                "description": ""
-            }
-            container[key] = currentData;
-        } else {
-            currentData = data.endemic_lifes[key];
+    let tempDic = {};
+    for (let id in data['parsed']) {
+        let item = data['parsed'][id];
+        console.log(item.url);
+        let foundedMonID = "";
+        for (let monID in data['large_monsters']) {
+            let mon = data['large_monsters'][monID];
+            if (mon.name.en === item.name_en)
+                foundedMonID = monID;
         }
-        currentData.name = i18n.messages["tw"].data.endemic_lifes[key].name;
-        currentData.description = i18n.messages["tw"].data.endemic_lifes[key].description;
+        console.log(foundedMonID);
+        tempDic[foundedMonID] = item;
+    }
+
+
+    let partTrans = {
+        "首": "頸",
+        "胴": "身",
+        "前脚": "前腳",
+        "後脚": "後腳",
+        "尻尾": "尾巴",
+        "脚": "腳",
+        "尾先": "尾尖",
+        "髪ヒレ": "髮鰭",
+        "タテガミ": "鬃毛",
+        "ヒレ": "鰭",
+        "胴体": "身體",
+        "氷塊": "冰塊",
+        "首・背": "頸・背",
+        "尾根元": "尾根",
+        "首下": "頸下",
+        "回転中": "滾動中",
+        "尻": "屁股",
+        "脚(糸)": "腳(絲)",
+        "尻先": "尾尖",
+        "尻": "屁股",
+    }
+
+    for (let id in tempDic) {
+        let item = tempDic[id];
+        let target = data['large_monsters'][id];
+        if (id !== "arzuros" && id !== "mizutsune" && id !== "great_izuchi" && id !== "rathian" && id !== "magnamalo") {
+            console.log(target.name.tw + " no hitdata, do write");
+
+            if (target.hitdata === undefined)
+                target.hitdata = {}
+            target.hitdata.parts = [];
+            for (let i in item.meatQuality) {
+                let parsedPart = item.meatQuality[i];
+                let partName = partTrans.hasOwnProperty(parsedPart.part) ? partTrans[parsedPart.part] : parsedPart.part;
+                target.hitdata.parts.push({
+                    "part": partName,
+                    "condition": parsedPart.partCondition === parsedPart.part ? "通常" : parsedPart.partCondition,
+                    "cut": parsedPart.cut,
+                    "blunt": parsedPart.hit,
+                    "ammo": parsedPart.shot,
+                    "fire": parsedPart.fire,
+                    "water": parsedPart.water,
+                    "thunder": parsedPart.thunder,
+                    "ice": parsedPart.ice,
+                    "dragon": parsedPart.dragon
+                })
+            }
+
+        } else {
+            console.log(target.name.tw + " has hitdata, no write");
+        }
+
     }
     // outputText(JSON.stringify(container));
 
@@ -217,7 +266,7 @@ function someDataWorks() {
     //     mon = moveObjectElement("icon_large", "icon", mon);
     //     data.large_monsters[id] = mon;
     // }
-    // outputText(JSON.stringify(data.large_monsters));
+    outputText(JSON.stringify(data.large_monsters));
 
 
     // console.log(JSON.stringify(temp));

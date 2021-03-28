@@ -274,13 +274,16 @@
       "name": {
         "tw": "首領青熊獸",
         "jp": "",
-        "en": ""
+        "en": "ApexArzuros"
       },
       "species": "fanged_beast",
       "image": "",
       "icon": "images/monsters/icons/apex_arzuros.png",
       "icon_large": "images/monsters/icons/large/apex_arzuros.png",
-      "description": "冠有「首領」之名的青熊獸。全身上下都有著像是被捲入暴風後所留下的傷痕，這也許是牠一直受到憤怒與恐懼支配的原因。前腳比起一般的個體更加發達，凡是阻其去路者，在其怪力之下無一倖存。另外，首領會藉由咆嘯，將自己的憤怒與恐懼散播至周遭，使其他魔物變得活躍起來。\n首領發怒後，會施展最強勁的必殺技。首領青熊獸的必殺技為一邊連續敲擊地面並同時接近，給予障礙物猛烈的一擊。當首領處於憤怒狀態時，記得要持續攻擊，盡早使其膽怯，平息首領的怒火吧。"
+      "description": "冠有「首領」之名的青熊獸。全身上下都有著像是被捲入暴風後所留下的傷痕，這也許是牠一直受到憤怒與恐懼支配的原因。前腳比起一般的個體更加發達，凡是阻其去路者，在其怪力之下無一倖存。另外，首領會藉由咆嘯，將自己的憤怒與恐懼散播至周遭，使其他魔物變得活躍起來。\n首領發怒後，會施展最強勁的必殺技。首領青熊獸的必殺技為一邊連續敲擊地面並同時接近，給予障礙物猛烈的一擊。當首領處於憤怒狀態時，記得要持續攻擊，盡早使其膽怯，平息首領的怒火吧。",
+      "hitdata": {
+        "parts": []
+      }
     },
     "rathian": {
       "name": {
@@ -439,13 +442,16 @@
       "name": {
         "tw": "首領雌火龍",
         "jp": "",
-        "en": ""
+        "en": "ApexRathian"
       },
       "species": "flying_wryven",
       "image": "",
       "icon": "images/monsters/icons/apex_rathian.png",
       "icon_large": "images/monsters/icons/large/apex_rathian.png",
-      "description": "冠有「首領」之名的雌火龍。全身上下都有著像是被捲入暴風後所留下的傷痕，這也許是牠一直受到憤怒與恐懼支配的原因。尾巴比起一般的個體更加發達，棘上還有著猛烈的劇毒。另外，首領會藉由咆嘯，將自己的憤怒與恐懼散播至周遭，使其他魔物變得活躍起來。\n首領發怒後，會施展最強勁的必殺技。首領雌火龍的必殺技為將具有猛毒的棘射向四周，並以飛散的棘為中心創造出毒素領域。當首領處於憤怒狀態時，記得要持續攻擊，盡早使其膽怯，平息首領的怒火吧。"
+      "description": "冠有「首領」之名的雌火龍。全身上下都有著像是被捲入暴風後所留下的傷痕，這也許是牠一直受到憤怒與恐懼支配的原因。尾巴比起一般的個體更加發達，棘上還有著猛烈的劇毒。另外，首領會藉由咆嘯，將自己的憤怒與恐懼散播至周遭，使其他魔物變得活躍起來。\n首領發怒後，會施展最強勁的必殺技。首領雌火龍的必殺技為將具有猛毒的棘射向四周，並以飛散的棘為中心創造出毒素領域。當首領處於憤怒狀態時，記得要持續攻擊，盡早使其膽怯，平息首領的怒火吧。",
+      "hitdata": {
+        "parts": []
+      }
     },
     "mizutsune": {
       "name": {
@@ -752,13 +758,16 @@
       "name": {
         "tw": "首領泡狐龍",
         "jp": "",
-        "en": ""
+        "en": "ApexMizutsune"
       },
       "species": "leviathan",
       "image": "",
       "icon": "images/monsters/icons/apex_mizutsune.png",
       "icon_large": "images/monsters/icons/large/apex_mizutsune.png",
-      "description": "冠有「首領」之名的泡狐龍。全身上下都有著像是被捲入暴風後所留下的傷痕，這也許是牠一直受到憤怒與恐懼支配的原因。尾巴比起一般的個體更加發達，其頑強的攻擊會將目標的希望與鬥志化為泡影。另外，首領會藉由咆嘯，將自己的憤怒與恐懼散播至周遭，使其他魔物變得活躍起來。\n首領發怒後，會施展最強勁的必殺技。首領泡狐龍的必殺技為撒出會爆炸的泡泡，破壞四周的一切。此時不妨使用苦無、彈藥或弩砲等方式來處理泡泡。當首領處於憤怒狀態時，記得要持續攻擊，盡早使其膽怯，平息首領的怒火吧。"
+      "description": "冠有「首領」之名的泡狐龍。全身上下都有著像是被捲入暴風後所留下的傷痕，這也許是牠一直受到憤怒與恐懼支配的原因。尾巴比起一般的個體更加發達，其頑強的攻擊會將目標的希望與鬥志化為泡影。另外，首領會藉由咆嘯，將自己的憤怒與恐懼散播至周遭，使其他魔物變得活躍起來。\n首領發怒後，會施展最強勁的必殺技。首領泡狐龍的必殺技為撒出會爆炸的泡泡，破壞四周的一切。此時不妨使用苦無、彈藥或弩砲等方式來處理泡泡。當首領處於憤怒狀態時，記得要持續攻擊，盡早使其膽怯，平息首領的怒火吧。",
+      "hitdata": {
+        "parts": []
+      }
     },
     "magnamalo": {
       "name": {
@@ -998,7 +1007,107 @@
             -1
           ]
         }
-      ]
+      ],
+      "hitdata": {
+        "parts": [
+          {
+            "part": "頭",
+            "condition": "通常",
+            "cut": "65",
+            "blunt": "70",
+            "ammo": "60",
+            "fire": "20",
+            "water": "0",
+            "thunder": "30",
+            "ice": "15",
+            "dragon": "10"
+          },
+          {
+            "part": "頸",
+            "condition": "通常",
+            "cut": "50",
+            "blunt": "55",
+            "ammo": "40",
+            "fire": "10",
+            "water": "0",
+            "thunder": "20",
+            "ice": "5",
+            "dragon": "5"
+          },
+          {
+            "part": "身",
+            "condition": "通常",
+            "cut": "40",
+            "blunt": "40",
+            "ammo": "30",
+            "fire": "10",
+            "water": "0",
+            "thunder": "20",
+            "ice": "5",
+            "dragon": "0"
+          },
+          {
+            "part": "身",
+            "condition": "(満腹時)",
+            "cut": "45",
+            "blunt": "45",
+            "ammo": "35",
+            "fire": "20",
+            "water": "0",
+            "thunder": "30",
+            "ice": "10",
+            "dragon": "10"
+          },
+          {
+            "part": "背中",
+            "condition": "通常",
+            "cut": "25",
+            "blunt": "35",
+            "ammo": "25",
+            "fire": "5",
+            "water": "0",
+            "thunder": "10",
+            "ice": "5",
+            "dragon": "0"
+          },
+          {
+            "part": "前腳",
+            "condition": "通常",
+            "cut": "50",
+            "blunt": "45",
+            "ammo": "40",
+            "fire": "15",
+            "water": "0",
+            "thunder": "25",
+            "ice": "10",
+            "dragon": "5"
+          },
+          {
+            "part": "後腳",
+            "condition": "通常",
+            "cut": "35",
+            "blunt": "30",
+            "ammo": "25",
+            "fire": "5",
+            "water": "0",
+            "thunder": "15",
+            "ice": "0",
+            "dragon": "0"
+          },
+          {
+            "part": "尾巴",
+            "condition": "通常",
+            "cut": "30",
+            "blunt": "30",
+            "ammo": "25",
+            "fire": "5",
+            "water": "0",
+            "thunder": "15",
+            "ice": "0",
+            "dragon": "0"
+          }
+        ]
+      }
     },
     "aknosom": {
       "name": {
@@ -1023,6 +1132,7 @@
         "parts": [
           {
             "part": "頭",
+            "condition": "通常",
             "cut": "63",
             "blunt": "80",
             "ammo": "50",
@@ -1033,7 +1143,8 @@
             "dragon": "0"
           },
           {
-            "part": "頭冠",
+            "part": "傘",
+            "condition": "通常",
             "cut": "63",
             "blunt": "50",
             "ammo": "40",
@@ -1045,6 +1156,7 @@
           },
           {
             "part": "頸",
+            "condition": "通常",
             "cut": "43",
             "blunt": "43",
             "ammo": "20",
@@ -1056,6 +1168,7 @@
           },
           {
             "part": "身",
+            "condition": "通常",
             "cut": "38",
             "blunt": "38",
             "ammo": "20",
@@ -1067,6 +1180,7 @@
           },
           {
             "part": "翼",
+            "condition": "通常",
             "cut": "63",
             "blunt": "50",
             "ammo": "40",
@@ -1078,6 +1192,7 @@
           },
           {
             "part": "腳",
+            "condition": "通常",
             "cut": "36",
             "blunt": "36",
             "ammo": "10",
@@ -1089,6 +1204,7 @@
           },
           {
             "part": "尾巴",
+            "condition": "通常",
             "cut": "43",
             "blunt": "43",
             "ammo": "25",
@@ -1096,6 +1212,18 @@
             "water": "20",
             "thunder": "15",
             "ice": "10",
+            "dragon": "0"
+          },
+          {
+            "part": "尾尖",
+            "condition": "通常",
+            "cut": "36",
+            "blunt": "36",
+            "ammo": "30",
+            "fire": "0",
+            "water": "30",
+            "thunder": "20",
+            "ice": "5",
             "dragon": "0"
           }
         ]
@@ -1124,6 +1252,7 @@
         "parts": [
           {
             "part": "頭",
+            "condition": "通常",
             "cut": "65",
             "blunt": "55",
             "ammo": "45",
@@ -1134,7 +1263,8 @@
             "dragon": "0"
           },
           {
-            "part": "頭鰭",
+            "part": "髮鰭",
+            "condition": "通常",
             "cut": "40",
             "blunt": "40",
             "ammo": "20",
@@ -1146,6 +1276,7 @@
           },
           {
             "part": "頸",
+            "condition": "通常",
             "cut": "70",
             "blunt": "70",
             "ammo": "60",
@@ -1157,6 +1288,7 @@
           },
           {
             "part": "前腳",
+            "condition": "通常",
             "cut": "45",
             "blunt": "45",
             "ammo": "35",
@@ -1168,6 +1300,7 @@
           },
           {
             "part": "腹",
+            "condition": "通常",
             "cut": "30",
             "blunt": "40",
             "ammo": "20",
@@ -1179,6 +1312,7 @@
           },
           {
             "part": "背中",
+            "condition": "通常",
             "cut": "25",
             "blunt": "25",
             "ammo": "15",
@@ -1190,12 +1324,25 @@
           },
           {
             "part": "後腳",
+            "condition": "通常",
             "cut": "25",
             "blunt": "30",
             "ammo": "25",
             "fire": "10",
             "water": "0",
             "thunder": "25",
+            "ice": "0",
+            "dragon": "0"
+          },
+          {
+            "part": "尾巴",
+            "condition": "通常",
+            "cut": "60",
+            "blunt": "55",
+            "ammo": "35",
+            "fire": "15",
+            "water": "0",
+            "thunder": "30",
             "ice": "0",
             "dragon": "0"
           }
@@ -1265,7 +1412,8 @@
         "parts": [
           {
             "part": "頭",
-            "cut": "63",
+            "condition": "通常",
+            "cut": "75",
             "blunt": "70",
             "ammo": "80",
             "fire": "30",
@@ -1276,6 +1424,7 @@
           },
           {
             "part": "頸",
+            "condition": "通常",
             "cut": "75",
             "blunt": "50",
             "ammo": "50",
@@ -1287,6 +1436,7 @@
           },
           {
             "part": "身",
+            "condition": "通常",
             "cut": "45",
             "blunt": "45",
             "ammo": "25",
@@ -1298,6 +1448,7 @@
           },
           {
             "part": "翼",
+            "condition": "通常",
             "cut": "25",
             "blunt": "25",
             "ammo": "25",
@@ -1308,8 +1459,9 @@
             "dragon": "5"
           },
           {
-            "part": "腳",
-            "cut": "25",
+            "part": "左脚",
+            "condition": "通常",
+            "cut": "36",
             "blunt": "20",
             "ammo": "35",
             "fire": "15",
@@ -1319,7 +1471,44 @@
             "dragon": "5"
           },
           {
+            "part": "左脚",
+            "condition": "(破壊後)",
+            "cut": "46",
+            "blunt": "30",
+            "ammo": "45",
+            "fire": "17",
+            "water": "5",
+            "thunder": "0",
+            "ice": "5",
+            "dragon": "5"
+          },
+          {
+            "part": "右脚",
+            "condition": "通常",
+            "cut": "36",
+            "blunt": "20",
+            "ammo": "35",
+            "fire": "15",
+            "water": "5",
+            "thunder": "0",
+            "ice": "5",
+            "dragon": "5"
+          },
+          {
+            "part": "右脚",
+            "condition": "(破壊後)",
+            "cut": "46",
+            "blunt": "30",
+            "ammo": "45",
+            "fire": "17",
+            "water": "5",
+            "thunder": "0",
+            "ice": "5",
+            "dragon": "5"
+          },
+          {
             "part": "尾巴",
+            "condition": "通常",
             "cut": "20",
             "blunt": "20",
             "ammo": "30",
@@ -1395,8 +1584,9 @@
         "parts": [
           {
             "part": "頭",
-            "cut": "40",
-            "blunt": "45",
+            "condition": "通常",
+            "cut": "50",
+            "blunt": "55",
             "ammo": "65",
             "fire": "30",
             "water": "0",
@@ -1406,10 +1596,11 @@
           },
           {
             "part": "鬃毛",
+            "condition": "通常",
             "cut": "65",
             "blunt": "50",
             "ammo": "35",
-            "fire": "40",
+            "fire": "30",
             "water": "0",
             "thunder": "15",
             "ice": "10",
@@ -1417,10 +1608,11 @@
           },
           {
             "part": "腹",
+            "condition": "通常",
             "cut": "50",
             "blunt": "40",
             "ammo": "35",
-            "fire": "35",
+            "fire": "30",
             "water": "0",
             "thunder": "10",
             "ice": "10",
@@ -1428,6 +1620,7 @@
           },
           {
             "part": "背中",
+            "condition": "通常",
             "cut": "30",
             "blunt": "45",
             "ammo": "35",
@@ -1439,6 +1632,7 @@
           },
           {
             "part": "前腳",
+            "condition": "通常",
             "cut": "24",
             "blunt": "40",
             "ammo": "25",
@@ -1450,6 +1644,7 @@
           },
           {
             "part": "後腳",
+            "condition": "通常",
             "cut": "30",
             "blunt": "24",
             "ammo": "30",
@@ -1461,6 +1656,7 @@
           },
           {
             "part": "尾巴",
+            "condition": "通常",
             "cut": "40",
             "blunt": "30",
             "ammo": "40",
@@ -1536,6 +1732,7 @@
         "parts": [
           {
             "part": "頭",
+            "condition": "通常",
             "cut": "65",
             "blunt": "70",
             "ammo": "60",
@@ -1547,6 +1744,7 @@
           },
           {
             "part": "頸",
+            "condition": "通常",
             "cut": "35",
             "blunt": "40",
             "ammo": "30",
@@ -1557,7 +1755,8 @@
             "dragon": "20"
           },
           {
-            "part": "身・背",
+            "part": "腹・背",
+            "condition": "通常",
             "cut": "25",
             "blunt": "25",
             "ammo": "20",
@@ -1569,6 +1768,7 @@
           },
           {
             "part": "翼",
+            "condition": "通常",
             "cut": "50",
             "blunt": "45",
             "ammo": "40",
@@ -1580,6 +1780,7 @@
           },
           {
             "part": "腳",
+            "condition": "通常",
             "cut": "35",
             "blunt": "35",
             "ammo": "30",
@@ -1591,6 +1792,7 @@
           },
           {
             "part": "尾巴",
+            "condition": "通常",
             "cut": "45",
             "blunt": "40",
             "ammo": "35",
@@ -1666,6 +1868,7 @@
         "parts": [
           {
             "part": "頭",
+            "condition": "通常",
             "cut": "75",
             "blunt": "80",
             "ammo": "70",
@@ -1676,7 +1879,20 @@
             "dragon": "10"
           },
           {
+            "part": "舌",
+            "condition": "通常",
+            "cut": "95",
+            "blunt": "90",
+            "ammo": "85",
+            "fire": "15",
+            "water": "0",
+            "thunder": "30",
+            "ice": "20",
+            "dragon": "10"
+          },
+          {
             "part": "頸",
+            "condition": "通常",
             "cut": "40",
             "blunt": "35",
             "ammo": "30",
@@ -1688,6 +1904,7 @@
           },
           {
             "part": "身",
+            "condition": "通常",
             "cut": "35",
             "blunt": "35",
             "ammo": "30",
@@ -1699,6 +1916,7 @@
           },
           {
             "part": "翼",
+            "condition": "通常",
             "cut": "50",
             "blunt": "45",
             "ammo": "40",
@@ -1710,6 +1928,7 @@
           },
           {
             "part": "腳",
+            "condition": "通常",
             "cut": "45",
             "blunt": "45",
             "ammo": "40",
@@ -1721,6 +1940,7 @@
           },
           {
             "part": "尾巴",
+            "condition": "通常",
             "cut": "55",
             "blunt": "50",
             "ammo": "45",
@@ -1796,6 +2016,7 @@
         "parts": [
           {
             "part": "頭",
+            "condition": "通常",
             "cut": "68",
             "blunt": "68",
             "ammo": "60",
@@ -1807,6 +2028,7 @@
           },
           {
             "part": "前腳",
+            "condition": "通常",
             "cut": "52",
             "blunt": "56",
             "ammo": "45",
@@ -1818,6 +2040,7 @@
           },
           {
             "part": "身",
+            "condition": "通常",
             "cut": "45",
             "blunt": "45",
             "ammo": "40",
@@ -1829,6 +2052,7 @@
           },
           {
             "part": "尾巴",
+            "condition": "通常",
             "cut": "55",
             "blunt": "50",
             "ammo": "35",
@@ -1904,6 +2128,7 @@
         "parts": [
           {
             "part": "頭",
+            "condition": "通常",
             "cut": "48",
             "blunt": "48",
             "ammo": "45",
@@ -1915,6 +2140,7 @@
           },
           {
             "part": "頸",
+            "condition": "通常",
             "cut": "48",
             "blunt": "48",
             "ammo": "45",
@@ -1926,6 +2152,7 @@
           },
           {
             "part": "身",
+            "condition": "通常",
             "cut": "45",
             "blunt": "45",
             "ammo": "35",
@@ -1937,6 +2164,7 @@
           },
           {
             "part": "背中",
+            "condition": "通常",
             "cut": "45",
             "blunt": "45",
             "ammo": "48",
@@ -1948,6 +2176,7 @@
           },
           {
             "part": "前腳",
+            "condition": "通常",
             "cut": "35",
             "blunt": "35",
             "ammo": "15",
@@ -1959,6 +2188,7 @@
           },
           {
             "part": "後腳",
+            "condition": "通常",
             "cut": "30",
             "blunt": "30",
             "ammo": "10",
@@ -1970,6 +2200,7 @@
           },
           {
             "part": "尾巴",
+            "condition": "通常",
             "cut": "65",
             "blunt": "65",
             "ammo": "55",
@@ -2045,6 +2276,7 @@
         "parts": [
           {
             "part": "頭",
+            "condition": "通常",
             "cut": "70",
             "blunt": "70",
             "ammo": "60",
@@ -2056,6 +2288,7 @@
           },
           {
             "part": "鼻",
+            "condition": "通常",
             "cut": "80",
             "blunt": "75",
             "ammo": "65",
@@ -2067,6 +2300,7 @@
           },
           {
             "part": "頸",
+            "condition": "通常",
             "cut": "30",
             "blunt": "30",
             "ammo": "15",
@@ -2078,6 +2312,7 @@
           },
           {
             "part": "翼",
+            "condition": "通常",
             "cut": "50",
             "blunt": "45",
             "ammo": "55",
@@ -2089,6 +2324,7 @@
           },
           {
             "part": "身",
+            "condition": "通常",
             "cut": "30",
             "blunt": "30",
             "ammo": "45",
@@ -2100,6 +2336,7 @@
           },
           {
             "part": "腳",
+            "condition": "通常",
             "cut": "30",
             "blunt": "30",
             "ammo": "15",
@@ -2111,10 +2348,10 @@
           },
           {
             "part": "腳",
-            "condition": "破壊後",
+            "condition": "(破壊後)",
             "cut": "45",
             "blunt": "45",
-            "ammo": "50",
+            "ammo": "30",
             "fire": "0",
             "water": "15",
             "thunder": "5",
@@ -2123,6 +2360,7 @@
           },
           {
             "part": "尾巴",
+            "condition": "通常",
             "cut": "60",
             "blunt": "60",
             "ammo": "55",
@@ -2212,6 +2450,7 @@
         "parts": [
           {
             "part": "頭",
+            "condition": "通常",
             "cut": "63",
             "blunt": "63",
             "ammo": "53",
@@ -2223,18 +2462,19 @@
           },
           {
             "part": "頭",
-            "condition": "泥纏",
+            "condition": "(泥纏)",
             "cut": "50",
             "blunt": "50",
             "ammo": "40",
             "fire": "0",
-            "water": "25",
-            "thunder": "10",
+            "water": "0",
+            "thunder": "0",
             "ice": "5",
             "dragon": "5"
           },
           {
             "part": "頸",
+            "condition": "通常",
             "cut": "43",
             "blunt": "43",
             "ammo": "43",
@@ -2246,6 +2486,7 @@
           },
           {
             "part": "身",
+            "condition": "通常",
             "cut": "35",
             "blunt": "35",
             "ammo": "35",
@@ -2257,18 +2498,19 @@
           },
           {
             "part": "身",
-            "condition": "泥纏",
+            "condition": "(泥纏)",
             "cut": "30",
             "blunt": "30",
             "ammo": "25",
-            "fire": "10",
-            "water": "25",
+            "fire": "0",
+            "water": "0",
             "thunder": "0",
             "ice": "5",
             "dragon": "5"
           },
           {
             "part": "背中",
+            "condition": "通常",
             "cut": "25",
             "blunt": "25",
             "ammo": "25",
@@ -2280,6 +2522,7 @@
           },
           {
             "part": "鰭",
+            "condition": "通常",
             "cut": "25",
             "blunt": "25",
             "ammo": "25",
@@ -2291,6 +2534,7 @@
           },
           {
             "part": "腳",
+            "condition": "通常",
             "cut": "45",
             "blunt": "45",
             "ammo": "40",
@@ -2302,18 +2546,19 @@
           },
           {
             "part": "腳",
-            "condition": "泥纏",
+            "condition": "(泥纏)",
             "cut": "35",
             "blunt": "35",
             "ammo": "30",
             "fire": "0",
-            "water": "25",
-            "thunder": "30",
+            "water": "0",
+            "thunder": "0",
             "ice": "5",
             "dragon": "5"
           },
           {
             "part": "尾巴",
+            "condition": "通常",
             "cut": "55",
             "blunt": "50",
             "ammo": "45",
@@ -2325,13 +2570,13 @@
           },
           {
             "part": "尾巴",
-            "condition": "泥纏",
+            "condition": "(泥纏)",
             "cut": "50",
             "blunt": "50",
             "ammo": "40",
             "fire": "0",
-            "water": "25",
-            "thunder": "10",
+            "water": "0",
+            "thunder": "0",
             "ice": "5",
             "dragon": "5"
           }
@@ -2401,6 +2646,7 @@
         "parts": [
           {
             "part": "頭",
+            "condition": "通常",
             "cut": "75",
             "blunt": "60",
             "ammo": "60",
@@ -2412,6 +2658,7 @@
           },
           {
             "part": "身體",
+            "condition": "通常",
             "cut": "50",
             "blunt": "50",
             "ammo": "50",
@@ -2442,6 +2689,82 @@
         "tremor": "？",
         "element": "-",
         "aliment": "毒"
+      },
+      "hitdata": {
+        "parts": [
+          {
+            "part": "頭",
+            "condition": "通常",
+            "cut": "70",
+            "blunt": "70",
+            "ammo": "60",
+            "fire": "20",
+            "water": "0",
+            "thunder": "10",
+            "ice": "25",
+            "dragon": "0"
+          },
+          {
+            "part": "身",
+            "condition": "通常",
+            "cut": "25",
+            "blunt": "25",
+            "ammo": "30",
+            "fire": "10",
+            "water": "0",
+            "thunder": "5",
+            "ice": "15",
+            "dragon": "0"
+          },
+          {
+            "part": "前腳",
+            "condition": "通常",
+            "cut": "25",
+            "blunt": "25",
+            "ammo": "30",
+            "fire": "5",
+            "water": "0",
+            "thunder": "0",
+            "ice": "10",
+            "dragon": "0"
+          },
+          {
+            "part": "翼",
+            "condition": "通常",
+            "cut": "40",
+            "blunt": "30",
+            "ammo": "40",
+            "fire": "5",
+            "water": "0",
+            "thunder": "5",
+            "ice": "10",
+            "dragon": "0"
+          },
+          {
+            "part": "後腳",
+            "condition": "通常",
+            "cut": "25",
+            "blunt": "30",
+            "ammo": "25",
+            "fire": "5",
+            "water": "0",
+            "thunder": "5",
+            "ice": "10",
+            "dragon": "0"
+          },
+          {
+            "part": "尾巴",
+            "condition": "通常",
+            "cut": "60",
+            "blunt": "40",
+            "ammo": "40",
+            "fire": "10",
+            "water": "0",
+            "thunder": "5",
+            "ice": "20",
+            "dragon": "0"
+          }
+        ]
       }
     },
     "goss_harag": {
@@ -2462,6 +2785,82 @@
         "tremor": "？",
         "element": "氷",
         "aliment": "-"
+      },
+      "hitdata": {
+        "parts": [
+          {
+            "part": "頭",
+            "condition": "通常",
+            "cut": "60",
+            "blunt": "60",
+            "ammo": "55",
+            "fire": "10",
+            "water": "0",
+            "thunder": "15",
+            "ice": "0",
+            "dragon": "0"
+          },
+          {
+            "part": "身",
+            "condition": "通常",
+            "cut": "24",
+            "blunt": "24",
+            "ammo": "25",
+            "fire": "10",
+            "water": "0",
+            "thunder": "5",
+            "ice": "0",
+            "dragon": "0"
+          },
+          {
+            "part": "前腳",
+            "condition": "通常",
+            "cut": "60",
+            "blunt": "65",
+            "ammo": "40",
+            "fire": "10",
+            "water": "0",
+            "thunder": "15",
+            "ice": "0",
+            "dragon": "0"
+          },
+          {
+            "part": "冰塊",
+            "condition": "通常",
+            "cut": "66",
+            "blunt": "66",
+            "ammo": "45",
+            "fire": "30",
+            "water": "0",
+            "thunder": "10",
+            "ice": "0",
+            "dragon": "0"
+          },
+          {
+            "part": "背中",
+            "condition": "通常",
+            "cut": "30",
+            "blunt": "30",
+            "ammo": "25",
+            "fire": "20",
+            "water": "0",
+            "thunder": "15",
+            "ice": "0",
+            "dragon": "0"
+          },
+          {
+            "part": "後腳",
+            "condition": "通常",
+            "cut": "24",
+            "blunt": "24",
+            "ammo": "20",
+            "fire": "10",
+            "water": "0",
+            "thunder": "5",
+            "ice": "0",
+            "dragon": "0"
+          }
+        ]
       }
     },
     "great_baggi": {
@@ -2527,6 +2926,7 @@
         "parts": [
           {
             "part": "頭",
+            "condition": "通常",
             "cut": "75",
             "blunt": "65",
             "ammo": "60",
@@ -2538,6 +2938,7 @@
           },
           {
             "part": "身體",
+            "condition": "通常",
             "cut": "50",
             "blunt": "50",
             "ammo": "40",
@@ -2613,6 +3014,7 @@
         "parts": [
           {
             "part": "頭",
+            "condition": "通常",
             "cut": "45",
             "blunt": "63",
             "ammo": "50",
@@ -2624,6 +3026,7 @@
           },
           {
             "part": "上半身",
+            "condition": "通常",
             "cut": "44",
             "blunt": "44",
             "ammo": "40",
@@ -2635,6 +3038,7 @@
           },
           {
             "part": "前腳",
+            "condition": "通常",
             "cut": "30",
             "blunt": "30",
             "ammo": "20",
@@ -2645,7 +3049,8 @@
             "dragon": "0"
           },
           {
-            "part": "腹・後腳",
+            "part": "腹・後脚",
+            "condition": "通常",
             "cut": "35",
             "blunt": "35",
             "ammo": "20",
@@ -2657,6 +3062,7 @@
           },
           {
             "part": "屁股",
+            "condition": "通常",
             "cut": "63",
             "blunt": "50",
             "ammo": "35",
@@ -2732,6 +3138,7 @@
         "parts": [
           {
             "part": "頭",
+            "condition": "通常",
             "cut": "65",
             "blunt": "70",
             "ammo": "55",
@@ -2743,6 +3150,7 @@
           },
           {
             "part": "頸・背",
+            "condition": "通常",
             "cut": "30",
             "blunt": "30",
             "ammo": "25",
@@ -2754,6 +3162,7 @@
           },
           {
             "part": "腹",
+            "condition": "通常",
             "cut": "38",
             "blunt": "38",
             "ammo": "25",
@@ -2765,6 +3174,7 @@
           },
           {
             "part": "棘",
+            "condition": "通常",
             "cut": "25",
             "blunt": "35",
             "ammo": "25",
@@ -2776,9 +3186,9 @@
           },
           {
             "part": "棘",
-            "condition": "破壊後",
-            "cut": "25",
-            "blunt": "45",
+            "condition": "(破壊後)",
+            "cut": "30",
+            "blunt": "35",
             "ammo": "30",
             "fire": "20",
             "water": "5",
@@ -2788,6 +3198,7 @@
           },
           {
             "part": "翼",
+            "condition": "通常",
             "cut": "30",
             "blunt": "45",
             "ammo": "20",
@@ -2799,6 +3210,7 @@
           },
           {
             "part": "前腳",
+            "condition": "通常",
             "cut": "40",
             "blunt": "45",
             "ammo": "35",
@@ -2810,6 +3222,7 @@
           },
           {
             "part": "後腳",
+            "condition": "通常",
             "cut": "30",
             "blunt": "30",
             "ammo": "25",
@@ -2821,6 +3234,7 @@
           },
           {
             "part": "尾巴",
+            "condition": "通常",
             "cut": "45",
             "blunt": "23",
             "ammo": "45",
@@ -2832,6 +3246,7 @@
           },
           {
             "part": "尾尖",
+            "condition": "通常",
             "cut": "60",
             "blunt": "40",
             "ammo": "40",
@@ -2907,6 +3322,7 @@
         "parts": [
           {
             "part": "頭",
+            "condition": "通常",
             "cut": "65",
             "blunt": "70",
             "ammo": "55",
@@ -2917,29 +3333,8 @@
             "dragon": "15"
           },
           {
-            "part": "背中",
-            "cut": "25",
-            "blunt": "25",
-            "ammo": "20",
-            "fire": "0",
-            "water": "5",
-            "thunder": "15",
-            "ice": "5",
-            "dragon": "15"
-          },
-          {
-            "part": "腹",
-            "cut": "30",
-            "blunt": "30",
-            "ammo": "20",
-            "fire": "10",
-            "water": "10",
-            "thunder": "15",
-            "ice": "5",
-            "dragon": "15"
-          },
-          {
             "part": "前腳",
+            "condition": "通常",
             "cut": "50",
             "blunt": "45",
             "ammo": "35",
@@ -2950,7 +3345,32 @@
             "dragon": "5"
           },
           {
+            "part": "腹",
+            "condition": "通常",
+            "cut": "30",
+            "blunt": "30",
+            "ammo": "20",
+            "fire": "10",
+            "water": "10",
+            "thunder": "15",
+            "ice": "5",
+            "dragon": "15"
+          },
+          {
+            "part": "背中",
+            "condition": "通常",
+            "cut": "25",
+            "blunt": "25",
+            "ammo": "20",
+            "fire": "0",
+            "water": "5",
+            "thunder": "15",
+            "ice": "5",
+            "dragon": "15"
+          },
+          {
             "part": "後腳",
+            "condition": "通常",
             "cut": "30",
             "blunt": "30",
             "ammo": "25",
@@ -2962,6 +3382,7 @@
           },
           {
             "part": "尾根",
+            "condition": "通常",
             "cut": "40",
             "blunt": "35",
             "ammo": "30",
@@ -2973,6 +3394,7 @@
           },
           {
             "part": "尾巴",
+            "condition": "通常",
             "cut": "45",
             "blunt": "35",
             "ammo": "30",
@@ -3002,118 +3424,63 @@
         "parts": [
           {
             "part": "頭",
+            "condition": "通常",
             "cut": "22",
             "blunt": "25",
-            "ammo": "10",
-            "fire": "20",
-            "water": "0",
-            "thunder": "0",
-            "ice": "15",
-            "dragon": "10"
-          },
-          {
-            "part": "頭",
-            "condition": "泥纏",
-            "cut": "20",
-            "blunt": "24",
-            "ammo": "9",
+            "ammo": "15",
             "fire": "0",
-            "water": "80",
+            "water": "50",
             "thunder": "0",
-            "ice": "15",
-            "dragon": "10"
+            "ice": "20",
+            "dragon": "0"
           },
           {
             "part": "身",
-            "cut": "46",
-            "blunt": "46",
-            "ammo": "50",
-            "fire": "20",
-            "water": "0",
+            "condition": "通常",
+            "cut": "36",
+            "blunt": "45",
+            "ammo": "35",
+            "fire": "0",
+            "water": "30",
             "thunder": "0",
             "ice": "10",
-            "dragon": "5"
-          },
-          {
-            "part": "身",
-            "condition": "泥纏",
-            "cut": "24",
-            "blunt": "24",
-            "ammo": "20",
-            "fire": "0",
-            "water": "80",
-            "thunder": "0",
-            "ice": "15",
-            "dragon": "10"
+            "dragon": "0"
           },
           {
             "part": "前腳",
-            "cut": "80",
-            "blunt": "85",
-            "ammo": "75",
-            "fire": "30",
-            "water": "0",
-            "thunder": "0",
-            "ice": "10",
-            "dragon": "5"
-          },
-          {
-            "part": "前腳",
-            "condition": "泥纏",
-            "cut": "35",
-            "blunt": "38",
-            "ammo": "30",
-            "fire": "0",
-            "water": "80",
-            "thunder": "0",
-            "ice": "15",
-            "dragon": "10"
-          },
-          {
-            "part": "後腳",
-            "cut": "40",
-            "blunt": "35",
-            "ammo": "25",
-            "fire": "20",
-            "water": "0",
-            "thunder": "0",
-            "ice": "10",
-            "dragon": "5"
-          },
-          {
-            "part": "後腳",
-            "condition": "泥纏",
-            "cut": "24",
-            "blunt": "24",
-            "ammo": "20",
-            "fire": "0",
-            "water": "80",
-            "thunder": "0",
-            "ice": "15",
-            "dragon": "10"
-          },
-          {
-            "part": "尾巴",
-            "cut": "55",
+            "condition": "通常",
+            "cut": "45",
             "blunt": "50",
-            "ammo": "40",
-            "fire": "25",
-            "water": "0",
+            "ammo": "45",
+            "fire": "0",
+            "water": "25",
+            "thunder": "0",
+            "ice": "10",
+            "dragon": "0"
+          },
+          {
+            "part": "後腳",
+            "condition": "通常",
+            "cut": "36",
+            "blunt": "30",
+            "ammo": "25",
+            "fire": "0",
+            "water": "25",
             "thunder": "0",
             "ice": "15",
-            "dragon": "10"
+            "dragon": "0"
           },
           {
             "part": "尾巴",
-            "condition": "泥纏",
-            "cut": "25",
-            "blunt": "25",
-            "ammo": "22",
+            "condition": "通常",
+            "cut": "42",
+            "blunt": "42",
+            "ammo": "45",
             "fire": "0",
-            "water": "80",
+            "water": "30",
             "thunder": "0",
-            "ice": "15",
-            "dragon": "10"
+            "ice": "20",
+            "dragon": "0"
           }
         ]
       }
@@ -3174,21 +3541,10 @@
         "parts": [
           {
             "part": "頭",
-            "cut": "20",
-            "blunt": "20",
-            "ammo": "20",
-            "fire": "10",
-            "water": "15",
-            "thunder": "10",
-            "ice": "10",
-            "dragon": "18"
-          },
-          {
-            "part": "頭",
-            "condition": "破壊後",
-            "cut": "38",
-            "blunt": "43",
-            "ammo": "35",
+            "condition": "通常",
+            "cut": "48",
+            "blunt": "55",
+            "ammo": "48",
             "fire": "15",
             "water": "20",
             "thunder": "10",
@@ -3197,7 +3553,7 @@
           },
           {
             "part": "頭",
-            "condition": "赤熱化",
+            "condition": "(破壊後)",
             "cut": "48",
             "blunt": "55",
             "ammo": "48",
@@ -3209,6 +3565,7 @@
           },
           {
             "part": "頸下",
+            "condition": "通常",
             "cut": "15",
             "blunt": "20",
             "ammo": "20",
@@ -3220,30 +3577,7 @@
           },
           {
             "part": "腹",
-            "cut": "24",
-            "blunt": "25",
-            "ammo": "30",
-            "fire": "10",
-            "water": "10",
-            "thunder": "10",
-            "ice": "10",
-            "dragon": "15"
-          },
-          {
-            "part": "腹",
-            "condition": "破壊後",
-            "cut": "48",
-            "blunt": "44",
-            "ammo": "40",
-            "fire": "12",
-            "water": "18",
-            "thunder": "10",
-            "ice": "10",
-            "dragon": "20"
-          },
-          {
-            "part": "腹",
-            "condition": "赤熱化",
+            "condition": "通常",
             "cut": "60",
             "blunt": "55",
             "ammo": "50",
@@ -3254,22 +3588,23 @@
             "dragon": "20"
           },
           {
-            "part": "背",
-            "cut": "15",
-            "blunt": "20",
-            "ammo": "20",
-            "fire": "10",
-            "water": "15",
+            "part": "腹",
+            "condition": "(破壊後)",
+            "cut": "62",
+            "blunt": "55",
+            "ammo": "50",
+            "fire": "12",
+            "water": "18",
             "thunder": "10",
             "ice": "10",
-            "dragon": "18"
+            "dragon": "20"
           },
           {
             "part": "背",
-            "condition": "破壊後",
-            "cut": "38",
-            "blunt": "35",
-            "ammo": "43",
+            "condition": "通常",
+            "cut": "48",
+            "blunt": "48",
+            "ammo": "55",
             "fire": "15",
             "water": "20",
             "thunder": "10",
@@ -3278,7 +3613,7 @@
           },
           {
             "part": "背",
-            "condition": "赤熱化",
+            "condition": "(破壊後)",
             "cut": "48",
             "blunt": "48",
             "ammo": "55",
@@ -3290,6 +3625,7 @@
           },
           {
             "part": "翼",
+            "condition": "通常",
             "cut": "20",
             "blunt": "20",
             "ammo": "20",
@@ -3301,6 +3637,7 @@
           },
           {
             "part": "腳",
+            "condition": "通常",
             "cut": "25",
             "blunt": "26",
             "ammo": "30",
@@ -3312,6 +3649,7 @@
           },
           {
             "part": "尾下",
+            "condition": "通常",
             "cut": "15",
             "blunt": "15",
             "ammo": "15",
@@ -3323,6 +3661,7 @@
           },
           {
             "part": "尾尖",
+            "condition": "通常",
             "cut": "28",
             "blunt": "15",
             "ammo": "15",
@@ -3398,6 +3737,7 @@
         "parts": [
           {
             "part": "頭",
+            "condition": "通常",
             "cut": "55",
             "blunt": "50",
             "ammo": "45",
@@ -3409,6 +3749,7 @@
           },
           {
             "part": "上半身",
+            "condition": "通常",
             "cut": "45",
             "blunt": "45",
             "ammo": "35",
@@ -3420,6 +3761,7 @@
           },
           {
             "part": "背中",
+            "condition": "通常",
             "cut": "45",
             "blunt": "45",
             "ammo": "40",
@@ -3431,6 +3773,7 @@
           },
           {
             "part": "前腳",
+            "condition": "通常",
             "cut": "38",
             "blunt": "30",
             "ammo": "30",
@@ -3441,7 +3784,8 @@
             "dragon": "0"
           },
           {
-            "part": "腹・後腳",
+            "part": "腹・後脚",
+            "condition": "通常",
             "cut": "36",
             "blunt": "36",
             "ammo": "20",
@@ -3453,6 +3797,7 @@
           },
           {
             "part": "屁股",
+            "condition": "通常",
             "cut": "30",
             "blunt": "30",
             "ammo": "25",
@@ -3464,6 +3809,7 @@
           },
           {
             "part": "滾動中",
+            "condition": "通常",
             "cut": "75",
             "blunt": "75",
             "ammo": "10",
@@ -3480,7 +3826,7 @@
       "name": {
         "tw": "角龍",
         "jp": "ディアブロス",
-        "en": "diablos"
+        "en": "Diablos"
       },
       "species": "flying_wryven",
       "image": "https://www.monsterhunter.com/rise/assets/images/monster/modal/diablos.png",
@@ -3537,7 +3883,20 @@
       "hitdata": {
         "parts": [
           {
+            "part": "頭",
+            "condition": "通常",
+            "cut": "45",
+            "blunt": "60",
+            "ammo": "40",
+            "fire": "0",
+            "water": "15",
+            "thunder": "10",
+            "ice": "25",
+            "dragon": "15"
+          },
+          {
             "part": "角",
+            "condition": "通常",
             "cut": "21",
             "blunt": "42",
             "ammo": "20",
@@ -3548,18 +3907,8 @@
             "dragon": "20"
           },
           {
-            "part": "頭",
-            "cut": "45",
-            "blunt": "63",
-            "ammo": "40",
-            "fire": "0",
-            "water": "25",
-            "thunder": "10",
-            "ice": "30",
-            "dragon": "25"
-          },
-          {
             "part": "頸",
+            "condition": "通常",
             "cut": "40",
             "blunt": "40",
             "ammo": "25",
@@ -3571,18 +3920,20 @@
           },
           {
             "part": "腹",
-            "cut": "73",
-            "blunt": "78",
+            "condition": "通常",
+            "cut": "65",
+            "blunt": "70",
             "ammo": "40",
             "fire": "0",
-            "water": "30",
+            "water": "25",
             "thunder": "10",
-            "ice": "35",
-            "dragon": "30"
+            "ice": "30",
+            "dragon": "25"
           },
           {
             "part": "背中",
-            "cut": "24",
+            "condition": "通常",
+            "cut": "25",
             "blunt": "42",
             "ammo": "35",
             "fire": "0",
@@ -3593,6 +3944,7 @@
           },
           {
             "part": "翼",
+            "condition": "通常",
             "cut": "40",
             "blunt": "30",
             "ammo": "60",
@@ -3604,6 +3956,7 @@
           },
           {
             "part": "腳",
+            "condition": "通常",
             "cut": "35",
             "blunt": "35",
             "ammo": "35",
@@ -3615,6 +3968,7 @@
           },
           {
             "part": "尾巴",
+            "condition": "通常",
             "cut": "50",
             "blunt": "24",
             "ammo": "45",
@@ -3626,8 +3980,9 @@
           },
           {
             "part": "尾尖",
+            "condition": "通常",
             "cut": "23",
-            "blunt": "33",
+            "blunt": "26",
             "ammo": "10",
             "fire": "0",
             "water": "20",
@@ -3642,7 +3997,7 @@
       "name": {
         "tw": "金獅子",
         "jp": "ラージャン",
-        "en": "rajang"
+        "en": "Rajang"
       },
       "species": "fanged_beast",
       "image": "https://www.monsterhunter.com/rise/assets/images/monster/modal/rajang.png",
@@ -3716,9 +4071,10 @@
         "parts": [
           {
             "part": "頭",
-            "cut": "60",
-            "blunt": "62",
-            "ammo": "45",
+            "condition": "通常",
+            "cut": "65",
+            "blunt": "67",
+            "ammo": "55",
             "fire": "0",
             "water": "5",
             "thunder": "0",
@@ -3727,19 +4083,9 @@
           },
           {
             "part": "身體",
-            "cut": "30",
-            "blunt": "35",
-            "ammo": "20",
-            "fire": "0",
-            "water": "5",
-            "thunder": "0",
-            "ice": "15",
-            "dragon": "0"
-          },
-          {
-            "part": "前腳",
-            "cut": "43",
-            "blunt": "43",
+            "condition": "通常",
+            "cut": "45",
+            "blunt": "45",
             "ammo": "35",
             "fire": "0",
             "water": "5",
@@ -3749,10 +4095,22 @@
           },
           {
             "part": "前腳",
-            "condition": "鬥氣硬化",
+            "condition": "通常",
+            "cut": "45",
+            "blunt": "45",
+            "ammo": "40",
+            "fire": "0",
+            "water": "5",
+            "thunder": "0",
+            "ice": "15",
+            "dragon": "0"
+          },
+          {
+            "part": "前腳",
+            "condition": "(鬥氣硬化時)",
             "cut": "10",
             "blunt": "10",
-            "ammo": "35",
+            "ammo": "5",
             "fire": "0",
             "water": "5",
             "thunder": "0",
@@ -3761,8 +4119,9 @@
           },
           {
             "part": "後腳",
-            "cut": "25",
-            "blunt": "25",
+            "condition": "通常",
+            "cut": "35",
+            "blunt": "35",
             "ammo": "15",
             "fire": "0",
             "water": "5",
@@ -3772,6 +4131,7 @@
           },
           {
             "part": "尾巴",
+            "condition": "通常",
             "cut": "35",
             "blunt": "32",
             "ammo": "25",
@@ -3783,7 +4143,7 @@
           },
           {
             "part": "尾巴",
-            "condition": "鬥氣硬化",
+            "condition": "(鬥氣硬化時)",
             "cut": "47",
             "blunt": "45",
             "ammo": "35",
@@ -3821,6 +4181,70 @@
             "cut": "頭>前腳",
             "blunt": "頭>前腳",
             "ammo": "頭>前腳"
+          }
+        ]
+      },
+      "hitdata": {
+        "parts": [
+          {
+            "part": "頭",
+            "condition": "通常",
+            "cut": "60",
+            "blunt": "70",
+            "ammo": "45",
+            "fire": "0",
+            "water": "10",
+            "thunder": "0",
+            "ice": "20",
+            "dragon": "0"
+          },
+          {
+            "part": "胸",
+            "condition": "通常",
+            "cut": "25",
+            "blunt": "25",
+            "ammo": "10",
+            "fire": "0",
+            "water": "5",
+            "thunder": "0",
+            "ice": "5",
+            "dragon": "0"
+          },
+          {
+            "part": "爪",
+            "condition": "通常",
+            "cut": "20",
+            "blunt": "20",
+            "ammo": "10",
+            "fire": "0",
+            "water": "15",
+            "thunder": "0",
+            "ice": "30",
+            "dragon": "0"
+          },
+          {
+            "part": "腹",
+            "condition": "通常",
+            "cut": "35",
+            "blunt": "35",
+            "ammo": "15",
+            "fire": "0",
+            "water": "5",
+            "thunder": "0",
+            "ice": "10",
+            "dragon": "0"
+          },
+          {
+            "part": "腳(絲)",
+            "condition": "通常",
+            "cut": "43",
+            "blunt": "43",
+            "ammo": "35",
+            "fire": "0",
+            "water": "0",
+            "thunder": "0",
+            "ice": "5",
+            "dragon": "0"
           }
         ]
       }
@@ -3866,6 +4290,7 @@
         "parts": [
           {
             "part": "頭",
+            "condition": "通常",
             "cut": "55",
             "blunt": "64",
             "ammo": "55",
@@ -3877,6 +4302,7 @@
           },
           {
             "part": "前腳",
+            "condition": "通常",
             "cut": "23",
             "blunt": "24",
             "ammo": "20",
@@ -3887,7 +4313,20 @@
             "dragon": "5"
           },
           {
+            "part": "前腳",
+            "condition": "(破壊後)",
+            "cut": "24",
+            "blunt": "25",
+            "ammo": "21",
+            "fire": "30",
+            "water": "0",
+            "thunder": "5",
+            "ice": "25",
+            "dragon": "5"
+          },
+          {
             "part": "腹",
+            "condition": "通常",
             "cut": "40",
             "blunt": "55",
             "ammo": "35",
@@ -3899,6 +4338,7 @@
           },
           {
             "part": "背中",
+            "condition": "通常",
             "cut": "25",
             "blunt": "30",
             "ammo": "20",
@@ -3910,6 +4350,7 @@
           },
           {
             "part": "後腳",
+            "condition": "通常",
             "cut": "25",
             "blunt": "25",
             "ammo": "20",
@@ -3921,6 +4362,7 @@
           },
           {
             "part": "尾巴",
+            "condition": "通常",
             "cut": "55",
             "blunt": "30",
             "ammo": "35",
@@ -3932,6 +4374,7 @@
           },
           {
             "part": "尾尖",
+            "condition": "通常",
             "cut": "65",
             "blunt": "55",
             "ammo": "40",
@@ -3961,6 +4404,7 @@
         "parts": [
           {
             "part": "頭",
+            "condition": "通常",
             "cut": "65",
             "blunt": "70",
             "ammo": "40",
@@ -3971,7 +4415,20 @@
             "dragon": "10"
           },
           {
+            "part": "頭",
+            "condition": "(憤怒時)",
+            "cut": "67",
+            "blunt": "72",
+            "ammo": "42",
+            "fire": "20",
+            "water": "0",
+            "thunder": "30",
+            "ice": "15",
+            "dragon": "15"
+          },
+          {
             "part": "頸・背",
+            "condition": "通常",
             "cut": "30",
             "blunt": "30",
             "ammo": "35",
@@ -3983,6 +4440,7 @@
           },
           {
             "part": "前腳",
+            "condition": "通常",
             "cut": "43",
             "blunt": "43",
             "ammo": "35",
@@ -3994,6 +4452,7 @@
           },
           {
             "part": "刃翼",
+            "condition": "通常",
             "cut": "21",
             "blunt": "24",
             "ammo": "21",
@@ -4005,6 +4464,7 @@
           },
           {
             "part": "腹",
+            "condition": "通常",
             "cut": "40",
             "blunt": "40",
             "ammo": "30",
@@ -4016,6 +4476,7 @@
           },
           {
             "part": "後腳",
+            "condition": "通常",
             "cut": "30",
             "blunt": "30",
             "ammo": "25",
@@ -4027,6 +4488,7 @@
           },
           {
             "part": "尾巴",
+            "condition": "通常",
             "cut": "46",
             "blunt": "40",
             "ammo": "45",
@@ -4037,7 +4499,20 @@
             "dragon": "5"
           },
           {
+            "part": "尾巴",
+            "condition": "(憤怒時)",
+            "cut": "55",
+            "blunt": "35",
+            "ammo": "40",
+            "fire": "10",
+            "water": "0",
+            "thunder": "15",
+            "ice": "0",
+            "dragon": "5"
+          },
+          {
             "part": "尾尖",
+            "condition": "通常",
             "cut": "40",
             "blunt": "35",
             "ammo": "40",
@@ -4046,6 +4521,18 @@
             "thunder": "20",
             "ice": "5",
             "dragon": "5"
+          },
+          {
+            "part": "尾尖",
+            "condition": "(憤怒時)",
+            "cut": "45",
+            "blunt": "36",
+            "ammo": "42",
+            "fire": "15",
+            "water": "0",
+            "thunder": "30",
+            "ice": "10",
+            "dragon": "10"
           }
         ]
       }
@@ -4129,18 +4616,7 @@
         "parts": [
           {
             "part": "頭",
-            "cut": "65",
-            "blunt": "65",
-            "ammo": "70",
-            "fire": "10",
-            "water": "10",
-            "thunder": "0",
-            "ice": "15",
-            "dragon": "5"
-          },
-          {
-            "part": "頭",
-            "condition": "超帶電",
+            "condition": "通常",
             "cut": "65",
             "blunt": "65",
             "ammo": "70",
@@ -4152,18 +4628,7 @@
           },
           {
             "part": "身",
-            "cut": "25",
-            "blunt": "25",
-            "ammo": "30",
-            "fire": "5",
-            "water": "5",
-            "thunder": "0",
-            "ice": "5",
-            "dragon": "5"
-          },
-          {
-            "part": "身",
-            "condition": "超帶電",
+            "condition": "通常",
             "cut": "30",
             "blunt": "30",
             "ammo": "35",
@@ -4175,18 +4640,7 @@
           },
           {
             "part": "背中",
-            "cut": "45",
-            "blunt": "40",
-            "ammo": "35",
-            "fire": "10",
-            "water": "20",
-            "thunder": "0",
-            "ice": "25",
-            "dragon": "5"
-          },
-          {
-            "part": "背中",
-            "condition": "超帶電",
+            "condition": "通常",
             "cut": "70",
             "blunt": "65",
             "ammo": "55",
@@ -4198,18 +4652,7 @@
           },
           {
             "part": "前腳",
-            "cut": "25",
-            "blunt": "30",
-            "ammo": "30",
-            "fire": "5",
-            "water": "5",
-            "thunder": "0",
-            "ice": "10",
-            "dragon": "5"
-          },
-          {
-            "part": "前腳",
-            "condition": "超帶電",
+            "condition": "通常",
             "cut": "43",
             "blunt": "46",
             "ammo": "30",
@@ -4220,19 +4663,20 @@
             "dragon": "5"
           },
           {
-            "part": "後腳",
+            "part": "屁股",
+            "condition": "通常",
             "cut": "45",
             "blunt": "45",
             "ammo": "35",
-            "fire": "5",
-            "water": "5",
+            "fire": "10",
+            "water": "10",
             "thunder": "0",
-            "ice": "10",
+            "ice": "15",
             "dragon": "5"
           },
           {
             "part": "後腳",
-            "condition": "超帶電",
+            "condition": "通常",
             "cut": "50",
             "blunt": "50",
             "ammo": "40",
@@ -4243,30 +4687,8 @@
             "dragon": "5"
           },
           {
-            "part": "屁股",
-            "cut": "44",
-            "blunt": "44",
-            "ammo": "30",
-            "fire": "5",
-            "water": "5",
-            "thunder": "0",
-            "ice": "10",
-            "dragon": "5"
-          },
-          {
-            "part": "屁股",
-            "condition": "超帶電",
-            "cut": "45",
-            "blunt": "45",
-            "ammo": "35",
-            "fire": "10",
-            "water": "10",
-            "thunder": "0",
-            "ice": "15",
-            "dragon": "5"
-          },
-          {
             "part": "尾巴",
+            "condition": "通常",
             "cut": "30",
             "blunt": "25",
             "ammo": "25",
@@ -4277,31 +4699,8 @@
             "dragon": "5"
           },
           {
-            "part": "尾巴",
-            "condition": "超帶電",
-            "cut": "30",
-            "blunt": "25",
-            "ammo": "25",
-            "fire": "5",
-            "water": "10",
-            "thunder": "0",
-            "ice": "5",
-            "dragon": "5"
-          },
-          {
             "part": "尾尖",
-            "cut": "21",
-            "blunt": "19",
-            "ammo": "10",
-            "fire": "10",
-            "water": "15",
-            "thunder": "0",
-            "ice": "20",
-            "dragon": "5"
-          },
-          {
-            "part": "尾尖",
-            "condition": "超帶電",
+            "condition": "通常",
             "cut": "21",
             "blunt": "19",
             "ammo": "10",
@@ -4405,7 +4804,10 @@
             -1
           ]
         }
-      ]
+      ],
+      "hitdata": {
+        "parts": []
+      }
     }
   }
 }
