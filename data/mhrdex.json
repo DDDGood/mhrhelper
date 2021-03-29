@@ -460,6 +460,7 @@
         },
         {
           "source": "掉落物1",
+          "info": "[正在吃蜂蜜時時]",
           "low_rank": [
             {
               "item": "honey",
@@ -477,6 +478,7 @@
         },
         {
           "source": "掉落物2",
+          "info": "[正在吃魚時]",
           "low_rank": [
             {
               "item": "sushifish",
@@ -504,6 +506,7 @@
         },
         {
           "source": "掉落物3",
+          "info": "[音爆彈、閃光彈、陷阱困住時]",
           "low_rank": [
             {
               "item": "beast_tear",
@@ -567,6 +570,7 @@
         },
         {
           "source": "前腳破壊",
+          "info": "[耐久值1回降到0]",
           "low_rank": [
             {
               "item": "arzuros_brace",
@@ -875,6 +879,7 @@
         {
           "source": "尾巴剝取",
           "num": "1回",
+          "info": "[切斷系(斬)攻擊]",
           "low_rank": [
             {
               "item": "rathian_scale",
@@ -1000,6 +1005,7 @@
         },
         {
           "source": "頭破壊",
+          "info": "[耐久值2回降到0]",
           "low_rank": [
             {
               "item": "rathian_scale",
@@ -1037,6 +1043,7 @@
         },
         {
           "source": "片翼破壊",
+          "info": "[耐久值1回降到0]",
           "low_rank": [
             {
               "item": "rath_wingtalon",
@@ -1064,6 +1071,7 @@
         },
         {
           "source": "背中破壊",
+          "info": "[耐久值1回降到0]",
           "low_rank": [
             {
               "item": "rathian_spike",
@@ -1576,6 +1584,7 @@
         {
           "source": "尾巴剝取",
           "num": "1回",
+          "info": "[切斷屬性]",
           "low_rank": [
             {
               "item": "mizutsune_tail",
@@ -1613,6 +1622,7 @@
         },
         {
           "source": "掉落物",
+          "info": "泡纏狀態解除時",
           "low_rank": [
             {
               "item": "wyvern_tear",
@@ -1701,6 +1711,7 @@
         },
         {
           "source": "頭破壊",
+          "info": "[4回耐久值降到0]",
           "low_rank": [
             {
               "item": "mizutsune_fin",
@@ -1747,7 +1758,8 @@
           ]
         },
         {
-          "source": "背ビレ破壊",
+          "source": "背鰭破壊",
+          "info": "[1回耐久值降到0]",
           "low_rank": [
             {
               "item": "mizutsune_fin",
@@ -1790,6 +1802,7 @@
         },
         {
           "source": "右or左爪破壊",
+          "info": "[2回耐久值降到0]",
           "low_rank": [
             {
               "item": "mizutsune_claw",
@@ -1827,6 +1840,7 @@
         },
         {
           "source": "尾巴破壊",
+          "info": "[1回耐久值降到0]",
           "low_rank": [
             {
               "item": "mizutsune_purplefur",
@@ -3153,7 +3167,7 @@
           "high_rank": []
         },
         {
-          "source": "髪鰭破壊",
+          "source": "髮鰭破壊",
           "low_rank": [
             {
               "item": "somnacanth_fin",
@@ -3450,6 +3464,7 @@
         },
         {
           "source": "掉落物1",
+          "info": "[天花板上流口水時]",
           "low_rank": [
             {
               "item": "wyvern_tear",
@@ -3497,6 +3512,7 @@
         },
         {
           "source": "掉落物2",
+          "info": "[マーキング行動取った時]",
           "low_rank": [
             {
               "item": "pale_extract",
@@ -3565,6 +3581,7 @@
         },
         {
           "source": "頭破壊",
+          "info": "[耐久值2回降到0]",
           "low_rank": [
             {
               "item": "suspicious_fang",
@@ -3607,6 +3624,7 @@
         },
         {
           "source": "腳破壊",
+          "info": "[耐久值2回降到0]",
           "low_rank": [
             {
               "item": "flabby_hide",
@@ -3920,6 +3938,7 @@
         {
           "source": "尾巴剝取",
           "num": "1回",
+          "info": "[切斷系(斬)攻擊]",
           "low_rank": [
             {
               "item": "royal_ludroth_tail",
@@ -3952,6 +3971,7 @@
         },
         {
           "source": "掉落物",
+          "info": "鬃毛破壊時",
           "low_rank": [
             {
               "item": "wyvern_tear",
@@ -4025,6 +4045,7 @@
         },
         {
           "source": "頭破壊",
+          "info": "[耐久值3回降到0]",
           "low_rank": [
             {
               "item": "royal_ludroth_crest",
@@ -4061,7 +4082,8 @@
           ]
         },
         {
-          "source": "タテガミ破壊",
+          "source": "鬃毛破壊",
+          "info": "[耐久值2回降到0]",
           "low_rank": [
             {
               "item": "spongy_hide",
@@ -4357,6 +4379,7 @@
         {
           "source": "尾巴剝取",
           "num": "1回",
+          "info": "[切斷系(斬)攻擊]",
           "low_rank": [
             {
               "item": "rathalos_tail",
@@ -4409,6 +4432,7 @@
         },
         {
           "source": "掉落物",
+          "info": "空中擊落時",
           "low_rank": [
             {
               "item": "wyvern_tear",
@@ -4487,6 +4511,7 @@
         },
         {
           "source": "頭破壊",
+          "info": "[耐久值2回降到0]",
           "low_rank": [
             {
               "item": "rathalos_scale",
@@ -4529,6 +4554,7 @@
         },
         {
           "source": "片翼破壊",
+          "info": "[耐久值1回降到0]",
           "low_rank": [
             {
               "item": "rath_wingtalon",
@@ -4556,6 +4582,7 @@
         },
         {
           "source": "背中破壊",
+          "info": "[耐久值1回降到0]",
           "low_rank": [
             {
               "item": "rathalos_shell",
@@ -4884,6 +4911,7 @@
         {
           "source": "尾巴剝取",
           "num": "1回",
+          "info": "[切斷系(斬)攻擊]",
           "low_rank": [
             {
               "item": "pukei-pukei_tail",
@@ -4911,6 +4939,7 @@
         },
         {
           "source": "掉落物",
+          "info": "打斷進食時",
           "low_rank": [
             {
               "item": "wyvern_tear",
@@ -4979,6 +5008,7 @@
         },
         {
           "source": "頭破壊",
+          "info": "[耐久值2回降到0]",
           "low_rank": [
             {
               "item": "pukei-pukei_sac",
@@ -5006,6 +5036,7 @@
         },
         {
           "source": "背中破壊",
+          "info": "[耐久值1回降到0]",
           "low_rank": [
             {
               "item": "pukei-pukei_shell",
@@ -5033,6 +5064,7 @@
         },
         {
           "source": "片翼破壊",
+          "info": "[耐久值1回降到0]",
           "low_rank": [
             {
               "item": "pukei-pukei_quill",
@@ -5309,6 +5341,7 @@
         },
         {
           "source": "掉落物",
+          "info": "擊落手中的岩石或卵時",
           "low_rank": [
             {
               "item": "wyvern_tear",
@@ -5372,6 +5405,7 @@
         },
         {
           "source": "頭破壊",
+          "info": "[耐久值2回降到0]",
           "low_rank": [
             {
               "item": "kulu-ya-ku_beak",
@@ -5394,6 +5428,7 @@
         },
         {
           "source": "前腳破壊",
+          "info": "[耐久值1回降到0]",
           "low_rank": [
             {
               "item": "kulu-ya-ku_plume",
@@ -5696,6 +5731,7 @@
         },
         {
           "source": "掉落物",
+          "info": "帶電狀態解除時，在牆上被打下來",
           "low_rank": [
             {
               "item": "wyvern_tear",
@@ -5764,6 +5800,7 @@
         },
         {
           "source": "頭破壊",
+          "info": "[耐久值1回降到0]",
           "low_rank": [
             {
               "item": "tobi-kadachi_electrode",
@@ -5786,6 +5823,7 @@
         },
         {
           "source": "前腳破壊",
+          "info": "[耐久值2回降到0]",
           "low_rank": [
             {
               "item": "tobi-kadachi_claw",
@@ -5808,6 +5846,7 @@
         },
         {
           "source": "背中破壊",
+          "info": "[耐久值2回降到0]",
           "low_rank": [
             {
               "item": "tobi-kadachi_pelt",
@@ -5835,6 +5874,7 @@
         },
         {
           "source": "尾巴破壊",
+          "info": "[耐久值3回降到0]",
           "low_rank": [
             {
               "item": "tobi-kadachi_electrode",
@@ -6170,6 +6210,7 @@
         {
           "source": "尾巴剝取",
           "num": "1回",
+          "info": "[切斷系(斬)攻擊]",
           "low_rank": [
             {
               "item": "anjanath_tail",
@@ -6212,6 +6253,7 @@
         },
         {
           "source": "掉落物",
+          "info": "炎熱蓄積狀態中攻擊頭部擊倒時",
           "low_rank": [
             {
               "item": "wyvern_tear",
@@ -6290,6 +6332,7 @@
         },
         {
           "source": "頭破壊",
+          "info": "[耐久值2回降到0]",
           "low_rank": [
             {
               "item": "anjanath_fang",
@@ -6326,7 +6369,8 @@
           ]
         },
         {
-          "source": "單腳破壊",
+          "source": "片腳破壊",
+          "info": "[左右任一側腳破壊]",
           "low_rank": [
             {
               "item": "anjanath_scale",
@@ -6696,6 +6740,7 @@
         },
         {
           "source": "掉落物",
+          "info": "音爆彈擊倒、中斷泥纏、從游泳狀態打回地面、剝去泥漿",
           "low_rank": [
             {
               "item": "泥魚竜の鱗",
@@ -6733,6 +6778,7 @@
         },
         {
           "source": "頭破壊",
+          "info": "[耐久值4回降到0]",
           "low_rank": [
             {
               "item": "泥魚竜の牙",
@@ -6750,6 +6796,7 @@
         },
         {
           "source": "身破壊",
+          "info": "[耐久值1回降到0]",
           "low_rank": [
             {
               "item": "泥魚竜のヒレ",
@@ -6992,6 +7039,7 @@
         },
         {
           "source": "掉落物",
+          "info": "頭部破壊時、腳瘸腿逃跑時",
           "low_rank": [
             {
               "item": "wyvern_tear",
@@ -7060,6 +7108,7 @@
         },
         {
           "source": "頭破壊",
+          "info": "[耐久值2回降到0]",
           "low_rank": [
             {
               "item": "king's_beak",
@@ -7820,6 +7869,7 @@
         },
         {
           "source": "掉落物",
+          "info": "腳瘸腿逃跑時",
           "low_rank": [
             {
               "item": "wyvern_tear",
@@ -7888,6 +7938,7 @@
         },
         {
           "source": "頭破壊",
+          "info": "[耐久值1回降到0]",
           "low_rank": [
             {
               "item": "king's_crest",
@@ -8135,6 +8186,7 @@
         },
         {
           "source": "掉落物",
+          "info": "頭部破壊時",
           "low_rank": [
             {
               "item": "beast_tear",
@@ -8208,6 +8260,7 @@
         },
         {
           "source": "頭破壊",
+          "info": "[耐久值2回降到0]",
           "low_rank": [
             {
               "item": "lagombi_ear",
@@ -8506,6 +8559,7 @@
         {
           "source": "尾巴剝取",
           "num": "1回",
+          "info": "[切斷系(斬)攻擊]",
           "low_rank": [
             {
               "item": "barioth_tail",
@@ -8548,6 +8602,7 @@
         },
         {
           "source": "掉落物",
+          "info": "攻擊失敗掙扎時",
           "low_rank": [
             {
               "item": "wyvern_tear",
@@ -8631,6 +8686,7 @@
         },
         {
           "source": "頭破壊",
+          "info": "[耐久值2回降到0]",
           "low_rank": [
             {
               "item": "amber_fang",
@@ -8663,6 +8719,7 @@
         },
         {
           "source": "片棘破壊",
+          "info": "[任一側棘的耐久值2回降到0]",
           "low_rank": [
             {
               "item": "barioth_claw",
@@ -8945,6 +9002,7 @@
         {
           "source": "尾巴剝取",
           "num": "1回",
+          "info": "[切斷系(斬)攻擊]",
           "low_rank": [
             {
               "item": "tigrex_tail",
@@ -8972,6 +9030,7 @@
         },
         {
           "source": "掉落物",
+          "info": "疲勞狀態下衝鋒倒地",
           "low_rank": [
             {
               "item": "wyvern_tear",
@@ -9045,6 +9104,7 @@
         },
         {
           "source": "頭破壊",
+          "info": "[耐久值1回降到0]",
           "low_rank": [
             {
               "item": "tigrex_fang",
@@ -9092,6 +9152,7 @@
         },
         {
           "source": "片爪破壊",
+          "info": "[左爪或右爪耐久值2回降到0]",
           "low_rank": [
             {
               "item": "tigrex_claw",
@@ -9299,6 +9360,7 @@
         {
           "source": "尾巴剝取",
           "num": "1回",
+          "info": "[切斷系(斬)攻擊]",
           "low_rank": [
             {
               "item": "barroth_tail",
@@ -9327,6 +9389,7 @@
         {
           "source": "頭剝取",
           "num": "1回",
+          "info": "[打撃系的攻擊造成一定傷害]",
           "low_rank": [
             {
               "item": "barroth_scalp",
@@ -9354,6 +9417,7 @@
         },
         {
           "source": "掉落物",
+          "info": "突進撞上地形時，泥纏時。",
           "low_rank": [
             {
               "item": "wyvern_tear",
@@ -9427,6 +9491,7 @@
         },
         {
           "source": "前腳破壊",
+          "info": "[耐久值2回降到0]",
           "low_rank": [
             {
               "item": "barroth_claw",
@@ -9444,6 +9509,7 @@
         },
         {
           "source": "後腳破壊",
+          "info": "[任一側後腳的耐久值2回降到0]",
           "low_rank": [
             {
               "item": "barroth_shell",
@@ -9798,6 +9864,7 @@
         {
           "source": "尾巴剝取",
           "num": "1回",
+          "info": "[切斷系(斬)攻擊]",
           "low_rank": [
             {
               "item": "basarios_tail",
@@ -9830,6 +9897,7 @@
         },
         {
           "source": "掉落物",
+          "info": "擬態解除時",
           "low_rank": [
             {
               "item": "wyvern_tear",
@@ -9898,6 +9966,7 @@
         },
         {
           "source": "頭破壊",
+          "info": "[耐久值1回降到0]",
           "low_rank": [
             {
               "item": "basarios_shell",
@@ -9914,6 +9983,7 @@
         },
         {
           "source": "背中破壊",
+          "info": "[耐久值1回降到0]",
           "low_rank": [
             {
               "item": "basarios_wing",
@@ -9951,6 +10021,7 @@
         },
         {
           "source": "腹破壊",
+          "info": "[耐久值1回降到0]",
           "low_rank": [
             {
               "item": "basarios_pleura",
@@ -10227,6 +10298,7 @@
         },
         {
           "source": "掉落物",
+          "info": "背中破壊時",
           "low_rank": [
             {
               "item": "beast_tear",
@@ -10295,6 +10367,7 @@
         },
         {
           "source": "背中破壊",
+          "info": "[耐久值1回降到0報酬]",
           "low_rank": [
             {
               "item": "volvi_rickrack",
@@ -10600,6 +10673,7 @@
         {
           "source": "尾巴剝取",
           "num": "1回",
+          "info": "[切斷系(斬)攻擊]",
           "low_rank": [
             {
               "item": "diablos_tailcase",
@@ -10642,6 +10716,7 @@
         },
         {
           "source": "掉落物",
+          "info": "衝鋒撞到地形時，用音爆彈嚇它時",
           "low_rank": [
             {
               "item": "wyvern_tear",
@@ -10709,7 +10784,8 @@
           "high_rank": []
         },
         {
-          "source": "兩角破壊",
+          "source": "両角破壊",
+          "info": "[2次破壞的報酬]",
           "low_rank": [
             {
               "item": "twisted_horn",
@@ -10732,6 +10808,7 @@
         },
         {
           "source": "背中破壊",
+          "info": "[耐久值1回降到0]",
           "low_rank": [
             {
               "item": "diablos_ridge",
@@ -11049,6 +11126,7 @@
         },
         {
           "source": "角破壊",
+          "info": "[1次破壞的報酬]",
           "low_rank": [],
           "high_rank": [
             {
@@ -11064,7 +11142,8 @@
           ]
         },
         {
-          "source": "兩角破壊",
+          "source": "両角破壊",
+          "info": "[2次破壞的報酬]",
           "low_rank": [],
           "high_rank": [
             {
@@ -11492,7 +11571,7 @@
           "source": "身破壊",
           "low_rank": [
             {
-              "item": "almudron_scale",
+              "item": "泥魚竜の鱗",
               "rate": "70%",
               "num": "1"
             },
@@ -11790,6 +11869,7 @@
         {
           "source": "尾巴剝取",
           "num": "1回",
+          "info": "[切斷系(斬)攻擊]",
           "low_rank": [
             {
               "item": "nargacuga_tail",
@@ -11905,6 +11985,7 @@
         },
         {
           "source": "頭破壊",
+          "info": "[耐久值2回降到0]",
           "low_rank": [
             {
               "item": "nargacuga_fang",
@@ -11942,6 +12023,7 @@
         },
         {
           "source": "片刃翼破壊",
+          "info": "[耐久值1回降到0]",
           "low_rank": [
             {
               "item": "nargacuga_cutwing",
@@ -12257,6 +12339,7 @@
         {
           "source": "尾巴剝取",
           "num": "1回",
+          "info": "[切斷系(斬)攻擊]",
           "low_rank": [
             {
               "item": "zinogre_tail",
@@ -12299,6 +12382,7 @@
         },
         {
           "source": "掉落物",
+          "info": "從超帶電狀態恢復到正常狀態時",
           "low_rank": [
             {
               "item": "wyvern_tear",
@@ -12386,7 +12470,8 @@
           "high_rank": []
         },
         {
-          "source": "兩角破壊",
+          "source": "両角破壊",
+          "info": "[耐久值2回降到0]",
           "low_rank": [
             {
               "item": "zinogre_horn",
@@ -12424,6 +12509,7 @@
         },
         {
           "source": "片爪破壊",
+          "info": "[破壞左爪或右爪]",
           "low_rank": [
             {
               "item": "zinogre_claw",
@@ -12466,6 +12552,7 @@
         },
         {
           "source": "背中破壊",
+          "info": "[耐久值3回降到0]",
           "low_rank": [
             {
               "item": "zinogre_shocker",
@@ -12680,10 +12767,11 @@
         {
           "source": "尾巴剝取",
           "num": "1回",
+          "info": "[切斷系(斬)攻擊]",
           "low_rank": [],
           "high_rank": [
             {
-              "item": "霞龍の尾巴",
+              "item": "霞龍の尻尾",
               "rate": "72%",
               "num": "1"
             },
@@ -12706,6 +12794,7 @@
         },
         {
           "source": "掉落物",
+          "info": "頭或翼破壞時",
           "low_rank": [],
           "high_rank": [
             {
@@ -12737,6 +12826,7 @@
         },
         {
           "source": "頭破壊",
+          "info": "[體力值30%以下時將耐久值1回降到0的報酬]",
           "low_rank": [],
           "high_rank": [
             {
@@ -12758,6 +12848,7 @@
         },
         {
           "source": "翼破壊",
+          "info": "[耐久值2回降到0報酬]",
           "low_rank": [],
           "high_rank": [
             {

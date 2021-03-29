@@ -85,10 +85,10 @@
               </tr>
               <template v-for="(box,i) in mondata.materials">
                 <tr :key="i">
-                  <td
-                    colspan="2"
-                    class="materials-source"
-                  >{{box.source + (box.num === undefined? "" : "(" + box.num + ")")}}</td>
+                  <td colspan="2" class="materials-source">
+                    {{box.source + (box.num === undefined? "" : "(" + box.num + ")")}}
+                    <div v-if="box.info!==undefined" class="materials-source-info">{{box.info}}</div>
+                  </td>
                 </tr>
                 <tr :key="i" class="card-text text-bold">
                   <td>
@@ -248,6 +248,13 @@ td {
 .materials-source {
   background-color: #f0f3e7;
   font-size: 14px;
+  font-weight: bold;
+}
+.materials-source-info {
+  font-weight: normal;
+  color: rgb(73, 73, 73);
+  padding-left: 4px;
+  font-size: 12px;
 }
 .materials-text-item {
   font-weight: normal;
