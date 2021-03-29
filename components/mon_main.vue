@@ -75,6 +75,44 @@
           </table>
         </details>
 
+        <details open v-if="mondata.materials!== undefined">
+          <summary class="header2">{{$t('monster.materials')}}</summary>
+          <table id="hitdata-table">
+            <tbody id="hitdata_table_tbody">
+              <tr class="card-text text-bold">
+                <th width="50%">{{$t('low_rank')}}</th>
+                <th width="50%">{{$t('high_rank')}}</th>
+              </tr>
+              <template v-for="(box,i) in mondata.materials">
+                <tr :key="i">
+                  <td colspan="2" class="materials-source">
+                    {{box.source + (box.num === undefined? "" : "(" + box.num + ")")}}
+                    <div v-if="box.info!==undefined" class="materials-source-info">{{box.info}}</div>
+                  </td>
+                </tr>
+                <tr :key="i" class="card-text text-bold">
+                  <td>
+                    <div v-for="(item, j) in box.low_rank" :key="j" class="flex-row flex-intense">
+                      <div
+                        class="materials-text-item"
+                      >{{ $te('data.items.' + item.item + '.name')? $t('data.items.' + item.item + '.name' ) : item.item}}</div>
+                      <div class="materials-text-rate">{{item.rate === ""? "?":item.rate}}</div>
+                    </div>
+                  </td>
+                  <td>
+                    <div v-for="(item, j) in box.high_rank" :key="j" class="flex-row flex-intense">
+                      <div
+                        class="materials-text-item"
+                      >{{ $te('data.items.' + item.item + '.name')? $t('data.items.' + item.item + '.name' ) : item.item}}</div>
+                      <div class="materials-text-rate">{{item.rate === ""? "?":item.rate}}</div>
+                    </div>
+                  </td>
+                </tr>
+              </template>
+            </tbody>
+          </table>
+        </details>
+
         <mon_moves :monmoves="movedata" v-if="!IsNullOrEmpty(movedata)"></mon_moves>
         <!-- <div id="divmoves" v-if="!IsNullOrEmpty(movedata)">
           <details open v-show="!IsNullOrEmpty(movedata.outline)">
@@ -205,6 +243,28 @@ td {
 }
 .hitdata-highlight {
   background-color: #ffcfcf !important;
+}
+
+.materials-source {
+  background-color: #f0f3e7;
+  font-size: 14px;
+  font-weight: bold;
+}
+.materials-source-info {
+  font-weight: normal;
+  color: rgb(73, 73, 73);
+  padding-left: 4px;
+  font-size: 12px;
+}
+.materials-text-item {
+  font-weight: normal;
+  font-size: 14px;
+}
+.materials-text-rate {
+  font-weight: normal;
+  color: blue;
+  padding-left: 4px;
+  font-size: 12px;
 }
 
 thead,

@@ -9,6 +9,8 @@
         "note": "Note",
         "type": "Type",
         "trait": "Trait",
+        "low_rank": "Low Rank",
+        "high_rank": "High Rank",
         "dataType": {
             "large_monsters": "Large Monsters",
             "small_monsters": "Small Monsters",
@@ -99,6 +101,7 @@
             "part": "Part",
             "state": "State",
             "hitdata": "Hit Data",
+            "materials": "Materials",
             "riding_moves": "Riding Attacks",
             "battlestrategy": "Battle Strategy",
             "moves": "Attack Patterns",
@@ -779,6 +782,3768 @@
                             "description": "Stretches out a web of silk and counters the enemy's attack. You can change the direction of your counter-attack so you can hit the opponent charging towards you."
                         }
                     }
+                }
+            },
+            "items": {
+                "throwing_kunai": {
+                    "name": "Throwing Kunai",
+                    "description": "A standard throwing kunai.Flies straight and true.Allows for precise aiming."
+                },
+                "barrel_bomb": {
+                    "name": "Barrel Bomb",
+                    "description": "A small time bomb."
+                },
+                "large_barrel_bomb": {
+                    "name": "Large Barrel Bomb",
+                    "description": "A powerful bomb triggeredby external physical impact."
+                },
+                "shock_trap": {
+                    "name": "Shock Trap",
+                    "description": "A trap that immobilizesa target. Use it to capturemonsters."
+                },
+                "max_potion": {
+                    "name": "Max Potion",
+                    "description": "Fully restores health."
+                },
+                "potion": {
+                    "name": "Potion",
+                    "description": "Restores a smallamount of health."
+                },
+                "mega_potion": {
+                    "name": "Mega Potion",
+                    "description": "Restores a moderateamount of health."
+                },
+                "well-done_steak": {
+                    "name": "Well-done Steak",
+                    "description": "Food that fully restoresstamina."
+                },
+                "lifepowder": {
+                    "name": "Lifepowder",
+                    "description": "Produces a cloud thatheals you anyone nearby."
+                },
+                "whetstone": {
+                    "name": "Whetstone",
+                    "description": "A standard-sized whetstone.Use it to restore a weapon'ssharpness."
+                },
+                "antidote": {
+                    "name": "Antidote",
+                    "description": "A cure for poison/venom."
+                },
+                "cleanser": {
+                    "name": "Cleanser",
+                    "description": "Immediately removes any foamor webbing on your body."
+                },
+                "deodorant": {
+                    "name": "Deodorant",
+                    "description": "An item that cures Stench,hellfireblight, and blast-blight when thrown down."
+                },
+                "bbq_spit": {
+                    "name": "BBQ Spit",
+                    "description": "Just what you need to cookmeat. A must-have item forany hungry hunter."
+                },
+                "empty_phial": {
+                    "name": "Empty Phial",
+                    "description": "A regular old empty phial.Nothing more, nothing less."
+                },
+                "small_barrel": {
+                    "name": "Small Barrel",
+                    "description": "A small, empty barrel."
+                },
+                "large_barrel": {
+                    "name": "Large Barrel",
+                    "description": "A large, empty barrel.Combine with gunpowderto make it into a bomb."
+                },
+                "trap_tool": {
+                    "name": "Trap Tool",
+                    "description": "A must-have item for puttingtogether pitfall traps andother kinds of traps."
+                },
+                "powercharm": {
+                    "name": "Powercharm",
+                    "description": "An amulet that strengthensattacks. Just carrying thisgives you demonic strength."
+                },
+                "armorcharm": {
+                    "name": "Armorcharm",
+                    "description": "An amulet that increasesdefense. Just carrying thismakes your skin stone hard."
+                },
+                "normal_ammo_1": {
+                    "name": "Normal Ammo 1",
+                    "description": "Ammo for novices.Doesn't pack much oomph.Unlimited shots."
+                },
+                "normal_ammo_2": {
+                    "name": "Normal Ammo 2",
+                    "description": "Non-specialized ammo.More powerful thanNormal Ammo 1."
+                },
+                "normal_ammo_3": {
+                    "name": "Normal Ammo 3",
+                    "description": "High-quality gunpowderammo. Single-shot, butfast and impactful."
+                },
+                "pierce_ammo_1": {
+                    "name": "Pierce Ammo 1",
+                    "description": "Armor-piercing ammothat deals multiple hitsto some monsters."
+                },
+                "pierce_ammo_2": {
+                    "name": "Pierce Ammo 2",
+                    "description": "High-grade armor-piercingammo. Deals more hitsthan Pierce Ammo 1."
+                },
+                "pierce_ammo_3": {
+                    "name": "Pierce Ammo 3",
+                    "description": "Max-gradearmor-piercing ammo.Deals numerous hits."
+                },
+                "spread_ammo_1": {
+                    "name": "Spread Ammo 1",
+                    "description": "Ammo made for close combat.What it lacks in range, itmakes up for in damage."
+                },
+                "spread_ammo_2": {
+                    "name": "Spread Ammo 2",
+                    "description": "Ammo made for closecombat. Deals more hitsthan Spread Ammo 1."
+                },
+                "spread_ammo_3": {
+                    "name": "Spread Ammo 3",
+                    "description": "Max-grade ammo madefor close combat. Dealsnumerous hits."
+                },
+                "sticky_ammo_1": {
+                    "name": "Sticky Ammo 1",
+                    "description": "Powerful pierce and burstammo. Headshots may stun."
+                },
+                "sticky_ammo_2": {
+                    "name": "Sticky Ammo 2",
+                    "description": "Very powerful pierce andburst ammo. Headshotsmay stun."
+                },
+                "cluster_bomb_1": {
+                    "name": "Cluster Bomb 1",
+                    "description": "Ammo that fragments intothree shells upon impact.Beware of friendly fire!"
+                },
+                "cluster_bomb_2": {
+                    "name": "Cluster Bomb 2",
+                    "description": "Ammo that fragments intofour shells upon impact.Beware of friendly fire!"
+                },
+                "poison_ammo_1": {
+                    "name": "Poison Ammo 1",
+                    "description": "Poisons target, but mayrequire several shots."
+                },
+                "poison_ammo_2": {
+                    "name": "Poison Ammo 2",
+                    "description": "Enhanced ammo that inflictspoison. Some targetsrequire multiple shots."
+                },
+                "paralysis_ammo_1": {
+                    "name": "Paralysis Ammo 1",
+                    "description": "Paralyzes target, but mayrequire several shots."
+                },
+                "paralysis_ammo_2": {
+                    "name": "Paralysis Ammo 2",
+                    "description": "Enhanced ammo that inflictsparalysis. Some targetsrequire multiple shots."
+                },
+                "sleep_ammo_1": {
+                    "name": "Sleep Ammo 1",
+                    "description": "Induces sleep, but mayrequire several shots."
+                },
+                "sleep_ammo_2": {
+                    "name": "Sleep Ammo 2",
+                    "description": "Enhanced ammo thatinflicts sleep. Some targetsrequire multiple shots."
+                },
+                "exhaust_ammo_1": {
+                    "name": "Exhaust Ammo 1",
+                    "description": "Ammo that drainsa monster's stamina."
+                },
+                "exhaust_ammo_2": {
+                    "name": "Exhaust Ammo 2",
+                    "description": "Enhanced special ammothat drains a monster'sstamina."
+                },
+                "recover_ammo_1": {
+                    "name": "Recover Ammo 1",
+                    "description": "Ammo that restores asmall amount of healthto an ally upon impact."
+                },
+                "flaming_ammo": {
+                    "name": "Flaming Ammo",
+                    "description": "Ammo that packs apunch against monstersweak to fire element."
+                },
+                "water_ammo": {
+                    "name": "Water Ammo",
+                    "description": "Ammo that packs apunch against monstersweak to water element."
+                },
+                "thunder_ammo": {
+                    "name": "Thunder Ammo",
+                    "description": "Ammo that packs apunch against monstersweak to thunder element."
+                },
+                "freeze_ammo": {
+                    "name": "Freeze Ammo",
+                    "description": "Ammo that packs apunch against monstersweak to ice element."
+                },
+                "slicing_ammo": {
+                    "name": "Slicing Ammo",
+                    "description": "Ammo that ejects sharpblades on impact, whichcan sever tails."
+                },
+                "wyvern_ammo": {
+                    "name": "Wyvern Ammo",
+                    "description": "Ammo created throughyears of research intoWyvern's Fire."
+                },
+                "tranq_ammo": {
+                    "name": "Tranq Ammo",
+                    "description": "Bowgun ammo usedto capture monstersensnared in traps."
+                },
+                "power_coating": {
+                    "name": "Power Coating",
+                    "description": "An arrow coating thatincreases the attackpower of arrows."
+                },
+                "poison_coating": {
+                    "name": "Poison Coating",
+                    "description": "An arrow coating thatapplies poison effectsto arrows."
+                },
+                "para_coating": {
+                    "name": "Para Coating",
+                    "description": "An arrow coating thatapplies paralysis effectsto arrows."
+                },
+                "sleep_coating": {
+                    "name": "Sleep Coating",
+                    "description": "An arrow coating thatapplies sleep effectsto arrows."
+                },
+                "blast_coating": {
+                    "name": "Blast Coating",
+                    "description": "An arrow coating thatapplies explosive powderto arrows."
+                },
+                "close-range_coating": {
+                    "name": "Close-range Coating",
+                    "description": "Arrows that deal more damageto close targets, butreduces maximum range."
+                },
+                "exhaust_coating": {
+                    "name": "Exhaust Coating",
+                    "description": "An arrow coating thatapplies a fatigue-inducingfluid to arrows."
+                },
+                "lottery_ticket": {
+                    "name": "Lottery Ticket",
+                    "description": "This ticket can be redeemedfor a free turn at the lotteryduring Kagero's sales."
+                },
+                "rathian_scale": {
+                    "name": "Rathian Scale",
+                    "description": "Scales of a Rathian. Theirdark emerald hue exudesa feminine grace."
+                },
+                "rathian_shell": {
+                    "name": "Rathian Shell",
+                    "description": "A shell piece comprised oflayered scales, making itmuch harder than just one."
+                },
+                "rathian_webbing": {
+                    "name": "Rathian Webbing",
+                    "description": "This heat-resistantmaterial is oftenused as armor lining."
+                },
+                "rathian_spike": {
+                    "name": "Rathian Spike",
+                    "description": "Needle-like hair found ona Rathian's back and wings.They contain poison."
+                },
+                "rathian_plate": {
+                    "name": "Rathian Plate",
+                    "description": "A searing tail scale. Hardto come by and as fiery asthe wyvern it came from."
+                },
+                "rathalos_scale": {
+                    "name": "Rathalos Scale",
+                    "description": "A Rathalos scale. Wyvernscales like this one arefundamental materials."
+                },
+                "rathalos_shell": {
+                    "name": "Rathalos Shell",
+                    "description": "A shell piece comprised oflayered scales, making itmuch harder than just one."
+                },
+                "rathalos_webbing": {
+                    "name": "Rathalos Webbing",
+                    "description": "This heat-resistantmaterial is oftenused as armor lining."
+                },
+                "rathalos_plate": {
+                    "name": "Rathalos Plate",
+                    "description": "A searing tail scale. Hardto come by and as fiery asthe wyvern it came from."
+                },
+                "rathalos_marrow": {
+                    "name": "Rathalos Marrow",
+                    "description": "Recent advances allow thismarrow to be extracted. Itignites on air contact."
+                },
+                "flame_sac": {
+                    "name": "Flame Sac",
+                    "description": "A monster organ filled withflammable powder. Handlewith extreme care."
+                },
+                "zinogre_shell": {
+                    "name": "Zinogre Shell",
+                    "description": "A blue-green shell whichstores electricity and worksas a protective insulator."
+                },
+                "zinogre_shockfur": {
+                    "name": "Zinogre Shockfur",
+                    "description": "White fur that stores andmagnifies electricity, whichit holds even after carving."
+                },
+                "zinogre_claw": {
+                    "name": "Zinogre Claw",
+                    "description": "A sharp and tremendouslypowerful claw capable ofquickly dicing up prey."
+                },
+                "zinogre_shocker": {
+                    "name": "Zinogre Shocker",
+                    "description": "The ocher shell that oncelined a Zinogre's body.Contains conductive lipids."
+                },
+                "zinogre_plate": {
+                    "name": "Zinogre Plate",
+                    "description": "A rare and intimidatingtrophy that seems to pulsewith residual fury."
+                },
+                "mizutsune_scale": {
+                    "name": "Mizutsune Scale",
+                    "description": "A transparent Mizutsune scale.Its irregular shape refractslight into many bright colors."
+                },
+                "mizutsune_purplefur": {
+                    "name": "Mizutsune Purplefur",
+                    "description": "The purple fur of a Mizutsune.Stiff, but is soft as silk whensoaked with bubblefoam."
+                },
+                "mizutsune_claw": {
+                    "name": "Mizutsune Claw",
+                    "description": "A claw that flies freelythrough bubblefoam, allowingit to be used as a spike."
+                },
+                "bubblefoam": {
+                    "name": "Bubblefoam",
+                    "description": "Fluid secreted by Mizutsune.Just a few drops can turn aswamp into a bubble bath."
+                },
+                "mizutsune_plate": {
+                    "name": "Mizutsune Plate",
+                    "description": "An ancient scale as old asits former owner. Can evencreate rainbows from light."
+                },
+                "aknosom_scale": {
+                    "name": "Aknosom Scale",
+                    "description": "An Aknosom scale that glowswith a stunning ivory light.A popular material."
+                },
+                "aknosom_feather": {
+                    "name": "Aknosom Feather",
+                    "description": "Feathered Aknosom scaletreasured for its use inumbrellas. Sturdy yet light."
+                },
+                "aknosom_crest": {
+                    "name": "Aknosom Crest",
+                    "description": "An Aknosom comb. The eyeballmotif on the forehead showsup in many a ghost story."
+                },
+                "tetranadon_hide": {
+                    "name": "Tetranadon Hide",
+                    "description": "Made from Tetranadon belly,it's very stretchy. Now youcan eat as much as you want!"
+                },
+                "tetra_carapace": {
+                    "name": "Tetra Carapace",
+                    "description": "This shell's mossy surfaceacts as a cushion, making itsturdier than it looks."
+                },
+                "tetranadon_beak": {
+                    "name": "Tetranadon Beak",
+                    "description": "You can store up water inthis Tetranadon beak. Greatfor gear that uses water."
+                },
+                "almudron_scale": {
+                    "name": "Almudron Scale",
+                    "description": "Highly water-repellentAlmudron scale. Allows forunhindered bog traversal."
+                },
+                "almudron_shell": {
+                    "name": "Almudron Shell",
+                    "description": "Overlapping scales fusedwith mud and Almudron mucusto form an outer shell."
+                },
+                "almudron_claw": {
+                    "name": "Almudron Claw",
+                    "description": "Almudron claws thatexcel at speedy digging.Dirt fears them."
+                },
+                "raw_meat": {
+                    "name": "Raw Meat",
+                    "description": "Meat carved from a monster.You might catch a certainFlooded Forest fish with it."
+                },
+                "pitfall_trap": {
+                    "name": "Pitfall Trap",
+                    "description": "A trap for catching certainlarge monsters. It istripped by a heavy weight."
+                },
+                "dango_ticket": {
+                    "name": "Dango Ticket",
+                    "description": "A ticket for dango fullof carefully selected,special ingredients."
+                },
+                "honey": {
+                    "name": "Honey",
+                    "description": "Highly nutritious honey.Combine with potions to makethe more potent mega potion."
+                },
+                "blue_mushroom": {
+                    "name": "Blue Mushroom",
+                    "description": "A mushroom infused withpower-enhancing effects.Used in restorative items."
+                },
+                "godbug": {
+                    "name": "Godbug",
+                    "description": "An insect said to live a millennium.Combine it with other items to addtheir properties to the powder."
+                },
+                "herb": {
+                    "name": "Herb",
+                    "description": "A primary ingredientin potions."
+                },
+                "nulberry": {
+                    "name": "Nulberry",
+                    "description": "Mysterious berry that curesblights and resistance down."
+                },
+                "latchberry": {
+                    "name": "Latchberry",
+                    "description": "A nut that bears a spiralgroove. Used to makePierce Ammo."
+                },
+                "iron_ore": {
+                    "name": "Iron Ore",
+                    "description": "Ore that can be smeltedinto metal and used formany different purposes."
+                },
+                "earth_crystal": {
+                    "name": "Earth Crystal",
+                    "description": "Crystallized microbes whichare prized as an abrasivewhen forging weapons."
+                },
+                "machalite_ore": {
+                    "name": "Machalite Ore",
+                    "description": "An ore that yields bettermetals than iron ore.Used to make machalite."
+                },
+                "dragonite_ore": {
+                    "name": "Dragonite Ore",
+                    "description": "An ore that yields metalsuperior to that ofmachalite—rare and valuable."
+                },
+                "unique_mushroom": {
+                    "name": "Unique Mushroom",
+                    "description": "A pinky-sized shroom valuedfor its unusual aroma.(Account Item)"
+                },
+                "choice_mushroom": {
+                    "name": "Choice Mushroom",
+                    "description": "The perfect shape and aroma.Even better than a uniquemushroom. (Account Item)"
+                },
+                "energy_drink": {
+                    "name": "Energy Drink",
+                    "description": "A Guild-approved beveragethat boosts your stamina.Helps shake off sleep, too!"
+                },
+                "shrapnel_ammo_1": {
+                    "name": "Shrapnel Ammo 1",
+                    "description": "Ammo that covers a widearea. Who needs accuracywhen you hit this much?"
+                },
+                "shrapnel_ammo_2": {
+                    "name": "Shrapnel Ammo 2",
+                    "description": "Ammo that covers a wide area.More range and even more hitsthan Shrapnel Ammo 1."
+                },
+                "shrapnel_ammo_3": {
+                    "name": "Shrapnel Ammo 3",
+                    "description": "Max-grade shrapnel ammo thatdelivers maximum range andhit-count over a wide area."
+                },
+                "anjanath_pelt": {
+                    "name": "Anjanath Pelt",
+                    "description": "This Anjanath fur is usedby local firefighters for itsfire-resistant properties."
+                },
+                "anjanath_scale": {
+                    "name": "Anjanath Scale",
+                    "description": "Tempered by the heat of anAnjanath, this scale repelsany ordinary blade."
+                },
+                "anjanath_fang": {
+                    "name": "Anjanath Fang",
+                    "description": "Fang shaped by the extremepressure and heat of anAnjanath's mouth."
+                },
+                "anjanath_nosebone": {
+                    "name": "Anjanath Nosebone",
+                    "description": "Nasal bone of an Anjanath.Its characteristic structureis a hot research topic."
+                },
+                "anjanath_tail": {
+                    "name": "Anjanath Tail",
+                    "description": "This Anjanath tail can beused in weapons, but it'salso a local delicacy."
+                },
+                "anjanath_plate": {
+                    "name": "Anjanath Plate",
+                    "description": "Rare, roiled Anjanathplating, produced by thebeast's persistent rage."
+                },
+                "armor_sphere": {
+                    "name": "Armor Sphere",
+                    "description": "Reacts uniquely to heat.Fuse this to armor toimprove it by a tiny amount."
+                },
+                "armor_sphere_plus": {
+                    "name": "Armor Sphere+",
+                    "description": "Reacts uniquely to heat.Fuse this to armor toimprove it by a small amount."
+                },
+                "advanced_armor_sphere": {
+                    "name": "Advanced Armor Sphere",
+                    "description": "Reacts uniquely to heat.Fuse this to armor toimprove it."
+                },
+                "sticky_ammo_3": {
+                    "name": "Sticky Ammo 3",
+                    "description": "Powerful pierce and burstammo. Headshots stun."
+                },
+                "cluster_bomb_3": {
+                    "name": "Cluster Bomb 3",
+                    "description": "Ammo that fragments intofive shells upon impact.Beware of friendly fire!"
+                },
+                "recover_ammo_2": {
+                    "name": "Recover Ammo 2",
+                    "description": "Ammo that restores amoderate amount of healthto an ally upon impact."
+                },
+                "demon_ammo": {
+                    "name": "Demon Ammo",
+                    "description": "Ammo that fills the targetwith savage amountsof strength."
+                },
+                "armor_ammo": {
+                    "name": "Armor Ammo",
+                    "description": "Ammo that makes thetarget's skin as hardas stone."
+                },
+                "piercing_fire_ammo": {
+                    "name": "Piercing Fire Ammo",
+                    "description": "Piercing ammo that dischargesmultiple heavy-hittingfire-element shots."
+                },
+                "piercing_water_ammo": {
+                    "name": "Piercing Water Ammo",
+                    "description": "Piercing ammo that dischargesmultiple heavy-hittingwater-element shots."
+                },
+                "piercing_ice_ammo": {
+                    "name": "Piercing Ice Ammo",
+                    "description": "Piercing ammo that dischargesmultiple heavy-hittingice-element shots."
+                },
+                "piercing_thunder_ammo": {
+                    "name": "Piercing Thunder Ammo",
+                    "description": "Piercing ammo that dischargesmultiple heavy-hittingthunder-element shots."
+                },
+                "dragon_ammo": {
+                    "name": "Dragon Ammo",
+                    "description": "Ammo that packs a punchagainst monsters weak todragon element."
+                },
+                "piercing_dragon_ammo": {
+                    "name": "Piercing Dragon Ammo",
+                    "description": "Piercing ammo that dischargesmultiple heavy-hittingdragon-element shots."
+                },
+                "flash_bomb": {
+                    "name": "Flash Bomb",
+                    "description": "Flashes brightly on impact.Toss this right under amonster's nose to blind it."
+                },
+                "old_message": {
+                    "name": "Old Message",
+                    "description": "An old message. Holdshistorical value and isthus sought by Kagero."
+                },
+                "aknosom_beak": {
+                    "name": "Aknosom Beak",
+                    "description": "Aknosom beak that appearsto be wearing lipstick. Usedin arts and crafts."
+                },
+                "tetranadon_disc": {
+                    "name": "Tetranadon Disc",
+                    "description": "Disc-shaped bone thatprotects a Tetranadon'smoisturizing organ from foes."
+                },
+                "somnacanth_scale": {
+                    "name": "Somnacanth Scale",
+                    "description": "Somnacanth scale thatglistens a brilliant yellowdue to its watery coating."
+                },
+                "somnacanth_shell": {
+                    "name": "Somnacanth Shell",
+                    "description": "A spiked Somancanth carapacebuilt for protection andcutting through water."
+                },
+                "somnacanth_talon": {
+                    "name": "Somnacanth Talon",
+                    "description": "A talon with a long, hookedshape that's great forweapons, but also farm work!"
+                },
+                "somnacanth_fin": {
+                    "name": "Somnacanth Fin",
+                    "description": "A Somnacanth head-fin. Asbeautiful as the midnightsea. Careful with the barbs!"
+                },
+                "somnacanth_dust": {
+                    "name": "Somnacanth Dust",
+                    "description": "A glimmering blue powdershot from a Somnacanth'sneck. Makes you feel sleepy."
+                },
+                "magnamalo_scale": {
+                    "name": "Magnamalo Scale",
+                    "description": "Sturdy and small Magnamaloscale that is flexible andresistant to fangs."
+                },
+                "magnamalo_shell": {
+                    "name": "Magnamalo Shell",
+                    "description": "An armor-like carapace fromMagnamalo. Won't budge toany run-of-the-mill strikes."
+                },
+                "magnamalo_blade": {
+                    "name": "Magnamalo Blade",
+                    "description": "Talon that has grown into ablade shape on Magnamalo'sforearm. Already very sharp."
+                },
+                "magnamalo_tail": {
+                    "name": "Magnamalo Tail",
+                    "description": "Magnamalo's bladed tail.Used to pierce through theguts of unsuspecting prey."
+                },
+                "magnamalo_horn": {
+                    "name": "Magnamalo Horn",
+                    "description": "Majestic Magnamalo horn thatechoes with the sorrow ofwarriors slain."
+                },
+                "magnamalo_scute": {
+                    "name": "Magnamalo Scute",
+                    "description": "Bladed hide of Magnamalo'sback. Its edge is nickedfrom countless battles."
+                },
+                "magna_ghostprism": {
+                    "name": "Magna Ghostprism",
+                    "description": "A gaseous crystal that emitsflammable gas resemblingdancing purple flames."
+                },
+                "magnamalo_plate": {
+                    "name": "Magnamalo Plate",
+                    "description": "Rare Magnamalo scale.Glows with a deep purple,all-consuming menace."
+                },
+                "golden_muck": {
+                    "name": "Golden Muck",
+                    "description": "Mud mixed with Almudronmucus. Prized for itsviscosity and sumptuous hue."
+                },
+                "almudron_fin": {
+                    "name": "Almudron Fin",
+                    "description": "Red tuft of Almudron hair.Covered in a viscous fluidsecreted from its pores."
+                },
+                "almudron_tail": {
+                    "name": "Almudron Tail",
+                    "description": "An impressive Almudron tail.Its willow-esque droop opensup opportunities to strike."
+                },
+                "almudron_whisker": {
+                    "name": "Almudron Whisker",
+                    "description": "These crimson Almudronwhiskers sense vibrationsto help locate prey."
+                },
+                "almudron_plate": {
+                    "name": "Almudron Plate",
+                    "description": "Rare Almudron scale.As you stare into its grayhue, you feel sucked in."
+                },
+                "goss_harag_fur": {
+                    "name": "Goss Harag Fur",
+                    "description": "This Goss hair repels snowand keeps heat in, makingit popular for winter wear."
+                },
+                "goss_harag_hide": {
+                    "name": "Goss Harag Hide",
+                    "description": "The Goss Harag's warm bodyand the cold outside airhave tempered this hide."
+                },
+                "goss_harag_brace": {
+                    "name": "Goss Harag Brace",
+                    "description": "Ice and snow have built upon this arm carapace untilit could work as a weapon."
+                },
+                "goss_harag_horn": {
+                    "name": "Goss Harag Horn",
+                    "description": "Lumpy blue horns of a GossHarag. For some reason, theytend to scare children."
+                },
+                "goss_harag_claw": {
+                    "name": "Goss Harag Claw",
+                    "description": "Goss Harag claws. They grownot only from its toes,but also all over its feet!"
+                },
+                "block_of_ice": {
+                    "name": "Block of Ice",
+                    "description": "The Goss Harag melts snow onits body, forming this iceclump on its legs at will."
+                },
+                "goss_harag_bile": {
+                    "name": "Goss Harag Bile",
+                    "description": "A Goss Harag gallbladderonce prized as a panacea.Good luck getting it out..."
+                },
+                "arzuros_pelt": {
+                    "name": "Arzuros Pelt",
+                    "description": "An Arzuros pelt. The whiteportion is soft, while theblue is short and taut."
+                },
+                "arzuros_pelt_plus": {
+                    "name": "Arzuros Pelt+",
+                    "description": "A splendid Arzuros pelt.Sturdy enough to survive inharsh mountainous terrain."
+                },
+                "arzuros_shell": {
+                    "name": "Arzuros Shell",
+                    "description": "Shell from an Arzuros's heador back. Bends willinglyand is easy to forge."
+                },
+                "arzuros_carapace": {
+                    "name": "Arzuros Carapace",
+                    "description": "A quality Arzuros carapace.The thick shell can endurebites from ordinary fangs."
+                },
+                "arzuros_brace": {
+                    "name": "Arzuros Brace",
+                    "description": "A brace from an Arzuros'sforelegs. Its sharp points giveforged equipment a wild flavor."
+                },
+                "arzuros_brace_plus": {
+                    "name": "Arzuros Brace+",
+                    "description": "A strong Arzuros brace.Its thorn-like protrusionsmake paw swipes deadly."
+                },
+                "great_baggi_hide": {
+                    "name": "Great Baggi Hide",
+                    "description": "Hide from a Great Baggi.Despite how tough it is,it's covered in old scars."
+                },
+                "great_baggi_hide_plus": {
+                    "name": "Great Baggi Hide+",
+                    "description": "Quality Great Baggi hide.You'd be hard pressed tohurt a Baggi this tough."
+                },
+                "great_baggi_claw": {
+                    "name": "Great Baggi Claw",
+                    "description": "A robust Great Baggi claw.It's thicker than a regularold Baggi claw."
+                },
+                "great_baggi_claw_plus": {
+                    "name": "Great Baggi Claw+",
+                    "description": "A quality Great Baggi Claw.Sharpened by battle, it'sperfect for weapons."
+                },
+                "lagombi_pelt": {
+                    "name": "Lagombi Pelt",
+                    "description": "A white pelt carved from aLagombi. One pat and you'llbe hooked on its fluffy fur."
+                },
+                "lagombi_pelt_plus": {
+                    "name": "Lagombi Pelt+",
+                    "description": "Quality white Lagombi pelt.Its frosty shine makes ita sought-after luxury item."
+                },
+                "lagombi_ear": {
+                    "name": "Lagombi Ear",
+                    "description": "The long ear of a Lagombi.A lifetime in the cold hasmade it hard as a shell."
+                },
+                "lagombi_ear_plus": {
+                    "name": "Lagombi Ear+",
+                    "description": "An impressive Lagombi ear.Highly developed, it can besharp as steel if polished."
+                },
+                "lagombi_plastron": {
+                    "name": "Lagombi Plastron",
+                    "description": "Shell piece from a Lagombi'sbelly. Its ridges allow theLagombi to slide on ice."
+                },
+                "lagombi_plastron_plus": {
+                    "name": "Lagombi Plastron+",
+                    "description": "A strong, sticky, and thickLagombi Plastron. Usedto make superior equipment."
+                },
+                "lagombi_iceclaw": {
+                    "name": "Lagombi Iceclaw",
+                    "description": "A Lagombi claw that's coldto the touch. Permanentlycovered in ice."
+                },
+                "lagombi_frozenclaw": {
+                    "name": "Lagombi Frozenclaw",
+                    "description": "A Lagombi claw surrounded bycold air. Wounds it causesfreeze over in an instant."
+                },
+                "flabby_hide": {
+                    "name": "Flabby Hide",
+                    "description": "Now useable as a materialthanks to recent advances.Has mysterious properties."
+                },
+                "pearl_hide": {
+                    "name": "Pearl Hide",
+                    "description": "The hide of a Khezu.Its strange properties arestill not fully understood."
+                },
+                "pale_extract": {
+                    "name": "Pale Extract",
+                    "description": "Has the ability to amplifythe effects of certainmedicines."
+                },
+                "pale_bone": {
+                    "name": "Pale Bone",
+                    "description": "The rib bone from a Khezu.Still has chunks of meatattached."
+                },
+                "pale_steak": {
+                    "name": "Pale Steak",
+                    "description": "Fatty meat from aKhezu. Looks tasty,but cannot be eaten."
+                },
+                "barroth_shell": {
+                    "name": "Barroth Shell",
+                    "description": "Shell from a Barroth. It'spretty muddy, but that'swhy it's so strong."
+                },
+                "barroth_carapace": {
+                    "name": "Barroth Carapace",
+                    "description": "A Barroth's carapace coatedin multiple layers of mud,making it quite rigid."
+                },
+                "barroth_ridge": {
+                    "name": "Barroth Ridge",
+                    "description": "Plate taken from a Barroth'sback. Fairly rare, but makesfor quality material."
+                },
+                "barroth_ridge_plus": {
+                    "name": "Barroth Ridge+",
+                    "description": "A thick, sturdy part of a Barrothbackplate. Mud and sunlighthave helped to harden it further."
+                },
+                "barroth_claw": {
+                    "name": "Barroth Claw",
+                    "description": "A Barroth claw. It's nottoo sharp, but can be usedto strengthen many things."
+                },
+                "barroth_claw_plus": {
+                    "name": "Barroth Claw+",
+                    "description": "A polished claw sharpened bysand and dirt. It can dig througheven the toughest earth."
+                },
+                "barroth_scalp": {
+                    "name": "Barroth Scalp",
+                    "description": "This durable part of aBarroth's skull is also thehardest to remove."
+                },
+                "barroth_tail": {
+                    "name": "Barroth Tail",
+                    "description": "Barroth tails aren't veryvaluable, but the meat ishailed as a delicacy."
+                },
+                "fertile_mud": {
+                    "name": "Fertile Mud",
+                    "description": "Mud that Barroth roll aroundin. Nutrient-rich and greatfor farming."
+                },
+                "great_wroggi_hide": {
+                    "name": "Great Wroggi Hide",
+                    "description": "Hide from a Great Wroggi.The white-on-orange patternalmost looks dyed."
+                },
+                "great_wroggi_hide_plus": {
+                    "name": "Great Wroggi Hide+",
+                    "description": "Quality Great Wroggi hide.The colors would look greaton an expert's weapon."
+                },
+                "great_wroggi_brace": {
+                    "name": "Great Wroggi Brace",
+                    "description": "A brace from a Great Wroggi.Covered in scales, it alsoincludes claws and plate."
+                },
+                "great_wroggi_brace_plus": {
+                    "name": "Great Wroggi Brace+",
+                    "description": "A tough Great Wroggi bracecomprised of high-qualityplate and claws."
+                },
+                "king's_beak": {
+                    "name": "King's Beak",
+                    "description": "A beak from a Great Wroggi.Careful with it—it's still poisonous!"
+                },
+                "spongy_hide": {
+                    "name": "Spongy Hide",
+                    "description": "Spongin from a Royal Ludroth'smane. Valued for its elasticityand high water retention."
+                },
+                "spongy_hide_plus": {
+                    "name": "Spongy Hide+",
+                    "description": "High-grade elastic hide thatboasts a remarkable abilityto retain water."
+                },
+                "royal_ludroth_scale": {
+                    "name": "Royal Ludroth Scale",
+                    "description": "A small scale that enablesgraceful movement. You needseveral to forge equipment."
+                },
+                "royal_ludroth_scale_plus": {
+                    "name": "Royal Ludroth Scale+",
+                    "description": "A large, strong scale froma Royal Ludroth. It reflectslight in every direction."
+                },
+                "royal_ludroth_claw": {
+                    "name": "Royal Ludroth Claw",
+                    "description": "A claw from a Royal Ludroth.Adapted better to movementthan to attacking."
+                },
+                "royal_ludroth_claw_plus": {
+                    "name": "Royal Ludroth Claw+",
+                    "description": "A sharp, pointed Royal Ludrothclaw. It plunges deep into theearth with each step taken."
+                },
+                "royal_ludroth_crest": {
+                    "name": "Royal Ludroth Crest",
+                    "description": "These crests become rigidwhen the beast is angry;quantity indicates status."
+                },
+                "royal_ludroth_crest_plus": {
+                    "name": "Royal Ludroth Crest+",
+                    "description": "A proud, strong crest befittinga pack leader. Its sharp hornsshine magnificently."
+                },
+                "royal_ludroth_tail": {
+                    "name": "Royal Ludroth Tail",
+                    "description": "The finned tail of a RoyalLudroth, used by fishermenfor their boats."
+                },
+                "barioth_shell": {
+                    "name": "Barioth Shell",
+                    "description": "White shell from aBarioth. It's strong yetincredibly light."
+                },
+                "barioth_carapace": {
+                    "name": "Barioth Carapace",
+                    "description": "A Barioth carapace with animpressive shine. Stronglyresembles an ice floe."
+                },
+                "barioth_pelt": {
+                    "name": "Barioth Pelt",
+                    "description": "A white pelt that's soft tothe touch. Absorbs impactalmost as well as a Barioth."
+                },
+                "barioth_pelt_plus": {
+                    "name": "Barioth Pelt+",
+                    "description": "A high-quality white pelt witha lovely texture. Nobles useit as a symbol of authority."
+                },
+                "barioth_claw": {
+                    "name": "Barioth Claw",
+                    "description": "A deceptively sharp Bariothclaw that can carve throughthick glaciers."
+                },
+                "barioth_claw_plus": {
+                    "name": "Barioth Claw+",
+                    "description": "A claw honed in the harsh Tundraenvironment. It can take downprey with a single swipe."
+                },
+                "barioth_spike": {
+                    "name": "Barioth Spike",
+                    "description": "These come in many sizes,and assist the Barioth inclinging to walls of ice."
+                },
+                "barioth_tail": {
+                    "name": "Barioth Tail",
+                    "description": "Barioth tails are covered inhard plate, and surprisinglytough to sever."
+                },
+                "amber_fang": {
+                    "name": "Amber Fang",
+                    "description": "A fang from a Barioth. Canbe used for weapons, butalso for decoration."
+                },
+                "amber_fang_plus": {
+                    "name": "Amber Fang+",
+                    "description": "Amber tusks sharpened bycountless kills. Can smashthrough gigantic ice blocks."
+                },
+                "volvidon_shell": {
+                    "name": "Volvidon Shell",
+                    "description": "The heat-resistant shell ofa Volvidon. Unaffected evenby boiling lava."
+                },
+                "volvi_carapace": {
+                    "name": "Volvi Carapace",
+                    "description": "A thick Volvidon carapace.The elasticity means forgingit requires severe pressure."
+                },
+                "volvidon_claw": {
+                    "name": "Volvidon Claw",
+                    "description": "A claw from a Volvidon'sforeleg. Dramatically raisesthe power of a wide swing."
+                },
+                "volvidon_claw_plus": {
+                    "name": "Volvidon Claw+",
+                    "description": "A hard, sharp Volvidon claw.Constant exposure to heathas tempered it like steel."
+                },
+                "volvi_rickrack": {
+                    "name": "Volvi Rickrack",
+                    "description": "The jagged shell of a Volvidon'sback. Its high elasticity makes itideal for crafting flexible gear."
+                },
+                "basarios_shell": {
+                    "name": "Basarios Shell",
+                    "description": "Rock-hard Basariosshell. Can be usedto refine metals."
+                },
+                "basarios_carapace": {
+                    "name": "Basarios Carapace",
+                    "description": "A rigid Basarios shell. Theamount of ore in it makes itcloser to rock than shell."
+                },
+                "basarios_wing": {
+                    "name": "Basarios Wing",
+                    "description": "The wing of a Basarios.Very hard to work asa material."
+                },
+                "basarios_tears": {
+                    "name": "Basarios Tears",
+                    "description": "Faintly pink gems foundnear the tear ductsof a Basarios."
+                },
+                "nargacuga_scale": {
+                    "name": "Nargacuga Scale",
+                    "description": "A scale from a Nargacuga.The surface is covered withthe beast's black fur."
+                },
+                "nargacuga_scale_plus": {
+                    "name": "Nargacuga Scale+",
+                    "description": "A black Nargacuga scale.Despite its hardness, it'ssurprisingly light and smooth."
+                },
+                "nargacuga_blackfur": {
+                    "name": "Nargacuga Blackfur",
+                    "description": "Black fur that grows onscales. Covers the animalin jet-black darkness."
+                },
+                "nargacuga_pelt_plus": {
+                    "name": "Nargacuga Pelt+",
+                    "description": "Pitch-black fur from aNargacuga. It absorbs lightand emits pure darkness."
+                },
+                "nargacuga_tail": {
+                    "name": "Nargacuga Tail",
+                    "description": "A Nargacuga's impressive tail.Might be mistaken for a weaponif seen out of context."
+                },
+                "narga_tailspike": {
+                    "name": "Narga Tailspike",
+                    "description": "A spiky scale from a Nargacugatail. It stands up when thebeast is enraged."
+                },
+                "nargacuga_cutwing": {
+                    "name": "Nargacuga Cutwing",
+                    "description": "Blade-like Nargacuga wing.Evolved to cut down preyon the fly."
+                },
+                "narga_razor": {
+                    "name": "Narga Razor",
+                    "description": "The large, sharp bladewingof a Nargacuga. It can slicethrough foes in a flash."
+                },
+                "nargacuga_fang": {
+                    "name": "Nargacuga Fang",
+                    "description": "Although small, the jaggedplacement of these fangsaids their cutting ability."
+                },
+                "nargacuga_fang_plus": {
+                    "name": "Nargacuga Fang+",
+                    "description": "A Nargacuga's terribly sharpfang. Evolved to tear ratherthan chew."
+                },
+                "nargacuga_marrow": {
+                    "name": "Nargacuga Marrow",
+                    "description": "Marrow as nimble as theNargacuga itself; requirestalent to properly harvest."
+                },
+                "narga_medulla": {
+                    "name": "Narga Medulla",
+                    "description": "A Nargacuga's medulla. Merelytouching it causes extreme pain,making crafting quite difficult."
+                },
+                "rathian_scale_plus": {
+                    "name": "Rathian Scale+",
+                    "description": "A superior Rathian scale.Looks like a normal Rathianscale, but is much harder."
+                },
+                "rathian_carapace": {
+                    "name": "Rathian Carapace",
+                    "description": "Rathian shell prized for itslavish green coloration. Anexcellent armor material."
+                },
+                "rathian_spike_plus": {
+                    "name": "Rathian Spike+",
+                    "description": "As sharp as the keenestblade. It is longer andsturdier than other spikes."
+                },
+                "rathian_ruby": {
+                    "name": "Rathian Ruby",
+                    "description": "A rare, precious gem frominside a wyvern. Almosttoo nice to use."
+                },
+                "zinogre_carapace": {
+                    "name": "Zinogre Carapace",
+                    "description": "The carapace of a Zinogre.Its magnificence reveals thefutility of facing it."
+                },
+                "zinogre_electrofur": {
+                    "name": "Zinogre Electrofur",
+                    "description": "Zinogre fur said to storelots of electricity. Shineswhite from the charge."
+                },
+                "zinogre_horn_plus": {
+                    "name": "Zinogre Horn+",
+                    "description": "A pointed Zinogre horn. Whencarved, it grants equipmentincomparable power."
+                },
+                "zinogre_claw_plus": {
+                    "name": "Zinogre Claw+",
+                    "description": "A high voltage Zinogreclaw. Its electrifiedattacks are truly brutal."
+                },
+                "zinogre_shocker_plus": {
+                    "name": "Zinogre Shocker+",
+                    "description": "An electrically chargedZinogre shell. Grants athunder god's power to gear."
+                },
+                "zinogre_jasper": {
+                    "name": "Zinogre Jasper",
+                    "description": "A rare gem sometimes producedinside a Zinogre's body. Thebeast's power swells within."
+                },
+                "mizutsune_scale_plus": {
+                    "name": "Mizutsune Scale+",
+                    "description": "A quality Mizutsune scale.Older scales polished overtime can be very valuable."
+                },
+                "mizutsune_purplefur_plus": {
+                    "name": "Mizutsune Purplefur+",
+                    "description": "High-quality purple fur.More foam-absorbent thanits lighter counterpart."
+                },
+                "mizutsune_claw_plus": {
+                    "name": "Mizutsune Claw+",
+                    "description": "Friction-reducing bubblefoamhelps this deadly claw slicethrough prey like sushi."
+                },
+                "mizutsune_fin_plus": {
+                    "name": "Mizutsune Fin+",
+                    "description": "A high-quality fin. Bubble-foam gives it an elegantpattern prettier than dye."
+                },
+                "bubblefoam_plus": {
+                    "name": "Bubblefoam+",
+                    "description": "The top layer of Mizutsunefluid. Removes impuritiesand is used in many rituals."
+                },
+                "mizutsune_water_orb": {
+                    "name": "Mizutsune Water Orb",
+                    "description": "A multicolored orb formedfrom a crystalized Mizutsunescale and bubblefoam."
+                },
+                "rathalos_scale_plus": {
+                    "name": "Rathalos Scale+",
+                    "description": "An extraordinarily durablescale carved from the bodyof a Rathalos."
+                },
+                "rathalos_carapace": {
+                    "name": "Rathalos Carapace",
+                    "description": "This Rathalos shell emanatesa nobility befittingthe ruler of the skies."
+                },
+                "rathalos_wing": {
+                    "name": "Rathalos Wing",
+                    "description": "A wing from a Rathalos.Skilled artisans can craftit into strong equipment."
+                },
+                "rathalos_ruby": {
+                    "name": "Rathalos Ruby",
+                    "description": "A rare, precious gem frominside a wyvern. Almosttoo nice to use."
+                },
+                "twisted_horn": {
+                    "name": "Twisted Horn",
+                    "description": "A twisted Diablos horn.Used in this region for many(less twisted) purposes."
+                },
+                "majestic_horn": {
+                    "name": "Majestic Horn",
+                    "description": "A twisted Diablos horn ingreat shape. Use it to makemore powerful weapons."
+                },
+                "diablos_shell": {
+                    "name": "Diablos Shell",
+                    "description": "Shell from a Diablos. It'sincredibly dense, and muchheavier than it looks."
+                },
+                "diablos_carapace": {
+                    "name": "Diablos Carapace",
+                    "description": "A quality Diablos carapace,buffed and hardened byconstant exposure to sand."
+                },
+                "diablos_ridge": {
+                    "name": "Diablos Ridge",
+                    "description": "A rigid Diablos backplate.Can be carved into fine gearwith the right knife skills."
+                },
+                "diablos_ridge_plus": {
+                    "name": "Diablos Ridge+",
+                    "description": "A particularly thick, hardDiablos carapace. Sturdy,but a pain to carve off."
+                },
+                "diablos_tailcase": {
+                    "name": "Diablos Tailcase",
+                    "description": "An armored tailcase thatputs iron hammers to shame.This material is a keeper."
+                },
+                "diablos_fang": {
+                    "name": "Diablos Fang",
+                    "description": "A large, sturdy fang used ineverything from weaponsto ornaments."
+                },
+                "diablos_marrow": {
+                    "name": "Diablos Marrow",
+                    "description": "Diablos bone marrow.Recently discovered to havesuperb binding properties."
+                },
+                "diablos_medulla": {
+                    "name": "Diablos Medulla",
+                    "description": "A rare medulla. Difficultto remove, but of greatinterest to researchers."
+                },
+                "tigrex_scale": {
+                    "name": "Tigrex Scale",
+                    "description": "Scale from the incrediblyviolent Tigrex. Incrediblymassive and sturdy."
+                },
+                "tigrex_scale_plus": {
+                    "name": "Tigrex Scale+",
+                    "description": "A flawless Tigrex scale. Canbe fastened with others tobecome harder than steel."
+                },
+                "tigrex_shell": {
+                    "name": "Tigrex Shell",
+                    "description": "A hard Tigrex shellcapable of repelling anyimpact. Extreme tenacity."
+                },
+                "tigrex_carapace": {
+                    "name": "Tigrex Carapace",
+                    "description": "A material hardened by thesands of time. Sharp edgesshow the Tigrex's ferocity."
+                },
+                "tigrex_tail": {
+                    "name": "Tigrex Tail",
+                    "description": "This flexible and strongtail can make greatequipment."
+                },
+                "tigrex_claw": {
+                    "name": "Tigrex Claw",
+                    "description": "A vicious foreclaw unique tothe Tigrex. Known for itsinsidious biting edge."
+                },
+                "tigrex_claw_plus": {
+                    "name": "Tigrex Claw+",
+                    "description": "A claw that time hassharpened into a horribledeath sentence for prey."
+                },
+                "tigrex_fang": {
+                    "name": "Tigrex Fang",
+                    "description": "A terrifying fang used tocrush prey. Makes all whosee it quiver in fear."
+                },
+                "tigrex_fang_plus": {
+                    "name": "Tigrex Fang+",
+                    "description": "The sharp fang of aTigrex. These fangs cancut any prey to shreds."
+                },
+                "tigrex_scalp": {
+                    "name": "Tigrex Scalp",
+                    "description": "Part of the head of aTigrex. Looks terrifying, asif it is still alive."
+                },
+                "tigrex_maw": {
+                    "name": "Tigrex Maw",
+                    "description": "The awe-inspiring jaws ofa Tigrex, ready to crushboth bone and spirit."
+                },
+                "rajang_horn_plus": {
+                    "name": "Rajang Horn+",
+                    "description": "The majestic golden horn ofa Rajang. Hunters yearn forthe heroism it represents."
+                },
+                "rajang_fang_plus": {
+                    "name": "Rajang Fang+",
+                    "description": "This sharpened fang cancut through anything dumbenough to touch it."
+                },
+                "rajang_blackfur": {
+                    "name": "Rajang Blackfur",
+                    "description": "Black Rajang fur. Whencrafted, the resulting clothis desired even by royalty."
+                },
+                "rajang_claw_plus": {
+                    "name": "Rajang Claw+",
+                    "description": "A sharp Rajang claw.Difficult to carve andmore difficult to craft."
+                },
+                "rajang_tail": {
+                    "name": "Rajang Tail",
+                    "description": "The glistening tail of aRajang. The golden fur isbeautiful and elegant."
+                },
+                "gold_rajang_pelt": {
+                    "name": "Gold Rajang Pelt",
+                    "description": "Fur taken from a Rajang'sbody. The golden hair istreasured by tailors."
+                },
+                "kelbi_horn": {
+                    "name": "Kelbi Horn",
+                    "description": "While unfit for forging,Kelbi horns are a vitalcomponent of many items."
+                },
+                "anteka_antler": {
+                    "name": "Anteka Antler",
+                    "description": "An antler often used as rawmaterial for armor. Popularwith interior decorators."
+                },
+                "rhenoplos_shell": {
+                    "name": "Rhenoplos Shell",
+                    "description": "A shell that is very strongdespite coming from sucha small monster."
+                },
+                "rhenoplos_carapace": {
+                    "name": "Rhenoplos Carapace",
+                    "description": "A carapace grown thick andhard over many years. Superstrong for a small monster."
+                },
+                "rhenoplos_scalp": {
+                    "name": "Rhenoplos Scalp",
+                    "description": "A sturdy part of the skullthat yields, shall we say,dashing results?"
+                },
+                "slagtoth_hide": {
+                    "name": "Slagtoth Hide",
+                    "description": "A Slagtoth hide. It's prettysaggy, helping them evadedeadly attacks."
+                },
+                "slagtoth_hide_plus": {
+                    "name": "Slagtoth Hide+",
+                    "description": "Lustrous hide often cut intolarge slabs. Prized for itswater-resistant properties."
+                },
+                "gargwa_feather": {
+                    "name": "Gargwa Feather",
+                    "description": "A big, beautiful featherplucked from a Gargwa. Oftenused as a fashion accessory."
+                },
+                "bnahabra_shell": {
+                    "name": "Bnahabra Shell",
+                    "description": "Just as useful as sturdywyvern shell in the handsof a clever craftsman."
+                },
+                "bnahabra_carapace": {
+                    "name": "Bnahabra Carapace",
+                    "description": "The hardest part of theshell. Reveals curiousproperties when forged."
+                },
+                "bnahabra_wing": {
+                    "name": "Bnahabra Wing",
+                    "description": "Difficult to forge with—the results vary dependingon which surface you use."
+                },
+                "bnahabra_stinger": {
+                    "name": "Bnahabra Stinger",
+                    "description": "A Bnahabra stinger. It'sactually a hollow tube thathouses paralytic secretions."
+                },
+                "altaroth_jaw": {
+                    "name": "Altaroth Jaw",
+                    "description": "Removing these mouthpartsrequires a deft hand."
+                },
+                "altaroth_stomach": {
+                    "name": "Altaroth Stomach",
+                    "description": "A transparent sac cut froman Altaroth's abdomen, usedto store who knows what."
+                },
+                "quality_stomach": {
+                    "name": "Quality Stomach",
+                    "description": "A high-quality sac from anAltaroth's abdomen. It'sthin, but durable."
+                },
+                "bullfango_pelt": {
+                    "name": "Bullfango Pelt",
+                    "description": "A pelt from a Bullfango,covered in bristly fur."
+                },
+                "bullfango_pelt_plus": {
+                    "name": "Bullfango Pelt+",
+                    "description": "A high-quality pelt from aBullfango. It's as tough asit is bristly."
+                },
+                "bullfango_head": {
+                    "name": "Bullfango Head",
+                    "description": "A Bullfango head, completewith two splendid tusks."
+                },
+                "gajau_skin": {
+                    "name": "Gajau Skin",
+                    "description": "Gajau skin known for itsslimy mucus layer. Highlywater-resistant."
+                },
+                "gajau_whisker": {
+                    "name": "Gajau Whisker",
+                    "description": "Gajau whiskers often used inaquatic gear as theyresist water."
+                },
+                "gajau_scale": {
+                    "name": "Gajau Scale",
+                    "description": "High-quality Gajau skin.Thick and hard to work with,but it's worth the effort."
+                },
+                "gajau_whisker_plus": {
+                    "name": "Gajau Whisker+",
+                    "description": "High-quality Gajau whiskers.They're so girthy, you coulduse them for fishing line."
+                },
+                "jaggi_scale": {
+                    "name": "Jaggi Scale",
+                    "description": "A scale carved from a Jaggi.Popular among hunters forits beauty and versatility."
+                },
+                "jaggi_scale_plus": {
+                    "name": "Jaggi Scale+",
+                    "description": "A vividly-colored superiorJaggi scale that can be usedto make hardier equipment."
+                },
+                "jaggi_hide": {
+                    "name": "Jaggi Hide",
+                    "description": "Hide from under a Jaggi'sscales. Cheap, easy to workwith, and has numerous uses."
+                },
+                "baggi_hide": {
+                    "name": "Baggi Hide",
+                    "description": "Smooth hide from under aBaggi's scales. Perfect forlife in tough environments."
+                },
+                "baggi_scale": {
+                    "name": "Baggi Scale",
+                    "description": "A scale from a Baggi.A little tougher thana Jaggi scale."
+                },
+                "baggi_scale_plus": {
+                    "name": "Baggi Scale+",
+                    "description": "A quality scale taken froma Baggi. Important forstrengthening weapons."
+                },
+                "wroggi_scale": {
+                    "name": "Wroggi Scale",
+                    "description": "A scale from a Wroggi. Itsvivid color warns predatorsof its venomous properties."
+                },
+                "wroggi_scale_plus": {
+                    "name": "Wroggi Scale+",
+                    "description": "A quality Wroggi scale. Thethickness shows this Wroggilived a long life."
+                },
+                "wroggi_hide": {
+                    "name": "Wroggi Hide",
+                    "description": "Hide from a Wroggi. Youcould make some really niceorange leather with this."
+                },
+                "wroggi_fang": {
+                    "name": "Wroggi Fang",
+                    "description": "A poisonous Wroggi fang.Still covered in poison thatcould fell huge monsters."
+                },
+                "kestodon_shell": {
+                    "name": "Kestodon Shell",
+                    "description": "This Kestodon shell's craggytexture helps to fend offattackers."
+                },
+                "kestodon_scalp": {
+                    "name": "Kestodon Scalp",
+                    "description": "A Kestodon cranial carapace.Get slammed by this andyou're in for a bad time."
+                },
+                "kestodon_carapace": {
+                    "name": "Kestodon Carapace",
+                    "description": "This sturdy Kestodon shellhas grown unusually thick.Feels a bit like a rock."
+                },
+                "hydro_hide": {
+                    "name": "Hydro Hide",
+                    "description": "Hide that is very resistantto water. Don't expect it tosell for much."
+                },
+                "hydro_hide_plus": {
+                    "name": "Hydro Hide+",
+                    "description": "The durable hide of an aquaticmonster. Highly Water-resistant,and in especially good shape."
+                },
+                "immature_sponge": {
+                    "name": "Immature Sponge",
+                    "description": "Ludroth sponge that's notfully developed. Popular formany uses besides forging."
+                },
+                "uroktor_scale": {
+                    "name": "Uroktor Scale",
+                    "description": "A volcanic monster's scale.Highly resistant to fire,but doesn't sell for much."
+                },
+                "uroktor_scale_plus": {
+                    "name": "Uroktor Scale+",
+                    "description": "A high-quality Uroktor scale.Heat-resistant, bright crimson,and popular with the ladies."
+                },
+                "big_fin": {
+                    "name": "Big Fin",
+                    "description": "A fin that can be all shapesand sizes. The strongest comefrom the Sandy Plains Delex."
+                },
+                "quality_fin": {
+                    "name": "Quality Fin",
+                    "description": "A beautiful, unmarred fin.Its perfection lends it bothstrength and high value."
+                },
+                "meaty_hide": {
+                    "name": "Meaty Hide",
+                    "description": "The hide from the underbellyof a Zamite. Super elastic—just try stretching it."
+                },
+                "meaty_hide_plus": {
+                    "name": "Meaty Hide+",
+                    "description": "The hide from the underbellyof a Zamite. The mostelastic samples are costly."
+                },
+                "sharqskin_scale": {
+                    "name": "Sharqskin Scale",
+                    "description": "Zamite skin that feelssmooth or coarse dependingon which way you rub it."
+                },
+                "remobra_hide": {
+                    "name": "Remobra Hide",
+                    "description": "A glossy and subdued blackhide taken from a Remobra."
+                },
+                "remobra_hide_plus": {
+                    "name": "Remobra Hide+",
+                    "description": "A lustrous and elegant blackhide taken from a Remobra."
+                },
+                "striped_hide": {
+                    "name": "Striped Hide",
+                    "description": "Unassuming black-and-redhues from a Remobrathat some hunters swear by."
+                },
+                "remobra_head": {
+                    "name": "Remobra Head",
+                    "description": "The snake-like head of aRemobra. It stilllooks ready to pounce!"
+                },
+                "jagras_scale": {
+                    "name": "Jagras Scale",
+                    "description": "Scale harvested from aJagras. Famous for its vividhue and ease of handling."
+                },
+                "jagras_hide": {
+                    "name": "Jagras Hide",
+                    "description": "This Jagras skin is easy towork with, making it a greatchoice for novice craftsmen."
+                },
+                "jagras_scale_plus": {
+                    "name": "Jagras Scale+",
+                    "description": "Precious scale taken from aJagras. Great for everythingfrom armor to jewelry."
+                },
+                "jagras_hide_plus": {
+                    "name": "Jagras Hide+",
+                    "description": "High-quality Jagras skin.Thicker, smoother, but stilljust as easy to work with."
+                },
+                "monster_bone_s": {
+                    "name": "Monster Bone S",
+                    "description": "A very useful material;indispensable for bothhunting and daily life."
+                },
+                "monster_bone_m": {
+                    "name": "Monster Bone M",
+                    "description": "A nicely-sized bone. Strongyet flexible, it's as reliableas steel and wood."
+                },
+                "monster_bone_l": {
+                    "name": "Monster Bone L",
+                    "description": "Bone from a large monster.Its size is hard to work withbut vital to craft big items."
+                },
+                "monster_bone_plus": {
+                    "name": "Monster Bone+",
+                    "description": "A high-quality monster bone.Hard to obtain, but vital tocraft powerful equipment."
+                },
+                "monster_keenbone": {
+                    "name": "Monster Keenbone",
+                    "description": "A rare bone with a razor-sharp tip that retains itsstrength even when crafted."
+                },
+                "monster_hardbone": {
+                    "name": "Monster Hardbone",
+                    "description": "A precious bone rarelyyielded by wyverns. Hard toforge but incredibly strong."
+                },
+                "elder_dragon_bone": {
+                    "name": "Elder Dragon Bone",
+                    "description": "A bone from an elder dragon.It exudes majesty."
+                },
+                "jumbo_bone": {
+                    "name": "Jumbo Bone",
+                    "description": "A large, thick bone.Often cut apart in workshopsfor use in crafting."
+                },
+                "stoutbone": {
+                    "name": "Stoutbone",
+                    "description": "The large, sturdy bone of abeast. Prized by blacksmithsas a prime forging material."
+                },
+                "bird_wyvern_gem": {
+                    "name": "Bird Wyvern Gem",
+                    "description": "A valuable gem that can beharvested from bird wyverns. Saidto fetch a high price on the market."
+                },
+                "wyvern_gem": {
+                    "name": "Wyvern Gem",
+                    "description": "Throughout a wyvern's life,impurities gather and formthis peculiar gem."
+                },
+                "sharp_claw": {
+                    "name": "Sharp Claw",
+                    "description": "A shining black claw.Unlike wyvern claws, thisis shaped to grip objects."
+                },
+                "sharp_fang": {
+                    "name": "Sharp Fang",
+                    "description": "Fangs come in many shapesand sizes—the right fangfor the right job."
+                },
+                "piercing_claw": {
+                    "name": "Piercing Claw",
+                    "description": "Dangerous to touch withbare hands, it's used asa knife in some workshops."
+                },
+                "warm_pelt": {
+                    "name": "Warm Pelt",
+                    "description": "A pelt from a small animal.Used for many things, butmostly just regular clothes."
+                },
+                "high-quality_pelt": {
+                    "name": "High-quality Pelt",
+                    "description": "Feels wonderful to thetouch. Difficult to carvebut valued by the Guild."
+                },
+                "elder_dragon_blood": {
+                    "name": "Elder Dragon Blood",
+                    "description": "Contains an unknown compound.The object of much scholarlyresearch."
+                },
+                "screamer_sac": {
+                    "name": "Screamer Sac",
+                    "description": "A monster organ that emitsan earsplitting sonic blastwhen ruptured."
+                },
+                "poison_sac": {
+                    "name": "Poison Sac",
+                    "description": "A monster organ thatcontains a lethal toxin.Handle with extreme care."
+                },
+                "toxin_sac": {
+                    "name": "Toxin Sac",
+                    "description": "A monster organ filled withan extremely potent toxin.Even one touch can be risky."
+                },
+                "paralysis_sac": {
+                    "name": "Paralysis Sac",
+                    "description": "A monster organ thatcontains paralyzingneurotoxins."
+                },
+                "omniplegia_sac": {
+                    "name": "Omniplegia Sac",
+                    "description": "A monster organ filled withpotent neurotoxins. A singletouch can cause paralysis."
+                },
+                "sleep_sac": {
+                    "name": "Sleep Sac",
+                    "description": "A monster organ thatcontains a knockout powdercapable of inducing sleep."
+                },
+                "coma_sac": {
+                    "name": "Coma Sac",
+                    "description": "A monster organ thatcontains dangerous powder.One whiff can induce a coma."
+                },
+                "inferno_sac": {
+                    "name": "Inferno Sac",
+                    "description": "A monster organ filled withpowder that ignites if it somuch as touches air. Danger!"
+                },
+                "electro_sac": {
+                    "name": "Electro Sac",
+                    "description": "A monster organ that canstore up electricity, whichis released on impact."
+                },
+                "thunder_sac": {
+                    "name": "Thunder Sac",
+                    "description": "A monster organ that canstore up large amounts ofhigh voltage electricity."
+                },
+                "frost_sac": {
+                    "name": "Frost Sac",
+                    "description": "A monster internal organ,filled with extremely coldfluid. Handle with care."
+                },
+                "freezer_sac": {
+                    "name": "Freezer Sac",
+                    "description": "A monster organ withtremendous freezing power.Freezes its surroundings."
+                },
+                "aqua_sac": {
+                    "name": "Aqua Sac",
+                    "description": "A monster organdesigned to hold andpreserve water."
+                },
+                "torrent_sac": {
+                    "name": "Torrent Sac",
+                    "description": "A monster organ designed tohold and preserve copiousamounts of water."
+                },
+                "monster_fluid": {
+                    "name": "Monster Fluid",
+                    "description": "A liquid bugs suck frommonsters. Mixes with insectfluids to form an adhesive."
+                },
+                "monster_broth": {
+                    "name": "Monster Broth",
+                    "description": "A broth made from only thethickest of a monster'sjuices. Quite rich."
+                },
+                "dash_extract": {
+                    "name": "Dash Extract",
+                    "description": "A mysterious substanceculled from certain monstersthat increases endurance."
+                },
+                "pawprint_stamp": {
+                    "name": "Pawprint Stamp",
+                    "description": "Lynian currency, stampedwith a pawprint. The letterswritten on it are foreign."
+                },
+                "felyne_fur_ruby": {
+                    "name": "Felyne Fur Ruby",
+                    "description": "A priceless ruby formed bythe rare hardening of aFelyne hairball."
+                },
+                "rath_wingtalon": {
+                    "name": "Rath Wingtalon",
+                    "description": "Claws that are moderatelydifficult to work with. Ablacksmith's first test."
+                },
+                "rathalos_medulla": {
+                    "name": "Rathalos Medulla",
+                    "description": "Only recently extractabledue to advances in carvingtechniques. Hard to forge."
+                },
+                "zinogre_horn": {
+                    "name": "Zinogre Horn",
+                    "description": "The Zinogre's magnificenthorn, which sends most ofnature running for cover."
+                },
+                "zinogre_tail": {
+                    "name": "Zinogre Tail",
+                    "description": "The plate-covered tail of aZinogre. It wields deadlyforce when swung."
+                },
+                "fulgurbug": {
+                    "name": "Fulgurbug",
+                    "description": "Thunderbugs which have beenstimulated by Zinogre. Theyemit a pale blue light."
+                },
+                "mizutsune_fin": {
+                    "name": "Mizutsune Fin",
+                    "description": "A beautiful brocade-like fin.Males have large fins thatturn red to match their mood."
+                },
+                "mizutsune_tail": {
+                    "name": "Mizutsune Tail",
+                    "description": "A flowing Mizutsune tail.It's prized for its supplefur and beautiful scales."
+                },
+                "rathalos_tail": {
+                    "name": "Rathalos Tail",
+                    "description": "A severed Rathalos tail.It has any number of uses."
+                },
+                "rare_steak": {
+                    "name": "Rare Steak",
+                    "description": "Provides a moderate boostto your stamina. This one'sstill red in the middle."
+                },
+                "burnt_meat": {
+                    "name": "Burnt Meat",
+                    "description": "Meat that has been burnt toa crisp. It might boost yourstamina, or drain it..."
+                },
+                "ancient_potion": {
+                    "name": "Ancient Potion",
+                    "description": "Fully restores your healthand stamina."
+                },
+                "dust_of_life": {
+                    "name": "Dust of Life",
+                    "description": "Produces a cloud that restoresa large amount of health for youand anyone nearby."
+                },
+                "gourmet_fish": {
+                    "name": "Gourmet Fish",
+                    "description": "Recovers the red portionof the Health Gauge andincreases natural recovery."
+                },
+                "sushifish": {
+                    "name": "Sushifish",
+                    "description": "A fatty fish that canrestore a small amountof health."
+                },
+                "immunizer": {
+                    "name": "Immunizer",
+                    "description": "Boosts your natural abilityto heal."
+                },
+                "ration": {
+                    "name": "Ration",
+                    "description": "Food that restores a bitof stamina."
+                },
+                "dash_juice": {
+                    "name": "Dash Juice",
+                    "description": "Reduces stamina depletionfor a period of time as wellas restoring a bit of stamina."
+                },
+                "antidote_herb": {
+                    "name": "Antidote Herb",
+                    "description": "A primary ingredientin antidotes."
+                },
+                "herbal_medicine": {
+                    "name": "Herbal Medicine",
+                    "description": "Removes all traces of poisonand restores a slight amountof health."
+                },
+                "herbal_powder": {
+                    "name": "Herbal Powder",
+                    "description": "Produces a cloud that curespoison and heals you a bit."
+                },
+                "demondrug": {
+                    "name": "Demondrug",
+                    "description": "Boosts your attack powerby filling you with—guesswhat?—demonic strength."
+                },
+                "mega_demondrug": {
+                    "name": "Mega Demondrug",
+                    "description": "Boosts your attack powereven more than a regularDemondrug."
+                },
+                "might_seed": {
+                    "name": "Might Seed",
+                    "description": "Temporarily strengthens yourattacks when ingested byimproving energy flow."
+                },
+                "demon_powder": {
+                    "name": "Demon Powder",
+                    "description": "A mysterious powder;when dispersed, temporarilystrengthens attacks."
+                },
+                "powertalon": {
+                    "name": "Powertalon",
+                    "description": "A charm that strengthensattacks. Its effects areboosted by the claws within."
+                },
+                "armorskin": {
+                    "name": "Armorskin",
+                    "description": "Boosts your defenseby turning your skinas hard as rock."
+                },
+                "mega_armorskin": {
+                    "name": "Mega Armorskin",
+                    "description": "Boosts your defense evenmore than a regular armorskin."
+                },
+                "adamant_seed": {
+                    "name": "Adamant Seed",
+                    "description": "Temporarily raises yourdefense when ingestedby hardening tissue."
+                },
+                "hardshell_powder": {
+                    "name": "Hardshell Powder",
+                    "description": "A mysterious powder;when dispersed, temporarilystrengthens defense."
+                },
+                "armortalon": {
+                    "name": "Armortalon",
+                    "description": "A charm that strengthensdefense. Its effects areboosted by the claws within."
+                },
+                "mega_barrel_bomb": {
+                    "name": "Mega Barrel Bomb",
+                    "description": "An upgraded large barrelbomb. Effective againstlarge monsters."
+                },
+                "poisoned_meat": {
+                    "name": "Poisoned Meat",
+                    "description": "Raw meat that poisonswhatever eats it. Makesgreat bait for traps."
+                },
+                "tinged_meat": {
+                    "name": "Tinged Meat",
+                    "description": "Raw meat that paralyzeswhatever eats it. Makesgreat bait for traps."
+                },
+                "drugged_meat": {
+                    "name": "Drugged Meat",
+                    "description": "Raw meat that puts whatevereats it to sleep. Makesgreat bait for traps."
+                },
+                "farcaster": {
+                    "name": "Farcaster",
+                    "description": "Instantly transports you tothe nearest camp. Can alsobe used during battles."
+                },
+                "poison_smoke_bomb": {
+                    "name": "Poison Smoke Bomb",
+                    "description": "Releases a toxic cloud ofmist when used. Also popularas a household bug bomb."
+                },
+                "sonic_bomb": {
+                    "name": "Sonic Bomb",
+                    "description": "A hand-thrown bomb thatemits a high-frequency blastof sound on detonation."
+                },
+                "tranq_bomb": {
+                    "name": "Tranq Bomb",
+                    "description": "A bomb used to capturemonsters ensnared in traps.Can be used in various ways."
+                },
+                "poison_kunai": {
+                    "name": "Poison Kunai",
+                    "description": "A throwing kunai with avenom-coated blade. Poisonstargets. (Supply Item)"
+                },
+                "sleep_kunai": {
+                    "name": "Sleep Kunai",
+                    "description": "A throwing kunai that hasbeen dusted with sleepingagents. (Supply Item)"
+                },
+                "paralysis_kunai": {
+                    "name": "Paralysis Kunai",
+                    "description": "A throwing kunai coatedwith toxins that paralyzea target. (Supply Item)"
+                },
+                "whetfish": {
+                    "name": "Whetfish",
+                    "description": "A fish with a dorsal finhard enough to be usedto sharpen weapons."
+                },
+                "ez_ration": {
+                    "name": "EZ Ration",
+                    "description": "Restores a smallamount of stamina.(Supply Item)"
+                },
+                "first-aid_med": {
+                    "name": "First-aid Med",
+                    "description": "Restores a smallamount of health.(Supply Item)"
+                },
+                "first-aid_med_plus": {
+                    "name": "First-aid Med+",
+                    "description": "Restores a moderateamount of health.(Supply Item)"
+                },
+                "ez_max_potion": {
+                    "name": "EZ Max Potion",
+                    "description": "Fully restores health.(Supply Item)"
+                },
+                "ez_lifepowder": {
+                    "name": "EZ Lifepowder",
+                    "description": "Produces a cloud that healsyou and anyone nearby.(Supply Item)"
+                },
+                "ez_dust_of_life": {
+                    "name": "EZ Dust of Life",
+                    "description": "Produces a cloud that restoresa large amount of health for youand anyone nearby. (Supply Item)"
+                },
+                "ez_herbal_powder": {
+                    "name": "EZ Herbal Powder",
+                    "description": "Cures poison and restoresa bit of health for everyonenearby. (Supply Item)"
+                },
+                "ez_demon_powder": {
+                    "name": "EZ Demon Powder",
+                    "description": "Temporarily strengthensattacks for everyone nearby.(Supply Item)"
+                },
+                "ez_hardshell_powder": {
+                    "name": "EZ Hardshell Powder",
+                    "description": "Temporarily increasesdefense for everyonenearby. (Supply Item)"
+                },
+                "ez_shock_trap": {
+                    "name": "EZ Shock Trap",
+                    "description": "Immobilizes a targetfor easy capture.(Supply Item)"
+                },
+                "ez_pitfall_trap": {
+                    "name": "EZ Pitfall Trap",
+                    "description": "Activates a pitfall to catchmonsters with. (Supply Item)"
+                },
+                "ez_large_barrel_bomb": {
+                    "name": "EZ Large Barrel Bomb",
+                    "description": "A powered-up large barrelbomb. As powerful as a megabarrel bomb. (Supply Item)"
+                },
+                "ez_screamer_pod": {
+                    "name": "EZ Screamer Pod",
+                    "description": "Emits a high-frequency blastof sound on detonation.(Supply Item)"
+                },
+                "ez_flash_bomb": {
+                    "name": "EZ Flash Bomb",
+                    "description": "A bomb that flashes brightlyon impact.(Supply Item)"
+                },
+                "ez_farcaster": {
+                    "name": "EZ Farcaster",
+                    "description": "Transports you to thenearest camp in an instant.(Supply Item)"
+                },
+                "ez_tranq_bomb": {
+                    "name": "EZ Tranq Bomb",
+                    "description": "A bomb used to capturemonsters ensnared in traps.(Supply Item)"
+                },
+                "gastronome_tuna": {
+                    "name": "Gastronome Tuna",
+                    "description": "A fish that eats anything—allowing you to sometimesget items from its stomach."
+                },
+                "great_gastronome_tuna": {
+                    "name": "Great Gastronome Tuna",
+                    "description": "An enormous Gastronome Tuna.Will eat anything, nomatter the size."
+                },
+                "great_izuchi_pelt": {
+                    "name": "Great Izuchi Pelt",
+                    "description": "Hair that grows on anIzuchi's neck and head.Fades from white to orange."
+                },
+                "great_izuchi_hide": {
+                    "name": "Great Izuchi Hide",
+                    "description": "This hide of a mature Izuchiis a deep orange fitting forthe leader of the herd."
+                },
+                "great_izuchi_tail": {
+                    "name": "Great Izuchi Tail",
+                    "description": "A crescent-bladed tail. Aflick of the herd leader'stail brings its prey down."
+                },
+                "great_izuchi_pelt_plus": {
+                    "name": "Great Izuchi Pelt+",
+                    "description": "Great Izuchi hair. Ontop of being gorgeous, it'ssmooth as a gentle breeze."
+                },
+                "great_izuchi_hide_plus": {
+                    "name": "Great Izuchi Hide+",
+                    "description": "Great Izuchi hide.It's lightweight, strong,and vivid—always a hot item."
+                },
+                "great_izuchi_tail_plus": {
+                    "name": "Great Izuchi Tail+",
+                    "description": "Crescent-bladed tail. Itsedge has been honed by thewind to be razor sharp."
+                },
+                "izuchi_pelt": {
+                    "name": "Izuchi Pelt",
+                    "description": "Izuchi hair. Very versatile—you can't go five stepswithout seeing it somewhere."
+                },
+                "izuchi_tail": {
+                    "name": "Izuchi Tail",
+                    "description": "Izuchi that swing theirtail skillfully may becomethe leader of the pack."
+                },
+                "izuchi_pelt_plus": {
+                    "name": "Izuchi Pelt+",
+                    "description": "High-quality hair taken froman elite Izuchi in the pack.Pleasantly soft to touch."
+                },
+                "aknosom_scale_plus": {
+                    "name": "Aknosom Scale+",
+                    "description": "Armor woven from thesebeautiful white scales is indemand among royal guards."
+                },
+                "aknosom_feather_plus": {
+                    "name": "Aknosom Feather+",
+                    "description": "Quality Aknosom feather.Swing it like a blade orlayer it into a shield."
+                },
+                "aknosom_crest_plus": {
+                    "name": "Aknosom Crest+",
+                    "description": "Giant and flashy, thisAknosom comb looks like anelegant decorative fan."
+                },
+                "shiny_nacre": {
+                    "name": "Shiny Nacre",
+                    "description": "Orb formed within the body ofa Tetranadon; possibly made ofsouls... (Account Item)"
+                },
+                "tetranadon_hide_plus": {
+                    "name": "Tetranadon Hide+",
+                    "description": "A life of constant combathas made this belly skinsturdy and stretchy as well."
+                },
+                "tetra_carapace_plus": {
+                    "name": "Tetra Carapace+",
+                    "description": "Carapace stout enoughto send any back-attackingpredators packing."
+                },
+                "tetranadon_disc_plus": {
+                    "name": "Tetranadon Disc+",
+                    "description": "Unscathed, this disc-shapedhead bone can fetch a highprice as a luxury plate."
+                },
+                "tetranadon_beak_plus": {
+                    "name": "Tetranadon Beak+",
+                    "description": "This Tetranadon beak canshoot water at high pressuredue to a refined structure."
+                },
+                "bishaten_fur": {
+                    "name": "Bishaten Fur",
+                    "description": "Thick fur from around aBishaten's neck. Protectsits neck from hungry jaws."
+                },
+                "bishaten_horn": {
+                    "name": "Bishaten Horn",
+                    "description": "Bishaten horn resembling amonk's hat. Wearing it makesyou smarter, supposedly."
+                },
+                "bishaten_feather": {
+                    "name": "Bishaten Feather",
+                    "description": "These feathers let Bishatengo wild, providing stabilitywhile on their hind legs."
+                },
+                "bisha_tailcase": {
+                    "name": "Bisha Tailcase",
+                    "description": "Tail carapace that is superhard. Can be swung aroundlike a ball on a chain."
+                },
+                "bishaten_talon": {
+                    "name": "Bishaten Talon",
+                    "description": "Bishaten claws may be small,but don't be fooled—they'lltear you to shreds."
+                },
+                "poisonfruit": {
+                    "name": "Poisonfruit",
+                    "description": "Fruit that turns poisonous whenit decomposes. Too dangerousto keep after a quest."
+                },
+                "parafruit": {
+                    "name": "Parafruit",
+                    "description": "Fruit with an aroma so spicyit's paralyzing. Too dangerousto keep after a quest."
+                },
+                "flashfruit": {
+                    "name": "Flashfruit",
+                    "description": "Fruit that pops with a brightflash if shaken. Too dangerousto keep after a quest."
+                },
+                "bishaten_fur_plus": {
+                    "name": "Bishaten Fur+",
+                    "description": "Quality Bishaten fur thatstays orderly under vigoroustreatment. High utility."
+                },
+                "bishaten_horn_plus": {
+                    "name": "Bishaten Horn+",
+                    "description": "Bishaten horn resembling amonk's hat. The bigger thehorn, the slyer the beast."
+                },
+                "bishaten_feather_plus": {
+                    "name": "Bishaten Feather+",
+                    "description": "High-quality Bishaten feather.Light blue plumage tracesthe beast's wild movements."
+                },
+                "bishaten_tailcase_plus": {
+                    "name": "Bishaten Tailcase+",
+                    "description": "Robust tail carapace that isso hard, it can even breakthrough rocks."
+                },
+                "bishaten_talon_plus": {
+                    "name": "Bishaten Talon+",
+                    "description": "These claws are a good omenfor those who see the beastas a servant of the gods."
+                },
+                "somnacanth_scale_plus": {
+                    "name": "Somnacanth Scale+",
+                    "description": "Quality Somnacanth scalethat shimmers a brilliantgold under moonlight."
+                },
+                "somnacanth_shell_plus": {
+                    "name": "Somnacanth Shell+",
+                    "description": "This robust carapace luresin victims with its beautyand ruthlessly crushes them."
+                },
+                "somnacanth_talon_plus": {
+                    "name": "Somnacanth Talon+",
+                    "description": "Talons grown for cutting andstrength that tear throughprey like butter."
+                },
+                "somnacanth_fin_plus": {
+                    "name": "Somnacanth Fin+",
+                    "description": "In legends, these fins werethought to be the souls ofthose who had died at sea."
+                },
+                "somnacanth_sedative": {
+                    "name": "Somnacanth Sedative",
+                    "description": "Shimmers like the fallingtears of a weeping maiden,ushering in a deep sleep."
+                },
+                "magnamalo_scale_plus": {
+                    "name": "Magnamalo Scale+",
+                    "description": "Glows a piercing purple,imbued with the beast'sinfinite fighting spirit."
+                },
+                "magnamalo_shell_plus": {
+                    "name": "Magnamalo Shell+",
+                    "description": "Carapace hardened by malice.So sturdy, it wont buckle toany attack."
+                },
+                "magnamalo_blade_plus": {
+                    "name": "Magnamalo Blade+",
+                    "description": "Honed by blood, these armblades cut prey in two witha single swipe."
+                },
+                "magnamalo_horn_plus": {
+                    "name": "Magnamalo Horn+",
+                    "description": "Horns resembling a general'shelmet. Said to grow as onefeasts on the defeated."
+                },
+                "magnamalo_scute_plus": {
+                    "name": "Magnamalo Scute+",
+                    "description": "The blades produced fromMagnamalo's back whenenraged show its tenacity."
+                },
+                "purple_magna_orb": {
+                    "name": "Purple Magna Orb",
+                    "description": "This jewel glows a sinisterpurple as though holdingmany unfortunate souls."
+                },
+                "magna_soulprism": {
+                    "name": "Magna Soulprism",
+                    "description": "A crystal of condensed gas.Its quiet exterior beliesits savage explosive power."
+                },
+                "almudron_scale_plus": {
+                    "name": "Almudron Scale+",
+                    "description": "A quality Almudron scale.Polished by mud over manyyears, it's a work of art."
+                },
+                "almudron_shell_plus": {
+                    "name": "Almudron Shell+",
+                    "description": "You could make a shield fromthe many hardened layers ofbodily fluid and mud alone."
+                },
+                "almudron_claw_plus": {
+                    "name": "Almudron Claw+",
+                    "description": "Sharp Almudron claw thattears through earth likewater."
+                },
+                "almudron_fin_plus": {
+                    "name": "Almudron Fin+",
+                    "description": "Fin-like tuft of hair thatcauses mud waves andwhirlpools with every move."
+                },
+                "almudron_whisker_plus": {
+                    "name": "Almudron Whisker+",
+                    "description": "The longer the whiskers, thebetter they can sensevibration. Intruders beware."
+                },
+                "golden_almudron_orb": {
+                    "name": "Golden Almudron Orb",
+                    "description": "The contrast of cloudy dullhues and brilliant gold inthis jewel is one-of-a-kind."
+                },
+                "golden_sludge": {
+                    "name": "Golden Sludge",
+                    "description": "Mud with high levels ofmucus. Coveted by smiths forits miraculous properties."
+                },
+                "goss_harag_fur_plus": {
+                    "name": "Goss Harag Fur+",
+                    "description": "Goss hair is fought over insnowy lands for its warmingand protective qualities."
+                },
+                "goss_harag_hide_plus": {
+                    "name": "Goss Harag Hide+",
+                    "description": "Freezing air and boilingGoss blood have made thisskin harder than most armor."
+                },
+                "goss_harag_brace_plus": {
+                    "name": "Goss Harag Brace+",
+                    "description": "Arm carapace thickenedby the reckless behaviorof a Goss Harag."
+                },
+                "goss_harag_horn_plus": {
+                    "name": "Goss Harag Horn+",
+                    "description": "These horns are sometimesseen as bad luck due totheir demonic shape."
+                },
+                "goss_harag_claw_plus": {
+                    "name": "Goss Harag Claw+",
+                    "description": "These rough claws havestomped through ice andslashed countless beasts."
+                },
+                "block_of_ice_plus": {
+                    "name": "Block of Ice+",
+                    "description": "Any blade or gauntlet madefrom this ice is sure tofreeze children in terror."
+                },
+                "rakna-kadaki_carapace": {
+                    "name": "Rakna-Kadaki Carapace",
+                    "description": "Hard, heavy Rakna-Kadakicarapace sometimes usedin weapons and armor."
+                },
+                "rakna-kadaki_silk": {
+                    "name": "Rakna-Kadaki Silk",
+                    "description": "Quality Rakna-Kadaki silk.A garb woven from this silkis sure to cushion any blow."
+                },
+                "rakna-kadaki_glowgut": {
+                    "name": "Rakna-Kadaki Glowgut",
+                    "description": "A Rakna-Kadaki organ thatglows alluringly, butburns with magmatic heat."
+                },
+                "rakna-kadaki_sharpclaw": {
+                    "name": "Rakna-Kadaki Sharpclaw",
+                    "description": "Rakna-Kadaki talons. Capableof such a punch, they couldshatter a dragon's hide."
+                },
+                "rakna-kadaki_spike": {
+                    "name": "Rakna-Kadaki Spike",
+                    "description": "A spike that has a charmingcurve. Used in weapons aswell as for decoration."
+                },
+                "ibushi_carapace": {
+                    "name": "Ibushi Carapace",
+                    "description": "Carapace of Ibushi. Oddly,the skin is hard, elastic,and also lightweight."
+                },
+                "ibushi_hide_plus": {
+                    "name": "Ibushi Hide+",
+                    "description": "Rigid enough to repel bladesyet flexible as rubber, thishide fends off all attacks."
+                },
+                "ibushi_horn_plus": {
+                    "name": "Ibushi Horn+",
+                    "description": "Careful polishing could turnthis horn into a graceful,gleaming azure blade."
+                },
+                "ibushi_claw_plus": {
+                    "name": "Ibushi Claw+",
+                    "description": "A swipe of these sharptalons disfigures the landwith a gust-like blow."
+                },
+                "ibushi_windsac": {
+                    "name": "Ibushi Windsac",
+                    "description": "Organ that stores and emitsair. Inflates to float onself-created drafts."
+                },
+                "ibushi_bluespike": {
+                    "name": "Ibushi Bluespike",
+                    "description": "Countless rock-hard spikesprevent airborne enemiesfrom getting close."
+                },
+                "wind_serpent_orb": {
+                    "name": "Wind Serpent Orb",
+                    "description": "This jewel shimmers with therage of a typhoon. Itsholder commands the storm."
+                },
+                "narwa_carapace": {
+                    "name": "Narwa Carapace",
+                    "description": "Flexible and lightweightcarapace that courses withflesh-singeing electricity."
+                },
+                "narwa_hide_plus": {
+                    "name": "Narwa Hide+",
+                    "description": "Hide so well insulated,it makes lightning strikesfeel like bug bites."
+                },
+                "narwa_horn_plus": {
+                    "name": "Narwa Horn+",
+                    "description": "Narwa's horn. Shoots outbolts of lightning whenswung; handle with caution."
+                },
+                "narwa_claw_plus": {
+                    "name": "Narwa Claw+",
+                    "description": "Sharp talons that oncesliced up any foolishenough to attack Narwa."
+                },
+                "narwa_sparksac": {
+                    "name": "Narwa Sparksac",
+                    "description": "This lightning-emittingorgan creates a magneticfield to enable floating."
+                },
+                "narwa_tentacle": {
+                    "name": "Narwa Tentacle",
+                    "description": "Tentacles that cover Narwa'sbody. It uses them to shrouditself in lightning."
+                },
+                "thunder_serpent_orb": {
+                    "name": "Thunder Serpent Orb",
+                    "description": "This jewel shimmers withthe ire of lightning. Its holdercan tame thunder."
+                },
+                "apex_beastclaw": {
+                    "name": "Apex Beastclaw",
+                    "description": "Forearm carapace of an ApexArzuros. Countless scarsshow its dances with death."
+                },
+                "apex_bubblefoam": {
+                    "name": "Apex Bubblefoam",
+                    "description": "A single drop of this fluidcan turn a wasteland intoa foamy ocean paradise."
+                },
+                "apex_venom_spike": {
+                    "name": "Apex Venom Spike",
+                    "description": "Sword-like hair of an ApexRathian. Appears to havebent and regrown stronger."
+                },
+                "bombadgy_igniter": {
+                    "name": "Bombadgy Igniter",
+                    "description": "Bombadgy body fluid that isprone to bursting into flame.Emitted when in danger."
+                },
+                "rachnoid_silk": {
+                    "name": "Rachnoid Silk",
+                    "description": "Silk shot by Rachnoid. Itshigh tensile strength makesit stronger than it looks."
+                },
+                "rachnoid_silk_plus": {
+                    "name": "Rachnoid Silk+",
+                    "description": "High quality silk that isnearly as strong as ropeand more flexible too."
+                },
+                "tobi-kadachi_scale": {
+                    "name": "Tobi-Kadachi Scale",
+                    "description": "A Tobi-Kadachi scale. Armormade from these isshockingly light."
+                },
+                "tobi-kadachi_scale_plus": {
+                    "name": "Tobi-Kadachi Scale+",
+                    "description": "A quality scale that isflexible as a feather,and light as the wind."
+                },
+                "tobi-kadachi_pelt": {
+                    "name": "Tobi-Kadachi Pelt",
+                    "description": "Prone to generating staticelectricity—its hairs areconstantly on end."
+                },
+                "tobi-kadachi_pelt_plus": {
+                    "name": "Tobi-Kadachi Pelt+",
+                    "description": "The bolt-upright hairs arean indication of the strongelectricity flowing inside."
+                },
+                "tobi-kadachi_membrane": {
+                    "name": "Tobi-Kadachi Membrane",
+                    "description": "A film that is thin enoughto see through, but strongenough to catch the wind."
+                },
+                "tobi-kadachi_claw": {
+                    "name": "Tobi-Kadachi Claw",
+                    "description": "These sharp-hooked Tobi-Kadachi claws are perfectfor zipping up trees."
+                },
+                "tobi-kadachi_claw_plus": {
+                    "name": "Tobi-Kadachi Claw+",
+                    "description": "Tobi-Kadachi use theserazor-sharp claws to movearound in the trees."
+                },
+                "tobi-kadachi_electrode": {
+                    "name": "Tobi-Kadachi Electrode",
+                    "description": "Spikes made of a highlyconductive material. Greatfor gear using electricity."
+                },
+                "tobi-kadachi_electrode_plus": {
+                    "name": "Tobi-Kadachi Electrode+",
+                    "description": "Conductive electrode thatbuilds up and unleashespurple bolts of electricity."
+                },
+                "jyuratodus_scale_plus": {
+                    "name": "Jyuratodus Scale+",
+                    "description": "Mud sticks to this scale,building up and increasingits thickness over time."
+                },
+                "jyuratodus_carapace": {
+                    "name": "Jyuratodus Carapace",
+                    "description": "Sturdy mud-caked Jyuratoduscarapace. The mud layerboosts defense greatly."
+                },
+                "jyuratodus_fang_plus": {
+                    "name": "Jyuratodus Fang+",
+                    "description": "Once this fang gets a holdof you, it wont let go untilyou're drowning in mud."
+                },
+                "jyuratodus_fin_plus": {
+                    "name": "Jyuratodus Fin+",
+                    "description": "Using this flexible fin, theJyuratodus is able to easilyglide through the mud."
+                },
+                "suspicious_fang": {
+                    "name": "Suspicious Fang",
+                    "description": "These fangs are popular withoccult fans and sold on theblack market as cursed items."
+                },
+                "suspicious_fang_plus": {
+                    "name": "Suspicious Fang+",
+                    "description": "Having slurped up mounds offlesh, these fangs are usedin certain rituals."
+                },
+                "kulu-ya-ku_scale": {
+                    "name": "Kulu-Ya-Ku Scale",
+                    "description": "With some fine crafting, themilky white color of thesescales can be improved."
+                },
+                "kulu-ya-ku_scale_plus": {
+                    "name": "Kulu-Ya-Ku Scale+",
+                    "description": "Boasts brilliant coloration,and leaves nothing to bedesired in strength."
+                },
+                "kulu-ya-ku_hide": {
+                    "name": "Kulu-Ya-Ku Hide",
+                    "description": "Due to its versatilecoloration, this hide isoften used in clothing."
+                },
+                "kulu-ya-ku_hide_plus": {
+                    "name": "Kulu-Ya-Ku Hide+",
+                    "description": "Just like the sturdy Kuluhide you know, exceptstronger, and smoother too."
+                },
+                "kulu-ya-ku_beak": {
+                    "name": "Kulu-Ya-Ku Beak",
+                    "description": "This beak, developed toeat the yolks out of eggs,has a peculiar shape."
+                },
+                "kulu-ya-ku_beak_plus": {
+                    "name": "Kulu-Ya-Ku Beak+",
+                    "description": "This Kulu beak is a peckabove the rest. Strongerthan typical wyvern hide."
+                },
+                "kulu-ya-ku_plume": {
+                    "name": "Kulu-Ya-Ku Plume",
+                    "description": "These feathers are a hitamong trendy youth fortheir vibrant patterns."
+                },
+                "kulu-ya-ku_plume_plus": {
+                    "name": "Kulu-Ya-Ku Plume+",
+                    "description": "These larger, more colorfulfeathers are often used indecorative items."
+                },
+                "pukei-pukei_scale": {
+                    "name": "Pukei-Pukei Scale",
+                    "description": "Many a hunter has beencharmed by the deep forest-green hue of these scales."
+                },
+                "pukei-pukei_scale_plus": {
+                    "name": "Pukei-Pukei Scale+",
+                    "description": "Light and sturdy. With alittle work, this could letyou blend into the woods."
+                },
+                "pukei-pukei_shell": {
+                    "name": "Pukei-Pukei Shell",
+                    "description": "The shade of green variesslightly depending on whereit was harvested from."
+                },
+                "pukei-pukei_carapace": {
+                    "name": "Pukei-Pukei Carapace",
+                    "description": "The surface of this carapaceis exceptionally hard;great for making armor."
+                },
+                "pukei-pukei_quill": {
+                    "name": "Pukei-Pukei Quill",
+                    "description": "Green feather taken froma Pukei-Pukei wing. Hasmany decorative uses."
+                },
+                "pukei-pukei_wing": {
+                    "name": "Pukei-Pukei Wing",
+                    "description": "This wing membrane is highlyelastic and resistant topoison, giving it many uses."
+                },
+                "pukei-pukei_sac": {
+                    "name": "Pukei-Pukei Sac",
+                    "description": "A Pukei-Pukei dewlap. Holdsa digestive poison thatdissolves plants."
+                },
+                "pukei-pukei_sac_plus": {
+                    "name": "Pukei-Pukei Sac+",
+                    "description": "Large dewlap that amps uppoison production andpotency by a large margin."
+                },
+                "pukei-pukei_tail": {
+                    "name": "Pukei-Pukei Tail",
+                    "description": "The striped pattern isn'teveryone's cup of tea, butsome hunters dig it."
+                },
+                "anjanath_scale_plus": {
+                    "name": "Anjanath Scale+",
+                    "description": "Constantly subjected toforge temperatures, thesescales are as hard as iron."
+                },
+                "anjanath_pelt_plus": {
+                    "name": "Anjanath Pelt+",
+                    "description": "Quality pelt treated as aluxury item for itsstoutness and healthy coat."
+                },
+                "anjanath_fang_plus": {
+                    "name": "Anjanath Fang+",
+                    "description": "Fang of a particularlyvicious Anjanath. Tearsthrough any and all prey."
+                },
+                "anjanath_nosebone_plus": {
+                    "name": "Anjanath Nosebone+",
+                    "description": "Nasal bones only grow tobe this large in beasts thatsurvive countless battles."
+                },
+                "anjanath_gem": {
+                    "name": "Anjanath Gem",
+                    "description": "Rare jewel from withinan Anjanath. Tinged withfire, it shines gallantly."
+                },
+                "massive_bone": {
+                    "name": "Massive Bone",
+                    "description": "Massive bone from a largebeast. It's really, reallybig. Versatile material."
+                },
+                "great_stoutbone": {
+                    "name": "Great Stoutbone",
+                    "description": "Large bone that is bothstrong and durable. A top-tier bone material."
+                },
+                "rich_mud": {
+                    "name": "Rich Mud",
+                    "description": "Highly nutritious mud. Whileit makes great fertilizer,it works for weapons too!"
+                },
+                "rathian_scrap": {
+                    "name": "Rathian Scrap",
+                    "description": "A small, irregular scrap ofRathian material. Used tomake Buddy Equipment."
+                },
+                "rathian_scrap_plus": {
+                    "name": "Rathian Scrap+",
+                    "description": "A high-quality scrap ofRathian material. Used tomake Buddy Equipment."
+                },
+                "rathalos_scrap": {
+                    "name": "Rathalos Scrap",
+                    "description": "A small, irregular scrap ofRathalos material. Used tomake Buddy Equipment."
+                },
+                "rathalos_scrap_plus": {
+                    "name": "Rathalos Scrap+",
+                    "description": "A high-quality scrap ofRathalos material. Usedto make Buddy Equipment."
+                },
+                "zinogre_scrap": {
+                    "name": "Zinogre Scrap",
+                    "description": "A small, irregular scrap ofZinogre material. Used tomake Buddy Equipment."
+                },
+                "zinogre_scrap_plus": {
+                    "name": "Zinogre Scrap+",
+                    "description": "A high-quality scrap ofZinogre material. Used tomake Buddy Equipment."
+                },
+                "arzuros_scrap": {
+                    "name": "Arzuros Scrap",
+                    "description": "A small, irregular scrap ofArzuros material. Used tomake Buddy Equipment."
+                },
+                "arzuros_scrap_plus": {
+                    "name": "Arzuros Scrap+",
+                    "description": "A high-quality scrap ofArzuros material. Used tomake Buddy Equipment."
+                },
+                "baggi_scrap": {
+                    "name": "Baggi Scrap",
+                    "description": "A small, irregular scrap ofBaggi material. Used tomake Buddy Equipment."
+                },
+                "baggi_scrap_plus": {
+                    "name": "Baggi Scrap+",
+                    "description": "A high-quality scrap ofBaggi material. Used tomake Buddy Equipment."
+                },
+                "lagombi_scrap": {
+                    "name": "Lagombi Scrap",
+                    "description": "A small, irregular scrap ofLagombi material. Used tomake Buddy Equipment."
+                },
+                "lagombi_scrap_plus": {
+                    "name": "Lagombi Scrap+",
+                    "description": "A high-quality scrap ofLagombi material. Usedto make Buddy Equipment."
+                },
+                "barroth_scrap": {
+                    "name": "Barroth Scrap",
+                    "description": "A small, irregular scrap ofBarroth material. Used tomake Buddy Equipment."
+                },
+                "barroth_scrap_plus": {
+                    "name": "Barroth Scrap+",
+                    "description": "A high-quality scrap ofBarroth material. Used tomake Buddy Equipment."
+                },
+                "wroggi_scrap": {
+                    "name": "Wroggi Scrap",
+                    "description": "A small, irregular scrap ofWroggi material. Used tomake Buddy Equipment."
+                },
+                "wroggi_scrap_plus": {
+                    "name": "Wroggi Scrap+",
+                    "description": "A high-quality scrap ofWroggi material. Used tomake Buddy Equipment."
+                },
+                "royal_ludroth_scrap": {
+                    "name": "Royal Ludroth Scrap",
+                    "description": "A small, irregular scrap ofRoyal Ludroth material. Usedto make Buddy Equipment."
+                },
+                "royal_ludroth_scrap_plus": {
+                    "name": "Royal Ludroth Scrap+",
+                    "description": "A high-quality scrap of RoyalLudroth material. Used tomake Buddy Equipment."
+                },
+                "barioth_scrap": {
+                    "name": "Barioth Scrap",
+                    "description": "A small, irregular scrap ofBarioth material. Used tomake Buddy Equipment."
+                },
+                "barioth_scrap_plus": {
+                    "name": "Barioth Scrap+",
+                    "description": "A high-quality scrap ofBarioth material. Used tomake Buddy Equipment."
+                },
+                "volvidon_scrap": {
+                    "name": "Volvidon Scrap",
+                    "description": "A small, irregular scrap ofVolvidon material. Used tomake Buddy Equipment."
+                },
+                "volvidon_scrap_plus": {
+                    "name": "Volvidon Scrap+",
+                    "description": "A high-quality scrap ofVolvidon material. Used tomake Buddy Equipment."
+                },
+                "basarios_scrap": {
+                    "name": "Basarios Scrap",
+                    "description": "A small, irregular scrap ofBasarios material. Used tomake Buddy Equipment."
+                },
+                "basarios_scrap_plus": {
+                    "name": "Basarios Scrap+",
+                    "description": "A high-quality scrap ofBasarios material. Used tomake Buddy Equipment."
+                },
+                "nargacuga_scrap": {
+                    "name": "Nargacuga Scrap",
+                    "description": "A small, irregular scrap ofNargacuga material. Usedto make Buddy Equipment."
+                },
+                "nargacuga_scrap_plus": {
+                    "name": "Nargacuga Scrap+",
+                    "description": "A high-quality scrap ofNargacuga material. Usedto make Buddy Equipment."
+                },
+                "nitroshroom": {
+                    "name": "Nitroshroom",
+                    "description": "A hard-to-find mushroom thatcan generate blazing heat.Required to craft gunpowder."
+                },
+                "parashroom": {
+                    "name": "Parashroom",
+                    "description": "A mushroom that inducesparalysis. Required tocraft tranq bombs."
+                },
+                "toadstool": {
+                    "name": "Toadstool",
+                    "description": "A mushroom that inducespoison. Required to craftpoison smoke bombs."
+                },
+                "exciteshroom": {
+                    "name": "Exciteshroom",
+                    "description": "Has a very strange aroma.Is it edible? Is it deadly?Required to make farcasters."
+                },
+                "mandragora": {
+                    "name": "Mandragora",
+                    "description": "A dangerous fungus said todraw the life out of people.Required to make max potions."
+                },
+                "icium": {
+                    "name": "Icium",
+                    "description": "Precious metal from the FrostIslands. Shines bright whitewhen the light catches it."
+                },
+                "gracium": {
+                    "name": "Gracium",
+                    "description": "Precious metal from the FrostIslands. Shines bright whitewhen the light catches it."
+                },
+                "lightcrystal": {
+                    "name": "Lightcrystal",
+                    "description": "Many scour the Flooded Forestfor this faintly-glowing,adamantine substance."
+                },
+                "novacrystal": {
+                    "name": "Novacrystal",
+                    "description": "A shining crystal found inplaces like the Flooded Forest.Only used in the finest crafts."
+                },
+                "firestone": {
+                    "name": "Firestone",
+                    "description": "Combusts even at roomtemperature. Its heat can beused to fuse materials."
+                },
+                "firecell_stone": {
+                    "name": "Firecell Stone",
+                    "description": "A magma-like deposit thatonly trained hands canproperly work with."
+                },
+                "carbalite_ore": {
+                    "name": "Carbalite Ore",
+                    "description": "An ore still being studied.It yields even better metalthan dragonite."
+                },
+                "fucium_ore": {
+                    "name": "Fucium Ore",
+                    "description": "Ore composed of a mysteriousmetal; can fuse nearlyany two materials together."
+                },
+                "bitterbug": {
+                    "name": "Bitterbug",
+                    "description": "A bug with innate healingabilities. Used as acomponent of many medicines."
+                },
+                "flashbug": {
+                    "name": "Flashbug",
+                    "description": "An insect that emits ablinding flash when it dies.Required to make Flash Bombs."
+                },
+                "thunderbug": {
+                    "name": "Thunderbug",
+                    "description": "An insect that sparks whenhit. Required to make ShockTraps and Thunder Ammo."
+                },
+                "fire_herb": {
+                    "name": "Fire Herb",
+                    "description": "A wondrous, flammable plant.Useful for crafting explosivesand Flaming Ammo."
+                },
+                "ivy": {
+                    "name": "Ivy",
+                    "description": "A lightweight and extremelystrong plant. Used to makenets for pitfall traps."
+                },
+                "sleep_herb": {
+                    "name": "Sleep Herb",
+                    "description": "A plant containing sleepingagents. Used to crafttranquilizers."
+                },
+                "snow_herb": {
+                    "name": "Snow Herb",
+                    "description": "A plant that radiates ice-cold air. Combine with otheritems to create Freeze Ammo."
+                },
+                "flowfern": {
+                    "name": "Flowfern",
+                    "description": "This plant's leaves storeample water. A componentfor making Water Ammo."
+                },
+                "sunscorned_grass": {
+                    "name": "Sunscorned Grass",
+                    "description": "A strange and fragrant herbthat grows in the shade.Used to make deodorant."
+                },
+                "gloamgrass_bud": {
+                    "name": "Gloamgrass Bud",
+                    "description": "An herb that wilts underthe sun's rays. Could ithold healing powers?"
+                },
+                "felvine": {
+                    "name": "Felvine",
+                    "description": "A Melynx's favorite food—they just have to steal it."
+                },
+                "smokenut": {
+                    "name": "Smokenut",
+                    "description": "A nut that produces torrentsof smoke. Combine with otheritems to add more effects."
+                },
+                "dragonfell_berry": {
+                    "name": "Dragonfell Berry",
+                    "description": "A mysterious berry, thoughtto be loathed by dragons.Needed to make Dragon Ammo."
+                },
+                "huskberry": {
+                    "name": "Huskberry",
+                    "description": "A nut with a rock-hard shell.Used to make Shrapnel Ammo."
+                },
+                "needleberry": {
+                    "name": "Needleberry",
+                    "description": "A nut covered in needle-likespines. Used to make SpreadAmmo."
+                },
+                "bomberry": {
+                    "name": "Bomberry",
+                    "description": "A nut that ruptures onimpact. Used to makecluster bombs."
+                },
+                "blastnut": {
+                    "name": "Blastnut",
+                    "description": "A nut used to make StickyAmmo."
+                },
+                "dragonstrike_nut": {
+                    "name": "Dragonstrike Nut",
+                    "description": "A nut that explodes onimpact. Used to makeWyvern Ammo."
+                },
+                "slashberry": {
+                    "name": "Slashberry",
+                    "description": "Used to make Slicing Ammo."
+                },
+                "sturdy_bone": {
+                    "name": "Sturdy Bone",
+                    "description": "A rigid bone taken froma bonepile. Durable butlight and easy to handle."
+                },
+                "twisted_remains": {
+                    "name": "Twisted Remains",
+                    "description": "A crazily contorted bone.Gives off the eerie vibesof the Shrine Ruins."
+                },
+                "dragonhusk_shard": {
+                    "name": "Dragonhusk Shard",
+                    "description": "A bone fragment froma long- dead dragon. Itstill emits a majestic air."
+                },
+                "eroded_skeleton": {
+                    "name": "Eroded Skeleton",
+                    "description": "A skeleton buried in theSandy Plains. Shaped byyears of wind erosion."
+                },
+                "quality_bone": {
+                    "name": "Quality Bone",
+                    "description": "Quality bone material. Itstoughness and pliabilitylend well to crafting."
+                },
+                "dragonbone_relic": {
+                    "name": "Dragonbone Relic",
+                    "description": "A curiously unfossilizedbone from a dragon thatonce roamed these lands."
+                },
+                "twisted_rockbone": {
+                    "name": "Twisted Rockbone",
+                    "description": "A crazily contorted bone.Echoes the silent but creepyaura of the Shrine Ruins."
+                },
+                "eroded_husk": {
+                    "name": "Eroded Husk",
+                    "description": "Buffeted by hot sands andcold nights, only thesturdiest bones remain."
+                },
+                "spider_web": {
+                    "name": "Spider Web",
+                    "description": "A very sticky web. Usedto craft pitfall traps."
+                },
+                "gunpowder": {
+                    "name": "Gunpowder",
+                    "description": "A dangerous substancethat explodes when struckor heated."
+                },
+                "barrel_lid": {
+                    "name": "Barrel Lid",
+                    "description": "A small barrel lid.There appears to bea drawing on it."
+                },
+                "pricey_shroom": {
+                    "name": "Pricey Shroom",
+                    "description": "A special mushroom perfectin both shape and smell.(Account Item)"
+                },
+                "firelantern": {
+                    "name": "Firelantern",
+                    "description": "A vermilion berry. Lookslike a fireball from afar.(Account Item)"
+                },
+                "wisplantern": {
+                    "name": "Wisplantern",
+                    "description": "A flame-red berry. Prizedas a good luck charm.(Account Item)"
+                },
+                "phantolantern": {
+                    "name": "Phantolantern",
+                    "description": "A deep-red berry. Enchantingto see sway in the breeze.(Account Item)"
+                },
+                "super_shoot": {
+                    "name": "Super Shoot",
+                    "description": "A shoot that grows inthe Shrine Ruins. A Kamurastaple. (Account Item)"
+                },
+                "choice_shoot": {
+                    "name": "Choice Shoot",
+                    "description": "A very nice shoot: softbut firm, and very tasty.(Account Item)"
+                },
+                "pricey_shoot": {
+                    "name": "Pricey Shoot",
+                    "description": "A high-class super shootin impeccable shape.(Account Item)"
+                },
+                "cool_frostcone": {
+                    "name": "Cool Frostcone",
+                    "description": "A slightly frozen pinecone.Glints in the light.(Account Item)"
+                },
+                "gelid_frostcone": {
+                    "name": "Gelid Frostcone",
+                    "description": "A firmly frozen pinecone.Glitters in the light.(Account Item)"
+                },
+                "bitter_frostcone": {
+                    "name": "Bitter Frostcone",
+                    "description": "An ice-encrusted pinecone.Gleams like a gem.(Account Item)"
+                },
+                "raftshell": {
+                    "name": "Raftshell",
+                    "description": "A large oyster commonlyfound by the Frost Islands.(Account Item)"
+                },
+                "boatshell": {
+                    "name": "Boatshell",
+                    "description": "An oversized oyster. It'stoo big to eat in one bite!(Account Item)"
+                },
+                "shipshell": {
+                    "name": "Shipshell",
+                    "description": "An abominably giganticoyster. Eat it like steak!(Account Item)"
+                },
+                "foreign_coin": {
+                    "name": "Foreign Coin",
+                    "description": "A dragon motif coin from abygone foreign empire.(Account Item)"
+                },
+                "royal_mint_coin": {
+                    "name": "Royal Mint Coin",
+                    "description": "A coin depicting the sternface of an ancient king.(Account Item)"
+                },
+                "mysterious_coin": {
+                    "name": "Mysterious Coin",
+                    "description": "A coin said to originatefrom an olden civilization.(Account Item)"
+                },
+                "simple_prism": {
+                    "name": "Simple Prism",
+                    "description": "A slightly clouded crystal,formerly small bones.(Account Item)"
+                },
+                "misty_prism": {
+                    "name": "Misty Prism",
+                    "description": "A clear, colorful crystal.Appears to hold water.(Account Item)"
+                },
+                "cascade_prism": {
+                    "name": "Cascade Prism",
+                    "description": "A colorful crystal thatsparkles like suspended dew.(Account Item)"
+                },
+                "hearty_pitcher": {
+                    "name": "Hearty Pitcher",
+                    "description": "A pitcher plant with anacrid scent. Eats anything.(Account Item)"
+                },
+                "gourmet_pitcher": {
+                    "name": "Gourmet Pitcher",
+                    "description": "A pitcher plant with anice scent. Eats juicy bugs.(Account Item)"
+                },
+                "tripoint_pitcher": {
+                    "name": "Tripoint Pitcher",
+                    "description": "A pitcher plant with a richscent and particular palate.(Account Item)"
+                },
+                "royal_rhino": {
+                    "name": "Royal Rhino",
+                    "description": "A gem-like beetle thatcollectors pay dearly for.(Account Item)"
+                },
+                "king_rhino": {
+                    "name": "King Rhino",
+                    "description": "A regally shining beetlecollectors would die for.(Account Item)"
+                },
+                "divine_rhino": {
+                    "name": "Divine Rhino",
+                    "description": "A sublime prize from theAltaroth collectors adore.(Account Item)"
+                },
+                "bauble_cactus": {
+                    "name": "Bauble Cactus",
+                    "description": "A cactus from the SandyPlains. Small but fleshy.(Account Item)"
+                },
+                "jewel_cactus": {
+                    "name": "Jewel Cactus",
+                    "description": "A rare cactus from the SandyPlains. Big and meaty.(Account Item)"
+                },
+                "kingly_cactus": {
+                    "name": "Kingly Cactus",
+                    "description": "The Sandy Plains's finestof cactuses. Fit for a king.(Account Item)"
+                },
+                "tropical_berry": {
+                    "name": "Tropical Berry",
+                    "description": "A bright red strawberry fromscorching climes.(Account Item)"
+                },
+                "desert_berry": {
+                    "name": "Desert Berry",
+                    "description": "A fragrant strawberry thatradiates slight heat.(Account Item)"
+                },
+                "lava_berry": {
+                    "name": "Lava Berry",
+                    "description": "A volatile inferno lurkswithin this fruit.(Account Item)"
+                },
+                "sand_rose": {
+                    "name": "Sand Rose",
+                    "description": "Ore that has crystallized inthe shape of a rose.(Account Item)"
+                },
+                "rock_rose": {
+                    "name": "Rock Rose",
+                    "description": "Fragile ore that resembles arose. Don't drop it!(Account Item)"
+                },
+                "gaia_rose": {
+                    "name": "Gaia Rose",
+                    "description": "A delicate rose—wait, that'sno rose, it's ore!(Account Item)"
+                },
+                "coal": {
+                    "name": "Coal",
+                    "description": "A combustible rock thatemits a faint warmth.(Account Item)"
+                },
+                "volatile_coal": {
+                    "name": "Volatile Coal",
+                    "description": "A combustible rock so hotit may burst into flame atany second. (Account Item)"
+                },
+                "inflammable_coal": {
+                    "name": "Inflammable Coal",
+                    "description": "A combustible rock so hot itwill burn for days if hit.(Account Item)"
+                },
+                "chalcedony_bone": {
+                    "name": "Chalcedony Bone",
+                    "description": "Crystallized dragonboneweathered by harsh climes.(Account Item)"
+                },
+                "chalcedony_greatbone": {
+                    "name": "Chalcedony Greatbone",
+                    "description": "Despite its waxy luster, itlooks more alive than dull.(Account Item)"
+                },
+                "chalcedony_skull": {
+                    "name": "Chalcedony Skull",
+                    "description": "The frontal bone of a dragonskull, now pulsating quartz.(Account Item)"
+                },
+                "bismuth_fragment": {
+                    "name": "Bismuth Fragment",
+                    "description": "A beautifully variegated orecalled bismuth.(Account Item)"
+                },
+                "bismuth_prism": {
+                    "name": "Bismuth Prism",
+                    "description": "A piece of bismuth ore thatsparkles kaleidoscopically.(Account Item)"
+                },
+                "bismuth_augite": {
+                    "name": "Bismuth Augite",
+                    "description": "Ore mantled in a pristinelayer of valuable bismuth.(Account Item)"
+                },
+                "wyvern_egg": {
+                    "name": "Wyvern Egg",
+                    "description": "An egg that was stolenfrom a monster's nest.(Account Item)"
+                },
+                "quality_wyvern_egg": {
+                    "name": "Quality Wyvern Egg",
+                    "description": "A high-quality egg. Stolenfrom a monster's nest.(Account Item)"
+                },
+                "frost_fossil": {
+                    "name": "Frost Fossil",
+                    "description": "A fossil encrusted in ice.Sought after by biologists.(Account Item)"
+                },
+                "big_frost_fossil": {
+                    "name": "Big Frost Fossil",
+                    "description": "A large fossil encrusted inice. A biologist's treasure.(Account Item)"
+                },
+                "herbivore_egg": {
+                    "name": "Herbivore Egg",
+                    "description": "A tasty-looking egg stolenfrom a herbivore's nest.(Account Item)"
+                },
+                "rhenoplos_egg_plus": {
+                    "name": "Rhenoplos Egg+",
+                    "description": "A herbivore egg. Prized forits mild, refined taste.(Account Item)"
+                },
+                "laffresia": {
+                    "name": "Laffresia",
+                    "description": "A large flower with heart-like petals. Smells unique.(Account Item)"
+                },
+                "alaffresia": {
+                    "name": "Alaffresia",
+                    "description": "Laffresia with a scent strongenough to attract any creature.(Account Item)"
+                },
+                "bismuth_chunk": {
+                    "name": "Bismuth Chunk",
+                    "description": "A hefty chunk of bismuth.Has a rainbow shine.(Account Item)"
+                },
+                "big_bismuth_chunk": {
+                    "name": "Big Bismuth Chunk",
+                    "description": "A hefty chunk of bismuth.Beautifully colored.(Account Item)"
+                },
+                "great_whetfish": {
+                    "name": "Great Whetfish",
+                    "description": "A jumbo-sized Whetfish.Its dorsal fin surpasses evenwhetstones in functionality."
+                },
+                "combustuna": {
+                    "name": "Combustuna",
+                    "description": "A fish that ignites upondeath. Mix with fire herbsto make gunpowder."
+                },
+                "big_combustuna": {
+                    "name": "Big Combustuna",
+                    "description": "A jumbo-sized Combustuna.Mix with fire herbs to get lotsof gunpowder."
+                },
+                "flamefin": {
+                    "name": "Flamefin",
+                    "description": "A fish that ignites upondeath. Mix with fire herbsto make quality gunpowder."
+                },
+                "great_flamefin": {
+                    "name": "Great Flamefin",
+                    "description": "A jumbo-sized Flamefin.Mix with fire herbs to makelots of quality gunpowder."
+                },
+                "scatterfish": {
+                    "name": "Scatterfish",
+                    "description": "A shrapnel-spewing fish. Mixwith a large barrel bomb fora dramatic firepower boost."
+                },
+                "goldenfry": {
+                    "name": "Goldenfry",
+                    "description": "A small, rare, gold fish.Commands a high price."
+                },
+                "speartuna": {
+                    "name": "Speartuna",
+                    "description": "A giant fish that's bothrare and valuable. It lookslike it could have some use."
+                },
+                "crimsonfish": {
+                    "name": "Crimsonfish",
+                    "description": "A rare fish made of solidcopper. Goes for a tidy sum.(Account Item)"
+                },
+                "goldenfish": {
+                    "name": "Goldenfish",
+                    "description": "A rare fish made of solidgold. Goes for a tidy sum.(Account Item)"
+                },
+                "platinumfish": {
+                    "name": "Platinumfish",
+                    "description": "A rare fish made of solidplatinum. Goes for atidy sum. (Account Item)"
+                },
+                "brocadefish": {
+                    "name": "Brocadefish",
+                    "description": "A stunning, iridescent fish.Nobles keep them as pets.(Account Item)"
+                },
+                "king_brocadefish": {
+                    "name": "King Brocadefish",
+                    "description": "A large and particularlybeautiful brocadefish.(Account Item)"
+                },
+                "supreme_brocadefish": {
+                    "name": "Supreme Brocadefish",
+                    "description": "A large fish famed for itsbrilliant color and pattern.(Account Item)"
+                },
+                "fire_barrel_bomb": {
+                    "name": "Fire Barrel Bomb",
+                    "description": "A highly potent crimson seedbarrel bomb. Too dangerousto keep after a quest."
+                },
+                "exploding_kunai": {
+                    "name": "Exploding Kunai",
+                    "description": "Kunai slathered in explosivegray seed oil. Too dangerousto keep after a quest."
+                },
+                "humble_scrap": {
+                    "name": "Humble Scrap",
+                    "description": "A common, simple scrapof material. Used to makeBuddy Equipment."
+                },
+                "humble_scrap_plus": {
+                    "name": "Humble Scrap+",
+                    "description": "A simple, but quality scrapof material. Used to makeBuddy Equipment."
+                },
+                "ore_scrap": {
+                    "name": "Ore Scrap",
+                    "description": "A small, irregular scrapof ore. Used to makeBuddy Equipment."
+                },
+                "ore_scrap_plus": {
+                    "name": "Ore Scrap+",
+                    "description": "A high-quality scrapof ore. Used to makeBuddy Equipment."
+                },
+                "insect_scrap": {
+                    "name": "Insect Scrap",
+                    "description": "A small, irregular scrapof bug parts. Used tomake Buddy Equipment."
+                },
+                "insect_scrap_plus": {
+                    "name": "Insect Scrap+",
+                    "description": "A high-quality scrapof bug parts. Used tomake Buddy Equipment."
+                },
+                "bone_scrap": {
+                    "name": "Bone Scrap",
+                    "description": "A small, irregular scrapof bone. Used to makeBuddy Equipment."
+                },
+                "bone_scrap_plus": {
+                    "name": "Bone Scrap+",
+                    "description": "A high-quality scrap ofbone. Used to makeBuddy Equipment."
+                },
+                "fur_scrap": {
+                    "name": "Fur Scrap",
+                    "description": "A small, irregular scrapof fur. Used to makeBuddy Equipment."
+                },
+                "fur_scrap_plus": {
+                    "name": "Fur Scrap+",
+                    "description": "A high-quality scrapof fur. Used to makeBuddy Equipment."
+                },
+                "slagtoth_scrap": {
+                    "name": "Slagtoth Scrap",
+                    "description": "A small, irregular scrap ofSlagtoth material. Used tomake Buddy Equipment."
+                },
+                "slagtoth_scrap_plus": {
+                    "name": "Slagtoth Scrap+",
+                    "description": "A high-quality scrap ofSlagtoth material. Usedto make Buddy Equipment."
+                },
+                "jaggi_scrap": {
+                    "name": "Jaggi Scrap",
+                    "description": "A small, irregular scrapof Jaggi material. Used tomake Buddy Equipment."
+                },
+                "jaggi_scrap_plus": {
+                    "name": "Jaggi Scrap+",
+                    "description": "A high-quality scrap ofJaggi material. Used tomake Buddy Equipment."
+                },
+                "bnahabra_scrap": {
+                    "name": "Bnahabra Scrap",
+                    "description": "A small, irregular scrap ofBnahabra material. Usedto make Buddy Equipment."
+                },
+                "bnahabra_scrap_plus": {
+                    "name": "Bnahabra Scrap+",
+                    "description": "A high-quality scrap ofBnahabra material. Usedto make Buddy Equipment."
+                },
+                "rhenoplos_scrap": {
+                    "name": "Rhenoplos Scrap",
+                    "description": "A small, irregular scrap ofRhenoplos material. Usedto make Buddy Equipment."
+                },
+                "rhenoplos_scrap_plus": {
+                    "name": "Rhenoplos Scrap+",
+                    "description": "A high-quality scrap ofRhenoplos material. Usedto make Buddy Equipment."
+                },
+                "izuchi_scrap": {
+                    "name": "Izuchi Scrap",
+                    "description": "A small, irregular scrapof Izuchi material. Usedto make Buddy Equipment."
+                },
+                "izuchi_scrap_plus": {
+                    "name": "Izuchi Scrap+",
+                    "description": "A high-quality scrap ofIzuchi material. Used tomake Buddy Equipment."
+                },
+                "tetranadon_scrap": {
+                    "name": "Tetranadon Scrap",
+                    "description": "A small, irregular scrap ofTetranadon material. Usedto make Buddy Equipment."
+                },
+                "tetranadon_scrap_plus": {
+                    "name": "Tetranadon Scrap+",
+                    "description": "A high-quality scrap ofTetranadon material. Usedto make Buddy Equipment."
+                },
+                "khezu_scrap": {
+                    "name": "Khezu Scrap",
+                    "description": "A small, irregular scrap ofKhezu material. Used tomake Buddy Equipment."
+                },
+                "khezu_scrap_plus": {
+                    "name": "Khezu Scrap+",
+                    "description": "A high-quality scrap ofKhezu material. Used tomake Buddy Equipment."
+                },
+                "kulu-ya-ku_scrap": {
+                    "name": "Kulu-Ya-Ku Scrap",
+                    "description": "A small, irregular scrap ofKulu-Ya-Ku material. Usedto make Buddy Equipment."
+                },
+                "kulu-ya-ku_scrap_plus": {
+                    "name": "Kulu-Ya-Ku Scrap+",
+                    "description": "A high-quality scrap ofKulu-Ya-Ku material. Usedto make Buddy Equipment."
+                },
+                "aknosom_scrap": {
+                    "name": "Aknosom Scrap",
+                    "description": "A small, irregular scrap ofAknosom material. Usedto make Buddy Equipment."
+                },
+                "aknosom_scrap_plus": {
+                    "name": "Aknosom Scrap+",
+                    "description": "A high-quality scrap ofAknosom material. Usedto make Buddy Equipment."
+                },
+                "somnacanth_scrap": {
+                    "name": "Somnacanth Scrap",
+                    "description": "A small, irregular scrap ofSomnacanth material. Usedto make Buddy Equipment."
+                },
+                "somnacanth_scrap_plus": {
+                    "name": "Somnacanth Scrap+",
+                    "description": "A high-quality scrap ofSomnacanth material. Usedto make Buddy Equipment."
+                },
+                "pukei_scrap": {
+                    "name": "Pukei Scrap",
+                    "description": "A small, irregular scrap ofPukei-Pukei material. Usedto make Buddy Equipment."
+                },
+                "pukei_scrap_plus": {
+                    "name": "Pukei Scrap+",
+                    "description": "A high-quality scrap ofPukei-Pukei material. Usedto make Buddy Equipment."
+                },
+                "kadachi_scrap": {
+                    "name": "Kadachi Scrap",
+                    "description": "A small, irregular scrap ofTobi-Kadachi material. Usedto make Buddy Equipment."
+                },
+                "kadachi_scrap_plus": {
+                    "name": "Kadachi Scrap+",
+                    "description": "A high-quality scrap of Tobi-Kadachi material. Used tomake Buddy Equipment."
+                },
+                "bishaten_scrap": {
+                    "name": "Bishaten Scrap",
+                    "description": "A small, irregular scrap ofBishaten material. Usedto make Buddy Equipment."
+                },
+                "bishaten_scrap_plus": {
+                    "name": "Bishaten Scrap+",
+                    "description": "A high-quality scrap ofBishaten material. Usedto make Buddy Equipment."
+                },
+                "anjanath_scrap": {
+                    "name": "Anjanath Scrap",
+                    "description": "A small, irregular scrap ofAnjanath material. Usedto make Buddy Equipment."
+                },
+                "anjanath_scrap_plus": {
+                    "name": "Anjanath Scrap+",
+                    "description": "A high-quality scrap ofAnjanath material. Usedto make Buddy Equipment."
+                },
+                "mizutsune_scrap": {
+                    "name": "Mizutsune Scrap",
+                    "description": "A small, irregular scrap ofMizutsune material. Usedto make Buddy Equipment."
+                },
+                "mizutsune_scrap_plus": {
+                    "name": "Mizutsune Scrap+",
+                    "description": "A high-quality scrap ofMizutsune material. Usedto make Buddy Equipment."
+                },
+                "magnamalo_scrap": {
+                    "name": "Magnamalo Scrap",
+                    "description": "A small, irregular scrap ofMagnamalo material. Usedto make Buddy Equipment."
+                },
+                "magnamalo_scrap_plus": {
+                    "name": "Magnamalo Scrap+",
+                    "description": "A high-quality scrap ofMagnamalo material. Usedto make Buddy Equipment."
+                },
+                "goss_harag_scrap": {
+                    "name": "Goss Harag Scrap",
+                    "description": "A small, irregular scrap ofGoss Harag material. Usedto make Buddy Equipment."
+                },
+                "goss_scrap_plus": {
+                    "name": "Goss Scrap+",
+                    "description": "A high-quality scrap ofGoss Harag material. Usedto make Buddy Equipment."
+                },
+                "diablos_scrap": {
+                    "name": "Diablos Scrap",
+                    "description": "A small, irregular scrap ofDiablos material. Usedto make Buddy Equipment."
+                },
+                "diablos_scrap_plus": {
+                    "name": "Diablos Scrap+",
+                    "description": "A high-quality scrap ofDiablos material. Usedto make Buddy Equipment."
+                },
+                "tigrex_scrap": {
+                    "name": "Tigrex Scrap",
+                    "description": "A small, irregular scrap ofTigrex material. Used tomake Buddy Equipment."
+                },
+                "tigrex_scrap_plus": {
+                    "name": "Tigrex Scrap+",
+                    "description": "A high-quality scrap ofTigrex material. Used tomake Buddy Equipment."
+                },
+                "almudron_scrap": {
+                    "name": "Almudron Scrap",
+                    "description": "A small, irregular scrap ofAlmudron material. Usedto make Buddy Equipment."
+                },
+                "almudron_scrap_plus": {
+                    "name": "Almudron Scrap+",
+                    "description": "A high-quality scrap ofAlmudron material. Usedto make Buddy Equipment."
+                },
+                "jyura_scrap_plus": {
+                    "name": "Jyura Scrap+",
+                    "description": "A high-quality scrap ofJyuratodus material. Usedto make Buddy Equipment."
+                },
+                "ibushi_scrap_plus": {
+                    "name": "Ibushi Scrap+",
+                    "description": "A high-quality scrap ofIbushi material. Used tomake Buddy Equipment."
+                },
+                "rajang_scrap_plus": {
+                    "name": "Rajang Scrap+",
+                    "description": "A high-quality scrap ofRajang material. Used tomake Buddy Equipment."
+                },
+                "rakna-kadaki_scrap_plus": {
+                    "name": "Rakna-Kadaki Scrap+",
+                    "description": "A high-quality scrap ofRakna-Kadaki material. Usedto make Buddy Equipment."
+                },
+                "narwa_scrap_plus": {
+                    "name": "Narwa Scrap+",
+                    "description": "A high-quality scrap ofNarwa material. Used tomake Buddy Equipment."
+                },
+                "popfish": {
+                    "name": "Popfish",
+                    "description": "A fish that literally popswhen it dies. Required tocraft cleanser."
+                },
+                "ballista_shot": {
+                    "name": "Ballista Shot",
+                    "description": "A heaping mushroom platter.Made with shrooms of alltypes and sizes."
+                },
+                "crag_shot": {
+                    "name": "Crag Shot",
+                    "description": ""
+                },
+                "retreat_shot": {
+                    "name": "Retreat Shot",
+                    "description": ""
+                },
+                "cannon_ammo": {
+                    "name": "Cannon Ammo",
+                    "description": ""
+                },
+                "c._thunder_ammo": {
+                    "name": "C. Thunder Ammo",
+                    "description": ""
+                },
+                "flaming_shot": {
+                    "name": "Flaming Shot",
+                    "description": ""
+                },
+                "flaming_beam": {
+                    "name": "Flaming Beam",
+                    "description": ""
+                },
+                "q._rapid_shot": {
+                    "name": "Q. Rapid Shot",
+                    "description": ""
+                },
+                "q._cluster_shot": {
+                    "name": "Q. Cluster Shot",
+                    "description": ""
+                },
+                "silkbind_shot": {
+                    "name": "Silkbind Shot",
+                    "description": ""
+                },
+                "mountshrooms": {
+                    "name": "Mountshrooms",
+                    "description": ""
+                },
+                "shadeshrooms": {
+                    "name": "Shadeshrooms",
+                    "description": ""
+                },
+                "stargazer_flower": {
+                    "name": "Stargazer Flower",
+                    "description": ""
+                },
+                "stargazer_bloom": {
+                    "name": "Stargazer Bloom",
+                    "description": ""
+                },
+                "sinister_cloth": {
+                    "name": "Sinister Cloth",
+                    "description": ""
+                },
+                "sinister_darkcloth": {
+                    "name": "Sinister Darkcloth",
+                    "description": ""
+                },
+                "bumblepumpkin": {
+                    "name": "Bumblepumpkin",
+                    "description": ""
+                },
+                "omegapumpkin": {
+                    "name": "Omegapumpkin",
+                    "description": ""
+                },
+                "cutejelly": {
+                    "name": "Cutejelly",
+                    "description": ""
+                },
+                "gothjelly": {
+                    "name": "Gothjelly",
+                    "description": ""
+                },
+                "dreamshell": {
+                    "name": "Dreamshell",
+                    "description": ""
+                },
+                "toxic_kumori": {
+                    "name": "Toxic Kumori",
+                    "description": ""
+                },
+                "butterfly_beetle": {
+                    "name": "Butterfly Beetle",
+                    "description": ""
+                },
+                "blossom_cricket": {
+                    "name": "Blossom Cricket",
+                    "description": ""
+                },
+                "dosbiscus": {
+                    "name": "Dosbiscus",
+                    "description": ""
+                },
+                "armored_bream": {
+                    "name": "Armored Bream",
+                    "description": ""
+                },
+                "springnight_carp": {
+                    "name": "Springnight Carp",
+                    "description": ""
+                },
+                "beast_gem": {
+                    "name": "Beast Gem",
+                    "description": ""
+                },
+                "acute_fang": {
+                    "name": "Acute Fang",
+                    "description": ""
+                },
+                "fabled_spice": {
+                    "name": "Fabled Spice",
+                    "description": ""
+                },
+                "legendary_herb": {
+                    "name": "Legendary Herb",
+                    "description": ""
+                },
+                "rathian_scroll": {
+                    "name": "Rathian Scroll",
+                    "description": ""
+                },
+                "rathalos_scroll": {
+                    "name": "Rathalos Scroll",
+                    "description": ""
+                },
+                "khezu_scroll": {
+                    "name": "Khezu Scroll",
+                    "description": ""
+                },
+                "basarios_scroll": {
+                    "name": "Basarios Scroll",
+                    "description": ""
+                },
+                "diablos_scroll": {
+                    "name": "Diablos Scroll",
+                    "description": ""
+                },
+                "rajang_scroll": {
+                    "name": "Rajang Scroll",
+                    "description": ""
+                },
+                "tigrex_scroll": {
+                    "name": "Tigrex Scroll",
+                    "description": ""
+                },
+                "nargacuga_scroll": {
+                    "name": "Nargacuga Scroll",
+                    "description": ""
+                },
+                "barioth_scroll": {
+                    "name": "Barioth Scroll",
+                    "description": ""
+                },
+                "barroth_scroll": {
+                    "name": "Barroth Scroll",
+                    "description": ""
+                },
+                "ludroth_scroll": {
+                    "name": "Ludroth Scroll",
+                    "description": ""
+                },
+                "baggi_scroll": {
+                    "name": "Baggi Scroll",
+                    "description": ""
+                },
+                "zinogre_scroll": {
+                    "name": "Zinogre Scroll",
+                    "description": ""
+                },
+                "wroggi_scroll": {
+                    "name": "Wroggi Scroll",
+                    "description": ""
+                },
+                "arzuros_scroll": {
+                    "name": "Arzuros Scroll",
+                    "description": ""
+                },
+                "lagombi_scroll": {
+                    "name": "Lagombi Scroll",
+                    "description": ""
+                },
+                "volvidon_scroll": {
+                    "name": "Volvidon Scroll",
+                    "description": ""
+                },
+                "mizutsune_scroll": {
+                    "name": "Mizutsune Scroll",
+                    "description": ""
+                },
+                "magnamalo_scroll": {
+                    "name": "Magnamalo Scroll",
+                    "description": ""
+                },
+                "bishaten_scroll": {
+                    "name": "Bishaten Scroll",
+                    "description": ""
+                },
+                "aknosom_scroll": {
+                    "name": "Aknosom Scroll",
+                    "description": ""
+                },
+                "tetranadon_scroll": {
+                    "name": "Tetranadon Scroll",
+                    "description": ""
+                },
+                "somna_scroll": {
+                    "name": "Somna Scroll",
+                    "description": ""
+                },
+                "rakna-kadaki_scroll": {
+                    "name": "Rakna-Kadaki Scroll",
+                    "description": ""
+                },
+                "almudron_scroll": {
+                    "name": "Almudron Scroll",
+                    "description": ""
+                },
+                "ibushi_scroll": {
+                    "name": "Ibushi Scroll",
+                    "description": ""
+                },
+                "goss_scroll": {
+                    "name": "Goss Scroll",
+                    "description": ""
+                },
+                "izuchi_scroll": {
+                    "name": "Izuchi Scroll",
+                    "description": ""
+                },
+                "narwa_scroll": {
+                    "name": "Narwa Scroll",
+                    "description": ""
+                },
+                "anjanath_scroll": {
+                    "name": "Anjanath Scroll",
+                    "description": ""
+                },
+                "pukei_scroll": {
+                    "name": "Pukei Scroll",
+                    "description": ""
+                },
+                "kulu_scroll": {
+                    "name": "Kulu Scroll",
+                    "description": ""
+                },
+                "jyura_scroll": {
+                    "name": "Jyura Scroll",
+                    "description": ""
+                },
+                "kadachi_scroll": {
+                    "name": "Kadachi Scroll",
+                    "description": ""
+                },
+                "apex_arzuros_scroll": {
+                    "name": "Apex Arzuros Scroll",
+                    "description": ""
+                },
+                "apex_rathian_scroll": {
+                    "name": "Apex Rathian Scroll",
+                    "description": ""
+                },
+                "apex_mizutsune_scroll": {
+                    "name": "Apex Mizutsune Scroll",
+                    "description": ""
+                },
+                "the_leader": {
+                    "name": "The Leader",
+                    "description": ""
+                },
+                "fast_friends": {
+                    "name": "Fast Friends",
+                    "description": ""
+                },
+                "slayer_of_malice": {
+                    "name": "Slayer of Malice",
+                    "description": ""
+                },
+                "the_showdown": {
+                    "name": "The Showdown",
+                    "description": ""
+                },
+                "felyne_daruma": {
+                    "name": "Felyne Daruma",
+                    "description": ""
+                },
+                "golden_hojo_cast": {
+                    "name": "Golden Hojo Cast",
+                    "description": ""
+                },
+                "kamura_twins": {
+                    "name": "Kamura Twins",
+                    "description": ""
+                },
+                "lucky_felyne": {
+                    "name": "Lucky Felyne",
+                    "description": ""
+                },
+                "bombadgy_pot": {
+                    "name": "Bombadgy Pot",
+                    "description": ""
+                },
+                "moofy_doll": {
+                    "name": "Moofy Doll",
+                    "description": ""
+                },
+                "wheeled_canyne_toy": {
+                    "name": "Wheeled Canyne Toy",
+                    "description": ""
+                },
+                "pure_machalite": {
+                    "name": "Pure Machalite",
+                    "description": ""
+                },
+                "crystal_cluster": {
+                    "name": "Crystal Cluster",
+                    "description": ""
+                },
+                "cohoot_lottery": {
+                    "name": "Cohoot Lottery",
+                    "description": ""
+                },
+                "mini_toadversary": {
+                    "name": "Mini Toadversary",
+                    "description": ""
+                },
+                "mini_submarine": {
+                    "name": "Mini Submarine",
+                    "description": ""
+                },
+                "arzuros_carving": {
+                    "name": "Arzuros Carving",
+                    "description": ""
+                },
+                "magnamalo_carving": {
+                    "name": "Magnamalo Carving",
+                    "description": ""
+                },
+                "tetranadon_carving": {
+                    "name": "Tetranadon Carving",
+                    "description": ""
+                },
+                "goss_harag_carving": {
+                    "name": "Goss Harag Carving",
+                    "description": ""
+                },
+                "bishaten_carving": {
+                    "name": "Bishaten Carving",
+                    "description": ""
+                },
+                "somnacanth_carving": {
+                    "name": "Somnacanth Carving",
+                    "description": ""
+                },
+                "izuchi_carving": {
+                    "name": "Izuchi Carving",
+                    "description": ""
+                },
+                "almudron_carving": {
+                    "name": "Almudron Carving",
+                    "description": ""
+                },
+                "aknosom_carving": {
+                    "name": "Aknosom Carving",
+                    "description": ""
+                },
+                "rakna-kadaki_carving": {
+                    "name": "Rakna-Kadaki Carving",
+                    "description": ""
+                },
+                "ez_meat_bait": {
+                    "name": "EZ Meat Bait",
+                    "description": ""
+                },
+                "catalyst": {
+                    "name": "Catalyst",
+                    "description": ""
+                },
+                "net": {
+                    "name": "Net",
+                    "description": ""
+                },
+                "gunpowder_lv2": {
+                    "name": "Gunpowder Lv2",
+                    "description": ""
+                },
+                "gunpowder_lv3": {
+                    "name": "Gunpowder Lv3",
+                    "description": ""
+                },
+                "steel_egg": {
+                    "name": "Steel Egg",
+                    "description": ""
+                },
+                "silver_egg": {
+                    "name": "Silver Egg",
+                    "description": ""
+                },
+                "golden_egg": {
+                    "name": "Golden Egg",
+                    "description": ""
+                },
+                "commendation": {
+                    "name": "Commendation",
+                    "description": ""
+                },
+                "high_commendation": {
+                    "name": "High Commendation",
+                    "description": ""
+                },
+                "blazenut": {
+                    "name": "Blazenut",
+                    "description": ""
+                },
+                "flamenut": {
+                    "name": "Flamenut",
+                    "description": ""
+                },
+                "white_liver": {
+                    "name": "White Liver",
+                    "description": ""
+                },
+                "popo_tongue": {
+                    "name": "Popo Tongue",
+                    "description": ""
+                },
+                "slagtoth_oil": {
+                    "name": "Slagtoth Oil",
+                    "description": ""
+                },
+                "monster_guts": {
+                    "name": "Monster Guts",
+                    "description": ""
+                },
+                "ripened_mushroom": {
+                    "name": "Ripened Mushroom",
+                    "description": ""
+                },
+                "fine_stomach": {
+                    "name": "Fine Stomach",
+                    "description": ""
+                },
+                "secret_stash": {
+                    "name": "Secret Stash",
+                    "description": ""
+                },
+                "round_acorn": {
+                    "name": "Round Acorn",
+                    "description": ""
+                },
+                "gargwa_guano": {
+                    "name": "Gargwa Guano",
+                    "description": ""
+                },
+                "gargwa_egg": {
+                    "name": "Gargwa Egg",
+                    "description": ""
+                },
+                "gold_gargwa_egg": {
+                    "name": "Gold Gargwa Egg",
+                    "description": ""
+                },
+                "wyvern_tear": {
+                    "name": "Wyvern Tear",
+                    "description": ""
+                },
+                "large_wyvern_tear": {
+                    "name": "Large Wyvern Tear",
+                    "description": ""
+                },
+                "beast_tear": {
+                    "name": "Beast Tear",
+                    "description": ""
+                },
+                "large_beast_tear": {
+                    "name": "Large Beast Tear",
+                    "description": ""
+                },
+                "drone_substance": {
+                    "name": "Drone Substance",
+                    "description": ""
+                },
+                "queen_substance": {
+                    "name": "Queen Substance",
+                    "description": ""
+                },
+                "dragon_treasure": {
+                    "name": "Dragon Treasure",
+                    "description": ""
+                },
+                "glittering_nacre": {
+                    "name": "Glittering Nacre",
+                    "description": ""
+                },
+                "buddy_ticket": {
+                    "name": "Buddy Ticket",
+                    "description": ""
+                },
+                "kamura_ticket": {
+                    "name": "Kamura Ticket",
+                    "description": ""
+                },
+                "guild_ticket": {
+                    "name": "Guild Ticket",
+                    "description": ""
+                },
+                "defender_ticket_1": {
+                    "name": "Defender Ticket 1",
+                    "description": ""
+                },
+                "defender_ticket_2": {
+                    "name": "Defender Ticket 2",
+                    "description": ""
+                },
+                "defender_ticket_3": {
+                    "name": "Defender Ticket 3",
+                    "description": ""
+                },
+                "defender_ticket_4": {
+                    "name": "Defender Ticket 4",
+                    "description": ""
+                },
+                "defender_ticket_5": {
+                    "name": "Defender Ticket 5",
+                    "description": ""
+                },
+                "defender_ticket_6": {
+                    "name": "Defender Ticket 6",
+                    "description": ""
+                },
+                "defender_ticket_7": {
+                    "name": "Defender Ticket 7",
+                    "description": ""
+                },
+                "king's_crest": {
+                    "name": "King's Crest",
+                    "description": ""
+                },
+                "rath_wingtalon_plus": {
+                    "name": "Rath Wingtalon+",
+                    "description": ""
+                },
+                "basarios_tail": {
+                    "name": "Basarios Tail",
+                    "description": ""
+                },
+                "basarios_pleura": {
+                    "name": "Basarios Pleura",
+                    "description": ""
+                },
+                "basarios_pleura_plus": {
+                    "name": "Basarios Pleura+",
+                    "description": ""
+                },
+                "jaggi_hide_plus": {
+                    "name": "Jaggi Hide+",
+                    "description": ""
+                },
+                "hard_armor_sphere": {
+                    "name": "Hard Armor Sphere",
+                    "description": ""
+                },
+                "aquaglow_jewel": {
+                    "name": "Aquaglow Jewel",
+                    "description": ""
+                },
+                "bloodrun_jewel": {
+                    "name": "Bloodrun Jewel",
+                    "description": ""
+                },
+                "jumbofruit": {
+                    "name": "Jumbofruit",
+                    "description": ""
+                },
+                "lagniapple": {
+                    "name": "Lagniapple",
+                    "description": ""
+                },
+                "dung": {
+                    "name": "Dung",
+                    "description": ""
+                },
+                "dung_bomb": {
+                    "name": "Dung Bomb",
+                    "description": ""
+                },
+                "ez_dung_bomb": {
+                    "name": "EZ Dung Bomb",
+                    "description": ""
+                },
+                "kulu_coin": {
+                    "name": "Kulu Coin",
+                    "description": ""
+                },
+                "barroth_coin": {
+                    "name": "Barroth Coin",
+                    "description": ""
+                },
+                "nargacuga_coin": {
+                    "name": "Nargacuga Coin",
+                    "description": ""
+                },
+                "barioth_coin": {
+                    "name": "Barioth Coin",
+                    "description": ""
+                },
+                "rajang_coin": {
+                    "name": "Rajang Coin",
+                    "description": ""
+                },
+                "pinnacle_coin": {
+                    "name": "Pinnacle Coin",
+                    "description": ""
+                },
+                "hunter_king_coin": {
+                    "name": "Hunter King Coin",
+                    "description": ""
+                },
+                "ace_hunter_coin": {
+                    "name": "Ace Hunter Coin",
+                    "description": ""
+                },
+                "c._piercing_ammo": {
+                    "name": "C. Piercing Ammo",
+                    "description": ""
+                },
+                "gray_seed": {
+                    "name": "Gray Seed",
+                    "description": ""
+                },
+                "crimson_seed": {
+                    "name": "Crimson Seed",
+                    "description": ""
+                },
+                "great_wirebug": {
+                    "name": "Great Wirebug",
+                    "description": ""
+                },
+                "2x_ballista_shot": {
+                    "name": "2x Ballista Shot",
+                    "description": ""
+                },
+                "3x_ballista_shot": {
+                    "name": "3x Ballista Shot",
+                    "description": ""
+                },
+                "friend_voucher": {
+                    "name": "Friend Voucher",
+                    "description": ""
+                },
+                "water_barrel_bomb": {
+                    "name": "Water Barrel Bomb",
+                    "description": ""
+                },
+                "thunder_barrel_bomb": {
+                    "name": "Thunder Barrel Bomb",
+                    "description": ""
+                },
+                "ice_barrel_bomb": {
+                    "name": "Ice Barrel Bomb",
+                    "description": ""
+                },
+                "blue_seed": {
+                    "name": "Blue Seed",
+                    "description": ""
+                },
+                "gold_seed": {
+                    "name": "Gold Seed",
+                    "description": ""
+                },
+                "silver_seed": {
+                    "name": "Silver Seed",
+                    "description": ""
+                },
+                "2x_cannon_ammo": {
+                    "name": "2x Cannon Ammo",
+                    "description": ""
+                },
+                "2x_cannon_ammo_plus": {
+                    "name": "2x Cannon Ammo+",
+                    "description": ""
+                },
+                "bhernastone": {
+                    "name": "Bhernastone",
+                    "description": ""
+                },
+                "dundormarin": {
+                    "name": "Dundormarin",
+                    "description": ""
+                },
+                "loc_lac_ore": {
+                    "name": "Loc Lac Ore",
+                    "description": ""
+                },
+                "val_habar_quartz": {
+                    "name": "Val Habar Quartz",
+                    "description": ""
+                },
+                "minegardenite": {
+                    "name": "Minegardenite",
+                    "description": ""
+                },
+                "mudbeetle": {
+                    "name": "Mudbeetle",
+                    "description": ""
+                },
+                "paratoad": {
+                    "name": "Paratoad",
+                    "description": ""
+                },
+                "puppet_spider": {
+                    "name": "Puppet Spider",
+                    "description": ""
+                },
+                "escuregot": {
+                    "name": "Escuregot",
+                    "description": ""
+                },
+                "aurortle": {
+                    "name": "Aurortle",
+                    "description": ""
+                },
+                "stinkmink": {
+                    "name": "Stinkmink",
+                    "description": ""
+                },
+                "wailnard": {
+                    "name": "Wailnard",
+                    "description": ""
+                },
+                "firebeetle": {
+                    "name": "Firebeetle",
+                    "description": ""
+                },
+                "thunderbeetle": {
+                    "name": "Thunderbeetle",
+                    "description": ""
+                },
+                "snowbeetle": {
+                    "name": "Snowbeetle",
+                    "description": ""
+                },
+                "trapbugs": {
+                    "name": "Trapbugs",
+                    "description": ""
+                },
+                "lanternbug": {
+                    "name": "Lanternbug",
+                    "description": ""
+                },
+                "brewhare": {
+                    "name": "Brewhare",
+                    "description": ""
+                },
+                "antidobra": {
+                    "name": "Antidobra",
+                    "description": ""
+                },
+                "sleeptoad": {
+                    "name": "Sleeptoad",
+                    "description": ""
+                },
+                "poisontoad": {
+                    "name": "Poisontoad",
+                    "description": ""
+                },
+                "blastoad": {
+                    "name": "Blastoad",
+                    "description": ""
+                },
+                "spiribird": {
+                    "name": "Spiribird",
+                    "description": ""
+                },
+                "golden_spiribug": {
+                    "name": "Golden Spiribug",
+                    "description": ""
+                },
+                "gilded_spiribug": {
+                    "name": "Gilded Spiribug",
+                    "description": ""
+                },
+                "gustcrab": {
+                    "name": "Gustcrab",
+                    "description": ""
                 }
             }
         }
