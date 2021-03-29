@@ -188,76 +188,140 @@ function someDataWorks() {
     //     }
     // }
 
+
+
     let tempDic = {};
     for (let id in data['parsed']) {
         let item = data['parsed'][id];
-        console.log(item.url);
+        // console.log(item.url);
         let foundedMonID = "";
         for (let monID in data['large_monsters']) {
             let mon = data['large_monsters'][monID];
             if (mon.name.en === item.name_en)
                 foundedMonID = monID;
         }
-        console.log(foundedMonID);
+        // console.log(foundedMonID);
         tempDic[foundedMonID] = item;
     }
 
 
-    let partTrans = {
-        "首": "頸",
-        "胴": "身",
-        "前脚": "前腳",
-        "後脚": "後腳",
-        "尻尾": "尾巴",
-        "脚": "腳",
-        "尾先": "尾尖",
-        "髪ヒレ": "髮鰭",
-        "タテガミ": "鬃毛",
-        "ヒレ": "鰭",
-        "胴体": "身體",
-        "氷塊": "冰塊",
-        "首・背": "頸・背",
-        "尾根元": "尾根",
-        "首下": "頸下",
-        "回転中": "滾動中",
-        "尻": "屁股",
-        "脚(糸)": "腳(絲)",
-        "尻先": "尾尖",
-        "尻": "屁股",
-    }
 
+
+
+    // ParseHitData    
+    // let partTrans = {
+    //     "首": "頸",
+    //     "胴": "身",
+    //     "前脚": "前腳",
+    //     "後脚": "後腳",
+    //     "尻尾": "尾巴",
+    //     "脚": "腳",
+    //     "尾先": "尾尖",
+    //     "髪ヒレ": "髮鰭",
+    //     "タテガミ": "鬃毛",
+    //     "ヒレ": "鰭",
+    //     "胴体": "身體",
+    //     "氷塊": "冰塊",
+    //     "首・背": "頸・背",
+    //     "尾根元": "尾根",
+    //     "首下": "頸下",
+    //     "回転中": "滾動中",
+    //     "尻": "屁股",
+    //     "脚(糸)": "腳(絲)",
+    //     "尻先": "尾尖",
+    //     "尻": "屁股",
+    // }
+    // for (let id in tempDic) {
+    //     let item = tempDic[id];
+    //     let target = data['large_monsters'][id];
+    //     if (id !== "arzuros" && id !== "mizutsune" && id !== "great_izuchi" && id !== "rathian" && id !== "magnamalo") {
+    //         console.log(target.name.tw + " no hitdata, do write");
+
+    //         if (target.hitdata === undefined)
+    //             target.hitdata = {}
+    //         target.hitdata.parts = [];
+    //         for (let i in item.meatQuality) {
+    //             let parsedPart = item.meatQuality[i];
+    //             let partName = partTrans.hasOwnProperty(parsedPart.part) ? partTrans[parsedPart.part] : parsedPart.part;
+    //             target.hitdata.parts.push({
+    //                 "part": partName,
+    //                 "condition": parsedPart.partCondition === parsedPart.part ? "通常" : parsedPart.partCondition,
+    //                 "cut": parsedPart.cut,
+    //                 "blunt": parsedPart.hit,
+    //                 "ammo": parsedPart.shot,
+    //                 "fire": parsedPart.fire,
+    //                 "water": parsedPart.water,
+    //                 "thunder": parsedPart.thunder,
+    //                 "ice": parsedPart.ice,
+    //                 "dragon": parsedPart.dragon
+    //             })
+    //         }
+
+    //     } else {
+    //         console.log(target.name.tw + " has hitdata, no write");
+    //     }
+
+    // }
+
+
+    // for (let key in i18n.messages.jp.data.items) {
+    //     let item = i18n.messages.jp.data.items[key];
+    //     console.log(item.name);
+    //     // if (item.name === jpName) {
+    //     //     console.log("find jp id: " + jpName + "  /" + item.name)
+    //     //     return item.name;
+    //     // }
+    //     // else {
+    //     //     console.log("can't find jp id: " + jpName + "  /" + item.name)
+    //     //     return jpName;
+    //     // }
+    // }
+    // var id = getMatIDFromJP("青熊獣の剛毛");
+    // console.log(id);
+    // return;
     for (let id in tempDic) {
         let item = tempDic[id];
         let target = data['large_monsters'][id];
-        if (id !== "arzuros" && id !== "mizutsune" && id !== "great_izuchi" && id !== "rathian" && id !== "magnamalo") {
-            console.log(target.name.tw + " no hitdata, do write");
-
-            if (target.hitdata === undefined)
-                target.hitdata = {}
-            target.hitdata.parts = [];
-            for (let i in item.meatQuality) {
-                let parsedPart = item.meatQuality[i];
-                let partName = partTrans.hasOwnProperty(parsedPart.part) ? partTrans[parsedPart.part] : parsedPart.part;
-                target.hitdata.parts.push({
-                    "part": partName,
-                    "condition": parsedPart.partCondition === parsedPart.part ? "通常" : parsedPart.partCondition,
-                    "cut": parsedPart.cut,
-                    "blunt": parsedPart.hit,
-                    "ammo": parsedPart.shot,
-                    "fire": parsedPart.fire,
-                    "water": parsedPart.water,
-                    "thunder": parsedPart.thunder,
-                    "ice": parsedPart.ice,
-                    "dragon": parsedPart.dragon
+        target.materials = [];
+        for (let j in item.boqu) {
+            let box = item.boqu[j];
+            let matData = {
+                "source": box.buwei,
+                "num": box.num,
+            };
+            matData.low_rank = []
+            for (let i in box.xia) {
+                let jpName = box.xia[i].sucaiName;
+                let itemCount = "1";
+                let trySplitNum = jpName.split("x")
+                if (trySplitNum.length > 1) {
+                    jpName = trySplitNum[0];
+                    itemCount = trySplitNum[1];
+                }
+                matData.low_rank.push({
+                    "item": getMatIDFromJP(jpName),
+                    "rate": box.xia[i].gailv,
+                    "num": itemCount
                 })
             }
-
-        } else {
-            console.log(target.name.tw + " has hitdata, no write");
+            matData.high_rank = []
+            for (let i in box.shang) {
+                let jpName = box.shang[i].sucaiName;
+                let itemCount = "1";
+                let trySplitNum = jpName.split("x")
+                if (trySplitNum.length > 1) {
+                    jpName = trySplitNum[0];
+                    itemCount = trySplitNum[1];
+                }
+                matData.high_rank.push({
+                    "item": getMatIDFromJP(jpName),
+                    "rate": box.shang[i].gailv,
+                    "num": itemCount
+                })
+            }
+            target.materials.push(matData);
         }
-
     }
-    // outputText(JSON.stringify(container));
 
 
     // for (let id in data.large_monsters) {
@@ -266,11 +330,22 @@ function someDataWorks() {
     //     mon = moveObjectElement("icon_large", "icon", mon);
     //     data.large_monsters[id] = mon;
     // }
-    outputText(JSON.stringify(data.large_monsters));
+
+    // saveTextFile(JSON.stringify(data.large_monsters));
 
 
     // console.log(JSON.stringify(temp));
 
+}
+
+function getMatIDFromJP(jpName) {
+    if (i18n.messages.jp.data.items[jpName] !== undefined) {
+        console.log("find id: " + jpName + " - " + i18n.messages.jp.data.items[jpName].name)
+        return i18n.messages.jp.data.items[jpName].name
+    }
+    else
+        console.log("can't find id: ")
+    return jpName;
 }
 
 function orderKeys(obj, keys) {
@@ -284,6 +359,20 @@ function orderKeys(obj, keys) {
 function outputText(text) {
     const win = window.open('about:blank', '_blank');
     win.document.write(text);
+}
+
+function saveTextFile(text) {
+    let file = new Blob([text], { type: 'text/json' });
+    let url = window.URL.createObjectURL(file);
+
+    let a = document.createElement("a");
+    a.style = "display: none";
+    document.body.appendChild(a);
+    a.href = url;
+    a.download = "output.json";
+    a.click();
+    // window.URL.revokeObjectURL(url);
+    a.remove();
 }
 
 //currentKey: the key you want to move
