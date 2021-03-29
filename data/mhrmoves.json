@@ -2715,7 +2715,53 @@
             ]
         },
         "barroth": {
-            "moves": [],
+            "moves": [
+                {
+                    "name": "前咬",
+                    "preaction": "",
+                    "action": "",
+                    "recovery": "",
+                    "note": "",
+                    "video": "videos/土砂龍/土砂龍_前咬.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "鐵山靠",
+                    "preaction": "",
+                    "action": "",
+                    "recovery": "",
+                    "note": "",
+                    "video": "videos/土砂龍/土砂龍_鐵山靠.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "龍車",
+                    "preaction": "",
+                    "action": "",
+                    "recovery": "",
+                    "note": "",
+                    "video": "videos/土砂龍/土砂龍_龍車.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "二連甩尾",
+                    "preaction": "",
+                    "action": "",
+                    "recovery": "",
+                    "note": "",
+                    "video": "videos/土砂龍/土砂龍_二連甩尾.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "抖落泥土",
+                    "preaction": "",
+                    "action": "",
+                    "recovery": "",
+                    "note": "",
+                    "video": "videos/土砂龍/土砂龍_抖落泥土.mp4",
+                    "onlyincombo": false
+                }
+            ],
             "combos": [],
             "riding_moves": [
                 {
@@ -2772,6 +2818,15 @@
                     "onlyincombo": false
                 },
                 {
+                    "name": "二連咬",
+                    "preaction": "",
+                    "action": "",
+                    "recovery": "",
+                    "note": "",
+                    "video": "videos/水獸/水獸_二連咬.mp4",
+                    "onlyincombo": false
+                },
+                {
                     "name": "吐口水",
                     "preaction": "",
                     "action": "",
@@ -2781,12 +2836,57 @@
                     "onlyincombo": false
                 },
                 {
+                    "name": "三連吐口水",
+                    "preaction": "",
+                    "action": "依序往左、右、中三個方向吐口水。",
+                    "recovery": "",
+                    "note": "",
+                    "video": "videos/水獸/水獸_三連吐口水.mp4",
+                    "onlyincombo": false
+                },
+                {
                     "name": "飛撲",
                     "preaction": "",
                     "action": "",
                     "recovery": "",
                     "note": "",
                     "video": "videos/水獸/水獸_飛撲.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "下壓",
+                    "preaction": "",
+                    "action": "",
+                    "recovery": "",
+                    "note": "",
+                    "video": "videos/水獸/水獸_下壓.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "甩尾",
+                    "preaction": "",
+                    "action": "",
+                    "recovery": "",
+                    "note": "",
+                    "video": "videos/水獸/水獸_甩尾.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "搖頭擺尾",
+                    "preaction": "",
+                    "action": "",
+                    "recovery": "",
+                    "note": "",
+                    "video": "videos/水獸/水獸_搖頭擺尾.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "龍車",
+                    "preaction": "",
+                    "action": "",
+                    "recovery": "",
+                    "note": "",
+                    "video": "videos/水獸/水獸_龍車.mp4",
                     "onlyincombo": false
                 }
             ],
@@ -2825,6 +2925,33 @@
                     "onlyincombo": false
                 },
                 {
+                    "name": "威嚇",
+                    "preaction": "",
+                    "action": "",
+                    "recovery": "",
+                    "note": "",
+                    "video": "videos/毒狗龍王/毒狗龍王_威嚇.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "毒霧",
+                    "preaction": "",
+                    "action": "",
+                    "recovery": "",
+                    "note": "",
+                    "video": "videos/毒狗龍王/毒狗龍王_毒霧.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "毒球",
+                    "preaction": "",
+                    "action": "",
+                    "recovery": "",
+                    "note": "",
+                    "video": "videos/毒狗龍王/毒狗龍王_毒球.mp4",
+                    "onlyincombo": false
+                },
+                {
                     "name": "小咬",
                     "preaction": "",
                     "action": "",
@@ -2834,16 +2961,44 @@
                     "onlyincombo": false
                 },
                 {
-                    "name": "威嚇",
+                    "name": "鐵山靠",
                     "preaction": "",
                     "action": "",
                     "recovery": "",
                     "note": "",
-                    "video": "videos/毒狗龍王/毒狗龍王_威嚇.mp4",
+                    "video": "videos/毒狗龍王/毒狗龍王_鐵山靠.mp4",
                     "onlyincombo": false
                 }
             ],
-            "combos": [],
+            "combos": [
+                {
+                    "root": 0,
+                    "condition": "",
+                    "nodes": [
+                        {
+                            "move": "毒霧",
+                            "links": [
+                                {
+                                    "node": 1,
+                                    "condition": "較高機率"
+                                },
+                                {
+                                    "node": 2,
+                                    "condition": ""
+                                }
+                            ]
+                        },
+                        {
+                            "move": "鐵山靠",
+                            "links": []
+                        },
+                        {
+                            "move": "毒球",
+                            "links": []
+                        }
+                    ]
+                }
+            ],
             "riding_moves": [
                 {
                     "name": "小咬",
@@ -3344,12 +3499,39 @@
             },
             "moves": [
                 {
-                    "name": "飛撲",
+                    "name": "前撲",
                     "preaction": "",
                     "action": "",
                     "recovery": "",
                     "note": "",
-                    "video": "videos/冰牙龍/冰牙龍_飛撲.mp4",
+                    "video": "videos/冰牙龍/冰牙龍_前撲.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "回身跳撲",
+                    "preaction": "",
+                    "action": "",
+                    "recovery": "",
+                    "note": "",
+                    "video": "videos/冰牙龍/冰牙龍_回身跳撲.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "立定跳撲",
+                    "preaction": "",
+                    "action": "",
+                    "recovery": "",
+                    "note": "",
+                    "video": "videos/冰牙龍/冰牙龍_立定跳撲.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "鐵山靠",
+                    "preaction": "",
+                    "action": "",
+                    "recovery": "",
+                    "note": "",
+                    "video": "videos/冰牙龍/冰牙龍_鐵山靠.mp4",
                     "onlyincombo": false
                 },
                 {
@@ -3371,15 +3553,6 @@
                     "onlyincombo": false
                 },
                 {
-                    "name": "側跳起飛",
-                    "preaction": "",
-                    "action": "",
-                    "recovery": "",
-                    "note": "",
-                    "video": "videos/冰牙龍/冰牙龍_側跳起飛.mp4",
-                    "onlyincombo": false
-                },
-                {
                     "name": "吐息",
                     "preaction": "",
                     "action": "",
@@ -3396,6 +3569,24 @@
                     "note": "",
                     "video": "videos/冰牙龍/冰牙龍_空中吐息.mp4",
                     "onlyincombo": false
+                },
+                {
+                    "name": "側跳起飛",
+                    "preaction": "",
+                    "action": "",
+                    "recovery": "",
+                    "note": "",
+                    "video": "videos/冰牙龍/冰牙龍_側跳起飛.mp4",
+                    "onlyincombo": true
+                },
+                {
+                    "name": "散步",
+                    "preaction": "",
+                    "action": "",
+                    "recovery": "",
+                    "note": "",
+                    "video": "videos/冰牙龍/冰牙龍_散步.mp4",
+                    "onlyincombo": true
                 }
             ],
             "combos": [
@@ -3417,6 +3608,74 @@
                             "links": []
                         }
                     ]
+                },
+                {
+                    "root": 0,
+                    "condition": "",
+                    "nodes": [
+                        {
+                            "move": "散步",
+                            "links": [
+                                {
+                                    "node": 1,
+                                    "condition": ""
+                                }
+                            ]
+                        },
+                        {
+                            "move": "鐵山靠",
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "root": 0,
+                    "condition": "",
+                    "nodes": [
+                        {
+                            "move": "各種跳步",
+                            "links": [
+                                {
+                                    "node": 1,
+                                    "condition": ""
+                                },
+                                {
+                                    "node": 2,
+                                    "condition": ""
+                                }
+                            ]
+                        },
+                        {
+                            "move": "吐息",
+                            "links": []
+                        },
+                        {
+                            "move": "前撲",
+                            "links": []
+                        }
+                    ]
+                }
+            ],
+            "riding_moves": [
+                {
+                    "name": "前撲",
+                    "command": "",
+                    "video": "videos/冰牙龍/冰牙龍_操龍_前撲.mp4"
+                },
+                {
+                    "name": "回身跳撲",
+                    "command": "",
+                    "video": "videos/冰牙龍/冰牙龍_操龍_回身跳撲.mp4"
+                },
+                {
+                    "name": "鐵山靠",
+                    "command": "",
+                    "video": "videos/冰牙龍/冰牙龍_操龍_鐵山靠.mp4"
+                },
+                {
+                    "name": "泰山壓頂",
+                    "command": "",
+                    "video": "videos/冰牙龍/冰牙龍_操龍_泰山壓頂.mp4"
                 }
             ]
         },
