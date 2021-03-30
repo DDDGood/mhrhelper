@@ -1,6 +1,27 @@
 <template>
   <div>
     <div class="layout-main">
+      <template v-for="(container, level) in levellist">
+        <div class="header3" :key="level">
+          <div>{{ $t('monster.threat_level') }}</div>
+          <div class="level-text" :key="level">{{ParseLevel(level) }}</div>
+        </div>
+        <div class="link-list" :key="level">
+          <router-link
+            tag="button"
+            class="link-button"
+            v-for="(mon, key) in container"
+            :key="key"
+            :to="'/mon/' + key"
+          >
+            <img
+              class="link-icon"
+              v-bind:src="IsNullOrEmpty(mon.icon) ? 'images/icons/endemics/unknown.png': mon.icon "
+            />
+            <div class="link-text">{{ $t('monster.name.'+key ) }}</div>
+          </router-link>
+        </div>
+      </template>
       <!-- <template v-for="(container, species) in specieslist">
         <div v-if="species!=='all'" :key="species">
           <div class="header3" :key="species">{{ $t('monster.species.' + species)}}</div>
@@ -21,7 +42,7 @@
           </div>
         </div>
       </template>-->
-      <div class="header3">{{$t('species')}}</div>
+      <!-- <div class="header3">{{$t('species')}}</div>
       <div id="specieslist">
         <router-link
           tag="button"
@@ -31,7 +52,7 @@
           v-bind:key="key"
           v-bind:to="'/mon/species/' + key"
         >{{ $t('monster.species.'+ key) }}</router-link>
-      </div>
+      </div>-->
       <!-- <router-view></router-view> -->
     </div>
   </div>
@@ -44,8 +65,42 @@ module.exports = {
   },
   props: ["specieslist", "dex"],
   computed: {
-    listWithoutAll: function () {
-
+    levellist: function () {
+      let result = {
+        "1": {},
+        "2": {},
+        "3": {},
+        "4": {},
+        "5": {},
+        "6": {},
+        "7": {},
+        "8": {},
+        "9": {},
+        "10": {},
+        "-1": {},
+      };
+      for (let id in this.dex) {
+        const mon = this.dex[id];
+        if (result.hasOwnProperty(mon.threat_level)) {
+          result[mon.threat_level][id] = mon;
+        } else {
+          result["-1"][id] = mon;
+        }
+      }
+      return result;
+    }
+  },
+  methods: {
+    ParseLevel: function (text) {
+      const value = parseInt(text, 10);
+      let result = "？";
+      if (!isNaN(value) && value > 0 && value <= 10) {
+        result = "";
+        star = "★"
+        star2 = "☆"
+        result = star.repeat(value) + star2.repeat(10 - value);
+      }
+      return result;
     }
   },
   created: function () {
@@ -55,6 +110,10 @@ module.exports = {
 </script>  
 
 <style scoped>
+.level-text {
+  font-size: 14px;
+  font-weight: normal !important;
+}
 #specieslist {
   display: grid;
   justify-content: center;

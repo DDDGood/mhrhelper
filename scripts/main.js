@@ -38,8 +38,12 @@ function SetLocal(key) {
 $(document).ready(Initialize);
 
 function Initialize() {
-
-    LoadData(['data/mhrdex.json', 'data/mhrmoves.json', 'data/endemics.json', "data/small_monster.json", "data/weapons.json", "data/monparsed.json"], onDexLoaded);
+    try {
+        LoadData(['data/mhrdex.json', 'data/mhrmoves.json', 'data/endemics.json', "data/small_monster.json", "data/weapons.json"], tryOnDexLoaded);
+    } catch (error) {
+        console.log(error.message);
+        document.getElementById("error").innerHTML = "error:" + error.message;
+    }
 }
 
 function LoadData(paths, callback) {
@@ -65,6 +69,14 @@ function LoadData(paths, callback) {
     })
 }
 
+function tryOnDexLoaded() {
+    try {
+        onDexLoaded();
+    } catch (error) {
+        console.log(error.message);
+        document.getElementById("error").innerHTML = "error:" + error.message;
+    }
+}
 
 function onDexLoaded() {
 
@@ -128,7 +140,6 @@ function onDexLoaded() {
     }
 
     // someDataWorks();
-
 
 
 }
@@ -561,7 +572,7 @@ function ParseDescriptionText(inputText) {
     return result;
 }
 
-function ParseStars(text) {
+function ParseStars(text, symbo = "⭐") {
     const value = parseInt(text, 10);
     let result = "-";
     if (!isNaN(value)) {
@@ -570,7 +581,7 @@ function ParseStars(text) {
         } else if (value > 0) {
             result = "";
             for (let i = 0; i < value; i++) {
-                result += "⭐";
+                result += symbo;
             }
         }
     }

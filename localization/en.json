@@ -98,6 +98,7 @@
                     "screamerpod": "screamerpod"
                 }
             },
+            "threat_level": "Threat Level",
             "part": "Part",
             "state": "State",
             "hitdata": "Hit Data",

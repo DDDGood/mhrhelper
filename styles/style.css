@@ -68,6 +68,7 @@ var{
   border-bottom: 1px solid rgb(199, 199, 199);
 }
 .header3{
+  font-size: 18px;
   font-weight: bold;
   color:#31363D;
 }
@@ -142,6 +143,7 @@ padding:10px;
 .link-list{
   display: grid;
   grid-gap: 12px;
+  margin-bottom: 20px;
 }
 .link-list-thin{
   display: grid;
@@ -252,6 +254,10 @@ details[open] > summary:after {
 .flex-intense{
   align-items:center !important;
   justify-content:center !important;
+}
+.flex-stretch{
+  align-items:stretch !important;
+  justify-content:stretch !important;
 }
 .margin {
   margin: 4px;

@@ -98,6 +98,7 @@
                     "screamerpod": "音爆"
                 }
             },
+            "threat_level": "危險度",
             "part": "部位",
             "state": "狀態",
             "hitdata": "詳細肉質",
