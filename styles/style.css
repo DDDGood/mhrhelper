@@ -92,6 +92,12 @@ var{
   /* align-items:flex-start!important; */
   justify-content:flex-start !important;
 }
+.flex-end {
+  display: flex;
+  /* align-items:flex-start!important; */
+  justify-content:flex-end !important;
+}
+
 
 .hide{
   display: none !important;

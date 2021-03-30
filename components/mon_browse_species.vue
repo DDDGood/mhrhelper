@@ -1,27 +1,43 @@
 <template>
   <div>
     <div class="layout-main">
-      <template v-for="(container, level) in levellist">
-        <div class="header3" :key="level">
-          <div>{{ $t('monster.threat_level') }}</div>
-          <div class="level-text" :key="level">{{ParseLevel(level) }}</div>
+      <div>
+        <div class="flex-row flex-end">
+          <div>排序：</div>
+          <div
+            @click="ChangeSortingType(0)"
+            v-bind:class="{'sortingType_current' : sortingType ===0}"
+          >危險度</div>
+          <div>｜</div>
+          <div
+            @click="ChangeSortingType(1)"
+            v-bind:class="{'sortingType_current' : sortingType ===1}"
+          >種類</div>
         </div>
-        <div class="link-list" :key="level">
-          <router-link
-            tag="button"
-            class="link-button"
-            v-for="(mon, key) in container"
-            :key="key"
-            :to="'/mon/' + key"
-          >
-            <img
-              class="link-icon"
-              v-bind:src="IsNullOrEmpty(mon.icon) ? 'images/icons/endemics/unknown.png': mon.icon "
-            />
-            <div class="link-text">{{ $t('monster.name.'+key ) }}</div>
-          </router-link>
-        </div>
-      </template>
+      </div>
+      <div v-if="sortingType === 0">
+        <template v-for="(container, level) in levellist">
+          <div class="header3" :key="level">
+            <div>{{ $t('monster.threat_level') }}</div>
+            <div class="level-text" :key="level">{{ParseLevel(level) }}</div>
+          </div>
+          <div class="link-list" :key="level">
+            <router-link
+              tag="button"
+              class="link-button"
+              v-for="(mon, key) in container"
+              :key="key"
+              :to="'/mon/' + key"
+            >
+              <img
+                class="link-icon"
+                v-bind:src="IsNullOrEmpty(mon.icon) ? 'images/icons/endemics/unknown.png': mon.icon "
+              />
+              <div class="link-text">{{ $t('monster.name.'+key ) }}</div>
+            </router-link>
+          </div>
+        </template>
+      </div>
       <!-- <template v-for="(container, species) in specieslist">
         <div v-if="species!=='all'" :key="species">
           <div class="header3" :key="species">{{ $t('monster.species.' + species)}}</div>
@@ -42,17 +58,20 @@
           </div>
         </div>
       </template>-->
-      <!-- <div class="header3">{{$t('species')}}</div>
-      <div id="specieslist">
-        <router-link
-          tag="button"
-          class="btnspecies"
-          :class="{ 'flex-1': key !== 'all', 'flex-2': key === 'all' }"
-          v-for="(item, key) in specieslist"
-          v-bind:key="key"
-          v-bind:to="'/mon/species/' + key"
-        >{{ $t('monster.species.'+ key) }}</router-link>
-      </div>-->
+
+      <div v-if="sortingType === 1">
+        <div class="header3">{{$t('species')}}</div>
+        <div id="specieslist">
+          <router-link
+            tag="button"
+            class="btnspecies"
+            :class="{ 'flex-1': key !== 'all', 'flex-2': key === 'all' }"
+            v-for="(item, key) in specieslist"
+            v-bind:key="key"
+            v-bind:to="'/mon/species/' + key"
+          >{{ $t('monster.species.'+ key) }}</router-link>
+        </div>
+      </div>
       <!-- <router-view></router-view> -->
     </div>
   </div>
@@ -61,6 +80,7 @@
 module.exports = {
   data: function () {
     return {
+      sortingType: 0
     }
   },
   props: ["specieslist", "dex"],
@@ -101,6 +121,9 @@ module.exports = {
         result = star.repeat(value) + star2.repeat(10 - value);
       }
       return result;
+    },
+    ChangeSortingType: function (type) {
+      this.sortingType = type;
     }
   },
   created: function () {
@@ -110,6 +133,12 @@ module.exports = {
 </script>  
 
 <style scoped>
+.sortingType_current {
+  font-weight: bold;
+}
+.sortingType_not {
+  font-weight: normal;
+}
 .level-text {
   font-size: 14px;
   font-weight: normal !important;
