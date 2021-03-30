@@ -52,7 +52,7 @@ module.exports = {
           items.push({ name: this.$t("dataType.large_monsters"), path: "/mon" })
           if (pathArr[1] !== undefined) {
             if (pathArr[1] === "species" && pathArr[2] !== undefined) {
-              items.push({ name: this.$t("monster.species." + pathArr[2]), path: "/species/" + pathArr[2] })
+              items.push({ name: this.$t("monster.species." + pathArr[2]), path: "/mon/species/" + pathArr[2] })
             } else {
               items.push({ name: this.$t("monster.name." + pathArr[1]), path: "/mon/" + pathArr[1] })
             }
