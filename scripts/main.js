@@ -220,116 +220,62 @@ function someDataWorks() {
 
 
     // ParseHitData    
-    let partTrans = {
-        "胴体": "身體",
-        "前脚": "前腳",
-        "後脚": "後腳",
-        "尻尾": "尾巴",
-        "尾先": "尾尖",
-        "髪ヒレ": "髮鰭",
-        "タテガミ": "鬃毛",
-        "ヒレ": "鰭",
-        "氷塊": "冰塊",
-        "首・背": "頸・背",
-        "尾根元": "尾根",
-        "首下": "頸下",
-        "回転中": "滾動中",
-        "尻": "屁股",
-        "脚(糸)": "腳(絲)",
-        "尻先": "尾尖",
-        "尻": "屁股",
-        "首": "頸",
-        "胴": "身",
-        "脚": "腳",
-        "剥ぎ取り": "剝取",
-        "本体": "本體",
-        "落とし物": "掉落物",
-        "ターゲット": "目標",
-        "ハチミツを食べている": "正在吃蜂蜜時",
-        "魚を食べている時": "正在吃魚時",
-        "音爆弾、閃光玉、罠にかかった時": "音爆彈、閃光彈、陷阱困住時",
-        "切断系の攻撃": "切斷系(斬)攻擊",
-        "炎熱蓄積状態中に頭を攻撃してダウン時": "炎熱蓄積狀態中攻擊頭部擊倒時",
-        "左右どちらかの脚を破壊": "破壞左腿或右腿",
-        "頭または翼の部位破壊時": "頭或翼破壞時",
-        "体力30%以下の時に耐久値を1回0にすると報酬": "體力值30%以下時將耐久值1回降到0的報酬",
-        "持っている岩や卵を落とした時": "擊落手中的岩石或卵時",
-        "音爆弾でダウンさせた時泥纏いを中断させた時攻撃を当てて泳ぎ状態から地上に出した時泥を剥がした時": "當音爆彈擊倒時，當中斷泥纏時，當將他從游泳狀態打回地面時，當剝去泥漿時",
-        "超帯電状態から通常状態に戻った時": "從超帶電狀態恢復到正常狀態時",
-        "左右どちらかの爪を破壊": "破壞左爪或右爪",
-        "切断属性": "切斷屬性",
-        "泡まとい状態の解除時、爪とぎ時": "泡纏狀態解除時",
-        "突進で地形にぶつかった時音爆弾で怯ませた時": "衝鋒撞到地形時，用音爆彈嚇它時",
-        "疲れ状態で突進後にダウンした時": "疲勞狀態下衝鋒倒地",
-        "左右どちらかの爪の": "左爪或右爪",
-        "を引きずって逃げる時": "瘸腿逃跑時",
-        "帯電状態を解除させた時張り付いた壁からダメージを受けて落下時": "帶電狀態解除時，在牆上被打下來",
-        "擬態を解除時": "擬態解除時",
-        "食事を中断させた時": "打斷進食時",
-        "天井からヨダレを垂らした時": "天花板上流口水時",
-        "攻撃に失敗してもがいた時": "攻擊失敗掙扎時",
-        "打撃系の攻撃で一定ダメージ": "打撃系的攻擊造成一定傷害",
-        "突進で地形にぶつかった時泥を纏った時": "突進撞上地形時，泥纏時。",
-        "どちらかの": "任一側",
-        "1段階の破壊で報酬": "1次破壞的報酬",
-        "2段階の破壊で報酬": "2次破壞的報酬",
-        "空中から落下させた時": "空中擊落時",
-        "タテガミ破壊時": "上臂破壞時",
-        "0にする": "降到0",
-        "耐久値を": "耐久值",
-        "を": ""
-    }
-    // for (let id in tempDic) {
-    //     let item = tempDic[id];
-    //     let target = data['large_monsters'][id];
-    //     if (id !== "arzuros" && id !== "mizutsune" && id !== "great_izuchi" && id !== "rathian" && id !== "magnamalo") {
-    //         console.log(target.name.tw + " no hitdata, do write");
 
-    //         if (target.hitdata === undefined)
-    //             target.hitdata = {}
-    //         target.hitdata.parts = [];
-    //         for (let i in item.meatQuality) {
-    //             let parsedPart = item.meatQuality[i];
-    //             let partName = partTrans.hasOwnProperty(parsedPart.part) ? partTrans[parsedPart.part] : parsedPart.part;
-    //             target.hitdata.parts.push({
-    //                 "part": partName,
-    //                 "condition": parsedPart.partCondition === parsedPart.part ? "通常" : parsedPart.partCondition,
-    //                 "cut": parsedPart.cut,
-    //                 "blunt": parsedPart.hit,
-    //                 "ammo": parsedPart.shot,
-    //                 "fire": parsedPart.fire,
-    //                 "water": parsedPart.water,
-    //                 "thunder": parsedPart.thunder,
-    //                 "ice": parsedPart.ice,
-    //                 "dragon": parsedPart.dragon
-    //             })
-    //         }
-
-    //     } else {
-    //         console.log(target.name.tw + " has hitdata, no write");
-    //     }
-
-    // }
-
-
-    // for (let key in i18n.messages.jp.data.items) {
-    //     let item = i18n.messages.jp.data.items[key];
-    //     console.log(item.name);
-    //     // if (item.name === jpName) {
-    //     //     console.log("find jp id: " + jpName + "  /" + item.name)
-    //     //     return item.name;
-    //     // }
-    //     // else {
-    //     //     console.log("can't find jp id: " + jpName + "  /" + item.name)
-    //     //     return jpName;
-    //     // }
-    // }
-    // var id = getMatIDFromJP("青熊獣の剛毛");
-    // console.log(id);
-    // return;
     for (let id in tempDic) {
         let item = tempDic[id];
         let target = data['large_monsters'][id];
+        if (id !== "arzuros" && id !== "mizutsune" && id !== "great_izuchi" && id !== "rathian" && id !== "magnamalo") {
+            console.log(target.name.tw + " no hitdata, do write");
+
+            if (target.hitdata === undefined)
+                target.hitdata = {}
+            target.hitdata.parts = [];
+            for (let i in item.meatQuality) {
+                let parsedPart = item.meatQuality[i];
+
+                let partName = parsedPart.part
+                partName = translateJP(partName)
+                // if (partTrans.hasOwnProperty(parsedPart.part)) {
+                //     partName = partTrans[parsedPart.part];
+                // }
+                // else
+                //     console.log("cant find part name:" + partName);
+
+                let transCondition = parsedPart.partCondition === parsedPart.part ? "通常" : parsedPart.partCondition;
+                transCondition = translateJP(transCondition);
+                console.log("partCondition:" + transCondition);
+
+
+
+                let partData = {
+                    "part": partName,
+                    "condition": transCondition,
+                    "cut": parsedPart.cut,
+                    "blunt": parsedPart.hit,
+                    "ammo": parsedPart.shot,
+                    "fire": parsedPart.fire,
+                    "water": parsedPart.water,
+                    "thunder": parsedPart.thunder,
+                    "ice": parsedPart.ice,
+                    "dragon": parsedPart.dragon
+                };
+                let inserted = false;
+                for (let j in target.hitdata.parts) {
+                    if (target.hitdata.parts[j].part === partData.part) {
+                        const pos = parseInt(j, 10) + 1;
+                        target.hitdata.parts.splice(pos, 0, partData);
+                        inserted = true
+                        break;
+                    }
+                }
+                if (!inserted)
+                    target.hitdata.parts.push(partData)
+            }
+        } else {
+            console.log(target.name.tw + " has hitdata, no write");
+        }
+
+
         target.materials = [];
         for (let j in item.boqu) {
             let box = item.boqu[j];
@@ -337,18 +283,10 @@ function someDataWorks() {
                 "source": box.buwei,
                 "num": box.num,
             };
+            matData.source = translateJP(matData.source);
             if (box.info !== undefined) {
-
-                matData.info = box.info;
-                for (let partJP in partTrans) {
-                    if (matData.info.includes(partJP))
-                        matData.info = matData.info.replace(partJP, partTrans[partJP]);
-                }
+                matData.info = translateJP(box.info);
                 console.log(matData.info);
-            }
-            for (let partJP in partTrans) {
-                if (matData.source.includes(partJP))
-                    matData.source = matData.source.replace(partJP, partTrans[partJP]);
             }
             matData.low_rank = []
             for (let i in box.xia) {
@@ -385,6 +323,66 @@ function someDataWorks() {
     }
 
 
+    // return;
+
+    // for (let id in tempDic) {
+    //     let item = tempDic[id];
+    //     let target = data['large_monsters'][id];
+    //     target.materials = [];
+    //     for (let j in item.boqu) {
+    //         let box = item.boqu[j];
+    //         let matData = {
+    //             "source": box.buwei,
+    //             "num": box.num,
+    //         };
+    //         if (box.info !== undefined) {
+
+    //             matData.info = box.info;
+    //             for (let partJP in partTrans) {
+    //                 if (matData.info.includes(partJP))
+    //                     matData.info = matData.info.replace(partJP, partTrans[partJP]);
+    //             }
+    //             console.log(matData.info);
+    //         }
+    //         for (let partJP in partTrans) {
+    //             if (matData.source.includes(partJP))
+    //                 matData.source = matData.source.replace(partJP, partTrans[partJP]);
+    //         }
+    //         matData.low_rank = []
+    //         for (let i in box.xia) {
+    //             let jpName = box.xia[i].sucaiName;
+    //             let itemCount = "1";
+    //             let trySplitNum = jpName.split("x")
+    //             if (trySplitNum.length > 1) {
+    //                 jpName = trySplitNum[0];
+    //                 itemCount = trySplitNum[1];
+    //             }
+    //             matData.low_rank.push({
+    //                 "item": getMatIDFromJP(jpName),
+    //                 "rate": box.xia[i].gailv,
+    //                 "num": itemCount
+    //             })
+    //         }
+    //         matData.high_rank = []
+    //         for (let i in box.shang) {
+    //             let jpName = box.shang[i].sucaiName;
+    //             let itemCount = "1";
+    //             let trySplitNum = jpName.split("x")
+    //             if (trySplitNum.length > 1) {
+    //                 jpName = trySplitNum[0];
+    //                 itemCount = trySplitNum[1];
+    //             }
+    //             matData.high_rank.push({
+    //                 "item": getMatIDFromJP(jpName),
+    //                 "rate": box.shang[i].gailv,
+    //                 "num": itemCount
+    //             })
+    //         }
+    //         target.materials.push(matData);
+    //     }
+    // }
+
+
     // for (let id in data.large_monsters) {
     //     let mon = data.large_monsters[id];
     //     mon["icon_large"] = "images/monsters/icons/large/" + id + ".png";
@@ -400,13 +398,111 @@ function someDataWorks() {
 }
 
 function getMatIDFromJP(jpName) {
-    if (i18n.messages.jp.data.items[jpName] !== undefined) {
+    if (data["jptokey"][jpName] !== undefined) {
         // console.log("find id: " + jpName + " - " + i18n.messages.jp.data.items[jpName].name)
-        return i18n.messages.jp.data.items[jpName].name
+        return data["jptokey"][jpName].key
     }
     else
         console.log("can't find id: ")
     return jpName;
+}
+
+function translateJP(jpText) {
+    let dic = {
+        "ハチミツを食べている": "正在吃蜂蜜時",
+        "魚を食べている時": "正在吃魚時",
+        "音爆弾、閃光玉、罠にかかった時": "音爆彈、閃光彈、陷阱困住時",
+        "炎熱蓄積状態中に頭を攻撃してダウン時": "炎熱蓄積狀態中攻擊頭部擊倒時",
+        "炎熱蓄積中に頭攻撃してダウン時": "炎熱蓄積狀態中攻擊頭部擊倒時",
+        "左右どちらかの脚を破壊": "破壞左腿或右腿",
+        "頭または翼の部位破壊時": "頭或翼破壞時",
+        "体力30%以下の時に耐久値を1回0にすると報酬": "體力值30%以下時將耐久值1回降到0的報酬",
+        "持っている岩や卵を落とした時": "擊落手中的岩石或卵時",
+        "音爆弾でダウンさせた時泥纏いを中断させた時攻撃を当てて泳ぎ状態から地上に出した時泥を剥がした時": "當音爆彈擊倒時，當中斷泥纏時，當將他從游泳狀態打回地面時，當剝去泥漿時",
+        "音爆弾でダウンさせた時泥纏中断させた時攻撃を当てて泳ぎから地上に出した時泥を剥がした時": "當音爆彈擊倒時，當中斷泥纏時，當將他從游泳狀態打回地面時，當剝去泥漿時",
+        "超帯電状態から通常状態に戻った時": "從超帶電恢復到正常狀態時",
+        "超帶電から通常に戻った時": "從超帶電恢復到正常狀態時",
+        "左右どちらかの爪を破壊": "破壞左爪或右爪",
+        "切断属性": "切斷屬性",
+        "泡まとい状態の解除時、爪とぎ時": "泡纏狀態解除時",
+        "泡まといの解除時、爪とぎ時": "泡纏狀態解除時",
+        "突進で地形にぶつかった時音爆弾で怯ませた時": "衝鋒撞到地形時，用音爆彈嚇它時",
+        "疲れ状態で突進後にダウンした時": "疲勞狀態下衝鋒倒地",
+        "疲れで突進後にダウンした時": "疲勞狀態下衝鋒倒地",
+        "左右どちらかの爪の": "左爪或右爪",
+        "を引きずって逃げる時": "瘸腿逃跑時",
+        "帯電状態を解除させた時張り付いた壁からダメージを受けて落下時": "帶電狀態解除時，在牆上被打下來",
+        "帯電解除させた時張り付いた壁からダメージを受けて落下時": "帶電狀態解除時，在牆上被打下來",
+        "擬態を解除時": "擬態解除時",
+        "食事を中断させた時": "打斷進食時",
+        "天井からヨダレを垂らした時": "天花板上流口水時",
+        "攻撃に失敗してもがいた時": "攻擊失敗掙扎時",
+        "打撃系の攻撃で一定ダメージ": "打撃系的攻擊造成一定傷害",
+        "突進で地形にぶつかった時泥を纏った時": "突進撞上地形時，泥纏時。",
+        "どちらかの": "任一側",
+        "1段階の破壊で報酬": "1次破壞的報酬",
+        "2段階の破壊で報酬": "2次破壞的報酬",
+        "空中から落下させた時": "空中擊落時",
+        "切断系の攻撃": "切斷系(斬)攻擊",
+        "タテガミ破壊時": "鬃毛破壞時",
+        "剥ぎ取り": "剝取",
+        "本体": "本體",
+        "落とし物": "掉落物",
+        "ターゲット": "目標",
+        "カッコ内は": "",
+        "(破壊後)": "破壞後",
+        "(泥纏い時)": "泥纏",
+        "(怒り時)": "憤怒時",
+        "通常時": "通常",
+        "(満腹時)": "滿腹時",
+        "(闘気硬化時)": "鬥氣硬化",
+        "超帯電状態": "超帶電",
+        "泥纏い": "泥纏",
+        "状態": "",
+        "9にする": "降到0",
+        "0にする": "降到0",
+        "耐久値を": "耐久值",
+        "を": "",
+        "と報酬": "報酬",
+        "胴体": "身體",
+        "前脚": "前腳",
+        "後脚": "後腳",
+        "尻尾": "尾巴",
+        "尾先": "尾尖",
+        "髪ヒレ": "髮鰭",
+        "タテガミ": "鬃毛",
+        "氷塊": "冰塊",
+        "首・背": "頸・背",
+        "尾根元": "尾根",
+        "首下": "頸下",
+        "回転中": "滾動中",
+        "脚(糸)": "腳(絲)",
+        "尻先": "尾尖",
+        "ヒレ": "鰭",
+        "ビレ": "鰭",
+        "尻": "屁股",
+        "首": "頸",
+        "胴": "身",
+        "脚": "腳",
+        "尻": "屁股",
+        "クチバシ": "嘴",
+        "トサカ": "冠",
+        "両角": "雙角",
+        "片腕": "單腕",
+        "片爪": "單爪",
+        "片刃翼": "單刃翼",
+        "片腕刃": "單腕刃"
+    }
+    let result = jpText;
+    for (let key in dic) {
+        if (result.includes(key))
+            result = result.replace(key, dic[key]);
+    };
+    // if (result === jpText)
+    //     console.log("no translate " + result);
+    // else
+    // console.log("translate " + jpText + " to " + result);
+    return result;
 }
 
 function orderKeys(obj, keys) {

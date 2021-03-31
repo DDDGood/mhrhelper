@@ -149,7 +149,28 @@
               "num": "1"
             }
           ],
-          "high_rank": []
+          "high_rank": [
+            {
+              "item": "great_izuchi_hide_plus",
+              "rate": "44%",
+              "num": "1"
+            },
+            {
+              "item": "great_izuchi_pelt_plus",
+              "rate": "35%",
+              "num": "1"
+            },
+            {
+              "item": "screamer_sac",
+              "rate": "20%",
+              "num": "1"
+            },
+            {
+              "item": "bird_wyvern_gem",
+              "rate": "1%",
+              "num": "1"
+            }
+          ]
         },
         {
           "source": "掉落物",
@@ -166,11 +187,37 @@
             },
             {
               "item": "great_izuchi_pelt",
-              "rate": "",
+              "rate": "20%",
               "num": "1"
             }
           ],
-          "high_rank": []
+          "high_rank": [
+            {
+              "item": "wyvern_tear",
+              "rate": "30%",
+              "num": "1"
+            },
+            {
+              "item": "great_izuchi_hide_plus",
+              "rate": "",
+              "num": "1"
+            },
+            {
+              "item": "great_izuchi_pelt_plus",
+              "rate": "20%",
+              "num": "1"
+            },
+            {
+              "item": "large_wyvern_tear",
+              "rate": "20%",
+              "num": "1"
+            },
+            {
+              "item": "bird_wyvern_gem",
+              "rate": "1%",
+              "num": "1"
+            }
+          ]
         },
         {
           "source": "捕獲",
@@ -192,11 +239,37 @@
             },
             {
               "item": "great_izuchi_tail",
-              "rate": "",
+              "rate": "15%",
               "num": "1"
             }
           ],
-          "high_rank": []
+          "high_rank": [
+            {
+              "item": "great_izuchi_pelt_plus",
+              "rate": "",
+              "num": "1"
+            },
+            {
+              "item": "great_izuchi_hide_plus",
+              "rate": "27%",
+              "num": "1"
+            },
+            {
+              "item": "screamer_sac",
+              "rate": "16%",
+              "num": "1"
+            },
+            {
+              "item": "great_izuchi_tail_plus",
+              "rate": "15%",
+              "num": "1"
+            },
+            {
+              "item": "bird_wyvern_gem",
+              "rate": "",
+              "num": "1"
+            }
+          ]
         },
         {
           "source": "頭破壊",
@@ -212,7 +285,23 @@
               "num": "1"
             }
           ],
-          "high_rank": []
+          "high_rank": [
+            {
+              "item": "screamer_sac",
+              "rate": "65%",
+              "num": "1"
+            },
+            {
+              "item": "great_izuchi_pelt_plus",
+              "rate": "",
+              "num": "1"
+            },
+            {
+              "item": "bird_wyvern_gem",
+              "rate": "3%",
+              "num": "1"
+            }
+          ]
         },
         {
           "source": "尾巴破壊",
@@ -224,7 +313,7 @@
             },
             {
               "item": "great_izuchi_hide",
-              "rate": "",
+              "rate": "20%",
               "num": "1"
             }
           ],
@@ -232,6 +321,11 @@
             {
               "item": "great_izuchi_tail_plus",
               "rate": "",
+              "num": "1"
+            },
+            {
+              "item": "great_izuchi_hide_plus",
+              "rate": "20%",
               "num": "1"
             }
           ]
@@ -270,7 +364,38 @@
               "num": "1"
             }
           ],
-          "high_rank": []
+          "high_rank": [
+            {
+              "item": "great_izuchi_pelt_plus",
+              "rate": "",
+              "num": "1"
+            },
+            {
+              "item": "great_izuchi_hide_plus",
+              "rate": "23%",
+              "num": "1"
+            },
+            {
+              "item": "screamer_sac",
+              "rate": "18%",
+              "num": "1"
+            },
+            {
+              "item": "monster_bone_plus",
+              "rate": "13%",
+              "num": "1"
+            },
+            {
+              "item": "great_izuchi_tail_plus",
+              "rate": "",
+              "num": "1"
+            },
+            {
+              "item": "bird_wyvern_gem",
+              "rate": "2%",
+              "num": "1"
+            }
+          ]
         }
       ]
     },
@@ -440,22 +565,22 @@
           "high_rank": [
             {
               "item": "arzuros_pelt_plus",
-              "rate": "60%",
+              "rate": "52%",
               "num": "1"
             },
             {
               "item": "arzuros_carapace",
-              "rate": "20%",
+              "rate": "30%",
               "num": "1"
             },
             {
               "item": "stoutbone",
-              "rate": "10%",
+              "rate": "15%",
               "num": "1"
             },
             {
-              "item": "arzuros_pelt",
-              "rate": "10%",
+              "item": "beast_gem",
+              "rate": "3%",
               "num": "1"
             }
           ]
@@ -528,18 +653,28 @@
           ],
           "high_rank": [
             {
+              "item": "arzuros_pelt_plus",
+              "rate": "39%",
+              "num": "1"
+            },
+            {
               "item": "beast_tear",
-              "rate": "38%",
+              "rate": "30%",
               "num": "1"
             },
             {
               "item": "large_beast_tear",
-              "rate": "37%",
+              "rate": "20%",
               "num": "1"
             },
             {
-              "item": "arzuros_pelt_plus",
-              "rate": "25%",
+              "item": "arzuros_brace_plus",
+              "rate": "10",
+              "num": "1"
+            },
+            {
+              "item": "beast_gem",
+              "rate": "1%",
               "num": "1"
             }
           ]
@@ -549,7 +684,7 @@
           "low_rank": [
             {
               "item": "arzuros_shell",
-              "rate": "",
+              "rate": "39%",
               "num": "1"
             },
             {
@@ -568,7 +703,33 @@
               "num": "2"
             }
           ],
-          "high_rank": []
+          "high_rank": [
+            {
+              "item": "arzuros_carapace",
+              "rate": "37%",
+              "num": "1"
+            },
+            {
+              "item": "arzuros_brace_plus",
+              "rate": "22%",
+              "num": "1"
+            },
+            {
+              "item": "stoutbone",
+              "rate": "",
+              "num": "1"
+            },
+            {
+              "item": "arzuros_pelt_plus",
+              "rate": "16%",
+              "num": "1"
+            },
+            {
+              "item": "beast_gem",
+              "rate": "7%",
+              "num": "1"
+            }
+          ]
         },
         {
           "source": "前腳破壊",
@@ -576,7 +737,7 @@
           "low_rank": [
             {
               "item": "arzuros_brace",
-              "rate": "",
+              "rate": "80%",
               "num": "1"
             },
             {
@@ -588,18 +749,13 @@
           "high_rank": [
             {
               "item": "arzuros_brace_plus",
-              "rate": "65%",
+              "rate": "80%",
               "num": "1"
             },
             {
               "item": "arzuros_pelt_plus",
-              "rate": "25%",
+              "rate": "20%",
               "num": "1"
-            },
-            {
-              "item": "arzuros_brace",
-              "rate": "",
-              "num": "2"
             }
           ]
         },
@@ -623,7 +779,7 @@
             },
             {
               "item": "jumbo_bone",
-              "rate": "",
+              "rate": "16%",
               "num": "1"
             },
             {
@@ -637,7 +793,38 @@
               "num": "3"
             }
           ],
-          "high_rank": []
+          "high_rank": [
+            {
+              "item": "arzuros_pelt_plus",
+              "rate": "36%",
+              "num": "1"
+            },
+            {
+              "item": "arzuros_brace_plus",
+              "rate": "21%",
+              "num": "1"
+            },
+            {
+              "item": "arzuros_carapace",
+              "rate": "14%",
+              "num": "1"
+            },
+            {
+              "item": "stoutbone",
+              "rate": "",
+              "num": "1"
+            },
+            {
+              "item": "honey",
+              "rate": "10%",
+              "num": "1"
+            },
+            {
+              "item": "beast_gem",
+              "rate": "5%",
+              "num": "1"
+            }
+          ]
         }
       ]
     },
@@ -849,7 +1036,7 @@
           "high_rank": [
             {
               "item": "rathian_scale_plus",
-              "rate": "34%",
+              "rate": "43%",
               "num": "1"
             },
             {
@@ -858,18 +1045,18 @@
               "num": "1"
             },
             {
-              "item": "rathian_webbing",
-              "rate": "20%",
+              "item": "inferno_sac",
+              "rate": "17%",
               "num": "1"
             },
             {
               "item": "rathian_spike_plus",
-              "rate": "16%",
+              "rate": "5%",
               "num": "1"
             },
             {
               "item": "rathian_plate",
-              "rate": "5%",
+              "rate": "3%",
               "num": "1"
             },
             {
@@ -908,22 +1095,32 @@
           "high_rank": [
             {
               "item": "rathian_spike_plus",
-              "rate": "70%",
+              "rate": "40%",
               "num": "1"
             },
             {
               "item": "rathian_scale_plus",
-              "rate": "21%",
+              "rate": "35%",
+              "num": "1"
+            },
+            {
+              "item": "rathalos_marrow",
+              "rate": "10%",
+              "num": "1"
+            },
+            {
+              "item": "rathalos_medulla",
+              "rate": "",
               "num": "1"
             },
             {
               "item": "rathian_plate",
-              "rate": "7%",
+              "rate": "5%",
               "num": "1"
             },
             {
               "item": "rathian_ruby",
-              "rate": "",
+              "rate": "3%",
               "num": "1"
             }
           ]
@@ -948,7 +1145,7 @@
             },
             {
               "item": "rathian_plate",
-              "rate": "",
+              "rate": "1%",
               "num": "1"
             }
           ],
@@ -975,7 +1172,7 @@
           "low_rank": [
             {
               "item": "rathian_shell",
-              "rate": "",
+              "rate": "34%",
               "num": "1"
             },
             {
@@ -995,7 +1192,7 @@
             },
             {
               "item": "rathalos_marrow",
-              "rate": "",
+              "rate": "12%",
               "num": "1"
             },
             {
@@ -1004,7 +1201,48 @@
               "num": "1"
             }
           ],
-          "high_rank": []
+          "high_rank": [
+            {
+              "item": "rathian_carapace",
+              "rate": "",
+              "num": "1"
+            },
+            {
+              "item": "inferno_sac",
+              "rate": "20%",
+              "num": "1"
+            },
+            {
+              "item": "rath_wingtalon_plus",
+              "rate": "13%",
+              "num": "1"
+            },
+            {
+              "item": "rathian_scale_plus",
+              "rate": "12%",
+              "num": "1"
+            },
+            {
+              "item": "rathalos_marrow",
+              "rate": "",
+              "num": "1"
+            },
+            {
+              "item": "rathalos_medulla",
+              "rate": "10%",
+              "num": "1"
+            },
+            {
+              "item": "rathian_plate",
+              "rate": "5%",
+              "num": "1"
+            },
+            {
+              "item": "rathian_ruby",
+              "rate": "3%",
+              "num": "1"
+            }
+          ]
         },
         {
           "source": "頭破壊",
@@ -1022,7 +1260,7 @@
             },
             {
               "item": "rathian_plate",
-              "rate": "",
+              "rate": "4%",
               "num": "1"
             }
           ],
@@ -1050,7 +1288,7 @@
           "low_rank": [
             {
               "item": "rath_wingtalon",
-              "rate": "",
+              "rate": "80%",
               "num": "2"
             },
             {
@@ -1078,7 +1316,7 @@
           "low_rank": [
             {
               "item": "rathian_spike",
-              "rate": "",
+              "rate": "70%",
               "num": "1"
             },
             {
@@ -1100,7 +1338,7 @@
             },
             {
               "item": "rathian_spike_plus",
-              "rate": "",
+              "rate": "30%",
               "num": "1"
             },
             {
@@ -1125,7 +1363,7 @@
             },
             {
               "item": "rathian_webbing",
-              "rate": "",
+              "rate": "19%",
               "num": "1"
             },
             {
@@ -1145,7 +1383,7 @@
             },
             {
               "item": "rathian_spike",
-              "rate": "",
+              "rate": "7%",
               "num": "1"
             },
             {
@@ -1162,12 +1400,7 @@
             },
             {
               "item": "rathian_carapace",
-              "rate": "27%",
-              "num": "1"
-            },
-            {
-              "item": "rathian_scale_plus",
-              "rate": "",
+              "rate": "31%",
               "num": "1"
             },
             {
@@ -1176,23 +1409,33 @@
               "num": "1"
             },
             {
-              "item": "rath_wingtalon",
-              "rate": "12%",
-              "num": "2"
+              "item": "rathian_scale_plus",
+              "rate": "14%",
+              "num": "1"
             },
             {
               "item": "monster_keenbone",
-              "rate": "10%",
-              "num": "2"
+              "rate": "",
+              "num": "1"
             },
             {
               "item": "rathian_webbing",
-              "rate": "",
-              "num": "2"
+              "rate": "12%",
+              "num": "1"
+            },
+            {
+              "item": "rathian_spike_plus",
+              "rate": "7%",
+              "num": "1"
             },
             {
               "item": "rathian_plate",
-              "rate": "3%",
+              "rate": "5%",
+              "num": "1"
+            },
+            {
+              "item": "rathian_ruby",
+              "rate": "",
               "num": "1"
             }
           ]
@@ -1711,7 +1954,43 @@
               "num": "1"
             }
           ],
-          "high_rank": []
+          "high_rank": [
+            {
+              "item": "mizutsune_purplefur_plus",
+              "rate": "27%",
+              "num": "1"
+            },
+            {
+              "item": "mizutsune_claw_plus",
+              "rate": "22%",
+              "num": "1"
+            },
+            {
+              "item": "mizutsune_scale_plus",
+              "rate": "",
+              "num": "1"
+            },
+            {
+              "item": "bubblefoam_plus",
+              "rate": "16%",
+              "num": "1"
+            },
+            {
+              "item": "mizutsune_tail",
+              "rate": "8%",
+              "num": "1"
+            },
+            {
+              "item": "mizutsune_plate",
+              "rate": "7%",
+              "num": "1"
+            },
+            {
+              "item": "mizutsune_water_orb",
+              "rate": "",
+              "num": "1"
+            }
+          ]
         },
         {
           "source": "頭破壊",
@@ -1729,7 +2008,7 @@
             },
             {
               "item": "mizutsune_plate",
-              "rate": "",
+              "rate": "3%",
               "num": "1"
             }
           ],
@@ -1751,7 +2030,7 @@
             },
             {
               "item": "bubblefoam",
-              "rate": "",
+              "rate": "8%",
               "num": "2"
             },
             {
@@ -1777,7 +2056,7 @@
             },
             {
               "item": "mizutsune_fin",
-              "rate": "",
+              "rate": "10%",
               "num": "2"
             }
           ],
@@ -1799,7 +2078,7 @@
             },
             {
               "item": "mizutsune_fin",
-              "rate": "",
+              "rate": "10%",
               "num": "2"
             }
           ]
@@ -1827,7 +2106,7 @@
             },
             {
               "item": "mizutsune_purplefur_plus",
-              "rate": "",
+              "rate": "20%",
               "num": "1"
             },
             {
@@ -1853,7 +2132,7 @@
             },
             {
               "item": "bubblefoam",
-              "rate": "",
+              "rate": "30%",
               "num": "1"
             },
             {
@@ -1875,7 +2154,7 @@
             },
             {
               "item": "mizutsune_purplefur_plus",
-              "rate": "",
+              "rate": "15%",
               "num": "2"
             },
             {
@@ -1900,7 +2179,7 @@
           "low_rank": [
             {
               "item": "mizutsune_scale",
-              "rate": "",
+              "rate": "100%",
               "num": "1"
             },
             {
@@ -1920,7 +2199,7 @@
             },
             {
               "item": "mizutsune_claw",
-              "rate": "",
+              "rate": "15%",
               "num": "1"
             },
             {
@@ -1934,7 +2213,43 @@
               "num": "1"
             }
           ],
-          "high_rank": []
+          "high_rank": [
+            {
+              "item": "mizutsune_purplefur_plus",
+              "rate": "31%",
+              "num": "1"
+            },
+            {
+              "item": "bubblefoam_plus",
+              "rate": "23%",
+              "num": "1"
+            },
+            {
+              "item": "mizutsune_scale_plus",
+              "rate": "",
+              "num": "1"
+            },
+            {
+              "item": "mizutsune_claw_plus",
+              "rate": "15%",
+              "num": "1"
+            },
+            {
+              "item": "mizutsune_tail",
+              "rate": "5%",
+              "num": "1"
+            },
+            {
+              "item": "mizutsune_plate",
+              "rate": "5%",
+              "num": "1"
+            },
+            {
+              "item": "mizutsune_water_orb",
+              "rate": "",
+              "num": "1"
+            }
+          ]
         }
       ]
     },
@@ -2196,8 +2511,33 @@
           ],
           "high_rank": [
             {
-              "item": "magnamalo_blade_plus",
+              "item": "magnamalo_scale_plus",
+              "rate": "34%",
+              "num": "1"
+            },
+            {
+              "item": "magna_soulprism",
+              "rate": "26%",
+              "num": "1"
+            },
+            {
+              "item": "magnamalo_shell_plus",
               "rate": "",
+              "num": "1"
+            },
+            {
+              "item": "magnamalo_blade_plus",
+              "rate": "16%",
+              "num": "1"
+            },
+            {
+              "item": "magnamalo_plate",
+              "rate": "3%",
+              "num": "1"
+            },
+            {
+              "item": "purple_magna_orb",
+              "rate": "1%",
               "num": "1"
             }
           ]
@@ -2213,11 +2553,32 @@
             },
             {
               "item": "magnamalo_scale",
-              "rate": "",
+              "rate": "20%",
               "num": "1"
             }
           ],
-          "high_rank": []
+          "high_rank": [
+            {
+              "item": "magnamalo_tail",
+              "rate": "75%",
+              "num": "1"
+            },
+            {
+              "item": "magnamalo_scale_plus",
+              "rate": "17%",
+              "num": "1"
+            },
+            {
+              "item": "magnamalo_plate",
+              "rate": "",
+              "num": "1"
+            },
+            {
+              "item": "purple_magna_orb",
+              "rate": "3%",
+              "num": "1"
+            }
+          ]
         },
         {
           "source": "掉落物",
@@ -2239,11 +2600,17 @@
             },
             {
               "item": "magnamalo_plate",
-              "rate": "",
+              "rate": "1%",
               "num": "1"
             }
           ],
-          "high_rank": []
+          "high_rank": [
+            {
+              "item": "magnamalo_scale_plus",
+              "rate": "",
+              "num": "1"
+            }
+          ]
         },
         {
           "source": "捕獲",
@@ -2260,7 +2627,7 @@
             },
             {
               "item": "magnamalo_scute",
-              "rate": "",
+              "rate": "19%",
               "num": "1"
             },
             {
@@ -2276,8 +2643,33 @@
           ],
           "high_rank": [
             {
-              "item": "magnamalo_scute_plus",
+              "item": "magnamalo_shell_plus",
               "rate": "",
+              "num": "1"
+            },
+            {
+              "item": "magnamalo_horn_plus",
+              "rate": "25%",
+              "num": "1"
+            },
+            {
+              "item": "magnamalo_scute_plus",
+              "rate": "18%",
+              "num": "1"
+            },
+            {
+              "item": "magnamalo_tail",
+              "rate": "14%",
+              "num": "1"
+            },
+            {
+              "item": "magnamalo_plate",
+              "rate": "",
+              "num": "1"
+            },
+            {
+              "item": "purple_magna_orb",
+              "rate": "3%",
               "num": "1"
             }
           ]
@@ -2296,10 +2688,26 @@
               "num": "1"
             }
           ],
-          "high_rank": []
+          "high_rank": [
+            {
+              "item": "magnamalo_horn_plus",
+              "rate": "",
+              "num": "1"
+            },
+            {
+              "item": "magnamalo_plate",
+              "rate": "5%",
+              "num": "1"
+            },
+            {
+              "item": "purple_magna_orb",
+              "rate": "3%",
+              "num": "1"
+            }
+          ]
         },
         {
-          "source": "片腕刃破壊",
+          "source": "單腕刃破壊",
           "low_rank": [
             {
               "item": "magnamalo_blade",
@@ -2312,7 +2720,18 @@
               "num": "1"
             }
           ],
-          "high_rank": []
+          "high_rank": [
+            {
+              "item": "magnamalo_blade_plus",
+              "rate": "80%",
+              "num": "1"
+            },
+            {
+              "item": "magnamalo_scale_plus",
+              "rate": "20%",
+              "num": "1"
+            }
+          ]
         },
         {
           "source": "背中破壊",
@@ -2328,7 +2747,18 @@
               "num": "2"
             }
           ],
-          "high_rank": []
+          "high_rank": [
+            {
+              "item": "magnamalo_scute_plus",
+              "rate": "80%",
+              "num": "1"
+            },
+            {
+              "item": "magna_soulprism",
+              "rate": "20%",
+              "num": "1"
+            }
+          ]
         },
         {
           "source": "目標報酬",
@@ -2374,7 +2804,43 @@
               "num": "1"
             }
           ],
-          "high_rank": []
+          "high_rank": [
+            {
+              "item": "magnamalo_shell_plus",
+              "rate": "30%",
+              "num": "1"
+            },
+            {
+              "item": "magnamalo_scute_plus",
+              "rate": "",
+              "num": "1"
+            },
+            {
+              "item": "magnamalo_scale_plus",
+              "rate": "18%",
+              "num": "1"
+            },
+            {
+              "item": "magna_soulprism",
+              "rate": "16%",
+              "num": "1"
+            },
+            {
+              "item": "magnamalo_scute_plus",
+              "rate": "8%",
+              "num": "1"
+            },
+            {
+              "item": "magnamalo_plate",
+              "rate": "",
+              "num": "1"
+            },
+            {
+              "item": "purple_magna_orb",
+              "rate": "1%",
+              "num": "1"
+            }
+          ]
         }
       ]
     },
@@ -2449,7 +2915,7 @@
           },
           {
             "part": "身",
-            "condition": "(満腹時)",
+            "condition": "滿腹時",
             "cut": "45",
             "blunt": "45",
             "ammo": "35",
@@ -2556,7 +3022,55 @@
               "num": "1"
             }
           ],
-          "high_rank": []
+          "high_rank": [
+            {
+              "item": "glittering_nacre",
+              "rate": "",
+              "num": "1"
+            },
+            {
+              "item": "tetra_carapace_plus",
+              "rate": "30%",
+              "num": "1"
+            },
+            {
+              "item": "shiny_nacre",
+              "rate": "20%",
+              "num": "1"
+            },
+            {
+              "item": "tetranadon_hide_plus",
+              "rate": "20%",
+              "num": "1"
+            }
+          ]
+        },
+        {
+          "source": "掉落物・操竜",
+          "low_rank": [
+            {
+              "item": "tetra_carapace",
+              "rate": "",
+              "num": "1"
+            },
+            {
+              "item": "tetranadon_hide",
+              "rate": "30%",
+              "num": "1"
+            }
+          ],
+          "high_rank": [
+            {
+              "item": "tetra_carapace_plus",
+              "rate": "70%",
+              "num": "1"
+            },
+            {
+              "item": "tetranadon_hide_plus",
+              "rate": "30%",
+              "num": "1"
+            }
+          ]
         },
         {
           "source": "捕獲",
@@ -2587,10 +3101,36 @@
               "num": "1"
             }
           ],
-          "high_rank": []
+          "high_rank": [
+            {
+              "item": "tetra_carapace_plus",
+              "rate": "33%",
+              "num": "1"
+            },
+            {
+              "item": "torrent_sac",
+              "rate": "29%",
+              "num": "1"
+            },
+            {
+              "item": "tetranadon_hide_plus",
+              "rate": "21%",
+              "num": "1"
+            },
+            {
+              "item": "tetranadon_beak_plus",
+              "rate": "",
+              "num": "1"
+            },
+            {
+              "item": "tetranadon_disc_plus",
+              "rate": "5%",
+              "num": "1"
+            }
+          ]
         },
         {
-          "source": "クチバシ破壊",
+          "source": "嘴破壊",
           "low_rank": [
             {
               "item": "tetranadon_beak",
@@ -2617,11 +3157,11 @@
           "high_rank": []
         },
         {
-          "source": "片腕破壊",
+          "source": "單腕破壊",
           "low_rank": [
             {
               "item": "tetranadon_hide",
-              "rate": "",
+              "rate": "100%",
               "num": "1"
             }
           ],
@@ -2659,7 +3199,7 @@
           "low_rank": [
             {
               "item": "tetranadon_hide",
-              "rate": "",
+              "rate": "100%",
               "num": "1"
             },
             {
@@ -2679,7 +3219,7 @@
             },
             {
               "item": "jumbo_bone",
-              "rate": "",
+              "rate": "12%",
               "num": "1"
             },
             {
@@ -2688,7 +3228,33 @@
               "num": "1"
             }
           ],
-          "high_rank": []
+          "high_rank": [
+            {
+              "item": "tetra_carapace_plus",
+              "rate": "32%",
+              "num": "1"
+            },
+            {
+              "item": "tetranadon_hide_plus",
+              "rate": "",
+              "num": "1"
+            },
+            {
+              "item": "torrent_sac",
+              "rate": "24%",
+              "num": "1"
+            },
+            {
+              "item": "stoutbone",
+              "rate": "12%",
+              "num": "1"
+            },
+            {
+              "item": "tetranadon_beak_plus",
+              "rate": "8%",
+              "num": "1"
+            }
+          ]
         }
       ]
     },
@@ -2838,10 +3404,83 @@
               "num": "1"
             }
           ],
-          "high_rank": []
+          "high_rank": [
+            {
+              "item": "aknosom_scale_plus",
+              "rate": "41%",
+              "num": "1"
+            },
+            {
+              "item": "aknosom_feather_plus",
+              "rate": "29%",
+              "num": "1"
+            },
+            {
+              "item": "inferno_sac",
+              "rate": "19%",
+              "num": "1"
+            },
+            {
+              "item": "aknosom_beak",
+              "rate": "",
+              "num": "1"
+            },
+            {
+              "item": "bird_wyvern_gem",
+              "rate": "3%",
+              "num": "1"
+            }
+          ]
         },
         {
           "source": "掉落物",
+          "low_rank": [
+            {
+              "item": "wyvern_tear",
+              "rate": "50%",
+              "num": "1"
+            },
+            {
+              "item": "aknosom_scale",
+              "rate": "35%",
+              "num": "1"
+            },
+            {
+              "item": "aknosom_feather",
+              "rate": "",
+              "num": "1"
+            }
+          ],
+          "high_rank": [
+            {
+              "item": "aknosom_scale_plus",
+              "rate": "34%",
+              "num": "1"
+            },
+            {
+              "item": "wyvern_tear",
+              "rate": "30%",
+              "num": "1"
+            },
+            {
+              "item": "large_wyvern_tear",
+              "rate": "20%",
+              "num": "1"
+            },
+            {
+              "item": "aknosom_feather_plus",
+              "rate": "",
+              "num": "1"
+            },
+            {
+              "item": "bird_wyvern_gem",
+              "rate": "1%",
+              "num": "1"
+            }
+          ]
+        },
+        {
+          "source": "掉落物・操竜",
           "low_rank": [
             {
               "item": "aknosom_scale",
@@ -2854,7 +3493,18 @@
               "num": "1"
             }
           ],
-          "high_rank": []
+          "high_rank": [
+            {
+              "item": "aknosom_scale_plus",
+              "rate": "",
+              "num": "1"
+            },
+            {
+              "item": "aknosom_feather_plus",
+              "rate": "30%",
+              "num": "1"
+            }
+          ]
         },
         {
           "source": "捕獲",
@@ -2866,7 +3516,7 @@
             },
             {
               "item": "aknosom_scale",
-              "rate": "",
+              "rate": "24%",
               "num": "1"
             },
             {
@@ -2885,14 +3535,45 @@
               "num": "1"
             }
           ],
-          "high_rank": []
+          "high_rank": [
+            {
+              "item": "aknosom_feather_plus",
+              "rate": "36%",
+              "num": "1"
+            },
+            {
+              "item": "aknosom_scale_plus",
+              "rate": "",
+              "num": "1"
+            },
+            {
+              "item": "inferno_sac",
+              "rate": "18%",
+              "num": "1"
+            },
+            {
+              "item": "aknosom_beak",
+              "rate": "15%",
+              "num": "1"
+            },
+            {
+              "item": "bird_wyvern_gem",
+              "rate": "5%",
+              "num": "1"
+            },
+            {
+              "item": "aknosom_crest_plus",
+              "rate": "",
+              "num": "1"
+            }
+          ]
         },
         {
-          "source": "クチバシ破壊",
+          "source": "嘴破壊",
           "low_rank": [
             {
               "item": "aknosom_beak",
-              "rate": "",
+              "rate": "70%",
               "num": "1"
             },
             {
@@ -2901,10 +3582,26 @@
               "num": "1"
             }
           ],
-          "high_rank": []
+          "high_rank": [
+            {
+              "item": "aknosom_beak",
+              "rate": "70%",
+              "num": "1"
+            },
+            {
+              "item": "aknosom_scale_plus",
+              "rate": "",
+              "num": "1"
+            },
+            {
+              "item": "bird_wyvern_gem",
+              "rate": "5%",
+              "num": "1"
+            }
+          ]
         },
         {
-          "source": "トサカ破壊",
+          "source": "冠破壊",
           "low_rank": [
             {
               "item": "aknosom_crest",
@@ -2912,29 +3609,47 @@
               "num": "1"
             }
           ],
-          "high_rank": []
+          "high_rank": [
+            {
+              "item": "aknosom_crest_plus",
+              "rate": "100%",
+              "num": "1"
+            }
+          ]
         },
         {
           "source": "翼破壊",
           "low_rank": [
             {
               "item": "aknosom_feather",
-              "rate": "100%",
+              "rate": "",
               "num": "1"
             }
           ],
-          "high_rank": []
+          "high_rank": [
+            {
+              "item": "aknosom_feather_plus",
+              "rate": "100%",
+              "num": "1"
+            }
+          ]
         },
         {
           "source": "尾巴破壊",
           "low_rank": [
             {
               "item": "aknosom_scale",
-              "rate": "",
+              "rate": "100%",
               "num": "1"
             }
           ],
-          "high_rank": []
+          "high_rank": [
+            {
+              "item": "aknosom_scale_plus",
+              "rate": "100%",
+              "num": "1"
+            }
+          ]
         },
         {
           "source": "目標報酬",
@@ -2956,7 +3671,7 @@
             },
             {
               "item": "flame_sac",
-              "rate": "",
+              "rate": "24%",
               "num": "1"
             },
             {
@@ -2970,7 +3685,38 @@
               "num": "1"
             }
           ],
-          "high_rank": []
+          "high_rank": [
+            {
+              "item": "aknosom_feather_plus",
+              "rate": "30%",
+              "num": "1"
+            },
+            {
+              "item": "inferno_sac",
+              "rate": "24%",
+              "num": "1"
+            },
+            {
+              "item": "aknosom_scale_plus",
+              "rate": "",
+              "num": "1"
+            },
+            {
+              "item": "aknosom_beak",
+              "rate": "12%",
+              "num": "1"
+            },
+            {
+              "item": "monster_keenbone",
+              "rate": "10%",
+              "num": "1"
+            },
+            {
+              "item": "bird_wyvern_gem",
+              "rate": "3%",
+              "num": "1"
+            }
+          ]
         }
       ]
     },
@@ -3172,7 +3918,38 @@
               "num": "2"
             }
           ],
-          "high_rank": []
+          "high_rank": [
+            {
+              "item": "somnacanth_shell_plus",
+              "rate": "29%",
+              "num": "1"
+            },
+            {
+              "item": "somnacanth_talon_plus",
+              "rate": "26%",
+              "num": "1"
+            },
+            {
+              "item": "somnacanth_scale_plus",
+              "rate": "16%",
+              "num": "1"
+            },
+            {
+              "item": "monster_hardbone",
+              "rate": "",
+              "num": "1"
+            },
+            {
+              "item": "somnacanth_sedative",
+              "rate": "12%",
+              "num": "1"
+            },
+            {
+              "item": "wyvern_gem",
+              "rate": "3%",
+              "num": "1"
+            }
+          ]
         },
         {
           "source": "髮鰭破壊",
@@ -3184,14 +3961,14 @@
             },
             {
               "item": "somnacanth_dust",
-              "rate": "20%",
+              "rate": "",
               "num": "1"
             }
           ],
           "high_rank": []
         },
         {
-          "source": "片腕破壊",
+          "source": "單腕破壊",
           "low_rank": [
             {
               "item": "somnacanth_talon",
@@ -3200,7 +3977,7 @@
             },
             {
               "item": "somnacanth_scale",
-              "rate": "",
+              "rate": "20%",
               "num": "1"
             }
           ],
@@ -3232,7 +4009,7 @@
             },
             {
               "item": "somnacanth_dust",
-              "rate": "",
+              "rate": "23%",
               "num": "1"
             },
             {
@@ -3251,7 +4028,38 @@
               "num": "1"
             }
           ],
-          "high_rank": []
+          "high_rank": [
+            {
+              "item": "somnacanth_shell_plus",
+              "rate": "33%",
+              "num": "1"
+            },
+            {
+              "item": "somnacanth_sedative",
+              "rate": "23%",
+              "num": "1"
+            },
+            {
+              "item": "somnacanth_scale_plus",
+              "rate": "",
+              "num": "1"
+            },
+            {
+              "item": "somnacanth_fin_plus",
+              "rate": "14%",
+              "num": "1"
+            },
+            {
+              "item": "monster_hardbone",
+              "rate": "7%",
+              "num": "1"
+            },
+            {
+              "item": "wyvern_gem",
+              "rate": "2%",
+              "num": "1"
+            }
+          ]
         }
       ]
     },
@@ -3379,7 +4187,7 @@
           },
           {
             "part": "左腳",
-            "condition": "(破壊後)",
+            "condition": "破壞後",
             "cut": "46",
             "blunt": "30",
             "ammo": "45",
@@ -3403,7 +4211,7 @@
           },
           {
             "part": "右腳",
-            "condition": "(破壊後)",
+            "condition": "破壞後",
             "cut": "46",
             "blunt": "30",
             "ammo": "45",
@@ -3567,8 +4375,18 @@
           ],
           "high_rank": [
             {
+              "item": "thunder_sac",
+              "rate": "21%",
+              "num": "1"
+            },
+            {
+              "item": "suspicious_fang_plus",
+              "rate": "20%",
+              "num": "1"
+            },
+            {
               "item": "pale_extract",
-              "rate": "19%",
+              "rate": "14%",
               "num": "1"
             },
             {
@@ -3577,8 +4395,18 @@
               "num": "1"
             },
             {
-              "item": "pale_steak",
+              "item": "monster_keenbone",
+              "rate": "12%",
+              "num": "1"
+            },
+            {
+              "item": "pale_bone",
               "rate": "10%",
+              "num": "1"
+            },
+            {
+              "item": "pale_steak",
+              "rate": "8%",
               "num": "1"
             },
             {
@@ -3599,7 +4427,7 @@
             },
             {
               "item": "pale_extract",
-              "rate": "",
+              "rate": "28%",
               "num": "1"
             },
             {
@@ -3621,7 +4449,7 @@
             },
             {
               "item": "pale_bone",
-              "rate": "",
+              "rate": "15%",
               "num": "1"
             },
             {
@@ -3649,7 +4477,7 @@
             },
             {
               "item": "thunder_sac",
-              "rate": "",
+              "rate": "27%",
               "num": "1"
             },
             {
@@ -3674,7 +4502,7 @@
             },
             {
               "item": "suspicious_fang",
-              "rate": "",
+              "rate": "29%",
               "num": "2"
             },
             {
@@ -3694,7 +4522,7 @@
             },
             {
               "item": "monster_bone_m",
-              "rate": "",
+              "rate": "10%",
               "num": "1"
             },
             {
@@ -3710,23 +4538,13 @@
               "num": "1"
             },
             {
-              "item": "pearl_hide",
-              "rate": "",
-              "num": "1"
-            },
-            {
               "item": "pale_extract",
-              "rate": "14%",
+              "rate": "19%",
               "num": "1"
             },
             {
-              "item": "monster_keenbone",
-              "rate": "12%",
-              "num": "1"
-            },
-            {
-              "item": "pale_bone",
-              "rate": "10%",
+              "item": "pearl_hide",
+              "rate": "16%",
               "num": "1"
             },
             {
@@ -3736,7 +4554,7 @@
             },
             {
               "item": "wyvern_gem",
-              "rate": "1%",
+              "rate": "3%",
               "num": "1"
             }
           ]
@@ -4051,7 +4869,38 @@
               "num": "2"
             }
           ],
-          "high_rank": []
+          "high_rank": [
+            {
+              "item": "spongy_hide_plus",
+              "rate": "27%",
+              "num": "1"
+            },
+            {
+              "item": "dash_extract",
+              "rate": "",
+              "num": "1"
+            },
+            {
+              "item": "royal_ludroth_scale_plus",
+              "rate": "18%",
+              "num": "1"
+            },
+            {
+              "item": "torrent_sac",
+              "rate": "16%",
+              "num": "1"
+            },
+            {
+              "item": "royal_ludroth_tail",
+              "rate": "12%",
+              "num": "1"
+            },
+            {
+              "item": "wyvern_gem",
+              "rate": "",
+              "num": "1"
+            }
+          ]
         },
         {
           "source": "頭破壊",
@@ -4064,7 +4913,7 @@
             },
             {
               "item": "royal_ludroth_scale",
-              "rate": "",
+              "rate": "20%",
               "num": "1"
             }
           ],
@@ -4086,7 +4935,7 @@
             },
             {
               "item": "royal_ludroth_scale",
-              "rate": "",
+              "rate": "8%",
               "num": "2"
             }
           ]
@@ -4114,7 +4963,7 @@
           "high_rank": [
             {
               "item": "spongy_hide_plus",
-              "rate": "",
+              "rate": "55%",
               "num": "1"
             },
             {
@@ -4139,7 +4988,7 @@
           "low_rank": [
             {
               "item": "royal_ludroth_scale",
-              "rate": "",
+              "rate": "100%",
               "num": "1"
             },
             {
@@ -4159,7 +5008,7 @@
             },
             {
               "item": "dash_extract",
-              "rate": "",
+              "rate": "12%",
               "num": "1"
             },
             {
@@ -4178,7 +5027,48 @@
               "num": "1"
             }
           ],
-          "high_rank": []
+          "high_rank": [
+            {
+              "item": "spongy_hide_plus",
+              "rate": "27%",
+              "num": "1"
+            },
+            {
+              "item": "royal_ludroth_claw_plus",
+              "rate": "22%",
+              "num": "1"
+            },
+            {
+              "item": "torrent_sac",
+              "rate": "",
+              "num": "1"
+            },
+            {
+              "item": "royal_ludroth_scale_plus",
+              "rate": "12%",
+              "num": "1"
+            },
+            {
+              "item": "royal_ludroth_crest_plus",
+              "rate": "10%",
+              "num": "1"
+            },
+            {
+              "item": "dash_extract",
+              "rate": "9%",
+              "num": "1"
+            },
+            {
+              "item": "royal_ludroth_tail",
+              "rate": "",
+              "num": "1"
+            },
+            {
+              "item": "wyvern_gem",
+              "rate": "1%",
+              "num": "1"
+            }
+          ]
         }
       ]
     },
@@ -4518,7 +5408,43 @@
               "num": "1"
             }
           ],
-          "high_rank": []
+          "high_rank": [
+            {
+              "item": "rathalos_carapace",
+              "rate": "32%",
+              "num": "1"
+            },
+            {
+              "item": "rathalos_wing",
+              "rate": "",
+              "num": "1"
+            },
+            {
+              "item": "rath_wingtalon_plus",
+              "rate": "14%",
+              "num": "1"
+            },
+            {
+              "item": "rathalos_tail",
+              "rate": "12%",
+              "num": "1"
+            },
+            {
+              "item": "rathalos_medulla",
+              "rate": "7%",
+              "num": "1"
+            },
+            {
+              "item": "rathalos_plate",
+              "rate": "",
+              "num": "1"
+            },
+            {
+              "item": "rathalos_ruby",
+              "rate": "3%",
+              "num": "1"
+            }
+          ]
         },
         {
           "source": "頭破壊",
@@ -4531,7 +5457,7 @@
             },
             {
               "item": "rathalos_shell",
-              "rate": "",
+              "rate": "30%",
               "num": "1"
             },
             {
@@ -4553,7 +5479,7 @@
             },
             {
               "item": "rathalos_plate",
-              "rate": "",
+              "rate": "4%",
               "num": "1"
             },
             {
@@ -4581,7 +5507,7 @@
           "high_rank": [
             {
               "item": "rathalos_wing",
-              "rate": "",
+              "rate": "65%",
               "num": "1"
             },
             {
@@ -4607,7 +5533,7 @@
             },
             {
               "item": "rathalos_plate",
-              "rate": "",
+              "rate": "2%",
               "num": "1"
             }
           ],
@@ -4634,7 +5560,7 @@
           "low_rank": [
             {
               "item": "rathalos_scale",
-              "rate": "",
+              "rate": "100%",
               "num": "1"
             },
             {
@@ -4654,7 +5580,7 @@
             },
             {
               "item": "flame_sac",
-              "rate": "",
+              "rate": "14%",
               "num": "1"
             },
             {
@@ -4676,37 +5602,42 @@
           "high_rank": [
             {
               "item": "rathalos_carapace",
+              "rate": "27%",
+              "num": "1"
+            },
+            {
+              "item": "rathalos_wing",
               "rate": "",
               "num": "1"
             },
             {
               "item": "rathalos_scale_plus",
-              "rate": "21%",
+              "rate": "15%",
               "num": "1"
             },
             {
               "item": "inferno_sac",
-              "rate": "18%",
+              "rate": "15%",
               "num": "1"
             },
             {
-              "item": "rathalos_wing",
-              "rate": "12%",
+              "item": "rathalos_marrow",
+              "rate": "10%",
               "num": "1"
             },
             {
-              "item": "monster_hardbone",
+              "item": "rathalos_medulla",
               "rate": "",
-              "num": "2"
-            },
-            {
-              "item": "rathalos_tail",
-              "rate": "9%",
               "num": "1"
             },
             {
               "item": "rathalos_plate",
-              "rate": "3%",
+              "rate": "5%",
+              "num": "1"
+            },
+            {
+              "item": "rathalos_ruby",
+              "rate": "1%",
               "num": "1"
             }
           ]
@@ -5016,7 +5947,38 @@
               "num": "1"
             }
           ],
-          "high_rank": []
+          "high_rank": [
+            {
+              "item": "pukei-pukei_carapace",
+              "rate": "34%",
+              "num": "1"
+            },
+            {
+              "item": "pukei-pukei_scale_plus",
+              "rate": "19%",
+              "num": "1"
+            },
+            {
+              "item": "pukei-pukei_sac_plus",
+              "rate": "",
+              "num": "1"
+            },
+            {
+              "item": "pukei-pukei_wing",
+              "rate": "15%",
+              "num": "1"
+            },
+            {
+              "item": "pukei-pukei_tail",
+              "rate": "9%",
+              "num": "1"
+            },
+            {
+              "item": "bird_wyvern_gem",
+              "rate": "5%",
+              "num": "1"
+            }
+          ]
         },
         {
           "source": "頭破壊",
@@ -5036,7 +5998,7 @@
           "high_rank": [
             {
               "item": "pukei-pukei_sac_plus",
-              "rate": "",
+              "rate": "75%",
               "num": "1"
             },
             {
@@ -5064,7 +6026,7 @@
           "high_rank": [
             {
               "item": "pukei-pukei_carapace",
-              "rate": "",
+              "rate": "80%",
               "num": "1"
             },
             {
@@ -5092,7 +6054,7 @@
           "high_rank": [
             {
               "item": "pukei-pukei_wing",
-              "rate": "",
+              "rate": "80%",
               "num": "1"
             },
             {
@@ -5117,7 +6079,7 @@
             },
             {
               "item": "pukei-pukei_scale",
-              "rate": "",
+              "rate": "20%",
               "num": "1"
             },
             {
@@ -5137,7 +6099,7 @@
             },
             {
               "item": "monster_bone_l",
-              "rate": "",
+              "rate": "10%",
               "num": "1"
             },
             {
@@ -5154,17 +6116,17 @@
             },
             {
               "item": "pukei-pukei_carapace",
-              "rate": "24%",
-              "num": "1"
-            },
-            {
-              "item": "toxin_sac",
-              "rate": "",
+              "rate": "28%",
               "num": "1"
             },
             {
               "item": "pukei-pukei_scale_plus",
-              "rate": "19%",
+              "rate": "21%",
+              "num": "1"
+            },
+            {
+              "item": "pukei-pukei_sac_plus",
+              "rate": "15%",
               "num": "1"
             },
             {
@@ -5173,13 +6135,13 @@
               "num": "1"
             },
             {
-              "item": "monster_keenbone",
-              "rate": "10%",
-              "num": "2"
+              "item": "toxin_sac",
+              "rate": "11%",
+              "num": "1"
             },
             {
-              "item": "pukei-pukei_sac_plus",
-              "rate": "",
+              "item": "monster_keenbone",
+              "rate": "10%",
               "num": "1"
             },
             {
@@ -5327,27 +6289,22 @@
           "high_rank": [
             {
               "item": "kulu-ya-ku_scale_plus",
-              "rate": "34%",
+              "rate": "44%",
               "num": "1"
             },
             {
               "item": "kulu-ya-ku_hide_plus",
-              "rate": "27%",
-              "num": "1"
-            },
-            {
-              "item": "kulu-ya-ku_beak_plus",
-              "rate": "20%",
+              "rate": "35%",
               "num": "1"
             },
             {
               "item": "kulu-ya-ku_plume_plus",
-              "rate": "14%",
+              "rate": "18%",
               "num": "1"
             },
             {
               "item": "bird_wyvern_gem",
-              "rate": "",
+              "rate": "3%",
               "num": "1"
             }
           ]
@@ -5375,7 +6332,7 @@
           "high_rank": [
             {
               "item": "kulu-ya-ku_scale_plus",
-              "rate": "",
+              "rate": "50%",
               "num": "1"
             },
             {
@@ -5400,7 +6357,7 @@
             },
             {
               "item": "kulu-ya-ku_plume",
-              "rate": "",
+              "rate": "23%",
               "num": "1"
             },
             {
@@ -5414,7 +6371,33 @@
               "num": "1"
             }
           ],
-          "high_rank": []
+          "high_rank": [
+            {
+              "item": "kulu-ya-ku_hide_plus",
+              "rate": "41%",
+              "num": "1"
+            },
+            {
+              "item": "kulu-ya-ku_scale_plus",
+              "rate": "22%",
+              "num": "1"
+            },
+            {
+              "item": "kulu-ya-ku_plume_plus",
+              "rate": "",
+              "num": "1"
+            },
+            {
+              "item": "kulu-ya-ku_beak_plus",
+              "rate": "12%",
+              "num": "1"
+            },
+            {
+              "item": "bird_wyvern_gem",
+              "rate": "5%",
+              "num": "1"
+            }
+          ]
         },
         {
           "source": "頭破壊",
@@ -5434,7 +6417,17 @@
           "high_rank": [
             {
               "item": "kulu-ya-ku_beak_plus",
-              "rate": "100%",
+              "rate": "80%",
+              "num": "1"
+            },
+            {
+              "item": "kulu-ya-ku_hide_plus",
+              "rate": "15%",
+              "num": "1"
+            },
+            {
+              "item": "bird_wyvern_gem",
+              "rate": "5%",
               "num": "1"
             }
           ]
@@ -5457,7 +6450,12 @@
           "high_rank": [
             {
               "item": "kulu-ya-ku_plume_plus",
-              "rate": "",
+              "rate": "80%",
+              "num": "1"
+            },
+            {
+              "item": "kulu-ya-ku_scale_plus",
+              "rate": "20%",
               "num": "1"
             }
           ]
@@ -5482,7 +6480,7 @@
             },
             {
               "item": "monster_bone_m",
-              "rate": "",
+              "rate": "14%",
               "num": "1"
             },
             {
@@ -5504,7 +6502,7 @@
             },
             {
               "item": "kulu-ya-ku_hide_plus",
-              "rate": "",
+              "rate": "41%",
               "num": "1"
             },
             {
@@ -5513,18 +6511,18 @@
               "num": "1"
             },
             {
-              "item": "monster_bone_plus",
-              "rate": "18%",
+              "item": "kulu-ya-ku_plume_plus",
+              "rate": "13%",
               "num": "1"
             },
             {
-              "item": "kulu-ya-ku_plume_plus",
-              "rate": "15%",
+              "item": "monster_bone_plus",
+              "rate": "12%",
               "num": "1"
             },
             {
               "item": "kulu-ya-ku_beak_plus",
-              "rate": "",
+              "rate": "7%",
               "num": "1"
             },
             {
@@ -5810,7 +6808,38 @@
               "num": "1"
             }
           ],
-          "high_rank": []
+          "high_rank": [
+            {
+              "item": "tobi-kadachi_claw_plus",
+              "rate": "34%",
+              "num": "1"
+            },
+            {
+              "item": "tobi-kadachi_scale_plus",
+              "rate": "22%",
+              "num": "1"
+            },
+            {
+              "item": "tobi-kadachi_pelt_plus",
+              "rate": "",
+              "num": "1"
+            },
+            {
+              "item": "tobi-kadachi_electrode",
+              "rate": "14%",
+              "num": "1"
+            },
+            {
+              "item": "tobi-kadachi_membrane",
+              "rate": "13%",
+              "num": "1"
+            },
+            {
+              "item": "wyvern_gem",
+              "rate": "3%",
+              "num": "1"
+            }
+          ]
         },
         {
           "source": "頭破壊",
@@ -5830,7 +6859,7 @@
           "high_rank": [
             {
               "item": "tobi-kadachi_electrode_plus",
-              "rate": "",
+              "rate": "100%",
               "num": "1"
             }
           ]
@@ -5864,7 +6893,7 @@
           "low_rank": [
             {
               "item": "tobi-kadachi_pelt",
-              "rate": "",
+              "rate": "70%",
               "num": "1"
             },
             {
@@ -5892,7 +6921,7 @@
           "low_rank": [
             {
               "item": "tobi-kadachi_electrode",
-              "rate": "",
+              "rate": "80%",
               "num": "1"
             },
             {
@@ -5919,7 +6948,7 @@
           "low_rank": [
             {
               "item": "tobi-kadachi_pelt",
-              "rate": "",
+              "rate": "100%",
               "num": "1"
             },
             {
@@ -5939,7 +6968,7 @@
             },
             {
               "item": "tobi-kadachi_pelt",
-              "rate": "",
+              "rate": "13%",
               "num": "1"
             },
             {
@@ -5960,38 +6989,33 @@
               "num": "1"
             },
             {
+              "item": "tobi-kadachi_scale_plus",
+              "rate": "34%",
+              "num": "1"
+            },
+            {
+              "item": "tobi-kadachi_claw_plus",
+              "rate": "24%",
+              "num": "1"
+            },
+            {
               "item": "tobi-kadachi_pelt_plus",
               "rate": "",
               "num": "1"
             },
             {
-              "item": "tobi-kadachi_scale_plus",
-              "rate": "20%",
-              "num": "1"
-            },
-            {
               "item": "thunder_sac",
-              "rate": "18%",
+              "rate": "14%",
               "num": "1"
             },
             {
-              "item": "tobi-kadachi_membrane",
-              "rate": "15%",
-              "num": "2"
-            },
-            {
-              "item": "monster_keenbone",
-              "rate": "",
-              "num": "1"
-            },
-            {
-              "item": "tobi-kadachi_claw_plus",
+              "item": "tobi-kadachi_electrode",
               "rate": "9%",
               "num": "1"
             },
             {
               "item": "wyvern_gem",
-              "rate": "1%",
+              "rate": "2%",
               "num": "1"
             }
           ]
@@ -6134,7 +7158,7 @@
           },
           {
             "part": "腳",
-            "condition": "(破壊後)",
+            "condition": "破壞後",
             "cut": "45",
             "blunt": "45",
             "ammo": "30",
@@ -6192,32 +7216,32 @@
           "high_rank": [
             {
               "item": "anjanath_scale_plus",
-              "rate": "34%",
+              "rate": "30%",
               "num": "1"
             },
             {
               "item": "anjanath_pelt_plus",
-              "rate": "24%",
-              "num": "1"
-            },
-            {
-              "item": "anjanath_nosebone_plus",
-              "rate": "",
+              "rate": "26%",
               "num": "1"
             },
             {
               "item": "anjanath_fang_plus",
-              "rate": "15%",
+              "rate": "",
+              "num": "1"
+            },
+            {
+              "item": "anjanath_nosebone_plus",
+              "rate": "17%",
               "num": "1"
             },
             {
               "item": "anjanath_plate",
-              "rate": "5%",
+              "rate": "4%",
               "num": "1"
             },
             {
               "item": "anjanath_gem",
-              "rate": "2%",
+              "rate": "1%",
               "num": "1"
             }
           ]
@@ -6246,7 +7270,7 @@
           "high_rank": [
             {
               "item": "anjanath_tail",
-              "rate": "70%",
+              "rate": "65%",
               "num": "1"
             },
             {
@@ -6343,7 +7367,43 @@
               "num": "1"
             }
           ],
-          "high_rank": []
+          "high_rank": [
+            {
+              "item": "anjanath_scale_plus",
+              "rate": "",
+              "num": "1"
+            },
+            {
+              "item": "anjanath_fang_plus",
+              "rate": "23%",
+              "num": "1"
+            },
+            {
+              "item": "anjanath_pelt_plus",
+              "rate": "21%",
+              "num": "1"
+            },
+            {
+              "item": "anjanath_tail",
+              "rate": "8%",
+              "num": "1"
+            },
+            {
+              "item": "inferno_sac",
+              "rate": "",
+              "num": "1"
+            },
+            {
+              "item": "anjanath_plate",
+              "rate": "7%",
+              "num": "1"
+            },
+            {
+              "item": "anjanath_gem",
+              "rate": "3%",
+              "num": "1"
+            }
+          ]
         },
         {
           "source": "頭破壊",
@@ -6351,7 +7411,7 @@
           "low_rank": [
             {
               "item": "anjanath_fang",
-              "rate": "",
+              "rate": "62%",
               "num": "1"
             },
             {
@@ -6373,7 +7433,7 @@
             },
             {
               "item": "anjanath_nosebone_plus",
-              "rate": "",
+              "rate": "35%",
               "num": "1"
             },
             {
@@ -6385,7 +7445,7 @@
         },
         {
           "source": "片腳破壊",
-          "info": "[左右任一側腳破壊]",
+          "info": "[破壞左腿或右腿]",
           "low_rank": [
             {
               "item": "anjanath_scale",
@@ -6401,7 +7461,7 @@
           "high_rank": [
             {
               "item": "anjanath_scale_plus",
-              "rate": "",
+              "rate": "100%",
               "num": "2"
             }
           ]
@@ -6426,7 +7486,7 @@
             },
             {
               "item": "anjanath_nosebone",
-              "rate": "",
+              "rate": "19%",
               "num": "1"
             },
             {
@@ -6448,42 +7508,42 @@
           "high_rank": [
             {
               "item": "anjanath_scale_plus",
+              "rate": "100%",
+              "num": "1"
+            },
+            {
+              "item": "anjanath_scale_plus",
               "rate": "",
               "num": "1"
             },
             {
               "item": "anjanath_pelt_plus",
-              "rate": "27%",
-              "num": "1"
-            },
-            {
-              "item": "anjanath_scale_plus",
-              "rate": "21%",
-              "num": "1"
-            },
-            {
-              "item": "inferno_sac",
-              "rate": "18%",
+              "rate": "20%",
               "num": "1"
             },
             {
               "item": "anjanath_nosebone_plus",
+              "rate": "18%",
+              "num": "1"
+            },
+            {
+              "item": "inferno_sac",
+              "rate": "15%",
+              "num": "1"
+            },
+            {
+              "item": "anjanath_tail",
               "rate": "",
               "num": "1"
             },
             {
-              "item": "monster_keenbone",
-              "rate": "10%",
-              "num": "2"
-            },
-            {
-              "item": "anjanath_tail",
-              "rate": "9%",
+              "item": "anjanath_plate",
+              "rate": "5%",
               "num": "1"
             },
             {
-              "item": "anjanath_plate",
-              "rate": "3%",
+              "item": "anjanath_gem",
+              "rate": "2%",
               "num": "1"
             }
           ]
@@ -6580,7 +7640,7 @@
           },
           {
             "part": "頭",
-            "condition": "(泥纏)",
+            "condition": "泥纏",
             "cut": "50",
             "blunt": "50",
             "ammo": "40",
@@ -6616,7 +7676,7 @@
           },
           {
             "part": "身",
-            "condition": "(泥纏)",
+            "condition": "泥纏",
             "cut": "30",
             "blunt": "30",
             "ammo": "25",
@@ -6664,7 +7724,7 @@
           },
           {
             "part": "腳",
-            "condition": "(泥纏)",
+            "condition": "泥纏",
             "cut": "35",
             "blunt": "35",
             "ammo": "30",
@@ -6688,7 +7748,7 @@
           },
           {
             "part": "尾巴",
-            "condition": "(泥纏)",
+            "condition": "泥纏",
             "cut": "50",
             "blunt": "50",
             "ammo": "40",
@@ -6704,28 +7764,7 @@
         {
           "source": "本體剝取",
           "num": "3回",
-          "low_rank": [
-            {
-              "item": "泥魚竜の鱗",
-              "rate": "36%",
-              "num": "1"
-            },
-            {
-              "item": "泥魚竜の甲殻",
-              "rate": "28%",
-              "num": "1"
-            },
-            {
-              "item": "泥魚竜のヒレ",
-              "rate": "21%",
-              "num": "1"
-            },
-            {
-              "item": "泥魚竜の牙",
-              "rate": "15%",
-              "num": "1"
-            }
-          ],
+          "low_rank": [],
           "high_rank": [
             {
               "item": "jyuratodus_scale_plus",
@@ -6744,7 +7783,7 @@
             },
             {
               "item": "jyuratodus_fang_plus",
-              "rate": "",
+              "rate": "15%",
               "num": "1"
             },
             {
@@ -6756,24 +7795,8 @@
         },
         {
           "source": "掉落物",
-          "info": "音爆彈擊倒、中斷泥纏、從游泳狀態打回地面、剝去泥漿",
-          "low_rank": [
-            {
-              "item": "泥魚竜の鱗",
-              "rate": "50%",
-              "num": "1"
-            },
-            {
-              "item": "泥魚竜のヒレ",
-              "rate": "28%",
-              "num": "1"
-            },
-            {
-              "item": "wyvern_tear",
-              "rate": "",
-              "num": "1"
-            }
-          ],
+          "info": "當音爆彈擊倒時，當中斷泥纏時，當將他從游泳狀態打回地面時，當剝去泥漿時",
+          "low_rank": [],
           "high_rank": [
             {
               "item": "jyuratodus_scale_plus",
@@ -6787,21 +7810,45 @@
             },
             {
               "item": "wyvern_tear",
-              "rate": "22%",
+              "rate": "",
+              "num": "1"
+            }
+          ]
+        },
+        {
+          "source": "捕獲",
+          "low_rank": [],
+          "high_rank": [
+            {
+              "item": "jyuratodus_carapace",
+              "rate": "33%",
+              "num": "1"
+            },
+            {
+              "item": "jyuratodus_fang_plus",
+              "rate": "25%",
+              "num": "1"
+            },
+            {
+              "item": "jyuratodus_scale_plus",
+              "rate": "19%",
+              "num": "1"
+            },
+            {
+              "item": "jyuratodus_fin_plus",
+              "rate": "28%",
+              "num": "1"
+            },
+            {
+              "item": "wyvern_gem",
+              "rate": "4%",
               "num": "1"
             }
           ]
         },
         {
           "source": "頭破壊",
-          "info": "[耐久值4回降到0]",
-          "low_rank": [
-            {
-              "item": "泥魚竜の牙",
-              "rate": "",
-              "num": "1"
-            }
-          ],
+          "low_rank": [],
           "high_rank": [
             {
               "item": "jyuratodus_fang_plus",
@@ -6811,15 +7858,8 @@
           ]
         },
         {
-          "source": "身破壊",
-          "info": "[耐久值1回降到0]",
-          "low_rank": [
-            {
-              "item": "泥魚竜のヒレ",
-              "rate": "100%",
-              "num": "1"
-            }
-          ],
+          "source": "背中破壊",
+          "low_rank": [],
           "high_rank": [
             {
               "item": "jyuratodus_fin_plus",
@@ -6829,44 +7869,30 @@
           ]
         },
         {
-          "source": "目標報酬",
-          "low_rank": [
+          "source": "腳破壊",
+          "low_rank": [],
+          "high_rank": [
             {
-              "item": "泥魚竜の鱗",
+              "item": "jyuratodus_carapace",
               "rate": "",
-              "num": "1"
-            },
-            {
-              "item": "泥魚竜の甲殻",
-              "rate": "27%",
-              "num": "1"
-            },
-            {
-              "item": "泥魚竜の鱗",
-              "rate": "21%",
-              "num": "1"
-            },
-            {
-              "item": "aqua_sac",
-              "rate": "18%",
-              "num": "1"
-            },
-            {
-              "item": "泥魚竜の牙",
-              "rate": "",
-              "num": "1"
-            },
-            {
-              "item": "monster_bone_m",
-              "rate": "10%",
-              "num": "2"
-            },
-            {
-              "item": "泥魚竜のヒレ",
-              "rate": "9%",
               "num": "1"
             }
-          ],
+          ]
+        },
+        {
+          "source": "尾巴破壊",
+          "low_rank": [],
+          "high_rank": [
+            {
+              "item": "jyuratodus_scale_plus",
+              "rate": "100%",
+              "num": "1"
+            }
+          ]
+        },
+        {
+          "source": "目標報酬",
+          "low_rank": [],
           "high_rank": [
             {
               "item": "jyuratodus_scale_plus",
@@ -6874,13 +7900,8 @@
               "num": "1"
             },
             {
-              "item": "jyuratodus_carapace",
-              "rate": "",
-              "num": "1"
-            },
-            {
               "item": "jyuratodus_scale_plus",
-              "rate": "21%",
+              "rate": "34%",
               "num": "1"
             },
             {
@@ -6890,13 +7911,18 @@
             },
             {
               "item": "jyuratodus_fang_plus",
-              "rate": "15%",
+              "rate": "14%",
+              "num": "1"
+            },
+            {
+              "item": "jyuratodus_carapace",
+              "rate": "12%",
               "num": "1"
             },
             {
               "item": "monster_keenbone",
-              "rate": "",
-              "num": "2"
+              "rate": "12%",
+              "num": "1"
             },
             {
               "item": "jyuratodus_fin_plus",
@@ -6905,7 +7931,7 @@
             },
             {
               "item": "wyvern_gem",
-              "rate": "1%",
+              "rate": "3%",
               "num": "1"
             }
           ]
@@ -7024,32 +8050,22 @@
           "high_rank": [
             {
               "item": "great_wroggi_hide_plus",
-              "rate": "40%",
-              "num": "1"
-            },
-            {
-              "item": "toxin_sac",
-              "rate": "21%",
+              "rate": "41%",
               "num": "1"
             },
             {
               "item": "great_wroggi_brace_plus",
-              "rate": "19%",
+              "rate": "32%",
               "num": "1"
             },
             {
-              "item": "great_wroggi_hide",
-              "rate": "8%",
-              "num": "1"
-            },
-            {
-              "item": "great_wroggi_brace",
-              "rate": "",
+              "item": "toxin_sac",
+              "rate": "24%",
               "num": "1"
             },
             {
               "item": "bird_wyvern_gem",
-              "rate": "5%",
+              "rate": "3%",
               "num": "1"
             }
           ]
@@ -7070,7 +8086,7 @@
             },
             {
               "item": "great_wroggi_brace",
-              "rate": "",
+              "rate": "15%",
               "num": "1"
             }
           ],
@@ -7092,7 +8108,7 @@
             },
             {
               "item": "bird_wyvern_gem",
-              "rate": "",
+              "rate": "2%",
               "num": "1"
             }
           ]
@@ -7117,11 +8133,37 @@
             },
             {
               "item": "king's_beak",
-              "rate": "",
+              "rate": "15%",
               "num": "1"
             }
           ],
-          "high_rank": []
+          "high_rank": [
+            {
+              "item": "great_wroggi_brace_plus",
+              "rate": "46%",
+              "num": "1"
+            },
+            {
+              "item": "great_wroggi_hide_plus",
+              "rate": "",
+              "num": "1"
+            },
+            {
+              "item": "monster_bone_plus",
+              "rate": "13%",
+              "num": "1"
+            },
+            {
+              "item": "king's_beak",
+              "rate": "12%",
+              "num": "1"
+            },
+            {
+              "item": "bird_wyvern_gem",
+              "rate": "5%",
+              "num": "1"
+            }
+          ]
         },
         {
           "source": "頭破壊",
@@ -7146,7 +8188,7 @@
             },
             {
               "item": "toxin_sac",
-              "rate": "",
+              "rate": "30%",
               "num": "2"
             },
             {
@@ -7171,7 +8213,7 @@
             },
             {
               "item": "poison_sac",
-              "rate": "",
+              "rate": "26%",
               "num": "1"
             },
             {
@@ -7190,7 +8232,33 @@
               "num": "1"
             }
           ],
-          "high_rank": []
+          "high_rank": [
+            {
+              "item": "great_wroggi_brace_plus",
+              "rate": "36%",
+              "num": "1"
+            },
+            {
+              "item": "toxin_sac",
+              "rate": "",
+              "num": "1"
+            },
+            {
+              "item": "great_wroggi_hide_plus",
+              "rate": "22%",
+              "num": "1"
+            },
+            {
+              "item": "monster_bone_plus",
+              "rate": "12%",
+              "num": "1"
+            },
+            {
+              "item": "bird_wyvern_gem",
+              "rate": "3%",
+              "num": "1"
+            }
+          ]
         }
       ]
     },
@@ -7374,7 +8442,33 @@
               "num": "2"
             }
           ],
-          "high_rank": []
+          "high_rank": [
+            {
+              "item": "bishaten_feather_plus",
+              "rate": "33%",
+              "num": "1"
+            },
+            {
+              "item": "bishaten_tailcase_plus",
+              "rate": "",
+              "num": "1"
+            },
+            {
+              "item": "bishaten_fur_plus",
+              "rate": "20%",
+              "num": "1"
+            },
+            {
+              "item": "bishaten_talon_plus",
+              "rate": "16%",
+              "num": "1"
+            },
+            {
+              "item": "beast_gem",
+              "rate": "8%",
+              "num": "1"
+            }
+          ]
         },
         {
           "source": "頭破壊",
@@ -7386,7 +8480,7 @@
             },
             {
               "item": "bishaten_fur",
-              "rate": "",
+              "rate": "20%",
               "num": "1"
             }
           ],
@@ -7424,7 +8518,7 @@
           "low_rank": [
             {
               "item": "bishaten_fur",
-              "rate": "",
+              "rate": "100%",
               "num": "1"
             },
             {
@@ -7453,7 +8547,38 @@
               "num": "1"
             }
           ],
-          "high_rank": []
+          "high_rank": [
+            {
+              "item": "bishaten_feather_plus",
+              "rate": "32%",
+              "num": "1"
+            },
+            {
+              "item": "bishaten_talon_plus",
+              "rate": "",
+              "num": "1"
+            },
+            {
+              "item": "bishaten_fur_plus",
+              "rate": "20%",
+              "num": "1"
+            },
+            {
+              "item": "stoutbone",
+              "rate": "12%",
+              "num": "1"
+            },
+            {
+              "item": "bishaten_horn_plus",
+              "rate": "9%",
+              "num": "1"
+            },
+            {
+              "item": "beast_gem",
+              "rate": "",
+              "num": "1"
+            }
+          ]
         }
       ]
     },
@@ -7482,6 +8607,18 @@
           {
             "part": "頭",
             "condition": "通常",
+            "cut": "56",
+            "blunt": "56",
+            "ammo": "50",
+            "fire": "20",
+            "water": "0",
+            "thunder": "15",
+            "ice": "0",
+            "dragon": "0"
+          },
+          {
+            "part": "頭",
+            "condition": "過熱時",
             "cut": "60",
             "blunt": "60",
             "ammo": "55",
@@ -7496,6 +8633,18 @@
             "condition": "通常",
             "cut": "24",
             "blunt": "24",
+            "ammo": "20",
+            "fire": "15",
+            "water": "0",
+            "thunder": "5",
+            "ice": "0",
+            "dragon": "0"
+          },
+          {
+            "part": "身",
+            "condition": "過熱時",
+            "cut": "24",
+            "blunt": "24",
             "ammo": "25",
             "fire": "10",
             "water": "0",
@@ -7506,6 +8655,18 @@
           {
             "part": "前腳",
             "condition": "通常",
+            "cut": "51",
+            "blunt": "51",
+            "ammo": "35",
+            "fire": "30",
+            "water": "0",
+            "thunder": "15",
+            "ice": "0",
+            "dragon": "0"
+          },
+          {
+            "part": "前腳",
+            "condition": "過熱時",
             "cut": "60",
             "blunt": "65",
             "ammo": "40",
@@ -7528,8 +8689,32 @@
             "dragon": "0"
           },
           {
+            "part": "冰塊",
+            "condition": "過熱時",
+            "cut": "66",
+            "blunt": "66",
+            "ammo": "45",
+            "fire": "30",
+            "water": "0",
+            "thunder": "10",
+            "ice": "0",
+            "dragon": "0"
+          },
+          {
             "part": "背中",
             "condition": "通常",
+            "cut": "30",
+            "blunt": "30",
+            "ammo": "20",
+            "fire": "25",
+            "water": "0",
+            "thunder": "15",
+            "ice": "0",
+            "dragon": "0"
+          },
+          {
+            "part": "背中",
+            "condition": "過熱時",
             "cut": "30",
             "blunt": "30",
             "ammo": "25",
@@ -7542,6 +8727,18 @@
           {
             "part": "後腳",
             "condition": "通常",
+            "cut": "24",
+            "blunt": "24",
+            "ammo": "15",
+            "fire": "30",
+            "water": "0",
+            "thunder": "5",
+            "ice": "0",
+            "dragon": "0"
+          },
+          {
+            "part": "後腳",
+            "condition": "過熱時",
             "cut": "24",
             "blunt": "24",
             "ammo": "20",
@@ -7652,14 +8849,50 @@
               "num": "1"
             }
           ],
-          "high_rank": []
+          "high_rank": [
+            {
+              "item": "goss_harag_hide_plus",
+              "rate": "",
+              "num": "1"
+            },
+            {
+              "item": "goss_harag_brace_plus",
+              "rate": "20%",
+              "num": "1"
+            },
+            {
+              "item": "goss_harag_claw_plus",
+              "rate": "18%",
+              "num": "1"
+            },
+            {
+              "item": "goss_harag_fur_plus",
+              "rate": "12%",
+              "num": "1"
+            },
+            {
+              "item": "block_of_ice_plus",
+              "rate": "",
+              "num": "1"
+            },
+            {
+              "item": "beast_gem",
+              "rate": "10%",
+              "num": "1"
+            },
+            {
+              "item": "goss_harag_bile",
+              "rate": "5%",
+              "num": "1"
+            }
+          ]
         },
         {
           "source": "頭破壊",
           "low_rank": [
             {
               "item": "goss_harag_horn",
-              "rate": "",
+              "rate": "80%",
               "num": "1"
             },
             {
@@ -7691,7 +8924,7 @@
           "low_rank": [
             {
               "item": "goss_harag_claw",
-              "rate": "",
+              "rate": "80%",
               "num": "2"
             },
             {
@@ -7717,7 +8950,7 @@
             },
             {
               "item": "goss_harag_brace",
-              "rate": "",
+              "rate": "20%",
               "num": "1"
             },
             {
@@ -7737,11 +8970,47 @@
             },
             {
               "item": "massive_bone",
-              "rate": "",
+              "rate": "8%",
               "num": "1"
             }
           ],
-          "high_rank": []
+          "high_rank": [
+            {
+              "item": "goss_harag_hide_plus",
+              "rate": "",
+              "num": "1"
+            },
+            {
+              "item": "goss_harag_brace_plus",
+              "rate": "20%",
+              "num": "1"
+            },
+            {
+              "item": "goss_harag_fur_plus",
+              "rate": "18%",
+              "num": "1"
+            },
+            {
+              "item": "block_of_ice_plus",
+              "rate": "14%",
+              "num": "1"
+            },
+            {
+              "item": "freezer_sac",
+              "rate": "",
+              "num": "1"
+            },
+            {
+              "item": "beast_gem",
+              "rate": "8%",
+              "num": "1"
+            },
+            {
+              "item": "goss_harag_bile",
+              "rate": "3%",
+              "num": "1"
+            }
+          ]
         }
       ]
     },
@@ -7861,28 +9130,18 @@
               "num": "1"
             },
             {
-              "item": "coma_sac",
-              "rate": "21%",
-              "num": "1"
-            },
-            {
               "item": "great_baggi_claw_plus",
-              "rate": "21%",
+              "rate": "32%",
               "num": "1"
             },
             {
-              "item": "great_baggi_hide",
-              "rate": "8%",
-              "num": "1"
-            },
-            {
-              "item": "great_baggi_claw",
-              "rate": "",
+              "item": "coma_sac",
+              "rate": "27%",
               "num": "1"
             },
             {
               "item": "bird_wyvern_gem",
-              "rate": "5%",
+              "rate": "3%",
               "num": "1"
             }
           ]
@@ -7903,7 +9162,7 @@
             },
             {
               "item": "great_baggi_claw",
-              "rate": "",
+              "rate": "10%",
               "num": "1"
             }
           ],
@@ -7925,7 +9184,7 @@
             },
             {
               "item": "bird_wyvern_gem",
-              "rate": "",
+              "rate": "2%",
               "num": "1"
             }
           ]
@@ -7950,11 +9209,37 @@
             },
             {
               "item": "king's_crest",
-              "rate": "",
+              "rate": "15%",
               "num": "1"
             }
           ],
-          "high_rank": []
+          "high_rank": [
+            {
+              "item": "great_baggi_claw_plus",
+              "rate": "47%",
+              "num": "1"
+            },
+            {
+              "item": "great_baggi_hide_plus",
+              "rate": "",
+              "num": "1"
+            },
+            {
+              "item": "monster_bone_plus",
+              "rate": "13%",
+              "num": "1"
+            },
+            {
+              "item": "king's_crest",
+              "rate": "12%",
+              "num": "1"
+            },
+            {
+              "item": "bird_wyvern_gem",
+              "rate": "5%",
+              "num": "1"
+            }
+          ]
         },
         {
           "source": "頭破壊",
@@ -7979,7 +9264,7 @@
             },
             {
               "item": "coma_sac",
-              "rate": "",
+              "rate": "28%",
               "num": "2"
             },
             {
@@ -8004,7 +9289,7 @@
             },
             {
               "item": "sleep_sac",
-              "rate": "",
+              "rate": "24%",
               "num": "1"
             },
             {
@@ -8023,7 +9308,33 @@
               "num": "1"
             }
           ],
-          "high_rank": []
+          "high_rank": [
+            {
+              "item": "great_baggi_claw_plus",
+              "rate": "37%",
+              "num": "1"
+            },
+            {
+              "item": "coma_sac",
+              "rate": "",
+              "num": "1"
+            },
+            {
+              "item": "great_baggi_hide_plus",
+              "rate": "22%",
+              "num": "1"
+            },
+            {
+              "item": "monster_bone_plus",
+              "rate": "13%",
+              "num": "1"
+            },
+            {
+              "item": "bird_wyvern_gem",
+              "rate": "3%",
+              "num": "1"
+            }
+          ]
         }
       ]
     },
@@ -8277,7 +9588,38 @@
               "num": "2"
             }
           ],
-          "high_rank": []
+          "high_rank": [
+            {
+              "item": "lagombi_plastron_plus",
+              "rate": "32%",
+              "num": "1"
+            },
+            {
+              "item": "lagombi_ear_plus",
+              "rate": "26%",
+              "num": "1"
+            },
+            {
+              "item": "lagombi_frozenclaw",
+              "rate": "",
+              "num": "1"
+            },
+            {
+              "item": "lagombi_pelt_plus",
+              "rate": "14%",
+              "num": "1"
+            },
+            {
+              "item": "beast_gem",
+              "rate": "7%",
+              "num": "1"
+            },
+            {
+              "item": "stoutbone",
+              "rate": "5%",
+              "num": "1"
+            }
+          ]
         },
         {
           "source": "頭破壊",
@@ -8297,7 +9639,7 @@
           "high_rank": [
             {
               "item": "lagombi_ear_plus",
-              "rate": "",
+              "rate": "75%",
               "num": "1"
             },
             {
@@ -8322,7 +9664,7 @@
             },
             {
               "item": "lagombi_plastron",
-              "rate": "",
+              "rate": "39%",
               "num": "1"
             },
             {
@@ -8341,7 +9683,33 @@
               "num": "2"
             }
           ],
-          "high_rank": []
+          "high_rank": [
+            {
+              "item": "lagombi_plastron_plus",
+              "rate": "38%",
+              "num": "1"
+            },
+            {
+              "item": "lagombi_frozenclaw",
+              "rate": "22%",
+              "num": "1"
+            },
+            {
+              "item": "lagombi_pelt_plus",
+              "rate": "",
+              "num": "1"
+            },
+            {
+              "item": "stoutbone",
+              "rate": "14%",
+              "num": "1"
+            },
+            {
+              "item": "beast_gem",
+              "rate": "5%",
+              "num": "1"
+            }
+          ]
         }
       ]
     },
@@ -8457,7 +9825,7 @@
           },
           {
             "part": "棘",
-            "condition": "(破壊後)",
+            "condition": "破壞後",
             "cut": "30",
             "blunt": "35",
             "ammo": "30",
@@ -8704,7 +10072,43 @@
               "num": "2"
             }
           ],
-          "high_rank": []
+          "high_rank": [
+            {
+              "item": "barioth_pelt_plus",
+              "rate": "33%",
+              "num": "1"
+            },
+            {
+              "item": "barioth_claw_plus",
+              "rate": "18%",
+              "num": "1"
+            },
+            {
+              "item": "freezer_sac",
+              "rate": "",
+              "num": "1"
+            },
+            {
+              "item": "amber_fang_plus",
+              "rate": "14%",
+              "num": "1"
+            },
+            {
+              "item": "barioth_tail",
+              "rate": "12%",
+              "num": "1"
+            },
+            {
+              "item": "barioth_spike",
+              "rate": "6%",
+              "num": "1"
+            },
+            {
+              "item": "wyvern_gem",
+              "rate": "",
+              "num": "1"
+            }
+          ]
         },
         {
           "source": "頭破壊",
@@ -8724,7 +10128,7 @@
           "high_rank": [
             {
               "item": "amber_fang_plus",
-              "rate": "",
+              "rate": "60%",
               "num": "1"
             },
             {
@@ -8741,7 +10145,7 @@
         },
         {
           "source": "片棘破壊",
-          "info": "[任一側棘的耐久值2回降到0]",
+          "info": "[任一側棘の耐久值2回降到0]",
           "low_rank": [
             {
               "item": "barioth_claw",
@@ -8750,7 +10154,7 @@
             },
             {
               "item": "barioth_spike",
-              "rate": "",
+              "rate": "25%",
               "num": "1"
             }
           ],
@@ -8777,7 +10181,7 @@
           "low_rank": [
             {
               "item": "barioth_shell",
-              "rate": "",
+              "rate": "100%",
               "num": "1"
             },
             {
@@ -8797,7 +10201,7 @@
             },
             {
               "item": "barioth_spike",
-              "rate": "",
+              "rate": "13%",
               "num": "1"
             },
             {
@@ -8811,7 +10215,43 @@
               "num": "1"
             }
           ],
-          "high_rank": []
+          "high_rank": [
+            {
+              "item": "barioth_pelt_plus",
+              "rate": "33%",
+              "num": "1"
+            },
+            {
+              "item": "barioth_carapace",
+              "rate": "21%",
+              "num": "1"
+            },
+            {
+              "item": "freezer_sac",
+              "rate": "",
+              "num": "1"
+            },
+            {
+              "item": "barioth_claw_plus",
+              "rate": "12%",
+              "num": "1"
+            },
+            {
+              "item": "barioth_spike",
+              "rate": "8%",
+              "num": "1"
+            },
+            {
+              "item": "barioth_tail",
+              "rate": "5%",
+              "num": "1"
+            },
+            {
+              "item": "wyvern_gem",
+              "rate": "",
+              "num": "1"
+            }
+          ]
         }
       ]
     },
@@ -9123,7 +10563,38 @@
               "num": "1"
             }
           ],
-          "high_rank": []
+          "high_rank": [
+            {
+              "item": "tigrex_carapace",
+              "rate": "34%",
+              "num": "1"
+            },
+            {
+              "item": "tigrex_fang_plus",
+              "rate": "",
+              "num": "1"
+            },
+            {
+              "item": "tigrex_scale_plus",
+              "rate": "16%",
+              "num": "1"
+            },
+            {
+              "item": "tigrex_tail",
+              "rate": "10%",
+              "num": "1"
+            },
+            {
+              "item": "tigrex_scalp",
+              "rate": "8%",
+              "num": "1"
+            },
+            {
+              "item": "tigrex_maw",
+              "rate": "",
+              "num": "1"
+            }
+          ]
         },
         {
           "source": "頭破壊",
@@ -9136,7 +10607,7 @@
             },
             {
               "item": "tigrex_shell",
-              "rate": "",
+              "rate": "28%",
               "num": "1"
             },
             {
@@ -9158,13 +10629,8 @@
             },
             {
               "item": "tigrex_scalp",
-              "rate": "",
+              "rate": "15%",
               "num": "1"
-            },
-            {
-              "item": "tigrex_fang",
-              "rate": "8%",
-              "num": "3"
             },
             {
               "item": "tigrex_maw",
@@ -9174,7 +10640,7 @@
           ]
         },
         {
-          "source": "片爪破壊",
+          "source": "單爪破壊",
           "info": "[左爪或右爪耐久值2回降到0]",
           "low_rank": [
             {
@@ -9184,7 +10650,7 @@
             },
             {
               "item": "tigrex_scale",
-              "rate": "",
+              "rate": "20%",
               "num": "1"
             }
           ],
@@ -9192,12 +10658,12 @@
             {
               "item": "tigrex_claw_plus",
               "rate": "80%",
-              "num": "1"
+              "num": "2"
             },
             {
-              "item": "tigrex_claw",
+              "item": "tigrex_scale_plus",
               "rate": "20%",
-              "num": "3"
+              "num": "1"
             }
           ]
         },
@@ -9206,12 +10672,12 @@
           "low_rank": [
             {
               "item": "tigrex_shell",
-              "rate": "100%",
+              "rate": "",
               "num": "1"
             },
             {
               "item": "tigrex_scale",
-              "rate": "",
+              "rate": "33%",
               "num": "1"
             },
             {
@@ -9231,7 +10697,7 @@
             },
             {
               "item": "tigrex_tail",
-              "rate": "",
+              "rate": "9%",
               "num": "1"
             },
             {
@@ -9240,7 +10706,43 @@
               "num": "1"
             }
           ],
-          "high_rank": []
+          "high_rank": [
+            {
+              "item": "tigrex_scale_plus",
+              "rate": "32%",
+              "num": "1"
+            },
+            {
+              "item": "tigrex_claw_plus",
+              "rate": "",
+              "num": "1"
+            },
+            {
+              "item": "tigrex_fang_plus",
+              "rate": "17%",
+              "num": "1"
+            },
+            {
+              "item": "tigrex_carapace",
+              "rate": "15%",
+              "num": "1"
+            },
+            {
+              "item": "tigrex_scalp",
+              "rate": "8%",
+              "num": "1"
+            },
+            {
+              "item": "tigrex_maw",
+              "rate": "",
+              "num": "1"
+            },
+            {
+              "item": "wyvern_gem",
+              "rate": "3%",
+              "num": "1"
+            }
+          ]
         }
       ]
     },
@@ -9266,6 +10768,18 @@
             "cut": "22",
             "blunt": "25",
             "ammo": "15",
+            "fire": "40",
+            "water": "0",
+            "thunder": "0",
+            "ice": "20",
+            "dragon": "10"
+          },
+          {
+            "part": "頭",
+            "condition": "泥纏",
+            "cut": "22",
+            "blunt": "25",
+            "ammo": "15",
             "fire": "0",
             "water": "50",
             "thunder": "0",
@@ -9278,6 +10792,18 @@
             "cut": "36",
             "blunt": "45",
             "ammo": "35",
+            "fire": "25",
+            "water": "0",
+            "thunder": "0",
+            "ice": "10",
+            "dragon": "5"
+          },
+          {
+            "part": "身",
+            "condition": "泥纏",
+            "cut": "36",
+            "blunt": "45",
+            "ammo": "35",
             "fire": "0",
             "water": "30",
             "thunder": "0",
@@ -9287,6 +10813,18 @@
           {
             "part": "前腳",
             "condition": "通常",
+            "cut": "50",
+            "blunt": "55",
+            "ammo": "50",
+            "fire": "20",
+            "water": "0",
+            "thunder": "0",
+            "ice": "10",
+            "dragon": "5"
+          },
+          {
+            "part": "前腳",
+            "condition": "泥纏",
             "cut": "45",
             "blunt": "50",
             "ammo": "45",
@@ -9302,6 +10840,18 @@
             "cut": "36",
             "blunt": "30",
             "ammo": "25",
+            "fire": "20",
+            "water": "0",
+            "thunder": "0",
+            "ice": "15",
+            "dragon": "5"
+          },
+          {
+            "part": "後腳",
+            "condition": "泥纏",
+            "cut": "36",
+            "blunt": "30",
+            "ammo": "25",
             "fire": "0",
             "water": "25",
             "thunder": "0",
@@ -9311,6 +10861,18 @@
           {
             "part": "尾巴",
             "condition": "通常",
+            "cut": "47",
+            "blunt": "47",
+            "ammo": "50",
+            "fire": "25",
+            "water": "0",
+            "thunder": "0",
+            "ice": "20",
+            "dragon": "10"
+          },
+          {
+            "part": "尾巴",
+            "condition": "泥纏",
             "cut": "42",
             "blunt": "42",
             "ammo": "45",
@@ -9511,7 +11073,43 @@
               "num": "2"
             }
           ],
-          "high_rank": []
+          "high_rank": [
+            {
+              "item": "barroth_claw_plus",
+              "rate": "32%",
+              "num": "1"
+            },
+            {
+              "item": "barroth_ridge_plus",
+              "rate": "",
+              "num": "1"
+            },
+            {
+              "item": "barroth_carapace",
+              "rate": "13%",
+              "num": "1"
+            },
+            {
+              "item": "fertile_mud",
+              "rate": "11%",
+              "num": "1"
+            },
+            {
+              "item": "barroth_scalp",
+              "rate": "8%",
+              "num": "1"
+            },
+            {
+              "item": "barroth_tail",
+              "rate": "",
+              "num": "1"
+            },
+            {
+              "item": "wyvern_gem",
+              "rate": "5%",
+              "num": "1"
+            }
+          ]
         },
         {
           "source": "前腳破壊",
@@ -9526,14 +11124,14 @@
           "high_rank": [
             {
               "item": "barroth_claw_plus",
-              "rate": "",
+              "rate": "100%",
               "num": "1"
             }
           ]
         },
         {
           "source": "後腳破壊",
-          "info": "[任一側後腳的耐久值2回降到0]",
+          "info": "[任一側後腳の耐久值2回降到0]",
           "low_rank": [
             {
               "item": "barroth_shell",
@@ -9559,7 +11157,7 @@
             },
             {
               "item": "barroth_ridge",
-              "rate": "",
+              "rate": "28%",
               "num": "1"
             },
             {
@@ -9579,7 +11177,7 @@
             },
             {
               "item": "fertile_mud",
-              "rate": "",
+              "rate": "10%",
               "num": "2"
             },
             {
@@ -9601,32 +11199,37 @@
             },
             {
               "item": "barroth_ridge_plus",
+              "rate": "29%",
+              "num": "1"
+            },
+            {
+              "item": "barroth_claw_plus",
               "rate": "",
               "num": "1"
             },
             {
               "item": "barroth_carapace",
-              "rate": "20%",
-              "num": "1"
-            },
-            {
-              "item": "barroth_claw_plus",
-              "rate": "16%",
-              "num": "1"
-            },
-            {
-              "item": "monster_keenbone",
               "rate": "15%",
               "num": "1"
             },
             {
               "item": "fertile_mud",
-              "rate": "",
-              "num": "2"
+              "rate": "11%",
+              "num": "1"
+            },
+            {
+              "item": "monster_keenbone",
+              "rate": "11%",
+              "num": "1"
             },
             {
               "item": "barroth_scalp",
-              "rate": "11%",
+              "rate": "",
+              "num": "1"
+            },
+            {
+              "item": "barroth_tail",
+              "rate": "6%",
               "num": "1"
             },
             {
@@ -9696,6 +11299,18 @@
           {
             "part": "頭",
             "condition": "通常",
+            "cut": "20",
+            "blunt": "20",
+            "ammo": "20",
+            "fire": "10",
+            "water": "15",
+            "thunder": "10",
+            "ice": "10",
+            "dragon": "18"
+          },
+          {
+            "part": "頭",
+            "condition": "赤熱化",
             "cut": "48",
             "blunt": "55",
             "ammo": "48",
@@ -9707,12 +11322,24 @@
           },
           {
             "part": "頭",
-            "condition": "(破壊後)",
+            "condition": "赤熱化",
             "cut": "48",
             "blunt": "55",
             "ammo": "48",
             "fire": "15",
             "water": "20",
+            "thunder": "10",
+            "ice": "10",
+            "dragon": "23"
+          },
+          {
+            "part": "頭",
+            "condition": "通常",
+            "cut": "38",
+            "blunt": "43",
+            "ammo": "35",
+            "fire": "15",
+            "water": "15",
             "thunder": "10",
             "ice": "10",
             "dragon": "23"
@@ -9730,8 +11357,44 @@
             "dragon": "18"
           },
           {
+            "part": "頸下",
+            "condition": "赤熱化",
+            "cut": "15",
+            "blunt": "20",
+            "ammo": "20",
+            "fire": "10",
+            "water": "15",
+            "thunder": "10",
+            "ice": "10",
+            "dragon": "18"
+          },
+          {
             "part": "腹",
             "condition": "通常",
+            "cut": "24",
+            "blunt": "25",
+            "ammo": "30",
+            "fire": "10",
+            "water": "10",
+            "thunder": "10",
+            "ice": "10",
+            "dragon": "15"
+          },
+          {
+            "part": "腹",
+            "condition": "赤熱化",
+            "cut": "62",
+            "blunt": "55",
+            "ammo": "50",
+            "fire": "12",
+            "water": "18",
+            "thunder": "10",
+            "ice": "10",
+            "dragon": "20"
+          },
+          {
+            "part": "腹",
+            "condition": "赤熱化",
             "cut": "60",
             "blunt": "55",
             "ammo": "50",
@@ -9743,12 +11406,12 @@
           },
           {
             "part": "腹",
-            "condition": "(破壊後)",
-            "cut": "62",
-            "blunt": "55",
-            "ammo": "50",
+            "condition": "通常",
+            "cut": "48",
+            "blunt": "44",
+            "ammo": "40",
             "fire": "12",
-            "water": "18",
+            "water": "10",
             "thunder": "10",
             "ice": "10",
             "dragon": "20"
@@ -9756,6 +11419,18 @@
           {
             "part": "背",
             "condition": "通常",
+            "cut": "15",
+            "blunt": "20",
+            "ammo": "20",
+            "fire": "10",
+            "water": "15",
+            "thunder": "10",
+            "ice": "10",
+            "dragon": "18"
+          },
+          {
+            "part": "背",
+            "condition": "赤熱化",
             "cut": "48",
             "blunt": "48",
             "ammo": "55",
@@ -9767,7 +11442,7 @@
           },
           {
             "part": "背",
-            "condition": "(破壊後)",
+            "condition": "赤熱化",
             "cut": "48",
             "blunt": "48",
             "ammo": "55",
@@ -9778,8 +11453,32 @@
             "dragon": "23"
           },
           {
+            "part": "背",
+            "condition": "通常",
+            "cut": "38",
+            "blunt": "35",
+            "ammo": "43",
+            "fire": "15",
+            "water": "15",
+            "thunder": "10",
+            "ice": "10",
+            "dragon": "23"
+          },
+          {
             "part": "翼",
             "condition": "通常",
+            "cut": "20",
+            "blunt": "20",
+            "ammo": "20",
+            "fire": "10",
+            "water": "15",
+            "thunder": "10",
+            "ice": "10",
+            "dragon": "18"
+          },
+          {
+            "part": "翼",
+            "condition": "赤熱化",
             "cut": "20",
             "blunt": "20",
             "ammo": "20",
@@ -9802,6 +11501,18 @@
             "dragon": "10"
           },
           {
+            "part": "腳",
+            "condition": "赤熱化",
+            "cut": "25",
+            "blunt": "26",
+            "ammo": "30",
+            "fire": "10",
+            "water": "10",
+            "thunder": "10",
+            "ice": "10",
+            "dragon": "10"
+          },
+          {
             "part": "尾下",
             "condition": "通常",
             "cut": "15",
@@ -9814,8 +11525,32 @@
             "dragon": "18"
           },
           {
+            "part": "尾下",
+            "condition": "赤熱化",
+            "cut": "15",
+            "blunt": "15",
+            "ammo": "15",
+            "fire": "10",
+            "water": "15",
+            "thunder": "10",
+            "ice": "10",
+            "dragon": "18"
+          },
+          {
             "part": "尾尖",
             "condition": "通常",
+            "cut": "28",
+            "blunt": "15",
+            "ammo": "15",
+            "fire": "10",
+            "water": "10",
+            "thunder": "10",
+            "ice": "10",
+            "dragon": "15"
+          },
+          {
+            "part": "尾尖",
+            "condition": "赤熱化",
             "cut": "28",
             "blunt": "15",
             "ammo": "15",
@@ -9877,6 +11612,11 @@
             {
               "item": "monster_keenbone",
               "rate": "11%",
+              "num": "1"
+            },
+            {
+              "item": "basarios_tears",
+              "rate": "7%",
               "num": "1"
             },
             {
@@ -9955,6 +11695,11 @@
               "item": "carbalite_ore",
               "rate": "20%",
               "num": "1"
+            },
+            {
+              "item": "basarios_tears",
+              "rate": "5%",
+              "num": "1"
             }
           ]
         },
@@ -9987,7 +11732,43 @@
               "num": "1"
             }
           ],
-          "high_rank": []
+          "high_rank": [
+            {
+              "item": "basarios_carapace",
+              "rate": "27%",
+              "num": "1"
+            },
+            {
+              "item": "toxin_sac",
+              "rate": "18%",
+              "num": "1"
+            },
+            {
+              "item": "basarios_wing",
+              "rate": "18%",
+              "num": "1"
+            },
+            {
+              "item": "inferno_sac",
+              "rate": "",
+              "num": "1"
+            },
+            {
+              "item": "basarios_tears",
+              "rate": "10%",
+              "num": "1"
+            },
+            {
+              "item": "basarios_tail",
+              "rate": "9%",
+              "num": "1"
+            },
+            {
+              "item": "wyvern_gem",
+              "rate": "3%",
+              "num": "1"
+            }
+          ]
         },
         {
           "source": "頭破壊",
@@ -10017,7 +11798,7 @@
             },
             {
               "item": "machalite_ore",
-              "rate": "",
+              "rate": "35%",
               "num": "2"
             },
             {
@@ -10039,6 +11820,11 @@
             },
             {
               "item": "monster_keenbone",
+              "rate": "15%",
+              "num": "1"
+            },
+            {
+              "item": "basarios_tears",
               "rate": "",
               "num": "1"
             }
@@ -10060,7 +11846,7 @@
             },
             {
               "item": "poison_sac",
-              "rate": "",
+              "rate": "20%",
               "num": "1"
             }
           ],
@@ -10087,7 +11873,7 @@
             },
             {
               "item": "basarios_pleura",
-              "rate": "",
+              "rate": "27%",
               "num": "1"
             },
             {
@@ -10107,7 +11893,7 @@
             },
             {
               "item": "machalite_ore",
-              "rate": "",
+              "rate": "10%",
               "num": "2"
             },
             {
@@ -10121,7 +11907,43 @@
               "num": "1"
             }
           ],
-          "high_rank": []
+          "high_rank": [
+            {
+              "item": "basarios_pleura_plus",
+              "rate": "28%",
+              "num": "1"
+            },
+            {
+              "item": "basarios_carapace",
+              "rate": "19%",
+              "num": "1"
+            },
+            {
+              "item": "toxin_sac",
+              "rate": "",
+              "num": "1"
+            },
+            {
+              "item": "inferno_sac",
+              "rate": "15%",
+              "num": "1"
+            },
+            {
+              "item": "carbalite_ore",
+              "rate": "12%",
+              "num": "1"
+            },
+            {
+              "item": "basarios_tears",
+              "rate": "7%",
+              "num": "1"
+            },
+            {
+              "item": "wyvern_gem",
+              "rate": "",
+              "num": "1"
+            }
+          ]
         }
       ]
     },
@@ -10389,7 +12211,33 @@
               "num": "3"
             }
           ],
-          "high_rank": []
+          "high_rank": [
+            {
+              "item": "volvidon_claw_plus",
+              "rate": "",
+              "num": "1"
+            },
+            {
+              "item": "omniplegia_sac",
+              "rate": "22%",
+              "num": "1"
+            },
+            {
+              "item": "volvi_carapace",
+              "rate": "21%",
+              "num": "1"
+            },
+            {
+              "item": "stoutbone",
+              "rate": "16%",
+              "num": "1"
+            },
+            {
+              "item": "beast_gem",
+              "rate": "",
+              "num": "1"
+            }
+          ]
         },
         {
           "source": "背中破壊",
@@ -10397,7 +12245,7 @@
           "low_rank": [
             {
               "item": "volvi_rickrack",
-              "rate": "",
+              "rate": "70%",
               "num": "1"
             },
             {
@@ -10419,7 +12267,7 @@
             },
             {
               "item": "volvidon_shell",
-              "rate": "",
+              "rate": "8%",
               "num": "2"
             }
           ]
@@ -10444,7 +12292,7 @@
             },
             {
               "item": "paralysis_sac",
-              "rate": "",
+              "rate": "16%",
               "num": "1"
             },
             {
@@ -10463,7 +12311,43 @@
               "num": "2"
             }
           ],
-          "high_rank": []
+          "high_rank": [
+            {
+              "item": "volvidon_claw_plus",
+              "rate": "21%",
+              "num": "1"
+            },
+            {
+              "item": "omniplegia_sac",
+              "rate": "20%",
+              "num": "1"
+            },
+            {
+              "item": "monster_broth",
+              "rate": "18%",
+              "num": "1"
+            },
+            {
+              "item": "volvi_carapace",
+              "rate": "",
+              "num": "1"
+            },
+            {
+              "item": "stoutbone",
+              "rate": "11%",
+              "num": "1"
+            },
+            {
+              "item": "volvi_rickrack",
+              "rate": "9%",
+              "num": "1"
+            },
+            {
+              "item": "beast_gem",
+              "rate": "7%",
+              "num": "1"
+            }
+          ]
         }
       ]
     },
@@ -10808,10 +12692,46 @@
               "num": "1"
             }
           ],
-          "high_rank": []
+          "high_rank": [
+            {
+              "item": "diablos_carapace",
+              "rate": "29%",
+              "num": "1"
+            },
+            {
+              "item": "diablos_ridge_plus",
+              "rate": "23%",
+              "num": "1"
+            },
+            {
+              "item": "diablos_marrow",
+              "rate": "13%",
+              "num": "1"
+            },
+            {
+              "item": "diablos_fang",
+              "rate": "",
+              "num": "1"
+            },
+            {
+              "item": "diablos_medulla",
+              "rate": "10%",
+              "num": "1"
+            },
+            {
+              "item": "diablos_tailcase",
+              "rate": "9%",
+              "num": "1"
+            },
+            {
+              "item": "wyvern_gem",
+              "rate": "5%",
+              "num": "1"
+            }
+          ]
         },
         {
-          "source": "両角破壊",
+          "source": "雙角破壊",
           "info": "[2次破壞的報酬]",
           "low_rank": [
             {
@@ -10823,13 +12743,8 @@
           "high_rank": [
             {
               "item": "majestic_horn",
-              "rate": "65%",
+              "rate": "100%",
               "num": "1"
-            },
-            {
-              "item": "twisted_horn",
-              "rate": "35%",
-              "num": "2"
             }
           ]
         },
@@ -10839,7 +12754,7 @@
           "low_rank": [
             {
               "item": "diablos_ridge",
-              "rate": "",
+              "rate": "80%",
               "num": "1"
             },
             {
@@ -10855,8 +12770,13 @@
               "num": "1"
             },
             {
-              "item": "diablos_medulla",
+              "item": "diablos_marrow",
               "rate": "30%",
+              "num": "1"
+            },
+            {
+              "item": "diablos_medulla",
+              "rate": "20%",
               "num": "1"
             }
           ]
@@ -10866,7 +12786,7 @@
           "low_rank": [
             {
               "item": "diablos_shell",
-              "rate": "",
+              "rate": "100%",
               "num": "1"
             },
             {
@@ -10886,7 +12806,7 @@
             },
             {
               "item": "dash_extract",
-              "rate": "",
+              "rate": "12%",
               "num": "1"
             },
             {
@@ -10903,37 +12823,42 @@
           "high_rank": [
             {
               "item": "diablos_ridge_plus",
-              "rate": "26%",
+              "rate": "35%",
               "num": "1"
             },
             {
               "item": "diablos_carapace",
+              "rate": "18%",
+              "num": "1"
+            },
+            {
+              "item": "diablos_fang",
               "rate": "",
               "num": "1"
             },
             {
+              "item": "diablos_marrow",
+              "rate": "10%",
+              "num": "1"
+            },
+            {
               "item": "dash_extract",
-              "rate": "16%",
-              "num": "2"
-            },
-            {
-              "item": "diablos_fang",
-              "rate": "14%",
-              "num": "2"
-            },
-            {
-              "item": "monster_hardbone",
-              "rate": "13%",
+              "rate": "9%",
               "num": "1"
             },
             {
               "item": "diablos_medulla",
+              "rate": "7%",
+              "num": "1"
+            },
+            {
+              "item": "diablos_tailcase",
               "rate": "",
               "num": "1"
             },
             {
               "item": "wyvern_gem",
-              "rate": "1%",
+              "rate": "3%",
               "num": "1"
             }
           ]
@@ -11055,7 +12980,7 @@
           },
           {
             "part": "前腳",
-            "condition": "(鬥氣硬化時)",
+            "condition": "鬥氣硬化",
             "cut": "10",
             "blunt": "10",
             "ammo": "5",
@@ -11091,7 +13016,7 @@
           },
           {
             "part": "尾巴",
-            "condition": "(鬥氣硬化時)",
+            "condition": "鬥氣硬化",
             "cut": "47",
             "blunt": "45",
             "ammo": "35",
@@ -11153,13 +13078,49 @@
           ]
         },
         {
+          "source": "捕獲",
+          "low_rank": [],
+          "high_rank": [
+            {
+              "item": "rajang_blackfur",
+              "rate": "",
+              "num": "1"
+            },
+            {
+              "item": "rajang_claw_plus",
+              "rate": "20%",
+              "num": "1"
+            },
+            {
+              "item": "gold_rajang_pelt",
+              "rate": "16%",
+              "num": "1"
+            },
+            {
+              "item": "rajang_fang_plus",
+              "rate": "15%",
+              "num": "1"
+            },
+            {
+              "item": "rajang_tail",
+              "rate": "",
+              "num": "1"
+            },
+            {
+              "item": "beast_gem",
+              "rate": "10%",
+              "num": "1"
+            }
+          ]
+        },
+        {
           "source": "角破壊",
           "info": "[1次破壞的報酬]",
           "low_rank": [],
           "high_rank": [
             {
               "item": "rajang_horn_plus",
-              "rate": "",
+              "rate": "70%",
               "num": "1"
             },
             {
@@ -11170,7 +13131,7 @@
           ]
         },
         {
-          "source": "両角破壊",
+          "source": "雙角破壊",
           "info": "[2次破壞的報酬]",
           "low_rank": [],
           "high_rank": [
@@ -11192,7 +13153,7 @@
             },
             {
               "item": "gold_rajang_pelt",
-              "rate": "",
+              "rate": "9%",
               "num": "1"
             }
           ]
@@ -11224,7 +13185,48 @@
             },
             {
               "item": "rajang_blackfur",
+              "rate": "30%",
+              "num": "1"
+            }
+          ]
+        },
+        {
+          "source": "目標報酬",
+          "low_rank": [],
+          "high_rank": [
+            {
+              "item": "rajang_fang_plus",
+              "rate": "28%",
+              "num": "1"
+            },
+            {
+              "item": "rajang_claw_plus",
               "rate": "",
+              "num": "1"
+            },
+            {
+              "item": "rajang_blackfur",
+              "rate": "16%",
+              "num": "1"
+            },
+            {
+              "item": "gold_rajang_pelt",
+              "rate": "12%",
+              "num": "1"
+            },
+            {
+              "item": "great_stoutbone",
+              "rate": "10%",
+              "num": "1"
+            },
+            {
+              "item": "beast_gem",
+              "rate": "",
+              "num": "1"
+            },
+            {
+              "item": "rajang_tail",
+              "rate": "7%",
               "num": "1"
             }
           ]
@@ -11324,7 +13326,75 @@
           }
         ]
       },
-      "materials": []
+      "materials": [
+        {
+          "source": "捕獲",
+          "low_rank": [],
+          "high_rank": [
+            {
+              "item": "rakna-kadaki_sharpclaw",
+              "rate": "33%",
+              "num": "1"
+            },
+            {
+              "item": "rakna-kadaki_carapace",
+              "rate": "25%",
+              "num": "1"
+            },
+            {
+              "item": "rakna-kadaki_silk",
+              "rate": "17%",
+              "num": "1"
+            },
+            {
+              "item": "rakna-kadaki_spike",
+              "rate": "15%",
+              "num": "1"
+            },
+            {
+              "item": "monster_broth",
+              "rate": "10%",
+              "num": "1"
+            }
+          ]
+        },
+        {
+          "source": "目標報酬",
+          "low_rank": [],
+          "high_rank": [
+            {
+              "item": "rakna-kadaki_sharpclaw",
+              "rate": "25%",
+              "num": "1"
+            },
+            {
+              "item": "monster_broth",
+              "rate": "19%",
+              "num": "1"
+            },
+            {
+              "item": "rakna-kadaki_carapace",
+              "rate": "",
+              "num": "1"
+            },
+            {
+              "item": "rakna-kadaki_glowgut",
+              "rate": "17%",
+              "num": "1"
+            },
+            {
+              "item": "rakna-kadaki_silk",
+              "rate": "12%",
+              "num": "1"
+            },
+            {
+              "item": "rakna-kadaki_spike",
+              "rate": "10%",
+              "num": "1"
+            }
+          ]
+        }
+      ]
     },
     "almudron": {
       "name": {
@@ -11392,7 +13462,7 @@
           },
           {
             "part": "前腳",
-            "condition": "(破壊後)",
+            "condition": "破壞後",
             "cut": "24",
             "blunt": "25",
             "ammo": "21",
@@ -11574,7 +13644,38 @@
               "num": "1"
             }
           ],
-          "high_rank": []
+          "high_rank": [
+            {
+              "item": "almudron_claw_plus",
+              "rate": "31%",
+              "num": "1"
+            },
+            {
+              "item": "almudron_shell_plus",
+              "rate": "",
+              "num": "1"
+            },
+            {
+              "item": "almudron_scale_plus",
+              "rate": "15%",
+              "num": "1"
+            },
+            {
+              "item": "golden_sludge",
+              "rate": "13%",
+              "num": "1"
+            },
+            {
+              "item": "almudron_tail",
+              "rate": "12%",
+              "num": "1"
+            },
+            {
+              "item": "almudron_plate",
+              "rate": "",
+              "num": "1"
+            }
+          ]
         },
         {
           "source": "頭破壊",
@@ -11586,7 +13687,7 @@
             },
             {
               "item": "almudron_fin",
-              "rate": "",
+              "rate": "17%",
               "num": "1"
             },
             {
@@ -11601,11 +13702,6 @@
           "source": "身破壊",
           "low_rank": [
             {
-              "item": "泥魚竜の鱗",
-              "rate": "70%",
-              "num": "1"
-            },
-            {
               "item": "almudron_shell",
               "rate": "30%",
               "num": "1"
@@ -11618,7 +13714,7 @@
           "low_rank": [
             {
               "item": "almudron_claw",
-              "rate": "",
+              "rate": "90%",
               "num": "2"
             }
           ],
@@ -11645,7 +13741,7 @@
           "low_rank": [
             {
               "item": "almudron_scale",
-              "rate": "",
+              "rate": "100%",
               "num": "1"
             },
             {
@@ -11665,7 +13761,7 @@
             },
             {
               "item": "almudron_fin",
-              "rate": "",
+              "rate": "15%",
               "num": "1"
             },
             {
@@ -11684,7 +13780,38 @@
               "num": "1"
             }
           ],
-          "high_rank": []
+          "high_rank": [
+            {
+              "item": "almudron_shell_plus",
+              "rate": "28%",
+              "num": "1"
+            },
+            {
+              "item": "golden_sludge",
+              "rate": "",
+              "num": "1"
+            },
+            {
+              "item": "almudron_scale_plus",
+              "rate": "17%",
+              "num": "1"
+            },
+            {
+              "item": "almudron_fin_plus",
+              "rate": "16%",
+              "num": "1"
+            },
+            {
+              "item": "almudron_whisker_plus",
+              "rate": "10%",
+              "num": "1"
+            },
+            {
+              "item": "almudron_plate",
+              "rate": "",
+              "num": "1"
+            }
+          ]
         }
       ]
     },
@@ -11718,7 +13845,7 @@
           },
           {
             "part": "頭",
-            "condition": "(憤怒時)",
+            "condition": "憤怒時",
             "cut": "67",
             "blunt": "72",
             "ammo": "42",
@@ -11802,7 +13929,7 @@
           },
           {
             "part": "尾巴",
-            "condition": "(憤怒時)",
+            "condition": "憤怒時",
             "cut": "55",
             "blunt": "35",
             "ammo": "40",
@@ -11826,7 +13953,7 @@
           },
           {
             "part": "尾尖",
-            "condition": "(憤怒時)",
+            "condition": "憤怒時",
             "cut": "45",
             "blunt": "36",
             "ammo": "42",
@@ -12012,7 +14139,48 @@
               "num": "1"
             }
           ],
-          "high_rank": []
+          "high_rank": [
+            {
+              "item": "nargacuga_pelt_plus",
+              "rate": "28%",
+              "num": "1"
+            },
+            {
+              "item": "nargacuga_fang_plus",
+              "rate": "21%",
+              "num": "1"
+            },
+            {
+              "item": "nargacuga_scale_plus",
+              "rate": "",
+              "num": "1"
+            },
+            {
+              "item": "narga_tailspike",
+              "rate": "15%",
+              "num": "1"
+            },
+            {
+              "item": "nargacuga_tail",
+              "rate": "7%",
+              "num": "1"
+            },
+            {
+              "item": "nargacuga_marrow",
+              "rate": "5%",
+              "num": "1"
+            },
+            {
+              "item": "wyvern_gem",
+              "rate": "",
+              "num": "1"
+            },
+            {
+              "item": "narga_medulla",
+              "rate": "3%",
+              "num": "1"
+            }
+          ]
         },
         {
           "source": "頭破壊",
@@ -12053,7 +14221,7 @@
           ]
         },
         {
-          "source": "片刃翼破壊",
+          "source": "單刃翼破壊",
           "info": "[耐久值1回降到0]",
           "low_rank": [
             {
@@ -12124,7 +14292,48 @@
               "num": "1"
             }
           ],
-          "high_rank": []
+          "high_rank": [
+            {
+              "item": "nargacuga_scale_plus",
+              "rate": "",
+              "num": "1"
+            },
+            {
+              "item": "nargacuga_fang_plus",
+              "rate": "19%",
+              "num": "1"
+            },
+            {
+              "item": "narga_razor",
+              "rate": "15%",
+              "num": "1"
+            },
+            {
+              "item": "nargacuga_pelt_plus",
+              "rate": "14%",
+              "num": "1"
+            },
+            {
+              "item": "narga_tailspike",
+              "rate": "",
+              "num": "1"
+            },
+            {
+              "item": "nargacuga_tail",
+              "rate": "6%",
+              "num": "1"
+            },
+            {
+              "item": "narga_medulla",
+              "rate": "5%",
+              "num": "1"
+            },
+            {
+              "item": "wyvern_gem",
+              "rate": "3%",
+              "num": "1"
+            }
+          ]
         }
       ]
     },
@@ -12216,11 +14425,35 @@
             "water": "10",
             "thunder": "0",
             "ice": "15",
+            "dragon": "5"
+          },
+          {
+            "part": "頭",
+            "condition": "超帶電",
+            "cut": "65",
+            "blunt": "65",
+            "ammo": "70",
+            "fire": "10",
+            "water": "10",
+            "thunder": "0",
+            "ice": "15",
             "dragon": "10"
           },
           {
             "part": "身",
             "condition": "通常",
+            "cut": "25",
+            "blunt": "25",
+            "ammo": "30",
+            "fire": "5",
+            "water": "5",
+            "thunder": "0",
+            "ice": "5",
+            "dragon": "5"
+          },
+          {
+            "part": "身",
+            "condition": "超帶電",
             "cut": "30",
             "blunt": "30",
             "ammo": "35",
@@ -12233,6 +14466,18 @@
           {
             "part": "背中",
             "condition": "通常",
+            "cut": "45",
+            "blunt": "40",
+            "ammo": "35",
+            "fire": "10",
+            "water": "20",
+            "thunder": "0",
+            "ice": "25",
+            "dragon": "5"
+          },
+          {
+            "part": "背中",
+            "condition": "超帶電",
             "cut": "70",
             "blunt": "65",
             "ammo": "55",
@@ -12245,6 +14490,18 @@
           {
             "part": "前腳",
             "condition": "通常",
+            "cut": "25",
+            "blunt": "30",
+            "ammo": "30",
+            "fire": "5",
+            "water": "5",
+            "thunder": "0",
+            "ice": "10",
+            "dragon": "5"
+          },
+          {
+            "part": "前腳",
+            "condition": "超帶電",
             "cut": "43",
             "blunt": "46",
             "ammo": "30",
@@ -12257,6 +14514,18 @@
           {
             "part": "屁股",
             "condition": "通常",
+            "cut": "44",
+            "blunt": "44",
+            "ammo": "30",
+            "fire": "5",
+            "water": "5",
+            "thunder": "0",
+            "ice": "10",
+            "dragon": "5"
+          },
+          {
+            "part": "屁股",
+            "condition": "超帶電",
             "cut": "45",
             "blunt": "45",
             "ammo": "35",
@@ -12269,6 +14538,18 @@
           {
             "part": "後腳",
             "condition": "通常",
+            "cut": "45",
+            "blunt": "45",
+            "ammo": "35",
+            "fire": "5",
+            "water": "5",
+            "thunder": "0",
+            "ice": "10",
+            "dragon": "5"
+          },
+          {
+            "part": "後腳",
+            "condition": "超帶電",
             "cut": "50",
             "blunt": "50",
             "ammo": "40",
@@ -12291,8 +14572,32 @@
             "dragon": "5"
           },
           {
+            "part": "尾巴",
+            "condition": "超帶電",
+            "cut": "30",
+            "blunt": "25",
+            "ammo": "25",
+            "fire": "5",
+            "water": "5",
+            "thunder": "0",
+            "ice": "5",
+            "dragon": "5"
+          },
+          {
             "part": "尾尖",
             "condition": "通常",
+            "cut": "21",
+            "blunt": "19",
+            "ammo": "10",
+            "fire": "10",
+            "water": "15",
+            "thunder": "0",
+            "ice": "20",
+            "dragon": "5"
+          },
+          {
+            "part": "尾尖",
+            "condition": "超帶電",
             "cut": "21",
             "blunt": "19",
             "ammo": "10",
@@ -12414,7 +14719,7 @@
         },
         {
           "source": "掉落物",
-          "info": "從超帶電狀態恢復到正常狀態時",
+          "info": "從超帶電恢復到正常狀態時",
           "low_rank": [
             {
               "item": "wyvern_tear",
@@ -12499,10 +14804,46 @@
               "num": "1"
             }
           ],
-          "high_rank": []
+          "high_rank": [
+            {
+              "item": "zinogre_electrofur",
+              "rate": "29%",
+              "num": "1"
+            },
+            {
+              "item": "zinogre_shocker_plus",
+              "rate": "25%",
+              "num": "1"
+            },
+            {
+              "item": "zinogre_horn_plus",
+              "rate": "",
+              "num": "1"
+            },
+            {
+              "item": "zinogre_carapace",
+              "rate": "15%",
+              "num": "1"
+            },
+            {
+              "item": "zinogre_tail",
+              "rate": "7%",
+              "num": "1"
+            },
+            {
+              "item": "zinogre_plate",
+              "rate": "5%",
+              "num": "1"
+            },
+            {
+              "item": "zinogre_jasper",
+              "rate": "",
+              "num": "1"
+            }
+          ]
         },
         {
-          "source": "両角破壊",
+          "source": "雙角破壊",
           "info": "[耐久值2回降到0]",
           "low_rank": [
             {
@@ -12519,7 +14860,7 @@
           "high_rank": [
             {
               "item": "zinogre_horn_plus",
-              "rate": "",
+              "rate": "70%",
               "num": "1"
             },
             {
@@ -12540,12 +14881,12 @@
           ]
         },
         {
-          "source": "片爪破壊",
+          "source": "單爪破壊",
           "info": "[破壞左爪或右爪]",
           "low_rank": [
             {
               "item": "zinogre_claw",
-              "rate": "",
+              "rate": "70%",
               "num": "1"
             },
             {
@@ -12567,7 +14908,7 @@
             },
             {
               "item": "zinogre_claw_plus",
-              "rate": "",
+              "rate": "17%",
               "num": "2"
             },
             {
@@ -12593,7 +14934,7 @@
             },
             {
               "item": "zinogre_shockfur",
-              "rate": "",
+              "rate": "30%",
               "num": "1"
             }
           ],
@@ -12615,7 +14956,7 @@
             },
             {
               "item": "zinogre_shocker",
-              "rate": "",
+              "rate": "10%",
               "num": "2"
             }
           ]
@@ -12640,7 +14981,7 @@
             },
             {
               "item": "zinogre_shocker",
-              "rate": "",
+              "rate": "21%",
               "num": "1"
             },
             {
@@ -12659,7 +15000,43 @@
               "num": "1"
             }
           ],
-          "high_rank": []
+          "high_rank": [
+            {
+              "item": "zinogre_electrofur",
+              "rate": "33%",
+              "num": "1"
+            },
+            {
+              "item": "zinogre_shocker_plus",
+              "rate": "",
+              "num": "1"
+            },
+            {
+              "item": "zinogre_carapace",
+              "rate": "21%",
+              "num": "1"
+            },
+            {
+              "item": "fulgurbug",
+              "rate": "12%",
+              "num": "1"
+            },
+            {
+              "item": "zinogre_plate",
+              "rate": "5%",
+              "num": "1"
+            },
+            {
+              "item": "zinogre_tail",
+              "rate": "",
+              "num": "1"
+            },
+            {
+              "item": "zinogre_jasper",
+              "rate": "2%",
+              "num": "1"
+            }
+          ]
         }
       ]
     },
@@ -12787,11 +15164,6 @@
               "num": "1"
             },
             {
-              "item": "古龍の浄血",
-              "rate": "8%",
-              "num": "1"
-            },
-            {
               "item": "霞龍の宝玉",
               "rate": "5%",
               "num": "1"
@@ -12837,18 +15209,8 @@
               "num": "1"
             },
             {
-              "item": "いにしえの龍秘宝",
-              "rate": "",
-              "num": "1"
-            },
-            {
               "item": "elder_dragon_blood",
               "rate": "12%",
-              "num": "1"
-            },
-            {
-              "item": "古龍の浄血",
-              "rate": "8%",
               "num": "1"
             },
             {
@@ -12872,11 +15234,6 @@
               "item": "elder_dragon_blood",
               "rate": "10%",
               "num": "2"
-            },
-            {
-              "item": "古龍の浄血",
-              "rate": "5%",
-              "num": "1"
             }
           ]
         },

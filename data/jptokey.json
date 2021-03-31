@@ -1,0 +1,3547 @@
+{
+    "jptokey": {
+        "大社跡の探索ツアー": {
+            "key": "a_tour_of_the_ruins"
+        },
+        "里長フゲン": {
+            "key": "fugen_the_elder"
+        },
+        "おう、<PL>！大社跡を自由に探索したいのならこのクエストがオススメだ。時間は無制限、何度やられても別にかまわんぞ！満足できたら、メニュー画面からいつでも帰還するがいい！": {
+            "key": "hey,_squirt!_try_this_quest_onfor_size_if_you_wanna_explorethe_shrine_ruins_at_yourleisure:_there's_no_limit_ontime_or_repetition,_and_youcan_come_back_home_from_themenu_screen_whenever_ya_want!"
+        },
+        "大社跡の探索": {
+            "key": "explore_the_shrine_ruins"
+        },
+        "条件なし": {
+            "key": "none"
+        },
+        "ホオズキころころ": {
+            "key": "roly-poly_lanterns"
+        },
+        "可愛いもの好きの里娘": {
+            "key": "girly_village_maiden"
+        },
+        "火玉ホオズキ、可愛いわよね。赤くってコロッとしてて、それになんだか神秘的。…そうだわ！お部屋を火玉ホオズキで飾りつけるのはどうかしら！　きっとステキなお部屋になるわ。ねえあなた、採ってきてくれる？": {
+            "key": "firelanterns_are,_like,_so_pretty!so_red._so_round._somethingabout_them_is_simply_magical.i_totally_want_see_them_all_thetime_so_maybe_i_should_put_'emin_my_room?_what_do_you_say?think_you_can_get_me_some?"
+        },
+        "火玉ホオズキ８個の納品": {
+            "key": "deliver_8_firelanterns"
+        },
+        "報酬金ゼロタイムアップ": {
+            "key": "reward_hits_0,_or_time_expires"
+        },
+        "おいしいキノコをくださいな": {
+            "key": "fungal_frustrations"
+        },
+        "キノコ料理専門店の店長": {
+            "key": "mushroom_restaurant_owner"
+        },
+        "昔からの夢だった、キノコ料理の専門店がもうすぐ開店するの！今はその準備で大忙し。でも肝心のメニューが決めきれなくて試行錯誤してたら、キノコを全部使い切っちゃった！　早く特産キノコを採ってきてー！": {
+            "key": "i've_been_dreaming_of_openingmy_own_restaurant,_but_i_spentso_much_time_experimentingwith_the_menu_that_i_ran_out_ofingredients!_i'll_never_be_able_toopen_if_i_don't_get_some_more.think_you_can_help_me_out?"
+        },
+        "特産キノコ８個の納品": {
+            "key": "deliver_8_unique_mushrooms"
+        },
+        "社に住まう無法者": {
+            "key": "unpious_peons"
+        },
+        "信心深いアイルー": {
+            "key": "devout_felyne"
+        },
+        "最近、ボクの日課のお参りをジャグラスが邪魔してくるニャ。目当てはわかってるニャ、ボクの持ってるお供え物だニャ。まったく、とんだ不逞の輩ニャ！お願いニャ、あいつらをちょっと懲らしめてやってほしいニャ！": {
+            "key": "those_in-fur-nal_jagras_keepmessing_with_my_visits_to_theshrine_ruins._they're_after_theoffur-ings_i_bring_with_me,_thoserude,_blasphemous_fiends!_sendthem_running_with_their_tailsbetween_their_legs!"
+        },
+        "ジャグラス８頭の討伐": {
+            "key": "slay_8_jagras"
+        },
+        "整備の前のイズチ退治": {
+            "key": "help_with_maintenance"
+        },
+        "里の若い大工": {
+            "key": "young_carpenter"
+        },
+        "今、キャンプを整備中なんだけど補修材が少し足りなくてな。現地で調達しようにも、イズチがうろついていて身動きが取れん。だからさ、頼むよハンターさん。キャンプの整備を進めるために奴らを討伐してくれないか？": {
+            "key": "i'm_fixin'_up_the_ol'_camp,_buti'm_out_of_raw_materials._can'tgo_get_more_'cause_everywhereya_go,_izuchi_are_snappin'_andslashin'_at_ya._think_you_canget_'em_to_scram_so_i_can_goget_what_i_need?"
+        },
+        "イズチ８頭の討伐": {
+            "key": "slay_8_izuchi"
+        },
+        "寒冷群島の探索ツアー": {
+            "key": "a_tour_of_the_islands"
+        },
+        "おう、<PL>！寒冷群島を自由に探索したいのならこのクエストがオススメだ。時間は無制限、何度やられても別にかまわんぞ！満足できたら、メニュー画面からいつでも帰還するがいい！": {
+            "key": "hey,_squirt!_try_this_quest_onfor_size_if_you_wanna_explorethe_frost_islands_at_yourleisure:_there's_no_limit_ontime_or_repetition,_and_youcan_come_back_home_from_themenu_screen_whenever_ya_want!"
+        },
+        "寒冷群島の探索": {
+            "key": "explore_the_frost_islands"
+        },
+        "三位一体の薙ぎ鎌": {
+            "key": "great_izuchi,_great_pain"
+        },
+        "茶屋のヨモギ": {
+            "key": "yomogi_the_chef"
+        },
+        "オサイズチが大社跡で暴れて、もうたいへん！　うさ団子の材料を運んでくれている行商人さんも追われてるし、もう私の周辺はてんやわんや！行商人さんはみんなで助けるからオサイズチの狩猟、お願いね！": {
+            "key": "a_stupid_great_izuchi's_going_crazyat_the_shrine_ruins,_meaning_myingredients_supplier_is_seriouslyin_danger!_can_you_deal_with_thatdumb_great_izuchi_so_my_suppliercan_deliver_the_ingredients?"
+        },
+        "オサイズチ１頭の狩猟": {
+            "key": "hunt_a_great_izuchi"
+        },
+        "食べ盛りの青熊獣": {
+            "key": "grizzly_glutton"
+        },
+        "里一番の釣り名人": {
+            "key": "master_angler_of_kamura"
+        },
+        "いや～参った。ああも見境なく魚を食べ続けられると、里に持ち帰る分の魚が取れなくなるどころか、魚が一匹もいなくなっちまうよ。川から魚が消えちまう前にアイツを退治してくれないか？": {
+            "key": "this_is_terrible..._if_it_goes_oneating_this_much,_there_won'tbe_a_single_fish_left_for_us_tocatch!_hunt_that_thing_beforeall_the_fish_totally_vanish_fromour_rivers,_will_ya?"
+        },
+        "アオアシラ１頭の狩猟": {
+            "key": "hunt_an_arzuros"
+        },
+        "ぷりぷり、とぅるんっ": {
+            "key": "plump_and_juicy"
+        },
+        "あの味が忘れられない男": {
+            "key": "crustacean_connoisseur"
+        },
+        "うめぇよな、イカダガキ…。あのとろける食感、最高だよ…。以前、食べ過ぎて腹壊しちまってから嫁に止められてんだけど…やっぱ我慢できねぇよぉ…！ちょっとだけ、ちょっとだけ…！こっそり採ってきてくれよぉ…！": {
+            "key": "raftshells_are_just_so_good._thatgooeyness_is_to_die_for!_and_i_almostdid_'cause_i_couldn't_stop_stuffin'_myface_with_'em..._now_my_wife_saysi'm_not_allowed_to_have_'em_anymore,but_i_can't_take_it!—i_have_to_have'em!_think_you_can_sneak_me_a_few?"
+        },
+        "イカダガキ１０個の納品": {
+            "key": "deliver_10_raftshells"
+        },
+        "寒冷群島夢心地": {
+            "key": "a_frosty_paradise"
+        },
+        "快眠が不快な行商人": {
+            "key": "sleep-averse_peddler"
+        },
+        "あーもう！　なんで俺はこの道を通るたびに眠っちまうんだ！？起きたら、荷物も食い荒らされて気味が悪い。ここを通れなきゃ商売にならないってのに。この怪異はモンスターの仕業に違いない！　討伐を頼むよ！": {
+            "key": "the_darndest_thing_keeps_happening.every_time_i_use_this_path,_i_fall_asleep!when_i_wake_up,_my_stuff_is_all_chewedup!_i_know_this_place_is_infested_withmonsters...maybe_they're_behind_this!you_gotta_do_something_or_my_biz_isdone_for!"
+        },
+        "バギィ１０頭の討伐": {
+            "key": "slay_10_baggi"
+        },
+        "眠気をうちやぶれ！": {
+            "key": "out_cold"
+        },
+        "正義感に満ちたアイルー": {
+            "key": "sanctimonious_felyne"
+        },
+        "ドスバギィがバギィたちを率いて暴れてるって話ニャ。オイラがとっちめてやろうと思って寒冷群島に来たのニャ。でも寒さのせいかニャ…？　意識が…遠く…もう、ダメニャ…後はハンターに狩猟を…おま…おやすみ…ニャ。": {
+            "key": "a_great_baggi_and_its_littlefur-iends_were_being_a_nuisancein_the_fur-ost_islands,_so_i_wentto_teach_'em_a_lesson._but_wheni_got_there,_i_passed_out._was_itthe_cold?_just_thinking_about_itmakes_me...so...slee—zzzzzz..."
+        },
+        "ドスバギィ１頭の狩猟": {
+            "key": "hunt_a_great_baggi"
+        },
+        "食べないで白兎獣": {
+            "key": "rabid_rabbit"
+        },
+        "泣き虫の新米猟師": {
+            "key": "timid_rookie_hunter"
+        },
+        "夕食のためにウサギ狩りに来たんだけど…遭遇したのはまさかの白兎獣！　とんだウサギ違い！あんなの食べられないよ！　っていうか僕が食べられちゃいそう…このままじゃ猟に出られないよ。お願い、白兎獣を退治してー！": {
+            "key": "i_went_hunting_for_some_foodbut_came_across_a_lagombi.i_am_not_trying_to_get_eatenby_that_thing._hunter_do_youthink_you_can_take_care_of_itfor_me,_please?"
+        },
+        "ウルクスス１頭の狩猟": {
+            "key": "hunt_a_lagombi"
+        },
+        "百虫夜行": {
+            "key": "case_of_the_creepy_crawlies"
+        },
+        "商家のおかみさん": {
+            "key": "merchant's_wife"
+        },
+        "ウチの若いのが言うんだよ。大社跡には巨大な虫の大群が出るんです…って。地を這う大きな虫、空を舞う大きな虫、虫、虫、虫…話を聞いた全員が怖がっちゃって使いにも出せやしないよ。その巨大な虫とやらを退治しとくれ！": {
+            "key": "some_kids_were_telling_us_aboutall_the_bugs_at_the_shrine_ruins.creepy_crawly_bugs...bugs_thatfly—yuck!_i_am_not_going_therewith_all_those_bugs!_can_you_goout_and_exterminate_those_pests!?"
+        },
+        "オルタロスとブナハブラ合計１４匹の討伐": {
+            "key": "slay_a_total_of_14_altaroth_or_bnahabra"
+        },
+        "上手に焼けませーん！": {
+            "key": "hmm,_not_so_tasty..."
+        },
+        "料理人見習いアイルー": {
+            "key": "felyne_commis_chef"
+        },
+        "うっうっ、お肉の焼き加減って難しいのニャ…。早めにあげると生焼けだし、じっくり焼くと焦げちゃうニャ…。うぅ…いやまだまだ！　ぼくもっともっと修行するニャ！　ポポノタンをもっともっと持ってきてニャー！": {
+            "key": "meow_i'll_never_learn_to_cookmeat!_too_fast_and_it's_raw,_tooslow_and_it's_burnt..._i_need_morepurr-actice_but_i'm_all_out_of_popotongues._think_you_can_get_mesome_more?"
+        },
+        "ポポノタン３個の納品": {
+            "key": "deliver_3_popo_tongues"
+        },
+        "砂原の探索ツアー": {
+            "key": "a_tour_of_the_plains"
+        },
+        "おう、<PL>！砂原を自由に探索したいのならこのクエストがオススメだ。時間は無制限、何度やられても別にかまわんぞ！満足できたら、メニュー画面からいつでも帰還するがいい！": {
+            "key": "hey,_squirt!_try_this_quest_onfor_size_if_you_wanna_explorethe_sandy_plains_at_yourleisure:_there's_no_limit_ontime_or_repetition,_and_youcan_come_back_home_from_themenu_screen_whenever_ya_want!"
+        },
+        "砂原の探索": {
+            "key": "explore_the_sandy_plains"
+        },
+        "水没林の探索ツアー": {
+            "key": "a_tour_of_the_forest"
+        },
+        "おう、<PL>！水没林を自由に探索したいのならこのクエストがオススメだ。時間は無制限、何度やられても別にかまわんぞ！満足できたら、メニュー画面からいつでも帰還するがいい！": {
+            "key": "hey,_squirt!_try_this_quest_onfor_size_if_you_wanna_explorethe_flooded_forest_at_yourleisure:_there's_no_limit_ontime_or_repetition,_and_youcan_come_back_home_from_themenu_screen_whenever_ya_want!"
+        },
+        "水没林の探索": {
+            "key": "explore_the_flooded_forest"
+        },
+        "変幻の唐傘": {
+            "key": "feathered_frenzy"
+        },
+        "オトモ雇用窓口のイオリ": {
+            "key": "buddy_handler_iori"
+        },
+        "大社跡の幽霊騒ぎを聞いて、血気盛んなオトモたちが飛び出して行っちゃったんだ…。あそこは今、アケノシルムが暴れていて危険なのに…。オトモはボクが探し出すから、アケノシルムの狩猟をお願い！": {
+            "key": "i'm_sorry_hunter..._those_buddiesheard_that_there_were_\"ghosts\"_atthe_shrine_ruins_and_ran_off._i'mso_worried_about_them_with_thataknosom_around._can_you_huntit_while_i_go_look_for_them!?"
+        },
+        "アケノシルム１頭の狩猟": {
+            "key": "hunt_an_aknosom"
+        },
+        "百竜夜行、来たる": {
+            "key": "the_rampage_approaches"
+        },
+        "<PL>よ！百竜夜行が里の砦に接近中だ！里の衆が、「里守」として砦の周辺を防衛する！オマエは砦の内部で侵入してきたモンスターを撃退してくれ！では、いざ出陣！　気焔万丈！": {
+            "key": "alright,_squirt!_it_won't_belong_'fore_the_rampage_reachesthe_stronghold._our_defenderswill_do_their_best_to_hold_'emoff,_but_if_anything_breachestheir_line,_you're_huntin'_it!got_it?_now_let's_get_to_it!"
+        },
+        "最終関門の防衛": {
+            "key": "defend_the_final_gate"
+        },
+        "最終関門の破壊": {
+            "key": "final_gate_is_destroyed"
+        },
+        "丸呑み河童蛙": {
+            "key": "can't_stomach_the_thought"
+        },
+        "冷静な生物学者": {
+            "key": "unflappable_biologist"
+        },
+        "寒冷群島の生態調査中、河童蛙に遭遇してしまった。気付いたときには既に腹の中だ。ぬるぬるのじゃりじゃりだったぞ。私だからなんとか飛び出せたものの、他の者ならこうはいくまい。皆に危険が及ぶ前に、狩猟を頼む。": {
+            "key": "during_a_survey_of_the_frost_islands,i_was_attacked_by_a_tetranadonand_found_myself_inside_its_gut!i_managed_to_escape,_but_othersmight_not_be_so_lucky._pleasehunt_it_before_someone_gets_eaten!"
+        },
+        "ヨツミワドウ１頭の狩猟": {
+            "key": "hunt_a_tetranadon"
+        },
+        "砂原の大泥棒": {
+            "key": "walking_on_eggshells"
+        },
+        "砂原の運び屋": {
+            "key": "sandy_plains_courier"
+        },
+        "特別に手に入れた飛竜の卵を砂原の向こうの街に運びたい。でも、道中にはクルルヤックがいてさ…。卵なんて見つかったら持ってかれちまう。既に何個もやられてるんだ。頼むよ、砂原のクルルヤックをやっつけてくれ。": {
+            "key": "blasted_kulu-ya-ku_alwaysstealing_my_wyvern_eggs!i've_tried_and_tried_to_makemy_way_through_the_sandyplains_but_they_get_the_jumpon_me_every_single_time!"
+        },
+        "クルルヤック１頭の狩猟": {
+            "key": "hunt_a_kulu-ya-ku"
+        },
+        "泥沼の土砂竜": {
+            "key": "fightin'_dirty"
+        },
+        "里のキノコ採り名人": {
+            "key": "master_mushroom_forager"
+        },
+        "ペッペッ、あーあー！　服も靴も口の中まで泥だらけ！　ちょっと沼を横切ろうとしたら、中からボルボロスが飛び出してきて！採ったキノコもドロドロよ！水に弱い子もいるのに…困るわ。お願い、アイツをやっつけて！": {
+            "key": "ptoeey!_look_at_me!_covered_fromhead_to_toe_in_mud!_all_becausea_stupid_barroth_attacked_me!_nowall_the_mushrooms_i_gathered_areruined!_just_great!_can_you_goand_bash_that_barroth,_please!?"
+        },
+        "ボルボロス１頭の狩猟": {
+            "key": "hunt_a_barroth"
+        },
+        "毒霧に濡れた水没林": {
+            "key": "obnoxious_lord,_noxious_monster"
+        },
+        "領主の相談役": {
+            "key": "lord's_aide"
+        },
+        "水没林にドスフロギィが出ると聞いた領主の息子が、「俺様が倒してやるぜ！」と屋敷を飛び出した。愚行だ。まあ、あの男は危なくなったら勝手に逃げるから気にしなくてよい。ハンターよ、ドスフロギィを倒してくれ！": {
+            "key": "oh_dear..._the_lord's_son_hearda_great_wroggi_was_in_the_floodedforest_and_went_out_to_hunt_it._whata_fool._surely_he'll_run_at_the_firstsign_of_danger._can_you_hunt_thecreature_before_my_lord_gets_hurt."
+        },
+        "ドスフロギィ１頭の狩猟": {
+            "key": "hunt_a_great_wroggi"
+        },
+        "海綿質素材が作る砂漠の未来": {
+            "key": "spongy_oasis"
+        },
+        "砂漠の大発明家": {
+            "key": "desert_inventor"
+        },
+        "ロアルドロスの皮は、保水力が非常に高い。で、ワシは考えた。この皮に水を含ませ、地面に固定すれば、砂漠でも植物が育つのではと。さすがワシ、天才じゃ！ってわけで、砂漠の未来のためにロアルドロスを狩猟してくれ！": {
+            "key": "you_know_how_royal_ludroth_hideis_all_spongey_and_absorbs_lots_ofwater,_right?_if_we_get_a_bunch_of_it,then_desert_farmers_will_never_haveto_worry_about_watering_their_cropsever_again!_i._am._a._genius!"
+        },
+        "ロアルドロス１頭の狩猟": {
+            "key": "hunt_a_royal_ludroth"
+        },
+        "落っことした荷物を探せの巻": {
+            "key": "supply_run"
+        },
+        "行商人さんがモンスターに襲われちゃった！　里まで逃げるときに荷物を大社跡のあちこちに落としてきたみたいで、元気がないの。荷物の場所を聞いて、地図に書いておいたから、新しいうさ団子の材料、探してきてくれないかな？": {
+            "key": "help!_my_supplier_was_ambushedby_monsters,_and_dropped_alltheir_cargo_on_the_way_back_tokamura!_it_was_near_the_shrineruins—here,_i'll_mark_it_onyour_map,_so_can_you_get_thoseingredients_back?_pleeease!?"
+        },
+        "伝統の団子素材６個の納品": {
+            "key": "deliver_6_classic_dango_ingredients"
+        },
+        "顔のないバケモノ退治？": {
+            "key": "faceless_foe"
+        },
+        "怖がりの調査員": {
+            "key": "scared_researcher"
+        },
+        "思い出すだけで背筋が凍るよ…。あの日…仕事を終えたオイラは、腰を下ろして休憩してたんだ。そしたらね…肩にポツリと水滴が落ちてきて…み、見上げたら…顔のない、白いバケモノがぁー！ブルブル！　誰か、退治してー！": {
+            "key": "gross!_there_i_was,_taking_a_rest,when_something_wet_dripped_onmy_shoulder._i_look_up_and—ew!wrinkles,_veins,_and—ick—a_palemonster_with_no_face_that_lookslike_a—_*gag*_go_hunt_it_please!"
+        },
+        "フルフル１頭の狩猟": {
+            "key": "hunt_a_khezu"
+        },
+        "仰天！　サボテンで満点ボディ": {
+            "key": "the_cactus_diet"
+        },
+        "流行を追う女性": {
+            "key": "trend-chasing_woman"
+        },
+        "今サボテンダイエット中なの…！サボテンのサラダ…サボテンの和え物…サボテンステーキ…サボテンスムージー…まだまだいけるっ…！　なんだか楽しくなってきたわ。小玉サボテンを採ってきてちょうだい！": {
+            "key": "this_cactus_diet_has_taken_overmy_life._cactus_salad,_cactussteak,_cactus_smoothies—you_name_it!_but_now_i'm_allout_of_bauble_cactuses...cacti?_whatever!_just_goget_me_some!"
+        },
+        "小玉サボテン１０個の納品": {
+            "key": "deliver_10_bauble_cactus"
+        },
+        "砂原に蠢く謎の集団": {
+            "key": "a_sandy_cabal"
+        },
+        "謎を追い求める少女": {
+            "key": "wannabe_sleuth"
+        },
+        "謎や。ミステリーや。砂原で、けったいな気配を感じてな…。これがひとつやなくて、どえらい数で…気付けば囲まれてたんや！必死のパッチで逃げ切ったけど…あれは一体…なんやったんや？ハンターさん、解明よろしゅう！": {
+            "key": "what_a_twist!_i_was_attacked_bysome_strange_barking_creatures,but_in_my_desperation_to_escape,i_could_not_clearly_identify_myassailants..._hunter,_please,help_me_solve_this_riddle!"
+        },
+        "ジャギィとジャギィノス合計１４頭の討伐": {
+            "key": "slay_a_total_of_14_jaggi_or_jaggia"
+        },
+        "太古の息吹": {
+            "key": "breath_of_the_past"
+        },
+        "好奇心旺盛な坊ちゃん": {
+            "key": "inquisitive_young_master"
+        },
+        "素朴な彩水晶ってあるでしょ。あれって、水晶って言うけどほんとは小さな動物の化石なんだって、父さまが言ってたよ。僕、化石って見たことないんだ。じっくり見てみたいなあ。ハンターさん、採ってきてよ。": {
+            "key": "do_you_know_of_simple_prisms?they_call_it_a_prism,_but_it'sreally_a_small_animal_fossil.that's_what_father_said.i've_never_seen_a_fossil,_soi'd_like_to_take_a_look_at_it.please_find_one_for_me."
+        },
+        "素朴な彩水晶１０個の納品": {
+            "key": "deliver_10_simple_prisms"
+        },
+        "水も滴るいい女": {
+            "key": "ladies_of_the_lake"
+        },
+        "美しい奥方": {
+            "key": "gorgeous_lady"
+        },
+        "水没林で、はぐれた夫を探していたら、黄色いご婦人方に襲われびしょ濡れですわ。私の場合は、「美女濡れ」かしら？　うふふ。何にせよ、あの黄色いご婦人方がいては、私…夫に会えませんわ。追い払ってはいただけませんか？": {
+            "key": "i_was_looking_for_my_lost_husbandin_the_flooded_forest_when_i_wasattacked._i_had_heard_tales_of_sirensdressed_in_yellow_in_the_waters_there.if_i_am_to_ever_find_my_husband,_i_willneed_them_gone."
+        },
+        "ルドロス１０頭の討伐": {
+            "key": "slay_10_ludroth"
+        },
+        "溶岩洞の探索ツアー": {
+            "key": "a_tour_of_the_caverns"
+        },
+        "おう、<PL>！溶岩洞を自由に探索したいのならこのクエストがオススメだ。時間は無制限、何度やられても別にかまわんぞ！満足できたら、メニュー画面からいつでも帰還するがいい！": {
+            "key": "hey,_squirt!_try_this_quest_onfor_size_if_you_wanna_explorethe_lava_caverns_at_yourleisure:_there's_no_limit_ontime_or_repetition,_and_youcan_come_back_home_from_themenu_screen_whenever_ya_want!"
+        },
+        "溶岩洞の探索": {
+            "key": "search_the_lava_caverns"
+        },
+        "山林の荒法師": {
+            "key": "monkey_wrench_in_your_plans"
+        },
+        "加工屋のハモン": {
+            "key": "hamon_the_blacksmith"
+        },
+        "大社跡で、ビシュテンゴが通行人に迷惑をかけておる。ちょうど、造っていたからくりにヤツめの素材が必要であったゆえまさしく一挙両得の好機…。素材はワシが確保する。おぬしには、狩猟を任せたい。": {
+            "key": "in_order_to_separate_magnamalofrom_the_rampage,_i_need_tocomplete_my_device._in_order_todo_that,_i_need_materials_from_abishaten._one_has_been_spottedin_the_shrine_ruins._depart_at_once!"
+        },
+        "ビシュテンゴ１頭の狩猟": {
+            "key": "hunt_a_bishaten"
+        },
+        "特別許可試験・其の一": {
+            "key": "special_license_test_1"
+        },
+        "里の受付嬢ヒノエ": {
+            "key": "hinoa_the_quest_maiden"
+        },
+        "破竹の勢いで里のクエストを解決していくあなた様に、特別許可試験を受ける資格が与えられました。これをクリアすることで、なんと集会所を★２から開始できるようになりますよ。": {
+            "key": "seeing_how_you're_just_blazingthrough_those_quests,_you'veearned_the_opportunity_to_takea_special_license_test,_yay!passing_the_test_lets_you_takeon_2★_gathering_hub_quests.exciting,_right?_good_luck!"
+        },
+        "アケノシルム１頭とリオレイア１頭の狩猟": {
+            "key": "hunt_an_aknosom_and_a_rathian"
+        },
+        "黄泉路への歌声": {
+            "key": "infernal_lacrimosa"
+        },
+        "真面目なハンター": {
+            "key": "earnest_hunter"
+        },
+        "人魚竜狩猟の任務を受けた俺は寒冷群島へ赴いた。するとなにか歌のようなものが聞こえてきて、気が遠く…目が覚めたら傷だらけでキャンプにいたよ。あれが人魚竜の力か…。悔しいが俺じゃ歯が立ちそうにない。代わりに頼む。": {
+            "key": "i_was_tasked_to_hunt_a_so-called\"mermaid_dragon,\"_in_the_frostislands._upon_arriving,_i_heard_whatsounded_like_a_song_and_instantlyfell_asleep._i_woke_up_back_at_campcovered_in_gashes_and_cuts._whathappened_out_there!?"
+        },
+        "イソネミクニ１頭の狩猟": {
+            "key": "hunt_a_somnacanth"
+        },
+        "吹き荒ぶ銀世界": {
+            "key": "raging_white-out"
+        },
+        "とある一地方の豪族": {
+            "key": "foreign_noble"
+        },
+        "寒冷群島の辺りは、その気候ゆえ元々食料の調達が困難な土地なのじゃ。その上、ベリオロスの吐くブレスで、数少ない食料までもが凍らされてしまい、困っておる。どうかハンター殿、ベリオロスの狩猟を引き受けていただけんか。": {
+            "key": "the_area_surrounding_the_frostislands_is_scarce_in_food_as_itis_and_now_a_barioth_has_beenspotted_in_the_area._surely_wewill_starve_if_this_nuisance_isn'tdealt_with!"
+        },
+        "ベリオロス１頭の狩猟": {
+            "key": "hunt_a_barioth"
+        },
+        "女王様のお通りだ": {
+            "key": "the_queen's_procession"
+        },
+        "陽気な青年": {
+            "key": "cheerful_man"
+        },
+        "うっひゃぁ！　やべぇやべぇ、砂原で女王様が火を噴いてるぜ！オレの荷物も大炎上、危うく尻にまで火が付くところだったぜ！あっはっは！　いや笑い事じゃねーんだけどよ！　まあとにかくリオレイアを狩猟してくれぇ！": {
+            "key": "woohoo!_ohhh_man!_the_queenof_the_sandy_plains_is_spewingfire_everywhere!_she_burned_allmy_stuff—even_set_my_pantson_fire,_too!_haha!_wait...that'snot_funny..._*ahem*_pleasehunt_that_rathian!"
+        },
+        "リオレイア１頭の狩猟": {
+            "key": "hunt_a_rathian"
+        },
+        "宙を駆ける白き影": {
+            "key": "streaking_shadow"
+        },
+        "かけだし調査員": {
+            "key": "fledgling_investigator"
+        },
+        "水没林を探索していたときのことだ。不意に稲光がして、毛らしきものが降ってきたかと思ったら、白い何かが木々から木々へと飛び移り…ううう。なんとか逃げてきたけど、あれもモンスターの仕業だとか…なんとかしてくれ！": {
+            "key": "i_was_out_exploring_in_the_floodedforest,_when_suddenly,_lightningstruck._i_looked_to_the_sky_and_sawsomething_zipping_and_zappingfrom_tree_to_tree!_i_got_away_some-how,_but_others_might_not_be_solucky._please,_do_something!"
+        },
+        "トビカガチ１頭の狩猟": {
+            "key": "hunt_a_tobi-kadachi"
+        },
+        "赤熱の輪舞曲": {
+            "key": "a_song_of_red_and_fire"
+        },
+        "孤高の作曲家": {
+            "key": "solitary_composer"
+        },
+        "緩やかに溶岩の流れる音、ラングロトラが大地を転がる音、長い舌が獲物を捕らえる音、丸まり悪臭を噴出する音…ああ！これぞ私の求める命の音色！ハンターよ！　いや、名奏者よ！奏でるがいい！　私のために！": {
+            "key": "can_you_hear_that?_the_perfectmelody_of_flowing_lava,_smolderingash,_and_the_bassy_rumblings_ofthe_volcano_all_accompanied_bythe_sound_of_volvidon_rollingaround._bravo!_bravo!"
+        },
+        "ラングロトラ１頭の狩猟": {
+            "key": "hunt_a_volvidon"
+        },
+        "夜泣く岩石": {
+            "key": "off_your_rocker"
+        },
+        "溶岩洞の採掘屋": {
+            "key": "lava_caverns_excavator"
+        },
+        "俺は仕事で毎日溶岩洞に行くが、最近妙なんだ…。誰もいないはずの採掘場で、なにやら不気味な声が聞こえるんだ。いくら辺りを見回しても、なにもいやしない。化け物の仕業かもしれないな…ハンターさん、よろしく頼むよ。": {
+            "key": "dude..._i'm_freaking_out._everytime_i_go_to_the_lava_caverns,i_keep_hearing_this_creepy_voice.like,_i_look_around,_and_no_oneis_there!_no_one!_uh,_can_you_goand_check_it_out_for_me?_i_knowi'm_not_crazy!"
+        },
+        "バサルモス１頭の狩猟": {
+            "key": "hunt_a_basarios"
+        },
+        "恐怖の落とし物探し！　の巻": {
+            "key": "getting_back_the_groceries"
+        },
+        "一人で夜の溶岩洞を歩いてたの。そしたら急に声が響いて！　もう大パニック！　おかげで新しいうさ団子の材料をいろんな場所に落としてきちゃった…。場所はわかるけど怖くて行けないの…。代わりに取ってきてほしいな。": {
+            "key": "i_was_cutting_through_the_lavacaverns_one_night_when,_out_ofnowhere,_there_was_this_spookyroar!_i_freaked,_dropped_allmy_ingredients,_and_now...i'mway_too_scared_to_go_back_forthem._can_you,_um,_go_instead?"
+        },
+        "秘伝の団子素材６個の納品": {
+            "key": "deliver_6_secret_dango_ingredients"
+        },
+        "ドクターの孤独な毒研究": {
+            "key": "a_poisonous_project"
+        },
+        "研究熱心な医師": {
+            "key": "antidote_researcher"
+        },
+        "人生は日々研究だ！私は、新たな解毒薬を作るべく一人研究を進めている。そこで、次なる研究対象であるプケプケの狩猟を頼みたい。あ、新薬はまだ開発中だから、解毒薬をちゃんと持って行けよ！": {
+            "key": "my_research_is_everything_to_me!and_this_new_antidote_researchshall_be_my_legacy!_in_order_tocontinue_my_work,_i'll_need_youto_fetch_me_a_pukei-pukeispecimen._but_you'll_need_tobring_your_own_antidotes..."
+        },
+        "プケプケ１頭の狩猟": {
+            "key": "hunt_a_pukei-pukei"
+        },
+        "酒の肴にゃキモがいい": {
+            "key": "deliver_the_liver"
+        },
+        "酒好きの若旦那": {
+            "key": "boozy_youth"
+        },
+        "モンスターのキモは、やっぱり生に限るね！　せいぜい、軽くあぶったくらいがいい。新鮮なキモを肴にイイ酒をキュ～ッと…んあ～たまらん！　今夜も一杯やりてぇなぁ！　とれたて新鮮なモンスターのキモを、頼んだぜ！": {
+            "key": "me_and_my_pals_are_having_afew_drinks_tonight,_and_we'rehankerin'_after_some_monsterliver_with_'em._thing_is,_it'sonly_good_when_it's_raw—andi_ain't_eating_raw_liver_if_it_ain'tfresh!_think_you_can_hook_us_up?"
+        },
+        "モンスターのキモ５個の納品": {
+            "key": "deliver_5_monster_guts"
+        },
+        "鉄も溶かすぜ燃石炭": {
+            "key": "so_hot,_it_melts_iron"
+        },
+        "とある村の加工屋": {
+            "key": "foreign_smithy"
+        },
+        "武具の加工には、石炭が欠かせないんだ。特に純度の高い素材を使うときには、燃石炭がいい。カムラの里くらい設備が整っていれば別の方法もあるんだけど…俺の村ではこれしか方法がない。燃石炭の納品を頼むよ。": {
+            "key": "where_i'm_from,_if_you_want_tomake_good_equipment,_ya_gottause_lots_of_coal._maybe_kamurahas_some_fancy_pants_way_ofdoing_it_without_coal,_but_we_ain'tgot_the_facilities_like_you_folks_dohere._can_you_go_get_me_some?"
+        },
+        "燃石炭１２個の納品": {
+            "key": "deliver_12_pieces_of_coal"
+        },
+        "親子の糸": {
+            "key": "the_best_quest"
+        },
+        "家族思いの女の子": {
+            "key": "thoughtful_girl"
+        },
+        "だいすきなおとうさんにてぶくろをつくりたいです。おかあさんが、つけひばきのいとはすごくじょうぶだ、っていってました。いとがほしいです。つけひばきをたおしてください。おねがいします。": {
+            "key": "my_daddy's_the_best_and_i_wantto_make_the_best_gloves_for_him.mommy_says_that_rachnoid_threadis_the_best_for_making_gloves_so...can_you_go_and_fight_a_few_for_meand_bring_me_the_thread?_you'd_bethe_best_if_you_did!"
+        },
+        "ツケヒバキ１０匹の討伐": {
+            "key": "slay_10_rachnoid"
+        },
+        "ぶちかませ巴戦": {
+            "key": "third_wheel"
+        },
+        "軍配を握った娘": {
+            "key": "referee_girl"
+        },
+        "ひがぁしぃ～、アオア～シィラ～にぃしぃ～、ヨツミワド～ウ～。…あ、ハンターさんもいるんだったわ…。えっとえっと…まんなか～、ハンタ～さ～ん～。これでいい？　いいわよね！じゃ、頑張って！　勝ってね！": {
+            "key": "\"in_the_right_corner,_arzuros!and_in_the_left_corner,_tetranadon!\"oh!_you're_here_too!?_uh..._\"in_themiddle,_you!\"_how's_that?_yeah,uh,_good_luck!_hope_you_win!"
+        },
+        "全てのターゲットの狩猟": {
+            "key": "hunt_all_target_monsters"
+        },
+        "悪逆無道": {
+            "key": "comeuppance"
+        },
+        "５０年前の百竜夜行…。マガイマガドの出現によって里の被害は拡大してしまった。あの日の二の舞は断じて踏まん。<PL>よ！今こそマガイマガドを狩猟せよ！いざ、気焔万丈！": {
+            "key": "durin'_the_rampage_fifty_yearsago,_magnamalo_showed_upand_caused_an_epic_mess.we_can't_let_that_happen_everagain._you_gotta_take_downmagnamalo!_now_go_get_to_it!"
+        },
+        "マガイマガド１頭の狩猟": {
+            "key": "hunt_magnamalo"
+        },
+        "特別許可試験・其の二": {
+            "key": "special_license_test_2"
+        },
+        "破竹の勢いで里のクエストを解決していくあなた様に、特別許可試験を受ける資格が与えられました。これをクリアすることで、なんと集会所を★３から開始できるようになりますよ。": {
+            "key": "seeing_how_you're_just_blazingthrough_those_quests,_you'veearned_the_opportunity_to_takea_special_license_test,_yay!passing_the_test_lets_you_takeon_3★_gathering_hub_quests.exciting,_right?_good_luck!"
+        },
+        "疾風迅竜": {
+            "key": "wind_speed_wyvern"
+        },
+        "隣村の飛脚": {
+            "key": "neighboring_hamlet's_envoy"
+        },
+        "迅竜と名高いナルガクルガは、村で最速と言われた拙者でさえ遅れをとる程の速さの持ち主也。拙者、是が非でもその速さを我が物としたく候。迅竜の素材で履物を作り、その真髄に迫らん！何卒、狩猟を頼みたく候。": {
+            "key": "nargacuga_are_so_cool,_right?and_fast_too!_how_is_it_thatthey_are_so_light_on_their_feet!?i_must_know!_i_bet_if_i_madesome_nargacuga_shoes_i_couldbe_just_as_fast_as_they_are!"
+        },
+        "ナルガクルガ１頭の狩猟": {
+            "key": "hunt_a_nargacuga"
+        },
+        "帯電雷狼竜": {
+            "key": "electrifying_ephiphany"
+        },
+        "大社跡の生態調査中のことだ。不意に大気が震えるような感覚があったかと思えば、蒼白く光る雷狼竜に雷を落とされたのだ。痺れたな、うむ。特別製の帽子を被った私だからこそ平気だったが大層危険である。狩猟を頼むぞ。": {
+            "key": "during_a_survey_of_the_shrine_ruins,i_was_struck_by_a_bolt_of_lightning.at_first,_i_thought_perhaps_somegenius_idea_had_come_to_fruition,but_alas_it_was_only_a_zinogre..."
+        },
+        "ジンオウガ１頭の狩猟": {
+            "key": "hunt_a_zinogre"
+        },
+        "夜の砂漠の追跡者": {
+            "key": "nocturnal_tracker"
+        },
+        "さすらいの歌人": {
+            "key": "wandering_bard"
+        },
+        "夜の砂原は雅ですね。創作意欲を掻き立てる、見事な土地です。しかし…砂原にいると、何者かにずっと後をつけられているような…もう恐ろしくて、着想も心情も吹っ飛んでしまいます…！　あの「何者か」を退治してください！": {
+            "key": "the_plains_at_night_are_quiteelegant_and_inspiring..._butsomeone_or_something_isfollowing_me._i_feel_so_afraidthat_all_my_ideas_and_emotionsare_simply_swept_away!please_get_rid_of_this_stalker!"
+        },
+        "アンジャナフ１頭の狩猟": {
+            "key": "hunt_an_anjanath"
+        },
+        "月夜に舞う": {
+            "key": "waltzing_by_moonlight"
+        },
+        "伝統舞踊の名手": {
+            "key": "traditional_dance_master"
+        },
+        "ああ、美しいですわ…。弧を描くようにしなやかに宙を舞う泡狐竜…そして美しいヒレ！　あれさえあれば、私の舞も一層進化するに違いありませんわ！　ハンター様泡狐竜を狩猟してくださいまし！ヒレは私自ら回収いたしますわ！": {
+            "key": "o,_how_elegantly_the_mizutsunesteps,_arcing_through_the_air...it_must_be_the_fin!_if_i_hadone_for_my_own,_surely_i_coulddance_as_it_does_too..._i_know!hunter!_waltz_with_the_wyvern,and_i_shall_seize_its_fin!"
+        },
+        "タマミツネ１頭の狩猟": {
+            "key": "hunt_a_mizutsune"
+        },
+        "リオレウス警報発令中": {
+            "key": "rathalos_alert!"
+        },
+        "職務に勤勉な観測者": {
+            "key": "eagle-eyed_observer"
+        },
+        "溶岩洞より報告します。上空から降り注ぐ火の雨を確認。これは、雄火竜リオレウスの吐く炎とみて間違いありません。狩猟可能な実力を持つハンターはすぐに向かってください。観測所よりお伝えしました。": {
+            "key": "[report_begins]_rathalosspotted_in_the_lavacaverns_[stop]_requestingsupport_from_all_qualifiedhunters_[stop]_look_outfor_the_rain_of_fire_fromthe_sky_[report_ends]"
+        },
+        "リオレウス１頭の狩猟": {
+            "key": "hunt_a_rathalos"
+        },
+        "隠し味はうたた寝？　の巻": {
+            "key": "the_secret_ingredient"
+        },
+        "私、閃いちゃったんだ！聞いたら眠くなるっていう、イソネミクニの歌！　その歌を参考にすれば、お昼寝のようなスッキリ感が味わえるスゴイうさ団子が作れるはず！　捕獲、お願いしてもいいかな？": {
+            "key": "so_my_idea_is_to_make_thesenew_bunny_dango_that'llrefresh_you_just_like_a_powernap_would._but_to_do_that,_i_needyou_to_capture_a_somnacanthso_i_can_use_its_song_to_makea_recipe!_i_love_you_and_please!"
+        },
+        "イソネミクニ１頭の捕獲": {
+            "key": "capture_a_somnacanth"
+        },
+        "報酬金ゼロ、タイムアップ捕獲対象の討伐": {
+            "key": "reward_hits_0,_time_expires,or_capture_target_slain"
+        },
+        "ビリビリorスヤスヤ？": {
+            "key": "bzzzzz_or_zzzzzzzz"
+        },
+        "こだわりの強い彼女": {
+            "key": "fussy_girlfriend"
+        },
+        "ねえ、フルフルとイソネミクニ、どっちが可愛いと思う？　私は断然フルフル派！　でもカレはイソネミクニだって言うのよ！？ここは絶対、闘う２頭を見比べて考え直してもらうわ！　カレと隠れて見るから、狩猟をお願い！": {
+            "key": "my_boyfriend_is_straight_trippin'.he_thinks_that_somnacanthare_cuter_than_khezu._hello!obviously_khezu_are_but_hewon't_budge._well,_if_he_won'tsee_it_my_way,_then_i_guesswe'll_let_you_settle_this!"
+        },
+        "フルフル１頭とイソネミクニ１頭の狩猟": {
+            "key": "hunt_a_khezu_and_a_somnacanth"
+        },
+        "砂原騒然": {
+            "key": "nosey_nuisances"
+        },
+        "生粋のタル爆弾屋": {
+            "key": "barrel_bomb_maker"
+        },
+        "やいやい！　べらんめぇ、なんだてめぇら！　こんなところで暴れやがってこんちきしょう！おちおちタル爆弾の材料も集められやしねぇ！　総長だか掻鳥だか半額流だか蛮顎竜だか知らねぇがちゃちゃっと退治してくれぇ！": {
+            "key": "these_monsters_are_so_annoying!first_it_was_that_bird-brain_tryingto_peck_me_to_death,_then_it_wasthat_pink_snozz-o-saurus_tryingto_blow_mucus_all_over_me._wishthose_two_would_keep_their_nosesout_of_my_business!_argh!"
+        },
+        "クルルヤック１頭とアンジャナフ１頭の狩猟": {
+            "key": "hunt_a_kulu-ya-ku_and_an_anjanath"
+        },
+        "灼熱の大一番": {
+            "key": "the_hottest_around"
+        },
+        "好奇心旺盛なアイルー": {
+            "key": "curious_felyne"
+        },
+        "どんと構えた河童蛙に、赤甲獣が体当たりニャ！　何の争いかは知らないけど、ド迫力の大勝負だニャ！　河童蛙が突進して…赤甲獣も回転しながらこっちに…ニャ～！？　ダメニャ！　ここは場外ニャ～！　やめてニャ～！": {
+            "key": "a_volvidon_rammed_into_atetranodon!_i_don't_know_whatthey_were_fighting_over,_butit_was_amazing!_until_theycame_rolling_my_way_and_almostturned_me_into_roadkill!leave_me_outta_this,_will_ya!"
+        },
+        "ヨツミワドウ１頭とラングロトラ１頭の狩猟": {
+            "key": "hunt_a_tetranadon_and_a_volvidon"
+        },
+        "泥土の隠者": {
+            "key": "hermit_of_the_swamp"
+        },
+        "これも百竜夜行の影響か…。山奥に籠っていた隠者が大社跡まで降りてきてしまった。泥翁竜の名のとおり、泥を自在に操る、老かいな海竜だ。里に踏み込まれては一大事…！狩猟を頼むぞ、ツワモノよ！": {
+            "key": "an_almudron_is_makin'_a_real_messof_things_in_the_shrine_ruins._theyusually_just_keep_to_themselves_upin_the_mountains..._could_just_beanother_effect_of_the_rampageeither_way,_we_can't_let_it_get_anycloser_to_the_village._now_get_to_it!"
+        },
+        "オロミドロ１頭の狩猟": {
+            "key": "hunt_an_almudron"
+        },
+        "特別許可試験・其の三": {
+            "key": "special_license_test_3"
+        },
+        "破竹の勢いで里のクエストを解決していくあなた様に、特別許可試験を受ける資格が与えられました。これをクリアすることで、なんと集会所を★４から開始できるようになりますよ。": {
+            "key": "seeing_how_you're_just_blazingthrough_those_quests,_you'veearned_the_opportunity_to_takea_special_license_test,_yay!passing_the_test_lets_you_takeon_4★_gathering_hub_quests.exciting,_right?_good_luck!"
+        },
+        "彷徨える雪鬼獣": {
+            "key": "abominable_snow-beast"
+        },
+        "雪国に住む母親": {
+            "key": "tundra-dwelling_mother"
+        },
+        "寒冷群島には、夜になると唸り声を上げてうろつくモンスターがいるらしいの。それを聞いたうちの子が怖がっちゃって大変。夜一人でトイレにも行けなくなっちゃったのよ。ハンターさんなんとかしてちょうだい！": {
+            "key": "a_monster_in_the_frost_islandshas_been_roaring_after_dark.the_cries_have_terrified_mychild,_who_now_refuses_to_goto_the_toilet_alone_at_night!please,_help_us_if_you_can!"
+        },
+        "ゴシャハギ１頭の狩猟": {
+            "key": "hunt_a_goss_harag"
+        },
+        "轟く声": {
+            "key": "thundering_voice"
+        },
+        "寒冷群島で身を潜めている男": {
+            "key": "frost_islands_fugitive"
+        },
+        "いずこからか、唸りとも咆哮ともつかぬ声がこだまする…。まさかこれは、噂の轟竜であろうか。辛うじてその場を離れ、身を隠したが、声はやむことなく私を追ってくる…。頼む。私がヤツに見つかる前に、声の主を倒してくれ。": {
+            "key": "i_hear_roars_echoing_all_over,no_idea_where_they_come_from.i_fear_it_might_be_a_tigrex!wherever_i_hide,_the_growlingfollows._please,_i_beg_of_you...hunt_the_source_of_that_soundbefore_it_catches_up_with_me!"
+        },
+        "ティガレックス１頭の狩猟": {
+            "key": "hunt_a_tigrex"
+        },
+        "ねじれた欲望": {
+            "key": "twisted_desire"
+        },
+        "とある鍛冶屋の跡取り息子": {
+            "key": "smith's_son"
+        },
+        "あの角マジカッケェ。さすが角竜って言うだけあるっショ。あのネジれ感マジパネェ。キンキンに研いでウチの看板にしたくね？激ヤバ満員御礼じゃね？　あ～、どっかのイケてるハンターさん、角竜倒してくんねェかなぁ～！？": {
+            "key": "those_horns_are_so_cool!_fitfor_a_name_like_\"diablos\"_forsure,_with_that_twisted_shape.i'd_love_to_get_my_hands_onone_and_craft_my_store_signfrom_it._i_bet_it'd_do_wondersfor_business!"
+        },
+        "ディアブロス１頭の狩猟": {
+            "key": "hunt_a_diablos"
+        },
+        "大社跡での肝試し": {
+            "key": "a_test_of_courage"
+        },
+        "小心者のアイルー": {
+            "key": "cowardly_felyne"
+        },
+        "オイラ見たのニャ。大社跡で火の玉がふよふよ浮いてるのを！それだけじゃないニャ、遠くでぼんやり光る塊も見えたニャ！その周りにも光る何かが飛んで…ニャァ！　思い出すだけで怖いニャ！　なんとかしてニャ！": {
+            "key": "i'm_no_scaredy_cat_but_the_shrine_ruinsare_haunted!_haunted,_i_tell_ya!_therewas_this_big_scary_shadow_with_fireballsall_around_it_and_a_ghost_glowing_in_thedistance_surround_by_souls!_even_meowi_get_chills_just_thinking_about_it!_help!"
+        },
+        "マガイマガド１頭とジンオウガ１頭の狩猟": {
+            "key": "hunt_magnamalo_and_a_zinogre"
+        },
+        "電光雷轟、夢幻泡影": {
+            "key": "like_a_flash_of_lightning"
+        },
+        "口の立つ先輩ハンター": {
+            "key": "talkative_senior_hunter"
+        },
+        "よう、頑張ってるか？　今回は俺が活躍の場をやるぜ！水没林で飛雷竜と泡狐竜が縄張り争いをしててな。泡だの雷だので近付けねえ！　…まあ俺は行けるけど？　並のヤツじゃ無理だね、うん。…ってわけで、頑張れよ！": {
+            "key": "here's_a_favor_for_ya,_rookie,from_me._there's_a_mizutsuneand_a_tobi-kadachi_dukin'_itout_in_the_flooded_forest,_andi'm_lettin'_you_have_at_'em!i'm_feelin',_uh...charitabletoday._y-yeah._well,_good_luck!"
+        },
+        "トビカガチ１頭とタマミツネ１頭の狩猟": {
+            "key": "hunt_a_tobi-kadachi_and_a_mizutsune"
+        },
+        "天空の王者、大地の暴君": {
+            "key": "king_of_the_sky,_bane_of_the_land"
+        },
+        "年若い将軍": {
+            "key": "young_general"
+        },
+        "過酷な任務に耐えかねた部下が主君に歯向かい…私は監督責任を問われ、溶岩洞に異動になった。全ては、双方の気持ちを慮れなかった私の失態…責任を果たすためにも私は生きねばならぬ。すまぬが、モンスターの狩猟を頼む…！": {
+            "key": "my_subordinates_had_enough_oftheir_harsh_missions_andrebelled._i_was_forced_to_takeresponsibility_and_demoted_tothe_lava_caverns._i_need_to_getbetter_at_my_job,_but_to_do_soi_need_to_survive_first!_help!"
+        },
+        "リオレウス１頭とティガレックス１頭の狩猟": {
+            "key": "hunt_a_rathalos_and_a_tigrex"
+        },
+        "投げクナイ": {
+            "key": "throwing_kunai"
+        },
+        "小タル爆弾": {
+            "key": "barrel_bomb"
+        },
+        "大タル爆弾": {
+            "key": "large_barrel_bomb"
+        },
+        "シビレ罠": {
+            "key": "shock_trap"
+        },
+        "秘薬": {
+            "key": "max_potion"
+        },
+        "回復薬": {
+            "key": "potion"
+        },
+        "回復薬グレート": {
+            "key": "mega_potion"
+        },
+        "こんがり肉": {
+            "key": "well-done_steak"
+        },
+        "生命の粉塵": {
+            "key": "lifepowder"
+        },
+        "砥石": {
+            "key": "whetstone"
+        },
+        "解毒薬": {
+            "key": "antidote"
+        },
+        "消散剤": {
+            "key": "cleanser"
+        },
+        "消臭玉": {
+            "key": "deodorant"
+        },
+        "肉焼きセット": {
+            "key": "bbq_spit"
+        },
+        "空きビン": {
+            "key": "empty_phial"
+        },
+        "小タル": {
+            "key": "small_barrel"
+        },
+        "大タル": {
+            "key": "large_barrel"
+        },
+        "トラップツール": {
+            "key": "trap_tool"
+        },
+        "力の護符": {
+            "key": "powercharm"
+        },
+        "守りの護符": {
+            "key": "armorcharm"
+        },
+        "LV1 通常弾": {
+            "key": "normal_ammo_1"
+        },
+        "LV2 通常弾": {
+            "key": "normal_ammo_2"
+        },
+        "LV3 通常弾": {
+            "key": "normal_ammo_3"
+        },
+        "LV1 貫通弾": {
+            "key": "pierce_ammo_1"
+        },
+        "LV2 貫通弾": {
+            "key": "pierce_ammo_2"
+        },
+        "LV3 貫通弾": {
+            "key": "pierce_ammo_3"
+        },
+        "LV1 散弾": {
+            "key": "spread_ammo_1"
+        },
+        "LV2 散弾": {
+            "key": "spread_ammo_2"
+        },
+        "LV3 散弾": {
+            "key": "spread_ammo_3"
+        },
+        "LV1 徹甲榴弾": {
+            "key": "sticky_ammo_1"
+        },
+        "LV2 徹甲榴弾": {
+            "key": "sticky_ammo_2"
+        },
+        "LV1 拡散弾": {
+            "key": "cluster_bomb_1"
+        },
+        "LV2 拡散弾": {
+            "key": "cluster_bomb_2"
+        },
+        "LV1 毒弾": {
+            "key": "poison_ammo_1"
+        },
+        "LV2 毒弾": {
+            "key": "poison_ammo_2"
+        },
+        "LV1 麻痺弾": {
+            "key": "paralysis_ammo_1"
+        },
+        "LV2 麻痺弾": {
+            "key": "paralysis_ammo_2"
+        },
+        "LV1 睡眠弾": {
+            "key": "sleep_ammo_1"
+        },
+        "LV2 睡眠弾": {
+            "key": "sleep_ammo_2"
+        },
+        "LV1 減気弾": {
+            "key": "exhaust_ammo_1"
+        },
+        "LV2 減気弾": {
+            "key": "exhaust_ammo_2"
+        },
+        "LV1 回復弾": {
+            "key": "recover_ammo_1"
+        },
+        "火炎弾": {
+            "key": "flaming_ammo"
+        },
+        "水冷弾": {
+            "key": "water_ammo"
+        },
+        "電撃弾": {
+            "key": "thunder_ammo"
+        },
+        "氷結弾": {
+            "key": "freeze_ammo"
+        },
+        "斬裂弾": {
+            "key": "slicing_ammo"
+        },
+        "竜撃弾": {
+            "key": "wyvern_ammo"
+        },
+        "捕獲用麻酔弾": {
+            "key": "tranq_ammo"
+        },
+        "強撃ビン": {
+            "key": "power_coating"
+        },
+        "毒ビン": {
+            "key": "poison_coating"
+        },
+        "麻痺ビン": {
+            "key": "para_coating"
+        },
+        "睡眠ビン": {
+            "key": "sleep_coating"
+        },
+        "爆破ビン": {
+            "key": "blast_coating"
+        },
+        "接撃ビン": {
+            "key": "close-range_coating"
+        },
+        "減気ビン": {
+            "key": "exhaust_coating"
+        },
+        "福引券": {
+            "key": "lottery_ticket"
+        },
+        "雌火竜の鱗": {
+            "key": "rathian_scale"
+        },
+        "雌火竜の甲殻": {
+            "key": "rathian_shell"
+        },
+        "雌火竜の翼膜": {
+            "key": "rathian_webbing"
+        },
+        "雌火竜の棘": {
+            "key": "rathian_spike"
+        },
+        "雌火竜の逆鱗": {
+            "key": "rathian_plate"
+        },
+        "火竜の鱗": {
+            "key": "rathalos_scale"
+        },
+        "火竜の甲殻": {
+            "key": "rathalos_shell"
+        },
+        "火竜の翼膜": {
+            "key": "rathalos_webbing"
+        },
+        "火竜の逆鱗": {
+            "key": "rathalos_plate"
+        },
+        "火竜の骨髄": {
+            "key": "rathalos_marrow"
+        },
+        "火炎袋": {
+            "key": "flame_sac"
+        },
+        "雷狼竜の甲殻": {
+            "key": "zinogre_shell"
+        },
+        "雷狼竜の帯電毛": {
+            "key": "zinogre_shockfur"
+        },
+        "雷狼竜の爪": {
+            "key": "zinogre_claw"
+        },
+        "雷狼竜の蓄電殻": {
+            "key": "zinogre_shocker"
+        },
+        "雷狼竜の逆鱗": {
+            "key": "zinogre_plate"
+        },
+        "泡狐竜の鱗": {
+            "key": "mizutsune_scale"
+        },
+        "泡狐竜の紫毛": {
+            "key": "mizutsune_purplefur"
+        },
+        "泡狐竜の爪": {
+            "key": "mizutsune_claw"
+        },
+        "泡立つ滑液": {
+            "key": "bubblefoam"
+        },
+        "泡狐竜の逆鱗": {
+            "key": "mizutsune_plate"
+        },
+        "傘鳥の鱗": {
+            "key": "aknosom_scale"
+        },
+        "傘鳥の羽鱗": {
+            "key": "aknosom_feather"
+        },
+        "傘鳥のトサカ": {
+            "key": "aknosom_crest"
+        },
+        "河童蛙の皮": {
+            "key": "tetranadon_hide"
+        },
+        "河童蛙の苔背甲": {
+            "key": "tetra_carapace"
+        },
+        "河童蛙の嘴": {
+            "key": "tetranadon_beak"
+        },
+        "泥翁竜の鱗": {
+            "key": "almudron_scale"
+        },
+        "泥翁竜の甲殻": {
+            "key": "almudron_shell"
+        },
+        "泥翁竜の爪": {
+            "key": "almudron_claw"
+        },
+        "生肉": {
+            "key": "raw_meat"
+        },
+        "落とし穴": {
+            "key": "pitfall_trap"
+        },
+        "謹製おだんご券": {
+            "key": "dango_ticket"
+        },
+        "ハチミツ": {
+            "key": "honey"
+        },
+        "アオキノコ": {
+            "key": "blue_mushroom"
+        },
+        "不死虫": {
+            "key": "godbug"
+        },
+        "薬草": {
+            "key": "herb"
+        },
+        "ウチケシの実": {
+            "key": "nulberry"
+        },
+        "ツラヌキの実": {
+            "key": "latchberry"
+        },
+        "鉄鉱石": {
+            "key": "iron_ore"
+        },
+        "大地の結晶": {
+            "key": "earth_crystal"
+        },
+        "マカライト鉱石": {
+            "key": "machalite_ore"
+        },
+        "ドラグライト鉱石": {
+            "key": "dragonite_ore"
+        },
+        "特産キノコ": {
+            "key": "unique_mushroom"
+        },
+        "厳選キノコ": {
+            "key": "choice_mushroom"
+        },
+        "元気ドリンコ": {
+            "key": "energy_drink"
+        },
+        "LV1 放散弾": {
+            "key": "shrapnel_ammo_1"
+        },
+        "LV2 放散弾": {
+            "key": "shrapnel_ammo_2"
+        },
+        "LV3 放散弾": {
+            "key": "shrapnel_ammo_3"
+        },
+        "蛮顎竜の毛皮": {
+            "key": "anjanath_pelt"
+        },
+        "蛮顎竜の鱗": {
+            "key": "anjanath_scale"
+        },
+        "蛮顎竜の牙": {
+            "key": "anjanath_fang"
+        },
+        "蛮顎竜の鼻骨": {
+            "key": "anjanath_nosebone"
+        },
+        "蛮顎竜の尻尾": {
+            "key": "anjanath_tail"
+        },
+        "蛮顎竜の逆鱗": {
+            "key": "anjanath_plate"
+        },
+        "鎧玉": {
+            "key": "armor_sphere"
+        },
+        "上鎧玉": {
+            "key": "armor_sphere_plus"
+        },
+        "尖鎧玉": {
+            "key": "advanced_armor_sphere"
+        },
+        "LV3 徹甲榴弾": {
+            "key": "sticky_ammo_3"
+        },
+        "LV3 拡散弾": {
+            "key": "cluster_bomb_3"
+        },
+        "LV2 回復弾": {
+            "key": "recover_ammo_2"
+        },
+        "鬼人弾": {
+            "key": "demon_ammo"
+        },
+        "硬化弾": {
+            "key": "armor_ammo"
+        },
+        "貫通火炎弾": {
+            "key": "piercing_fire_ammo"
+        },
+        "貫通水冷弾": {
+            "key": "piercing_water_ammo"
+        },
+        "貫通氷結弾": {
+            "key": "piercing_ice_ammo"
+        },
+        "貫通電撃弾": {
+            "key": "piercing_thunder_ammo"
+        },
+        "滅龍弾": {
+            "key": "dragon_ammo"
+        },
+        "貫通滅龍弾": {
+            "key": "piercing_dragon_ammo"
+        },
+        "閃光玉": {
+            "key": "flash_bomb"
+        },
+        "古めかしい手記": {
+            "key": "old_message"
+        },
+        "傘鳥のクチバシ": {
+            "key": "aknosom_beak"
+        },
+        "河童蛙の皿": {
+            "key": "tetranadon_disc"
+        },
+        "人魚竜の鱗": {
+            "key": "somnacanth_scale"
+        },
+        "人魚竜の甲殻": {
+            "key": "somnacanth_shell"
+        },
+        "人魚竜の鉤爪": {
+            "key": "somnacanth_talon"
+        },
+        "人魚竜の髪ヒレ": {
+            "key": "somnacanth_fin"
+        },
+        "人魚竜の眠り粉": {
+            "key": "somnacanth_dust"
+        },
+        "怨虎竜の鱗": {
+            "key": "magnamalo_scale"
+        },
+        "怨虎竜の甲殻": {
+            "key": "magnamalo_shell"
+        },
+        "怨虎竜の腕刃": {
+            "key": "magnamalo_blade"
+        },
+        "怨虎竜の槍刃尾": {
+            "key": "magnamalo_tail"
+        },
+        "怨虎竜の兜角": {
+            "key": "magnamalo_horn"
+        },
+        "怨虎竜の刀殻": {
+            "key": "magnamalo_scute"
+        },
+        "怨虎竜の霊結晶": {
+            "key": "magna_ghostprism"
+        },
+        "怨虎竜の逆鱗": {
+            "key": "magnamalo_plate"
+        },
+        "黄金色の泥土": {
+            "key": "golden_muck"
+        },
+        "泥翁竜の毛ヒレ": {
+            "key": "almudron_fin"
+        },
+        "泥翁竜の尻尾": {
+            "key": "almudron_tail"
+        },
+        "泥翁竜の髭": {
+            "key": "almudron_whisker"
+        },
+        "泥翁竜の逆鱗": {
+            "key": "almudron_plate"
+        },
+        "雪鬼獣の毛": {
+            "key": "goss_harag_fur"
+        },
+        "雪鬼獣の皮": {
+            "key": "goss_harag_hide"
+        },
+        "雪鬼獣の腕甲": {
+            "key": "goss_harag_brace"
+        },
+        "雪鬼獣の角": {
+            "key": "goss_harag_horn"
+        },
+        "雪鬼獣の拳爪": {
+            "key": "goss_harag_claw"
+        },
+        "しゃっこい氷塊": {
+            "key": "block_of_ice"
+        },
+        "雪鬼胆": {
+            "key": "goss_harag_bile"
+        },
+        "青熊獣の毛": {
+            "key": "arzuros_pelt"
+        },
+        "青熊獣の剛毛": {
+            "key": "arzuros_pelt_plus"
+        },
+        "青熊獣の甲殻": {
+            "key": "arzuros_shell"
+        },
+        "青熊獣の堅殻": {
+            "key": "arzuros_carapace"
+        },
+        "青熊獣の腕甲": {
+            "key": "arzuros_brace"
+        },
+        "青熊獣の堅腕甲": {
+            "key": "arzuros_brace_plus"
+        },
+        "眠狗竜の皮": {
+            "key": "great_baggi_hide"
+        },
+        "眠狗竜の上皮": {
+            "key": "great_baggi_hide_plus"
+        },
+        "眠狗竜の爪": {
+            "key": "great_baggi_claw"
+        },
+        "眠狗竜の尖爪": {
+            "key": "great_baggi_claw_plus"
+        },
+        "白兎獣の毛": {
+            "key": "lagombi_pelt"
+        },
+        "白兎獣の剛毛": {
+            "key": "lagombi_pelt_plus"
+        },
+        "白兎獣の耳": {
+            "key": "lagombi_ear"
+        },
+        "白兎獣の大耳": {
+            "key": "lagombi_ear_plus"
+        },
+        "白兎獣の腹甲": {
+            "key": "lagombi_plastron"
+        },
+        "白兎獣の堅腹甲": {
+            "key": "lagombi_plastron_plus"
+        },
+        "白兎獣の氷爪": {
+            "key": "lagombi_iceclaw"
+        },
+        "白兎獣の凍爪": {
+            "key": "lagombi_frozenclaw"
+        },
+        "ブヨブヨした皮": {
+            "key": "flabby_hide"
+        },
+        "真珠色の柔皮": {
+            "key": "pearl_hide"
+        },
+        "アルビノエキス": {
+            "key": "pale_extract"
+        },
+        "アルビノの中落ち": {
+            "key": "pale_bone"
+        },
+        "アルビノの霜降り": {
+            "key": "pale_steak"
+        },
+        "土砂竜の甲殻": {
+            "key": "barroth_shell"
+        },
+        "土砂竜の堅殻": {
+            "key": "barroth_carapace"
+        },
+        "土砂竜の背甲": {
+            "key": "barroth_ridge"
+        },
+        "土砂竜の堅甲": {
+            "key": "barroth_ridge_plus"
+        },
+        "土砂竜の爪": {
+            "key": "barroth_claw"
+        },
+        "土砂竜の鋭爪": {
+            "key": "barroth_claw_plus"
+        },
+        "土砂竜の頭殻": {
+            "key": "barroth_scalp"
+        },
+        "土砂竜の尻尾": {
+            "key": "barroth_tail"
+        },
+        "肥沃なドロ": {
+            "key": "fertile_mud"
+        },
+        "毒狗竜の皮": {
+            "key": "great_wroggi_hide"
+        },
+        "毒狗竜の上皮": {
+            "key": "great_wroggi_hide_plus"
+        },
+        "毒狗竜の腕甲": {
+            "key": "great_wroggi_brace"
+        },
+        "毒狗竜の堅腕甲": {
+            "key": "great_wroggi_brace_plus"
+        },
+        "王者のクチバシ": {
+            "key": "king's_beak"
+        },
+        "海綿質の皮": {
+            "key": "spongy_hide"
+        },
+        "海綿質の上皮": {
+            "key": "spongy_hide_plus"
+        },
+        "水獣の鱗": {
+            "key": "royal_ludroth_scale"
+        },
+        "水獣の上鱗": {
+            "key": "royal_ludroth_scale_plus"
+        },
+        "水獣の爪": {
+            "key": "royal_ludroth_claw"
+        },
+        "水獣の鋭爪": {
+            "key": "royal_ludroth_claw_plus"
+        },
+        "水獣のトサカ": {
+            "key": "royal_ludroth_crest"
+        },
+        "高級なトサカ": {
+            "key": "royal_ludroth_crest_plus"
+        },
+        "水獣の尻尾": {
+            "key": "royal_ludroth_tail"
+        },
+        "氷牙竜の甲殻": {
+            "key": "barioth_shell"
+        },
+        "氷牙竜の堅殻": {
+            "key": "barioth_carapace"
+        },
+        "氷牙竜の毛皮": {
+            "key": "barioth_pelt"
+        },
+        "氷牙竜の上毛皮": {
+            "key": "barioth_pelt_plus"
+        },
+        "氷牙竜の爪": {
+            "key": "barioth_claw"
+        },
+        "氷牙竜の鋭爪": {
+            "key": "barioth_claw_plus"
+        },
+        "氷牙竜の棘": {
+            "key": "barioth_spike"
+        },
+        "氷牙竜の尻尾": {
+            "key": "barioth_tail"
+        },
+        "琥珀色の牙": {
+            "key": "amber_fang"
+        },
+        "琥珀色の鋭牙": {
+            "key": "amber_fang_plus"
+        },
+        "赤甲獣の甲殻": {
+            "key": "volvidon_shell"
+        },
+        "赤甲獣の堅殻": {
+            "key": "volvi_carapace"
+        },
+        "赤甲獣の爪": {
+            "key": "volvidon_claw"
+        },
+        "赤甲獣の尖爪": {
+            "key": "volvidon_claw_plus"
+        },
+        "赤甲獣の蛇腹甲": {
+            "key": "volvi_rickrack"
+        },
+        "岩竜の甲殻": {
+            "key": "basarios_shell"
+        },
+        "岩竜の堅殻": {
+            "key": "basarios_carapace"
+        },
+        "岩竜の翼": {
+            "key": "basarios_wing"
+        },
+        "岩竜の涙": {
+            "key": "basarios_tears"
+        },
+        "迅竜の鱗": {
+            "key": "nargacuga_scale"
+        },
+        "迅竜の上鱗": {
+            "key": "nargacuga_scale_plus"
+        },
+        "迅竜の黒毛": {
+            "key": "nargacuga_blackfur"
+        },
+        "迅竜の上黒毛": {
+            "key": "nargacuga_pelt_plus"
+        },
+        "迅竜の尻尾": {
+            "key": "nargacuga_tail"
+        },
+        "迅竜の尾棘": {
+            "key": "narga_tailspike"
+        },
+        "迅竜の刃翼": {
+            "key": "nargacuga_cutwing"
+        },
+        "迅竜の鋭刃翼": {
+            "key": "narga_razor"
+        },
+        "迅竜の牙": {
+            "key": "nargacuga_fang"
+        },
+        "迅竜の鋭牙": {
+            "key": "nargacuga_fang_plus"
+        },
+        "迅竜の骨髄": {
+            "key": "nargacuga_marrow"
+        },
+        "迅竜の延髄": {
+            "key": "narga_medulla"
+        },
+        "雌火竜の上鱗": {
+            "key": "rathian_scale_plus"
+        },
+        "雌火竜の堅殻": {
+            "key": "rathian_carapace"
+        },
+        "雌火竜の上棘": {
+            "key": "rathian_spike_plus"
+        },
+        "雌火竜の紅玉": {
+            "key": "rathian_ruby"
+        },
+        "雷狼竜の堅殻": {
+            "key": "zinogre_carapace"
+        },
+        "雷狼竜の高電毛": {
+            "key": "zinogre_electrofur"
+        },
+        "雷狼竜の尖角": {
+            "key": "zinogre_horn_plus"
+        },
+        "雷狼竜の尖爪": {
+            "key": "zinogre_claw_plus"
+        },
+        "雷狼竜の高電殻": {
+            "key": "zinogre_shocker_plus"
+        },
+        "雷狼竜の碧玉": {
+            "key": "zinogre_jasper"
+        },
+        "泡狐竜の上鱗": {
+            "key": "mizutsune_scale_plus"
+        },
+        "泡狐竜の紫上毛": {
+            "key": "mizutsune_purplefur_plus"
+        },
+        "泡狐竜の尖爪": {
+            "key": "mizutsune_claw_plus"
+        },
+        "泡狐竜の上錦ヒレ": {
+            "key": "mizutsune_fin_plus"
+        },
+        "泡立つ上滑液": {
+            "key": "bubblefoam_plus"
+        },
+        "泡狐竜の水玉": {
+            "key": "mizutsune_water_orb"
+        },
+        "火竜の上鱗": {
+            "key": "rathalos_scale_plus"
+        },
+        "火竜の堅殻": {
+            "key": "rathalos_carapace"
+        },
+        "火竜の翼": {
+            "key": "rathalos_wing"
+        },
+        "火竜の紅玉": {
+            "key": "rathalos_ruby"
+        },
+        "ねじれた角": {
+            "key": "twisted_horn"
+        },
+        "上質なねじれた角": {
+            "key": "majestic_horn"
+        },
+        "角竜の甲殻": {
+            "key": "diablos_shell"
+        },
+        "角竜の堅殻": {
+            "key": "diablos_carapace"
+        },
+        "角竜の背甲": {
+            "key": "diablos_ridge"
+        },
+        "角竜の堅甲": {
+            "key": "diablos_ridge_plus"
+        },
+        "角竜の尾甲": {
+            "key": "diablos_tailcase"
+        },
+        "角竜の牙": {
+            "key": "diablos_fang"
+        },
+        "角竜の骨髄": {
+            "key": "diablos_marrow"
+        },
+        "角竜の延髄": {
+            "key": "diablos_medulla"
+        },
+        "轟竜の鱗": {
+            "key": "tigrex_scale"
+        },
+        "轟竜の上鱗": {
+            "key": "tigrex_scale_plus"
+        },
+        "轟竜の甲殻": {
+            "key": "tigrex_shell"
+        },
+        "轟竜の堅殻": {
+            "key": "tigrex_carapace"
+        },
+        "轟竜の尻尾": {
+            "key": "tigrex_tail"
+        },
+        "轟竜の爪": {
+            "key": "tigrex_claw"
+        },
+        "轟竜の尖爪": {
+            "key": "tigrex_claw_plus"
+        },
+        "轟竜の牙": {
+            "key": "tigrex_fang"
+        },
+        "轟竜の鋭牙": {
+            "key": "tigrex_fang_plus"
+        },
+        "轟竜の頭殻": {
+            "key": "tigrex_scalp"
+        },
+        "轟竜のアギト": {
+            "key": "tigrex_maw"
+        },
+        "金獅子の尖角": {
+            "key": "rajang_horn_plus"
+        },
+        "金獅子の鋭牙": {
+            "key": "rajang_fang_plus"
+        },
+        "金獅子の黒毛": {
+            "key": "rajang_blackfur"
+        },
+        "金獅子の尖爪": {
+            "key": "rajang_claw_plus"
+        },
+        "金獅子の尻尾": {
+            "key": "rajang_tail"
+        },
+        "黄金の毛": {
+            "key": "gold_rajang_pelt"
+        },
+        "ケルビの角": {
+            "key": "kelbi_horn"
+        },
+        "ガウシカの角": {
+            "key": "anteka_antler"
+        },
+        "草食竜の甲殻": {
+            "key": "rhenoplos_shell"
+        },
+        "草食竜の堅殻": {
+            "key": "rhenoplos_carapace"
+        },
+        "草食竜の頭殻": {
+            "key": "rhenoplos_scalp"
+        },
+        "垂皮竜の皮": {
+            "key": "slagtoth_hide"
+        },
+        "垂皮竜の上皮": {
+            "key": "slagtoth_hide_plus"
+        },
+        "丸鳥の羽": {
+            "key": "gargwa_feather"
+        },
+        "飛甲虫の甲殻": {
+            "key": "bnahabra_shell"
+        },
+        "飛甲虫の堅殻": {
+            "key": "bnahabra_carapace"
+        },
+        "飛甲虫の羽": {
+            "key": "bnahabra_wing"
+        },
+        "飛甲虫の麻痺針": {
+            "key": "bnahabra_stinger"
+        },
+        "甲虫の大顎": {
+            "key": "altaroth_jaw"
+        },
+        "甲虫の腹袋": {
+            "key": "altaroth_stomach"
+        },
+        "上質な腹袋": {
+            "key": "quality_stomach"
+        },
+        "ファンゴの毛皮": {
+            "key": "bullfango_pelt"
+        },
+        "ファンゴの上毛皮": {
+            "key": "bullfango_pelt_plus"
+        },
+        "ファンゴの頭": {
+            "key": "bullfango_head"
+        },
+        "咬魚の皮": {
+            "key": "gajau_skin"
+        },
+        "咬魚のヒゲ": {
+            "key": "gajau_whisker"
+        },
+        "咬魚の上皮": {
+            "key": "gajau_scale"
+        },
+        "咬魚の上ヒゲ": {
+            "key": "gajau_whisker_plus"
+        },
+        "ジャギィの鱗": {
+            "key": "jaggi_scale"
+        },
+        "ジャギィの上鱗": {
+            "key": "jaggi_scale_plus"
+        },
+        "ジャギィの皮": {
+            "key": "jaggi_hide"
+        },
+        "バギィの皮": {
+            "key": "baggi_hide"
+        },
+        "バギィの鱗": {
+            "key": "baggi_scale"
+        },
+        "バギィの上鱗": {
+            "key": "baggi_scale_plus"
+        },
+        "フロギィの鱗": {
+            "key": "wroggi_scale"
+        },
+        "フロギィの上鱗": {
+            "key": "wroggi_scale_plus"
+        },
+        "フロギィの皮": {
+            "key": "wroggi_hide"
+        },
+        "フロギィの毒牙": {
+            "key": "wroggi_fang"
+        },
+        "ケストドンの甲殻": {
+            "key": "kestodon_shell"
+        },
+        "ケストドンの頭殻": {
+            "key": "kestodon_scalp"
+        },
+        "ケストドンの堅殻": {
+            "key": "kestodon_carapace"
+        },
+        "水生獣の皮": {
+            "key": "hydro_hide"
+        },
+        "水生獣の上皮": {
+            "key": "hydro_hide_plus"
+        },
+        "未熟な海綿質": {
+            "key": "immature_sponge"
+        },
+        "溶岩獣の鱗": {
+            "key": "uroktor_scale"
+        },
+        "溶岩獣の上鱗": {
+            "key": "uroktor_scale_plus"
+        },
+        "大きなヒレ": {
+            "key": "big_fin"
+        },
+        "上質なヒレ": {
+            "key": "quality_fin"
+        },
+        "肉厚な皮": {
+            "key": "meaty_hide"
+        },
+        "肉厚な上皮": {
+            "key": "meaty_hide_plus"
+        },
+        "鮫肌の鱗": {
+            "key": "sharqskin_scale"
+        },
+        "翼蛇竜の皮": {
+            "key": "remobra_hide"
+        },
+        "翼蛇竜の上皮": {
+            "key": "remobra_hide_plus"
+        },
+        "縞模様の皮": {
+            "key": "striped_hide"
+        },
+        "翼蛇竜の頭": {
+            "key": "remobra_head"
+        },
+        "ジャグラスの鱗": {
+            "key": "jagras_scale"
+        },
+        "ジャグラスの皮": {
+            "key": "jagras_hide"
+        },
+        "ジャグラスの上鱗": {
+            "key": "jagras_scale_plus"
+        },
+        "ジャグラスの上皮": {
+            "key": "jagras_hide_plus"
+        },
+        "竜骨【小】": {
+            "key": "monster_bone_s"
+        },
+        "竜骨【中】": {
+            "key": "monster_bone_m"
+        },
+        "竜骨【大】": {
+            "key": "monster_bone_l"
+        },
+        "上竜骨": {
+            "key": "monster_bone_plus"
+        },
+        "尖竜骨": {
+            "key": "monster_keenbone"
+        },
+        "堅竜骨": {
+            "key": "monster_hardbone"
+        },
+        "古龍骨": {
+            "key": "elder_dragon_bone"
+        },
+        "大きな骨": {
+            "key": "jumbo_bone"
+        },
+        "堅牢な骨": {
+            "key": "stoutbone"
+        },
+        "鳥竜玉": {
+            "key": "bird_wyvern_gem"
+        },
+        "竜玉": {
+            "key": "wyvern_gem"
+        },
+        "とがった爪": {
+            "key": "sharp_claw"
+        },
+        "とがった牙": {
+            "key": "sharp_fang"
+        },
+        "鋭利な爪": {
+            "key": "piercing_claw"
+        },
+        "暖かい毛皮": {
+            "key": "warm_pelt"
+        },
+        "上質な毛皮": {
+            "key": "high-quality_pelt"
+        },
+        "古龍の血": {
+            "key": "elder_dragon_blood"
+        },
+        "鳴き袋": {
+            "key": "screamer_sac"
+        },
+        "毒袋": {
+            "key": "poison_sac"
+        },
+        "猛毒袋": {
+            "key": "toxin_sac"
+        },
+        "麻痺袋": {
+            "key": "paralysis_sac"
+        },
+        "強力麻痺袋": {
+            "key": "omniplegia_sac"
+        },
+        "睡眠袋": {
+            "key": "sleep_sac"
+        },
+        "昏睡袋": {
+            "key": "coma_sac"
+        },
+        "爆炎袋": {
+            "key": "inferno_sac"
+        },
+        "電気袋": {
+            "key": "electro_sac"
+        },
+        "電撃袋": {
+            "key": "thunder_sac"
+        },
+        "氷結袋": {
+            "key": "frost_sac"
+        },
+        "凍結袋": {
+            "key": "freezer_sac"
+        },
+        "水袋": {
+            "key": "aqua_sac"
+        },
+        "大水袋": {
+            "key": "torrent_sac"
+        },
+        "モンスターの体液": {
+            "key": "monster_fluid"
+        },
+        "モンスターの濃汁": {
+            "key": "monster_broth"
+        },
+        "狂走エキス": {
+            "key": "dash_extract"
+        },
+        "肉球のスタンプ": {
+            "key": "pawprint_stamp"
+        },
+        "ネコ毛の紅玉": {
+            "key": "felyne_fur_ruby"
+        },
+        "火竜の翼爪": {
+            "key": "rath_wingtalon"
+        },
+        "火竜の延髄": {
+            "key": "rathalos_medulla"
+        },
+        "雷狼竜の角": {
+            "key": "zinogre_horn"
+        },
+        "雷狼竜の尻尾": {
+            "key": "zinogre_tail"
+        },
+        "超電雷光虫": {
+            "key": "fulgurbug"
+        },
+        "泡狐竜の錦ヒレ": {
+            "key": "mizutsune_fin"
+        },
+        "泡狐竜の尻尾": {
+            "key": "mizutsune_tail"
+        },
+        "火竜の尻尾": {
+            "key": "rathalos_tail"
+        },
+        "生焼け肉": {
+            "key": "rare_steak"
+        },
+        "コゲ肉": {
+            "key": "burnt_meat"
+        },
+        "いにしえの秘薬": {
+            "key": "ancient_potion"
+        },
+        "生命の大粉塵": {
+            "key": "dust_of_life"
+        },
+        "こんがり魚": {
+            "key": "gourmet_fish"
+        },
+        "サシミウオ": {
+            "key": "sushifish"
+        },
+        "活力剤": {
+            "key": "immunizer"
+        },
+        "携帯食料": {
+            "key": "ration"
+        },
+        "強走薬": {
+            "key": "dash_juice"
+        },
+        "げどく草": {
+            "key": "antidote_herb"
+        },
+        "漢方薬": {
+            "key": "herbal_medicine"
+        },
+        "漢方の粉塵": {
+            "key": "herbal_powder"
+        },
+        "鬼人薬": {
+            "key": "demondrug"
+        },
+        "鬼人薬グレート": {
+            "key": "mega_demondrug"
+        },
+        "怪力の種": {
+            "key": "might_seed"
+        },
+        "鬼人の粉塵": {
+            "key": "demon_powder"
+        },
+        "力の爪": {
+            "key": "powertalon"
+        },
+        "硬化薬": {
+            "key": "armorskin"
+        },
+        "硬化薬グレート": {
+            "key": "mega_armorskin"
+        },
+        "忍耐の種": {
+            "key": "adamant_seed"
+        },
+        "硬化の粉塵": {
+            "key": "hardshell_powder"
+        },
+        "守りの爪": {
+            "key": "armortalon"
+        },
+        "大タル爆弾Ｇ": {
+            "key": "mega_barrel_bomb"
+        },
+        "毒生肉": {
+            "key": "poisoned_meat"
+        },
+        "シビレ生肉": {
+            "key": "tinged_meat"
+        },
+        "眠り生肉": {
+            "key": "drugged_meat"
+        },
+        "モドリ玉": {
+            "key": "farcaster"
+        },
+        "毒けむり玉": {
+            "key": "poison_smoke_bomb"
+        },
+        "音爆弾": {
+            "key": "sonic_bomb"
+        },
+        "捕獲用麻酔玉": {
+            "key": "tranq_bomb"
+        },
+        "毒投げクナイ": {
+            "key": "poison_kunai"
+        },
+        "眠り投げクナイ": {
+            "key": "sleep_kunai"
+        },
+        "麻痺投げクナイ": {
+            "key": "paralysis_kunai"
+        },
+        "キレアジ": {
+            "key": "whetfish"
+        },
+        "支給用携帯食料": {
+            "key": "ez_ration"
+        },
+        "応急薬": {
+            "key": "first-aid_med"
+        },
+        "応急薬グレート": {
+            "key": "first-aid_med_plus"
+        },
+        "支給用秘薬": {
+            "key": "ez_max_potion"
+        },
+        "支給用生命の粉塵": {
+            "key": "ez_lifepowder"
+        },
+        "支給用大粉塵": {
+            "key": "ez_dust_of_life"
+        },
+        "支給用漢方の粉塵": {
+            "key": "ez_herbal_powder"
+        },
+        "支給用鬼人の粉塵": {
+            "key": "ez_demon_powder"
+        },
+        "支給用硬化の粉塵": {
+            "key": "ez_hardshell_powder"
+        },
+        "支給用シビレ罠": {
+            "key": "ez_shock_trap"
+        },
+        "支給用落とし穴": {
+            "key": "ez_pitfall_trap"
+        },
+        "支給用大タル爆弾": {
+            "key": "ez_large_barrel_bomb"
+        },
+        "支給用音爆弾": {
+            "key": "ez_screamer_pod"
+        },
+        "支給用閃光玉": {
+            "key": "ez_flash_bomb"
+        },
+        "支給用モドリ玉": {
+            "key": "ez_farcaster"
+        },
+        "支給用麻酔玉": {
+            "key": "ez_tranq_bomb"
+        },
+        "大食いマグロ": {
+            "key": "gastronome_tuna"
+        },
+        "ドス大食いマグロ": {
+            "key": "great_gastronome_tuna"
+        },
+        "鎌鼬竜の毛": {
+            "key": "great_izuchi_pelt"
+        },
+        "鎌鼬竜の皮": {
+            "key": "great_izuchi_hide"
+        },
+        "鎌鼬竜の刃尾": {
+            "key": "great_izuchi_tail"
+        },
+        "鎌鼬竜の上毛": {
+            "key": "great_izuchi_pelt_plus"
+        },
+        "鎌鼬竜の上皮": {
+            "key": "great_izuchi_hide_plus"
+        },
+        "鎌鼬竜の上刃尾": {
+            "key": "great_izuchi_tail_plus"
+        },
+        "イズチの毛": {
+            "key": "izuchi_pelt"
+        },
+        "イズチの刃尾": {
+            "key": "izuchi_tail"
+        },
+        "イズチの剛毛": {
+            "key": "izuchi_pelt_plus"
+        },
+        "傘鳥の上鱗": {
+            "key": "aknosom_scale_plus"
+        },
+        "傘鳥の上羽鱗": {
+            "key": "aknosom_feather_plus"
+        },
+        "傘鳥の大トサカ": {
+            "key": "aknosom_crest_plus"
+        },
+        "きれいな尻子玉": {
+            "key": "shiny_nacre"
+        },
+        "河童蛙の上皮": {
+            "key": "tetranadon_hide_plus"
+        },
+        "河童蛙の苔堅甲": {
+            "key": "tetra_carapace_plus"
+        },
+        "河童蛙の大皿": {
+            "key": "tetranadon_disc_plus"
+        },
+        "河童蛙の大嘴": {
+            "key": "tetranadon_beak_plus"
+        },
+        "天狗獣の毛": {
+            "key": "bishaten_fur"
+        },
+        "天狗獣の頭襟": {
+            "key": "bishaten_horn"
+        },
+        "天狗獣の腕羽": {
+            "key": "bishaten_feather"
+        },
+        "天狗獣の尾甲": {
+            "key": "bisha_tailcase"
+        },
+        "天狗獣の爪": {
+            "key": "bishaten_talon"
+        },
+        "ドクドク柿": {
+            "key": "poisonfruit"
+        },
+        "シビシビ柿": {
+            "key": "parafruit"
+        },
+        "ピカピカ柿": {
+            "key": "flashfruit"
+        },
+        "天狗獣の剛毛": {
+            "key": "bishaten_fur_plus"
+        },
+        "天狗獣の堅頭襟": {
+            "key": "bishaten_horn_plus"
+        },
+        "天狗獣の上腕羽": {
+            "key": "bishaten_feather_plus"
+        },
+        "天狗獣の堅尾甲": {
+            "key": "bishaten_tailcase_plus"
+        },
+        "天狗獣の尖爪": {
+            "key": "bishaten_talon_plus"
+        },
+        "人魚竜の上鱗": {
+            "key": "somnacanth_scale_plus"
+        },
+        "人魚竜の堅殻": {
+            "key": "somnacanth_shell_plus"
+        },
+        "人魚竜の尖鉤爪": {
+            "key": "somnacanth_talon_plus"
+        },
+        "人魚竜の怒髪ヒレ": {
+            "key": "somnacanth_fin_plus"
+        },
+        "人魚竜の微睡み粉": {
+            "key": "somnacanth_sedative"
+        },
+        "怨虎竜の上鱗": {
+            "key": "magnamalo_scale_plus"
+        },
+        "怨虎竜の堅殻": {
+            "key": "magnamalo_shell_plus"
+        },
+        "怨虎竜の妖腕刃": {
+            "key": "magnamalo_blade_plus"
+        },
+        "怨虎竜の剛兜角": {
+            "key": "magnamalo_horn_plus"
+        },
+        "怨虎竜の妖刀殻": {
+            "key": "magnamalo_scute_plus"
+        },
+        "怨虎竜の紫玉": {
+            "key": "purple_magna_orb"
+        },
+        "怨虎竜の魂結晶": {
+            "key": "magna_soulprism"
+        },
+        "泥翁竜の上鱗": {
+            "key": "almudron_scale_plus"
+        },
+        "泥翁竜の堅殻": {
+            "key": "almudron_shell_plus"
+        },
+        "泥翁竜の尖爪": {
+            "key": "almudron_claw_plus"
+        },
+        "泥翁竜の剛毛ヒレ": {
+            "key": "almudron_fin_plus"
+        },
+        "泥翁竜の長髭": {
+            "key": "almudron_whisker_plus"
+        },
+        "泥翁竜の黄玉": {
+            "key": "golden_almudron_orb"
+        },
+        "黄金色の粘泥土": {
+            "key": "golden_sludge"
+        },
+        "雪鬼獣の剛毛": {
+            "key": "goss_harag_fur_plus"
+        },
+        "雪鬼獣の上皮": {
+            "key": "goss_harag_hide_plus"
+        },
+        "雪鬼獣の堅腕甲": {
+            "key": "goss_harag_brace_plus"
+        },
+        "雪鬼獣の尖角": {
+            "key": "goss_harag_horn_plus"
+        },
+        "雪鬼獣の尖拳爪": {
+            "key": "goss_harag_claw_plus"
+        },
+        "しゃっこい堅氷塊": {
+            "key": "block_of_ice_plus"
+        },
+        "妃蜘蛛の堅殻": {
+            "key": "rakna-kadaki_carapace"
+        },
+        "妃蜘蛛の絹糸": {
+            "key": "rakna-kadaki_silk"
+        },
+        "妃蜘蛛の灯腹": {
+            "key": "rakna-kadaki_glowgut"
+        },
+        "妃蜘蛛の鋭爪": {
+            "key": "rakna-kadaki_sharpclaw"
+        },
+        "妃蜘蛛の鉤棘": {
+            "key": "rakna-kadaki_spike"
+        },
+        "風神龍の堅殻": {
+            "key": "ibushi_carapace"
+        },
+        "風神龍の上皮": {
+            "key": "ibushi_hide_plus"
+        },
+        "風神龍の尖角": {
+            "key": "ibushi_horn_plus"
+        },
+        "風神龍の尖爪": {
+            "key": "ibushi_claw_plus"
+        },
+        "風神龍の風袋": {
+            "key": "ibushi_windsac"
+        },
+        "風神龍の碧棘": {
+            "key": "ibushi_bluespike"
+        },
+        "風神の龍玉": {
+            "key": "wind_serpent_orb"
+        },
+        "雷神龍の堅殻": {
+            "key": "narwa_carapace"
+        },
+        "雷神龍の上皮": {
+            "key": "narwa_hide_plus"
+        },
+        "雷神龍の尖角": {
+            "key": "narwa_horn_plus"
+        },
+        "雷神龍の尖爪": {
+            "key": "narwa_claw_plus"
+        },
+        "雷神龍の雷袋": {
+            "key": "narwa_sparksac"
+        },
+        "雷神龍の触手": {
+            "key": "narwa_tentacle"
+        },
+        "雷神の龍玉": {
+            "key": "thunder_serpent_orb"
+        },
+        "ヌシの熊掌": {
+            "key": "apex_beastclaw"
+        },
+        "ヌシの泡立つ滑液": {
+            "key": "apex_bubblefoam"
+        },
+        "ヌシの屍毒棘": {
+            "key": "apex_venom_spike"
+        },
+        "狸獣の引火液": {
+            "key": "bombadgy_igniter"
+        },
+        "臣蜘蛛の糸": {
+            "key": "rachnoid_silk"
+        },
+        "臣蜘蛛の絹糸": {
+            "key": "rachnoid_silk_plus"
+        },
+        "飛雷竜の鱗": {
+            "key": "tobi-kadachi_scale"
+        },
+        "飛雷竜の上鱗": {
+            "key": "tobi-kadachi_scale_plus"
+        },
+        "飛雷竜の毛皮": {
+            "key": "tobi-kadachi_pelt"
+        },
+        "飛雷竜の上毛皮": {
+            "key": "tobi-kadachi_pelt_plus"
+        },
+        "飛雷竜の皮膜": {
+            "key": "tobi-kadachi_membrane"
+        },
+        "飛雷竜の爪": {
+            "key": "tobi-kadachi_claw"
+        },
+        "飛雷竜の尖爪": {
+            "key": "tobi-kadachi_claw_plus"
+        },
+        "飛雷竜の電極針": {
+            "key": "tobi-kadachi_electrode"
+        },
+        "飛雷竜の雷極針": {
+            "key": "tobi-kadachi_electrode_plus"
+        },
+        "泥魚竜の上鱗": {
+            "key": "jyuratodus_scale_plus"
+        },
+        "泥魚竜の堅殻": {
+            "key": "jyuratodus_carapace"
+        },
+        "泥魚竜の鋭牙": {
+            "key": "jyuratodus_fang_plus"
+        },
+        "泥魚竜の上ヒレ": {
+            "key": "jyuratodus_fin_plus"
+        },
+        "怪しげな牙": {
+            "key": "suspicious_fang"
+        },
+        "怪しげな鋭牙": {
+            "key": "suspicious_fang_plus"
+        },
+        "掻鳥の鱗": {
+            "key": "kulu-ya-ku_scale"
+        },
+        "掻鳥の上鱗": {
+            "key": "kulu-ya-ku_scale_plus"
+        },
+        "掻鳥の皮": {
+            "key": "kulu-ya-ku_hide"
+        },
+        "掻鳥の上皮": {
+            "key": "kulu-ya-ku_hide_plus"
+        },
+        "掻鳥のクチバシ": {
+            "key": "kulu-ya-ku_beak"
+        },
+        "掻鳥の大クチバシ": {
+            "key": "kulu-ya-ku_beak_plus"
+        },
+        "掻鳥の飾り羽": {
+            "key": "kulu-ya-ku_plume"
+        },
+        "掻鳥の大飾り羽": {
+            "key": "kulu-ya-ku_plume_plus"
+        },
+        "毒妖鳥の鱗": {
+            "key": "pukei-pukei_scale"
+        },
+        "毒妖鳥の上鱗": {
+            "key": "pukei-pukei_scale_plus"
+        },
+        "毒妖鳥の甲殻": {
+            "key": "pukei-pukei_shell"
+        },
+        "毒妖鳥の堅殻": {
+            "key": "pukei-pukei_carapace"
+        },
+        "毒妖鳥の羽根": {
+            "key": "pukei-pukei_quill"
+        },
+        "毒妖鳥の翼": {
+            "key": "pukei-pukei_wing"
+        },
+        "毒妖鳥の喉袋": {
+            "key": "pukei-pukei_sac"
+        },
+        "毒妖鳥の大喉袋": {
+            "key": "pukei-pukei_sac_plus"
+        },
+        "毒妖鳥の尻尾": {
+            "key": "pukei-pukei_tail"
+        },
+        "蛮顎竜の上鱗": {
+            "key": "anjanath_scale_plus"
+        },
+        "蛮顎竜の上毛皮": {
+            "key": "anjanath_pelt_plus"
+        },
+        "蛮顎竜の鋭牙": {
+            "key": "anjanath_fang_plus"
+        },
+        "蛮顎竜の大鼻骨": {
+            "key": "anjanath_nosebone_plus"
+        },
+        "蛮顎竜の宝玉": {
+            "key": "anjanath_gem"
+        },
+        "大きな硬骨": {
+            "key": "massive_bone"
+        },
+        "堅牢な巨骨": {
+            "key": "great_stoutbone"
+        },
+        "豊沃なドロ": {
+            "key": "rich_mud"
+        },
+        "雌火竜の端材": {
+            "key": "rathian_scrap"
+        },
+        "雌火竜の上端材": {
+            "key": "rathian_scrap_plus"
+        },
+        "火竜の端材": {
+            "key": "rathalos_scrap"
+        },
+        "火竜の上端材": {
+            "key": "rathalos_scrap_plus"
+        },
+        "雷狼竜の端材": {
+            "key": "zinogre_scrap"
+        },
+        "雷狼竜の上端材": {
+            "key": "zinogre_scrap_plus"
+        },
+        "青熊獣の端材": {
+            "key": "arzuros_scrap"
+        },
+        "青熊獣の上端材": {
+            "key": "arzuros_scrap_plus"
+        },
+        "眠狗竜の端材": {
+            "key": "baggi_scrap"
+        },
+        "眠狗竜の上端材": {
+            "key": "baggi_scrap_plus"
+        },
+        "白兎獣の端材": {
+            "key": "lagombi_scrap"
+        },
+        "白兎獣の上端材": {
+            "key": "lagombi_scrap_plus"
+        },
+        "土砂竜の端材": {
+            "key": "barroth_scrap"
+        },
+        "土砂竜の上端材": {
+            "key": "barroth_scrap_plus"
+        },
+        "毒狗竜の端材": {
+            "key": "wroggi_scrap"
+        },
+        "毒狗竜の上端材": {
+            "key": "wroggi_scrap_plus"
+        },
+        "水獣の端材": {
+            "key": "royal_ludroth_scrap"
+        },
+        "水獣の上端材": {
+            "key": "royal_ludroth_scrap_plus"
+        },
+        "氷牙竜の端材": {
+            "key": "barioth_scrap"
+        },
+        "氷牙竜の上端材": {
+            "key": "barioth_scrap_plus"
+        },
+        "赤甲獣の端材": {
+            "key": "volvidon_scrap"
+        },
+        "赤甲獣の上端材": {
+            "key": "volvidon_scrap_plus"
+        },
+        "岩竜の端材": {
+            "key": "basarios_scrap"
+        },
+        "岩竜の上端材": {
+            "key": "basarios_scrap_plus"
+        },
+        "迅竜の端材": {
+            "key": "nargacuga_scrap"
+        },
+        "迅竜の上端材": {
+            "key": "nargacuga_scrap_plus"
+        },
+        "ニトロダケ": {
+            "key": "nitroshroom"
+        },
+        "マヒダケ": {
+            "key": "parashroom"
+        },
+        "毒テングダケ": {
+            "key": "toadstool"
+        },
+        "ドキドキノコ": {
+            "key": "exciteshroom"
+        },
+        "マンドラゴラ": {
+            "key": "mandragora"
+        },
+        "アイシスメタル": {
+            "key": "icium"
+        },
+        "グラシスメタル": {
+            "key": "gracium"
+        },
+        "ライトクリスタル": {
+            "key": "lightcrystal"
+        },
+        "ノヴァクリスタル": {
+            "key": "novacrystal"
+        },
+        "紅蓮石": {
+            "key": "firestone"
+        },
+        "獄炎石": {
+            "key": "firecell_stone"
+        },
+        "カブレライト鉱石": {
+            "key": "carbalite_ore"
+        },
+        "ユニオン鉱石": {
+            "key": "fucium_ore"
+        },
+        "にが虫": {
+            "key": "bitterbug"
+        },
+        "光蟲": {
+            "key": "flashbug"
+        },
+        "雷光虫": {
+            "key": "thunderbug"
+        },
+        "火薬草": {
+            "key": "fire_herb"
+        },
+        "ツタの葉": {
+            "key": "ivy"
+        },
+        "ネムリ草": {
+            "key": "sleep_herb"
+        },
+        "霜ふり草": {
+            "key": "snow_herb"
+        },
+        "流水草": {
+            "key": "flowfern"
+        },
+        "落陽草": {
+            "key": "sunscorned_grass"
+        },
+        "落陽草の花": {
+            "key": "gloamgrass_bud"
+        },
+        "マタタビ": {
+            "key": "felvine"
+        },
+        "ケムリの実": {
+            "key": "smokenut"
+        },
+        "龍殺しの実": {
+            "key": "dragonfell_berry"
+        },
+        "カラの実": {
+            "key": "huskberry"
+        },
+        "ハリの実": {
+            "key": "needleberry"
+        },
+        "カクサンの実": {
+            "key": "bomberry"
+        },
+        "バクレツの実": {
+            "key": "blastnut"
+        },
+        "リュウゲキの実": {
+            "key": "dragonstrike_nut"
+        },
+        "ザンレツの実": {
+            "key": "slashberry"
+        },
+        "頑丈な骨": {
+            "key": "sturdy_bone"
+        },
+        "ねじれた怪骨": {
+            "key": "twisted_remains"
+        },
+        "欠けた龍骨": {
+            "key": "dragonhusk_shard"
+        },
+        "埋もれた骨骸": {
+            "key": "eroded_skeleton"
+        },
+        "上質な堅骨": {
+            "key": "quality_bone"
+        },
+        "いにしえの龍骨": {
+            "key": "dragonbone_relic"
+        },
+        "ねじれた堅怪骨": {
+            "key": "twisted_rockbone"
+        },
+        "埋もれた竜骨骸": {
+            "key": "eroded_husk"
+        },
+        "クモの巣": {
+            "key": "spider_web"
+        },
+        "爆薬": {
+            "key": "gunpowder"
+        },
+        "タルの蓋": {
+            "key": "barrel_lid"
+        },
+        "逸品キノコ": {
+            "key": "pricey_shroom"
+        },
+        "火玉ホオズキ": {
+            "key": "firelantern"
+        },
+        "狐火ホオズキ": {
+            "key": "wisplantern"
+        },
+        "幽炎ホオズキ": {
+            "key": "phantolantern"
+        },
+        "特産タケノコ": {
+            "key": "super_shoot"
+        },
+        "厳選タケノコ": {
+            "key": "choice_shoot"
+        },
+        "逸品タケノコ": {
+            "key": "pricey_shoot"
+        },
+        "冷寒ヒヤボックリ": {
+            "key": "cool_frostcone"
+        },
+        "凍寒ヒヤボックリ": {
+            "key": "gelid_frostcone"
+        },
+        "厳寒ヒヤボックリ": {
+            "key": "bitter_frostcone"
+        },
+        "イカダガキ": {
+            "key": "raftshell"
+        },
+        "センテイガキ": {
+            "key": "boatshell"
+        },
+        "グンカンガキ": {
+            "key": "shipshell"
+        },
+        "異国の金貨": {
+            "key": "foreign_coin"
+        },
+        "王家の金貨": {
+            "key": "royal_mint_coin"
+        },
+        "隠されし金貨": {
+            "key": "mysterious_coin"
+        },
+        "素朴な彩水晶": {
+            "key": "simple_prism"
+        },
+        "潤った彩水晶": {
+            "key": "misty_prism"
+        },
+        "瀑布の彩水晶": {
+            "key": "cascade_prism"
+        },
+        "大食ツボカズラ": {
+            "key": "hearty_pitcher"
+        },
+        "美食ツボカズラ": {
+            "key": "gourmet_pitcher"
+        },
+        "三ツ星ツボカズラ": {
+            "key": "tripoint_pitcher"
+        },
+        "ロイヤルカブト": {
+            "key": "royal_rhino"
+        },
+        "キングカブト": {
+            "key": "king_rhino"
+        },
+        "ゴッドカブト": {
+            "key": "divine_rhino"
+        },
+        "小玉サボテン": {
+            "key": "bauble_cactus"
+        },
+        "大玉サボテン": {
+            "key": "jewel_cactus"
+        },
+        "王様サボテン": {
+            "key": "kingly_cactus"
+        },
+        "熱帯イチゴ": {
+            "key": "tropical_berry"
+        },
+        "灼熱イチゴ": {
+            "key": "desert_berry"
+        },
+        "焦熱イチゴ": {
+            "key": "lava_berry"
+        },
+        "サンドローズ": {
+            "key": "sand_rose"
+        },
+        "ロックローズ": {
+            "key": "rock_rose"
+        },
+        "ガイアローズ": {
+            "key": "gaia_rose"
+        },
+        "燃石炭": {
+            "key": "coal"
+        },
+        "強燃石炭": {
+            "key": "volatile_coal"
+        },
+        "最強燃石炭": {
+            "key": "inflammable_coal"
+        },
+        "玉髄化した竜骨片": {
+            "key": "chalcedony_bone"
+        },
+        "玉髄化した竜大骨": {
+            "key": "chalcedony_greatbone"
+        },
+        "玉髄化した竜頭骨": {
+            "key": "chalcedony_skull"
+        },
+        "ビスマス石": {
+            "key": "bismuth_fragment"
+        },
+        "ビスマス光石": {
+            "key": "bismuth_prism"
+        },
+        "ビスマス輝石": {
+            "key": "bismuth_augite"
+        },
+        "竜の卵": {
+            "key": "wyvern_egg"
+        },
+        "竜の上質な卵": {
+            "key": "quality_wyvern_egg"
+        },
+        "氷結化石": {
+            "key": "frost_fossil"
+        },
+        "大氷結化石": {
+            "key": "big_frost_fossil"
+        },
+        "草食竜の卵": {
+            "key": "herbivore_egg"
+        },
+        "草食竜の上質な卵": {
+            "key": "rhenoplos_egg_plus"
+        },
+        "ラブレシア": {
+            "key": "laffresia"
+        },
+        "ラブラブレシア": {
+            "key": "alaffresia"
+        },
+        "ビスマス結晶": {
+            "key": "bismuth_chunk"
+        },
+        "ドスビスマス結晶": {
+            "key": "big_bismuth_chunk"
+        },
+        "ドスキレアジ": {
+            "key": "great_whetfish"
+        },
+        "チャッカツオ": {
+            "key": "combustuna"
+        },
+        "ドスチャッカツオ": {
+            "key": "big_combustuna"
+        },
+        "ハッカジキ": {
+            "key": "flamefin"
+        },
+        "ドスハッカジキ": {
+            "key": "great_flamefin"
+        },
+        "カクサンデメキン": {
+            "key": "scatterfish"
+        },
+        "小金魚": {
+            "key": "goldenfry"
+        },
+        "カジキマグロ": {
+            "key": "speartuna"
+        },
+        "赤金魚": {
+            "key": "crimsonfish"
+        },
+        "黄金魚": {
+            "key": "goldenfish"
+        },
+        "白金魚": {
+            "key": "platinumfish"
+        },
+        "錦魚": {
+            "key": "brocadefish"
+        },
+        "王錦魚": {
+            "key": "king_brocadefish"
+        },
+        "大王錦魚": {
+            "key": "supreme_brocadefish"
+        },
+        "火炎タル爆弾": {
+            "key": "fire_barrel_bomb"
+        },
+        "爆破投げクナイ": {
+            "key": "exploding_kunai"
+        },
+        "素朴な端材": {
+            "key": "humble_scrap"
+        },
+        "素朴な上端材": {
+            "key": "humble_scrap_plus"
+        },
+        "鉱石の端材": {
+            "key": "ore_scrap"
+        },
+        "鉱石の上端材": {
+            "key": "ore_scrap_plus"
+        },
+        "虫の端材": {
+            "key": "insect_scrap"
+        },
+        "虫の上端材": {
+            "key": "insect_scrap_plus"
+        },
+        "骨の端材": {
+            "key": "bone_scrap"
+        },
+        "骨の上端材": {
+            "key": "bone_scrap_plus"
+        },
+        "毛皮の端材": {
+            "key": "fur_scrap"
+        },
+        "毛皮の上端材": {
+            "key": "fur_scrap_plus"
+        },
+        "垂皮竜の端材": {
+            "key": "slagtoth_scrap"
+        },
+        "垂皮竜の上端材": {
+            "key": "slagtoth_scrap_plus"
+        },
+        "狗竜の端材": {
+            "key": "jaggi_scrap"
+        },
+        "狗竜の上端材": {
+            "key": "jaggi_scrap_plus"
+        },
+        "飛甲虫の端材": {
+            "key": "bnahabra_scrap"
+        },
+        "飛甲虫の上端材": {
+            "key": "bnahabra_scrap_plus"
+        },
+        "草食竜の端材": {
+            "key": "rhenoplos_scrap"
+        },
+        "草食竜の上端材": {
+            "key": "rhenoplos_scrap_plus"
+        },
+        "鎌鼬竜の端材": {
+            "key": "izuchi_scrap"
+        },
+        "鎌鼬竜の上端材": {
+            "key": "izuchi_scrap_plus"
+        },
+        "河童蛙の端材": {
+            "key": "tetranadon_scrap"
+        },
+        "河童蛙の上端材": {
+            "key": "tetranadon_scrap_plus"
+        },
+        "ブヨブヨした端材": {
+            "key": "khezu_scrap"
+        },
+        "真珠色の上端材": {
+            "key": "khezu_scrap_plus"
+        },
+        "掻鳥の端材": {
+            "key": "kulu-ya-ku_scrap"
+        },
+        "掻鳥の上端材": {
+            "key": "kulu-ya-ku_scrap_plus"
+        },
+        "傘鳥の端材": {
+            "key": "aknosom_scrap"
+        },
+        "傘鳥の上端材": {
+            "key": "aknosom_scrap_plus"
+        },
+        "人魚竜の端材": {
+            "key": "somnacanth_scrap"
+        },
+        "人魚竜の上端材": {
+            "key": "somnacanth_scrap_plus"
+        },
+        "毒妖鳥の端材": {
+            "key": "pukei_scrap"
+        },
+        "毒妖鳥の上端材": {
+            "key": "pukei_scrap_plus"
+        },
+        "飛雷竜の端材": {
+            "key": "kadachi_scrap"
+        },
+        "飛雷竜の上端材": {
+            "key": "kadachi_scrap_plus"
+        },
+        "天狗獣の端材": {
+            "key": "bishaten_scrap"
+        },
+        "天狗獣の上端材": {
+            "key": "bishaten_scrap_plus"
+        },
+        "蛮顎竜の端材": {
+            "key": "anjanath_scrap"
+        },
+        "蛮顎竜の上端材": {
+            "key": "anjanath_scrap_plus"
+        },
+        "泡狐竜の端材": {
+            "key": "mizutsune_scrap"
+        },
+        "泡狐竜の上端材": {
+            "key": "mizutsune_scrap_plus"
+        },
+        "怨虎竜の端材": {
+            "key": "magnamalo_scrap"
+        },
+        "怨虎竜の上端材": {
+            "key": "magnamalo_scrap_plus"
+        },
+        "雪鬼獣の端材": {
+            "key": "goss_harag_scrap"
+        },
+        "雪鬼獣の上端材": {
+            "key": "goss_scrap_plus"
+        },
+        "角竜の端材": {
+            "key": "diablos_scrap"
+        },
+        "角竜の上端材": {
+            "key": "diablos_scrap_plus"
+        },
+        "轟竜の端材": {
+            "key": "tigrex_scrap"
+        },
+        "轟竜の上端材": {
+            "key": "tigrex_scrap_plus"
+        },
+        "泥翁竜の端材": {
+            "key": "almudron_scrap"
+        },
+        "泥翁竜の上端材": {
+            "key": "almudron_scrap_plus"
+        },
+        "泥魚竜の上端材": {
+            "key": "jyura_scrap_plus"
+        },
+        "風神龍の上端材": {
+            "key": "ibushi_scrap_plus"
+        },
+        "金獅子の上端材": {
+            "key": "rajang_scrap_plus"
+        },
+        "妃蜘蛛の上端材": {
+            "key": "rakna-kadaki_scrap_plus"
+        },
+        "雷神龍の上端材": {
+            "key": "narwa_scrap_plus"
+        },
+        "はじけイワシ": {
+            "key": "popfish"
+        },
+        "バリスタ弾": {
+            "key": "ballista_shot"
+        },
+        "徹甲榴弾": {
+            "key": "crag_shot"
+        },
+        "後退弾": {
+            "key": "retreat_shot"
+        },
+        "大砲弾": {
+            "key": "cannon_ammo"
+        },
+        "溜め電撃弾": {
+            "key": "c._thunder_ammo"
+        },
+        "火炎弾　セット": {
+            "key": "flaming_shot"
+        },
+        "火炎熱線　セット": {
+            "key": "flaming_beam"
+        },
+        "加速速射弾": {
+            "key": "q._rapid_shot"
+        },
+        "加速拡散弾": {
+            "key": "q._cluster_shot"
+        },
+        "鉄蟲糸弾": {
+            "key": "silkbind_shot"
+        },
+        "山盛り茸": {
+            "key": "mountshrooms"
+        },
+        "闇盛り茸": {
+            "key": "shadeshrooms"
+        },
+        "星見の花": {
+            "key": "stargazer_flower"
+        },
+        "星見の麗花": {
+            "key": "stargazer_bloom"
+        },
+        "禍々しい布": {
+            "key": "sinister_cloth"
+        },
+        "禍々しい闇布": {
+            "key": "sinister_darkcloth"
+        },
+        "ペピポパンプキン": {
+            "key": "bumblepumpkin"
+        },
+        "ワヲンパンプキン": {
+            "key": "omegapumpkin"
+        },
+        "ゴシックラゲ": {
+            "key": "cutejelly"
+        },
+        "ゴスゴシックラゲ": {
+            "key": "gothjelly"
+        },
+        "マクラサカガイ": {
+            "key": "dreamshell"
+        },
+        "毒クモリ": {
+            "key": "toxic_kumori"
+        },
+        "オオクワアゲハ": {
+            "key": "butterfly_beetle"
+        },
+        "ハナスズムシ": {
+            "key": "blossom_cricket"
+        },
+        "ドスビスカス": {
+            "key": "dosbiscus"
+        },
+        "ヨロイシダイ": {
+            "key": "armored_bream"
+        },
+        "春夜鯉": {
+            "key": "springnight_carp"
+        },
+        "獣玉": {
+            "key": "beast_gem"
+        },
+        "鋭利な牙": {
+            "key": "acute_fang"
+        },
+        "伝統の団子素材": {
+            "key": "fabled_spice"
+        },
+        "秘伝の団子素材": {
+            "key": "legendary_herb"
+        },
+        "掛軸【雌火竜】": {
+            "key": "rathian_scroll"
+        },
+        "掛軸【火竜】": {
+            "key": "rathalos_scroll"
+        },
+        "掛軸【奇怪竜】": {
+            "key": "khezu_scroll"
+        },
+        "掛軸【岩竜】": {
+            "key": "basarios_scroll"
+        },
+        "掛軸【角竜】": {
+            "key": "diablos_scroll"
+        },
+        "掛軸【金獅子】": {
+            "key": "rajang_scroll"
+        },
+        "掛軸【轟竜】": {
+            "key": "tigrex_scroll"
+        },
+        "掛軸【迅竜】": {
+            "key": "nargacuga_scroll"
+        },
+        "掛軸【氷牙竜】": {
+            "key": "barioth_scroll"
+        },
+        "掛軸【土砂竜】": {
+            "key": "barroth_scroll"
+        },
+        "掛軸【水獣】": {
+            "key": "ludroth_scroll"
+        },
+        "掛軸【眠狗竜】": {
+            "key": "baggi_scroll"
+        },
+        "掛軸【雷狼竜】": {
+            "key": "zinogre_scroll"
+        },
+        "掛軸【毒狗竜】": {
+            "key": "wroggi_scroll"
+        },
+        "掛軸【青熊獣】": {
+            "key": "arzuros_scroll"
+        },
+        "掛軸【白兎獣】": {
+            "key": "lagombi_scroll"
+        },
+        "掛軸【赤甲獣】": {
+            "key": "volvidon_scroll"
+        },
+        "掛軸【泡狐竜】": {
+            "key": "mizutsune_scroll"
+        },
+        "掛軸【怨虎竜】": {
+            "key": "magnamalo_scroll"
+        },
+        "掛軸【天狗獣】": {
+            "key": "bishaten_scroll"
+        },
+        "掛軸【傘鳥】": {
+            "key": "aknosom_scroll"
+        },
+        "掛軸【河童蛙】": {
+            "key": "tetranadon_scroll"
+        },
+        "掛軸【人魚竜】": {
+            "key": "somna_scroll"
+        },
+        "掛軸【妃蜘蛛】": {
+            "key": "rakna-kadaki_scroll"
+        },
+        "掛軸【泥翁竜】": {
+            "key": "almudron_scroll"
+        },
+        "掛軸【風神龍】": {
+            "key": "ibushi_scroll"
+        },
+        "掛軸【雪鬼獣】": {
+            "key": "goss_scroll"
+        },
+        "掛軸【鎌鼬竜】": {
+            "key": "izuchi_scroll"
+        },
+        "掛軸【雷神龍】": {
+            "key": "narwa_scroll"
+        },
+        "掛軸【蛮顎竜】": {
+            "key": "anjanath_scroll"
+        },
+        "掛軸【毒妖鳥】": {
+            "key": "pukei_scroll"
+        },
+        "掛軸【掻鳥】": {
+            "key": "kulu_scroll"
+        },
+        "掛軸【泥魚竜】": {
+            "key": "jyura_scroll"
+        },
+        "掛軸【飛雷竜】": {
+            "key": "kadachi_scroll"
+        },
+        "掛軸【主青熊獣】": {
+            "key": "apex_arzuros_scroll"
+        },
+        "掛軸【主雌火竜】": {
+            "key": "apex_rathian_scroll"
+        },
+        "掛軸【主泡狐竜】": {
+            "key": "apex_mizutsune_scroll"
+        },
+        "掛軸【番頭】": {
+            "key": "the_leader"
+        },
+        "掛軸【知友画】": {
+            "key": "fast_friends"
+        },
+        "掛軸【怨虎竜図】": {
+            "key": "slayer_of_malice"
+        },
+        "掛軸【熊蛙相撲】": {
+            "key": "the_showdown"
+        },
+        "アイルーダルマ金": {
+            "key": "felyne_daruma"
+        },
+        "金のゴコク像": {
+            "key": "golden_hojo_cast"
+        },
+        "カムラの双こけし": {
+            "key": "kamura_twins"
+        },
+        "招きアイルー": {
+            "key": "lucky_felyne"
+        },
+        "ブンブジ茶釜": {
+            "key": "bombadgy_pot"
+        },
+        "ムーファ人形": {
+            "key": "moofy_doll"
+        },
+        "コロコロガルク": {
+            "key": "wheeled_canyne_toy"
+        },
+        "純マカライト鉱石": {
+            "key": "pure_machalite"
+        },
+        "クリスタル塊": {
+            "key": "crystal_cluster"
+        },
+        "フクズク型抽選器": {
+            "key": "cohoot_lottery"
+        },
+        "からくり蛙の模型": {
+            "key": "mini_toadversary"
+        },
+        "ミニチュア潜水艇": {
+            "key": "mini_submarine"
+        },
+        "青熊獣の木彫り": {
+            "key": "arzuros_carving"
+        },
+        "怨虎竜の木彫り": {
+            "key": "magnamalo_carving"
+        },
+        "河童蛙の木彫り": {
+            "key": "tetranadon_carving"
+        },
+        "雪鬼獣の木彫り": {
+            "key": "goss_harag_carving"
+        },
+        "天狗獣の木彫り": {
+            "key": "bishaten_carving"
+        },
+        "人魚竜の木彫り": {
+            "key": "somnacanth_carving"
+        },
+        "鎌鼬竜の木彫り": {
+            "key": "izuchi_carving"
+        },
+        "泥翁竜の木彫り": {
+            "key": "almudron_carving"
+        },
+        "傘鳥の木彫り": {
+            "key": "aknosom_carving"
+        },
+        "妃蜘蛛の木彫り": {
+            "key": "rakna-kadaki_carving"
+        },
+        "支給用肉エサ": {
+            "key": "ez_meat_bait"
+        },
+        "増強剤": {
+            "key": "catalyst"
+        },
+        "ネット": {
+            "key": "net"
+        },
+        "LV2 火薬粉": {
+            "key": "gunpowder_lv2"
+        },
+        "LV3 火薬粉": {
+            "key": "gunpowder_lv3"
+        },
+        "鋼のたまご": {
+            "key": "steel_egg"
+        },
+        "銀のたまご": {
+            "key": "silver_egg"
+        },
+        "金のたまご": {
+            "key": "golden_egg"
+        },
+        "勇気の証": {
+            "key": "commendation"
+        },
+        "勇気の証Ｇ": {
+            "key": "high_commendation"
+        },
+        "ハッカの実": {
+            "key": "blazenut"
+        },
+        "チャッカの実": {
+            "key": "flamenut"
+        },
+        "ホワイトレバー": {
+            "key": "white_liver"
+        },
+        "ポポノタン": {
+            "key": "popo_tongue"
+        },
+        "垂皮油": {
+            "key": "slagtoth_oil"
+        },
+        "モンスターのキモ": {
+            "key": "monster_guts"
+        },
+        "熟成キノコ": {
+            "key": "ripened_mushroom"
+        },
+        "きれいな腹袋": {
+            "key": "fine_stomach"
+        },
+        "秘密のポーチ": {
+            "key": "secret_stash"
+        },
+        "まんまるドングリ": {
+            "key": "round_acorn"
+        },
+        "ガーグァのフン": {
+            "key": "gargwa_guano"
+        },
+        "ガーグァの卵": {
+            "key": "gargwa_egg"
+        },
+        "ガーグァの金の卵": {
+            "key": "gold_gargwa_egg"
+        },
+        "竜のナミダ": {
+            "key": "wyvern_tear"
+        },
+        "竜の大粒ナミダ": {
+            "key": "large_wyvern_tear"
+        },
+        "牙獣のナミダ": {
+            "key": "beast_tear"
+        },
+        "牙獣の大粒ナミダ": {
+            "key": "large_beast_tear"
+        },
+        "兵隊のフェロモン": {
+            "key": "drone_substance"
+        },
+        "女王のフェロモン": {
+            "key": "queen_substance"
+        },
+        "龍秘宝": {
+            "key": "dragon_treasure"
+        },
+        "輝く尻子玉": {
+            "key": "glittering_nacre"
+        },
+        "オトモチケット": {
+            "key": "buddy_ticket"
+        },
+        "カムラチケット": {
+            "key": "kamura_ticket"
+        },
+        "ギルドチケット": {
+            "key": "guild_ticket"
+        },
+        "百竜撃退の証・一": {
+            "key": "defender_ticket_1"
+        },
+        "百竜撃退の証・二": {
+            "key": "defender_ticket_2"
+        },
+        "百竜撃退の証・三": {
+            "key": "defender_ticket_3"
+        },
+        "百竜撃退の証・四": {
+            "key": "defender_ticket_4"
+        },
+        "百竜撃退の証・五": {
+            "key": "defender_ticket_5"
+        },
+        "百竜撃退の証・六": {
+            "key": "defender_ticket_6"
+        },
+        "百竜撃退の証・七": {
+            "key": "defender_ticket_7"
+        },
+        "王者のトサカ": {
+            "key": "king's_crest"
+        },
+        "火竜の鋭翼爪": {
+            "key": "rath_wingtalon_plus"
+        },
+        "岩竜の尻尾": {
+            "key": "basarios_tail"
+        },
+        "岩竜の胸殻": {
+            "key": "basarios_pleura"
+        },
+        "岩竜の堅胸殻": {
+            "key": "basarios_pleura_plus"
+        },
+        "ジャギィの上皮": {
+            "key": "jaggi_hide_plus"
+        },
+        "堅鎧玉": {
+            "key": "hard_armor_sphere"
+        },
+        "水光原珠": {
+            "key": "aquaglow_jewel"
+        },
+        "修羅原珠": {
+            "key": "bloodrun_jewel"
+        },
+        "デカデカ柿": {
+            "key": "jumbofruit"
+        },
+        "アキンドングリ": {
+            "key": "lagniapple"
+        },
+        "モンスターのフン": {
+            "key": "dung"
+        },
+        "こやし玉": {
+            "key": "dung_bomb"
+        },
+        "支給用こやし玉": {
+            "key": "ez_dung_bomb"
+        },
+        "クルルコイン": {
+            "key": "kulu_coin"
+        },
+        "ボロスコイン": {
+            "key": "barroth_coin"
+        },
+        "ナルガコイン": {
+            "key": "nargacuga_coin"
+        },
+        "ベリオコイン": {
+            "key": "barioth_coin"
+        },
+        "ラージャンコイン": {
+            "key": "rajang_coin"
+        },
+        "闘技王のコイン": {
+            "key": "pinnacle_coin"
+        },
+        "狩猟王のコイン": {
+            "key": "hunter_king_coin"
+        },
+        "撃龍王のコイン": {
+            "key": "ace_hunter_coin"
+        },
+        "溜め貫通弾": {
+            "key": "c._piercing_ammo"
+        },
+        "灰色の種": {
+            "key": "gray_seed"
+        },
+        "紅色の種": {
+            "key": "crimson_seed"
+        },
+        "大翔蟲": {
+            "key": "great_wirebug"
+        },
+        "二連バリスタ弾": {
+            "key": "2x_ballista_shot"
+        },
+        "三連バリスタ弾": {
+            "key": "3x_ballista_shot"
+        },
+        "狩友チケット": {
+            "key": "friend_voucher"
+        },
+        "水冷タル爆弾": {
+            "key": "water_barrel_bomb"
+        },
+        "電撃タル爆弾": {
+            "key": "thunder_barrel_bomb"
+        },
+        "氷結タル爆弾": {
+            "key": "ice_barrel_bomb"
+        },
+        "蒼色の種": {
+            "key": "blue_seed"
+        },
+        "金色の種": {
+            "key": "gold_seed"
+        },
+        "銀色の種": {
+            "key": "silver_seed"
+        },
+        "二連大砲弾": {
+            "key": "2x_cannon_ammo"
+        },
+        "二連大砲弾・強": {
+            "key": "2x_cannon_ammo_plus"
+        },
+        "ベルナストーン": {
+            "key": "bhernastone"
+        },
+        "ドンドルマリン": {
+            "key": "dundormarin"
+        },
+        "ロックラック鉱": {
+            "key": "loc_lac_ore"
+        },
+        "バルバレクォーツ": {
+            "key": "val_habar_quartz"
+        },
+        "ミナガルデナイト": {
+            "key": "minegardenite"
+        },
+        "泥玉コロガシ": {
+            "key": "mudbeetle"
+        },
+        "シビレガスガエル": {
+            "key": "paratoad"
+        },
+        "クグツチグモ": {
+            "key": "puppet_spider"
+        },
+        "アメフリツブリ": {
+            "key": "escuregot"
+        },
+        "ヌリカメ": {
+            "key": "aurortle"
+        },
+        "エンエンク": {
+            "key": "stinkmink"
+        },
+        "子泣キジ": {
+            "key": "wailnard"
+        },
+        "火石コロガシ": {
+            "key": "firebeetle"
+        },
+        "雷毛コロガシ": {
+            "key": "thunderbeetle"
+        },
+        "雪石コロガシ": {
+            "key": "snowbeetle"
+        },
+        "マキムシ": {
+            "key": "trapbugs"
+        },
+        "提灯オバケムシ": {
+            "key": "lanternbug"
+        },
+        "カモシワラシ": {
+            "key": "brewhare"
+        },
+        "ロクロッヘビ": {
+            "key": "antidobra"
+        },
+        "ネムリガスガエル": {
+            "key": "sleeptoad"
+        },
+        "ドクガスガエル": {
+            "key": "poisontoad"
+        },
+        "ボムガスガエル": {
+            "key": "blastoad"
+        },
+        "ヒトダマドリ": {
+            "key": "spiribird"
+        },
+        "金霊テントウ": {
+            "key": "golden_spiribug"
+        },
+        "黄金霊テントウ": {
+            "key": "gilded_spiribug"
+        },
+        "イチモクラブ": {
+            "key": "gustcrab"
+        }
+    }
+}
