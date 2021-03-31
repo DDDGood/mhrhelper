@@ -3441,9 +3441,144 @@
         "almudron": {
             "outline": "(招式素材仍在蒐集中)",
             "reference": {
-                "(twitter)モンスターハンターライズ公式": "https://twitter.com/mh_rise_jp"
+                "(twitter)モンスターハンターライズ公式": "https://twitter.com/mh_rise_jp",
+                "First fight with Almudron (Charge Blade)": "https://www.youtube.com/watch?v=hRbSX9RJDS0",
+                "ALMUDRON IS BEST MONSTER - Gameplay + Breakdown + Armor and Weapon Showcase - Monster Hunter Rise!": "https://www.youtube.com/watch?v=DubgFpjzaek",
+                "Monster Hunter Rise 泥翁龍 戰鬥示範": "https://www.youtube.com/watch?v=ZH6eMjjCKyk"
             },
             "moves": [
+                {
+                    "name": "龍吼",
+                    "preaction": "低頭，左爪(面向它右測)微微抬起。",
+                    "action": "",
+                    "recovery": "",
+                    "note": "",
+                    "video": "videos/泥翁龍/泥翁龍_龍吼.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "小咬",
+                    "preaction": "身體往後微縮。",
+                    "action": "快速向前小咬。",
+                    "recovery": "小",
+                    "note": "",
+                    "video": "videos/泥翁龍/泥翁龍_龍吼.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "前撲",
+                    "preaction": "幾乎無預兆，左腳會快速收回。",
+                    "action": "快速向前撲擊。",
+                    "recovery": "小",
+                    "note": "",
+                    "video": "videos/泥翁龍/泥翁龍_前撲.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "揮爪",
+                    "preaction": "身體微側，向目標抬起單爪。",
+                    "action": "單爪向目標揮擊。",
+                    "recovery": "小",
+                    "note": "",
+                    "video": "videos/泥翁龍/泥翁龍_揮爪.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "蓄力拍",
+                    "preaction": "抬起上身，高舉單手。",
+                    "action": "身體下壓並拍向目標。",
+                    "recovery": "中",
+                    "note": "高機率二連拍。",
+                    "video": "videos/泥翁龍/泥翁龍_蓄力拍.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "迴旋甩尾",
+                    "preaction": "側向目標，身體後縮蓄力。",
+                    "action": "迴旋甩尾，並擲出泥球。",
+                    "recovery": "中",
+                    "note": "",
+                    "video": "videos/泥翁龍/泥翁龍_迴旋甩尾.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "原地轉圈攪土",
+                    "preaction": "身體向後彎曲抬起。",
+                    "action": "原地轉圈並攪動身側的泥土，結束後翻身一跳。",
+                    "recovery": "大",
+                    "note": "滿足特定條件後?尾部集成泥球，",
+                    "video": "videos/泥翁龍/泥翁龍_原地轉圈攪土.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "泡澡龍吼",
+                    "condition": "泡澡狀態",
+                    "preaction": "身體往後縮，單爪微微抬起。",
+                    "action": "",
+                    "recovery": "",
+                    "note": "",
+                    "video": "videos/泥翁龍/泥翁龍_泡澡龍吼.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "小掃尾",
+                    "condition": "泡澡狀態",
+                    "preaction": "",
+                    "action": "",
+                    "recovery": "小",
+                    "note": "",
+                    "video": "",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "擲泥",
+                    "condition": "泡澡狀態",
+                    "preaction": "尾部攪動泥土。",
+                    "action": "連續兩次朝空中擲出散開的泥土",
+                    "recovery": "中",
+                    "note": "",
+                    "video": "videos/泥翁龍/泥翁龍_擲泥.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "潛水繞後",
+                    "condition": "泡澡狀態",
+                    "preaction": "頭轉向目標吼叫一聲。",
+                    "action": "後跳潛水，從目標身後鑽出。",
+                    "recovery": "小",
+                    "note": "",
+                    "video": "videos/泥翁龍/泥翁龍_後跳潛水繞後.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "潛龍升天",
+                    "condition": "泡澡狀態",
+                    "preaction": "身體後仰潛入地面，四周攪動泥土。",
+                    "action": "原地鑽出高高躍起後落地。",
+                    "recovery": "小",
+                    "note": "",
+                    "video": "videos/泥翁龍/泥翁龍_潛龍升天.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "泥漿噴泉",
+                    "condition": "泡澡狀態",
+                    "preaction": "上身抬起在空中左右甩。",
+                    "action": "雙爪浮地，前方地面正方形四角向上噴射泥漿。",
+                    "recovery": "中",
+                    "note": "正方形範圍中間是盲區。",
+                    "video": "videos/泥翁龍/泥翁龍_潛水繞後.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "側身尾撞",
+                    "preaction": "側身面向目標，頭低下並轉向尾部，尾巴後縮蓄力。",
+                    "action": "尾巴像拳頭一樣撞向目標。",
+                    "recovery": "大",
+                    "note": "",
+                    "video": "videos/泥翁龍/泥翁龍_側身尾撞.mp4",
+                    "onlyincombo": false
+                },
                 {
                     "name": "尖石攻擊",
                     "preaction": "",
@@ -3455,42 +3590,166 @@
                 },
                 {
                     "name": "反身尾砸",
-                    "preaction": "",
-                    "action": "",
-                    "recovery": "",
+                    "preaction": "舉起尾巴，身體向後捲。",
+                    "action": "尾部砸向目標。",
+                    "recovery": "中",
                     "note": "",
                     "video": "videos/泥翁龍/泥翁龍_反身尾砸.mp4",
                     "onlyincombo": false
                 },
                 {
                     "name": "鑽地尾砸",
-                    "preaction": "",
-                    "action": "",
-                    "recovery": "",
+                    "preaction": "身體原地下潛，留一節尾巴指向天。",
+                    "action": "尾巴向前砸後，身體鑽出。",
+                    "recovery": "大",
                     "note": "",
                     "video": "videos/泥翁龍/泥翁龍_鑽地尾砸.mp4",
                     "onlyincombo": false
                 },
                 {
                     "name": "拍地掃尾",
-                    "preaction": "",
-                    "action": "",
-                    "recovery": "",
+                    "preaction": "下半身舉起，拍向側後方地面。",
+                    "action": "尾部帶動身體向前橫掃，並橫向攪動泥漿。",
+                    "recovery": "中",
                     "note": "",
                     "video": "videos/泥翁龍/泥翁龍_拍地掃尾.mp4",
                     "onlyincombo": false
                 },
                 {
-                    "name": "二連甩尾",
-                    "preaction": "",
-                    "action": "",
-                    "recovery": "",
+                    "name": "拍尾後衝撞",
+                    "preaction": "側身張嘴，尾巴舉起甩動",
+                    "action": "尾巴向前拍擊後迅速抬起上身再向前衝撞。",
+                    "recovery": "中",
                     "note": "",
-                    "video": "videos/泥翁龍/泥翁龍_二連甩尾.mp4",
+                    "video": "videos/泥翁龍/泥翁龍_拍尾後衝撞.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "跑開後二連掃尾",
+                    "preaction": "先與目標拉開距離，跑開的路上會出現泥土台階",
+                    "action": "尾部先由左至右，再由右至左橫掃。第二次會橫向攪動泥漿。",
+                    "recovery": "大",
+                    "note": "",
+                    "video": "videos/泥翁龍/泥翁龍_泥翁龍_跑開後二連掃尾.mp4",
                     "onlyincombo": false
                 }
             ],
-            "combos": []
+            "combos": [
+                {
+                    "root": 0,
+                    "condition": "",
+                    "nodes": [
+                        {
+                            "move": "前撲",
+                            "links": [
+                                {
+                                    "node": 1,
+                                    "condition": ""
+                                },
+                                {
+                                    "node": 2,
+                                    "condition": ""
+                                }
+                            ]
+                        },
+                        {
+                            "move": "鑽地尾砸",
+                            "links": []
+                        },
+                        {
+                            "move": "前撲",
+                            "links": [
+                                {
+                                    "node": 3,
+                                    "condition": ""
+                                }
+                            ]
+                        },
+                        {
+                            "move": "側身尾撞",
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "root": 0,
+                    "condition": "",
+                    "nodes": [
+                        {
+                            "move": "揮爪",
+                            "links": [
+                                {
+                                    "node": 1,
+                                    "condition": ""
+                                },
+                                {
+                                    "node": 2,
+                                    "condition": ""
+                                }
+                            ]
+                        },
+                        {
+                            "move": "小咬",
+                            "links": [
+                                {
+                                    "node": 2,
+                                    "condition": ""
+                                }
+                            ]
+                        },
+                        {
+                            "move": "反身尾砸",
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "root": 0,
+                    "condition": "",
+                    "nodes": [
+                        {
+                            "move": "蓄力拍",
+                            "links": [
+                                {
+                                    "node": 1,
+                                    "condition": "高機率"
+                                },
+                                {
+                                    "node": 2,
+                                    "condition": ""
+                                }
+                            ]
+                        },
+                        {
+                            "move": "蓄力拍",
+                            "links": []
+                        },
+                        {
+                            "move": "迴旋甩尾",
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "root": 0,
+                    "condition": "泡澡狀態",
+                    "nodes": [
+                        {
+                            "move": "泥漿噴泉",
+                            "links": [
+                                {
+                                    "node": 1,
+                                    "condition": ""
+                                }
+                            ]
+                        },
+                        {
+                            "move": "潛龍升天",
+                            "links": []
+                        }
+                    ]
+                }
+            ]
         },
         "barioth": {
             "outline": "(招式素材仍在蒐集中)",
