@@ -18,8 +18,8 @@
       <div v-if="sortingType === 0">
         <template v-for="(container, level) in levellist">
           <div class="header3" :key="level">
-            <div>{{ $t('monster.threat_level') }}</div>
-            <div class="level-text" :key="level">{{ParseLevel(level) }}</div>
+            <span>{{ $t('monster.threat_level') }}</span>
+            <span :key="level" v-html="ParseLevelHTML(level)"></span>
           </div>
           <div class="link-list" :key="level">
             <router-link
@@ -122,6 +122,17 @@ module.exports = {
       }
       return result;
     },
+    ParseLevelHTML: function (text) {
+      const value = parseInt(text, 10);
+      let result = "<span class='level-text'>？</span>";
+      if (!isNaN(value) && value > 0 && value <= 10) {
+        result = "";
+        star = "<span><img src='images/svg/star.svg' class='level-icon-star'/></span>"
+        star2 = "<span><img src='images/svg/star_empty.svg' class='level-icon-star'/></span>"
+        result = star.repeat(value) + star2.repeat(10 - value);
+      }
+      return result;
+    },
     ChangeSortingType: function (type) {
       this.sortingType = type;
     }
@@ -140,8 +151,11 @@ module.exports = {
   font-weight: normal;
 }
 .level-text {
-  font-size: 14px;
+  font-size: 16px;
   font-weight: normal !important;
+}
+.level-icon-star {
+  width: 16px;
 }
 #specieslist {
   display: grid;
