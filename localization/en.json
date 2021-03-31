@@ -9,6 +9,7 @@
         "note": "Note",
         "type": "Type",
         "trait": "Trait",
+        "sorting": "Sorting",
         "low_rank": "Low Rank",
         "high_rank": "High Rank",
         "dataType": {
@@ -99,6 +100,7 @@
                 }
             },
             "threat_level": "Threat Level",
+            "apex": "Apex",
             "part": "Part",
             "state": "State",
             "hitdata": "Hit Data",
@@ -1550,7 +1552,7 @@
                     "name": "Great Wroggi Brace+",
                     "description": "A tough Great Wroggi bracecomprised of high-qualityplate and claws."
                 },
-                "king's_beak": {
+                "kings_beak": {
                     "name": "King's Beak",
                     "description": "A beak from a Great Wroggi.Careful with it—it's still poisonous!"
                 },
@@ -4294,7 +4296,7 @@
                     "name": "Defender Ticket 7",
                     "description": ""
                 },
-                "king's_crest": {
+                "kings_crest": {
                     "name": "King's Crest",
                     "description": ""
                 },

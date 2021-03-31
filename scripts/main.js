@@ -491,6 +491,7 @@ function translateJP(jpText) {
         "片腕": "單腕",
         "片爪": "單爪",
         "片刃翼": "單刃翼",
+        "片翼": "單翼",
         "片腕刃": "單腕刃"
     }
     let result = jpText;

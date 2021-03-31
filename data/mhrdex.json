@@ -839,6 +839,7 @@
       "icon": "images/monsters/icons/apex_arzuros.png",
       "icon_large": "images/monsters/icons/large/apex_arzuros.png",
       "description": "冠有「首領」之名的青熊獸。全身上下都有著像是被捲入暴風後所留下的傷痕，這也許是牠一直受到憤怒與恐懼支配的原因。前腳比起一般的個體更加發達，凡是阻其去路者，在其怪力之下無一倖存。另外，首領會藉由咆嘯，將自己的憤怒與恐懼散播至周遭，使其他魔物變得活躍起來。\n首領發怒後，會施展最強勁的必殺技。首領青熊獸的必殺技為一邊連續敲擊地面並同時接近，給予障礙物猛烈的一擊。當首領處於憤怒狀態時，記得要持續攻擊，盡早使其膽怯，平息首領的怒火吧。",
+      "threat_level": "apex",
       "hitdata": {
         "parts": []
       },
@@ -1283,7 +1284,7 @@
           ]
         },
         {
-          "source": "片翼破壊",
+          "source": "單翼破壊",
           "info": "[耐久值1回降到0]",
           "low_rank": [
             {
@@ -1453,6 +1454,7 @@
       "icon": "images/monsters/icons/apex_rathian.png",
       "icon_large": "images/monsters/icons/large/apex_rathian.png",
       "description": "冠有「首領」之名的雌火龍。全身上下都有著像是被捲入暴風後所留下的傷痕，這也許是牠一直受到憤怒與恐懼支配的原因。尾巴比起一般的個體更加發達，棘上還有著猛烈的劇毒。另外，首領會藉由咆嘯，將自己的憤怒與恐懼散播至周遭，使其他魔物變得活躍起來。\n首領發怒後，會施展最強勁的必殺技。首領雌火龍的必殺技為將具有猛毒的棘射向四周，並以飛散的棘為中心創造出毒素領域。當首領處於憤怒狀態時，記得要持續攻擊，盡早使其膽怯，平息首領的怒火吧。",
+      "threat_level": "apex",
       "hitdata": {
         "parts": []
       },
@@ -2264,6 +2266,7 @@
       "icon": "images/monsters/icons/apex_mizutsune.png",
       "icon_large": "images/monsters/icons/large/apex_mizutsune.png",
       "description": "冠有「首領」之名的泡狐龍。全身上下都有著像是被捲入暴風後所留下的傷痕，這也許是牠一直受到憤怒與恐懼支配的原因。尾巴比起一般的個體更加發達，其頑強的攻擊會將目標的希望與鬥志化為泡影。另外，首領會藉由咆嘯，將自己的憤怒與恐懼散播至周遭，使其他魔物變得活躍起來。\n首領發怒後，會施展最強勁的必殺技。首領泡狐龍的必殺技為撒出會爆炸的泡泡，破壞四周的一切。此時不妨使用苦無、彈藥或弩砲等方式來處理泡泡。當首領處於憤怒狀態時，記得要持續攻擊，盡早使其膽怯，平息首領的怒火吧。",
+      "threat_level": "apex",
       "hitdata": {
         "parts": []
       },
@@ -5490,7 +5493,7 @@
           ]
         },
         {
-          "source": "片翼破壊",
+          "source": "單翼破壊",
           "info": "[耐久值1回降到0]",
           "low_rank": [
             {
@@ -6037,7 +6040,7 @@
           ]
         },
         {
-          "source": "片翼破壊",
+          "source": "單翼破壊",
           "info": "[耐久值1回降到0]",
           "low_rank": [
             {
@@ -8132,7 +8135,7 @@
               "num": "2"
             },
             {
-              "item": "king's_beak",
+              "item": "kings_beak",
               "rate": "15%",
               "num": "1"
             }
@@ -8154,7 +8157,7 @@
               "num": "1"
             },
             {
-              "item": "king's_beak",
+              "item": "kings_beak",
               "rate": "12%",
               "num": "1"
             },
@@ -8170,7 +8173,7 @@
           "info": "[耐久值2回降到0]",
           "low_rank": [
             {
-              "item": "king's_beak",
+              "item": "kings_beak",
               "rate": "70%",
               "num": "1"
             },
@@ -8182,7 +8185,7 @@
           ],
           "high_rank": [
             {
-              "item": "king's_beak",
+              "item": "kings_beak",
               "rate": "60%",
               "num": "1"
             },
@@ -8227,7 +8230,7 @@
               "num": "1"
             },
             {
-              "item": "king's_beak",
+              "item": "kings_beak",
               "rate": "5%",
               "num": "1"
             }
@@ -8487,7 +8490,7 @@
           "high_rank": []
         },
         {
-          "source": "片翼破壊",
+          "source": "單翼破壊",
           "low_rank": [
             {
               "item": "bishaten_feather",
@@ -9208,7 +9211,7 @@
               "num": "2"
             },
             {
-              "item": "king's_crest",
+              "item": "kings_crest",
               "rate": "15%",
               "num": "1"
             }
@@ -9230,7 +9233,7 @@
               "num": "1"
             },
             {
-              "item": "king's_crest",
+              "item": "kings_crest",
               "rate": "12%",
               "num": "1"
             },
@@ -9246,7 +9249,7 @@
           "info": "[耐久值1回降到0]",
           "low_rank": [
             {
-              "item": "king's_crest",
+              "item": "kings_crest",
               "rate": "70%",
               "num": "1"
             },
@@ -9258,7 +9261,7 @@
           ],
           "high_rank": [
             {
-              "item": "king's_crest",
+              "item": "kings_crest",
               "rate": "60%",
               "num": "1"
             },
@@ -9303,7 +9306,7 @@
               "num": "1"
             },
             {
-              "item": "king's_crest",
+              "item": "kings_crest",
               "rate": "5%",
               "num": "1"
             }

@@ -15,6 +15,7 @@
         },
         "type": "類型",
         "trait": "特性",
+        "sorting": "排序",
         "low_rank": "下位",
         "high_rank": "上位",
         "monster": {
@@ -99,6 +100,7 @@
                 }
             },
             "threat_level": "危險度",
+            "apex": "霸主",
             "part": "部位",
             "state": "狀態",
             "hitdata": "詳細肉質",
@@ -1209,7 +1211,7 @@
                     "name": "毒狗龍王的堅臂甲",
                     "description": "毒狗龍王更為堅硬的臂甲。分切之後可取得優質的甲殼或爪子。"
                 },
-                "king's_beak": {
+                "kings_beak": {
                     "name": "王者的喙",
                     "description": "毒狗龍王的喙。其喙包含了製毒器官，必須謹慎處理。"
                 },
@@ -3953,7 +3955,7 @@
                     "name": "擊退百龍之證･七",
                     "description": ""
                 },
-                "king's_crest": {
+                "kings_crest": {
                     "name": "王者的頭冠",
                     "description": ""
                 },

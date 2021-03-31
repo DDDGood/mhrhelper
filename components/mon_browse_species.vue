@@ -3,23 +3,23 @@
     <div class="layout-main">
       <div>
         <div class="flex-row flex-end">
-          <div>排序：</div>
+          <div>{{ $t('sorting') + "：" }}</div>
           <div
             @click="ChangeSortingType(0)"
             v-bind:class="{'sortingType_current' : sortingType ===0}"
-          >危險度</div>
+          >{{$t('monster.threat_level')}}</div>
           <div>｜</div>
           <div
             @click="ChangeSortingType(1)"
             v-bind:class="{'sortingType_current' : sortingType ===1}"
-          >種類</div>
+          >{{$t('species')}}</div>
         </div>
       </div>
       <div v-if="sortingType === 0">
         <template v-for="(container, level) in levellist">
           <div class="header3" :key="level">
-            <span>{{ $t('monster.threat_level') }}</span>
-            <span :key="level" v-html="ParseLevelHTML(level)"></span>
+            <span>{{ level === "apex" ? $t('monster.apex'): $t('monster.threat_level') }}</span>
+            <span :key="level" v-if="level != 'apex'" v-html="ParseLevelHTML(level)"></span>
           </div>
           <div class="link-list" :key="level">
             <router-link
@@ -98,6 +98,7 @@ module.exports = {
         "9": {},
         "10": {},
         "-1": {},
+        "apex": {}
       };
       for (let id in this.dex) {
         const mon = this.dex[id];
