@@ -3462,7 +3462,7 @@
                     "action": "快速向前小咬。",
                     "recovery": "小",
                     "note": "",
-                    "video": "videos/泥翁龍/泥翁龍_龍吼.mp4",
+                    "video": "videos/泥翁龍/泥翁龍_小咬.mp4",
                     "onlyincombo": false
                 },
                 {
@@ -3625,13 +3625,22 @@
                     "onlyincombo": false
                 },
                 {
-                    "name": "跑開後二連掃尾",
-                    "preaction": "先與目標拉開距離，跑開的路上會出現泥土台階",
-                    "action": "尾部先由左至右，再由右至左橫掃。第二次會橫向攪動泥漿。",
+                    "name": "二連掃尾",
+                    "preaction": "尾巴往側上方舉，另一側後腳抬起",
+                    "action": "尾部來回橫掃。第二次會橫向攪動泥漿。",
                     "recovery": "大",
                     "note": "",
-                    "video": "videos/泥翁龍/泥翁龍_泥翁龍_跑開後二連掃尾.mp4",
+                    "video": "videos/泥翁龍/泥翁龍_二連掃尾.mp4",
                     "onlyincombo": false
+                },
+                {
+                    "name": "跑開",
+                    "preaction": "",
+                    "action": "Z字形跑動，路上會出現泥土台階",
+                    "recovery": "",
+                    "note": "這招後高機率銜接二連掃尾",
+                    "video": "videos/泥翁龍/泥翁龍_跑開.mp4",
+                    "onlyincombo": true
                 }
             ],
             "combos": [
@@ -3685,6 +3694,10 @@
                                 {
                                     "node": 2,
                                     "condition": ""
+                                },
+                                {
+                                    "node": 3,
+                                    "condition": ""
                                 }
                             ]
                         },
@@ -3699,6 +3712,10 @@
                         },
                         {
                             "move": "反身尾砸",
+                            "links": []
+                        },
+                        {
+                            "move": "迴旋甩尾",
                             "links": []
                         }
                     ]
@@ -3726,6 +3743,25 @@
                         },
                         {
                             "move": "迴旋甩尾",
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "root": 0,
+                    "condition": "",
+                    "nodes": [
+                        {
+                            "move": "跑開",
+                            "links": [
+                                {
+                                    "node": 1,
+                                    "condition": "高機率"
+                                }
+                            ]
+                        },
+                        {
+                            "move": "二連掃尾",
                             "links": []
                         }
                     ]
