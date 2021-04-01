@@ -2,15 +2,6 @@
 <html>
 
 <head>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-RQRCZ8YKGP"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag() { dataLayer.push(arguments); }
-        gtag('js', new Date());
-
-        gtag('config', 'G-RQRCZ8YKGP');
-    </script>
     <title>MHRise魔物筆記</title>
     <LINK REL="SHORTCUT ICON" HREF="/favicon.ico">
     <base target="_top" />
@@ -33,13 +24,9 @@
     <div id="wrapper">
         <div id="app">
             <div id="header">
-                <div class="header1" onclick="javascript:location.href='https://dddgood.github.io/mhrhelper/'">
+                <div class="header1">
                     {{$t('mhrhelper')}}
                 </div>
-                <!-- <select id="localization" onchange="SetLocal(this.options[this.options.selectedIndex].value);">
-                    <option value="tw">中文</option>
-                    <option value="en">English</option>
-                </select> -->
             </div>
             <router-view></router-view>
         </div>
