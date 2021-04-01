@@ -3439,12 +3439,14 @@
             "combos": []
         },
         "almudron": {
-            "outline": "(招式素材仍在蒐集中)",
+            "outline": "注意小咬/前撲/揮爪等等快速的小招式，常會銜接威力大的重攻擊。\n-泡澡狀態下對泥翁龍造成一定傷害會彈出地面並倒地。\n-尾部集成泥球後，對泥球造成一定傷害會破壞泥球並使泥翁龍倒地。",
             "reference": {
                 "(twitter)モンスターハンターライズ公式": "https://twitter.com/mh_rise_jp",
                 "First fight with Almudron (Charge Blade)": "https://www.youtube.com/watch?v=hRbSX9RJDS0",
                 "ALMUDRON IS BEST MONSTER - Gameplay + Breakdown + Armor and Weapon Showcase - Monster Hunter Rise!": "https://www.youtube.com/watch?v=DubgFpjzaek",
-                "Monster Hunter Rise 泥翁龍 戰鬥示範": "https://www.youtube.com/watch?v=ZH6eMjjCKyk"
+                "Monster Hunter Rise 泥翁龍 戰鬥示範": "https://www.youtube.com/watch?v=ZH6eMjjCKyk",
+                "MH Rise: HR7 Almudron 5:31 Hammer with commentary (Freestyle + capture)": "https://www.youtube.com/watch?v=Kh41yU62b0E",
+                "【MHRise】集上位★7泥沼へ手招く/オロミドロ ランス 11 58 42": "http://127.0.0.1:5500/#/mon/almudron"
             },
             "moves": [
                 {
@@ -3484,6 +3486,15 @@
                     "onlyincombo": false
                 },
                 {
+                    "name": "後跳",
+                    "preaction": "",
+                    "action": "快速向後跳躍，落地後產生往前的橫向泥漿。",
+                    "recovery": "小",
+                    "note": "",
+                    "video": "videos/泥翁龍/泥翁龍_後跳.mp4",
+                    "onlyincombo": false
+                },
+                {
                     "name": "蓄力拍",
                     "preaction": "抬起上身，高舉單手。",
                     "action": "身體下壓並拍向目標。",
@@ -3493,99 +3504,21 @@
                     "onlyincombo": true
                 },
                 {
+                    "name": "側身尾撞",
+                    "preaction": "側身面向目標，低頭看向尾部，尾巴後縮蓄力。",
+                    "action": "尾巴像拳頭一樣撞向目標。",
+                    "recovery": "大",
+                    "note": "靠近頭的這一側是盲區",
+                    "video": "videos/泥翁龍/泥翁龍_側身尾撞.mp4",
+                    "onlyincombo": false
+                },
+                {
                     "name": "迴旋甩尾",
                     "preaction": "側向目標，身體後縮蓄力。",
                     "action": "迴旋甩尾，並擲出泥球。",
                     "recovery": "中",
                     "note": "",
                     "video": "videos/泥翁龍/泥翁龍_迴旋甩尾.mp4",
-                    "onlyincombo": false
-                },
-                {
-                    "name": "原地轉圈攪土",
-                    "preaction": "身體向後彎曲抬起。",
-                    "action": "原地轉圈並攪動身側的泥土，結束後翻身一跳。",
-                    "recovery": "大",
-                    "note": "滿足特定條件後?尾部集成泥球，",
-                    "video": "videos/泥翁龍/泥翁龍_原地轉圈攪土.mp4",
-                    "onlyincombo": false
-                },
-                {
-                    "name": "泡澡龍吼",
-                    "condition": "泡澡狀態",
-                    "preaction": "身體往後縮，單爪微微抬起。",
-                    "action": "",
-                    "recovery": "",
-                    "note": "",
-                    "video": "videos/泥翁龍/泥翁龍_泡澡龍吼.mp4",
-                    "onlyincombo": false
-                },
-                {
-                    "name": "小掃尾",
-                    "condition": "泡澡狀態",
-                    "preaction": "",
-                    "action": "",
-                    "recovery": "小",
-                    "note": "",
-                    "video": "",
-                    "onlyincombo": false
-                },
-                {
-                    "name": "擲泥",
-                    "condition": "泡澡狀態",
-                    "preaction": "尾部攪動泥土。",
-                    "action": "連續兩次朝空中擲出散開的泥土",
-                    "recovery": "中",
-                    "note": "",
-                    "video": "videos/泥翁龍/泥翁龍_擲泥.mp4",
-                    "onlyincombo": false
-                },
-                {
-                    "name": "潛水繞後",
-                    "condition": "泡澡狀態",
-                    "preaction": "頭轉向目標吼叫一聲。",
-                    "action": "後跳潛水，從目標身後鑽出。",
-                    "recovery": "小",
-                    "note": "",
-                    "video": "videos/泥翁龍/泥翁龍_後跳潛水繞後.mp4",
-                    "onlyincombo": false
-                },
-                {
-                    "name": "潛龍升天",
-                    "condition": "泡澡狀態",
-                    "preaction": "身體後仰潛入地面，四周攪動泥土。",
-                    "action": "原地鑽出高高躍起後落地。",
-                    "recovery": "小",
-                    "note": "",
-                    "video": "videos/泥翁龍/泥翁龍_潛龍升天.mp4",
-                    "onlyincombo": false
-                },
-                {
-                    "name": "泥漿噴泉",
-                    "condition": "泡澡狀態",
-                    "preaction": "上身抬起在空中左右甩。",
-                    "action": "雙爪浮地，前方地面正方形四角向上噴射泥漿。",
-                    "recovery": "中",
-                    "note": "正方形範圍中間是盲區。",
-                    "video": "videos/泥翁龍/泥翁龍_泥漿噴泉.mp4",
-                    "onlyincombo": false
-                },
-                {
-                    "name": "側身尾撞",
-                    "preaction": "側身面向目標，頭低下並轉向尾部，尾巴後縮蓄力。",
-                    "action": "尾巴像拳頭一樣撞向目標。",
-                    "recovery": "大",
-                    "note": "",
-                    "video": "videos/泥翁龍/泥翁龍_側身尾撞.mp4",
-                    "onlyincombo": false
-                },
-                {
-                    "name": "尖石攻擊",
-                    "preaction": "",
-                    "action": "",
-                    "recovery": "",
-                    "note": "",
-                    "video": "videos/泥翁龍/泥翁龍_尖石攻擊.mp4",
                     "onlyincombo": false
                 },
                 {
@@ -3634,12 +3567,119 @@
                     "onlyincombo": false
                 },
                 {
-                    "name": "跑開",
+                    "name": "空翻勾尾",
+                    "preaction": "側身貼近目標。",
+                    "action": "躍起翻身至目標身後，同時尾巴向上勾起，地上掀起直線的黃色泥漿。",
+                    "recovery": "小",
+                    "note": "",
+                    "video": "videos/泥翁龍/泥翁龍_空翻勾尾.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "尖石攻擊造山",
+                    "preaction": "身體後仰潛入地面。",
+                    "action": "游向遠方，附近泥土翻攪處升起多處高聳台階，同時空中灑落泥漿。",
+                    "recovery": "",
+                    "note": "",
+                    "video": "videos/泥翁龍/泥翁龍_尖石攻擊造山.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "泡澡龍吼",
+                    "condition": "泡澡狀態",
+                    "preaction": "身體往後縮，單爪微微抬起。",
+                    "action": "",
+                    "recovery": "",
+                    "note": "",
+                    "video": "videos/泥翁龍/泥翁龍_泡澡龍吼.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "小掃尾",
+                    "condition": "泡澡狀態",
+                    "preaction": "雙手撐地，稍微將身體往上撐起，尾尖也會側向一旁蓄力。",
+                    "action": "尾尖向前旋轉甩出。",
+                    "recovery": "中",
+                    "note": "注意攻擊範圍不只是尾巴前方，尾尖回勾時也容易擊中頭前的目標。",
+                    "video": "videos/泥翁龍/泥翁龍_小掃尾.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "潛水",
+                    "condition": "泡澡狀態",
+                    "preaction": "頭轉向目標吼叫一聲。",
+                    "action": "潛入地面後從目標附近鑽出，躍起後落向遠方再浮出地面。",
+                    "recovery": "小",
+                    "note": "",
+                    "video": "videos/泥翁龍/泥翁龍_潛水.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "天女散花",
+                    "condition": "泡澡狀態",
+                    "preaction": "尾部攪動泥土。",
+                    "action": "連續兩次朝空中擲出四散的泥漿",
+                    "recovery": "中",
+                    "note": "",
+                    "video": "videos/泥翁龍/泥翁龍_天女散花.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "泥漿噴泉",
+                    "condition": "泡澡狀態",
+                    "preaction": "上身抬起在空中左右甩。",
+                    "action": "雙爪浮地，前方地面正方形四角向上噴射泥漿。",
+                    "recovery": "中",
+                    "note": "正方形範圍中間是盲區。",
+                    "video": "videos/泥翁龍/泥翁龍_泥漿噴泉.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "潛龍升天",
+                    "condition": "泡澡狀態",
+                    "preaction": "身體後仰潛入地面，四周攪動泥土。",
+                    "action": "原地鑽出高高躍起後落地。",
+                    "recovery": "中",
+                    "note": "",
+                    "video": "videos/泥翁龍/泥翁龍_潛龍升天.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "原地轉圈集泥球",
+                    "preaction": "身體向後彎曲抬起。",
+                    "action": "原地轉圈並攪動身側的泥土，結束後翻身一跳。",
+                    "recovery": "大",
+                    "note": "使用這招後尾部集成泥球。",
+                    "video": "videos/泥翁龍/泥翁龍_原地轉圈集泥球.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "蓄力泥球掃尾",
+                    "condition": "尾部有泥球",
+                    "preaction": "身體向後，轉頭看向目標，尾部大幅彎起蓄力。",
+                    "action": "尾部向前橫掃。",
+                    "recovery": "大",
+                    "note": "貼近尾根處似乎是盲區。",
+                    "video": "videos/泥翁龍/泥翁龍_蓄力泥球掃尾.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "蓄力泥球尾砸",
+                    "condition": "尾部有泥球",
+                    "preaction": "彎曲身體，尾不停晃動，看向目標吼叫一聲。。",
+                    "action": "高高躍起後尾部砸向地面，砸地後泥球會消失。",
+                    "recovery": "大",
+                    "note": "尾部產生泥球後一段時間內若沒有被破壞會使用這招。",
+                    "video": "videos/泥翁龍/泥翁龍_蓄力泥球尾砸.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "Z字跑動",
                     "preaction": "",
                     "action": "Z字形跑動，路上會出現泥土台階",
                     "recovery": "",
                     "note": "這招後高機率銜接二連掃尾",
-                    "video": "videos/泥翁龍/泥翁龍_跑開.mp4",
+                    "video": "videos/泥翁龍/泥翁龍_Z字跑動.mp4",
                     "onlyincombo": true
                 }
             ],
@@ -3649,73 +3689,16 @@
                     "condition": "",
                     "nodes": [
                         {
-                            "move": "前撲",
+                            "move": "迴旋甩尾",
                             "links": [
                                 {
                                     "node": 1,
-                                    "condition": ""
-                                },
-                                {
-                                    "node": 2,
-                                    "condition": ""
-                                }
-                            ]
-                        },
-                        {
-                            "move": "鑽地尾砸",
-                            "links": []
-                        },
-                        {
-                            "move": "前撲",
-                            "links": [
-                                {
-                                    "node": 3,
-                                    "condition": ""
-                                }
-                            ]
-                        },
-                        {
-                            "move": "側身尾撞",
-                            "links": []
-                        }
-                    ]
-                },
-                {
-                    "root": 0,
-                    "condition": "",
-                    "nodes": [
-                        {
-                            "move": "揮爪",
-                            "links": [
-                                {
-                                    "node": 1,
-                                    "condition": ""
-                                },
-                                {
-                                    "node": 2,
-                                    "condition": ""
-                                },
-                                {
-                                    "node": 3,
-                                    "condition": ""
-                                }
-                            ]
-                        },
-                        {
-                            "move": "小咬",
-                            "links": [
-                                {
-                                    "node": 2,
-                                    "condition": ""
+                                    "condition": "有機率"
                                 }
                             ]
                         },
                         {
                             "move": "反身尾砸",
-                            "links": []
-                        },
-                        {
-                            "move": "迴旋甩尾",
                             "links": []
                         }
                     ]
@@ -3733,7 +3716,7 @@
                                 },
                                 {
                                     "node": 2,
-                                    "condition": ""
+                                    "condition": "身後高機率"
                                 }
                             ]
                         },
@@ -3752,7 +3735,7 @@
                     "condition": "",
                     "nodes": [
                         {
-                            "move": "跑開",
+                            "move": "Z字跑動",
                             "links": [
                                 {
                                     "node": 1,
@@ -3775,12 +3758,31 @@
                             "links": [
                                 {
                                     "node": 1,
-                                    "condition": ""
+                                    "condition": "有機率"
                                 }
                             ]
                         },
                         {
                             "move": "潛龍升天",
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "root": 0,
+                    "condition": "",
+                    "nodes": [
+                        {
+                            "move": "小咬/前撲/揮爪",
+                            "links": [
+                                {
+                                    "node": 1,
+                                    "condition": "高機率"
+                                }
+                            ]
+                        },
+                        {
+                            "move": "大威力攻擊招式",
                             "links": []
                         }
                     ]
