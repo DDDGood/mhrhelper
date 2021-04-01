@@ -3490,7 +3490,7 @@
                     "recovery": "中",
                     "note": "高機率二連拍。",
                     "video": "videos/泥翁龍/泥翁龍_蓄力拍.mp4",
-                    "onlyincombo": false
+                    "onlyincombo": true
                 },
                 {
                     "name": "迴旋甩尾",
@@ -3567,7 +3567,7 @@
                     "action": "雙爪浮地，前方地面正方形四角向上噴射泥漿。",
                     "recovery": "中",
                     "note": "正方形範圍中間是盲區。",
-                    "video": "videos/泥翁龍/泥翁龍_潛水繞後.mp4",
+                    "video": "videos/泥翁龍/泥翁龍_泥漿噴泉.mp4",
                     "onlyincombo": false
                 },
                 {
