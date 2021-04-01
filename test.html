@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-RQRCZ8YKGP"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-RQRCZ8YKGP');
+    </script>
+    <title>MHRise魔物筆記</title>
+    <LINK REL="SHORTCUT ICON" HREF="/favicon.ico">
+    <base target="_top" />
+    <link rel="stylesheet" type="text/css" href="styles/style.css" />
+    <link rel="stylesheet" type="text/css" href="styles/style_mobile.css" />
+    <link rel="stylesheet" type="text/css" href="styles/style_desktop.css" />
+    <link rel="stylesheet" type="text/css" href="plugins/fontello/css/fontello.css" />
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.12"></script>
+    <script src="plugins/httpVueLoader.js"></script>
+    <script src="plugins/vue-router.js"></script>
+    <script src="plugins/vue-i18n.js"></script>
+    <script type="text/javascript" src="localization/localization.js"></script>
+    <script type="text/javascript" src="scripts/main.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=0">
+    <meta name="description" content="整理魔物獵人崛起(Monster Hunter Rise)的遊戲資料及攻略。">
+</head>
+
+<body>
+    <div id="wrapper">
+        <div id="app">
+            <div id="header">
+                <div class="header1" onclick="javascript:location.href='https://dddgood.github.io/mhrhelper/'">
+                    {{$t('mhrhelper')}}
+                </div>
+                <!-- <select id="localization" onchange="SetLocal(this.options[this.options.selectedIndex].value);">
+                    <option value="tw">中文</option>
+                    <option value="en">English</option>
+                </select> -->
+            </div>
+            <router-view></router-view>
+        </div>
+    </div>
+    <footer>
+        <div class="footer-text">©CAPCOM CO., LTD. ALL RIGHTS RESERVED.</div>
+        <div class="footer-text">All trademarks referenced herein are the properties of their respective owners.</div>
+        <div class="footer-text">_________________________________</div>
+        <div class="flex-row" style="justify-content:center">
+            <div class="footer-text unselectable">作者信箱：</div>
+            <div class="footer-text"> forever9409@gmail.com </div>
+        </div>
+    </footer>
+    <div id="error"></div>
+</body>
+
+</html>
