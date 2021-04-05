@@ -145,6 +145,31 @@ function onDexLoaded() {
 }
 function someDataWorks() {
 
+    let output = "";
+    for (let i in data.moves.almudron.moves) {
+        let move = data.moves.almudron.moves[i];
+        output += move.name + "\n";
+        if (move.recovery === "大")
+            output += "(硬直大)" + "\n";
+
+        output += "\n";
+
+        if (!IsNullOrEmpty(move.condition))
+            output += "條件：" + move.condition + "\n"
+        if (!IsNullOrEmpty(move.preaction))
+            output += "預兆：" + move.preaction + "\n"
+        if (!IsNullOrEmpty(move.action))
+            output += "動作：" + move.action + "\n"
+        if (!IsNullOrEmpty(move.note))
+            output += "備註：" + move.note + "\n"
+
+        output += "\n\n";
+    }
+
+    saveTextFile(output);
+
+    return
+
 
     const PART_COLOR = ["#e6194B", "#3cb44b", "#ffe119", "#4363d8", "#f58231", "#911eb4", "#42d4f4", "#f032e6", "#bfef45", "#fabed4", "#469990"];
 

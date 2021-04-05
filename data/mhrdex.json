@@ -1847,6 +1847,11 @@
             },
             {
               "item": "mizutsune_plate",
+              "rate": "7%",
+              "num": "1"
+            },
+            {
+              "item": "mizutsune_plate",
               "rate": "3%",
               "num": "1"
             }

@@ -3525,7 +3525,7 @@
                     "name": "反身尾砸",
                     "preaction": "舉起尾巴，身體向後捲。",
                     "action": "尾部砸向目標。",
-                    "recovery": "中",
+                    "recovery": "大",
                     "note": "",
                     "video": "videos/泥翁龍/泥翁龍_反身尾砸.mp4",
                     "onlyincombo": false
@@ -3659,7 +3659,7 @@
                     "preaction": "身體向後，轉頭看向目標，尾部大幅彎起蓄力。",
                     "action": "尾部向前橫掃。",
                     "recovery": "大",
-                    "note": "貼近尾根處似乎是盲區。",
+                    "note": "貼近尾根處是盲區。",
                     "video": "videos/泥翁龍/泥翁龍_蓄力泥球掃尾.mp4",
                     "onlyincombo": false
                 },
