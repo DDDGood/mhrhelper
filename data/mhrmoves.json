@@ -3286,6 +3286,33 @@
             },
             "moves": [
                 {
+                    "name": "威嚇",
+                    "preaction": "",
+                    "action": "",
+                    "recovery": "",
+                    "note": "",
+                    "video": "videos/赤甲獸/赤甲獸_威嚇.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "前撲",
+                    "preaction": "",
+                    "action": "",
+                    "recovery": "",
+                    "note": "",
+                    "video": "videos/赤甲獸/赤甲獸_前撲.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "下壓",
+                    "preaction": "",
+                    "action": "",
+                    "recovery": "",
+                    "note": "",
+                    "video": "videos/赤甲獸/赤甲獸_下壓.mp4",
+                    "onlyincombo": false
+                },
+                {
                     "name": "前滾",
                     "preaction": "",
                     "action": "",
@@ -3304,12 +3331,30 @@
                     "onlyincombo": false
                 },
                 {
-                    "name": "鉛球",
+                    "name": "後滾",
                     "preaction": "",
                     "action": "",
                     "recovery": "",
                     "note": "",
-                    "video": "videos/赤甲獸/赤甲獸_鉛球.mp4",
+                    "video": "videos/赤甲獸/赤甲獸_後滾.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "前滾跳",
+                    "preaction": "",
+                    "action": "",
+                    "recovery": "",
+                    "note": "",
+                    "video": "videos/赤甲獸/赤甲獸_前滾跳.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "泰山壓頂",
+                    "preaction": "",
+                    "action": "",
+                    "recovery": "",
+                    "note": "",
+                    "video": "videos/赤甲獸/赤甲獸_泰山壓頂.mp4",
                     "onlyincombo": false
                 },
                 {
@@ -3331,6 +3376,15 @@
                     "onlyincombo": false
                 },
                 {
+                    "name": "伸舌頭",
+                    "preaction": "",
+                    "action": "",
+                    "recovery": "",
+                    "note": "",
+                    "video": "videos/赤甲獸/赤甲獸_伸舌頭.mp4",
+                    "onlyincombo": false
+                },
+                {
                     "name": "放屁",
                     "preaction": "",
                     "action": "",
@@ -3340,38 +3394,28 @@
                     "onlyincombo": false
                 }
             ],
-            "combos": [
+            "combos": [],
+            "riding_moves": [
                 {
-                    "root": 0,
-                    "condition": "",
-                    "nodes": [
-                        {
-                            "move": "前滾",
-                            "links": [
-                                {
-                                    "node": 1,
-                                    "condition": ""
-                                },
-                                {
-                                    "node": 2,
-                                    "condition": ""
-                                }
-                            ]
-                        },
-                        {
-                            "move": "吐口水",
-                            "links": []
-                        },
-                        {
-                            "move": "側滾",
-                            "links": [
-                                {
-                                    "node": 1,
-                                    "condition": ""
-                                }
-                            ]
-                        }
-                    ]
+                    "name": "前撲",
+                    "command": "[X]",
+                    "video": "videos/赤甲獸/赤甲獸_操龍_前撲.mp4"
+                },
+                {
+                    "name": "伸舌頭",
+                    "command": "[LS]↓ + [X]",
+                    "video": "videos/赤甲獸/赤甲獸_操龍_伸舌頭.mp4"
+                },
+                {
+                    "name": "連環巴掌",
+                    "command": "[A]",
+                    "note": "連按派生最多四下",
+                    "video": "videos/赤甲獸/赤甲獸_操龍_連環巴掌.mp4"
+                },
+                {
+                    "name": "吐口水",
+                    "command": "[LS]↓ + [A]",
+                    "video": "videos/赤甲獸/赤甲獸_操龍_吐口水.mp4"
                 }
             ]
         },
@@ -3535,7 +3579,7 @@
                     "preaction": "身體原地下潛，留一節尾巴指向天。",
                     "action": "尾巴向前砸後，身體鑽出。",
                     "recovery": "大",
-                    "note": "",
+                    "note": "這招的方向修正很強，不容易走位閃躲。",
                     "video": "videos/泥翁龍/泥翁龍_鑽地尾砸.mp4",
                     "onlyincombo": false
                 },
