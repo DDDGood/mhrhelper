@@ -1,0 +1,1096 @@
+{
+    "quests": {
+        "quest_village_a_tour_of_the_ruins": {
+            "name": "大社遺跡的探索之旅",
+            "type": 1,
+            "star": 1,
+            "client": "村長傅賢"
+        },
+        "quest_hall_a_tour_of_the_ruins": {
+            "name": "大社遺跡的探索之旅",
+            "type": 2,
+            "star": 1,
+            "client": "公會經紀人･風登"
+        },
+        "quest_hall_a_tour_of_the_ruins_2": {
+            "name": "大社遺跡的探索之旅",
+            "type": 2,
+            "star": 4,
+            "client": "公會經紀人･風登"
+        },
+        "quest_village_a_tour_of_the_caverns": {
+            "name": "熔岩洞的探索之旅",
+            "type": 1,
+            "star": 4,
+            "client": "村長傅賢"
+        },
+        "quest_hall_a_tour_of_the_caverns": {
+            "name": "熔岩洞的探索之旅",
+            "type": 2,
+            "star": 3,
+            "client": "公會經紀人･風登"
+        },
+        "quest_hall_a_tour_of_the_caverns_2": {
+            "name": "熔岩洞的探索之旅",
+            "type": 2,
+            "star": 6,
+            "client": "公會經紀人･風登"
+        },
+        "quest_village_a_tour_of_the_plains": {
+            "name": "沙原的探索之旅",
+            "type": 1,
+            "star": 3,
+            "client": "村長傅賢"
+        },
+        "quest_hall_a_tour_of_the_plains": {
+            "name": "沙原的探索之旅",
+            "type": 2,
+            "star": 2,
+            "client": "公會經紀人･風登"
+        },
+        "quest_hall_a_tour_of_the_plains_2": {
+            "name": "沙原的探索之旅",
+            "type": 2,
+            "star": 5,
+            "client": "公會經紀人･風登"
+        },
+        "quest_village_getting_back_the_groceries": {
+            "name": "恐怖的尋找失物之旅！之卷",
+            "type": 1,
+            "star": 4,
+            "client": "茶館老闆艾草"
+        },
+        "quest_village_case_of_the_creepy_crawlies": {
+            "name": "百蟲夜行",
+            "type": 1,
+            "star": 2,
+            "client": "商店的老闆娘"
+        },
+        "quest_village_cant_stomach_the_thought": {
+            "name": "囫圇吞物的河童蛙",
+            "type": 1,
+            "star": 3,
+            "client": "冷靜的生物學家"
+        },
+        "quest_village_a_frosty_paradise": {
+            "name": "宛如夢境般的寒冷群島",
+            "type": 1,
+            "star": 2,
+            "client": "因嗜睡而煩惱的旅行商人"
+        },
+        "quest_village_roly-poly_lanterns": {
+            "name": "圓滾滾的鬼燈",
+            "type": 1,
+            "star": 1,
+            "client": "喜歡可愛事物的村莊少女"
+        },
+        "quest_village_help_with_maintenance": {
+            "name": "整備前得先擊退鐮鼬龍",
+            "type": 1,
+            "star": 1,
+            "client": "村莊的年輕木匠"
+        },
+        "quest_village_nosey_nuisances": {
+            "name": "沙原的騷動",
+            "type": 1,
+            "star": 5,
+            "client": "道地的爆彈桶使用者"
+        },
+        "quest_village_the_hottest_around": {
+            "name": "火熱的重要一戰",
+            "type": 1,
+            "star": 5,
+            "client": "好奇心旺盛的艾路"
+        },
+        "quest_village_king_of_the_sky_bane_of_the_land": {
+            "name": "天空王者與大地暴君",
+            "type": 1,
+            "star": 6,
+            "client": "年輕的將軍"
+        },
+        "quest_village_fungal_frustrations": {
+            "name": "請給我美味的香菇吧",
+            "type": 1,
+            "star": 1,
+            "client": "香菇料理專賣店的店長"
+        },
+        "quest_village_hmm_not_so_tasty": {
+            "name": "怎麼烤都烤不好！",
+            "type": 1,
+            "star": 2,
+            "client": "見習廚師艾路"
+        },
+        "quest_village_faceless_foe": {
+            "name": "擊退沒有臉的怪物？",
+            "type": 1,
+            "star": 3,
+            "client": "膽小的調查員"
+        },
+        "quest_village_third_wheel": {
+            "name": "激烈的三強決戰",
+            "type": 1,
+            "star": 4,
+            "client": "手持軍配的女孩"
+        },
+        "quest_village_wind_speed_wyvern": {
+            "name": "疾風迅龍",
+            "type": 1,
+            "star": 5,
+            "client": "隔壁村莊的信差"
+        },
+        "quest_village_bzzzzz_or_zzzzzzzz": {
+            "name": "酥麻電擊或是呼呼大睡？",
+            "type": 1,
+            "star": 5,
+            "client": "十分堅持的女友"
+        },
+        "quest_village_special_license_test_3": {
+            "name": "特別許可試驗･三",
+            "type": 1,
+            "star": 6,
+            "client": "村莊接待員火芽"
+        },
+        "quest_village_ladies_of_the_lake": {
+            "name": "嬌豔欲滴的美女",
+            "type": 1,
+            "star": 3,
+            "client": "美麗的夫人"
+        },
+        "quest_village_unpious_peons": {
+            "name": "盤據在神社的暴徒",
+            "type": 1,
+            "star": 1,
+            "client": "虔誠的艾路"
+        },
+        "quest_village_the_queens_procession": {
+            "name": "女王陛下駕到",
+            "type": 1,
+            "star": 4,
+            "client": "開朗的青年"
+        },
+        "quest_village_spongy_oasis": {
+            "name": "海綿質素材創造出的沙漠未來",
+            "type": 1,
+            "star": 3,
+            "client": "沙漠的大發明家"
+        },
+        "quest_village_twisted_desire": {
+            "name": "扭曲的欲望",
+            "type": 1,
+            "star": 6,
+            "client": "某鐵匠的子嗣"
+        },
+        "quest_village_a_sandy_cabal": {
+            "name": "在沙原蠢蠢欲動的不明群體",
+            "type": 1,
+            "star": 3,
+            "client": "追究謎團的少女"
+        },
+        "quest_village_special_license_test_2": {
+            "name": "特別許可試驗･二",
+            "type": 1,
+            "star": 5,
+            "client": "村莊接待員火芽"
+        },
+        "quest_village_obnoxious_lord_noxious_monster": {
+            "name": "毒霧繚繞的水沒林",
+            "type": 1,
+            "star": 3,
+            "client": "領主的顧問"
+        },
+        "quest_village_nocturnal_tracker": {
+            "name": "沙漠夜裡的追蹤者",
+            "type": 1,
+            "star": 5,
+            "client": "流浪的詩人"
+        },
+        "quest_village_a_test_of_courage": {
+            "name": "在大社遺跡試膽",
+            "type": 1,
+            "star": 6,
+            "client": "膽小的艾路"
+        },
+        "quest_village_a_tour_of_the_forest": {
+            "name": "水沒林的探索之旅",
+            "type": 1,
+            "star": 3,
+            "client": "村長傅賢"
+        },
+        "quest_hall_a_tour_of_the_forest": {
+            "name": "水沒林的探索之旅",
+            "type": 2,
+            "star": 2,
+            "client": "公會經紀人･風登"
+        },
+        "quest_hall_a_tour_of_the_forest_2": {
+            "name": "水沒林的探索之旅",
+            "type": 2,
+            "star": 5,
+            "client": "公會經紀人･風登"
+        },
+        "quest_village_rathalos_alert": {
+            "name": "火龍警報發布中",
+            "type": 1,
+            "star": 5,
+            "client": "敬業的觀測者"
+        },
+        "quest_village_a_poisonous_project": {
+            "name": "醫生對毒的孤獨研究",
+            "type": 1,
+            "star": 4,
+            "client": "熱衷研究的醫生"
+        },
+        "quest_village_hermit_of_the_swamp": {
+            "name": "泥之隱者",
+            "type": 1,
+            "star": 6,
+            "client": "村長傅賢"
+        },
+        "quest_village_plump_and_juicy": {
+            "name": "緊緻彈性，柔柔滑滑",
+            "type": 1,
+            "star": 2,
+            "client": "無法忘懷那股滋味的男人"
+        },
+        "quest_village_off_your_rocker": {
+            "name": "夜裡哭泣的石頭",
+            "type": 1,
+            "star": 4,
+            "client": "熔岩洞的採掘家"
+        },
+        "quest_village_so_hot_it_melts_iron": {
+            "name": "連鐵都能熔解的燃石炭",
+            "type": 1,
+            "star": 4,
+            "client": "某個村莊的工匠"
+        },
+        "quest_village_the_secret_ingredient": {
+            "name": "提味秘方正是小睡？之卷",
+            "type": 1,
+            "star": 5,
+            "client": "茶館老闆艾草"
+        },
+        "quest_village_like_a_flash_of_lightning": {
+            "name": "電光雷轟，夢幻泡影",
+            "type": 1,
+            "star": 6,
+            "client": "口若懸河的獵人前輩"
+        },
+        "quest_village_grizzly_glutton": {
+            "name": "食慾旺盛的青熊獸",
+            "type": 1,
+            "star": 2,
+            "client": "村裡最強的釣魚名人"
+        },
+        "quest_village_a_tour_of_the_islands": {
+            "name": "寒冷群島的探索之旅",
+            "type": 1,
+            "star": 2,
+            "client": "村長傅賢"
+        },
+        "quest_hall_a_tour_of_the_islands": {
+            "name": "寒冷群島的探索之旅",
+            "type": 2,
+            "star": 1,
+            "client": "公會經紀人･風登"
+        },
+        "quest_hall_a_tour_of_the_islands_2": {
+            "name": "寒冷群島的探索之旅",
+            "type": 2,
+            "star": 4,
+            "client": "公會經紀人･風登"
+        },
+        "quest_village_great_izuchi_great_pain": {
+            "name": "三位一體的鐮刀",
+            "type": 1,
+            "star": 2,
+            "client": "茶館老闆艾草"
+        },
+        "quest_village_fightin_dirty": {
+            "name": "泥沼裡的土砂龍",
+            "type": 1,
+            "star": 3,
+            "client": "村裡的採菇名人"
+        },
+        "quest_village_supply_run": {
+            "name": "尋找掉落的貨物之卷",
+            "type": 1,
+            "star": 3,
+            "client": "茶館老闆艾草"
+        },
+        "quest_village_the_cactus_diet": {
+            "name": "驚人！靠仙人掌打造完美身材",
+            "type": 1,
+            "star": 3,
+            "client": "追逐流行的女性"
+        },
+        "quest_village_a_song_of_red_and_fire": {
+            "name": "熾熱的圓舞曲",
+            "type": 1,
+            "star": 4,
+            "client": "孤傲的作曲家"
+        },
+        "quest_village_the_rampage_approaches": {
+            "name": "百龍夜行來襲",
+            "type": 2,
+            "star": 2,
+            "client": "公會經紀人･風登"
+        },
+        "quest_village_breath_of_the_past": {
+            "name": "太古的氣息",
+            "type": 1,
+            "star": 3,
+            "client": "好奇心旺盛的小男孩"
+        },
+        "quest_village_infernal_lacrimosa": {
+            "name": "通往黃泉路的歌聲",
+            "type": 1,
+            "star": 4,
+            "client": "認真的獵人"
+        },
+        "quest_village_out_cold": {
+            "name": "戰勝睡意！",
+            "type": 1,
+            "star": 2,
+            "client": "充滿正義感的艾路"
+        },
+        "quest_village_walking_on_eggshells": {
+            "name": "沙原裡的大盜",
+            "type": 1,
+            "star": 3,
+            "client": "沙原的搬運工"
+        },
+        "quest_village_raging_white-out": {
+            "name": "寒風呼嘯的銀白世界",
+            "type": 1,
+            "star": 4,
+            "client": "某位地方的豪族"
+        },
+        "quest_village_thundering_voice": {
+            "name": "轟天之聲",
+            "type": 1,
+            "star": 6,
+            "client": "隱身於寒冷群島的男人"
+        },
+        "quest_village_feathered_frenzy": {
+            "name": "千變萬化的紙傘",
+            "type": 1,
+            "star": 3,
+            "client": "隨從雇用窗口小庵"
+        },
+        "quest_village_rabid_rabbit": {
+            "name": "白兔獸別再吃了",
+            "type": 1,
+            "star": 2,
+            "client": "愛哭鬼新手獵師"
+        },
+        "quest_village_special_license_test_1": {
+            "name": "特別許可試驗･一",
+            "type": 1,
+            "star": 4,
+            "client": "村莊接待員火芽"
+        },
+        "quest_village_deliver_the_liver": {
+            "name": "肝是最棒的下酒菜",
+            "type": 1,
+            "star": 4,
+            "client": "愛喝酒的少爺"
+        },
+        "quest_village_abominable_snow-beast": {
+            "name": "徬徨的雪鬼獸",
+            "type": 1,
+            "star": 6,
+            "client": "住在雪國的母親"
+        },
+        "quest_village_electrifying_ephiphany": {
+            "name": "帶電雷狼龍",
+            "type": 1,
+            "star": 5,
+            "client": "冷靜的生物學家"
+        },
+        "quest_village_streaking_shadow": {
+            "name": "在空中飛舞的白影",
+            "type": 1,
+            "star": 4,
+            "client": "菜鳥調查員"
+        },
+        "quest_village_monkey_wrench_in_your_plans": {
+            "name": "山林的武僧",
+            "type": 1,
+            "star": 4,
+            "client": "加工店刀紋"
+        },
+        "quest_village_the_best_quest": {
+            "name": "連接親子間的線",
+            "type": 1,
+            "star": 4,
+            "client": "體貼家人的女孩"
+        },
+        "quest_village_waltzing_by_moonlight": {
+            "name": "月下之舞",
+            "type": 1,
+            "star": 5,
+            "client": "傳統舞蹈的高手"
+        },
+        "quest_village_comeuppance": {
+            "name": "暴虐無道",
+            "type": 1,
+            "star": 5,
+            "client": "村長傅賢"
+        },
+        "quest_hall_the_path_to_royalty": {
+            "name": "成為女王的方法",
+            "type": 2,
+            "star": 2,
+            "client": "想成為女王的女性"
+        },
+        "quest_hall_a_grizzly_encounter": {
+            "name": "蜂蜜爭奪戰！",
+            "type": 2,
+            "star": 1,
+            "client": "熱愛甜食的村民"
+        },
+        "quest_hall_so_muddy_hardheaded": {
+            "name": "頭殼堅硬的土砂龍",
+            "type": 2,
+            "star": 2,
+            "client": "村裡頭殼最硬的村民"
+        },
+        "quest_hall_the_swirling_gale": {
+            "name": "層層包圍的旋風",
+            "type": 2,
+            "star": 4,
+            "client": "住在大社遺跡附近的女性"
+        },
+        "quest_hall_dead_ringer": {
+            "name": "囫圇吞物的相撲力士",
+            "type": 2,
+            "star": 2,
+            "client": "集會所接待員水藝"
+        },
+        "quest_hall_divine_comedy": {
+            "name": "魔物中的老饕們",
+            "type": 2,
+            "star": 4,
+            "client": "來自農園的旅行商人"
+        },
+        "quest_hall_down_n_dirty": {
+            "name": "泥巴泥濘泥翁龍",
+            "type": 2,
+            "star": 3,
+            "client": "慌張的農家男性"
+        },
+        "quest_hall_lost_and_found": {
+            "name": "慎重派與突擊派",
+            "type": 2,
+            "star": 4,
+            "client": "剛跑完腿的少年"
+        },
+        "quest_hall_beastly_chaos": {
+            "name": "瘋狂的肆虐者們",
+            "type": 2,
+            "star": 3,
+            "client": "滿臉驚慌的艾路"
+        },
+        "quest_hall_donning_toxicity": {
+            "name": "身披毒錦",
+            "type": 2,
+            "star": 4,
+            "client": "村裡的染布工匠"
+        },
+        "quest_hall_twilit_twin_stars": {
+            "name": "黑夜中奔馳的雙星",
+            "type": 2,
+            "star": 3,
+            "client": "療養中的獵人"
+        },
+        "quest_hall_off_the_beaten_path": {
+            "name": "讓大社遺跡的夜晚恢復寧靜",
+            "type": 2,
+            "star": 1,
+            "client": "喜愛探索的少女"
+        },
+        "quest_hall_a_pale_shadow": {
+            "name": "逼近的白影",
+            "type": 2,
+            "star": 2,
+            "client": "某個艾路的日記"
+        },
+        "quest_hall_a_few_bumps_along_the_way": {
+            "name": "當心銳利尖角",
+            "type": 2,
+            "star": 3,
+            "client": "倒楣的旅行商人"
+        },
+        "quest_hall_the_frost_islands_arena": {
+            "name": "盛大的相撲舞台･寒冷群島",
+            "type": 2,
+            "star": 4,
+            "client": "嶄露頭角的力士"
+        },
+        "quest_hall_hot_topic_hooligans": {
+            "name": "近來引起話題的討厭鬼們",
+            "type": 2,
+            "star": 1,
+            "client": "熱衷八卦的婦人"
+        },
+        "quest_hall_way_of_the_pukei": {
+            "name": "認真觀察毒妖鳥",
+            "type": 2,
+            "star": 2,
+            "client": "躁進的村中少女"
+        },
+        "quest_hall_blasted_basarios": {
+            "name": "岩龍就在你身後",
+            "type": 2,
+            "star": 2,
+            "client": "沙原的採掘者"
+        },
+        "quest_hall_beckoning_slumber": {
+            "name": "誘入夢鄉",
+            "type": 2,
+            "star": 3,
+            "client": "有黑眼圈的女性"
+        },
+        "quest_hall_the_blizzard_blender": {
+            "name": "冰雪鬥士",
+            "type": 2,
+            "star": 3,
+            "client": "修行中的武術家"
+        },
+        "quest_hall_the_blue_apex": {
+            "name": "青色的首領",
+            "type": 2,
+            "star": 4,
+            "client": "公會經紀人･風登"
+        },
+        "quest_hall_tired_and_feathered": {
+            "name": "深夜時分驅逐搔鳥",
+            "type": 2,
+            "star": 1,
+            "client": "全村最愛吃蛋的人"
+        },
+        "quest_hall_wroggi_place_wroggi_time": {
+            "name": "在大社遺跡奔馳的毒狗龍王",
+            "type": 2,
+            "star": 1,
+            "client": "以快腿自豪的信差"
+        },
+        "quest_hall_bouncing_brawlers": {
+            "name": "兔子和青蛙的互撞訓練",
+            "type": 2,
+            "star": 2,
+            "client": "觀測所的失眠男子"
+        },
+        "quest_hall_study_the_switch_axe": {
+            "name": "千變萬化！劍斧的招式",
+            "type": 2,
+            "star": 4,
+            "client": "倪泰教官"
+        },
+        "quest_hall_learning_the_light_bowgun": {
+            "name": "用心學習！輕弩的招式",
+            "type": 2,
+            "star": 4,
+            "client": "倪泰教官"
+        },
+        "quest_hall_reinventing_the_wheel": {
+            "name": "在沙原滾動的赤甲獸",
+            "type": 2,
+            "star": 2,
+            "client": "沙漠的大發明家"
+        },
+        "quest_hall_zigzagging_zapper": {
+            "name": "撲朔的飛電",
+            "type": 2,
+            "star": 3,
+            "client": "急躁的獵人"
+        },
+        "quest_hall_my_muse_the_mizutsune": {
+            "name": "為泡狐龍著迷",
+            "type": 2,
+            "star": 3,
+            "client": "魯莽畫家的妻子"
+        },
+        "quest_hall_champion_of_the_caverns": {
+            "name": "王者降臨熔岩洞",
+            "type": 2,
+            "star": 3,
+            "client": "尾巴燒焦的艾路"
+        },
+        "quest_hall_white_knight_vs_hunter": {
+            "name": "白騎士對獵人",
+            "type": 2,
+            "star": 3,
+            "client": "流浪劍客"
+        },
+        "quest_hall_didnt_get_the_memo": {
+            "name": "寒地打盹",
+            "type": 2,
+            "star": 4,
+            "client": "試圖辯解的獵人"
+        },
+        "quest_hall_night_of_the_khezu": {
+            "name": "深夜的奇怪龍狩獵",
+            "type": 2,
+            "star": 4,
+            "client": "口齒清晰的男性"
+        },
+        "quest_hall_dango_duty": {
+            "name": "守護兔兔糰子的生命線之卷",
+            "type": 2,
+            "star": 4,
+            "client": "茶館老闆艾草"
+        },
+        "quest_hall_honing_your_hunting_horn": {
+            "name": "徹底理解！狩獵笛的招式",
+            "type": 2,
+            "star": 4,
+            "client": "倪泰教官"
+        },
+        "quest_hall_shady_monster": {
+            "name": "紙傘妖怪",
+            "type": 2,
+            "star": 1,
+            "client": "可疑的老婦人"
+        },
+        "quest_hall_a_friend_in_need": {
+            "name": "衝著好友而來的咆哮",
+            "type": 2,
+            "star": 3,
+            "client": "心地善良的旅行商人"
+        },
+        "quest_hall_even_cute_things_have_fangs": {
+            "name": "可愛的魔物也有牙",
+            "type": 2,
+            "star": 4,
+            "client": "和艾路很要好的少女"
+        },
+        "quest_hall_tail_to_tail": {
+            "name": "尾巴大對決",
+            "type": 2,
+            "star": 3,
+            "client": "消息靈通的男性"
+        },
+        "quest_hall_hide_hide_hide": {
+            "name": "皮、皮、皮！",
+            "type": 2,
+            "star": 2,
+            "client": "裁縫店店長"
+        },
+        "quest_hall_bully_of_the_caverns": {
+            "name": "熔岩洞的暴徒",
+            "type": 2,
+            "star": 3,
+            "client": "額頭有舊傷的老婦人"
+        },
+        "quest_hall_disastrously_beautiful": {
+            "name": "身處災禍仍舊美麗",
+            "type": 2,
+            "star": 3,
+            "client": "身穿和服的妖豔女性"
+        },
+        "quest_hall_fried_and_baptized": {
+            "name": "水之野獸與火之飛龍",
+            "type": 2,
+            "star": 2,
+            "client": "冷靜的生物學家"
+        },
+        "quest_hall_jumped_in_the_frost_islands": {
+            "name": "寒冷群島的旋風",
+            "type": 2,
+            "star": 1,
+            "client": "不屈不撓的獵人"
+        },
+        "quest_hall_wavering_moon_and_thunder": {
+            "name": "雷鳴伴水月",
+            "type": 2,
+            "star": 3,
+            "client": "衣著華貴的少年"
+        },
+        "quest_hall_study_the_sword_&_shield": {
+            "name": "細心領會！單手劍的招式",
+            "type": 2,
+            "star": 4,
+            "client": "倪泰教官"
+        },
+        "quest_hall_no_cure_for_the_common_baggi": {
+            "name": "眠狗龍在寒冷群島出沒",
+            "type": 2,
+            "star": 1,
+            "client": "感冒的艾路"
+        },
+        "quest_hall_i_want_off_this_ride": {
+            "name": "用尾巴團團轉",
+            "type": 2,
+            "star": 2,
+            "client": "充滿夢想的艾路"
+        },
+        "quest_hall_the_flooding_flooded_forest": {
+            "name": "淹沒水中的水沒林",
+            "type": 2,
+            "star": 2,
+            "client": "搬運船的船員"
+        },
+        "quest_hall_hellfire": {
+            "name": "鬼火",
+            "type": 2,
+            "star": 3,
+            "client": "公會經紀人･風登"
+        },
+        "quest_hall_dancing_a-purr-ition": {
+            "name": "傘鳥圓舞",
+            "type": 2,
+            "star": 4,
+            "client": "被雨淋濕的艾路"
+        },
+        "quest_hall_dawn_of_the_kestodon": {
+            "name": "我是冠突龍？冠突龍是我？",
+            "type": 2,
+            "star": 2,
+            "client": "陷入混亂的男子"
+        },
+        "quest_hall_a_snowballs_chance": {
+            "name": "小心逼近的雪球",
+            "type": 2,
+            "star": 1,
+            "client": "倒楣的旅行商人"
+        },
+        "quest_hall_totally_not_cool_kulu": {
+            "name": "鮮蛋糰子爭奪戰之卷",
+            "type": 2,
+            "star": 4,
+            "client": "茶館老闆艾草"
+        },
+        "quest_hall_bowled_over": {
+            "name": "小心來自沙原的魔球",
+            "type": 2,
+            "star": 5,
+            "client": "倒楣的旅行商人"
+        },
+        "quest_hall_grasp_the_great_sword": {
+            "name": "仔細觀察！大劍的招式",
+            "type": 2,
+            "star": 5,
+            "client": "倪泰教官"
+        },
+        "quest_hall_rotten_fruit": {
+            "name": "一柿入魂",
+            "type": 2,
+            "star": 5,
+            "client": "天真的艾路"
+        },
+        "quest_hall_flooded_forest_fiasco": {
+            "name": "水沒林的添亂集團",
+            "type": 2,
+            "star": 5,
+            "client": "泫然欲泣的少年"
+        },
+        "quest_hall_honing_your_hammer": {
+            "name": "親身體驗！大錘的招式",
+            "type": 2,
+            "star": 5,
+            "client": "倪泰教官"
+        },
+        "quest_hall_grasp_the_gunlance": {
+            "name": "千錘百鍊！銃槍的招式",
+            "type": 2,
+            "star": 6,
+            "client": "倪泰教官"
+        },
+        "quest_hall_the_lava_caverns_sweep": {
+            "name": "熔岩洞的掃蕩戰",
+            "type": 2,
+            "star": 6,
+            "client": "衣著華貴的少年"
+        },
+        "quest_arena_arena_04": {
+            "name": "鬥技大會04",
+            "type": 3,
+            "star": 6,
+            "client": "倪泰教官"
+        },
+        "quest_hall_learn_the_lance": {
+            "name": "心領神會！長槍的招式",
+            "type": 2,
+            "star": 5,
+            "client": "倪泰教官"
+        },
+        "quest_hall_skies_flash_clouds_boom": {
+            "name": "山河一閃，雷鳴轟響",
+            "type": 2,
+            "star": 6,
+            "client": "無法冷靜的艾路"
+        },
+        "quest_hall_showdown_in_the_arena": {
+            "name": "英雄豪傑",
+            "type": 2,
+            "star": 6,
+            "client": "大聲吆喝的表演主持人"
+        },
+        "quest_hall_cant_kill_it_with_fire": {
+            "name": "噴火的貴妃",
+            "type": 2,
+            "star": 7,
+            "client": "公會經紀人･風登"
+        },
+        "quest_hall_serpent_goddess_of_thunder": {
+            "name": "雷神",
+            "type": 2,
+            "star": 7,
+            "client": "公會經紀人･風登"
+        },
+        "quest_hall_omnidirectional_threats": {
+            "name": "來自四面八方的威脅",
+            "type": 2,
+            "star": 7,
+            "client": "衣著樸素的婦人"
+        },
+        "quest_hall_shadows_over_the_frost": {
+            "name": "吞噬寒地的影子",
+            "type": 2,
+            "star": 5,
+            "client": "旅行商人的代表"
+        },
+        "quest_hall_a_somniferous_elegy": {
+            "name": "誘向冥府的歌聲",
+            "type": 2,
+            "star": 6,
+            "client": "旅館主人"
+        },
+        "quest_hall_skies_are_gray": {
+            "name": "飛越頭頂的威脅",
+            "type": 2,
+            "star": 6,
+            "client": "充滿活力的釣客"
+        },
+        "quest_hall_learn_the_long_sword": {
+            "name": "去蕪存菁！太刀的招式",
+            "type": 2,
+            "star": 6,
+            "client": "倪泰教官"
+        },
+        "quest_hall_a_muddy_invitation": {
+            "name": "來自泥海的邀請",
+            "type": 2,
+            "star": 7,
+            "client": "滿身泥濘的艾路"
+        },
+        "quest_hall_subterranean_disturbances": {
+            "name": "於地底疾馳的角龍",
+            "type": 2,
+            "star": 7,
+            "client": "附近村莊的長老"
+        },
+        "quest_hall_a_frosty_stalemate": {
+            "name": "宛如大地的怪力",
+            "type": 2,
+            "star": 7,
+            "client": "回到村莊的男性"
+        },
+        "quest_hall_sharpening_amber_fangs": {
+            "name": "研磨琥珀色的牙",
+            "type": 2,
+            "star": 6,
+            "client": "等待男友的女性"
+        },
+        "quest_arena_arena_02": {
+            "name": "鬥技大會02",
+            "type": 3,
+            "star": 2,
+            "client": "倪泰教官"
+        },
+        "quest_arena_arena_05": {
+            "name": "鬥技大會05",
+            "type": 3,
+            "star": 7,
+            "client": "倪泰教官"
+        },
+        "quest_hall_rise_above_the_mud": {
+            "name": "身陷泥淖依舊爬起",
+            "type": 2,
+            "star": 5,
+            "client": "不服輸的獵人"
+        },
+        "quest_hall_charmed_by_a_queen": {
+            "name": "為女王著迷",
+            "type": 2,
+            "star": 5,
+            "client": "魯莽的畫家"
+        },
+        "quest_hall_a_bewitching_dance": {
+            "name": "妖豔之舞",
+            "type": 2,
+            "star": 6,
+            "client": "公會經紀人･風登"
+        },
+        "quest_hall_invoke_the_insect_glaive": {
+            "name": "潛心修練！操蟲棍的招式",
+            "type": 2,
+            "star": 6,
+            "client": "倪泰教官"
+        },
+        "quest_hall_ruckus_in_the_ruins": {
+            "name": "大社遺跡的大騷動",
+            "type": 2,
+            "star": 7,
+            "client": "充滿期待的少女"
+        },
+        "quest_hall_red_skies_at_night": {
+            "name": "在天空綻放的紅蓮",
+            "type": 2,
+            "star": 6,
+            "client": "時髦的煙火師"
+        },
+        "quest_hall_closer_than_it_appears": {
+            "name": "窮追不捨的蠻顎龍",
+            "type": 2,
+            "star": 6,
+            "client": "嚇到腿軟的送貨員"
+        },
+        "quest_hall_dissect_the_dual_blades": {
+            "name": "疾風驟雨！雙劍的招式",
+            "type": 2,
+            "star": 6,
+            "client": "倪泰教官"
+        },
+        "quest_hall_the_abyss_stares_back": {
+            "name": "劃破黑夜的赤紅雙眸",
+            "type": 2,
+            "star": 6,
+            "client": "嚇得發抖的獵人"
+        },
+        "quest_arena_arena_01": {
+            "name": "鬥技大會01",
+            "type": 3,
+            "star": 1,
+            "client": "倪泰教官"
+        },
+        "quest_hall_its_gonna_get_you": {
+            "name": "雪鬼獸來襲",
+            "type": 2,
+            "star": 7,
+            "client": "喜歡惡作劇的少年"
+        },
+        "quest_hall_clad_in_hellfire": {
+            "name": "鬼火纏身者",
+            "type": 2,
+            "star": 7,
+            "client": "穿著鎧甲的獵人"
+        },
+        "quest_hall_the_restless_swamp": {
+            "name": "險惡的沼澤",
+            "type": 2,
+            "star": 5,
+            "client": "公會經紀人･風登"
+        },
+        "quest_hall_do_it_for_the_dango": {
+            "name": "泥巴四濺大騷動之卷",
+            "type": 2,
+            "star": 6,
+            "client": "茶館老闆艾草"
+        },
+        "quest_hall_evil_afoot": {
+            "name": "惡鬼羅剎",
+            "type": 2,
+            "star": 7,
+            "client": "陷入混亂的旅行者"
+        },
+        "quest_arena_arena_03": {
+            "name": "鬥技大會03",
+            "type": 3,
+            "star": 3,
+            "client": "倪泰教官"
+        },
+        "quest_hall_miner_problem": {
+            "name": "有志者事竟成",
+            "type": 2,
+            "star": 5,
+            "client": "熟練的採掘者"
+        },
+        "quest_hall_hone_your_heavy_bowgun": {
+            "name": "一擊貫穿！重弩的招式",
+            "type": 2,
+            "star": 5,
+            "client": "倪泰教官"
+        },
+        "quest_hall_be_one_with_the_bow": {
+            "name": "勤加鍛鍊！弓的招式",
+            "type": 2,
+            "star": 6,
+            "client": "倪泰教官"
+        },
+        "quest_hall_a_resounding_roar": {
+            "name": "隆隆咆哮",
+            "type": 2,
+            "star": 7,
+            "client": "沙原的旅行商人"
+        },
+        "quest_hall_a_whirlwind_of_a_stage": {
+            "name": "疾風怒濤的大舞台",
+            "type": 2,
+            "star": 7,
+            "client": "古怪的作家"
+        },
+        "quest_hall_foul_play_in_the_forest": {
+            "name": "與水共生者",
+            "type": 2,
+            "star": 5,
+            "client": "老字號小餐館的老闆娘"
+        },
+        "quest_hall_go_away_pukei": {
+            "name": "化為血與毒",
+            "type": 2,
+            "star": 5,
+            "client": "飢餓的女性"
+        },
+        "quest_hall_charge_blade_coalescing": {
+            "name": "人斧一體！充能斧的招式",
+            "type": 2,
+            "star": 5,
+            "client": "倪泰教官"
+        },
+        "quest_hall_bad_review": {
+            "name": "近期引起話題的堅硬魔物",
+            "type": 2,
+            "star": 5,
+            "client": "熱衷八卦的婦人"
+        },
+        "quest_hall_a_quartet_of_horns": {
+            "name": "貫穿兔兔糰子的兩對犄角之卷",
+            "type": 2,
+            "star": 7,
+            "client": "茶館老闆艾草"
+        },
+        "quest_hall_fought_failed_fired_up": {
+            "name": "激戰、激烈、激勵之亂",
+            "type": 2,
+            "star": 7,
+            "client": "在外修行中的男子"
+        },
+        "quest_hall_occupational_hazards": {
+            "name": "小心暴徒",
+            "type": 2,
+            "star": 7,
+            "client": "倒楣的旅行商人"
+        },
+        "quest_hall_blue_round_and_cute": {
+            "name": "藍藍圓圓，惹人憐愛的孩子",
+            "type": 2,
+            "star": 4,
+            "client": "古怪的研究者"
+        },
+        "quest_hall_serpent_god_of_wind": {
+            "name": "風神",
+            "type": 2,
+            "star": 6,
+            "client": "公會經紀人･風登"
+        },
+        "quest_hall_seared_situation": {
+            "name": "注意火侯！紫炎與火球之卷",
+            "type": 2,
+            "star": 7,
+            "client": "茶館老闆艾草"
+        }
+    }
+}

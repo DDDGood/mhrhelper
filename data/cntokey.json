@@ -2819,6 +2819,2060 @@
         },
         "独眼蟹": {
             "key": "gustcrab"
+        },
+        "斗技大会01": {
+            "key": "quest_arena_arena_01"
+        },
+        "倪泰教官": {
+            "key": "quest_arena_master_utsushi"
+        },
+        "我的爱徒啊，欢迎来到斗技大会！\n使用指定的武具，\n充分发挥你的实力吧！": {
+            "key": "quest_arena_yo_ace_ready_for_some_awesome\narena_action_prove_your_mettle\nusing_the_equipment_provided_here"
+        },
+        "讨伐搔鸟": {
+            "key": "quest_arena_slay_a_kulu-ya-ku"
+        },
+        "报酬金额为零（1次力尽倒下）\n时间耗尽": {
+            "key": "quest_arena_reward_hits_0_faint_once\nor_time_expires"
+        },
+        "斗技大会02": {
+            "key": "quest_arena_arena_02"
+        },
+        "讨伐土砂龙": {
+            "key": "quest_arena_slay_a_barroth"
+        },
+        "斗技大会03": {
+            "key": "quest_arena_arena_03"
+        },
+        "讨伐1头水兽和1头迅龙": {
+            "key": "quest_arena_slay_a_royal_ludroth_and_a_nargacuga"
+        },
+        "斗技大会04": {
+            "key": "quest_arena_arena_04"
+        },
+        "讨伐冰牙龙": {
+            "key": "quest_arena_slay_a_barioth"
+        },
+        "斗技大会05": {
+            "key": "quest_arena_arena_05"
+        },
+        "讨伐金狮子": {
+            "key": "quest_arena_slay_a_rajang"
+        },
+        "废神社的探索之旅": {
+            "key": "quest_village_a_tour_of_the_ruins"
+        },
+        "村长普贤": {
+            "key": "quest_village_fugen_the_elder"
+        },
+        "噢，<PL>！\n如果你想自由探索废神社，\n那我很推荐这个任务。\n没有时间限制，\n力尽倒下多少次都没关系！\n等探索得心满意足了，\n就随时从菜单画面返回吧！": {
+            "key": "quest_village_hey_squirt_try_this_quest_on\nfor_size_if_you_wanna_explore\nthe_shrine_ruins_at_your\nleisure:_theres_no_limit_on\ntime_or_repetition_and_you\ncan_come_back_home_from_the\nmenu_screen_whenever_ya_want"
+        },
+        "探索废神社": {
+            "key": "quest_village_explore_the_shrine_ruins"
+        },
+        "无条件": {
+            "key": "quest_village_none"
+        },
+        "圆圆酸浆": {
+            "key": "quest_village_roly-poly_lanterns"
+        },
+        "喜欢可爱事物的村庄姑娘": {
+            "key": "quest_village_girly_village_maiden"
+        },
+        "火球酸浆，很可爱呢。\n红红的，圆圆的，\n还有种神秘感。……对了！\n用火球酸浆来装饰房间怎么样！\n一定能把房间装点得漂漂亮亮。\n我说，你能帮我采集来吗？": {
+            "key": "quest_village_firelanterns_are_like_so_pretty\nso_red_so_round_something\nabout_them_is_simply_magical\ni_totally_want_see_them_all_the\ntime_so_maybe_i_should_put_em\nin_my_room_what_do_you_say\nthink_you_can_get_me_some"
+        },
+        "交纳8个火球酸浆": {
+            "key": "quest_village_deliver_8_firelanterns"
+        },
+        "报酬金额为零\n时间耗尽": {
+            "key": "quest_village_reward_hits_0_or_time_expires"
+        },
+        "请给我美味的蘑菇": {
+            "key": "quest_village_fungal_frustrations"
+        },
+        "蘑菇料理专卖店的店长": {
+            "key": "quest_village_mushroom_restaurant_owner"
+        },
+        "这是我长久以来的梦想，\n蘑菇料理专卖店就要开张啦！\n我现在正忙着做准备。\n但是，关键的菜单还没定下来，\n所以我就反复尝试，\n结果把蘑菇全都给用完了！\n快帮我采集些特产菇过来！": {
+            "key": "quest_village_ive_been_dreaming_of_opening\nmy_own_restaurant_but_i_spent\nso_much_time_experimenting\nwith_the_menu_that_i_ran_out_of\ningredients_ill_never_be_able_to\nopen_if_i_dont_get_some_more\nthink_you_can_help_me_out"
+        },
+        "交纳8个特产菇": {
+            "key": "quest_village_deliver_8_unique_mushrooms"
+        },
+        "盘踞在神社的恶徒": {
+            "key": "quest_village_unpious_peons"
+        },
+        "虔诚的艾露猫": {
+            "key": "quest_village_devout_felyne"
+        },
+        "最近，贼龙总是来妨碍\n我每天的参拜喵。\n我知道它们在打什么鬼主意，\n就是我带着的供品喵。\n还真是些不逞之徒喵！\n拜托你了喵，\n去教训一下那些家伙喵！": {
+            "key": "quest_village_those_in-fur-nal_jagras_keep\nmessing_with_my_visits_to_the\nshrine_ruins_theyre_after_the\noffur-ings_i_bring_with_me_those\nrude_blasphemous_fiends_send\nthem_running_with_their_tails\nbetween_their_legs"
+        },
+        "讨伐8头贼龙": {
+            "key": "quest_village_slay_8_jagras"
+        },
+        "在修整前击退镰鼬龙": {
+            "key": "quest_village_help_with_maintenance"
+        },
+        "村里的年轻木匠": {
+            "key": "quest_village_young_carpenter"
+        },
+        "我正在修整营地，\n但材料有些不够。\n就算想在当地收集材料，\n也有镰鼬龙四处横行，没法收集。\n所以啊，拜托你了，猎人。\n为了能顺利修整营地，\n可以麻烦你去讨伐它们吗？": {
+            "key": "quest_village_im_fixin_up_the_ol_camp_but\nim_out_of_raw_materials_cant\ngo_get_more_cause_everywhere\nya_go_izuchi_are_snappin_and\nslashin_at_ya_think_you_can\nget_em_to_scram_so_i_can_go\nget_what_i_need"
+        },
+        "讨伐8头镰鼬龙": {
+            "key": "quest_village_slay_8_izuchi"
+        },
+        "冰封群岛的探索之旅": {
+            "key": "quest_village_a_tour_of_the_islands"
+        },
+        "噢，<PL>！\n如果你想自由探索冰封群岛，\n那我很推荐这个任务。\n没有时间限制，\n力尽倒下多少次都没关系！\n等探索得心满意足了，\n就随时从菜单画面返回吧！": {
+            "key": "quest_village_hey_squirt_try_this_quest_on\nfor_size_if_you_wanna_explore\nthe_frost_islands_at_your\nleisure:_theres_no_limit_on\ntime_or_repetition_and_you\ncan_come_back_home_from_the\nmenu_screen_whenever_ya_want"
+        },
+        "探索冰封群岛": {
+            "key": "quest_village_explore_the_frost_islands"
+        },
+        "三位一体的大镰刀": {
+            "key": "quest_village_great_izuchi_great_pain"
+        },
+        "茶点店店主艾草": {
+            "key": "quest_village_yomogi_the_chef"
+        },
+        "镰鼬龙王在大闹废神社，\n大事不妙啊！\n而且它还在追赶着\n运送兔团子材料的游商。\n我周围都乱成一锅粥了！\n大伙儿会去救助游商的，\n狩猎镰鼬龙王这事就交给你了！": {
+            "key": "quest_village_a_stupid_great_izuchis_going_crazy\nat_the_shrine_ruins_meaning_my\ningredients_supplier_is_seriously\nin_danger_can_you_deal_with_that\ndumb_great_izuchi_so_my_supplier\ncan_deliver_the_ingredients"
+        },
+        "狩猎1头镰鼬龙王": {
+            "key": "quest_village_hunt_a_great_izuchi"
+        },
+        "食欲旺盛的青熊兽": {
+            "key": "quest_village_grizzly_glutton"
+        },
+        "村里第一的钓鱼名人": {
+            "key": "quest_village_master_angler_of_kamura"
+        },
+        "哎呀～真伤脑筋。\n像那样肆意吃鱼的话，\n不仅捕不到要带回村里的鱼，\n甚至鱼都要绝迹了呀。\n赶在鱼儿从河里消失之前，\n能麻烦你去击退那家伙吗？": {
+            "key": "quest_village_this_is_terrible_if_it_goes_on\neating_this_much_there_wont\nbe_a_single_fish_left_for_us_to\ncatch_hunt_that_thing_before\nall_the_fish_totally_vanish_from\nour_rivers_will_ya"
+        },
+        "狩猎1头青熊兽": {
+            "key": "quest_village_hunt_an_arzuros"
+        },
+        "弹牙，爽滑": {
+            "key": "quest_village_plump_and_juicy"
+        },
+        "无法忘记那味道的男人": {
+            "key": "quest_village_crustacean_connoisseur"
+        },
+        "真是好吃啊，木筏牡蛎……\n那爽滑的口感，真是太棒啦……\n以前，我吃太多吃坏了肚子，\n所以妻子制止了我……\n但我终归是忍不住了……！\n就吃一点，就吃一点点……！\n请你偷偷帮我采集来吧……！": {
+            "key": "quest_village_raftshells_are_just_so_good_that\ngooeyness_is_to_die_for_and_i_almost\ndid_cause_i_couldnt_stop_stuffin_my\nface_with_em_now_my_wife_says\nim_not_allowed_to_have_em_anymore\nbut_i_cant_take_it—i_have_to_have\nem_think_you_can_sneak_me_a_few"
+        },
+        "交纳10个木筏牡蛎": {
+            "key": "quest_village_deliver_10_raftshells"
+        },
+        "冰封群岛的睡梦": {
+            "key": "quest_village_a_frosty_paradise"
+        },
+        "为安眠所苦的游商": {
+            "key": "quest_village_sleep-averse_peddler"
+        },
+        "啊——真是的！为什么我\n每次经过这条路都会睡着啊！？\n每次醒来，货物都被弄得\n乱七八糟的，真是瘆人。\n可不走这条路，就做不了生意啊。\n这怪异的状况一定是怪物捣的鬼！\n拜托你去讨伐怪物吧！": {
+            "key": "quest_village_the_darndest_thing_keeps_happening\nevery_time_i_use_this_path_i_fall_asleep\nwhen_i_wake_up_my_stuff_is_all_chewed\nup_i_know_this_place_is_infested_with\nmonstersmaybe_theyre_behind_this\nyou_gotta_do_something_or_my_biz_is\ndone_for"
+        },
+        "讨伐10头眠狗龙": {
+            "key": "quest_village_slay_10_baggi"
+        },
+        "击败睡意！": {
+            "key": "quest_village_out_cold"
+        },
+        "充满正义感的艾露猫": {
+            "key": "quest_village_sanctimonious_felyne"
+        },
+        "眠狗龙王带着眠狗龙在作乱喵。\n俺想要好好教训它们一顿，\n就来到了这个冰封群岛喵。\n不过，可能是太冷了喵……？\n意识渐渐……远去了……\n已经，不行了喵……之后就……\n交给猎人……晚安……喵。": {
+            "key": "quest_village_a_great_baggi_and_its_little\nfur-iends_were_being_a_nuisance\nin_the_fur-ost_islands_so_i_went\nto_teach_em_a_lesson_but_when\ni_got_there_i_passed_out_was_it\nthe_cold_just_thinking_about_it\nmakes_mesoslee—zzzzzz"
+        },
+        "狩猎1头眠狗龙王": {
+            "key": "quest_village_hunt_a_great_baggi"
+        },
+        "别吃我，白兔兽": {
+            "key": "quest_village_rabid_rabbit"
+        },
+        "爱哭的新手猎师": {
+            "key": "quest_village_timid_rookie_hunter"
+        },
+        "我想准备晚饭，就跑来猎兔子了。\n可是……我遇到的竟然是\n白兔兽！真是搞错兔子啦！\n那种兔子要怎么吃啦！\n不如说要被吃掉的是我……\n这样子我就没法去打猎了。\n拜托了，请去击退白兔兽吧！": {
+            "key": "quest_village_i_went_hunting_for_some_food\nbut_came_across_a_lagombi\ni_am_not_trying_to_get_eaten\nby_that_thing_hunter_do_you\nthink_you_can_take_care_of_it\nfor_me_please"
+        },
+        "狩猎1头白兔兽": {
+            "key": "quest_village_hunt_a_lagombi"
+        },
+        "百虫夜行": {
+            "key": "quest_village_case_of_the_creepy_crawlies"
+        },
+        "商家的老板娘": {
+            "key": "quest_village_merchants_wife"
+        },
+        "我听店里的年轻人说，\n废神社出现了巨大虫群……\n地上爬的巨虫，空中飞的巨虫，\n虫、虫、虫、虫……\n大家听了快吓死了，\n都没法好好工作了。\n拜托你去击退那群巨大的虫子吧！": {
+            "key": "quest_village_some_kids_were_telling_us_about\nall_the_bugs_at_the_shrine_ruins\ncreepy_crawly_bugsbugs_that\nfly—yuck_i_am_not_going_there\nwith_all_those_bugs_can_you_go\nout_and_exterminate_those_pests"
+        },
+        "合计讨伐14只\n甲虫和飞甲虫": {
+            "key": "quest_village_slay_a_total_of_14_altaroth_or_bnahabra"
+        },
+        "烤不好——！": {
+            "key": "quest_village_hmm_not_so_tasty"
+        },
+        "厨师学徒艾露猫": {
+            "key": "quest_village_felyne_commis_chef"
+        },
+        "呜呜，烤肉好难喵……\n烤的时间太短就烤不熟，\n烤太久又会烤焦喵……\n呜……不，还没完！\n我要再多加练习喵！\n拿更多的波波舌过来喵！": {
+            "key": "quest_village_meow_ill_never_learn_to_cook\nmeat_too_fast_and_its_raw_too\nslow_and_its_burnt_i_need_more\npurr-actice_but_im_all_out_of_popo\ntongues_think_you_can_get_me\nsome_more"
+        },
+        "交纳3个波波舌": {
+            "key": "quest_village_deliver_3_popo_tongues"
+        },
+        "沙原的探索之旅": {
+            "key": "quest_village_a_tour_of_the_plains"
+        },
+        "噢，<PL>！\n如果你想自由探索沙原，\n那我很推荐这个任务。\n没有时间限制，\n力尽倒下多少次都没关系！\n等探索得心满意足了，\n就随时从菜单画面返回吧！": {
+            "key": "quest_village_hey_squirt_try_this_quest_on\nfor_size_if_you_wanna_explore\nthe_sandy_plains_at_your\nleisure:_theres_no_limit_on\ntime_or_repetition_and_you\ncan_come_back_home_from_the\nmenu_screen_whenever_ya_want"
+        },
+        "探索沙原": {
+            "key": "quest_village_explore_the_sandy_plains"
+        },
+        "水没林的探索之旅": {
+            "key": "quest_village_a_tour_of_the_forest"
+        },
+        "噢，<PL>！\n如果你想自由探索水没林，\n那我很推荐这个任务。\n没有时间限制，\n力尽倒下多少次都没关系！\n等探索得心满意足了，\n就随时从菜单画面返回吧！": {
+            "key": "quest_village_hey_squirt_try_this_quest_on\nfor_size_if_you_wanna_explore\nthe_flooded_forest_at_your\nleisure:_theres_no_limit_on\ntime_or_repetition_and_you\ncan_come_back_home_from_the\nmenu_screen_whenever_ya_want"
+        },
+        "探索水没林": {
+            "key": "quest_village_explore_the_flooded_forest"
+        },
+        "幻化唐伞": {
+            "key": "quest_village_feathered_frenzy"
+        },
+        "随从雇用窗口刀脊": {
+            "key": "quest_village_buddy_handler_iori"
+        },
+        "听说了废神社的闹鬼风波，\n血气方刚的随从们\n就立马飞奔过去了……\n现在伞鸟正在那里大闹，\n非常危险……\n我会去找随从的，\n就拜托你去狩猎伞鸟了！": {
+            "key": "quest_village_im_sorry_hunter_those_buddies\nheard_that_there_were_\"ghosts\"_at\nthe_shrine_ruins_and_ran_off_im\nso_worried_about_them_with_that\naknosom_around_can_you_hunt\nit_while_i_go_look_for_them"
+        },
+        "狩猎1头伞鸟": {
+            "key": "quest_village_hunt_an_aknosom"
+        },
+        "百龙夜行，来袭": {
+            "key": "quest_village_the_rampage_approaches"
+        },
+        "<PL>啊！\n百龙夜行正接近村庄要塞！\n村民们会作为“村卫”\n防守要塞周围！\n你就在要塞内部，\n负责击退入侵的怪物！\n那就出战吧！光焰万丈！": {
+            "key": "quest_village_alright_squirt_it_wont_be\nlong_fore_the_rampage_reaches\nthe_stronghold_our_defenders\nwill_do_their_best_to_hold_em\noff_but_if_anything_breaches\ntheir_line_youre_huntin_it\ngot_it_now_lets_get_to_it"
+        },
+        "守住最终关口": {
+            "key": "quest_village_defend_the_final_gate"
+        },
+        "最终关口遭到破坏": {
+            "key": "quest_village_final_gate_is_destroyed"
+        },
+        "鲸吞河童蛙": {
+            "key": "quest_village_cant_stomach_the_thought"
+        },
+        "冷静的生物学者": {
+            "key": "quest_village_unflappable_biologist"
+        },
+        "在冰封群岛进行生态调查时，\n我遇到了河童蛙。回过神来，\n就已在它黏黏又粗糙的肚子里了。\n因为是我，才有办法逃出来，\n如果是其他人，麻烦就大了。\n拜托你在大家遇到危险之前，\n去狩猎它吧。": {
+            "key": "quest_village_during_a_survey_of_the_frost_islands\ni_was_attacked_by_a_tetranadon\nand_found_myself_inside_its_gut\ni_managed_to_escape_but_others\nmight_not_be_so_lucky_please\nhunt_it_before_someone_gets_eaten"
+        },
+        "狩猎1头河童蛙": {
+            "key": "quest_village_hunt_a_tetranadon"
+        },
+        "沙原的大盗": {
+            "key": "quest_village_walking_on_eggshells"
+        },
+        "沙原的搬运工": {
+            "key": "quest_village_sandy_plains_courier"
+        },
+        "我想将以特别渠道获得的\n飞龙的蛋运到沙原对面的城镇。\n不过，途中有搔鸟……\n它一看到蛋就会抢走。\n我已经被抢了好几个蛋了。\n拜托你了，\n去干掉沙原的搔鸟吧。": {
+            "key": "quest_village_blasted_kulu-ya-ku_always\nstealing_my_wyvern_eggs\nive_tried_and_tried_to_make\nmy_way_through_the_sandy\nplains_but_they_get_the_jump\non_me_every_single_time"
+        },
+        "狩猎1头搔鸟": {
+            "key": "quest_village_hunt_a_kulu-ya-ku"
+        },
+        "泥沼的土砂龙": {
+            "key": "quest_village_fightin_dirty"
+        },
+        "村里的采蘑菇名人": {
+            "key": "quest_village_master_mushroom_forager"
+        },
+        "呸呸，啊——！\n衣服里鞋子里嘴巴里全是泥！\n我想要横穿沼泽，\n结果土砂龙突然跳了出来！\n我采的蘑菇也全是泥泞！\n有些蘑菇不能碰水啊……伤脑筋。\n拜托了，干掉那家伙吧！": {
+            "key": "quest_village_ptoeey_look_at_me_covered_from\nhead_to_toe_in_mud_all_because\na_stupid_barroth_attacked_me_now\nall_the_mushrooms_i_gathered_are\nruined_just_great_can_you_go\nand_bash_that_barroth_please"
+        },
+        "狩猎1头土砂龙": {
+            "key": "quest_village_hunt_a_barroth"
+        },
+        "被毒雾侵蚀的水没林": {
+            "key": "quest_village_obnoxious_lord_noxious_monster"
+        },
+        "领主的顾问": {
+            "key": "quest_village_lords_aide"
+        },
+        "听说水没林出现了毒狗龙王，\n领主的儿子便说：\n“本大爷去打倒它！”\n接着就飞奔了出去。真是愚蠢。\n不过，那个男人遇到危险时\n会自己逃跑的，你不用管他。\n猎人啊，去打倒毒狗龙王吧！": {
+            "key": "quest_village_oh_dear_the_lords_son_heard\na_great_wroggi_was_in_the_flooded\nforest_and_went_out_to_hunt_it_what\na_fool_surely_hell_run_at_the_first\nsign_of_danger_can_you_hunt_the\ncreature_before_my_lord_gets_hurt"
+        },
+        "狩猎1头毒狗龙王": {
+            "key": "quest_village_hunt_a_great_wroggi"
+        },
+        "用海绵质素材开拓沙漠的未来": {
+            "key": "quest_village_spongy_oasis"
+        },
+        "沙漠的大发明家": {
+            "key": "quest_village_desert_inventor"
+        },
+        "水兽的皮拥有非常强大的\n保水能力。所以呢，我就想啊。\n让这皮吸饱水，再固定在地面上，\n这样一来，说不定就能在沙漠中\n栽培植物。不愧是老夫，天才啊！\n就是这么回事，为了沙漠的未来，\n麻烦你去狩猎水兽！": {
+            "key": "quest_village_you_know_how_royal_ludroth_hide\nis_all_spongey_and_absorbs_lots_of\nwater_right_if_we_get_a_bunch_of_it\nthen_desert_farmers_will_never_have\nto_worry_about_watering_their_crops\never_again_i_am_a_genius"
+        },
+        "狩猎1头水兽": {
+            "key": "quest_village_hunt_a_royal_ludroth"
+        },
+        "“寻找丢失的货物”之卷": {
+            "key": "quest_village_supply_run"
+        },
+        "游商被怪物袭击了！\n逃来村子的时候，货物落在了\n废神社各处，这可把游商愁坏了。\n我询问了货物的所在地，\n在地图上做了记号。能麻烦你\n帮我去寻找新兔团子的材料吗？": {
+            "key": "quest_village_help_my_supplier_was_ambushed\nby_monsters_and_dropped_all\ntheir_cargo_on_the_way_back_to\nkamura_it_was_near_the_shrine\nruins—here_ill_mark_it_on\nyour_map_so_can_you_get_those\ningredients_back_pleeease"
+        },
+        "交纳6个传统团子素材": {
+            "key": "quest_village_deliver_6_classic_dango_ingredients"
+        },
+        "击退无脸怪物？": {
+            "key": "quest_village_faceless_foe"
+        },
+        "胆小的调查员": {
+            "key": "quest_village_scared_researcher"
+        },
+        "现在回想起来，我还脊背发凉……\n那天……我做完工作，\n就坐下来休息了。\n然后……突然有水滴落到\n我肩膀上……我、我抬头一看……\n是一只没有脸的白色怪物——！\n让人发抖！快来人去击退它啊！": {
+            "key": "quest_village_gross_there_i_was_taking_a_rest\nwhen_something_wet_dripped_on\nmy_shoulder_i_look_up_and—ew\nwrinkles_veins_and—ick—a_pale\nmonster_with_no_face_that_looks\nlike_a—_*gag*_go_hunt_it_please"
+        },
+        "狩猎1头奇怪龙": {
+            "key": "quest_village_hunt_a_khezu"
+        },
+        "大吃一惊！仙人掌造就完美身材": {
+            "key": "quest_village_the_cactus_diet"
+        },
+        "赶时髦的女性": {
+            "key": "quest_village_trend-chasing_woman"
+        },
+        "我正在用仙人掌减肥……！\n仙人掌色拉……仙人掌拌菜……\n仙人掌排……仙人掌果昔……\n还有很多呢……！\n总觉得兴致起来了呀。\n麻烦你帮我\n采集小颗仙人掌回来吧。": {
+            "key": "quest_village_this_cactus_diet_has_taken_over\nmy_life_cactus_salad_cactus\nsteak_cactus_smoothies—\nyou_name_it_but_now_im_all\nout_of_bauble_cactuses\ncacti_whatever_just_go\nget_me_some"
+        },
+        "交纳10个小颗仙人掌": {
+            "key": "quest_village_deliver_10_bauble_cactus"
+        },
+        "沙原中蠢蠢欲动的神秘群体": {
+            "key": "quest_village_a_sandy_cabal"
+        },
+        "探求谜团的少女": {
+            "key": "quest_village_wannabe_sleuth"
+        },
+        "谜团。神秘。我在沙原\n感受到了古怪的气息……\n而且并非一个，数量非常惊人……\n要是被发现，会被包围的！\n我拼了命地逃掉了……\n不过那到底……是什么东西？\n猎人，麻烦你去查明真相！": {
+            "key": "quest_village_what_a_twist_i_was_attacked_by\nsome_strange_barking_creatures\nbut_in_my_desperation_to_escape\ni_could_not_clearly_identify_my\nassailants_hunter_please\nhelp_me_solve_this_riddle"
+        },
+        "合计讨伐14头\n狗龙和雌狗龙": {
+            "key": "quest_village_slay_a_total_of_14_jaggi_or_jaggia"
+        },
+        "太古的气息": {
+            "key": "quest_village_breath_of_the_past"
+        },
+        "好奇心旺盛的少爷": {
+            "key": "quest_village_inquisitive_young_master"
+        },
+        "有个叫朴素彩水晶的东西吧。\n父亲对我说过，\n那东西虽然叫做水晶，\n其实是小动物的化石哟。\n我呀，从没见过化石。\n真想仔细看看啊。\n猎人，帮我去采集吧。": {
+            "key": "quest_village_do_you_know_of_simple_prisms\nthey_call_it_a_prism_but_its\nreally_a_small_animal_fossil\nthats_what_father_said\nive_never_seen_a_fossil_so\nid_like_to_take_a_look_at_it\nplease_find_one_for_me"
+        },
+        "交纳10个朴素彩水晶": {
+            "key": "quest_village_deliver_10_simple_prisms"
+        },
+        "水灵灵的好女人": {
+            "key": "quest_village_ladies_of_the_lake"
+        },
+        "美丽的太太": {
+            "key": "quest_village_gorgeous_lady"
+        },
+        "我在水没林寻找走散的丈夫时，\n突然被一群黄色的妇人袭击，\n全身都湿透了。\n这就叫做“美女湿身”吗？\n无论如何，只要那群黄色的妇人\n还在，我……就见不到丈夫。\n能否请您把它们给赶走呢？": {
+            "key": "quest_village_i_was_looking_for_my_lost_husband\nin_the_flooded_forest_when_i_was\nattacked_i_had_heard_tales_of_sirens\ndressed_in_yellow_in_the_waters_there\nif_i_am_to_ever_find_my_husband_i_will\nneed_them_gone"
+        },
+        "讨伐10头水生兽": {
+            "key": "quest_village_slay_10_ludroth"
+        },
+        "熔岩洞的探索之旅": {
+            "key": "quest_village_a_tour_of_the_caverns"
+        },
+        "噢，<PL>！\n如果你想自由探索熔岩洞，\n那我很推荐这个任务。\n没有时间限制，\n力尽倒下多少次都没关系！\n等探索得心满意足了，\n就随时从菜单画面返回吧！": {
+            "key": "quest_village_hey_squirt_try_this_quest_on\nfor_size_if_you_wanna_explore\nthe_lava_caverns_at_your\nleisure:_theres_no_limit_on\ntime_or_repetition_and_you\ncan_come_back_home_from_the\nmenu_screen_whenever_ya_want"
+        },
+        "探索熔岩洞": {
+            "key": "quest_village_search_the_lava_caverns"
+        },
+        "山林武僧": {
+            "key": "quest_village_monkey_wrench_in_your_plans"
+        },
+        "加工商刀纹": {
+            "key": "quest_village_hamon_the_blacksmith"
+        },
+        "天狗兽在废神社\n袭击路过的行人。\n正好老夫要做的机关\n需要那家伙的素材，\n这是个一箭双雕的好机会……\n素材由老夫去确保，\n狩猎就交给你了。": {
+            "key": "quest_village_in_order_to_separate_magnamalo\nfrom_the_rampage_i_need_to\ncomplete_my_device_in_order_to\ndo_that_i_need_materials_from_a\nbishaten_one_has_been_spotted\nin_the_shrine_ruins_depart_at_once"
+        },
+        "狩猎1头天狗兽": {
+            "key": "quest_village_hunt_a_bishaten"
+        },
+        "特别许可测验・其一": {
+            "key": "quest_village_special_license_test_1"
+        },
+        "村庄接待员火芽": {
+            "key": "quest_village_hinoa_the_quest_maiden"
+        },
+        "您势如破竹，\n接二连三完成了村中的任务，\n因此授予您接受\n特别许可测验的资格。\n只要完成这项任务，\n您就能开始承接\n集会所★2任务了。": {
+            "key": "quest_village_seeing_how_youre_just_blazing\nthrough_those_quests_youve\nearned_the_opportunity_to_take\na_special_license_test_yay\npassing_the_test_lets_you_take\non_2★_gathering_hub_quests\nexciting_right_good_luck"
+        },
+        "狩猎1头伞鸟和1头雌火龙": {
+            "key": "quest_village_hunt_an_aknosom_and_a_rathian"
+        },
+        "通往黄泉路的歌声": {
+            "key": "quest_village_infernal_lacrimosa"
+        },
+        "认真的猎人": {
+            "key": "quest_village_earnest_hunter"
+        },
+        "我接下了狩猎人鱼龙的任务，\n赶赴冰封群岛。在那里，我好像\n听到了歌声，然后失去了意识……\n醒来后，人在营地，遍体鳞伤。\n这就是人鱼龙的力量吗……\n虽然不甘心，但我不是对手。\n就交给你了。": {
+            "key": "quest_village_i_was_tasked_to_hunt_a_so-called\n\"mermaid_dragon\"_in_the_frost\nislands_upon_arriving_i_heard_what\nsounded_like_a_song_and_instantly\nfell_asleep_i_woke_up_back_at_camp\ncovered_in_gashes_and_cuts_what\nhappened_out_there"
+        },
+        "狩猎1头人鱼龙": {
+            "key": "quest_village_hunt_a_somnacanth"
+        },
+        "狂风大作的银白世界": {
+            "key": "quest_village_raging_white-out"
+        },
+        "某个地方的豪族": {
+            "key": "quest_village_foreign_noble"
+        },
+        "冰封群岛附近因其气候，\n原本就很难收集到食物。\n而且，因为冰牙龙的吐息，\n就连数量稀少的食物也\n遭到了冻结。真伤脑筋。\n猎人阁下，能否请您接下\n狩猎冰牙龙的任务呢？": {
+            "key": "quest_village_the_area_surrounding_the_frost\nislands_is_scarce_in_food_as_it\nis_and_now_a_barioth_has_been\nspotted_in_the_area_surely_we\nwill_starve_if_this_nuisance_isnt\ndealt_with"
+        },
+        "狩猎1头冰牙龙": {
+            "key": "quest_village_hunt_a_barioth"
+        },
+        "女王大驾光临": {
+            "key": "quest_village_the_queens_procession"
+        },
+        "开朗的青年": {
+            "key": "quest_village_cheerful_man"
+        },
+        "唔哇！糟了糟了，\n女王在沙原喷火啊！\n行李都被烧光了，\n连我的屁股都差点要烧起来！\n啊哈哈！哎，这可不是什么\n闹着玩的事儿啊！\n总之呢，请你去狩猎雌火龙！": {
+            "key": "quest_village_woohoo_ohhh_man_the_queen\nof_the_sandy_plains_is_spewing\nfire_everywhere_she_burned_all\nmy_stuff—even_set_my_pants\non_fire_too_haha_waitthats\nnot_funny_*ahem*_please\nhunt_that_rathian"
+        },
+        "狩猎1头雌火龙": {
+            "key": "quest_village_hunt_a_rathian"
+        },
+        "空中飞驰的白影": {
+            "key": "quest_village_streaking_shadow"
+        },
+        "新手调查员": {
+            "key": "quest_village_fledgling_investigator"
+        },
+        "那是我探索水没林时发生的事。\n突然闪过一道电光，毛一样的东西\n掉了下来，接着某种白色的东西\n就开始在树木间飞驰……\n呜呜呜，我好不容易才逃掉。\n那也是怪物捣的鬼吗……\n请你想想办法吧！": {
+            "key": "quest_village_i_was_out_exploring_in_the_flooded\nforest_when_suddenly_lightning\nstruck_i_looked_to_the_sky_and_saw\nsomething_zipping_and_zapping\nfrom_tree_to_tree_i_got_away_some-\nhow_but_others_might_not_be_so\nlucky_please_do_something"
+        },
+        "狩猎1头飞雷龙": {
+            "key": "quest_village_hunt_a_tobi-kadachi"
+        },
+        "赤热的圆舞曲": {
+            "key": "quest_village_a_song_of_red_and_fire"
+        },
+        "孤傲的作曲家": {
+            "key": "quest_village_solitary_composer"
+        },
+        "熔岩缓缓流动的声音，\n赤甲兽在大地上滚动的声音，\n长舌头捕捉到猎物的声音，\n喷出恶臭气体的声音……啊！\n这便是我所追求的生命的音色！\n猎人啊！不，著名演奏者啊！\n为了我！尽情演奏吧！": {
+            "key": "quest_village_can_you_hear_that_the_perfect\nmelody_of_flowing_lava_smoldering\nash_and_the_bassy_rumblings_of\nthe_volcano_all_accompanied_by\nthe_sound_of_volvidon_rolling\naround_bravo_bravo"
+        },
+        "狩猎1头赤甲兽": {
+            "key": "quest_village_hunt_a_volvidon"
+        },
+        "夜泣岩石": {
+            "key": "quest_village_off_your_rocker"
+        },
+        "熔岩洞的采掘者": {
+            "key": "quest_village_lava_caverns_excavator"
+        },
+        "因为工作，我每天都要去熔岩洞，\n但最近有些奇怪……明明采矿场里\n一个人都没有，却能听到\n诡异的声响。我在附近找了又找，\n还是什么都没发现。\n这可能是怪物捣的鬼啊……\n猎人，拜托你了。": {
+            "key": "quest_village_dude_im_freaking_out_every\ntime_i_go_to_the_lava_caverns\ni_keep_hearing_this_creepy_voice\nlike_i_look_around_and_no_one\nis_there_no_one_uh_can_you_go\nand_check_it_out_for_me_i_know\nim_not_crazy"
+        },
+        "狩猎1头岩龙": {
+            "key": "quest_village_hunt_a_basarios"
+        },
+        "“恐怖的寻物！”之卷": {
+            "key": "quest_village_getting_back_the_groceries"
+        },
+        "晚上我一个人走在熔岩洞里，\n突然听到个声音！差点没把我\n给吓死！害我把新兔团子的\n材料掉得到处都是……\n材料的所在地我倒是知道，\n但是太可怕了，我不敢去……\n拜托你帮我去找材料吧。": {
+            "key": "quest_village_i_was_cutting_through_the_lava\ncaverns_one_night_when_out_of\nnowhere_there_was_this_spooky\nroar_i_freaked_dropped_all\nmy_ingredients_and_nowim\nway_too_scared_to_go_back_for\nthem_can_you_um_go_instead"
+        },
+        "交纳6个秘传团子素材": {
+            "key": "quest_village_deliver_6_secret_dango_ingredients"
+        },
+        "医生孤独的毒研究": {
+            "key": "quest_village_a_poisonous_project"
+        },
+        "热爱研究的医生": {
+            "key": "quest_village_antidote_researcher"
+        },
+        "人生在世就是要每天做研究！\n为了制作新的解毒药，\n我正在一个人进行研究。\n因此，我想委托你去狩猎\n下一个研究对象——毒妖鸟。\n对了，新药还在开发中，\n去的时候别忘了带解毒药！": {
+            "key": "quest_village_my_research_is_everything_to_me\nand_this_new_antidote_research\nshall_be_my_legacy_in_order_to\ncontinue_my_work_ill_need_you\nto_fetch_me_a_pukei-pukei\nspecimen_but_youll_need_to\nbring_your_own_antidotes"
+        },
+        "狩猎1头毒妖鸟": {
+            "key": "quest_village_hunt_a_pukei-pukei"
+        },
+        "下酒菜果然还是肝脏最好": {
+            "key": "quest_village_deliver_the_liver"
+        },
+        "爱喝酒的大少爷": {
+            "key": "quest_village_boozy_youth"
+        },
+        "怪物的肝，果然得要新鲜的！\n稍加炙烤的肝是最棒的。\n用新鲜的肝当下酒菜，\n再配上美酒……\n啊～实在是叫人欲罢不能！\n今晚也想来一杯啊！\n拜托了，把新鲜的怪物肝带来吧！": {
+            "key": "quest_village_me_and_my_pals_are_having_a\nfew_drinks_tonight_and_were\nhankerin_after_some_monster\nliver_with_em_thing_is_its\nonly_good_when_its_raw—and\ni_aint_eating_raw_liver_if_it_aint\nfresh_think_you_can_hook_us_up"
+        },
+        "交纳5个怪物肝": {
+            "key": "quest_village_deliver_5_monster_guts"
+        },
+        "燃石炭连铁都能熔化": {
+            "key": "quest_village_so_hot_it_melts_iron"
+        },
+        "某个村子的加工商": {
+            "key": "quest_village_foreign_smithy"
+        },
+        "要加工武具，石碳不可或缺。\n特别是在使用高纯度素材时，\n用燃石碳是最好的。\n虽然像是炎火村这种设备齐全的\n村子也有其他方法……\n但我的村子只能采用这种方法。\n拜托你交纳燃石炭。": {
+            "key": "quest_village_where_im_from_if_you_want_to\nmake_good_equipment_ya_gotta\nuse_lots_of_coal_maybe_kamura\nhas_some_fancy_pants_way_of\ndoing_it_without_coal_but_we_aint\ngot_the_facilities_like_you_folks_do\nhere_can_you_go_get_me_some"
+        },
+        "交纳12个燃石炭": {
+            "key": "quest_village_deliver_12_pieces_of_coal"
+        },
+        "父女之丝": {
+            "key": "quest_village_the_best_quest"
+        },
+        "体贴家人的女孩": {
+            "key": "quest_village_thoughtful_girl"
+        },
+        "我想为最爱的爸爸\n做一双手套。\n妈妈跟我说，\n臣蜘蛛的丝非常坚韧。\n我想要这个丝。\n请你去打倒臣蜘蛛。\n拜托了。": {
+            "key": "quest_village_my_daddys_the_best_and_i_want\nto_make_the_best_gloves_for_him\nmommy_says_that_rachnoid_thread\nis_the_best_for_making_gloves_so\ncan_you_go_and_fight_a_few_for_me\nand_bring_me_the_thread_youd_be\nthe_best_if_you_did"
+        },
+        "讨伐10只臣蜘蛛": {
+            "key": "quest_village_slay_10_rachnoid"
+        },
+        "三强争霸": {
+            "key": "quest_village_third_wheel"
+        },
+        "拿着军配团扇的女孩": {
+            "key": "quest_village_referee_girl"
+        },
+        "东面是～青熊～兽～\n西面是～河童～蛙～\n……啊，猎人也在啊……\n那个那个……\n正中央是～猎～人～\n这样行吗？没问题吧！\n那么，加油！要赢啊！": {
+            "key": "quest_village_\"in_the_right_corner_arzuros\nand_in_the_left_corner_tetranadon\"\noh_youre_here_too_uh_\"in_the\nmiddle_you\"_hows_that_yeah\nuh_good_luck_hope_you_win"
+        },
+        "狩猎所有目标": {
+            "key": "quest_village_hunt_all_target_monsters"
+        },
+        "恶逆无道": {
+            "key": "quest_village_comeuppance"
+        },
+        "50年前的百龙夜行……\n由于怨虎龙出现，\n村子蒙受了巨大的损失。\n绝不能重蹈那一天的覆辙。\n<PL>啊！\n现在是时候狩猎怨虎龙了！\n上吧，光焰万丈！": {
+            "key": "quest_village_durin_the_rampage_fifty_years\nago_magnamalo_showed_up\nand_caused_an_epic_mess\nwe_cant_let_that_happen_ever\nagain_you_gotta_take_down\nmagnamalo_now_go_get_to_it"
+        },
+        "狩猎1头怨虎龙": {
+            "key": "quest_village_hunt_magnamalo"
+        },
+        "特别许可测验・其二": {
+            "key": "quest_village_special_license_test_2"
+        },
+        "您势如破竹，\n接二连三完成了村中的任务，\n因此授予您接受\n特别许可测验的资格。\n只要完成这项任务，\n您就能开始承接\n集会所★3任务了。": {
+            "key": "quest_village_seeing_how_youre_just_blazing\nthrough_those_quests_youve\nearned_the_opportunity_to_take\na_special_license_test_yay\npassing_the_test_lets_you_take\non_3★_gathering_hub_quests\nexciting_right_good_luck"
+        },
+        "疾风迅龙": {
+            "key": "quest_village_wind_speed_wyvern"
+        },
+        "邻村的信使": {
+            "key": "quest_village_neighboring_hamlets_envoy"
+        },
+        "大名鼎鼎的迅龙，\n它的速度，就连号称\n村中最快的鄙人也无法比拟。\n鄙人无论如何都想掌握那种速度。\n因此鄙人想要用迅龙的素材\n做双鞋子，以此接近其精髓！\n就请您去狩猎它了。": {
+            "key": "quest_village_nargacuga_are_so_cool_right\nand_fast_too_how_is_it_that\nthey_are_so_light_on_their_feet\ni_must_know_i_bet_if_i_made\nsome_nargacuga_shoes_i_could\nbe_just_as_fast_as_they_are"
+        },
+        "狩猎1头迅龙": {
+            "key": "quest_village_hunt_a_nargacuga"
+        },
+        "带电雷狼龙": {
+            "key": "quest_village_electrifying_ephiphany"
+        },
+        "当时我正在废神社进行生态调查。\n突然间，我感到大气似乎在震动，\n接着，散发苍白光芒的雷狼龙\n就放出了落雷。\n全身都麻了，嗯。还好我戴了\n特制的帽子，所以才能平安无事，\n但它非常危险。拜托你去狩猎它。": {
+            "key": "quest_village_during_a_survey_of_the_shrine_ruins\ni_was_struck_by_a_bolt_of_lightning\nat_first_i_thought_perhaps_some\ngenius_idea_had_come_to_fruition\nbut_alas_it_was_only_a_zinogre"
+        },
+        "狩猎1头雷狼龙": {
+            "key": "quest_village_hunt_a_zinogre"
+        },
+        "夜晚沙漠的追踪者": {
+            "key": "quest_village_nocturnal_tracker"
+        },
+        "流浪歌手": {
+            "key": "quest_village_wandering_bard"
+        },
+        "夜晚的沙原真是雅致。这片美丽的\n土地总能激发我的创作灵感。\n不过，我在沙原时，\n总感觉背后有东西在跟着自己。\n……太可怕了，搞得我灵感全无，\n也没办法好好放松了。\n请你去击退那个“东西”吧！": {
+            "key": "quest_village_the_plains_at_night_are_quite\nelegant_and_inspiring_but\nsomeone_or_something_is\nfollowing_me_i_feel_so_afraid\nthat_all_my_ideas_and_emotions\nare_simply_swept_away\nplease_get_rid_of_this_stalker"
+        },
+        "狩猎1头蛮颚龙": {
+            "key": "quest_village_hunt_an_anjanath"
+        },
+        "月夜起舞": {
+            "key": "quest_village_waltzing_by_moonlight"
+        },
+        "传统舞蹈名家": {
+            "key": "quest_village_traditional_dance_master"
+        },
+        "啊，太美了……划出优雅的弧线，\n在空中翩翩起舞的泡狐龙……\n还有它美丽的鳍！只要有了那个，\n我的舞蹈一定能更上一层楼！\n猎人大人，请去狩猎泡狐龙吧！\n鳍就由我自己去回收了！": {
+            "key": "quest_village_o_how_elegantly_the_mizutsune\nsteps_arcing_through_the_air\nit_must_be_the_fin_if_i_had\none_for_my_own_surely_i_could\ndance_as_it_does_too_i_know\nhunter_waltz_with_the_wyvern\nand_i_shall_seize_its_fin"
+        },
+        "狩猎1头泡狐龙": {
+            "key": "quest_village_hunt_a_mizutsune"
+        },
+        "火龙警报发布中": {
+            "key": "quest_village_rathalos_alert"
+        },
+        "工作认真的观测员": {
+            "key": "quest_village_eagle-eyed_observer"
+        },
+        "从熔岩洞发回报告。\n确认到从空中降下的火雨。\n这毫无疑问是\n雄火龙吐出的火焰。\n请具备狩猎实力的猎人\n即刻赶往熔岩洞。\n以上是来自观测所的报告。": {
+            "key": "quest_village_report_begins_rathalos\nspotted_in_the_lava\ncaverns_stop_requesting\nsupport_from_all_qualified\nhunters_stop_look_out\nfor_the_rain_of_fire_from\nthe_sky_report_ends"
+        },
+        "狩猎1头火龙": {
+            "key": "quest_village_hunt_a_rathalos"
+        },
+        "“秘方是打瞌睡？”之卷": {
+            "key": "quest_village_the_secret_ingredient"
+        },
+        "我有灵感啦！\n听了就会想睡的，\n人鱼龙的歌！\n只要参考它的歌声，\n应该就能做出让人感受到\n午睡般舒爽的超棒兔团子！\n能麻烦你去捕获它吗？": {
+            "key": "quest_village_so_my_idea_is_to_make_these\nnew_bunny_dango_thatll\nrefresh_you_just_like_a_power\nnap_would_but_to_do_that_i_need\nyou_to_capture_a_somnacanth\nso_i_can_use_its_song_to_make\na_recipe_i_love_you_and_please"
+        },
+        "捕获1头人鱼龙": {
+            "key": "quest_village_capture_a_somnacanth"
+        },
+        "报酬金额为零、时间耗尽，\n或讨伐了捕获目标": {
+            "key": "quest_village_reward_hits_0_time_expires\nor_capture_target_slain"
+        },
+        "酥麻or安眠？": {
+            "key": "quest_village_bzzzzz_or_zzzzzzzz"
+        },
+        "固执己见的女友": {
+            "key": "quest_village_fussy_girlfriend"
+        },
+        "我问你，奇怪龙和人鱼龙，\n你觉得哪个比较可爱？\n我当然是选奇怪龙！但我男友居然\n说人鱼龙更可爱！？既然如此，\n只能看看两头怪物战斗时的样子，\n让他改变主意了！我们俩会\n躲起来看着的，狩猎就麻烦你了！": {
+            "key": "quest_village_my_boyfriend_is_straight_trippin\nhe_thinks_that_somnacanth\nare_cuter_than_khezu_hello\nobviously_khezu_are_but_he\nwont_budge_well_if_he_wont\nsee_it_my_way_then_i_guess\nwell_let_you_settle_this"
+        },
+        "狩猎1头奇怪龙和1头人鱼龙": {
+            "key": "quest_village_hunt_a_khezu_and_a_somnacanth"
+        },
+        "沙原骚然": {
+            "key": "quest_village_nosey_nuisances"
+        },
+        "纯粹的桶爆弹专家": {
+            "key": "quest_village_barrel_bomb_maker"
+        },
+        "喂喂喂！混蛋，搞什么鬼！\n居然在这种地方胡闹，\n真是群混帐东西！\n都没办法好好收集爆弹的材料了！\n管它是烧鸟还是搔鸟，\n又或者是馒头龙还是蛮颚龙，\n麻烦你三两下都给击退吧！": {
+            "key": "quest_village_these_monsters_are_so_annoying\nfirst_it_was_that_bird-brain_trying\nto_peck_me_to_death_then_it_was\nthat_pink_snozz-o-saurus_trying\nto_blow_mucus_all_over_me_wish\nthose_two_would_keep_their_noses\nout_of_my_business_argh"
+        },
+        "狩猎1头搔鸟和1头蛮颚龙": {
+            "key": "quest_village_hunt_a_kulu-ya-ku_and_an_anjanath"
+        },
+        "灼热大战": {
+            "key": "quest_village_the_hottest_around"
+        },
+        "好奇心旺盛的艾露猫": {
+            "key": "quest_village_curious_felyne"
+        },
+        "河童蛙摆好架势，赤甲兽使出\n舍身一击喵！虽然不知道它们在\n争些什么，但战斗非常激烈喵！\n河童蛙冲锋了……\n赤甲兽一边旋转一边向这边……\n喵～！？不行喵！这里是\n场外喵～！不要靠近我喵～！": {
+            "key": "quest_village_a_volvidon_rammed_into_a\ntetranodon_i_dont_know_what\nthey_were_fighting_over_but\nit_was_amazing_until_they\ncame_rolling_my_way_and_almost\nturned_me_into_roadkill\nleave_me_outta_this_will_ya"
+        },
+        "狩猎1头河童蛙和1头赤甲兽": {
+            "key": "quest_village_hunt_a_tetranadon_and_a_volvidon"
+        },
+        "泥土隐者": {
+            "key": "quest_village_hermit_of_the_swamp"
+        },
+        "这也是百龙夜行的影响吗……\n隐居在深山中的隐者\n下到废神社来了。一如其名，\n泥翁龙能够自由地操纵泥，\n是种老奸巨猾的海龙。\n让它闯到村子里就大事不妙了……\n狩猎就交给你了，强者啊！": {
+            "key": "quest_village_an_almudron_is_makin_a_real_mess\nof_things_in_the_shrine_ruins_they\nusually_just_keep_to_themselves_up\nin_the_mountains_could_just_be\nanother_effect_of_the_rampage\neither_way_we_cant_let_it_get_any\ncloser_to_the_village_now_get_to_it"
+        },
+        "狩猎1头泥翁龙": {
+            "key": "quest_village_hunt_an_almudron"
+        },
+        "特别许可测验・其三": {
+            "key": "quest_village_special_license_test_3"
+        },
+        "您势如破竹，\n接二连三完成了村中的任务，\n因此授予您接受\n特别许可测验的资格。\n只要完成这项任务，\n您就能开始承接\n集会所★4任务了。": {
+            "key": "quest_village_seeing_how_youre_just_blazing\nthrough_those_quests_youve\nearned_the_opportunity_to_take\na_special_license_test_yay\npassing_the_test_lets_you_take\non_4★_gathering_hub_quests\nexciting_right_good_luck"
+        },
+        "彷徨的雪鬼兽": {
+            "key": "quest_village_abominable_snow-beast"
+        },
+        "住在雪国的母亲": {
+            "key": "quest_village_tundra-dwelling_mother"
+        },
+        "冰封群岛一到晚上\n就能听到低吼声，\n似乎是有怪物在那里徘徊。\n那吼声吓得我家孩子晚上\n都不敢一个人上厕所了。\n猎人，请你想想办法吧！": {
+            "key": "quest_village_a_monster_in_the_frost_islands\nhas_been_roaring_after_dark\nthe_cries_have_terrified_my\nchild_who_now_refuses_to_go\nto_the_toilet_alone_at_night\nplease_help_us_if_you_can"
+        },
+        "狩猎1头雪鬼兽": {
+            "key": "quest_village_hunt_a_goss_harag"
+        },
+        "轰鸣声": {
+            "key": "quest_village_thundering_voice"
+        },
+        "藏身于冰封群岛的男人": {
+            "key": "quest_village_frost_islands_fugitive"
+        },
+        "不知从何处，传来了说不清\n是低吼还是咆哮的某种声音……\n难道说，那是传闻中的轰龙吗？\n我千辛万苦逃脱并躲藏了起来，\n但那声音依然紧追不舍……\n拜托了。在声音的主人\n找到我之前打倒它吧。": {
+            "key": "quest_village_i_hear_roars_echoing_all_over\nno_idea_where_they_come_from\ni_fear_it_might_be_a_tigrex\nwherever_i_hide_the_growling\nfollows_please_i_beg_of_you\nhunt_the_source_of_that_sound\nbefore_it_catches_up_with_me"
+        },
+        "狩猎1头轰龙": {
+            "key": "quest_village_hunt_a_tigrex"
+        },
+        "扭曲的欲望": {
+            "key": "quest_village_twisted_desire"
+        },
+        "某个铁匠铺的继承人": {
+            "key": "quest_village_smiths_son"
+        },
+        "那对角也太帅气了，\n难怪它被叫做角龙。\n那扭曲感实在是不简单。\n我想打磨一下，做成店里的招牌，\n那样客人一定会爆满吧？\n啊～有没有哪位身手了得的猎人\n可以去帮我打倒角龙呢～！？": {
+            "key": "quest_village_those_horns_are_so_cool_fit\nfor_a_name_like_\"diablos\"_for\nsure_with_that_twisted_shape\nid_love_to_get_my_hands_on\none_and_craft_my_store_sign\nfrom_it_i_bet_itd_do_wonders\nfor_business"
+        },
+        "狩猎1头角龙": {
+            "key": "quest_village_hunt_a_diablos"
+        },
+        "废神社试胆": {
+            "key": "quest_village_a_test_of_courage"
+        },
+        "胆小的艾露猫": {
+            "key": "quest_village_cowardly_felyne"
+        },
+        "俺看见了喵。\n废神社那里漂荡着鬼火！\n不仅如此喵，俺还看到\n远处有发光的团块喵！\n那周围也有发光的东西在飞……\n喵啊！光是回想一下\n俺就要吓死了喵！想想办法喵！": {
+            "key": "quest_village_im_no_scaredy_cat_but_the_shrine_ruins\nare_haunted_haunted_i_tell_ya_there\nwas_this_big_scary_shadow_with_fireballs\nall_around_it_and_a_ghost_glowing_in_the\ndistance_surround_by_souls_even_meow\ni_get_chills_just_thinking_about_it_help"
+        },
+        "狩猎1头怨虎龙和1头雷狼龙": {
+            "key": "quest_village_hunt_magnamalo_and_a_zinogre"
+        },
+        "电光雷鸣，梦幻泡影": {
+            "key": "quest_village_like_a_flash_of_lightning"
+        },
+        "出口成章的前辈猎人": {
+            "key": "quest_village_talkative_senior_hunter"
+        },
+        "哟，有在加油吗？\n这次大展身手的机会就归你了！\n飞雷龙和泡狐龙正在水没林\n争夺地盘。到处都是泡泡和电流，\n根本靠近不了！……我当然行啦！\n寻常猎人可对付不了这种状况，\n嗯……所以说，你要加油啊！": {
+            "key": "quest_village_heres_a_favor_for_ya_rookie\nfrom_me_theres_a_mizutsune\nand_a_tobi-kadachi_dukin_it\nout_in_the_flooded_forest_and\nim_lettin_you_have_at_em\nim_feelin_uhcharitable\ntoday_y-yeah_well_good_luck"
+        },
+        "狩猎1头飞雷龙和1头泡狐龙": {
+            "key": "quest_village_hunt_a_tobi-kadachi_and_a_mizutsune"
+        },
+        "天空王者，大地暴君": {
+            "key": "quest_village_king_of_the_sky_bane_of_the_land"
+        },
+        "年轻的将军": {
+            "key": "quest_village_young_general"
+        },
+        "我的部下忍受不了严酷的任务，\n向主君发起了叛乱……于是我被\n上头追究责任，调往了熔岩洞。\n这全都是我的错，都怪我没能\n考虑到双方的心情……就算是为了\n履行责任，我也必须要活下去！\n抱歉，麻烦你去狩猎怪物……！": {
+            "key": "quest_village_my_subordinates_had_enough_of\ntheir_harsh_missions_and\nrebelled_i_was_forced_to_take\nresponsibility_and_demoted_to\nthe_lava_caverns_i_need_to_get\nbetter_at_my_job_but_to_do_so\ni_need_to_survive_first_help"
+        },
+        "狩猎1头火龙和1头轰龙": {
+            "key": "quest_village_hunt_a_rathalos_and_a_tigrex"
+        }
+    },
+    "cntokey2": {
+        "废神社的探索之旅": {
+            "key": "quest_hall_a_tour_of_the_ruins"
+        },
+        "公会经纪人・岁丰稔": {
+            "key": "quest_hall_guild_master_hojo"
+        },
+        "噢～<PL>！\n如果你想自由探索废神社，\n就接下这个任务呱。\n没有时间限制，\n力尽倒下多少次都没问题呱！\n等探索得心满意足了，\n就随时从菜单画面返回呱！": {
+            "key": "quest_hall_ah_<pl>_fancy_a\nleisurely_exploration_of_the\nshrine_ruins_johoho_heres\na_quest_with_no_limits_on_time\nor_reprise_and_you_can_leave\nvia_the_menu_screen_whenever\nyoud_like_to_bon_voyage"
+        },
+        "探索废神社": {
+            "key": "quest_hall_explore_the_shrine_ruins"
+        },
+        "无条件": {
+            "key": "quest_hall_none"
+        },
+        "冰封群岛的探索之旅": {
+            "key": "quest_hall_a_tour_of_the_islands"
+        },
+        "公会经纪人・岁丰稔_2": {
+            "key": "quest_hall_guild_master_hojo_2"
+        },
+        "噢～<PL>！\n如果你想自由探索冰封群岛，\n就接下这个任务呱。\n没有时间限制，\n力尽倒下多少次都没问题呱！\n等探索得心满意足了，\n就随时从菜单画面返回呱！": {
+            "key": "quest_hall_ah_<pl>_fancy_a\nleisurely_exploration_of_the\nfrost_islands_johoho_heres\na_quest_with_no_limits_on_time\nor_reprise_and_you_can_leave\nvia_the_menu_screen_whenever\nyoud_like_to_bon_voyage"
+        },
+        "探索冰封群岛": {
+            "key": "quest_hall_explore_the_frost_islands"
+        },
+        "无条件_2": {
+            "key": "quest_hall_none_2"
+        },
+        "百龙夜行，来袭": {
+            "key": "quest_hall_the_rampage_approaches"
+        },
+        "噢～<PL>。\n百龙夜行正在逼近炎火村呱。\n要塞的周围，\n会由武装的村民进行防卫。\n你负责击退闯入要塞中的怪物呱。\n那就出战吧。加油呱～": {
+            "key": "quest_hall_well_then_<pl>\nthe_rampage_is_nearing_kamura\nthe_villagers_will_defend_the_areas\nsurrounding_the_stronghold_while\nyou_fend_off_any_monsters_that\nmake_it_in_johoho_good_luck"
+        },
+        "守住最终关口": {
+            "key": "quest_hall_defend_the_final_gate"
+        },
+        "最终关口遭到破坏": {
+            "key": "quest_hall_final_gate_is_destroyed"
+        },
+        "唐伞妖怪": {
+            "key": "quest_hall_shady_monster"
+        },
+        "可疑的老妇人": {
+            "key": "quest_hall_creepy_old_lady"
+        },
+        "你有见过伞鸟吗……？\n老身听说它长得就像是\n独眼的伞妖怪一般。\n嘿嘿……你怕了吗？\n既然你是猎人，\n自然就得挑战看看。\n去狩猎它吧……": {
+            "key": "quest_hall_say_there_hunter_ever_seen\na_monster_that_hops_on_one\nleg_i_haveand_ive_never_been\nthe_same_since—hahaha_*hack*\nthose_old_ghost_stories_dont_scare\nme_none_how_about_you"
+        },
+        "狩猎1头伞鸟": {
+            "key": "quest_hall_hunt_an_aknosom"
+        },
+        "报酬金额为零\n时间耗尽": {
+            "key": "quest_hall_reward_hits_0_or_time_expires"
+        },
+        "半夜三更击退搔鸟": {
+            "key": "quest_hall_tired_and_feathered"
+        },
+        "村里第一的蛋爱好者": {
+            "key": "quest_hall_kamuras_no1_egg_lover"
+        },
+        "难得我弄到了丸鸟的金蛋，\n却在回村的途中\n被搔鸟给偷走了！\n我还打算做成美味的煎蛋呢……\n为防它下次再来偷蛋，\n请你帮我去打倒它！": {
+            "key": "quest_hall_thinks_hes_number_one_does_he\njust_because_he_snatched_my\ngold_gargwa_egg_well_youre\ngonna_show_him_you_got_that\nim_number_one_around_here\nim_number_one"
+        },
+        "狩猎1头搔鸟": {
+            "key": "quest_hall_hunt_a_kulu-ya-ku"
+        },
+        "报酬金额为零\n时间耗尽_2": {
+            "key": "quest_hall_reward_hits_0_or_time_expires_2"
+        },
+        "冰封群岛的镰鼬": {
+            "key": "quest_hall_jumped_in_the_frost_islands"
+        },
+        "百折不挠的猎人": {
+            "key": "quest_hall_hunter_hiding_behind_a_bush"
+        },
+        "我要委托你狩猎镰鼬龙王！\n听好了，当你以为起风的时候，\n其实早就已经被包围了。\n如果你要去向它挑战，\n千万要注意它和小弟们的连携技！\n为什么我会这么清楚？\n因为……我已经体验过这些了！": {
+            "key": "quest_hall_psst_hey_pal_i_just_got_ruffed_up\nby_a_gang_of_izuchi_and_their_\"great\"\nbozo_leader_they_took_my_pouch\nmy_zenny—even_my_pants_think\nya_could_do_me_a_solid_and_take\ncare_of_em_for_me_and_maybe\nuh_get_me_some_pants_too_huh"
+        },
+        "狩猎1头镰鼬龙王": {
+            "key": "quest_hall_hunt_a_great_izuchi"
+        },
+        "眠狗龙王，现身冰封群岛": {
+            "key": "quest_hall_no_cure_for_the_common_baggi"
+        },
+        "感冒的艾露猫": {
+            "key": "quest_hall_sneezing_felyne"
+        },
+        "喵、喵嚏……！！\n我被奇怪的水给泼到了，\n然后就莫名其妙地睡着了喵……\n这一定是眠狗龙王干的好事喵！\n请猎人你去狩猎它，\n狩猎时还请千万小心，\n别被它弄睡着喵……喵嚏！！": {
+            "key": "quest_hall_yuck_fur-st_a_great_baggi_*sniff*\nspits_all_over_me_*sniff*_then\ni_fall_asleep_out_in_the_frost_islands\nand_now_*sniff*_i_think_im_coming\ndown_with_something_nyanya\n*sniff*_nyanyachoo_*sniff*"
+        },
+        "狩猎1头眠狗龙王": {
+            "key": "quest_hall_hunt_a_great_baggi"
+        },
+        "请小心迫近的雪球": {
+            "key": "quest_hall_a_snowballs_chance"
+        },
+        "倒霉的游商": {
+            "key": "quest_hall_hapless_trader"
+        },
+        "唉……真是太不走运了……\n我好不容易才\n从白兔兽手上捡回一条命……\n飞来的雪球却正中货物，\n把我运送的货给压扁了……\n我可不想像货物一样被压扁，\n希望你能去狩猎它……": {
+            "key": "quest_hall_i_absolutely_cannot_believe_how_awful\nmy_luck_is_no_way_that_thing_couldve\nhit_me_there_i_wasbobbingweaving\nziggingzagging_just_when_i_thought\ni_had_gotten_away_from_this_lagombi\n*bam*_me_and_all_my_goods_crushed\nby_a_snowball_unbelievable"
+        },
+        "狩猎1头白兔兽": {
+            "key": "quest_hall_hunt_a_lagombi"
+        },
+        "奔跑于废神社的毒狗龙王": {
+            "key": "quest_hall_wroggi_place_wroggi_time"
+        },
+        "以飞毛腿为豪的信使": {
+            "key": "quest_hall_fleetfooted_courier"
+        },
+        "哟！你听我说啊！\n上次我经过废神社时，\n遇到了毒狗龙王。\n我靠自己的飞毛腿逃掉了，\n但它那时居然喷毒过来，\n我差点就中招了。\n太危险了，麻烦你去击退它！": {
+            "key": "quest_hall_i_was_out_on_my_morning_jog\nthrough_the_ruins_and_out_pops\na_great_wroggi_spittin_poison_all\nover_my_new_running_shoes_what\nis_wrong_with_these_monsters\nhunter_please_avenge_my_shoes\nwould_you"
+        },
+        "狩猎1头毒狗龙王": {
+            "key": "quest_hall_hunt_a_great_wroggi"
+        },
+        "蜂蜜争夺战！": {
+            "key": "quest_hall_a_grizzly_encounter"
+        },
+        "喜欢甜食的村民": {
+            "key": "quest_hall_sweet-toothed_villager"
+        },
+        "青熊兽好像袭击了路过废神社\n附近的游商，把蜂蜜都抢走了。\n这样下去，蜂蜜就送不到\n村子里来了……！\n为了我那专情于甜食的生活，\n拜托！来个人打倒它吧！": {
+            "key": "quest_hall_what_are_we_gonna_do_hunter\nwhat_are_we_gonna_do\nan_arzuros_attacked_the_latest\ndelivery_of_honey_into_kamura\nand_now_there_are_no_sweets—\nwhat_who_cares_if_they_are_ok\ndid_you_hear_me_no_sweets"
+        },
+        "狩猎1头青熊兽": {
+            "key": "quest_hall_hunt_an_arzuros"
+        },
+        "还废神社以夜晚的宁静": {
+            "key": "quest_hall_off_the_beaten_path"
+        },
+        "喜欢探索的少女": {
+            "key": "quest_hall_aspiring_explorer"
+        },
+        "在夜晚的废神社，能看见\n漂亮的灯虫，这是只属于\n我和朋友的秘密地点！\n但是最近出现了很多怪物，\n都没法出门了……\n猎人，拜托了！\n请你收拾掉可怕的怪物吧！": {
+            "key": "quest_hall_my_friend_and_i_heard_about_this\namazing_secret_spot_up_in_the\nshrine_ruins_where_you_can_relax\nand_watch_the_torchbugs_glow\nwe_wanted_to_take_a_hike_up_there\nand_check_it_out_but_theres_a\nbunch_of_monsters_in_the_way"
+        },
+        "合计讨伐20头\n镰鼬龙和甲虫": {
+            "key": "quest_hall_slay_a_total_of_20_izuchi_or_altaroth"
+        },
+        "最近成为话题的麻烦家伙": {
+            "key": "quest_hall_hot_topic_hooligans"
+        },
+        "喜欢传闻的妇人": {
+            "key": "quest_hall_gossiping_lady"
+        },
+        "我说！你知道吗？\n冰封群岛的小型怪物\n似乎变多了。\n而且还偏偏是些又咬人\n又刺人的麻烦家伙们！\n真讨厌哪～好了，快去快去！\n轮到你出场了吧？": {
+            "key": "quest_hall_i_heard_from_my_brothers_mothers\ncousin_that_the_frost_islands_are\ncrawling_with_monsters_these_days\nand_get_this_my_mailmans_uncle\nwas_just_ruffed_up_out_there_the_other\nday_it_used_to_be_such_a_nice_place\nwish_someoned_do_something_about_it"
+        },
+        "合计讨伐20头\n变形幼冰鲨和飞甲虫": {
+            "key": "quest_hall_slay_a_total_of_20_zamite_or_bnahabra"
+        },
+        "沙原的探索之旅": {
+            "key": "quest_hall_a_tour_of_the_plains"
+        },
+        "噢～<PL>！\n如果你想自由探索沙原，\n就接下这个任务呱。\n没有时间限制，\n力尽倒下多少次都没问题呱！\n等探索得心满意足了，\n就随时从菜单画面返回呱！": {
+            "key": "quest_hall_ah_<pl>_fancy_a\nleisurely_exploration_of_the\nsandy_plains_johoho_heres\na_quest_with_no_limits_on_time\nor_reprise_and_you_can_leave\nvia_the_menu_screen_whenever\nyoud_like_to_bon_voyage"
+        },
+        "探索沙原": {
+            "key": "quest_hall_explore_the_sandy_plains"
+        },
+        "水没林的探索之旅": {
+            "key": "quest_hall_a_tour_of_the_forest"
+        },
+        "噢～<PL>！\n如果你想自由探索水没林，\n就接下这个任务呱。\n没有时间限制，\n力尽倒下多少次都没问题呱！\n等探索得心满意足了，\n就随时从菜单画面返回呱！": {
+            "key": "quest_hall_ah_<pl>_fancy_a\nleisurely_exploration_of_the\nflooded_forest_johoho_heres\na_quest_with_no_limits_on_time\nor_reprise_and_you_can_leave\nvia_the_menu_screen_whenever\nyoud_like_to_bon_voyage"
+        },
+        "探索水没林": {
+            "key": "quest_hall_explore_the_flooded_forest"
+        },
+        "鲸吞力士": {
+            "key": "quest_hall_dead_ringer"
+        },
+        "集会所接待员水芸": {
+            "key": "quest_hall_minoto_the_hub_maiden"
+        },
+        "岁丰稔大人误会了，\n这样子我就不太好说出\n要狩猎的怪物是河童蛙了……\n因此，我偷偷准备了\n这份委托书。\n那就麻烦您去狩猎了。": {
+            "key": "quest_hall_me_and_my_big_mouth_i_saw\na_picture_of_a_tetranadon_and\nblurted_out_\"it_looks_exactly\nlike_master_hojo\"_he_overheard\nme_and_now_he_thinks_i_was\ntalking_about_a_mizutsune_if_he\nfinds_out_the_truth_hell_croak"
+        },
+        "狩猎1头河童蛙": {
+            "key": "quest_hall_hunt_a_tetranadon"
+        },
+        "用尾巴转圈圈": {
+            "key": "quest_hall_i_want_off_this_ride"
+        },
+        "爱梦想的艾露猫": {
+            "key": "quest_hall_spinning_felyne"
+        },
+        "猎人，你知道喵？\n天狗兽能用尾巴来直立喵。\n还能骨碌碌地旋转喵！\n到底是怎么做到的喵……？\n我也想试试看喵～！\n我想好～好观察一下它，\n所以请你去狩猎天狗兽喵！": {
+            "key": "quest_hall_i_was_coming_home_fur-om_work\nwhen_suddenly_i_saw_a_bishaten\nspinning_on_its_tail_and_suddenly\nit_started_spinning_around_me\nthen_everything_started_spinning\nand_then_i_started_spinning_and\nmeow_i_cant_stop_please_help"
+        },
+        "狩猎1头天狗兽": {
+            "key": "quest_hall_hunt_a_bishaten"
+        },
+        "认真观察毒妖鸟": {
+            "key": "quest_hall_way_of_the_pukei"
+        },
+        "冒失的村庄姑娘": {
+            "key": "quest_hall_utsushi_fangirl"
+        },
+        "我想要创造出和倪泰教官间的\n共同话题。但我又不清楚什么\n和狩猎有关的事……\n既然如此，就决定是模仿秀了。\n让他看看我的模仿秀……不错吧？\n模仿毒妖鸟我应该还是做得到的。\n我要偷偷观察它，麻烦你去狩猎！": {
+            "key": "quest_hall_master_utsushi_does_those_monster\nimpressions_right_maybe_if_i_like\nlearned_one_wed_have_something_in\ncommon_i_bet_i_could_do_pukei-pukei\nseems_easy_im_already_pretty_good\nat_sticking_out_my_tongue_if_you_hunt\none_for_me_i_can_watch_and_take_notes"
+        },
+        "狩猎1头毒妖鸟": {
+            "key": "quest_hall_hunt_a_pukei-pukei"
+        },
+        "水没林被水淹没": {
+            "key": "quest_hall_the_flooding_flooded_forest"
+        },
+        "搬运船的船员": {
+            "key": "quest_hall_trade_ship_crewman"
+        },
+        "不好了，运输部队被水生兽群\n袭击了！领头的是水兽……\n一头雄性坐拥一群雌性，\n真是太不知廉耻了！\n啊，不，没什么。\n总之，请你想办法\n狩猎水兽吧！": {
+            "key": "quest_hall_its_utter_chaos_our_couriers\nare_under_attack_from_a_royal\nludroth_and_its_mates_\"mates\"\nas_in_females_by_the_way_not\nfrie—wait_that_doesnt_even—\nlook_we_just_need_you_to_hunt\nthat_royal_ludroth_asap"
+        },
+        "狩猎1头水兽": {
+            "key": "quest_hall_hunt_a_royal_ludroth"
+        },
+        "土砂龙的硬脑袋": {
+            "key": "quest_hall_so_muddy_hardheaded"
+        },
+        "村里第一的石头脑袋": {
+            "key": "quest_hall_stubborn_husband"
+        },
+        "都能用来敲钉子的石头脑袋……\n不，铁脑袋！说的就是我啦！\n哎呀，好孩子千万别学我哟！\n我听说土砂龙的脑袋也挺硬的，\n真想和它比试一番啊！\n我想要它的头壳，\n麻烦你去狩猎它吧！": {
+            "key": "quest_hall_\"youre_so_hardheaded_youd_put\na_barroth_to_shame\"_heh_can_you\nbelieve_my_wife_said_that_to_me_she\nthinks_my_heads_harder_than_a_barroths\ntheres_no_way_so_im_goin_out_to\nget_me_a_barroth_skull_to_prove_it_and\naint_no_one_gonna_change_my_mind"
+        },
+        "狩猎1头土砂龙": {
+            "key": "quest_hall_hunt_a_barroth"
+        },
+        "迫近的白影": {
+            "key": "quest_hall_a_pale_shadow"
+        },
+        "某艾露猫的日志": {
+            "key": "quest_hall_a_felynes_journal"
+        },
+        "呜～好冷喵……要冻僵了喵……\n太冷了，我都看到幻觉了喵……\n白白的，没有眼睛，大大的嘴，\n软绵绵的……啊，摸起来还\n暖暖的喵……\n——文章至此中断。\n为了解救它，请狩猎目标怪物。": {
+            "key": "quest_hall_\"sosocold_whiskers\nfur-ozen_tail_fur-ozen_paws—\nwhawhats_that_a_fur-iendly\nsmile_sowarmmeow\neverythingwarm—\"\nthe_diary_ends_there_you_feel\ncompelled_to_rescue_its_owner"
+        },
+        "狩猎1头奇怪龙": {
+            "key": "quest_hall_hunt_a_khezu"
+        },
+        "沙原中滚动的赤甲兽": {
+            "key": "quest_hall_reinventing_the_wheel"
+        },
+        "沙漠的大发明家": {
+            "key": "quest_hall_desert_inventor"
+        },
+        "在沙漠进行运输非常困难，\n因为车轮在沙地上没法好好转动。\n不过，看看赤甲兽吧！\n只要能查明其构造，制造出能在\n沙地上前进的车轮也不再是梦想！\n所以说！麻烦你让老夫看看\n赤甲兽滚动时的模样！": {
+            "key": "quest_hall_wheels_get_stuck_in_the_sand\nlimiting_trade_across_deserts;\nand_yet_volvidon_traverse_the\nplains_with_ease—wait_thats\nit_allow_me_to_observe_how_a\nvolvidon_rolls_and_i_shall\ndesign_an_unstoppable_wheel"
+        },
+        "狩猎1头赤甲兽": {
+            "key": "quest_hall_hunt_a_volvidon"
+        },
+        "回头一看是岩龙": {
+            "key": "quest_hall_blasted_basarios"
+        },
+        "沙原的采掘者": {
+            "key": "quest_hall_sandy_plains_miner"
+        },
+        "最近，沙原里经常出现岩龙啊。\n那家伙会拟态成岩石吧？\n进行挖掘作业时，一回头就\n发现它在自己身后……\n堪称神出鬼没。真是的，\n这对心脏可不好啊。\n猎人，拜托你去狩猎岩龙。": {
+            "key": "quest_hall_*cough*_dang_basarios_*wheeze*\none_minute_youre_sittin_on_what\nyou_thought_was_a_rock_tryin_to\nget_the_dirt_out_of_yer_boots_*hack*\nand_the_next_youre_huffin_*cough*\nall_kinds_of_who-knows-what\n*hack*"
+        },
+        "狩猎1头岩龙": {
+            "key": "quest_hall_hunt_a_basarios"
+        },
+        "成为女王的方法": {
+            "key": "quest_hall_the_path_to_royalty"
+        },
+        "梦想成为女王的女性": {
+            "key": "quest_hall_aspiring_monarch"
+        },
+        "啊，女王……好憧憬啊……\n“陆之女王”这称呼真是好听，\n叫人心醉神迷。\n啊～我也想成为女王！\n有没有什么方法呢？……对了，\n只要你帮忙狩猎了雌火龙，\n说不定我能想到些什么了！": {
+            "key": "quest_hall_oh_what_i_wouldnt_give_to_be\na_queen_\"queen_of_the_land\"\nwho_wouldnt_love_a_title_like\nthat_perhaps_i_may_learn\na_thing_or_two_from_the_queen\nherself_valiant_knight_of_kamura\ni_order_you_to_hunt_a_rathian"
+        },
+        "狩猎1头雌火龙": {
+            "key": "quest_hall_hunt_a_rathian"
+        },
+        "我也是冠突龙？": {
+            "key": "quest_hall_dawn_of_the_kestodon"
+        },
+        "处于混乱状态的男人": {
+            "key": "quest_hall_utterly_confused_man"
+        },
+        "不、不好了不好了！\n沙原里出现了冠突龙！数量很多！\n前后左右，到处都是冠突龙……\n我好不容易逃掉了，\n但冠突龙一直萦绕在我心头，\n挥之不去……总、总之，\n请你去打倒沙原的冠突龙！": {
+            "key": "quest_hall_what_do_i_do_what_do_i_do\ntheres_kestodon_all_around_me\nhere_there_yonder_whither—\ntheyre_everywhere_i_tell_ya\neverywhere_even_in_my_mind\ntheres_nowhere_left_to_run_you\ngotta_stop_em_before_its_too_late"
+        },
+        "讨伐15头冠突龙": {
+            "key": "quest_hall_slay_20_kestodon"
+        },
+        "皮・皮・皮！": {
+            "key": "quest_hall_hide_hide_hide"
+        },
+        "裁缝店的店长": {
+            "key": "quest_hall_master_tailor"
+        },
+        "我从老主顾那儿接到个大订单。\n有生意做是很好啦，\n但素材不够了……\n需要怪物柔软的皮。\n贼龙或水生兽的皮就行。\n我会让店里的人去取素材的，\n总之请你去狩猎吧！": {
+            "key": "quest_hall_darling_a_special_order_has\ncome_in_for_a_very_special_client\nand_im_all_out_of_materials_be\na_dear_and_fetch_some_for_me\nwill_you_only_the_finest_materials\nwill_do_none_of_that_faux_nonsense\nnow_off_you_go"
+        },
+        "合计讨伐20头\n贼龙和水生兽": {
+            "key": "quest_hall_slay_a_total_of_20_jagras_or_ludroth"
+        },
+        "兔与蛙的相扑练习": {
+            "key": "quest_hall_bouncing_brawlers"
+        },
+        "观测所里睡眠不足的男人": {
+            "key": "quest_hall_weary_observatory_staffer"
+        },
+        "请你听听我的烦恼吧……最近，\n冰封群岛的两头怪物展开了争斗。\n每天晚上都是激烈的撞击声\n与嘈杂的吼叫声。啊——！\n我已经没法忍受了！\n请去狩猎它们，让我好好睡一觉！": {
+            "key": "quest_hall_i_havent_slept_in_days_and_its\nall_because_of_those_two_stupid\nmonsters_fighting_all_day\nfighting_all_night_they_never_let_up\nthe_roaring_the_rumbling_i_cant\ntake_it_anymore_please_i_need\nsome_sleep_shut_them_up"
+        },
+        "狩猎1头白兔兽和1头河童蛙": {
+            "key": "quest_hall_hunt_a_lagombi_and_a_tetranadon"
+        },
+        "水之兽与火之龙": {
+            "key": "quest_hall_fried_and_baptized"
+        },
+        "冷静的生物学者": {
+            "key": "quest_hall_unflappable_biologist"
+        },
+        "在水没林进行生态调查时，\n我遇到了雌火龙与水兽。\n雌火龙向我喷火，水兽的水让我\n难以前行。还好擅长游泳的我\n偶然穿了特殊的外套，\n所以没出什么事，但实在是危险。\n麻烦你去狩猎这两头怪物。": {
+            "key": "quest_hall_i_tend_to_ignore_these_little_\"tiffs\"\nbetween_monsters_while_out_in\nthe_field_especially_since_i_have\na_special_cloak_to_protect_me_but\nit_becomes_increasingly_difficult_to\nignore_when_the_forest_is_flooding\nand_burning_at_the_same_time"
+        },
+        "狩猎所有目标": {
+            "key": "quest_hall_hunt_a_royal_ludroth_and_a_rathian"
+        },
+        "熔岩洞的探索之旅": {
+            "key": "quest_hall_a_tour_of_the_caverns"
+        },
+        "噢～<PL>！\n如果你想自由探索熔岩洞，\n就接下这个任务呱。\n没有时间限制，\n力尽倒下多少次都没问题呱！\n等探索得心满意足了，\n就随时从菜单画面返回呱！": {
+            "key": "quest_hall_ah_<pl>_fancy_a\nleisurely_exploration_of_the\nlava_caverns_johoho_heres\na_quest_with_no_limits_on_time\nor_reprise_and_you_can_leave\nvia_the_menu_screen_whenever\nyoud_like_to_bon_voyage"
+        },
+        "探索熔岩洞": {
+            "key": "quest_hall_explore_the_lava_caverns"
+        },
+        "鬼火": {
+            "key": "quest_hall_hellfire"
+        },
+        "怨虎龙出现在熔岩洞了！\n那家伙会吞噬百龙夜行，\n要是它和村子附近的百龙夜行\n汇合，那可就大事不妙了！\n在状况变得无法挽回之前，\n无论如何都要击退它呱！\n抓紧时间呱～！": {
+            "key": "quest_hall_that_dreadful_magnamalo_has\nbeen_spotted_quick_hunter\nyou_must_leap_into_action_at\nonce_we_cannot_allow_it_to\nfeed_on_the_hordes_or_it_may\nbecome_too_powerful_to_defeat\nno_time_to_waste_hop_to_it-to_it"
+        },
+        "狩猎1头怨虎龙": {
+            "key": "quest_hall_hunt_magnamalo"
+        },
+        "请君入梦": {
+            "key": "quest_hall_beckoning_slumber"
+        },
+        "有黑眼圈的女性": {
+            "key": "quest_hall_exhausted_woman"
+        },
+        "我深受失眠症的折磨……\n所以我就想了。能不能用人鱼龙\n具有强力催眠效果的粉末\n制作出某种药物。\n无论如何我都要尝试一下……！\n我之后会去回收粉末的，\n麻烦猎人你去完成狩猎。": {
+            "key": "quest_hall_ive_been_suffering_from\ninsomnia_so_i_figured_hey\nwhy_dont_i_create_a_sedative\nusing_somnacanth_powder\nat_this_point_i_dont_care_how\ncrazy_it_sounds_just_get_me\nthat_powder_please"
+        },
+        "狩猎1头人鱼龙": {
+            "key": "quest_hall_hunt_a_somnacanth"
+        },
+        "冰雪斗士": {
+            "key": "quest_hall_the_blizzard_blender"
+        },
+        "修行中的武斗家": {
+            "key": "quest_hall_martial_artist_in_training"
+        },
+        "名为雪鬼兽的怪物好像\n能够利用其强壮的身躯\n使出强力的肉搏攻击。\n太厉害了！我都要迷上它了！\n不过，我可没法和它直接战斗。\n猎人，能麻烦你和它战斗，\n再把经过告诉我吗？": {
+            "key": "quest_hall_yo_i_heard_those_goss_harags_can\nturn_their_arms_into_these_sick_ice\nblades_thatll_carve_a_hunter_up_like\n\"shwa_shwa_shwashwashwa_shwa\"\ndude_i_gotta_see_it_come_on_go_pick\na_fight_with_one_just_uh_dont_get_all\n\"shwa-shwa-shwa\"-ed_up_out_there"
+        },
+        "狩猎1头雪鬼兽": {
+            "key": "quest_hall_hunt_a_goss_harag"
+        },
+        "飞龙，跃动于地面": {
+            "key": "quest_hall_zigzagging_zapper"
+        },
+        "急性子的猎人": {
+            "key": "quest_hall_impatient_hunter"
+        },
+        "唉～我被打得好惨啊！\n那个叫飞雷龙的怪物，\n动作真是太敏捷了，\n完全把我玩弄于股掌之中。\n我不擅长预判动作和地形，\n拿它毫无办法。不好意思，\n请来个人替我去狩猎它。": {
+            "key": "quest_hall_blargh_i_was_trying_to_hunt_a_stupid\ntobi-kadachi_but_the_squirrely_monster\njust_wouldnt_stay_still_when_i_finally_got\nan_opening_to_strike_it_scurried_off_and\nhid_in_a_tree_is_it_gonna_come_down\nanytime_soon_you_know_what_im\noutta_here_i_dont_got_all_day_for_this"
+        },
+        "狩猎1头飞雷龙": {
+            "key": "quest_hall_hunt_a_tobi-kadachi"
+        },
+        "泥，泥泞，泥翁龙": {
+            "key": "quest_hall_down_n_dirty"
+        },
+        "慌张的农家男性": {
+            "key": "quest_hall_distressed_farmer"
+        },
+        "不好了，猎人。\n泥翁龙出现了！\n那家伙把地面溶化了，\n在那儿大闹特闹。\n俺们开垦过的土地\n全部都白费了……\n请你快去狩猎它吧。": {
+            "key": "quest_hall_doggone_almudron_that_thing\ncame_through_the_farm_slingin\nits_mud_all_over_the_dern_place\nnow_theres_mud_all_over_my_dern\ncrops_all_in_my_dern_house_heck\neven_got_mud_in_my_dern_pants\nwell_least_the_poogies_is_happy"
+        },
+        "狩猎1头泥翁龙": {
+            "key": "quest_hall_hunt_an_almudron"
+        },
+        "熔岩洞的暴徒": {
+            "key": "quest_hall_bully_of_the_caverns"
+        },
+        "额头有旧伤的老妇人": {
+            "key": "quest_hall_scarred_old_woman"
+        },
+        "看来出现了个难对付的家伙啊。\n那家伙异常凶猛且执着，\n会对逃跑的猎物紧追不舍。\n必须在出现受害者前击退它。\n听好了，那家伙张开膜的时候，\n就是要放吐息了，千万要注意。\n去吧，路上小心。": {
+            "key": "quest_hall_i_can_see_why_that_anjanath_likes\nto_bully_all_those_little_monsters\nthem_raths_always_pickin_on_em\nfor_having_those_lil_stubby_\"wings\"\nand_a_funny_lookin_schnoz_but\nthat_dont_make_it_right_i_dont_like\nbullies_and_i_wont_have_any_of_it"
+        },
+        "狩猎1头蛮颚龙": {
+            "key": "quest_hall_hunt_an_anjanath"
+        },
+        "暗夜中疾驰的双星": {
+            "key": "quest_hall_twilit_twin_stars"
+        },
+        "疗养中的猎人": {
+            "key": "quest_hall_convalescing_hunter"
+        },
+        "废神社寂静的夜晚。黑暗中，\n我突然看见两颗赤红的星星……\n接下来的事，真可谓一刹那。\n我感受到一股猛烈的风，\n回过神来就已经遍体鳞伤，\n躺在了医院的床上了……\n那家伙很危险，请你去击退它吧。": {
+            "key": "quest_hall_it_was_a_quiet_night_in_the_ruins;\nthats_when_i_saw_two_red_stars\nglowing_in_the_darkness_i_felt_a\ngust_of_wind_and_the_next_thing\ni_knew_i_awoke_on_a_hospital_bed\ni_did_not_know_such_frightening\nthings_exist_out_there"
+        },
+        "狩猎1头迅龙": {
+            "key": "quest_hall_hunt_a_nargacuga"
+        },
+        "为泡狐所吸引": {
+            "key": "quest_hall_my_muse_the_mizutsune"
+        },
+        "鲁莽画师的妻子": {
+            "key": "quest_hall_wife_of_a_reckless_artist"
+        },
+        "我的丈夫听说泡狐龙出现了，\n就嚷嚷着“身为画师，一定要\n把它画下来！”跑了出去……！\n只要击退它，我丈夫应该就会\n放弃这件事，回到家里……\n无论如何就拜托您了。": {
+            "key": "quest_hall_my_husband_is_one_of_those_artsy-\nfartsy_types_you_know_the_kind\nsees_a_sunsetcries_well_he\nheard_mizutsune_are_\"creatures\nthat_inspire_creativity\"_so_he_ran\noff_with_his_easel_to_find_one_*sigh*\ncan_you_go_save_him_for_me"
+        },
+        "狩猎1头泡狐龙": {
+            "key": "quest_hall_hunt_a_mizutsune"
+        },
+        "王者，降临熔岩洞": {
+            "key": "quest_hall_champion_of_the_caverns"
+        },
+        "尾巴烧焦的艾露猫": {
+            "key": "quest_hall_felyne_with_a_singed_tail"
+        },
+        "真、真是太惨了喵～！\n熔岩洞出现了可怕的火龙喵！\n那家伙喷出的火焰把我\n引以为傲的尾巴都烧焦了喵……\n猎人你去狩猎时\n也要多加小心尾巴喵……": {
+            "key": "quest_hall_meow_ive_seen_my_share_of_raths\nbefore_never_thought_they_were_that\ntough_just_fly_around_and_yowl_at_ya\nmewboy_i_was_so_wrong_i_got_the\nbig_idea_to_take_one_on_paw-to-claw\nand_it_one_only_took_one_fireball_for\nme_to_hightail_it_out_of_there_youch"
+        },
+        "狩猎1头火龙": {
+            "key": "quest_hall_hunt_a_rathalos"
+        },
+        "水月雷鸣": {
+            "key": "quest_hall_wavering_moon_and_thunder"
+        },
+        "穿着华丽的少年": {
+            "key": "quest_hall_well-dressed_youth"
+        },
+        "护卫们听说雷狼龙出现，\n都非常害怕，\n完全派不上用场。\n因为一些缘由，我无论如何\n都要穿过水没林去某个地方……\n若对自己的身手有自信，\n希望你能去狩猎它。": {
+            "key": "quest_hall_my_guards_have_turned_craven\nafter_hearing_of_a_zinogre_in\nthe_area_nonetheless_i_must\npress_on_through_the_forest\nno_matter_what_which_is_why\ni_implore_you_brave_hunter\nto_vanquish_the_beast_instead"
+        },
+        "狩猎1头雷狼龙": {
+            "key": "quest_hall_hunt_a_zinogre"
+        },
+        "白骑士 对 猎人": {
+            "key": "quest_hall_white_knight_vs_hunter"
+        },
+        "流浪剑客": {
+            "key": "quest_hall_wandering_swordsman"
+        },
+        "在下为极尽武艺而游走四方。\n听闻群岛出现了一头怪物，\n外号“白骑士”。虽然也可\n自行挑战，但这次在下\n希望能够在近距离见识一下\n此地的强者与其交锋的场面，\n借此学习一下双方的战术。": {
+            "key": "quest_hall_i_am_a_warrior_roaming_these_lands\nto_hone_my_skills_ive_come_to_the\nislands_to_observe_the_so-called\n\"white_knight\"_i_long_to_challenge\nit_however_it_is_custom_in_my\ncountry_to_allow_you_the_honor_first\nhave_at_it_brave_hunter"
+        },
+        "狩猎1头冰牙龙": {
+            "key": "quest_hall_hunt_a_barioth"
+        },
+        "冲向伙伴的咆哮": {
+            "key": "quest_hall_a_friend_in_need"
+        },
+        "善良的游商": {
+            "key": "quest_hall_kind_trader"
+        },
+        "熔岩洞中出现了轰龙！\n那家伙最喜欢波波了，\n会毫不留情地吃掉它们。\n但是对游商来说，波波是\n帮忙运货的重要伙伴……\n拜托了，猎人！在我的波波\n被盯上之前，狩猎它吧。": {
+            "key": "quest_hall_my_popo_posey_is_my_best_friend\nshe_helps_me_every_day_and_is_the\nsweetest_companion_ive_ever_had\na_tigrex_was_spotted_along_my_trade\nroute_and_you_know_what_they_do_to\npopo_hunter_please_i_cant_lose\nposey_if_i_lose_her_i_lose_everything"
+        },
+        "狩猎1头轰龙": {
+            "key": "quest_hall_hunt_a_tigrex"
+        },
+        "请小心尖锐的角": {
+            "key": "quest_hall_a_few_bumps_along_the_way"
+        },
+        "倒霉的游商_2": {
+            "key": "quest_hall_hapless_trader_2"
+        },
+        "唉……真是太不走运了……\n我为了去捡被风吹走的帽子，\n稍微从货物旁离开了一会儿。\n突然听到轰鸣声，我回去一看，\n商品像被地下来的角给刺穿一样，\n变得四分五裂的……我可不想变得\n四分五裂的，请你去狩猎它……": {
+            "key": "quest_hall_a_buddy_of_mine_told_me_about_this_\"great\nshortcut\"_he_found_the_road_was_so_bumpy\ni_fell_off_my_cart_right_into_a_cactus_patch\nand_to_make_matters_worse_a_diablos\nappeared_out_of_nowhere_and_turned_my\ncart_into_splinters_why_do_these_things\nalways_happen_to_me"
+        },
+        "狩猎1头角龙": {
+            "key": "quest_hall_hunt_a_diablos"
+        },
+        "尾巴×尾巴": {
+            "key": "quest_hall_tail_to_tail"
+        },
+        "消息灵通的男性": {
+            "key": "quest_hall_well-informed_man"
+        },
+        "天狗兽和泥翁龙好像在\n大闹废神社啊！\n一方是弹簧般充满弹力的尾巴，\n另一方是鞭子般长长的尾巴……\n哪条尾巴更强呢？\n无论如何，希望猎人你可以\n在损害扩大之前去狩猎它们！": {
+            "key": "quest_hall_both_bishaten_and_almudron_are_known\nfor_using_their_powerful_tails_when_they\nattack_im_collecting_information_on\nthese_monsters_could_you_possibly\nassist_me_i_need_to_ascertain_which\ntail_is_stronger_the_one_like_a_fist\nor_the_one_like_a_whip"
+        },
+        "狩猎1头天狗兽和1头泥翁龙": {
+            "key": "quest_hall_hunt_a_bishaten_and_an_almudron"
+        },
+        "狂暴者": {
+            "key": "quest_hall_beastly_chaos"
+        },
+        "慌张的艾露猫": {
+            "key": "quest_hall_distressed_felyne"
+        },
+        "喵喵喵！不好了喵～！\n轰龙和雪鬼兽出现在\n冰封群岛附近了喵！\n要是那两个家伙闹起来，\n岛屿的地形都要变了喵～！\n猎人！帮帮忙喵！": {
+            "key": "quest_hall_oh_meow_a_tigrex_and_a_goss\nharag_are_going_berserk_out_in\nthe_frost_islands_if_someone\ndoesnt_stop_em_the_islands\ngonna_get_carved_up_like_a\nscratching_post_help"
+        },
+        "狩猎所有目标_2": {
+            "key": "quest_hall_hunt_all_target_monsters_2"
+        },
+        "灾祸中也要保持美丽": {
+            "key": "quest_hall_disastrously_beautiful"
+        },
+        "穿着妖艳的女性": {
+            "key": "quest_hall_captivating_kimono_woman"
+        },
+        "哦……土砂龙，飞雷龙，怨虎龙。\n原来如此，还真是聚集了\n一群强大的怪物啊。\n在这怪物接连来袭的灾祸之中，\n是否有人能华丽起舞呢？\n下一个挑战者是你吗？\n来，让我好好享受一番吧。": {
+            "key": "quest_hall_ah_a_barroth_tobi-kadachi\nand_magnamalo—quite_the_trio\nis_anyone_capable_of_dancing\nwith_three_such_aggressive\npartners_one_after_the_other\nif_you_intend_to_take_to_this\nstage_ill_be_your_audience"
+        },
+        "废神社的探索之旅_2": {
+            "key": "quest_hall_a_tour_of_the_ruins_2"
+        },
+        "噢～<PL>！\n如果你想自由探索废神社，\n就接下这个任务呱。\n没有时间限制，\n力尽倒下多少次都没问题呱！\n等探索得心满意足了，\n就随时从菜单画面返回呱！_2": {
+            "key": "quest_hall_ah_<pl>_fancy_a\nleisurely_exploration_of_the\nshrine_ruins_johoho_heres\na_quest_with_no_limits_on_time\nor_reprise_and_you_can_leave\nvia_the_menu_screen_whenever\nyoud_like_to_bon_voyage_2"
+        },
+        "探索废神社（上位）": {
+            "key": "quest_hall_explore_the_shrine_ruins_high_rank"
+        },
+        "冰封群岛的探索之旅_2": {
+            "key": "quest_hall_a_tour_of_the_islands_2"
+        },
+        "噢～<PL>！\n如果你想自由探索冰封群岛，\n就接下这个任务呱。\n没有时间限制，\n力尽倒下多少次都没问题呱！\n等探索得心满意足了，\n就随时从菜单画面返回呱！_2": {
+            "key": "quest_hall_ah_<pl>_fancy_a\nleisurely_exploration_of_the\nfrost_islands_johoho_heres\na_quest_with_no_limits_on_time\nor_reprise_and_you_can_leave\nvia_the_menu_screen_whenever\nyoud_like_to_bon_voyage_2"
+        },
+        "探索冰封群岛（上位）": {
+            "key": "quest_hall_explore_the_frost_islands_high_rank"
+        },
+        "青色霸主": {
+            "key": "quest_hall_the_blue_apex"
+        },
+        "噢～<PL>！\n这次的百龙夜行，\n由人称“霸主”的青熊兽在率领。\n霸主・青熊兽非常强大，\n你不必勉强自己去打倒它，\n只要专心防卫要塞就好呱。\n守住了要塞，防卫就成功了呱！": {
+            "key": "quest_hall_<pl>_you_must_leap_into\naction_at_once_the_approaching\nrampage_horde_is_led_by_an_apex\narzuros_since_its_too_strong\nto_take_down_focus_on_defending\nthe_stronghold_as_long_as_its\nprotected_victory_is_ours"
+        },
+        "讨伐1头霸主・青熊兽": {
+            "key": "quest_hall_slay_an_apex_arzuros"
+        },
+        "最终关口遭到破坏_2": {
+            "key": "quest_hall_final_gate_is_destroyed_2"
+        },
+        "包围而来的旋风": {
+            "key": "quest_hall_the_swirling_gale"
+        },
+        "住在废神社附近的女性": {
+            "key": "quest_hall_woman_living_by_the_ruins"
+        },
+        "不好了！镰鼬龙王\n出现在废神社了……！\n我听说镰鼬龙王是种\n擅长和小弟合作的怪物。\n要是被它们包围了，\n不知道我跑得掉吗……\n拜托了，请去狩猎它！": {
+            "key": "quest_hall_for_crying_out_loud_i_moved_near_the\nshrine_ruins_because_it_was_a_nice\nand_quiet_neighborhood_now_theres\na_great_izuchi_and_its_little_gang_making\na_ruckus_i_tried_to_give_em_a_piece_of\nmy_mind_but_they_pulled_their_blades\non_me_hunter_please_get_rid_of_em"
+        },
+        "狩猎1头镰鼬龙王_2": {
+            "key": "quest_hall_hunt_a_great_izuchi_2"
+        },
+        "怪物美食家": {
+            "key": "quest_hall_divine_comedy"
+        },
+        "农场来的游商": {
+            "key": "quest_hall_agricultural_trader"
+        },
+        "真是的！伤脑筋！\n为什么偏偏是青熊兽\n和搔鸟在一起啊！？\n这样下去，不就运不了\n蜂蜜和蛋了吗！\n这村子里还有老主顾在啊。\n拜托了，请去打倒那两头怪物！": {
+            "key": "quest_hall_youre_kidding_me_whys_there\ngotta_be_an_arzuros_and_a\nkulu-ya-ku_on_my_route_when\nive_got_honey_and_eggs_to\ndeliver_is_this_some_kind_of\npunishment_from_the_gods"
+        },
+        "狩猎1头青熊兽和1头搔鸟": {
+            "key": "quest_hall_hunt_an_arzuros_and_a_kulu-ya-ku"
+        },
+        "冰天雪地打瞌睡": {
+            "key": "quest_hall_didnt_get_the_memo"
+        },
+        "辩解的猎人": {
+            "key": "quest_hall_overly_defensive_hunter"
+        },
+        "哎呀～头疼了。居然出现了\n两头眠狗龙王。两头……\n被夹击了很可怕啊。\n只对付一头的话，倒是很轻松。\n不不不，我没说谎！\n总之，就是这么回事……\n有人能替我去狩猎它们吗？": {
+            "key": "quest_hall_i_can_take_a_great_baggi_no_problemo\nbut_two_nobody_said_anything_about\ntwo_of_em_i_mean_maybe_if_i_had_like\na_heads_up_or_something_id_be_alright\nsomeone_should_have_told_me_what—\nits_written_in_the_quest_description\ncome_on_nobody_reads_that_stuff"
+        },
+        "狩猎2头眠狗龙王": {
+            "key": "quest_hall_hunt_2_great_baggi"
+        },
+        "伞鸟圆舞": {
+            "key": "quest_hall_dancing_a-purr-ition"
+        },
+        "被雨淋湿的艾露猫": {
+            "key": "quest_hall_rain-soaked_felyne"
+        },
+        "伞妖怪出现了喵——！！！\n我没说谎喵！是真的喵！\n它本来轻飘飘地浮在空中，\n却突然嗖一下向我这边\n飞了过来！我吓坏了，\n现在下雨天都不敢撑伞了喵！\n快来人去确认一下喵～！": {
+            "key": "quest_hall_help_hunter_i_just_saw_this_su-purr\ncreepy_umbrella_monster_i_tried_to\nget_close_to_see_if_it_was_real_or_if\ni_was_just_i-meow-gining_it_and_it\ntried_to_attack_me_ive_never_been\nmore_tra-mew-tized_in_all_my_nine\nlives_make_it_go_away"
+        },
+        "狩猎1头伞鸟_2": {
+            "key": "quest_hall_hunt_an_aknosom_2"
+        },
+        "相扑大赛・冰封群岛": {
+            "key": "quest_hall_the_frost_islands_arena"
+        },
+        "崭露头角的力士": {
+            "key": "quest_hall_up-and-coming_wrestler"
+        },
+        "我是修行中的相扑力士！\n听闻名叫河童蛙的怪物\n能使出武术般的强大技巧。\n我想要练习它的招式。\n希望你能替我\n去与之较量一番！": {
+            "key": "quest_hall_ohyeah_youre_going_nowhere\nive_got_you_for_fifty_minutesfifty\nminutes_of_huntin_time_heard_this\ntetranadon_was_out_there_talkin\nsmack_you_gonna_stand_there_and\ntake_that_or_are_ya_gonna_go_out\nthere_and_put_em_in_a_world_of_hurt"
+        },
+        "狩猎1头河童蛙_2": {
+            "key": "quest_hall_hunt_a_tetranadon_2"
+        },
+        "可爱的东西也有尖牙": {
+            "key": "quest_hall_even_cute_things_have_fangs"
+        },
+        "和艾露猫很要好的少女": {
+            "key": "quest_hall_felyne-loving_girl"
+        },
+        "我的艾露猫朋友吓坏了，\n因为出现了一只巨大的兔子。\n兔子明明很可爱呀，真是奇怪。\n猎人你也是这么想的吧。\n我想让艾露猫放下心来，\n所以麻烦你去看看状况吧。": {
+            "key": "quest_hall_i_have_this_felyne_friend_and\nshe_got_all_scared_about_some\nbig_fluffy_bunny_but_i_dont\nget_it_cause_bunnies_are\nsupposed_to_be_cute_can_you\ngo_check_it_out_so_shell\nstop_being_such_a_scaredy-cat"
+        },
+        "狩猎1头白兔兽_2": {
+            "key": "quest_hall_hunt_a_lagombi_2"
+        },
+        "身披剧毒锦缎": {
+            "key": "quest_hall_donning_toxicity"
+        },
+        "村里的染布匠人": {
+            "key": "quest_hall_village_dyer"
+        },
+        "其实，我遇到瓶颈了……\n要是能有什么刺激……\n对了，毒狗龙王的皮！\n我觉得它那鲜艳的颜色\n一定能用来作为染布的参考。\n好像正好有毒狗龙王在作乱，\n能麻烦你去狩猎那家伙吗？": {
+            "key": "quest_hall_ive_hit_a_bit_of_a_slump_and\nim_looking_for_something_to\nrekindle_my_creativity_hmm\naha_yes_a_great_wroggi_hide\nits_vivid_hues_make_for_great\ninspiration_and_there_just_so\nhappens_to_be_one_in_the_area"
+        },
+        "狩猎1头毒狗龙王_2": {
+            "key": "quest_hall_hunt_a_great_wroggi_2"
+        },
+        "某夜，狩猎奇怪龙": {
+            "key": "quest_hall_night_of_the_khezu"
+        },
+        "能说会道的男性": {
+            "key": "quest_hall_poetically_spoken_man"
+        },
+        "寒风中的我抖瑟瑟地夜钓，\n突然来了团扑簌簌的东西……\n没错，飞了下来的，是奇怪龙！\n在被黏滑滑的大嘴吃掉前，\n我利用滑溜溜的冰面逃跑了。\n坐视不管的话，受害范围眼睁睁\n就会扩大。麻烦你去狩猎啦。": {
+            "key": "quest_hall_i_was_out_fishing;_everything_dark\nand_gloomy_when_suddenly_down\nflew_a_khezu;_slimy_and_gooey\nhorrified_to_find_there_were_no_eyes\nthat_would_twinkle_only_a_blubbery\nneckveiny_and_wrinkled"
+        },
+        "狩猎1头奇怪龙_2": {
+            "key": "quest_hall_hunt_a_khezu_2"
+        },
+        "“守护通往兔团子的道路”之卷": {
+            "key": "quest_hall_dango_duty"
+        },
+        "茶点店店主艾草": {
+            "key": "quest_hall_yomogi_the_chef"
+        },
+        "听说冰封群岛出现了\n成群的镰鼬龙和眠狗龙！\n我拜托熟识的游商运送\n能做出美味兔团子的材料，\n但游商会经过那条路，好担心……\n为了保证游商的安全，\n三两下收拾掉它们吧！": {
+            "key": "quest_hall_i_heard_the_frost_islands_are_crawling\nwith_izuchi_and_baggi_my_ingredients\nsupplier_will_be_passing_through_there\nand_the_last_thing_i_want_is_for_them\nto_get_pounced_on_by_some_dumb\nmonsters_could_you_maybe_go_and\ncheck_it_out_pleeeeeeease"
+        },
+        "合计讨伐20头\n镰鼬龙和眠狗龙": {
+            "key": "quest_hall_slay_a_total_of_20_izuchi_or_baggi"
+        },
+        "“蛋团子争夺战！”之卷": {
+            "key": "quest_hall_totally_not_cool_kulu"
+        },
+        "茶点店店主艾草_2": {
+            "key": "quest_hall_yomogi_the_chef_2"
+        },
+        "听说喜欢蛋的搔鸟\n在四处徘徊！而且居然有两头！\n这样下去，新品兔团子用的蛋\n就要被抢走了～\n拜托了！请你想办法对付它们！\n在此期间，我会想办法拿蛋的。": {
+            "key": "quest_hall_a_pair_of_kulu-ya-ku_is_after\nthe_eggs_i_had_dibs_on_for\nmy_dango_no_fair_and\nrude_but_if_you_can_keep_them\noccupied_i_can_grab_the_eggs\nbefore_they_eat_em_youll\nhelp_me_out_right_right"
+        },
+        "狩猎2头搔鸟": {
+            "key": "quest_hall_hunt_2_kulu-ya-ku"
+        },
+        "掌握吧！单手剑之型": {
+            "key": "quest_hall_study_the_sword_&_shield"
+        },
+        "倪泰教官": {
+            "key": "quest_hall_master_utsushi"
+        },
+        "嘿，我的爱徒啊！\n伞鸟会利用巨大头冠\n发动灵敏的攻击。\n请你用更为灵活的方式应对\n那家伙的攻击！那样的话，\n应该就能够掌握全新招式，\n使用单手剑时会更加灵巧！": {
+            "key": "quest_hall_alright_ace_lesson_time\nan_aknosom_makes_clever_use\nof_its_big_crest_to_fight_right\nunderstand_how_to_maneuver\naround_these_kinds_of_attacks\nand_youll_learn_the_very\nessence_of_the_sword_&_shield"
+        },
+        "捕获1头伞鸟": {
+            "key": "quest_hall_capture_an_aknosom"
+        },
+        "报酬金额为零、时间耗尽，\n或讨伐了捕获目标": {
+            "key": "quest_hall_reward_hits_0_time_expires\nor_capture_target_slain"
+        },
+        "理解吧！狩猎笛之型": {
+            "key": "quest_hall_honing_your_hunting_horn"
+        },
+        "倪泰教官_2": {
+            "key": "quest_hall_master_utsushi_2"
+        },
+        "嘿，我的爱徒啊！\n一边倾听众神残存至今的气息，\n一边不断击退来袭的怪物吧！\n只要你和大自然演奏的音色\n共同狩猎，应该就能习得\n进一步提升狩猎笛技巧的诀窍！": {
+            "key": "quest_hall_alright_ace_lesson_time\nharmonize_with_the_sounds_of\nnature_as_you_serenade_these\nmonster_to_permanent_sleep\nand_youre_sure_to_find_a_new\ntune_for_the_hunting_horn"
+        },
+        "变幻吧！剑斧之型": {
+            "key": "quest_hall_study_the_switch_axe"
+        },
+        "嘿，我的爱徒啊！\n白兔兽和奇怪龙……\n同样拥有白色的身体，\n但两者的生态截然不同。\n只要在它们一起来袭时灵活应对\n并将之狩猎，就能更深入地理解\n斩斧的变形了！": {
+            "key": "quest_hall_alright_ace_lesson_time\nthe_lagombi_and_the_khezu_may\nboth_be_white_but_thats_where\ntheir_similarities_end_if_you\ncan_take_on_this_contrasting\npair_at_once_youll_discover\nthe_essence_of_the_switch_axe"
+        },
+        "狩猎1头白兔兽和1头奇怪龙": {
+            "key": "quest_hall_hunt_a_lagombi_and_a_khezu"
+        },
+        "学习吧！轻弩之型": {
+            "key": "quest_hall_learning_the_light_bowgun"
+        },
+        "嘿，我的爱徒啊！\n要获得使用轻弩炮的新技术，\n学学眠狗龙王\n和毒狗龙王最为合适。\n它们轻快的动作\n与直取要害的狡猾攻击，\n最适合用作游击战的参考了！": {
+            "key": "quest_hall_alright_ace_lesson_time\nthe_path_to_light_bowgun_mastery\nis_paved_by_the_great_baggi_and\nthe_great_wroggi_their_sly_and\nagile_combat_is_full_of_potential\nfor_new_hit_and_run_tactics_for\nthis_weapon"
+        },
+        "狩猎1头眠狗龙王和1头毒狗龙王": {
+            "key": "quest_hall_hunt_a_great_baggi_and_a_great_wroggi"
+        },
+        "慎重派与冲锋派": {
+            "key": "quest_hall_lost_and_found"
+        },
+        "跑完腿回家的少年": {
+            "key": "quest_hall_boy_running_errands"
+        },
+        "我跑完腿回家的路上\n经过了废神社，然后好像\n把钱包掉在什么地方了。\n我想回去找，但有很多怪物\n跑了出来，根本去不了。\n妈妈知道了一定会训斥我的……！\n猎人，帮我去击退怪物吧！": {
+            "key": "quest_hall_oh_man_on_my_way_home\ni_dropped_my_wallet_somewhere\nnear_the_ruins_my_moms_gonna\nbe_so_mad_if_i_dont_bring_it_back\nbut_therere_too_many_monsters\naround_there_to_go_look_for_it\nplease_help_me_hunter"
+        },
+        "合计讨伐20头\n贼龙和野猪": {
+            "key": "quest_hall_slay_a_total_of_20_jagras_or_bullfango"
+        },
+        "圆滚滚的可爱青熊兽": {
+            "key": "quest_hall_blue_round_and_cute"
+        },
+        "异想天开的研究者": {
+            "key": "quest_hall_whimsical_researcher"
+        },
+        "我说！你喜欢青熊兽吗！？\n它那胖嘟嘟的模样！\n还有青熊兽这一称呼的缘由，\n那身美丽的柔软毛皮！！\n啊！好想抱住它的肚皮……！\n……所以，麻烦你捕获它。\n哈哈，要抱住它当然是开玩笑的。": {
+            "key": "quest_hall_you_there_tell_me_dont_you\nthink_arzuros_are_the_cutest\nfuzzy_blue_fur_a_soft_tubby\nbelly;_what_i_wouldnt_give_to\nhug_em_sooo_can_you_capture\none_for_m—_whaddya_mean\n\"only_if_i_promise_not_to_hug_it\""
+        },
+        "捕获1头青熊兽": {
+            "key": "quest_hall_capture_an_arzuros"
+        },
+        "报酬金额为零、时间耗尽，\n或讨伐了捕获目标_2": {
+            "key": "quest_hall_reward_hits_0_time_expires\nor_capture_target_slain_2"
+        },
+        "沙原的探索之旅_2": {
+            "key": "quest_hall_a_tour_of_the_plains_2"
+        },
+        "噢～<PL>！\n如果你想自由探索沙原，\n就接下这个任务呱。\n没有时间限制，\n力尽倒下多少次都没问题呱！\n等探索得心满意足了，\n就随时从菜单画面返回呱！_2": {
+            "key": "quest_hall_ah_<pl>_fancy_a\nleisurely_exploration_of_the\nsandy_plains_johoho_heres\na_quest_with_no_limits_on_time\nor_reprise_and_you_can_leave\nvia_the_menu_screen_whenever\nyoud_like_to_bon_voyage_2"
+        },
+        "探索沙原（上位）": {
+            "key": "quest_hall_explore_the_sandy_plains_high_rank"
+        },
+        "水没林的探索之旅_2": {
+            "key": "quest_hall_a_tour_of_the_forest_2"
+        },
+        "噢～<PL>！\n如果你想自由探索水没林，\n就接下这个任务呱。\n没有时间限制，\n力尽倒下多少次都没问题呱！\n等探索得心满意足了，\n就随时从菜单画面返回呱！_2": {
+            "key": "quest_hall_ah_<pl>_fancy_a\nleisurely_exploration_of_the\nflooded_forest_johoho_heres\na_quest_with_no_limits_on_time\nor_reprise_and_you_can_leave\nvia_the_menu_screen_whenever\nyoud_like_to_bon_voyage_2"
+        },
+        "探索水没林（上位）": {
+            "key": "quest_hall_explore_the_flooded_forest_high_rank"
+        },
+        "沼中危影": {
+            "key": "quest_hall_the_restless_swamp"
+        },
+        "噢～<PL>。\n泥鱼龙正在水没林作乱呱。\n似乎有公会调查员在水没林，\n现在下落不明呱。\n搜查队会去寻找调查员，\n请你去狩猎泥鱼龙呱～！": {
+            "key": "quest_hall_one_of_our_scouts_tracking\na_jyuratodus_has_gone_missing\nin_the_flooded_forest_if_you\nwould_hunt_the_beast_so_that\nit_is_safe_enough_to_dispatch\na_search_party_it_would_be_much\nappreciated_now_hop_to_it-to_it"
+        },
+        "狩猎1头泥鱼龙": {
+            "key": "quest_hall_hunt_a_jyuratodus"
+        },
+        "与水共存之物": {
+            "key": "quest_hall_foul_play_in_the_forest"
+        },
+        "老字号小饭店的老板娘": {
+            "key": "quest_hall_restaurant_owner"
+        },
+        "我去水没林准备打些\n做菜用的清水，但那附近\n被水兽给霸占了。\n这样下去，店里引以为傲的\n菜品的味道就要变差了……！\n请去狩猎水兽吧。": {
+            "key": "quest_hall_hey_listen_here_dont_go_tellin_people\nwhat_im_about_to_tell_you_capiche\nsome_of_our_\"special_ingredients\"_come\nfrom_the_flooded_forest_but_now_some\nrivals_are_tryin_to_move_in_on_our_turf\nthis_is_not_good_for_business_and\nwe_cant_have_that_can_we"
+        },
+        "狩猎1头水兽_2": {
+            "key": "quest_hall_hunt_a_royal_ludroth_2"
+        },
+        "在泥沼中跌倒也要爬起来": {
+            "key": "quest_hall_rise_above_the_mud"
+        },
+        "好强的猎人": {
+            "key": "quest_hall_determined_hunter"
+        },
+        "啊啊啊！！！真不甘心——！\n可恶！我差一点就能把土砂龙\n逼上绝境了！结果却不小心\n陷进泥里，被它直接撞倒在地！\n下次绝对要狩猎它……！\n可是……现在我动弹不得……\n虽然不甘心，就麻烦你去狩猎了！": {
+            "key": "quest_hall_aaaargh_i_was_so_close_*sigh*\nright_as_i_was_about_to_land_the_final\nblow_on_a_barroth_my_feet_got_stuck\nin_some_mud_not_only_did_it_proceed\nto_stomp_the_crap_out_of_me_but_then\nit_got_away_once_im_better—*ouch*\nim_gonna_go_and_finish_what_i_started"
+        },
+        "狩猎1头土砂龙_2": {
+            "key": "quest_hall_hunt_a_barroth_2"
+        },
+        "请小心沙原的魔球": {
+            "key": "quest_hall_bowled_over"
+        },
+        "唉……真是太不走运了……\n我被两头赤甲兽四处追赶，\n仓皇逃窜，好不容易弄到手的\n新鲜食材都糟蹋了……\n我可不想变成食材那样，\n请你去狩猎它们……": {
+            "key": "quest_hall_man_i_cannot_catch_a_break_i_was_making\nmy_way_through_the_plains_when_i_started\nhearing_this_*boingy*_*boingy*_*boingy*\nnoise_then_suddenly_two_volvidon_appear\nout_of_nowhere_and_roll_over_my_cart_to_make\nmatters_worse_any_produce_that_didnt_get\nsquashed_was_covered_in_their_nasty_spit"
+        },
+        "狩猎2头赤甲兽": {
+            "key": "quest_hall_hunt_2_volvidon"
+        },
+        "一柿入魂": {
+            "key": "quest_hall_rotten_fruit"
+        },
+        "天真无邪的艾露猫": {
+            "key": "quest_hall_innocent_felyne"
+        },
+        "天狗兽扔柿子过来了，\n我还以为是它给我的礼物喵。\n但那柿子又发光又让我麻痹，\n尽是些怪柿子。\n我已经受够了喵。\n它可真是个坏东西喵……\n猎人，麻烦你去击退它喵。": {
+            "key": "quest_hall_it_was_my_fur-st_time_seeing_a_bishaten\nup_close_it_looked_so_playful_and_fur-\niendly_it_even_started_throwing_fruit_to\nme_i_thought_they_were_purr-esents\nbut_one_of_them_blinded_me_with_a_flash\nand_the_other_zapped_my_tail_what\na_meanie_go_teach_it_a_lesson_fur_me"
+        },
+        "狩猎1头天狗兽_2": {
+            "key": "quest_hall_hunt_a_bishaten_2"
+        },
+        "其能成为营养亦可化作剧毒": {
+            "key": "quest_hall_go_away_pukei"
+        },
+        "饥肠辘辘的女性": {
+            "key": "quest_hall_hungry_woman"
+        },
+        "我想要采集树果，\n却被毒妖鸟抢先一步吃掉了。\n一个也没给我留下，太过分了！\n这样下去，其他食物也会有危险。\n猎人，去击退它吧。\n食物引发的怨恨是很可怕的！": {
+            "key": "quest_hall_i_am_absolutely_fuming_right_now\ni_spent_months_months_breaking\nmy_back_to_have_a_good_harvest_this\nyear_and_it_takes_only_one_day_for\nthat_googly-eyed_monster_to_wipe\nout_all_my_crops_think_you_can\ngo_harvest_its_hide_for_me"
+        },
+        "狩猎1头毒妖鸟_2": {
+            "key": "quest_hall_hunt_a_pukei-pukei_2"
+        },
+        "滴水穿岩": {
+            "key": "quest_hall_miner_problem"
+        },
+        "熟练的采掘者": {
+            "key": "quest_hall_veteran_miner"
+        },
+        "最近，我那儿的年轻人\n被背后袭击，受了伤回来。\n那大概，是岩龙干的啊……\n就算再谨慎，人也是有极限的。\n所以我来委托你去狩猎。\n这是只有猎人才能完成的工作，\n拜托你了。": {
+            "key": "quest_hall_had_a_new_guy_on_the_team_get_pretty\nmessed_up_by_a_basarios_he_came\nacross_a_boulder_juttin_up_out_of_the\nground_and_thought_he_hit_the_jackpot\npoor_kid_didnt_know_what_he_was\ndoing_when_he_planted_a_pickaxe\nsquare_in_the_monsters_rocky_rear"
+        },
+        "狩猎1头岩龙_2": {
+            "key": "quest_hall_hunt_a_basarios_2"
+        },
+        "为女王所吸引": {
+            "key": "quest_hall_charmed_by_a_queen"
+        },
+        "鲁莽的画师": {
+            "key": "quest_hall_reckless_artist"
+        },
+        "废神社出现了雌火龙！\n身为画师，我非常想将它画下来，\n但我希望画面可以有跃动感！\n所以呢，猎人啊。\n能请你去狩猎它吗？\n放心吧，我会躲在暗处，\n把它的英姿好好画下来的！": {
+            "key": "quest_hall_hunter_hunter_hunter_we_must\ngo_at_once_as_we_speak_the_queen\nherself_is_gracing_the_shrine_ruins\ni_must_capture_her_majesty_in_all_its\nglory_but_i_hear_rathian_are_rather\ndifficult_to_work_with_perhaps_you\ncan_assist_me"
+        },
+        "狩猎1头雌火龙_2": {
+            "key": "quest_hall_hunt_a_rathian_2"
+        },
+        "看清吧！大剑之型": {
+            "key": "quest_hall_grasp_the_great_sword"
+        },
+        "嘿，我的爱徒啊！\n天狗兽会用独特的动作玩弄敌人，\n看准破绽对其发动痛击！\n你要看清它的攻击，\n将其克服。这样一来，\n应该就能在大剑技巧中\n创造出崭新的可能性！": {
+            "key": "quest_hall_alright_ace_lesson_time\nthe_bishaten_may_move_and\nattack_in_its_own_unique_way\nbut_when_it_hits_big_it_hits_big\nsee_for_yourself_what_i_mean\nand_youll_definitely_find_new\nways_to_swing_a_great_sword"
+        },
+        "狩猎2头天狗兽": {
+            "key": "quest_hall_hunt_2_bishaten"
+        },
+        "用身体记住吧！大锤之型": {
+            "key": "quest_hall_honing_your_hammer"
+        },
+        "嘿，我的爱徒啊！\n持大锤闪转腾挪时的“柔”，\n与猛然挥出一击时的“刚”！\n二者之精髓就在于\n动作丰富多彩的毒妖鸟\n与拥有坚硬头壳的土砂龙！\n为作参考，狩猎它们吧！": {
+            "key": "quest_hall_alright_ace_lesson_time\nthe_secret_to_hammer—_well\nlets_not_kid_ourselves_here\nhammer_equals_thrashing_and\npummeling_your_target_go_hunt\nthis_pukei-pukei_and_barroth_and\nyoull_know_exactly_what_i_mean"
+        },
+        "狩猎1头毒妖鸟和1头土砂龙": {
+            "key": "quest_hall_hunt_a_pukei-pukei_and_a_barroth"
+        },
+        "领会吧！长枪之型": {
+            "key": "quest_hall_learn_the_lance"
+        },
+        "嘿，我的爱徒啊！\n所谓长枪，似乎是守护弱者、\n击退强敌的骑士爱用的武器。\n骑士之心，正如从恶徒手中\n守护其子的雌火龙！\n只要能捕获它，\n说不定就能学会新的技术！": {
+            "key": "quest_hall_alright_ace_lesson_time\na_knight_wields_their_lance_to\nprotect_the_weak—just_like_a\nrathian_fiercely_protects_her\nyoung_capture_the_queen\nand_youll_acquire_some_new\nskills_for_your_lance"
+        },
+        "捕获1头雌火龙": {
+            "key": "quest_hall_capture_a_rathian"
+        },
+        "融为一体吧！盾斧之型": {
+            "key": "quest_hall_charge_blade_coalescing"
+        },
+        "嘿，我的爱徒啊！\n剑盾合体，发挥出\n更加强大力量的盾斧……\n为习得新技巧，能令水还有泥\n与自身融为一体并发挥其力量的\n水兽和泥鱼龙最适合作为参考了。\n你就去狩猎它们吧！": {
+            "key": "quest_hall_alright_ace_lesson_time\nlike_the_royal_ludroth_and_jyuratodus\nyoull_need_to_be_in_water—wait_no\nyoull_need_to_be_\"as_water\"_meaning\nyoull_have_to_be_flexible_according_to_the\nsituation_understanding_this_is_the_key\nto_unlocking_the_charge_blades_potential"
+        },
+        "击穿吧！重弩之型": {
+            "key": "quest_hall_hone_your_heavy_bowgun"
+        },
+        "嘿，我的爱徒啊！\n如岩龙般不动如山，\n如赤甲兽般豪迈击穿！\n架好炮口，\n释放出猛烈火力的重弩炮，\n若能参考它们的战斗方式，\n应该就能学会新的技术！": {
+            "key": "quest_hall_alright_ace_lesson_time\nstrategically_strike_from_a_distance\nlike_the_volvidon_or_get_up_close_and\npersonal_like_a_basarios_add_their\nfighting_styles_to_the_long-range\nhigh-powered_heavy_bowgun_and\nyou_should_learn_something_new"
+        },
+        "狩猎1头岩龙和1头赤甲兽": {
+            "key": "quest_hall_hunt_a_basarios_and_a_volvidon"
+        },
+        "最近成为话题的坚硬家伙": {
+            "key": "quest_hall_bad_review"
+        },
+        "喜欢传闻的妇人_2": {
+            "key": "quest_hall_gossiping_lady_2"
+        },
+        "我说！你知道吗？\n最近，沙原的小型怪物\n好像变多了。\n而且啊，还净是些硬邦邦的，\n还会冲锋的家伙！真讨厌哪～\n去吧，轮到你出场了，猎人！": {
+            "key": "quest_hall_i_just_got_done_talking_to_my_best\nfriend_and_her_neighbors_daughter\nhad_the_worst_experience_out\nin_the_sandy_plains_apparently\nthe_locals_were_extremely_rude\nand_wouldnt_stop_butting_in_to\nher_business_the_nerve"
+        },
+        "合计讨伐20头\n硬甲龙和冠突龙": {
+            "key": "quest_hall_slay_a_total_of_20_rhenoplos_or_kestodon"
+        },
+        "水没林的扰人群体": {
+            "key": "quest_hall_flooded_forest_fiasco"
+        },
+        "满眼含泪的少年": {
+            "key": "quest_hall_teary-eyed_boy"
+        },
+        "难得我和爸爸约好了要去钓鱼，\n水生兽和毒狗龙却突然出现，\n害得钓鱼计划整个泡汤了。\n我一直都很期待的……\n拜托了，\n请你去收拾掉怪物们。": {
+            "key": "quest_hall_*sniff*_papa_promised_wed_go\nfishin_cuz_i_was_a_good_boy_i_did\nall_my_chores_brushed_my_teeth\neven_cleaned_my_room_but_now\nwe_cant_*sniff*_because_*sniff*\na_bunch_of_dumb_monsters_*sob*\nits_not_fair_*sniff*"
+        },
+        "合计讨伐20头\n水生兽和毒狗龙": {
+            "key": "quest_hall_slay_a_total_of_20_ludroth_or_wroggi"
+        },
+        "吞噬寒地之影": {
+            "key": "quest_hall_shadows_over_the_frost"
+        },
+        "游商的代表": {
+            "key": "quest_hall_traders_representative"
+        },
+        "经过冰封群岛的游商\n过了预定时间都没有回来。\n恐怕是被怪物袭击了。\n向猎人请求紧急支援。\n确认到狩猎怪物后，\n我们会立即派出救援队\n去营救游商。": {
+            "key": "quest_hall_it_has_come_to_the_boards_attention_that_one\nof_our_members_has_not_returned_from_the\nfrost_islands_we_have_to_assume_that_the\ntrader_must_have_been_attacked_thus_we_are\nrequiring_the_assistance_of_a_hunter_we_will\nsend_out_a_rescue_team_or_cleap-up_crew\nonce_you_have_completed_your_task"
+        },
+        "狩猎1头奇怪龙和1头河童蛙": {
+            "key": "quest_hall_hunt_a_khezu_and_a_tetranadon"
+        },
+        "熔岩洞的探索之旅_2": {
+            "key": "quest_hall_a_tour_of_the_caverns_2"
+        },
+        "噢～<PL>！\n如果你想自由探索熔岩洞，\n就接下这个任务呱。\n没有时间限制，\n力尽倒下多少次都没问题呱！\n等探索得心满意足了，\n就随时从菜单画面返回呱！_2": {
+            "key": "quest_hall_ah_<pl>_fancy_a\nleisurely_exploration_of_the\nlava_caverns_johoho_heres\na_quest_with_no_limits_on_time\nor_reprise_and_you_can_leave\nvia_the_menu_screen_whenever\nyoud_like_to_bon_voyage_2"
+        },
+        "探索熔岩洞（上位）": {
+            "key": "quest_hall_explore_the_lava_caverns_high_rank"
+        },
+        "妖艳之舞": {
+            "key": "quest_hall_a_bewitching_dance"
+        },
+        "噢～<PL>！\n泡狐龙在大闹废神社，\n状况很不妙呱。它性格温顺，\n我们本来还准备静观其变呱，\n为什么突然之间……\n……公会正在调查原因，\n狩猎就交给你了呱。": {
+            "key": "quest_hall_ah_<pl>\na_mizutsune_has_become_quite\naggressive_in_the_shrine_ruins\ntheyre_normally_not_like_this—\nwhat_could_have_caused_it_to_go\nhopping_mad_well_investigate\nwhile_you_take_care_of_it"
+        },
+        "狩猎1头泡狐龙_2": {
+            "key": "quest_hall_hunt_a_mizutsune_2"
+        },
+        "风神": {
+            "key": "quest_hall_serpent_god_of_wind"
+        },
+        "<PL>啊。\n百龙夜行逼近……呱。\n在背后驱赶它们的是风神龙……\n那是灾祸的罪魁祸首呱。\n村民们会把风神龙给逼出来的，\n你就在要塞中严阵以待呱。\n……那就拜托你了。": {
+            "key": "quest_hall_<pl>_the_rampage\napproaches_roused_by_the_wind\nserpent_our_village_defenders_will\ntarget_ibushi_and_lure_it_out_to_the\nstronghold_where_youll_be_waiting\nand_then_its_all_up_to_you_johoho\nwere_counting_on_you_now"
+        },
+        "击退1头风神龙": {
+            "key": "quest_hall_repel_ibushi"
+        },
+        "山河一闪，雷鸣响彻": {
+            "key": "quest_hall_skies_flash_clouds_boom"
+        },
+        "平静不下来的艾露猫": {
+            "key": "quest_hall_jittery_felyne"
+        },
+        "我在寂静的森林中散步，\n突然降下了轰雷喵！\n放出落雷的是雷狼龙喵……！\n我都快吓死了，\n胡须一直在颤抖喵——！\n不能放着那家伙不管喵。\n请你想办法打倒它喵。": {
+            "key": "quest_hall_eep_wh-what_was_that\ndont_sneak_up_on_me_hunter\ni-ive_been_on_edge_ever_since\na_zinogre_j-jumped_out_on_me\nbrrmy_furs_still_on_end_from\nthe_feara-and_static_could\ny-you_help_me-me-meow-t"
+        },
+        "狩猎1头雷狼龙_2": {
+            "key": "quest_hall_hunt_a_zinogre_2"
+        },
+        "邀往冥府的歌声": {
+            "key": "quest_hall_a_somniferous_elegy"
+        },
+        "旅店的主人": {
+            "key": "quest_hall_inn_keeper"
+        },
+        "旅客们被人鱼龙袭击，\n好不容易才死里逃生。\n尽管他们雇用了保镖，\n但身手再强，睡着了也无济于事。\n根本就是束手无策啊。\n这样下去会影响店里生意的，\n因此我发出了狩猎委托。": {
+            "key": "quest_hall_had_a_group_of_travelers_come_in\nlast_night_fleeing_a_somnacanth\ndang_monster_must_have_got_em\ngood_because_theyre_still_sleepin\ni_cant_have_guests_stayin_past\ncheck_out_time_hunter_can_ya\ngo_do_something_bout_that_thing"
+        },
+        "狩猎1头人鱼龙_2": {
+            "key": "quest_hall_hunt_a_somnacanth_2"
+        },
+        "打磨琥珀色的牙": {
+            "key": "quest_hall_sharpening_amber_fangs"
+        },
+        "等待恋人的女性": {
+            "key": "quest_hall_waiting_woman"
+        },
+        "啊，请一定要帮帮我。\n我的恋人在来见我的路上\n会经过冰牙龙出没的冰封群岛。\n这样下去，他会遇到危险……！\n他都跟我约好了，\n要一起为我庆祝生日……\n请你去狩猎冰牙龙吧。": {
+            "key": "quest_hall_my_boyfriends_on_his_way_here_for_my\nbirthday_oh_thank_you_anyway_hell\nbe_passing_through_the_frost_islands_to\nget_here_and_i_just_heard_that_a_barioth\nhas_been_spotted_hunter_i_didnt_get_all\ndolled_up_for_nothing_you_gotta_get_rid_of\nit_so_he_and_his_presents_arrive_safely"
+        },
+        "狩猎1头冰牙龙_2": {
+            "key": "quest_hall_hunt_a_barioth_2"
+        },
+        "飞跃头顶的威胁": {
+            "key": "quest_hall_skies_are_gray"
+        },
+        "神采奕奕的钓客": {
+            "key": "quest_hall_energetic_fisherwoman"
+        },
+        "我在水边钓鱼，\n天突然阴了，还以为要下雨，\n没想到紧接着飞雷龙就嗖地一下\n从我头顶飞了过去，吓死我了！\n我拼了命地拿着钓到的鱼逃掉了。\n不过，游商也会经过那条路，\n非常危险，麻烦你去打倒它。": {
+            "key": "quest_hall_when_the_skies_cloud_over_ya_think\ntheres_rain_on_the_way_dontcha\nwell_this_time_it_werent_no_storm\nit_was_a_dang_tobi-kadachi_cant_do\nno_fishin_when_youre_gettin_zapped\nin_the_rear_every_other_minute_i_want\nthat_varmint_gone_ya_hear_me"
+        },
+        "狩猎1头飞雷龙_2": {
+            "key": "quest_hall_hunt_a_tobi-kadachi_2"
+        },
+        "穷追猛打蛮颚龙": {
+            "key": "quest_hall_closer_than_it_appears"
+        },
+        "吓到腿软的搬运工": {
+            "key": "quest_hall_terrified_courier"
+        },
+        "我发觉搬的货好像变轻了，\n就回过头去看了看。\n结果，是蛮颚龙一边啃食货物\n一边追过来了！唉，我一发现\n就惊叫起来，都不知道那之后\n自己是怎么逃掉的了……\n请你快点去狩猎它。": {
+            "key": "quest_hall_i_was_en_route_to_do_some_business\nwhen_i_started_hearing_this_stomping\nnoise_behind_me_it_was_faint_at_first\nbut_then_started_getting_louder_and\nlouder_i_turn_around_and_theres_an\nanjanath_right_behind_me_ive_never\nscreamed_and_run_so_hard_in_my_life"
+        },
+        "狩猎1头蛮颚龙_2": {
+            "key": "quest_hall_hunt_an_anjanath_2"
+        },
+        "赤红双眸，斩断暗夜": {
+            "key": "quest_hall_the_abyss_stares_back"
+        },
+        "因恐惧而颤抖的猎人": {
+            "key": "quest_hall_shaken_hunter"
+        },
+        "仿佛撕裂了黑暗的红光\n逼近我面前，之后……\n我和伙伴们转眼之间\n就被击倒在地。\n每当夜幕降临，那时的光景就会\n浮现在脑海中，令我止不住颤抖。\n拜托了，打倒那家伙吧。": {
+            "key": "quest_hall_i_still_see_it_even_now_when_i_close\nmy_eyes_a_moving_void_the_darkest\ndark_you_could_ever_imagine_you\ndont_even_know_its_there_until_its\ntoo_late_from_the_abyss_of_night\ntwo_streaks_of_red_surge_towards_you\nbefore_you_can_even_react_it_has_you"
+        },
+        "狩猎1头迅龙_2": {
+            "key": "quest_hall_hunt_a_nargacuga_2"
+        },
+        "绽放于天际的红莲": {
+            "key": "quest_hall_red_skies_at_night"
+        },
+        "时髦的烟花匠人": {
+            "key": "quest_hall_chic_firework-maker"
+        },
+        "我看见了！\n美丽的烟花升上熔岩洞的夜空，\n周围仿佛在一瞬间化为了白昼。\n如果那是怪物做的，\n那它应该很擅长操纵火焰吧。\n麻烦你去确认它的真面目。": {
+            "key": "quest_hall_i_saw_it_one_night:_a_stunning\nfirework_rising_up_above_the\ncaverns_so_bright_the_night\nlooked_like_day_if_that_was\nthe_doing_of_a_monster_its\ngot_to_be_a_pro_at_using_fire\ni_need_to_know_what_it_was"
+        },
+        "狩猎1头火龙_2": {
+            "key": "quest_hall_hunt_a_rathalos_2"
+        },
+        "“赛跑泥巴大骚动！”之卷": {
+            "key": "quest_hall_do_it_for_the_dango"
+        },
+        "为了钓到让兔团子变美味的鱼，\n我去了水没林！\n森林里很嘈杂，不太对劲，\n而且还有泥巴在飞，\n这哪还顾得上钓鱼啊——！\n麻烦你去好好教训一下\n调皮的怪物们！": {
+            "key": "quest_hall_grrrr_stupid_monsters_everywhere\nwhy_wont_they_leave_me_alone_i_go\nto_one_fishing_spot—monster_i_go_to\na_different_spot—another_monster\nwhy_are_they_so_rude_can_you_go_let\nthose_meanies_know_just_how_mad_i_am"
+        },
+        "狩猎1头迅龙和1头泥鱼龙": {
+            "key": "quest_hall_hunt_a_nargacuga_and_a_jyuratodus"
+        },
+        "磨砺吧！太刀之型": {
+            "key": "quest_hall_learn_the_long_sword"
+        },
+        "嘿，我的爱徒啊。\n太刀的基础，就是经过磨砺的\n行云流水般的斩击与回避。\n雷狼龙威风凛凛的举止\n与泡狐龙轻盈优美的体态……\n岂有不用在太刀上的道理！\n这下定能创造出新的技巧！": {
+            "key": "quest_hall_alright_ace_lesson_time\nsharp_flowing_strikes_are_the\nsoul_of_long_sword_combat_the\nfearlessness_of_a_zinogre_and\nthe_elegance_of_a_mizutsune\ncombined_are_just_the_thing\nyoull_need_to_master_em"
+        },
+        "狩猎1头雷狼龙和1头泡狐龙": {
+            "key": "quest_hall_hunt_a_zinogre_and_a_mizutsune"
+        },
+        "撕裂吧！双剑之型": {
+            "key": "quest_hall_dissect_the_dual_blades"
+        },
+        "嘿，我的爱徒啊。\n要承受蛮颚龙与雌火龙\n这两头怪物怒涛般的攻击，\n想必绝非易事。\n但毕竟是你，一定能通过考验，\n领悟双剑的新技巧！我相信你！": {
+            "key": "quest_hall_alright_ace_lesson_time\nfending_off_an_anjanath_and_a\nrathian_at_the_same_time_may\nsound_crazy_but_its_just_the\nchallenge_for_any_hunter_whos\nlooking_to_develop_their\ndual_blade_technique"
+        },
+        "狩猎1头蛮颚龙和1头雌火龙": {
+            "key": "quest_hall_hunt_an_anjanath_and_a_rathian"
+        },
+        "磨炼吧！铳枪之型": {
+            "key": "quest_hall_grasp_the_gunlance"
+        },
+        "嘿，我的爱徒啊。\n只有将铳枪丰富多彩的招式\n冷静地组合在一起，\n才能发挥这把武器真正的价值！\n冰牙龙冷静的战斗方式，\n定能为铳枪带来新的可能性。\n捕获并进行观察吧！": {
+            "key": "quest_hall_alright_ace_lesson_time\ngetting_in_your_targets_face\nand_remaining_calm_is_the_key\nto_unleashing_the_true_potential\nof_the_gunlance_and_no_monster\nteaches_\"in-your-face\"_better\nthan_the_barioth"
+        },
+        "捕获1头冰牙龙": {
+            "key": "quest_hall_capture_a_barioth"
+        },
+        "修炼吧！操虫棍之型": {
+            "key": "quest_hall_invoke_the_insect_glaive"
+        },
+        "嘿，我的爱徒啊。\n如起舞般华丽来袭的\n人鱼龙和伞鸟这两头怪物的动作，\n可谓在空中轻盈起舞、\n利落斩杀敌人的操虫棍\n再合适不过的示范了！\n狩猎它们当做参考吧！": {
+            "key": "quest_hall_alright_ace_lesson_time\nswift_graceful_dance-like:\nthat_sounds_like_the_attacks\nof_a_somnacanth_an_aknosom\nand_an_insect_glaive_right\ntry_combining_the_three_and\nsee_what_you_end_up_learning"
+        },
+        "狩猎1头人鱼龙和1头伞鸟": {
+            "key": "quest_hall_hunt_a_somnacanth_and_an_aknosom"
+        },
+        "锻炼吧！弓之型": {
+            "key": "quest_hall_be_one_with_the_bow"
+        },
+        "嘿，我的爱徒啊。\n飞雷龙轻盈的动作\n与来自空中的强力滑翔攻击……\n从中能感觉到和弓的蓄力动作，\n还有瞄准射箭间的共同点。\n若能同时狩猎两头这种怪物，\n应该就能发现新的可能性！": {
+            "key": "quest_hall_alright_ace_lesson_time\nspeed_agility_and_positioning\nare_the_signatures_of_the_tobi-\nkadachi_have_you_ever_noticed\nhow_similar_they_are_to_the_bow\nwell_now_you_know_go_see_it\nfor_yourself"
+        },
+        "狩猎2头飞雷龙": {
+            "key": "quest_hall_hunt_2_tobi-kadachi"
+        },
+        "熔岩洞扫荡战": {
+            "key": "quest_hall_the_lava_caverns_sweep"
+        },
+        "穿着华丽的少年_2": {
+            "key": "quest_hall_well-dressed_youth_2"
+        },
+        "熔岩洞出现了大量怪物。\n仅靠我的护卫可应付不过来。\n因为一些缘由，我无论如何\n都要穿过熔岩洞去某个地方……\n若对自己的身手有自信，\n希望你能去狩猎怪物。": {
+            "key": "quest_hall_a_great_horde_of_monsters_has\ngathered_in_the_lava_caverns\nbut_i_must_pass_through_my\nguards_and_i_cannot_defeat\nthem_i_know_this—but_i_also\nknow_that_a_hunter_as_skilled\nas_you_can_will_you_help_us"
+        },
+        "合计讨伐20头\n熔岩兽和臣蜘蛛": {
+            "key": "quest_hall_slay_a_total_of_20_uroktor_or_rachnoid"
+        },
+        "英雄豪杰": {
+            "key": "quest_hall_showdown_in_the_arena"
+        },
+        "热情奔放的主持人": {
+            "key": "quest_hall_rowdy_showman"
+        },
+        "在场的各位，瞧好嘞！\n蛮颚龙，泡狐龙，雷狼龙，\n闪亮登场！狞猛，狡猾，\n狂暴的凶兽们齐聚一堂。\n要挑战它们的，是怎样的强者呢！\n走过路过别错过，快来瞧瞧啊！": {
+            "key": "quest_hall_gather_round_gather_round_today\nwe_have_a_show_packed_with_fur_and\nfury_anjanath_mizutsune_zinogre\nsparks_will_fly_fire_will_burn_bubbles—\nd-does_that_say_bubbles_it_does_uh\nok_bubbles_will_um_bubble_who_dares\nchallenge_this_trifecta_of_trepidation"
+        },
+        "吹火贵妇": {
+            "key": "quest_hall_cant_kill_it_with_fire"
+        },
+        "噢～<PL>！\n哎呀哎呀，真是怪了呱。\n只在特定地区有过目击情报的\n妃蜘蛛，突然出现在熔岩洞，\n大闹起来……麻烦你去狩猎它呱。\n……水芸的样子也不太对劲，\n好担心呱……": {
+            "key": "quest_hall_rakna-kadaki_inhabit_a_select_few\nregions_and_yet_one_has_just_been\nsighted_in_the_lava_caverns_i_just\ndont_get_it-get_it_all_of_this_strange\nactivity_around_the_region_and_now\nminoto_is_acting_strange_as_well"
+        },
+        "狩猎1只妃蜘蛛": {
+            "key": "quest_hall_hunt_a_rakna-kadaki"
+        },
+        "雷神": {
+            "key": "quest_hall_serpent_goddess_of_thunder"
+        },
+        "雷神龙……\n风神龙的另一半……\n若能将之讨伐，\n定能断绝灾祸。\n炎火村的希望啊……\n家人们在等待你的凯旋。\n那么……你去吧，呱。": {
+            "key": "quest_hall_at_last_the_chance_to_end_this\nmiserable_calamity_is_at_hand\nyou_must_defeat_thunder_serpent\nnarwa_once_and_for_all_hunter\nof_kamura_go_and_be_victorious\ni_and_the_rest_of_your_family_are\nawaiting_your_triumphant_return"
+        },
+        "讨伐1头雷神龙": {
+            "key": "quest_hall_slay_the_thunder_serpent_narwa"
+        },
+        "雪鬼兽来了": {
+            "key": "quest_hall_its_gonna_get_you"
+        },
+        "喜欢恶作剧的少年": {
+            "key": "quest_hall_young_prankster"
+        },
+        "妈妈说，如果我老是\n恶作剧的话，冰封群岛的\n雪鬼兽就会跑到家里来。\n我、我才没有在害怕呢……！\n只是，那家伙真来了的话，\n会很危险吧？所以，猎人……\n你来看看状况会比较好吧？": {
+            "key": "quest_hall_mom_always_says_\"if_you_dont\nbehave_the_snow_demon_from\nthe_frost_islands_is_gonna_come\nand_gobble_you_up\"_yeah_right\ntheres_no_snow_demon_out_there\nis_there_uh_on_second_thought\nmaybe_you_could_go_check_for_me"
+        },
+        "狩猎1头雪鬼兽_2": {
+            "key": "quest_hall_hunt_a_goss_harag_2"
+        },
+        "身缠鬼火者": {
+            "key": "quest_hall_clad_in_hellfire"
+        },
+        "身穿铠甲的猎人": {
+            "key": "quest_hall_armored_hunter"
+        },
+        "啊，实属遗憾。我引以为傲的\n装备在怨虎龙的猛攻面前\n根本毫无招架之力。\n它身缠摇曳瘴气时所使出的\n怒涛般的攻击，宛如鬼神。\n我已无力再次挑战那家伙，\n因此将狩猎委托给强者。": {
+            "key": "quest_hall_what_an_embarrassment_my_best\narmor_was_about_as_effective_as_wet\npaper_against_magnamalo_i_tell_ya\nthat_hellfire_is_a_one-way_ticket_back\nto_camp_i_guess_i_need_to_hit_up\nthe_smithy_again_think_you_can\nfinish_up_the_quest_for_me"
+        },
+        "狩猎1头怨虎龙_2": {
+            "key": "quest_hall_hunt_magnamalo_2"
+        },
+        "招往泥海": {
+            "key": "quest_hall_a_muddy_invitation"
+        },
+        "浑身泥污的艾露猫": {
+            "key": "quest_hall_mud-caked_felyne"
+        },
+        "喵啊～黏糊糊的喵……\n我被卷入了泥翁龙的狩猎，\n弄得全身是泥喵。\n简直就是个泥猫团子喵……\n那家伙疯过头了喵！\n我要去洗澡了，\n麻烦猎人你去打倒它喵～": {
+            "key": "quest_hall_just_look_at_me_yuck_covered\nfrom_head_to_tail_in_mud_meow\ni_have_to_take_a_bath_with_meowster\nand_you_know_felynes_hate_baths\ncan_you_go_take_care_of_that_nasty\ncreature_while_i_go_scrub_meowsters\nback"
+        },
+        "狩猎1头泥翁龙_2": {
+            "key": "quest_hall_hunt_an_almudron_2"
+        },
+        "奔驰于地底的角龙": {
+            "key": "quest_hall_subterranean_disturbances"
+        },
+        "邻村的长老": {
+            "key": "quest_hall_nearby_villages_elder"
+        },
+        "频繁发生原因不明的地震。\n简直就像地底有什么在蠢动……\n而且我还收到离奇的报告，\n说昨天还在的巨大岩石，\n今天居然变得粉碎……\n大家都怕得不敢靠近，\n请查明它的真身。": {
+            "key": "quest_hall_weve_recently_been_getting\nearthquakes_as_if_something\nis_shuffling_beneath_our_feet\neveryones_scared_and_rightly\nso_its_hard_enough_trying_to\nkeep_it_together_when_we_can\nbarely_keep_things_on_the_shelves"
+        },
+        "狩猎1头角龙_2": {
+            "key": "quest_hall_hunt_a_diablos_2"
+        },
+        "轰隆隆的咆哮": {
+            "key": "quest_hall_a_resounding_roar"
+        },
+        "沙原的游商": {
+            "key": "quest_hall_sandy_plains_trader"
+        },
+        "啊，又听到了轰龙的咆哮……\n它好像霸占了行商路线。\n波波怕得都不敢运货了，\n在沙原中进退两难。\n在我们活不下去之前，\n能麻烦你去打倒它吗？": {
+            "key": "quest_hall_did_you_hear_that_it_was_that_tigrex\nthat_monsters_invaded_the_plains\nand_has_been_hollerin_up_a_storm\never_since_now_all_our_popo_are\nspooked_and_wont_budge_cant_blame\nemthey_are_a_tigrexs_favorite_snack\nplease_hunter_you_gotta_help_us_out"
+        },
+        "狩猎1头轰龙_2": {
+            "key": "quest_hall_hunt_a_tigrex_2"
+        },
+        "妖魔鬼怪": {
+            "key": "quest_hall_evil_afoot"
+        },
+        "混乱的旅行者": {
+            "key": "quest_hall_unnerved_traveler"
+        },
+        "不不不、不好了……！快跑啊！\n那、那是鬼啊，鬼出现了……！！\n那么凶暴的家伙要是跑到村子里，\n到底会怎么样……！\n拜托了，来个人打倒它！\n半吊子的身手是不行的。\n快来个真正的猛者去狩猎它……！": {
+            "key": "quest_hall_a_d-d-demon_i_tell_you_a_demon\nno_ones_safe_with_that_thing_around\nno_one_the_felynes_the_dango\nthe_twins—me_oh_my_gog_me\nim_not_safe_ahhhhhh_hunter\nwhat_are_you_doing_go_get_rid\nof_that_thing"
+        },
+        "狩猎1头金狮子": {
+            "key": "quest_hall_hunt_a_rajang"
+        },
+        "“注意火候！紫炎与火球”之卷": {
+            "key": "quest_hall_seared_situation"
+        },
+        "用熔岩慢火细烤的兔团子……\n你也很在意是什么味道吧～？\n这就去熔岩洞试做一下！\n所以，为了防止我\n和兔团子被烧焦，\n请去打倒火龙和怨虎龙\n这两头在争斗的怪物！": {
+            "key": "quest_hall_bunny_dango_slow-cooked_over\nlava:_sounds_super_yummy_right\ni_was_gonna_go_out_to_the_lava\ncaverns_to_try_it_out_was_until\ni_heard_there_was_a_rathalos_and\nmagnamalo_how_rude_could_you\ngo_get_rid_of_them_please"
+        },
+        "狩猎1头火龙和1头怨虎龙": {
+            "key": "quest_hall_hunt_a_rathalos_and_magnamalo"
+        },
+        "废神社大骚动": {
+            "key": "quest_hall_ruckus_in_the_ruins"
+        },
+        "目光炯炯的少女": {
+            "key": "quest_hall_bewildered_girl"
+        },
+        "总觉得废神社那里\n非常不妙啊——！\n好像又是泥巴又是泡泡的！\n我没撒谎！是真的！\n猎人你应该明白吧？\n拜托了，请你去一趟吧！": {
+            "key": "quest_hall_whoa_it_is_totally_going_down\nright_now_in_the_shrine_ruins_one\nminute_theres_mud_everywhere\nthen_the_next_theres_bubbles\neverywhere_mud_bubbles_mud\nbubbles_i_think_you_need_to_go\nout_and_clean_up_this_mess"
+        },
+        "狩猎1头泥翁龙和1头泡狐龙": {
+            "key": "quest_hall_hunt_an_almudron_and_a_mizutsune"
+        },
+        "勇猛之力宛如大地": {
+            "key": "quest_hall_a_frosty_stalemate"
+        },
+        "回村的男性": {
+            "key": "quest_hall_returning_villager"
+        },
+        "喂喂喂，我还在想怎么\n这么吵闹，原来是有两头\n大家伙在冰封群岛大闹啊。\n虽然还没有出现受害者，\n不过那样可没法放着不管啊。\n所以我发出了狩猎委托。\n总之，来个人帮帮忙吧！": {
+            "key": "quest_hall_hey_um_sorry_to_interrupt_you_but\ni_think_theres_something_out_in_the\nfrost_islands_that_\"may\"_need_your\nattention_these_two_monsters_have\nbeen_going_at_it_for_a_while_now_and\nit_seems_to_be_getting_worse_just\nuh_thought_you_should_know"
+        },
+        "狩猎1头雪鬼兽和1头河童蛙": {
+            "key": "quest_hall_hunt_a_goss_harag_and_a_tetranadon"
+        },
+        "激战・激烈・激励之乱": {
+            "key": "quest_hall_fought_failed_fired_up"
+        },
+        "武者修行中的男人": {
+            "key": "quest_hall_warrior_in_training"
+        },
+        "我向角龙和蛮颚龙挑战，却惨败。\n这种对手怎么可能打得赢……\n我因此丧失了斗志。\n为了矫正我这愚蠢的想法，\n能否请你去打倒它们，\n向我证明人类的强大呢？": {
+            "key": "quest_hall_*sigh*_i_took_on_a_diablos_and_failed\ni_took_on_an_anjanath—failed_i_just\ncant_anymore_how_can_it_even_be\ndone_youve_challenged_all_sorts\nof_beasts_surely_these_are_nothing\nto_you_maybe_if_i_watch_you_defeat\nthem_itll_rekindle_the_fire_inside_me"
+        },
+        "狩猎1头角龙和1头蛮颚龙": {
+            "key": "quest_hall_hunt_a_diablos_and_an_anjanath"
+        },
+        "请小心暴徒": {
+            "key": "quest_hall_occupational_hazards"
+        },
+        "唉……真是太不走运了……\n居然会遇到金狮子和雷狼龙……\n货物都被打飞了，\n我也在摔倒时擦伤了膝盖……\n我可不想像货物一样被打飞，\n请你去狩猎它们……": {
+            "key": "quest_hall_i_love_when_monsters_keep_destroying\nmy_carts_and_my_livelihood—said_no\ntrader_ever_first_a_lagombi_then_a\ndiablos_then_two_volvidon_and_now\na_rajang_and_zinogre_i_just_want_for\nonce_to_get_from_point_a_to_point_b\nwithout_getting_beat_up_by_monsters"
+        },
+        "狩猎1头金狮子和1头雷狼龙": {
+            "key": "quest_hall_hunt_a_rajang_and_a_zinogre"
+        },
+        "四处逼近的威胁": {
+            "key": "quest_hall_omnidirectional_threats"
+        },
+        "穿着朴素的妇人": {
+            "key": "quest_hall_plainly_dressed_lady"
+        },
+        "熔岩洞好像出现了两头\n凶恶的怪物，我实在应对不了。\n因为一些缘由，我无论如何\n都想穿过熔岩洞去见我儿子。\n若对自己的身手有自信，\n就请你去狩猎它们吧。": {
+            "key": "quest_hall_hi_id_like_to_speak_to_whoever_is_in\ncharge_here_yes_i_heard_that_there\nwere_two_monsters_in_the_lava_caverns\nthis_is_completely_unacceptable\nif_something_is_not_done_about_this\nright_away_i_will_be_contacting\nthe_guild_to_file_a_complaint"
+        },
+        "狩猎1只妃蜘蛛和1头奇怪龙": {
+            "key": "quest_hall_hunt_a_rakna-kadaki_and_a_khezu"
+        },
+        "疾风怒涛的大舞台": {
+            "key": "quest_hall_a_whirlwind_of_a_stage"
+        },
+        "异想天开的作家": {
+            "key": "quest_hall_eccentric_writer"
+        },
+        "不行了！没有灵感啊——！\n所以呢，我熟人帮我\n准备了个不得了的大舞台！\n来，尽情展开死战，\n为我带来灵感吧。\n为了完成预定是我最高杰作的，\n这本……恋爱小说！加油吧！": {
+            "key": "quest_hall_ive_been_suffering_from_a_severe\ncase_of_writers_block_so_i_asked\nan_acquaintance_of_mine_to_set_up\na_grand_stage_performance_all_you\nhave_to_do_hunter_is_play_your_part\nand_surely_i_will_find_the_inspiration\ni_need_to_finish_my_romance_novel"
+        },
+        "“刺穿兔团子的四根角！”之卷": {
+            "key": "quest_hall_a_quartet_of_horns"
+        },
+        "真是的——！不可原谅——！\n当时我到沙原去取\n兔团子的调味料。\n然后就突然跑来两头角龙，\n把我的便当兔团子给刺穿了！\n拜托了，替兔团子报仇吧！": {
+            "key": "quest_hall_ugh_i_was_gathering_herbs_for\nmy_new_menu_out_in_the_sandy\nplains_and_guess_what_two\ndumb_diablos_showed_up_to_stab\nmy_lunch_dango_on_their\nhorns_grr_i_want_payback_on\nthose_jerks"
+        },
+        "狩猎2头角龙": {
+            "key": "quest_hall_hunt_2_diablos"
         }
     }
 }

@@ -39,7 +39,8 @@ $(document).ready(Initialize);
 
 function Initialize() {
     try {
-        LoadData(['data/mhrdex.json', 'data/mhrmoves.json', 'data/endemics.json', "data/small_monster.json", "data/weapons.json", "data/items.json", "data/parseditem.json", "data/cntokey.json", "data/cntotw.json"], tryOnDexLoaded);
+        LoadData(['data/mhrdex.json', 'data/mhrmoves.json', 'data/endemics.json', "data/small_monster.json", "data/weapons.json", "data/items.json"], tryOnDexLoaded);
+        // LoadData(['data/mhrdex.json', 'data/mhrmoves.json', 'data/endemics.json', "data/small_monster.json", "data/weapons.json", "data/items.json", "data/parsedmission.json", "data/cntokey.json", "data/cntotw.json"], tryOnDexLoaded);
     } catch (error) {
         console.log(error.message);
         document.getElementById("error").innerHTML = "error:" + error.message;
@@ -145,294 +146,49 @@ function onDexLoaded() {
 }
 function someDataWorks() {
 
-    let items = {};
-    for (let i in data.parseditems) {
-        const itemFrom = data.parseditems[i];
-        let key = ""
-        let itemName = itemFrom.name;
-        if (data.cntokey[itemName] !== undefined) {
-            key = data.cntokey[itemName].key;
-        }
-        else {
-            console.log("no key " + itemName);
-        }
-        if (data.cntotw[itemName] !== undefined) {
-            itemName = data.cntotw[itemName].key
+    let quests = {};
+    for (let i in data.quests) {
+        const quest = data.quests[i];
+        qkey = ""
+        qName = quest.name;
+        if (data.cntokey[qName] !== undefined) {
+            qkey = data.cntokey[qName].key;
+        } else if (data.cntokey2[qName] !== undefined) {
+            qkey = data.cntokey2[qName].key;
         } else {
-            console.log("no name " + itemName);
+            console.log("no key " + quest.name);
+            continue;
         }
-        let itemDesc = itemFrom.desc;
-        if (data.cntotw[itemDesc] !== undefined) {
-            itemDesc = data.cntotw[itemDesc].key;
-            // console.log(itemDesc);
+        if (data.cntotw[qName] !== undefined) {
+            qName = data.cntotw[qName].key;
+        } else if (data.cntotw2[qName] !== undefined) {
+            qName = data.cntotw2[qName].key;
         } else {
-            console.log("no desc " + itemDesc);
+            console.log("no name " + quest.name);
+            continue;
         }
-        let itemImage = ""
-        if (itemFrom.image !== undefined) {
-            itemImage = "images" + itemFrom.image.substring(itemFrom.image.indexOf("/items/"));
-            // itemImage = "images/items/" + key + ".png"
+        qClient = quest.client;
+        if (data.cntotw[qClient] !== undefined) {
+            qClient = data.cntotw[qClient].key;
+        } else if (data.cntotw2[qClient] !== undefined) {
+            qClient = data.cntotw2[qClient].key;
+        } else {
+            console.log("no client " + quest.client);
+            continue;
         }
-        const itemData = {
-            "name": itemName,
-            "description": itemDesc,
-            "image": itemImage
-        };
-        items[key] = itemData;
+        qData = {
+            "name": qName,
+            "type": quest.type,
+            "star": quest.star,
+            "client": qClient
+        }
+        if (quest.hasOwnProperty(qkey)) {
+            console.log(qkey);
+        }
+        quests[qkey] = qData;
     }
 
-
-    outputText(JSON.stringify(items));
-    return;
-
-
-
-    const PART_COLOR = ["#e6194B", "#3cb44b", "#ffe119", "#4363d8", "#f58231", "#911eb4", "#42d4f4", "#f032e6", "#bfef45", "#fabed4", "#469990"];
-
-    // let currentColorID = -1;
-    // let lastPart = "";
-    // for (let part of data['large_monsters']["magnamalo"].parts) {
-    //     console.log(part.name);
-    //     if (lastPart != part.name) {
-    //         currentColorID++;
-    //     }
-    //     lastPart = part.name;
-    //     part.hitzone_color = PART_COLOR[currentColorID];
-    // }
-    // console.log(JSON.stringify(data['large_monsters']["magnamalo"].parts))
-
-    // for (let m of data['hitdata']) {
-    //     console.log(m.name_en);
-    //     for (let id in data['large_monsters']) {
-    //         let mon = data['large_monsters'][id];
-    //         if (mon.name.en === m.name_en) {
-    //             console.log("find!: " + mon.name.tw);
-    //             mon.hitzone_image = "";
-    //             mon.parts = [];
-
-    //             let currentColorID = -1;
-    //             let lastPart = "";
-    //             for (let partID in m.rouzhi_array) {
-    //                 let part = m.rouzhi_array[partID];
-    //                 if (lastPart != part.part) {
-    //                     currentColorID++;
-    //                 }
-    //                 lastPart = part.part;
-    //                 mon.parts.push({
-    //                     "name": part.part,
-    //                     "state": part.partCondition,
-    //                     "hitzone_color": PART_COLOR[currentColorID],
-    //                     "hitData": [
-    //                         part.cut,
-    //                         part.hit,
-    //                         part.shot,
-    //                         part.fire,
-    //                         part.water,
-    //                         part.thunder,
-    //                         part.ice,
-    //                         part.dragon,
-    //                         part.dizzy
-    //                     ]
-    //                 })
-    //             }
-    //             console.log(JSON.stringify(mon.parts));
-    //         }
-    //     }
-    // }
-
-
-
-    let tempDic = {};
-    for (let id in data['parsed']) {
-        let item = data['parsed'][id];
-        // console.log(item.url);
-        let foundedMonID = "";
-        for (let monID in data['large_monsters']) {
-            let mon = data['large_monsters'][monID];
-            if (mon.name.en === item.name_en)
-                foundedMonID = monID;
-        }
-        // console.log(foundedMonID);
-        tempDic[foundedMonID] = item;
-    }
-
-
-
-
-
-    // ParseHitData    
-
-    for (let id in tempDic) {
-        let item = tempDic[id];
-        let target = data['large_monsters'][id];
-        if (id !== "arzuros" && id !== "mizutsune" && id !== "great_izuchi" && id !== "rathian" && id !== "magnamalo") {
-            console.log(target.name.tw + " no hitdata, do write");
-
-            if (target.hitdata === undefined)
-                target.hitdata = {}
-            target.hitdata.parts = [];
-            for (let i in item.meatQuality) {
-                let parsedPart = item.meatQuality[i];
-
-                let partName = parsedPart.part
-                partName = translateJP(partName)
-                // if (partTrans.hasOwnProperty(parsedPart.part)) {
-                //     partName = partTrans[parsedPart.part];
-                // }
-                // else
-                //     console.log("cant find part name:" + partName);
-
-                let transCondition = parsedPart.partCondition === parsedPart.part ? "通常" : parsedPart.partCondition;
-                transCondition = translateJP(transCondition);
-                console.log("partCondition:" + transCondition);
-
-
-
-                let partData = {
-                    "part": partName,
-                    "condition": transCondition,
-                    "cut": parsedPart.cut,
-                    "blunt": parsedPart.hit,
-                    "ammo": parsedPart.shot,
-                    "fire": parsedPart.fire,
-                    "water": parsedPart.water,
-                    "thunder": parsedPart.thunder,
-                    "ice": parsedPart.ice,
-                    "dragon": parsedPart.dragon
-                };
-                let inserted = false;
-                for (let j in target.hitdata.parts) {
-                    if (target.hitdata.parts[j].part === partData.part) {
-                        const pos = parseInt(j, 10) + 1;
-                        target.hitdata.parts.splice(pos, 0, partData);
-                        inserted = true
-                        break;
-                    }
-                }
-                if (!inserted)
-                    target.hitdata.parts.push(partData)
-            }
-        } else {
-            console.log(target.name.tw + " has hitdata, no write");
-        }
-
-
-        target.materials = [];
-        for (let j in item.boqu) {
-            let box = item.boqu[j];
-            let matData = {
-                "source": box.buwei,
-                "num": box.num,
-            };
-            matData.source = translateJP(matData.source);
-            if (box.info !== undefined) {
-                matData.info = translateJP(box.info);
-                console.log(matData.info);
-            }
-            matData.low_rank = []
-            for (let i in box.xia) {
-                let jpName = box.xia[i].sucaiName;
-                let itemCount = "1";
-                let trySplitNum = jpName.split("x")
-                if (trySplitNum.length > 1) {
-                    jpName = trySplitNum[0];
-                    itemCount = trySplitNum[1];
-                }
-                matData.low_rank.push({
-                    "item": getMatIDFromJP(jpName),
-                    "rate": box.xia[i].gailv,
-                    "num": itemCount
-                })
-            }
-            matData.high_rank = []
-            for (let i in box.shang) {
-                let jpName = box.shang[i].sucaiName;
-                let itemCount = "1";
-                let trySplitNum = jpName.split("x")
-                if (trySplitNum.length > 1) {
-                    jpName = trySplitNum[0];
-                    itemCount = trySplitNum[1];
-                }
-                matData.high_rank.push({
-                    "item": getMatIDFromJP(jpName),
-                    "rate": box.shang[i].gailv,
-                    "num": itemCount
-                })
-            }
-            target.materials.push(matData);
-        }
-    }
-
-
-    // return;
-
-    // for (let id in tempDic) {
-    //     let item = tempDic[id];
-    //     let target = data['large_monsters'][id];
-    //     target.materials = [];
-    //     for (let j in item.boqu) {
-    //         let box = item.boqu[j];
-    //         let matData = {
-    //             "source": box.buwei,
-    //             "num": box.num,
-    //         };
-    //         if (box.info !== undefined) {
-
-    //             matData.info = box.info;
-    //             for (let partJP in partTrans) {
-    //                 if (matData.info.includes(partJP))
-    //                     matData.info = matData.info.replace(partJP, partTrans[partJP]);
-    //             }
-    //             console.log(matData.info);
-    //         }
-    //         for (let partJP in partTrans) {
-    //             if (matData.source.includes(partJP))
-    //                 matData.source = matData.source.replace(partJP, partTrans[partJP]);
-    //         }
-    //         matData.low_rank = []
-    //         for (let i in box.xia) {
-    //             let jpName = box.xia[i].sucaiName;
-    //             let itemCount = "1";
-    //             let trySplitNum = jpName.split("x")
-    //             if (trySplitNum.length > 1) {
-    //                 jpName = trySplitNum[0];
-    //                 itemCount = trySplitNum[1];
-    //             }
-    //             matData.low_rank.push({
-    //                 "item": getMatIDFromJP(jpName),
-    //                 "rate": box.xia[i].gailv,
-    //                 "num": itemCount
-    //             })
-    //         }
-    //         matData.high_rank = []
-    //         for (let i in box.shang) {
-    //             let jpName = box.shang[i].sucaiName;
-    //             let itemCount = "1";
-    //             let trySplitNum = jpName.split("x")
-    //             if (trySplitNum.length > 1) {
-    //                 jpName = trySplitNum[0];
-    //                 itemCount = trySplitNum[1];
-    //             }
-    //             matData.high_rank.push({
-    //                 "item": getMatIDFromJP(jpName),
-    //                 "rate": box.shang[i].gailv,
-    //                 "num": itemCount
-    //             })
-    //         }
-    //         target.materials.push(matData);
-    //     }
-    // }
-
-
-    // for (let id in data.large_monsters) {
-    //     let mon = data.large_monsters[id];
-    //     mon["icon_large"] = "images/monsters/icons/large/" + id + ".png";
-    //     mon = moveObjectElement("icon_large", "icon", mon);
-    //     data.large_monsters[id] = mon;
-    // }
-
-    saveTextFile(JSON.stringify(data.large_monsters));
-
+    outputText(JSON.stringify(quests))
 
     // console.log(JSON.stringify(temp));
 
@@ -867,3 +623,300 @@ Object.deepExtend = function (destination, source) {
         }
     }
 };
+
+function parseItems() {
+    let items = {};
+    for (let i in data.parseditems) {
+        const itemFrom = data.parseditems[i];
+        let key = ""
+        let itemName = itemFrom.name;
+        if (data.cntokey[itemName] !== undefined) {
+            key = data.cntokey[itemName].key;
+        }
+        else {
+            console.log("no key " + itemName);
+        }
+        if (data.cntotw[itemName] !== undefined) {
+            itemName = data.cntotw[itemName].key
+        } else {
+            console.log("no name " + itemName);
+        }
+        let itemDesc = itemFrom.desc;
+        if (data.cntotw[itemDesc] !== undefined) {
+            itemDesc = data.cntotw[itemDesc].key;
+            // console.log(itemDesc);
+        } else {
+            console.log("no desc " + itemDesc);
+        }
+        let itemImage = ""
+        if (itemFrom.image !== undefined) {
+            itemImage = "images" + itemFrom.image.substring(itemFrom.image.indexOf("/items/"));
+            // itemImage = "images/items/" + key + ".png"
+        }
+        const itemData = {
+            "name": itemName,
+            "description": itemDesc,
+            "image": itemImage
+        };
+        items[key] = itemData;
+    }
+
+
+    outputText(JSON.stringify(items));
+
+}
+
+function parseHitData() {
+
+
+
+    const PART_COLOR = ["#e6194B", "#3cb44b", "#ffe119", "#4363d8", "#f58231", "#911eb4", "#42d4f4", "#f032e6", "#bfef45", "#fabed4", "#469990"];
+
+    // let currentColorID = -1;
+    // let lastPart = "";
+    // for (let part of data['large_monsters']["magnamalo"].parts) {
+    //     console.log(part.name);
+    //     if (lastPart != part.name) {
+    //         currentColorID++;
+    //     }
+    //     lastPart = part.name;
+    //     part.hitzone_color = PART_COLOR[currentColorID];
+    // }
+    // console.log(JSON.stringify(data['large_monsters']["magnamalo"].parts))
+
+    // for (let m of data['hitdata']) {
+    //     console.log(m.name_en);
+    //     for (let id in data['large_monsters']) {
+    //         let mon = data['large_monsters'][id];
+    //         if (mon.name.en === m.name_en) {
+    //             console.log("find!: " + mon.name.tw);
+    //             mon.hitzone_image = "";
+    //             mon.parts = [];
+
+    //             let currentColorID = -1;
+    //             let lastPart = "";
+    //             for (let partID in m.rouzhi_array) {
+    //                 let part = m.rouzhi_array[partID];
+    //                 if (lastPart != part.part) {
+    //                     currentColorID++;
+    //                 }
+    //                 lastPart = part.part;
+    //                 mon.parts.push({
+    //                     "name": part.part,
+    //                     "state": part.partCondition,
+    //                     "hitzone_color": PART_COLOR[currentColorID],
+    //                     "hitData": [
+    //                         part.cut,
+    //                         part.hit,
+    //                         part.shot,
+    //                         part.fire,
+    //                         part.water,
+    //                         part.thunder,
+    //                         part.ice,
+    //                         part.dragon,
+    //                         part.dizzy
+    //                     ]
+    //                 })
+    //             }
+    //             console.log(JSON.stringify(mon.parts));
+    //         }
+    //     }
+    // }
+
+
+}
+
+function parseMon() {
+
+
+    let tempDic = {};
+    for (let id in data['parsed']) {
+        let item = data['parsed'][id];
+        // console.log(item.url);
+        let foundedMonID = "";
+        for (let monID in data['large_monsters']) {
+            let mon = data['large_monsters'][monID];
+            if (mon.name.en === item.name_en)
+                foundedMonID = monID;
+        }
+        // console.log(foundedMonID);
+        tempDic[foundedMonID] = item;
+    }
+
+
+
+
+
+    // ParseHitData    
+
+    for (let id in tempDic) {
+        let item = tempDic[id];
+        let target = data['large_monsters'][id];
+        if (id !== "arzuros" && id !== "mizutsune" && id !== "great_izuchi" && id !== "rathian" && id !== "magnamalo") {
+            console.log(target.name.tw + " no hitdata, do write");
+
+            if (target.hitdata === undefined)
+                target.hitdata = {}
+            target.hitdata.parts = [];
+            for (let i in item.meatQuality) {
+                let parsedPart = item.meatQuality[i];
+
+                let partName = parsedPart.part
+                partName = translateJP(partName)
+                // if (partTrans.hasOwnProperty(parsedPart.part)) {
+                //     partName = partTrans[parsedPart.part];
+                // }
+                // else
+                //     console.log("cant find part name:" + partName);
+
+                let transCondition = parsedPart.partCondition === parsedPart.part ? "通常" : parsedPart.partCondition;
+                transCondition = translateJP(transCondition);
+                console.log("partCondition:" + transCondition);
+
+
+
+                let partData = {
+                    "part": partName,
+                    "condition": transCondition,
+                    "cut": parsedPart.cut,
+                    "blunt": parsedPart.hit,
+                    "ammo": parsedPart.shot,
+                    "fire": parsedPart.fire,
+                    "water": parsedPart.water,
+                    "thunder": parsedPart.thunder,
+                    "ice": parsedPart.ice,
+                    "dragon": parsedPart.dragon
+                };
+                let inserted = false;
+                for (let j in target.hitdata.parts) {
+                    if (target.hitdata.parts[j].part === partData.part) {
+                        const pos = parseInt(j, 10) + 1;
+                        target.hitdata.parts.splice(pos, 0, partData);
+                        inserted = true
+                        break;
+                    }
+                }
+                if (!inserted)
+                    target.hitdata.parts.push(partData)
+            }
+        } else {
+            console.log(target.name.tw + " has hitdata, no write");
+        }
+
+
+        target.materials = [];
+        for (let j in item.boqu) {
+            let box = item.boqu[j];
+            let matData = {
+                "source": box.buwei,
+                "num": box.num,
+            };
+            matData.source = translateJP(matData.source);
+            if (box.info !== undefined) {
+                matData.info = translateJP(box.info);
+                console.log(matData.info);
+            }
+            matData.low_rank = []
+            for (let i in box.xia) {
+                let jpName = box.xia[i].sucaiName;
+                let itemCount = "1";
+                let trySplitNum = jpName.split("x")
+                if (trySplitNum.length > 1) {
+                    jpName = trySplitNum[0];
+                    itemCount = trySplitNum[1];
+                }
+                matData.low_rank.push({
+                    "item": getMatIDFromJP(jpName),
+                    "rate": box.xia[i].gailv,
+                    "num": itemCount
+                })
+            }
+            matData.high_rank = []
+            for (let i in box.shang) {
+                let jpName = box.shang[i].sucaiName;
+                let itemCount = "1";
+                let trySplitNum = jpName.split("x")
+                if (trySplitNum.length > 1) {
+                    jpName = trySplitNum[0];
+                    itemCount = trySplitNum[1];
+                }
+                matData.high_rank.push({
+                    "item": getMatIDFromJP(jpName),
+                    "rate": box.shang[i].gailv,
+                    "num": itemCount
+                })
+            }
+            target.materials.push(matData);
+        }
+    }
+
+
+    // return;
+
+    // for (let id in tempDic) {
+    //     let item = tempDic[id];
+    //     let target = data['large_monsters'][id];
+    //     target.materials = [];
+    //     for (let j in item.boqu) {
+    //         let box = item.boqu[j];
+    //         let matData = {
+    //             "source": box.buwei,
+    //             "num": box.num,
+    //         };
+    //         if (box.info !== undefined) {
+
+    //             matData.info = box.info;
+    //             for (let partJP in partTrans) {
+    //                 if (matData.info.includes(partJP))
+    //                     matData.info = matData.info.replace(partJP, partTrans[partJP]);
+    //             }
+    //             console.log(matData.info);
+    //         }
+    //         for (let partJP in partTrans) {
+    //             if (matData.source.includes(partJP))
+    //                 matData.source = matData.source.replace(partJP, partTrans[partJP]);
+    //         }
+    //         matData.low_rank = []
+    //         for (let i in box.xia) {
+    //             let jpName = box.xia[i].sucaiName;
+    //             let itemCount = "1";
+    //             let trySplitNum = jpName.split("x")
+    //             if (trySplitNum.length > 1) {
+    //                 jpName = trySplitNum[0];
+    //                 itemCount = trySplitNum[1];
+    //             }
+    //             matData.low_rank.push({
+    //                 "item": getMatIDFromJP(jpName),
+    //                 "rate": box.xia[i].gailv,
+    //                 "num": itemCount
+    //             })
+    //         }
+    //         matData.high_rank = []
+    //         for (let i in box.shang) {
+    //             let jpName = box.shang[i].sucaiName;
+    //             let itemCount = "1";
+    //             let trySplitNum = jpName.split("x")
+    //             if (trySplitNum.length > 1) {
+    //                 jpName = trySplitNum[0];
+    //                 itemCount = trySplitNum[1];
+    //             }
+    //             matData.high_rank.push({
+    //                 "item": getMatIDFromJP(jpName),
+    //                 "rate": box.shang[i].gailv,
+    //                 "num": itemCount
+    //             })
+    //         }
+    //         target.materials.push(matData);
+    //     }
+    // }
+
+
+    // for (let id in data.large_monsters) {
+    //     let mon = data.large_monsters[id];
+    //     mon["icon_large"] = "images/monsters/icons/large/" + id + ".png";
+    //     mon = moveObjectElement("icon_large", "icon", mon);
+    //     data.large_monsters[id] = mon;
+    // }
+
+    saveTextFile(JSON.stringify(data.large_monsters));
+}
