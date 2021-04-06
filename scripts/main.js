@@ -39,7 +39,7 @@ $(document).ready(Initialize);
 
 function Initialize() {
     try {
-        LoadData(['data/mhrdex.json', 'data/mhrmoves.json', 'data/endemics.json', "data/small_monster.json", "data/weapons.json"], tryOnDexLoaded);
+        LoadData(['data/mhrdex.json', 'data/mhrmoves.json', 'data/endemics.json', "data/small_monster.json", "data/weapons.json", "data/items.json", "data/parseditem.json", "data/cntokey.json", "data/cntotw.json"], tryOnDexLoaded);
     } catch (error) {
         console.log(error.message);
         document.getElementById("error").innerHTML = "error:" + error.message;
@@ -145,30 +145,45 @@ function onDexLoaded() {
 }
 function someDataWorks() {
 
-    let output = "";
-    for (let i in data.moves.almudron.moves) {
-        let move = data.moves.almudron.moves[i];
-        output += move.name + "\n";
-        if (move.recovery === "大")
-            output += "(硬直大)" + "\n";
-
-        output += "\n";
-
-        if (!IsNullOrEmpty(move.condition))
-            output += "條件：" + move.condition + "\n"
-        if (!IsNullOrEmpty(move.preaction))
-            output += "預兆：" + move.preaction + "\n"
-        if (!IsNullOrEmpty(move.action))
-            output += "動作：" + move.action + "\n"
-        if (!IsNullOrEmpty(move.note))
-            output += "備註：" + move.note + "\n"
-
-        output += "\n\n";
+    let items = {};
+    for (let i in data.parseditems) {
+        const itemFrom = data.parseditems[i];
+        let key = ""
+        let itemName = itemFrom.name;
+        if (data.cntokey[itemName] !== undefined) {
+            key = data.cntokey[itemName].key;
+        }
+        else {
+            console.log("no key " + itemName);
+        }
+        if (data.cntotw[itemName] !== undefined) {
+            itemName = data.cntotw[itemName].key
+        } else {
+            console.log("no name " + itemName);
+        }
+        let itemDesc = itemFrom.desc;
+        if (data.cntotw[itemDesc] !== undefined) {
+            itemDesc = data.cntotw[itemDesc].key;
+            // console.log(itemDesc);
+        } else {
+            console.log("no desc " + itemDesc);
+        }
+        let itemImage = ""
+        if (itemFrom.image !== undefined) {
+            itemImage = "images/items/" + key + ".png"
+        }
+        const itemData = {
+            "name": itemName,
+            "description": itemDesc,
+            "image": itemImage
+        };
+        items[key] = itemData;
     }
 
-    saveTextFile(output);
 
-    return
+    // outputText(JSON.stringify(items));
+    return;
+
 
 
     const PART_COLOR = ["#e6194B", "#3cb44b", "#ffe119", "#4363d8", "#f58231", "#911eb4", "#42d4f4", "#f032e6", "#bfef45", "#fabed4", "#469990"];
@@ -422,6 +437,34 @@ function someDataWorks() {
 
 }
 
+function SaveMonMovesPost(monName) {
+
+    let output = "";
+    for (let i in data.moves[monName].moves) {
+        let move = data.moves[monName].moves[i];
+        output += move.name + "\n";
+        if (move.recovery === "大")
+            output += "(硬直大)" + "\n";
+
+        output += "\n";
+
+        if (!IsNullOrEmpty(move.condition))
+            output += "條件：" + move.condition + "\n"
+        if (!IsNullOrEmpty(move.preaction))
+            output += "預兆：" + move.preaction + "\n"
+        if (!IsNullOrEmpty(move.action))
+            output += "動作：" + move.action + "\n"
+        if (!IsNullOrEmpty(move.note))
+            output += "備註：" + move.note + "\n"
+
+        output += "\n\n";
+    }
+
+    saveTextFile(output);
+
+    return
+}
+
 function getMatIDFromJP(jpName) {
     if (data["jptokey"][jpName] !== undefined) {
         // console.log("find id: " + jpName + " - " + i18n.messages.jp.data.items[jpName].name)
@@ -558,6 +601,33 @@ function saveTextFile(text) {
     a.remove();
 }
 
+function saveImageFile(sourceURL, imageName) {
+
+    // let a = document.createElement("a");
+    // a.href = url;
+    // a.download = imageName;
+    // document.body.appendChild(a);
+    // a.click();
+    // document.body.removeChild(a);
+    $.ajax({
+        url: sourceURL,
+        method: 'GET',
+        xhrFields: {
+            responseType: 'blob'
+        },
+        success: function (data) {
+            var a = document.createElement('a');
+            var url = window.URL.createObjectURL(data);
+            a.href = url;
+            a.download = imageName;
+            document.body.append(a);
+            a.click();
+            a.remove();
+            window.URL.revokeObjectURL(url);
+        }
+    });
+}
+
 //currentKey: the key you want to move
 //afterKey: position to move-after the currentKey, null or '' if it must be in position [0]
 //obj: object
@@ -595,6 +665,8 @@ function InitRouter() {
     const SMonComp = httpVueLoader("components/smon_main.vue");
     const EndemicListComp = httpVueLoader("components/endemics_browse_all.vue");
     const EndemicComp = httpVueLoader("components/endemics_main.vue");
+    const ItemListComp = httpVueLoader("components/item_browse_all.vue");
+    const ItemComp = httpVueLoader("components/item_main.vue");
     const WeaponListComp = httpVueLoader("components/weapon_browse_all.vue");
     const WeaponComp = httpVueLoader("components/weapon_main.vue");
 
@@ -651,6 +723,18 @@ function InitRouter() {
                 path: '/endemics/:name',
                 component: EndemicComp,
                 props: { endemics: GetData("endemic_lifes") }
+            },
+            {
+                name: 'itemlist',
+                path: '/item',
+                component: ItemListComp,
+                props: { items: GetData("items") }
+            },
+            {
+                name: 'item',
+                path: '/item/:name',
+                component: ItemComp,
+                props: { items: GetData("items") }
             },
             {
                 name: 'weaponlist',

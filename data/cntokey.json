@@ -1,0 +1,2824 @@
+{
+    "cntokey": {
+        "苦无": {
+            "key": "throwing_kunai"
+        },
+        "小桶爆弹": {
+            "key": "barrel_bomb"
+        },
+        "大桶爆弹": {
+            "key": "large_barrel_bomb"
+        },
+        "麻痹陷阱": {
+            "key": "shock_trap"
+        },
+        "秘药": {
+            "key": "max_potion"
+        },
+        "回复药": {
+            "key": "potion"
+        },
+        "回复药G": {
+            "key": "mega_potion"
+        },
+        "烤熟的肉": {
+            "key": "well-done_steak"
+        },
+        "生命粉尘": {
+            "key": "lifepowder"
+        },
+        "砥石": {
+            "key": "whetstone"
+        },
+        "解毒药": {
+            "key": "antidote"
+        },
+        "消散剂": {
+            "key": "cleanser"
+        },
+        "除臭球": {
+            "key": "deodorant"
+        },
+        "烤肉组合": {
+            "key": "bbq_spit"
+        },
+        "空瓶": {
+            "key": "empty_phial"
+        },
+        "小木桶": {
+            "key": "small_barrel"
+        },
+        "大木桶": {
+            "key": "large_barrel"
+        },
+        "陷阱工具": {
+            "key": "trap_tool"
+        },
+        "力量之护符": {
+            "key": "powercharm"
+        },
+        "守护之护符": {
+            "key": "armorcharm"
+        },
+        "LV1通常弹": {
+            "key": "normal_ammo_1"
+        },
+        "LV2通常弹": {
+            "key": "normal_ammo_2"
+        },
+        "LV3通常弹": {
+            "key": "normal_ammo_3"
+        },
+        "LV1贯穿弹": {
+            "key": "pierce_ammo_1"
+        },
+        "LV2贯穿弹": {
+            "key": "pierce_ammo_2"
+        },
+        "LV3贯穿弹": {
+            "key": "pierce_ammo_3"
+        },
+        "LV1散弹": {
+            "key": "spread_ammo_1"
+        },
+        "LV2散弹": {
+            "key": "spread_ammo_2"
+        },
+        "LV3散弹": {
+            "key": "spread_ammo_3"
+        },
+        "LV1穿甲榴弹": {
+            "key": "sticky_ammo_1"
+        },
+        "LV2穿甲榴弹": {
+            "key": "sticky_ammo_2"
+        },
+        "LV1扩散弹": {
+            "key": "cluster_bomb_1"
+        },
+        "LV2扩散弹": {
+            "key": "cluster_bomb_2"
+        },
+        "LV1毒弹": {
+            "key": "poison_ammo_1"
+        },
+        "LV2毒弹": {
+            "key": "poison_ammo_2"
+        },
+        "LV1麻痹弹": {
+            "key": "paralysis_ammo_1"
+        },
+        "LV2麻痹弹": {
+            "key": "paralysis_ammo_2"
+        },
+        "LV1睡眠弹": {
+            "key": "sleep_ammo_1"
+        },
+        "LV2睡眠弹": {
+            "key": "sleep_ammo_2"
+        },
+        "LV1减气弹": {
+            "key": "exhaust_ammo_1"
+        },
+        "LV2减气弹": {
+            "key": "exhaust_ammo_2"
+        },
+        "LV1回复弹": {
+            "key": "recover_ammo_1"
+        },
+        "火炎弹": {
+            "key": "flaming_ammo"
+        },
+        "水冷弹": {
+            "key": "water_ammo"
+        },
+        "电击弹": {
+            "key": "thunder_ammo"
+        },
+        "冰结弹": {
+            "key": "freeze_ammo"
+        },
+        "斩裂弹": {
+            "key": "slicing_ammo"
+        },
+        "龙击弹": {
+            "key": "wyvern_ammo"
+        },
+        "捕获用麻醉弹": {
+            "key": "tranq_ammo"
+        },
+        "强击瓶": {
+            "key": "power_coating"
+        },
+        "毒瓶": {
+            "key": "poison_coating"
+        },
+        "麻痹瓶": {
+            "key": "para_coating"
+        },
+        "睡眠瓶": {
+            "key": "sleep_coating"
+        },
+        "爆破瓶": {
+            "key": "blast_coating"
+        },
+        "近战瓶": {
+            "key": "close-range_coating"
+        },
+        "减气瓶": {
+            "key": "exhaust_coating"
+        },
+        "抽奖券": {
+            "key": "lottery_ticket"
+        },
+        "雌火龙的鳞": {
+            "key": "rathian_scale"
+        },
+        "雌火龙的甲壳": {
+            "key": "rathian_shell"
+        },
+        "雌火龙的翼膜": {
+            "key": "rathian_webbing"
+        },
+        "雌火龙的棘": {
+            "key": "rathian_spike"
+        },
+        "雌火龙的逆鳞": {
+            "key": "rathian_plate"
+        },
+        "火龙的鳞": {
+            "key": "rathalos_scale"
+        },
+        "火龙的甲壳": {
+            "key": "rathalos_shell"
+        },
+        "火龙的翼膜": {
+            "key": "rathalos_webbing"
+        },
+        "火龙的逆鳞": {
+            "key": "rathalos_plate"
+        },
+        "火龙的骨髓": {
+            "key": "rathalos_marrow"
+        },
+        "火炎袋": {
+            "key": "flame_sac"
+        },
+        "雷狼龙的甲壳": {
+            "key": "zinogre_shell"
+        },
+        "雷狼龙的带电毛": {
+            "key": "zinogre_shockfur"
+        },
+        "雷狼龙的爪": {
+            "key": "zinogre_claw"
+        },
+        "雷狼龙的蓄电壳": {
+            "key": "zinogre_shocker"
+        },
+        "雷狼龙的逆鳞": {
+            "key": "zinogre_plate"
+        },
+        "泡狐龙的鳞": {
+            "key": "mizutsune_scale"
+        },
+        "泡狐龙的紫毛": {
+            "key": "mizutsune_purplefur"
+        },
+        "泡狐龙的爪": {
+            "key": "mizutsune_claw"
+        },
+        "起泡滑液": {
+            "key": "bubblefoam"
+        },
+        "泡狐龙的逆鳞": {
+            "key": "mizutsune_plate"
+        },
+        "伞鸟的鳞": {
+            "key": "aknosom_scale"
+        },
+        "伞鸟的羽鳞": {
+            "key": "aknosom_feather"
+        },
+        "伞鸟的头冠": {
+            "key": "aknosom_crest"
+        },
+        "河童蛙的皮": {
+            "key": "tetranadon_hide"
+        },
+        "河童蛙的苔背甲": {
+            "key": "tetra_carapace"
+        },
+        "河童蛙的嘴": {
+            "key": "tetranadon_beak"
+        },
+        "泥翁龙的鳞": {
+            "key": "almudron_scale"
+        },
+        "泥翁龙的甲壳": {
+            "key": "almudron_shell"
+        },
+        "泥翁龙的爪": {
+            "key": "almudron_claw"
+        },
+        "生肉": {
+            "key": "raw_meat"
+        },
+        "落穴陷阱": {
+            "key": "pitfall_trap"
+        },
+        "特制团子券": {
+            "key": "dango_ticket"
+        },
+        "蜂蜜": {
+            "key": "honey"
+        },
+        "蓝蘑菇": {
+            "key": "blue_mushroom"
+        },
+        "不死虫": {
+            "key": "godbug"
+        },
+        "药草": {
+            "key": "herb"
+        },
+        "打消果实": {
+            "key": "nulberry"
+        },
+        "贯穿果实": {
+            "key": "latchberry"
+        },
+        "铁矿石": {
+            "key": "iron_ore"
+        },
+        "大地结晶": {
+            "key": "earth_crystal"
+        },
+        "燕雀石": {
+            "key": "machalite_ore"
+        },
+        "辉龙石": {
+            "key": "dragonite_ore"
+        },
+        "特产菇": {
+            "key": "unique_mushroom"
+        },
+        "严选菇": {
+            "key": "choice_mushroom"
+        },
+        "元气饮料": {
+            "key": "energy_drink"
+        },
+        "LV1放散弹": {
+            "key": "shrapnel_ammo_1"
+        },
+        "LV2放散弹": {
+            "key": "shrapnel_ammo_2"
+        },
+        "LV3放散弹": {
+            "key": "shrapnel_ammo_3"
+        },
+        "蛮颚龙的毛皮": {
+            "key": "anjanath_pelt"
+        },
+        "蛮颚龙的鳞": {
+            "key": "anjanath_scale"
+        },
+        "蛮颚龙的牙": {
+            "key": "anjanath_fang"
+        },
+        "蛮颚龙的鼻骨": {
+            "key": "anjanath_nosebone"
+        },
+        "蛮颚龙的尾巴": {
+            "key": "anjanath_tail"
+        },
+        "蛮颚龙的逆鳞": {
+            "key": "anjanath_plate"
+        },
+        "铠玉": {
+            "key": "armor_sphere"
+        },
+        "上铠玉": {
+            "key": "armor_sphere_plus"
+        },
+        "尖铠玉": {
+            "key": "advanced_armor_sphere"
+        },
+        "LV3穿甲榴弹": {
+            "key": "sticky_ammo_3"
+        },
+        "LV3扩散弹": {
+            "key": "cluster_bomb_3"
+        },
+        "LV2回复弹": {
+            "key": "recover_ammo_2"
+        },
+        "鬼人弹": {
+            "key": "demon_ammo"
+        },
+        "硬化弹": {
+            "key": "armor_ammo"
+        },
+        "贯穿火炎弹": {
+            "key": "piercing_fire_ammo"
+        },
+        "贯穿水冷弹": {
+            "key": "piercing_water_ammo"
+        },
+        "贯穿冰结弹": {
+            "key": "piercing_ice_ammo"
+        },
+        "贯穿电击弹": {
+            "key": "piercing_thunder_ammo"
+        },
+        "灭龙弹": {
+            "key": "dragon_ammo"
+        },
+        "贯穿灭龙弹": {
+            "key": "piercing_dragon_ammo"
+        },
+        "闪光球": {
+            "key": "flash_bomb"
+        },
+        "古老手记": {
+            "key": "old_message"
+        },
+        "伞鸟的喙": {
+            "key": "aknosom_beak"
+        },
+        "河童蛙的碟": {
+            "key": "tetranadon_disc"
+        },
+        "人鱼龙的鳞": {
+            "key": "somnacanth_scale"
+        },
+        "人鱼龙的甲壳": {
+            "key": "somnacanth_shell"
+        },
+        "人鱼龙的钩爪": {
+            "key": "somnacanth_talon"
+        },
+        "人鱼龙的发鳍": {
+            "key": "somnacanth_fin"
+        },
+        "人鱼龙的催眠粉": {
+            "key": "somnacanth_dust"
+        },
+        "怨虎龙的鳞": {
+            "key": "magnamalo_scale"
+        },
+        "怨虎龙的甲壳": {
+            "key": "magnamalo_shell"
+        },
+        "怨虎龙的臂刃": {
+            "key": "magnamalo_blade"
+        },
+        "怨虎龙的枪刃尾": {
+            "key": "magnamalo_tail"
+        },
+        "怨虎龙的盔角": {
+            "key": "magnamalo_horn"
+        },
+        "怨虎龙的刀壳": {
+            "key": "magnamalo_scute"
+        },
+        "怨虎龙的灵结晶": {
+            "key": "magna_ghostprism"
+        },
+        "怨虎龙的逆鳞": {
+            "key": "magnamalo_plate"
+        },
+        "黄金色的泥土": {
+            "key": "golden_muck"
+        },
+        "泥翁龙的毛鳍": {
+            "key": "almudron_fin"
+        },
+        "泥翁龙的尾巴": {
+            "key": "almudron_tail"
+        },
+        "泥翁龙的胡须": {
+            "key": "almudron_whisker"
+        },
+        "泥翁龙的逆鳞": {
+            "key": "almudron_plate"
+        },
+        "雪鬼兽的毛": {
+            "key": "goss_harag_fur"
+        },
+        "雪鬼兽的皮": {
+            "key": "goss_harag_hide"
+        },
+        "雪鬼兽的臂甲": {
+            "key": "goss_harag_brace"
+        },
+        "雪鬼兽的角": {
+            "key": "goss_harag_horn"
+        },
+        "雪鬼兽的拳爪": {
+            "key": "goss_harag_claw"
+        },
+        "寒冷的冰块": {
+            "key": "block_of_ice"
+        },
+        "雪鬼胆": {
+            "key": "goss_harag_bile"
+        },
+        "青熊兽的毛": {
+            "key": "arzuros_pelt"
+        },
+        "青熊兽的刚毛": {
+            "key": "arzuros_pelt_plus"
+        },
+        "青熊兽的甲壳": {
+            "key": "arzuros_shell"
+        },
+        "青熊兽的坚壳": {
+            "key": "arzuros_carapace"
+        },
+        "青熊兽的臂甲": {
+            "key": "arzuros_brace"
+        },
+        "青熊兽的坚臂甲": {
+            "key": "arzuros_brace_plus"
+        },
+        "眠狗龙王的皮": {
+            "key": "great_baggi_hide"
+        },
+        "眠狗龙王的上等皮": {
+            "key": "great_baggi_hide_plus"
+        },
+        "眠狗龙王的爪": {
+            "key": "great_baggi_claw"
+        },
+        "眠狗龙王的尖爪": {
+            "key": "great_baggi_claw_plus"
+        },
+        "白兔兽的毛": {
+            "key": "lagombi_pelt"
+        },
+        "白兔兽的刚毛": {
+            "key": "lagombi_pelt_plus"
+        },
+        "白兔兽的耳": {
+            "key": "lagombi_ear"
+        },
+        "白兔兽的大耳": {
+            "key": "lagombi_ear_plus"
+        },
+        "白兔兽的腹甲": {
+            "key": "lagombi_plastron"
+        },
+        "白兔兽的坚腹甲": {
+            "key": "lagombi_plastron_plus"
+        },
+        "白兔兽的冰爪": {
+            "key": "lagombi_iceclaw"
+        },
+        "白兔兽的冻爪": {
+            "key": "lagombi_frozenclaw"
+        },
+        "富有弹性的皮": {
+            "key": "flabby_hide"
+        },
+        "珍珠色的柔皮": {
+            "key": "pearl_hide"
+        },
+        "白化精华": {
+            "key": "pale_extract"
+        },
+        "白化带肉肋骨": {
+            "key": "pale_bone"
+        },
+        "白化霜降肉": {
+            "key": "pale_steak"
+        },
+        "土砂龙的甲壳": {
+            "key": "barroth_shell"
+        },
+        "土砂龙的坚壳": {
+            "key": "barroth_carapace"
+        },
+        "土砂龙的背甲": {
+            "key": "barroth_ridge"
+        },
+        "土砂龙的坚甲": {
+            "key": "barroth_ridge_plus"
+        },
+        "土砂龙的爪": {
+            "key": "barroth_claw"
+        },
+        "土砂龙的锐爪": {
+            "key": "barroth_claw_plus"
+        },
+        "土砂龙的头壳": {
+            "key": "barroth_scalp"
+        },
+        "土砂龙的尾巴": {
+            "key": "barroth_tail"
+        },
+        "肥沃的泥土": {
+            "key": "fertile_mud"
+        },
+        "毒狗龙王的皮": {
+            "key": "great_wroggi_hide"
+        },
+        "毒狗龙王的上等皮": {
+            "key": "great_wroggi_hide_plus"
+        },
+        "毒狗龙王的腕甲": {
+            "key": "great_wroggi_brace"
+        },
+        "毒狗龙王的坚腕甲": {
+            "key": "great_wroggi_brace_plus"
+        },
+        "王者的喙": {
+            "key": "kings_beak"
+        },
+        "海绵质的皮": {
+            "key": "spongy_hide"
+        },
+        "海绵质的上等皮": {
+            "key": "spongy_hide_plus"
+        },
+        "水兽的鳞": {
+            "key": "royal_ludroth_scale"
+        },
+        "水兽的上等鳞": {
+            "key": "royal_ludroth_scale_plus"
+        },
+        "水兽的爪": {
+            "key": "royal_ludroth_claw"
+        },
+        "水兽的锐爪": {
+            "key": "royal_ludroth_claw_plus"
+        },
+        "水兽的头冠": {
+            "key": "royal_ludroth_crest"
+        },
+        "高级头冠": {
+            "key": "royal_ludroth_crest_plus"
+        },
+        "水兽的尾巴": {
+            "key": "royal_ludroth_tail"
+        },
+        "冰牙龙的甲壳": {
+            "key": "barioth_shell"
+        },
+        "冰牙龙的坚壳": {
+            "key": "barioth_carapace"
+        },
+        "冰牙龙的毛皮": {
+            "key": "barioth_pelt"
+        },
+        "冰牙龙的上等毛皮": {
+            "key": "barioth_pelt_plus"
+        },
+        "冰牙龙的爪": {
+            "key": "barioth_claw"
+        },
+        "冰牙龙的锐爪": {
+            "key": "barioth_claw_plus"
+        },
+        "冰牙龙的棘": {
+            "key": "barioth_spike"
+        },
+        "冰牙龙的尾巴": {
+            "key": "barioth_tail"
+        },
+        "琥珀色的牙": {
+            "key": "amber_fang"
+        },
+        "琥珀色的锐牙": {
+            "key": "amber_fang_plus"
+        },
+        "赤甲兽的甲壳": {
+            "key": "volvidon_shell"
+        },
+        "赤甲兽的坚壳": {
+            "key": "volvi_carapace"
+        },
+        "赤甲兽的爪": {
+            "key": "volvidon_claw"
+        },
+        "赤甲兽的尖爪": {
+            "key": "volvidon_claw_plus"
+        },
+        "赤甲兽的蛇腹甲": {
+            "key": "volvi_rickrack"
+        },
+        "岩龙的甲壳": {
+            "key": "basarios_shell"
+        },
+        "岩龙的坚壳": {
+            "key": "basarios_carapace"
+        },
+        "岩龙的翼": {
+            "key": "basarios_wing"
+        },
+        "岩龙的泪": {
+            "key": "basarios_tears"
+        },
+        "迅龙的鳞": {
+            "key": "nargacuga_scale"
+        },
+        "迅龙的上等鳞": {
+            "key": "nargacuga_scale_plus"
+        },
+        "迅龙的黑毛": {
+            "key": "nargacuga_blackfur"
+        },
+        "迅龙的上等黑毛": {
+            "key": "nargacuga_pelt_plus"
+        },
+        "迅龙的尾巴": {
+            "key": "nargacuga_tail"
+        },
+        "迅龙的尾棘": {
+            "key": "narga_tailspike"
+        },
+        "迅龙的刃翼": {
+            "key": "nargacuga_cutwing"
+        },
+        "迅龙的锐刃翼": {
+            "key": "narga_razor"
+        },
+        "迅龙的牙": {
+            "key": "nargacuga_fang"
+        },
+        "迅龙的锐牙": {
+            "key": "nargacuga_fang_plus"
+        },
+        "迅龙的骨髓": {
+            "key": "nargacuga_marrow"
+        },
+        "迅龙的延髓": {
+            "key": "narga_medulla"
+        },
+        "雌火龙的上等鳞": {
+            "key": "rathian_scale_plus"
+        },
+        "雌火龙的坚壳": {
+            "key": "rathian_carapace"
+        },
+        "雌火龙的上等棘": {
+            "key": "rathian_spike_plus"
+        },
+        "雌火龙的红玉": {
+            "key": "rathian_ruby"
+        },
+        "雷狼龙的坚壳": {
+            "key": "zinogre_carapace"
+        },
+        "雷狼龙的高电毛": {
+            "key": "zinogre_electrofur"
+        },
+        "雷狼龙的尖角": {
+            "key": "zinogre_horn_plus"
+        },
+        "雷狼龙的尖爪": {
+            "key": "zinogre_claw_plus"
+        },
+        "雷狼龙的高电壳": {
+            "key": "zinogre_shocker_plus"
+        },
+        "雷狼龙的碧玉": {
+            "key": "zinogre_jasper"
+        },
+        "泡狐龙的上等鳞": {
+            "key": "mizutsune_scale_plus"
+        },
+        "泡狐龙的上等紫毛": {
+            "key": "mizutsune_purplefur_plus"
+        },
+        "泡狐龙的尖爪": {
+            "key": "mizutsune_claw_plus"
+        },
+        "泡狐龙的上等锦鳍": {
+            "key": "mizutsune_fin_plus"
+        },
+        "上等起泡滑液": {
+            "key": "bubblefoam_plus"
+        },
+        "泡狐龙的水玉": {
+            "key": "mizutsune_water_orb"
+        },
+        "火龙的上等鳞": {
+            "key": "rathalos_scale_plus"
+        },
+        "火龙的坚壳": {
+            "key": "rathalos_carapace"
+        },
+        "火龙的翼": {
+            "key": "rathalos_wing"
+        },
+        "火龙的红玉": {
+            "key": "rathalos_ruby"
+        },
+        "弯曲角": {
+            "key": "twisted_horn"
+        },
+        "优质的弯曲角": {
+            "key": "majestic_horn"
+        },
+        "角龙的甲壳": {
+            "key": "diablos_shell"
+        },
+        "角龙的坚壳": {
+            "key": "diablos_carapace"
+        },
+        "角龙的背甲": {
+            "key": "diablos_ridge"
+        },
+        "角龙的坚甲": {
+            "key": "diablos_ridge_plus"
+        },
+        "角龙的尾甲": {
+            "key": "diablos_tailcase"
+        },
+        "角龙的牙": {
+            "key": "diablos_fang"
+        },
+        "角龙的骨髓": {
+            "key": "diablos_marrow"
+        },
+        "角龙的延髓": {
+            "key": "diablos_medulla"
+        },
+        "轰龙的鳞": {
+            "key": "tigrex_scale"
+        },
+        "轰龙的上等鳞": {
+            "key": "tigrex_scale_plus"
+        },
+        "轰龙的甲壳": {
+            "key": "tigrex_shell"
+        },
+        "轰龙的坚壳": {
+            "key": "tigrex_carapace"
+        },
+        "轰龙的尾巴": {
+            "key": "tigrex_tail"
+        },
+        "轰龙的爪": {
+            "key": "tigrex_claw"
+        },
+        "轰龙的尖爪": {
+            "key": "tigrex_claw_plus"
+        },
+        "轰龙的牙": {
+            "key": "tigrex_fang"
+        },
+        "轰龙的锐牙": {
+            "key": "tigrex_fang_plus"
+        },
+        "轰龙的头壳": {
+            "key": "tigrex_scalp"
+        },
+        "轰龙的颚": {
+            "key": "tigrex_maw"
+        },
+        "金狮子的尖角": {
+            "key": "rajang_horn_plus"
+        },
+        "金狮子的锐牙": {
+            "key": "rajang_fang_plus"
+        },
+        "金狮子的黑毛": {
+            "key": "rajang_blackfur"
+        },
+        "金狮子的尖爪": {
+            "key": "rajang_claw_plus"
+        },
+        "金狮子的尾巴": {
+            "key": "rajang_tail"
+        },
+        "黄金色的毛": {
+            "key": "gold_rajang_pelt"
+        },
+        "精灵鹿角": {
+            "key": "kelbi_horn"
+        },
+        "雪鹿的角": {
+            "key": "anteka_antler"
+        },
+        "硬甲龙的甲壳": {
+            "key": "rhenoplos_shell"
+        },
+        "硬甲龙的坚壳": {
+            "key": "rhenoplos_carapace"
+        },
+        "硬甲龙的头壳": {
+            "key": "rhenoplos_scalp"
+        },
+        "垂皮龙的皮": {
+            "key": "slagtoth_hide"
+        },
+        "垂皮龙的上等皮": {
+            "key": "slagtoth_hide_plus"
+        },
+        "丸鸟的羽": {
+            "key": "gargwa_feather"
+        },
+        "飞甲虫的甲壳": {
+            "key": "bnahabra_shell"
+        },
+        "飞甲虫的坚壳": {
+            "key": "bnahabra_carapace"
+        },
+        "飞甲虫的羽": {
+            "key": "bnahabra_wing"
+        },
+        "飞甲虫的麻痹针": {
+            "key": "bnahabra_stinger"
+        },
+        "甲虫的大颚": {
+            "key": "altaroth_jaw"
+        },
+        "甲虫的腹袋": {
+            "key": "altaroth_stomach"
+        },
+        "优质的腹袋": {
+            "key": "quality_stomach"
+        },
+        "野猪的毛皮": {
+            "key": "bullfango_pelt"
+        },
+        "野猪的上等毛皮": {
+            "key": "bullfango_pelt_plus"
+        },
+        "野猪的头": {
+            "key": "bullfango_head"
+        },
+        "咬鱼的皮": {
+            "key": "gajau_skin"
+        },
+        "咬鱼的须": {
+            "key": "gajau_whisker"
+        },
+        "咬鱼的上等皮": {
+            "key": "gajau_scale"
+        },
+        "咬鱼的上等须": {
+            "key": "gajau_whisker_plus"
+        },
+        "狗龙的鳞": {
+            "key": "jaggi_scale"
+        },
+        "狗龙的上等鳞": {
+            "key": "jaggi_scale_plus"
+        },
+        "狗龙的皮": {
+            "key": "jaggi_hide"
+        },
+        "眠狗龙的皮": {
+            "key": "baggi_hide"
+        },
+        "眠狗龙的鳞": {
+            "key": "baggi_scale"
+        },
+        "眠狗龙的上等鳞": {
+            "key": "baggi_scale_plus"
+        },
+        "毒狗龙的鳞": {
+            "key": "wroggi_scale"
+        },
+        "毒狗龙的上等鳞": {
+            "key": "wroggi_scale_plus"
+        },
+        "毒狗龙的皮": {
+            "key": "wroggi_hide"
+        },
+        "毒狗龙的毒牙": {
+            "key": "wroggi_fang"
+        },
+        "冠突龙的甲壳": {
+            "key": "kestodon_shell"
+        },
+        "冠突龙的头壳": {
+            "key": "kestodon_scalp"
+        },
+        "冠突龙的坚壳": {
+            "key": "kestodon_carapace"
+        },
+        "水生兽的皮": {
+            "key": "hydro_hide"
+        },
+        "水生兽的上等皮": {
+            "key": "hydro_hide_plus"
+        },
+        "未成熟的海绵质": {
+            "key": "immature_sponge"
+        },
+        "熔岩兽的鳞": {
+            "key": "uroktor_scale"
+        },
+        "熔岩兽的上等鳞": {
+            "key": "uroktor_scale_plus"
+        },
+        "宽大的鳍": {
+            "key": "big_fin"
+        },
+        "优质的鳍": {
+            "key": "quality_fin"
+        },
+        "厚实的皮": {
+            "key": "meaty_hide"
+        },
+        "厚实的上等皮": {
+            "key": "meaty_hide_plus"
+        },
+        "鲛肌的鳞": {
+            "key": "sharqskin_scale"
+        },
+        "翼蛇龙的皮": {
+            "key": "remobra_hide"
+        },
+        "翼蛇龙的上等皮": {
+            "key": "remobra_hide_plus"
+        },
+        "条纹花样的皮": {
+            "key": "striped_hide"
+        },
+        "翼蛇龙的头": {
+            "key": "remobra_head"
+        },
+        "贼龙的鳞": {
+            "key": "jagras_scale"
+        },
+        "贼龙的皮": {
+            "key": "jagras_hide"
+        },
+        "贼龙的上等鳞": {
+            "key": "jagras_scale_plus"
+        },
+        "贼龙的上等皮": {
+            "key": "jagras_hide_plus"
+        },
+        "龙骨【小】": {
+            "key": "monster_bone_s"
+        },
+        "龙骨【中】": {
+            "key": "monster_bone_m"
+        },
+        "龙骨【大】": {
+            "key": "monster_bone_l"
+        },
+        "上等龙骨": {
+            "key": "monster_bone_plus"
+        },
+        "尖龙骨": {
+            "key": "monster_keenbone"
+        },
+        "坚龙骨": {
+            "key": "monster_hardbone"
+        },
+        "古龙骨": {
+            "key": "elder_dragon_bone"
+        },
+        "巨大的骨": {
+            "key": "jumbo_bone"
+        },
+        "坚固的骨": {
+            "key": "stoutbone"
+        },
+        "鸟龙玉": {
+            "key": "bird_wyvern_gem"
+        },
+        "龙玉": {
+            "key": "wyvern_gem"
+        },
+        "尖爪": {
+            "key": "sharp_claw"
+        },
+        "尖牙": {
+            "key": "sharp_fang"
+        },
+        "锐利爪": {
+            "key": "piercing_claw"
+        },
+        "温暖的毛皮": {
+            "key": "warm_pelt"
+        },
+        "优质的毛皮": {
+            "key": "high-quality_pelt"
+        },
+        "古龙的血": {
+            "key": "elder_dragon_blood"
+        },
+        "鸣袋": {
+            "key": "screamer_sac"
+        },
+        "毒袋": {
+            "key": "poison_sac"
+        },
+        "猛毒袋": {
+            "key": "toxin_sac"
+        },
+        "麻痹袋": {
+            "key": "paralysis_sac"
+        },
+        "强力麻痹袋": {
+            "key": "omniplegia_sac"
+        },
+        "睡眠袋": {
+            "key": "sleep_sac"
+        },
+        "昏睡袋": {
+            "key": "coma_sac"
+        },
+        "爆炎袋": {
+            "key": "inferno_sac"
+        },
+        "电袋": {
+            "key": "electro_sac"
+        },
+        "电击袋": {
+            "key": "thunder_sac"
+        },
+        "冰结袋": {
+            "key": "frost_sac"
+        },
+        "冻结袋": {
+            "key": "freezer_sac"
+        },
+        "水袋": {
+            "key": "aqua_sac"
+        },
+        "大水袋": {
+            "key": "torrent_sac"
+        },
+        "怪物体液": {
+            "key": "monster_fluid"
+        },
+        "怪物浓液": {
+            "key": "monster_broth"
+        },
+        "狂奔精华": {
+            "key": "dash_extract"
+        },
+        "肉球印章": {
+            "key": "pawprint_stamp"
+        },
+        "猫毛红玉": {
+            "key": "felyne_fur_ruby"
+        },
+        "火龙的翼爪": {
+            "key": "rath_wingtalon"
+        },
+        "火龙的延髓": {
+            "key": "rathalos_medulla"
+        },
+        "雷狼龙的角": {
+            "key": "zinogre_horn"
+        },
+        "雷狼龙的尾巴": {
+            "key": "zinogre_tail"
+        },
+        "超电雷光虫": {
+            "key": "fulgurbug"
+        },
+        "泡狐龙的锦鳍": {
+            "key": "mizutsune_fin"
+        },
+        "泡狐龙的尾巴": {
+            "key": "mizutsune_tail"
+        },
+        "火龙的尾巴": {
+            "key": "rathalos_tail"
+        },
+        "半生肉": {
+            "key": "rare_steak"
+        },
+        "烤焦的肉": {
+            "key": "burnt_meat"
+        },
+        "远古秘药": {
+            "key": "ancient_potion"
+        },
+        "生命大粉尘": {
+            "key": "dust_of_life"
+        },
+        "烤熟的鱼": {
+            "key": "gourmet_fish"
+        },
+        "刺身鱼": {
+            "key": "sushifish"
+        },
+        "活力剂": {
+            "key": "immunizer"
+        },
+        "携带食料": {
+            "key": "ration"
+        },
+        "强走药": {
+            "key": "dash_juice"
+        },
+        "解毒草": {
+            "key": "antidote_herb"
+        },
+        "汉方药": {
+            "key": "herbal_medicine"
+        },
+        "汉方粉尘": {
+            "key": "herbal_powder"
+        },
+        "鬼人药": {
+            "key": "demondrug"
+        },
+        "鬼人药G": {
+            "key": "mega_demondrug"
+        },
+        "怪力种子": {
+            "key": "might_seed"
+        },
+        "鬼人粉尘": {
+            "key": "demon_powder"
+        },
+        "力量之爪": {
+            "key": "powertalon"
+        },
+        "硬化药": {
+            "key": "armorskin"
+        },
+        "硬化药G": {
+            "key": "mega_armorskin"
+        },
+        "忍耐种子": {
+            "key": "adamant_seed"
+        },
+        "硬化粉尘": {
+            "key": "hardshell_powder"
+        },
+        "守护之爪": {
+            "key": "armortalon"
+        },
+        "大桶爆弹G": {
+            "key": "mega_barrel_bomb"
+        },
+        "毒生肉": {
+            "key": "poisoned_meat"
+        },
+        "麻痹生肉": {
+            "key": "tinged_meat"
+        },
+        "睡眠生肉": {
+            "key": "drugged_meat"
+        },
+        "回归球": {
+            "key": "farcaster"
+        },
+        "毒烟雾球": {
+            "key": "poison_smoke_bomb"
+        },
+        "音爆弹": {
+            "key": "sonic_bomb"
+        },
+        "捕获用麻醉球": {
+            "key": "tranq_bomb"
+        },
+        "毒苦无": {
+            "key": "poison_kunai"
+        },
+        "睡眠苦无": {
+            "key": "sleep_kunai"
+        },
+        "麻痹苦无": {
+            "key": "paralysis_kunai"
+        },
+        "磨刀鲹鱼": {
+            "key": "whetfish"
+        },
+        "补给专用携带食料": {
+            "key": "ez_ration"
+        },
+        "应急药": {
+            "key": "first-aid_med"
+        },
+        "应急药G": {
+            "key": "first-aid_med_plus"
+        },
+        "补给专用秘药": {
+            "key": "ez_max_potion"
+        },
+        "补给专用生命粉尘": {
+            "key": "ez_lifepowder"
+        },
+        "补给专用大粉尘": {
+            "key": "ez_dust_of_life"
+        },
+        "补给专用汉方粉尘": {
+            "key": "ez_herbal_powder"
+        },
+        "补给专用鬼人粉尘": {
+            "key": "ez_demon_powder"
+        },
+        "补给专用硬化粉尘": {
+            "key": "ez_hardshell_powder"
+        },
+        "补给专用麻痹陷阱": {
+            "key": "ez_shock_trap"
+        },
+        "补给专用落穴陷阱": {
+            "key": "ez_pitfall_trap"
+        },
+        "补给专用大桶爆弹": {
+            "key": "ez_large_barrel_bomb"
+        },
+        "补给专用音爆弹": {
+            "key": "ez_screamer_pod"
+        },
+        "补给专用闪光球": {
+            "key": "ez_flash_bomb"
+        },
+        "补给专用回归球": {
+            "key": "ez_farcaster"
+        },
+        "补给专用麻醉球": {
+            "key": "ez_tranq_bomb"
+        },
+        "贪吃鲔鱼": {
+            "key": "gastronome_tuna"
+        },
+        "贪吃鲔鱼王": {
+            "key": "great_gastronome_tuna"
+        },
+        "镰鼬龙王的毛": {
+            "key": "great_izuchi_pelt"
+        },
+        "镰鼬龙王的皮": {
+            "key": "great_izuchi_hide"
+        },
+        "镰鼬龙王的刃尾": {
+            "key": "great_izuchi_tail"
+        },
+        "镰鼬龙王的上等毛": {
+            "key": "great_izuchi_pelt_plus"
+        },
+        "镰鼬龙王的上等皮": {
+            "key": "great_izuchi_hide_plus"
+        },
+        "镰鼬龙王上等刃尾": {
+            "key": "great_izuchi_tail_plus"
+        },
+        "镰鼬龙的毛": {
+            "key": "izuchi_pelt"
+        },
+        "镰鼬龙的刃尾": {
+            "key": "izuchi_tail"
+        },
+        "镰鼬龙的刚毛": {
+            "key": "izuchi_pelt_plus"
+        },
+        "伞鸟的上等鳞": {
+            "key": "aknosom_scale_plus"
+        },
+        "伞鸟的上等羽鳞": {
+            "key": "aknosom_feather_plus"
+        },
+        "伞鸟的大头冠": {
+            "key": "aknosom_crest_plus"
+        },
+        "漂亮的尻子玉": {
+            "key": "shiny_nacre"
+        },
+        "河童蛙的上等皮": {
+            "key": "tetranadon_hide_plus"
+        },
+        "河童蛙的苔坚甲": {
+            "key": "tetra_carapace_plus"
+        },
+        "河童蛙的大碟": {
+            "key": "tetranadon_disc_plus"
+        },
+        "河童蛙的大嘴": {
+            "key": "tetranadon_beak_plus"
+        },
+        "天狗兽的毛": {
+            "key": "bishaten_fur"
+        },
+        "天狗兽的冠帽": {
+            "key": "bishaten_horn"
+        },
+        "天狗兽的臂羽": {
+            "key": "bishaten_feather"
+        },
+        "天狗兽的尾甲": {
+            "key": "bisha_tailcase"
+        },
+        "天狗兽的爪": {
+            "key": "bishaten_talon"
+        },
+        "腐毒柿子": {
+            "key": "poisonfruit"
+        },
+        "麻辣柿子": {
+            "key": "parafruit"
+        },
+        "发光柿子": {
+            "key": "flashfruit"
+        },
+        "天狗兽的刚毛": {
+            "key": "bishaten_fur_plus"
+        },
+        "天狗兽的坚冠帽": {
+            "key": "bishaten_horn_plus"
+        },
+        "天狗兽的上等臂羽": {
+            "key": "bishaten_feather_plus"
+        },
+        "天狗兽的坚尾甲": {
+            "key": "bishaten_tailcase_plus"
+        },
+        "天狗兽的尖爪": {
+            "key": "bishaten_talon_plus"
+        },
+        "人鱼龙的上等鳞": {
+            "key": "somnacanth_scale_plus"
+        },
+        "人鱼龙的坚壳": {
+            "key": "somnacanth_shell_plus"
+        },
+        "人鱼龙的尖钩爪": {
+            "key": "somnacanth_talon_plus"
+        },
+        "人鱼龙的怒发鳍": {
+            "key": "somnacanth_fin_plus"
+        },
+        "人鱼龙的假寐粉": {
+            "key": "somnacanth_sedative"
+        },
+        "怨虎龙的上等鳞": {
+            "key": "magnamalo_scale_plus"
+        },
+        "怨虎龙的坚壳": {
+            "key": "magnamalo_shell_plus"
+        },
+        "怨虎龙的妖臂刃": {
+            "key": "magnamalo_blade_plus"
+        },
+        "怨虎龙的刚盔角": {
+            "key": "magnamalo_horn_plus"
+        },
+        "怨虎龙的妖刀壳": {
+            "key": "magnamalo_scute_plus"
+        },
+        "怨虎龙的紫玉": {
+            "key": "purple_magna_orb"
+        },
+        "怨虎龙的魂结晶": {
+            "key": "magna_soulprism"
+        },
+        "泥翁龙的上等鳞": {
+            "key": "almudron_scale_plus"
+        },
+        "泥翁龙的坚壳": {
+            "key": "almudron_shell_plus"
+        },
+        "泥翁龙的尖爪": {
+            "key": "almudron_claw_plus"
+        },
+        "泥翁龙的刚毛鳍": {
+            "key": "almudron_fin_plus"
+        },
+        "泥翁龙的长胡须": {
+            "key": "almudron_whisker_plus"
+        },
+        "泥翁龙的黄玉": {
+            "key": "golden_almudron_orb"
+        },
+        "黄金色的粘泥土": {
+            "key": "golden_sludge"
+        },
+        "雪鬼兽的刚毛": {
+            "key": "goss_harag_fur_plus"
+        },
+        "雪鬼兽的上等皮": {
+            "key": "goss_harag_hide_plus"
+        },
+        "雪鬼兽的坚臂甲": {
+            "key": "goss_harag_brace_plus"
+        },
+        "雪鬼兽的尖角": {
+            "key": "goss_harag_horn_plus"
+        },
+        "雪鬼兽的尖拳爪": {
+            "key": "goss_harag_claw_plus"
+        },
+        "寒冷的坚冰块": {
+            "key": "block_of_ice_plus"
+        },
+        "妃蜘蛛的坚壳": {
+            "key": "rakna-kadaki_carapace"
+        },
+        "妃蜘蛛的绢丝": {
+            "key": "rakna-kadaki_silk"
+        },
+        "妃蜘蛛的灯腹": {
+            "key": "rakna-kadaki_glowgut"
+        },
+        "妃蜘蛛的锐爪": {
+            "key": "rakna-kadaki_sharpclaw"
+        },
+        "妃蜘蛛的钩棘": {
+            "key": "rakna-kadaki_spike"
+        },
+        "风神龙的坚壳": {
+            "key": "ibushi_carapace"
+        },
+        "风神龙的上等皮": {
+            "key": "ibushi_hide_plus"
+        },
+        "风神龙的尖角": {
+            "key": "ibushi_horn_plus"
+        },
+        "风神龙的尖爪": {
+            "key": "ibushi_claw_plus"
+        },
+        "风神龙的风袋": {
+            "key": "ibushi_windsac"
+        },
+        "风神龙的碧棘": {
+            "key": "ibushi_bluespike"
+        },
+        "风神的龙玉": {
+            "key": "wind_serpent_orb"
+        },
+        "雷神龙的坚壳": {
+            "key": "narwa_carapace"
+        },
+        "雷神龙的上等皮": {
+            "key": "narwa_hide_plus"
+        },
+        "雷神龙的尖角": {
+            "key": "narwa_horn_plus"
+        },
+        "雷神龙的尖爪": {
+            "key": "narwa_claw_plus"
+        },
+        "雷神龙的雷袋": {
+            "key": "narwa_sparksac"
+        },
+        "雷神龙的触手": {
+            "key": "narwa_tentacle"
+        },
+        "雷神的龙玉": {
+            "key": "thunder_serpent_orb"
+        },
+        "霸主的熊掌": {
+            "key": "apex_beastclaw"
+        },
+        "霸主的起泡滑液": {
+            "key": "apex_bubblefoam"
+        },
+        "霸主的尸毒棘": {
+            "key": "apex_venom_spike"
+        },
+        "狸兽的引火液": {
+            "key": "bombadgy_igniter"
+        },
+        "臣蜘蛛的丝": {
+            "key": "rachnoid_silk"
+        },
+        "臣蜘蛛的绢丝": {
+            "key": "rachnoid_silk_plus"
+        },
+        "飞雷龙的鳞": {
+            "key": "tobi-kadachi_scale"
+        },
+        "飞雷龙的上等鳞": {
+            "key": "tobi-kadachi_scale_plus"
+        },
+        "飞雷龙的毛皮": {
+            "key": "tobi-kadachi_pelt"
+        },
+        "飞雷龙的上等毛皮": {
+            "key": "tobi-kadachi_pelt_plus"
+        },
+        "飞雷龙的皮膜": {
+            "key": "tobi-kadachi_membrane"
+        },
+        "飞雷龙的爪": {
+            "key": "tobi-kadachi_claw"
+        },
+        "飞雷龙的尖爪": {
+            "key": "tobi-kadachi_claw_plus"
+        },
+        "飞雷龙的电极针": {
+            "key": "tobi-kadachi_electrode"
+        },
+        "飞雷龙的雷极针": {
+            "key": "tobi-kadachi_electrode_plus"
+        },
+        "泥鱼龙的上等鳞": {
+            "key": "jyuratodus_scale_plus"
+        },
+        "泥鱼龙的坚壳": {
+            "key": "jyuratodus_carapace"
+        },
+        "泥鱼龙的锐牙": {
+            "key": "jyuratodus_fang_plus"
+        },
+        "泥鱼龙的上等鳍": {
+            "key": "jyuratodus_fin_plus"
+        },
+        "怪异的牙": {
+            "key": "suspicious_fang"
+        },
+        "怪异的锐牙": {
+            "key": "suspicious_fang_plus"
+        },
+        "搔鸟的鳞": {
+            "key": "kulu-ya-ku_scale"
+        },
+        "搔鸟的上等鳞": {
+            "key": "kulu-ya-ku_scale_plus"
+        },
+        "搔鸟的皮": {
+            "key": "kulu-ya-ku_hide"
+        },
+        "搔鸟的上等皮": {
+            "key": "kulu-ya-ku_hide_plus"
+        },
+        "搔鸟的喙": {
+            "key": "kulu-ya-ku_beak"
+        },
+        "搔鸟的大喙": {
+            "key": "kulu-ya-ku_beak_plus"
+        },
+        "搔鸟的饰羽": {
+            "key": "kulu-ya-ku_plume"
+        },
+        "搔鸟的大饰羽": {
+            "key": "kulu-ya-ku_plume_plus"
+        },
+        "毒妖鸟的鳞": {
+            "key": "pukei-pukei_scale"
+        },
+        "毒妖鸟的上等鳞": {
+            "key": "pukei-pukei_scale_plus"
+        },
+        "毒妖鸟的甲壳": {
+            "key": "pukei-pukei_shell"
+        },
+        "毒妖鸟的坚壳": {
+            "key": "pukei-pukei_carapace"
+        },
+        "毒妖鸟的羽毛": {
+            "key": "pukei-pukei_quill"
+        },
+        "毒妖鸟的翼": {
+            "key": "pukei-pukei_wing"
+        },
+        "毒妖鸟的喉袋": {
+            "key": "pukei-pukei_sac"
+        },
+        "毒妖鸟的大喉袋": {
+            "key": "pukei-pukei_sac_plus"
+        },
+        "毒妖鸟的尾巴": {
+            "key": "pukei-pukei_tail"
+        },
+        "蛮颚龙的上等鳞": {
+            "key": "anjanath_scale_plus"
+        },
+        "蛮颚龙的上等毛皮": {
+            "key": "anjanath_pelt_plus"
+        },
+        "蛮颚龙的锐牙": {
+            "key": "anjanath_fang_plus"
+        },
+        "蛮颚龙的大鼻骨": {
+            "key": "anjanath_nosebone_plus"
+        },
+        "蛮颚龙的宝玉": {
+            "key": "anjanath_gem"
+        },
+        "巨大的硬骨": {
+            "key": "massive_bone"
+        },
+        "坚硬的巨骨": {
+            "key": "great_stoutbone"
+        },
+        "丰沃的泥": {
+            "key": "rich_mud"
+        },
+        "雌火龙的余料": {
+            "key": "rathian_scrap"
+        },
+        "雌火龙的上等余料": {
+            "key": "rathian_scrap_plus"
+        },
+        "火龙的余料": {
+            "key": "rathalos_scrap"
+        },
+        "火龙的上等余料": {
+            "key": "rathalos_scrap_plus"
+        },
+        "雷狼龙的余料": {
+            "key": "zinogre_scrap"
+        },
+        "雷狼龙的上等余料": {
+            "key": "zinogre_scrap_plus"
+        },
+        "青熊兽的余料": {
+            "key": "arzuros_scrap"
+        },
+        "青熊兽的上等余料": {
+            "key": "arzuros_scrap_plus"
+        },
+        "眠狗龙王的余料": {
+            "key": "baggi_scrap"
+        },
+        "眠狗龙王的上等余料": {
+            "key": "baggi_scrap_plus"
+        },
+        "白兔兽的余料": {
+            "key": "lagombi_scrap"
+        },
+        "白兔兽的上等余料": {
+            "key": "lagombi_scrap_plus"
+        },
+        "土砂龙的余料": {
+            "key": "barroth_scrap"
+        },
+        "土砂龙的上等余料": {
+            "key": "barroth_scrap_plus"
+        },
+        "毒狗龙王的余料": {
+            "key": "wroggi_scrap"
+        },
+        "毒狗龙王的上等余料": {
+            "key": "wroggi_scrap_plus"
+        },
+        "水兽的余料": {
+            "key": "royal_ludroth_scrap"
+        },
+        "水兽的上等余料": {
+            "key": "royal_ludroth_scrap_plus"
+        },
+        "冰牙龙的余料": {
+            "key": "barioth_scrap"
+        },
+        "冰牙龙的上等余料": {
+            "key": "barioth_scrap_plus"
+        },
+        "赤甲兽的余料": {
+            "key": "volvidon_scrap"
+        },
+        "赤甲兽的上等余料": {
+            "key": "volvidon_scrap_plus"
+        },
+        "岩龙的余料": {
+            "key": "basarios_scrap"
+        },
+        "岩龙的上等余料": {
+            "key": "basarios_scrap_plus"
+        },
+        "迅龙的余料": {
+            "key": "nargacuga_scrap"
+        },
+        "迅龙的上等余料": {
+            "key": "nargacuga_scrap_plus"
+        },
+        "硝化伞菇": {
+            "key": "nitroshroom"
+        },
+        "麻痹菇": {
+            "key": "parashroom"
+        },
+        "毒菇": {
+            "key": "toadstool"
+        },
+        "心跳加速菇": {
+            "key": "exciteshroom"
+        },
+        "曼陀罗": {
+            "key": "mandragora"
+        },
+        "结冰金属": {
+            "key": "icium"
+        },
+        "雪光金属": {
+            "key": "gracium"
+        },
+        "光水晶": {
+            "key": "lightcrystal"
+        },
+        "璀璨水晶": {
+            "key": "novacrystal"
+        },
+        "红莲石": {
+            "key": "firestone"
+        },
+        "狱炎石": {
+            "key": "firecell_stone"
+        },
+        "灵鹤石": {
+            "key": "carbalite_ore"
+        },
+        "白鸠石": {
+            "key": "fucium_ore"
+        },
+        "苦虫": {
+            "key": "bitterbug"
+        },
+        "光虫": {
+            "key": "flashbug"
+        },
+        "雷光虫": {
+            "key": "thunderbug"
+        },
+        "火药草": {
+            "key": "fire_herb"
+        },
+        "常春藤叶": {
+            "key": "ivy"
+        },
+        "眠草": {
+            "key": "sleep_herb"
+        },
+        "霜降草": {
+            "key": "snow_herb"
+        },
+        "流水草": {
+            "key": "flowfern"
+        },
+        "落阳草": {
+            "key": "sunscorned_grass"
+        },
+        "落阳草的花": {
+            "key": "gloamgrass_bud"
+        },
+        "木天蓼": {
+            "key": "felvine"
+        },
+        "烟果实": {
+            "key": "smokenut"
+        },
+        "屠龙果实": {
+            "key": "dragonfell_berry"
+        },
+        "空心果实": {
+            "key": "huskberry"
+        },
+        "针果实": {
+            "key": "needleberry"
+        },
+        "扩散果实": {
+            "key": "bomberry"
+        },
+        "爆裂果实": {
+            "key": "blastnut"
+        },
+        "龙击果实": {
+            "key": "dragonstrike_nut"
+        },
+        "斩裂果实": {
+            "key": "slashberry"
+        },
+        "硬质骨头": {
+            "key": "sturdy_bone"
+        },
+        "扭曲怪骨": {
+            "key": "twisted_remains"
+        },
+        "残缺龙骨": {
+            "key": "dragonhusk_shard"
+        },
+        "埋藏的骨骸": {
+            "key": "eroded_skeleton"
+        },
+        "良质硬骨": {
+            "key": "quality_bone"
+        },
+        "古老龙骨": {
+            "key": "dragonbone_relic"
+        },
+        "扭曲的坚怪骨": {
+            "key": "twisted_rockbone"
+        },
+        "埋藏的龙骨骸": {
+            "key": "eroded_husk"
+        },
+        "蜘蛛网": {
+            "key": "spider_web"
+        },
+        "炸药": {
+            "key": "gunpowder"
+        },
+        "木桶盖": {
+            "key": "barrel_lid"
+        },
+        "珍品菇": {
+            "key": "pricey_shroom"
+        },
+        "火球酸浆": {
+            "key": "firelantern"
+        },
+        "狐火酸浆": {
+            "key": "wisplantern"
+        },
+        "幽炎酸浆": {
+            "key": "phantolantern"
+        },
+        "特产竹笋": {
+            "key": "super_shoot"
+        },
+        "严选竹笋": {
+            "key": "choice_shoot"
+        },
+        "珍品竹笋": {
+            "key": "pricey_shoot"
+        },
+        "寒冷冻松果": {
+            "key": "cool_frostcone"
+        },
+        "冰冷冻松果": {
+            "key": "gelid_frostcone"
+        },
+        "极寒冻松果": {
+            "key": "bitter_frostcone"
+        },
+        "木筏牡蛎": {
+            "key": "raftshell"
+        },
+        "船艇牡蛎": {
+            "key": "boatshell"
+        },
+        "军舰牡蛎": {
+            "key": "shipshell"
+        },
+        "异国金币": {
+            "key": "foreign_coin"
+        },
+        "皇家金币": {
+            "key": "royal_mint_coin"
+        },
+        "隐秘金币": {
+            "key": "mysterious_coin"
+        },
+        "朴素彩水晶": {
+            "key": "simple_prism"
+        },
+        "湿润彩水晶": {
+            "key": "misty_prism"
+        },
+        "瀑布彩水晶": {
+            "key": "cascade_prism"
+        },
+        "贪食猪笼草": {
+            "key": "hearty_pitcher"
+        },
+        "美食猪笼草": {
+            "key": "gourmet_pitcher"
+        },
+        "三星猪笼草": {
+            "key": "tripoint_pitcher"
+        },
+        "皇家独角仙": {
+            "key": "royal_rhino"
+        },
+        "王者独角仙": {
+            "key": "king_rhino"
+        },
+        "神圣独角仙": {
+            "key": "divine_rhino"
+        },
+        "小颗仙人掌": {
+            "key": "bauble_cactus"
+        },
+        "大颗仙人掌": {
+            "key": "jewel_cactus"
+        },
+        "国王仙人掌": {
+            "key": "kingly_cactus"
+        },
+        "热带草莓": {
+            "key": "tropical_berry"
+        },
+        "灼热草莓": {
+            "key": "desert_berry"
+        },
+        "焦热草莓": {
+            "key": "lava_berry"
+        },
+        "沙石蔷薇": {
+            "key": "sand_rose"
+        },
+        "巨岩蔷薇": {
+            "key": "rock_rose"
+        },
+        "大地蔷薇": {
+            "key": "gaia_rose"
+        },
+        "燃石炭": {
+            "key": "coal"
+        },
+        "强燃石炭": {
+            "key": "volatile_coal"
+        },
+        "最强燃石炭": {
+            "key": "inflammable_coal"
+        },
+        "玉髓化的龙骨片": {
+            "key": "chalcedony_bone"
+        },
+        "玉髓化的龙大骨": {
+            "key": "chalcedony_greatbone"
+        },
+        "玉髓化的龙头骨": {
+            "key": "chalcedony_skull"
+        },
+        "铋石": {
+            "key": "bismuth_fragment"
+        },
+        "铋光石": {
+            "key": "bismuth_prism"
+        },
+        "铋辉石": {
+            "key": "bismuth_augite"
+        },
+        "龙蛋": {
+            "key": "wyvern_egg"
+        },
+        "优质龙蛋": {
+            "key": "quality_wyvern_egg"
+        },
+        "冰结化石": {
+            "key": "frost_fossil"
+        },
+        "大冰结化石": {
+            "key": "big_frost_fossil"
+        },
+        "硬甲龙的蛋": {
+            "key": "herbivore_egg"
+        },
+        "硬甲龙的优质蛋": {
+            "key": "rhenoplos_egg_plus"
+        },
+        "大王香花": {
+            "key": "laffresia"
+        },
+        "甜蜜大王香花": {
+            "key": "alaffresia"
+        },
+        "铋结晶": {
+            "key": "bismuth_chunk"
+        },
+        "大块铋结晶": {
+            "key": "big_bismuth_chunk"
+        },
+        "大磨刀鲹鱼": {
+            "key": "great_whetfish"
+        },
+        "着火鲣鱼": {
+            "key": "combustuna"
+        },
+        "大着火鲣鱼": {
+            "key": "big_combustuna"
+        },
+        "发火旗鱼": {
+            "key": "flamefin"
+        },
+        "大发火旗鱼": {
+            "key": "great_flamefin"
+        },
+        "扩散金鱼": {
+            "key": "scatterfish"
+        },
+        "小金鱼": {
+            "key": "goldenfry"
+        },
+        "旗鱼": {
+            "key": "speartuna"
+        },
+        "赤金鱼": {
+            "key": "crimsonfish"
+        },
+        "黄金鱼": {
+            "key": "goldenfish"
+        },
+        "白金鱼": {
+            "key": "platinumfish"
+        },
+        "锦鱼": {
+            "key": "brocadefish"
+        },
+        "王锦鱼": {
+            "key": "king_brocadefish"
+        },
+        "大王锦鱼": {
+            "key": "supreme_brocadefish"
+        },
+        "火炎桶爆弹": {
+            "key": "fire_barrel_bomb"
+        },
+        "爆破苦无": {
+            "key": "exploding_kunai"
+        },
+        "朴素的余料": {
+            "key": "humble_scrap"
+        },
+        "朴素的上等余料": {
+            "key": "humble_scrap_plus"
+        },
+        "矿石的余料": {
+            "key": "ore_scrap"
+        },
+        "矿石的上等余料": {
+            "key": "ore_scrap_plus"
+        },
+        "虫的余料": {
+            "key": "insect_scrap"
+        },
+        "虫的上等余料": {
+            "key": "insect_scrap_plus"
+        },
+        "骨的余料": {
+            "key": "bone_scrap"
+        },
+        "骨的上等余料": {
+            "key": "bone_scrap_plus"
+        },
+        "毛皮的余料": {
+            "key": "fur_scrap"
+        },
+        "毛皮的上等余料": {
+            "key": "fur_scrap_plus"
+        },
+        "垂皮龙的余料": {
+            "key": "slagtoth_scrap"
+        },
+        "垂皮龙的上等余料": {
+            "key": "slagtoth_scrap_plus"
+        },
+        "狗龙的余料": {
+            "key": "jaggi_scrap"
+        },
+        "狗龙的上等余料": {
+            "key": "jaggi_scrap_plus"
+        },
+        "飞甲虫的余料": {
+            "key": "bnahabra_scrap"
+        },
+        "飞甲虫的上等余料": {
+            "key": "bnahabra_scrap_plus"
+        },
+        "硬甲龙的余料": {
+            "key": "rhenoplos_scrap"
+        },
+        "硬甲龙的上等余料": {
+            "key": "rhenoplos_scrap_plus"
+        },
+        "镰鼬龙的余料": {
+            "key": "izuchi_scrap"
+        },
+        "镰鼬龙的上等余料": {
+            "key": "izuchi_scrap_plus"
+        },
+        "河童蛙的余料": {
+            "key": "tetranadon_scrap"
+        },
+        "河童蛙的上等余料": {
+            "key": "tetranadon_scrap_plus"
+        },
+        "有弹性的余料": {
+            "key": "khezu_scrap"
+        },
+        "珍珠色的上等余料": {
+            "key": "khezu_scrap_plus"
+        },
+        "搔鸟的余料": {
+            "key": "kulu-ya-ku_scrap"
+        },
+        "搔鸟的上等余料": {
+            "key": "kulu-ya-ku_scrap_plus"
+        },
+        "伞鸟的余料": {
+            "key": "aknosom_scrap"
+        },
+        "伞鸟的上等余料": {
+            "key": "aknosom_scrap_plus"
+        },
+        "人鱼龙的余料": {
+            "key": "somnacanth_scrap"
+        },
+        "人鱼龙的上等余料": {
+            "key": "somnacanth_scrap_plus"
+        },
+        "毒妖鸟的余料": {
+            "key": "pukei_scrap"
+        },
+        "毒妖鸟的上等余料": {
+            "key": "pukei_scrap_plus"
+        },
+        "飞雷龙的余料": {
+            "key": "kadachi_scrap"
+        },
+        "飞雷龙的上等余料": {
+            "key": "kadachi_scrap_plus"
+        },
+        "天狗兽的余料": {
+            "key": "bishaten_scrap"
+        },
+        "天狗兽的上等余料": {
+            "key": "bishaten_scrap_plus"
+        },
+        "蛮颚龙的余料": {
+            "key": "anjanath_scrap"
+        },
+        "蛮颚龙的上等余料": {
+            "key": "anjanath_scrap_plus"
+        },
+        "泡狐龙的余料": {
+            "key": "mizutsune_scrap"
+        },
+        "泡狐龙的上等余料": {
+            "key": "mizutsune_scrap_plus"
+        },
+        "怨虎龙的余料": {
+            "key": "magnamalo_scrap"
+        },
+        "怨虎龙的上等余料": {
+            "key": "magnamalo_scrap_plus"
+        },
+        "雪鬼兽的余料": {
+            "key": "goss_harag_scrap"
+        },
+        "雪鬼兽的上等余料": {
+            "key": "goss_scrap_plus"
+        },
+        "角龙的余料": {
+            "key": "diablos_scrap"
+        },
+        "角龙的上等余料": {
+            "key": "diablos_scrap_plus"
+        },
+        "轰龙的余料": {
+            "key": "tigrex_scrap"
+        },
+        "轰龙的上等余料": {
+            "key": "tigrex_scrap_plus"
+        },
+        "泥翁龙的余料": {
+            "key": "almudron_scrap"
+        },
+        "泥翁龙的上等余料": {
+            "key": "almudron_scrap_plus"
+        },
+        "泥鱼龙的上等余料": {
+            "key": "jyura_scrap_plus"
+        },
+        "风神龙的上等余料": {
+            "key": "ibushi_scrap_plus"
+        },
+        "金狮子的上等余料": {
+            "key": "rajang_scrap_plus"
+        },
+        "妃蜘蛛的上等余料": {
+            "key": "rakna-kadaki_scrap_plus"
+        },
+        "雷神龙的上等余料": {
+            "key": "narwa_scrap_plus"
+        },
+        "炸裂沙丁鱼": {
+            "key": "popfish"
+        },
+        "弩弹": {
+            "key": "ballista_shot"
+        },
+        "穿甲榴弹": {
+            "key": "crag_shot"
+        },
+        "后退弹": {
+            "key": "retreat_shot"
+        },
+        "大炮弹": {
+            "key": "cannon_ammo"
+        },
+        "蓄力电击弹": {
+            "key": "c_thunder_ammo"
+        },
+        "火炎弹　组合": {
+            "key": "flaming_shot"
+        },
+        "火炎热光线　组合": {
+            "key": "flaming_beam"
+        },
+        "加速速射弹": {
+            "key": "q_rapid_shot"
+        },
+        "加速扩散弹": {
+            "key": "q_cluster_shot"
+        },
+        "铁虫丝弹": {
+            "key": "silkbind_shot"
+        },
+        "堆积如山菇": {
+            "key": "mountshrooms"
+        },
+        "乌云蔽日菇": {
+            "key": "shadeshrooms"
+        },
+        "观星花": {
+            "key": "stargazer_flower"
+        },
+        "观星丽花": {
+            "key": "stargazer_bloom"
+        },
+        "不祥的布": {
+            "key": "sinister_cloth"
+        },
+        "不祥的暗布": {
+            "key": "sinister_darkcloth"
+        },
+        "北东西大南瓜": {
+            "key": "bumblepumpkin"
+        },
+        "终结大南瓜": {
+            "key": "omegapumpkin"
+        },
+        "哥特水母": {
+            "key": "cutejelly"
+        },
+        "哥特式哥特水母": {
+            "key": "gothjelly"
+        },
+        "眠贝": {
+            "key": "dreamshell"
+        },
+        "毒蜘蛛蝎": {
+            "key": "toxic_kumori"
+        },
+        "大锹凤蝶": {
+            "key": "butterfly_beetle"
+        },
+        "花铃虫": {
+            "key": "blossom_cricket"
+        },
+        "大王扶桑花": {
+            "key": "dosbiscus"
+        },
+        "铠石鲷": {
+            "key": "armored_bream"
+        },
+        "春夜鲤": {
+            "key": "springnight_carp"
+        },
+        "兽玉": {
+            "key": "beast_gem"
+        },
+        "锐利的牙": {
+            "key": "acute_fang"
+        },
+        "传统团子素材": {
+            "key": "fabled_spice"
+        },
+        "秘传团子素材": {
+            "key": "legendary_herb"
+        },
+        "立轴【雌火龙】": {
+            "key": "rathian_scroll"
+        },
+        "立轴【火龙】": {
+            "key": "rathalos_scroll"
+        },
+        "立轴【奇怪龙】": {
+            "key": "khezu_scroll"
+        },
+        "立轴【岩龙】": {
+            "key": "basarios_scroll"
+        },
+        "立轴【角龙】": {
+            "key": "diablos_scroll"
+        },
+        "立轴【金狮子】": {
+            "key": "rajang_scroll"
+        },
+        "立轴【轰龙】": {
+            "key": "tigrex_scroll"
+        },
+        "立轴【迅龙】": {
+            "key": "nargacuga_scroll"
+        },
+        "立轴【冰牙龙】": {
+            "key": "barioth_scroll"
+        },
+        "立轴【土砂龙】": {
+            "key": "barroth_scroll"
+        },
+        "立轴【水兽】": {
+            "key": "ludroth_scroll"
+        },
+        "立轴【眠狗龙王】": {
+            "key": "baggi_scroll"
+        },
+        "立轴【雷狼龙】": {
+            "key": "zinogre_scroll"
+        },
+        "立轴【毒狗龙王】": {
+            "key": "wroggi_scroll"
+        },
+        "立轴【青熊兽】": {
+            "key": "arzuros_scroll"
+        },
+        "立轴【白兔兽】": {
+            "key": "lagombi_scroll"
+        },
+        "立轴【赤甲兽】": {
+            "key": "volvidon_scroll"
+        },
+        "立轴【泡狐龙】": {
+            "key": "mizutsune_scroll"
+        },
+        "立轴【怨虎龙】": {
+            "key": "magnamalo_scroll"
+        },
+        "立轴【天狗兽】": {
+            "key": "bishaten_scroll"
+        },
+        "立轴【伞鸟】": {
+            "key": "aknosom_scroll"
+        },
+        "立轴【河童蛙】": {
+            "key": "tetranadon_scroll"
+        },
+        "立轴【人鱼龙】": {
+            "key": "somna_scroll"
+        },
+        "立轴【妃蜘蛛】": {
+            "key": "rakna-kadaki_scroll"
+        },
+        "立轴【泥翁龙】": {
+            "key": "almudron_scroll"
+        },
+        "立轴【风神龙】": {
+            "key": "ibushi_scroll"
+        },
+        "立轴【雪鬼兽】": {
+            "key": "goss_scroll"
+        },
+        "立轴【镰鼬龙王】": {
+            "key": "izuchi_scroll"
+        },
+        "立轴【雷神龙】": {
+            "key": "narwa_scroll"
+        },
+        "立轴【蛮颚龙】": {
+            "key": "anjanath_scroll"
+        },
+        "立轴【毒妖鸟】": {
+            "key": "pukei_scroll"
+        },
+        "立轴【搔鸟】": {
+            "key": "kulu_scroll"
+        },
+        "立轴【泥鱼龙】": {
+            "key": "jyura_scroll"
+        },
+        "立轴【飞雷龙】": {
+            "key": "kadachi_scroll"
+        },
+        "立轴【霸主青熊兽】": {
+            "key": "apex_arzuros_scroll"
+        },
+        "立轴【霸主雌火龙】": {
+            "key": "apex_rathian_scroll"
+        },
+        "立轴【霸主泡狐龙】": {
+            "key": "apex_mizutsune_scroll"
+        },
+        "立轴【长老】": {
+            "key": "the_leader"
+        },
+        "立轴【知己画】": {
+            "key": "fast_friends"
+        },
+        "立轴【怨虎龙图】": {
+            "key": "slayer_of_malice"
+        },
+        "立轴【熊蛙相扑】": {
+            "key": "the_showdown"
+        },
+        "黄金艾露猫不倒翁": {
+            "key": "felyne_daruma"
+        },
+        "黄金岁丰稔雕像": {
+            "key": "golden_hojo_cast"
+        },
+        "炎火村姐妹人偶": {
+            "key": "kamura_twins"
+        },
+        "招财艾露猫": {
+            "key": "lucky_felyne"
+        },
+        "狸兽茶釜": {
+            "key": "bombadgy_pot"
+        },
+        "云羊鹿玩偶": {
+            "key": "moofy_doll"
+        },
+        "圆滚滚牙猎犬": {
+            "key": "wheeled_canyne_toy"
+        },
+        "纯燕雀石": {
+            "key": "pure_machalite"
+        },
+        "水晶块": {
+            "key": "crystal_cluster"
+        },
+        "福木兔型抽奖工具": {
+            "key": "cohoot_lottery"
+        },
+        "机关蛙模型": {
+            "key": "mini_toadversary"
+        },
+        "潜水艇模型": {
+            "key": "mini_submarine"
+        },
+        "青熊兽木雕": {
+            "key": "arzuros_carving"
+        },
+        "怨虎龙木雕": {
+            "key": "magnamalo_carving"
+        },
+        "河童蛙木雕": {
+            "key": "tetranadon_carving"
+        },
+        "雪鬼兽木雕": {
+            "key": "goss_harag_carving"
+        },
+        "天狗兽木雕": {
+            "key": "bishaten_carving"
+        },
+        "人鱼龙木雕": {
+            "key": "somnacanth_carving"
+        },
+        "镰鼬龙木雕": {
+            "key": "izuchi_carving"
+        },
+        "泥翁龙木雕": {
+            "key": "almudron_carving"
+        },
+        "伞鸟木雕": {
+            "key": "aknosom_carving"
+        },
+        "妃蜘蛛木雕": {
+            "key": "rakna-kadaki_carving"
+        },
+        "补给专用肉饵": {
+            "key": "ez_meat_bait"
+        },
+        "增强剂": {
+            "key": "catalyst"
+        },
+        "网子": {
+            "key": "net"
+        },
+        "LV2火药粉": {
+            "key": "gunpowder_lv2"
+        },
+        "LV3火药粉": {
+            "key": "gunpowder_lv3"
+        },
+        "钢蛋": {
+            "key": "steel_egg"
+        },
+        "银蛋": {
+            "key": "silver_egg"
+        },
+        "金蛋": {
+            "key": "golden_egg"
+        },
+        "勇气之证": {
+            "key": "commendation"
+        },
+        "勇气之证G": {
+            "key": "high_commendation"
+        },
+        "发火果实": {
+            "key": "blazenut"
+        },
+        "着火果实": {
+            "key": "flamenut"
+        },
+        "白肝": {
+            "key": "white_liver"
+        },
+        "波波舌": {
+            "key": "popo_tongue"
+        },
+        "垂皮油": {
+            "key": "slagtoth_oil"
+        },
+        "怪物肝": {
+            "key": "monster_guts"
+        },
+        "熟成菇": {
+            "key": "ripened_mushroom"
+        },
+        "美丽的腹袋": {
+            "key": "fine_stomach"
+        },
+        "秘密袋": {
+            "key": "secret_stash"
+        },
+        "圆滚滚橡子": {
+            "key": "round_acorn"
+        },
+        "丸鸟粪": {
+            "key": "gargwa_guano"
+        },
+        "丸鸟蛋": {
+            "key": "gargwa_egg"
+        },
+        "丸鸟金蛋": {
+            "key": "gold_gargwa_egg"
+        },
+        "龙之泪": {
+            "key": "wyvern_tear"
+        },
+        "大颗龙之泪": {
+            "key": "large_wyvern_tear"
+        },
+        "牙兽泪": {
+            "key": "beast_tear"
+        },
+        "大颗牙兽泪": {
+            "key": "large_beast_tear"
+        },
+        "军队的信息素": {
+            "key": "drone_substance"
+        },
+        "女王的信息素": {
+            "key": "queen_substance"
+        },
+        "龙秘宝": {
+            "key": "dragon_treasure"
+        },
+        "闪耀的尻子玉": {
+            "key": "glittering_nacre"
+        },
+        "随从票券": {
+            "key": "buddy_ticket"
+        },
+        "炎火票券": {
+            "key": "kamura_ticket"
+        },
+        "公会票券": {
+            "key": "guild_ticket"
+        },
+        "百龙击退证・一": {
+            "key": "defender_ticket_1"
+        },
+        "百龙击退证・二": {
+            "key": "defender_ticket_2"
+        },
+        "百龙击退证・三": {
+            "key": "defender_ticket_3"
+        },
+        "百龙击退证・四": {
+            "key": "defender_ticket_4"
+        },
+        "百龙击退证・五": {
+            "key": "defender_ticket_5"
+        },
+        "百龙击退证・六": {
+            "key": "defender_ticket_6"
+        },
+        "百龙击退证・七": {
+            "key": "defender_ticket_7"
+        },
+        "王者的头冠": {
+            "key": "kings_crest"
+        },
+        "火龙的锐翼爪": {
+            "key": "rath_wingtalon_plus"
+        },
+        "岩龙的尾巴": {
+            "key": "basarios_tail"
+        },
+        "岩龙的胸壳": {
+            "key": "basarios_pleura"
+        },
+        "岩龙的坚胸壳": {
+            "key": "basarios_pleura_plus"
+        },
+        "狗龙的上等皮": {
+            "key": "jaggi_hide_plus"
+        },
+        "坚铠玉": {
+            "key": "hard_armor_sphere"
+        },
+        "水光原珠": {
+            "key": "aquaglow_jewel"
+        },
+        "修罗原珠": {
+            "key": "bloodrun_jewel"
+        },
+        "巨大柿子": {
+            "key": "jumbofruit"
+        },
+        "商人橡子": {
+            "key": "lagniapple"
+        },
+        "怪物的粪": {
+            "key": "dung"
+        },
+        "异臭球": {
+            "key": "dung_bomb"
+        },
+        "补给专用异臭球": {
+            "key": "ez_dung_bomb"
+        },
+        "搔鸟硬币": {
+            "key": "kulu_coin"
+        },
+        "土砂龙硬币": {
+            "key": "barroth_coin"
+        },
+        "迅龙硬币": {
+            "key": "nargacuga_coin"
+        },
+        "冰牙龙硬币": {
+            "key": "barioth_coin"
+        },
+        "金狮子硬币": {
+            "key": "rajang_coin"
+        },
+        "斗技王硬币": {
+            "key": "pinnacle_coin"
+        },
+        "狩猎王硬币": {
+            "key": "hunter_king_coin"
+        },
+        "击龙王硬币": {
+            "key": "ace_hunter_coin"
+        },
+        "蓄力贯穿弹": {
+            "key": "c_piercing_ammo"
+        },
+        "灰色种子": {
+            "key": "gray_seed"
+        },
+        "红色种子": {
+            "key": "crimson_seed"
+        },
+        "大翔虫": {
+            "key": "great_wirebug"
+        },
+        "二连弩弹": {
+            "key": "2x_ballista_shot"
+        },
+        "三连弩弹": {
+            "key": "3x_ballista_shot"
+        },
+        "猎友票券": {
+            "key": "friend_voucher"
+        },
+        "水冷桶爆弹": {
+            "key": "water_barrel_bomb"
+        },
+        "电击桶爆弹": {
+            "key": "thunder_barrel_bomb"
+        },
+        "冰结桶爆弹": {
+            "key": "ice_barrel_bomb"
+        },
+        "苍色种子": {
+            "key": "blue_seed"
+        },
+        "金色种子": {
+            "key": "gold_seed"
+        },
+        "银色种子": {
+            "key": "silver_seed"
+        },
+        "二连大炮弹": {
+            "key": "2x_cannon_ammo"
+        },
+        "二连大炮弹・强": {
+            "key": "2x_cannon_ammo_plus"
+        },
+        "贝尔纳石": {
+            "key": "bhernastone"
+        },
+        "东多尔玛磷矿": {
+            "key": "dundormarin"
+        },
+        "洛克拉克矿": {
+            "key": "loc_lac_ore"
+        },
+        "巴尔巴雷石英": {
+            "key": "val_habar_quartz"
+        },
+        "米那加尔迪结晶": {
+            "key": "minegardenite"
+        },
+        "泥球圣甲虫": {
+            "key": "mudbeetle"
+        },
+        "麻痹瓦斯蛙": {
+            "key": "paratoad"
+        },
+        "线偶蛛": {
+            "key": "puppet_spider"
+        },
+        "甘霖蜗": {
+            "key": "escuregot"
+        },
+        "涂龟": {
+            "key": "aurortle"
+        },
+        "烟雪鼬": {
+            "key": "stinkmink"
+        },
+        "婴啼雉": {
+            "key": "wailnard"
+        },
+        "火石圣甲虫": {
+            "key": "firebeetle"
+        },
+        "雷毛圣甲虫": {
+            "key": "thunderbeetle"
+        },
+        "雪石圣甲虫": {
+            "key": "snowbeetle"
+        },
+        "撒菱虫": {
+            "key": "trapbugs"
+        },
+        "提灯妖虫": {
+            "key": "lanternbug"
+        },
+        "酵母兔": {
+            "key": "brewhare"
+        },
+        "辘轳蛇": {
+            "key": "antidobra"
+        },
+        "睡眠瓦斯蛙": {
+            "key": "sleeptoad"
+        },
+        "剧毒瓦斯蛙": {
+            "key": "poisontoad"
+        },
+        "爆炸瓦斯蛙": {
+            "key": "blastoad"
+        },
+        "鬼火鸟": {
+            "key": "spiribird"
+        },
+        "金灵瓢虫": {
+            "key": "golden_spiribug"
+        },
+        "黄金灵瓢虫": {
+            "key": "gilded_spiribug"
+        },
+        "独眼蟹": {
+            "key": "gustcrab"
+        }
+    }
+}

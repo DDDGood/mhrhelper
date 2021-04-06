@@ -10,13 +10,15 @@
         "type": "Type",
         "trait": "Trait",
         "sorting": "Sorting",
+        "cancel_search": "Clear Search",
         "low_rank": "Low Rank",
         "high_rank": "High Rank",
         "dataType": {
             "large_monsters": "Large Monsters",
             "small_monsters": "Small Monsters",
             "endemic_lifes": "Endemic Lifes",
-            "weapons": "Weapons"
+            "weapons": "Weapons",
+            "items": "Items"
         },
         "monster": {
             "name": {
@@ -3758,7 +3760,7 @@
                 },
                 "ballista_shot": {
                     "name": "Ballista Shot",
-                    "description": "A heaping mushroom platter.Made with shrooms of alltypes and sizes."
+                    "description": ""
                 },
                 "crag_shot": {
                     "name": "Crag Shot",
@@ -3772,7 +3774,7 @@
                     "name": "Cannon Ammo",
                     "description": ""
                 },
-                "c._thunder_ammo": {
+                "c_thunder_ammo": {
                     "name": "C. Thunder Ammo",
                     "description": ""
                 },
@@ -3784,11 +3786,11 @@
                     "name": "Flaming Beam",
                     "description": ""
                 },
-                "q._rapid_shot": {
+                "q_rapid_shot": {
                     "name": "Q. Rapid Shot",
                     "description": ""
                 },
-                "q._cluster_shot": {
+                "q_cluster_shot": {
                     "name": "Q. Cluster Shot",
                     "description": ""
                 },
@@ -3798,607 +3800,607 @@
                 },
                 "mountshrooms": {
                     "name": "Mountshrooms",
-                    "description": ""
+                    "description": "A heaping mushroom platter.Made with shrooms of alltypes and sizes."
                 },
                 "shadeshrooms": {
                     "name": "Shadeshrooms",
-                    "description": ""
+                    "description": "A random assortment ofmushrooms—some deadly,some valuable."
                 },
                 "stargazer_flower": {
                     "name": "Stargazer Flower",
-                    "description": ""
+                    "description": "A plant that looks to theheavens when it blooms. Itspetals are used to make dye."
                 },
                 "stargazer_bloom": {
                     "name": "Stargazer Bloom",
-                    "description": ""
+                    "description": "A stargazer flower in fullbloom. Its dignified displayoutshines the starry sky."
                 },
                 "sinister_cloth": {
                     "name": "Sinister Cloth",
-                    "description": ""
+                    "description": "Found long ago in the tombof a king from a long-forgotten desert land."
                 },
                 "sinister_darkcloth": {
                     "name": "Sinister Darkcloth",
-                    "description": ""
+                    "description": "A burial cloth said to haveshrouded an ancient desertking. Believed to be cursed."
                 },
                 "bumblepumpkin": {
                     "name": "Bumblepumpkin",
-                    "description": ""
+                    "description": "A trendy orange pumpkin.If left undisturbed, it cangrow to be gigantic."
                 },
                 "omegapumpkin": {
                     "name": "Omegapumpkin",
-                    "description": ""
+                    "description": "Bumblepumpkins that growto be this gigantic are referredto as \"Omegakins.\""
                 },
                 "cutejelly": {
                     "name": "Cutejelly",
-                    "description": ""
+                    "description": "A jellyfish with a uniquelycute pattern. Looks fluffy,but don't touch it."
                 },
                 "gothjelly": {
                     "name": "Gothjelly",
-                    "description": ""
+                    "description": "A gothic-looking jellyfishwith the same uniquepattern, but more frills."
                 },
                 "dreamshell": {
                     "name": "Dreamshell",
-                    "description": ""
+                    "description": "A shell that contains asedating gas. It's adornedwith other shells and rocks."
                 },
                 "toxic_kumori": {
                     "name": "Toxic Kumori",
-                    "description": ""
+                    "description": "An insect that possesses apowerful poison used bycertain tribes for hunting."
                 },
                 "butterfly_beetle": {
                     "name": "Butterfly Beetle",
-                    "description": ""
+                    "description": "An odd insect with the hugejaws of a beetle and thedainty wings of a butterfly."
                 },
                 "blossom_cricket": {
                     "name": "Blossom Cricket",
-                    "description": ""
+                    "description": "A beautiful bell cricketresembling a flower. A chirpopens the hardest of hearts."
                 },
                 "dosbiscus": {
                     "name": "Dosbiscus",
-                    "description": ""
+                    "description": "A large, beautifullycolored flowering plantforeign to this land."
                 },
                 "armored_bream": {
                     "name": "Armored Bream",
-                    "description": ""
+                    "description": "A fish with massive scales,which have a wyvern-likequality to them."
                 },
                 "springnight_carp": {
                     "name": "Springnight Carp",
-                    "description": ""
+                    "description": "A species of carp whosearrival signals the startof the breeding season."
                 },
                 "beast_gem": {
                     "name": "Beast Gem",
-                    "description": ""
+                    "description": "A valuable jewel formed fromcoagulated juices inside amonster. Glows wildly."
                 },
                 "acute_fang": {
                     "name": "Acute Fang",
-                    "description": ""
+                    "description": "Fangs come in many shapesand sizes. This one is smallbut can still pierce scale."
                 },
                 "fabled_spice": {
                     "name": "Fabled Spice",
-                    "description": ""
+                    "description": "A key dango ingredient,and highly top secret.(Account Item)"
                 },
                 "legendary_herb": {
                     "name": "Legendary Herb",
-                    "description": ""
+                    "description": "THE key dango ingredient,and highly top secret.(Account Item)"
                 },
                 "rathian_scroll": {
                     "name": "Rathian Scroll",
-                    "description": ""
+                    "description": "A hanging scroll depictinga Rathian in MasterHojo's distinctive style."
                 },
                 "rathalos_scroll": {
                     "name": "Rathalos Scroll",
-                    "description": ""
+                    "description": "A hanging scroll depictinga Rathalos in MasterHojo's distinctive style."
                 },
                 "khezu_scroll": {
                     "name": "Khezu Scroll",
-                    "description": ""
+                    "description": "A hanging scroll depictinga Khezu in MasterHojo's distinctive style."
                 },
                 "basarios_scroll": {
                     "name": "Basarios Scroll",
-                    "description": ""
+                    "description": "A hanging scroll depictinga Basarios in MasterHojo's distinctive style."
                 },
                 "diablos_scroll": {
                     "name": "Diablos Scroll",
-                    "description": ""
+                    "description": "A hanging scroll depictinga Diablos in MasterHojo's distinctive style."
                 },
                 "rajang_scroll": {
                     "name": "Rajang Scroll",
-                    "description": ""
+                    "description": "A hanging scroll depictinga Rajang in MasterHojo's distinctive style."
                 },
                 "tigrex_scroll": {
                     "name": "Tigrex Scroll",
-                    "description": ""
+                    "description": "A hanging scroll depictinga Tigrex in MasterHojo's distinctive style."
                 },
                 "nargacuga_scroll": {
                     "name": "Nargacuga Scroll",
-                    "description": ""
+                    "description": "A hanging scroll depictinga Nargacuga in MasterHojo's distinctive style."
                 },
                 "barioth_scroll": {
                     "name": "Barioth Scroll",
-                    "description": ""
+                    "description": "A hanging scroll depictinga Barioth in MasterHojo's distinctive style."
                 },
                 "barroth_scroll": {
                     "name": "Barroth Scroll",
-                    "description": ""
+                    "description": "A hanging scroll depictinga Barroth in MasterHojo's distinctive style."
                 },
                 "ludroth_scroll": {
                     "name": "Ludroth Scroll",
-                    "description": ""
+                    "description": "A hanging scroll depictinga Royal Ludroth in MasterHojo's distinctive style."
                 },
                 "baggi_scroll": {
                     "name": "Baggi Scroll",
-                    "description": ""
+                    "description": "A hanging scroll depictinga Great Baggi in MasterHojo's distinctive style."
                 },
                 "zinogre_scroll": {
                     "name": "Zinogre Scroll",
-                    "description": ""
+                    "description": "A hanging scroll depictinga Zinogre in MasterHojo's distinctive style."
                 },
                 "wroggi_scroll": {
                     "name": "Wroggi Scroll",
-                    "description": ""
+                    "description": "A hanging scroll depictinga Great Wroggi in MasterHojo's distinctive style."
                 },
                 "arzuros_scroll": {
                     "name": "Arzuros Scroll",
-                    "description": ""
+                    "description": "A hanging scroll depictingan Arzuros in MasterHojo's distinctive style."
                 },
                 "lagombi_scroll": {
                     "name": "Lagombi Scroll",
-                    "description": ""
+                    "description": "A hanging scroll depictinga Lagombi in MasterHojo's distinctive style."
                 },
                 "volvidon_scroll": {
                     "name": "Volvidon Scroll",
-                    "description": ""
+                    "description": "A hanging scroll depictinga Volvidon in MasterHojo's distinctive style."
                 },
                 "mizutsune_scroll": {
                     "name": "Mizutsune Scroll",
-                    "description": ""
+                    "description": "A hanging scroll depictinga Mizutsune in MasterHojo's distinctive style."
                 },
                 "magnamalo_scroll": {
                     "name": "Magnamalo Scroll",
-                    "description": ""
+                    "description": "A hanging scroll depictingMagnamalo in MasterHojo's distinctive style."
                 },
                 "bishaten_scroll": {
                     "name": "Bishaten Scroll",
-                    "description": ""
+                    "description": "A hanging scroll depictinga Bishaten in MasterHojo's distinctive style."
                 },
                 "aknosom_scroll": {
                     "name": "Aknosom Scroll",
-                    "description": ""
+                    "description": "A hanging scroll depictingan Aknosom in MasterHojo's distinctive style."
                 },
                 "tetranadon_scroll": {
                     "name": "Tetranadon Scroll",
-                    "description": ""
+                    "description": "A hanging scroll depictinga Tetranadon in MasterHojo's distinctive style."
                 },
                 "somna_scroll": {
                     "name": "Somna Scroll",
-                    "description": ""
+                    "description": "A hanging scroll depictinga Somnacanth in MasterHojo's distinctive style."
                 },
                 "rakna-kadaki_scroll": {
                     "name": "Rakna-Kadaki Scroll",
-                    "description": ""
+                    "description": "A hanging scroll depictinga Rakna-Kadaki in MasterHojo's distinctive style."
                 },
                 "almudron_scroll": {
                     "name": "Almudron Scroll",
-                    "description": ""
+                    "description": "A hanging scroll depictingan Almudron in MasterHojo's distinctive style."
                 },
                 "ibushi_scroll": {
                     "name": "Ibushi Scroll",
-                    "description": ""
+                    "description": "A hanging scroll depictingIbushi in Master Hojo'sdistinctive style."
                 },
                 "goss_scroll": {
                     "name": "Goss Scroll",
-                    "description": ""
+                    "description": "A hanging scroll depictinga Goss Harag in MasterHojo's distinctive style."
                 },
                 "izuchi_scroll": {
                     "name": "Izuchi Scroll",
-                    "description": ""
+                    "description": "A hanging scroll depictinga Great Izuchi in MasterHojo's distinctive style."
                 },
                 "narwa_scroll": {
                     "name": "Narwa Scroll",
-                    "description": ""
+                    "description": "A hanging scroll depictingNarwa in Master Hojo'sdistinctive style."
                 },
                 "anjanath_scroll": {
                     "name": "Anjanath Scroll",
-                    "description": ""
+                    "description": "A hanging scroll depictingan Anjanath in MasterHojo's distinctive style."
                 },
                 "pukei_scroll": {
                     "name": "Pukei Scroll",
-                    "description": ""
+                    "description": "A hanging scroll depictinga Pukei-Pukei in MasterHojo's distinctive style."
                 },
                 "kulu_scroll": {
                     "name": "Kulu Scroll",
-                    "description": ""
+                    "description": "A hanging scroll depictinga Kulu-Ya-Ku in MasterHojo's distinctive style."
                 },
                 "jyura_scroll": {
                     "name": "Jyura Scroll",
-                    "description": ""
+                    "description": "A hanging scroll depictinga Jyuratodus in MasterHojo's distinctive style."
                 },
                 "kadachi_scroll": {
                     "name": "Kadachi Scroll",
-                    "description": ""
+                    "description": "A hanging scroll depictinga Tobi-Kadachi in MasterHojo's distinctive style."
                 },
                 "apex_arzuros_scroll": {
                     "name": "Apex Arzuros Scroll",
-                    "description": ""
+                    "description": "A hanging scroll depictingan Apex Arzuros in MasterHojo's distinctive style."
                 },
                 "apex_rathian_scroll": {
                     "name": "Apex Rathian Scroll",
-                    "description": ""
+                    "description": "A hanging scroll depictingan Apex Rathian in MasterHojo's distinctive style."
                 },
                 "apex_mizutsune_scroll": {
                     "name": "Apex Mizutsune Scroll",
-                    "description": ""
+                    "description": "A hanging scroll depictingan Apex Mizutsune in MasterHojo's distinctive style."
                 },
                 "the_leader": {
                     "name": "The Leader",
-                    "description": ""
+                    "description": "A scroll hanging in yourroom. They say Hojo's smilebrings luck, after all..."
                 },
                 "fast_friends": {
                     "name": "Fast Friends",
-                    "description": ""
+                    "description": "A hanging scroll depictingthe Kamura gang. Everyoneis striking a cute pose."
                 },
                 "slayer_of_malice": {
                     "name": "Slayer of Malice",
-                    "description": ""
+                    "description": "A hanging scroll presentedto the savior of Kamura,who slew Magnamalo."
                 },
                 "the_showdown": {
                     "name": "The Showdown",
-                    "description": ""
+                    "description": "An artist went wild withthis image of an Arzuros anda Tetranadon wrestling."
                 },
                 "felyne_daruma": {
                     "name": "Felyne Daruma",
-                    "description": ""
+                    "description": "Kagero brought this from avillage where it's seen as amark of a hunter's bravery."
                 },
                 "golden_hojo_cast": {
                     "name": "Golden Hojo Cast",
-                    "description": ""
+                    "description": "A statue modeled afterKamura's Guild Master. Saidto usher in good fortune."
                 },
                 "kamura_twins": {
                     "name": "Kamura Twins",
-                    "description": ""
+                    "description": "Traditional dolls resemblingthe village Maidens. Theyare even cuter side-by-side!"
                 },
                 "lucky_felyne": {
                     "name": "Lucky Felyne",
-                    "description": ""
+                    "description": "What lies inside its goldenegg? Your wildest dreams?A tasty omelet?"
                 },
                 "bombadgy_pot": {
                     "name": "Bombadgy Pot",
-                    "description": ""
+                    "description": "A teapot with a Bombadgymotif inspired by a localfairy tale."
                 },
                 "moofy_doll": {
                     "name": "Moofy Doll",
-                    "description": ""
+                    "description": "A handcrafted Moofah fromanother village. Has a cutelittle bell around its neck."
                 },
                 "wheeled_canyne_toy": {
                     "name": "Wheeled Canyne Toy",
-                    "description": ""
+                    "description": "A Canyne toy made from woodnative to Kamura. Craftedby Iori's steady hands."
                 },
                 "pure_machalite": {
                     "name": "Pure Machalite",
-                    "description": ""
+                    "description": "Highly pure machalite isa go-to decoration due toits beautiful blue hue."
                 },
                 "crystal_cluster": {
                     "name": "Crystal Cluster",
-                    "description": ""
+                    "description": "A fully intact lightcrystalcluster. A popular choicefor mood lighting."
                 },
                 "cohoot_lottery": {
                     "name": "Cohoot Lottery",
-                    "description": ""
+                    "description": "A Cohoot-themed lotterywheel. Try your luck! Youwon't win anything though."
                 },
                 "mini_toadversary": {
                     "name": "Mini Toadversary",
-                    "description": ""
+                    "description": "A model of the Toadversaryfrom the Training Area.Spouts water from its mouth."
                 },
                 "mini_submarine": {
                     "name": "Mini Submarine",
-                    "description": ""
+                    "description": "A model of a submarine.It even floats in water."
                 },
                 "arzuros_carving": {
                     "name": "Arzuros Carving",
-                    "description": ""
+                    "description": "A reward for collectingShrine Ruins notes. No fishescapes its keen eye!"
                 },
                 "magnamalo_carving": {
                     "name": "Magnamalo Carving",
-                    "description": ""
+                    "description": "A reward for collecting allShrine Ruins notes. It dripswith spite and aggression."
                 },
                 "tetranadon_carving": {
                     "name": "Tetranadon Carving",
-                    "description": ""
+                    "description": "A reward for collectingFrost Island notes. Looksreal ready to throw down."
                 },
                 "goss_harag_carving": {
                     "name": "Goss Harag Carving",
-                    "description": ""
+                    "description": "A reward for collecting allFrost Island notes. Looksreal ready to chop it up."
                 },
                 "bishaten_carving": {
                     "name": "Bishaten Carving",
-                    "description": ""
+                    "description": "A reward for collectingFlooded Forest notes. All itlacks is fruit to lob about."
                 },
                 "somnacanth_carving": {
                     "name": "Somnacanth Carving",
-                    "description": ""
+                    "description": "A reward for collecting allFlooded Forest notes.Oddly hypnotic to behold."
                 },
                 "izuchi_carving": {
                     "name": "Izuchi Carving",
-                    "description": ""
+                    "description": "A reward for collectingSandy Plains notes. Allfor one and one for all!"
                 },
                 "almudron_carving": {
                     "name": "Almudron Carving",
-                    "description": ""
+                    "description": "A reward for collecting allSandy Plains notes. Somehow,someway, it looks slimy."
                 },
                 "aknosom_carving": {
                     "name": "Aknosom Carving",
-                    "description": ""
+                    "description": "A reward for collectingLava Caverns notes. There'sa fiery quality about it."
                 },
                 "rakna-kadaki_carving": {
                     "name": "Rakna-Kadaki Carving",
-                    "description": ""
+                    "description": "A reward for collecting allLava Caverns notes. Creepyand crawly beyond belief."
                 },
                 "ez_meat_bait": {
                     "name": "EZ Meat Bait",
-                    "description": ""
+                    "description": "Favored by the FloodedForest Giganha. Used toattract hordes. (Supply Item)"
                 },
                 "catalyst": {
                     "name": "Catalyst",
-                    "description": ""
+                    "description": "Works with other materialsto enhance their effects.Cannot be used by itself."
                 },
                 "net": {
                     "name": "Net",
-                    "description": ""
+                    "description": "A hardy net that can supportweight without breaking.Perfect for pitfall traps."
                 },
                 "gunpowder_lv2": {
                     "name": "Gunpowder Lv2",
-                    "description": ""
+                    "description": "Combustible powder.Combine with level 1ammo to raise its level."
                 },
                 "gunpowder_lv3": {
                     "name": "Gunpowder Lv3",
-                    "description": ""
+                    "description": "Highly combustible powder.Combine with level 1 ammoto raise its level."
                 },
                 "steel_egg": {
                     "name": "Steel Egg",
-                    "description": ""
+                    "description": "An egg of glittering steel.Rare but useless to hunters.Fetches a good price."
                 },
                 "silver_egg": {
                     "name": "Silver Egg",
-                    "description": ""
+                    "description": "An egg of glittering silver.Rare but useless to hunters.Fetches a very good price."
                 },
                 "golden_egg": {
                     "name": "Golden Egg",
-                    "description": ""
+                    "description": "An egg of glittering gold.Incredibly valuable. Sellsfor a fortune."
                 },
                 "commendation": {
                     "name": "Commendation",
-                    "description": ""
+                    "description": "A ticket awarded for showingcourage. Collect them and maybewonderful things will happen!"
                 },
                 "high_commendation": {
                     "name": "High Commendation",
-                    "description": ""
+                    "description": "A ticket awarded for immensecourage. Collect them and maybewonderful things will happen!"
                 },
                 "blazenut": {
                     "name": "Blazenut",
-                    "description": ""
+                    "description": "Used to make gunpowderthat greatly increasesammo firepower."
                 },
                 "flamenut": {
                     "name": "Flamenut",
-                    "description": ""
+                    "description": "Used to make gunpowder thatincreases ammo firepower."
                 },
                 "white_liver": {
                     "name": "White Liver",
-                    "description": ""
+                    "description": "A white-colored liver, popularfor its juicy texture.(Account Item)"
                 },
                 "popo_tongue": {
                     "name": "Popo Tongue",
-                    "description": ""
+                    "description": "Popo tongues are popular,healthy, and fun to eat.(Account Item)"
                 },
                 "slagtoth_oil": {
                     "name": "Slagtoth Oil",
-                    "description": ""
+                    "description": "Oil extracted from a Slagtoth'sskin. Made into potions orsalves. (Account Item)"
                 },
                 "monster_guts": {
                     "name": "Monster Guts",
-                    "description": ""
+                    "description": "Monster innards galore.A prized delicacy.(Account Item)"
                 },
                 "ripened_mushroom": {
                     "name": "Ripened Mushroom",
-                    "description": ""
+                    "description": "A Unique Mushroom made moreunique by maturing its aromaand flavor. (Account Item)"
                 },
                 "fine_stomach": {
                     "name": "Fine Stomach",
-                    "description": ""
+                    "description": "A pretty Altaroth stomach.Its contents are delicious.(Account Item)"
                 },
                 "secret_stash": {
                     "name": "Secret Stash",
-                    "description": ""
+                    "description": "A pouch carried by a Melynx.Full of miscellaneous junk.(Account Item)"
                 },
                 "round_acorn": {
                     "name": "Round Acorn",
-                    "description": ""
+                    "description": "A perfectly round acorn. It'sa Felyne's beloved treasure.(Account Item)"
                 },
                 "gargwa_guano": {
                     "name": "Gargwa Guano",
-                    "description": ""
+                    "description": "Gargwa droppings. Can be driedand powdered for medicinaluse. (Account Item)"
                 },
                 "gargwa_egg": {
                     "name": "Gargwa Egg",
-                    "description": ""
+                    "description": "An egg laid by a Gargwa.Common in food, yet stillvery costly. (Account Item)"
                 },
                 "gold_gargwa_egg": {
                     "name": "Gold Gargwa Egg",
-                    "description": ""
+                    "description": "A rare Gargwa egg. Theoriesabound as to reasons for thegold shine. (Account Item)"
                 },
                 "wyvern_tear": {
                     "name": "Wyvern Tear",
-                    "description": ""
+                    "description": "Bitter tears wept by wyvernson certain occasions.(Account Item)"
                 },
                 "large_wyvern_tear": {
                     "name": "Large Wyvern Tear",
-                    "description": ""
+                    "description": "Large, bitter tears wept bywyverns on certain occasions.(Account Item)"
                 },
                 "beast_tear": {
                     "name": "Beast Tear",
-                    "description": ""
+                    "description": "Bitter tears wept by fangedbeasts on certain occasions.(Account Item)"
                 },
                 "large_beast_tear": {
                     "name": "Large Beast Tear",
-                    "description": ""
+                    "description": "Large, bitter tears wept byfanged beasts on certainoccasions. (Account Item)"
                 },
                 "drone_substance": {
                     "name": "Drone Substance",
-                    "description": ""
+                    "description": "A pheromone sometimesreleased by Temnocerans.(Account Item)"
                 },
                 "queen_substance": {
                     "name": "Queen Substance",
-                    "description": ""
+                    "description": "A potent pheromone sometimesreleased by Temnocerans.(Account Item)"
                 },
                 "dragon_treasure": {
                     "name": "Dragon Treasure",
-                    "description": ""
+                    "description": "A shiny rock that elderdragons like to collect.(Account Item)"
                 },
                 "glittering_nacre": {
                     "name": "Glittering Nacre",
-                    "description": ""
+                    "description": "Beautiful orb formed withina Tetranadon. It shimmersethereally... (Account Item)"
                 },
                 "buddy_ticket": {
                     "name": "Buddy Ticket",
-                    "description": ""
+                    "description": "Proof of you and your Buddies'rapport. Collect enough ofthem and it might pay off."
                 },
                 "kamura_ticket": {
                     "name": "Kamura Ticket",
-                    "description": ""
+                    "description": "Received for contributionsto Kamura Village. If yougive it to the Smithy..."
                 },
                 "guild_ticket": {
                     "name": "Guild Ticket",
-                    "description": ""
+                    "description": "A ticket issued by the GuildMaster to those who have aidedthe Guild."
                 },
                 "defender_ticket_1": {
                     "name": "Defender Ticket 1",
-                    "description": ""
+                    "description": "A token of thanks given tothose who defended Kamura.Use it to Ramp-Up equipment."
                 },
                 "defender_ticket_2": {
                     "name": "Defender Ticket 2",
-                    "description": ""
+                    "description": "A token of thanks given tothose who defended Kamura.Use it to Ramp-Up equipment."
                 },
                 "defender_ticket_3": {
                     "name": "Defender Ticket 3",
-                    "description": ""
+                    "description": "A token of thanks given tothose who defended Kamura.Use it to Ramp-Up equipment."
                 },
                 "defender_ticket_4": {
                     "name": "Defender Ticket 4",
-                    "description": ""
+                    "description": "A token of thanks given tothose who defended Kamura.Use it to Ramp-Up equipment."
                 },
                 "defender_ticket_5": {
                     "name": "Defender Ticket 5",
-                    "description": ""
+                    "description": "A token of thanks given tothose who defended Kamura.Use it to Ramp-Up equipment."
                 },
                 "defender_ticket_6": {
                     "name": "Defender Ticket 6",
-                    "description": ""
+                    "description": "A token of thanks given tothose who defended Kamura.Use it to Ramp-Up equipment."
                 },
                 "defender_ticket_7": {
                     "name": "Defender Ticket 7",
-                    "description": ""
+                    "description": "A token of thanks given tothose who defended Kamura.Use it to Ramp-Up equipment."
                 },
                 "kings_crest": {
                     "name": "King's Crest",
-                    "description": ""
+                    "description": "A token of an alpha Baggi.The bigger the crest,the stronger they are."
                 },
                 "rath_wingtalon_plus": {
                     "name": "Rath Wingtalon+",
-                    "description": ""
+                    "description": "Razor-sharp talons fromRathalos wings. Can easilycut down massive trees."
                 },
                 "basarios_tail": {
                     "name": "Basarios Tail",
-                    "description": ""
+                    "description": "A stubby Basarios tailcomposed of minerals moredurable than ore."
                 },
                 "basarios_pleura": {
                     "name": "Basarios Pleura",
-                    "description": ""
+                    "description": "The shell that covers aBasarios' torso. Relativelythin and easy to manipulate."
                 },
                 "basarios_pleura_plus": {
                     "name": "Basarios Pleura+",
-                    "description": ""
+                    "description": "The rigid shell that coversa Basarios' torso. Still thinbut far denser than usual."
                 },
                 "jaggi_hide_plus": {
                     "name": "Jaggi Hide+",
-                    "description": ""
+                    "description": "A quality Jaggi hide with avariety of uses. Popular forits beautiful hue."
                 },
                 "hard_armor_sphere": {
                     "name": "Hard Armor Sphere",
-                    "description": ""
+                    "description": "A rigid, high-density armorsphere used to solidlyhelp improve armor."
                 },
                 "aquaglow_jewel": {
                     "name": "Aquaglow Jewel",
-                    "description": ""
+                    "description": "An indispensable item usedin decorations."
                 },
                 "bloodrun_jewel": {
                     "name": "Bloodrun Jewel",
-                    "description": ""
+                    "description": "An indispensable item usedin decorations. A shame thatthese are so high-end."
                 },
                 "jumbofruit": {
                     "name": "Jumbofruit",
-                    "description": ""
+                    "description": "A massive fruit that restoreshealth when eaten. Removedpost-quest since it spoils."
                 },
                 "lagniapple": {
                     "name": "Lagniapple",
-                    "description": ""
+                    "description": "An apple popular amongstFelyne connoisseurs. Prizedby trainers and handlers."
                 },
                 "dung": {
                     "name": "Dung",
-                    "description": ""
+                    "description": "Exactly as stated.Exudes a pungent smell.Used to make dung bombs."
                 },
                 "dung_bomb": {
                     "name": "Dung Bomb",
-                    "description": ""
+                    "description": "A particularly odorous ballthat causes monsters to flee."
                 },
                 "ez_dung_bomb": {
                     "name": "EZ Dung Bomb",
-                    "description": ""
+                    "description": "A particularly odorous ballthat causes monsters to flee.(Supply Item)"
                 },
                 "kulu_coin": {
                     "name": "Kulu Coin",
-                    "description": ""
+                    "description": "A coin given to those whohave bested a Kulu-Ya-Kuin the Arena."
                 },
                 "barroth_coin": {
                     "name": "Barroth Coin",
-                    "description": ""
+                    "description": "A coin given to those whohave bested a Barroth inthe Arena."
                 },
                 "nargacuga_coin": {
                     "name": "Nargacuga Coin",
-                    "description": ""
+                    "description": "A coin given to those whohave bested a Nargacugain the Arena."
                 },
                 "barioth_coin": {
                     "name": "Barioth Coin",
-                    "description": ""
+                    "description": "A coin given to those whohave bested a Barioth inthe Arena."
                 },
                 "rajang_coin": {
                     "name": "Rajang Coin",
-                    "description": ""
+                    "description": "A coin given to those whohave bested a Rajang inthe Arena."
                 },
                 "pinnacle_coin": {
                     "name": "Pinnacle Coin",
-                    "description": ""
+                    "description": "A commemorative coin bestowed onhunters who have mastered the craft.The value of its sheen? Priceless."
                 },
                 "hunter_king_coin": {
                     "name": "Hunter King Coin",
-                    "description": ""
+                    "description": "A silver coin given to truehunters. Shines with all theglory of the Hunter King."
                 },
                 "ace_hunter_coin": {
                     "name": "Ace Hunter Coin",
-                    "description": ""
+                    "description": "A golden coin given to hunters atthe pinnacle of their field. Only asmall handful ever know such honor."
                 },
-                "c._piercing_ammo": {
+                "c_piercing_ammo": {
                     "name": "C. Piercing Ammo",
                     "description": ""
                 },
                 "gray_seed": {
                     "name": "Gray Seed",
-                    "description": ""
+                    "description": "Seeds from a monster, soakedin explosive oil. Too dangerousto keep after a quest."
                 },
                 "crimson_seed": {
                     "name": "Crimson Seed",
-                    "description": ""
+                    "description": "Seeds from a monster, soakedin explosive oil. Too dangerousto keep after a quest."
                 },
                 "great_wirebug": {
                     "name": "Great Wirebug",
-                    "description": ""
+                    "description": "Capable of sending hunterssoaring in a set direction."
                 },
                 "2x_ballista_shot": {
                     "name": "2x Ballista Shot",
@@ -4410,31 +4412,31 @@
                 },
                 "friend_voucher": {
                     "name": "Friend Voucher",
-                    "description": ""
+                    "description": "A ticket awarded as a tokenof hunting comradery. Use itwith the Melding Pot."
                 },
                 "water_barrel_bomb": {
                     "name": "Water Barrel Bomb",
-                    "description": ""
+                    "description": "A water-scattering blue seedbarrel bomb. Too dangerousto keep after a quest."
                 },
                 "thunder_barrel_bomb": {
                     "name": "Thunder Barrel Bomb",
-                    "description": ""
+                    "description": "An electrifying gold seedbarrel bomb. Too dangerousto keep after a quest."
                 },
                 "ice_barrel_bomb": {
                     "name": "Ice Barrel Bomb",
-                    "description": ""
+                    "description": "A freezing silver seedbarrel bomb. Too dangerousto keep after a quest."
                 },
                 "blue_seed": {
                     "name": "Blue Seed",
-                    "description": ""
+                    "description": "Seeds from a monster, soakedwith water. Too dangerous tokeep after a quest."
                 },
                 "gold_seed": {
                     "name": "Gold Seed",
-                    "description": ""
+                    "description": "Seeds from a monster, buzzingwith electricity. Too dangerousto keep after a quest."
                 },
                 "silver_seed": {
                     "name": "Silver Seed",
-                    "description": ""
+                    "description": "Seeds from a monster, chilledwith cold air. Too dangerousto keep after a quest."
                 },
                 "2x_cannon_ammo": {
                     "name": "2x Cannon Ammo",
@@ -4446,107 +4448,107 @@
                 },
                 "bhernastone": {
                     "name": "Bhernastone",
-                    "description": ""
+                    "description": "A decorative jewel importedfrom a rustic village.Fetches a good price."
                 },
                 "dundormarin": {
                     "name": "Dundormarin",
-                    "description": ""
+                    "description": "A decorative jewel importedfrom a mountain village.Fetches a good price."
                 },
                 "loc_lac_ore": {
                     "name": "Loc Lac Ore",
-                    "description": ""
+                    "description": "A decorative jewel importedfrom a desert town.Fetches a good price."
                 },
                 "val_habar_quartz": {
                     "name": "Val Habar Quartz",
-                    "description": ""
+                    "description": "A decorative jewel importedfrom a market of caravans.Fetches a good price."
                 },
                 "minegardenite": {
                     "name": "Minegardenite",
-                    "description": ""
+                    "description": "A decorative jewel importedfrom a hunting village.Fetches a good price."
                 },
                 "mudbeetle": {
                     "name": "Mudbeetle",
-                    "description": ""
+                    "description": "A beetle that rolls up mud intoa ball. When thrown, the ballis imbued with water element."
                 },
                 "paratoad": {
                     "name": "Paratoad",
-                    "description": ""
+                    "description": "A frog that discharges aparalyzing gas. Stops anycreature dead in its tracks."
                 },
                 "puppet_spider": {
                     "name": "Puppet Spider",
-                    "description": ""
+                    "description": "A spider that spits a stickyweb, which can be used likereins for Wyvern Riding."
                 },
                 "escuregot": {
                     "name": "Escuregot",
-                    "description": ""
+                    "description": "A large green snail. Spraysa restorative mist whenused."
                 },
                 "aurortle": {
                     "name": "Aurortle",
-                    "description": ""
+                    "description": "A turtle shouldering ananthill that can bear thebrunt of brutal hits."
                 },
                 "stinkmink": {
                     "name": "Stinkmink",
-                    "description": ""
+                    "description": "A weasel that sprays specialpheromones that attractmonsters."
                 },
                 "wailnard": {
                     "name": "Wailnard",
-                    "description": ""
+                    "description": "A pheasant with a uniquered sac. Its call draws inlarge monsters."
                 },
                 "firebeetle": {
                     "name": "Firebeetle",
-                    "description": ""
+                    "description": "A beetle that rolls up lava rocksinto balls. Throw the ball toengulf a target in flames."
                 },
                 "thunderbeetle": {
                     "name": "Thunderbeetle",
-                    "description": ""
+                    "description": "A beetle that rolls up mudcontaining thunder-infusedmonster hair into balls. ZAP!"
                 },
                 "snowbeetle": {
                     "name": "Snowbeetle",
-                    "description": ""
+                    "description": "A beetle that rolls up snow intoice balls. Not recommendedfor a friendly snowball fight."
                 },
                 "trapbugs": {
                     "name": "Trapbugs",
-                    "description": ""
+                    "description": "Insects with sharp horns.A monster that tramplesthem will flee temporarily."
                 },
                 "lanternbug": {
                     "name": "Lanternbug",
-                    "description": ""
+                    "description": "A glowing caterpillar thatexplodes when hit, dealinga fixed amount of damage."
                 },
                 "brewhare": {
                     "name": "Brewhare",
-                    "description": ""
+                    "description": "A moss-covered rabbit. Canbe used to improve theeffects of some items."
                 },
                 "antidobra": {
                     "name": "Antidobra",
-                    "description": ""
+                    "description": "A snake that shoots a poisonantidote. Can be used tocure and prevent poison."
                 },
                 "sleeptoad": {
                     "name": "Sleeptoad",
-                    "description": ""
+                    "description": "A frog that discharges asleep-inducing gas, sendingfoes straight to dreamland."
                 },
                 "poisontoad": {
                     "name": "Poisontoad",
-                    "description": ""
+                    "description": "A frog that dischargesa poisonous gas."
                 },
                 "blastoad": {
                     "name": "Blastoad",
-                    "description": ""
+                    "description": "A frog that dischargesa combustible gasguaranteed to be a blast!"
                 },
                 "spiribird": {
                     "name": "Spiribird",
-                    "description": ""
+                    "description": "A tiny, softly glowing bird.The aroma of the pollen onits body grants a boon."
                 },
                 "golden_spiribug": {
                     "name": "Golden Spiribug",
-                    "description": ""
+                    "description": "A golden insect.Restores some stamina whenpicked up and can be stored."
                 },
                 "gilded_spiribug": {
                     "name": "Gilded Spiribug",
-                    "description": ""
+                    "description": "A honey-gold insect.Restores some stamina whenpicked up and can be stored."
                 },
                 "gustcrab": {
                     "name": "Gustcrab",
-                    "description": ""
+                    "description": "A crab that shares symbiosiswith fungi. Creates guststhat can propel you upwards."
                 }
             }
         }

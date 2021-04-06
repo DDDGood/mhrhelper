@@ -27,6 +27,9 @@
       <router-link to="/smon" custom v-slot="{ navigate }">
         <button @click="navigate" class="menu-button">{{$t("dataType.small_monsters")}}</button>
       </router-link>
+      <router-link to="/item" custom v-slot="{ navigate }">
+        <button @click="navigate" class="menu-button">{{$t("dataType.items")}}</button>
+      </router-link>
       <router-link to="/weapon" custom v-slot="{ navigate }">
         <button @click="navigate" class="menu-button">{{$t("dataType.weapons")}}</button>
       </router-link>
@@ -72,6 +75,11 @@ module.exports = {
           items.push({ name: this.$t("dataType.weapons"), path: "/weapon" })
           if (pathArr[1] !== undefined)
             items.push({ name: this.$t("weapons.name." + pathArr[1]), path: "/weapon/" + pathArr[1] })
+          break;
+        case "item":
+          items.push({ name: this.$t("dataType.items"), path: "/item" })
+          if (pathArr[1] !== undefined)
+            items.push({ name: this.$t("data.items." + pathArr[1] + ".name"), path: "/item/" + pathArr[1] })
           break;
         default:
           items.push({ name: "??", path: "/mon" })

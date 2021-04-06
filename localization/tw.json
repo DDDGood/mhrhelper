@@ -11,11 +11,13 @@
             "large_monsters": "大型魔物",
             "small_monsters": "小型魔物",
             "endemic_lifes": "環境生物",
-            "weapons": "武器"
+            "weapons": "武器",
+            "items": "道具素材"
         },
         "type": "類型",
         "trait": "特性",
         "sorting": "排序",
+        "cancel_search": "取消搜尋",
         "low_rank": "下位",
         "high_rank": "上位",
         "monster": {
@@ -3417,7 +3419,7 @@
                 },
                 "ballista_shot": {
                     "name": "弩彈",
-                    "description": "堆得跟山一樣高的香菇拼盤。裡面有各式各樣的香菇。"
+                    "description": ""
                 },
                 "crag_shot": {
                     "name": "徹甲榴彈",
@@ -3431,7 +3433,7 @@
                     "name": "大砲彈",
                     "description": ""
                 },
-                "c._thunder_ammo": {
+                "c_thunder_ammo": {
                     "name": "蓄力電擊彈",
                     "description": ""
                 },
@@ -3443,11 +3445,11 @@
                     "name": "火炎光線　套組",
                     "description": ""
                 },
-                "q._rapid_shot": {
+                "q_rapid_shot": {
                     "name": "加速速射彈",
                     "description": ""
                 },
-                "q._cluster_shot": {
+                "q_cluster_shot": {
                     "name": "加速擴散彈",
                     "description": ""
                 },
@@ -3457,607 +3459,607 @@
                 },
                 "mountshrooms": {
                     "name": "超大香菇拼盤",
-                    "description": ""
+                    "description": "堆得跟山一樣高的香菇拼盤。裡面有各式各樣的香菇。"
                 },
                 "shadeshrooms": {
                     "name": "黑暗香菇拼盤",
-                    "description": ""
+                    "description": "有著各種香菇的拼盤。姑且不論它的毒性或稀有價值，眼前呈現出的便是滿滿的香菇。"
                 },
                 "stargazer_flower": {
                     "name": "星見之花",
-                    "description": ""
+                    "description": "好像是在仰望星空般漂亮綻開的花。美麗的花瓣，也被作為染色的原料。"
                 },
                 "stargazer_bloom": {
                     "name": "星見麗花",
-                    "description": ""
+                    "description": "盛大綻開、狀況良好的星見之花。凜然綻放的模樣，美得不輸給滿天星斗。"
                 },
                 "sinister_cloth": {
                     "name": "災禍之布",
-                    "description": ""
+                    "description": "很久以前消失在沙漠的帝國，在其王墓中所發現的布匹。帶有不祥的氛圍。"
                 },
                 "sinister_darkcloth": {
                     "name": "災禍闇布",
-                    "description": ""
+                    "description": "很久以前支配沙漠的國王，其遺體上包裹著的布匹。傳說寄宿著國王的詛咒。"
                 },
                 "bumblepumpkin": {
                     "name": "北東西大南瓜",
-                    "description": ""
+                    "description": "橙色有彈性的南瓜。放著不採會越長越大。"
                 },
                 "omegapumpkin": {
                     "name": "終極大南瓜",
-                    "description": ""
+                    "description": "長得特別巨大，並成長至最後階段的北東西大南瓜，會被特別冠上「終極」的稱呼。"
                 },
                 "cutejelly": {
                     "name": "哥德水母",
-                    "description": ""
+                    "description": "擁有獨特的可愛花紋而顯得醒目的水母。輕飄飄游動的外表下，隱藏著令人難以想像的劇毒。"
                 },
                 "gothjelly": {
                     "name": "華麗哥德水母",
-                    "description": ""
+                    "description": "同樣擁有極具特徵的可愛花紋，且皺褶的數變得更多，顯得更加華麗的哥德水母。"
                 },
                 "dreamshell": {
                     "name": "逆枕貝",
-                    "description": ""
+                    "description": "具有睡眠瓦斯的貝類。會將周遭的貝殼或石頭附著在身上，而形成非常獨特的外型。"
                 },
                 "toxic_kumori": {
                     "name": "毒蜘蛛蠍",
-                    "description": ""
+                    "description": "有著強烈毒性的昆蟲。據說某個部落在狩獵鳥類與獸類時，會將此蟲的毒塗在箭矢上。"
                 },
                 "butterfly_beetle": {
                     "name": "大鍬鳳蝶",
-                    "description": ""
+                    "description": "有著強力下顎與有如蝴蝶般纖細美麗的羽翅，是種很珍貴的昆蟲。"
                 },
                 "blossom_cricket": {
                     "name": "花鈴蟲",
-                    "description": ""
+                    "description": "擬態成花的美麗鈴蟲。其音色甚至可以讓頑固的封閉心房溫柔綻開。"
                 },
                 "dosbiscus": {
                     "name": "大王扶桑花",
-                    "description": ""
+                    "description": "在這個區域不會開的花。據說是由風來散播種子使其開花。是一種繽紛多彩的大花。"
                 },
                 "armored_bream": {
                     "name": "鎧石鯛",
-                    "description": ""
+                    "description": "有著非常巨大鱗片的魚。其鱗片品質優良，即使與龍鱗相比也毫不遜色。"
                 },
                 "springnight_carp": {
                     "name": "春夜鯉",
-                    "description": ""
+                    "description": "被稱作「春夜鯉」的一種鯉魚。據說牠們的出現意味著繁殖期的到來。"
                 },
                 "beast_gem": {
                     "name": "獸玉",
-                    "description": ""
+                    "description": "從獸種身上採集到的貴重寶玉。為體內分泌物凝結而成的結石。散發著一種充滿野性的光芒。"
                 },
                 "acute_fang": {
                     "name": "銳利的牙",
-                    "description": ""
+                    "description": "各式各樣不同形狀的牙齒總稱。體積雖然不大，但卻能夠輕易地貫穿小型魔物的鱗片。"
                 },
                 "fabled_spice": {
                     "name": "傳統的糰子素材",
-                    "description": ""
+                    "description": "用來替糰子提味的傳統材料。裡面的東西是秘密。（結算道具）"
                 },
                 "legendary_herb": {
                     "name": "秘傳的糰子素材",
-                    "description": ""
+                    "description": "掌握糰子美味關鍵的秘傳材料。裡面的東西是秘密。（結算道具）"
                 },
                 "rathian_scroll": {
                     "name": "掛軸【雌火龍】",
-                    "description": ""
+                    "description": "畫有雌火龍的掛軸。展現出公會經紀人風登的精湛畫藝。"
                 },
                 "rathalos_scroll": {
                     "name": "掛軸【火龍】",
-                    "description": ""
+                    "description": "畫有火龍的掛軸。展現出公會經紀人風登的精湛畫藝。"
                 },
                 "khezu_scroll": {
                     "name": "掛軸【奇怪龍】",
-                    "description": ""
+                    "description": "畫有奇怪龍的掛軸。展現出公會經紀人風登的精湛畫藝。"
                 },
                 "basarios_scroll": {
                     "name": "掛軸【岩龍】",
-                    "description": ""
+                    "description": "畫有岩龍的掛軸。展現出公會經紀人風登的精湛畫藝。"
                 },
                 "diablos_scroll": {
                     "name": "掛軸【角龍】",
-                    "description": ""
+                    "description": "畫有角龍的掛軸。展現出公會經紀人風登的精湛畫藝。"
                 },
                 "rajang_scroll": {
                     "name": "掛軸【金獅子】",
-                    "description": ""
+                    "description": "畫有金獅子的掛軸。展現出公會經紀人風登的精湛畫藝。"
                 },
                 "tigrex_scroll": {
                     "name": "掛軸【轟龍】",
-                    "description": ""
+                    "description": "畫有轟龍的掛軸。展現出公會經紀人風登的精湛畫藝。"
                 },
                 "nargacuga_scroll": {
                     "name": "掛軸【迅龍】",
-                    "description": ""
+                    "description": "畫有迅龍的掛軸。展現出公會經紀人風登的精湛畫藝。"
                 },
                 "barioth_scroll": {
                     "name": "掛軸【冰牙龍】",
-                    "description": ""
+                    "description": "畫有冰牙龍的掛軸。展現出公會經紀人風登的精湛畫藝。"
                 },
                 "barroth_scroll": {
                     "name": "掛軸【土砂龍】",
-                    "description": ""
+                    "description": "畫有土砂龍的掛軸。展現出公會經紀人風登的精湛畫藝。"
                 },
                 "ludroth_scroll": {
                     "name": "掛軸【水獸】",
-                    "description": ""
+                    "description": "畫有水獸的掛軸。展現出公會經紀人風登的精湛畫藝。"
                 },
                 "baggi_scroll": {
                     "name": "掛軸【眠狗龍王】",
-                    "description": ""
+                    "description": "畫有眠狗龍王的掛軸。展現出公會經紀人風登的精湛畫藝。"
                 },
                 "zinogre_scroll": {
                     "name": "掛軸【雷狼龍】",
-                    "description": ""
+                    "description": "畫有雷狼龍的掛軸。展現出公會經紀人風登的精湛畫藝。"
                 },
                 "wroggi_scroll": {
                     "name": "掛軸【毒狗龍王】",
-                    "description": ""
+                    "description": "畫有毒狗龍王的掛軸。展現出公會經紀人風登的精湛畫藝。"
                 },
                 "arzuros_scroll": {
                     "name": "掛軸【青熊獸】",
-                    "description": ""
+                    "description": "畫有青熊獸的掛軸。展現出公會經紀人風登的精湛畫藝。"
                 },
                 "lagombi_scroll": {
                     "name": "掛軸【白兔獸】",
-                    "description": ""
+                    "description": "畫有白兔獸的掛軸。展現出公會經紀人風登的精湛畫藝。"
                 },
                 "volvidon_scroll": {
                     "name": "掛軸【赤甲獸】",
-                    "description": ""
+                    "description": "畫有赤甲獸的掛軸。展現出公會經紀人風登的精湛畫藝。"
                 },
                 "mizutsune_scroll": {
                     "name": "掛軸【泡狐龍】",
-                    "description": ""
+                    "description": "畫有泡狐龍的掛軸。展現出公會經紀人風登的精湛畫藝。"
                 },
                 "magnamalo_scroll": {
                     "name": "掛軸【怨虎龍】",
-                    "description": ""
+                    "description": "畫有怨虎龍的掛軸。展現出公會經紀人風登的精湛畫藝。"
                 },
                 "bishaten_scroll": {
                     "name": "掛軸【天狗獸】",
-                    "description": ""
+                    "description": "畫有天狗獸的掛軸。展現出公會經紀人風登的精湛畫藝。"
                 },
                 "aknosom_scroll": {
                     "name": "掛軸【傘鳥】",
-                    "description": ""
+                    "description": "畫有傘鳥的掛軸。展現出公會經紀人風登的精湛畫藝。"
                 },
                 "tetranadon_scroll": {
                     "name": "掛軸【河童蛙】",
-                    "description": ""
+                    "description": "畫有河童蛙的掛軸。展現出公會經紀人風登的精湛畫藝。"
                 },
                 "somna_scroll": {
                     "name": "掛軸【人魚龍】",
-                    "description": ""
+                    "description": "畫有人魚龍的掛軸。展現出公會經紀人風登的精湛畫藝。"
                 },
                 "rakna-kadaki_scroll": {
                     "name": "掛軸【妃蜘蛛】",
-                    "description": ""
+                    "description": "畫有妃蜘蛛的掛軸。展現出公會經紀人風登的精湛畫藝。"
                 },
                 "almudron_scroll": {
                     "name": "掛軸【泥翁龍】",
-                    "description": ""
+                    "description": "畫有泥翁龍的掛軸。展現出公會經紀人風登的精湛畫藝。"
                 },
                 "ibushi_scroll": {
                     "name": "掛軸【風神龍】",
-                    "description": ""
+                    "description": "畫有風神龍的掛軸。展現出公會經紀人風登的精湛畫藝。"
                 },
                 "goss_scroll": {
                     "name": "掛軸【雪鬼獸】",
-                    "description": ""
+                    "description": "畫有雪鬼獸的掛軸。展現出公會經紀人風登的精湛畫藝。"
                 },
                 "izuchi_scroll": {
                     "name": "掛軸【鐮鼬龍王】",
-                    "description": ""
+                    "description": "畫有鐮鼬龍王的掛軸。展現出公會經紀人風登的精湛畫藝。"
                 },
                 "narwa_scroll": {
                     "name": "掛軸【雷神龍】",
-                    "description": ""
+                    "description": "畫有雷神龍的掛軸。展現出公會經紀人風登的精湛畫藝。"
                 },
                 "anjanath_scroll": {
                     "name": "掛軸【蠻顎龍】",
-                    "description": ""
+                    "description": "畫有蠻顎龍的掛軸。展現出公會經紀人風登的精湛畫藝。"
                 },
                 "pukei_scroll": {
                     "name": "掛軸【毒妖鳥】",
-                    "description": ""
+                    "description": "畫有毒妖鳥的掛軸。展現出公會經紀人風登的精湛畫藝。"
                 },
                 "kulu_scroll": {
                     "name": "掛軸【搔鳥】",
-                    "description": ""
+                    "description": "畫有搔鳥的掛軸。展現出公會經紀人風登的精湛畫藝。"
                 },
                 "jyura_scroll": {
                     "name": "掛軸【泥魚龍】",
-                    "description": ""
+                    "description": "畫有泥魚龍的掛軸。展現出公會經紀人風登的精湛畫藝。"
                 },
                 "kadachi_scroll": {
                     "name": "掛軸【飛雷龍】",
-                    "description": ""
+                    "description": "畫有飛雷龍的掛軸。展現出公會經紀人風登的精湛畫藝。"
                 },
                 "apex_arzuros_scroll": {
                     "name": "掛軸【首領青熊獸】",
-                    "description": ""
+                    "description": "畫有首領青熊獸的掛軸。展現出風登千錘百鍊的繪畫絕技。"
                 },
                 "apex_rathian_scroll": {
                     "name": "掛軸【首領雌火龍】",
-                    "description": ""
+                    "description": "畫有首領雌火龍的掛軸。展現出風登千錘百鍊的繪畫絕技。"
                 },
                 "apex_mizutsune_scroll": {
                     "name": "掛軸【首領泡狐龍】",
-                    "description": ""
+                    "description": "畫有首領泡狐龍的掛軸。展現出風登千錘百鍊的繪畫絕技。"
                 },
                 "the_leader": {
                     "name": "掛軸【掌櫃】",
-                    "description": ""
+                    "description": "裝飾於自家裡的掛軸。據說風登的笑容是吉祥物，能替家中帶來福氣。"
                 },
                 "fast_friends": {
                     "name": "掛軸【知友畫】",
-                    "description": ""
+                    "description": "畫有神火村不可或缺的盟友們的掛軸。大家互相依偎的模樣十分討喜。"
                 },
                 "slayer_of_malice": {
                     "name": "掛軸【怨虎龍圖】",
-                    "description": ""
+                    "description": "擊退怨虎龍，並且拯救神火村之人才能受贈的掛軸。"
                 },
                 "the_showdown": {
                     "name": "掛軸【熊蛙相撲】",
-                    "description": ""
+                    "description": "見到青熊獸與河童蛙進行相撲的畫家為此景感到深深著迷，不由得提起畫筆所描繪出的逸品。"
                 },
                 "felyne_daruma": {
                     "name": "金色艾路不倒翁",
-                    "description": ""
+                    "description": "陽炎從某個村莊帶回來的物品。聽說在該座村莊，這是僅有優秀的獵人才能擁有的證明。"
                 },
                 "golden_hojo_cast": {
                     "name": "金色風登像",
-                    "description": ""
+                    "description": "仿造神火村的公會經紀人製作的雕像。據眾人所言相當靈驗。"
                 },
                 "kamura_twins": {
                     "name": "神火村成對木芥子",
-                    "description": ""
+                    "description": "仿造神火村接待員製作的成對木芥子，擺在一起的模樣非常可愛。"
                 },
                 "lucky_felyne": {
                     "name": "招財艾路",
-                    "description": ""
+                    "description": "傳說中能招來福氣的艾路。有人說其手上的金蛋裝滿了商人的夢想。"
                 },
                 "bombadgy_pot": {
                     "name": "狸獸茶釜",
-                    "description": ""
+                    "description": "依據神火村裡流傳的故事所製作出的狸獸茶釜。即使以火加熱也不會龜裂。"
                 },
                 "moofy_doll": {
                     "name": "雲羊鹿玩偶",
-                    "description": ""
+                    "description": "某個村莊的民族藝品，仿造雲羊鹿的外型製作而成。脖子上的鈴鐺是它最大的魅力。"
                 },
                 "wheeled_canyne_toy": {
                     "name": "滾滾加爾克",
-                    "description": ""
+                    "description": "以神火村木材加工而成，擁有加爾克造型的玩具。是小庵精心製作的作品。"
                 },
                 "pure_machalite": {
                     "name": "純燕雀石",
-                    "description": ""
+                    "description": "純度較高的燕雀石。蒼藍外表使其更增幾分美感，是受大眾喜愛的裝飾品。"
                 },
                 "crystal_cluster": {
                     "name": "水晶塊",
-                    "description": ""
+                    "description": "外表沒有殘缺、完整採集到的塊狀亮水晶。其發出的微弱光芒使其擁有部分隱性客群。"
                 },
                 "cohoot_lottery": {
                     "name": "福福鴞型抽獎機",
-                    "description": ""
+                    "description": "仿造福福鴞製作的抽獎機。抽不到任何獎品，但隨時都能讓人享受抽獎的感覺。"
                 },
                 "mini_toadversary": {
                     "name": "機關蛙模型",
-                    "description": ""
+                    "description": "設置在修練場的機關蛙模型。還能從嘴巴噴出水來。"
                 },
                 "mini_submarine": {
                     "name": "迷你潛水艇",
-                    "description": ""
+                    "description": "交易所的潛水艇模型。聽說將它放到水面上，似乎真的能夠航行。"
                 },
                 "arzuros_carving": {
                     "name": "青熊獸的木雕",
-                    "description": ""
+                    "description": "收集到數頁大社遺跡筆記後所得到的謝禮。牠的眼神像是在訴說絕不會放過半條魚。"
                 },
                 "magnamalo_carving": {
                     "name": "怨虎龍的木雕",
-                    "description": ""
+                    "description": "收集到所有大社遺跡筆記後所得到的謝禮。其怨念和爭鬥心永遠不會有止息的一天。"
                 },
                 "tetranadon_carving": {
                     "name": "河童蛙的木雕",
-                    "description": ""
+                    "description": "收集到數頁寒冷群島筆記後所得到的謝禮。那豪邁的跺腳與強大的力量，世間無人能敵。"
                 },
                 "goss_harag_carving": {
                     "name": "雪鬼獸的木雕",
-                    "description": ""
+                    "description": "收集到所有寒冷群島筆記後所得到的謝禮。若被牠拖著菜刀的樣子嚇倒，將小命不保。"
                 },
                 "bishaten_carving": {
                     "name": "天狗獸的木雕",
-                    "description": ""
+                    "description": "收集到數頁水沒林筆記後所得到的謝禮。牠高舉臂膀投出的柿子百發百中。"
                 },
                 "somnacanth_carving": {
                     "name": "人魚龍的木雕",
-                    "description": ""
+                    "description": "收集到所有水沒林筆記後所得到的謝禮。緩緩垂下雙手，唱著引人入夢的搖籃曲。"
                 },
                 "izuchi_carving": {
                     "name": "鐮鼬龍王的木雕",
-                    "description": ""
+                    "description": "收集到數頁沙原筆記後所得到的謝禮。我等三位一體，世上便再無斬不斷的事物。"
                 },
                 "almudron_carving": {
                     "name": "泥翁龍的木雕",
-                    "description": ""
+                    "description": "收集到所有沙原筆記後所得到的謝禮。從泥裡窺探的上半身，彷彿要將他人邀至身旁。"
                 },
                 "aknosom_carving": {
                     "name": "傘鳥的木雕",
-                    "description": ""
+                    "description": "收集到數頁熔岩洞筆記後所得到的謝禮。張開傘便會燒盡原野，熊熊燃燒的火勢一發不可收拾。"
                 },
                 "rakna-kadaki_carving": {
                     "name": "妃蜘蛛的木雕",
-                    "description": ""
+                    "description": "收集到所有熔岩洞筆記後所得到的謝禮。其將獵物纏滿絲線、拉近身邊的動作實在詭異至極。"
                 },
                 "ez_meat_bait": {
                     "name": "補給專用肉餌",
-                    "description": ""
+                    "description": "棲息在水沒林水邊的飢餓凶魚最愛的東西。能吸引大量魚群靠近。（補給品專用）"
                 },
                 "catalyst": {
                     "name": "增強劑",
-                    "description": ""
+                    "description": "可以將素材及藥品的效力發揮到最大極限的藥劑。無法單獨使用。"
                 },
                 "net": {
                     "name": "網子",
-                    "description": ""
+                    "description": "能夠承受相當程度重量的強韌網子。調合地洞的必要素材。"
                 },
                 "gunpowder_lv2": {
                     "name": "LV2火藥粉",
-                    "description": ""
+                    "description": "粉末狀的火藥。與LV1的彈藥調合即可提升彈藥的等級。"
                 },
                 "gunpowder_lv3": {
                     "name": "LV3火藥粉",
-                    "description": ""
+                    "description": "優質的粉末狀火藥。與LV1的彈藥調合即可提升彈藥的等級。"
                 },
                 "steel_egg": {
                     "name": "鋼蛋",
-                    "description": ""
+                    "description": "閃閃發光的鋼蛋。是擁有巨大價值的珍寶。可以賣得高價。"
                 },
                 "silver_egg": {
                     "name": "銀蛋",
-                    "description": ""
+                    "description": "閃閃發光的銀蛋。是擁有巨大價值的珍寶。可以賣到相當高的價格。"
                 },
                 "golden_egg": {
                     "name": "金蛋",
-                    "description": ""
+                    "description": "閃閃發光的金蛋。是可產生巨萬之富的珍寶。可以賣到非常高的價格。"
                 },
                 "commendation": {
                     "name": "勇氣之證",
-                    "description": ""
+                    "description": "在展現出自身的勇氣後可獲得的票券。收集後將會有好事發生！？"
                 },
                 "high_commendation": {
                     "name": "勇氣之證G",
-                    "description": ""
+                    "description": "在展現出偉大的勇氣後可獲得的票券。收集後將會有好事發生！？"
                 },
                 "blazenut": {
                     "name": "發火果實",
-                    "description": ""
+                    "description": "作為火藥粉核心素材的樹果，可用來大幅提高彈藥威力。"
                 },
                 "flamenut": {
                     "name": "著火果實",
-                    "description": ""
+                    "description": "作為火藥粉核心素材的樹果，可用來提高彈藥威力。"
                 },
                 "white_liver": {
                     "name": "白肝",
-                    "description": ""
+                    "description": "如字面所述的白色肝臟。入口即化的口感相當受歡迎！（結算道具）"
                 },
                 "popo_tongue": {
                     "name": "波波舌",
-                    "description": ""
+                    "description": "波波的舌頭。口感Q彈且十分健康的人氣食材。（結算道具）"
                 },
                 "slagtoth_oil": {
                     "name": "垂皮油",
-                    "description": ""
+                    "description": "垂皮龍的皮中所榨出的油。可製成藥水或藥膏等，用途相當廣泛。（結算道具）"
                 },
                 "monster_guts": {
                     "name": "魔物的肝",
-                    "description": ""
+                    "description": "各種魔物的內臟。備受重視的珍饈。（結算道具）"
                 },
                 "ripened_mushroom": {
                     "name": "熟成香菇",
-                    "description": ""
+                    "description": "經過熟成的特產香菇，香味及風味皆更加提升的珍品。（結算道具）"
                 },
                 "fine_stomach": {
                     "name": "美麗的腹袋",
-                    "description": ""
+                    "description": "甲蟲遺留的美麗腹袋。裡頭也許有美味的食材。（結算道具）"
                 },
                 "secret_stash": {
                     "name": "秘密包包",
-                    "description": ""
+                    "description": "梅拉路所攜帶的袋子。裡頭亂七八糟的。（結算道具）"
                 },
                 "round_acorn": {
                     "name": "圓滾滾的橡實",
-                    "description": ""
+                    "description": "艾路非常寶貝的珍寶橡實。外型圓滾滾的。（結算道具）"
                 },
                 "gargwa_guano": {
                     "name": "丸鳥的糞",
-                    "description": ""
+                    "description": "丸鳥的糞便。據說乾燥後磨成粉末可入藥。（結算道具）"
                 },
                 "gargwa_egg": {
                     "name": "丸鳥的蛋",
-                    "description": ""
+                    "description": "丸鳥所產下的蛋。雖是常見的食材，不過天然產物的價值更高。（結算道具）"
                 },
                 "gold_gargwa_egg": {
                     "name": "丸鳥的金蛋",
-                    "description": ""
+                    "description": "丸鳥偶爾會產下散發黃金光輝的蛋。至於為何會變成金色，則有諸多看法。（結算道具）"
                 },
                 "wyvern_tear": {
                     "name": "龍之淚",
-                    "description": ""
+                    "description": "龍類只有在特殊的行動時才會流下的貴重眼淚。（結算道具）"
                 },
                 "large_wyvern_tear": {
                     "name": "大顆的龍之淚",
-                    "description": ""
+                    "description": "龍類只有在特殊的行動時才會流下的大顆貴重眼淚。（結算道具）"
                 },
                 "beast_tear": {
                     "name": "牙獸之淚",
-                    "description": ""
+                    "description": "牙獸類只有在特殊的行動時才會流下的貴重眼淚。（結算道具）"
                 },
                 "large_beast_tear": {
                     "name": "大顆的牙獸之淚",
-                    "description": ""
+                    "description": "牙獸類只有在特殊的行動時才會流下的大顆貴重眼淚。（結算道具）"
                 },
                 "drone_substance": {
                     "name": "士兵的費洛蒙",
-                    "description": ""
+                    "description": "鉗角種在進行特殊行動時散發的費洛蒙。（結算道具）"
                 },
                 "queen_substance": {
                     "name": "女王的費洛蒙",
-                    "description": ""
+                    "description": "鉗角種在進行特殊行動時散發的濃厚費洛蒙。（結算道具）"
                 },
                 "dragon_treasure": {
                     "name": "龍秘寶",
-                    "description": ""
+                    "description": "古龍種喜愛收集的石頭。綻放閃亮的光芒。（結算道具）"
                 },
                 "glittering_nacre": {
                     "name": "耀眼的尻子玉",
-                    "description": ""
+                    "description": "河童蛙體內產生的美麗球體。宛如搖曳的靈魂般熠熠生輝。（結算道具）"
                 },
                 "buddy_ticket": {
                     "name": "隨從票券",
-                    "description": ""
+                    "description": "與隨從艾路和隨從加爾克的友好證明。收集後將會有好事發生！？"
                 },
                 "kamura_ticket": {
                     "name": "神火票券",
-                    "description": ""
+                    "description": "村長所給予的票券。只有對神火村有貢獻的人才能獲得。如果拿給加工店的話……？"
                 },
                 "guild_ticket": {
                     "name": "公會票券",
-                    "description": ""
+                    "description": "公會經紀人所給予的票券。只有對獵人公會有貢獻的人才能獲得。"
                 },
                 "defender_ticket_1": {
                     "name": "擊退百龍之證･一",
-                    "description": ""
+                    "description": "守護村莊免於百龍夜行侵襲的人才可獲得的感謝證明。可用於百龍強化。"
                 },
                 "defender_ticket_2": {
                     "name": "擊退百龍之證･二",
-                    "description": ""
+                    "description": "守護村莊免於百龍夜行侵襲的人才可獲得的感謝證明。可用於百龍強化。"
                 },
                 "defender_ticket_3": {
                     "name": "擊退百龍之證･三",
-                    "description": ""
+                    "description": "守護村莊免於百龍夜行侵襲的人才可獲得的感謝證明。可用於百龍強化。"
                 },
                 "defender_ticket_4": {
                     "name": "擊退百龍之證･四",
-                    "description": ""
+                    "description": "守護村莊免於百龍夜行侵襲的人才可獲得的感謝證明。可用於百龍強化。"
                 },
                 "defender_ticket_5": {
                     "name": "擊退百龍之證･五",
-                    "description": ""
+                    "description": "守護村莊免於百龍夜行侵襲的人才可獲得的感謝證明。可用於百龍強化。"
                 },
                 "defender_ticket_6": {
                     "name": "擊退百龍之證･六",
-                    "description": ""
+                    "description": "守護村莊免於百龍夜行侵襲的人才可獲得的感謝證明。可用於百龍強化。"
                 },
                 "defender_ticket_7": {
                     "name": "擊退百龍之證･七",
-                    "description": ""
+                    "description": "守護村莊免於百龍夜行侵襲的人才可獲得的感謝證明。可用於百龍強化。"
                 },
                 "kings_crest": {
                     "name": "王者的頭冠",
-                    "description": ""
+                    "description": "領導眠狗龍群的象徵。頭冠越大越氣派，就證明牠的力量越強大。"
                 },
                 "rath_wingtalon_plus": {
                     "name": "火龍的銳翼爪",
-                    "description": ""
+                    "description": "長在火龍翅膀上的銳利尖爪。其強度與鋒利程度甚至能輕易砍倒大樹。"
                 },
                 "basarios_tail": {
                     "name": "岩龍的尾巴",
-                    "description": ""
+                    "description": "岩龍的尾巴。雖然尺寸較小且尚未發育完全，但礦物成分很豐富。比一般的礦石更堅固。"
                 },
                 "basarios_pleura": {
                     "name": "岩龍的胸殼",
-                    "description": ""
+                    "description": "覆蓋在岩龍胸部的外殼。比其他部位更薄，是容易加工的素材。"
                 },
                 "basarios_pleura_plus": {
                     "name": "岩龍的堅胸殼",
-                    "description": ""
+                    "description": "岩龍的堅硬胸殼。厚度與一般胸殼相同，但成分密度更高，且已硬質化。"
                 },
                 "jaggi_hide_plus": {
                     "name": "狗龍的上皮",
-                    "description": ""
+                    "description": "可從狗龍身上採集到的優質皮。因為用途廣泛且顏色漂亮，是很受歡迎的素材。"
                 },
                 "hard_armor_sphere": {
                     "name": "堅鎧玉",
-                    "description": ""
+                    "description": "高密度的堅硬鎧玉。可大幅強化防具。"
                 },
                 "aquaglow_jewel": {
                     "name": "水光原珠",
-                    "description": ""
+                    "description": "製作裝飾品時不可或缺的珠子。"
                 },
                 "bloodrun_jewel": {
                     "name": "修羅原珠",
-                    "description": ""
+                    "description": "製作裝飾品時不可或缺的珠子。美中不足之處就是有點貴。"
                 },
                 "jumbofruit": {
                     "name": "巨巨柿子",
-                    "description": ""
+                    "description": "非常大的柿子，吃下去能回復體力。由於腐壞速度很快，在任務結束後會被回收。"
                 },
                 "lagniapple": {
                     "name": "商人橡實",
-                    "description": ""
+                    "description": "在有眼光的艾路之間備受討論，頗有價值的橡實。能提升隨從設施的便利性。"
                 },
                 "dung": {
                     "name": "魔物的糞",
-                    "description": ""
+                    "description": "正如其名所示的道具。散發著強烈的臭味，是用於製作異臭球的素材。"
                 },
                 "dung_bomb": {
                     "name": "異臭球",
-                    "description": ""
+                    "description": "散發著異臭的球，可使魔物感到厭惡並逃跑。"
                 },
                 "ez_dung_bomb": {
                     "name": "補給專用異臭球",
-                    "description": ""
+                    "description": "散發著異臭的球，可使魔物感到厭惡並逃跑。（補給品專用）"
                 },
                 "kulu_coin": {
                     "name": "搔鳥硬幣",
-                    "description": ""
+                    "description": "此硬幣僅贈予在鬥技大會征服搔鳥的勇者。"
                 },
                 "barroth_coin": {
                     "name": "土砂龍硬幣",
-                    "description": ""
+                    "description": "此硬幣僅贈予在鬥技大會征服土砂龍的勇者。"
                 },
                 "nargacuga_coin": {
                     "name": "迅龍硬幣",
-                    "description": ""
+                    "description": "此硬幣僅贈予在鬥技大會征服迅龍的勇者。"
                 },
                 "barioth_coin": {
                     "name": "冰牙龍硬幣",
-                    "description": ""
+                    "description": "此硬幣僅贈予在鬥技大會征服冰牙龍的勇者。"
                 },
                 "rajang_coin": {
                     "name": "金獅子硬幣",
-                    "description": ""
+                    "description": "此硬幣僅贈予在鬥技大會征服金獅子的勇者。"
                 },
                 "pinnacle_coin": {
                     "name": "鬥技王硬幣",
-                    "description": ""
+                    "description": "贈予徹底精通狩獵相關技能之人的名譽硬幣。其光輝是無價之寶。"
                 },
                 "hunter_king_coin": {
                     "name": "狩獵王硬幣",
-                    "description": ""
+                    "description": "贈予真正獵人的名譽白銀硬幣。其至高無上的光輝，正象徵著狩獵王的榮耀。"
                 },
                 "ace_hunter_coin": {
                     "name": "擊龍王硬幣",
-                    "description": ""
+                    "description": "贈予最頂尖獵人的金色硬幣。在為數眾多的獵人當中，也僅有極少數人才擁有此證明。"
                 },
-                "c._piercing_ammo": {
+                "c_piercing_ammo": {
                     "name": "蓄力貫通彈",
                     "description": ""
                 },
                 "gray_seed": {
                     "name": "灰色種子",
-                    "description": ""
+                    "description": "附著在魔物身上的種子，含有爆炸性油脂。由於相當危險，在任務結束後會遭到回收。"
                 },
                 "crimson_seed": {
                     "name": "紅色種子",
-                    "description": ""
+                    "description": "附著在魔物身上的種子，含有可燃性油脂。由於相當危險，在任務結束後會遭到回收。"
                 },
                 "great_wirebug": {
                     "name": "大翔蟲",
-                    "description": ""
+                    "description": "大型的翔蟲。將其放在勾玉草上，便能使獵人朝特定方向遠距飛行。"
                 },
                 "2x_ballista_shot": {
                     "name": "二連弩彈",
@@ -4069,31 +4071,31 @@
                 },
                 "friend_voucher": {
                     "name": "獵友票券",
-                    "description": ""
+                    "description": "與狩友一同經歷過許多狩獵的證明。可用於神秘鍊金。"
                 },
                 "water_barrel_bomb": {
                     "name": "水冷爆彈桶",
-                    "description": ""
+                    "description": "內有藍色種子的爆彈桶，爆炸時會噴出水來。由於相當危險，在任務結束後會遭到回收。"
                 },
                 "thunder_barrel_bomb": {
                     "name": "電擊爆彈桶",
-                    "description": ""
+                    "description": "內有金色種子的爆彈桶，爆炸時會產生電氣。由於相當危險，在任務結束後會遭到回收。"
                 },
                 "ice_barrel_bomb": {
                     "name": "冰結爆彈桶",
-                    "description": ""
+                    "description": "內有銀色種子的爆彈桶，爆炸時會噴出寒氣。由於相當危險，在任務結束後會遭到回收。"
                 },
                 "blue_seed": {
                     "name": "藍色種子",
-                    "description": ""
+                    "description": "附著在魔物身上的種子，含有大量的水分。由於相當危險，在任務結束後會遭到回收。"
                 },
                 "gold_seed": {
                     "name": "金色種子",
-                    "description": ""
+                    "description": "附著在魔物身上的種子，帶有大量的靜電。由於相當危險，在任務結束後會遭到回收。"
                 },
                 "silver_seed": {
                     "name": "銀色種子",
-                    "description": ""
+                    "description": "附著在魔物身上的種子，具有強烈的寒氣。由於相當危險，在任務結束後會遭到回收。"
                 },
                 "2x_cannon_ammo": {
                     "name": "二連大砲彈",
@@ -4105,107 +4107,107 @@
                 },
                 "bhernastone": {
                     "name": "貝爾娜石",
-                    "description": ""
+                    "description": "觀賞用的寶石。從有著廣闊草原及藍天的樸素村落進口而來。可以賣得高價。"
                 },
                 "dundormarin": {
                     "name": "特德爾燐礦",
-                    "description": ""
+                    "description": "觀賞用的寶石。從有著強風吹拂險峻山脈的城鎮進口而來。可以賣得高價。"
                 },
                 "loc_lac_ore": {
                     "name": "勒克拉克礦",
-                    "description": ""
+                    "description": "觀賞用的寶石。從黃塵滾滾的大沙漠之中心城鎮進口而來。可以賣得高價。"
                 },
                 "val_habar_quartz": {
                     "name": "巴露巴雷石英",
-                    "description": ""
+                    "description": "觀賞用的寶石。從聚集了許多商團的市場進口而來。可以賣得高價。"
                 },
                 "minegardenite": {
                     "name": "米那加洛特寶石",
-                    "description": ""
+                    "description": "觀賞用的寶石。從懸崖上繁榮的獵人城鎮進口而來。可以賣得高價。"
                 },
                 "mudbeetle": {
                     "name": "泥球甲蟲",
-                    "description": ""
+                    "description": "會搬運含有水屬性成分泥球的小型蟲類。泥球命中時，能使目標陷入水屬性狀態異常。"
                 },
                 "paratoad": {
                     "name": "麻痺瓦斯蛙",
-                    "description": ""
+                    "description": "體內儲存著速效麻痺瓦斯的青蛙。一旦接觸到瓦斯，便會瞬間麻痺動彈不得。"
                 },
                 "puppet_spider": {
                     "name": "傀儡蜘蛛",
-                    "description": ""
+                    "description": "會吐出具有高黏性蜘蛛絲的蜘蛛。若以絲線擊中魔物，魔物便會進入待操龍狀態。"
                 },
                 "escuregot": {
                     "name": "落雨蝸牛",
-                    "description": ""
+                    "description": "綠色的大型蝸牛。將其取出後，便會噴出具有回復效果的霧狀液體。"
                 },
                 "aurortle": {
                     "name": "塗泥陸龜",
-                    "description": ""
+                    "description": "身上背著巨大蟻窩的烏龜。當獵人受到將使自己力竭倒下的傷害時，蟻窩會代為承受。"
                 },
                 "stinkmink": {
                     "name": "臭臭鼬鼠",
-                    "description": ""
+                    "description": "會放出煙狀特殊費洛蒙的鼬鼠。可以引導沾染到費洛蒙的對象。"
                 },
                 "wailnard": {
                     "name": "子泣雉雞",
-                    "description": ""
+                    "description": "特徵為擁有紅色鳴袋的雉雞。其發出的叫聲具有吸引大型魔物前來的功效。"
                 },
                 "firebeetle": {
                     "name": "火石甲蟲",
-                    "description": ""
+                    "description": "會搬運含有火屬性成分火石的小型蟲類。火石命中時，能使目標陷入火屬性狀態異常。"
                 },
                 "thunderbeetle": {
                     "name": "雷毛甲蟲",
-                    "description": ""
+                    "description": "會搬運含有雷屬性成分土球的小型蟲類。土球命中時，能使目標陷入雷屬性狀態異常。"
                 },
                 "snowbeetle": {
                     "name": "雪石甲蟲",
-                    "description": ""
+                    "description": "會搬運含有冰屬性成分雪石的小型蟲類。雪石命中時，能使目標陷入冰屬性狀態異常。"
                 },
                 "trapbugs": {
                     "name": "撒菱蟲",
-                    "description": ""
+                    "description": "特徵為有堅硬、尖銳頭部的蟲。踩到牠的魔物不僅會感到畏縮，也會暫時變得不敢接近。"
                 },
                 "lanternbug": {
                     "name": "提燈妖蟲",
-                    "description": ""
+                    "description": "特徵為身體會微微發光的毛毛蟲。受到攻擊後體液會爆炸，並抵銷一定程度的傷害。"
                 },
                 "brewhare": {
                     "name": "加釀兔",
-                    "description": ""
+                    "description": "身體表面充滿了黴菌的兔子。能夠使部分道具發酵，提升道具的效果。"
                 },
                 "antidobra": {
                     "name": "轆轤蛇",
-                    "description": ""
+                    "description": "會射出體內解毒液的蛇類。只要吸入便能恢復異常狀態，並在一定時間內防止陷入異常。"
                 },
                 "sleeptoad": {
                     "name": "睡眠瓦斯蛙",
-                    "description": ""
+                    "description": "體內儲存著速效睡眠瓦斯的青蛙。一旦接觸到瓦斯，便會瞬間被睡意給侵襲。"
                 },
                 "poisontoad": {
                     "name": "劇毒瓦斯蛙",
-                    "description": ""
+                    "description": "體內儲存著速效劇毒瓦斯的青蛙。一旦接觸到瓦斯，便會瞬間被劇毒侵入身體。"
                 },
                 "blastoad": {
                     "name": "炸彈瓦斯蛙",
-                    "description": ""
+                    "description": "體內儲存著具有爆炸性瓦斯的青蛙。一旦瓦斯擴散出去，便會引發一場大爆炸。"
                 },
                 "spiribird": {
                     "name": "鬼火鳥",
-                    "description": ""
+                    "description": "身體會微微發光的小型鳥類。附著在牠身上的花粉香氣，能夠持續提升獵人的所有能力。"
                 },
                 "golden_spiribug": {
                     "name": "金靈瓢蟲",
-                    "description": ""
+                    "description": "會發出金色光芒的蟲類。獲得時會恢復少量耐力，也可用來當交貨的物品。"
                 },
                 "gilded_spiribug": {
                     "name": "黃金靈瓢蟲",
-                    "description": ""
+                    "description": "會發出金黃色光輝的蟲類。獲得時會恢復少量耐力，也可用來當交貨的物品。"
                 },
                 "gustcrab": {
                     "name": "一目蟹",
-                    "description": ""
+                    "description": "與香菇共生的陸棲螃蟹。能製造出一陣衝向高空的強風，將獵人捲到天上。"
                 }
             }
         }
