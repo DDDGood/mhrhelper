@@ -170,7 +170,8 @@ function someDataWorks() {
         }
         let itemImage = ""
         if (itemFrom.image !== undefined) {
-            itemImage = "images/items/" + key + ".png"
+            itemImage = "images" + itemFrom.image.substring(itemFrom.image.indexOf("/items/"));
+            // itemImage = "images/items/" + key + ".png"
         }
         const itemData = {
             "name": itemName,
@@ -181,7 +182,7 @@ function someDataWorks() {
     }
 
 
-    // outputText(JSON.stringify(items));
+    outputText(JSON.stringify(items));
     return;
 
 
