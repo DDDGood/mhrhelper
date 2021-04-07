@@ -39,8 +39,8 @@ $(document).ready(Initialize);
 
 function Initialize() {
     try {
-        LoadData(['data/mhrdex.json', 'data/mhrmoves.json', 'data/endemics.json', "data/small_monster.json", "data/weapons.json", "data/items.json"], tryOnDexLoaded);
-        // LoadData(['data/mhrdex.json', 'data/mhrmoves.json', 'data/endemics.json', "data/small_monster.json", "data/weapons.json", "data/items.json", "data/parsedmission.json", "data/cntokey.json", "data/cntotw.json"], tryOnDexLoaded);
+        LoadData(['data/mhrdex.json', 'data/mhrmoves.json', 'data/endemics.json', "data/small_monster.json", "data/weapons.json", "data/items.json", "data/quests.json"], tryOnDexLoaded);
+        // LoadData(['data/mhrdex.json', 'data/mhrmoves.json', 'data/endemics.json', "data/small_monster.json", "data/weapons.json", "data/items.json", "data/quests.json", "data/parsedmission.json", "data/parsedmissionmon.json", "data/cntokey.json", "data/cntotw.json"], tryOnDexLoaded);
     } catch (error) {
         console.log(error.message);
         document.getElementById("error").innerHTML = "error:" + error.message;
@@ -146,52 +146,137 @@ function onDexLoaded() {
 }
 function someDataWorks() {
 
-    let quests = {};
-    for (let i in data.quests) {
-        const quest = data.quests[i];
-        qkey = ""
-        qName = quest.name;
-        if (data.cntokey[qName] !== undefined) {
-            qkey = data.cntokey[qName].key;
-        } else if (data.cntokey2[qName] !== undefined) {
-            qkey = data.cntokey2[qName].key;
-        } else {
-            console.log("no key " + quest.name);
-            continue;
-        }
-        if (data.cntotw[qName] !== undefined) {
-            qName = data.cntotw[qName].key;
-        } else if (data.cntotw2[qName] !== undefined) {
-            qName = data.cntotw2[qName].key;
-        } else {
-            console.log("no name " + quest.name);
-            continue;
-        }
-        qClient = quest.client;
-        if (data.cntotw[qClient] !== undefined) {
-            qClient = data.cntotw[qClient].key;
-        } else if (data.cntotw2[qClient] !== undefined) {
-            qClient = data.cntotw2[qClient].key;
-        } else {
-            console.log("no client " + quest.client);
-            continue;
-        }
-        qData = {
-            "name": qName,
-            "type": quest.type,
-            "star": quest.star,
-            "client": qClient
-        }
-        if (quest.hasOwnProperty(qkey)) {
-            console.log(qkey);
-        }
-        quests[qkey] = qData;
+    // for (let key in data.quests) {
+    //     let quest = data.quests[key];
+    //     quest.items = [];
+    // }
+
+    // for (let i in data.missionitem) {
+    //     const link = data.missionitem[i];
+    //     const iKey = GetKeyByCN(link.item.name);
+    //     const qKey = GetKeyByCN(link.mission.name);
+    //     let quest = data.quests[qKey];
+    //     qItem = {
+    //         "item": iKey,
+    //         "num": link.num,
+    //         "rate": link.gailv
+    //     }
+    //     if (quest.items === undefined)
+    //         quest.items = [];
+    //     quest.items.push(qItem);
+    // }
+
+    // for (let key in data.quests) {
+    //     let quest = data.quests[key];
+    //     if (quest.items != undefined)
+    //         quest.items.sort((a, b) => (a.rate < b.rate) ? 1 : ((b.rate < a.rate) ? -1 : 0));
+    // }
+
+
+    for (let key in data.quests) {
+        let quest = data.quests[key];
+        quest.monsters = [];
     }
 
-    outputText(JSON.stringify(quests))
+    for (let i in data.missionmon) {
+        const link = data.missionmon[i];
+        const key = GetKeyByCN(link.mission.name);
+        let quest = data.quests[key];
+        const monEN = link.monster.name_en;
+        const mKey = monEN.toLowerCase().replaceAll(" ", "_");
+        const mon = data.large_monsters[mKey];
+        if (mon === undefined) {
+            console.warn("no mon: " + quest.name + " key: " + mKey);
+        } else {
+            if (quest.monsters === undefined)
+                quest.monsters = [];
+
+            const qMon = {
+                "monster": mKey,
+                "hp": link.hp,
+                "attack": link.attack,
+                "parts": link.parts,
+                "defense": link.defense,
+                "aliment": link.ailment,
+                "stun": link.stun,
+                "stamina": link.stamina,
+                "mount": link.mount
+            }
+            if (quest.success.indexOf(mon.name.tw) > -1) {
+                let insertPos = 0;
+                for (let j = 0; j < quest.monsters.length; j++) {
+                    qmName = data.large_monsters[quest.monsters[j].monster].name.tw;
+                    if (quest.success.indexOf(qmName) > -1) {
+                        console.log("already mon " + qmName);
+                        insertPos++;
+                    }
+                }
+                console.log("is main target :" + quest.name + "-" + mon.name.tw + "-" + insertPos);
+                quest.monsters.splice(insertPos, 0, qMon);
+            } else {
+                quest.monsters.push(qMon);
+            }
+        }
+    }
+
+    outputText(JSON.stringify(data.quests))
+
+    // let quests = {};
+    // for (let i in data.quests) {
+    //     const quest = data.quests[i];
+    //     qkey = ""
+    //     qName = quest.name;
+    //     if (data.cntokey[qName] !== undefined) {
+    //         qkey = data.cntokey[qName].key;
+    //     } else if (data.cntokey2[qName] !== undefined) {
+    //         qkey = data.cntokey2[qName].key;
+    //     } else {
+    //         console.log("no key " + quest.name);
+    //         continue;
+    //     }
+    //     if (data.cntotw[qName] !== undefined) {
+    //         qName = data.cntotw[qName].key;
+    //     } else if (data.cntotw2[qName] !== undefined) {
+    //         qName = data.cntotw2[qName].key;
+    //     } else {
+    //         console.log("no name " + quest.name);
+    //         continue;
+    //     }
+    //     qClient = quest.client;
+    //     if (data.cntotw[qClient] !== undefined) {
+    //         qClient = data.cntotw[qClient].key;
+    //     } else if (data.cntotw2[qClient] !== undefined) {
+    //         qClient = data.cntotw2[qClient].key;
+    //     } else {
+    //         console.log("no client " + quest.client);
+    //         continue;
+    //     }
+    //     qData = {
+    //         "name": qName,
+    //         "type": quest.type,
+    //         "star": quest.star,
+    //         "client": qClient
+    //     }
+    //     if (quest.hasOwnProperty(qkey)) {
+    //         console.log(qkey);
+    //     }
+    //     quests[qkey] = qData;
+    // }
+
 
     // console.log(JSON.stringify(temp));
 
+}
+
+function GetKeyByCN(cnText) {
+    if (data.cntokey[cnText] !== undefined) {
+        return data.cntokey[cnText].key;
+    } else if (data.cntokey2[cnText] !== undefined) {
+        return data.cntokey2[cnText].key;
+    } else {
+        console.warn("no key " + cnText);
+        return undefined
+    }
 }
 
 function SaveMonMovesPost(monName) {
@@ -426,6 +511,8 @@ function InitRouter() {
     const ItemComp = httpVueLoader("components/item_main.vue");
     const WeaponListComp = httpVueLoader("components/weapon_browse_all.vue");
     const WeaponComp = httpVueLoader("components/weapon_main.vue");
+    const QuestListComp = httpVueLoader("components/quest_browse_all.vue");
+    const QuestComp = httpVueLoader("components/quest_main.vue");
 
     const router = new VueRouter({
         routes: [
@@ -492,6 +579,18 @@ function InitRouter() {
                 path: '/item/:name',
                 component: ItemComp,
                 props: { items: GetData("items") }
+            },
+            {
+                name: 'questlist',
+                path: '/quest',
+                component: QuestListComp,
+                props: { quests: GetData("quests") }
+            },
+            {
+                name: 'quest',
+                path: '/quest/:name',
+                component: QuestComp,
+                props: { quests: GetData("quests") }
             },
             {
                 name: 'weaponlist',

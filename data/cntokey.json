@@ -4043,6 +4043,9 @@
         "白骑士 对 猎人": {
             "key": "quest_hall_white_knight_vs_hunter"
         },
+        "白骑士": {
+            "key": "quest_hall_white_knight_vs_hunter"
+        },
         "流浪剑客": {
             "key": "quest_hall_wandering_swordsman"
         },

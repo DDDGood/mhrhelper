@@ -9,6 +9,7 @@
         "note": "Note",
         "type": "Type",
         "trait": "Trait",
+        "all": "All",
         "sorting": "Sorting",
         "cancel_search": "Clear Search",
         "low_rank": "Low Rank",
@@ -18,7 +19,8 @@
             "small_monsters": "Small Monsters",
             "endemic_lifes": "Endemic Lifes",
             "weapons": "Weapons",
-            "items": "Items"
+            "items": "Items",
+            "quests": "Quests"
         },
         "monster": {
             "name": {
@@ -232,6 +234,31 @@
                 "light_bowgun": "Light Bowgun",
                 "heavy_bowgun": "Heavy Bowgun",
                 "bow": "Bow"
+            }
+        },
+        "quest": {
+            "village": "Village",
+            "hall": "Hall",
+            "arena": "Arena",
+            "client": "Client",
+            "rank": "Rank",
+            "success": "Quest Target",
+            "fail": "Fail Conditions",
+            "monsters": "Monsters",
+            "click_hint": "(Click to related page.)",
+            "spawn": {
+                "mult": "Mult.",
+                "attack": "Attack",
+                "parts": "Parts",
+                "defense": "Defense",
+                "aliment": "Aliment",
+                "stun": "Stun",
+                "stamina": "Stamina",
+                "mount": "Mount"
+            },
+            "items": "Reward Items",
+            "reward": {
+                "rate": "Rate"
             }
         },
         "map": {
