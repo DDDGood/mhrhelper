@@ -24,6 +24,12 @@ module.exports = {
   },
   mounted: function () {
   },
+  created: function () {
+    sendGAEvent("enter_page_data_main", {
+      "category": "items",
+      "name": this.itemdata.name,
+    });
+  },
   components: {
     card: httpVueLoader("components/item_card.vue"),
   },

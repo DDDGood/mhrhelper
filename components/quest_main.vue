@@ -127,6 +127,12 @@ module.exports = {
       return GetData('items')[id]
     }
   },
+  created: function () {
+    sendGAEvent("enter_page_data_main", {
+      "category": "quest",
+      "name": this.questdata.name,
+    });
+  },
   components: {
     card: httpVueLoader("components/quest_card.vue"),
   },

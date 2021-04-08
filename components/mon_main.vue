@@ -113,7 +113,7 @@
           </table>
         </details>
 
-        <mon_moves :monmoves="movedata" v-if="!IsNullOrEmpty(movedata)"></mon_moves>
+        <mon_moves :monmoves="movedata" v-if="!IsNullOrEmpty(movedata)" @clickmove="OnClickMove"></mon_moves>
         <!-- <div id="divmoves" v-if="!IsNullOrEmpty(movedata)">
           <details open v-show="!IsNullOrEmpty(movedata.outline)">
             <summary class="header2">{{$t('monster.battlestrategy')}}</summary>
@@ -162,6 +162,10 @@ module.exports = {
     },
   },
   created: function () {
+    sendGAEvent("enter_page_data_main", {
+      "category": "large_monsters",
+      "name": this.mondata.name.tw,
+    });
   },
   mounted: function () {
     // this.mondata = this.dex[this.$route.params.name];
@@ -195,6 +199,12 @@ module.exports = {
         }
       }
       return count;
+    },
+    OnClickMove: function (move) {
+      sendGAEvent("click_monster_move", {
+        "monster": this.mondata.name.tw,
+        "name": move.name,
+      });
     }
   },
   watch: {

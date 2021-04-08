@@ -24,6 +24,12 @@ module.exports = {
   },
   mounted: function () {
   },
+  created: function () {
+    sendGAEvent("enter_page_data_main", {
+      "category": "small_monsters",
+      "name": this.smonsterdata.name,
+    });
+  },
   components: {
     card: httpVueLoader("components/smon_card.vue"),
   },

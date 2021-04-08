@@ -114,10 +114,8 @@ module.exports = {
         } else this.moveconditions["normal"].combos.push(combo);
       }
     },
-    clickmove: function (move) {
-      this.$emit("clickmove", move);
-    },
     OnClickMove: function (move) {
+      this.$emit("clickmove", move);
       this.currentmove = move;
       this.$refs.movepanel.Show();
     },

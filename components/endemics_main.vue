@@ -55,6 +55,12 @@ module.exports = {
     // video.load();
     // video.play();
   },
+  created: function () {
+    sendGAEvent("enter_page_data_main", {
+      "category": "endemic_lifes",
+      "name": this.endemicdata.name,
+    });
+  },
   components: {
     card: httpVueLoader("components/endemics_card.vue"),
   },

@@ -443,31 +443,8 @@ function saveTextFile(text) {
     a.remove();
 }
 
-function saveImageFile(sourceURL, imageName) {
-
-    // let a = document.createElement("a");
-    // a.href = url;
-    // a.download = imageName;
-    // document.body.appendChild(a);
-    // a.click();
-    // document.body.removeChild(a);
-    $.ajax({
-        url: sourceURL,
-        method: 'GET',
-        xhrFields: {
-            responseType: 'blob'
-        },
-        success: function (data) {
-            var a = document.createElement('a');
-            var url = window.URL.createObjectURL(data);
-            a.href = url;
-            a.download = imageName;
-            document.body.append(a);
-            a.click();
-            a.remove();
-            window.URL.revokeObjectURL(url);
-        }
-    });
+function sendGAEvent(eventName, paramsObj) {
+    gtag('event', eventName, paramsObj);
 }
 
 //currentKey: the key you want to move

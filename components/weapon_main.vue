@@ -48,6 +48,12 @@ module.exports = {
   },
   mounted: function () {
   },
+  created: function () {
+    sendGAEvent("enter_page_data_main", {
+      "category": "weapons",
+      "name": this.weapondata.name,
+    });
+  },
   components: {
     card: httpVueLoader("components/weapon_card.vue"),
     moves: httpVueLoader("components/weapon_moves.vue")
