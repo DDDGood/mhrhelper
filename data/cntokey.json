@@ -1,5 +1,212 @@
 {
     "cntokey": {
+        "目标报酬": {
+            "key": "rathian"
+        },
+        "部位破坏报酬": {
+            "key": "rathian"
+        },
+        "捕获报酬": {
+            "key": "rathian"
+        },
+        "掉落物": {
+            "key": "rathian"
+        },
+        "剥取素材": {
+            "key": "rathian"
+        },
+        "随从艾露猫的收集物": {
+            "key": "rathian"
+        },
+        "雌火龙": {
+            "key": "rathian"
+        },
+        "霸主・雌火龙": {
+            "key": "apex_rathian"
+        },
+        "火龙": {
+            "key": "rathalos"
+        },
+        "奇怪龙": {
+            "key": "khezu"
+        },
+        "岩龙": {
+            "key": "basarios"
+        },
+        "角龙": {
+            "key": "diablos"
+        },
+        "金狮子": {
+            "key": "rajang"
+        },
+        "轰龙": {
+            "key": "tigrex"
+        },
+        "迅龙": {
+            "key": "nargacuga"
+        },
+        "冰牙龙": {
+            "key": "barioth"
+        },
+        "土砂龙": {
+            "key": "barroth"
+        },
+        "水兽": {
+            "key": "royal_ludroth"
+        },
+        "眠狗龙王": {
+            "key": "great_baggi"
+        },
+        "雷狼龙": {
+            "key": "zinogre"
+        },
+        "毒狗龙王": {
+            "key": "great_wroggi"
+        },
+        "青熊兽": {
+            "key": "arzuros"
+        },
+        "霸主・青熊兽": {
+            "key": "apex_arzuros"
+        },
+        "白兔兽": {
+            "key": "lagombi"
+        },
+        "赤甲兽": {
+            "key": "volvidon"
+        },
+        "泡狐龙": {
+            "key": "mizutsune"
+        },
+        "霸主・泡狐龙": {
+            "key": "apex_mizutsune"
+        },
+        "怨虎龙": {
+            "key": "magnamalo"
+        },
+        "天狗兽": {
+            "key": "bishaten"
+        },
+        "伞鸟": {
+            "key": "aknosom"
+        },
+        "河童蛙": {
+            "key": "tetranadon"
+        },
+        "人鱼龙": {
+            "key": "somnacanth"
+        },
+        "妃蜘蛛": {
+            "key": "rakna-kadaki"
+        },
+        "泥翁龙": {
+            "key": "almudron"
+        },
+        "风神龙": {
+            "key": "wind_serpent_ibushi"
+        },
+        "雪鬼兽": {
+            "key": "goss_harag"
+        },
+        "镰鼬龙王": {
+            "key": "great_izuchi"
+        },
+        "雷神龙": {
+            "key": "thunder_serpent_narwa"
+        },
+        "蛮颚龙": {
+            "key": "anjanath"
+        },
+        "毒妖鸟": {
+            "key": "pukei-pukei"
+        },
+        "搔鸟": {
+            "key": "kulu-ya-ku"
+        },
+        "泥鱼龙": {
+            "key": "jyuratodus"
+        },
+        "飞雷龙": {
+            "key": "tobi-kadachi"
+        },
+        "精灵鹿": {
+            "key": "kelbi"
+        },
+        "艾露猫": {
+            "key": "felyne"
+        },
+        "梅拉露": {
+            "key": "melynx"
+        },
+        "野猪": {
+            "key": "bullfango"
+        },
+        "波波": {
+            "key": "popo"
+        },
+        "雪鹿": {
+            "key": "anteka"
+        },
+        "翼蛇龙": {
+            "key": "remobra"
+        },
+        "硬甲龙": {
+            "key": "rhenoplos"
+        },
+        "飞甲虫": {
+            "key": "bnahabra"
+        },
+        "甲虫": {
+            "key": "altaroth"
+        },
+        "咬鱼": {
+            "key": "gajau"
+        },
+        "狗龙": {
+            "key": "jaggi"
+        },
+        "雌狗龙": {
+            "key": "jaggia"
+        },
+        "眠狗龙": {
+            "key": "baggi"
+        },
+        "砂鱼": {
+            "key": "delex"
+        },
+        "水生兽": {
+            "key": "ludroth"
+        },
+        "熔岩兽": {
+            "key": "uroktor"
+        },
+        "垂皮龙": {
+            "key": "slagtoth"
+        },
+        "丸鸟": {
+            "key": "gargwa"
+        },
+        "毒狗龙": {
+            "key": "wroggi"
+        },
+        "变形幼冰鲨": {
+            "key": "zamite"
+        },
+        "贼龙": {
+            "key": "jagras"
+        },
+        "冠突龙": {
+            "key": "kestodon"
+        },
+        "狸兽": {
+            "key": "bombadgy"
+        },
+        "镰鼬龙": {
+            "key": "izuchi"
+        },
+        "臣蜘蛛": {
+            "key": "rachnoid"
+        },
         "苦无": {
             "key": "throwing_kunai"
         },

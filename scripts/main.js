@@ -39,8 +39,8 @@ $(document).ready(Initialize);
 
 function Initialize() {
     try {
-        LoadData(['data/mhrdex.json', 'data/mhrmoves.json', 'data/endemics.json', "data/small_monster.json", "data/weapons.json", "data/items.json", "data/quests.json"], tryOnDexLoaded);
-        // LoadData(['data/mhrdex.json', 'data/mhrmoves.json', 'data/endemics.json', "data/small_monster.json", "data/weapons.json", "data/items.json", "data/quests.json", "data/parsedmission.json", "data/parsedmissionmon.json", "data/cntokey.json", "data/cntotw.json"], tryOnDexLoaded);
+        // LoadData(['data/mhrdex.json', 'data/mhrmoves.json', 'data/endemics.json', "data/small_monster.json", "data/weapons.json", "data/items.json", "data/quests.json"], tryOnDexLoaded);
+        LoadData(['data/mhrdex.json', 'data/mhrmoves.json', 'data/endemics.json', "data/small_monster.json", "data/weapons.json", "data/items.json", "data/quests.json", "data/raw/monster_item.json", "data/cntokey.json", "data/cntotw.json"], tryOnDexLoaded);
     } catch (error) {
         console.log(error.message);
         document.getElementById("error").innerHTML = "error:" + error.message;
@@ -140,11 +140,69 @@ function onDexLoaded() {
         }
     }
 
-    // someDataWorks();
+    someDataWorks();
 
-
+    // ExportItemSource();
 }
+
+function ExportItemSource() {
+    let itemSource = {};
+    for (let qID in data.quests) {
+        const quest = data.quests[qID];
+        for (let i in quest.items) {
+            const link = quest.items[i];
+            if (itemSource[link.item] === undefined) {
+                itemSource[link.item] = {}
+            }
+            if (itemSource[link.item].quests === undefined) {
+                itemSource[link.item].quests = {}
+            }
+            itemSource[link.item].quests[qID] = {
+                'num': link.num,
+                'rate': link.rate
+            }
+        }
+    }
+    let outputData = { 'item_source': itemSource }
+    outputText(JSON.stringify(outputData));
+}
+
+
+
 function someDataWorks() {
+
+    for (let mID in data.large_monsters) {
+        data.large_monsters[mID].materials = {};
+    }
+    let conditions = [];
+    for (let i in data.monster_item) {
+
+        const link = data.monster_item[i];
+
+        const mID = data.cntokey[link.monster.name].key;
+        if (mID == undefined)
+            console.warn("no mID: " + link.monster.name);
+        let monster = data.large_monsters[mID];
+        if (monster == undefined)
+            monster = data.small_monsters[mID];
+        if (monster == undefined)
+            console.warn("no Mon: " + link.monster.name)
+
+        const iID = data.cntokey[link.item.name].key;
+        if (iID == undefined)
+            console.warn("no iID: " + link.item.name);
+
+        let condition = link.method;
+        if (!conditions.includes(condition)) {
+            conditions.push(condition);
+        }
+    }
+    console.log(conditions.join(","));
+
+
+
+    return
+
 
     // for (let key in data.quests) {
     //     let quest = data.quests[key];
