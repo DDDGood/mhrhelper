@@ -22,9 +22,9 @@
         custom
         v-slot="{ navigate }"
       >
-        <button @click="navigate" class="flex1 flex-row flex-start item-link">
+        <div @click="navigate" class="flex1 flex-row flex-start item-list-link mouse-hover">
           <img
-            class="item-icon"
+            class="item-list-icon"
             v-bind:src="
             !item.image || item.image.length === 0
               ? 'images/monsters/icons/icon_unknown.png'
@@ -32,9 +32,9 @@
           "
           />
           <div class="flex-center">
-            <div class="item-text">{{ item.name}}</div>
+            <div class="item-list-text">{{ item.name}}</div>
           </div>
-        </button>
+        </div>
       </router-link>
       <router-view></router-view>
     </div>
@@ -109,23 +109,6 @@ module.exports = {
 }
 .search-cancel {
   margin: 8px;
-}
-.item-link {
-  background-color: white;
-  /* border-radius: 8px; */
-  border-left: none;
-  border-right: none;
-  border-top: none;
-  border-bottom: 1px solid rgb(197, 197, 197);
-  padding: 8px;
-}
-.item-icon {
-  width: 32px;
-  height: 32px;
-  margin-right: 20px;
-}
-.item-text {
-  font-size: 16px;
 }
 .page-link-container {
   margin: 8px;

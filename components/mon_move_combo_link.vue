@@ -8,14 +8,14 @@
     <template v-for="(pos, index) in toPositions">
       <div :style="GetLinkTextStyle(pos)" :key="index">{{ pos.condition }}</div>
     </template>
-    <button
-      :class="{'flexitem':true, 'move-button-virtual':move === undefined}"
+    <div
+      :class="{'flexitem':true, 'move-button-clickable':move!= undefined ,'move-button-virtual':move === undefined}"
       ref="root"
       @click="clickmove(move)"
     >
       <div class="movebutton-name">{{ rootnode.move }}</div>
       <div class="movebutton-tag" v-if="move == undefined ? false : move.recovery == '大'">硬直大</div>
-    </button>
+    </div>
     <div class="flexboxcolumn">
       <template v-for="(anotherlink, index) in rootnode.links">
         <nodelink

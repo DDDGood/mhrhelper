@@ -173,6 +173,21 @@ padding:10px;
 }
 
 
+.item-list-link {
+  background-color: white;
+  border-bottom: 1px solid rgb(197, 197, 197);
+  padding: 8px;
+}
+.item-list-icon {
+  width: 32px;
+  height: 32px;
+  margin-right: 20px;
+}
+.item-list-text {
+  font-size: 16px;
+}
+
+
 summary {
   outline: none;
 }

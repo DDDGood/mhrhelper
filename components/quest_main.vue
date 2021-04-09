@@ -46,25 +46,28 @@
                     <div class="color2 rounded interval-y margin">
                       <div class="flex-row">
                         <div
-                          class="card-text"
+                          class="card-text flex1"
                         >{{ $t('quest.spawn.attack') + ": " + spawndata.attack }}</div>
                         <div
-                          class="card-text"
+                          class="card-text flex1"
                         >{{ $t('quest.spawn.parts') + ": " + spawndata.parts }}</div>
                         <div
-                          class="card-text"
+                          class="card-text flex1"
                         >{{ $t('quest.spawn.defense') + ": " + spawndata.defense }}</div>
+                        <div class="card-text flex1"></div>
                       </div>
                       <div class="flex-row">
                         <div
-                          class="card-text"
+                          class="card-text flex1"
                         >{{ $t('quest.spawn.aliment') + ": " + spawndata.aliment }}</div>
-                        <div class="card-text">{{ $t('quest.spawn.stun') + ": " + spawndata.stun }}</div>
                         <div
-                          class="card-text"
+                          class="card-text flex1"
+                        >{{ $t('quest.spawn.stun') + ": " + spawndata.stun }}</div>
+                        <div
+                          class="card-text flex1"
                         >{{ $t('quest.spawn.stamina') + ": " + spawndata.stamina }}</div>
                         <div
-                          class="card-text"
+                          class="card-text flex1"
                         >{{ $t('quest.spawn.mount') + ": " + spawndata.mount }}</div>
                       </div>
                     </div>

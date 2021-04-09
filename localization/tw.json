@@ -247,11 +247,11 @@
             "success": "任務目標",
             "fail": "失敗條件",
             "monsters": "登場魔物",
-            "click_hint": "（點擊可查看相關頁面）",
+            "click_hint": "（點擊可前往相關頁面）",
             "spawn": {
                 "mult": "數值倍率",
                 "attack": "攻擊",
-                "parts": "部位破壞",
+                "parts": "部位",
                 "defense": "防禦",
                 "aliment": "異常",
                 "stun": "暈眩",

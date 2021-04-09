@@ -1,20 +1,20 @@
 <template>
   <div class="layout-main">
-    <div class="flex-row interval-y-large">
+    <div class="flex-row interval-y-large sorting-type-container">
       <div
         class="flex1 sorting-type flex-center interval-x"
         v-for="(type, id) in questsByTypes"
         :key="id"
-        :class="{'color1' : id==curType}"
+        :class="{'sorting-type-current' : id==curType}"
         @click="selectType(id)"
       >{{$t('quest.' + id)}}</div>
     </div>
     <div class="flex-row interval-y-large">
       <div
-        class="flex-center interval-x flex-row flex-intense"
+        class="flex-center interval-x flex-row flex-intense sorting-star"
         v-for="(list, star) in questsByTypes[curType]"
         :key="star"
-        :class="{'sorting-star-current' : star==curStar}"
+        :class="{'sorting-star-current color0' : star==curStar}"
         @click="selectStar(star)"
       >
         <span v-if="curType !='arena'" class="flex1 flex-center">
@@ -31,9 +31,9 @@
         custom
         v-slot="{ navigate }"
       >
-        <div @click="navigate" class="flex1 flex-row flex-start item-link">
+        <div @click="navigate" class="flex1 flex-row flex-start item-list-link mouse-hover">
           <div class="flex-center">
-            <div class="item-text">{{ quest.name}}</div>
+            <div class="item-list-text">{{ quest.name}}</div>
           </div>
         </div>
       </router-link>
@@ -83,33 +83,28 @@ module.exports = {
 };
 </script>  
 <style scoped>
+.sorting-type-container {
+  box-shadow: 0 2px 2px -2px #b1b1b1;
+}
 .sorting-type {
-  border-radius: 4px;
+  color: grey;
   font-size: 18px;
   padding: 4px;
 }
-.sorting-star-current {
+.sorting-type-current {
+  color: rgb(0, 0, 0);
+  font-weight: bold;
   border-bottom: 2px solid #4b9aff;
+}
+.sorting-star {
+  padding: 4px;
+  border-radius: 4px;
+}
+.sorting-star-current {
+  color: white;
 }
 .sorting-star-icon {
   width: 16px;
-}
-.item-link {
-  background-color: white;
-  /* border-radius: 8px; */
-  border-left: none;
-  border-right: none;
-  border-top: none;
-  border-bottom: 1px solid rgb(197, 197, 197);
-  padding: 8px;
-}
-.item-icon {
-  width: 32px;
-  height: 32px;
-  margin-right: 20px;
-}
-.item-text {
-  font-size: 16px;
 }
 .page-link-container {
   margin: 8px;
@@ -128,8 +123,5 @@ module.exports = {
 
 /* desktops */
 @media (min-width: 1200px) {
-  .item-link:hover {
-    background-color: #cfccff; /* Green */
-  }
 }
 </style>

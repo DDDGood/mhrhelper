@@ -9,9 +9,9 @@
         <div class="flex-row flex-start">
           <!-- <div class="description-text text-bold">{{move.name}}</div> -->
           <div v-if="!IsNullOrEmpty(move.command)" class="flex-row flex-intense" v-html="ParseCommand(move.command)"></div>
-          <button class="flexitem" @click="OnClickMove(move)">
+          <div class="flexitem move-button-clickable" @click="OnClickMove(move)">
             <div class="movebutton-name">{{ move.name }}</div>
-          </button>
+          </div>
         </div>
         <!-- <video
           v-if="!IsNullOrEmpty(move.video)"
@@ -48,10 +48,10 @@
           <div class="combo-condition-text" v-if="condition != 'normal'">{{ condition }}</div>
           <template v-for="item of conditiondata.moves">
             <div class="flexboxrow" :key="item.name" v-if="!item.onlyincombo">
-              <button class="flexitem" @click="OnClickMove(item)">
+              <div class="flexitem move-button-clickable" @click="OnClickMove(item)">
                 <div class="movebutton-name">{{ item.name }}</div>
                 <div class="movebutton-tag" v-if="item.recovery == '大'">硬直大</div>
-              </button>
+              </div>
             </div>
           </template>
           <template v-for="(combo, index) in conditiondata.combos">

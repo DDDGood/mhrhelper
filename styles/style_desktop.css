@@ -56,6 +56,18 @@
     color: white;
   }
 
+  .link-button:hover{
+    cursor:pointer
+  }
+  
+  .item-list-link:hover {
+    background-color: #bdd5ff;
+  }
+  .move-button-clickable:hover{
+    background-color: #4CAF50; 
+    color: white;
+    cursor:pointer
+  }
 
 
 
