@@ -52,10 +52,7 @@
                 <tr class="card-text" :key="mID">
                   <td>
                     <router-link v-bind:to="'/mon/' + mID" custom v-slot="{ navigate }">
-                      <div @click="navigate" class="mouse-hover">
-                        {{$t('monster.name.' + mID )}}
-                        <span v-if="link.num>1">{{'x' + link.num}}</span>
-                      </div>
+                      <div @click="navigate" class="mouse-hover">{{$t('monster.name.' + mID )}}</div>
                     </router-link>
                   </td>
                   <td>
@@ -65,7 +62,10 @@
                     <div class="text-right item-rate-text">{{$t('item.' + link.method)}}</div>
                   </td>
                   <td>
-                    <div class="text-right item-rate-text">{{link.rate + ' %'}}</div>
+                    <div class="text-right item-rate-text">
+                      {{
+                      (link.num>1 ? '(x' + link.num +') ':"") + link.rate + ' %'}}
+                    </div>
                   </td>
                 </tr>
               </template>
@@ -85,12 +85,10 @@
                 <tr class="card-text" :key="mID">
                   <td>
                     <router-link v-bind:to="'/smon/' + mID" custom v-slot="{ navigate }">
-                      <div @click="navigate" class="mouse-hover">
-                        {{$t('small_monster.name.' + mID )}}
-                        <span
-                          v-if="link.num>1"
-                        >{{'x' + link.num}}</span>
-                      </div>
+                      <div
+                        @click="navigate"
+                        class="mouse-hover"
+                      >{{$t('small_monster.name.' + mID )}}</div>
                     </router-link>
                   </td>
                   <td>
@@ -100,7 +98,10 @@
                     <div class="text-right item-rate-text">{{$t('item.' + link.method)}}</div>
                   </td>
                   <td>
-                    <div class="text-right item-rate-text">{{link.rate + ' %'}}</div>
+                    <div class="text-right item-rate-text">
+                      {{
+                      (link.num>1 ? '(x' + link.num + ') ' :"") + link.rate + ' %'}}
+                    </div>
                   </td>
                 </tr>
               </template>
