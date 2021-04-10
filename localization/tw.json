@@ -19,6 +19,7 @@
         "trait": "特性",
         "sorting": "排序",
         "all": "全部",
+        "rate": "機率",
         "cancel_search": "取消搜尋",
         "low_rank": "下位",
         "high_rank": "上位",
@@ -262,6 +263,20 @@
             "reward": {
                 "rate": "機率"
             }
+        },
+        "item": {
+            "sources": "獲取方法",
+            "material_name": "素材名稱",
+            "target_rewards": "目標報酬",
+            "capture_rewards": "捕獲報酬",
+            "broken_part_rewards": "部位破壞",
+            "carves": "剝取素材",
+            "dropped_materials": "掉落物",
+            "items_obtained_by_palico": "隨從蒐集",
+            "quest_name": "任務名稱",
+            "monster_name": "魔物名稱",
+            "rank": "等級",
+            "method": "途徑"
         },
         "map": {
             "name": {

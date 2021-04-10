@@ -9,13 +9,16 @@
           <summary class="header2">{{$t('description')}}</summary>
           <span id="description" v-html="ParseDescriptionText(smonsterdata.description)"></span>
         </details>
+        <details open v-if="smonsterdata.items!== undefined">
+          <summary class="header2">{{$t('monster.materials')}}</summary>
+          <itemtable :items="smonsterdata.items"></itemtable>
+        </details>
       </div>
     </div>
   </div>
 </template>
 <script>
 module.exports = {
-
   props: ["smonsters"],
   computed: {
     smonsterdata: function () {
@@ -32,6 +35,7 @@ module.exports = {
   },
   components: {
     card: httpVueLoader("components/smon_card.vue"),
+    itemtable: httpVueLoader("components/mon_item_table.vue")
   },
 }
 </script>

@@ -9,6 +9,104 @@
           <summary class="header2">{{$t('description')}}</summary>
           <span id="description" v-html="ParseDescriptionText(itemdata.description)"></span>
         </details>
+
+        <details open v-if="sourcedata!= undefined">
+          <summary class="header2">{{$t('item.sources')}}</summary>
+          <table v-if="sourcedata.quests!=undefined" class="interval-y-large">
+            <caption class="text-bold margin text-left">{{$t('dataType.quests')}}</caption>
+            <tbody>
+              <tr class="card-text text-bold">
+                <th>{{$t('item.quest_name')}}</th>
+                <th class="item-rate-th">{{$t('rate')}}</th>
+              </tr>
+              <template v-for="(link, qID) in sourcedata.quests">
+                <tr class="card-text" :key="qID">
+                  <td>
+                    <router-link v-bind:to="'/quest/' + qID" custom v-slot="{ navigate }">
+                      <div @click="navigate" class="mouse-hover">
+                        {{$t('data.quests.' + qID + '.name')}}
+                        <span
+                          v-if="link.num>1"
+                        >{{'x' + link.num}}</span>
+                      </div>
+                    </router-link>
+                  </td>
+                  <td>
+                    <div class="text-right item-rate-text">{{link.rate + ' %'}}</div>
+                  </td>
+                </tr>
+              </template>
+            </tbody>
+          </table>
+
+          <table v-if="sourcedata.large_monsters!=undefined" class="interval-y-large">
+            <caption class="text-bold margin text-left">{{$t('dataType.large_monsters')}}</caption>
+            <tbody>
+              <tr class="card-text text-bold">
+                <th>{{$t('item.monster_name')}}</th>
+                <th>{{$t('item.rank')}}</th>
+                <th>{{$t('item.method')}}</th>
+                <th>{{$t('rate')}}</th>
+              </tr>
+              <template v-for="(link, mID) in sourcedata.large_monsters">
+                <tr class="card-text" :key="mID">
+                  <td>
+                    <router-link v-bind:to="'/mon/' + mID" custom v-slot="{ navigate }">
+                      <div @click="navigate" class="mouse-hover">
+                        {{$t('monster.name.' + mID )}}
+                        <span v-if="link.num>1">{{'x' + link.num}}</span>
+                      </div>
+                    </router-link>
+                  </td>
+                  <td>
+                    <div class="text-right item-rate-text">{{ $t(link.rank)}}</div>
+                  </td>
+                  <td>
+                    <div class="text-right item-rate-text">{{$t('item.' + link.method)}}</div>
+                  </td>
+                  <td>
+                    <div class="text-right item-rate-text">{{link.rate + ' %'}}</div>
+                  </td>
+                </tr>
+              </template>
+            </tbody>
+          </table>
+
+          <table v-if="sourcedata.small_monsters!=undefined" class="interval-y-large">
+            <caption class="text-bold margin text-left">{{$t('dataType.large_monsters')}}</caption>
+            <tbody>
+              <tr class="card-text text-bold">
+                <th>{{$t('item.monster_name')}}</th>
+                <th>{{$t('item.rank')}}</th>
+                <th>{{$t('item.method')}}</th>
+                <th>{{$t('rate')}}</th>
+              </tr>
+              <template v-for="(link, mID) in sourcedata.small_monsters">
+                <tr class="card-text" :key="mID">
+                  <td>
+                    <router-link v-bind:to="'/smon/' + mID" custom v-slot="{ navigate }">
+                      <div @click="navigate" class="mouse-hover">
+                        {{$t('small_monster.name.' + mID )}}
+                        <span
+                          v-if="link.num>1"
+                        >{{'x' + link.num}}</span>
+                      </div>
+                    </router-link>
+                  </td>
+                  <td>
+                    <div class="text-right item-rate-text">{{ $t(link.rank)}}</div>
+                  </td>
+                  <td>
+                    <div class="text-right item-rate-text">{{$t('item.' + link.method)}}</div>
+                  </td>
+                  <td>
+                    <div class="text-right item-rate-text">{{link.rate + ' %'}}</div>
+                  </td>
+                </tr>
+              </template>
+            </tbody>
+          </table>
+        </details>
       </div>
     </div>
   </div>
@@ -16,10 +114,13 @@
 <script>
 module.exports = {
 
-  props: ["items"],
+  props: ["items", "sources"],
   computed: {
     itemdata: function () {
       return this.items[this.$route.params.name];
+    },
+    sourcedata: function () {
+      return this.sources[this.$route.params.name];
     }
   },
   mounted: function () {
@@ -36,6 +137,34 @@ module.exports = {
 }
 </script>
 <style scoped>
+.item-rate-th {
+  width: 11%;
+}
+.item-rate-text {
+  max-width: 32px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+table {
+  background-color: #4b9aff;
+  padding: 2px;
+  border-radius: 2px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+th {
+  background-color: #bdd5ff;
+}
+th.number {
+  width: 8%;
+}
+td {
+  text-align: center;
+  background-color: #ffffff;
+}
 /* mobile */
 @media (max-width: 1199.98px) {
 }

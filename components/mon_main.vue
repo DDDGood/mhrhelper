@@ -75,7 +75,12 @@
           </table>
         </details>
 
-        <details open v-if="mondata.materials!== undefined">
+        <details open v-if="mondata.items!== undefined">
+          <summary class="header2">{{$t('monster.materials')}}</summary>
+          <itemtable :items="mondata.items"></itemtable>
+        </details>
+
+        <!-- <details open v-if="mondata.materials!== undefined">
           <summary class="header2">{{$t('monster.materials')}}</summary>
           <table id="hitdata-table">
             <tbody id="hitdata_table_tbody">
@@ -111,7 +116,7 @@
               </template>
             </tbody>
           </table>
-        </details>
+        </details>-->
 
         <mon_moves :monmoves="movedata" v-if="!IsNullOrEmpty(movedata)" @clickmove="OnClickMove"></mon_moves>
         <!-- <div id="divmoves" v-if="!IsNullOrEmpty(movedata)">
@@ -151,7 +156,8 @@ module.exports = {
   props: ["dex", "moves"],
   components: {
     mon_card: httpVueLoader("components/mon_card.vue"),
-    mon_moves: httpVueLoader("components/mon_moves.vue")
+    mon_moves: httpVueLoader("components/mon_moves.vue"),
+    itemtable: httpVueLoader("components/mon_item_table.vue")
   },
   computed: {
     mondata: function () {
@@ -241,8 +247,6 @@ table {
 
 th {
   background-color: #bdd5ff;
-}
-th.text {
 }
 th.number {
   width: 8%;

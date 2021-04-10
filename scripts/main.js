@@ -39,8 +39,8 @@ $(document).ready(Initialize);
 
 function Initialize() {
     try {
-        // LoadData(['data/mhrdex.json', 'data/mhrmoves.json', 'data/endemics.json', "data/small_monster.json", "data/weapons.json", "data/items.json", "data/quests.json"], tryOnDexLoaded);
-        LoadData(['data/mhrdex.json', 'data/mhrmoves.json', 'data/endemics.json', "data/small_monster.json", "data/weapons.json", "data/items.json", "data/quests.json", "data/raw/monster_item.json", "data/cntokey.json", "data/cntotw.json"], tryOnDexLoaded);
+        LoadData(['data/mhrdex.json', 'data/mhrmoves.json', 'data/endemics.json', "data/small_monster.json", "data/weapons.json", "data/items.json", "data/quests.json", "data/item_source.json"], tryOnDexLoaded);
+        // LoadData(['data/mhrdex.json', 'data/mhrmoves.json', 'data/endemics.json', "data/small_monster.json", "data/weapons.json", "data/items.json", "data/quests.json", "data/item_source.json", "data/raw/monster_item.json", "data/cntokey.json", "data/cntotw.json"], tryOnDexLoaded);
     } catch (error) {
         console.log(error.message);
         document.getElementById("error").innerHTML = "error:" + error.message;
@@ -140,7 +140,7 @@ function onDexLoaded() {
         }
     }
 
-    someDataWorks();
+    // someDataWorks();
 
     // ExportItemSource();
 }
@@ -163,8 +163,58 @@ function ExportItemSource() {
             }
         }
     }
+    for (let mID in data.large_monsters) {
+        const mon = data.large_monsters[mID]
+        for (let rank in mon.items) {
+            for (let iID in mon.items[rank]) {
+                const link = mon.items[rank][iID];
+                if (itemSource[iID] === undefined) {
+                    itemSource[iID] = {}
+                }
+                if (itemSource[iID].large_monsters === undefined) {
+                    itemSource[iID].large_monsters = {}
+                }
+                if (itemSource[iID].large_monsters[mID] === undefined) {
+                    itemSource[iID].large_monsters[mID] = {}
+                }
+                for (let method in link) {
+                    itemSource[iID].large_monsters[mID] = {
+                        'rank': rank,
+                        'method': method,
+                        'num': link[method].num,
+                        'rate': link[method].rate
+                    }
+                }
+            }
+        }
+    }
+    for (let mID in data.small_monsters) {
+        const mon = data.small_monsters[mID]
+        for (let rank in mon.items) {
+            for (let iID in mon.items[rank]) {
+                const link = mon.items[rank][iID];
+                if (itemSource[iID] === undefined) {
+                    itemSource[iID] = {}
+                }
+                if (itemSource[iID].small_monsters === undefined) {
+                    itemSource[iID].small_monsters = {}
+                }
+                if (itemSource[iID].small_monsters[mID] === undefined) {
+                    itemSource[iID].small_monsters[mID] = {}
+                }
+                for (let method in link) {
+                    itemSource[iID].small_monsters[mID] = {
+                        'rank': rank,
+                        'method': method,
+                        'num': link[method].num,
+                        'rate': link[method].rate
+                    }
+                }
+            }
+        }
+    }
     let outputData = { 'item_source': itemSource }
-    outputText(JSON.stringify(outputData));
+    // outputText(JSON.stringify(outputData));
 }
 
 
@@ -172,9 +222,8 @@ function ExportItemSource() {
 function someDataWorks() {
 
     for (let mID in data.large_monsters) {
-        data.large_monsters[mID].materials = {};
+        data.large_monsters[mID].materials = undefined;
     }
-    let conditions = [];
     for (let i in data.monster_item) {
 
         const link = data.monster_item[i];
@@ -185,19 +234,36 @@ function someDataWorks() {
         let monster = data.large_monsters[mID];
         if (monster == undefined)
             monster = data.small_monsters[mID];
-        if (monster == undefined)
+        if (monster == undefined) {
             console.warn("no Mon: " + link.monster.name)
+            continue;
+        }
 
         const iID = data.cntokey[link.item.name].key;
         if (iID == undefined)
             console.warn("no iID: " + link.item.name);
 
-        let condition = link.method;
-        if (!conditions.includes(condition)) {
-            conditions.push(condition);
+        let method = data.cntokey[link.method].key;
+        let rank = data.cntokey[link.rank].key;
+        let num = link.num;
+        let rate = link.gailv;
+
+        if (monster.items == undefined)
+            monster.items = {};
+
+        if (monster.items[rank] == undefined)
+            monster.items[rank] = {}
+        if (monster.items[rank][iID] == undefined)
+            monster.items[rank][iID] = {}
+        monster.items[rank][iID][method] = {
+            'num': num,
+            'rate': rate,
         }
     }
-    console.log(conditions.join(","));
+
+    // saveTextFile(JSON.stringify(data.small_monsters))
+
+    // saveTextFile(JSON.stringify(data.large_monsters))
 
 
 
@@ -613,7 +679,7 @@ function InitRouter() {
                 name: 'item',
                 path: '/item/:name',
                 component: ItemComp,
-                props: { items: GetData("items") }
+                props: { items: GetData("items"), sources: GetData('item_source') }
             },
             {
                 name: 'questlist',

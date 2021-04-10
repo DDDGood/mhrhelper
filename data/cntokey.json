@@ -1,22 +1,28 @@
 {
     "cntokey": {
         "目标报酬": {
-            "key": "rathian"
+            "key": "target_rewards"
         },
         "部位破坏报酬": {
-            "key": "rathian"
+            "key": "broken_part_rewards"
         },
         "捕获报酬": {
-            "key": "rathian"
+            "key": "capture_rewards"
         },
         "掉落物": {
-            "key": "rathian"
+            "key": "dropped_materials"
         },
         "剥取素材": {
-            "key": "rathian"
+            "key": "carves"
         },
         "随从艾露猫的收集物": {
-            "key": "rathian"
+            "key": "items_obtained_by_palico"
+        },
+        "下位": {
+            "key": "low_rank"
+        },
+        "上位": {
+            "key": "high_rank"
         },
         "雌火龙": {
             "key": "rathian"

@@ -11,6 +11,7 @@
         "trait": "Trait",
         "all": "All",
         "sorting": "Sorting",
+        "rate": "Rate",
         "cancel_search": "Clear Search",
         "low_rank": "Low Rank",
         "high_rank": "High Rank",
@@ -260,6 +261,20 @@
             "reward": {
                 "rate": "Rate"
             }
+        },
+        "item": {
+            "sources": "Sources",
+            "material_name": "Material Name",
+            "target_rewards": "Target Rewards",
+            "capture_rewards": "Capture Rewards",
+            "broken_part_rewards": "Broken Part",
+            "carves": "Carves",
+            "dropped_materials": "Dropped",
+            "items_obtained_by_palico": "Obtained By Palico",
+            "quest_name": "Quest",
+            "monster_name": "Monster",
+            "rank": "Rank",
+            "method": "Method"
         },
         "map": {
             "name": {

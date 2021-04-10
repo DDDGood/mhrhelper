@@ -337,6 +337,9 @@ details[open] > summary:after {
 .text-left{
   text-align:left!important;
 }
+.text-right{
+  text-align:right!important;
+}
 .text-nowrap{
   white-space:nowrap;
 }
