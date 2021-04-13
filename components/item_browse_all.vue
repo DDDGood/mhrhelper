@@ -3,7 +3,7 @@
     <!-- <div class="flex-column">
       <div v-for="(item, i) in items" :key="i" class="flex1">{{item.name}}</div>
     </div>-->
-    <div class="search-container flex-row" method="GET">
+    <div class="search-container flex-row">
       <input
         v-on:keyup.enter="applySearch"
         v-model="keyword"
