@@ -3,9 +3,15 @@
     <!-- <div class="flex-column">
       <div v-for="(item, i) in items" :key="i" class="flex1">{{item.name}}</div>
     </div>-->
-    <div class="search-container flex-row">
-      <input v-model="keyword" placeholder="Search.." name="search" class="flex1" />
-      <button @click="applySearch" class="search-button">
+    <div class="search-container flex-row" method="GET">
+      <input
+        v-on:keyup.enter="applySearch"
+        v-model="keyword"
+        placeholder="Search.."
+        name="search"
+        class="flex1"
+      />
+      <button type="submit" @click="applySearch" class="search-button">
         <img src="images/svg/search.svg" class="search-icon" />
       </button>
     </div>
@@ -64,6 +70,21 @@ module.exports = {
   created: function () {
     this.searchitems = this.items;
   },
+  mounted: function () {
+    if (localStorage.getItem("items")) {
+      try {
+        let curData = JSON.parse(localStorage.getItem('items'));
+        this.keyword = curData.keyword;
+        this.filter = curData.filter;
+        if (this.filter)
+          this.applySearch();
+        else
+          this.clearSearch();
+      } catch (e) {
+        localStorage.removeItem('items');
+      }
+    }
+  },
   methods: {
     applySearch: function () {
       this.searchitems = {};
@@ -73,16 +94,25 @@ module.exports = {
         if (item.name.indexOf(this.keyword) > -1)
           this.searchitems[key] = item;
       }
+      this.page = 1;
+      this.saveState();
     },
     clearSearch: function () {
       this.filter = false;
       this.searchitems = this.items;
       this.keyword = "";
+      this.page = 1;
+      this.saveState();
     },
     toPage: function (i) {
       this.page = i;
       document.body.scrollTop = 0; // For Safari
       document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+      this.saveState();
+    },
+    saveState() {
+      const curData = { "keyword": this.keyword, "filter": this.filter };
+      localStorage.setItem("items", JSON.stringify(curData));
     }
   }, computed: {
     sliceditems: function () {

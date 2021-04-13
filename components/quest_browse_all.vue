@@ -52,14 +52,31 @@ module.exports = {
   props: ["quests"],
   created: function () {
   },
+  mounted: function () {
+    if (localStorage.getItem("quests")) {
+      try {
+        let curData = JSON.parse(localStorage.getItem('quests'));
+        this.curType = curData.curType;
+        this.curStar = curData.curStar;
+      } catch (e) {
+        localStorage.removeItem('quests');
+      }
+    }
+  },
   methods: {
     selectType: function (i) {
       this.curType = i;
       this.curStar = 1;
+      this.saveState();
     },
     selectStar: function (i) {
       this.curStar = i;
+      this.saveState();
     },
+    saveState: function () {
+      const curData = { "curType": this.curType, "curStar": this.curStar };
+      localStorage.setItem("quests", JSON.stringify(curData));
+    }
   }, computed: {
     questsByTypes: function () {
       let sorted = {
