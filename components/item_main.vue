@@ -23,16 +23,16 @@
                 <tr class="card-text" :key="qID">
                   <td>
                     <router-link v-bind:to="'/quest/' + qID" custom v-slot="{ navigate }">
-                      <div @click="navigate" class="mouse-hover">
-                        {{$t('data.quests.' + qID + '.name')}}
-                        <span
-                          v-if="link.num>1"
-                        >{{'x' + link.num}}</span>
-                      </div>
+                      <div
+                        @click="navigate"
+                        class="mouse-hover"
+                      >{{$t('data.quests.' + qID + '.name')}}</div>
                     </router-link>
                   </td>
                   <td>
-                    <div class="text-right item-rate-text">{{link.rate + ' %'}}</div>
+                    <div
+                      class="text-right item-rate-text"
+                    >{{ (link.num>1 ? '(x' + link.num +') ':"") + link.rate + ' %'}}</div>
                   </td>
                 </tr>
               </template>
@@ -107,6 +107,36 @@
               </template>
             </tbody>
           </table>
+
+          <table v-if="sourcedata.meowcenaries!=undefined" class="interval-y-large">
+            <caption class="text-bold margin text-left">{{$t('dataType.meowcenaries')}}</caption>
+            <tbody>
+              <tr class="card-text text-bold">
+                <th>{{$t('meowcenary.scout_location')}}</th>
+                <th>{{$t('item.rank')}}</th>
+                <th>{{$t('meowcenary.target')}}</th>
+              </tr>
+              <template v-for="(list, mID) in sourcedata.meowcenaries">
+                <template v-for="(link,i) in list">
+                  <tr class="card-text" :key="mID +'_' +i">
+                    <td>
+                      <router-link v-bind:to="'/meowcenary/' + mID" custom v-slot="{ navigate }">
+                        <div @click="navigate" class="mouse-hover">{{$t('map.name.' + mID )}}</div>
+                      </router-link>
+                    </td>
+                    <td>
+                      <div class="card-text">{{ $t(link.rank)}}</div>
+                    </td>
+                    <td>
+                      <div
+                        class="card-text"
+                      >{{meow_getTargetName(link.target_type, link.target) + (link.rare? '(' + $t('meowcenary.rare') + ') ' :"")}}</div>
+                    </td>
+                  </tr>
+                </template>
+              </template>
+            </tbody>
+          </table>
         </details>
       </div>
     </div>
@@ -122,6 +152,36 @@ module.exports = {
     },
     sourcedata: function () {
       return this.sources[this.$route.params.name];
+    }
+  },
+  methods: {
+    meow_getTargetName: function (type, key) {
+      switch (type) {
+        case "large_monster":
+          return this.$t('monster.name.' + key)
+          break;
+        case "small_monster":
+          return this.$t('small_monster.name.' + key)
+          break;
+        case "environment":
+          return this.$t('meowcenary.' + key)
+          break;
+      }
+    },
+    meow_getTargetIcon: function (type, key) {
+      let path = "";
+      switch (type) {
+        case "large_monster":
+          path = GetData('large_monsters')[key].icon;
+          break;
+        case "small_monster":
+          path = GetData('small_monsters')[key].icon;
+          break;
+        case "environment":
+          path = "images/meowcenary/" + key + ".png"
+          break;
+      }
+      return path;
     }
   },
   mounted: function () {

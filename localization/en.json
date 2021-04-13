@@ -21,7 +21,8 @@
             "endemic_lifes": "Endemic Lifes",
             "weapons": "Weapons",
             "items": "Items",
-            "quests": "Quests"
+            "quests": "Quests",
+            "meowcenaries": "Meowcenaries"
         },
         "monster": {
             "name": {
@@ -276,9 +277,32 @@
             "rank": "Rank",
             "method": "Method"
         },
+        "meowcenaries": {
+            "map": "Destination",
+            "scouting_route_": "Scouting Route ",
+            "expected_outcome": "Expected Outcome",
+            "ore": "Ore",
+            "bones": "Bones",
+            "herbs": "Herbs",
+            "mushrooms": "Mushrooms",
+            "fish": "Fish",
+            "insects": "Insects",
+            "required_points": "Required Points",
+            "location_cost": "Location Cost",
+            "scout_location": "Scout Location",
+            "target": "Target",
+            "rare": "Rare"
+        },
         "map": {
             "name": {
-                "shrine_ruins": "Shrine Ruins"
+                "shrine_ruins": "Shrine Ruins",
+                "sandy_plains": "Sandy Plains",
+                "flooded_forest": "Flooded Forest",
+                "frost_islands": "Frost Islands",
+                "lava_caverns": "Lava Caverns",
+                "red_stronghold": "Red Stronghold",
+                "arena": "Arena",
+                "coral_palace": "Coral Palace"
             }
         },
         "data": {

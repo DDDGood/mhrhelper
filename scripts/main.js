@@ -39,8 +39,8 @@ $(document).ready(Initialize);
 
 function Initialize() {
     try {
-        LoadData(['data/mhrdex.json', 'data/mhrmoves.json', 'data/endemics.json', "data/small_monster.json", "data/weapons.json", "data/items.json", "data/quests.json", "data/item_source.json"], tryOnDexLoaded);
-        // LoadData(['data/mhrdex.json', 'data/mhrmoves.json', 'data/endemics.json', "data/small_monster.json", "data/weapons.json", "data/items.json", "data/quests.json", "data/item_source.json", "data/raw/monster_item.json", "data/cntokey.json", "data/cntotw.json"], tryOnDexLoaded);
+        LoadData(['data/mhrdex.json', 'data/mhrmoves.json', 'data/endemics.json', "data/small_monster.json", "data/weapons.json", "data/items.json", "data/quests.json", "data/item_source.json", "data/meowcenaries.json"], tryOnDexLoaded);
+        // LoadData(['data/mhrdex.json', 'data/mhrmoves.json', 'data/endemics.json', "data/small_monster.json", "data/weapons.json", "data/items.json", "data/quests.json", "data/item_source.json", "data/meowcenaries.json", "data/raw/parsedmeow.json", "data/raw/item-cn-jp.json", "data/cntokey.json", "data/cntotw.json"], tryOnDexLoaded);
     } catch (error) {
         console.log(error.message);
         document.getElementById("error").innerHTML = "error:" + error.message;
@@ -213,13 +213,123 @@ function ExportItemSource() {
             }
         }
     }
+    for (let mID in data.meowcenaries) {
+        const dest = data.meowcenaries[mID];
+        for (let targetID in dest) {
+            const targetData = dest[targetID];
+            const targetType = targetData['target_type']
+            const rankList = ['low_rank', 'high_rank']
+            for (let i in rankList) {
+                const rank = rankList[i];
+                for (let i in targetData[rank]) {
+                    const itemData = targetData[rank][i];
+                    const iID = itemData.item;
+
+                    if (itemSource[iID] === undefined) {
+                        itemSource[iID] = {}
+                    }
+                    if (itemSource[iID].meowcenaries === undefined) {
+                        itemSource[iID].meowcenaries = {}
+                    }
+                    if (itemSource[iID].meowcenaries[mID] === undefined) {
+                        itemSource[iID].meowcenaries[mID] = []
+                    }
+                    console.log(itemData.item)
+                    itemSource[iID].meowcenaries[mID].push({
+                        'rank': rank,
+                        'target': targetID,
+                        'target_type': targetType,
+                        'num': itemData.num,
+                        'rare': itemData.rare
+                    })
+                }
+            }
+        }
+    }
     let outputData = { 'item_source': itemSource }
-    // outputText(JSON.stringify(outputData));
+    outputText(JSON.stringify(outputData));
 }
 
 
 
 function someDataWorks() {
+
+    let destTrans = {}
+    let meowcenaries = {}
+    for (let i in data.parsedmeow) {
+        const link = data.parsedmeow[i];
+        const map = data.cntokey[link.map].key;
+        const level = data.cntokey[link.level].key;
+        let rare = false;
+        let item = "";
+        for (let j in data.item_cn_id) {
+            cnData = data.item_cn_id[j];
+            if (cnData.id === link.item) {
+                item = data.cntokey[cnData.name].key;
+                break;
+            }
+        }
+        let target = "?";
+        if (link.target.indexOf('（稀有）') > -1) {
+            rare = true;
+            link.target = link.target.replace('（稀有）', '');
+        }
+        if (data.cntokey2[link.target] != undefined)
+            target = data.cntokey2[link.target].key;
+        else if (data.cntokey[link.target] != undefined)
+            target = data.cntokey[link.target].key;
+        else
+            console.warn("!!!" + link.target);
+
+        targetType = "environment"
+        if (data.large_monsters[target] !== undefined)
+            targetType = "large_monster"
+        else if (data.small_monsters[target] !== undefined)
+            targetType = "small_monster"
+
+        if (meowcenaries[map] == undefined)
+            meowcenaries[map] = {};
+        if (meowcenaries[map][target] == undefined)
+            meowcenaries[map][target] = {
+                'target_type': targetType, 'low_rank': [], 'high_rank': []
+            };
+
+        const mecData = {
+            'item': item,
+            'num': link.num,
+            'rare': rare,
+        };
+        if (rare === false) {
+            meowcenaries[map][target][level].splice(0, 0, mecData)
+        } else {
+            meowcenaries[map][target][level].push(mecData)
+        }
+        console.log(target)
+    }
+    outputText(JSON.stringify(meowcenaries));
+
+
+
+    return;
+
+    // parse weapon image
+    let output = {}
+    for (let enName in data.weapon_image) {
+        const img = data.weapon_image[enName];
+        const key = enName.toLowerCase().replaceAll(' ', '_').replaceAll("'", "").replaceAll("+", "_plus")
+        console.log(key);
+        for (let cnKey in data.cntokey) {
+            if (data.cntokey[cnKey].key == key) {
+
+                console.log(cnKey);
+                output[cnKey] = "大剑/" + img;
+            }
+        }
+    }
+
+    outputText(JSON.stringify(output));
+
+    return;
 
     for (let mID in data.large_monsters) {
         data.large_monsters[mID].materials = undefined;
@@ -614,6 +724,8 @@ function InitRouter() {
     const WeaponComp = httpVueLoader("components/weapon_main.vue");
     const QuestListComp = httpVueLoader("components/quest_browse_all.vue");
     const QuestComp = httpVueLoader("components/quest_main.vue");
+    const MeowcenaryListComp = httpVueLoader("components/meowcenary_browse_all.vue");
+    const MeowcenaryComp = httpVueLoader("components/meowcenary_main.vue");
 
     const router = new VueRouter({
         routes: [
@@ -692,6 +804,18 @@ function InitRouter() {
                 path: '/quest/:name',
                 component: QuestComp,
                 props: { quests: GetData("quests") }
+            },
+            {
+                name: 'meowcenarylist',
+                path: '/meowcenary',
+                component: MeowcenaryListComp,
+                props: { meowcenaries: GetData("meowcenaries") }
+            },
+            {
+                name: 'meowcenary',
+                path: '/meowcenary/:name',
+                component: MeowcenaryComp,
+                props: { meowcenaries: GetData("meowcenaries") }
             },
             {
                 name: 'weaponlist',

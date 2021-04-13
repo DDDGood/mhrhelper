@@ -248,6 +248,9 @@ details[open] > summary:after {
 .color2 {
   background-color: #ffffff;
 }
+.color-note {
+  background-color: #eeeade;
+}
 .flex1 {
   flex: 1;
 }

@@ -1,0 +1,4039 @@
+{
+    "meowcenaries": {
+        "shrine_ruins": {
+            "kelbi": {
+                "target_type": "small_monster",
+                "low_rank": [
+                    {
+                        "item": "mountshrooms",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "warm_pelt",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "kelbi_horn",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "fur_scrap",
+                        "num": "1",
+                        "rare": false
+                    }
+                ],
+                "high_rank": [
+                    {
+                        "item": "shadeshrooms",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "high-quality_pelt",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "kelbi_horn",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "fur_scrap_plus",
+                        "num": "1",
+                        "rare": false
+                    }
+                ]
+            },
+            "mushrooms": {
+                "target_type": "environment",
+                "low_rank": [
+                    {
+                        "item": "lagniapple",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "humble_scrap",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "toadstool",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "blue_mushroom",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "mountshrooms",
+                        "num": "1",
+                        "rare": true
+                    },
+                    {
+                        "item": "blue_mushroom",
+                        "num": "2",
+                        "rare": true
+                    },
+                    {
+                        "item": "toadstool",
+                        "num": "2",
+                        "rare": true
+                    }
+                ],
+                "high_rank": [
+                    {
+                        "item": "lagniapple",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "humble_scrap_plus",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "toadstool",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "blue_mushroom",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "shadeshrooms",
+                        "num": "1",
+                        "rare": true
+                    },
+                    {
+                        "item": "blue_mushroom",
+                        "num": "2",
+                        "rare": true
+                    },
+                    {
+                        "item": "toadstool",
+                        "num": "2",
+                        "rare": true
+                    },
+                    {
+                        "item": "mountshrooms",
+                        "num": "1",
+                        "rare": true
+                    }
+                ]
+            },
+            "insects": {
+                "target_type": "environment",
+                "low_rank": [
+                    {
+                        "item": "lagniapple",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "bitterbug",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "spider_web",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "insect_scrap",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "honey",
+                        "num": "1",
+                        "rare": false
+                    }
+                ],
+                "high_rank": [
+                    {
+                        "item": "lagniapple",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "bitterbug",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "spider_web",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "insect_scrap_plus",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "honey",
+                        "num": "1",
+                        "rare": false
+                    }
+                ]
+            },
+            "aknosom": {
+                "target_type": "large_monster",
+                "low_rank": [
+                    {
+                        "item": "flame_sac",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "aknosom_scale",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "aknosom_scrap",
+                        "num": "1",
+                        "rare": false
+                    }
+                ],
+                "high_rank": [
+                    {
+                        "item": "inferno_sac",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "aknosom_scale_plus",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "aknosom_scrap_plus",
+                        "num": "1",
+                        "rare": false
+                    }
+                ]
+            },
+            "great_izuchi": {
+                "target_type": "large_monster",
+                "low_rank": [
+                    {
+                        "item": "screamer_sac",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "izuchi_scrap",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "great_izuchi_hide",
+                        "num": "1",
+                        "rare": false
+                    }
+                ],
+                "high_rank": [
+                    {
+                        "item": "screamer_sac",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "izuchi_scrap_plus",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "great_izuchi_hide_plus",
+                        "num": "1",
+                        "rare": false
+                    }
+                ]
+            },
+            "jagras": {
+                "target_type": "small_monster",
+                "low_rank": [
+                    {
+                        "item": "humble_scrap",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "jagras_hide",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "mountshrooms",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "jagras_scale",
+                        "num": "1",
+                        "rare": false
+                    }
+                ],
+                "high_rank": [
+                    {
+                        "item": "humble_scrap_plus",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "jagras_hide_plus",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "shadeshrooms",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "jagras_scale_plus",
+                        "num": "1",
+                        "rare": false
+                    }
+                ]
+            },
+            "magnamalo": {
+                "target_type": "large_monster",
+                "low_rank": [
+                    {
+                        "item": "magna_ghostprism",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "magnamalo_scale",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "magnamalo_scrap",
+                        "num": "1",
+                        "rare": false
+                    }
+                ],
+                "high_rank": [
+                    {
+                        "item": "magna_soulprism",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "magnamalo_scale_plus",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "magnamalo_scrap_plus",
+                        "num": "1",
+                        "rare": false
+                    }
+                ]
+            },
+            "tobi-kadachi": {
+                "target_type": "large_monster",
+                "low_rank": [
+                    {
+                        "item": "tobi-kadachi_pelt",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "tobi-kadachi_scale",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "kadachi_scrap",
+                        "num": "1",
+                        "rare": false
+                    }
+                ],
+                "high_rank": [
+                    {
+                        "item": "tobi-kadachi_pelt_plus",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "tobi-kadachi_scale_plus",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "kadachi_scrap_plus",
+                        "num": "1",
+                        "rare": false
+                    }
+                ]
+            },
+            "ore": {
+                "target_type": "environment",
+                "low_rank": [
+                    {
+                        "item": "lagniapple",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "earth_crystal",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "ore_scrap",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "iron_ore",
+                        "num": "1",
+                        "rare": false
+                    }
+                ],
+                "high_rank": [
+                    {
+                        "item": "machalite_ore",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "carbalite_ore",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "lagniapple",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "earth_crystal",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "ore_scrap_plus",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "dragonite_ore",
+                        "num": "1",
+                        "rare": false
+                    }
+                ]
+            },
+            "bones": {
+                "target_type": "environment",
+                "low_rank": [
+                    {
+                        "item": "lagniapple",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "twisted_remains",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "monster_bone_s",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "bone_scrap",
+                        "num": "1",
+                        "rare": false
+                    }
+                ],
+                "high_rank": [
+                    {
+                        "item": "lagniapple",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "twisted_rockbone",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "sturdy_bone",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "bone_scrap_plus",
+                        "num": "1",
+                        "rare": false
+                    }
+                ]
+            },
+            "herbs": {
+                "target_type": "environment",
+                "low_rank": [
+                    {
+                        "item": "nulberry",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "slashberry",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "latchberry",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "antidote_herb",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "lagniapple",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "humble_scrap",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "herb",
+                        "num": "1",
+                        "rare": false
+                    }
+                ],
+                "high_rank": [
+                    {
+                        "item": "nulberry",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "slashberry",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "latchberry",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "antidote_herb",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "lagniapple",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "humble_scrap_plus",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "herb",
+                        "num": "1",
+                        "rare": false
+                    }
+                ]
+            },
+            "tetranadon": {
+                "target_type": "large_monster",
+                "low_rank": [
+                    {
+                        "item": "aqua_sac",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "tetranadon_hide",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "tetranadon_scrap",
+                        "num": "1",
+                        "rare": false
+                    }
+                ],
+                "high_rank": [
+                    {
+                        "item": "torrent_sac",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "tetranadon_hide_plus",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "tetranadon_scrap_plus",
+                        "num": "1",
+                        "rare": false
+                    }
+                ]
+            },
+            "bullfango": {
+                "target_type": "small_monster",
+                "low_rank": [
+                    {
+                        "item": "fur_scrap",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "bullfango_head",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "mountshrooms",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "bullfango_pelt",
+                        "num": "1",
+                        "rare": false
+                    }
+                ],
+                "high_rank": [
+                    {
+                        "item": "fur_scrap_plus",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "bullfango_head",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "shadeshrooms",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "bullfango_pelt_plus",
+                        "num": "1",
+                        "rare": false
+                    }
+                ]
+            },
+            "fish": {
+                "target_type": "environment",
+                "low_rank": [
+                    {
+                        "item": "lagniapple",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "goldenfry",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "scatterfish",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "big_combustuna",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "combustuna",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "humble_scrap",
+                        "num": "1",
+                        "rare": false
+                    }
+                ],
+                "high_rank": [
+                    {
+                        "item": "lagniapple",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "goldenfry",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "scatterfish",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "big_combustuna",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "combustuna",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "humble_scrap_plus",
+                        "num": "1",
+                        "rare": false
+                    }
+                ]
+            },
+            "arzuros": {
+                "target_type": "large_monster",
+                "low_rank": [
+                    {
+                        "item": "arzuros_shell",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "arzuros_scrap",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "arzuros_pelt",
+                        "num": "1",
+                        "rare": false
+                    }
+                ],
+                "high_rank": [
+                    {
+                        "item": "arzuros_carapace",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "arzuros_scrap_plus",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "arzuros_pelt_plus",
+                        "num": "1",
+                        "rare": false
+                    }
+                ]
+            },
+            "bombadgy": {
+                "target_type": "small_monster",
+                "low_rank": [
+                    {
+                        "item": "mountshrooms",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "raw_meat",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "bombadgy_igniter",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "humble_scrap",
+                        "num": "1",
+                        "rare": false
+                    }
+                ],
+                "high_rank": []
+            },
+            "gargwa": {
+                "target_type": "small_monster",
+                "low_rank": [
+                    {
+                        "item": "mountshrooms",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "raw_meat",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "gargwa_feather",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "humble_scrap",
+                        "num": "1",
+                        "rare": false
+                    }
+                ],
+                "high_rank": []
+            }
+        },
+        "frost_islands": {
+            "lagombi": {
+                "target_type": "large_monster",
+                "low_rank": [
+                    {
+                        "item": "lagombi_plastron",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "lagombi_pelt",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "lagombi_scrap",
+                        "num": "1",
+                        "rare": false
+                    }
+                ],
+                "high_rank": [
+                    {
+                        "item": "lagombi_plastron_plus",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "lagombi_pelt_plus",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "lagombi_scrap_plus",
+                        "num": "1",
+                        "rare": false
+                    }
+                ]
+            },
+            "mushrooms": {
+                "target_type": "environment",
+                "low_rank": [
+                    {
+                        "item": "lagniapple",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "blue_mushroom",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "exciteshroom",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "humble_scrap",
+                        "num": "1",
+                        "rare": false
+                    }
+                ],
+                "high_rank": [
+                    {
+                        "item": "lagniapple",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "blue_mushroom",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "exciteshroom",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "humble_scrap_plus",
+                        "num": "1",
+                        "rare": false
+                    }
+                ]
+            },
+            "great_baggi": {
+                "target_type": "large_monster",
+                "low_rank": [
+                    {
+                        "item": "sleep_sac",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "great_baggi_hide",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "baggi_scrap",
+                        "num": "1",
+                        "rare": false
+                    }
+                ],
+                "high_rank": [
+                    {
+                        "item": "coma_sac",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "great_baggi_hide_plus",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "baggi_scrap_plus",
+                        "num": "1",
+                        "rare": false
+                    }
+                ]
+            },
+            "khezu": {
+                "target_type": "large_monster",
+                "low_rank": [
+                    {
+                        "item": "pale_extract",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "electro_sac",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "flabby_hide",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "khezu_scrap",
+                        "num": "1",
+                        "rare": false
+                    }
+                ],
+                "high_rank": [
+                    {
+                        "item": "pale_extract",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "thunder_sac",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "pearl_hide",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "khezu_scrap_plus",
+                        "num": "1",
+                        "rare": false
+                    }
+                ]
+            },
+            "bnahabra": {
+                "target_type": "small_monster",
+                "low_rank": [
+                    {
+                        "item": "stargazer_flower",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "bnahabra_stinger",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "bnahabra_shell",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "bnahabra_scrap",
+                        "num": "1",
+                        "rare": false
+                    }
+                ],
+                "high_rank": [
+                    {
+                        "item": "stargazer_bloom",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "bnahabra_stinger",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "bnahabra_carapace",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "bnahabra_scrap_plus",
+                        "num": "1",
+                        "rare": false
+                    }
+                ]
+            },
+            "barioth": {
+                "target_type": "large_monster",
+                "low_rank": [
+                    {
+                        "item": "frost_sac",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "barioth_shell",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "barioth_scrap",
+                        "num": "1",
+                        "rare": false
+                    }
+                ],
+                "high_rank": [
+                    {
+                        "item": "freezer_sac",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "barioth_carapace",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "barioth_scrap_plus",
+                        "num": "1",
+                        "rare": false
+                    }
+                ]
+            },
+            "zamite": {
+                "target_type": "small_monster",
+                "low_rank": [
+                    {
+                        "item": "stargazer_flower",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "sharqskin_scale",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "meaty_hide",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "humble_scrap",
+                        "num": "1",
+                        "rare": false
+                    }
+                ],
+                "high_rank": [
+                    {
+                        "item": "stargazer_bloom",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "sharqskin_scale",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "meaty_hide_plus",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "humble_scrap_plus",
+                        "num": "1",
+                        "rare": false
+                    }
+                ]
+            },
+            "goss_harag": {
+                "target_type": "large_monster",
+                "low_rank": [
+                    {
+                        "item": "block_of_ice",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "goss_harag_fur",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "goss_harag_scrap",
+                        "num": "1",
+                        "rare": false
+                    }
+                ],
+                "high_rank": [
+                    {
+                        "item": "block_of_ice_plus",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "goss_harag_fur_plus",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "goss_scrap_plus",
+                        "num": "1",
+                        "rare": false
+                    }
+                ]
+            },
+            "mizutsune": {
+                "target_type": "large_monster",
+                "low_rank": [
+                    {
+                        "item": "mizutsune_purplefur",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "mizutsune_scale",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "mizutsune_scrap",
+                        "num": "1",
+                        "rare": false
+                    }
+                ],
+                "high_rank": [
+                    {
+                        "item": "mizutsune_purplefur_plus",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "mizutsune_scale_plus",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "mizutsune_scrap_plus",
+                        "num": "1",
+                        "rare": false
+                    }
+                ]
+            },
+            "ore": {
+                "target_type": "environment",
+                "low_rank": [
+                    {
+                        "item": "icium",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "lagniapple",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "ore_scrap",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "iron_ore",
+                        "num": "1",
+                        "rare": false
+                    }
+                ],
+                "high_rank": [
+                    {
+                        "item": "gracium",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "icium",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "lagniapple",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "ore_scrap_plus",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "carbalite_ore",
+                        "num": "1",
+                        "rare": false
+                    }
+                ]
+            },
+            "herbs": {
+                "target_type": "environment",
+                "low_rank": [
+                    {
+                        "item": "lagniapple",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "nulberry",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "dragonstrike_nut",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "huskberry",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "sleep_herb",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "humble_scrap",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "snow_herb",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "stargazer_flower",
+                        "num": "1",
+                        "rare": true
+                    },
+                    {
+                        "item": "sleep_herb",
+                        "num": "1",
+                        "rare": true
+                    },
+                    {
+                        "item": "snow_herb",
+                        "num": "1",
+                        "rare": true
+                    },
+                    {
+                        "item": "huskberry",
+                        "num": "1",
+                        "rare": true
+                    },
+                    {
+                        "item": "dragonstrike_nut",
+                        "num": "1",
+                        "rare": true
+                    },
+                    {
+                        "item": "nulberry",
+                        "num": "1",
+                        "rare": true
+                    }
+                ],
+                "high_rank": [
+                    {
+                        "item": "lagniapple",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "nulberry",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "dragonstrike_nut",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "huskberry",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "sleep_herb",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "humble_scrap_plus",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "snow_herb",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "stargazer_bloom",
+                        "num": "1",
+                        "rare": true
+                    },
+                    {
+                        "item": "sleep_herb",
+                        "num": "1",
+                        "rare": true
+                    },
+                    {
+                        "item": "snow_herb",
+                        "num": "1",
+                        "rare": true
+                    },
+                    {
+                        "item": "huskberry",
+                        "num": "1",
+                        "rare": true
+                    },
+                    {
+                        "item": "dragonstrike_nut",
+                        "num": "1",
+                        "rare": true
+                    },
+                    {
+                        "item": "nulberry",
+                        "num": "1",
+                        "rare": true
+                    },
+                    {
+                        "item": "stargazer_flower",
+                        "num": "1",
+                        "rare": true
+                    }
+                ]
+            },
+            "bones": {
+                "target_type": "environment",
+                "low_rank": [
+                    {
+                        "item": "lagniapple",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "dragonhusk_shard",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "monster_bone_s",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "bone_scrap",
+                        "num": "1",
+                        "rare": false
+                    }
+                ],
+                "high_rank": [
+                    {
+                        "item": "lagniapple",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "sturdy_bone",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "quality_bone",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "bone_scrap_plus",
+                        "num": "1",
+                        "rare": false
+                    }
+                ]
+            },
+            "baggi": {
+                "target_type": "small_monster",
+                "low_rank": [
+                    {
+                        "item": "stargazer_flower",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "baggi_hide",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "baggi_scale",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "humble_scrap",
+                        "num": "1",
+                        "rare": false
+                    }
+                ],
+                "high_rank": [
+                    {
+                        "item": "stargazer_bloom",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "baggi_hide",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "baggi_scale_plus",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "humble_scrap_plus",
+                        "num": "1",
+                        "rare": false
+                    }
+                ]
+            },
+            "izuchi": {
+                "target_type": "small_monster",
+                "low_rank": [
+                    {
+                        "item": "stargazer_flower",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "izuchi_pelt",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "izuchi_tail",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "humble_scrap",
+                        "num": "1",
+                        "rare": false
+                    }
+                ],
+                "high_rank": [
+                    {
+                        "item": "stargazer_bloom",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "izuchi_pelt_plus",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "izuchi_tail",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "humble_scrap_plus",
+                        "num": "1",
+                        "rare": false
+                    }
+                ]
+            },
+            "insects": {
+                "target_type": "environment",
+                "low_rank": [
+                    {
+                        "item": "flashbug",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "lagniapple",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "spider_web",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "thunderbug",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "insect_scrap",
+                        "num": "1",
+                        "rare": false
+                    }
+                ],
+                "high_rank": [
+                    {
+                        "item": "flashbug",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "lagniapple",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "spider_web",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "thunderbug",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "insect_scrap_plus",
+                        "num": "1",
+                        "rare": false
+                    }
+                ]
+            },
+            "fish": {
+                "target_type": "environment",
+                "low_rank": [
+                    {
+                        "item": "lagniapple",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "big_combustuna",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "combustuna",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "popfish",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "sushifish",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "humble_scrap",
+                        "num": "1",
+                        "rare": false
+                    }
+                ],
+                "high_rank": [
+                    {
+                        "item": "lagniapple",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "big_combustuna",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "combustuna",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "popfish",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "sushifish",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "humble_scrap_plus",
+                        "num": "1",
+                        "rare": false
+                    }
+                ]
+            },
+            "anteka": {
+                "target_type": "small_monster",
+                "low_rank": [
+                    {
+                        "item": "stargazer_flower",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "warm_pelt",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "anteka_antler",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "fur_scrap",
+                        "num": "1",
+                        "rare": false
+                    }
+                ],
+                "high_rank": []
+            }
+        },
+        "sandy_plains": {
+            "insects": {
+                "target_type": "environment",
+                "low_rank": [
+                    {
+                        "item": "lagniapple",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "honey",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "spider_web",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "godbug",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "insect_scrap",
+                        "num": "1",
+                        "rare": false
+                    }
+                ],
+                "high_rank": [
+                    {
+                        "item": "lagniapple",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "honey",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "spider_web",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "godbug",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "insect_scrap_plus",
+                        "num": "1",
+                        "rare": false
+                    }
+                ]
+            },
+            "mushrooms": {
+                "target_type": "environment",
+                "low_rank": [
+                    {
+                        "item": "lagniapple",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "nitroshroom",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "parashroom",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "humble_scrap",
+                        "num": "1",
+                        "rare": false
+                    }
+                ],
+                "high_rank": [
+                    {
+                        "item": "lagniapple",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "nitroshroom",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "parashroom",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "humble_scrap_plus",
+                        "num": "1",
+                        "rare": false
+                    }
+                ]
+            },
+            "kulu-ya-ku": {
+                "target_type": "large_monster",
+                "low_rank": [
+                    {
+                        "item": "kulu-ya-ku_hide",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "kulu-ya-ku_scale",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "kulu-ya-ku_scrap",
+                        "num": "1",
+                        "rare": false
+                    }
+                ],
+                "high_rank": [
+                    {
+                        "item": "kulu-ya-ku_hide_plus",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "kulu-ya-ku_scrap_plus",
+                        "num": "2",
+                        "rare": false
+                    },
+                    {
+                        "item": "kulu-ya-ku_scale_plus",
+                        "num": "1",
+                        "rare": false
+                    }
+                ]
+            },
+            "almudron": {
+                "target_type": "large_monster",
+                "low_rank": [
+                    {
+                        "item": "golden_muck",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "almudron_scale",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "almudron_scrap",
+                        "num": "1",
+                        "rare": false
+                    }
+                ],
+                "high_rank": [
+                    {
+                        "item": "golden_sludge",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "almudron_scale_plus",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "almudron_scrap_plus",
+                        "num": "1",
+                        "rare": false
+                    }
+                ]
+            },
+            "diablos": {
+                "target_type": "large_monster",
+                "low_rank": [
+                    {
+                        "item": "diablos_ridge",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "diablos_shell",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "diablos_scrap",
+                        "num": "1",
+                        "rare": false
+                    }
+                ],
+                "high_rank": [
+                    {
+                        "item": "diablos_ridge_plus",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "diablos_carapace",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "diablos_scrap_plus",
+                        "num": "1",
+                        "rare": false
+                    }
+                ]
+            },
+            "bones": {
+                "target_type": "environment",
+                "low_rank": [
+                    {
+                        "item": "monster_bone_s",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "bone_scrap",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "lagniapple",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "eroded_skeleton",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "sinister_cloth",
+                        "num": "1",
+                        "rare": true
+                    },
+                    {
+                        "item": "monster_bone_s",
+                        "num": "1",
+                        "rare": true
+                    },
+                    {
+                        "item": "eroded_skeleton",
+                        "num": "1",
+                        "rare": true
+                    }
+                ],
+                "high_rank": [
+                    {
+                        "item": "quality_bone",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "bone_scrap_plus",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "lagniapple",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "eroded_husk",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "sinister_cloth",
+                        "num": "1",
+                        "rare": true
+                    },
+                    {
+                        "item": "sinister_darkcloth",
+                        "num": "1",
+                        "rare": true
+                    },
+                    {
+                        "item": "eroded_husk",
+                        "num": "1",
+                        "rare": true
+                    },
+                    {
+                        "item": "quality_bone",
+                        "num": "1",
+                        "rare": true
+                    }
+                ]
+            },
+            "tigrex": {
+                "target_type": "large_monster",
+                "low_rank": [
+                    {
+                        "item": "tigrex_shell",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "tigrex_scale",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "tigrex_scrap",
+                        "num": "1",
+                        "rare": false
+                    }
+                ],
+                "high_rank": [
+                    {
+                        "item": "tigrex_carapace",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "tigrex_scale_plus",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "tigrex_scrap_plus",
+                        "num": "1",
+                        "rare": false
+                    }
+                ]
+            },
+            "jaggi": {
+                "target_type": "small_monster",
+                "low_rank": [
+                    {
+                        "item": "sinister_cloth",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "jaggi_scale",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "jaggi_hide",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "jaggi_scrap",
+                        "num": "1",
+                        "rare": false
+                    }
+                ],
+                "high_rank": [
+                    {
+                        "item": "sinister_darkcloth",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "jaggi_scale_plus",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "jaggi_hide_plus",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "jaggi_scrap_plus",
+                        "num": "1",
+                        "rare": false
+                    }
+                ]
+            },
+            "rhenoplos": {
+                "target_type": "small_monster",
+                "low_rank": [
+                    {
+                        "item": "sinister_cloth",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "rhenoplos_scalp",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "rhenoplos_shell",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "rhenoplos_scrap",
+                        "num": "1",
+                        "rare": false
+                    }
+                ],
+                "high_rank": [
+                    {
+                        "item": "sinister_darkcloth",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "rhenoplos_scalp",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "rhenoplos_carapace",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "rhenoplos_scrap_plus",
+                        "num": "1",
+                        "rare": false
+                    }
+                ]
+            },
+            "ore": {
+                "target_type": "environment",
+                "low_rank": [
+                    {
+                        "item": "lagniapple",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "earth_crystal",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "ore_scrap",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "machalite_ore",
+                        "num": "1",
+                        "rare": false
+                    }
+                ],
+                "high_rank": [
+                    {
+                        "item": "lagniapple",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "carbalite_ore",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "fucium_ore",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "ore_scrap_plus",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "dragonite_ore",
+                        "num": "1",
+                        "rare": false
+                    }
+                ]
+            },
+            "delex": {
+                "target_type": "small_monster",
+                "low_rank": [
+                    {
+                        "item": "sinister_cloth",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "sharp_fang",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "big_fin",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "humble_scrap",
+                        "num": "1",
+                        "rare": false
+                    }
+                ],
+                "high_rank": [
+                    {
+                        "item": "sinister_darkcloth",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "acute_fang",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "humble_scrap_plus",
+                        "num": "2",
+                        "rare": false
+                    },
+                    {
+                        "item": "quality_fin",
+                        "num": "1",
+                        "rare": false
+                    }
+                ]
+            },
+            "herbs": {
+                "target_type": "environment",
+                "low_rank": [
+                    {
+                        "item": "flamenut",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "lagniapple",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "adamant_seed",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "might_seed",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "needleberry",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "sunscorned_grass",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "fire_herb",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "humble_scrap",
+                        "num": "1",
+                        "rare": false
+                    }
+                ],
+                "high_rank": [
+                    {
+                        "item": "flamenut",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "lagniapple",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "adamant_seed",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "might_seed",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "needleberry",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "sunscorned_grass",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "fire_herb",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "humble_scrap_plus",
+                        "num": "1",
+                        "rare": false
+                    }
+                ]
+            },
+            "barroth": {
+                "target_type": "large_monster",
+                "low_rank": [
+                    {
+                        "item": "fertile_mud",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "barroth_shell",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "barroth_scrap",
+                        "num": "1",
+                        "rare": false
+                    }
+                ],
+                "high_rank": [
+                    {
+                        "item": "rich_mud",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "barroth_scrap_plus",
+                        "num": "2",
+                        "rare": false
+                    },
+                    {
+                        "item": "barroth_carapace",
+                        "num": "1",
+                        "rare": false
+                    }
+                ]
+            },
+            "altaroth": {
+                "target_type": "small_monster",
+                "low_rank": [
+                    {
+                        "item": "sinister_cloth",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "monster_fluid",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "altaroth_stomach",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "insect_scrap",
+                        "num": "1",
+                        "rare": false
+                    }
+                ],
+                "high_rank": [
+                    {
+                        "item": "sinister_darkcloth",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "monster_broth",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "quality_stomach",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "insect_scrap_plus",
+                        "num": "1",
+                        "rare": false
+                    }
+                ]
+            },
+            "pukei-pukei": {
+                "target_type": "large_monster",
+                "low_rank": [
+                    {
+                        "item": "pukei-pukei_shell",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "pukei-pukei_scale",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "pukei_scrap",
+                        "num": "1",
+                        "rare": false
+                    }
+                ],
+                "high_rank": [
+                    {
+                        "item": "pukei-pukei_carapace",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "pukei-pukei_scale_plus",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "pukei_scrap_plus",
+                        "num": "1",
+                        "rare": false
+                    }
+                ]
+            },
+            "fish": {
+                "target_type": "environment",
+                "low_rank": [
+                    {
+                        "item": "lagniapple",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "whetfish",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "great_flamefin",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "flamefin",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "humble_scrap",
+                        "num": "1",
+                        "rare": false
+                    }
+                ],
+                "high_rank": [
+                    {
+                        "item": "lagniapple",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "great_flamefin",
+                        "num": "2",
+                        "rare": false
+                    },
+                    {
+                        "item": "great_flamefin",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "flamefin",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "whetfish",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "humble_scrap_plus",
+                        "num": "1",
+                        "rare": false
+                    }
+                ]
+            }
+        },
+        "flooded_forest": {
+            "royal_ludroth": {
+                "target_type": "large_monster",
+                "low_rank": [
+                    {
+                        "item": "royal_ludroth_scale",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "royal_ludroth_scrap",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "dash_extract",
+                        "num": "2",
+                        "rare": false
+                    }
+                ],
+                "high_rank": [
+                    {
+                        "item": "royal_ludroth_scale_plus",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "royal_ludroth_scrap_plus",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "dash_extract",
+                        "num": "1",
+                        "rare": false
+                    }
+                ]
+            },
+            "mushrooms": {
+                "target_type": "environment",
+                "low_rank": [
+                    {
+                        "item": "lagniapple",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "exciteshroom",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "toadstool",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "humble_scrap",
+                        "num": "1",
+                        "rare": false
+                    }
+                ],
+                "high_rank": [
+                    {
+                        "item": "lagniapple",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "exciteshroom",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "toadstool",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "humble_scrap_plus",
+                        "num": "1",
+                        "rare": false
+                    }
+                ]
+            },
+            "bishaten": {
+                "target_type": "large_monster",
+                "low_rank": [
+                    {
+                        "item": "bishaten_feather",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "bishaten_fur",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "bishaten_scrap",
+                        "num": "1",
+                        "rare": false
+                    }
+                ],
+                "high_rank": [
+                    {
+                        "item": "bishaten_feather_plus",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "bishaten_fur_plus",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "bishaten_scrap_plus",
+                        "num": "1",
+                        "rare": false
+                    }
+                ]
+            },
+            "nargacuga": {
+                "target_type": "large_monster",
+                "low_rank": [
+                    {
+                        "item": "nargacuga_blackfur",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "nargacuga_scale",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "nargacuga_scrap",
+                        "num": "1",
+                        "rare": false
+                    }
+                ],
+                "high_rank": [
+                    {
+                        "item": "nargacuga_pelt_plus",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "nargacuga_scale_plus",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "nargacuga_scrap_plus",
+                        "num": "1",
+                        "rare": false
+                    }
+                ]
+            },
+            "gajau": {
+                "target_type": "small_monster",
+                "low_rank": [
+                    {
+                        "item": "gajau_whisker",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "gajau_skin",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "humble_scrap",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "bumblepumpkin",
+                        "num": "1",
+                        "rare": false
+                    }
+                ],
+                "high_rank": [
+                    {
+                        "item": "gajau_whisker_plus",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "gajau_scale",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "humble_scrap_plus",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "omegapumpkin",
+                        "num": "1",
+                        "rare": false
+                    }
+                ]
+            },
+            "wroggi": {
+                "target_type": "small_monster",
+                "low_rank": [
+                    {
+                        "item": "bumblepumpkin",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "wroggi_hide",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "wroggi_scale",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "humble_scrap",
+                        "num": "1",
+                        "rare": false
+                    }
+                ],
+                "high_rank": [
+                    {
+                        "item": "omegapumpkin",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "wroggi_hide",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "wroggi_scale_plus",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "humble_scrap_plus",
+                        "num": "1",
+                        "rare": false
+                    }
+                ]
+            },
+            "great_wroggi": {
+                "target_type": "large_monster",
+                "low_rank": [
+                    {
+                        "item": "poison_sac",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "great_wroggi_hide",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "wroggi_scrap",
+                        "num": "1",
+                        "rare": false
+                    }
+                ],
+                "high_rank": [
+                    {
+                        "item": "toxin_sac",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "great_wroggi_hide_plus",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "wroggi_scrap_plus",
+                        "num": "1",
+                        "rare": false
+                    }
+                ]
+            },
+            "zinogre": {
+                "target_type": "large_monster",
+                "low_rank": [
+                    {
+                        "item": "fulgurbug",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "zinogre_shockfur",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "zinogre_shell",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "zinogre_scrap",
+                        "num": "1",
+                        "rare": false
+                    }
+                ],
+                "high_rank": [
+                    {
+                        "item": "fulgurbug",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "zinogre_electrofur",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "zinogre_carapace",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "zinogre_scrap_plus",
+                        "num": "1",
+                        "rare": false
+                    }
+                ]
+            },
+            "ore": {
+                "target_type": "environment",
+                "low_rank": [
+                    {
+                        "item": "iron_ore",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "ore_scrap",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "lagniapple",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "lightcrystal",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "machalite_ore",
+                        "num": "1",
+                        "rare": false
+                    }
+                ],
+                "high_rank": [
+                    {
+                        "item": "novacrystal",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "ore_scrap_plus",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "lagniapple",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "lightcrystal",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "fucium_ore",
+                        "num": "1",
+                        "rare": false
+                    }
+                ]
+            },
+            "herbs": {
+                "target_type": "environment",
+                "low_rank": [
+                    {
+                        "item": "lagniapple",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "nulberry",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "blastnut",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "smokenut",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "flowfern",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "ivy",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "humble_scrap",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "bumblepumpkin",
+                        "num": "1",
+                        "rare": true
+                    },
+                    {
+                        "item": "ivy",
+                        "num": "1",
+                        "rare": true
+                    },
+                    {
+                        "item": "flowfern",
+                        "num": "1",
+                        "rare": true
+                    },
+                    {
+                        "item": "smokenut",
+                        "num": "1",
+                        "rare": true
+                    },
+                    {
+                        "item": "blastnut",
+                        "num": "1",
+                        "rare": true
+                    },
+                    {
+                        "item": "nulberry",
+                        "num": "1",
+                        "rare": true
+                    }
+                ],
+                "high_rank": [
+                    {
+                        "item": "lagniapple",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "nulberry",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "blastnut",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "smokenut",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "flowfern",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "ivy",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "humble_scrap_plus",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "bumblepumpkin",
+                        "num": "1",
+                        "rare": true
+                    },
+                    {
+                        "item": "omegapumpkin",
+                        "num": "1",
+                        "rare": true
+                    },
+                    {
+                        "item": "flowfern",
+                        "num": "1",
+                        "rare": true
+                    },
+                    {
+                        "item": "smokenut",
+                        "num": "1",
+                        "rare": true
+                    },
+                    {
+                        "item": "blastnut",
+                        "num": "1",
+                        "rare": true
+                    },
+                    {
+                        "item": "nulberry",
+                        "num": "1",
+                        "rare": true
+                    },
+                    {
+                        "item": "ivy",
+                        "num": "1",
+                        "rare": true
+                    }
+                ]
+            },
+            "bones": {
+                "target_type": "environment",
+                "low_rank": [
+                    {
+                        "item": "lagniapple",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "dragonhusk_shard",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "monster_bone_s",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "bone_scrap",
+                        "num": "1",
+                        "rare": false
+                    }
+                ],
+                "high_rank": [
+                    {
+                        "item": "lagniapple",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "sturdy_bone",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "dragonbone_relic",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "quality_bone",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "bone_scrap_plus",
+                        "num": "1",
+                        "rare": false
+                    }
+                ]
+            },
+            "ludroth": {
+                "target_type": "small_monster",
+                "low_rank": [
+                    {
+                        "item": "bumblepumpkin",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "immature_sponge",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "hydro_hide",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "humble_scrap",
+                        "num": "1",
+                        "rare": false
+                    }
+                ],
+                "high_rank": [
+                    {
+                        "item": "omegapumpkin",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "immature_sponge",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "hydro_hide_plus",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "humble_scrap_plus",
+                        "num": "1",
+                        "rare": false
+                    }
+                ]
+            },
+            "insects": {
+                "target_type": "environment",
+                "low_rank": [
+                    {
+                        "item": "flashbug",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "thunderbug",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "godbug",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "lagniapple",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "honey",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "spider_web",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "bitterbug",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "insect_scrap",
+                        "num": "1",
+                        "rare": false
+                    }
+                ],
+                "high_rank": [
+                    {
+                        "item": "flashbug",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "thunderbug",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "godbug",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "lagniapple",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "honey",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "spider_web",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "bitterbug",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "insect_scrap_plus",
+                        "num": "1",
+                        "rare": false
+                    }
+                ]
+            },
+            "fish": {
+                "target_type": "environment",
+                "low_rank": [
+                    {
+                        "item": "lagniapple",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "goldenfry",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "scatterfish",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "popfish",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "sushifish",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "humble_scrap",
+                        "num": "1",
+                        "rare": false
+                    }
+                ],
+                "high_rank": [
+                    {
+                        "item": "lagniapple",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "goldenfry",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "scatterfish",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "popfish",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "sushifish",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "humble_scrap_plus",
+                        "num": "1",
+                        "rare": false
+                    }
+                ]
+            }
+        },
+        "lava_caverns": {
+            "anjanath": {
+                "target_type": "large_monster",
+                "low_rank": [
+                    {
+                        "item": "anjanath_pelt",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "anjanath_scale",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "anjanath_scrap",
+                        "num": "1",
+                        "rare": false
+                    }
+                ],
+                "high_rank": [
+                    {
+                        "item": "anjanath_pelt_plus",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "anjanath_scale_plus",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "anjanath_scrap_plus",
+                        "num": "1",
+                        "rare": false
+                    }
+                ]
+            },
+            "mushrooms": {
+                "target_type": "environment",
+                "low_rank": [
+                    {
+                        "item": "lagniapple",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "mandragora",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "nitroshroom",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "humble_scrap",
+                        "num": "1",
+                        "rare": false
+                    }
+                ],
+                "high_rank": [
+                    {
+                        "item": "lagniapple",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "mandragora",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "nitroshroom",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "humble_scrap_plus",
+                        "num": "1",
+                        "rare": false
+                    }
+                ]
+            },
+            "fish": {
+                "target_type": "environment",
+                "low_rank": [
+                    {
+                        "item": "great_whetfish",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "lagniapple",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "whetfish",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "great_flamefin",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "flamefin",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "humble_scrap",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "cutejelly",
+                        "num": "1",
+                        "rare": true
+                    },
+                    {
+                        "item": "whetfish",
+                        "num": "1",
+                        "rare": true
+                    },
+                    {
+                        "item": "great_whetfish",
+                        "num": "1",
+                        "rare": true
+                    },
+                    {
+                        "item": "flamefin",
+                        "num": "1",
+                        "rare": true
+                    },
+                    {
+                        "item": "great_flamefin",
+                        "num": "1",
+                        "rare": true
+                    }
+                ],
+                "high_rank": [
+                    {
+                        "item": "great_whetfish",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "lagniapple",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "whetfish",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "great_flamefin",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "flamefin",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "humble_scrap_plus",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "cutejelly",
+                        "num": "1",
+                        "rare": true
+                    },
+                    {
+                        "item": "gothjelly",
+                        "num": "1",
+                        "rare": true
+                    },
+                    {
+                        "item": "great_whetfish",
+                        "num": "1",
+                        "rare": true
+                    },
+                    {
+                        "item": "flamefin",
+                        "num": "1",
+                        "rare": true
+                    },
+                    {
+                        "item": "great_flamefin",
+                        "num": "1",
+                        "rare": true
+                    },
+                    {
+                        "item": "whetfish",
+                        "num": "1",
+                        "rare": true
+                    }
+                ]
+            },
+            "insects": {
+                "target_type": "environment",
+                "low_rank": [
+                    {
+                        "item": "lagniapple",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "honey",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "godbug",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "thunderbug",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "insect_scrap",
+                        "num": "1",
+                        "rare": false
+                    }
+                ],
+                "high_rank": [
+                    {
+                        "item": "lagniapple",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "honey",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "godbug",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "thunderbug",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "insect_scrap_plus",
+                        "num": "1",
+                        "rare": false
+                    }
+                ]
+            },
+            "rathalos": {
+                "target_type": "large_monster",
+                "low_rank": [
+                    {
+                        "item": "rathalos_shell",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "rathalos_scale",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "rathalos_scrap",
+                        "num": "1",
+                        "rare": false
+                    }
+                ],
+                "high_rank": [
+                    {
+                        "item": "rathalos_carapace",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "rathalos_scale_plus",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "rathalos_scrap_plus",
+                        "num": "1",
+                        "rare": false
+                    }
+                ]
+            },
+            "uroktor": {
+                "target_type": "small_monster",
+                "low_rank": [
+                    {
+                        "item": "sharp_claw",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "uroktor_scale",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "humble_scrap",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "cutejelly",
+                        "num": "1",
+                        "rare": false
+                    }
+                ],
+                "high_rank": [
+                    {
+                        "item": "piercing_claw",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "uroktor_scale_plus",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "humble_scrap_plus",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "gothjelly",
+                        "num": "1",
+                        "rare": false
+                    }
+                ]
+            },
+            "slagtoth": {
+                "target_type": "small_monster",
+                "low_rank": [
+                    {
+                        "item": "monster_bone_m",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "slagtoth_hide",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "slagtoth_scrap",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "cutejelly",
+                        "num": "1",
+                        "rare": false
+                    }
+                ],
+                "high_rank": [
+                    {
+                        "item": "monster_bone_m",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "slagtoth_hide_plus",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "slagtoth_scrap_plus",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "gothjelly",
+                        "num": "1",
+                        "rare": false
+                    }
+                ]
+            },
+            "remobra": {
+                "target_type": "small_monster",
+                "low_rank": [
+                    {
+                        "item": "striped_hide",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "remobra_hide",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "humble_scrap",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "cutejelly",
+                        "num": "1",
+                        "rare": false
+                    }
+                ],
+                "high_rank": [
+                    {
+                        "item": "striped_hide",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "remobra_hide_plus",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "humble_scrap_plus",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "gothjelly",
+                        "num": "1",
+                        "rare": false
+                    }
+                ]
+            },
+            "ore": {
+                "target_type": "environment",
+                "low_rank": [
+                    {
+                        "item": "firestone",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "ore_scrap",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "lagniapple",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "dragonite_ore",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "earth_crystal",
+                        "num": "1",
+                        "rare": false
+                    }
+                ],
+                "high_rank": [
+                    {
+                        "item": "firestone",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "ore_scrap_plus",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "lagniapple",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "firecell_stone",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "carbalite_ore",
+                        "num": "1",
+                        "rare": false
+                    }
+                ]
+            },
+            "bones": {
+                "target_type": "environment",
+                "low_rank": [
+                    {
+                        "item": "lagniapple",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "dragonhusk_shard",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "sturdy_bone",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "bone_scrap",
+                        "num": "1",
+                        "rare": false
+                    }
+                ],
+                "high_rank": [
+                    {
+                        "item": "lagniapple",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "quality_bone",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "sturdy_bone",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "bone_scrap_plus",
+                        "num": "1",
+                        "rare": false
+                    }
+                ]
+            },
+            "basarios": {
+                "target_type": "large_monster",
+                "low_rank": [
+                    {
+                        "item": "basarios_pleura",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "basarios_shell",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "basarios_scrap",
+                        "num": "1",
+                        "rare": false
+                    }
+                ],
+                "high_rank": [
+                    {
+                        "item": "basarios_pleura_plus",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "basarios_carapace",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "basarios_scrap_plus",
+                        "num": "1",
+                        "rare": false
+                    }
+                ]
+            },
+            "herbs": {
+                "target_type": "environment",
+                "low_rank": [
+                    {
+                        "item": "blazenut",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "lagniapple",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "adamant_seed",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "might_seed",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "bomberry",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "dragonfell_berry",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "gloamgrass_bud",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "humble_scrap",
+                        "num": "1",
+                        "rare": false
+                    }
+                ],
+                "high_rank": [
+                    {
+                        "item": "blazenut",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "lagniapple",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "adamant_seed",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "might_seed",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "bomberry",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "dragonfell_berry",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "gloamgrass_bud",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "humble_scrap_plus",
+                        "num": "1",
+                        "rare": false
+                    }
+                ]
+            },
+            "rathian": {
+                "target_type": "large_monster",
+                "low_rank": [
+                    {
+                        "item": "rathian_shell",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "rathian_scale",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "rathian_scrap",
+                        "num": "1",
+                        "rare": false
+                    }
+                ],
+                "high_rank": [
+                    {
+                        "item": "rathian_carapace",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "rathian_scale_plus",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "rathian_scrap_plus",
+                        "num": "1",
+                        "rare": false
+                    }
+                ]
+            },
+            "somnacanth": {
+                "target_type": "large_monster",
+                "low_rank": [
+                    {
+                        "item": "somnacanth_shell",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "somnacanth_scale",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "somnacanth_scrap",
+                        "num": "1",
+                        "rare": false
+                    }
+                ],
+                "high_rank": [
+                    {
+                        "item": "somnacanth_shell_plus",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "somnacanth_scale_plus",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "somnacanth_scrap_plus",
+                        "num": "1",
+                        "rare": false
+                    }
+                ]
+            },
+            "volvidon": {
+                "target_type": "large_monster",
+                "low_rank": [
+                    {
+                        "item": "paralysis_sac",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "volvidon_shell",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "volvidon_scrap",
+                        "num": "1",
+                        "rare": false
+                    }
+                ],
+                "high_rank": [
+                    {
+                        "item": "paralysis_sac",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "volvi_carapace",
+                        "num": "1",
+                        "rare": false
+                    },
+                    {
+                        "item": "volvidon_scrap_plus",
+                        "num": "1",
+                        "rare": false
+                    }
+                ]
+            }
+        }
+    }
+}

@@ -13,7 +13,8 @@
             "endemic_lifes": "環境生物",
             "weapons": "武器",
             "items": "道具素材",
-            "quests": "任務"
+            "quests": "任務",
+            "meowcenaries": "隨從隱密隊"
         },
         "type": "類型",
         "trait": "特性",
@@ -250,7 +251,7 @@
             "monsters": "登場魔物",
             "click_hint": "（點擊可前往相關頁面）",
             "spawn": {
-                "mult": "數值倍率",
+                "mult": "數值倍率（單人）",
                 "attack": "攻擊",
                 "parts": "部位",
                 "defense": "防禦",
@@ -278,9 +279,33 @@
             "rank": "等級",
             "method": "途徑"
         },
+        "meowcenary": {
+            "map": "目的地",
+            "items": "獲取素材",
+            "scouting_route_": "調查路線",
+            "expected_outcome": "隱密隊期望值",
+            "ore": "礦石",
+            "bones": "骨",
+            "herbs": "藥草",
+            "mushrooms": "香菇",
+            "fish": "魚",
+            "insects": "蟲",
+            "required_points": "所需神火點數",
+            "location_cost": "該地點所需費用",
+            "scout_location": "調查地點",
+            "target": "調查目標",
+            "rare": "稀有"
+        },
         "map": {
             "name": {
-                "shrine_ruins": "大社遺跡"
+                "shrine_ruins": "大社遺跡",
+                "sandy_plains": "沙原",
+                "flooded_forest": "水沒林",
+                "frost_islands": "寒冷群島",
+                "lava_caverns": "熔岩洞",
+                "red_stronghold": "翡葉要塞",
+                "arena": "鬥技場",
+                "coral_palace": "龍宮要塞遺跡"
             }
         },
         "data": {
