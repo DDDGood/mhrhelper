@@ -180,6 +180,9 @@
         "砂鱼": {
             "key": "delex"
         },
+        "沙鱼龙": {
+            "key": "delex"
+        },
         "水生兽": {
             "key": "ludroth"
         },
@@ -3794,6 +3797,4788 @@
         },
         "狩猎1头火龙和1头轰龙": {
             "key": "quest_village_hunt_a_rathalos_and_a_tigrex"
+        },
+        "精锐讨伐队斩击斧Ⅰ": {
+            "key": "elite_switch_axe_i"
+        },
+        "精锐讨伐队斩击斧Ⅱ": {
+            "key": "elite_switch_axe_ii"
+        },
+        "精锐进攻队斩击斧": {
+            "key": "czar_switch_axe"
+        },
+        "罗宋红斧Ⅰ": {
+            "key": "the_shredder_i"
+        },
+        "罗宋红斧Ⅱ": {
+            "key": "the_shredder_ii"
+        },
+        "强力罗宋红斧": {
+            "key": "the_power_shredder"
+        },
+        "击龙斧Ⅰ": {
+            "key": "ash_drache_i"
+        },
+        "击龙斧Ⅱ": {
+            "key": "ash_drache_ii"
+        },
+        "驱龙斧": {
+            "key": "fall_drache"
+        },
+        "铁制试作剑斧Ⅰ": {
+            "key": "proto_iron_axe_i"
+        },
+        "铁制试作剑斧Ⅱ": {
+            "key": "proto_iron_axe_ii"
+        },
+        "钢铁制改良剑斧": {
+            "key": "improved_steel_axe"
+        },
+        "扫荡Ⅰ": {
+            "key": "generals_strongaxe_i"
+        },
+        "扫荡Ⅱ": {
+            "key": "generals_strongaxe_ii"
+        },
+        "征服": {
+            "key": "conqueress"
+        },
+        "骨制剑斧Ⅰ": {
+            "key": "bone_axe_i"
+        },
+        "骨制剑斧Ⅱ": {
+            "key": "bone_axe_ii"
+        },
+        "代达罗斯": {
+            "key": "daidalos_axe"
+        },
+        "壮实身躯Ⅰ": {
+            "key": "power_gasher_i"
+        },
+        "壮实身躯Ⅱ": {
+            "key": "power_gasher_ii"
+        },
+        "棕精灵长斧": {
+            "key": "maximal_gasher"
+        },
+        "炎火铁剑斧Ⅰ": {
+            "key": "kamura_iron_axe_i"
+        },
+        "炎火铁剑斧Ⅱ": {
+            "key": "kamura_iron_axe_ii"
+        },
+        "炎火铁剑斧Ⅲ": {
+            "key": "kamura_iron_axe_iii"
+        },
+        "炎火铁剑斧Ⅳ": {
+            "key": "kamura_iron_axe_iv"
+        },
+        "炎火铁剑斧Ⅴ": {
+            "key": "kamura_iron_axe_v"
+        },
+        "炎火忍剑斧": {
+            "key": "kamura_ninja_axe"
+        },
+        "百龙剑斧Ⅰ": {
+            "key": "rampage_slicer_i"
+        },
+        "百龙剑斧Ⅱ": {
+            "key": "rampage_slicer_ii"
+        },
+        "百龙剑斧Ⅲ": {
+            "key": "rampage_slicer_iii"
+        },
+        "剑斧折纸【樱云】Ⅰ": {
+            "key": "origami_axe_i"
+        },
+        "剑斧折纸【樱云】Ⅱ": {
+            "key": "origami_axe_ii"
+        },
+        "剑斧折纸【樱吹雪】": {
+            "key": "petal_cloud"
+        },
+        "阴森猫Ⅰ": {
+            "key": "grim_cat_i"
+        },
+        "阴森猫Ⅱ": {
+            "key": "grim_cat_ii"
+        },
+        "恶作剧猫斧": {
+            "key": "grimmige_katze"
+        },
+        "冷酷镰刀Ⅰ": {
+            "key": "infernal_axe_i"
+        },
+        "冷酷镰刀Ⅱ": {
+            "key": "infernal_axe_ii"
+        },
+        "无情夺命镰": {
+            "key": "hellish_edge"
+        },
+        "让人沉眠的贝剑斧Ⅰ": {
+            "key": "sleepy_shellslice_i"
+        },
+        "让人沉眠的贝剑斧Ⅱ": {
+            "key": "sleepy_shellslice_ii"
+        },
+        "睡贝剑斧海螺": {
+            "key": "schale_batis"
+        },
+        "伞旌旗Ⅰ": {
+            "key": "axenosom_i"
+        },
+        "伞旌旗Ⅱ": {
+            "key": "axenosom_ii"
+        },
+        "伞旌旗Ⅲ": {
+            "key": "axenosom_iii"
+        },
+        "晓之剑斧征骑": {
+            "key": "daybreak_silvaris"
+        },
+        "天具・法轮真斧Ⅰ": {
+            "key": "wheel_axe_i"
+        },
+        "天具・法轮真斧Ⅱ": {
+            "key": "wheel_axe_ii"
+        },
+        "大天具・轮斧军荼利": {
+            "key": "axe_of_wisdom"
+        },
+        "祸斧【封】Ⅰ": {
+            "key": "sinister_axe_i"
+        },
+        "祸斧【封】Ⅱ": {
+            "key": "sinister_axe_ii"
+        },
+        "祸斧【幽鬼无情】": {
+            "key": "sinister_shadowslice"
+        },
+        "封＝泥Ⅰ": {
+            "key": "almudron_axe_i"
+        },
+        "封＝泥Ⅱ": {
+            "key": "almudron_axe_ii"
+        },
+        "分＝裂": {
+            "key": "doom_bringer_axe"
+        },
+        "苍风神剑斧Ⅰ": {
+            "key": "azure_elder_axe_i"
+        },
+        "苍风神剑斧Ⅱ": {
+            "key": "azure_elder_axe_ii"
+        },
+        "鸣雷神剑斧Ⅰ": {
+            "key": "thunderbolt_axe_i"
+        },
+        "青熊斧Ⅰ": {
+            "key": "arzuros_axe_i"
+        },
+        "青熊斧Ⅱ": {
+            "key": "arzuros_axe_ii"
+        },
+        "青熊豪斧【山祭】": {
+            "key": "arzuros_revelax"
+        },
+        "雪族剑斧Ⅰ": {
+            "key": "snowfall_axe_i"
+        },
+        "雪族剑斧Ⅱ": {
+            "key": "snowfall_axe_ii"
+        },
+        "雪族剑斧Ⅲ": {
+            "key": "snowfall_axe_iii"
+        },
+        "雪族剑斧【露宿】": {
+            "key": "dewdrop_dream"
+        },
+        "白兔剑斧Ⅰ": {
+            "key": "longear_axe_i"
+        },
+        "白兔剑斧Ⅱ": {
+            "key": "longear_axe_ii"
+        },
+        "白兔剑斧Ⅲ": {
+            "key": "longear_axe_iii"
+        },
+        "白兔剑斧【利雪】": {
+            "key": "longear_weiss"
+        },
+        "砂鱼帆鳍Ⅰ": {
+            "key": "delex_sail_i"
+        },
+        "砂鱼帆鳍Ⅱ": {
+            "key": "delex_sail_ii"
+        },
+        "砂鱼沙海帆鳍": {
+            "key": "delex_cleaver"
+        },
+        "水兽战斧Ⅰ": {
+            "key": "ludroth_axe_i"
+        },
+        "水兽战斧Ⅱ": {
+            "key": "ludroth_axe_ii"
+        },
+        "水兽冲击战斧": {
+            "key": "splish_splax"
+        },
+        "突击斧Ⅰ": {
+            "key": "assault_axe_i"
+        },
+        "突击斧Ⅱ": {
+            "key": "assault_axe_ii"
+        },
+        "暗堡破坏者": {
+            "key": "blitzkrieg"
+        },
+        "奇怪龙万用刀Ⅰ": {
+            "key": "khezu_axe_i"
+        },
+        "奇怪龙万用刀Ⅱ": {
+            "key": "khezu_axe_ii"
+        },
+        "奇怪龙激吻": {
+            "key": "khezu_cleaver"
+        },
+        "溢毒利斧Ⅰ": {
+            "key": "venom_hatchet_i"
+        },
+        "溢毒利斧Ⅱ": {
+            "key": "venom_hatchet_ii"
+        },
+        "赐死神蛇": {
+            "key": "mortal_serpent"
+        },
+        "甲旋Ⅰ": {
+            "key": "binding_roller_i"
+        },
+        "甲旋Ⅱ": {
+            "key": "binding_roller_ii"
+        },
+        "甲旋Ⅲ": {
+            "key": "binding_roller_iii"
+        },
+        "泥磨利斧Ⅰ": {
+            "key": "limus_os_i"
+        },
+        "泥磨利斧Ⅱ": {
+            "key": "limus_os_ii"
+        },
+        "沼泽利斧": {
+            "key": "luto_ascia"
+        },
+        "龙姬斩击斧Ⅰ": {
+            "key": "dragonmaiden_axe_i"
+        },
+        "龙姬斩击斧Ⅱ": {
+            "key": "dragonmaiden_axe_ii"
+        },
+        "破盾者": {
+            "key": "gríðrs_landmaker"
+        },
+        "琥珀斜斩Ⅰ": {
+            "key": "amber_slash_i"
+        },
+        "琥珀斜斩Ⅱ": {
+            "key": "amber_slash_ii"
+        },
+        "琥珀斜斩Ⅲ": {
+            "key": "amber_slash_iii"
+        },
+        "寒霜琥珀": {
+            "key": "amber_hoarfrost"
+        },
+        "炎羽长斧Ⅰ": {
+            "key": "flammenbeil_i"
+        },
+        "炎羽长斧Ⅱ": {
+            "key": "flammenbeil_ii"
+        },
+        "隐秘战斧Ⅰ": {
+            "key": "hidden_axe_i"
+        },
+        "隐秘战斧Ⅱ": {
+            "key": "hidden_axe_ii"
+        },
+        "暗夜斩击斧【弦月】": {
+            "key": "nights_crescent"
+        },
+        "狐斩击斧【子规啼离恨】Ⅰ": {
+            "key": "fond_farewell_i"
+        },
+        "狐斩击斧【子规啼离恨】Ⅱ": {
+            "key": "fond_farewell_ii"
+        },
+        "喷射烈炎斩击斧Ⅰ": {
+            "key": "rath_flamesplitter_i"
+        },
+        "喷射烈炎斩击斧Ⅱ": {
+            "key": "rath_flamesplitter_ii"
+        },
+        "喷射烈炎斩击斧Ⅲ": {
+            "key": "rath_flamesplitter_iii"
+        },
+        "王斩击斧雷电Ⅰ": {
+            "key": "usurpers_downpour_i"
+        },
+        "王斩击斧雷电Ⅱ": {
+            "key": "usurpers_downpour_ii"
+        },
+        "王牙斩击斧【裂雷】": {
+            "key": "despots_cloudburst"
+        },
+        "轰龙斜斩Ⅰ": {
+            "key": "rex_slasher_i"
+        },
+        "轰龙斜斩Ⅱ": {
+            "key": "rex_slasher_ii"
+        },
+        "暴君斧Ⅰ": {
+            "key": "axe_semper_tyrannis_i"
+        },
+        "暴君斧Ⅱ": {
+            "key": "axe_semper_tyrannis_ii"
+        },
+        "金刚角斧Ⅰ": {
+            "key": "undying_axe_i"
+        },
+        "金刚角斧Ⅱ": {
+            "key": "undying_axe_ii"
+        },
+        "百龙剑斧Ⅳ": {
+            "key": "rampage_slicer_iv"
+        },
+        "猎人匕首Ⅰ": {
+            "key": "hunters_knife_i"
+        },
+        "猎人匕首Ⅱ": {
+            "key": "hunters_knife_ii"
+        },
+        "斗士之剑": {
+            "key": "fighter_sword"
+        },
+        "千年冰晶刃Ⅰ": {
+            "key": "frost_edge_i"
+        },
+        "千年冰晶刃Ⅱ": {
+            "key": "frost_edge_ii"
+        },
+        "千年冰辉刃": {
+            "key": "hi_frost_edge"
+        },
+        "青年铁剑Ⅰ": {
+            "key": "iron_beater_i"
+        },
+        "青年铁剑Ⅱ": {
+            "key": "iron_beater_ii"
+        },
+        "成才重铁剑": {
+            "key": "smithys_pride"
+        },
+        "奥德赛之刃Ⅰ": {
+            "key": "odyssey_blade_i"
+        },
+        "奥德赛之刃Ⅱ": {
+            "key": "odyssey_blade_ii"
+        },
+        "大师奥德赛": {
+            "key": "master_odyssey"
+        },
+        "骨制反曲刀Ⅰ": {
+            "key": "bone_kukri_i"
+        },
+        "骨制反曲刀Ⅱ": {
+            "key": "bone_kukri_ii"
+        },
+        "领袖反曲刀": {
+            "key": "chief_kukri"
+        },
+        "骨制巴龙刀Ⅰ": {
+            "key": "bone_barong_i"
+        },
+        "骨制巴龙刀Ⅱ": {
+            "key": "bone_barong_ii"
+        },
+        "大地巴龙刀": {
+            "key": "grand_barong"
+        },
+        "骨之战斧Ⅰ": {
+            "key": "bone_tabar_i"
+        },
+        "骨之战斧Ⅱ": {
+            "key": "bone_tabar_ii"
+        },
+        "拉古德斯战斧": {
+            "key": "ragdos_tabar"
+        },
+        "炎火铁单刃Ⅰ": {
+            "key": "kamura_sword_i"
+        },
+        "炎火铁单刃Ⅱ": {
+            "key": "kamura_sword_ii"
+        },
+        "炎火铁单刃Ⅲ": {
+            "key": "kamura_sword_iii"
+        },
+        "炎火铁单刃Ⅳ": {
+            "key": "kamura_sword_iv"
+        },
+        "炎火铁单刃Ⅴ": {
+            "key": "kamura_sword_v"
+        },
+        "炎火忍单刃": {
+            "key": "kamura_ninja_sword"
+        },
+        "百龙剑Ⅰ": {
+            "key": "rampage_sword_i"
+        },
+        "百龙剑Ⅱ": {
+            "key": "rampage_sword_ii"
+        },
+        "百龙剑Ⅲ": {
+            "key": "rampage_sword_iii"
+        },
+        "猫？拳Ⅰ": {
+            "key": "catspaw_i"
+        },
+        "猫？拳Ⅱ": {
+            "key": "catspaw_ii"
+        },
+        "喵喵棒": {
+            "key": "catburglar"
+        },
+        "让人沉眠的贝短剑Ⅰ": {
+            "key": "sleepy_shellsword_i"
+        },
+        "让人沉眠的贝短剑Ⅱ": {
+            "key": "sleepy_shellsword_ii"
+        },
+        "睡贝剑蛤仔": {
+            "key": "waking_nightmare"
+        },
+        "镰鼬风镰Ⅰ": {
+            "key": "izuchi_sickle_i"
+        },
+        "镰鼬风镰Ⅱ": {
+            "key": "izuchi_sickle_ii"
+        },
+        "镰鼬暴风镰": {
+            "key": "snapper_sickle"
+        },
+        "扫堂斩Ⅰ": {
+            "key": "cunning_riposte_i"
+        },
+        "扫堂斩Ⅱ": {
+            "key": "cunning_riposte_ii"
+        },
+        "蛙式・扫堂斩": {
+            "key": "guard_breaker"
+        },
+        "天具・伏魔剑Ⅰ": {
+            "key": "exorcising_sword_i"
+        },
+        "天具・伏魔剑Ⅱ": {
+            "key": "exorcising_sword_ii"
+        },
+        "大天具・伏剑不动": {
+            "key": "shaucha_pureblade"
+        },
+        "祸剑【封】Ⅰ": {
+            "key": "sinister_sword_i"
+        },
+        "祸剑【封】Ⅱ": {
+            "key": "sinister_sword_ii"
+        },
+        "祸剑【幽鬼无尽】": {
+            "key": "sinister_shadekeeper"
+        },
+        "雪鬼兽咻咻Ⅰ": {
+            "key": "mincing_blade_i"
+        },
+        "雪鬼兽咻咻Ⅱ": {
+            "key": "mincing_blade_ii"
+        },
+        "苍风神剑Ⅰ": {
+            "key": "azure_elder_sword_i"
+        },
+        "苍风神剑Ⅱ": {
+            "key": "azure_elder_sword_ii"
+        },
+        "鸣雷神剑Ⅰ": {
+            "key": "thunderbolt_sword_i"
+        },
+        "突进盾剑Ⅰ": {
+            "key": "brash_buddies_i"
+        },
+        "突进盾剑Ⅱ": {
+            "key": "brash_buddies_ii"
+        },
+        "猛突剑【野猪突进】": {
+            "key": "cocky_comrades"
+        },
+        "斩杀零式Ⅰ": {
+            "key": "secta_nulo_i"
+        },
+        "斩杀壹式": {
+            "key": "secta_unu"
+        },
+        "深红斩杀零式Ⅰ": {
+            "key": "secta_nulo_red_i"
+        },
+        "深红斩杀零式Ⅱ": {
+            "key": "secta_nulo_red_ii"
+        },
+        "深红斩杀壹式": {
+            "key": "secta_unu_red"
+        },
+        "铬黄斩杀零式Ⅰ": {
+            "key": "secta_nulo_yellow_i"
+        },
+        "铬黄斩杀壹式": {
+            "key": "secta_unu_yellow"
+        },
+        "雪白斩杀零式Ⅰ": {
+            "key": "secta_nulo_white_i"
+        },
+        "雪白斩杀壹式": {
+            "key": "secta_unu_white"
+        },
+        "碧绿斩杀零式Ⅰ": {
+            "key": "secta_nulo_green_i"
+        },
+        "碧绿斩杀壹式": {
+            "key": "secta_unu_green"
+        },
+        "漆黑斩杀零式Ⅰ": {
+            "key": "secta_nulo_black_i"
+        },
+        "漆黑斩杀零式Ⅱ": {
+            "key": "secta_nulo_black_ii"
+        },
+        "漆黑斩杀壹式": {
+            "key": "secta_unu_black"
+        },
+        "眠龙匕首Ⅰ": {
+            "key": "hypnos_knife_i"
+        },
+        "眠龙匕首Ⅱ": {
+            "key": "hypnos_knife_ii"
+        },
+        "眠龙鸟嘴刀": {
+            "key": "morpheus_knife"
+        },
+        "士兵短剑Ⅰ": {
+            "key": "soldiers_dagger_i"
+        },
+        "士兵短剑Ⅱ": {
+            "key": "soldiers_dagger_ii"
+        },
+        "指挥官短剑": {
+            "key": "commanders_dagger"
+        },
+        "邪道爵剑Ⅰ": {
+            "key": "dirty_baron_i"
+        },
+        "邪道爵剑Ⅱ": {
+            "key": "dirty_baron_ii"
+        },
+        "邪道速击": {
+            "key": "dirty_marquis"
+        },
+        "水兽之爪Ⅰ": {
+            "key": "royal_claw_i"
+        },
+        "水兽之爪Ⅱ": {
+            "key": "royal_claw_ii"
+        },
+        "水兽巨爪": {
+            "key": "royal_ludroth_claw"
+        },
+        "土砂短锤Ⅰ": {
+            "key": "carapace_mace_i"
+        },
+        "土砂短锤Ⅱ": {
+            "key": "carapace_mace_ii"
+        },
+        "土砂冲击": {
+            "key": "barroth_club"
+        },
+        "奇怪龙薙刀Ⅰ": {
+            "key": "khezu_razor_i"
+        },
+        "奇怪龙薙刀Ⅱ": {
+            "key": "khezu_razor_ii"
+        },
+        "痛苦奇怪龙薙刀": {
+            "key": "painful_razor"
+        },
+        "熔岩啄木鸟Ⅰ": {
+            "key": "lava_pick_i"
+        },
+        "熔岩啄木鸟Ⅱ": {
+            "key": "lava_pick_ii"
+        },
+        "嘴剑巨喙": {
+            "key": "burly_beak"
+        },
+        "避役单刀Ⅰ": {
+            "key": "pukei_sword_i"
+        },
+        "避役单刀Ⅱ": {
+            "key": "pukei_sword_ii"
+        },
+        "毒妖喉单刀": {
+            "key": "venomedge"
+        },
+        "公主细剑Ⅰ": {
+            "key": "princess_rapier_i"
+        },
+        "公主细剑Ⅱ": {
+            "key": "princess_rapier_ii"
+        },
+        "冰凌利刃Ⅰ": {
+            "key": "icicle_spike_i"
+        },
+        "冰凌利刃Ⅱ": {
+            "key": "icicle_spike_ii"
+        },
+        "冰牙锐爪": {
+            "key": "nardebosche"
+        },
+        "炎羽短剑Ⅰ": {
+            "key": "flammensucher_i"
+        },
+        "炎羽短剑Ⅱ": {
+            "key": "flammensucher_ii"
+        },
+        "蛮颚炎羽短剑": {
+            "key": "gnashing_flammensucher"
+        },
+        "隐秘刀刃Ⅰ": {
+            "key": "hidden_edge_i"
+        },
+        "隐秘刀刃Ⅱ": {
+            "key": "hidden_edge_ii"
+        },
+        "暗夜剑【昏冥】": {
+            "key": "flash_in_the_night"
+        },
+        "狐扇【飞花实可叹】Ⅰ": {
+            "key": "hana_no_nagoriwo_i"
+        },
+        "狐扇【飞花实可叹】Ⅱ": {
+            "key": "hana_no_nagoriwo_ii"
+        },
+        "鲜红彩扇之薄重": {
+            "key": "kurenawi_ougi"
+        },
+        "灼焰锐剑Ⅰ": {
+            "key": "djinn_i"
+        },
+        "灼焰锐剑Ⅱ": {
+            "key": "djinn_ii"
+        },
+        "王剑疾雷Ⅰ": {
+            "key": "usurpers_firebolt_i"
+        },
+        "王剑疾雷Ⅱ": {
+            "key": "usurpers_firebolt_ii"
+        },
+        "王牙剑【折雷】": {
+            "key": "despots_crookbolt"
+        },
+        "轰龙爪Ⅰ": {
+            "key": "rex_talon_i"
+        },
+        "轰龙爪Ⅱ": {
+            "key": "rex_talon_ii"
+        },
+        "角龙棒Ⅰ": {
+            "key": "studded_club_i"
+        },
+        "角龙棒Ⅱ": {
+            "key": "studded_club_ii"
+        },
+        "狼牙棒": {
+            "key": "spiked_bat"
+        },
+        "金兽棍Ⅰ": {
+            "key": "rajang_club_i"
+        },
+        "金兽棍Ⅱ": {
+            "key": "rajang_club_ii"
+        },
+        "百龙剑Ⅳ": {
+            "key": "rampage_sword_iv"
+        },
+        "铁刀Ⅰ": {
+            "key": "iron_katana_i"
+        },
+        "铁刀Ⅱ": {
+            "key": "iron_katana_ii"
+        },
+        "铁刀【神乐】": {
+            "key": "iron_gospel"
+        },
+        "斩破刀Ⅰ": {
+            "key": "eager_cleaver_i"
+        },
+        "斩破刀Ⅱ": {
+            "key": "eager_cleaver_ii"
+        },
+        "鬼斩破": {
+            "key": "devil_slicer"
+        },
+        "守护者之剑Ⅰ": {
+            "key": "guardian_sword_i"
+        },
+        "守护者之剑Ⅱ": {
+            "key": "guardian_sword_ii"
+        },
+        "帝国配剑": {
+            "key": "imperial_sword"
+        },
+        "冻刃Ⅰ": {
+            "key": "chillblade_i"
+        },
+        "冻刃Ⅱ": {
+            "key": "chillblade_ii"
+        },
+        "冻刃【冰华】": {
+            "key": "rimeblossom"
+        },
+        "铁锯刀Ⅰ": {
+            "key": "keen_edge_i"
+        },
+        "铁锯刀Ⅱ": {
+            "key": "keen_edge_ii"
+        },
+        "铁锯刀【千切】": {
+            "key": "julienne_blade"
+        },
+        "糙骨镰Ⅰ": {
+            "key": "bone_scythe_i"
+        },
+        "糙骨镰Ⅱ": {
+            "key": "bone_scythe_ii"
+        },
+        "骨镰": {
+            "key": "bone_reaper"
+        },
+        "黑暗镰刀Ⅰ": {
+            "key": "dark_scythe_i"
+        },
+        "黑暗痛苦镰刀": {
+            "key": "tormentor"
+        },
+        "颚刃Ⅰ": {
+            "key": "serrated_jaw_i"
+        },
+        "颚刃Ⅱ": {
+            "key": "serrated_jaw_ii"
+        },
+        "颚刃布拉克斯": {
+            "key": "serrated_maw"
+        },
+        "镰威太刀Ⅰ": {
+            "key": "scythe_of_menace_i"
+        },
+        "镰威太刀Ⅱ": {
+            "key": "scythe_of_menace_ii"
+        },
+        "炎火铁刀Ⅰ": {
+            "key": "kamura_blade_i"
+        },
+        "炎火铁刀Ⅱ": {
+            "key": "kamura_blade_ii"
+        },
+        "炎火铁刀Ⅲ": {
+            "key": "kamura_blade_iii"
+        },
+        "炎火铁刀Ⅳ": {
+            "key": "kamura_blade_iv"
+        },
+        "炎火铁刀Ⅴ": {
+            "key": "kamura_blade_v"
+        },
+        "炎火忍刀": {
+            "key": "kamura_ninja_blade"
+        },
+        "百龙刀Ⅰ": {
+            "key": "rampage_blade_i"
+        },
+        "百龙刀Ⅱ": {
+            "key": "rampage_blade_ii"
+        },
+        "百龙刀Ⅲ": {
+            "key": "rampage_blade_iii"
+        },
+        "传承太刀【无铭】Ⅰ": {
+            "key": "hand-me-down_sword_i"
+        },
+        "传承太刀【无铭】Ⅱ": {
+            "key": "hand-me-down_sword_ii"
+        },
+        "绝望Ⅰ": {
+            "key": "cawscythe_i"
+        },
+        "绝望Ⅱ": {
+            "key": "cawscythe_ii"
+        },
+        "绝望Ⅲ": {
+            "key": "cawscythe_iii"
+        },
+        "祸镰瓦尔纳乌斯": {
+            "key": "squawkscythe"
+        },
+        "风之贼刀Ⅰ": {
+            "key": "wind_thief_scimitar_i"
+        },
+        "风之贼刀Ⅱ": {
+            "key": "wind_thief_scimitar_ii"
+        },
+        "风镰刀义留": {
+            "key": "gale_scimitar"
+        },
+        "伞刺剑Ⅰ": {
+            "key": "aknosom_sabre_i"
+        },
+        "伞刺剑Ⅱ": {
+            "key": "aknosom_sabre_ii"
+        },
+        "晓之刺刀斩骑": {
+            "key": "daybreak_blade"
+        },
+        "人鱼狂舞Ⅰ": {
+            "key": "frilled_slash_i"
+        },
+        "人鱼狂舞Ⅱ": {
+            "key": "frilled_slash_ii"
+        },
+        "梦幻人鱼狂舞": {
+            "key": "illusory_frilled_slash"
+        },
+        "祸太刀【封】Ⅰ": {
+            "key": "sinister_long_sword_i"
+        },
+        "祸太刀【封】Ⅱ": {
+            "key": "sinister_long_sword_ii"
+        },
+        "祸太刀【幽鬼无天】": {
+            "key": "sinister_shade_sword"
+        },
+        "泥＝土Ⅰ": {
+            "key": "almudron_blade_i"
+        },
+        "泥＝土Ⅱ": {
+            "key": "almudron_blade_ii"
+        },
+        "分＝规": {
+            "key": "doom_bringer_blade"
+        },
+        "苍风神刀Ⅰ": {
+            "key": "azure_elder_long_sword_i"
+        },
+        "苍风神刀Ⅱ": {
+            "key": "azure_elder_long_sword_ii"
+        },
+        "鸣雷神刀Ⅰ": {
+            "key": "thunderbolt_long_sword_i"
+        },
+        "雪鹿刀Ⅰ": {
+            "key": "anteka_blade_i"
+        },
+        "雪鹿刀Ⅱ": {
+            "key": "anteka_blade_ii"
+        },
+        "雪鹿刀【鹿角】": {
+            "key": "anteka_rack"
+        },
+        "青熊薙Ⅰ": {
+            "key": "arzuros_naginata_i"
+        },
+        "青熊薙Ⅱ": {
+            "key": "arzuros_naginata_ii"
+        },
+        "青熊长笔【留跳】": {
+            "key": "arzuros_strikequill"
+        },
+        "骨刀无限Ⅰ": {
+            "key": "ananta_blade_i"
+        },
+        "骨刀无限Ⅱ": {
+            "key": "ananta_blade_ii"
+        },
+        "缚骨刀【缝影】": {
+            "key": "shadow_slasher"
+        },
+        "白兔刃Ⅰ": {
+            "key": "ivory_rabbit_i"
+        },
+        "白兔刃Ⅱ": {
+            "key": "ivory_rabbit_ii"
+        },
+        "白兔刃【冰棘】": {
+            "key": "iced_rabbit"
+        },
+        "骨刀【犬牙】Ⅰ": {
+            "key": "canine_katana_i"
+        },
+        "骨刀【犬牙】Ⅱ": {
+            "key": "canine_katana_ii"
+        },
+        "骨刃骨阿鲁伽": {
+            "key": "gnash_katana"
+        },
+        "毒狗龙太刀Ⅰ": {
+            "key": "wroggi_sword_i"
+        },
+        "毒狗龙太刀Ⅱ": {
+            "key": "wroggi_sword_ii"
+        },
+        "毒刀海奎特": {
+            "key": "poison_barb"
+        },
+        "喙刀Ⅰ": {
+            "key": "kulu_katana_i"
+        },
+        "喙刀Ⅱ": {
+            "key": "kulu_katana_ii"
+        },
+        "鸟喙长刀": {
+            "key": "kulu_slicer"
+        },
+        "水溺刀Ⅰ": {
+            "key": "drowning_shaft_i"
+        },
+        "水溺刀Ⅱ": {
+            "key": "drowning_shaft_ii"
+        },
+        "水蛇长战斧": {
+            "key": "douser_bardiche"
+        },
+        "土砂壁刃Ⅰ": {
+            "key": "castello_saif_i"
+        },
+        "土砂壁刃Ⅱ": {
+            "key": "castello_saif_ii"
+        },
+        "土砂城刀": {
+            "key": "castellum_long_sword"
+        },
+        "泥磨长刀Ⅰ": {
+            "key": "jyura_saber_i"
+        },
+        "泥磨长刀Ⅱ": {
+            "key": "jyura_saber_ii"
+        },
+        "沼泽长刀": {
+            "key": "jyura_reaver"
+        },
+        "巨岩重刀Ⅰ": {
+            "key": "gigant_makra_i"
+        },
+        "巨岩重刀Ⅱ": {
+            "key": "gigant_makra_ii"
+        },
+        "泰坦重刀": {
+            "key": "titanic_makra"
+        },
+        "飞龙刀【翠】Ⅰ": {
+            "key": "wyvern_blade_verde_i"
+        },
+        "飞龙刀【翠】Ⅱ": {
+            "key": "wyvern_blade_verde_ii"
+        },
+        "飞龙刀【葵】": {
+            "key": "wyvern_blade_holly"
+        },
+        "冰牙朱红刃Ⅰ": {
+            "key": "bastine_edge_i"
+        },
+        "冰牙朱红刃Ⅱ": {
+            "key": "bastine_edge_ii"
+        },
+        "冰牙极寒朱红刃": {
+            "key": "bastizan_edge"
+        },
+        "飞雷刀斩蛇Ⅰ": {
+            "key": "spark_slicer_i"
+        },
+        "飞雷刀斩蛇Ⅱ": {
+            "key": "spark_slicer_ii"
+        },
+        "飞雷刀【骚速】": {
+            "key": "shocking_slicer"
+        },
+        "炎羽尖刀Ⅰ": {
+            "key": "flammenschwert_i"
+        },
+        "炎羽尖刀Ⅱ": {
+            "key": "flammenschwert_ii"
+        },
+        "蛮颚炎羽刀": {
+            "key": "fervid_flammenschwert"
+        },
+        "隐秘马刀Ⅰ": {
+            "key": "hidden_saber_i"
+        },
+        "隐秘马刀Ⅱ": {
+            "key": "hidden_saber_ii"
+        },
+        "夜刀【月影】": {
+            "key": "deepest_night"
+        },
+        "狐刀【月照心自明】Ⅰ": {
+            "key": "kakaru_kumo_naki_i"
+        },
+        "狐刀【月照心自明】Ⅱ": {
+            "key": "kakaru_kumo_naki_ii"
+        },
+        "飞龙刀【朱】Ⅰ": {
+            "key": "wyvern_blade_blood_i"
+        },
+        "飞龙刀【朱】Ⅱ": {
+            "key": "wyvern_blade_blood_ii"
+        },
+        "王刀雷切Ⅰ": {
+            "key": "usurper_boltslicer_i"
+        },
+        "王刀雷切Ⅱ": {
+            "key": "usurper_boltslicer_ii"
+        },
+        "王牙刀【伏雷】": {
+            "key": "despot_boltbreaker"
+        },
+        "一虎刀Ⅰ": {
+            "key": "tigrine_edge_i"
+        },
+        "一虎刀Ⅱ": {
+            "key": "tigrine_edge_ii"
+        },
+        "鬼薙刀Ⅰ": {
+            "key": "demon_halberd_i"
+        },
+        "鬼薙刀Ⅱ": {
+            "key": "demon_halberd_ii"
+        },
+        "百龙刀Ⅳ": {
+            "key": "rampage_blade_iv"
+        },
+        "猎枪Ⅰ": {
+            "key": "hunters_rifle_i"
+        },
+        "猎枪Ⅱ": {
+            "key": "hunters_rifle_ii"
+        },
+        "狙杀弩枪": {
+            "key": "sniper_shot"
+        },
+        "猎师铳Ⅰ": {
+            "key": "jaeger_i"
+        },
+        "猎师铳Ⅱ": {
+            "key": "jaeger_ii"
+        },
+        "熟钢猎师铳": {
+            "key": "jaeger_prime"
+        },
+        "十字弩Ⅰ": {
+            "key": "cross_bowgun_i"
+        },
+        "十字弩Ⅱ": {
+            "key": "cross_bowgun_ii"
+        },
+        "交错火光": {
+            "key": "cross_blitz"
+        },
+        "帆船轻弩Ⅰ": {
+            "key": "yakt_shooter_i"
+        },
+        "帆船轻弩Ⅱ": {
+            "key": "yakt_shooter_ii"
+        },
+        "咬弹追捕者": {
+            "key": "wyvern_chaser"
+        },
+        "炎火铁轻弩Ⅰ": {
+            "key": "kamura_l_bowgun_i"
+        },
+        "炎火铁轻弩Ⅱ": {
+            "key": "kamura_l_bowgun_ii"
+        },
+        "炎火铁轻弩Ⅲ": {
+            "key": "kamura_l_bowgun_iii"
+        },
+        "炎火铁轻弩Ⅳ": {
+            "key": "kamura_l_bowgun_iv"
+        },
+        "炎火铁轻弩Ⅴ": {
+            "key": "kamura_l_bowgun_v"
+        },
+        "炎火忍轻弩": {
+            "key": "kamura_ninja_l_bowgun"
+        },
+        "百龙轻弩Ⅰ": {
+            "key": "rampage_l_bowgun_i"
+        },
+        "百龙轻弩Ⅱ": {
+            "key": "rampage_l_bowgun_ii"
+        },
+        "百龙轻弩Ⅲ": {
+            "key": "rampage_l_bowgun_iii"
+        },
+        "木雕犬铳Ⅰ": {
+            "key": "wooden_dog_bowgun_i"
+        },
+        "木雕犬铳Ⅱ": {
+            "key": "wooden_dog_bowgun_ii"
+        },
+        "木雕犬铳【嗷呜】": {
+            "key": "watchdogs_howl"
+        },
+        "春夜鲤炮Ⅰ": {
+            "key": "springnight_shot_i"
+        },
+        "春夜鲤炮Ⅱ": {
+            "key": "springnight_shot_ii"
+        },
+        "春夜鲤炮【跃龙门】": {
+            "key": "springnight_spawn"
+        },
+        "风之贼铳Ⅰ": {
+            "key": "wind_thief_l_bowgun_i"
+        },
+        "风之贼铳Ⅱ": {
+            "key": "wind_thief_l_bowgun_ii"
+        },
+        "风之贼铳Ⅲ": {
+            "key": "wind_thief_l_bowgun_iii"
+        },
+        "风镰铳罗萨": {
+            "key": "gale_bowgun"
+        },
+        "天具・莲花铳Ⅰ": {
+            "key": "lotus_bowgun_i"
+        },
+        "天具・莲花铳Ⅱ": {
+            "key": "lotus_bowgun_ii"
+        },
+        "大天具・花铳观音": {
+            "key": "great_lotus_bowgun"
+        },
+        "祸弩【封】Ⅰ": {
+            "key": "sinister_bowgun_i"
+        },
+        "祸弩【封】Ⅱ": {
+            "key": "sinister_bowgun_ii"
+        },
+        "祸弩【幽鬼无妄】": {
+            "key": "sinister_shadow_bolt"
+        },
+        "雪鬼兽砰Ⅰ": {
+            "key": "gossgun_i"
+        },
+        "雪鬼兽砰Ⅱ": {
+            "key": "gossgun_ii"
+        },
+        "雪鬼兽砰Ⅲ": {
+            "key": "gossgun_iii"
+        },
+        "雪鬼兽砰！": {
+            "key": "abominable_bowgun"
+        },
+        "泥＝岩Ⅰ": {
+            "key": "almudron_bowgun_i"
+        },
+        "泥＝岩Ⅱ": {
+            "key": "almudron_bowgun_ii"
+        },
+        "崩＝溃": {
+            "key": "doom_bringer_bowgun"
+        },
+        "光耀灯笼Ⅰ": {
+            "key": "lumier_bowgun_i"
+        },
+        "光耀灯笼Ⅱ": {
+            "key": "lumier_bowgun_ii"
+        },
+        "苍风神弩Ⅰ": {
+            "key": "azure_elder_bowgun_i"
+        },
+        "苍风神弩Ⅱ": {
+            "key": "azure_elder_bowgun_ii"
+        },
+        "鸣雷神弩Ⅰ": {
+            "key": "thunderbolt_bowgun_i"
+        },
+        "水兽发射器Ⅰ": {
+            "key": "royal_launcher_i"
+        },
+        "水兽发射器Ⅱ": {
+            "key": "royal_launcher_ii"
+        },
+        "水兽风暴": {
+            "key": "royal_torrent"
+        },
+        "土砂轻弩Ⅰ": {
+            "key": "barro_barrel_i"
+        },
+        "土砂轻弩Ⅱ": {
+            "key": "barro_barrel_ii"
+        },
+        "土砂贯钢穿铁弩": {
+            "key": "barro_blaster"
+        },
+        "紧绷绷注射筒Ⅰ": {
+            "key": "khezu_syringe_i"
+        },
+        "紧绷绷注射筒Ⅱ": {
+            "key": "khezu_syringe_ii"
+        },
+        "紧绷绷注射筒Ⅲ": {
+            "key": "khezu_syringe_iii"
+        },
+        "弹力十足注射筒": {
+            "key": "khezu_hypo"
+        },
+        "霰弹弩・蛇Ⅰ": {
+            "key": "shotgun_viper_i"
+        },
+        "霰弹弩・蛇Ⅱ": {
+            "key": "shotgun_viper_ii"
+        },
+        "霰弹弩・蛇Ⅲ": {
+            "key": "shotgun_viper_iii"
+        },
+        "弹浴・蛇": {
+            "key": "bullet_rain_viper"
+        },
+        "熔岩兽飓风Ⅰ": {
+            "key": "scale_tornado_i"
+        },
+        "熔岩兽飓风Ⅱ": {
+            "key": "scale_tornado_ii"
+        },
+        "熔岩弩乌鲁柯特": {
+            "key": "uroktor_vortex"
+        },
+        "出泥弹雨Ⅰ": {
+            "key": "wishing_star_i"
+        },
+        "出泥弹雨Ⅱ": {
+            "key": "wishing_star_ii"
+        },
+        "沼泽弹雨": {
+            "key": "comet_bolt"
+        },
+        "榴弹弩Ⅰ": {
+            "key": "grenade_launcher_i"
+        },
+        "榴弹弩Ⅱ": {
+            "key": "grenade_launcher_ii"
+        },
+        "榴弹弩Ⅲ": {
+            "key": "grenade_launcher_iii"
+        },
+        "榴弹左轮": {
+            "key": "grenade_revolver"
+        },
+        "女武神之火Ⅰ": {
+            "key": "valkyrie_fire_i"
+        },
+        "女武神之火Ⅱ": {
+            "key": "valkyrie_fire_ii"
+        },
+        "女武神烈焰": {
+            "key": "valkyrie_blaze"
+        },
+        "暴风雪加农炮Ⅰ": {
+            "key": "blizzard_cannon_i"
+        },
+        "暴风雪加农炮Ⅱ": {
+            "key": "blizzard_cannon_ii"
+        },
+        "炎羽火筒Ⅰ": {
+            "key": "flammenkanone_i"
+        },
+        "炎羽火筒Ⅱ": {
+            "key": "flammenkanone_ii"
+        },
+        "蛮颚炎羽火筒": {
+            "key": "furious_flammenkanone"
+        },
+        "隐秘连击弩Ⅰ": {
+            "key": "hidden_eye_i"
+        },
+        "隐秘连击弩Ⅱ": {
+            "key": "hidden_eye_ii"
+        },
+        "夜行弩【枭之眼】": {
+            "key": "night_owl"
+        },
+        "狐水铳【滴滴映此生】Ⅰ": {
+            "key": "desolate_mist_i"
+        },
+        "狐水铳【滴滴映此生】Ⅱ": {
+            "key": "desolate_mist_ii"
+        },
+        "火龙炮Ⅰ": {
+            "key": "rathling_gun_i"
+        },
+        "火龙炮Ⅱ": {
+            "key": "rathling_gun_ii"
+        },
+        "王弩雷管Ⅰ": {
+            "key": "usurpers_crime_i"
+        },
+        "王弩雷管Ⅱ": {
+            "key": "usurpers_crime_ii"
+        },
+        "王牙弩【野雷】": {
+            "key": "despots_wildfire"
+        },
+        "轰龙战车Ⅰ": {
+            "key": "tigrex_tank_i"
+        },
+        "金狮子弩Ⅰ": {
+            "key": "rajang_barrage_i"
+        },
+        "金狮子弩Ⅱ": {
+            "key": "rajang_barrage_ii"
+        },
+        "百龙轻弩Ⅳ": {
+            "key": "rampage_l_bowgun_iv"
+        },
+        "铁长枪Ⅰ": {
+            "key": "iron_lance_i"
+        },
+        "铁长枪Ⅱ": {
+            "key": "iron_lance_ii"
+        },
+        "千禧年": {
+            "key": "millennial_lance"
+        },
+        "圣骑士长枪Ⅰ": {
+            "key": "paladin_lance_i"
+        },
+        "圣骑士长枪Ⅱ": {
+            "key": "paladin_lance_ii"
+        },
+        "铁壁长枪": {
+            "key": "rampart"
+        },
+        "钻头长枪Ⅰ": {
+            "key": "drill_lance_i"
+        },
+        "钻头长枪Ⅱ": {
+            "key": "drill_lance_ii"
+        },
+        "巨大钻头长枪": {
+            "key": "gigadrill_lance"
+        },
+        "炽热长枪Ⅰ": {
+            "key": "heat_lance_i"
+        },
+        "炽热长枪Ⅱ": {
+            "key": "heat_lance_ii"
+        },
+        "炽热尖刺": {
+            "key": "heatstinger"
+        },
+        "巴别塔Ⅰ": {
+            "key": "babel_spear_i"
+        },
+        "巴别塔Ⅱ": {
+            "key": "babel_spear_ii"
+        },
+        "击龙枪【哼】Ⅰ": {
+            "key": "growling_wyvern_i"
+        },
+        "击龙枪【哼】Ⅱ": {
+            "key": "growling_wyvern_ii"
+        },
+        "击龙枪【哈】": {
+            "key": "roaring_wyvern"
+        },
+        "骨长枪Ⅰ": {
+            "key": "bone_lance_i"
+        },
+        "硬骨枪": {
+            "key": "hard_bone_lance"
+        },
+        "长角长枪Ⅰ": {
+            "key": "longhorn_spear_i"
+        },
+        "獠牙长枪": {
+            "key": "longtusk_spear"
+        },
+        "蛮族獠牙Ⅰ": {
+            "key": "barbarian_tusk_i"
+        },
+        "野蛮人之牙": {
+            "key": "barbarian_fang"
+        },
+        "炎火铁枪Ⅰ": {
+            "key": "kamura_spear_i"
+        },
+        "炎火铁枪Ⅱ": {
+            "key": "kamura_spear_ii"
+        },
+        "炎火铁枪Ⅲ": {
+            "key": "kamura_spear_iii"
+        },
+        "炎火铁枪Ⅳ": {
+            "key": "kamura_spear_iv"
+        },
+        "炎火铁枪Ⅴ": {
+            "key": "kamura_spear_v"
+        },
+        "炎火忍枪": {
+            "key": "kamura_ninja_spear"
+        },
+        "百龙枪Ⅰ": {
+            "key": "rampage_spear_i"
+        },
+        "百龙枪Ⅱ": {
+            "key": "rampage_spear_ii"
+        },
+        "百龙枪Ⅲ": {
+            "key": "rampage_spear_iii"
+        },
+        "冰鲛叉Ⅰ": {
+            "key": "sharktooth_spear_i"
+        },
+        "冰鲛叉Ⅱ": {
+            "key": "sharktooth_spear_ii"
+        },
+        "冰鲛利叉": {
+            "key": "razortooth_spear"
+        },
+        "麻蕈刺枪Ⅰ": {
+            "key": "plegis_needle_i"
+        },
+        "麻蕈刺枪Ⅱ": {
+            "key": "plegis_needle_ii"
+        },
+        "强力麻蕈枪": {
+            "key": "mighty_plegis"
+        },
+        "阿剌克涅之枪Ⅰ": {
+            "key": "alacrantze_i"
+        },
+        "阿剌克涅之枪Ⅱ": {
+            "key": "alacrantze_ii"
+        },
+        "阿剌克涅之枪Ⅲ": {
+            "key": "alacrantze_iii"
+        },
+        "蝎枪阿剌克涅": {
+            "key": "scorpion_lance"
+        },
+        "芬芳长枪Ⅰ": {
+            "key": "fragrance_i"
+        },
+        "芬芳长枪Ⅱ": {
+            "key": "fragrance_ii"
+        },
+        "雅致芬芳长枪": {
+            "key": "classy_fragrance"
+        },
+        "风之贼枪Ⅰ": {
+            "key": "wind_thief_lance_i"
+        },
+        "风之贼枪Ⅱ": {
+            "key": "wind_thief_lance_ii"
+        },
+        "风镰枪朱利亚诺": {
+            "key": "gale_lance"
+        },
+        "伞锐枪Ⅰ": {
+            "key": "aknosom_lance_i"
+        },
+        "伞锐枪Ⅱ": {
+            "key": "aknosom_lance_ii"
+        },
+        "伞锐枪Ⅲ": {
+            "key": "aknosom_lance_iii"
+        },
+        "晓之突枪突骑": {
+            "key": "dawnbreaker_lance"
+        },
+        "突掌Ⅰ": {
+            "key": "distension_i"
+        },
+        "突掌Ⅱ": {
+            "key": "distension_ii"
+        },
+        "蛙式・突掌": {
+            "key": "croaker"
+        },
+        "祸枪【封】Ⅰ": {
+            "key": "sinister_spear_i"
+        },
+        "祸枪【封】Ⅱ": {
+            "key": "sinister_spear_ii"
+        },
+        "祸枪【幽鬼无月】": {
+            "key": "sinister_shadespear"
+        },
+        "雪鬼兽噗嗤Ⅰ": {
+            "key": "goss_lance_i"
+        },
+        "雪鬼兽噗嗤Ⅱ": {
+            "key": "goss_lance_ii"
+        },
+        "雪鬼兽噗嗤！": {
+            "key": "abominable_lance"
+        },
+        "苍风神枪Ⅰ": {
+            "key": "azure_elder_spear_i"
+        },
+        "苍风神枪Ⅱ": {
+            "key": "azure_elder_spear_ii"
+        },
+        "鸣雷神枪Ⅰ": {
+            "key": "thunderbolt_spear_i"
+        },
+        "苍蓝头冠Ⅰ": {
+            "key": "azure_crest_i"
+        },
+        "苍蓝头冠Ⅱ": {
+            "key": "azure_crest_ii"
+        },
+        "苍蓝头冠Ⅲ": {
+            "key": "azure_crest_iii"
+        },
+        "无边苍青": {
+            "key": "great_azure"
+        },
+        "尖锐长枪Ⅰ": {
+            "key": "ploshasta_i"
+        },
+        "尖锐长枪Ⅱ": {
+            "key": "ploshasta_ii"
+        },
+        "锐角长枪": {
+            "key": "rhenohasta"
+        },
+        "喙枪Ⅰ": {
+            "key": "kulu_spear_i"
+        },
+        "喙枪Ⅱ": {
+            "key": "kulu_spear_ii"
+        },
+        "鸟喙利枪": {
+            "key": "kulu_skewer"
+        },
+        "螺旋长枪Ⅰ": {
+            "key": "spiral_lance_i"
+        },
+        "螺旋长枪Ⅱ": {
+            "key": "spiral_lance_ii"
+        },
+        "螺旋巨蛇枪": {
+            "key": "spiral_splash"
+        },
+        "土砂长枪Ⅰ": {
+            "key": "rugged_lance_i"
+        },
+        "土砂长枪Ⅱ": {
+            "key": "rugged_lance_ii"
+        },
+        "土砂削枪": {
+            "key": "barroth_carver"
+        },
+        "蛇枪【蛇神】Ⅰ": {
+            "key": "naag_serpentblade_i"
+        },
+        "蛇枪【蛇神】Ⅱ": {
+            "key": "naag_serpentblade_ii"
+        },
+        "蛇枪【巨蛇】": {
+            "key": "devta_serpentblade"
+        },
+        "赤甲兽之枪Ⅰ": {
+            "key": "volvi_stroke_i"
+        },
+        "赤甲兽之枪Ⅱ": {
+            "key": "volvi_stroke_ii"
+        },
+        "赤甲兽之扫": {
+            "key": "volvi_sweep"
+        },
+        "避役长枪Ⅰ": {
+            "key": "pukei_spear_i"
+        },
+        "避役长枪Ⅱ": {
+            "key": "pukei_spear_ii"
+        },
+        "毒妖喉枪": {
+            "key": "datura_spear"
+        },
+        "剧毒长枪Ⅰ": {
+            "key": "venom_lance_i"
+        },
+        "剧毒长枪Ⅱ": {
+            "key": "venom_lance_ii"
+        },
+        "冰牙锐枪Ⅰ": {
+            "key": "tusk_lance_i"
+        },
+        "冰牙锐枪Ⅱ": {
+            "key": "tusk_lance_ii"
+        },
+        "飞雷枪突蛇Ⅰ": {
+            "key": "kadachi_lance_i"
+        },
+        "飞雷枪突蛇Ⅱ": {
+            "key": "kadachi_lance_ii"
+        },
+        "飞雷枪【御手杵】": {
+            "key": "shockspear"
+        },
+        "隐秘穿刺Ⅰ": {
+            "key": "hidden_stinger_i"
+        },
+        "隐秘穿刺Ⅱ": {
+            "key": "hidden_stinger_ii"
+        },
+        "暗夜枪【黑雨】": {
+            "key": "night_rains_black"
+        },
+        "狐枪【知谢芬芳益】Ⅰ": {
+            "key": "hana_mo_hana_nare_i"
+        },
+        "狐枪【知谢芬芳益】Ⅱ": {
+            "key": "hana_mo_hana_nare_ii"
+        },
+        "君着笠枪之突刺": {
+            "key": "kimi_ga_kiru"
+        },
+        "赤尾长枪Ⅰ": {
+            "key": "red_tail_i"
+        },
+        "赤尾长枪Ⅱ": {
+            "key": "red_tail_ii"
+        },
+        "王枪天雷Ⅰ": {
+            "key": "usurpers_coming_i"
+        },
+        "王枪天雷Ⅱ": {
+            "key": "usurpers_coming_ii"
+        },
+        "王牙枪【若雷】": {
+            "key": "despots_cacophony"
+        },
+        "轰龙之刺Ⅰ": {
+            "key": "tiger_stinger_i"
+        },
+        "轰龙之刺Ⅱ": {
+            "key": "tiger_stinger_ii"
+        },
+        "角龙角Ⅰ": {
+            "key": "diablos_lance_i"
+        },
+        "角龙角Ⅱ": {
+            "key": "diablos_lance_ii"
+        },
+        "角枪角龙": {
+            "key": "diablos_spear"
+        },
+        "鬼枪金狮子Ⅰ": {
+            "key": "demon_lance_i"
+        },
+        "鬼枪金狮子Ⅱ": {
+            "key": "demon_lance_ii"
+        },
+        "百龙枪Ⅳ": {
+            "key": "rampage_spear_iv"
+        },
+        "铁刺刀Ⅰ": {
+            "key": "iron_bayonet_i"
+        },
+        "铁刺刀Ⅱ": {
+            "key": "iron_bayonet_ii"
+        },
+        "刺刀【飞天】": {
+            "key": "hiten_blade"
+        },
+        "铁制长刀Ⅰ": {
+            "key": "iron_blade_i"
+        },
+        "铁制长刀Ⅱ": {
+            "key": "iron_blade_ii"
+        },
+        "钢铁长刀": {
+            "key": "steel_blade"
+        },
+        "骨制虫棍Ⅰ": {
+            "key": "bone_staff_i"
+        },
+        "骨制虫棍Ⅱ": {
+            "key": "bone_staff_ii"
+        },
+        "舞空长刃": {
+            "key": "aerial_glaive"
+        },
+        "坚实长棍Ⅰ": {
+            "key": "sturdy_glaive_i"
+        },
+        "坚实长棍Ⅱ": {
+            "key": "sturdy_glaive_ii"
+        },
+        "坚实极长棍": {
+            "key": "sturdy_glaive_redux"
+        },
+        "高空长刃Ⅰ": {
+            "key": "sky-high_glaive_i"
+        },
+        "高空长刃Ⅱ": {
+            "key": "sky-high_glaive_ii"
+        },
+        "至高长刃": {
+            "key": "highest_of_glaives"
+        },
+        "炎火铁刃棍Ⅰ": {
+            "key": "kamura_glaive_i"
+        },
+        "炎火铁刃棍Ⅱ": {
+            "key": "kamura_glaive_ii"
+        },
+        "炎火铁刃棍Ⅲ": {
+            "key": "kamura_glaive_iii"
+        },
+        "炎火铁刃棍Ⅳ": {
+            "key": "kamura_glaive_iv"
+        },
+        "炎火铁刃棍Ⅴ": {
+            "key": "kamura_glaive_v"
+        },
+        "炎火忍刃棍": {
+            "key": "kamura_ninja_glaive"
+        },
+        "百龙刃棍Ⅰ": {
+            "key": "rampage_glaive_i"
+        },
+        "百龙刃棍Ⅱ": {
+            "key": "rampage_glaive_ii"
+        },
+        "百龙刃棍Ⅲ": {
+            "key": "rampage_glaive_iii"
+        },
+        "狩猎笔【跳跃】Ⅰ": {
+            "key": "brush_glaive_i"
+        },
+        "狩猎笔【跳跃】Ⅱ": {
+            "key": "brush_glaive_ii"
+        },
+        "狩猎笔【花虫画】": {
+            "key": "watercolor_glaive"
+        },
+        "魔法少女虫杖Ⅰ": {
+            "key": "magia_pitareen_i"
+        },
+        "魔法少女虫杖Ⅱ": {
+            "key": "magia_pitareen_ii"
+        },
+        "魔法少女虫杖Ⅲ": {
+            "key": "magia_pitareen_iii"
+        },
+        "暴君Ⅰ": {
+            "key": "deathport_staff_i"
+        },
+        "暴君Ⅱ": {
+            "key": "deathport_staff_ii"
+        },
+        "祸棍伽拉摩尔斯": {
+            "key": "garamorse"
+        },
+        "伞长棍Ⅰ": {
+            "key": "aknosom_pike_ii"
+        },
+        "伞长棍Ⅱ": {
+            "key": "aknosom_pike_ii"
+        },
+        "晓之溃棍戒骑": {
+            "key": "daybreak_glaive"
+        },
+        "八艘跳Ⅰ": {
+            "key": "leaping_glaive_i"
+        },
+        "八艘跳Ⅱ": {
+            "key": "leaping_glaive_ii"
+        },
+        "蛙式・八艘跳": {
+            "key": "leapfrog"
+        },
+        "人鱼轻抚Ⅰ": {
+            "key": "frilled_jab_i"
+        },
+        "人鱼轻抚Ⅱ": {
+            "key": "frilled_jab_ii"
+        },
+        "梦幻人鱼轻抚": {
+            "key": "illusory_frilled_jab"
+        },
+        "祸矛【封】Ⅰ": {
+            "key": "sinister_staff_i"
+        },
+        "祸矛【封】Ⅱ": {
+            "key": "sinister_staff_ii"
+        },
+        "祸矛【幽鬼无煌】": {
+            "key": "sinister_shadowstaff"
+        },
+        "雪鬼兽咯嘣Ⅰ": {
+            "key": "gossglaive_i"
+        },
+        "雪鬼兽咯嘣Ⅱ": {
+            "key": "gossglaive_ii"
+        },
+        "雪鬼兽咯嘣！": {
+            "key": "abominable_glaive"
+        },
+        "苍风神棍Ⅰ": {
+            "key": "azure_elder_glaive_i"
+        },
+        "苍风神棍Ⅱ": {
+            "key": "azure_elder_glaive_ii"
+        },
+        "鸣雷神棍Ⅰ": {
+            "key": "thunderbolt_glaive_i"
+        },
+        "常春藤零式Ⅰ": {
+            "key": "rielle_nulo_i"
+        },
+        "常春藤零式Ⅱ": {
+            "key": "rielle_nulo_ii"
+        },
+        "常春藤壹式": {
+            "key": "rielle_unu"
+        },
+        "深红常春藤零式Ⅰ": {
+            "key": "rielle_nulo_red_i"
+        },
+        "深红常春藤零式Ⅱ": {
+            "key": "rielle_nulo_red_ii"
+        },
+        "深红常春藤壹式": {
+            "key": "rielle_vermiglio"
+        },
+        "雪白常春藤零式Ⅰ": {
+            "key": "rielle_nulo_white_i"
+        },
+        "雪白常春藤零式Ⅱ": {
+            "key": "rielle_nulo_white_ii"
+        },
+        "雪白常春藤壹式": {
+            "key": "rielle_unu_white"
+        },
+        "碧绿常春藤零式Ⅰ": {
+            "key": "rielle_nulo_green_i"
+        },
+        "碧绿常春藤零式Ⅱ": {
+            "key": "rielle_nulo_green_ii"
+        },
+        "碧绿常春藤壹式": {
+            "key": "rielle_unu_green"
+        },
+        "漆黑常春藤零式Ⅰ": {
+            "key": "rielle_nulo_black_i"
+        },
+        "漆黑常春藤零式Ⅱ": {
+            "key": "rielle_nulo_black_ii"
+        },
+        "漆黑常春藤壹式": {
+            "key": "rielle_nerissimo"
+        },
+        "甲虫三叉戟Ⅰ": {
+            "key": "hortadent_i"
+        },
+        "甲虫三叉戟Ⅱ": {
+            "key": "hortadent_ii"
+        },
+        "甲虫三叉锐戟": {
+            "key": "hortadent_brada"
+        },
+        "白兔耳刃Ⅰ": {
+            "key": "lagombaglaive_i"
+        },
+        "白兔耳刃Ⅱ": {
+            "key": "lagombaglaive_ii"
+        },
+        "冰霜耳刃": {
+            "key": "lagombavarice"
+        },
+        "喙棍Ⅰ": {
+            "key": "kulu_glaive_i"
+        },
+        "喙棍Ⅱ": {
+            "key": "kulu_glaive_ii"
+        },
+        "鸟喙飞跃": {
+            "key": "kulu_pike"
+        },
+        "皇家扫帚Ⅰ": {
+            "key": "royal_bloom_i"
+        },
+        "皇家扫帚Ⅱ": {
+            "key": "royal_bloom_ii"
+        },
+        "皇家御用扫帚": {
+            "key": "bloom_royale"
+        },
+        "雷光膛棍Ⅰ": {
+            "key": "bolt_chamber_i"
+        },
+        "雷光膛棍Ⅱ": {
+            "key": "bolt_chamber_ii"
+        },
+        "避役长棍Ⅰ": {
+            "key": "pukei_rod_i"
+        },
+        "避役长棍Ⅱ": {
+            "key": "pukei_rod_ii"
+        },
+        "毒妖喉棍": {
+            "key": "datura_pike"
+        },
+        "公主宝器Ⅰ": {
+            "key": "princess_regalia_i"
+        },
+        "公主宝器Ⅱ": {
+            "key": "princess_regalia_ii"
+        },
+        "女王宝器": {
+            "key": "queen_regalia"
+        },
+        "琥珀曲棍Ⅰ": {
+            "key": "amber_piton_i"
+        },
+        "琥珀曲棍Ⅱ": {
+            "key": "amber_piton_ii"
+        },
+        "巨狼暴风雨": {
+            "key": "fenrir_storm"
+        },
+        "飞雷棍虫蛇Ⅰ": {
+            "key": "kadachi_glaive_i"
+        },
+        "飞雷棍虫蛇Ⅱ": {
+            "key": "kadachi_glaive_ii"
+        },
+        "飞雷棍【日本号】": {
+            "key": "shocking_pike"
+        },
+        "炎羽棍杖Ⅰ": {
+            "key": "flammenkaefer_i"
+        },
+        "炎羽棍杖Ⅱ": {
+            "key": "flammenkaefer_ii"
+        },
+        "蛮颚炎羽棍杖": {
+            "key": "gnashing_flammenkaefer"
+        },
+        "隐秘之镰Ⅰ": {
+            "key": "hidden_scythe_i"
+        },
+        "隐秘之镰Ⅱ": {
+            "key": "hidden_scythe_ii"
+        },
+        "暗镰棍【夜风宁】": {
+            "key": "evening_calm"
+        },
+        "狐薙刀【秋风引枝露】Ⅰ": {
+            "key": "fox_halberd_i"
+        },
+        "狐薙刀【秋风引枝露】Ⅱ": {
+            "key": "fox_halberd_ii"
+        },
+        "火龙棍Ⅰ": {
+            "key": "rathmaul_i"
+        },
+        "火龙棍Ⅱ": {
+            "key": "rathmaul_ii"
+        },
+        "王棍雷电Ⅰ": {
+            "key": "royal_bolt_scepter_i"
+        },
+        "王棍雷电Ⅱ": {
+            "key": "royal_bolt_scepter_ii"
+        },
+        "王牙棍【别雷】": {
+            "key": "despots_twinbolt"
+        },
+        "轰龙腕Ⅰ": {
+            "key": "tigrex_kaina_i"
+        },
+        "轰龙腕Ⅱ": {
+            "key": "tigrex_kaina_ii"
+        },
+        "角龙角虫棍Ⅰ": {
+            "key": "diablos_rod_i"
+        },
+        "角龙角虫棍Ⅱ": {
+            "key": "diablos_rod_ii"
+        },
+        "金碎棍棒Ⅰ": {
+            "key": "metal_mauler_i"
+        },
+        "金碎棍棒Ⅱ": {
+            "key": "metal_mauler_ii"
+        },
+        "百龙刃棍Ⅳ": {
+            "key": "rampage_glaive_iv"
+        },
+        "金属风笛Ⅰ": {
+            "key": "metal_bagpipe_i"
+        },
+        "巨大风笛": {
+            "key": "great_bagpipe"
+        },
+        "铁号角Ⅰ": {
+            "key": "iron_horn_i"
+        },
+        "风号角": {
+            "key": "wind_horn"
+        },
+        "重风笛Ⅰ": {
+            "key": "heavy_bagpipe_i"
+        },
+        "最重音奏笛": {
+            "key": "fortissimo"
+        },
+        "骨号角Ⅰ": {
+            "key": "bone_horn_i"
+        },
+        "骨号角Ⅱ": {
+            "key": "bone_horn_ii"
+        },
+        "硬骨号角": {
+            "key": "hardened_bone_horn"
+        },
+        "猎人号角Ⅰ": {
+            "key": "hunters_horn_i"
+        },
+        "土著号角": {
+            "key": "natives_horn"
+        },
+        "炎火铁笛Ⅰ": {
+            "key": "kamura_chorus_i"
+        },
+        "炎火铁笛Ⅱ": {
+            "key": "kamura_chorus_ii"
+        },
+        "炎火铁笛Ⅲ": {
+            "key": "kamura_chorus_iii"
+        },
+        "炎火铁笛Ⅳ": {
+            "key": "kamura_chorus_iv"
+        },
+        "炎火铁笛Ⅴ": {
+            "key": "kamura_chorus_v"
+        },
+        "炎火忍笛": {
+            "key": "kamura_ninja_horn"
+        },
+        "百龙笛Ⅰ": {
+            "key": "rampage_agitato_i"
+        },
+        "百龙笛Ⅱ": {
+            "key": "rampage_agitato_ii"
+        },
+        "百龙笛Ⅲ": {
+            "key": "rampage_agitato_iii"
+        },
+        "狸兽草笛Ⅰ": {
+            "key": "grass_flute_i"
+        },
+        "狸兽草笛Ⅱ": {
+            "key": "grass_flute_ii"
+        },
+        "狸兽笛中笛": {
+            "key": "bombadgys_cry"
+        },
+        "魔幻笛Ⅰ": {
+            "key": "magia_charm_i"
+        },
+        "魔幻笛Ⅱ": {
+            "key": "magia_charm_ii"
+        },
+        "魔幻笛Ⅲ": {
+            "key": "magia_charm_iii"
+        },
+        "魔法魅幻笛": {
+            "key": "magia_charmbell"
+        },
+        "龙之轰吼Ⅰ": {
+            "key": "poison_fungasax_i"
+        },
+        "龙之轰吼Ⅱ": {
+            "key": "poison_fungasax_ii"
+        },
+        "毒奏范葛萨克斯": {
+            "key": "toxic_fungasax"
+        },
+        "蜘蛛琴Ⅰ": {
+            "key": "cornupion_i"
+        },
+        "蜘蛛琴Ⅱ": {
+            "key": "cornupion_ii"
+        },
+        "蜘蛛弦琴": {
+            "key": "webbed_cornupion"
+        },
+        "风之贼笛Ⅰ": {
+            "key": "wind_thief_horn_i"
+        },
+        "风之贼笛Ⅱ": {
+            "key": "wind_thief_horn_ii"
+        },
+        "风镰笛鼠小僧": {
+            "key": "gale_horn"
+        },
+        "借力Ⅰ": {
+            "key": "frog_flute_i"
+        },
+        "借力Ⅱ": {
+            "key": "frog_flute_ii"
+        },
+        "蛙式・借力": {
+            "key": "amphibia_allargando"
+        },
+        "人鱼常伴Ⅰ": {
+            "key": "frilled_flute_i"
+        },
+        "人鱼常伴Ⅱ": {
+            "key": "frilled_flute_ii"
+        },
+        "梦幻人鱼常伴": {
+            "key": "illusory_flute"
+        },
+        "祸琵琶【封】Ⅰ": {
+            "key": "sinister_strum_i"
+        },
+        "祸琵琶【封】Ⅱ": {
+            "key": "sinister_strum_ii"
+        },
+        "祸琵琶【幽鬼无明】": {
+            "key": "sinister_shadestrum"
+        },
+        "庄严钟笛Ⅰ": {
+            "key": "sublime_bell_i"
+        },
+        "庄严钟笛Ⅱ": {
+            "key": "sublime_bell_ii"
+        },
+        "苍风神笛Ⅰ": {
+            "key": "azure_elder_horn_i"
+        },
+        "苍风神笛Ⅱ": {
+            "key": "azure_elder_horn_ii"
+        },
+        "鸣雷神笛Ⅰ": {
+            "key": "thunderbolt_horn_i"
+        },
+        "野猪低吼Ⅰ": {
+            "key": "bull_grunt_i"
+        },
+        "野猪低吼Ⅱ": {
+            "key": "bull_grunt_ii"
+        },
+        "狂野低吼": {
+            "key": "wild_grunt"
+        },
+        "虫甲笛零式Ⅰ": {
+            "key": "vicello_nulo_i"
+        },
+        "虫甲笛零式Ⅱ": {
+            "key": "vicello_nulo_ii"
+        },
+        "虫甲笛壹式": {
+            "key": "vicello_unu"
+        },
+        "白虫甲笛零式Ⅰ": {
+            "key": "vicello_nulo_white_i"
+        },
+        "白虫甲笛零式Ⅱ": {
+            "key": "vicello_nulo_white_ii"
+        },
+        "白虫甲笛壹式": {
+            "key": "vicello_unu_white"
+        },
+        "绿虫甲笛零式Ⅰ": {
+            "key": "vicello_nulo_green_i"
+        },
+        "绿虫甲笛零式Ⅱ": {
+            "key": "vicello_nulo_green_ii"
+        },
+        "绿虫甲笛壹式": {
+            "key": "vicello_unu_green"
+        },
+        "黑虫甲笛零式Ⅰ": {
+            "key": "vicello_nulo_black_i"
+        },
+        "黑虫甲笛零式Ⅱ": {
+            "key": "vicello_nulo_black_ii"
+        },
+        "黑虫甲笛壹式": {
+            "key": "vicello_uno_black"
+        },
+        "青熊笛【壹式】Ⅰ": {
+            "key": "zurogong_primo_i"
+        },
+        "青熊笛【壹式】Ⅱ": {
+            "key": "zurogong_primo_ii"
+        },
+        "青熊笛【贰式】": {
+            "key": "zurogong_secundo"
+        },
+        "喙笛Ⅰ": {
+            "key": "kulu_mosso_i"
+        },
+        "喙笛Ⅱ": {
+            "key": "kulu_mosso_ii"
+        },
+        "鸟喙速唱": {
+            "key": "kulu_grosso"
+        },
+        "水兽笛Ⅰ": {
+            "key": "droth_drone_i"
+        },
+        "水兽笛Ⅱ": {
+            "key": "droth_drone_ii"
+        },
+        "水兽潮笛": {
+            "key": "droth_roar"
+        },
+        "土砂笙【战之音】Ⅰ": {
+            "key": "sandpipe_i"
+        },
+        "土砂笙【战之音】Ⅱ": {
+            "key": "sandpipe_ii"
+        },
+        "土砂笙【兽之音】": {
+            "key": "sandcrier"
+        },
+        "奇怪龙号角Ⅰ": {
+            "key": "khezu_horn_i"
+        },
+        "奇怪龙号角Ⅱ": {
+            "key": "khezu_horn_ii"
+        },
+        "奇奇怪怪长号角": {
+            "key": "khezu_flute"
+        },
+        "避役大笛Ⅰ": {
+            "key": "pukei_bagpipe_i"
+        },
+        "避役大笛Ⅱ": {
+            "key": "pukei_bagpipe_ii"
+        },
+        "毒妖喉笛": {
+            "key": "datura_lurr"
+        },
+        "岩龙贝斯Ⅰ": {
+            "key": "basarios_rock_i"
+        },
+        "岩龙贝斯Ⅱ": {
+            "key": "basarios_rock_mkii"
+        },
+        "巨人岩龙贝斯": {
+            "key": "gigant_rock"
+        },
+        "女武神战铃Ⅰ": {
+            "key": "valkyrie_chordmaker_i"
+        },
+        "女武神战铃Ⅱ": {
+            "key": "valkyrie_chordmaker_ii"
+        },
+        "女王之笛": {
+            "key": "queen_chordmaker"
+        },
+        "刮壶打击笛Ⅰ": {
+            "key": "bariguiro_i"
+        },
+        "刮壶打击笛Ⅱ": {
+            "key": "bariguiro_ii"
+        },
+        "冰牙霜冻笛": {
+            "key": "algiguiro"
+        },
+        "炎羽号角Ⅰ": {
+            "key": "flammenkornett_i"
+        },
+        "炎羽号角Ⅱ": {
+            "key": "flammenkornett_ii"
+        },
+        "蛮颚炎羽号角": {
+            "key": "forte_flammenkornett"
+        },
+        "隐秘音调Ⅰ": {
+            "key": "hidden_harmonic_i"
+        },
+        "隐秘音调Ⅱ": {
+            "key": "hidden_harmonic_ii"
+        },
+        "狐铃【无言亦无声】Ⅰ": {
+            "key": "poetic_bell_i"
+        },
+        "狐铃【无言亦无声】Ⅱ": {
+            "key": "poetic_bell_ii"
+        },
+        "烈焰展翼Ⅰ": {
+            "key": "flame_feroce_i"
+        },
+        "烈焰展翼Ⅱ": {
+            "key": "flame_feroce_ii"
+        },
+        "王琴轰雷Ⅰ": {
+            "key": "usurpers_growl_i"
+        },
+        "王琴轰雷Ⅱ": {
+            "key": "usurpers_growl_ii"
+        },
+        "王牙琴【鸣雷】": {
+            "key": "despots_thunderclap"
+        },
+        "轰龙纹笛Ⅰ": {
+            "key": "striped_dragonga_i"
+        },
+        "轰龙纹笛Ⅱ": {
+            "key": "striped_dragonga_ii"
+        },
+        "双角笛Ⅰ": {
+            "key": "duo_horn_i"
+        },
+        "双角笛Ⅱ": {
+            "key": "duo_horn_ii"
+        },
+        "电电太鼓Ⅰ": {
+            "key": "denden_daiko_i"
+        },
+        "电电太鼓Ⅱ": {
+            "key": "denden_daiko_ii"
+        },
+        "百龙笛Ⅳ": {
+            "key": "rampage_agitato_iv"
+        },
+        "铁制突击弩Ⅰ": {
+            "key": "iron_assault_i"
+        },
+        "铁制突击弩Ⅱ": {
+            "key": "iron_assault_ii"
+        },
+        "钢铁突击弩": {
+            "key": "steel_assault"
+        },
+        "陨石火箭炮Ⅰ": {
+            "key": "meteor_bazooka_i"
+        },
+        "陨石火箭炮Ⅱ": {
+            "key": "meteor_bazooka_ii"
+        },
+        "陨石加农炮": {
+            "key": "meteor_cannon"
+        },
+        "讨伐队正式重炮Ⅰ": {
+            "key": "strikers_bowgun_i"
+        },
+        "讨伐队正式重炮Ⅱ": {
+            "key": "strikers_bowgun_ii"
+        },
+        "近卫队正式重炮": {
+            "key": "elite_bowgun"
+        },
+        "骨制发射器Ⅰ": {
+            "key": "bone_shooter_i"
+        },
+        "骨制发射器Ⅱ": {
+            "key": "bone_shooter_ii"
+        },
+        "骨制破坏者": {
+            "key": "bone_buster"
+        },
+        "炎火铁重弩Ⅰ": {
+            "key": "kamura_h_bowgun_i"
+        },
+        "炎火铁重弩Ⅱ": {
+            "key": "kamura_h_bowgun_ii"
+        },
+        "炎火铁重弩Ⅲ": {
+            "key": "kamura_h_bowgun_iii"
+        },
+        "炎火铁重弩Ⅳ": {
+            "key": "kamura_h_bowgun_iv"
+        },
+        "炎火铁重弩Ⅴ": {
+            "key": "kamura_h_bowgun_v"
+        },
+        "炎火忍重弩": {
+            "key": "kamura_ninja_h_bowgun"
+        },
+        "百龙重弩Ⅰ": {
+            "key": "rampage_h_bowgun_i"
+        },
+        "百龙重弩Ⅱ": {
+            "key": "rampage_h_bowgun_ii"
+        },
+        "百龙重弩Ⅲ": {
+            "key": "rampage_h_bowgun_iii"
+        },
+        "七星大炮Ⅰ": {
+            "key": "ladybug_cannon_i"
+        },
+        "七星大炮Ⅱ": {
+            "key": "ladybug_cannon_ii"
+        },
+        "七星天炮": {
+            "key": "ladybug_mortar"
+        },
+        "艾露猫大炮Ⅰ": {
+            "key": "felyne_bowgun_i"
+        },
+        "艾露猫大炮Ⅱ": {
+            "key": "felyne_bowgun_ii"
+        },
+        "猫兽喵农炮": {
+            "key": "felyne_cannon"
+        },
+        "水母旅行包Ⅰ": {
+            "key": "journey_jelly_i"
+        },
+        "水母旅行包Ⅱ": {
+            "key": "journey_jelly_ii"
+        },
+        "致命旅行包": {
+            "key": "guiding_light"
+        },
+        "南瓜击弩Ⅰ": {
+            "key": "carrozza_bazooka_i"
+        },
+        "南瓜击弩Ⅱ": {
+            "key": "carrozza_bazooka_ii"
+        },
+        "仙杜瑞拉": {
+            "key": "cendrillon"
+        },
+        "风之贼重弩Ⅰ": {
+            "key": "wind_thief_crossbow_i"
+        },
+        "风之贼重弩Ⅱ": {
+            "key": "wind_thief_crossbow_ii"
+        },
+        "风之贼重弩Ⅲ": {
+            "key": "wind_thief_crossbow_iii"
+        },
+        "风镰重弩奈德凯利": {
+            "key": "gale_crossbow"
+        },
+        "反击Ⅰ": {
+            "key": "reversal_shot_i"
+        },
+        "反击Ⅱ": {
+            "key": "reversal_shot_ii"
+        },
+        "反击Ⅲ": {
+            "key": "reversal_shot_iii"
+        },
+        "蛙式・反击": {
+            "key": "reversal_barrage"
+        },
+        "天具・锡杖弩Ⅰ": {
+            "key": "highpriest_bowgun_i"
+        },
+        "天具・锡杖弩Ⅱ": {
+            "key": "highpriest_bowgun_ii"
+        },
+        "大天具・杖弩地藏": {
+            "key": "bishatens_grace"
+        },
+        "祸大筒【封】Ⅰ": {
+            "key": "sinister_volley_i"
+        },
+        "祸大筒【封】Ⅱ": {
+            "key": "sinister_volley_ii"
+        },
+        "祸大筒【幽鬼无法】": {
+            "key": "sinister_dreadvolley"
+        },
+        "绚烂挂灯Ⅰ": {
+            "key": "fulgent_shot_i"
+        },
+        "绚烂挂灯Ⅱ": {
+            "key": "fulgent_shot_ii"
+        },
+        "苍风神炮Ⅰ": {
+            "key": "azure_elder_cannon_i"
+        },
+        "苍风神炮Ⅱ": {
+            "key": "azure_elder_cannon_ii"
+        },
+        "鸣雷神炮Ⅰ": {
+            "key": "thunderbolt_cannon_i"
+        },
+        "速射狙击弩Ⅰ": {
+            "key": "rapidcaster_i"
+        },
+        "速射狙击弩Ⅱ": {
+            "key": "rapidcaster_ii"
+        },
+        "高频率狙击弓": {
+            "key": "cyclecaster"
+        },
+        "雪鹿弩Ⅰ": {
+            "key": "anteka_burst_i"
+        },
+        "雪鹿弩Ⅱ": {
+            "key": "anteka_burst_ii"
+        },
+        "沉重雪鹿弩": {
+            "key": "anteka_blaster"
+        },
+        "青熊筒Ⅰ": {
+            "key": "arzuros_gun_i"
+        },
+        "青熊筒Ⅱ": {
+            "key": "arzuros_gun_ii"
+        },
+        "青熊轰筒【川渔】": {
+            "key": "arzuros_fishergun"
+        },
+        "白兔射手Ⅰ": {
+            "key": "spheniscine_slayer_i"
+        },
+        "白兔射手Ⅱ": {
+            "key": "spheniscine_slayer_ii"
+        },
+        "白兔王者": {
+            "key": "spheniscine_ruler"
+        },
+        "硬甲龙炮Ⅰ": {
+            "key": "marino_burst_i"
+        },
+        "硬甲龙炮Ⅱ": {
+            "key": "marino_burst_ii"
+        },
+        "深渊硬甲龙炮": {
+            "key": "marino_cannon"
+        },
+        "开伦弩Ⅰ": {
+            "key": "carom_shot_i"
+        },
+        "开伦弩Ⅱ": {
+            "key": "carom_shot_ii"
+        },
+        "转弩八号球": {
+            "key": "rebound_shot"
+        },
+        "避役速炮Ⅰ": {
+            "key": "pukei_launcher_i"
+        },
+        "避役速炮Ⅱ": {
+            "key": "pukei_launcher_ii"
+        },
+        "毒妖喉炮": {
+            "key": "venomhail"
+        },
+        "岩石吞噬者Ⅰ": {
+            "key": "rock_eater_i"
+        },
+        "岩石吞噬者Ⅱ": {
+            "key": "rock_eater_ii"
+        },
+        "大地吞噬者": {
+            "key": "earth_eater"
+        },
+        "妃龙炮【远击】Ⅰ": {
+            "key": "queens_longfire_i"
+        },
+        "妃龙炮【远击】Ⅱ": {
+            "key": "queens_longfire_ii"
+        },
+        "妃龙炮【飞击】": {
+            "key": "queens_farflier"
+        },
+        "冰牙加农炮Ⅰ": {
+            "key": "guerrera_cannon_i"
+        },
+        "冰牙加农炮Ⅱ": {
+            "key": "guerrera_cannon_ii"
+        },
+        "飞雷重弩爆蛇Ⅰ": {
+            "key": "kadachi_cannon_i"
+        },
+        "飞雷重弩爆蛇Ⅱ": {
+            "key": "kadachi_cannon_ii"
+        },
+        "飞雷重弩【雷上动】": {
+            "key": "kadachi_raijodo"
+        },
+        "炎羽重炮Ⅰ": {
+            "key": "flammenkanone_i"
+        },
+        "炎羽重炮Ⅱ": {
+            "key": "flammenkanone_ii"
+        },
+        "隐秘狙击手Ⅰ": {
+            "key": "hidden_gambit_i"
+        },
+        "隐秘狙击手Ⅱ": {
+            "key": "hidden_gambit_ii"
+        },
+        "夜炮【黑风】": {
+            "key": "baleful_night"
+        },
+        "狐重炮【风过云雾散】Ⅰ": {
+            "key": "cirrus_blaster_i"
+        },
+        "狐重炮【风过云雾散】Ⅱ": {
+            "key": "cirrus_blaster_ii"
+        },
+        "王炮雷弩Ⅰ": {
+            "key": "usurpers_tremor_i"
+        },
+        "王炮雷弩Ⅱ": {
+            "key": "usurpers_tremor_ii"
+        },
+        "王牙炮【山雷】": {
+            "key": "despots_paroxysm"
+        },
+        "轰龙咆哮Ⅰ": {
+            "key": "tigrex_howl_i"
+        },
+        "轰龙咆哮Ⅱ": {
+            "key": "tigrex_howl_ii"
+        },
+        "决斗双角弩Ⅰ": {
+            "key": "dual_threat_i"
+        },
+        "决斗双角弩Ⅱ": {
+            "key": "dual_threat_ii"
+        },
+        "金狮子炮Ⅰ": {
+            "key": "rajang_shooter_i"
+        },
+        "金狮子炮Ⅱ": {
+            "key": "rajang_shooter_ii"
+        },
+        "百龙重弩Ⅳ": {
+            "key": "rampage_h_bowgun_iv"
+        },
+        "铁锤Ⅰ": {
+            "key": "iron_hammer_i"
+        },
+        "鬼铁": {
+            "key": "iron_devil"
+        },
+        "战锤Ⅰ": {
+            "key": "war_hammer_i"
+        },
+        "战争权杖": {
+            "key": "war_mace"
+        },
+        "枪锤Ⅰ": {
+            "key": "gun_hammer_i"
+        },
+        "枪锤Ⅱ": {
+            "key": "gun_hammer_ii"
+        },
+        "死亡左轮": {
+            "key": "deadeye_revolver"
+        },
+        "超级新星Ⅰ": {
+            "key": "great_nova_i"
+        },
+        "超级新星Ⅱ": {
+            "key": "great_nova_ii"
+        },
+        "超新星": {
+            "key": "super_nova"
+        },
+        "冻结核心Ⅰ": {
+            "key": "frozen_core_i"
+        },
+        "冻结核心Ⅱ": {
+            "key": "frozen_core_ii"
+        },
+        "恸泣冰河": {
+            "key": "cocytus"
+        },
+        "鬼铁丸Ⅰ": {
+            "key": "devil_masher_i"
+        },
+        "鬼铁丸Ⅱ": {
+            "key": "devil_masher_ii"
+        },
+        "鬼铁之命": {
+            "key": "iron_devils_soul"
+        },
+        "战争印记Ⅰ": {
+            "key": "war_stamp_i"
+        },
+        "战争狂击": {
+            "key": "war_basher"
+        },
+        "骨锤Ⅰ": {
+            "key": "bone_hammer_i"
+        },
+        "骨锤Ⅱ": {
+            "key": "bone_hammer_ii"
+        },
+        "坚骨锤": {
+            "key": "hard_bone_hammer"
+        },
+        "独眼巨人锤Ⅰ": {
+            "key": "cyclo-hammer_i"
+        },
+        "独眼巨人锤Ⅱ": {
+            "key": "cyclo-hammer_ii"
+        },
+        "擎天神锤": {
+            "key": "atlas_hammer"
+        },
+        "大骨锤Ⅰ": {
+            "key": "bone_bludgeon_i"
+        },
+        "大骨锤Ⅱ": {
+            "key": "bone_bludgeon_ii"
+        },
+        "沉重岩骨锤": {
+            "key": "heavy_bone_bludgeon"
+        },
+        "炎火铁钩锤Ⅰ": {
+            "key": "kamura_hammer_i"
+        },
+        "炎火铁钩锤Ⅱ": {
+            "key": "kamura_hammer_ii"
+        },
+        "炎火铁钩锤Ⅲ": {
+            "key": "kamura_hammer_iii"
+        },
+        "炎火铁钩锤Ⅳ": {
+            "key": "kamura_hammer_iv"
+        },
+        "炎火铁钩锤Ⅴ": {
+            "key": "kamura_hammer_v"
+        },
+        "炎火忍钩锤": {
+            "key": "kamura_ninja_hammer"
+        },
+        "百龙锤Ⅰ": {
+            "key": "rampage_hammer_i"
+        },
+        "百龙锤Ⅱ": {
+            "key": "rampage_hammer_ii"
+        },
+        "百龙锤Ⅲ": {
+            "key": "rampage_hammer_iii"
+        },
+        "晚安熊Ⅰ": {
+            "key": "teddybear_i"
+        },
+        "晚安熊Ⅱ": {
+            "key": "teddybear_ii"
+        },
+        "熟睡熊": {
+            "key": "sleepy_bear"
+        },
+        "不幸Ⅰ": {
+            "key": "graceful_death_i"
+        },
+        "不幸Ⅱ": {
+            "key": "graceful_death_ii"
+        },
+        "不幸Ⅲ": {
+            "key": "graceful_death_iii"
+        },
+        "祸锤寄宿死亡": {
+            "key": "yadora_morte"
+        },
+        "南瓜王Ⅰ": {
+            "key": "pumpking_i"
+        },
+        "南瓜王Ⅱ": {
+            "key": "pumpking_ii"
+        },
+        "灵锤南瓜王": {
+            "key": "jack-o-lantern_king"
+        },
+        "镰鼬风锤Ⅰ": {
+            "key": "izuchi_hammer_i"
+        },
+        "镰鼬风锤Ⅱ": {
+            "key": "izuchi_hammer_ii"
+        },
+        "镰鼬暴风锤": {
+            "key": "snapper_hammer"
+        },
+        "天具・五钴宝锤Ⅰ": {
+            "key": "five-pronged_hammer_i"
+        },
+        "天具・五钴宝锤Ⅱ": {
+            "key": "five-pronged_hammer_ii"
+        },
+        "大天具・钴锤金刚": {
+            "key": "great_pronged_hammer"
+        },
+        "人鱼怒击Ⅰ": {
+            "key": "frilled_blow_i"
+        },
+        "人鱼怒击Ⅱ": {
+            "key": "frilled_blow_ii"
+        },
+        "梦幻人鱼怒击": {
+            "key": "illusory_frilled_blow"
+        },
+        "祸锤【封】Ⅰ": {
+            "key": "sinister_hammer_i"
+        },
+        "祸锤【封】Ⅱ": {
+            "key": "sinister_hammer_ii"
+        },
+        "祸锤【幽鬼无恩】": {
+            "key": "sinister_shade_hammer"
+        },
+        "雪鬼兽啪叽Ⅰ": {
+            "key": "yeti_hammer_i"
+        },
+        "雪鬼兽啪叽Ⅱ": {
+            "key": "yeti_hammer_ii"
+        },
+        "雪鬼兽啪叽Ⅲ": {
+            "key": "yeti_hammer_iii"
+        },
+        "雪鬼兽啪叽！": {
+            "key": "abominable_hammer"
+        },
+        "泥＝醉Ⅰ": {
+            "key": "almudron_hammer_i"
+        },
+        "泥＝醉Ⅱ": {
+            "key": "almudron_hammer_ii"
+        },
+        "黎＝明": {
+            "key": "doom_bringer_hammer"
+        },
+        "苍风神锤Ⅰ": {
+            "key": "azure_elder_hammer_i"
+        },
+        "苍风神锤Ⅱ": {
+            "key": "azure_elder_hammer_ii"
+        },
+        "鸣雷神锤Ⅰ": {
+            "key": "thunderbolt_hammer_i"
+        },
+        "卵锤Ⅰ": {
+            "key": "egg_hammer_i"
+        },
+        "卵锤Ⅱ": {
+            "key": "egg_hammer_ii"
+        },
+        "丸鸟卵锤": {
+            "key": "gargwa_hammer"
+        },
+        "青熊锤【壹型】Ⅰ": {
+            "key": "unbearable_hammer_i"
+        },
+        "青熊锤【壹型】Ⅱ": {
+            "key": "unbearable_hammer_ii"
+        },
+        "青熊锤【贰型】": {
+            "key": "barbearic_hammer"
+        },
+        "毒狗龙蚀锤Ⅰ": {
+            "key": "wroggi_hammer_i"
+        },
+        "毒狗龙蚀锤Ⅱ": {
+            "key": "wroggi_hammer_ii"
+        },
+        "邪道蚀锤": {
+            "key": "dirty_hammer"
+        },
+        "喙锤Ⅰ": {
+            "key": "kulu_bludgeon_i"
+        },
+        "喙锤Ⅱ": {
+            "key": "kulu_bludgeon_ii"
+        },
+        "鸟喙狂击": {
+            "key": "kulu_crusher"
+        },
+        "水生兽皮大锤Ⅰ": {
+            "key": "droth_splashhammer_i"
+        },
+        "水生兽皮大锤Ⅱ": {
+            "key": "droth_splashhammer_ii"
+        },
+        "水锤水精灵": {
+            "key": "ludroth_dousehammer"
+        },
+        "土砂大锤Ⅰ": {
+            "key": "carapace_hammer_i"
+        },
+        "土砂大锤Ⅱ": {
+            "key": "carapace_hammer_ii"
+        },
+        "土砂会心": {
+            "key": "barroth_hammer"
+        },
+        "奇怪龙袋锤Ⅰ": {
+            "key": "bag_o_horrors_i"
+        },
+        "奇怪龙袋锤Ⅱ": {
+            "key": "bag_o_horrors_ii"
+        },
+        "奇怪龙雷锤": {
+            "key": "bag_o_thunder"
+        },
+        "灾厄之兆Ⅰ": {
+            "key": "calamitous_portent_i"
+        },
+        "灾厄之兆Ⅱ": {
+            "key": "calamitous_portent_ii"
+        },
+        "六翼蛇锤厄客德娜": {
+            "key": "catastrophic_portent"
+        },
+        "束缚之力Ⅰ": {
+            "key": "binding_bludgeon_i"
+        },
+        "束缚之力Ⅱ": {
+            "key": "binding_bludgeon_ii"
+        },
+        "迷惑甲锤": {
+            "key": "armored_gogue"
+        },
+        "避役大锤Ⅰ": {
+            "key": "pukei_hammer_i"
+        },
+        "避役大锤Ⅱ": {
+            "key": "pukei_hammer_ii"
+        },
+        "毒妖喉锤": {
+            "key": "datura_club"
+        },
+        "岩龙打击锤Ⅰ": {
+            "key": "basarios_blow_i"
+        },
+        "岩龙打击锤Ⅱ": {
+            "key": "basarios_blow_ii"
+        },
+        "岩龙猛击": {
+            "key": "basarios_bash"
+        },
+        "冰凌重击Ⅰ": {
+            "key": "glacial_bash_i"
+        },
+        "冰凌重击Ⅱ": {
+            "key": "glacial_bash_ii"
+        },
+        "冰凌碎击": {
+            "key": "glacial_crunch"
+        },
+        "炎羽锤Ⅰ": {
+            "key": "flaming_fury_i"
+        },
+        "炎羽锤Ⅱ": {
+            "key": "flaming_fury_ii"
+        },
+        "蛮颚炎羽锤": {
+            "key": "phoenix_fury"
+        },
+        "隐秘破击者Ⅰ": {
+            "key": "hidden_breaker_i"
+        },
+        "隐秘破击者Ⅱ": {
+            "key": "hidden_breaker_ii"
+        },
+        "夜行锤【常暗】": {
+            "key": "night_eternal"
+        },
+        "狐锤【玉落弃尘世】Ⅰ": {
+            "key": "purity_hammer_i"
+        },
+        "狐锤【玉落弃尘世】Ⅱ": {
+            "key": "purity_hammer_ii"
+        },
+        "海波挠锤之华石": {
+            "key": "sinter_hammer"
+        },
+        "赤色冲击Ⅰ": {
+            "key": "red_bludgeon_i"
+        },
+        "赤色冲击Ⅱ": {
+            "key": "red_bludgeon_ii"
+        },
+        "王锤神雷Ⅰ": {
+            "key": "usurpers_thunder_i"
+        },
+        "王锤神雷Ⅱ": {
+            "key": "usurpers_thunder_ii"
+        },
+        "王牙锤【大雷】": {
+            "key": "despots_crackle"
+        },
+        "轰龙纹锤Ⅰ": {
+            "key": "striped_striker_i"
+        },
+        "轰龙纹锤Ⅱ": {
+            "key": "striped_striker_ii"
+        },
+        "角龙锤Ⅰ": {
+            "key": "diablos_hammer_i"
+        },
+        "怒发锤Ⅰ": {
+            "key": "mane_malice_i"
+        },
+        "怒发锤Ⅱ": {
+            "key": "mane_malice_ii"
+        },
+        "百龙锤Ⅳ": {
+            "key": "rampage_hammer_iv"
+        },
+        "讨伐队正式铳枪Ⅰ": {
+            "key": "strikers_gunlance_i"
+        },
+        "讨伐队正式铳枪Ⅱ": {
+            "key": "strikers_gunlance_ii"
+        },
+        "帝国守卫": {
+            "key": "imperial_guardlance"
+        },
+        "铁铳枪Ⅰ": {
+            "key": "iron_gunlance_i"
+        },
+        "铁铳枪Ⅱ": {
+            "key": "iron_gunlance_ii"
+        },
+        "铁骑士": {
+            "key": "eizenlitter"
+        },
+        "王家护卫Ⅰ": {
+            "key": "generals_arbalance_i"
+        },
+        "王家护卫Ⅱ": {
+            "key": "generals_arbalance_ii"
+        },
+        "王家守备": {
+            "key": "admirals_arbalance"
+        },
+        "骨铳枪Ⅰ": {
+            "key": "bone_gunlance_i"
+        },
+        "骨铳枪Ⅱ": {
+            "key": "bone_gunlance_ii"
+        },
+        "龙骨铳枪": {
+            "key": "wyvern_bone_gunlance"
+        },
+        "巨骨铳枪Ⅰ": {
+            "key": "golem_gunlance_i"
+        },
+        "巨骨铳枪Ⅱ": {
+            "key": "golem_gunlance_ii"
+        },
+        "刚铳枪": {
+            "key": "behemoth_gunlance"
+        },
+        "炎火铁铳枪Ⅰ": {
+            "key": "kamura_gunlance_i"
+        },
+        "炎火铁铳枪Ⅱ": {
+            "key": "kamura_gunlance_ii"
+        },
+        "炎火铁铳枪Ⅲ": {
+            "key": "kamura_gunlance_iii"
+        },
+        "炎火铁铳枪Ⅳ": {
+            "key": "kamura_gunlance_iv"
+        },
+        "炎火铁铳枪Ⅴ": {
+            "key": "kamura_gunlance_v"
+        },
+        "炎火忍铳枪": {
+            "key": "kamura_ninja_gunlance"
+        },
+        "百龙铳枪Ⅰ": {
+            "key": "rampage_gunlance_i"
+        },
+        "百龙铳枪Ⅱ": {
+            "key": "rampage_gunlance_ii"
+        },
+        "百龙铳枪Ⅲ": {
+            "key": "rampage_gunlance_iii"
+        },
+        "牙猎铳炮Ⅰ": {
+            "key": "canyne_cannon_i"
+        },
+        "牙猎铳炮Ⅱ": {
+            "key": "canyne_cannon_ii"
+        },
+        "牙猎长嚎": {
+            "key": "howlitzer"
+        },
+        "玉米炮Ⅰ": {
+            "key": "cornpopper_i"
+        },
+        "玉米炮Ⅱ": {
+            "key": "cornpopper_ii"
+        },
+        "玉米大炮": {
+            "key": "mighty_cornpopper"
+        },
+        "让人沉眠的贝铳枪Ⅰ": {
+            "key": "sleepy_shellgun_i"
+        },
+        "让人沉眠的贝铳枪Ⅱ": {
+            "key": "sleepy_shellgun_ii"
+        },
+        "睡贝铳枪贻贝": {
+            "key": "soporific_shellgun"
+        },
+        "伞机炮Ⅰ": {
+            "key": "aknosom_gunlance_i"
+        },
+        "伞机炮Ⅱ": {
+            "key": "aknosom_gunlance_ii"
+        },
+        "伞机炮Ⅲ": {
+            "key": "aknosom_gunlance_iii"
+        },
+        "晓之铳枪轰骑": {
+            "key": "dawnbreaker_gunlance"
+        },
+        "祸炮枪【封】Ⅰ": {
+            "key": "sinister_gunlance_i"
+        },
+        "祸炮枪【封】Ⅱ": {
+            "key": "sinister_gunlance_ii"
+        },
+        "祸炮枪【幽鬼无骸】": {
+            "key": "sinister_shadowshot"
+        },
+        "泥＝泞Ⅰ": {
+            "key": "almudron_gunlance_i"
+        },
+        "泥＝泞Ⅱ": {
+            "key": "almudron_gunlance_ii"
+        },
+        "华丽烛炮Ⅰ": {
+            "key": "rakna_gunlance_i"
+        },
+        "华丽烛炮Ⅱ": {
+            "key": "rakna_gunlance_ii"
+        },
+        "苍风神铳枪Ⅰ": {
+            "key": "azure_elder_gunlance_i"
+        },
+        "苍风神铳枪Ⅱ": {
+            "key": "azure_elder_gunlance_ii"
+        },
+        "鸣雷神铳枪Ⅰ": {
+            "key": "thunderbolt_gunlance_i"
+        },
+        "花铳枪零式Ⅰ": {
+            "key": "fiore_nulo_i"
+        },
+        "花铳枪零式Ⅱ": {
+            "key": "fiore_nulo_ii"
+        },
+        "花铳枪壹式": {
+            "key": "fiore_unu"
+        },
+        "白花铳枪零式Ⅰ": {
+            "key": "fiore_nulo_white_i"
+        },
+        "白花铳枪零式Ⅱ": {
+            "key": "fiore_nulo_white_ii"
+        },
+        "白花铳枪壹式": {
+            "key": "fiore_unu_white"
+        },
+        "绿花铳枪零式Ⅰ": {
+            "key": "fiore_nulo_green_i"
+        },
+        "绿花铳枪零式Ⅱ": {
+            "key": "fiore_nulo_green_ii"
+        },
+        "绿花铳枪壹式": {
+            "key": "fiore_unu_green"
+        },
+        "黑花铳枪零式Ⅰ": {
+            "key": "fiore_nulo_black_i"
+        },
+        "黑花铳枪零式Ⅱ": {
+            "key": "fiore_nulo_black_ii"
+        },
+        "黑花铳枪壹式": {
+            "key": "fiore_unu_black"
+        },
+        "眠狗铳枪Ⅰ": {
+            "key": "baggi_gunlance_i"
+        },
+        "眠狗铳枪Ⅱ": {
+            "key": "baggi_gunlance_ii"
+        },
+        "眠狗铳枪Ⅲ": {
+            "key": "baggi_gunlance_iii"
+        },
+        "眠狗铳枪安眠牙": {
+            "key": "lullabyte_sleeplance"
+        },
+        "白兔铳枪Ⅰ": {
+            "key": "lagomberator_i"
+        },
+        "白兔铳枪Ⅱ": {
+            "key": "lagomberator_ii"
+        },
+        "白兔铳枪Ⅲ": {
+            "key": "lagomberator_iii"
+        },
+        "白兔射线": {
+            "key": "lagomberatrix"
+        },
+        "砂鱼击叉Ⅰ": {
+            "key": "delex_harpoon_i"
+        },
+        "砂鱼击叉Ⅱ": {
+            "key": "delex_harpoon_ii"
+        },
+        "砂铳枪砂鱼穿": {
+            "key": "sand_blaster_gunlance"
+        },
+        "水兽尖叉Ⅰ": {
+            "key": "ludroth_harpoon_i"
+        },
+        "水兽尖叉Ⅱ": {
+            "key": "ludroth_harpoon_ii"
+        },
+        "水兽尖叉Ⅲ": {
+            "key": "ludroth_harpoon_iii"
+        },
+        "流贯分海铳枪": {
+            "key": "ludroth_shellbreaker"
+        },
+        "土砂旋击Ⅰ": {
+            "key": "barroth_loader_i"
+        },
+        "土砂旋击Ⅱ": {
+            "key": "barroth_loader_ii"
+        },
+        "土砂强力旋击": {
+            "key": "rugged_loader"
+        },
+        "电伏特MAXⅠ": {
+            "key": "full_voltage_i"
+        },
+        "电伏特MAXⅡ": {
+            "key": "full_voltage_ii"
+        },
+        "电伏特枪MAX": {
+            "key": "high_volt_gunlance"
+        },
+        "破坏射击Ⅰ": {
+            "key": "shattershot_i"
+        },
+        "破坏射击Ⅱ": {
+            "key": "shattershot_ii"
+        },
+        "破坏奔流": {
+            "key": "shatter_god"
+        },
+        "避役铳枪Ⅰ": {
+            "key": "pukei_gunlance_i"
+        },
+        "避役铳枪Ⅱ": {
+            "key": "pukei_gunlance_ii"
+        },
+        "公主爆裂铳枪Ⅰ": {
+            "key": "princess_panoply_i"
+        },
+        "公主爆裂铳枪Ⅱ": {
+            "key": "princess_panoply_ii"
+        },
+        "奥特琳德": {
+            "key": "ortlinde"
+        },
+        "极寒双牙Ⅰ": {
+            "key": "twinfang_i"
+        },
+        "极寒双牙Ⅱ": {
+            "key": "twinfang_ii"
+        },
+        "飞雷铳枪铁蛇Ⅰ": {
+            "key": "kadachi_striker_i"
+        },
+        "飞雷铳枪铁蛇Ⅱ": {
+            "key": "kadachi_striker_ii"
+        },
+        "飞雷铳枪【蜻蜓切】": {
+            "key": "mythic_kadachi_striker"
+        },
+        "炎羽铳枪Ⅰ": {
+            "key": "flaming_gunlance_i"
+        },
+        "炎羽铳枪Ⅱ": {
+            "key": "flaming_gunlance_ii"
+        },
+        "炎羽铳枪Ⅲ": {
+            "key": "flaming_gunlance_iii"
+        },
+        "蛮颚炎羽铳枪": {
+            "key": "barbarous_firelance"
+        },
+        "隐秘铳枪Ⅰ": {
+            "key": "hidden_gunlance_i"
+        },
+        "隐秘铳枪Ⅱ": {
+            "key": "hidden_gunlance_ii"
+        },
+        "狐灯枪【沐辉决绝行】Ⅰ": {
+            "key": "ukiyo_no_yamiwo_i"
+        },
+        "狐灯枪【沐辉决绝行】Ⅱ": {
+            "key": "ukiyo_no_yamiwo_ii"
+        },
+        "赤色战车Ⅰ": {
+            "key": "red_rook_i"
+        },
+        "赤色战车Ⅱ": {
+            "key": "red_rook_ii"
+        },
+        "王铳枪豪雷Ⅰ": {
+            "key": "usurpers_roar_i"
+        },
+        "王铳枪豪雷Ⅱ": {
+            "key": "usurpers_roar_ii"
+        },
+        "王牙铳枪【火雷】": {
+            "key": "despots_phlogiston"
+        },
+        "轰龙爆裂铳枪Ⅰ": {
+            "key": "tiger_blast_i"
+        },
+        "轰龙爆裂铳枪Ⅱ": {
+            "key": "tiger_blast_ii"
+        },
+        "恶魔铳枪Ⅰ": {
+            "key": "diablos_gunlance_i"
+        },
+        "恶魔铳枪Ⅱ": {
+            "key": "diablos_gunlance_ii"
+        },
+        "恶魔暴君铳枪": {
+            "key": "diablos_cannon"
+        },
+        "鬼铳枪Ⅰ": {
+            "key": "demon_gunlance_i"
+        },
+        "鬼铳枪Ⅱ": {
+            "key": "demon_gunlance_ii"
+        },
+        "百龙铳枪Ⅳ": {
+            "key": "rampage_gunlance_iv"
+        },
+        "破坏者大剑Ⅰ": {
+            "key": "buster_sword_i"
+        },
+        "破坏者大刀": {
+            "key": "buster_blade"
+        },
+        "铁剑Ⅰ": {
+            "key": "iron_sword_i"
+        },
+        "钢剑": {
+            "key": "steel_sword"
+        },
+        "怪力坏剑Ⅰ": {
+            "key": "axeblade_i"
+        },
+        "怪力坏剑Ⅱ": {
+            "key": "axeblade_ii"
+        },
+        "巨力坏剑": {
+            "key": "colossal_axeblade"
+        },
+        "铬金咬剃刀Ⅰ": {
+            "key": "chrome_razor_i"
+        },
+        "铬金死亡剃刀": {
+            "key": "chrome_quietus"
+        },
+        "骨刃Ⅰ": {
+            "key": "bone_blade_i"
+        },
+        "斩骨大剑": {
+            "key": "bone_slasher"
+        },
+        "龙颚Ⅰ": {
+            "key": "jawblade_i"
+        },
+        "巨颚": {
+            "key": "giant_jawblade"
+        },
+        "龙牙剑Ⅰ": {
+            "key": "wyvern_fang_i"
+        },
+        "亢龙牙剑": {
+            "key": "great_wyvern_fang"
+        },
+        "巨骨剑Ⅰ": {
+            "key": "golem_blade_i"
+        },
+        "刚剑塔罗斯": {
+            "key": "blade_of_talos"
+        },
+        "灼炎大刀Ⅰ": {
+            "key": "barbaroi_blade_i"
+        },
+        "灼炎大刀Ⅱ": {
+            "key": "barbaroi_blade_ii"
+        },
+        "深红角龙大刀": {
+            "key": "crimson_goat"
+        },
+        "炎火铁大剑Ⅰ": {
+            "key": "kamura_cleaver_i"
+        },
+        "炎火铁大剑Ⅱ": {
+            "key": "kamura_cleaver_ii"
+        },
+        "炎火铁大剑Ⅲ": {
+            "key": "kamura_cleaver_iii"
+        },
+        "炎火铁大剑Ⅳ": {
+            "key": "kamura_cleaver_iv"
+        },
+        "炎火铁大剑Ⅴ": {
+            "key": "kamura_cleaver_v"
+        },
+        "炎火忍大剑": {
+            "key": "kamura_ninja_cleaver"
+        },
+        "百龙大剑Ⅰ": {
+            "key": "rampage_cleaver_i"
+        },
+        "百龙大剑Ⅱ": {
+            "key": "rampage_cleaver_ii"
+        },
+        "百龙大剑Ⅲ": {
+            "key": "rampage_cleaver_iii"
+        },
+        "冷冻旗鱼Ⅰ": {
+            "key": "frozen_speartuna_i"
+        },
+        "冷冻旗鱼Ⅱ": {
+            "key": "frozen_speartuna_ii"
+        },
+        "冷冻黑旗鱼大剑": {
+            "key": "freezer_speartuna"
+        },
+        "忍伞【吞龙】Ⅰ": {
+            "key": "ninja_parasol_i"
+        },
+        "忍伞【吞龙】Ⅱ": {
+            "key": "ninja_parasol_ii"
+        },
+        "忍伞【屠龙】": {
+            "key": "dragonslayer_parasol"
+        },
+        "猫魂Ⅰ": {
+            "key": "cats_soul_i"
+        },
+        "猫魂Ⅱ": {
+            "key": "cats_soul_ii"
+        },
+        "猫之咒怨": {
+            "key": "cats_curse"
+        },
+        "龙之栖所Ⅰ": {
+            "key": "wyverns_perch_i"
+        },
+        "龙之栖所Ⅱ": {
+            "key": "wyverns_perch_ii"
+        },
+        "毒断群居菌菇": {
+            "key": "roguish_deathcap"
+        },
+        "让人沉眠的贝大剑Ⅰ": {
+            "key": "sleepy_shellblade_i"
+        },
+        "让人沉眠的贝大剑Ⅱ": {
+            "key": "sleepy_shellblade_ii"
+        },
+        "睡贝大剑珠母贝": {
+            "key": "soporific_shellblade"
+        },
+        "镰鼬风剑Ⅰ": {
+            "key": "izuchi_blade_i"
+        },
+        "镰鼬风剑Ⅱ": {
+            "key": "izuchi_blade_ii"
+        },
+        "镰鼬暴风剑": {
+            "key": "snapper_blade"
+        },
+        "伞巨刃Ⅰ": {
+            "key": "aknosom_blade_i"
+        },
+        "伞巨刃Ⅱ": {
+            "key": "aknosom_blade_ii"
+        },
+        "晓之大剑刃骑": {
+            "key": "daybreak_cleaver"
+        },
+        "伏身撞Ⅰ": {
+            "key": "tetranadon_edge_i"
+        },
+        "伏身撞Ⅱ": {
+            "key": "tetranadon_edge_ii"
+        },
+        "蛙式・伏身撞": {
+            "key": "tetranadon_cutter"
+        },
+        "人鱼出鞘Ⅰ": {
+            "key": "frilled_blade_i"
+        },
+        "人鱼出鞘Ⅱ": {
+            "key": "frilled_blade_ii"
+        },
+        "梦幻人鱼出鞘": {
+            "key": "illusory_frilled_blade"
+        },
+        "祸大剑【封】Ⅰ": {
+            "key": "sinister_blade_i"
+        },
+        "祸大剑【封】Ⅱ": {
+            "key": "sinister_blade_ii"
+        },
+        "祸大剑【幽鬼无道】": {
+            "key": "sinister_shadowblade"
+        },
+        "雪鬼兽嗖Ⅰ": {
+            "key": "gossblade_i"
+        },
+        "雪鬼兽嗖Ⅱ": {
+            "key": "gossblade_ii"
+        },
+        "雪鬼兽嗖！": {
+            "key": "abominable_great_sword"
+        },
+        "苍风神大剑Ⅰ": {
+            "key": "azure_elder_great_sword_i"
+        },
+        "苍风神大剑Ⅱ": {
+            "key": "azure_elder_great_sword_ii"
+        },
+        "鸣雷神大剑Ⅰ": {
+            "key": "thunderbolt_great_sword_i"
+        },
+        "白兔裹雪剑Ⅰ": {
+            "key": "snowclad_i"
+        },
+        "白兔裹雪剑Ⅱ": {
+            "key": "snowclad_ii"
+        },
+        "白兔大剑夏洛特": {
+            "key": "lagombi_charlotte"
+        },
+        "暴雨大剑Ⅰ": {
+            "key": "cataclysm_sword_i"
+        },
+        "暴雨大剑Ⅱ": {
+            "key": "cataclysm_sword_ii"
+        },
+        "暴雨巨刃": {
+            "key": "cataclysm_blade"
+        },
+        "土砂大剑Ⅰ": {
+            "key": "carapace_sword_i"
+        },
+        "土砂大剑Ⅱ": {
+            "key": "carapace_sword_ii"
+        },
+        "土砂巨剑": {
+            "key": "carapace_blade"
+        },
+        "奇怪龙大剑Ⅰ": {
+            "key": "khezu_shock_sword_i"
+        },
+        "奇怪龙大剑Ⅱ": {
+            "key": "khezu_shock_sword_ii"
+        },
+        "奇怪龙长剑": {
+            "key": "khezu_shock_blade"
+        },
+        "蛇剑【毒蛾】Ⅰ": {
+            "key": "deadly_serpentblade_i"
+        },
+        "蛇剑【毒蛾】Ⅱ": {
+            "key": "deadly_serpentblade_ii"
+        },
+        "蛇剑【毒蛇】": {
+            "key": "poison_serpentblade"
+        },
+        "避役大剑Ⅰ": {
+            "key": "pukei_edge_i"
+        },
+        "避役大剑Ⅱ": {
+            "key": "pukei_edge_ii"
+        },
+        "毒妖喉剑": {
+            "key": "datura_cleaver"
+        },
+        "泥磨巨刃Ⅰ": {
+            "key": "jyura_mudblade_i"
+        },
+        "泥磨巨刃Ⅱ": {
+            "key": "jyura_mudblade_ii"
+        },
+        "沼泽巨刃": {
+            "key": "terracutter"
+        },
+        "女武神骨剑Ⅰ": {
+            "key": "valkyrie_blade_i"
+        },
+        "女武神骨剑Ⅱ": {
+            "key": "valkyrie_blade_ii"
+        },
+        "齐格琳德王后": {
+            "key": "sieglinde"
+        },
+        "冰凌白牙Ⅰ": {
+            "key": "icicle_fang_i"
+        },
+        "冰凌白牙Ⅱ": {
+            "key": "icicle_fang_ii"
+        },
+        "断海冰牙": {
+            "key": "paladire"
+        },
+        "炎羽大剑Ⅰ": {
+            "key": "flammenzahn_i"
+        },
+        "炎羽大剑Ⅱ": {
+            "key": "flammenzahn_ii"
+        },
+        "蛮颚炎羽大剑": {
+            "key": "gnashing_flammenzahn"
+        },
+        "隐秘斩切刀Ⅰ": {
+            "key": "hidden_blade_i"
+        },
+        "隐秘斩切刀Ⅱ": {
+            "key": "hidden_blade_ii"
+        },
+        "暗夜剑【宵暗】": {
+            "key": "dark_of_night"
+        },
+        "狐大剑【夜宿樱花树】Ⅰ": {
+            "key": "hanayako_yohino_i"
+        },
+        "狐大剑【夜宿樱花树】Ⅱ": {
+            "key": "hanayako_yohino_ii"
+        },
+        "赤翼Ⅰ": {
+            "key": "red_wing_i"
+        },
+        "赤翼Ⅱ": {
+            "key": "red_wing_ii"
+        },
+        "王大剑风雷Ⅰ": {
+            "key": "usurpers_storm_i"
+        },
+        "王大剑风雷Ⅱ": {
+            "key": "usurpers_storm_ii"
+        },
+        "轰龙颚Ⅰ": {
+            "key": "tiger_jawblade_i"
+        },
+        "轰龙颚Ⅱ": {
+            "key": "tiger_jawblade_ii"
+        },
+        "轰大剑【王虎】": {
+            "key": "tigrex_great_sword"
+        },
+        "争执角Ⅰ": {
+            "key": "quarrel_hornsword_i"
+        },
+        "争执角Ⅱ": {
+            "key": "quarrel_hornsword_ii"
+        },
+        "争斗角": {
+            "key": "feud_hornsword"
+        },
+        "鬼金棒Ⅰ": {
+            "key": "demon_rod_i"
+        },
+        "鬼金棒Ⅱ": {
+            "key": "demon_rod_ii"
+        },
+        "狗龙大剑Ⅰ": {
+            "key": "hack_blade_i"
+        },
+        "狗龙大剑Ⅱ": {
+            "key": "hack_blade_ii"
+        },
+        "野蛮大剑": {
+            "key": "jaggi_greatblade"
+        },
+        "百龙大剑Ⅳ": {
+            "key": "rampage_cleaver_iv"
+        },
+        "双短剑Ⅰ": {
+            "key": "matched_slicers_i"
+        },
+        "双短剑Ⅱ": {
+            "key": "matched_slicers_ii"
+        },
+        "决斗双短剑": {
+            "key": "dual_daggers"
+        },
+        "飓风Ⅰ": {
+            "key": "hurricane_i"
+        },
+        "飓风Ⅱ": {
+            "key": "hurricane_ii"
+        },
+        "气旋": {
+            "key": "cyclone"
+        },
+        "双战斧Ⅰ": {
+            "key": "dual_hatchets_i"
+        },
+        "双战斧Ⅱ": {
+            "key": "dual_hatchets_ii"
+        },
+        "双战爪": {
+            "key": "dual_cleavers"
+        },
+        "秩序细剑Ⅰ": {
+            "key": "sworn_rapiers_i"
+        },
+        "秩序细剑Ⅱ": {
+            "key": "sworn_rapiers_ii"
+        },
+        "神圣军刀": {
+            "key": "holy_sabers"
+        },
+        "上古秘剑Ⅰ": {
+            "key": "altair_i"
+        },
+        "上古秘剑Ⅱ": {
+            "key": "altair_ii"
+        },
+        "宝剑格拉姆": {
+            "key": "fortis_gran"
+        },
+        "电锯双剑Ⅰ": {
+            "key": "twin_chainsaws_i"
+        },
+        "电锯双剑Ⅱ": {
+            "key": "twin_chainsaws_ii"
+        },
+        "死刑执行锯": {
+            "key": "guillotines"
+        },
+        "冰层心剑Ⅰ": {
+            "key": "gelid_mind_i"
+        },
+        "冰层心剑Ⅱ": {
+            "key": "gelid_mind_ii"
+        },
+        "冰层灵魂剑": {
+            "key": "gelid_soul"
+        },
+        "骨斧Ⅰ": {
+            "key": "bone_hatchets_i"
+        },
+        "骨斧Ⅱ": {
+            "key": "bone_hatchets_ii"
+        },
+        "狂野战斧": {
+            "key": "wild_hatchets"
+        },
+        "兄弟钩爪Ⅰ": {
+            "key": "talon_carvers_i"
+        },
+        "兄弟钩爪Ⅱ": {
+            "key": "talon_carvers_ii"
+        },
+        "伙伴钩爪": {
+            "key": "talon_twins"
+        },
+        "火刃火焰红莲Ⅰ": {
+            "key": "blazeblades_i"
+        },
+        "火刃火焰红莲Ⅱ": {
+            "key": "blazeblades_ii"
+        },
+        "炎刃火焰牢笼": {
+            "key": "infernal_furies"
+        },
+        "炎火铁双刃Ⅰ": {
+            "key": "kamura_glintblades_i"
+        },
+        "炎火铁双刃Ⅱ": {
+            "key": "kamura_glintblades_ii"
+        },
+        "炎火铁双刃Ⅲ": {
+            "key": "kamura_glintblades_iii"
+        },
+        "炎火铁双刃Ⅳ": {
+            "key": "kamura_glintblades_iv"
+        },
+        "炎火铁双刃Ⅴ": {
+            "key": "kamura_glintblades_v"
+        },
+        "炎火忍双刃": {
+            "key": "kamura_ninja_blades"
+        },
+        "百龙双刃Ⅰ": {
+            "key": "rampage_twinblades_i"
+        },
+        "百龙双刃Ⅱ": {
+            "key": "rampage_twinblades_ii"
+        },
+        "百龙双刃Ⅲ": {
+            "key": "rampage_twinblades_iii"
+        },
+        "忍团子【睡蜜玉】Ⅰ": {
+            "key": "stealth_dango_i"
+        },
+        "忍团子【睡蜜玉】Ⅱ": {
+            "key": "stealth_dango_ii"
+        },
+        "风雅忍团子【睡蜜玉】": {
+            "key": "perfected_dango"
+        },
+        "猫爪Ⅰ": {
+            "key": "felyne_claws_i"
+        },
+        "猫爪Ⅱ": {
+            "key": "felyne_claws_ii"
+        },
+        "愤怒之爪": {
+            "key": "raging_claws"
+        },
+        "水母雨伞Ⅰ": {
+            "key": "rainy_jelly_i"
+        },
+        "水母雨伞Ⅱ": {
+            "key": "rainy_jelly_ii"
+        },
+        "水母血雨伞": {
+            "key": "rain_of_gore"
+        },
+        "蝶剑Ⅰ": {
+            "key": "qornu_waga_i"
+        },
+        "蝶剑Ⅱ": {
+            "key": "qornu_waga_ii"
+        },
+        "双曲蝶剑": {
+            "key": "ro_waga"
+        },
+        "伞双锋Ⅰ": {
+            "key": "schirmscorn_i"
+        },
+        "伞双锋Ⅱ": {
+            "key": "schirmscorn_ii"
+        },
+        "晓之双剑疾骑": {
+            "key": "daybreak_daggers"
+        },
+        "人鱼利爪Ⅰ": {
+            "key": "frilled_claw_i"
+        },
+        "人鱼利爪Ⅱ": {
+            "key": "frilled_claw_ii"
+        },
+        "梦幻人鱼利爪": {
+            "key": "illusory_frilled_claw"
+        },
+        "祸刃【封】Ⅰ": {
+            "key": "sinister_blades_i"
+        },
+        "祸刃【封】Ⅱ": {
+            "key": "sinister_blades_ii"
+        },
+        "祸刃【幽鬼无愧】": {
+            "key": "sinister_famineblades"
+        },
+        "雪＝泥Ⅰ": {
+            "key": "mud_ripper_i"
+        },
+        "雪＝泥Ⅱ": {
+            "key": "mud_ripper_ii"
+        },
+        "雏菊＝切刀": {
+            "key": "mud_twister"
+        },
+        "苍风神刃Ⅰ": {
+            "key": "azure_elder_blades_i"
+        },
+        "苍风神刃Ⅱ": {
+            "key": "azure_elder_blades_ii"
+        },
+        "鸣雷神刃Ⅰ": {
+            "key": "thunderbolt_blades_i"
+        },
+        "青熊双钺Ⅰ": {
+            "key": "cerulean_axes_i"
+        },
+        "青熊双钺Ⅱ": {
+            "key": "cerulean_axes_ii"
+        },
+        "青熊双钺【足柄】": {
+            "key": "ashigara_axes"
+        },
+        "冰雪双刃Ⅰ": {
+            "key": "snow_slicers_i"
+        },
+        "冰雪双刃Ⅱ": {
+            "key": "snow_slicers_ii"
+        },
+        "冰雪双冻刃": {
+            "key": "snow_sisters"
+        },
+        "流氓双枪Ⅰ": {
+            "key": "desperado_i"
+        },
+        "流氓双枪Ⅱ": {
+            "key": "desperado_ii"
+        },
+        "毒狗龙小子": {
+            "key": "the_kid"
+        },
+        "喙双刀Ⅰ": {
+            "key": "kulus_peck_i"
+        },
+        "喙双刀Ⅱ": {
+            "key": "kulus_peck_ii"
+        },
+        "鸟喙对刃": {
+            "key": "kulus_lasher"
+        },
+        "水兽双剑Ⅰ": {
+            "key": "ludroth_pair_i"
+        },
+        "水兽双剑Ⅱ": {
+            "key": "ludroth_pair_ii"
+        },
+        "水兽水兽": {
+            "key": "double_droth"
+        },
+        "奇怪龙短剑Ⅰ": {
+            "key": "khezu_daggers_i"
+        },
+        "奇怪龙短剑Ⅱ": {
+            "key": "khezu_daggers_ii"
+        },
+        "伤刃奇怪龙碎片": {
+            "key": "khezu_skards"
+        },
+        "泥磨双刀Ⅰ": {
+            "key": "jyura_duo_i"
+        },
+        "泥磨双刀Ⅱ": {
+            "key": "jyura_duo_ii"
+        },
+        "沼泽双刀": {
+            "key": "jyura_pulverizers"
+        },
+        "冰牙双剑Ⅰ": {
+            "key": "blizzarioths_i"
+        },
+        "冰牙双剑Ⅱ": {
+            "key": "blizzarioths_ii"
+        },
+        "冰牙暴雪双剑": {
+            "key": "mountain_blizzarioths"
+        },
+        "飞雷双剑裂蛇Ⅰ": {
+            "key": "kadachi_twinblades_i"
+        },
+        "飞雷双剑裂蛇Ⅱ": {
+            "key": "kadachi_twinblades_ii"
+        },
+        "飞雷双剑【小夜】": {
+            "key": "shockblades"
+        },
+        "炎羽双匕Ⅰ": {
+            "key": "flammenschild"
+        },
+        "炎羽双匕Ⅱ": {
+            "key": "flammenschild"
+        },
+        "蛮颚炎羽双匕": {
+            "key": "gnashing_flammenschild"
+        },
+        "禁忌匕首Ⅰ": {
+            "key": "hidden_gemini_i"
+        },
+        "禁忌匕首Ⅱ": {
+            "key": "hidden_gemini_ii"
+        },
+        "夜天连刃【黑翼】": {
+            "key": "night_wings"
+        },
+        "狐双刃【浮世梦如空】Ⅰ": {
+            "key": "morning_dawn_i"
+        },
+        "狐双刃【浮世梦如空】Ⅱ": {
+            "key": "morning_dawn_ii"
+        },
+        "雌雄双焰刀Ⅰ": {
+            "key": "twin_flames_i"
+        },
+        "雌雄双焰刀Ⅱ": {
+            "key": "twin_flames_ii"
+        },
+        "王双刃雷神Ⅰ": {
+            "key": "usurpers_fulgur_i"
+        },
+        "王双刃雷神Ⅱ": {
+            "key": "usurpers_fulgur_ii"
+        },
+        "王牙双刃【土雷】": {
+            "key": "despots_blitz"
+        },
+        "轰龙双切Ⅰ": {
+            "key": "rex_slicers_i"
+        },
+        "轰龙双切Ⅱ": {
+            "key": "rex_slicers_ii"
+        },
+        "兄弟剑Ⅰ": {
+            "key": "diablos_bashers_i"
+        },
+        "兄弟剑Ⅱ": {
+            "key": "diablos_bashers_ii"
+        },
+        "兄弟剑信仰": {
+            "key": "diablos_mashers"
+        },
+        "斗鬼【高丸】Ⅰ": {
+            "key": "suzuka_takamaru_i"
+        },
+        "斗鬼【高丸】Ⅱ": {
+            "key": "suzuka_takamaru_ii"
+        },
+        "百龙双刃Ⅳ": {
+            "key": "rampage_twinblades_iv"
+        },
+        "混铅盾斧Ⅰ": {
+            "key": "hyperguard_i"
+        },
+        "混铅盾斧Ⅱ": {
+            "key": "hyperguard_ii"
+        },
+        "合金盾斧": {
+            "key": "regas_hyper"
+        },
+        "精锐讨伐队盾斧Ⅰ": {
+            "key": "elite_blade_i"
+        },
+        "精锐讨伐队盾斧Ⅱ": {
+            "key": "elite_blade_ii"
+        },
+        "帝王护卫": {
+            "key": "kaiser_blade"
+        },
+        "骑士团队证盾斧Ⅰ": {
+            "key": "k_captains_blade_i"
+        },
+        "骑士团队证盾斧Ⅱ": {
+            "key": "k_captains_blade_ii"
+        },
+        "女武神斧": {
+            "key": "die_walküre"
+        },
+        "骨盾斧Ⅰ": {
+            "key": "bone_blade_i"
+        },
+        "骨盾斧Ⅱ": {
+            "key": "bone_blade_ii"
+        },
+        "骨粒之盾": {
+            "key": "bonesilt_veil"
+        },
+        "骨制兵装Ⅰ": {
+            "key": "bone_strongarm_i"
+        },
+        "骨制兵装Ⅱ": {
+            "key": "bone_strongarm_ii"
+        },
+        "硬骨兵装": {
+            "key": "hard_bone_strongarm"
+        },
+        "淬毒之盾Ⅰ": {
+            "key": "poisonous_veil_i"
+        },
+        "淬毒之盾Ⅱ": {
+            "key": "poisonous_veil_ii"
+        },
+        "污染之盾": {
+            "key": "infected_veil"
+        },
+        "龙语盾斧Ⅰ": {
+            "key": "dragon_veil_i"
+        },
+        "龙语盾斧Ⅱ": {
+            "key": "dragon_veil_ii"
+        },
+        "龙吼盾斧": {
+            "key": "dragonsong"
+        },
+        "炎火铁盾斧Ⅰ": {
+            "key": "kamura_c_blade_i"
+        },
+        "炎火铁盾斧Ⅱ": {
+            "key": "kamura_c_blade_ii"
+        },
+        "炎火铁盾斧Ⅲ": {
+            "key": "kamura_c_blade_iii"
+        },
+        "炎火铁盾斧Ⅳ": {
+            "key": "kamura_c_blade_iv"
+        },
+        "炎火铁盾斧Ⅴ": {
+            "key": "kamura_c_blade_v"
+        },
+        "炎火忍盾斧": {
+            "key": "kamura_ninja_c_blade"
+        },
+        "百龙盾斧Ⅰ": {
+            "key": "rampage_c_blade_i"
+        },
+        "百龙盾斧Ⅱ": {
+            "key": "rampage_c_blade_ii"
+        },
+        "百龙盾斧Ⅲ": {
+            "key": "rampage_c_blade_iii"
+        },
+        "糯米团盾斧猫杵Ⅰ": {
+            "key": "ricebane_i"
+        },
+        "糯米团盾斧猫杵Ⅱ": {
+            "key": "ricebane_ii"
+        },
+        "捣糯米团盾斧猫臼": {
+            "key": "pounder_of_rice"
+        },
+        "可爱猫盾斧Ⅰ": {
+            "key": "cuddly_cat_i"
+        },
+        "可爱猫盾斧Ⅱ": {
+            "key": "cuddly_cat_ii"
+        },
+        "好眠猫盾斧": {
+            "key": "felyne_fancy"
+        },
+        "巨剪虫斧Ⅰ": {
+            "key": "mandible_blade_i"
+        },
+        "巨剪虫斧Ⅱ": {
+            "key": "mandible_blade_ii"
+        },
+        "钳刃斧": {
+            "key": "maxilla_edge"
+        },
+        "维京之盾Ⅰ": {
+            "key": "vaik_veil_i"
+        },
+        "维京之盾Ⅱ": {
+            "key": "vaik_veil_ii"
+        },
+        "鲜斧黄金鲤之盾": {
+            "key": "shieldraad"
+        },
+        "风之贼盾斧Ⅰ": {
+            "key": "wind_thief_sickle_i"
+        },
+        "风之贼盾斧Ⅱ": {
+            "key": "wind_thief_sickle_ii"
+        },
+        "风镰盾斧亚努西克": {
+            "key": "gale_sickle"
+        },
+        "环首掼Ⅰ": {
+            "key": "shovedown_blade_i"
+        },
+        "环首掼Ⅱ": {
+            "key": "shovedown_blade_ii"
+        },
+        "蛙式・环首掼": {
+            "key": "spinning_takedown"
+        },
+        "人鱼低吟Ⅰ": {
+            "key": "bellowing_blow_i"
+        },
+        "人鱼低吟Ⅱ": {
+            "key": "bellowing_blow_ii"
+        },
+        "梦幻人鱼低吟": {
+            "key": "illusory_frilled_wail"
+        },
+        "祸钺【封】Ⅰ": {
+            "key": "sinister_slasher_i"
+        },
+        "祸钺【封】Ⅱ": {
+            "key": "sinister_slasher_ii"
+        },
+        "祸钺【幽鬼无极】": {
+            "key": "sinister_shade_axe"
+        },
+        "雪鬼兽咔嚓Ⅰ": {
+            "key": "surprise_axe_i"
+        },
+        "雪鬼兽咔嚓Ⅱ": {
+            "key": "surprise_axe_ii"
+        },
+        "雪鬼兽咔嚓！": {
+            "key": "stunning_axe"
+        },
+        "严峻门斧Ⅰ": {
+            "key": "biting_edge_i"
+        },
+        "严峻门斧Ⅱ": {
+            "key": "biting_edge_ii"
+        },
+        "苍风神盾斧Ⅰ": {
+            "key": "azure_elder_blade_i"
+        },
+        "苍风神盾斧Ⅱ": {
+            "key": "azure_elder_blade_ii"
+        },
+        "鸣雷神盾斧Ⅰ": {
+            "key": "thunderbolt_sawtooth_i"
+        },
+        "土砂盾斧Ⅰ": {
+            "key": "barroth_anchor_i"
+        },
+        "土砂盾斧Ⅱ": {
+            "key": "barroth_anchor_ii"
+        },
+        "土砂硬甲盾斧": {
+            "key": "rugged_anchor"
+        },
+        "回转圆盘Ⅰ": {
+            "key": "rough_roller_i"
+        },
+        "回转圆盘Ⅱ": {
+            "key": "rough_roller_ii"
+        },
+        "甲盾斧回转": {
+            "key": "rotaxion"
+        },
+        "泥磨坚盾Ⅰ": {
+            "key": "jyura_silt_i"
+        },
+        "泥磨坚盾Ⅱ": {
+            "key": "jyura_silt_ii"
+        },
+        "沼泽坚盾": {
+            "key": "clutch_of_the_deep"
+        },
+        "巨人神兵Ⅰ": {
+            "key": "giga_grips_i"
+        },
+        "巨人神兵Ⅱ": {
+            "key": "giga_grips_ii"
+        },
+        "巨人神兵Ⅲ": {
+            "key": "giga_grips_iii"
+        },
+        "泰坦神兵": {
+            "key": "titans_vise"
+        },
+        "焰火盾斧Ⅰ": {
+            "key": "dear_lutemis_i"
+        },
+        "焰火盾斧Ⅱ": {
+            "key": "dear_lutemis_ii"
+        },
+        "雌火盾斧": {
+            "key": "dear_lutemia"
+        },
+        "纯白骑士Ⅰ": {
+            "key": "weissritter_i"
+        },
+        "纯白骑士Ⅱ": {
+            "key": "weissritter_ii"
+        },
+        "纯白骑士Ⅲ": {
+            "key": "weissritter_iii"
+        },
+        "琉璃骑士": {
+            "key": "paladire"
+        },
+        "飞雷盾斧断蛇Ⅰ": {
+            "key": "kadachi_slasher_i"
+        },
+        "飞雷盾斧断蛇Ⅱ": {
+            "key": "kadachi_slasher_ii"
+        },
+        "飞雷盾斧【大典太】": {
+            "key": "kadachi_otenta"
+        },
+        "隐秘长兵Ⅰ": {
+            "key": "hidden_arsenal_i"
+        },
+        "隐秘长兵Ⅱ": {
+            "key": "hidden_arsenal_ii"
+        },
+        "夜行盾斧【冥冥中】": {
+            "key": "scream_in_the_night"
+        },
+        "狐衣斧【镜花水月深】Ⅰ": {
+            "key": "mizuniya_drill_i"
+        },
+        "狐衣斧【镜花水月深】Ⅱ": {
+            "key": "mizuniya_drill_ii"
+        },
+        "炎斧蛇王Ⅰ": {
+            "key": "axelion_blade_i"
+        },
+        "炎斧蛇王Ⅱ": {
+            "key": "axelion_blade_ii"
+        },
+        "王盾斧雷纹Ⅰ": {
+            "key": "usurpers_lightning_i"
+        },
+        "王盾斧雷纹Ⅱ": {
+            "key": "usurpers_lightning_ii"
+        },
+        "王牙盾斧【风雷】": {
+            "key": "despots_thundergale"
+        },
+        "轰龙切割者Ⅰ": {
+            "key": "tigrex_divide_i"
+        },
+        "轰龙切割者Ⅱ": {
+            "key": "tigrex_divide_ii"
+        },
+        "角龙武装Ⅰ": {
+            "key": "diablos_strongarm_i"
+        },
+        "角龙武装Ⅱ": {
+            "key": "diablos_strongarm_ii"
+        },
+        "金刚盾斧Ⅰ": {
+            "key": "undying_blade_i"
+        },
+        "金刚盾斧Ⅱ": {
+            "key": "undying_blade_ii"
+        },
+        "百龙盾斧Ⅳ": {
+            "key": "rampage_c_blade_iv"
+        },
+        "强力猎弓Ⅰ": {
+            "key": "hunters_stoutbow_i"
+        },
+        "强力猎弓Ⅱ": {
+            "key": "hunters_stoutbow_ii"
+        },
+        "勇气猎弓": {
+            "key": "hunters_proudbow"
+        },
+        "六花晶弓Ⅰ": {
+            "key": "crystalline_flower_i"
+        },
+        "六花晶弓Ⅱ": {
+            "key": "crystalline_flower_ii"
+        },
+        "天华晶弓": {
+            "key": "heavens_glaze"
+        },
+        "铁弓Ⅰ": {
+            "key": "iron_bow_i"
+        },
+        "铁弓Ⅱ": {
+            "key": "iron_bow_ii"
+        },
+        "钢铁弓": {
+            "key": "steel_bow"
+        },
+        "耀金弓Ⅰ": {
+            "key": "yekla_arc_i"
+        },
+        "耀金弓Ⅱ": {
+            "key": "yekla_arc_ii"
+        },
+        "斗弓果敢": {
+            "key": "heralds_battlebow"
+        },
+        "猎弓Ⅰ": {
+            "key": "hunters_bow_i"
+        },
+        "猎弓Ⅱ": {
+            "key": "hunters_bow_ii"
+        },
+        "大师猎弓": {
+            "key": "master_hunters_bow"
+        },
+        "糙骨弓Ⅰ": {
+            "key": "bone_gun_i"
+        },
+        "糙骨弓Ⅱ": {
+            "key": "bone_gun_ii"
+        },
+        "骨架弓": {
+            "key": "hyper_bone_gun"
+        },
+        "炎火铁弓Ⅰ": {
+            "key": "kamura_iron_bow_i"
+        },
+        "炎火铁弓Ⅱ": {
+            "key": "kamura_iron_bow_ii"
+        },
+        "炎火铁弓Ⅲ": {
+            "key": "kamura_iron_bow_iii"
+        },
+        "炎火铁弓Ⅳ": {
+            "key": "kamura_iron_bow_iv"
+        },
+        "炎火铁弓Ⅴ": {
+            "key": "kamura_iron_bow_v"
+        },
+        "炎火忍弓": {
+            "key": "kamura_ninja_bow"
+        },
+        "百龙弓Ⅰ": {
+            "key": "rampage_bow_i"
+        },
+        "百龙弓Ⅱ": {
+            "key": "rampage_bow_ii"
+        },
+        "百龙弓Ⅲ": {
+            "key": "rampage_bow_iii"
+        },
+        "旗鱼骨弓【鱼骨】Ⅰ": {
+            "key": "morsel_bowfish_i"
+        },
+        "旗鱼骨弓【鱼骨】Ⅱ": {
+            "key": "morsel_bowfish_ii"
+        },
+        "旗鱼骨弓【三分鱼身】": {
+            "key": "ample_bowfish"
+        },
+        "猫贰玖弓Ⅰ": {
+            "key": "felyne_bow_i"
+        },
+        "猫贰玖弓Ⅱ": {
+            "key": "felyne_bow_ii"
+        },
+        "机关猫贰玖弓": {
+            "key": "felyne_trickbow"
+        },
+        "混沌之弓Ⅰ": {
+            "key": "chaos_bow_i"
+        },
+        "混沌之弓Ⅱ": {
+            "key": "chaos_bow_ii"
+        },
+        "忘我混沌之弓": {
+            "key": "chaotic_rapture"
+        },
+        "花之塔Ⅰ": {
+            "key": "ivory_bow_i"
+        },
+        "花之塔Ⅱ": {
+            "key": "ivory_bow_ii"
+        },
+        "丽花枝弓": {
+            "key": "frozen_bow"
+        },
+        "蜘蛛弓Ⅰ": {
+            "key": "arachnid_bow_i"
+        },
+        "蜘蛛弓Ⅱ": {
+            "key": "arachnid_bow_ii"
+        },
+        "蜘蛛弦弓": {
+            "key": "arachnid_silverstring"
+        },
+        "天具・光背弓Ⅰ": {
+            "key": "dawn_ray_bow_i"
+        },
+        "天具・光背弓Ⅱ": {
+            "key": "dawn_ray_bow_ii"
+        },
+        "大天具・光弓爱染": {
+            "key": "summits_grand_glow"
+        },
+        "祸弓【封】Ⅰ": {
+            "key": "sinister_bow_i"
+        },
+        "祸弓【封】Ⅱ": {
+            "key": "sinister_bow_ii"
+        },
+        "祸弓【幽鬼无心】": {
+            "key": "sinister_soulpiercer"
+        },
+        "泥＝沙Ⅰ": {
+            "key": "mud_shot_i"
+        },
+        "泥＝沙Ⅱ": {
+            "key": "mud_shot_ii"
+        },
+        "指＝引": {
+            "key": "hail_of_mud"
+        },
+        "至诚心弓Ⅰ": {
+            "key": "weaver_of_flame_i"
+        },
+        "至诚心弓Ⅱ": {
+            "key": "weaver_of_flame_ii"
+        },
+        "苍风神弓Ⅰ": {
+            "key": "azure_elder_bow_i"
+        },
+        "苍风神弓Ⅱ": {
+            "key": "azure_elder_bow_ii"
+        },
+        "鸣雷神弓Ⅰ": {
+            "key": "thunderbolt_bow_i"
+        },
+        "飞虫坚弓零式Ⅰ": {
+            "key": "arko_nulo_i"
+        },
+        "飞虫坚弓零式Ⅱ": {
+            "key": "arko_nulo_ii"
+        },
+        "飞虫坚弓壹式": {
+            "key": "arko_unu"
+        },
+        "深红飞虫坚弓零式Ⅰ": {
+            "key": "arko_nulo_red_i"
+        },
+        "深红飞虫坚弓零式Ⅱ": {
+            "key": "arko_nulo_red_ii"
+        },
+        "深红飞虫坚弓壹式": {
+            "key": "arko_unu_red"
+        },
+        "铬黄飞虫坚弓零式Ⅰ": {
+            "key": "arko_nulo_yellow_i"
+        },
+        "铬黄飞虫坚弓零式Ⅱ": {
+            "key": "arko_nulo_yellow_ii"
+        },
+        "铬黄飞虫坚弓壹式": {
+            "key": "arko_unu_yellow"
+        },
+        "雪白飞虫坚弓零式Ⅰ": {
+            "key": "arko_nulo_white_i"
+        },
+        "雪白飞虫坚弓零式Ⅱ": {
+            "key": "arko_nulo_white_ii"
+        },
+        "雪白飞虫坚弓壹式": {
+            "key": "arko_unu_white"
+        },
+        "漆黑飞虫坚弓零式Ⅰ": {
+            "key": "arko_nulo_black_i"
+        },
+        "漆黑飞虫坚弓零式Ⅱ": {
+            "key": "arko_nulo_black_ii"
+        },
+        "漆黑飞虫坚弓壹式": {
+            "key": "arko_unu_black"
+        },
+        "鹿角的弹弓Ⅰ": {
+            "key": "kelbi_stingshot_i"
+        },
+        "鹿角的弹弓Ⅱ": {
+            "key": "kelbi_stingshot_ii"
+        },
+        "鹿角的刚弹弓": {
+            "key": "kelbi_strongshot"
+        },
+        "青熊弓Ⅰ": {
+            "key": "arzuros_bow_i"
+        },
+        "青熊弓Ⅱ": {
+            "key": "arzuros_bow_ii"
+        },
+        "青熊刚弓【蜜罐】": {
+            "key": "arzuros_honeypot"
+        },
+        "眠狗龙弓Ⅰ": {
+            "key": "baggi_bow_i"
+        },
+        "眠狗龙弓Ⅱ": {
+            "key": "baggi_bow_ii"
+        },
+        "昏沉眠狗龙弓": {
+            "key": "hypnoshot"
+        },
+        "毒狗龙左轮弓Ⅰ": {
+            "key": "wroggi_revolver_i"
+        },
+        "毒狗龙左轮弓Ⅱ": {
+            "key": "wroggi_revolver_ii"
+        },
+        "邪道左轮弓": {
+            "key": "hoodwinkers_revolver"
+        },
+        "喙弓Ⅰ": {
+            "key": "kulus_flight_i"
+        },
+        "喙弓Ⅱ": {
+            "key": "kulus_flight_ii"
+        },
+        "鸟喙利矢": {
+            "key": "kulu_piercer"
+        },
+        "海绵齿轮Ⅰ": {
+            "key": "spongia_bow_i"
+        },
+        "海绵齿轮Ⅱ": {
+            "key": "spongia_bow_ii"
+        },
+        "海绵齿轮Ⅲ": {
+            "key": "spongia_bow_iii"
+        },
+        "海绵大齿轮": {
+            "key": "porifera_bow"
+        },
+        "奇怪龙弓Ⅰ": {
+            "key": "khezu_bow_i"
+        },
+        "奇怪龙弓Ⅱ": {
+            "key": "khezu_bow_ii"
+        },
+        "奇怪龙爪弓": {
+            "key": "galvanized_core"
+        },
+        "避役弓Ⅰ": {
+            "key": "pukei_bow_i"
+        },
+        "避役弓Ⅱ": {
+            "key": "pukei_bow_ii"
+        },
+        "毒妖喉弓": {
+            "key": "venomtongue_strike"
+        },
+        "女王猎弓Ⅰ": {
+            "key": "queen_blaster_i"
+        },
+        "女王猎弓Ⅱ": {
+            "key": "queen_blaster_ii"
+        },
+        "女王旋律": {
+            "key": "queens_melody"
+        },
+        "冰柱发射者Ⅰ": {
+            "key": "ice_crest_i"
+        },
+        "冰柱发射者Ⅱ": {
+            "key": "ice_crest_ii"
+        },
+        "冰柱发射者Ⅲ": {
+            "key": "ice_crest_iii"
+        },
+        "飞雷弓射蛇Ⅰ": {
+            "key": "kadachi_strikebow_i"
+        },
+        "飞雷弓射蛇Ⅱ": {
+            "key": "kadachi_strikebow_ii"
+        },
+        "飞雷弓射蛇Ⅲ": {
+            "key": "kadachi_strikebow_iii"
+        },
+        "飞雷弓【羽羽矢】": {
+            "key": "flying_kadachi_striker"
+        },
+        "炎羽强弓Ⅰ": {
+            "key": "flammenbogen_i"
+        },
+        "炎羽强弓Ⅱ": {
+            "key": "flammenbogen_ii"
+        },
+        "蛮颚炎羽强弓": {
+            "key": "flaming_rage_bow"
+        },
+        "隐秘长弓Ⅰ": {
+            "key": "hidden_bow_i"
+        },
+        "隐秘长弓Ⅱ": {
+            "key": "hidden_bow_ii"
+        },
+        "暗夜弓【影缝】": {
+            "key": "night_flight"
+        },
+        "狐弓【露湿乱世情】Ⅰ": {
+            "key": "blessed_rain_i"
+        },
+        "狐弓【露湿乱世情】Ⅱ": {
+            "key": "blessed_rain_ii"
+        },
+        "烈阳弓Ⅰ": {
+            "key": "prominence_bow_i"
+        },
+        "烈阳弓Ⅱ": {
+            "key": "prominence_bow_ii"
+        },
+        "王弓远雷Ⅰ": {
+            "key": "usurpers_rumble_i"
+        },
+        "王弓远雷Ⅱ": {
+            "key": "usurpers_rumble_ii"
+        },
+        "王牙弓【稚雷】": {
+            "key": "despots_earlybolt"
+        },
+        "轰龙弓Ⅰ": {
+            "key": "tigrex_archer_i"
+        },
+        "轰龙弓Ⅱ": {
+            "key": "tigrex_archer_ii"
+        },
+        "角龙角弓Ⅰ": {
+            "key": "diablos_coilbender_i"
+        },
+        "角龙角弓Ⅱ": {
+            "key": "diablos_coilbender_ii"
+        },
+        "雷弓【兽王】Ⅰ": {
+            "key": "beast_thunderbow_i"
+        },
+        "雷弓【兽王】Ⅱ": {
+            "key": "beast_thunderbow_ii"
+        },
+        "百龙弓Ⅳ": {
+            "key": "rampage_bow_iv"
+        },
+        "废神社": {
+            "key": "shrine_ruins"
+        },
+        "沙原": {
+            "key": "sandy_plains"
+        },
+        "水没林": {
+            "key": "flooded_forest"
+        },
+        "冰封群岛": {
+            "key": "frost_islands"
+        },
+        "熔岩洞": {
+            "key": "lava_caverns"
+        },
+        "翡叶要塞": {
+            "key": "red_stronghold"
+        },
+        "斗技场": {
+            "key": "arena"
+        },
+        "龙宫古城": {
+            "key": "coral_palace"
         }
     },
     "cntokey2": {
@@ -5089,6 +9874,69 @@
         },
         "狩猎2头角龙": {
             "key": "quest_hall_hunt_2_diablos"
+        },
+        "随从隐秘队": {
+            "key": "meowcenaries"
+        },
+        "领取箱": {
+            "key": "pickup_box"
+        },
+        "隐秘队菜单": {
+            "key": "meowcenaries"
+        },
+        "选择调查目标": {
+            "key": "select_destination"
+        },
+        "选择随从": {
+            "key": "select_buddies"
+        },
+        "调查路线": {
+            "key": "scouting_route_"
+        },
+        "隐秘队状况": {
+            "key": "team_status"
+        },
+        "命令返回": {
+            "key": "recall_team"
+        },
+        "调查完成": {
+            "key": "mission_complete"
+        },
+        "已领取": {
+            "key": "received"
+        },
+        "隐秘队期望值": {
+            "key": "expected_outcome"
+        },
+        "矿石": {
+            "key": "ore"
+        },
+        "骨": {
+            "key": "bones"
+        },
+        "骨塚": {
+            "key": "bones"
+        },
+        "药草": {
+            "key": "herbs"
+        },
+        "蘑菇": {
+            "key": "mushrooms"
+        },
+        "鱼": {
+            "key": "fish"
+        },
+        "虫": {
+            "key": "insects"
+        },
+        "所需炎火点数": {
+            "key": "required_points"
+        },
+        "调查目标费用": {
+            "key": "location_cost"
+        },
+        "调查目标": {
+            "key": "scout_location"
         }
     }
 }
