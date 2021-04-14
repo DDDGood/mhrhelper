@@ -5,6 +5,78 @@
       <div class="layout-grid-main">
         <details open>
           <summary class="header2">{{$t('meowcenary.items')}}</summary>
+
+          <div
+            v-for="(link, targetID) in meowcenarydata"
+            :key="targetID"
+            class="card flex-column interval-y-large rounded"
+          >
+            <div class="flex-row interval-y">
+              <div class="flex1 flex-center interval-x color-note rounded">
+                <img class="target-icon color-note" :src="getTargetIcon(link.target_type,targetID)" />
+              </div>
+              <div
+                class="flex3 flex-center text-bold color2 interval-x rounded"
+              >{{getTargetName(link.target_type,targetID)}}</div>
+            </div>
+            <div class="flex-row interval-y">
+              <div class="flex1 color1 text-center interval-x rounded">{{$t('low_rank')}}</div>
+              <div class="flex1 color1 text-center interval-x rounded">{{$t('high_rank')}}</div>
+            </div>
+            <div class="flex-row interval-y">
+              <div class="flex1 flex-column color2 interval-x rounded">
+                <div class="flex-row flex-intense" v-for="(item, i) in link.low_rank" :key="i">
+                  <img
+                    class="card-text-icon"
+                    :key="i"
+                    src="images/svg/star.svg"
+                    v-if="item.rare === true"
+                  />
+                  <router-link
+                    custom
+                    v-slot="{ navigate }"
+                    v-bind:to="'/item/' + item.item"
+                    :key="i"
+                  >
+                    <div @click="navigate" class="mouse-hover">
+                      {{$t('data.items.' + item.item + '.name')}}
+                      <span
+                        v-if="item.num > 1"
+                      >{{'x' + item.num}}</span>
+                    </div>
+                  </router-link>
+                </div>
+              </div>
+              <div class="flex1 flex-column color2 interval-x rounded">
+                <div class="flex-row flex-intense" v-for="(item, i) in link.high_rank" :key="i">
+                  <img
+                    class="card-text-icon"
+                    :key="i"
+                    src="images/svg/star.svg"
+                    v-if="item.rare === true"
+                  />
+                  <router-link
+                    custom
+                    v-slot="{ navigate }"
+                    v-bind:to="'/item/' + item.item"
+                    :key="i"
+                  >
+                    <div @click="navigate" class="mouse-hover">
+                      {{$t('data.items.' + item.item + '.name')}}
+                      <span
+                        v-if="item.num > 1"
+                      >{{'x' + item.num}}</span>
+                    </div>
+                  </router-link>
+                </div>
+              </div>
+            </div>
+            <tr class="card-text" :key="targetID">
+              <td></td>
+              <td></td>
+            </tr>
+          </div>
+
           <table class="interval-y-large">
             <tbody>
               <tr class="card-text text-bold">
@@ -14,12 +86,14 @@
               <template v-for="(link, targetID) in meowcenarydata">
                 <tr :key="targetID">
                   <td colspan="2">
-                    <div class="flex-row flex-intense flex-center color-note">
-                      <img
-                        class="target-icon color-note"
-                        :src="getTargetIcon(link.target_type,targetID)"
-                      />
-                      <div class="text-bold">{{getTargetName(link.target_type,targetID)}}</div>
+                    <div class="flex-center color-note">
+                      <div class="target-box flex-row flex-intense flex-center">
+                        <img
+                          class="target-icon color-note"
+                          :src="getTargetIcon(link.target_type,targetID)"
+                        />
+                        <div class="text-bold">{{getTargetName(link.target_type,targetID)}}</div>
+                      </div>
                     </div>
                   </td>
                 </tr>
@@ -133,6 +207,9 @@ module.exports = {
 }
 </script>
 <style scoped>
+.target-box {
+  width: 160px;
+}
 .target-icon {
   width: 48px;
 }

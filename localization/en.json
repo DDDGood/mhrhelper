@@ -275,7 +275,8 @@
             "quest_name": "Quest",
             "monster_name": "Monster",
             "rank": "Rank",
-            "method": "Method"
+            "method": "Method",
+            "amount": "Amount"
         },
         "meowcenaries": {
             "map": "Destination",

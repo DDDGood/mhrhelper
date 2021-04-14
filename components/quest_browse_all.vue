@@ -2,7 +2,7 @@
   <div class="layout-main">
     <div class="flex-row interval-y-large sorting-type-container">
       <div
-        class="flex1 sorting-type flex-center interval-x"
+        class="flex1 sorting-type text-l flex-center interval-x"
         v-for="(type, id) in questsByTypes"
         :key="id"
         :class="{'sorting-type-current' : id==curType}"
@@ -34,10 +34,10 @@
         <div @click="navigate" class="flex1 item-list-link mouse-hover">
           <div class="flex-row flex-start">
             <div class="flex-center">
-              <div class="item-list-text text-bold">{{ quest.name}}</div>
+              <div class="text-m">{{ quest.name}}</div>
             </div>
           </div>
-          <div class="item-list-text text-color-grey">{{ quest.success}}</div>
+          <div class="text-s text-color-grey">{{ quest.success}}</div>
         </div>
       </router-link>
       <router-view></router-view>

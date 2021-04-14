@@ -322,11 +322,20 @@ details[open] > summary:after {
    top : 2px;
    right: 4px;
 }
-.text-large {
-  font-size: 22px !important;
+.text-xl {
+  font-size: x-large !important;
 }
-.text-small {
-  font-size: 12px !important;
+.text-l2 {
+  font-size: larger !important;
+}
+.text-l {
+  font-size: large !important;
+}
+.text-m {
+  font-size: medium !important;
+}
+.text-s {
+  font-size:small !important;
 }
 .text-bold {
   font-weight: bold !important;

@@ -2,7 +2,7 @@
   <div class="movepanel-container" v-show="show" @click="Hide">
     <div id="panel-moveinfo" class="card rounded flex-column" ref="moveinfopanel">
       <div class="flex-row interval-y">
-        <div id="moveinfo-title" class="text-large text-bold">{{ movedata.name }}</div>
+        <div id="moveinfo-title" class="text-l2 text-bold">{{ movedata.name }}</div>
       </div>
       <div class="flex-row interval-y">
         <div class="flex1 color2 rounded">

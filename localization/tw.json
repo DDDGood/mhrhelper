@@ -277,7 +277,8 @@
             "quest_name": "任務名稱",
             "monster_name": "魔物名稱",
             "rank": "等級",
-            "method": "途徑"
+            "method": "途徑",
+            "amount": "數量"
         },
         "meowcenary": {
             "map": "目的地",

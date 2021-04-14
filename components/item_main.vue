@@ -17,6 +17,7 @@
             <tbody>
               <tr class="card-text text-bold">
                 <th>{{$t('item.quest_name')}}</th>
+                <th>{{$t('item.amount')}}</th>
                 <th class="item-rate-th">{{$t('rate')}}</th>
               </tr>
               <template v-for="(link, qID) in sourcedata.quests">
@@ -30,9 +31,10 @@
                     </router-link>
                   </td>
                   <td>
-                    <div
-                      class="text-right item-rate-text"
-                    >{{ (link.num>1 ? '(x' + link.num +') ':"") + link.rate + ' %'}}</div>
+                    <div class="item-rate-text">{{link.num}}</div>
+                  </td>
+                  <td>
+                    <div class="text-right item-rate-text">{{ link.rate + ' %'}}</div>
                   </td>
                 </tr>
               </template>
@@ -46,6 +48,7 @@
                 <th>{{$t('item.monster_name')}}</th>
                 <th>{{$t('item.rank')}}</th>
                 <th>{{$t('item.method')}}</th>
+                <th>{{$t('item.amount')}}</th>
                 <th>{{$t('rate')}}</th>
               </tr>
               <template v-for="(list, mID) in sourcedata.large_monsters">
@@ -63,10 +66,10 @@
                       <div class>{{$t('item.' + link.method)}}</div>
                     </td>
                     <td>
-                      <div class="text-right item-rate-text">
-                        {{
-                        (link.num>1 ? '(x' + link.num +') ':"") + link.rate + ' %'}}
-                      </div>
+                      <div class="item-rate-text">{{link.num}}</div>
+                    </td>
+                    <td>
+                      <div class="text-right item-rate-text">{{ link.rate + ' %'}}</div>
                     </td>
                   </tr>
                 </template>
@@ -75,12 +78,13 @@
           </table>
 
           <table v-if="sourcedata.small_monsters!=undefined" class="interval-y-large">
-            <caption class="text-bold margin text-left">{{$t('dataType.large_monsters')}}</caption>
+            <caption class="text-bold margin text-left">{{$t('dataType.small_monsters')}}</caption>
             <tbody>
               <tr class="card-text text-bold">
                 <th>{{$t('item.monster_name')}}</th>
                 <th>{{$t('item.rank')}}</th>
                 <th>{{$t('item.method')}}</th>
+                <th>{{$t('item.amount')}}</th>
                 <th>{{$t('rate')}}</th>
               </tr>
               <template v-for="(list, mID) in sourcedata.small_monsters">
@@ -101,10 +105,10 @@
                       <div class>{{$t('item.' + link.method)}}</div>
                     </td>
                     <td>
-                      <div class="text-right item-rate-text">
-                        {{
-                        (link.num>1 ? '(x' + link.num + ') ' :"") + link.rate + ' %'}}
-                      </div>
+                      <div class="item-rate-text">{{link.num}}</div>
+                    </td>
+                    <td>
+                      <div class="text-right item-rate-text">{{ link.rate + ' %'}}</div>
                     </td>
                   </tr>
                 </template>

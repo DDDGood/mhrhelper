@@ -9,10 +9,10 @@
         />
       </div>
       <div id="nameblock" class="color2 flex2 flex-center rounded interval-x flex-column">
-        <div class="text-large text-center text-bold">{{ mondata?.name[lang(0)] }}</div>
+        <div class="text-l2 text-center text-bold">{{ mondata?.name[lang(0)] }}</div>
         <div class="flex-row flex-center">
-          <div class="text-center text-small">{{mondata?.name[lang(1)] }}</div>
-          <div class="text-center text-small">{{ mondata?.name[lang(2)] }}</div>
+          <div class="text-center text-s">{{mondata?.name[lang(1)] }}</div>
+          <div class="text-center text-s">{{ mondata?.name[lang(2)] }}</div>
         </div>
       </div>
       <div class="color2 flex1 flex-center rounded interval-x">
@@ -109,7 +109,7 @@
     <!-- <div class="flex-row interval-y" v-if="weakdata.weapon!== undefined">
       <div class="flex1 color1 rounded" style="position: relative">
         <div class="card-text text-bold">{{$t('monster.weakness.weapon')}}</div>
-        <div class="card-text text-small special-align-right">{{ weakdata.weapon.condition }}</div>
+        <div class="card-text text-s special-align-right">{{ weakdata.weapon.condition }}</div>
         <div class="flex-row margin">
           <div class="flex1 color2 card-text interval-x rounded">
             <div class="flex-center">
@@ -138,7 +138,7 @@
     <div class="flex-row interval-y" v-if="weakdata.element!== undefined">
       <div class="flex1 color1 rounded" style="position: relative">
         <div class="card-text text-bold">{{$t('monster.weakness.element')}}</div>
-        <div class="card-text text-small special-align-right">{{ weakdata.element.condition }}</div>
+        <div class="card-text text-s special-align-right">{{ weakdata.element.condition }}</div>
         <div class="flex-row margin">
           <div class="flex1 color2 card-text interval-x rounded">
             <div class="flex-center">
@@ -181,7 +181,7 @@
     <div class="flex-row interval-y" v-if="weakdata.aliment!== undefined">
       <div class="flex1 color1 rounded" style="position: relative">
         <div class="card-text text-bold">{{$t('monster.weakness.aliment')}}</div>
-        <div class="card-text text-small special-align-right">{{ weakdata.aliment.condition }}</div>
+        <div class="card-text text-s special-align-right">{{ weakdata.aliment.condition }}</div>
         <div class="flex-row margin">
           <div class="flex1 color2 card-text interval-x rounded">
             <div class="flex-center">
@@ -224,7 +224,7 @@
     <div class="flex-row interval-y" v-if="weakdata.item!== undefined">
       <div class="flex1 color1 rounded" style="position: relative">
         <div class="card-text text-bold">{{$t('monster.weakness.item')}}</div>
-        <div class="card-text text-small special-align-right">{{ weakdata.item.condition }}</div>
+        <div class="card-text text-s special-align-right">{{ weakdata.item.condition }}</div>
         <div class="flex-row margin">
           <div class="flex1 color2 card-text interval-x rounded">
             <div class="flex-center">

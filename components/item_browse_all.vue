@@ -11,7 +11,7 @@
         name="search"
         class="flex1"
       />
-      <button type="submit" @click="applySearch" class="search-button">
+      <button type="submit" @click="applySearch" class="search-button color2">
         <img src="images/svg/search.svg" class="search-icon" />
       </button>
     </div>
@@ -132,10 +132,12 @@ module.exports = {
   width: 100%;
 }
 .search-button {
+  border: 1px solid grey;
   width: 40px;
+  padding: 4px;
 }
 .search-icon {
-  width: 100%;
+  width: 80%;
 }
 .search-cancel {
   margin: 8px;

@@ -10,7 +10,7 @@
         />
       </div>-->
       <div class="flex1 flex-center color2 rounded interval-x">
-        <div class="card-text text-large text-bold">{{questdata.name}}</div>
+        <div class="card-text text-l2 text-bold">{{questdata.name}}</div>
       </div>
     </div>
     <!-- <div class="flex-row interval-y">
