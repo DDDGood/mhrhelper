@@ -19,61 +19,59 @@
                 />
               </div>
               <div
-                class="flex1 flex-center text-bold color2 interval-x rounded"
+                class="flex1 flex-center text-bold text-l2 color2 interval-x rounded"
               >{{getTargetName(link.target_type,targetID)}}</div>
             </div>
-            <div class="flex-row interval-y color1 rounded">
-              <div class="flex1 flex-row margin">
-                <div class="flex1 flex-column interval-x">
-                  <div class="card-text text-center text-bold">{{$t('low_rank')}}</div>
-                  <div class="flex1 flex-column color2 rounded">
-                    <div class="flex-row flex-intense" v-for="(item, i) in link.low_rank" :key="i">
-                      <img
-                        class="card-text-icon"
-                        :key="i"
-                        src="images/svg/star.svg"
-                        v-if="item.rare === true"
-                      />
-                      <router-link
-                        custom
-                        v-slot="{ navigate }"
-                        v-bind:to="'/item/' + item.item"
-                        :key="i"
-                      >
-                        <div @click="navigate" class="card-text mouse-hover">
-                          {{$t('data.items.' + item.item + '.name')}}
-                          <span
-                            v-if="item.num > 1"
-                          >{{'x' + item.num}}</span>
-                        </div>
-                      </router-link>
-                    </div>
+            <div class="flex-row interval-y rounded">
+              <div class="flex1 flex-column interval-x color1 rounded">
+                <div class="card-text text-center text-bold">{{$t('low_rank')}}</div>
+                <div class="flex1 flex-column color2 rounded margin">
+                  <div class="flex-row flex-intense" v-for="(item, i) in link.low_rank" :key="i">
+                    <img
+                      class="card-text-icon"
+                      :key="i"
+                      src="images/svg/star.svg"
+                      v-if="item.rare === true"
+                    />
+                    <router-link
+                      custom
+                      v-slot="{ navigate }"
+                      v-bind:to="'/item/' + item.item"
+                      :key="i"
+                    >
+                      <div @click="navigate" class="card-text mouse-hover">
+                        {{$t('data.items.' + item.item + '.name')}}
+                        <span
+                          v-if="item.num > 1"
+                        >{{'x' + item.num}}</span>
+                      </div>
+                    </router-link>
                   </div>
                 </div>
-                <div class="flex1 flex-column interval-x">
-                  <div class="card-text text-center text-bold">{{$t('high_rank')}}</div>
-                  <div class="flex1 flex-column color2 rounded">
-                    <div class="flex-row flex-intense" v-for="(item, i) in link.high_rank" :key="i">
-                      <img
-                        class="card-text-icon"
-                        :key="i"
-                        src="images/svg/star.svg"
-                        v-if="item.rare === true"
-                      />
-                      <router-link
-                        custom
-                        v-slot="{ navigate }"
-                        v-bind:to="'/item/' + item.item"
-                        :key="i"
-                      >
-                        <div @click="navigate" class="card-text mouse-hover">
-                          {{$t('data.items.' + item.item + '.name')}}
-                          <span
-                            v-if="item.num > 1"
-                          >{{'x' + item.num}}</span>
-                        </div>
-                      </router-link>
-                    </div>
+              </div>
+              <div class="flex1 flex-column interval-x color1 rounded">
+                <div class="card-text text-center text-bold">{{$t('high_rank')}}</div>
+                <div class="flex1 flex-column color2 rounded margin">
+                  <div class="flex-row flex-intense" v-for="(item, i) in link.high_rank" :key="i">
+                    <img
+                      class="card-text-icon"
+                      :key="i"
+                      src="images/svg/star.svg"
+                      v-if="item.rare === true"
+                    />
+                    <router-link
+                      custom
+                      v-slot="{ navigate }"
+                      v-bind:to="'/item/' + item.item"
+                      :key="i"
+                    >
+                      <div @click="navigate" class="card-text mouse-hover">
+                        {{$t('data.items.' + item.item + '.name')}}
+                        <span
+                          v-if="item.num > 1"
+                        >{{'x' + item.num}}</span>
+                      </div>
+                    </router-link>
                   </div>
                 </div>
               </div>
