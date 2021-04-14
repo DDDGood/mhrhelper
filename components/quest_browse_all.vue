@@ -31,10 +31,13 @@
         custom
         v-slot="{ navigate }"
       >
-        <div @click="navigate" class="flex1 flex-row flex-start item-list-link mouse-hover">
-          <div class="flex-center">
-            <div class="item-list-text">{{ quest.name}}</div>
+        <div @click="navigate" class="flex1 item-list-link mouse-hover">
+          <div class="flex-row flex-start">
+            <div class="flex-center">
+              <div class="item-list-text text-bold">{{ quest.name}}</div>
+            </div>
           </div>
+          <div class="item-list-text text-color-grey">{{ quest.success}}</div>
         </div>
       </router-link>
       <router-view></router-view>
@@ -100,6 +103,9 @@ module.exports = {
 };
 </script>  
 <style scoped>
+.text-color-grey {
+  color: grey;
+}
 .sorting-type-container {
   box-shadow: 0 2px 2px -2px #b1b1b1;
 }
