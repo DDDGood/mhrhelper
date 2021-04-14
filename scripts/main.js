@@ -497,7 +497,6 @@ function someDataWorks() {
     //     quests[qkey] = qData;
     // }
 
-
     // console.log(JSON.stringify(temp));
 
 }
