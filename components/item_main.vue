@@ -48,26 +48,28 @@
                 <th>{{$t('item.method')}}</th>
                 <th>{{$t('rate')}}</th>
               </tr>
-              <template v-for="(link, mID) in sourcedata.large_monsters">
-                <tr class="card-text" :key="mID">
-                  <td>
-                    <router-link v-bind:to="'/mon/' + mID" custom v-slot="{ navigate }">
-                      <div @click="navigate" class="mouse-hover">{{$t('monster.name.' + mID )}}</div>
-                    </router-link>
-                  </td>
-                  <td>
-                    <div class="text-right item-rate-text">{{ $t(link.rank)}}</div>
-                  </td>
-                  <td>
-                    <div class="text-right item-rate-text">{{$t('item.' + link.method)}}</div>
-                  </td>
-                  <td>
-                    <div class="text-right item-rate-text">
-                      {{
-                      (link.num>1 ? '(x' + link.num +') ':"") + link.rate + ' %'}}
-                    </div>
-                  </td>
-                </tr>
+              <template v-for="(list, mID) in sourcedata.large_monsters">
+                <template v-for="(link,i) in list">
+                  <tr class="card-text" :key="mID +'_'+ i">
+                    <td>
+                      <router-link v-bind:to="'/mon/' + mID" custom v-slot="{ navigate }">
+                        <div @click="navigate" class="mouse-hover">{{$t('monster.name.' + mID )}}</div>
+                      </router-link>
+                    </td>
+                    <td>
+                      <div class="text-right item-rate-text">{{ $t(link.rank)}}</div>
+                    </td>
+                    <td>
+                      <div class>{{$t('item.' + link.method)}}</div>
+                    </td>
+                    <td>
+                      <div class="text-right item-rate-text">
+                        {{
+                        (link.num>1 ? '(x' + link.num +') ':"") + link.rate + ' %'}}
+                      </div>
+                    </td>
+                  </tr>
+                </template>
               </template>
             </tbody>
           </table>
@@ -81,29 +83,31 @@
                 <th>{{$t('item.method')}}</th>
                 <th>{{$t('rate')}}</th>
               </tr>
-              <template v-for="(link, mID) in sourcedata.small_monsters">
-                <tr class="card-text" :key="mID">
-                  <td>
-                    <router-link v-bind:to="'/smon/' + mID" custom v-slot="{ navigate }">
-                      <div
-                        @click="navigate"
-                        class="mouse-hover"
-                      >{{$t('small_monster.name.' + mID )}}</div>
-                    </router-link>
-                  </td>
-                  <td>
-                    <div class="text-right item-rate-text">{{ $t(link.rank)}}</div>
-                  </td>
-                  <td>
-                    <div class="text-right item-rate-text">{{$t('item.' + link.method)}}</div>
-                  </td>
-                  <td>
-                    <div class="text-right item-rate-text">
-                      {{
-                      (link.num>1 ? '(x' + link.num + ') ' :"") + link.rate + ' %'}}
-                    </div>
-                  </td>
-                </tr>
+              <template v-for="(list, mID) in sourcedata.small_monsters">
+                <template v-for="(link,i) in list">
+                  <tr class="card-text" :key="mID+'_'+ i">
+                    <td>
+                      <router-link v-bind:to="'/smon/' + mID" custom v-slot="{ navigate }">
+                        <div
+                          @click="navigate"
+                          class="mouse-hover"
+                        >{{$t('small_monster.name.' + mID )}}</div>
+                      </router-link>
+                    </td>
+                    <td>
+                      <div class="text-right item-rate-text">{{ $t(link.rank)}}</div>
+                    </td>
+                    <td>
+                      <div class>{{$t('item.' + link.method)}}</div>
+                    </td>
+                    <td>
+                      <div class="text-right item-rate-text">
+                        {{
+                        (link.num>1 ? '(x' + link.num + ') ' :"") + link.rate + ' %'}}
+                      </div>
+                    </td>
+                  </tr>
+                </template>
               </template>
             </tbody>
           </table>

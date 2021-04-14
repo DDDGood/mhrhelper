@@ -175,15 +175,15 @@ function ExportItemSource() {
                     itemSource[iID].large_monsters = {}
                 }
                 if (itemSource[iID].large_monsters[mID] === undefined) {
-                    itemSource[iID].large_monsters[mID] = {}
+                    itemSource[iID].large_monsters[mID] = []
                 }
                 for (let method in link) {
-                    itemSource[iID].large_monsters[mID] = {
+                    itemSource[iID].large_monsters[mID].push({
                         'rank': rank,
                         'method': method,
                         'num': link[method].num,
                         'rate': link[method].rate
-                    }
+                    });
                 }
             }
         }
@@ -200,15 +200,15 @@ function ExportItemSource() {
                     itemSource[iID].small_monsters = {}
                 }
                 if (itemSource[iID].small_monsters[mID] === undefined) {
-                    itemSource[iID].small_monsters[mID] = {}
+                    itemSource[iID].small_monsters[mID] = []
                 }
                 for (let method in link) {
-                    itemSource[iID].small_monsters[mID] = {
+                    itemSource[iID].small_monsters[mID].push({
                         'rank': rank,
                         'method': method,
                         'num': link[method].num,
                         'rate': link[method].rate
-                    }
+                    })
                 }
             }
         }
