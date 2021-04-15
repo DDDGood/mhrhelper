@@ -23,7 +23,6 @@
       "weakness": {
         "weapon": [
           {
-            "condition": "通常",
             "cut": "頭>尾尖",
             "blunt": "頭/尾尖",
             "ammo": "頭/尾尖"
@@ -387,7 +386,6 @@
       "weakness": {
         "weapon": [
           {
-            "condition": "通常",
             "cut": "屁股",
             "blunt": "屁股",
             "ammo": "上半身>頭"
@@ -404,20 +402,20 @@
         ],
         "aliment": [
           {
-            "poison": "2",
+            "poison": "3",
             "stun": "2",
-            "paralysis": "2",
-            "sleep": "2",
+            "paralysis": "3",
+            "sleep": "3",
             "blast": "2",
-            "riding": ""
+            "riding": "3"
           }
         ],
         "item": [
           {
-            "fire_aliment": "",
-            "water_aliment": "",
-            "thunder_aliment": "",
-            "ice_aliment": "",
+            "fire_aliment": "2",
+            "water_aliment": "1",
+            "thunder_aliment": "1",
+            "ice_aliment": "1",
             "shocktrap": "2",
             "pitfalltrap": "2",
             "flashpod": "2"
@@ -803,12 +801,11 @@
         "wind": "小",
         "tremor": "-",
         "element": "火",
-        "aliment": "中毒、燃燒"
+        "aliment": "毒"
       },
       "weakness": {
         "weapon": [
           {
-            "condition": "通常",
             "cut": "頭",
             "blunt": "頭",
             "ammo": "頭"
@@ -825,20 +822,20 @@
         ],
         "aliment": [
           {
-            "poison": "1",
-            "stun": "3",
-            "paralysis": "2",
-            "sleep": "2",
-            "blast": "1",
-            "riding": ""
+            "poison": "0",
+            "stun": "1",
+            "paralysis": "1",
+            "sleep": "1",
+            "blast": "0",
+            "riding": "1"
           }
         ],
         "item": [
           {
-            "fire_aliment": "",
-            "water_aliment": "",
-            "thunder_aliment": "",
-            "ice_aliment": "",
+            "fire_aliment": "1",
+            "water_aliment": "1",
+            "thunder_aliment": "2",
+            "ice_aliment": "1",
             "shocktrap": "2",
             "pitfalltrap": "2",
             "flashpod": "2"
@@ -1353,49 +1350,55 @@
         "wind": "-",
         "tremor": "-",
         "element": "水",
-        "aliment": "水異常、泡沫"
+        "aliment": "泡"
       },
       "weakness": {
         "weapon": [
           {
-            "condition": "通常",
             "cut": "頭",
             "blunt": "頭",
             "ammo": "頭>背鰭"
           },
           {
-            "condition": "泡纏",
             "cut": "頭",
             "blunt": "頭",
-            "ammo": "頭>首/背鰭/尾"
+            "ammo": "頭>頸/背鰭/尾",
+            "condition": "泡纏"
           }
         ],
         "element": [
           {
-            "condition": "normal",
             "fire": "1",
             "water": "0",
             "thunder": "3",
             "ice": "1",
             "dragon": "2"
+          },
+          {
+            "fire": "1",
+            "water": "0",
+            "thunder": "3",
+            "ice": "1",
+            "dragon": "2",
+            "condition": "泡纏"
           }
         ],
         "aliment": [
           {
-            "poison": "2",
-            "stun": "2",
-            "paralysis": "2",
-            "sleep": "2",
+            "poison": "1",
+            "stun": "1",
+            "paralysis": "1",
+            "sleep": "1",
             "blast": "2",
-            "riding": ""
+            "riding": "1"
           }
         ],
         "item": [
           {
-            "fire_aliment": "",
-            "water_aliment": "",
-            "thunder_aliment": "",
-            "ice_aliment": "",
+            "fire_aliment": "1",
+            "water_aliment": "1",
+            "thunder_aliment": "2",
+            "ice_aliment": "1",
             "shocktrap": "2",
             "pitfalltrap": "2",
             "flashpod": "2"
@@ -1992,7 +1995,7 @@
       "breakables": "-",
       "threat_level": "7",
       "trait": {
-        "roar": "大",
+        "roar": "小",
         "wind": "-",
         "tremor": "-",
         "element": "-",
@@ -2001,16 +2004,15 @@
       "weakness": {
         "weapon": [
           {
-            "condition": "通常",
             "cut": "頭",
             "blunt": "頭",
             "ammo": "腕刃/尾尖"
           },
           {
-            "condition": "鬼火",
             "cut": "背中>頭",
             "blunt": "背中>頭",
-            "ammo": "背中"
+            "ammo": "背中",
+            "condition": "鬼火"
           }
         ],
         "element": [
@@ -2022,12 +2024,33 @@
             "dragon": "0"
           },
           {
-            "condition": "鬼火",
             "fire": "0",
             "water": "3",
             "thunder": "3",
             "ice": "1",
-            "dragon": "0"
+            "dragon": "0",
+            "condition": "鬼火"
+          }
+        ],
+        "aliment": [
+          {
+            "poison": "1",
+            "stun": "1",
+            "paralysis": "1",
+            "sleep": "1",
+            "blast": "0",
+            "riding": "1"
+          }
+        ],
+        "item": [
+          {
+            "fire_aliment": "1",
+            "water_aliment": "2",
+            "thunder_aliment": "1",
+            "ice_aliment": "1",
+            "shocktrap": "2",
+            "pitfalltrap": "2",
+            "flashpod": "2"
           }
         ]
       },
@@ -2892,6 +2915,52 @@
             }
           }
         }
+      },
+      "trait": {
+        "roar": "小",
+        "wind": "-",
+        "tremor": "大",
+        "element": "水",
+        "aliment": "-"
+      },
+      "weakness": {
+        "weapon": [
+          {
+            "cut": "頭",
+            "blunt": "頭",
+            "ammo": "頭"
+          }
+        ],
+        "element": [
+          {
+            "fire": "2",
+            "water": "0",
+            "thunder": "3",
+            "ice": "1",
+            "dragon": "1"
+          }
+        ],
+        "aliment": [
+          {
+            "poison": "1",
+            "stun": "1",
+            "paralysis": "3",
+            "sleep": "1",
+            "blast": "2",
+            "riding": "1"
+          }
+        ],
+        "item": [
+          {
+            "fire_aliment": "1",
+            "water_aliment": "1",
+            "thunder_aliment": "2",
+            "ice_aliment": "1",
+            "shocktrap": "2",
+            "pitfalltrap": "2",
+            "flashpod": "2"
+          }
+        ]
       }
     },
     "aknosom": {
@@ -2908,9 +2977,9 @@
       "breakables": "-",
       "threat_level": "2",
       "trait": {
-        "roar": "？",
-        "wind": "？",
-        "tremor": "？",
+        "roar": "小",
+        "wind": "小",
+        "tremor": "-",
         "element": "火",
         "aliment": "-"
       },
@@ -3267,6 +3336,45 @@
             }
           }
         }
+      },
+      "weakness": {
+        "weapon": [
+          {
+            "cut": "頭/傘/翼",
+            "blunt": "頭",
+            "ammo": "頭"
+          }
+        ],
+        "element": [
+          {
+            "fire": "0",
+            "water": "3",
+            "thunder": "2",
+            "ice": "1",
+            "dragon": "0"
+          }
+        ],
+        "aliment": [
+          {
+            "poison": "1",
+            "stun": "1",
+            "paralysis": "1",
+            "sleep": "1",
+            "blast": "2",
+            "riding": "1"
+          }
+        ],
+        "item": [
+          {
+            "fire_aliment": "1",
+            "water_aliment": "2",
+            "thunder_aliment": "1",
+            "ice_aliment": "1",
+            "shocktrap": "2",
+            "pitfalltrap": "2",
+            "flashpod": "2"
+          }
+        ]
       }
     },
     "somnacanth": {
@@ -3283,11 +3391,11 @@
       "breakables": "-",
       "threat_level": "5",
       "trait": {
-        "roar": "？",
-        "wind": "？",
-        "tremor": "？",
-        "element": "-",
-        "aliment": "睡眠"
+        "roar": "大",
+        "wind": "-",
+        "tremor": "-",
+        "element": "水",
+        "aliment": "睡眠>閃光>爆破"
       },
       "hitdata": {
         "parts": [
@@ -3646,6 +3754,45 @@
             }
           }
         }
+      },
+      "weakness": {
+        "weapon": [
+          {
+            "cut": "頸>頭",
+            "blunt": "頸>頭/尾",
+            "ammo": "頸"
+          }
+        ],
+        "element": [
+          {
+            "fire": "2",
+            "water": "0",
+            "thunder": "3",
+            "ice": "0",
+            "dragon": "0"
+          }
+        ],
+        "aliment": [
+          {
+            "poison": "1",
+            "stun": "1",
+            "paralysis": "1",
+            "sleep": "0",
+            "blast": "2",
+            "riding": "1"
+          }
+        ],
+        "item": [
+          {
+            "fire_aliment": "1",
+            "water_aliment": "1",
+            "thunder_aliment": "2",
+            "ice_aliment": "1",
+            "shocktrap": "2",
+            "pitfalltrap": "2",
+            "flashpod": "2"
+          }
+        ]
       }
     },
     "khezu": {
@@ -3664,7 +3811,7 @@
       "threat_level": "2",
       "trait": {
         "roar": "大",
-        "wind": "大",
+        "wind": "小",
         "tremor": "-",
         "element": "雷",
         "aliment": "麻痺"
@@ -3672,7 +3819,7 @@
       "weakness": {
         "weapon": [
           {
-            "cut": "頸>頭",
+            "cut": "頭/頸",
             "blunt": "頭",
             "ammo": "頭"
           }
@@ -3688,20 +3835,20 @@
         ],
         "aliment": [
           {
-            "poison": "2",
-            "stun": "2",
-            "paralysis": "2",
-            "sleep": "2",
+            "poison": "3",
+            "stun": "1",
+            "paralysis": "0",
+            "sleep": "1",
             "blast": "2",
-            "riding": ""
+            "riding": "0"
           }
         ],
         "item": [
           {
-            "fire_aliment": "",
-            "water_aliment": "",
-            "thunder_aliment": "",
-            "ice_aliment": "",
+            "fire_aliment": "2",
+            "water_aliment": "1",
+            "thunder_aliment": "1",
+            "ice_aliment": "1",
             "shocktrap": "2",
             "pitfalltrap": "2",
             "flashpod": "0"
@@ -4125,8 +4272,8 @@
       "weakness": {
         "weapon": [
           {
-            "cut": "鬃毛>腹",
-            "blunt": "鬃毛>頭/背",
+            "cut": "鬃毛",
+            "blunt": "頭>鬃毛",
             "ammo": "頭"
           }
         ],
@@ -4141,20 +4288,20 @@
         ],
         "aliment": [
           {
-            "poison": "2",
-            "stun": "2",
-            "paralysis": "2",
-            "sleep": "2",
+            "poison": "1",
+            "stun": "1",
+            "paralysis": "1",
+            "sleep": "1",
             "blast": "2",
-            "riding": ""
+            "riding": "1"
           }
         ],
         "item": [
           {
-            "fire_aliment": "",
-            "water_aliment": "",
-            "thunder_aliment": "",
-            "ice_aliment": "",
+            "fire_aliment": "2",
+            "water_aliment": "1",
+            "thunder_aliment": "1",
+            "ice_aliment": "1",
             "shocktrap": "2",
             "pitfalltrap": "2",
             "flashpod": "2"
@@ -4559,17 +4706,17 @@
       "breakables": "頭、翼、背、尾",
       "threat_level": "6",
       "trait": {
-        "roar": "大",
-        "wind": "大",
+        "roar": "小",
+        "wind": "小",
         "tremor": "-",
         "element": "火",
-        "aliment": "毒、燃燒"
+        "aliment": "毒"
       },
       "weakness": {
         "weapon": [
           {
-            "cut": "頭>翼>尾",
-            "blunt": "頭>翼",
+            "cut": "頭",
+            "blunt": "頭",
             "ammo": "頭"
           }
         ],
@@ -4584,20 +4731,20 @@
         ],
         "aliment": [
           {
-            "poison": "1",
-            "stun": "2",
-            "paralysis": "2",
-            "sleep": "2",
-            "blast": "1",
-            "riding": ""
+            "poison": "0",
+            "stun": "1",
+            "paralysis": "1",
+            "sleep": "1",
+            "blast": "0",
+            "riding": "1"
           }
         ],
         "item": [
           {
-            "fire_aliment": "",
-            "water_aliment": "",
-            "thunder_aliment": "",
-            "ice_aliment": "",
+            "fire_aliment": "1",
+            "water_aliment": "1",
+            "thunder_aliment": "2",
+            "ice_aliment": "1",
             "shocktrap": "2",
             "pitfalltrap": "2",
             "flashpod": "2"
@@ -5077,9 +5224,9 @@
       "weakness": {
         "weapon": [
           {
-            "cut": "頭",
-            "blunt": "頭",
-            "ammo": "頭"
+            "cut": "舌>頭",
+            "blunt": "舌>頭",
+            "ammo": "舌>頭"
           }
         ],
         "element": [
@@ -5093,20 +5240,20 @@
         ],
         "aliment": [
           {
-            "poison": "1",
-            "stun": "2",
+            "poison": "0",
+            "stun": "1",
             "paralysis": "3",
             "sleep": "3",
             "blast": "2",
-            "riding": ""
+            "riding": "1"
           }
         ],
         "item": [
           {
-            "fire_aliment": "",
-            "water_aliment": "",
-            "thunder_aliment": "",
-            "ice_aliment": "",
+            "fire_aliment": "1",
+            "water_aliment": "1",
+            "thunder_aliment": "2",
+            "ice_aliment": "1",
             "shocktrap": "2",
             "pitfalltrap": "2",
             "flashpod": "2"
@@ -5512,9 +5659,9 @@
       "weakness": {
         "weapon": [
           {
-            "cut": "頭>前腳",
-            "blunt": "頭>前腳",
-            "ammo": "頭>前腳"
+            "cut": "頭",
+            "blunt": "頭",
+            "ammo": "頭"
           }
         ],
         "element": [
@@ -5528,20 +5675,20 @@
         ],
         "aliment": [
           {
-            "poison": "2",
+            "poison": "1",
             "stun": "2",
-            "paralysis": "2",
-            "sleep": "2",
+            "paralysis": "1",
+            "sleep": "1",
             "blast": "2",
-            "riding": ""
+            "riding": "1"
           }
         ],
         "item": [
           {
-            "fire_aliment": "",
-            "water_aliment": "",
-            "thunder_aliment": "",
-            "ice_aliment": "",
+            "fire_aliment": "1",
+            "water_aliment": "2",
+            "thunder_aliment": "1",
+            "ice_aliment": "1",
             "shocktrap": "2",
             "pitfalltrap": "2",
             "flashpod": "2"
@@ -5867,9 +6014,9 @@
       "weakness": {
         "weapon": [
           {
-            "cut": "尾>頭/頸",
-            "blunt": "尾>頭/頸",
-            "ammo": "尾>背"
+            "cut": "尾",
+            "blunt": "尾",
+            "ammo": "尾"
           }
         ],
         "element": [
@@ -5884,19 +6031,19 @@
         "aliment": [
           {
             "poison": "3",
-            "stun": "2",
-            "paralysis": "2",
-            "sleep": "2",
+            "stun": "1",
+            "paralysis": "1",
+            "sleep": "1",
             "blast": "2",
-            "riding": ""
+            "riding": "1"
           }
         ],
         "item": [
           {
-            "fire_aliment": "",
-            "water_aliment": "",
-            "thunder_aliment": "",
-            "ice_aliment": "",
+            "fire_aliment": "1",
+            "water_aliment": "2",
+            "thunder_aliment": "1",
+            "ice_aliment": "1",
             "shocktrap": "2",
             "pitfalltrap": "2",
             "flashpod": "2"
@@ -6281,18 +6428,18 @@
       "breakables": "頭、尾",
       "threat_level": "6",
       "trait": {
-        "roar": "小",
+        "roar": "大",
         "wind": "小",
-        "tremor": "小",
+        "tremor": "-",
         "element": "火",
         "aliment": "-"
       },
       "weakness": {
         "weapon": [
           {
-            "cut": "鼻/翼>頭",
+            "cut": "鼻>頭",
             "blunt": "鼻>頭",
-            "ammo": "鼻/翼"
+            "ammo": "鼻>頭"
           }
         ],
         "element": [
@@ -6306,20 +6453,20 @@
         ],
         "aliment": [
           {
-            "poison": "2",
-            "stun": "2",
-            "paralysis": "2",
-            "sleep": "2",
+            "poison": "1",
+            "stun": "1",
+            "paralysis": "1",
+            "sleep": "1",
             "blast": "1",
-            "riding": ""
+            "riding": "1"
           }
         ],
         "item": [
           {
-            "fire_aliment": "",
-            "water_aliment": "",
-            "thunder_aliment": "",
-            "ice_aliment": "",
+            "fire_aliment": "1",
+            "water_aliment": "2",
+            "thunder_aliment": "1",
+            "ice_aliment": "1",
             "shocktrap": "2",
             "pitfalltrap": "2",
             "flashpod": "2"
@@ -6768,24 +6915,24 @@
       "breakables": "頭、尾",
       "threat_level": "4",
       "trait": {
-        "roar": "-",
+        "roar": "小",
         "wind": "-",
         "tremor": "-",
         "element": "水",
-        "aliment": "泥纏"
+        "aliment": "-"
       },
       "weakness": {
         "weapon": [
           {
-            "cut": "頭>尾",
-            "blunt": "頭>尾",
-            "ammo": "頭>尾"
+            "cut": "頭",
+            "blunt": "頭",
+            "ammo": "頭"
           },
           {
-            "condition": "泥纏",
             "cut": "頭/尾",
             "blunt": "頭/尾",
-            "ammo": "頸>頭/尾"
+            "ammo": "頸>頭/尾",
+            "condition": "泥纏"
           }
         ],
         "element": [
@@ -6797,30 +6944,30 @@
             "dragon": "1"
           },
           {
-            "condition": "泥纏",
             "fire": "1",
             "water": "3",
-            "thunder": "2",
+            "thunder": "0",
             "ice": "1",
-            "dragon": "1"
+            "dragon": "1",
+            "condition": "泥纏"
           }
         ],
         "aliment": [
           {
-            "poison": "2",
-            "stun": "3",
-            "paralysis": "2",
-            "sleep": "1",
-            "blast": "1",
-            "riding": ""
+            "poison": "1",
+            "stun": "2",
+            "paralysis": "1",
+            "sleep": "0",
+            "blast": "0",
+            "riding": "3"
           }
         ],
         "item": [
           {
-            "fire_aliment": "",
-            "water_aliment": "",
-            "thunder_aliment": "",
-            "ice_aliment": "",
+            "fire_aliment": "1",
+            "water_aliment": "1",
+            "thunder_aliment": "2",
+            "ice_aliment": "1",
             "shocktrap": "2",
             "pitfalltrap": "2",
             "flashpod": "2"
@@ -7150,20 +7297,20 @@
         ],
         "aliment": [
           {
-            "poison": "1",
-            "stun": "2",
-            "paralysis": "2",
-            "sleep": "2",
+            "poison": "0",
+            "stun": "1",
+            "paralysis": "3",
+            "sleep": "3",
             "blast": "2",
-            "riding": ""
+            "riding": "1"
           }
         ],
         "item": [
           {
-            "fire_aliment": "",
-            "water_aliment": "",
-            "thunder_aliment": "",
-            "ice_aliment": "",
+            "fire_aliment": "1",
+            "water_aliment": "1",
+            "thunder_aliment": "1",
+            "ice_aliment": "2",
             "shocktrap": "2",
             "pitfalltrap": "2",
             "flashpod": "2"
@@ -7427,11 +7574,11 @@
       "breakables": "-",
       "threat_level": "4",
       "trait": {
-        "roar": "？",
-        "wind": "？",
-        "tremor": "？",
+        "roar": "小",
+        "wind": "小",
+        "tremor": "-",
         "element": "-",
-        "aliment": "毒"
+        "aliment": "毒>閃光>麻痺"
       },
       "hitdata": {
         "parts": [
@@ -7812,6 +7959,45 @@
             }
           }
         }
+      },
+      "weakness": {
+        "weapon": [
+          {
+            "cut": "頭>尾",
+            "blunt": "頭",
+            "ammo": "頭"
+          }
+        ],
+        "element": [
+          {
+            "fire": "2",
+            "water": "0",
+            "thunder": "1",
+            "ice": "3",
+            "dragon": "0"
+          }
+        ],
+        "aliment": [
+          {
+            "poison": "1",
+            "stun": "1",
+            "paralysis": "1",
+            "sleep": "1",
+            "blast": "2",
+            "riding": "1"
+          }
+        ],
+        "item": [
+          {
+            "fire_aliment": "1",
+            "water_aliment": "1",
+            "thunder_aliment": "1",
+            "ice_aliment": "2",
+            "shocktrap": "2",
+            "pitfalltrap": "2",
+            "flashpod": "2"
+          }
+        ]
       }
     },
     "goss_harag": {
@@ -7828,9 +8014,9 @@
       "breakables": "-",
       "threat_level": "7",
       "trait": {
-        "roar": "？",
-        "wind": "？",
-        "tremor": "？",
+        "roar": "小",
+        "wind": "-",
+        "tremor": "-",
         "element": "氷",
         "aliment": "-"
       },
@@ -8311,6 +8497,59 @@
             }
           }
         }
+      },
+      "weakness": {
+        "weapon": [
+          {
+            "cut": "冰塊>頭",
+            "blunt": "冰塊>頭",
+            "ammo": "頭>冰塊"
+          },
+          {
+            "cut": "冰塊>頭/前腳",
+            "blunt": "冰塊>前腳>頭",
+            "ammo": "頭>冰塊",
+            "condition": "過熱時"
+          }
+        ],
+        "element": [
+          {
+            "fire": "3",
+            "water": "0",
+            "thunder": "2",
+            "ice": "0",
+            "dragon": "0"
+          },
+          {
+            "fire": "2",
+            "water": "0",
+            "thunder": "2",
+            "ice": "0",
+            "dragon": "0",
+            "condition": "過熱時"
+          }
+        ],
+        "aliment": [
+          {
+            "poison": "1",
+            "stun": "1",
+            "paralysis": "1",
+            "sleep": "1",
+            "blast": "2",
+            "riding": "0"
+          }
+        ],
+        "item": [
+          {
+            "fire_aliment": "2",
+            "water_aliment": "1",
+            "thunder_aliment": "1",
+            "ice_aliment": "1",
+            "shocktrap": "2",
+            "pitfalltrap": "2",
+            "flashpod": "2"
+          }
+        ]
       }
     },
     "great_baggi": {
@@ -8353,20 +8592,20 @@
         ],
         "aliment": [
           {
-            "poison": "2",
-            "stun": "2",
-            "paralysis": "2",
-            "sleep": "2",
-            "blast": "2",
-            "riding": ""
+            "poison": "1",
+            "stun": "1",
+            "paralysis": "3",
+            "sleep": "0",
+            "blast": "3",
+            "riding": "3"
           }
         ],
         "item": [
           {
-            "fire_aliment": "",
-            "water_aliment": "",
-            "thunder_aliment": "",
-            "ice_aliment": "",
+            "fire_aliment": "2",
+            "water_aliment": "1",
+            "thunder_aliment": "1",
+            "ice_aliment": "1",
             "shocktrap": "2",
             "pitfalltrap": "2",
             "flashpod": "2"
@@ -8633,15 +8872,15 @@
       "trait": {
         "roar": "-",
         "wind": "-",
-        "tremor": "-",
+        "tremor": "小",
         "element": "氷",
-        "aliment": "雪だるま"
+        "aliment": "-"
       },
       "weakness": {
         "weapon": [
           {
-            "cut": "屁股>頭",
-            "blunt": "頭>屁股",
+            "cut": "屁股",
+            "blunt": "頭",
             "ammo": "頭"
           }
         ],
@@ -8656,20 +8895,20 @@
         ],
         "aliment": [
           {
-            "poison": "2",
+            "poison": "3",
             "stun": "2",
-            "paralysis": "2",
-            "sleep": "2",
-            "blast": "2",
-            "riding": ""
+            "paralysis": "3",
+            "sleep": "1",
+            "blast": "3",
+            "riding": "1"
           }
         ],
         "item": [
           {
-            "fire_aliment": "",
-            "water_aliment": "",
-            "thunder_aliment": "",
-            "ice_aliment": "",
+            "fire_aliment": "2",
+            "water_aliment": "1",
+            "thunder_aliment": "1",
+            "ice_aliment": "1",
             "shocktrap": "2",
             "pitfalltrap": "2",
             "flashpod": "2"
@@ -8998,9 +9237,9 @@
       "breakables": "牙、爪、尾",
       "threat_level": "5",
       "trait": {
-        "roar": "大",
-        "wind": "大 小",
-        "tremor": "小",
+        "roar": "小",
+        "wind": "小",
+        "tremor": "-",
         "element": "氷",
         "aliment": "-"
       },
@@ -9008,7 +9247,7 @@
         "weapon": [
           {
             "cut": "頭>尾尖",
-            "blunt": "頭>前腳/棘",
+            "blunt": "頭",
             "ammo": "頭>尾"
           }
         ],
@@ -9023,20 +9262,20 @@
         ],
         "aliment": [
           {
-            "poison": "2",
-            "stun": "2",
-            "paralysis": "2",
-            "sleep": "2",
+            "poison": "1",
+            "stun": "1",
+            "paralysis": "1",
+            "sleep": "1",
             "blast": "2",
-            "riding": ""
+            "riding": "1"
           }
         ],
         "item": [
           {
-            "fire_aliment": "",
-            "water_aliment": "",
-            "thunder_aliment": "",
-            "ice_aliment": "",
+            "fire_aliment": "2",
+            "water_aliment": "1",
+            "thunder_aliment": "1",
+            "ice_aliment": "1",
             "shocktrap": "2",
             "pitfalltrap": "2",
             "flashpod": "2"
@@ -9507,8 +9746,8 @@
         "weapon": [
           {
             "cut": "頭>前腳>尾",
-            "blunt": "頭>前腳",
-            "ammo": "頭>前腳"
+            "blunt": "頭",
+            "ammo": "頭"
           }
         ],
         "element": [
@@ -9522,20 +9761,20 @@
         ],
         "aliment": [
           {
-            "poison": "2",
-            "stun": "2",
-            "paralysis": "2",
-            "sleep": "2",
+            "poison": "1",
+            "stun": "1",
+            "paralysis": "1",
+            "sleep": "1",
             "blast": "2",
-            "riding": ""
+            "riding": "1"
           }
         ],
         "item": [
           {
-            "fire_aliment": "",
-            "water_aliment": "",
-            "thunder_aliment": "",
-            "ice_aliment": "",
+            "fire_aliment": "1",
+            "water_aliment": "1",
+            "thunder_aliment": "2",
+            "ice_aliment": "1",
             "shocktrap": "2",
             "pitfalltrap": "2",
             "flashpod": "2"
@@ -10350,6 +10589,66 @@
             }
           }
         }
+      },
+      "trait": {
+        "roar": "小",
+        "wind": "-",
+        "tremor": "-",
+        "element": "水",
+        "aliment": "-"
+      },
+      "weakness": {
+        "weapon": [
+          {
+            "cut": "前腳",
+            "blunt": "前腳",
+            "ammo": "前腳/尾"
+          },
+          {
+            "cut": "前腳",
+            "blunt": "前腳",
+            "ammo": "前腳/尾",
+            "condition": "泥纏"
+          }
+        ],
+        "element": [
+          {
+            "fire": "3",
+            "water": "0",
+            "thunder": "0",
+            "ice": "2",
+            "dragon": "1"
+          },
+          {
+            "fire": "0",
+            "water": "3",
+            "thunder": "0",
+            "ice": "2",
+            "dragon": "0",
+            "condition": "泥纏"
+          }
+        ],
+        "aliment": [
+          {
+            "poison": "3",
+            "stun": "0",
+            "paralysis": "3",
+            "sleep": "1",
+            "blast": "3",
+            "riding": "1"
+          }
+        ],
+        "item": [
+          {
+            "fire_aliment": "2",
+            "water_aliment": "1",
+            "thunder_aliment": "1",
+            "ice_aliment": "1",
+            "shocktrap": "2",
+            "pitfalltrap": "2",
+            "flashpod": "2"
+          }
+        ]
       }
     },
     "basarios": {
@@ -10371,34 +10670,55 @@
         "wind": "-",
         "tremor": "-",
         "element": "火",
-        "aliment": "毒、睡眠"
+        "aliment": "毒>睡眠"
       },
       "weakness": {
+        "weapon": [
+          {
+            "cut": "腹破壞後",
+            "blunt": "腹破壞後",
+            "ammo": "背破壞後"
+          },
+          {
+            "cut": "腹",
+            "blunt": "頭/腹",
+            "ammo": "背>腹",
+            "condition": "赤熱化時"
+          }
+        ],
         "element": [
           {
-            "fire": "1",
+            "fire": "2",
             "water": "2",
             "thunder": "1",
             "ice": "1",
             "dragon": "3"
+          },
+          {
+            "fire": "2",
+            "water": "2",
+            "thunder": "1",
+            "ice": "1",
+            "dragon": "3",
+            "condition": "赤熱化時"
           }
         ],
         "aliment": [
           {
-            "poison": "2",
-            "stun": "2",
-            "paralysis": "2",
-            "sleep": "2",
+            "poison": "1",
+            "stun": "1",
+            "paralysis": "1",
+            "sleep": "3",
             "blast": "2",
-            "riding": ""
+            "riding": "1"
           }
         ],
         "item": [
           {
-            "fire_aliment": "",
-            "water_aliment": "",
-            "thunder_aliment": "",
-            "ice_aliment": "",
+            "fire_aliment": "1",
+            "water_aliment": "2",
+            "thunder_aliment": "1",
+            "ice_aliment": "1",
             "shocktrap": "2",
             "pitfalltrap": "2",
             "flashpod": "2"
@@ -11039,16 +11359,16 @@
       "trait": {
         "roar": "-",
         "wind": "-",
-        "tremor": "-",
+        "tremor": "小",
         "element": "-",
-        "aliment": "麻痺"
+        "aliment": "麻痺>異臭"
       },
       "weakness": {
         "weapon": [
           {
-            "cut": "滾動中>頭",
-            "blunt": "滾動中>頭",
-            "ammo": "滾動中>頭"
+            "cut": "頭",
+            "blunt": "頭",
+            "ammo": "頭"
           }
         ],
         "element": [
@@ -11062,20 +11382,20 @@
         ],
         "aliment": [
           {
-            "poison": "2",
+            "poison": "1",
             "stun": "2",
-            "paralysis": "2",
-            "sleep": "2",
+            "paralysis": "1",
+            "sleep": "1",
             "blast": "2",
-            "riding": ""
+            "riding": "1"
           }
         ],
         "item": [
           {
-            "fire_aliment": "",
-            "water_aliment": "",
-            "thunder_aliment": "",
-            "ice_aliment": "",
+            "fire_aliment": "1",
+            "water_aliment": "2",
+            "thunder_aliment": "1",
+            "ice_aliment": "1",
             "shocktrap": "2",
             "pitfalltrap": "2",
             "flashpod": "2"
@@ -11436,8 +11756,8 @@
       "threat_level": "7",
       "trait": {
         "roar": "大",
-        "wind": "小",
-        "tremor": "小",
+        "wind": "-",
+        "tremor": "-",
         "element": "-",
         "aliment": "-"
       },
@@ -11446,7 +11766,7 @@
           {
             "cut": "腹>尾>頭",
             "blunt": "腹>頭",
-            "ammo": "翼>尾"
+            "ammo": "翼"
           }
         ],
         "element": [
@@ -11460,20 +11780,20 @@
         ],
         "aliment": [
           {
-            "poison": "2",
-            "stun": "1",
+            "poison": "1",
+            "stun": "0",
             "paralysis": "3",
-            "sleep": "2",
+            "sleep": "1",
             "blast": "2",
-            "riding": ""
+            "riding": "1"
           }
         ],
         "item": [
           {
-            "fire_aliment": "",
-            "water_aliment": "",
-            "thunder_aliment": "",
-            "ice_aliment": "",
+            "fire_aliment": "1",
+            "water_aliment": "1",
+            "thunder_aliment": "1",
+            "ice_aliment": "2",
             "shocktrap": "2",
             "pitfalltrap": "2",
             "flashpod": "2"
@@ -11901,7 +12221,7 @@
       "trait": {
         "roar": "大",
         "wind": "-",
-        "tremor": "大 小",
+        "tremor": "大",
         "element": "雷",
         "aliment": "-"
       },
@@ -11913,10 +12233,10 @@
             "ammo": "頭"
           },
           {
-            "condition": "鬥氣硬化",
-            "cut": "頭>尾",
+            "cut": "頭/尾",
             "blunt": "頭>尾",
-            "ammo": "頭"
+            "ammo": "頭/尾",
+            "condition": "鬥氣硬化"
           }
         ],
         "element": [
@@ -11926,37 +12246,35 @@
             "thunder": "0",
             "ice": "3",
             "dragon": "0"
+          },
+          {
+            "fire": "0",
+            "water": "1",
+            "thunder": "0",
+            "ice": "3",
+            "dragon": "0",
+            "condition": "鬥氣硬化"
           }
         ],
         "aliment": [
           {
-            "poison": "1",
-            "stun": "1",
-            "paralysis": "1",
-            "sleep": "1",
+            "poison": "0",
+            "stun": "0",
+            "paralysis": "0",
+            "sleep": "0",
             "blast": "2",
-            "riding": ""
+            "riding": "0"
           }
         ],
         "item": [
           {
-            "fire_aliment": "",
-            "water_aliment": "",
-            "thunder_aliment": "",
-            "ice_aliment": "",
-            "shocktrap": "2",
-            "pitfalltrap": "0",
-            "flashpod": "2"
-          },
-          {
-            "condition": "鬥氣硬化",
-            "fire_aliment": "",
-            "water_aliment": "",
-            "thunder_aliment": "",
-            "ice_aliment": "",
-            "shocktrap": "0",
-            "pitfalltrap": "2",
-            "flashpod": "2"
+            "fire_aliment": "1",
+            "water_aliment": "1",
+            "thunder_aliment": "1",
+            "ice_aliment": "2",
+            "shocktrap": "※",
+            "pitfalltrap": "※",
+            "flashpod": "○"
           }
         ]
       },
@@ -12213,18 +12531,48 @@
       "breakables": "-",
       "threat_level": "7",
       "trait": {
-        "roar": "？",
-        "wind": "？",
-        "tremor": "？",
+        "roar": "大",
+        "wind": "-",
+        "tremor": "-",
         "element": "火",
-        "aliment": "絲纏"
+        "aliment": "糸"
       },
       "weakness": {
         "weapon": [
           {
-            "cut": "頭>前腳",
-            "blunt": "頭>前腳",
-            "ammo": "頭>前腳"
+            "cut": "頭",
+            "blunt": "頭",
+            "ammo": "頭"
+          }
+        ],
+        "element": [
+          {
+            "fire": "0",
+            "water": "2",
+            "thunder": "0",
+            "ice": "3",
+            "dragon": "0"
+          }
+        ],
+        "aliment": [
+          {
+            "poison": "0",
+            "stun": "1",
+            "paralysis": "1",
+            "sleep": "1",
+            "blast": "0",
+            "riding": "1"
+          }
+        ],
+        "item": [
+          {
+            "fire_aliment": "1",
+            "water_aliment": "1",
+            "thunder_aliment": "1",
+            "ice_aliment": "2",
+            "shocktrap": "2",
+            "pitfalltrap": "2",
+            "flashpod": "2"
           }
         ]
       },
@@ -12447,11 +12795,11 @@
       "breakables": "-",
       "threat_level": "7",
       "trait": {
-        "roar": "？",
-        "wind": "？",
-        "tremor": "？",
+        "roar": "大",
+        "wind": "-",
+        "tremor": "-",
         "element": "水",
-        "aliment": "泥纏"
+        "aliment": "-"
       },
       "weakness": {
         "weapon": [
@@ -12468,6 +12816,27 @@
             "thunder": "1",
             "ice": "2",
             "dragon": "1"
+          }
+        ],
+        "aliment": [
+          {
+            "poison": "1",
+            "stun": "1",
+            "paralysis": "1",
+            "sleep": "1",
+            "blast": "0",
+            "riding": "1"
+          }
+        ],
+        "item": [
+          {
+            "fire_aliment": "2",
+            "water_aliment": "1",
+            "thunder_aliment": "1",
+            "ice_aliment": "1",
+            "shocktrap": "2",
+            "pitfalltrap": "2",
+            "flashpod": "2"
           }
         ]
       },
@@ -13403,6 +13772,52 @@
             }
           }
         }
+      },
+      "trait": {
+        "roar": "小",
+        "wind": "-",
+        "tremor": "-",
+        "element": "-",
+        "aliment": "-"
+      },
+      "weakness": {
+        "weapon": [
+          {
+            "cut": "頭",
+            "blunt": "頭",
+            "ammo": "尾"
+          }
+        ],
+        "element": [
+          {
+            "fire": "2",
+            "water": "0",
+            "thunder": "3",
+            "ice": "1",
+            "dragon": "1"
+          }
+        ],
+        "aliment": [
+          {
+            "poison": "1",
+            "stun": "1",
+            "paralysis": "1",
+            "sleep": "1",
+            "blast": "2",
+            "riding": "1"
+          }
+        ],
+        "item": [
+          {
+            "fire_aliment": "1",
+            "water_aliment": "1",
+            "thunder_aliment": "2",
+            "ice_aliment": "1",
+            "shocktrap": "2",
+            "pitfalltrap": "※",
+            "flashpod": "2"
+          }
+        ]
       }
     },
     "zinogre": {
@@ -13421,7 +13836,7 @@
       "threat_level": "6",
       "trait": {
         "roar": "小",
-        "wind": "小",
+        "wind": "大",
         "tremor": "-",
         "element": "雷",
         "aliment": "-"
@@ -13434,48 +13849,46 @@
             "ammo": "頭"
           },
           {
-            "condition": "超帶電",
             "cut": "背>頭",
             "blunt": "頭/背",
-            "ammo": "頭"
+            "ammo": "頭",
+            "condition": "超帶電"
           }
         ],
         "element": [
+          {
+            "fire": "2",
+            "water": "2",
+            "thunder": "0",
+            "ice": "3",
+            "dragon": "1"
+          },
           {
             "fire": "1",
             "water": "2",
             "thunder": "0",
             "ice": "3",
-            "dragon": "1"
+            "dragon": "1",
+            "condition": "超帶電"
           }
         ],
         "aliment": [
           {
-            "poison": "2",
-            "stun": "2",
-            "paralysis": "1",
-            "sleep": "2",
+            "poison": "1",
+            "stun": "1",
+            "paralysis": "0",
+            "sleep": "1",
             "blast": "2",
-            "riding": ""
+            "riding": "1"
           }
         ],
         "item": [
           {
-            "fire_aliment": "",
-            "water_aliment": "",
-            "thunder_aliment": "",
-            "ice_aliment": "",
-            "shocktrap": "2",
-            "pitfalltrap": "2",
-            "flashpod": "2"
-          },
-          {
-            "condition": "超帶電",
-            "fire_aliment": "",
-            "water_aliment": "",
-            "thunder_aliment": "",
-            "ice_aliment": "",
-            "shocktrap": "0",
+            "fire_aliment": "1",
+            "water_aliment": "1",
+            "thunder_aliment": "1",
+            "ice_aliment": "2",
+            "shocktrap": "※",
             "pitfalltrap": "2",
             "flashpod": "2"
           }
@@ -14736,6 +15149,52 @@
       ],
       "hitdata": {
         "parts": []
+      },
+      "trait": {
+        "roar": "？",
+        "wind": "？",
+        "tremor": "？",
+        "element": "-",
+        "aliment": "-"
+      },
+      "weakness": {
+        "weapon": [
+          {
+            "cut": "",
+            "blunt": "",
+            "ammo": ""
+          }
+        ],
+        "element": [
+          {
+            "fire": "",
+            "water": "",
+            "thunder": "",
+            "ice": "",
+            "dragon": ""
+          }
+        ],
+        "aliment": [
+          {
+            "poison": "",
+            "stun": "",
+            "paralysis": "",
+            "sleep": "",
+            "blast": "",
+            "riding": ""
+          }
+        ],
+        "item": [
+          {
+            "fire_aliment": "",
+            "water_aliment": "",
+            "thunder_aliment": "",
+            "ice_aliment": "",
+            "shocktrap": "",
+            "pitfalltrap": "",
+            "flashpod": ""
+          }
+        ]
       }
     }
   }
