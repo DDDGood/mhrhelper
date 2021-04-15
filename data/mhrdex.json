@@ -14027,7 +14027,7 @@
     "wind_serpent_ibushi": {
       "name": {
         "tw": "風神龍",
-        "jp": "",
+        "jp": "イブシマキヒコ",
         "en": "Wind Serpent Ibushi"
       },
       "species": "elder_dragon",
@@ -14037,24 +14037,167 @@
       "description": "經常飄浮在空中，還會以上下顛倒的方式飛行，是擁有不可思議生態的雄性古龍。牠會在身上各部位儲存特殊的氣體，並藉此漂浮。推測其應是透過調整各處的氣體量以自由變換姿勢。牠能夠透過位於臂部與尾巴的鰓噴出大量空氣，自行颳起洶湧之風並乘風而上。牠也由於那飛舞於高空的姿態，而獲名「風神龍」。\n風神龍會將漂浮所需的氣體，儲存於名為「風袋」的器官之中。風袋位於臂部、背部、尾巴等部位。由於該器官非常細緻，只要攻擊這些部位便能使牠失去平衡，也許可以藉此讓牠露出破綻。積極地攻擊這些部位吧。",
       "breakables": "-",
       "threat_level": "9",
-      "parts": [
-        {
-          "name": "尚未公布",
-          "state": "-",
-          "extract": "-",
-          "hitData": [
-            -1,
-            -1,
-            -1,
-            -1,
-            -1,
-            -1,
-            -1,
-            -1,
-            -1
-          ]
-        }
-      ],
+      "trait": {
+        "roar": "強",
+        "wind": "大",
+        "tremor": "-",
+        "element": "龍",
+        "alignment": "-"
+      },
+      "weakness": {
+        "weapon": [
+          {
+            "cut": "胸>頭",
+            "blunt": "胸>頭",
+            "ammo": "胸>頭"
+          }
+        ],
+        "element": [
+          {
+            "fire": "2",
+            "water": "1",
+            "thunder": "0",
+            "ice": "1",
+            "dragon": "3"
+          }
+        ],
+        "aliment": [
+          {
+            "poison": "1",
+            "stun": "1",
+            "paralysis": "1",
+            "sleep": "1",
+            "blast": "2",
+            "riding": "0"
+          }
+        ],
+        "item": [
+          {
+            "fire_aliment": "2",
+            "water_aliment": "1",
+            "thunder_aliment": "1",
+            "ice_aliment": "1",
+            "shocktrap": "0",
+            "pitfalltrap": "0",
+            "flashpod": "2"
+          }
+        ]
+      },
+      "hitdata": {
+        "parts": [
+          {
+            "part": "頭",
+            "cut": "65",
+            "blunt": "70",
+            "ammo": "45",
+            "fire": "20",
+            "water": "10",
+            "thunder": "5",
+            "ice": "10",
+            "dragon": "25"
+          },
+          {
+            "part": "頸",
+            "cut": "35",
+            "blunt": "30",
+            "ammo": "25",
+            "fire": "15",
+            "water": "5",
+            "thunder": "5",
+            "ice": "5",
+            "dragon": "20"
+          },
+          {
+            "part": "身體",
+            "cut": "30",
+            "blunt": "30",
+            "ammo": "25",
+            "fire": "10",
+            "water": "5",
+            "thunder": "5",
+            "ice": "5",
+            "dragon": "10"
+          },
+          {
+            "part": "胸（風袋）",
+            "cut": "80",
+            "blunt": "80",
+            "ammo": "75",
+            "fire": "15",
+            "water": "15",
+            "thunder": "5",
+            "ice": "15",
+            "dragon": "25"
+          },
+          {
+            "part": "翼腕",
+            "cut": "35",
+            "blunt": "30",
+            "ammo": "35",
+            "fire": "5",
+            "water": "5",
+            "thunder": "0",
+            "ice": "5",
+            "dragon": "5"
+          },
+          {
+            "part": "翼腕",
+            "condition": "風袋",
+            "cut": "65",
+            "blunt": "60",
+            "ammo": "40",
+            "fire": "25",
+            "water": "10",
+            "thunder": "5",
+            "ice": "5",
+            "dragon": "25"
+          },
+          {
+            "part": "背中（風袋）",
+            "cut": "60",
+            "blunt": "55",
+            "ammo": "45",
+            "fire": "20",
+            "water": "10",
+            "thunder": "5",
+            "ice": "5",
+            "dragon": "25"
+          },
+          {
+            "part": "足鰭",
+            "cut": "25",
+            "blunt": "25",
+            "ammo": "15",
+            "fire": "10",
+            "water": "5",
+            "thunder": "5",
+            "ice": "5",
+            "dragon": "10"
+          },
+          {
+            "part": "尾巴",
+            "cut": "30",
+            "blunt": "25",
+            "ammo": "10",
+            "fire": "5",
+            "water": "5",
+            "thunder": "5",
+            "ice": "5",
+            "dragon": "10"
+          },
+          {
+            "part": "尾尖（風袋）",
+            "cut": "50",
+            "blunt": "45",
+            "ammo": "40",
+            "fire": "25",
+            "water": "15",
+            "thunder": "5",
+            "ice": "15",
+            "dragon": "35"
+          }
+        ]
+      },
       "items": {
         "high_rank": {
           "ibushi_windsac": {
@@ -14191,7 +14334,7 @@
     "thunder_serpent_narwa": {
       "name": {
         "tw": "雷神龍",
-        "jp": "",
+        "jp": "ナルハタタヒメ",
         "en": "Thunder Serpent Narwa"
       },
       "species": "elder_dragon",
@@ -14201,24 +14344,239 @@
       "description": "與風神龍成對的雌性古龍。擁有能夠儲存電氣，名為「雷袋」的器官，並且能透過蓄電發出光芒。雷袋的電力甚至能製造出強力的磁場，推測牠就是透過這種能力，才能夠讓自己和周圍的物體同時浮至空中。牠也因為那能自由操作雷電的姿態，而被稱為「雷神龍」。\n對儲存著電氣的「雷袋」攻擊，牠就無法順利放電並漂浮至空中。瞄準其腹部脆弱的發電器官攻擊，很容易就能製造出破綻。但由於該部位有腳鰭保護，必須看準時機才能出手。另外，牠的磁場會使周遭環境產生變化，狩獵時可善加利用。",
       "breakables": "-",
       "threat_level": "10",
-      "parts": [
-        {
-          "name": "尚未公布",
-          "state": "-",
-          "extract": "-",
-          "hitData": [
-            -1,
-            -1,
-            -1,
-            -1,
-            -1,
-            -1,
-            -1,
-            -1,
-            -1
-          ]
-        }
-      ],
+      "trait": {
+        "roar": "強",
+        "wind": "大",
+        "tremor": "-",
+        "element": "雷",
+        "alignment": "-"
+      },
+      "weakness": {
+        "weapon": [
+          {
+            "condition": "帶電",
+            "cut": "腹",
+            "blunt": "腹",
+            "ammo": "腹"
+          }
+        ],
+        "element": [
+          {
+            "fire": "1",
+            "water": "1",
+            "thunder": "0",
+            "ice": "2",
+            "dragon": "3"
+          }
+        ],
+        "aliment": [
+          {
+            "poison": "0",
+            "stun": "0",
+            "paralysis": "0",
+            "sleep": "0",
+            "blast": "2",
+            "riding": "0"
+          }
+        ],
+        "item": [
+          {
+            "fire_aliment": "1",
+            "water_aliment": "1",
+            "thunder_aliment": "0",
+            "ice_aliment": "2",
+            "shocktrap": "0",
+            "pitfalltrap": "0",
+            "flashpod": "2"
+          }
+        ]
+      },
+      "hitdata": {
+        "parts": [
+          {
+            "part": "頭",
+            "cut": "55",
+            "blunt": "50",
+            "ammo": "5",
+            "fire": "5",
+            "water": "5",
+            "thunder": "0",
+            "ice": "10",
+            "dragon": "15"
+          },
+          {
+            "part": "頭",
+            "condition": "帶電",
+            "cut": "70",
+            "blunt": "75",
+            "ammo": "45",
+            "fire": "5",
+            "water": "5",
+            "thunder": "0",
+            "ice": "15",
+            "dragon": "20"
+          },
+          {
+            "part": "頸",
+            "cut": "35",
+            "blunt": "30",
+            "ammo": "10",
+            "fire": "0",
+            "water": "0",
+            "thunder": "0",
+            "ice": "5",
+            "dragon": "0"
+          },
+          {
+            "part": "身",
+            "cut": "20",
+            "blunt": "25",
+            "ammo": "5",
+            "fire": "0",
+            "water": "0",
+            "thunder": "0",
+            "ice": "0",
+            "dragon": "5"
+          },
+          {
+            "part": "胸",
+            "cut": "35",
+            "blunt": "35",
+            "ammo": "15",
+            "fire": "0",
+            "water": "0",
+            "thunder": "0",
+            "ice": "5",
+            "dragon": "10"
+          },
+          {
+            "part": "胸",
+            "condition": "帶電",
+            "cut": "55",
+            "blunt": "50",
+            "ammo": "35",
+            "fire": "0",
+            "water": "5",
+            "thunder": "0",
+            "ice": "10",
+            "dragon": "15"
+          },
+          {
+            "part": "翼腕",
+            "cut": "35",
+            "blunt": "30",
+            "ammo": "10",
+            "fire": "0",
+            "water": "5",
+            "thunder": "0",
+            "ice": "5",
+            "dragon": "10"
+          },
+          {
+            "part": "翼腕",
+            "condition": "帶電",
+            "cut": "70",
+            "blunt": "65",
+            "ammo": "45",
+            "fire": "5",
+            "water": "5",
+            "thunder": "0",
+            "ice": "10",
+            "dragon": "20"
+          },
+          {
+            "part": "腹（發電器官）",
+            "cut": "25",
+            "blunt": "25",
+            "ammo": "5",
+            "fire": "0",
+            "water": "0",
+            "thunder": "0",
+            "ice": "0",
+            "dragon": "0"
+          },
+          {
+            "part": "腹（發電器官）",
+            "condition": "帶電",
+            "cut": "90",
+            "blunt": "90",
+            "ammo": "55",
+            "fire": "5",
+            "water": "5",
+            "thunder": "0",
+            "ice": "20",
+            "dragon": "25"
+          },
+          {
+            "part": "背中",
+            "cut": "25",
+            "blunt": "30",
+            "ammo": "15",
+            "fire": "0",
+            "water": "5",
+            "thunder": "0",
+            "ice": "5",
+            "dragon": "10"
+          },
+          {
+            "part": "背中",
+            "condition": "帶電",
+            "cut": "50",
+            "blunt": "45",
+            "ammo": "35",
+            "fire": "5",
+            "water": "5",
+            "thunder": "0",
+            "ice": "10",
+            "dragon": "15"
+          },
+          {
+            "part": "足鰭",
+            "cut": "20",
+            "blunt": "20",
+            "ammo": "5",
+            "fire": "0",
+            "water": "0",
+            "thunder": "0",
+            "ice": "0",
+            "dragon": "5"
+          },
+          {
+            "part": "尾巴",
+            "cut": "30",
+            "blunt": "30",
+            "ammo": "10",
+            "fire": "0",
+            "water": "0",
+            "thunder": "0",
+            "ice": "5",
+            "dragon": "10"
+          },
+          {
+            "part": "尾尖",
+            "cut": "35",
+            "blunt": "40",
+            "ammo": "15",
+            "fire": "0",
+            "water": "0",
+            "thunder": "0",
+            "ice": "5",
+            "dragon": "10"
+          },
+          {
+            "part": "尾尖",
+            "condition": "帶電",
+            "cut": "70",
+            "blunt": "65",
+            "ammo": "35",
+            "fire": "0",
+            "water": "0",
+            "thunder": "0",
+            "ice": "5",
+            "dragon": "15"
+          }
+        ]
+      },
       "items": {
         "high_rank": {
           "narwa_horn_plus": {
