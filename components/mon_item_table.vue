@@ -14,7 +14,11 @@
         </tr>
         <template v-for="(data,iID) in items.low_rank">
           <tr class="card-text" :key="iID">
-            <td>{{GetData('items')[iID]?.name}}</td>
+            <td>
+              <router-link v-bind:to="'/item/' + iID" custom v-slot="{ navigate }">
+                <div @click="navigate" class="mouse-hover">{{GetData('items')[iID]?.name}}</div>
+              </router-link>
+            </td>
             <td>
               <div
                 class="text-right item-rate-text"
@@ -64,7 +68,11 @@
         </tr>
         <template v-for="(data,iID) in items.high_rank">
           <tr class="card-text" :key="iID">
-            <td>{{GetData('items')[iID]?.name}}</td>
+            <td>
+              <router-link v-bind:to="'/item/' + iID" custom v-slot="{ navigate }">
+                <div @click="navigate" class="mouse-hover">{{GetData('items')[iID]?.name}}</div>
+              </router-link>
+            </td>
             <td>
               <div
                 class="text-right item-rate-text"
