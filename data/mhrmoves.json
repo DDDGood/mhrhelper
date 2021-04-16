@@ -3040,17 +3040,55 @@
             ]
         },
         "goss_harag": {
-            "outline": "(招式素材仍在蒐集中)",
+            "outline": "雪鬼獸在怒後手會變成紅色，並積極凝結雙手的冰刃。打破雪鬼獸手上的冰塊可使雪鬼獸倒地。\n冰刃狀態下，雪鬼獸的左手刀(橫掃/下劈)攻擊必會接右手刀攻擊，在右手刀攻擊後會有較長時間的硬直。",
             "reference": {
-                "(twitter)モンスターハンターライズ公式": "https://twitter.com/mh_rise_jp"
+                "(twitter)モンスターハンターライズ公式": "https://twitter.com/mh_rise_jp",
+                "【MHR】集★7 ゴシャハギチャージアックスソロ / Goss Harag Chargeblade solo 3:35 monster hunter rise": "https://www.youtube.com/watch?v=Vqlg_v6siIM",
+                "Qttsix｜魔物獵人:崛起 集會所7★ 雪鬼獸 充能斧 捕獲｜7★ Goss Harag Charge Blade solo in 3'43'26": "https://www.youtube.com/watch?v=vwDUU_J-yTY"
             },
             "moves": [
                 {
-                    "name": "衝刺拳",
+                    "name": "龍吼",
                     "preaction": "",
                     "action": "",
                     "recovery": "",
                     "note": "",
+                    "video": "videos/雪鬼獸/雪鬼獸_龍吼.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "前頂",
+                    "preaction": "",
+                    "action": "",
+                    "recovery": "",
+                    "note": "不會擊飛目標。",
+                    "video": "videos/雪鬼獸/雪鬼獸_前頂.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "肩撞",
+                    "preaction": "",
+                    "action": "",
+                    "recovery": "",
+                    "note": "",
+                    "video": "videos/雪鬼獸/雪鬼獸_肩撞.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "單手掀地板",
+                    "preaction": "",
+                    "action": "",
+                    "recovery": "",
+                    "note": "",
+                    "video": "videos/雪鬼獸/雪鬼獸_單手掀地板.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "衝刺拳",
+                    "preaction": "",
+                    "action": "",
+                    "recovery": "大",
+                    "note": "怒後會接第二下。",
                     "video": "videos/雪鬼獸/雪鬼獸_衝刺拳.mp4",
                     "onlyincombo": false
                 },
@@ -3064,22 +3102,40 @@
                     "onlyincombo": false
                 },
                 {
-                    "name": "冰刃下劈",
+                    "name": "二連抓",
                     "preaction": "",
                     "action": "",
                     "recovery": "",
                     "note": "",
-                    "video": "videos/雪鬼獸/雪鬼獸_冰刃下劈.mp4",
+                    "video": "videos/雪鬼獸/雪鬼獸_二連抓.mp4",
                     "onlyincombo": false
                 },
                 {
-                    "name": "冰刃飛刀",
+                    "name": "二連迴旋揮爪",
                     "preaction": "",
                     "action": "",
                     "recovery": "",
                     "note": "",
-                    "video": "videos/雪鬼獸/雪鬼獸_冰刃飛刀.mp4",
+                    "video": "videos/雪鬼獸/雪鬼獸_二連迴旋揮爪.mp4",
                     "onlyincombo": false
+                },
+                {
+                    "name": "橫掃側跨步",
+                    "preaction": "",
+                    "action": "",
+                    "recovery": "",
+                    "note": "",
+                    "video": "videos/雪鬼獸/雪鬼獸_橫掃側跨步.mp4",
+                    "onlyincombo": true
+                },
+                {
+                    "name": "側滑步",
+                    "preaction": "",
+                    "action": "",
+                    "recovery": "",
+                    "note": "",
+                    "video": "videos/雪鬼獸/雪鬼獸_側滑步.mp4",
+                    "onlyincombo": true
                 },
                 {
                     "name": "震地衝擊",
@@ -3091,16 +3147,336 @@
                     "onlyincombo": false
                 },
                 {
-                    "name": "橫掃吐息",
+                    "name": "凝結冰刃",
                     "preaction": "",
                     "action": "",
                     "recovery": "",
                     "note": "",
-                    "video": "videos/雪鬼獸/雪鬼獸_橫掃吐息.mp4",
+                    "video": "videos/雪鬼獸/雪鬼獸_凝結冰刃.mp4",
+                    "onlyincombo": true
+                },
+                {
+                    "name": "飛天震地衝擊波",
+                    "preaction": "",
+                    "action": "",
+                    "recovery": "",
+                    "note": "無冰刃也可使用",
+                    "video": "videos/雪鬼獸/雪鬼獸_飛天震地衝擊波.mp4",
                     "onlyincombo": false
+                },
+                {
+                    "name": "十字吐息",
+                    "condition": "怒後無冰刃",
+                    "preaction": "",
+                    "action": "",
+                    "recovery": "",
+                    "note": "",
+                    "video": "videos/雪鬼獸/雪鬼獸_十字吐息.mp4",
+                    "onlyincombo": true
+                },
+                {
+                    "name": "威嚇",
+                    "preaction": "",
+                    "action": "",
+                    "recovery": "",
+                    "note": "通常是準備換區的動作。",
+                    "video": "videos/雪鬼獸/雪鬼獸_威嚇.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "冰塊投擲",
+                    "preaction": "",
+                    "action": "",
+                    "recovery": "",
+                    "note": "使用率低，距離遠才會使用。",
+                    "video": "videos/雪鬼獸/雪鬼獸_冰塊投擲.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "左手下劈",
+                    "condition": "冰刃狀態",
+                    "preaction": "",
+                    "action": "",
+                    "recovery": "",
+                    "note": "",
+                    "video": "videos/雪鬼獸/雪鬼獸_左手下劈.mp4",
+                    "onlyincombo": true
+                },
+                {
+                    "name": "右手下劈",
+                    "condition": "冰刃狀態",
+                    "preaction": "",
+                    "action": "",
+                    "recovery": "大",
+                    "note": "",
+                    "video": "videos/雪鬼獸/雪鬼獸_右手下劈.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "左手橫掃",
+                    "condition": "冰刃狀態",
+                    "preaction": "",
+                    "action": "",
+                    "recovery": "",
+                    "note": "",
+                    "video": "videos/雪鬼獸/雪鬼獸_左手橫掃.mp4",
+                    "onlyincombo": true
+                },
+                {
+                    "name": "右手橫掃",
+                    "condition": "冰刃狀態",
+                    "preaction": "",
+                    "action": "",
+                    "recovery": "大",
+                    "note": "",
+                    "video": "videos/雪鬼獸/雪鬼獸_右手橫掃.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "砸地接三連揮",
+                    "condition": "冰刃狀態",
+                    "preaction": "",
+                    "action": "",
+                    "recovery": "",
+                    "note": "",
+                    "video": "videos/雪鬼獸/雪鬼獸_砸地接三連揮.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "冰刃大迴旋",
+                    "condition": "冰刃狀態",
+                    "preaction": "",
+                    "action": "",
+                    "recovery": "大",
+                    "note": "",
+                    "video": "videos/雪鬼獸/雪鬼獸_冰刃大迴旋.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "二連冰刃飛刀",
+                    "condition": "冰刃狀態",
+                    "preaction": "",
+                    "action": "",
+                    "recovery": "",
+                    "note": "",
+                    "video": "videos/雪鬼獸/雪鬼獸_二連冰刃飛刀.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "橫掃轉身迴旋飛刀",
+                    "condition": "冰刃狀態",
+                    "preaction": "",
+                    "action": "",
+                    "recovery": "大",
+                    "note": "使用率較低。",
+                    "video": "videos/雪鬼獸/雪鬼獸_橫掃轉身迴旋飛刀.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "五連冰刃飛刀大放送",
+                    "condition": "冰刃狀態",
+                    "preaction": "",
+                    "action": "",
+                    "recovery": "大",
+                    "note": "退怒，脫離冰刃狀態。",
+                    "video": "videos/雪鬼獸/雪鬼獸_五連冰刃飛刀大放送.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "跑開",
+                    "preaction": "",
+                    "action": "",
+                    "recovery": "",
+                    "note": "撞到有輕微攻擊判定。",
+                    "video": "videos/雪鬼獸/雪鬼獸_跑開.mp4",
+                    "onlyincombo": true
                 }
             ],
-            "combos": []
+            "combos": [
+                {
+                    "root": 0,
+                    "condition": "",
+                    "nodes": [
+                        {
+                            "move": "橫掃側跨步",
+                            "links": [
+                                {
+                                    "node": 1,
+                                    "condition": ""
+                                },
+                                {
+                                    "node": 2,
+                                    "condition": ""
+                                },
+                                {
+                                    "node": 3,
+                                    "condition": ""
+                                }
+                            ]
+                        },
+                        {
+                            "move": "二連抓",
+                            "links": []
+                        },
+                        {
+                            "move": "震地衝擊",
+                            "links": []
+                        },
+                        {
+                            "move": "單手掀地板",
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "root": 0,
+                    "condition": "",
+                    "nodes": [
+                        {
+                            "move": "側滑步",
+                            "links": [
+                                {
+                                    "node": 1,
+                                    "condition": ""
+                                }
+                            ]
+                        },
+                        {
+                            "move": "二連下砸",
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "root": 0,
+                    "condition": "",
+                    "nodes": [
+                        {
+                            "move": "飛天震地衝擊波",
+                            "links": [
+                                {
+                                    "node": 1,
+                                    "condition": ""
+                                }
+                            ]
+                        },
+                        {
+                            "move": "衝刺拳",
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "root": 0,
+                    "condition": "怒後無冰刃",
+                    "nodes": [
+                        {
+                            "move": "跑開",
+                            "links": [
+                                {
+                                    "node": 1,
+                                    "condition": ""
+                                }
+                            ]
+                        },
+                        {
+                            "move": "十字吐息",
+                            "links": [
+                                {
+                                    "node": 2,
+                                    "condition": ""
+                                }
+                            ]
+                        },
+                        {
+                            "move": "凝結冰刃",
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "root": 0,
+                    "condition": "怒後無冰刃",
+                    "nodes": [
+                        {
+                            "move": "飛天震地衝擊波",
+                            "links": [
+                                {
+                                    "node": 1,
+                                    "condition": ""
+                                }
+                            ]
+                        },
+                        {
+                            "move": "十字吐息",
+                            "links": [
+                                {
+                                    "node": 2,
+                                    "condition": ""
+                                }
+                            ]
+                        },
+                        {
+                            "move": "凝結冰刃",
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "root": 0,
+                    "condition": "冰刃狀態",
+                    "nodes": [
+                        {
+                            "move": "左手橫掃",
+                            "links": [
+                                {
+                                    "node": 1,
+                                    "condition": ""
+                                },
+                                {
+                                    "node": 2,
+                                    "condition": ""
+                                }
+                            ]
+                        },
+                        {
+                            "move": "右手橫掃",
+                            "links": []
+                        },
+                        {
+                            "move": "右手下劈",
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "root": 0,
+                    "condition": "冰刃狀態",
+                    "nodes": [
+                        {
+                            "move": "左手下劈",
+                            "links": [
+                                {
+                                    "node": 1,
+                                    "condition": ""
+                                },
+                                {
+                                    "node": 2,
+                                    "condition": ""
+                                }
+                            ]
+                        },
+                        {
+                            "move": "右手橫掃",
+                            "links": []
+                        },
+                        {
+                            "move": "右手下劈",
+                            "links": []
+                        }
+                    ]
+                }
+            ]
         },
         "tigrex": {
             "outline": "(招式素材仍在蒐集中)",
