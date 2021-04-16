@@ -73,6 +73,57 @@
               </tr>
             </tbody>
           </table>
+
+          <!-- <table id="hitdata-table">
+            <tbody id="hitdata_table_tbody">
+              <tr class="card-text text-bold">
+                <th>#</th>
+                <th>{{$t('monster.part')}}</th>
+                <th>{{$t('monster.state')}}</th>
+                <th class="number">
+                  <img class="hitdata-icon" src="images/icons/equipments/greatsword.png" />
+                </th>
+                <th class="number">
+                  <img class="hitdata-icon" src="images/icons/equipments/hammer.png" />
+                </th>
+                <th class="number">
+                  <img class="hitdata-icon" src="images/icons/maps/ammo_normal.png" />
+                </th>
+                <th class="number">
+                  <img class="hitdata-icon" src="images/icons/element/element_fire.png" />
+                </th>
+                <th class="number">
+                  <img class="hitdata-icon" src="images/icons/element/element_water.png" />
+                </th>
+                <th class="number">
+                  <img class="hitdata-icon" src="images/icons/element/element_thunder.png" />
+                </th>
+                <th class="number">
+                  <img class="hitdata-icon" src="images/icons/element/element_ice.png" />
+                </th>
+                <th class="number">
+                  <img class="hitdata-icon" src="images/icons/element/element_dragon.png" />
+                </th>
+              </tr>
+              <tr
+                class="card-text"
+                v-for="(part,id) in mondata.hitdata.parts_new"
+                :key="part.part + part.state +　id"
+              >
+                <td :style="{width: '1%',background: part.hitzone_color}"></td>
+                <td>{{ part.part }}</td>
+                <td>{{ part.condition === undefined? "通常" : part.condition }}</td>
+                <td v-bind:class="{ 'hitdata-highlight': part.cut >= 45 }">{{ part.cut }}</td>
+                <td v-bind:class="{ 'hitdata-highlight': part.blunt >= 45 }">{{ part.blunt }}</td>
+                <td v-bind:class="{ 'hitdata-highlight': part.ammo >= 45 }">{{ part.ammo }}</td>
+                <td v-bind:class="{ 'hitdata-highlight': part.fire >= 25 }">{{ part.fire }}</td>
+                <td v-bind:class="{ 'hitdata-highlight': part.water >= 25 }">{{ part.water }}</td>
+                <td v-bind:class="{ 'hitdata-highlight': part.thunder >= 25 }">{{ part.thunder }}</td>
+                <td v-bind:class="{ 'hitdata-highlight': part.ice >= 25 }">{{ part.ice }}</td>
+                <td v-bind:class="{ 'hitdata-highlight': part.dragon >= 25 }">{{ part.dragon }}</td>
+              </tr>
+            </tbody>
+          </table>-->
         </details>
 
         <details open v-if="mondata.items!== undefined">

@@ -40,7 +40,7 @@ $(document).ready(Initialize);
 function Initialize() {
     try {
         LoadData(['data/mhrdex.json', 'data/mhrmoves.json', 'data/endemics.json', "data/small_monster.json", "data/weapons.json", "data/items.json", "data/quests.json", "data/item_source.json", "data/meowcenaries.json"], tryOnDexLoaded);
-        // LoadData(['data/mhrdex.json', 'data/mhrmoves.json', 'data/endemics.json', "data/small_monster.json", "data/weapons.json", "data/items.json", "data/quests.json", "data/item_source.json", "data/meowcenaries.json", "data/raw/parsedmeow.json", "data/raw/item-cn-jp.json", "data/cntokey.json", "data/cntotw.json"], tryOnDexLoaded);
+        // LoadData(['data/mhrdex.json', 'data/mhrmoves.json', 'data/endemics.json', "data/small_monster.json", "data/weapons.json", "data/items.json", "data/quests.json", "data/item_source.json", "data/meowcenaries.json", "data/raw/unpackedmon.json", "data/raw/item-cn-jp.json", "data/cntokey.json", "data/cntotw.json", "data/jptotw.json"], tryOnDexLoaded);
     } catch (error) {
         console.log(error.message);
         document.getElementById("error").innerHTML = "error:" + error.message;
@@ -254,6 +254,129 @@ function ExportItemSource() {
 
 function someDataWorks() {
 
+
+    for (let id in data.large_monsters) {
+        let mon = data.large_monsters[id];
+        if (mon.hitdata['hitzone_image'] == undefined) {
+            mon.hitdata['hitzone_image'] = "images/monsters/hitzone/" + id + ".png"
+        }
+        mon.hitdata['parts_old'] = mon.hitdata['parts'];
+        mon.hitdata['parts'] = mon.hitdata['parts_new'];
+        delete mon.hitdata['parts_new'];
+    }
+    outputText(JSON.stringify(data.large_monsters));
+
+
+
+
+    return;
+
+    let result = {};
+    let problems = {};
+
+
+    const PART_COLOR = ["#e6194B", "#3cb44b", "#ffe119", "#4363d8", "#f58231", "#911eb4", "#42d4f4", "#f032e6", "#bfef45", "#fabed4", "#469990"];
+
+    for (let i in data.unpackedmon.monsters) {
+        const fromMon = data.unpackedmon.monsters[i];
+        if (data.unpackedmon.monster_id[fromMon.id] === undefined)
+            continue;
+        const mID = data.unpackedmon.monster_id[fromMon.id].key;
+        console.log(mID + '_' + fromMon.id);
+
+        result[mID] = {};
+
+        let parts = [];
+        for (let j in fromMon.meat_data.meat_container) {
+            const meatGroup = fromMon.meat_data.meat_container[j];
+            let partNames = fromMon.collider_mapping.meat_map[j.toString()];
+            if (partNames === undefined)
+                continue;
+            for (let k in partNames) {
+                while (partNames[k].indexOf('：') > -1) {
+                    partNames[k] = partNames[k].split('：')[partNames[k].split('：').length - 1];
+                }
+                while (partNames[k].indexOf('-') > -1) {
+                    partNames[k] = partNames[k].split('-')[partNames[k].split('-').length - 1];
+                }
+                while (partNames[k].indexOf('　') > -1) {
+                    partNames[k] = partNames[k].split('　')[partNames[k].split('　').length - 1];
+                }
+                while (partNames[k].indexOf('_') > -1) {
+                    partNames[k] = partNames[k].split('_')[partNames[k].split('_').length - 1];
+                }
+                partNames[k] = partNames[k].trim();
+                if (data.jptotw[partNames[k]] !== undefined) {
+                    partNames[k] = data.jptotw[partNames[k]];
+                } else {
+                    for (let jpKey in data.jptotw) {
+                        if (partNames[k].indexOf(jpKey) > -1) {
+                            partNames[k] = partNames[k].replace(jpKey, data.jptotw[jpKey]);
+                            // console.log(jpKey + ' to ' + data.jptotw[jpKey])
+                        }
+                    }
+                }
+                for (let phase in meatGroup.meat_group_info) {
+                    let phaseData = meatGroup.meat_group_info[phase];
+                    if (phase > 0)
+                        problems[mID] = true
+                    parts.push({
+                        'part': partNames[k],
+                        'hitzone_color': PART_COLOR[j],
+                        'condition': (phase === 0 ? "通常" : phase),
+                        'cut': phaseData['slash'],
+                        'blunt': phaseData['strike'],
+                        'ammo': phaseData['shell'],
+                        'fire': phaseData['fire'],
+                        'water': phaseData['water'],
+                        'thunder': phaseData['elect'],
+                        'ice': phaseData['ice'],
+                        'dragon': phaseData['dragon'],
+                        'dizzy': phaseData['piyo'],
+                    })
+                }
+            }
+            console.log(partNames.join(",") + ' phase:' + meatGroup.meat_group_info.length);
+        }
+
+        result[mID].parts = parts;
+        data.large_monsters[mID].hitdata['parts_new'] = parts
+    }
+    // outputText(JSON.stringify(data.large_monsters));
+
+
+    // outputText(JSON.stringify({
+    //     "result": result,
+    //     "problems": problems
+    // }))
+    return;
+
+
+    // parse mhrise.com
+    for (let i in data.parsedmon) {
+        const fromMon = data.parsedmon[i];
+        const toMon = data.large_monsters[i];
+        if (toMon === undefined) {
+            console.warn('cant find:' + i)
+            continue
+        }
+        toMon.trait = fromMon.trait;
+        toMon.weakness = fromMon.weakness;
+        for (let j in toMon.weakness.weapon) {
+            for (let k in toMon.weakness.weapon[j]) {
+                toMon.weakness.weapon[j][k] = translateJP(toMon.weakness.weapon[j][k]);
+            }
+        }
+    }
+
+    outputText(JSON.stringify(data.large_monsters));
+
+
+    return;
+
+
+
+    //parse meowcenaries
     let destTrans = {}
     let meowcenaries = {}
     for (let i in data.parsedmeow) {

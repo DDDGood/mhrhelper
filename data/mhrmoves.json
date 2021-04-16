@@ -1804,6 +1804,15 @@
                     "onlyincombo": false
                 },
                 {
+                    "name": "空中尾砸",
+                    "preaction": "",
+                    "action": "空中暴衝，尾巴向下猛砸。",
+                    "recovery": "大",
+                    "note": "",
+                    "video": "",
+                    "onlyincombo": true
+                },
+                {
                     "name": "尾部突刺",
                     "preaction": "尾巴指向目標，身體向後縮。",
                     "action": "衝向目標，尾巴向前突刺。",
@@ -1973,12 +1982,20 @@
                             "links": [
                                 {
                                     "node": 1,
-                                    "condition": "必出"
+                                    "condition": ""
+                                },
+                                {
+                                    "node": 2,
+                                    "condition": "(上位)"
                                 }
                             ]
                         },
                         {
                             "move": "蓄力拍",
+                            "links": []
+                        },
+                        {
+                            "move": "空中尾砸",
                             "links": []
                         }
                     ]

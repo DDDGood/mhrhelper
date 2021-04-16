@@ -3542,6 +3542,642 @@
         },
         "イチモクラブ": {
             "key": "gustcrab"
+        },
+        "ハンターノート": {
+            "key": "hunters_notes"
+        },
+        "ハンターの心得": {
+            "key": "hunter_info"
+        },
+        "大型モンスターリスト": {
+            "key": "large_monsters"
+        },
+        "小型モンスターリスト": {
+            "key": "small_monsters"
+        },
+        "環境生物リスト": {
+            "key": "endemic_life"
+        },
+        "手記帳": {
+            "key": "notebook"
+        },
+        "基本操作指南": {
+            "key": "basic_controls"
+        },
+        "武器操作指南": {
+            "key": "weapon_controls"
+        },
+        "アルバムメニュー": {
+            "key": "album_menu"
+        },
+        "取扱説明書": {
+            "key": "manual"
+        },
+        "生態": {
+            "key": "ecology"
+        },
+        "部位と肉質": {
+            "key": "physiology"
+        },
+        "状態異常": {
+            "key": "ailments"
+        },
+        "素材": {
+            "key": "materials"
+        },
+        "<ICON PAD_Y>写真の設定": {
+            "key": "picture_settings"
+        },
+        "写真の切替": {
+            "key": "switch_pictures"
+        },
+        "通常": {
+            "key": "default"
+        },
+        "怒り": {
+            "key": "anger"
+        },
+        "過熱状態": {
+            "key": "overheated"
+        },
+        "帯電状態": {
+            "key": "charged"
+        },
+        "熱殻状態": {
+            "key": "hot_husk"
+        },
+        "部位破壊": {
+            "key": "parts_broken"
+        },
+        "満腹状態": {
+            "key": "engorged"
+        },
+        "超帯電状態": {
+            "key": "supercharged"
+        },
+        "部位破壊後": {
+            "key": "after_parts_broken"
+        },
+        "風袋破壊時": {
+            "key": "when_windsac_breaks"
+        },
+        "泥まとい状態": {
+            "key": "muddied"
+        },
+        "闘気硬化状態": {
+            "key": "pumped_up"
+        },
+        "龍気解放状態": {
+            "key": "releasing_dragon_spirit"
+        },
+        "鬼火まとい状態": {
+            "key": "shrouded_in_hellfire"
+        },
+        "通常（泡まとい状態）": {
+            "key": "normal_bubbled"
+        },
+        "怒り（泡まとい状態）": {
+            "key": "angered_bubbled"
+        },
+        "部位破壊（前脚のみ）": {
+            "key": "parts_broken_forelegs_only"
+        },
+        "熱殻状態（部位破壊後）": {
+            "key": "hot_husk_parts_broken"
+        },
+        "下位": {
+            "key": "low_rank"
+        },
+        "上位": {
+            "key": "high_rank"
+        },
+        "種別": {
+            "key": "type"
+        },
+        "海竜種": {
+            "key": "leviathan"
+        },
+        "牙獣種": {
+            "key": "fanged_beast"
+        },
+        "牙竜種": {
+            "key": "fanged_wyvern"
+        },
+        "魚竜種": {
+            "key": "piscine_wyvern"
+        },
+        "甲殻種": {
+            "key": "carapaceon"
+        },
+        "甲虫種": {
+            "key": "neopteron"
+        },
+        "獣人種": {
+            "key": "lynian"
+        },
+        "獣竜種": {
+            "key": "brute_wyvern"
+        },
+        "鳥竜種": {
+            "key": "bird_wyvern"
+        },
+        "飛竜種": {
+            "key": "flying_wyvern"
+        },
+        "古龍種": {
+            "key": "elder_dragon"
+        },
+        "両生種": {
+            "key": "amphibian"
+        },
+        "鋏角種": {
+            "key": "temnoceran"
+        },
+        "蛇竜種": {
+            "key": "snake_wyvern"
+        },
+        "魚類": {
+            "key": "fish"
+        },
+        "草食種": {
+            "key": "herbivore"
+        },
+        "持続強化生物": {
+            "key": "permabuffer"
+        },
+        "瞬間強化生物": {
+            "key": "temp_buffer"
+        },
+        "罠型生物": {
+            "key": "ensnaring_life"
+        },
+        "猟具生物": {
+            "key": "hunting_helper"
+        },
+        "素材生物": {
+            "key": "crafty_creature"
+        },
+        "福運生物": {
+            "key": "lucky_life"
+        },
+        "希少生物": {
+            "key": "rare_creature"
+        },
+        "その他": {
+            "key": "other"
+        },
+        "狩猟数（捕獲数）": {
+            "key": "hunted_captured"
+        },
+        "討伐数": {
+            "key": "slain"
+        },
+        "危険度": {
+            "key": "threat_level"
+        },
+        "最大記録": {
+            "key": "longest"
+        },
+        "最小記録": {
+            "key": "shortest"
+        },
+        "cm": {
+            "key": "cm"
+        },
+        "開放条件": {
+            "key": "unlock_conditions"
+        },
+        "生息地にいる環境生物に触れることで、\nリストが開放されます。": {
+            "key": "encountering_endemic_life_in_its_natural\nhabitat_will_unlock_this_part_of_the_list"
+        },
+        "環境生物を捕まえることで、\nリストが開放されます。": {
+            "key": "capturing_endemic_life_will_unlock_this\npart_of_the_list"
+        },
+        "環境生物を利用することで、\nリストが開放されます。": {
+            "key": "using_endemic_life_will_unlock_this_part\nof_the_list"
+        },
+        "生息地にいる環境生物を撮影することで、\nリストが開放されます。": {
+            "key": "photographing_endemic_life_in_its_natural\nhabitat_will_unlock_this_part_of_the_list"
+        },
+        "環境生物の生息地を訪れることで、\nリストが開放されます。": {
+            "key": "visiting_endemic_life_habitats_will\nunlock_this_part_of_the_list"
+        },
+        "生息地で環境生物を発見することで、\nリストが開放されます。": {
+            "key": "using_endemic_life_in_its_natural_habitat\nwill_unlock_this_part_of_the_list"
+        },
+        "主な特徴": {
+            "key": "characteristics"
+        },
+        "主な生息地": {
+            "key": "known_habitats"
+        },
+        "砂原": {
+            "key": "sandy_plains"
+        },
+        "水没林": {
+            "key": "flooded_forest"
+        },
+        "大社跡": {
+            "key": "shrine_ruins"
+        },
+        "寒冷群島": {
+            "key": "frost_islands"
+        },
+        "溶岩洞": {
+            "key": "lava_caverns"
+        },
+        "龍宮砦跡": {
+            "key": "coral_palace"
+        },
+        "闘技場": {
+            "key": "arena"
+        },
+        "部位": {
+            "key": "parts"
+        },
+        "本体": {
+            "key": "body"
+        },
+        "脚": {
+            "key": "leg"
+        },
+        "後脚": {
+            "key": "hind_leg"
+        },
+        "翼脚": {
+            "key": "wingarm"
+        },
+        "前脚": {
+            "key": "foreleg"
+        },
+        "脚根本": {
+            "key": "hip"
+        },
+        "脚（糸）": {
+            "key": "leg_thread"
+        },
+        "胸部": {
+            "key": "chest"
+        },
+        "胸部（帯電）": {
+            "key": "chest_charged"
+        },
+        "胸部（風袋）": {
+            "key": "chest_windsac"
+        },
+        "首": {
+            "key": "neck"
+        },
+        "首下": {
+            "key": "lower_neck"
+        },
+        "首・背中": {
+            "key": "neck/back"
+        },
+        "尻": {
+            "key": "rear"
+        },
+        "尾刃": {
+            "key": "tailblade"
+        },
+        "尻尾": {
+            "key": "tail"
+        },
+        "尻尾下": {
+            "key": "lower_tail"
+        },
+        "尻尾先端": {
+            "key": "tail_tip"
+        },
+        "尻尾根本": {
+            "key": "tail_base"
+        },
+        "尻尾先端（帯電）": {
+            "key": "tail_tip_charged"
+        },
+        "尻尾先端（風袋）": {
+            "key": "tail_tip_windsac"
+        },
+        "爪": {
+            "key": "claw"
+        },
+        "左爪": {
+            "key": "left_claw"
+        },
+        "右爪": {
+            "key": "right_claw"
+        },
+        "背中": {
+            "key": "back"
+        },
+        "背ビレ": {
+            "key": "dorsal_fin"
+        },
+        "背中（帯電）": {
+            "key": "back_charged"
+        },
+        "背中（風袋）": {
+            "key": "back_windsac"
+        },
+        "腹部": {
+            "key": "abdomen"
+        },
+        "腹部・後脚": {
+            "key": "abdomen/hind_leg"
+        },
+        "腹部（発電器官）": {
+            "key": "abdomen_thundersac"
+        },
+        "腹部（繭化状態）": {
+            "key": "abdomen_cocooned"
+        },
+        "腕刃": {
+            "key": "armblade"
+        },
+        "翼腕": {
+            "key": "wingarm"
+        },
+        "翼腕（帯電）": {
+            "key": "wingarm_charged"
+        },
+        "翼腕（風袋）": {
+            "key": "wingarm_windsac"
+        },
+        "翼": {
+            "key": "wing"
+        },
+        "刃翼": {
+            "key": "cutwing"
+        },
+        "ヒレ": {
+            "key": "fin"
+        },
+        "脚ヒレ": {
+            "key": "leg_fin"
+        },
+        "髪ヒレ": {
+            "key": "head_fin"
+        },
+        "タテガミ": {
+            "key": "mane"
+        },
+        "角": {
+            "key": "horn"
+        },
+        "頭部": {
+            "key": "head"
+        },
+        "鼻": {
+            "key": "snout"
+        },
+        "舌": {
+            "key": "tongue"
+        },
+        "体": {
+            "key": "body"
+        },
+        "上半身": {
+            "key": "upper_half"
+        },
+        "胴": {
+            "key": "torso"
+        },
+        "岩": {
+            "key": "boulder"
+        },
+        "傘": {
+            "key": "crest"
+        },
+        "壺": {
+            "key": "pressure_point"
+        },
+        "棘": {
+            "key": "thorns"
+        },
+        "氷塊": {
+            "key": "ice_clump"
+        },
+        "大泥玉": {
+            "key": "large_mudbulb"
+        },
+        "全身（回転中）": {
+            "key": "body_spinning"
+        },
+        "頭殻": {
+            "key": "scalp"
+        },
+        "クチバシ": {
+            "key": "beak"
+        },
+        "トサカ": {
+            "key": "crest"
+        },
+        "皿": {
+            "key": "plate"
+        },
+        "片角": {
+            "key": "one_horn"
+        },
+        "両角": {
+            "key": "both_horns"
+        },
+        "右腕": {
+            "key": "right_arm"
+        },
+        "左腕": {
+            "key": "left_arm"
+        },
+        "翼爪": {
+            "key": "wingclaw"
+        },
+        "甲羅": {
+            "key": "carapace"
+        },
+        "灯腹": {
+            "key": "glowgut"
+        },
+        "四脚": {
+            "key": "legs"
+        },
+        "腕": {
+            "key": "arm"
+        },
+        "左脚": {
+            "key": "left_leg"
+        },
+        "右脚": {
+            "key": "right_leg"
+        },
+        "狩猟指南": {
+            "key": "hunting"
+        },
+        "状態異常の有効度": {
+            "key": "ailment_effectiveness"
+        },
+        "毒": {
+            "key": "poison"
+        },
+        "麻痺": {
+            "key": "paralysis"
+        },
+        "睡眠": {
+            "key": "sleep"
+        },
+        "気絶": {
+            "key": "stun"
+        },
+        "爆破": {
+            "key": "blast"
+        },
+        "減気": {
+            "key": "exhaust"
+        },
+        "火やられ": {
+            "key": "fireblight"
+        },
+        "水やられ": {
+            "key": "waterblight"
+        },
+        "氷やられ": {
+            "key": "iceblight"
+        },
+        "雷やられ": {
+            "key": "thunderblight"
+        },
+        "★の数や、詳細グラフの量が多いほど、プレイヤーにとって有利です。": {
+            "key": "the_higher_the_bars_on_the_graphs_and_the_more_stars_the_more_advantageous_it_will_be_for_the_player"
+        },
+        "初回耐性値": {
+            "key": "initial_resistance"
+        },
+        "次回耐性値の上昇量": {
+            "key": "next_resistance_threshold"
+        },
+        "最大耐性値": {
+            "key": "maximum_resistance"
+        },
+        "蓄積値の自然減少量": {
+            "key": "natural_buildup_degradation"
+        },
+        "合計ダメージ量": {
+            "key": "total_damage"
+        },
+        "効果時間": {
+            "key": "effect_duration"
+        },
+        "ダメージ量": {
+            "key": "damage"
+        },
+        "スタミナ減少値": {
+            "key": "stamina_loss"
+        },
+        "ターゲット\n報酬": {
+            "key": "target\nrewards"
+        },
+        "捕獲\n報酬": {
+            "key": "capture\nrewards"
+        },
+        "部位破壊\n報酬": {
+            "key": "broken_part\nrewards"
+        },
+        "剥ぎ取り\n素材": {
+            "key": "carves"
+        },
+        "落とし物": {
+            "key": "dropped_materials"
+        },
+        "ターゲット報酬": {
+            "key": "target_rewards"
+        },
+        "捕獲報酬": {
+            "key": "capture_rewards"
+        },
+        "部位破壊報酬": {
+            "key": "broken_part_rewards"
+        },
+        "剥ぎ取り素材": {
+            "key": "carves"
+        },
+        "×": {
+            "key": "x"
+        },
+        "％": {
+            "key": "%"
+        },
+        "ボタンの役割": {
+            "key": "controls"
+        },
+        "ボタンの役割（斧）": {
+            "key": "controls_axe"
+        },
+        "ボタンの役割（剣）": {
+            "key": "controls_sword"
+        },
+        "オススメコンボ": {
+            "key": "useful_combos"
+        },
+        "旋律効果": {
+            "key": "melody_effects"
+        },
+        "大剣": {
+            "key": "great_sword"
+        },
+        "太刀": {
+            "key": "long_sword"
+        },
+        "片手剣": {
+            "key": "sword_&_shield"
+        },
+        "双剣": {
+            "key": "dual_blades"
+        },
+        "ハンマー": {
+            "key": "hammer"
+        },
+        "狩猟笛": {
+            "key": "hunting_horn"
+        },
+        "ランス": {
+            "key": "lance"
+        },
+        "ガンランス": {
+            "key": "gunlance"
+        },
+        "スラッシュアックス": {
+            "key": "switch_axe"
+        },
+        "チャージアックス": {
+            "key": "charge_blade"
+        },
+        "操虫棍": {
+            "key": "insect_glaive"
+        },
+        "ライトボウガン": {
+            "key": "light_bowgun"
+        },
+        "ヘビィボウガン": {
+            "key": "heavy_bowgun"
+        },
+        "弓": {
+            "key": "bow"
+        },
+        "基本操作": {
+            "key": "the_basics"
+        },
+        "アイテムの使い方": {
+            "key": "using_items"
+        },
+        "翔蟲を使うアクション": {
+            "key": "wirebug_commands"
+        },
+        "操竜": {
+            "key": "wyvern_riding"
+        },
+        "壁を使うアクション": {
+            "key": "wall_actions"
+        },
+        "斬れ味": {
+            "key": "sharpness"
         }
     }
 }

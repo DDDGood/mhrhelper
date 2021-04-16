@@ -1,0 +1,1903 @@
+{
+    "parsedmon": {
+        "arzuros": {
+            "trait": {
+                "roar": "-",
+                "wind": "-",
+                "tremor": "-",
+                "element": "-",
+                "aliment": "-"
+            },
+            "weakness": {
+                "weapon": [
+                    {
+                        "cut": "尻",
+                        "blunt": "尻",
+                        "ammo": "上半身>頭"
+                    }
+                ],
+                "element": [
+                    {
+                        "fire": "3",
+                        "water": "1",
+                        "thunder": "2",
+                        "ice": "2",
+                        "dragon": "0"
+                    }
+                ],
+                "aliment": [
+                    {
+                        "poison": "3",
+                        "stun": "2",
+                        "paralysis": "3",
+                        "sleep": "3",
+                        "blast": "2",
+                        "riding": "3"
+                    }
+                ],
+                "item": [
+                    {
+                        "fire_aliment": "2",
+                        "water_aliment": "1",
+                        "thunder_aliment": "1",
+                        "ice_aliment": "1",
+                        "shocktrap": "2",
+                        "pitfalltrap": "2",
+                        "flashpod": "2"
+                    }
+                ]
+            },
+            "name": "アオアシラ",
+            "nameEN": "Arzuros",
+            "url": "https://mhrise.com/data/4446.html"
+        },
+        "aknosom": {
+            "trait": {
+                "roar": "小",
+                "wind": "小",
+                "tremor": "-",
+                "element": "火",
+                "aliment": "-"
+            },
+            "weakness": {
+                "weapon": [
+                    {
+                        "cut": "頭/傘/翼",
+                        "blunt": "頭",
+                        "ammo": "頭"
+                    }
+                ],
+                "element": [
+                    {
+                        "fire": "0",
+                        "water": "3",
+                        "thunder": "2",
+                        "ice": "1",
+                        "dragon": "0"
+                    }
+                ],
+                "aliment": [
+                    {
+                        "poison": "1",
+                        "stun": "1",
+                        "paralysis": "1",
+                        "sleep": "1",
+                        "blast": "2",
+                        "riding": "1"
+                    }
+                ],
+                "item": [
+                    {
+                        "fire_aliment": "1",
+                        "water_aliment": "2",
+                        "thunder_aliment": "1",
+                        "ice_aliment": "1",
+                        "shocktrap": "2",
+                        "pitfalltrap": "2",
+                        "flashpod": "2"
+                    }
+                ]
+            },
+            "name": "アケノシルム",
+            "nameEN": "Aknosom",
+            "url": "https://mhrise.com/data/4442.html"
+        },
+        "anjanath": {
+            "trait": {
+                "roar": "大",
+                "wind": "小",
+                "tremor": "-",
+                "element": "火",
+                "aliment": "-"
+            },
+            "weakness": {
+                "weapon": [
+                    {
+                        "cut": "鼻>頭",
+                        "blunt": "鼻>頭",
+                        "ammo": "鼻>頭"
+                    }
+                ],
+                "element": [
+                    {
+                        "fire": "0",
+                        "water": "3",
+                        "thunder": "1",
+                        "ice": "2",
+                        "dragon": "1"
+                    }
+                ],
+                "aliment": [
+                    {
+                        "poison": "1",
+                        "stun": "1",
+                        "paralysis": "1",
+                        "sleep": "1",
+                        "blast": "1",
+                        "riding": "1"
+                    }
+                ],
+                "item": [
+                    {
+                        "fire_aliment": "1",
+                        "water_aliment": "2",
+                        "thunder_aliment": "1",
+                        "ice_aliment": "1",
+                        "shocktrap": "2",
+                        "pitfalltrap": "2",
+                        "flashpod": "2"
+                    }
+                ]
+            },
+            "name": "アンジャナフ",
+            "nameEN": "Anjanath",
+            "url": "https://mhrise.com/data/4461.html"
+        },
+        "somnacanth": {
+            "trait": {
+                "roar": "大",
+                "wind": "-",
+                "tremor": "-",
+                "element": "水",
+                "aliment": "睡眠>閃光>爆破"
+            },
+            "weakness": {
+                "weapon": [
+                    {
+                        "cut": "首>頭",
+                        "blunt": "首>頭/尾",
+                        "ammo": "首"
+                    }
+                ],
+                "element": [
+                    {
+                        "fire": "2",
+                        "water": "0",
+                        "thunder": "3",
+                        "ice": "0",
+                        "dragon": "0"
+                    }
+                ],
+                "aliment": [
+                    {
+                        "poison": "1",
+                        "stun": "1",
+                        "paralysis": "1",
+                        "sleep": "0",
+                        "blast": "2",
+                        "riding": "1"
+                    }
+                ],
+                "item": [
+                    {
+                        "fire_aliment": "1",
+                        "water_aliment": "1",
+                        "thunder_aliment": "2",
+                        "ice_aliment": "1",
+                        "shocktrap": "2",
+                        "pitfalltrap": "2",
+                        "flashpod": "2"
+                    }
+                ]
+            },
+            "name": "イソネミクニ",
+            "nameEN": "Somnacanth",
+            "url": "https://mhrise.com/data/4448.html"
+        },
+        "windserpentibushi": {
+            "trait": {
+                "roar": "強",
+                "wind": "大",
+                "tremor": "-",
+                "element": "龍",
+                "aliment": "-"
+            },
+            "weakness": {
+                "weapon": [
+                    {
+                        "cut": "胸>頭",
+                        "blunt": "胸>頭",
+                        "ammo": "胸>頭"
+                    }
+                ],
+                "element": [
+                    {
+                        "fire": "2",
+                        "water": "1",
+                        "thunder": "0",
+                        "ice": "1",
+                        "dragon": "3"
+                    }
+                ],
+                "aliment": [
+                    {
+                        "poison": "1",
+                        "stun": "1",
+                        "paralysis": "1",
+                        "sleep": "1",
+                        "blast": "2",
+                        "riding": "0"
+                    }
+                ],
+                "item": [
+                    {
+                        "fire_aliment": "2",
+                        "water_aliment": "1",
+                        "thunder_aliment": "1",
+                        "ice_aliment": "1",
+                        "shocktrap": "0",
+                        "pitfalltrap": "0",
+                        "flashpod": "2"
+                    }
+                ]
+            },
+            "name": "イブシマキヒコ",
+            "nameEN": "WindSerpentIbushi",
+            "url": "https://mhrise.com/data/4520.html"
+        },
+        "lagombi": {
+            "trait": {
+                "roar": "-",
+                "wind": "-",
+                "tremor": "小",
+                "element": "氷",
+                "aliment": "-"
+            },
+            "weakness": {
+                "weapon": [
+                    {
+                        "cut": "尻",
+                        "blunt": "頭",
+                        "ammo": "頭"
+                    }
+                ],
+                "element": [
+                    {
+                        "fire": "3",
+                        "water": "0",
+                        "thunder": "2",
+                        "ice": "0",
+                        "dragon": "0"
+                    }
+                ],
+                "aliment": [
+                    {
+                        "poison": "3",
+                        "stun": "2",
+                        "paralysis": "3",
+                        "sleep": "1",
+                        "blast": "3",
+                        "riding": "1"
+                    }
+                ],
+                "item": [
+                    {
+                        "fire_aliment": "2",
+                        "water_aliment": "1",
+                        "thunder_aliment": "1",
+                        "ice_aliment": "1",
+                        "shocktrap": "2",
+                        "pitfalltrap": "2",
+                        "flashpod": "2"
+                    }
+                ]
+            },
+            "name": "ウルクスス",
+            "nameEN": "Lagombi",
+            "url": "https://mhrise.com/data/4456.html"
+        },
+        "chameleos": {
+            "trait": {
+                "roar": "？",
+                "wind": "？",
+                "tremor": "？",
+                "element": "-",
+                "aliment": "-"
+            },
+            "weakness": {
+                "weapon": [
+                    {
+                        "cut": "",
+                        "blunt": "",
+                        "ammo": ""
+                    }
+                ],
+                "element": [
+                    {
+                        "fire": "",
+                        "water": "",
+                        "thunder": "",
+                        "ice": "",
+                        "dragon": ""
+                    }
+                ],
+                "aliment": [
+                    {
+                        "poison": "",
+                        "stun": "",
+                        "paralysis": "",
+                        "sleep": "",
+                        "blast": "",
+                        "riding": ""
+                    }
+                ],
+                "item": [
+                    {
+                        "fire_aliment": "",
+                        "water_aliment": "",
+                        "thunder_aliment": "",
+                        "ice_aliment": "",
+                        "shocktrap": "",
+                        "pitfalltrap": "",
+                        "flashpod": ""
+                    }
+                ]
+            },
+            "name": "オオナズチ",
+            "nameEN": "Chameleos",
+            "url": "https://mhrise.com/data/4511.html"
+        },
+        "great_izuchi": {
+            "trait": {
+                "roar": "-",
+                "wind": "-",
+                "tremor": "-",
+                "element": "-",
+                "aliment": "-"
+            },
+            "weakness": {
+                "weapon": [
+                    {
+                        "cut": "頭>尾先",
+                        "blunt": "頭/尾先",
+                        "ammo": "頭/尾先"
+                    }
+                ],
+                "element": [
+                    {
+                        "fire": "1",
+                        "water": "2",
+                        "thunder": "3",
+                        "ice": "1",
+                        "dragon": "0"
+                    }
+                ],
+                "aliment": [
+                    {
+                        "poison": "3",
+                        "stun": "2",
+                        "paralysis": "3",
+                        "sleep": "3",
+                        "blast": "2",
+                        "riding": "3"
+                    }
+                ],
+                "item": [
+                    {
+                        "fire_aliment": "1",
+                        "water_aliment": "1",
+                        "thunder_aliment": "2",
+                        "ice_aliment": "1",
+                        "shocktrap": "2",
+                        "pitfalltrap": "2",
+                        "flashpod": "2"
+                    }
+                ]
+            },
+            "name": "オサイズチ",
+            "nameEN": "Great Izuchi",
+            "url": "https://mhrise.com/data/4443.html"
+        },
+        "almudron": {
+            "trait": {
+                "roar": "大",
+                "wind": "-",
+                "tremor": "-",
+                "element": "水",
+                "aliment": "-"
+            },
+            "weakness": {
+                "weapon": [
+                    {
+                        "cut": "尾先>尾/頭",
+                        "blunt": "頭>腹/尾先",
+                        "ammo": "頭"
+                    }
+                ],
+                "element": [
+                    {
+                        "fire": "3",
+                        "water": "0",
+                        "thunder": "1",
+                        "ice": "2",
+                        "dragon": "1"
+                    }
+                ],
+                "aliment": [
+                    {
+                        "poison": "1",
+                        "stun": "1",
+                        "paralysis": "1",
+                        "sleep": "1",
+                        "blast": "0",
+                        "riding": "1"
+                    }
+                ],
+                "item": [
+                    {
+                        "fire_aliment": "2",
+                        "water_aliment": "1",
+                        "thunder_aliment": "1",
+                        "ice_aliment": "1",
+                        "shocktrap": "2",
+                        "pitfalltrap": "2",
+                        "flashpod": "2"
+                    }
+                ]
+            },
+            "name": "オロミドロ",
+            "nameEN": "Almudron",
+            "url": "https://mhrise.com/data/4491.html"
+        },
+        "kulu-ya-ku": {
+            "trait": {
+                "roar": "-",
+                "wind": "-",
+                "tremor": "-",
+                "element": "-",
+                "aliment": "-"
+            },
+            "weakness": {
+                "weapon": [
+                    {
+                        "cut": "頭",
+                        "blunt": "頭",
+                        "ammo": "頭"
+                    }
+                ],
+                "element": [
+                    {
+                        "fire": "2",
+                        "water": "3",
+                        "thunder": "2",
+                        "ice": "2",
+                        "dragon": "2"
+                    }
+                ],
+                "aliment": [
+                    {
+                        "poison": "1",
+                        "stun": "2",
+                        "paralysis": "1",
+                        "sleep": "1",
+                        "blast": "2",
+                        "riding": "1"
+                    }
+                ],
+                "item": [
+                    {
+                        "fire_aliment": "1",
+                        "water_aliment": "2",
+                        "thunder_aliment": "1",
+                        "ice_aliment": "1",
+                        "shocktrap": "2",
+                        "pitfalltrap": "2",
+                        "flashpod": "2"
+                    }
+                ]
+            },
+            "name": "クルルヤック",
+            "nameEN": "Kulu-Ya-Ku",
+            "url": "https://mhrise.com/data/4462.html"
+        },
+        "goss_harag": {
+            "trait": {
+                "roar": "小",
+                "wind": "-",
+                "tremor": "-",
+                "element": "氷",
+                "aliment": "-"
+            },
+            "weakness": {
+                "weapon": [
+                    {
+                        "cut": "氷塊>頭",
+                        "blunt": "氷塊>頭",
+                        "ammo": "頭>氷塊"
+                    },
+                    {
+                        "cut": "氷塊>頭/前脚",
+                        "blunt": "氷塊>前脚>頭",
+                        "ammo": "頭>氷塊",
+                        "condition": "過熱時"
+                    }
+                ],
+                "element": [
+                    {
+                        "fire": "3",
+                        "water": "0",
+                        "thunder": "2",
+                        "ice": "0",
+                        "dragon": "0"
+                    },
+                    {
+                        "fire": "2",
+                        "water": "0",
+                        "thunder": "2",
+                        "ice": "0",
+                        "dragon": "0",
+                        "condition": "過熱時"
+                    }
+                ],
+                "aliment": [
+                    {
+                        "poison": "1",
+                        "stun": "1",
+                        "paralysis": "1",
+                        "sleep": "1",
+                        "blast": "2",
+                        "riding": "0"
+                    }
+                ],
+                "item": [
+                    {
+                        "fire_aliment": "2",
+                        "water_aliment": "1",
+                        "thunder_aliment": "1",
+                        "ice_aliment": "1",
+                        "shocktrap": "2",
+                        "pitfalltrap": "2",
+                        "flashpod": "2"
+                    }
+                ]
+            },
+            "name": "ゴシャハギ",
+            "nameEN": "Goss Harag",
+            "url": "https://mhrise.com/data/4455.html"
+        },
+        "jyuratodus": {
+            "trait": {
+                "roar": "小",
+                "wind": "-",
+                "tremor": "-",
+                "element": "水",
+                "aliment": "-"
+            },
+            "weakness": {
+                "weapon": [
+                    {
+                        "cut": "頭",
+                        "blunt": "頭",
+                        "ammo": "頭"
+                    },
+                    {
+                        "cut": "頭/尾",
+                        "blunt": "頭/尾",
+                        "ammo": "首>頭/尾",
+                        "condition": "泥纏い状態"
+                    }
+                ],
+                "element": [
+                    {
+                        "fire": "2",
+                        "water": "0",
+                        "thunder": "3",
+                        "ice": "1",
+                        "dragon": "1"
+                    },
+                    {
+                        "fire": "1",
+                        "water": "3",
+                        "thunder": "0",
+                        "ice": "1",
+                        "dragon": "1",
+                        "condition": "泥纏い状態"
+                    }
+                ],
+                "aliment": [
+                    {
+                        "poison": "1",
+                        "stun": "2",
+                        "paralysis": "1",
+                        "sleep": "0",
+                        "blast": "0",
+                        "riding": "3"
+                    }
+                ],
+                "item": [
+                    {
+                        "fire_aliment": "1",
+                        "water_aliment": "1",
+                        "thunder_aliment": "2",
+                        "ice_aliment": "1",
+                        "shocktrap": "2",
+                        "pitfalltrap": "2",
+                        "flashpod": "2"
+                    }
+                ]
+            },
+            "name": "ジュラトドス",
+            "nameEN": "Jyuratodus",
+            "url": "https://mhrise.com/data/4463.html"
+        },
+        "zinogre": {
+            "trait": {
+                "roar": "小",
+                "wind": "大",
+                "tremor": "-",
+                "element": "雷",
+                "aliment": "-"
+            },
+            "weakness": {
+                "weapon": [
+                    {
+                        "cut": "頭",
+                        "blunt": "頭",
+                        "ammo": "頭"
+                    },
+                    {
+                        "cut": "背>頭",
+                        "blunt": "頭/背",
+                        "ammo": "頭",
+                        "condition": "超帯電状態"
+                    }
+                ],
+                "element": [
+                    {
+                        "fire": "2",
+                        "water": "2",
+                        "thunder": "0",
+                        "ice": "3",
+                        "dragon": "1"
+                    },
+                    {
+                        "fire": "1",
+                        "water": "2",
+                        "thunder": "0",
+                        "ice": "3",
+                        "dragon": "1",
+                        "condition": "超帯電状態"
+                    }
+                ],
+                "aliment": [
+                    {
+                        "poison": "1",
+                        "stun": "1",
+                        "paralysis": "0",
+                        "sleep": "1",
+                        "blast": "2",
+                        "riding": "1"
+                    }
+                ],
+                "item": [
+                    {
+                        "fire_aliment": "1",
+                        "water_aliment": "1",
+                        "thunder_aliment": "1",
+                        "ice_aliment": "2",
+                        "shocktrap": "※",
+                        "pitfalltrap": "2",
+                        "flashpod": "2"
+                    }
+                ]
+            },
+            "name": "ジンオウガ",
+            "nameEN": "Zinogre",
+            "url": "https://mhrise.com/data/4483.html"
+        },
+        "mizutsune": {
+            "trait": {
+                "roar": "小",
+                "wind": "-",
+                "tremor": "-",
+                "element": "水",
+                "aliment": "泡"
+            },
+            "weakness": {
+                "weapon": [
+                    {
+                        "cut": "頭",
+                        "blunt": "頭",
+                        "ammo": "頭>背ビレ"
+                    },
+                    {
+                        "cut": "頭",
+                        "blunt": "頭",
+                        "ammo": "頭>首/背ビレ/尾",
+                        "condition": "泡纏い時"
+                    }
+                ],
+                "element": [
+                    {
+                        "fire": "1",
+                        "water": "0",
+                        "thunder": "3",
+                        "ice": "1",
+                        "dragon": "2"
+                    },
+                    {
+                        "fire": "1",
+                        "water": "0",
+                        "thunder": "3",
+                        "ice": "1",
+                        "dragon": "2",
+                        "condition": "泡纏い時"
+                    }
+                ],
+                "aliment": [
+                    {
+                        "poison": "1",
+                        "stun": "1",
+                        "paralysis": "1",
+                        "sleep": "1",
+                        "blast": "2",
+                        "riding": "1"
+                    }
+                ],
+                "item": [
+                    {
+                        "fire_aliment": "1",
+                        "water_aliment": "1",
+                        "thunder_aliment": "2",
+                        "ice_aliment": "1",
+                        "shocktrap": "2",
+                        "pitfalltrap": "2",
+                        "flashpod": "2"
+                    }
+                ]
+            },
+            "name": "タマミツネ",
+            "nameEN": "Mizutsune",
+            "url": "https://mhrise.com/data/4452.html"
+        },
+        "diablos": {
+            "trait": {
+                "roar": "大",
+                "wind": "-",
+                "tremor": "-",
+                "element": "-",
+                "aliment": "-"
+            },
+            "weakness": {
+                "weapon": [
+                    {
+                        "cut": "腹>尾>頭",
+                        "blunt": "腹>頭",
+                        "ammo": "翼"
+                    }
+                ],
+                "element": [
+                    {
+                        "fire": "0",
+                        "water": "2",
+                        "thunder": "1",
+                        "ice": "3",
+                        "dragon": "2"
+                    }
+                ],
+                "aliment": [
+                    {
+                        "poison": "1",
+                        "stun": "0",
+                        "paralysis": "3",
+                        "sleep": "1",
+                        "blast": "2",
+                        "riding": "1"
+                    }
+                ],
+                "item": [
+                    {
+                        "fire_aliment": "1",
+                        "water_aliment": "1",
+                        "thunder_aliment": "1",
+                        "ice_aliment": "2",
+                        "shocktrap": "2",
+                        "pitfalltrap": "2",
+                        "flashpod": "2"
+                    }
+                ]
+            },
+            "name": "ディアブロス",
+            "nameEN": "Diablos",
+            "url": "https://mhrise.com/data/4492.html"
+        },
+        "tigrex": {
+            "trait": {
+                "roar": "大",
+                "wind": "-",
+                "tremor": "-",
+                "element": "-",
+                "aliment": "-"
+            },
+            "weakness": {
+                "weapon": [
+                    {
+                        "cut": "頭>前脚>尾",
+                        "blunt": "頭",
+                        "ammo": "頭"
+                    }
+                ],
+                "element": [
+                    {
+                        "fire": "0",
+                        "water": "1",
+                        "thunder": "3",
+                        "ice": "1",
+                        "dragon": "2"
+                    }
+                ],
+                "aliment": [
+                    {
+                        "poison": "1",
+                        "stun": "1",
+                        "paralysis": "1",
+                        "sleep": "1",
+                        "blast": "2",
+                        "riding": "1"
+                    }
+                ],
+                "item": [
+                    {
+                        "fire_aliment": "1",
+                        "water_aliment": "1",
+                        "thunder_aliment": "2",
+                        "ice_aliment": "1",
+                        "shocktrap": "2",
+                        "pitfalltrap": "2",
+                        "flashpod": "2"
+                    }
+                ]
+            },
+            "name": "ティガレックス",
+            "nameEN": "Tigrex",
+            "url": "https://mhrise.com/data/4454.html"
+        },
+        "great_baggi": {
+            "trait": {
+                "roar": "-",
+                "wind": "-",
+                "tremor": "-",
+                "element": "-",
+                "aliment": "睡眠"
+            },
+            "weakness": {
+                "weapon": [
+                    {
+                        "cut": "頭",
+                        "blunt": "頭",
+                        "ammo": "頭"
+                    }
+                ],
+                "element": [
+                    {
+                        "fire": "3",
+                        "water": "2",
+                        "thunder": "2",
+                        "ice": "0",
+                        "dragon": "0"
+                    }
+                ],
+                "aliment": [
+                    {
+                        "poison": "1",
+                        "stun": "1",
+                        "paralysis": "3",
+                        "sleep": "0",
+                        "blast": "3",
+                        "riding": "3"
+                    }
+                ],
+                "item": [
+                    {
+                        "fire_aliment": "2",
+                        "water_aliment": "1",
+                        "thunder_aliment": "1",
+                        "ice_aliment": "1",
+                        "shocktrap": "2",
+                        "pitfalltrap": "2",
+                        "flashpod": "2"
+                    }
+                ]
+            },
+            "name": "ドスバギィ",
+            "nameEN": "Great Baggi",
+            "url": "https://mhrise.com/data/4458.html"
+        },
+        "great_wroggi": {
+            "trait": {
+                "roar": "-",
+                "wind": "-",
+                "tremor": "-",
+                "element": "-",
+                "aliment": "毒"
+            },
+            "weakness": {
+                "weapon": [
+                    {
+                        "cut": "頭",
+                        "blunt": "頭",
+                        "ammo": "頭"
+                    }
+                ],
+                "element": [
+                    {
+                        "fire": "0",
+                        "water": "2",
+                        "thunder": "1",
+                        "ice": "3",
+                        "dragon": "0"
+                    }
+                ],
+                "aliment": [
+                    {
+                        "poison": "0",
+                        "stun": "1",
+                        "paralysis": "3",
+                        "sleep": "3",
+                        "blast": "2",
+                        "riding": "1"
+                    }
+                ],
+                "item": [
+                    {
+                        "fire_aliment": "1",
+                        "water_aliment": "1",
+                        "thunder_aliment": "1",
+                        "ice_aliment": "2",
+                        "shocktrap": "2",
+                        "pitfalltrap": "2",
+                        "flashpod": "2"
+                    }
+                ]
+            },
+            "name": "ドスフロギィ",
+            "nameEN": "Great Wroggi",
+            "url": "https://mhrise.com/data/4451.html"
+        },
+        "tobi-kadachi": {
+            "trait": {
+                "roar": "小",
+                "wind": "-",
+                "tremor": "-",
+                "element": "雷",
+                "aliment": "-"
+            },
+            "weakness": {
+                "weapon": [
+                    {
+                        "cut": "尾",
+                        "blunt": "尾",
+                        "ammo": "尾"
+                    }
+                ],
+                "element": [
+                    {
+                        "fire": "2",
+                        "water": "3",
+                        "thunder": "0",
+                        "ice": "2",
+                        "dragon": "1"
+                    }
+                ],
+                "aliment": [
+                    {
+                        "poison": "3",
+                        "stun": "1",
+                        "paralysis": "1",
+                        "sleep": "1",
+                        "blast": "2",
+                        "riding": "1"
+                    }
+                ],
+                "item": [
+                    {
+                        "fire_aliment": "1",
+                        "water_aliment": "2",
+                        "thunder_aliment": "1",
+                        "ice_aliment": "1",
+                        "shocktrap": "2",
+                        "pitfalltrap": "2",
+                        "flashpod": "2"
+                    }
+                ]
+            },
+            "name": "トビカガチ",
+            "nameEN": "Tobi-Kadachi",
+            "url": "https://mhrise.com/data/4447.html"
+        },
+        "nargacuga": {
+            "trait": {
+                "roar": "小",
+                "wind": "-",
+                "tremor": "-",
+                "element": "-",
+                "aliment": "-"
+            },
+            "weakness": {
+                "weapon": [
+                    {
+                        "cut": "頭",
+                        "blunt": "頭",
+                        "ammo": "尾"
+                    }
+                ],
+                "element": [
+                    {
+                        "fire": "2",
+                        "water": "0",
+                        "thunder": "3",
+                        "ice": "1",
+                        "dragon": "1"
+                    }
+                ],
+                "aliment": [
+                    {
+                        "poison": "1",
+                        "stun": "1",
+                        "paralysis": "1",
+                        "sleep": "1",
+                        "blast": "2",
+                        "riding": "1"
+                    }
+                ],
+                "item": [
+                    {
+                        "fire_aliment": "1",
+                        "water_aliment": "1",
+                        "thunder_aliment": "2",
+                        "ice_aliment": "1",
+                        "shocktrap": "2",
+                        "pitfalltrap": "※",
+                        "flashpod": "2"
+                    }
+                ]
+            },
+            "name": "ナルガクルガ",
+            "nameEN": "Nargacuga",
+            "url": "https://mhrise.com/data/4508.html"
+        },
+        "thunderserpentnarwa": {
+            "trait": {
+                "roar": "強",
+                "wind": "大",
+                "tremor": "-",
+                "element": "雷",
+                "aliment": "-"
+            },
+            "weakness": {
+                "weapon": [
+                    {
+                        "cut": "腹",
+                        "blunt": "腹",
+                        "ammo": "腹",
+                        "condition": "帯電時"
+                    }
+                ],
+                "element": [
+                    {
+                        "fire": "1",
+                        "water": "1",
+                        "thunder": "0",
+                        "ice": "2",
+                        "dragon": "3",
+                        "condition": "帯電時"
+                    }
+                ],
+                "aliment": [
+                    {
+                        "poison": "0",
+                        "stun": "0",
+                        "paralysis": "0",
+                        "sleep": "0",
+                        "blast": "2",
+                        "riding": "0"
+                    }
+                ],
+                "item": [
+                    {
+                        "fire_aliment": "1",
+                        "water_aliment": "1",
+                        "thunder_aliment": "0",
+                        "ice_aliment": "2",
+                        "shocktrap": "0",
+                        "pitfalltrap": "0",
+                        "flashpod": "2"
+                    }
+                ]
+            },
+            "name": "ナルハタタヒメ",
+            "nameEN": "ThunderSerpentNarwa",
+            "url": "https://mhrise.com/data/4521.html"
+        },
+        "basarios": {
+            "trait": {
+                "roar": "大",
+                "wind": "-",
+                "tremor": "-",
+                "element": "火",
+                "aliment": "毒>睡眠"
+            },
+            "weakness": {
+                "weapon": [
+                    {
+                        "cut": "腹(破壊後)",
+                        "blunt": "腹(破壊後)",
+                        "ammo": "背(破壊後)"
+                    },
+                    {
+                        "cut": "腹",
+                        "blunt": "頭/腹",
+                        "ammo": "背>腹",
+                        "condition": "赤熱化時"
+                    }
+                ],
+                "element": [
+                    {
+                        "fire": "2",
+                        "water": "2",
+                        "thunder": "1",
+                        "ice": "1",
+                        "dragon": "3"
+                    },
+                    {
+                        "fire": "2",
+                        "water": "2",
+                        "thunder": "1",
+                        "ice": "1",
+                        "dragon": "3",
+                        "condition": "赤熱化時"
+                    }
+                ],
+                "aliment": [
+                    {
+                        "poison": "1",
+                        "stun": "1",
+                        "paralysis": "1",
+                        "sleep": "3",
+                        "blast": "2",
+                        "riding": "1"
+                    }
+                ],
+                "item": [
+                    {
+                        "fire_aliment": "1",
+                        "water_aliment": "2",
+                        "thunder_aliment": "1",
+                        "ice_aliment": "1",
+                        "shocktrap": "2",
+                        "pitfalltrap": "2",
+                        "flashpod": "2"
+                    }
+                ]
+            },
+            "name": "バサルモス",
+            "nameEN": "Basarios",
+            "url": "https://mhrise.com/data/4466.html"
+        },
+        "bishaten": {
+            "trait": {
+                "roar": "小",
+                "wind": "小",
+                "tremor": "-",
+                "element": "-",
+                "aliment": "毒>閃光>麻痺"
+            },
+            "weakness": {
+                "weapon": [
+                    {
+                        "cut": "頭>尾",
+                        "blunt": "頭",
+                        "ammo": "頭"
+                    }
+                ],
+                "element": [
+                    {
+                        "fire": "2",
+                        "water": "0",
+                        "thunder": "1",
+                        "ice": "3",
+                        "dragon": "0"
+                    }
+                ],
+                "aliment": [
+                    {
+                        "poison": "1",
+                        "stun": "1",
+                        "paralysis": "1",
+                        "sleep": "1",
+                        "blast": "2",
+                        "riding": "1"
+                    }
+                ],
+                "item": [
+                    {
+                        "fire_aliment": "1",
+                        "water_aliment": "1",
+                        "thunder_aliment": "1",
+                        "ice_aliment": "2",
+                        "shocktrap": "2",
+                        "pitfalltrap": "2",
+                        "flashpod": "2"
+                    }
+                ]
+            },
+            "name": "ビシュテンゴ",
+            "nameEN": "Bishaten",
+            "url": "https://mhrise.com/data/4449.html"
+        },
+        "pukei-pukei": {
+            "trait": {
+                "roar": "小",
+                "wind": "小",
+                "tremor": "-",
+                "element": "-",
+                "aliment": "毒"
+            },
+            "weakness": {
+                "weapon": [
+                    {
+                        "cut": "舌>頭",
+                        "blunt": "舌>頭",
+                        "ammo": "舌>頭"
+                    }
+                ],
+                "element": [
+                    {
+                        "fire": "1",
+                        "water": "0",
+                        "thunder": "3",
+                        "ice": "2",
+                        "dragon": "1"
+                    }
+                ],
+                "aliment": [
+                    {
+                        "poison": "0",
+                        "stun": "1",
+                        "paralysis": "3",
+                        "sleep": "3",
+                        "blast": "2",
+                        "riding": "1"
+                    }
+                ],
+                "item": [
+                    {
+                        "fire_aliment": "1",
+                        "water_aliment": "1",
+                        "thunder_aliment": "2",
+                        "ice_aliment": "1",
+                        "shocktrap": "2",
+                        "pitfalltrap": "2",
+                        "flashpod": "2"
+                    }
+                ]
+            },
+            "name": "プケプケ",
+            "nameEN": "Pukei-Pukei",
+            "url": "https://mhrise.com/data/4464.html"
+        },
+        "khezu": {
+            "trait": {
+                "roar": "大",
+                "wind": "小",
+                "tremor": "-",
+                "element": "雷",
+                "aliment": "麻痺"
+            },
+            "weakness": {
+                "weapon": [
+                    {
+                        "cut": "頭/首",
+                        "blunt": "頭",
+                        "ammo": "頭"
+                    }
+                ],
+                "element": [
+                    {
+                        "fire": "3",
+                        "water": "1",
+                        "thunder": "0",
+                        "ice": "1",
+                        "dragon": "1"
+                    }
+                ],
+                "aliment": [
+                    {
+                        "poison": "3",
+                        "stun": "1",
+                        "paralysis": "0",
+                        "sleep": "1",
+                        "blast": "2",
+                        "riding": "0"
+                    }
+                ],
+                "item": [
+                    {
+                        "fire_aliment": "2",
+                        "water_aliment": "1",
+                        "thunder_aliment": "1",
+                        "ice_aliment": "1",
+                        "shocktrap": "2",
+                        "pitfalltrap": "2",
+                        "flashpod": "0"
+                    }
+                ]
+            },
+            "name": "フルフル",
+            "nameEN": "Khezu",
+            "url": "https://mhrise.com/data/4453.html"
+        },
+        "barioth": {
+            "trait": {
+                "roar": "小",
+                "wind": "小",
+                "tremor": "-",
+                "element": "氷",
+                "aliment": "-"
+            },
+            "weakness": {
+                "weapon": [
+                    {
+                        "cut": "頭>尾先",
+                        "blunt": "頭",
+                        "ammo": "頭>尾"
+                    }
+                ],
+                "element": [
+                    {
+                        "fire": "3",
+                        "water": "1",
+                        "thunder": "2",
+                        "ice": "0",
+                        "dragon": "1"
+                    }
+                ],
+                "aliment": [
+                    {
+                        "poison": "1",
+                        "stun": "1",
+                        "paralysis": "1",
+                        "sleep": "1",
+                        "blast": "2",
+                        "riding": "1"
+                    }
+                ],
+                "item": [
+                    {
+                        "fire_aliment": "2",
+                        "water_aliment": "1",
+                        "thunder_aliment": "1",
+                        "ice_aliment": "1",
+                        "shocktrap": "2",
+                        "pitfalltrap": "2",
+                        "flashpod": "2"
+                    }
+                ]
+            },
+            "name": "ベリオロス",
+            "nameEN": "Barioth",
+            "url": "https://mhrise.com/data/4457.html"
+        },
+        "barroth": {
+            "trait": {
+                "roar": "小",
+                "wind": "-",
+                "tremor": "-",
+                "element": "水",
+                "aliment": "-"
+            },
+            "weakness": {
+                "weapon": [
+                    {
+                        "cut": "前脚",
+                        "blunt": "前脚",
+                        "ammo": "前脚/尾"
+                    },
+                    {
+                        "cut": "前脚",
+                        "blunt": "前脚",
+                        "ammo": "前脚/尾",
+                        "condition": "泥纏い時"
+                    }
+                ],
+                "element": [
+                    {
+                        "fire": "3",
+                        "water": "0",
+                        "thunder": "0",
+                        "ice": "2",
+                        "dragon": "1"
+                    },
+                    {
+                        "fire": "0",
+                        "water": "3",
+                        "thunder": "0",
+                        "ice": "2",
+                        "dragon": "0",
+                        "condition": "泥纏い時"
+                    }
+                ],
+                "aliment": [
+                    {
+                        "poison": "3",
+                        "stun": "0",
+                        "paralysis": "3",
+                        "sleep": "1",
+                        "blast": "3",
+                        "riding": "1"
+                    }
+                ],
+                "item": [
+                    {
+                        "fire_aliment": "2",
+                        "water_aliment": "1",
+                        "thunder_aliment": "1",
+                        "ice_aliment": "1",
+                        "shocktrap": "2",
+                        "pitfalltrap": "2",
+                        "flashpod": "2"
+                    }
+                ]
+            },
+            "name": "ボルボロス",
+            "nameEN": "Barroth",
+            "url": "https://mhrise.com/data/4501.html"
+        },
+        "magnamalo": {
+            "trait": {
+                "roar": "小",
+                "wind": "-",
+                "tremor": "-",
+                "element": "-",
+                "aliment": "鬼火"
+            },
+            "weakness": {
+                "weapon": [
+                    {
+                        "cut": "頭",
+                        "blunt": "頭",
+                        "ammo": "腕刃/尾先"
+                    },
+                    {
+                        "cut": "背中>頭",
+                        "blunt": "背中>頭",
+                        "ammo": "背中",
+                        "condition": "鬼火纏い"
+                    }
+                ],
+                "element": [
+                    {
+                        "fire": "0",
+                        "water": "3",
+                        "thunder": "2",
+                        "ice": "1",
+                        "dragon": "0"
+                    },
+                    {
+                        "fire": "0",
+                        "water": "3",
+                        "thunder": "3",
+                        "ice": "1",
+                        "dragon": "0",
+                        "condition": "鬼火纏い"
+                    }
+                ],
+                "aliment": [
+                    {
+                        "poison": "1",
+                        "stun": "1",
+                        "paralysis": "1",
+                        "sleep": "1",
+                        "blast": "0",
+                        "riding": "1"
+                    }
+                ],
+                "item": [
+                    {
+                        "fire_aliment": "1",
+                        "water_aliment": "2",
+                        "thunder_aliment": "1",
+                        "ice_aliment": "1",
+                        "shocktrap": "2",
+                        "pitfalltrap": "2",
+                        "flashpod": "2"
+                    }
+                ]
+            },
+            "name": "マガイマガド",
+            "nameEN": "Magnamalo",
+            "url": "https://mhrise.com/data/4441.html"
+        },
+        "rakna-kadaki": {
+            "trait": {
+                "roar": "大",
+                "wind": "-",
+                "tremor": "-",
+                "element": "火",
+                "aliment": "糸"
+            },
+            "weakness": {
+                "weapon": [
+                    {
+                        "cut": "頭",
+                        "blunt": "頭",
+                        "ammo": "頭"
+                    }
+                ],
+                "element": [
+                    {
+                        "fire": "0",
+                        "water": "2",
+                        "thunder": "0",
+                        "ice": "3",
+                        "dragon": "0"
+                    }
+                ],
+                "aliment": [
+                    {
+                        "poison": "0",
+                        "stun": "1",
+                        "paralysis": "1",
+                        "sleep": "1",
+                        "blast": "0",
+                        "riding": "1"
+                    }
+                ],
+                "item": [
+                    {
+                        "fire_aliment": "1",
+                        "water_aliment": "1",
+                        "thunder_aliment": "1",
+                        "ice_aliment": "2",
+                        "shocktrap": "2",
+                        "pitfalltrap": "2",
+                        "flashpod": "2"
+                    }
+                ]
+            },
+            "name": "ヤツカダキ",
+            "nameEN": "Rakna-Kadaki",
+            "url": "https://mhrise.com/data/4465.html"
+        },
+        "tetranadon": {
+            "trait": {
+                "roar": "小",
+                "wind": "-",
+                "tremor": "大",
+                "element": "水",
+                "aliment": "-"
+            },
+            "weakness": {
+                "weapon": [
+                    {
+                        "cut": "頭",
+                        "blunt": "頭",
+                        "ammo": "頭"
+                    }
+                ],
+                "element": [
+                    {
+                        "fire": "2",
+                        "water": "0",
+                        "thunder": "3",
+                        "ice": "1",
+                        "dragon": "1"
+                    }
+                ],
+                "aliment": [
+                    {
+                        "poison": "1",
+                        "stun": "1",
+                        "paralysis": "3",
+                        "sleep": "1",
+                        "blast": "2",
+                        "riding": "1"
+                    }
+                ],
+                "item": [
+                    {
+                        "fire_aliment": "1",
+                        "water_aliment": "1",
+                        "thunder_aliment": "2",
+                        "ice_aliment": "1",
+                        "shocktrap": "2",
+                        "pitfalltrap": "2",
+                        "flashpod": "2"
+                    }
+                ]
+            },
+            "name": "ヨツミワドウ",
+            "nameEN": "Tetranadon",
+            "url": "https://mhrise.com/data/4444.html"
+        },
+        "rajang": {
+            "trait": {
+                "roar": "大",
+                "wind": "-",
+                "tremor": "大",
+                "element": "雷",
+                "aliment": "-"
+            },
+            "weakness": {
+                "weapon": [
+                    {
+                        "cut": "頭",
+                        "blunt": "頭",
+                        "ammo": "頭"
+                    },
+                    {
+                        "cut": "頭/尾",
+                        "blunt": "頭>尾",
+                        "ammo": "頭/尾",
+                        "condition": "闘気硬化時"
+                    }
+                ],
+                "element": [
+                    {
+                        "fire": "0",
+                        "water": "1",
+                        "thunder": "0",
+                        "ice": "3",
+                        "dragon": "0"
+                    },
+                    {
+                        "fire": "0",
+                        "water": "1",
+                        "thunder": "0",
+                        "ice": "3",
+                        "dragon": "0",
+                        "condition": "闘気硬化時"
+                    }
+                ],
+                "aliment": [
+                    {
+                        "poison": "0",
+                        "stun": "0",
+                        "paralysis": "0",
+                        "sleep": "0",
+                        "blast": "2",
+                        "riding": "0"
+                    }
+                ],
+                "item": [
+                    {
+                        "fire_aliment": "1",
+                        "water_aliment": "1",
+                        "thunder_aliment": "1",
+                        "ice_aliment": "2",
+                        "shocktrap": "※",
+                        "pitfalltrap": "※",
+                        "flashpod": "○"
+                    }
+                ]
+            },
+            "name": "ラージャン",
+            "nameEN": "Rajang",
+            "url": "https://mhrise.com/data/4493.html"
+        },
+        "volvidon": {
+            "trait": {
+                "roar": "-",
+                "wind": "-",
+                "tremor": "小",
+                "element": "-",
+                "aliment": "麻痺>アイテム使用不可"
+            },
+            "weakness": {
+                "weapon": [
+                    {
+                        "cut": "頭",
+                        "blunt": "頭",
+                        "ammo": "頭"
+                    }
+                ],
+                "element": [
+                    {
+                        "fire": "0",
+                        "water": "3",
+                        "thunder": "1",
+                        "ice": "2",
+                        "dragon": "0"
+                    }
+                ],
+                "aliment": [
+                    {
+                        "poison": "1",
+                        "stun": "2",
+                        "paralysis": "1",
+                        "sleep": "1",
+                        "blast": "2",
+                        "riding": "1"
+                    }
+                ],
+                "item": [
+                    {
+                        "fire_aliment": "1",
+                        "water_aliment": "2",
+                        "thunder_aliment": "1",
+                        "ice_aliment": "1",
+                        "shocktrap": "2",
+                        "pitfalltrap": "2",
+                        "flashpod": "2"
+                    }
+                ]
+            },
+            "name": "ラングロトラ",
+            "nameEN": "Volvidon",
+            "url": "https://mhrise.com/data/4490.html"
+        },
+        "rathian": {
+            "trait": {
+                "roar": "小",
+                "wind": "小",
+                "tremor": "-",
+                "element": "火",
+                "aliment": "毒"
+            },
+            "weakness": {
+                "weapon": [
+                    {
+                        "cut": "頭",
+                        "blunt": "頭",
+                        "ammo": "頭"
+                    }
+                ],
+                "element": [
+                    {
+                        "fire": "0",
+                        "water": "1",
+                        "thunder": "2",
+                        "ice": "1",
+                        "dragon": "3"
+                    }
+                ],
+                "aliment": [
+                    {
+                        "poison": "0",
+                        "stun": "1",
+                        "paralysis": "1",
+                        "sleep": "1",
+                        "blast": "0",
+                        "riding": "1"
+                    }
+                ],
+                "item": [
+                    {
+                        "fire_aliment": "1",
+                        "water_aliment": "1",
+                        "thunder_aliment": "2",
+                        "ice_aliment": "1",
+                        "shocktrap": "2",
+                        "pitfalltrap": "2",
+                        "flashpod": "2"
+                    }
+                ]
+            },
+            "name": "リオレイア",
+            "nameEN": "Rathian",
+            "url": "https://mhrise.com/data/4460.html"
+        },
+        "rathalos": {
+            "trait": {
+                "roar": "小",
+                "wind": "小",
+                "tremor": "-",
+                "element": "火",
+                "aliment": "毒"
+            },
+            "weakness": {
+                "weapon": [
+                    {
+                        "cut": "頭",
+                        "blunt": "頭",
+                        "ammo": "頭"
+                    }
+                ],
+                "element": [
+                    {
+                        "fire": "0",
+                        "water": "1",
+                        "thunder": "2",
+                        "ice": "1",
+                        "dragon": "3"
+                    }
+                ],
+                "aliment": [
+                    {
+                        "poison": "0",
+                        "stun": "1",
+                        "paralysis": "1",
+                        "sleep": "1",
+                        "blast": "0",
+                        "riding": "1"
+                    }
+                ],
+                "item": [
+                    {
+                        "fire_aliment": "1",
+                        "water_aliment": "1",
+                        "thunder_aliment": "2",
+                        "ice_aliment": "1",
+                        "shocktrap": "2",
+                        "pitfalltrap": "2",
+                        "flashpod": "2"
+                    }
+                ]
+            },
+            "name": "リオレウス",
+            "nameEN": "Rathalos",
+            "url": "https://mhrise.com/data/4459.html"
+        },
+        "royal_ludroth": {
+            "trait": {
+                "roar": "-",
+                "wind": "-",
+                "tremor": "-",
+                "element": "水",
+                "aliment": "-"
+            },
+            "weakness": {
+                "weapon": [
+                    {
+                        "cut": "タテガミ",
+                        "blunt": "頭>タテガミ",
+                        "ammo": "頭"
+                    }
+                ],
+                "element": [
+                    {
+                        "fire": "3",
+                        "water": "0",
+                        "thunder": "2",
+                        "ice": "1",
+                        "dragon": "0"
+                    }
+                ],
+                "aliment": [
+                    {
+                        "poison": "1",
+                        "stun": "1",
+                        "paralysis": "1",
+                        "sleep": "1",
+                        "blast": "2",
+                        "riding": "1"
+                    }
+                ],
+                "item": [
+                    {
+                        "fire_aliment": "2",
+                        "water_aliment": "1",
+                        "thunder_aliment": "1",
+                        "ice_aliment": "1",
+                        "shocktrap": "2",
+                        "pitfalltrap": "2",
+                        "flashpod": "2"
+                    }
+                ]
+            },
+            "name": "ロアルドロス",
+            "nameEN": "Royal Ludroth",
+            "url": "https://mhrise.com/data/4450.html"
+        }
+    }
+}
