@@ -3040,7 +3040,7 @@
             ]
         },
         "goss_harag": {
-            "outline": "雪鬼獸在怒後手會變成紅色，並積極凝結雙手的冰刃。打破雪鬼獸手上的冰塊可使雪鬼獸倒地。\n冰刃狀態下，雪鬼獸的左手刀(橫掃/下劈)攻擊必會接右手刀攻擊，在右手刀攻擊後會有較長時間的硬直。",
+            "outline": "雪鬼獸在怒後手會變成紅色，並積極凝結雙手的冰刃。此時打破雪鬼獸手上的冰塊可使雪鬼獸倒地。\n冰刃狀態下，雪鬼獸的左手刀(橫掃/下劈)攻擊必會接右手刀攻擊，在右手刀攻擊後會有較長時間的硬直。",
             "reference": {
                 "(twitter)モンスターハンターライズ公式": "https://twitter.com/mh_rise_jp",
                 "【MHR】集★7 ゴシャハギチャージアックスソロ / Goss Harag Chargeblade solo 3:35 monster hunter rise": "https://www.youtube.com/watch?v=Vqlg_v6siIM",
@@ -3049,89 +3049,89 @@
             "moves": [
                 {
                     "name": "龍吼",
-                    "preaction": "",
+                    "preaction": "發動快，抬頭挺胸後就吼。",
                     "action": "",
                     "recovery": "",
-                    "note": "",
+                    "note": "戰鬥中手發紅龍吼進入憤怒狀態。",
                     "video": "videos/雪鬼獸/雪鬼獸_龍吼.mp4",
                     "onlyincombo": false
                 },
                 {
                     "name": "前頂",
-                    "preaction": "",
-                    "action": "",
-                    "recovery": "",
-                    "note": "不會擊飛目標。",
+                    "preaction": "兩手張開頭一低。",
+                    "action": "頭向前頂。",
+                    "recovery": "小",
+                    "note": "不會擊飛目標。冰刃狀態下也會使用。",
                     "video": "videos/雪鬼獸/雪鬼獸_前頂.mp4",
                     "onlyincombo": false
                 },
                 {
                     "name": "肩撞",
-                    "preaction": "",
-                    "action": "",
-                    "recovery": "",
+                    "preaction": "側身，肩膀朝向目標。",
+                    "action": "肩膀向前撞。",
+                    "recovery": "小",
                     "note": "",
                     "video": "videos/雪鬼獸/雪鬼獸_肩撞.mp4",
                     "onlyincombo": false
                 },
                 {
                     "name": "單手掀地板",
-                    "preaction": "",
-                    "action": "",
-                    "recovery": "",
+                    "preaction": "身體壓低，單手扶地。",
+                    "action": "手揮向目標，並掀起地面石板攻擊。",
+                    "recovery": "中",
                     "note": "",
                     "video": "videos/雪鬼獸/雪鬼獸_單手掀地板.mp4",
                     "onlyincombo": false
                 },
                 {
-                    "name": "衝刺拳",
-                    "preaction": "",
-                    "action": "",
+                    "name": "衝刺下砸拳",
+                    "preaction": "單手大幅度向後，看向目標。",
+                    "action": "衝向目標後用力砸地，並轉身180度滑行。",
                     "recovery": "大",
-                    "note": "怒後會接第二下。",
-                    "video": "videos/雪鬼獸/雪鬼獸_衝刺拳.mp4",
+                    "note": "怒後會接第二下。通常距離較遠時使用。",
+                    "video": "videos/雪鬼獸/雪鬼獸_衝刺下砸拳.mp4",
                     "onlyincombo": false
                 },
                 {
-                    "name": "二連下砸",
-                    "preaction": "",
-                    "action": "",
-                    "recovery": "",
+                    "name": "二連下砸拳",
+                    "preaction": "身體向側後方蓄力。",
+                    "action": "跳向目標後拳頭砸地，連續兩次。",
+                    "recovery": "中",
                     "note": "",
-                    "video": "videos/雪鬼獸/雪鬼獸_二連下砸.mp4",
+                    "video": "videos/雪鬼獸/雪鬼獸_二連下砸拳.mp4",
                     "onlyincombo": false
                 },
                 {
                     "name": "二連抓",
-                    "preaction": "",
-                    "action": "",
-                    "recovery": "",
-                    "note": "",
+                    "preaction": "雙手上舉向目標威嚇。",
+                    "action": "向前連續兩次的爪擊。",
+                    "recovery": "中",
+                    "note": "有兩下攻擊判定。冰刃狀態也會使用。",
                     "video": "videos/雪鬼獸/雪鬼獸_二連抓.mp4",
                     "onlyincombo": false
                 },
                 {
                     "name": "二連迴旋揮爪",
-                    "preaction": "",
-                    "action": "",
-                    "recovery": "",
+                    "preaction": "身體轉向後方蓄力。",
+                    "action": "連續兩次旋轉身體並爪擊。",
+                    "recovery": "小",
                     "note": "",
                     "video": "videos/雪鬼獸/雪鬼獸_二連迴旋揮爪.mp4",
                     "onlyincombo": false
                 },
                 {
                     "name": "橫掃側跨步",
-                    "preaction": "",
-                    "action": "",
+                    "preaction": "側身高舉單手。",
+                    "action": "單手揮向目標，接著側跨一步。銜接後續連招",
                     "recovery": "",
-                    "note": "",
+                    "note": "連招起手。",
                     "video": "videos/雪鬼獸/雪鬼獸_橫掃側跨步.mp4",
                     "onlyincombo": true
                 },
                 {
                     "name": "側滑步",
                     "preaction": "",
-                    "action": "",
+                    "action": "快速繞行到目標身側。",
                     "recovery": "",
                     "note": "",
                     "video": "videos/雪鬼獸/雪鬼獸_側滑步.mp4",
@@ -3139,38 +3139,38 @@
                 },
                 {
                     "name": "震地衝擊",
-                    "preaction": "",
-                    "action": "",
-                    "recovery": "",
-                    "note": "",
+                    "preaction": "雙手上舉並抬頭。",
+                    "action": "雙手下砸後，掀起直線的地面衝擊波。",
+                    "recovery": "中",
+                    "note": "與二連抓的起手動作比起來，高舉的雙手靠得比較近且頭明顯上抬。這招離的近可能會有下砸及衝擊波兩段傷害判定。",
                     "video": "videos/雪鬼獸/雪鬼獸_震地衝擊.mp4",
                     "onlyincombo": false
                 },
                 {
                     "name": "凝結冰刃",
                     "preaction": "",
-                    "action": "",
+                    "action": "身體周圍冒出寒氣，雙手凝結冰刃。",
                     "recovery": "",
-                    "note": "",
+                    "note": "會銜接冰刃的橫掃或下劈連招。",
                     "video": "videos/雪鬼獸/雪鬼獸_凝結冰刃.mp4",
                     "onlyincombo": true
                 },
                 {
                     "name": "飛天震地衝擊波",
-                    "preaction": "",
-                    "action": "",
-                    "recovery": "",
-                    "note": "無冰刃也可使用",
+                    "preaction": "朝遠處高高躍起。",
+                    "action": "空中轉向目標後砸地，掀起直線的地面衝擊波。",
+                    "recovery": "小",
+                    "note": "無冰刃也可使用。通常會銜接連招。",
                     "video": "videos/雪鬼獸/雪鬼獸_飛天震地衝擊波.mp4",
-                    "onlyincombo": false
+                    "onlyincombo": true
                 },
                 {
                     "name": "十字吐息",
                     "condition": "怒後無冰刃",
-                    "preaction": "",
-                    "action": "",
+                    "preaction": "口中冒寒氣。",
+                    "action": "先由下而上，再接著橫掃的寒氣吐息。",
                     "recovery": "",
-                    "note": "",
+                    "note": "結束後凝結冰刃。",
                     "video": "videos/雪鬼獸/雪鬼獸_十字吐息.mp4",
                     "onlyincombo": true
                 },
@@ -3185,9 +3185,9 @@
                 },
                 {
                     "name": "冰塊投擲",
-                    "preaction": "",
-                    "action": "",
-                    "recovery": "",
+                    "preaction": "單手向下扶地。",
+                    "action": "向目標投擲冰塊。",
+                    "recovery": "中",
                     "note": "使用率低，距離遠才會使用。",
                     "video": "videos/雪鬼獸/雪鬼獸_冰塊投擲.mp4",
                     "onlyincombo": false
@@ -3195,38 +3195,38 @@
                 {
                     "name": "左手下劈",
                     "condition": "冰刃狀態",
-                    "preaction": "",
-                    "action": "",
-                    "recovery": "",
-                    "note": "",
+                    "preaction": "左手(面對他的右)冰刃上舉。",
+                    "action": "冰刃下劈。",
+                    "recovery": "小",
+                    "note": "必定會銜接右手的冰刃攻擊。往非攻擊手的方向滾較容易閃避。",
                     "video": "videos/雪鬼獸/雪鬼獸_左手下劈.mp4",
                     "onlyincombo": true
                 },
                 {
                     "name": "右手下劈",
                     "condition": "冰刃狀態",
-                    "preaction": "",
-                    "action": "",
+                    "preaction": "右手(面對他的左)冰刃上舉。",
+                    "action": "冰刃下劈，冰刃會卡在地上。",
                     "recovery": "大",
-                    "note": "",
+                    "note": "往非攻擊手的方向滾較容易閃避。",
                     "video": "videos/雪鬼獸/雪鬼獸_右手下劈.mp4",
                     "onlyincombo": false
                 },
                 {
                     "name": "左手橫掃",
                     "condition": "冰刃狀態",
-                    "preaction": "",
-                    "action": "",
-                    "recovery": "",
-                    "note": "",
+                    "preaction": "通常會有側跳的動作，接著左手冰刃向後側舉。",
+                    "action": "冰刃向目標橫掃。",
+                    "recovery": "小",
+                    "note": "必定會銜接右手的冰刃攻擊。",
                     "video": "videos/雪鬼獸/雪鬼獸_左手橫掃.mp4",
                     "onlyincombo": true
                 },
                 {
                     "name": "右手橫掃",
                     "condition": "冰刃狀態",
-                    "preaction": "",
-                    "action": "",
+                    "preaction": "通常會有側跳的動作，接著右手冰刃向後側舉。",
+                    "action": "冰刃向目標橫掃，冰刃會卡在地上。",
                     "recovery": "大",
                     "note": "",
                     "video": "videos/雪鬼獸/雪鬼獸_右手橫掃.mp4",
@@ -3235,9 +3235,9 @@
                 {
                     "name": "砸地接三連揮",
                     "condition": "冰刃狀態",
-                    "preaction": "",
-                    "action": "",
-                    "recovery": "",
+                    "preaction": "側身向後蓄力。",
+                    "action": "跳向目標並單手下砸，接著雙手向前連續揮擊三次。",
+                    "recovery": "中",
                     "note": "",
                     "video": "videos/雪鬼獸/雪鬼獸_砸地接三連揮.mp4",
                     "onlyincombo": false
@@ -3245,19 +3245,19 @@
                 {
                     "name": "冰刃大迴旋",
                     "condition": "冰刃狀態",
-                    "preaction": "",
-                    "action": "",
+                    "preaction": "單手冰刃從身前劃半圈到身後蓄力。",
+                    "action": "冰刃向前橫掃，並轉身再次橫掃。",
                     "recovery": "大",
-                    "note": "",
+                    "note": "兩段攻擊判定。",
                     "video": "videos/雪鬼獸/雪鬼獸_冰刃大迴旋.mp4",
                     "onlyincombo": false
                 },
                 {
                     "name": "二連冰刃飛刀",
                     "condition": "冰刃狀態",
-                    "preaction": "",
-                    "action": "",
-                    "recovery": "",
+                    "preaction": "單手大幅度往身後舉向另一側，抬起單腳。",
+                    "action": "雙手連續向前橫掃並發出冰刃飛刀。",
+                    "recovery": "中",
                     "note": "",
                     "video": "videos/雪鬼獸/雪鬼獸_二連冰刃飛刀.mp4",
                     "onlyincombo": false
@@ -3265,8 +3265,8 @@
                 {
                     "name": "橫掃轉身迴旋飛刀",
                     "condition": "冰刃狀態",
-                    "preaction": "",
-                    "action": "",
+                    "preaction": "單手向前，身體微側蓄力。",
+                    "action": "冰刃橫掃並轉向後方，接著轉身回來從反方向再次橫掃並設出冰刃飛刀。",
                     "recovery": "大",
                     "note": "使用率較低。",
                     "video": "videos/雪鬼獸/雪鬼獸_橫掃轉身迴旋飛刀.mp4",
@@ -3275,10 +3275,10 @@
                 {
                     "name": "五連冰刃飛刀大放送",
                     "condition": "冰刃狀態",
-                    "preaction": "",
-                    "action": "",
+                    "preaction": "身體搖晃並向前小碎步，單手向後。",
+                    "action": "連續五次的橫掃並射出冰刃飛刀。",
                     "recovery": "大",
-                    "note": "退怒，脫離冰刃狀態。",
+                    "note": "退怒，脫離冰刃狀態。使用這招後通常不是疲勞就是準備要換區。",
                     "video": "videos/雪鬼獸/雪鬼獸_五連冰刃飛刀大放送.mp4",
                     "onlyincombo": false
                 },
@@ -3287,9 +3287,19 @@
                     "preaction": "",
                     "action": "",
                     "recovery": "",
-                    "note": "撞到有輕微攻擊判定。",
+                    "note": "通常用來拉開距離使用遠距離的招式，撞到目標也有輕微攻擊判定。",
                     "video": "videos/雪鬼獸/雪鬼獸_跑開.mp4",
                     "onlyincombo": true
+                },
+                {
+                    "name": "處決",
+                    "condition": "目標被擊暈時",
+                    "preaction": "挺起身子，冰刃拖地，緩緩走向目標。",
+                    "action": "單手猛力下劈。",
+                    "recovery": "小",
+                    "note": "只在目標被擊暈時使用，營造壓迫感的處決技。",
+                    "video": "videos/雪鬼獸/雪鬼獸_處決.mp4",
+                    "onlyincombo": false
                 }
             ],
             "combos": [
@@ -3333,35 +3343,24 @@
                     "condition": "",
                     "nodes": [
                         {
-                            "move": "側滑步",
-                            "links": [
-                                {
-                                    "node": 1,
-                                    "condition": ""
-                                }
-                            ]
-                        },
-                        {
-                            "move": "二連下砸",
-                            "links": []
-                        }
-                    ]
-                },
-                {
-                    "root": 0,
-                    "condition": "",
-                    "nodes": [
-                        {
                             "move": "飛天震地衝擊波",
                             "links": [
                                 {
                                     "node": 1,
                                     "condition": ""
+                                },
+                                {
+                                    "node": 2,
+                                    "condition": ""
                                 }
                             ]
                         },
                         {
-                            "move": "衝刺拳",
+                            "move": "衝刺下砸拳",
+                            "links": []
+                        },
+                        {
+                            "move": "冰塊投擲",
                             "links": []
                         }
                     ]
