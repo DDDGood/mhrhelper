@@ -4085,7 +4085,7 @@
                     "preaction": "身體向後彎曲抬起。",
                     "action": "原地轉圈並攪動身側的泥土，結束後翻身一跳。",
                     "recovery": "大",
-                    "note": "使用這招後尾部集成泥球。",
+                    "note": "憤怒狀態使用這招後尾部集成泥球。",
                     "video": "videos/泥翁龍/泥翁龍_原地轉圈集泥球.mp4",
                     "onlyincombo": false
                 },
@@ -4152,13 +4152,18 @@
                                 },
                                 {
                                     "node": 2,
-                                    "condition": "身後高機率"
+                                    "condition": "憤怒後"
                                 }
                             ]
                         },
                         {
                             "move": "蓄力拍",
-                            "links": []
+                            "links": [
+                                {
+                                    "node": 2,
+                                    "condition": "憤怒後"
+                                }
+                            ]
                         },
                         {
                             "move": "迴旋甩尾",
@@ -4181,6 +4186,33 @@
                         },
                         {
                             "move": "二連掃尾",
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "root": 0,
+                    "condition": "",
+                    "nodes": [
+                        {
+                            "move": "尖石攻擊造山",
+                            "links": [
+                                {
+                                    "node": 1,
+                                    "condition": "若泡澡狀態"
+                                },
+                                {
+                                    "node": 2,
+                                    "condition": "若一般狀態"
+                                }
+                            ]
+                        },
+                        {
+                            "move": "泡澡龍吼",
+                            "links": []
+                        },
+                        {
+                            "move": "清尾巴白給動作",
                             "links": []
                         }
                     ]
@@ -4610,7 +4642,36 @@
                     "onlyincombo": false
                 }
             ],
-            "combos": []
+            "combos": [
+                {
+                    "root": 0,
+                    "condition": "",
+                    "nodes": [
+                        {
+                            "move": "噴射滑行",
+                            "links": [
+                                {
+                                    "node": 1,
+                                    "condition": ""
+                                }
+                            ]
+                        },
+                        {
+                            "move": "噴射滑行",
+                            "links": [
+                                {
+                                    "node": 2,
+                                    "condition": ""
+                                }
+                            ]
+                        },
+                        {
+                            "move": "噴射滑行",
+                            "links": []
+                        }
+                    ]
+                }
+            ]
         },
         "rajang": {
             "outline": "(招式素材仍在蒐集中)",
@@ -4618,6 +4679,15 @@
                 "(twitter)モンスターハンターライズ公式": "https://twitter.com/mh_rise_jp"
             },
             "moves": [
+                {
+                    "name": "陀螺轉",
+                    "preaction": "",
+                    "action": "",
+                    "recovery": "",
+                    "note": "",
+                    "video": "videos/金獅子/金獅子_陀螺轉.mp4",
+                    "onlyincombo": false
+                },
                 {
                     "name": "連續拳",
                     "preaction": "",

@@ -15407,14 +15407,6 @@
             "thunder": "0",
             "ice": "3",
             "dragon": "0"
-          },
-          {
-            "fire": "0",
-            "water": "1",
-            "thunder": "0",
-            "ice": "3",
-            "dragon": "0",
-            "condition": "鬥氣硬化"
           }
         ],
         "aliment": [
@@ -15433,9 +15425,19 @@
             "water_aliment": "1",
             "thunder_aliment": "1",
             "ice_aliment": "2",
-            "shocktrap": "※",
-            "pitfalltrap": "※",
-            "flashpod": "○"
+            "shocktrap": "2",
+            "pitfalltrap": "0",
+            "flashpod": "2"
+          },
+          {
+            "condition": "鬥氣硬化",
+            "fire_aliment": "1",
+            "water_aliment": "1",
+            "thunder_aliment": "1",
+            "ice_aliment": "2",
+            "shocktrap": "0",
+            "pitfalltrap": "2",
+            "flashpod": "2"
           }
         ]
       },
