@@ -191,9 +191,9 @@ padding:10px;
 summary {
   outline: none;
 }
-summary::-webkit-details-marker {
+/* summary::-webkit-details-marker {
   display: none
-}
+} */
 summary:after {
   content: "";
   float: left;
