@@ -7,7 +7,7 @@
         "en": "Great Izuchi"
       },
       "species": "bird_wyvern",
-      "image": "https://www.monsterhunter.com/rise/assets/images/monster/modal/great-izuchi.png",
+      "image": "images/monsters/fullbody/great_izuchi.png",
       "icon": "images/monsters/icons/great_izuchi.png",
       "icon_large": "images/monsters/icons/large/great_izuchi.png",
       "description": "在擁有集體行動習性的鐮鼬龍當中居於領袖之位。體型巨大，特徵為豎立的白色毛髮及發達的鐮狀尾巴。鐮鼬龍王會與複數的鐮鼬龍組成龍群，並在其中挑選2頭精銳鐮鼬龍一同在自己的地盤內巡邏。在找到獵物或龍群遇到危險時則會下達指令，與手下的鐮鼬龍聯合進攻。切記保持冷靜，勿因牠們的合作攻擊而自亂陣腳。\n其巨大的鐮狀尾巴所施展的銳利攻擊，以及與其他鐮鼬龍的聯合攻擊非常棘手。建議先打倒牠身旁的鐮鼬龍瓦解其攻勢，才能更容易看出牠攻擊的破綻。",
@@ -131,68 +131,6 @@
             "ice": 15,
             "dragon": 10,
             "dizzy": 0
-          }
-        ],
-        "parts_old": [
-          {
-            "hitzone_color": "#e6194B",
-            "part": "頭",
-            "cut": "80",
-            "blunt": "80",
-            "ammo": "75",
-            "fire": "10",
-            "water": "20",
-            "thunder": "25",
-            "ice": "10",
-            "dragon": "5"
-          },
-          {
-            "hitzone_color": "#ffe119",
-            "part": "前腳",
-            "cut": "50",
-            "blunt": "50",
-            "ammo": "55",
-            "fire": "10",
-            "water": "10",
-            "thunder": "15",
-            "ice": "10",
-            "dragon": "0"
-          },
-          {
-            "hitzone_color": "#3cb44b",
-            "part": "身・後腳",
-            "cut": "45",
-            "blunt": "45",
-            "ammo": "40",
-            "fire": "10",
-            "water": "10",
-            "thunder": "15",
-            "ice": "10",
-            "dragon": "5"
-          },
-          {
-            "hitzone_color": "#4363d8",
-            "part": "尾巴",
-            "cut": "55",
-            "blunt": "50",
-            "ammo": "35",
-            "fire": "10",
-            "water": "15",
-            "thunder": "20",
-            "ice": "10",
-            "dragon": "5"
-          },
-          {
-            "hitzone_color": "#f58231",
-            "part": "尾尖",
-            "cut": "75",
-            "blunt": "80",
-            "ammo": "75",
-            "fire": "15",
-            "water": "20",
-            "thunder": "25",
-            "ice": "15",
-            "dragon": "10"
           }
         ]
       },
@@ -482,7 +420,7 @@
         "en": "Arzuros"
       },
       "species": "fanged_beast",
-      "image": "http://hobbigame.com/wp-content/uploads/2017/08/mhxx34.png",
+      "image": "images/monsters/fullbody/arzuros.png",
       "icon": "images/monsters/icons/arzuros.png",
       "icon_large": "images/monsters/icons/large/arzuros.png",
       "description": "棲息在溫暖濕潤地區的山脈與森林的牙獸。目前已知會以雙腳站立，採集喜愛的蜂蜜，以及在河邊抓魚。牠銳利的爪子與擁有厚重甲殼的前腳極為發達，攻擊十分具有威脅性。由於擁有美麗的藍色毛皮，因此又被稱為「青熊獸」。\n如果攜帶蜂蜜進行狩獵，青熊獸似乎會搶走蜂蜜，並當場開始進食。牠在吃蜂蜜時似乎會產生很大的破綻，狩獵時不妨帶上一些吧。",
@@ -621,81 +559,6 @@
             "ice": 20,
             "dragon": 0,
             "dizzy": 0
-          }
-        ],
-        "parts_old": [
-          {
-            "part": "頭",
-            "cut": "55",
-            "blunt": "55",
-            "ammo": "55",
-            "fire": "20",
-            "water": "5",
-            "thunder": "10",
-            "ice": "15",
-            "dragon": "0",
-            "hitzone_color": "#e6194B"
-          },
-          {
-            "part": "上半身",
-            "cut": "50",
-            "blunt": "50",
-            "ammo": "62",
-            "fire": "25",
-            "water": "5",
-            "thunder": "10",
-            "ice": "15",
-            "dragon": "0",
-            "hitzone_color": "#3cb44b"
-          },
-          {
-            "part": "前腳",
-            "cut": "33",
-            "blunt": "35",
-            "ammo": "28",
-            "fire": "30",
-            "water": "5",
-            "thunder": "30",
-            "ice": "20",
-            "dragon": "0",
-            "hitzone_color": "#ffe119"
-          },
-          {
-            "part": "前腳",
-            "condition": "破壊後",
-            "cut": "42",
-            "blunt": "45",
-            "ammo": "36",
-            "fire": "38",
-            "water": "5",
-            "thunder": "38",
-            "ice": "20",
-            "dragon": "0",
-            "hitzone_color": "#ffe119"
-          },
-          {
-            "part": "腹・後腳",
-            "cut": "55",
-            "blunt": "55",
-            "ammo": "38",
-            "fire": "15",
-            "water": "5",
-            "thunder": "10",
-            "ice": "20",
-            "dragon": "0",
-            "hitzone_color": "#f58231"
-          },
-          {
-            "part": "屁股",
-            "cut": "66",
-            "blunt": "66",
-            "ammo": "43",
-            "fire": "15",
-            "water": "5",
-            "thunder": "10",
-            "ice": "20",
-            "dragon": "0",
-            "hitzone_color": "#4363d8"
           }
         ]
       },
@@ -1017,11 +880,7 @@
       "icon": "images/monsters/icons/apex_arzuros.png",
       "icon_large": "images/monsters/icons/large/apex_arzuros.png",
       "description": "冠有「首領」之名的青熊獸。全身上下都有著像是被捲入暴風後所留下的傷痕，這也許是牠一直受到憤怒與恐懼支配的原因。前腳比起一般的個體更加發達，凡是阻其去路者，在其怪力之下無一倖存。另外，首領會藉由咆嘯，將自己的憤怒與恐懼散播至周遭，使其他魔物變得活躍起來。\n首領發怒後，會施展最強勁的必殺技。首領青熊獸的必殺技為一邊連續敲擊地面並同時接近，給予障礙物猛烈的一擊。當首領處於憤怒狀態時，記得要持續攻擊，盡早使其膽怯，平息首領的怒火吧。",
-      "threat_level": "apex",
-      "hitdata": {
-        "hitzone_image": "images/monsters/hitzone/apex_arzuros.png",
-        "parts_old": []
-      }
+      "threat_level": "apex"
     },
     "rathian": {
       "name": {
@@ -1030,7 +889,7 @@
         "en": "Rathian"
       },
       "species": "flying_wryven",
-      "image": "https://www.monsterhunter.com/rise/assets/images/monster/modal/rathian.png",
+      "image": "images/monsters/fullbody/rathian.png",
       "icon": "images/monsters/icons/rathian.png",
       "icon_large": "images/monsters/icons/large/rathian.png",
       "description": "擁有陸之女王別名的「雌火龍」。由於主要是於地面上進行狩獵，因此擁有能夠奔馳於大地的優異腳力，以及能夠殺死獵物的猛毒尾巴。另外，雌火龍亦被目擊過與雄性的火龍成雙狩獵。\n其尾巴的棘含有劇毒，且攻擊範圍較廣，因此在行動時需謹慎留意。如果成功切斷尾巴，其攻擊範圍將會變小，能讓狩獵變得更加有利。",
@@ -1183,92 +1042,6 @@
             "ice": 5,
             "dragon": 20,
             "dizzy": 0
-          }
-        ],
-        "parts_old": [
-          {
-            "hitzone_color": "#e6194B",
-            "part": "頭",
-            "cut": "70",
-            "blunt": "75",
-            "ammo": "65",
-            "fire": "0",
-            "water": "15",
-            "thunder": "20",
-            "ice": "15",
-            "dragon": "30"
-          },
-          {
-            "hitzone_color": "#3cb44b",
-            "part": "頸",
-            "cut": "40",
-            "blunt": "45",
-            "ammo": "35",
-            "fire": "0",
-            "water": "0",
-            "thunder": "5",
-            "ice": "0",
-            "dragon": "15"
-          },
-          {
-            "hitzone_color": "#ffe119",
-            "part": "身",
-            "cut": "35",
-            "blunt": "30",
-            "ammo": "25",
-            "fire": "0",
-            "water": "5",
-            "thunder": "10",
-            "ice": "5",
-            "dragon": "20"
-          },
-          {
-            "hitzone_color": "#4363d8",
-            "part": "背",
-            "cut": "35",
-            "blunt": "30",
-            "ammo": "25",
-            "fire": "0",
-            "water": "5",
-            "thunder": "10",
-            "ice": "5",
-            "dragon": "20"
-          },
-          {
-            "hitzone_color": "#f58231",
-            "part": "翼",
-            "cut": "45",
-            "blunt": "45",
-            "ammo": "35",
-            "fire": "0",
-            "water": "10",
-            "thunder": "15",
-            "ice": "10",
-            "dragon": "25"
-          },
-          {
-            "hitzone_color": "#911eb4",
-            "part": "腳",
-            "cut": "40",
-            "blunt": "40",
-            "ammo": "35",
-            "fire": "0",
-            "water": "0",
-            "thunder": "5",
-            "ice": "0",
-            "dragon": "15"
-          },
-          {
-            "hitzone_color": "#42d4f4",
-            "part": "尾巴",
-            "cut": "45",
-            "blunt": "40",
-            "ammo": "35",
-            "fire": "0",
-            "water": "5",
-            "thunder": "10",
-            "ice": "5",
-            "dragon": "20"
           }
         ]
       },
@@ -1742,11 +1515,7 @@
       "icon": "images/monsters/icons/apex_rathian.png",
       "icon_large": "images/monsters/icons/large/apex_rathian.png",
       "description": "冠有「首領」之名的雌火龍。全身上下都有著像是被捲入暴風後所留下的傷痕，這也許是牠一直受到憤怒與恐懼支配的原因。尾巴比起一般的個體更加發達，棘上還有著猛烈的劇毒。另外，首領會藉由咆嘯，將自己的憤怒與恐懼散播至周遭，使其他魔物變得活躍起來。\n首領發怒後，會施展最強勁的必殺技。首領雌火龍的必殺技為將具有猛毒的棘射向四周，並以飛散的棘為中心創造出毒素領域。當首領處於憤怒狀態時，記得要持續攻擊，盡早使其膽怯，平息首領的怒火吧。",
-      "threat_level": "apex",
-      "hitdata": {
-        "hitzone_image": "images/monsters/hitzone/apex_rathian.png",
-        "parts_old": []
-      }
+      "threat_level": "apex"
     },
     "mizutsune": {
       "name": {
@@ -1755,7 +1524,7 @@
         "en": "Mizutsune"
       },
       "species": "leviathan",
-      "image": "https://www.monsterhunter.com/rise/assets/images/monster/modal/mizutsune.png",
+      "image": "images/monsters/fullbody/mizutsune.png",
       "icon": "images/monsters/icons/mizutsune.png",
       "icon_large": "images/monsters/icons/large/mizutsune.png",
       "description": "完成獨有進化歷程的「泡狐龍」。雖是海龍種，但也收到許多報告指出牠會在陸地上活動，且動作迅速又靈活。牠會將特殊的分泌物與毛摩擦，產生泡沫，使獵物無法自由移動，並以輕快的動作加上繽紛的泡沫，使狩獵過程宛如一場曼妙的舞蹈。\n泡狐龍會利用滑溜的泡沫做出難以捉摸的動作，但牠在全身纏繞泡沫時容易滑倒，只要能掌握時機進攻，就能使狩獵變得有利。如果不幸陷入渾身泡沫的狀態，只要使盡全力掙扎便能加速解除。使用消散劑也能解除此狀態。",
@@ -2076,233 +1845,6 @@
             "ice": 15,
             "dragon": 30,
             "dizzy": 0
-          }
-        ],
-        "parts_old": [
-          {
-            "hitzone_color": "#e6194B",
-            "part": "頭",
-            "cut": "63",
-            "blunt": "63",
-            "ammo": "45",
-            "fire": "5",
-            "water": "0",
-            "thunder": "10",
-            "ice": "5",
-            "dragon": "8"
-          },
-          {
-            "hitzone_color": "#e6194B",
-            "part": "頭",
-            "condition": "泡纏",
-            "cut": "73",
-            "blunt": "73",
-            "ammo": "55",
-            "fire": "5",
-            "water": "0",
-            "thunder": "20",
-            "ice": "5",
-            "dragon": "10"
-          },
-          {
-            "hitzone_color": "#3cb44b",
-            "part": "頸",
-            "cut": "43",
-            "blunt": "43",
-            "ammo": "40",
-            "fire": "8",
-            "water": "0",
-            "thunder": "10",
-            "ice": "5",
-            "dragon": "8"
-          },
-          {
-            "hitzone_color": "#3cb44b",
-            "part": "頸",
-            "condition": "泡纏",
-            "cut": "53",
-            "blunt": "53",
-            "ammo": "50",
-            "fire": "5",
-            "water": "0",
-            "thunder": "15",
-            "ice": "5",
-            "dragon": "8"
-          },
-          {
-            "hitzone_color": "#f032e6",
-            "part": "背鰭",
-            "cut": "43",
-            "blunt": "43",
-            "ammo": "45",
-            "fire": "8",
-            "water": "0",
-            "thunder": "15",
-            "ice": "5",
-            "dragon": "10"
-          },
-          {
-            "hitzone_color": "#f032e6",
-            "part": "背鰭",
-            "condition": "泡纏",
-            "cut": "48",
-            "blunt": "48",
-            "ammo": "50",
-            "fire": "5",
-            "water": "0",
-            "thunder": "25",
-            "ice": "5",
-            "dragon": "15"
-          },
-          {
-            "hitzone_color": "#911eb4",
-            "part": "身",
-            "cut": "25",
-            "blunt": "25",
-            "ammo": "20",
-            "fire": "5",
-            "water": "0",
-            "thunder": "10",
-            "ice": "5",
-            "dragon": "5"
-          },
-          {
-            "hitzone_color": "#911eb4",
-            "part": "身",
-            "condition": "泡纏",
-            "cut": "30",
-            "blunt": "30",
-            "ammo": "25",
-            "fire": "5",
-            "water": "0",
-            "thunder": "20",
-            "ice": "5",
-            "dragon": "5"
-          },
-          {
-            "hitzone_color": "#4363d8",
-            "part": "前腳",
-            "cut": "28",
-            "blunt": "28",
-            "ammo": "10",
-            "fire": "5",
-            "water": "0",
-            "thunder": "25",
-            "ice": "15",
-            "dragon": "30"
-          },
-          {
-            "hitzone_color": "#4363d8",
-            "part": "前腳",
-            "condition": "泡纏",
-            "cut": "33",
-            "blunt": "33",
-            "ammo": "15",
-            "fire": "5",
-            "water": "0",
-            "thunder": "25",
-            "ice": "15",
-            "dragon": "30"
-          },
-          {
-            "hitzone_color": "#ffe119",
-            "part": "左前爪",
-            "cut": "24",
-            "blunt": "24",
-            "ammo": "10",
-            "fire": "5",
-            "water": "0",
-            "thunder": "30",
-            "ice": "15",
-            "dragon": "30"
-          },
-          {
-            "hitzone_color": "#ffe119",
-            "part": "左前爪",
-            "condition": "泡纏",
-            "cut": "29",
-            "blunt": "29",
-            "ammo": "15",
-            "fire": "5",
-            "water": "0",
-            "thunder": "30",
-            "ice": "15",
-            "dragon": "30"
-          },
-          {
-            "hitzone_color": "#bfef45",
-            "part": "右前爪",
-            "cut": "24",
-            "blunt": "24",
-            "ammo": "10",
-            "fire": "5",
-            "water": "0",
-            "thunder": "30",
-            "ice": "15",
-            "dragon": "30"
-          },
-          {
-            "hitzone_color": "#bfef45",
-            "part": "右前爪",
-            "condition": "泡纏",
-            "cut": "29",
-            "blunt": "29",
-            "ammo": "15",
-            "fire": "5",
-            "water": "0",
-            "thunder": "30",
-            "ice": "15",
-            "dragon": "30"
-          },
-          {
-            "hitzone_color": "#f58231",
-            "part": "後腳",
-            "cut": "38",
-            "blunt": "38",
-            "ammo": "25",
-            "fire": "5",
-            "water": "0",
-            "thunder": "10",
-            "ice": "5",
-            "dragon": "5"
-          },
-          {
-            "hitzone_color": "#f58231",
-            "part": "後腳",
-            "condition": "泡纏",
-            "cut": "43",
-            "blunt": "43",
-            "ammo": "30",
-            "fire": "5",
-            "water": "0",
-            "thunder": "20",
-            "ice": "5",
-            "dragon": "5"
-          },
-          {
-            "hitzone_color": "#42d4f4",
-            "part": "尾巴",
-            "cut": "43",
-            "blunt": "33",
-            "ammo": "40",
-            "fire": "5",
-            "water": "0",
-            "thunder": "10",
-            "ice": "5",
-            "dragon": "5"
-          },
-          {
-            "hitzone_color": "#42d4f4",
-            "part": "尾巴",
-            "condition": "泡纏",
-            "cut": "53",
-            "blunt": "43",
-            "ammo": "50",
-            "fire": "5",
-            "water": "0",
-            "thunder": "15",
-            "ice": "5",
-            "dragon": "5"
           }
         ]
       },
@@ -2738,11 +2280,7 @@
       "icon": "images/monsters/icons/apex_mizutsune.png",
       "icon_large": "images/monsters/icons/large/apex_mizutsune.png",
       "description": "冠有「首領」之名的泡狐龍。全身上下都有著像是被捲入暴風後所留下的傷痕，這也許是牠一直受到憤怒與恐懼支配的原因。尾巴比起一般的個體更加發達，其頑強的攻擊會將目標的希望與鬥志化為泡影。另外，首領會藉由咆嘯，將自己的憤怒與恐懼散播至周遭，使其他魔物變得活躍起來。\n首領發怒後，會施展最強勁的必殺技。首領泡狐龍的必殺技為撒出會爆炸的泡泡，破壞四周的一切。此時不妨使用苦無、彈藥或弩砲等方式來處理泡泡。當首領處於憤怒狀態時，記得要持續攻擊，盡早使其膽怯，平息首領的怒火吧。",
-      "threat_level": "apex",
-      "hitdata": {
-        "hitzone_image": "images/monsters/hitzone/apex_mizutsune.png",
-        "parts_old": []
-      }
+      "threat_level": "apex"
     },
     "magnamalo": {
       "name": {
@@ -2820,156 +2358,6 @@
       "hitdata": {
         "hitzone_image": "images/monsters/hitzone/magnamalo.png",
         "parts": [
-          {
-            "hitzone_color": "#e6194B",
-            "part": "頭",
-            "cut": "55",
-            "blunt": "55",
-            "ammo": "30",
-            "fire": "0",
-            "water": "15",
-            "thunder": "10",
-            "ice": "5",
-            "dragon": "0"
-          },
-          {
-            "hitzone_color": "#469990",
-            "part": "頭",
-            "condition": "鬼火",
-            "cut": "60",
-            "blunt": "60",
-            "ammo": "45",
-            "fire": "0",
-            "water": "10",
-            "thunder": "15",
-            "ice": "5",
-            "dragon": "0"
-          },
-          {
-            "hitzone_color": "#3cb44b",
-            "part": "身體",
-            "cut": "25",
-            "blunt": "25",
-            "ammo": "5",
-            "fire": "0",
-            "water": "20",
-            "thunder": "15",
-            "ice": "10",
-            "dragon": "0"
-          },
-          {
-            "hitzone_color": "#911eb4",
-            "part": "背部",
-            "cut": "30",
-            "blunt": "43",
-            "ammo": "15",
-            "fire": "0",
-            "water": "15",
-            "thunder": "10",
-            "ice": "5",
-            "dragon": "0"
-          },
-          {
-            "hitzone_color": "#fabed4",
-            "part": "背部",
-            "condition": "鬼火",
-            "cut": "63",
-            "blunt": "63",
-            "ammo": "50",
-            "fire": "0",
-            "water": "15",
-            "thunder": "10",
-            "ice": "5",
-            "dragon": "0"
-          },
-          {
-            "hitzone_color": "#ffe119",
-            "part": "前腳",
-            "cut": "38",
-            "blunt": "38",
-            "ammo": "20",
-            "fire": "0",
-            "water": "20",
-            "thunder": "15",
-            "ice": "5",
-            "dragon": "0"
-          },
-          {
-            "hitzone_color": "#bfef45",
-            "part": "前腳",
-            "condition": "鬼火",
-            "cut": "48",
-            "blunt": "48",
-            "ammo": "45",
-            "fire": "0",
-            "water": "10",
-            "thunder": "15",
-            "ice": "0",
-            "dragon": "0"
-          },
-          {
-            "hitzone_color": "#42d4f4",
-            "part": "腕刃",
-            "cut": "45",
-            "blunt": "45",
-            "ammo": "45",
-            "fire": "0",
-            "water": "10",
-            "thunder": "10",
-            "ice": "5",
-            "dragon": "0"
-          },
-          {
-            "hitzone_color": "#4363d8",
-            "part": "後腳",
-            "cut": "38",
-            "blunt": "38",
-            "ammo": "20",
-            "fire": "0",
-            "water": "25",
-            "thunder": "20",
-            "ice": "5",
-            "dragon": "0"
-          },
-          {
-            "hitzone_color": "#f58231",
-            "part": "尾巴",
-            "cut": "43",
-            "blunt": "30",
-            "ammo": "10",
-            "fire": "0",
-            "water": "15",
-            "thunder": "10",
-            "ice": "5",
-            "dragon": "0"
-          },
-          {
-            "hitzone_color": "#f032e6",
-            "part": "尾尖",
-            "cut": "45",
-            "blunt": "45",
-            "ammo": "45",
-            "fire": "0",
-            "water": "10",
-            "thunder": "10",
-            "ice": "5",
-            "dragon": "0"
-          },
-          {
-            "hitzone_color": "#bfef45",
-            "part": "尾尖",
-            "condition": "鬼火",
-            "cut": "48",
-            "blunt": "48",
-            "ammo": "45",
-            "fire": "0",
-            "water": "10",
-            "thunder": "15",
-            "ice": "0",
-            "dragon": "0"
-          }
-        ],
-        "parts_old": [
           {
             "hitzone_color": "#e6194B",
             "part": "頭",
@@ -3540,7 +2928,7 @@
         "en": "Tetranadon"
       },
       "species": "amphibian",
-      "image": "https://www.monsterhunter.com/rise/assets/images/monster/modal/tetranadon.png",
+      "image": "images/monsters/fullbody/tetranadon.png",
       "icon": "images/monsters/icons/tetranadon.png",
       "icon_large": "images/monsters/icons/large/tetranadon.png",
       "description": "被稱為「河童蛙」的兩生種魔物。有著強大的食慾，只要發現會動的東西，就連砂石也會一起吞下。一般認為牠會以砂石研磨胃中的獵物，藉此提高消化效率。萬一捕食的東西有無法消化的部分，就會將其吐出。頭部的盤子能夠保護弱點，且越是年長的個體，其盤子的硬度越高，顏色也會變為更加鮮豔的藍色。\n牠在進食後腹部會突起，動作也會變得遲鈍。需要注意的是，隨著牠的重量增加，其攻擊將愈發沉重，破壞力也會跟著提升。此時先仔細觀察牠遲鈍的動作，抓準時機，不慌不忙地穩穩攻擊，牠就會忍不住將吃下肚的東西吐出來，變回原本的模樣。",
@@ -3679,105 +3067,7 @@
             "dizzy": 0
           }
         ],
-        "hitzone_image": "images/monsters/hitzone/tetranadon.png",
-        "parts_old": [
-          {
-            "part": "頭",
-            "condition": "通常",
-            "cut": "65",
-            "blunt": "70",
-            "ammo": "60",
-            "fire": "20",
-            "water": "0",
-            "thunder": "30",
-            "ice": "15",
-            "dragon": "10"
-          },
-          {
-            "part": "頸",
-            "condition": "通常",
-            "cut": "50",
-            "blunt": "55",
-            "ammo": "40",
-            "fire": "10",
-            "water": "0",
-            "thunder": "20",
-            "ice": "5",
-            "dragon": "5"
-          },
-          {
-            "part": "身",
-            "condition": "通常",
-            "cut": "40",
-            "blunt": "40",
-            "ammo": "30",
-            "fire": "10",
-            "water": "0",
-            "thunder": "20",
-            "ice": "5",
-            "dragon": "0"
-          },
-          {
-            "part": "身",
-            "condition": "滿腹時",
-            "cut": "45",
-            "blunt": "45",
-            "ammo": "35",
-            "fire": "20",
-            "water": "0",
-            "thunder": "30",
-            "ice": "10",
-            "dragon": "10"
-          },
-          {
-            "part": "背部",
-            "condition": "通常",
-            "cut": "25",
-            "blunt": "35",
-            "ammo": "25",
-            "fire": "5",
-            "water": "0",
-            "thunder": "10",
-            "ice": "5",
-            "dragon": "0"
-          },
-          {
-            "part": "前腳",
-            "condition": "通常",
-            "cut": "50",
-            "blunt": "45",
-            "ammo": "40",
-            "fire": "15",
-            "water": "0",
-            "thunder": "25",
-            "ice": "10",
-            "dragon": "5"
-          },
-          {
-            "part": "後腳",
-            "condition": "通常",
-            "cut": "35",
-            "blunt": "30",
-            "ammo": "25",
-            "fire": "5",
-            "water": "0",
-            "thunder": "15",
-            "ice": "0",
-            "dragon": "0"
-          },
-          {
-            "part": "尾巴",
-            "condition": "通常",
-            "cut": "30",
-            "blunt": "30",
-            "ammo": "25",
-            "fire": "5",
-            "water": "0",
-            "thunder": "15",
-            "ice": "0",
-            "dragon": "0"
-          }
-        ]
+        "hitzone_image": "images/monsters/hitzone/tetranadon.png"
       },
       "items": {
         "low_rank": {
@@ -4160,7 +3450,7 @@
         "en": "Aknosom"
       },
       "species": "bird_wyvern",
-      "image": "https://www.monsterhunter.com/rise/assets/images/monster/modal/aknosom.png",
+      "image": "images/monsters/fullbody/aknosom.png",
       "icon": "images/monsters/icons/aknosom.png",
       "icon_large": "images/monsters/icons/large/aknosom.png",
       "description": "由於牠用單腳站立的獨特姿態如同傘一般，所以被稱為「傘鳥」。地盤意識極強，只要有生物踏進牠的地盤，牠就會大大張開翅膀，展開外觀有如眼球的獨特頭冠進行威嚇。此外，儲存在牠體內的體液具有可燃性，一旦點燃便難以熄滅，且會在地面持續燃燒一陣子。建議將其誘導至水邊進行狩獵。\n牠的頭冠有著宛如傘似的構造，能夠捲起、打開或是收成1束等，自由自在地變形。與牠對峙時，只要仔細觀察頭冠的形狀，就能在一定程度上預測牠的攻擊。",
@@ -4288,105 +3578,7 @@
             "dizzy": 0
           }
         ],
-        "hitzone_image": "images/monsters/hitzone/aknosom.png",
-        "parts_old": [
-          {
-            "part": "頭",
-            "condition": "通常",
-            "cut": "63",
-            "blunt": "80",
-            "ammo": "50",
-            "fire": "0",
-            "water": "15",
-            "thunder": "10",
-            "ice": "5",
-            "dragon": "0"
-          },
-          {
-            "part": "傘",
-            "condition": "通常",
-            "cut": "63",
-            "blunt": "50",
-            "ammo": "40",
-            "fire": "0",
-            "water": "0",
-            "thunder": "20",
-            "ice": "0",
-            "dragon": "0"
-          },
-          {
-            "part": "頸",
-            "condition": "通常",
-            "cut": "43",
-            "blunt": "43",
-            "ammo": "20",
-            "fire": "0",
-            "water": "15",
-            "thunder": "15",
-            "ice": "5",
-            "dragon": "0"
-          },
-          {
-            "part": "身",
-            "condition": "通常",
-            "cut": "38",
-            "blunt": "38",
-            "ammo": "20",
-            "fire": "0",
-            "water": "15",
-            "thunder": "10",
-            "ice": "5",
-            "dragon": "0"
-          },
-          {
-            "part": "翼",
-            "condition": "通常",
-            "cut": "63",
-            "blunt": "50",
-            "ammo": "40",
-            "fire": "0",
-            "water": "20",
-            "thunder": "20",
-            "ice": "15",
-            "dragon": "0"
-          },
-          {
-            "part": "腳",
-            "condition": "通常",
-            "cut": "36",
-            "blunt": "36",
-            "ammo": "10",
-            "fire": "0",
-            "water": "35",
-            "thunder": "30",
-            "ice": "25",
-            "dragon": "0"
-          },
-          {
-            "part": "尾巴",
-            "condition": "通常",
-            "cut": "43",
-            "blunt": "43",
-            "ammo": "25",
-            "fire": "0",
-            "water": "20",
-            "thunder": "15",
-            "ice": "10",
-            "dragon": "0"
-          },
-          {
-            "part": "尾尖",
-            "condition": "通常",
-            "cut": "36",
-            "blunt": "36",
-            "ammo": "30",
-            "fire": "0",
-            "water": "30",
-            "thunder": "20",
-            "ice": "5",
-            "dragon": "0"
-          }
-        ]
+        "hitzone_image": "images/monsters/hitzone/aknosom.png"
       },
       "items": {
         "high_rank": {
@@ -4764,7 +3956,7 @@
         "en": "Somnacanth"
       },
       "species": "leviathan",
-      "image": "https://www.monsterhunter.com/rise/assets/images/monster/modal/somnacanth.png",
+      "image": "images/monsters/fullbody/somnacanth.png",
       "icon": "images/monsters/icons/somnacanth.png",
       "icon_large": "images/monsters/icons/large/somnacanth.png",
       "description": " 棲息於水中的凶暴海龍種。牠在月光下的姿態宛如女性的身影，因此被稱作「人魚龍」。牠能透過後頸的鰓與尾根部灑下睡眠粉，使獵物昏睡過去。有報告指出牠會使用各種不同特性的貝類，當看見牠攜帶貝類游泳時得格外注意。\n牠能在水中活動自如，但到了陸地上行動就會受限。因此只要將牠引導至陸地上，便能使狩獵過程順利許多。牠撒出的睡眠粉相當棘手，但可以利用翔蟲等方式移動至上方迴避。若能事先準備好對策，便能創造反擊的機會。",
@@ -4892,105 +4084,7 @@
             "dizzy": 25
           }
         ],
-        "hitzone_image": "images/monsters/hitzone/somnacanth.png",
-        "parts_old": [
-          {
-            "part": "頭",
-            "condition": "通常",
-            "cut": "65",
-            "blunt": "55",
-            "ammo": "45",
-            "fire": "15",
-            "water": "0",
-            "thunder": "25",
-            "ice": "0",
-            "dragon": "0"
-          },
-          {
-            "part": "髮鰭",
-            "condition": "通常",
-            "cut": "40",
-            "blunt": "40",
-            "ammo": "20",
-            "fire": "0",
-            "water": "0",
-            "thunder": "15",
-            "ice": "0",
-            "dragon": "0"
-          },
-          {
-            "part": "頸",
-            "condition": "通常",
-            "cut": "70",
-            "blunt": "70",
-            "ammo": "60",
-            "fire": "15",
-            "water": "0",
-            "thunder": "25",
-            "ice": "0",
-            "dragon": "0"
-          },
-          {
-            "part": "前腳",
-            "condition": "通常",
-            "cut": "45",
-            "blunt": "45",
-            "ammo": "35",
-            "fire": "5",
-            "water": "0",
-            "thunder": "15",
-            "ice": "0",
-            "dragon": "0"
-          },
-          {
-            "part": "腹",
-            "condition": "通常",
-            "cut": "30",
-            "blunt": "40",
-            "ammo": "20",
-            "fire": "10",
-            "water": "0",
-            "thunder": "15",
-            "ice": "0",
-            "dragon": "0"
-          },
-          {
-            "part": "背部",
-            "condition": "通常",
-            "cut": "25",
-            "blunt": "25",
-            "ammo": "15",
-            "fire": "10",
-            "water": "0",
-            "thunder": "15",
-            "ice": "0",
-            "dragon": "0"
-          },
-          {
-            "part": "後腳",
-            "condition": "通常",
-            "cut": "25",
-            "blunt": "30",
-            "ammo": "25",
-            "fire": "10",
-            "water": "0",
-            "thunder": "25",
-            "ice": "0",
-            "dragon": "0"
-          },
-          {
-            "part": "尾巴",
-            "condition": "通常",
-            "cut": "60",
-            "blunt": "55",
-            "ammo": "35",
-            "fire": "15",
-            "water": "0",
-            "thunder": "30",
-            "ice": "0",
-            "dragon": "0"
-          }
-        ]
+        "hitzone_image": "images/monsters/hitzone/somnacanth.png"
       },
       "items": {
         "low_rank": {
@@ -5368,7 +4462,7 @@
         "en": "Khezu"
       },
       "species": "flying_wryven",
-      "image": "https://www.monsterhunter.com/rise/assets/images/monster/modal/khezu.png",
+      "image": "images/monsters/fullbody/khezu.png",
       "icon": "images/monsters/icons/khezu.png",
       "icon_large": "images/monsters/icons/large/khezu.png",
       "description": "人稱「奇怪龍」，主要棲息於洞窟等暗處的詭異飛龍。雖然眼睛已經退化，但嗅覺相對地十分發達。能透過進化成吸盤狀的尾巴，將其附著在天花板或牆壁上，還能透過體內的發電器官發出電氣麻痺獵物，再伸長脖子展開攻擊。\n奇怪龍會爬上牆壁及洞窟的頂部，以雷電從上方展開攻擊。獵人須採取對策，使用翔蟲發動攻擊將牠擊落，或是令其疲勞，弱化牠的電擊攻擊。",
@@ -5550,117 +4644,7 @@
             "dizzy": 0
           }
         ],
-        "hitzone_image": "images/monsters/hitzone/khezu.png",
-        "parts_old": [
-          {
-            "part": "頭",
-            "condition": "通常",
-            "cut": "75",
-            "blunt": "70",
-            "ammo": "80",
-            "fire": "30",
-            "water": "5",
-            "thunder": "0",
-            "ice": "5",
-            "dragon": "5"
-          },
-          {
-            "part": "頸",
-            "condition": "通常",
-            "cut": "75",
-            "blunt": "50",
-            "ammo": "50",
-            "fire": "25",
-            "water": "5",
-            "thunder": "0",
-            "ice": "5",
-            "dragon": "5"
-          },
-          {
-            "part": "身",
-            "condition": "通常",
-            "cut": "45",
-            "blunt": "45",
-            "ammo": "25",
-            "fire": "25",
-            "water": "5",
-            "thunder": "0",
-            "ice": "5",
-            "dragon": "5"
-          },
-          {
-            "part": "翼",
-            "condition": "通常",
-            "cut": "25",
-            "blunt": "25",
-            "ammo": "25",
-            "fire": "20",
-            "water": "5",
-            "thunder": "0",
-            "ice": "5",
-            "dragon": "5"
-          },
-          {
-            "part": "左腳",
-            "condition": "通常",
-            "cut": "36",
-            "blunt": "20",
-            "ammo": "35",
-            "fire": "15",
-            "water": "5",
-            "thunder": "0",
-            "ice": "5",
-            "dragon": "5"
-          },
-          {
-            "part": "左腳",
-            "condition": "破壞後",
-            "cut": "46",
-            "blunt": "30",
-            "ammo": "45",
-            "fire": "17",
-            "water": "5",
-            "thunder": "0",
-            "ice": "5",
-            "dragon": "5"
-          },
-          {
-            "part": "右腳",
-            "condition": "通常",
-            "cut": "36",
-            "blunt": "20",
-            "ammo": "35",
-            "fire": "15",
-            "water": "5",
-            "thunder": "0",
-            "ice": "5",
-            "dragon": "5"
-          },
-          {
-            "part": "右腳",
-            "condition": "破壞後",
-            "cut": "46",
-            "blunt": "30",
-            "ammo": "45",
-            "fire": "17",
-            "water": "5",
-            "thunder": "0",
-            "ice": "5",
-            "dragon": "5"
-          },
-          {
-            "part": "尾巴",
-            "condition": "通常",
-            "cut": "20",
-            "blunt": "20",
-            "ammo": "30",
-            "fire": "20",
-            "water": "5",
-            "thunder": "0",
-            "ice": "5",
-            "dragon": "5"
-          }
-        ]
+        "hitzone_image": "images/monsters/hitzone/khezu.png"
       },
       "items": {
         "low_rank": {
@@ -6021,7 +5005,7 @@
         "en": "Royal Ludroth"
       },
       "species": "leviathan",
-      "image": "https://www.monsterhunter.com/rise/assets/images/monster/modal/royal-ludroth.png",
+      "image": "images/monsters/fullbody/royal_ludroth.png",
       "icon": "images/monsters/icons/royal_ludroth.png",
       "icon_large": "images/monsters/icons/large/royal_ludroth.png",
       "description": "大型的雄性水生獸個體，人稱「水獸」。可利用脖子處的海綿狀鱗片儲存大量水分以防止表皮乾燥，使其得以在陸地上活動。若海綿萎縮，便會失去該功能，因此牠會試圖補充水分。另外，還會朝獵物的腳下吐出特殊的黏液，藉此捕捉獵物。\n越靠近水邊，水獸的攻擊就會變得越強。若遭到攻擊，可能會陷入「水屬性異常」，只要事前準備打消果實就能從異常中回復。如果將其引導至沒有水的地方，狩獵將會輕鬆一些。",
@@ -6175,93 +5159,7 @@
             "dizzy": 0
           }
         ],
-        "hitzone_image": "images/monsters/hitzone/royal_ludroth.png",
-        "parts_old": [
-          {
-            "part": "頭",
-            "condition": "通常",
-            "cut": "50",
-            "blunt": "55",
-            "ammo": "65",
-            "fire": "30",
-            "water": "0",
-            "thunder": "5",
-            "ice": "5",
-            "dragon": "5"
-          },
-          {
-            "part": "鬃毛",
-            "condition": "通常",
-            "cut": "65",
-            "blunt": "50",
-            "ammo": "35",
-            "fire": "30",
-            "water": "0",
-            "thunder": "15",
-            "ice": "10",
-            "dragon": "0"
-          },
-          {
-            "part": "腹",
-            "condition": "通常",
-            "cut": "50",
-            "blunt": "40",
-            "ammo": "35",
-            "fire": "30",
-            "water": "0",
-            "thunder": "10",
-            "ice": "10",
-            "dragon": "0"
-          },
-          {
-            "part": "背部",
-            "condition": "通常",
-            "cut": "30",
-            "blunt": "45",
-            "ammo": "35",
-            "fire": "30",
-            "water": "0",
-            "thunder": "10",
-            "ice": "5",
-            "dragon": "5"
-          },
-          {
-            "part": "前腳",
-            "condition": "通常",
-            "cut": "24",
-            "blunt": "40",
-            "ammo": "25",
-            "fire": "20",
-            "water": "0",
-            "thunder": "10",
-            "ice": "10",
-            "dragon": "0"
-          },
-          {
-            "part": "後腳",
-            "condition": "通常",
-            "cut": "30",
-            "blunt": "24",
-            "ammo": "30",
-            "fire": "20",
-            "water": "0",
-            "thunder": "10",
-            "ice": "5",
-            "dragon": "0"
-          },
-          {
-            "part": "尾巴",
-            "condition": "通常",
-            "cut": "40",
-            "blunt": "30",
-            "ammo": "40",
-            "fire": "25",
-            "water": "0",
-            "thunder": "5",
-            "ice": "5",
-            "dragon": "0"
-          }
-        ]
+        "hitzone_image": "images/monsters/hitzone/royal_ludroth.png"
       },
       "items": {
         "low_rank": {
@@ -6622,7 +5520,7 @@
         "en": "Rathalos"
       },
       "species": "flying_wryven",
-      "image": "https://www.monsterhunter.com/rise/assets/images/monster/modal/rathalos.png",
+      "image": "images/monsters/fullbody/rathalos.png",
       "icon": "images/monsters/icons/rathalos.png",
       "icon_large": "images/monsters/icons/large/rathalos.png",
       "description": "擁有天空王者之名，受人畏懼的飛龍。會與雌火龍以巢穴為中心擴展勢力範圍，並從空中進行監視。若其勢力範圍遭到入侵，便會以優異的飛行能力從高空迅速降下，使用帶毒的強力爪擊攻擊敵人。由於會噴出火焰，因此被稱為「火龍」。\n正如其天空王者之名，牠會從空中發動各式各樣的攻擊。使用強烈的閃光剝奪牠的視野，應該就能將牠擊落。",
@@ -6756,81 +5654,7 @@
             "dragon": "20"
           }
         ],
-        "hitzone_image": "images/monsters/hitzone/rathalos.png",
-        "parts_old": [
-          {
-            "part": "頭",
-            "condition": "通常",
-            "cut": "65",
-            "blunt": "70",
-            "ammo": "60",
-            "fire": "0",
-            "water": "15",
-            "thunder": "20",
-            "ice": "15",
-            "dragon": "30"
-          },
-          {
-            "part": "頸",
-            "condition": "通常",
-            "cut": "35",
-            "blunt": "40",
-            "ammo": "30",
-            "fire": "0",
-            "water": "5",
-            "thunder": "10",
-            "ice": "5",
-            "dragon": "20"
-          },
-          {
-            "part": "腹・背",
-            "condition": "通常",
-            "cut": "25",
-            "blunt": "25",
-            "ammo": "20",
-            "fire": "0",
-            "water": "5",
-            "thunder": "10",
-            "ice": "5",
-            "dragon": "20"
-          },
-          {
-            "part": "翼",
-            "condition": "通常",
-            "cut": "50",
-            "blunt": "45",
-            "ammo": "40",
-            "fire": "0",
-            "water": "10",
-            "thunder": "15",
-            "ice": "10",
-            "dragon": "25"
-          },
-          {
-            "part": "腳",
-            "condition": "通常",
-            "cut": "35",
-            "blunt": "35",
-            "ammo": "30",
-            "fire": "0",
-            "water": "0",
-            "thunder": "5",
-            "ice": "0",
-            "dragon": "15"
-          },
-          {
-            "part": "尾巴",
-            "condition": "通常",
-            "cut": "45",
-            "blunt": "40",
-            "ammo": "35",
-            "fire": "0",
-            "water": "5",
-            "thunder": "10",
-            "ice": "5",
-            "dragon": "20"
-          }
-        ]
+        "hitzone_image": "images/monsters/hitzone/rathalos.png"
       },
       "items": {
         "low_rank": {
@@ -7287,7 +6111,7 @@
         "en": "Pukei-Pukei"
       },
       "species": "bird_wyvern",
-      "image": "https://oyster.ignimgs.com/mediawiki/apis.ign.com/monster-hunter-world/6/6a/MHW-Pukei-Pukei_Render_001_copy.jpg",
+      "image": "images/monsters/fullbody/pukei-pukei.png",
       "icon": "images/monsters/icons/pukei-pukei.png",
       "icon_large": "images/monsters/icons/large/pukei-pukei.png",
       "description": "體內蓄有毒液的飛龍，被稱為「毒妖鳥」。能夠讓舌頭有如長鞭般自由自在地伸縮揮舞，會以舌頭纏繞緊抓食物後再進行獵食。具有將攝取的樹木果實儲存於口腔或尾巴內部的特性，並能將其與毒液混合，吐出強力的帶毒吐息。\n依據進食的食物種類不同，毒妖鳥的吐息特性也會跟著改變。目前已收到各式各樣的報告，例如會吐出大小和平時不同的吐息，或是會殘留在地面、被擊中會更容易昏厥的吐息等等。狩獵時要注意其口部及尾巴是否處於膨脹狀態。",
@@ -7441,93 +6265,7 @@
             "dizzy": 0
           }
         ],
-        "hitzone_image": "images/monsters/hitzone/pukei-pukei.png",
-        "parts_old": [
-          {
-            "part": "頭",
-            "condition": "通常",
-            "cut": "75",
-            "blunt": "80",
-            "ammo": "70",
-            "fire": "15",
-            "water": "0",
-            "thunder": "30",
-            "ice": "20",
-            "dragon": "10"
-          },
-          {
-            "part": "舌",
-            "condition": "通常",
-            "cut": "95",
-            "blunt": "90",
-            "ammo": "85",
-            "fire": "15",
-            "water": "0",
-            "thunder": "30",
-            "ice": "20",
-            "dragon": "10"
-          },
-          {
-            "part": "頸",
-            "condition": "通常",
-            "cut": "40",
-            "blunt": "35",
-            "ammo": "30",
-            "fire": "5",
-            "water": "0",
-            "thunder": "20",
-            "ice": "10",
-            "dragon": "5"
-          },
-          {
-            "part": "身",
-            "condition": "通常",
-            "cut": "35",
-            "blunt": "35",
-            "ammo": "30",
-            "fire": "0",
-            "water": "0",
-            "thunder": "15",
-            "ice": "5",
-            "dragon": "5"
-          },
-          {
-            "part": "翼",
-            "condition": "通常",
-            "cut": "50",
-            "blunt": "45",
-            "ammo": "40",
-            "fire": "10",
-            "water": "0",
-            "thunder": "25",
-            "ice": "15",
-            "dragon": "5"
-          },
-          {
-            "part": "腳",
-            "condition": "通常",
-            "cut": "45",
-            "blunt": "45",
-            "ammo": "40",
-            "fire": "0",
-            "water": "0",
-            "thunder": "15",
-            "ice": "5",
-            "dragon": "0"
-          },
-          {
-            "part": "尾巴",
-            "condition": "通常",
-            "cut": "55",
-            "blunt": "50",
-            "ammo": "45",
-            "fire": "10",
-            "water": "0",
-            "thunder": "25",
-            "ice": "15",
-            "dragon": "5"
-          }
-        ]
+        "hitzone_image": "images/monsters/hitzone/pukei-pukei.png"
       },
       "items": {
         "low_rank": {
@@ -7898,7 +6636,7 @@
         "en": "Kulu-Ya-Ku"
       },
       "species": "bird_wyvern",
-      "image": "https://oyster.ignimgs.com/mediawiki/apis.ign.com/monster-hunter-world/c/c1/Kulu.jpg",
+      "image": "images/monsters/fullbody/kulu-ya-ku.png",
       "icon": "images/monsters/icons/kulu-ya-ku.png",
       "icon_large": "images/monsters/icons/large/kulu-ya-ku.png",
       "description": "擅長以發達的前腳抓住物體的鳥龍。曾有人目擊牠會將其他魔物的蛋從巢穴中偷走，但當牠遭到攻擊等等而受到驚嚇時，前腳抱著的蛋就會掉到地上。在與外敵交戰時，會從地面挖出堅硬的岩石，並當成武器及盾牌使用。人稱「搔鳥」。\n搔鳥抱起岩石時，除了用來保護自己，似乎也會使用岩石敲擊敵人。狩獵的重點在於避免讓牠使用岩石戰鬥。可以使其膽怯、以閃光奪其視野令岩石掉落，或是直接破壞裂開的岩石等等。",
@@ -8038,57 +6776,7 @@
             "dizzy": 0
           }
         ],
-        "hitzone_image": "images/monsters/hitzone/kulu-ya-ku.png",
-        "parts_old": [
-          {
-            "part": "頭",
-            "condition": "通常",
-            "cut": "68",
-            "blunt": "68",
-            "ammo": "60",
-            "fire": "15",
-            "water": "20",
-            "thunder": "15",
-            "ice": "15",
-            "dragon": "15"
-          },
-          {
-            "part": "前腳",
-            "condition": "通常",
-            "cut": "52",
-            "blunt": "56",
-            "ammo": "45",
-            "fire": "15",
-            "water": "20",
-            "thunder": "15",
-            "ice": "15",
-            "dragon": "15"
-          },
-          {
-            "part": "身",
-            "condition": "通常",
-            "cut": "45",
-            "blunt": "45",
-            "ammo": "40",
-            "fire": "15",
-            "water": "20",
-            "thunder": "15",
-            "ice": "15",
-            "dragon": "15"
-          },
-          {
-            "part": "尾巴",
-            "condition": "通常",
-            "cut": "55",
-            "blunt": "50",
-            "ammo": "35",
-            "fire": "15",
-            "water": "20",
-            "thunder": "15",
-            "ice": "15",
-            "dragon": "15"
-          }
-        ]
+        "hitzone_image": "images/monsters/hitzone/kulu-ya-ku.png"
       },
       "items": {
         "low_rank": {
@@ -8413,7 +7101,7 @@
         "en": "Tobi-Kadachi"
       },
       "species": "fanged_wyvern",
-      "image": "https://oyster.ignimgs.com/mediawiki/apis.ign.com/monster-hunter-world/4/43/MHW-Tobi-Kadachi_Render_001_copy.jpg",
+      "image": "images/monsters/fullbody/tobi-kadachi.png",
       "icon": "images/monsters/icons/tobi-kadachi.png",
       "icon_large": "images/monsters/icons/large/tobi-kadachi.png",
       "description": "棲息在樹上，會在林間跳躍活動的牙龍種。具有在移動時以身體摩擦樹木與地面，藉此將靜電積蓄於體毛當中的特性。只要累積一定量的靜電，就會進入「帶電狀態」，此時體毛將會發光且倒豎。如果在這個狀態遭遇牠，必須格外小心其頭部與尾巴的攻擊。牠也因為這樣的生態，而被稱為「飛雷龍」。\n由於飛雷龍能夠自在地移動，因此須注意來自死角的攻擊。狩獵的重點在於避免讓牠離開自己的視野，阻止牠移動，並同時阻止牠進入「帶電狀態」。當牠處於「水屬性異常」狀態時，將難以進入帶電狀態。因此積極利用環境生物等手段狩獵吧。",
@@ -8567,93 +7255,7 @@
             "dizzy": 0
           }
         ],
-        "hitzone_image": "images/monsters/hitzone/tobi-kadachi.png",
-        "parts_old": [
-          {
-            "part": "頭",
-            "condition": "通常",
-            "cut": "48",
-            "blunt": "48",
-            "ammo": "45",
-            "fire": "20",
-            "water": "30",
-            "thunder": "0",
-            "ice": "10",
-            "dragon": "5"
-          },
-          {
-            "part": "頸",
-            "condition": "通常",
-            "cut": "48",
-            "blunt": "48",
-            "ammo": "45",
-            "fire": "10",
-            "water": "20",
-            "thunder": "0",
-            "ice": "10",
-            "dragon": "5"
-          },
-          {
-            "part": "身",
-            "condition": "通常",
-            "cut": "45",
-            "blunt": "45",
-            "ammo": "35",
-            "fire": "5",
-            "water": "15",
-            "thunder": "0",
-            "ice": "5",
-            "dragon": "0"
-          },
-          {
-            "part": "背部",
-            "condition": "通常",
-            "cut": "45",
-            "blunt": "45",
-            "ammo": "48",
-            "fire": "5",
-            "water": "15",
-            "thunder": "0",
-            "ice": "5",
-            "dragon": "0"
-          },
-          {
-            "part": "前腳",
-            "condition": "通常",
-            "cut": "35",
-            "blunt": "35",
-            "ammo": "15",
-            "fire": "5",
-            "water": "15",
-            "thunder": "0",
-            "ice": "5",
-            "dragon": "0"
-          },
-          {
-            "part": "後腳",
-            "condition": "通常",
-            "cut": "30",
-            "blunt": "30",
-            "ammo": "10",
-            "fire": "20",
-            "water": "30",
-            "thunder": "0",
-            "ice": "20",
-            "dragon": "15"
-          },
-          {
-            "part": "尾巴",
-            "condition": "通常",
-            "cut": "65",
-            "blunt": "65",
-            "ammo": "55",
-            "fire": "15",
-            "water": "20",
-            "thunder": "0",
-            "ice": "15",
-            "dragon": "10"
-          }
-        ]
+        "hitzone_image": "images/monsters/hitzone/tobi-kadachi.png"
       },
       "items": {
         "low_rank": {
@@ -9002,7 +7604,7 @@
         "en": "Anjanath"
       },
       "species": "brute_wyvern",
-      "image": "https://oyster.ignimgs.com/mediawiki/apis.ign.com/monster-hunter-world/8/8c/MHW-Anjanath_Render_001_copy.jpg",
+      "image": "images/monsters/fullbody/anjanath.png",
       "icon": "images/monsters/icons/anjanath.png",
       "icon_large": "images/monsters/icons/large/anjanath.png",
       "description": "被稱為「蠻顎龍」的獸龍。相當好戰，甚至會毫不猶豫襲擊其他魔物。從腰部到尾根部有著大片的皮膜，在情緒激動時會張開為扇狀。一般推測其皮膜主要是用於威嚇敵人與調節體溫。在牠情緒激動或喉嚨蓄有火焰時，總是會看到其皮膜宛如在散熱般張大，似乎印證了這個推測。\n位於其咽喉的特殊器官能夠儲存火焰，目前已確認當牠進入憤怒狀態後，能夠吐出強烈的火焰吐息。屆時若積極攻擊其頭部，能使狩獵變得有利許多。",
@@ -9170,105 +7772,7 @@
             "dizzy": 0
           }
         ],
-        "hitzone_image": "images/monsters/hitzone/anjanath.png",
-        "parts_old": [
-          {
-            "part": "頭",
-            "condition": "通常",
-            "cut": "70",
-            "blunt": "70",
-            "ammo": "60",
-            "fire": "0",
-            "water": "25",
-            "thunder": "10",
-            "ice": "15",
-            "dragon": "5"
-          },
-          {
-            "part": "鼻",
-            "condition": "通常",
-            "cut": "80",
-            "blunt": "75",
-            "ammo": "65",
-            "fire": "0",
-            "water": "20",
-            "thunder": "10",
-            "ice": "15",
-            "dragon": "10"
-          },
-          {
-            "part": "頸",
-            "condition": "通常",
-            "cut": "30",
-            "blunt": "30",
-            "ammo": "15",
-            "fire": "0",
-            "water": "20",
-            "thunder": "5",
-            "ice": "15",
-            "dragon": "5"
-          },
-          {
-            "part": "翼",
-            "condition": "通常",
-            "cut": "50",
-            "blunt": "45",
-            "ammo": "55",
-            "fire": "0",
-            "water": "25",
-            "thunder": "15",
-            "ice": "20",
-            "dragon": "10"
-          },
-          {
-            "part": "身",
-            "condition": "通常",
-            "cut": "30",
-            "blunt": "30",
-            "ammo": "45",
-            "fire": "0",
-            "water": "15",
-            "thunder": "5",
-            "ice": "10",
-            "dragon": "0"
-          },
-          {
-            "part": "腳",
-            "condition": "通常",
-            "cut": "30",
-            "blunt": "30",
-            "ammo": "15",
-            "fire": "0",
-            "water": "15",
-            "thunder": "5",
-            "ice": "10",
-            "dragon": "0"
-          },
-          {
-            "part": "腳",
-            "condition": "破壞後",
-            "cut": "45",
-            "blunt": "45",
-            "ammo": "30",
-            "fire": "0",
-            "water": "15",
-            "thunder": "5",
-            "ice": "10",
-            "dragon": "0"
-          },
-          {
-            "part": "尾巴",
-            "condition": "通常",
-            "cut": "60",
-            "blunt": "60",
-            "ammo": "55",
-            "fire": "0",
-            "water": "20",
-            "thunder": "10",
-            "ice": "15",
-            "dragon": "5"
-          }
-        ]
+        "hitzone_image": "images/monsters/hitzone/anjanath.png"
       },
       "items": {
         "low_rank": {
@@ -9673,7 +8177,7 @@
         "en": "Jyuratodus"
       },
       "species": "piscine_wyvern",
-      "image": "https://oyster.ignimgs.com/mediawiki/apis.ign.com/monster-hunter-world/6/6a/JyuratodusRender.jpg",
+      "image": "images/monsters/fullbody/jyuratodus.png",
       "icon": "images/monsters/icons/jyuratodus.png",
       "icon_large": "images/monsters/icons/large/jyuratodus.png",
       "description": "棲息在泥沼地的魚龍。由於在捕捉獵物及保護自身時都會使用泥巴，故被稱為「泥魚龍」。牠的鱗片一旦乾燥就會變得脆弱，皮膚的呼吸效率也會降低，因此人們推測牠會頻繁使用泥巴來保持身體濕潤。泥魚龍吐出的泥巴具有強烈黏性，如果碰到地上的泥巴，行動將會受限，需特別注意。\n覆蓋著泥巴的部位會變硬，可以使用水屬性的武器，在戰鬥的同時剝除牠身上的泥巴。在泥濘上移動時會受到限制，最好時時注意泥濘的位置。",
@@ -9939,141 +8443,7 @@
             "dizzy": 0
           }
         ],
-        "hitzone_image": "images/monsters/hitzone/jyuratodus.png",
-        "parts_old": [
-          {
-            "part": "頭",
-            "condition": "通常",
-            "cut": "63",
-            "blunt": "63",
-            "ammo": "53",
-            "fire": "5",
-            "water": "0",
-            "thunder": "10",
-            "ice": "5",
-            "dragon": "5"
-          },
-          {
-            "part": "頭",
-            "condition": "泥纏",
-            "cut": "50",
-            "blunt": "50",
-            "ammo": "40",
-            "fire": "0",
-            "water": "0",
-            "thunder": "0",
-            "ice": "5",
-            "dragon": "5"
-          },
-          {
-            "part": "頸",
-            "condition": "通常",
-            "cut": "43",
-            "blunt": "43",
-            "ammo": "43",
-            "fire": "5",
-            "water": "0",
-            "thunder": "10",
-            "ice": "5",
-            "dragon": "5"
-          },
-          {
-            "part": "身",
-            "condition": "通常",
-            "cut": "35",
-            "blunt": "35",
-            "ammo": "35",
-            "fire": "10",
-            "water": "0",
-            "thunder": "25",
-            "ice": "5",
-            "dragon": "5"
-          },
-          {
-            "part": "身",
-            "condition": "泥纏",
-            "cut": "30",
-            "blunt": "30",
-            "ammo": "25",
-            "fire": "0",
-            "water": "0",
-            "thunder": "0",
-            "ice": "5",
-            "dragon": "5"
-          },
-          {
-            "part": "背部",
-            "condition": "通常",
-            "cut": "25",
-            "blunt": "25",
-            "ammo": "25",
-            "fire": "5",
-            "water": "0",
-            "thunder": "15",
-            "ice": "5",
-            "dragon": "5"
-          },
-          {
-            "part": "鰭",
-            "condition": "通常",
-            "cut": "25",
-            "blunt": "25",
-            "ammo": "25",
-            "fire": "10",
-            "water": "0",
-            "thunder": "20",
-            "ice": "5",
-            "dragon": "5"
-          },
-          {
-            "part": "腳",
-            "condition": "通常",
-            "cut": "45",
-            "blunt": "45",
-            "ammo": "40",
-            "fire": "15",
-            "water": "0",
-            "thunder": "30",
-            "ice": "5",
-            "dragon": "5"
-          },
-          {
-            "part": "腳",
-            "condition": "泥纏",
-            "cut": "35",
-            "blunt": "35",
-            "ammo": "30",
-            "fire": "0",
-            "water": "0",
-            "thunder": "0",
-            "ice": "5",
-            "dragon": "5"
-          },
-          {
-            "part": "尾巴",
-            "condition": "通常",
-            "cut": "55",
-            "blunt": "50",
-            "ammo": "45",
-            "fire": "5",
-            "water": "0",
-            "thunder": "10",
-            "ice": "5",
-            "dragon": "5"
-          },
-          {
-            "part": "尾巴",
-            "condition": "泥纏",
-            "cut": "50",
-            "blunt": "50",
-            "ammo": "40",
-            "fire": "0",
-            "water": "0",
-            "thunder": "0",
-            "ice": "5",
-            "dragon": "5"
-          }
-        ]
+        "hitzone_image": "images/monsters/hitzone/jyuratodus.png"
       },
       "items": {
         "high_rank": {
@@ -10354,7 +8724,7 @@
         "en": "Great Wroggi"
       },
       "species": "bird_wyvern",
-      "image": "https://www.monsterhunter.com/rise/assets/images/monster/modal/great-wroggi.png",
+      "image": "images/monsters/fullbody/great_wroggi.png",
       "icon": "images/monsters/icons/great_wroggi.png",
       "icon_large": "images/monsters/icons/large/great_wroggi.png",
       "description": "人稱「毒狗龍」的鳥龍種魔物。經常集體行動，由其中體型最大、毒性最強的雄性成年個體領頭。根據目擊情報指出，牠們在吐出毒液之前，咽喉附近的囊袋會膨脹起來，但牠若同時又將頭高高抬起，則會吐出揮之不去的毒霧，務必注意。\n建議事先準備解毒藥作為抗毒對策。破壞毒狗龍王喉部周遭的毒袋後，就能使其無法順利製造毒素，因此建議積極攻擊頭部。",
@@ -10438,33 +8808,7 @@
             "dizzy": 0
           }
         ],
-        "hitzone_image": "images/monsters/hitzone/great_wroggi.png",
-        "parts_old": [
-          {
-            "part": "頭",
-            "condition": "通常",
-            "cut": "75",
-            "blunt": "60",
-            "ammo": "60",
-            "fire": "0",
-            "water": "20",
-            "thunder": "5",
-            "ice": "40",
-            "dragon": "0"
-          },
-          {
-            "part": "身體",
-            "condition": "通常",
-            "cut": "50",
-            "blunt": "50",
-            "ammo": "50",
-            "fire": "0",
-            "water": "20",
-            "thunder": "5",
-            "ice": "40",
-            "dragon": "0"
-          }
-        ]
+        "hitzone_image": "images/monsters/hitzone/great_wroggi.png"
       },
       "items": {
         "low_rank": {
@@ -10717,7 +9061,7 @@
         "en": "Bishaten"
       },
       "species": "fanged_beast",
-      "image": "https://www.monsterhunter.com/rise/assets/images/monster/modal/bishaten.png",
+      "image": "images/monsters/fullbody/bishaten.png",
       "icon": "images/monsters/icons/bishaten.png",
       "icon_large": "images/monsters/icons/large/bishaten.png",
       "description": "此魔物的特徵為那發達的尾巴。雖是雜食性但偏愛果實，在牠腹部的袋子裡，儲存著許多具有各式各樣效果的柿子。好奇心相當旺盛，也有喜愛惡作劇的一面。目擊報告指出牠在狩獵時，會用尾巴將柿子丟出去玩弄獵物，也因此被稱為「天狗獸」。\n天狗獸會以尾巴為主，使出一連串強力的攻擊，也會以陀螺般的動作玩弄獵物，相當棘手。但若能趁此機會加以攻擊使其跌倒，牠身上的柿子就會散落一地。此時可以撿起柿子並利用於狩獵上，仔細看清牠的動作，積極發動攻擊吧。",
@@ -10803,81 +9147,7 @@
             "dizzy": 0
           }
         ],
-        "hitzone_image": "images/monsters/hitzone/bishaten.png",
-        "parts_old": [
-          {
-            "part": "頭",
-            "condition": "通常",
-            "cut": "70",
-            "blunt": "70",
-            "ammo": "60",
-            "fire": "20",
-            "water": "0",
-            "thunder": "10",
-            "ice": "25",
-            "dragon": "0"
-          },
-          {
-            "part": "身",
-            "condition": "通常",
-            "cut": "25",
-            "blunt": "25",
-            "ammo": "30",
-            "fire": "10",
-            "water": "0",
-            "thunder": "5",
-            "ice": "15",
-            "dragon": "0"
-          },
-          {
-            "part": "前腳",
-            "condition": "通常",
-            "cut": "25",
-            "blunt": "25",
-            "ammo": "30",
-            "fire": "5",
-            "water": "0",
-            "thunder": "0",
-            "ice": "10",
-            "dragon": "0"
-          },
-          {
-            "part": "翼",
-            "condition": "通常",
-            "cut": "40",
-            "blunt": "30",
-            "ammo": "40",
-            "fire": "5",
-            "water": "0",
-            "thunder": "5",
-            "ice": "10",
-            "dragon": "0"
-          },
-          {
-            "part": "後腳",
-            "condition": "通常",
-            "cut": "25",
-            "blunt": "30",
-            "ammo": "25",
-            "fire": "5",
-            "water": "0",
-            "thunder": "5",
-            "ice": "10",
-            "dragon": "0"
-          },
-          {
-            "part": "尾巴",
-            "condition": "通常",
-            "cut": "60",
-            "blunt": "40",
-            "ammo": "40",
-            "fire": "10",
-            "water": "0",
-            "thunder": "5",
-            "ice": "20",
-            "dragon": "0"
-          }
-        ]
+        "hitzone_image": "images/monsters/hitzone/bishaten.png"
       },
       "items": {
         "low_rank": {
@@ -11301,7 +9571,7 @@
         "en": "Goss Harag"
       },
       "species": "fanged_beast",
-      "image": "https://www.monsterhunter.com/rise/assets/images/monster/modal/goss-harag.png",
+      "image": "images/monsters/fullbody/goss_harag.png",
       "icon": "images/monsters/icons/goss_harag.png",
       "icon_large": "images/monsters/icons/large/goss_harag.png",
       "description": "棲息於冰雪地帶的魔物，人稱「雪鬼獸」。為了適應極端環境，身上布滿了十分濃密的毛髮，會在雪原徘徊尋找獵物。牠能藉由呼吸時吸進的冷空氣來冷卻體內的體液，並將其一口氣噴出，製造出冰刀作為自身的武器使用。另外，當牠興奮時。全身上下都會變成紅色，此時的雪鬼獸相當危險，必須注意。\n萬一遭到位於其前腳尖端的冰之刃攻擊，將會陷入「冰屬性異常」，務必小心。但只要能破壞該處，就能使牠失去平衡，露出破綻。另外，當牠興奮時，身上變紅的部位也會變軟，對那些部位積極地展開攻勢吧。",
@@ -11485,153 +9755,7 @@
             "dizzy": 0
           }
         ],
-        "hitzone_image": "images/monsters/hitzone/goss_harag.png",
-        "parts_old": [
-          {
-            "part": "頭",
-            "condition": "通常",
-            "cut": "56",
-            "blunt": "56",
-            "ammo": "50",
-            "fire": "20",
-            "water": "0",
-            "thunder": "15",
-            "ice": "0",
-            "dragon": "0"
-          },
-          {
-            "part": "頭",
-            "condition": "過熱時",
-            "cut": "60",
-            "blunt": "60",
-            "ammo": "55",
-            "fire": "10",
-            "water": "0",
-            "thunder": "15",
-            "ice": "0",
-            "dragon": "0"
-          },
-          {
-            "part": "身",
-            "condition": "通常",
-            "cut": "24",
-            "blunt": "24",
-            "ammo": "20",
-            "fire": "15",
-            "water": "0",
-            "thunder": "5",
-            "ice": "0",
-            "dragon": "0"
-          },
-          {
-            "part": "身",
-            "condition": "過熱時",
-            "cut": "24",
-            "blunt": "24",
-            "ammo": "25",
-            "fire": "10",
-            "water": "0",
-            "thunder": "5",
-            "ice": "0",
-            "dragon": "0"
-          },
-          {
-            "part": "前腳",
-            "condition": "通常",
-            "cut": "51",
-            "blunt": "51",
-            "ammo": "35",
-            "fire": "30",
-            "water": "0",
-            "thunder": "15",
-            "ice": "0",
-            "dragon": "0"
-          },
-          {
-            "part": "前腳",
-            "condition": "過熱時",
-            "cut": "60",
-            "blunt": "65",
-            "ammo": "40",
-            "fire": "10",
-            "water": "0",
-            "thunder": "15",
-            "ice": "0",
-            "dragon": "0"
-          },
-          {
-            "part": "冰塊",
-            "condition": "通常",
-            "cut": "66",
-            "blunt": "66",
-            "ammo": "45",
-            "fire": "30",
-            "water": "0",
-            "thunder": "10",
-            "ice": "0",
-            "dragon": "0"
-          },
-          {
-            "part": "冰塊",
-            "condition": "過熱時",
-            "cut": "66",
-            "blunt": "66",
-            "ammo": "45",
-            "fire": "30",
-            "water": "0",
-            "thunder": "10",
-            "ice": "0",
-            "dragon": "0"
-          },
-          {
-            "part": "背部",
-            "condition": "通常",
-            "cut": "30",
-            "blunt": "30",
-            "ammo": "20",
-            "fire": "25",
-            "water": "0",
-            "thunder": "15",
-            "ice": "0",
-            "dragon": "0"
-          },
-          {
-            "part": "背部",
-            "condition": "過熱時",
-            "cut": "30",
-            "blunt": "30",
-            "ammo": "25",
-            "fire": "20",
-            "water": "0",
-            "thunder": "15",
-            "ice": "0",
-            "dragon": "0"
-          },
-          {
-            "part": "後腳",
-            "condition": "通常",
-            "cut": "24",
-            "blunt": "24",
-            "ammo": "15",
-            "fire": "30",
-            "water": "0",
-            "thunder": "5",
-            "ice": "0",
-            "dragon": "0"
-          },
-          {
-            "part": "後腳",
-            "condition": "過熱時",
-            "cut": "24",
-            "blunt": "24",
-            "ammo": "20",
-            "fire": "10",
-            "water": "0",
-            "thunder": "5",
-            "ice": "0",
-            "dragon": "0"
-          }
-        ]
+        "hitzone_image": "images/monsters/hitzone/goss_harag.png"
       },
       "items": {
         "low_rank": {
@@ -12127,7 +10251,7 @@
         "en": "Great Baggi"
       },
       "species": "bird_wyvern",
-      "image": "https://www.monsterhunter.com/rise/assets/images/monster/modal/great-baggi.png",
+      "image": "images/monsters/fullbody/great_baggi.png",
       "icon": "images/monsters/icons/great_baggi.png",
       "icon_large": "images/monsters/icons/large/great_baggi.png",
       "description": "被分類為鳥龍種的肉食性魔物。特徵為能夠融入寒冷地區景色的淺藍色皮膚，以及頭上高高隆起的巨角。靠著其狡猾的腦袋統領著眠狗龍群。因為其在狩獵時會成群結隊追趕獵物，並以特殊體液使獵物昏睡後加以獵殺，所以也被稱作「眠狗龍」。\n牠會率領著為數眾多的眠狗龍，成群結隊襲擊目標。為了避免遭到圍攻，建議先減少牠們的數量。牠會從口中吐出特殊的體液，若是接觸到該體液，便會陷入昏睡。最好事前準備元氣飲料。在對付眠狗龍時，務必事先做好應對睡眠狀態的對策。",
@@ -12211,33 +10335,7 @@
             "dizzy": 0
           }
         ],
-        "hitzone_image": "images/monsters/hitzone/great_baggi.png",
-        "parts_old": [
-          {
-            "part": "頭",
-            "condition": "通常",
-            "cut": "75",
-            "blunt": "65",
-            "ammo": "60",
-            "fire": "40",
-            "water": "20",
-            "thunder": "20",
-            "ice": "0",
-            "dragon": "0"
-          },
-          {
-            "part": "身體",
-            "condition": "通常",
-            "cut": "50",
-            "blunt": "50",
-            "ammo": "40",
-            "fire": "40",
-            "water": "20",
-            "thunder": "20",
-            "ice": "0",
-            "dragon": "0"
-          }
-        ]
+        "hitzone_image": "images/monsters/hitzone/great_baggi.png"
       },
       "items": {
         "low_rank": {
@@ -12490,7 +10588,7 @@
         "en": "Lagombi"
       },
       "species": "fanged_beast",
-      "image": "https://www.monsterhunter.com/rise/assets/images/monster/modal/lagombi.png",
+      "image": "images/monsters/fullbody/lagombi.png",
       "icon": "images/monsters/icons/lagombi.png",
       "icon_large": "images/monsters/icons/large/lagombi.png",
       "description": "擁有白色體毛與發達的長耳朵，故名「白兔獸」。為已經適應了寒冷地區生活的牙獸種，擁有厚實的皮下脂肪與保暖性高的體毛。雖是草食傾向較強的雜食性魔物，但有時也會攝取肉類。獵捕時會使用優異的聽覺尋找獵物，並在冰上滑行，迅速、安靜地狩獵。\n此魔物對於聲音相當敏感，使用音爆彈便可令其畏縮。另外，如果在牠滑行時對牠投擲音爆彈，甚至能令其跌倒。但當牠處於憤怒狀態時，音爆彈將失去效果，請小心留意。",
@@ -12616,69 +10714,7 @@
             "dizzy": 0
           }
         ],
-        "hitzone_image": "images/monsters/hitzone/lagombi.png",
-        "parts_old": [
-          {
-            "part": "頭",
-            "condition": "通常",
-            "cut": "45",
-            "blunt": "63",
-            "ammo": "50",
-            "fire": "30",
-            "water": "0",
-            "thunder": "20",
-            "ice": "0",
-            "dragon": "0"
-          },
-          {
-            "part": "上半身",
-            "condition": "通常",
-            "cut": "44",
-            "blunt": "44",
-            "ammo": "40",
-            "fire": "30",
-            "water": "0",
-            "thunder": "15",
-            "ice": "0",
-            "dragon": "0"
-          },
-          {
-            "part": "前腳",
-            "condition": "通常",
-            "cut": "30",
-            "blunt": "30",
-            "ammo": "20",
-            "fire": "10",
-            "water": "0",
-            "thunder": "5",
-            "ice": "0",
-            "dragon": "0"
-          },
-          {
-            "part": "腹・後腳",
-            "condition": "通常",
-            "cut": "35",
-            "blunt": "35",
-            "ammo": "20",
-            "fire": "10",
-            "water": "0",
-            "thunder": "5",
-            "ice": "0",
-            "dragon": "0"
-          },
-          {
-            "part": "屁股",
-            "condition": "通常",
-            "cut": "63",
-            "blunt": "50",
-            "ammo": "35",
-            "fire": "20",
-            "water": "0",
-            "thunder": "10",
-            "ice": "0",
-            "dragon": "0"
-          }
-        ]
+        "hitzone_image": "images/monsters/hitzone/lagombi.png"
       },
       "items": {
         "low_rank": {
@@ -12971,7 +11007,7 @@
         "en": "Barioth"
       },
       "species": "flying_wryven",
-      "image": "https://www.monsterhunter.com/rise/assets/images/monster/modal/barioth.png",
+      "image": "images/monsters/fullbody/barioth.png",
       "icon": "images/monsters/icons/barioth.png",
       "icon_large": "images/monsters/icons/large/barioth.png",
       "description": "君臨極寒世界的白色飛龍。其特徵為巨大的牙與銳利的棘，人稱「冰牙龍」。會靈活運用前腳與尾巴上的釘狀鱗片，在滑溜的冰面上來回地穿梭自如。只要牠還擁有這一項能力，想必將難以跟上牠的腳步。\n只要破壞其左右翼上的釘狀鱗片，就能讓牠難以在冰上站穩。如此便能使其無法自在地行動，動作也會變得遲緩。如果想阻止冰牙龍迅速的動作，不妨先攻擊牠的釘狀鱗片。",
@@ -13181,129 +11217,7 @@
             "dizzy": 0
           }
         ],
-        "hitzone_image": "images/monsters/hitzone/barioth.png",
-        "parts_old": [
-          {
-            "part": "頭",
-            "condition": "通常",
-            "cut": "65",
-            "blunt": "70",
-            "ammo": "55",
-            "fire": "20",
-            "water": "10",
-            "thunder": "15",
-            "ice": "0",
-            "dragon": "15"
-          },
-          {
-            "part": "頸・背",
-            "condition": "通常",
-            "cut": "30",
-            "blunt": "30",
-            "ammo": "25",
-            "fire": "5",
-            "water": "5",
-            "thunder": "5",
-            "ice": "0",
-            "dragon": "5"
-          },
-          {
-            "part": "腹",
-            "condition": "通常",
-            "cut": "38",
-            "blunt": "38",
-            "ammo": "25",
-            "fire": "10",
-            "water": "0",
-            "thunder": "5",
-            "ice": "0",
-            "dragon": "5"
-          },
-          {
-            "part": "棘",
-            "condition": "通常",
-            "cut": "25",
-            "blunt": "35",
-            "ammo": "25",
-            "fire": "30",
-            "water": "5",
-            "thunder": "25",
-            "ice": "0",
-            "dragon": "10"
-          },
-          {
-            "part": "棘",
-            "condition": "破壞後",
-            "cut": "30",
-            "blunt": "35",
-            "ammo": "30",
-            "fire": "20",
-            "water": "5",
-            "thunder": "15",
-            "ice": "0",
-            "dragon": "10"
-          },
-          {
-            "part": "翼",
-            "condition": "通常",
-            "cut": "30",
-            "blunt": "45",
-            "ammo": "20",
-            "fire": "10",
-            "water": "0",
-            "thunder": "5",
-            "ice": "0",
-            "dragon": "5"
-          },
-          {
-            "part": "前腳",
-            "condition": "通常",
-            "cut": "40",
-            "blunt": "45",
-            "ammo": "35",
-            "fire": "15",
-            "water": "0",
-            "thunder": "10",
-            "ice": "0",
-            "dragon": "5"
-          },
-          {
-            "part": "後腳",
-            "condition": "通常",
-            "cut": "30",
-            "blunt": "30",
-            "ammo": "25",
-            "fire": "5",
-            "water": "5",
-            "thunder": "5",
-            "ice": "0",
-            "dragon": "5"
-          },
-          {
-            "part": "尾巴",
-            "condition": "通常",
-            "cut": "45",
-            "blunt": "23",
-            "ammo": "45",
-            "fire": "10",
-            "water": "0",
-            "thunder": "5",
-            "ice": "0",
-            "dragon": "5"
-          },
-          {
-            "part": "尾尖",
-            "condition": "通常",
-            "cut": "60",
-            "blunt": "40",
-            "ammo": "40",
-            "fire": "15",
-            "water": "0",
-            "thunder": "10",
-            "ice": "0",
-            "dragon": "5"
-          }
-        ]
+        "hitzone_image": "images/monsters/hitzone/barioth.png"
       },
       "items": {
         "low_rank": {
@@ -13696,7 +11610,7 @@
         "en": "Tigrex"
       },
       "species": "flying_wryven",
-      "image": "https://www.monsterhunter.com/rise/assets/images/monster/modal/tigrex.png",
+      "image": "images/monsters/fullbody/tigrex.png",
       "icon": "images/monsters/icons/tigrex.png",
       "icon_large": "images/monsters/icons/large/tigrex.png",
       "description": "留有原始風貌的飛龍。個性極為凶暴，無論是用發達四肢所使出的突進，或是強力的爪擊和咬擊，都擁有相當驚人的威力。據說為了尋找獵物會進行長距離移動，甚至還會出現在寒冷的地區。由於牠會發出強烈的咆哮，因此被稱為「轟龍」。\n轟龍的突進攻擊範圍廣闊，威力也相當強大。在狩獵時建議不斷繞到其側面展開作戰。另外，牠在突進數次後會顯露疲態，動作也會變得遲鈍。只要善加利用此特性，就能抓住反擊的好機會。",
@@ -13850,93 +11764,7 @@
             "dizzy": 0
           }
         ],
-        "hitzone_image": "images/monsters/hitzone/tigrex.png",
-        "parts_old": [
-          {
-            "part": "頭",
-            "condition": "通常",
-            "cut": "65",
-            "blunt": "70",
-            "ammo": "55",
-            "fire": "0",
-            "water": "10",
-            "thunder": "25",
-            "ice": "5",
-            "dragon": "15"
-          },
-          {
-            "part": "前腳",
-            "condition": "通常",
-            "cut": "50",
-            "blunt": "45",
-            "ammo": "35",
-            "fire": "0",
-            "water": "15",
-            "thunder": "20",
-            "ice": "10",
-            "dragon": "5"
-          },
-          {
-            "part": "腹",
-            "condition": "通常",
-            "cut": "30",
-            "blunt": "30",
-            "ammo": "20",
-            "fire": "10",
-            "water": "10",
-            "thunder": "15",
-            "ice": "5",
-            "dragon": "15"
-          },
-          {
-            "part": "背部",
-            "condition": "通常",
-            "cut": "25",
-            "blunt": "25",
-            "ammo": "20",
-            "fire": "0",
-            "water": "5",
-            "thunder": "15",
-            "ice": "5",
-            "dragon": "15"
-          },
-          {
-            "part": "後腳",
-            "condition": "通常",
-            "cut": "30",
-            "blunt": "30",
-            "ammo": "25",
-            "fire": "0",
-            "water": "5",
-            "thunder": "15",
-            "ice": "0",
-            "dragon": "10"
-          },
-          {
-            "part": "尾根",
-            "condition": "通常",
-            "cut": "40",
-            "blunt": "35",
-            "ammo": "30",
-            "fire": "0",
-            "water": "5",
-            "thunder": "10",
-            "ice": "0",
-            "dragon": "5"
-          },
-          {
-            "part": "尾巴",
-            "condition": "通常",
-            "cut": "45",
-            "blunt": "35",
-            "ammo": "30",
-            "fire": "0",
-            "water": "5",
-            "thunder": "10",
-            "ice": "0",
-            "dragon": "15"
-          }
-        ]
+        "hitzone_image": "images/monsters/hitzone/tigrex.png"
       },
       "items": {
         "low_rank": {
@@ -14489,129 +12317,7 @@
             "dizzy": 0
           }
         ],
-        "hitzone_image": "images/monsters/hitzone/barroth.png",
-        "parts_old": [
-          {
-            "part": "頭",
-            "condition": "通常",
-            "cut": "22",
-            "blunt": "25",
-            "ammo": "15",
-            "fire": "40",
-            "water": "0",
-            "thunder": "0",
-            "ice": "20",
-            "dragon": "10"
-          },
-          {
-            "part": "頭",
-            "condition": "泥纏",
-            "cut": "22",
-            "blunt": "25",
-            "ammo": "15",
-            "fire": "0",
-            "water": "50",
-            "thunder": "0",
-            "ice": "20",
-            "dragon": "0"
-          },
-          {
-            "part": "身",
-            "condition": "通常",
-            "cut": "36",
-            "blunt": "45",
-            "ammo": "35",
-            "fire": "25",
-            "water": "0",
-            "thunder": "0",
-            "ice": "10",
-            "dragon": "5"
-          },
-          {
-            "part": "身",
-            "condition": "泥纏",
-            "cut": "36",
-            "blunt": "45",
-            "ammo": "35",
-            "fire": "0",
-            "water": "30",
-            "thunder": "0",
-            "ice": "10",
-            "dragon": "0"
-          },
-          {
-            "part": "前腳",
-            "condition": "通常",
-            "cut": "50",
-            "blunt": "55",
-            "ammo": "50",
-            "fire": "20",
-            "water": "0",
-            "thunder": "0",
-            "ice": "10",
-            "dragon": "5"
-          },
-          {
-            "part": "前腳",
-            "condition": "泥纏",
-            "cut": "45",
-            "blunt": "50",
-            "ammo": "45",
-            "fire": "0",
-            "water": "25",
-            "thunder": "0",
-            "ice": "10",
-            "dragon": "0"
-          },
-          {
-            "part": "後腳",
-            "condition": "通常",
-            "cut": "36",
-            "blunt": "30",
-            "ammo": "25",
-            "fire": "20",
-            "water": "0",
-            "thunder": "0",
-            "ice": "15",
-            "dragon": "5"
-          },
-          {
-            "part": "後腳",
-            "condition": "泥纏",
-            "cut": "36",
-            "blunt": "30",
-            "ammo": "25",
-            "fire": "0",
-            "water": "25",
-            "thunder": "0",
-            "ice": "15",
-            "dragon": "0"
-          },
-          {
-            "part": "尾巴",
-            "condition": "通常",
-            "cut": "47",
-            "blunt": "47",
-            "ammo": "50",
-            "fire": "25",
-            "water": "0",
-            "thunder": "0",
-            "ice": "20",
-            "dragon": "10"
-          },
-          {
-            "part": "尾巴",
-            "condition": "泥纏",
-            "cut": "42",
-            "blunt": "42",
-            "ammo": "45",
-            "fire": "0",
-            "water": "30",
-            "thunder": "0",
-            "ice": "20",
-            "dragon": "0"
-          }
-        ]
+        "hitzone_image": "images/monsters/hitzone/barroth.png"
       },
       "items": {
         "low_rank": {
@@ -15105,7 +12811,7 @@
         "en": "Basarios"
       },
       "species": "flying_wryven",
-      "image": "https://www.monsterhunter.com/rise/assets/images/monster/modal/basarios.png",
+      "image": "images/monsters/fullbody/basarios.png",
       "icon": "images/monsters/icons/basarios.png",
       "icon_large": "images/monsters/icons/large/basarios.png",
       "description": "鎧龍的幼體，人稱「岩龍」。其特徵為宛如礦石般的硬質化外殼。大部分時間會潛伏在地下，擬態成岩石，故不時會收到採掘者因大意接近了牠們而受害的案例。岩龍的外殼比成年體的鎧龍更堅硬，強度也很高，因此牠使出的衝撞等攻擊威力相當強大。有時候還會排出帶有毒性的瓦斯。\n硬質化的外殼雖然很棘手，但只要成功破壞牠的腹部，就能使其甲殼剝落，並對牠造成沉重的傷害。以熱能攻擊牠時，受攻擊部位的肉質會稍微變軟，此時可對該處積極展開攻勢。",
@@ -15371,273 +13077,7 @@
             "dizzy": 0
           }
         ],
-        "hitzone_image": "images/monsters/hitzone/basarios.png",
-        "parts_old": [
-          {
-            "part": "頭",
-            "condition": "通常",
-            "cut": "20",
-            "blunt": "20",
-            "ammo": "20",
-            "fire": "10",
-            "water": "15",
-            "thunder": "10",
-            "ice": "10",
-            "dragon": "18"
-          },
-          {
-            "part": "頭",
-            "condition": "赤熱化",
-            "cut": "48",
-            "blunt": "55",
-            "ammo": "48",
-            "fire": "15",
-            "water": "20",
-            "thunder": "10",
-            "ice": "10",
-            "dragon": "23"
-          },
-          {
-            "part": "頭",
-            "condition": "赤熱化",
-            "cut": "48",
-            "blunt": "55",
-            "ammo": "48",
-            "fire": "15",
-            "water": "20",
-            "thunder": "10",
-            "ice": "10",
-            "dragon": "23"
-          },
-          {
-            "part": "頭",
-            "condition": "通常",
-            "cut": "38",
-            "blunt": "43",
-            "ammo": "35",
-            "fire": "15",
-            "water": "15",
-            "thunder": "10",
-            "ice": "10",
-            "dragon": "23"
-          },
-          {
-            "part": "頸下",
-            "condition": "通常",
-            "cut": "15",
-            "blunt": "20",
-            "ammo": "20",
-            "fire": "10",
-            "water": "15",
-            "thunder": "10",
-            "ice": "10",
-            "dragon": "18"
-          },
-          {
-            "part": "頸下",
-            "condition": "赤熱化",
-            "cut": "15",
-            "blunt": "20",
-            "ammo": "20",
-            "fire": "10",
-            "water": "15",
-            "thunder": "10",
-            "ice": "10",
-            "dragon": "18"
-          },
-          {
-            "part": "腹",
-            "condition": "通常",
-            "cut": "24",
-            "blunt": "25",
-            "ammo": "30",
-            "fire": "10",
-            "water": "10",
-            "thunder": "10",
-            "ice": "10",
-            "dragon": "15"
-          },
-          {
-            "part": "腹",
-            "condition": "赤熱化",
-            "cut": "62",
-            "blunt": "55",
-            "ammo": "50",
-            "fire": "12",
-            "water": "18",
-            "thunder": "10",
-            "ice": "10",
-            "dragon": "20"
-          },
-          {
-            "part": "腹",
-            "condition": "赤熱化",
-            "cut": "60",
-            "blunt": "55",
-            "ammo": "50",
-            "fire": "12",
-            "water": "18",
-            "thunder": "10",
-            "ice": "10",
-            "dragon": "20"
-          },
-          {
-            "part": "腹",
-            "condition": "通常",
-            "cut": "48",
-            "blunt": "44",
-            "ammo": "40",
-            "fire": "12",
-            "water": "10",
-            "thunder": "10",
-            "ice": "10",
-            "dragon": "20"
-          },
-          {
-            "part": "背",
-            "condition": "通常",
-            "cut": "15",
-            "blunt": "20",
-            "ammo": "20",
-            "fire": "10",
-            "water": "15",
-            "thunder": "10",
-            "ice": "10",
-            "dragon": "18"
-          },
-          {
-            "part": "背",
-            "condition": "赤熱化",
-            "cut": "48",
-            "blunt": "48",
-            "ammo": "55",
-            "fire": "15",
-            "water": "20",
-            "thunder": "10",
-            "ice": "10",
-            "dragon": "23"
-          },
-          {
-            "part": "背",
-            "condition": "赤熱化",
-            "cut": "48",
-            "blunt": "48",
-            "ammo": "55",
-            "fire": "15",
-            "water": "20",
-            "thunder": "10",
-            "ice": "10",
-            "dragon": "23"
-          },
-          {
-            "part": "背",
-            "condition": "通常",
-            "cut": "38",
-            "blunt": "35",
-            "ammo": "43",
-            "fire": "15",
-            "water": "15",
-            "thunder": "10",
-            "ice": "10",
-            "dragon": "23"
-          },
-          {
-            "part": "翼",
-            "condition": "通常",
-            "cut": "20",
-            "blunt": "20",
-            "ammo": "20",
-            "fire": "10",
-            "water": "15",
-            "thunder": "10",
-            "ice": "10",
-            "dragon": "18"
-          },
-          {
-            "part": "翼",
-            "condition": "赤熱化",
-            "cut": "20",
-            "blunt": "20",
-            "ammo": "20",
-            "fire": "10",
-            "water": "15",
-            "thunder": "10",
-            "ice": "10",
-            "dragon": "18"
-          },
-          {
-            "part": "腳",
-            "condition": "通常",
-            "cut": "25",
-            "blunt": "26",
-            "ammo": "30",
-            "fire": "10",
-            "water": "10",
-            "thunder": "10",
-            "ice": "10",
-            "dragon": "10"
-          },
-          {
-            "part": "腳",
-            "condition": "赤熱化",
-            "cut": "25",
-            "blunt": "26",
-            "ammo": "30",
-            "fire": "10",
-            "water": "10",
-            "thunder": "10",
-            "ice": "10",
-            "dragon": "10"
-          },
-          {
-            "part": "尾下",
-            "condition": "通常",
-            "cut": "15",
-            "blunt": "15",
-            "ammo": "15",
-            "fire": "10",
-            "water": "15",
-            "thunder": "10",
-            "ice": "10",
-            "dragon": "18"
-          },
-          {
-            "part": "尾下",
-            "condition": "赤熱化",
-            "cut": "15",
-            "blunt": "15",
-            "ammo": "15",
-            "fire": "10",
-            "water": "15",
-            "thunder": "10",
-            "ice": "10",
-            "dragon": "18"
-          },
-          {
-            "part": "尾尖",
-            "condition": "通常",
-            "cut": "28",
-            "blunt": "15",
-            "ammo": "15",
-            "fire": "10",
-            "water": "10",
-            "thunder": "10",
-            "ice": "10",
-            "dragon": "15"
-          },
-          {
-            "part": "尾尖",
-            "condition": "赤熱化",
-            "cut": "28",
-            "blunt": "15",
-            "ammo": "15",
-            "fire": "10",
-            "water": "10",
-            "thunder": "10",
-            "ice": "10",
-            "dragon": "15"
-          }
-        ]
+        "hitzone_image": "images/monsters/hitzone/basarios.png"
       },
       "items": {
         "low_rank": {
@@ -16070,7 +13510,7 @@
         "en": "Volvidon"
       },
       "species": "fanged_beast",
-      "image": "https://www.monsterhunter.com/rise/assets/images/monster/modal/volvidon.png",
+      "image": "images/monsters/fullbody/volvidon.png",
       "icon": "images/monsters/icons/volvidon.png",
       "icon_large": "images/monsters/icons/large/volvidon.png",
       "description": "擁有連熔岩都能抵擋的厚實紅色甲殼，並因此獲得「赤甲獸」之名的牙獸。會捲起身子，在灼熱的地表上滾動。喜歡吃甲蟲種，會以口中的長舌捲住獵物。還會吐出具有極強麻痺性的唾液，務必小心。\n只要被牠吐出的麻痺液擊中，立刻就會陷入「麻痺狀態」。另外，也要注意牠全身噴出的瓦斯。如果被瓦斯噴中，全身便會染上惡臭，無法吃下肉和藥品。盡可能準備好除臭球，再前往狩獵吧。",
@@ -16224,93 +13664,7 @@
             "dizzy": 0
           }
         ],
-        "hitzone_image": "images/monsters/hitzone/volvidon.png",
-        "parts_old": [
-          {
-            "part": "頭",
-            "condition": "通常",
-            "cut": "55",
-            "blunt": "50",
-            "ammo": "45",
-            "fire": "0",
-            "water": "30",
-            "thunder": "15",
-            "ice": "20",
-            "dragon": "0"
-          },
-          {
-            "part": "上半身",
-            "condition": "通常",
-            "cut": "45",
-            "blunt": "45",
-            "ammo": "35",
-            "fire": "0",
-            "water": "20",
-            "thunder": "10",
-            "ice": "15",
-            "dragon": "0"
-          },
-          {
-            "part": "背部",
-            "condition": "通常",
-            "cut": "45",
-            "blunt": "45",
-            "ammo": "40",
-            "fire": "0",
-            "water": "20",
-            "thunder": "10",
-            "ice": "15",
-            "dragon": "0"
-          },
-          {
-            "part": "前腳",
-            "condition": "通常",
-            "cut": "38",
-            "blunt": "30",
-            "ammo": "30",
-            "fire": "0",
-            "water": "10",
-            "thunder": "5",
-            "ice": "5",
-            "dragon": "0"
-          },
-          {
-            "part": "腹・後腳",
-            "condition": "通常",
-            "cut": "36",
-            "blunt": "36",
-            "ammo": "20",
-            "fire": "0",
-            "water": "10",
-            "thunder": "5",
-            "ice": "10",
-            "dragon": "0"
-          },
-          {
-            "part": "屁股",
-            "condition": "通常",
-            "cut": "30",
-            "blunt": "30",
-            "ammo": "25",
-            "fire": "0",
-            "water": "15",
-            "thunder": "10",
-            "ice": "10",
-            "dragon": "0"
-          },
-          {
-            "part": "滾動中",
-            "condition": "通常",
-            "cut": "75",
-            "blunt": "75",
-            "ammo": "10",
-            "fire": "0",
-            "water": "0",
-            "thunder": "0",
-            "ice": "0",
-            "dragon": "0"
-          }
-        ]
+        "hitzone_image": "images/monsters/hitzone/volvidon.png"
       },
       "items": {
         "low_rank": {
@@ -16617,7 +13971,7 @@
         "en": "Diablos"
       },
       "species": "flying_wryven",
-      "image": "https://www.monsterhunter.com/rise/assets/images/monster/modal/diablos.png",
+      "image": "images/monsters/fullbody/diablos.png",
       "icon": "images/monsters/icons/diablos.png",
       "icon_large": "images/monsters/icons/large/diablos.png",
       "description": "以沙漠暴君之名受人畏懼的飛龍。其特徵為那對彎曲的犄角，故也被稱為「角龍」。其地盤意識極強，會對入侵者展現近乎瘋狂的攻擊性。另外，或許是因為經常潛入沙中的關係，使牠的聽覺非常發達，對聲音相當敏感。為草食性魔物，主食為仙人掌。\n一旦牠潛入地底，將會變得相當棘手，此時可用巨大的聲響將其引出地面。其巨角突進攻擊擁有驚人破壞力，但只要加以誘導，使其撞向蟻窩，就能反過來利用這股破壞力令牠露出破綻。",
@@ -16798,117 +14152,7 @@
             "dizzy": 0
           }
         ],
-        "hitzone_image": "images/monsters/hitzone/diablos.png",
-        "parts_old": [
-          {
-            "part": "頭",
-            "condition": "通常",
-            "cut": "45",
-            "blunt": "60",
-            "ammo": "40",
-            "fire": "0",
-            "water": "15",
-            "thunder": "10",
-            "ice": "25",
-            "dragon": "15"
-          },
-          {
-            "part": "角",
-            "condition": "通常",
-            "cut": "21",
-            "blunt": "42",
-            "ammo": "20",
-            "fire": "0",
-            "water": "20",
-            "thunder": "10",
-            "ice": "25",
-            "dragon": "20"
-          },
-          {
-            "part": "頸",
-            "condition": "通常",
-            "cut": "40",
-            "blunt": "40",
-            "ammo": "25",
-            "fire": "0",
-            "water": "15",
-            "thunder": "5",
-            "ice": "20",
-            "dragon": "15"
-          },
-          {
-            "part": "腹",
-            "condition": "通常",
-            "cut": "65",
-            "blunt": "70",
-            "ammo": "40",
-            "fire": "0",
-            "water": "25",
-            "thunder": "10",
-            "ice": "30",
-            "dragon": "25"
-          },
-          {
-            "part": "背部",
-            "condition": "通常",
-            "cut": "25",
-            "blunt": "42",
-            "ammo": "35",
-            "fire": "0",
-            "water": "20",
-            "thunder": "10",
-            "ice": "25",
-            "dragon": "20"
-          },
-          {
-            "part": "翼",
-            "condition": "通常",
-            "cut": "40",
-            "blunt": "30",
-            "ammo": "60",
-            "fire": "0",
-            "water": "25",
-            "thunder": "10",
-            "ice": "30",
-            "dragon": "25"
-          },
-          {
-            "part": "腳",
-            "condition": "通常",
-            "cut": "35",
-            "blunt": "35",
-            "ammo": "35",
-            "fire": "0",
-            "water": "10",
-            "thunder": "5",
-            "ice": "15",
-            "dragon": "10"
-          },
-          {
-            "part": "尾巴",
-            "condition": "通常",
-            "cut": "50",
-            "blunt": "24",
-            "ammo": "45",
-            "fire": "0",
-            "water": "20",
-            "thunder": "10",
-            "ice": "15",
-            "dragon": "20"
-          },
-          {
-            "part": "尾尖",
-            "condition": "通常",
-            "cut": "23",
-            "blunt": "26",
-            "ammo": "10",
-            "fire": "0",
-            "water": "20",
-            "thunder": "10",
-            "ice": "25",
-            "dragon": "20"
-          }
-        ]
+        "hitzone_image": "images/monsters/hitzone/diablos.png"
       },
       "items": {
         "low_rank": {
@@ -17277,7 +14521,7 @@
         "en": "Rajang"
       },
       "species": "fanged_beast",
-      "image": "https://www.monsterhunter.com/rise/assets/images/monster/modal/rajang.png",
+      "image": "images/monsters/fullbody/rajang.png",
       "icon": "images/monsters/icons/rajang.png",
       "icon_large": "images/monsters/icons/large/rajang.png",
       "description": "攻擊性極強的生物。因其異常的攻擊性，導致目擊案例極少。親眼見到牠還能平安活下來的人屈指可數。總是單獨行動，從不與其他魔物為伍，是個孤傲的存在。棲息地帶等情報完全成謎。根據記載，當其進入亢奮狀態時，一部分的體毛會轉變為金色，故擁有「金獅子」之名。\n當牠處於前腳強化的狀態時尤其危險，連麻痺陷阱也能破壞，但能透過攻擊其尾巴解除此狀態。另外在一般狀態下，地洞會被牠避開。當牠發現地盤被入侵時會變得憤怒，需要特別注意。",
@@ -17446,93 +14690,7 @@
             "dizzy": 0
           }
         ],
-        "hitzone_image": "images/monsters/hitzone/rajang.png",
-        "parts_old": [
-          {
-            "part": "頭",
-            "condition": "通常",
-            "cut": "65",
-            "blunt": "67",
-            "ammo": "55",
-            "fire": "0",
-            "water": "5",
-            "thunder": "0",
-            "ice": "30",
-            "dragon": "0"
-          },
-          {
-            "part": "身體",
-            "condition": "通常",
-            "cut": "45",
-            "blunt": "45",
-            "ammo": "35",
-            "fire": "0",
-            "water": "5",
-            "thunder": "0",
-            "ice": "15",
-            "dragon": "0"
-          },
-          {
-            "part": "前腳",
-            "condition": "通常",
-            "cut": "45",
-            "blunt": "45",
-            "ammo": "40",
-            "fire": "0",
-            "water": "5",
-            "thunder": "0",
-            "ice": "15",
-            "dragon": "0"
-          },
-          {
-            "part": "前腳",
-            "condition": "鬥氣硬化",
-            "cut": "10",
-            "blunt": "10",
-            "ammo": "5",
-            "fire": "0",
-            "water": "5",
-            "thunder": "0",
-            "ice": "15",
-            "dragon": "0"
-          },
-          {
-            "part": "後腳",
-            "condition": "通常",
-            "cut": "35",
-            "blunt": "35",
-            "ammo": "15",
-            "fire": "0",
-            "water": "5",
-            "thunder": "0",
-            "ice": "15",
-            "dragon": "0"
-          },
-          {
-            "part": "尾巴",
-            "condition": "通常",
-            "cut": "35",
-            "blunt": "32",
-            "ammo": "25",
-            "fire": "0",
-            "water": "5",
-            "thunder": "0",
-            "ice": "15",
-            "dragon": "0"
-          },
-          {
-            "part": "尾巴",
-            "condition": "鬥氣硬化",
-            "cut": "47",
-            "blunt": "45",
-            "ammo": "35",
-            "fire": "0",
-            "water": "5",
-            "thunder": "0",
-            "ice": "15",
-            "dragon": "0"
-          }
-        ]
+        "hitzone_image": "images/monsters/hitzone/rajang.png"
       },
       "items": {
         "high_rank": {
@@ -17767,7 +14925,7 @@
         "en": "Rakna-Kadaki"
       },
       "species": "temnoceran",
-      "image": "https://www.monsterhunter.com/rise/assets/images/monster/modal/rakna-kadaki.png",
+      "image": "images/monsters/fullbody/rakna-kadaki.png",
       "icon": "images/monsters/icons/rakna-kadaki.png",
       "icon_large": "images/monsters/icons/large/rakna-kadaki.png",
       "description": "名為「妃蜘蛛」，特徵為全身上下皆包覆著絲線。附著在其腹部的是牠的孩子「臣蜘蛛」，妃蜘蛛能利用儲存在腹部的瓦斯來控制牠們。臣蜘蛛會噴出火焰、捕捉獵物，或是協助支撐妃蜘蛛龐大的身體。妃蜘蛛會在臣蜘蛛的數量減少時開始產卵，且此時會變得非常凶暴，必須多加注意。\n妃蜘蛛的孩子「臣蜘蛛」會利用絲線進行高速移動，但此時若能抓準時機切斷絲線，牠就會失去平衡，利用此方式便能使牠們露出破綻。另外，若在被絲線束縛的狀態下遭到火屬性攻擊，將會受到更多的傷害，請務必小心。",
@@ -17934,69 +15092,7 @@
             "dizzy": 0
           }
         ],
-        "hitzone_image": "images/monsters/hitzone/rakna-kadaki.png",
-        "parts_old": [
-          {
-            "part": "頭",
-            "condition": "通常",
-            "cut": "60",
-            "blunt": "70",
-            "ammo": "45",
-            "fire": "0",
-            "water": "10",
-            "thunder": "0",
-            "ice": "20",
-            "dragon": "0"
-          },
-          {
-            "part": "胸",
-            "condition": "通常",
-            "cut": "25",
-            "blunt": "25",
-            "ammo": "10",
-            "fire": "0",
-            "water": "5",
-            "thunder": "0",
-            "ice": "5",
-            "dragon": "0"
-          },
-          {
-            "part": "爪",
-            "condition": "通常",
-            "cut": "20",
-            "blunt": "20",
-            "ammo": "10",
-            "fire": "0",
-            "water": "15",
-            "thunder": "0",
-            "ice": "30",
-            "dragon": "0"
-          },
-          {
-            "part": "腹",
-            "condition": "通常",
-            "cut": "35",
-            "blunt": "35",
-            "ammo": "15",
-            "fire": "0",
-            "water": "5",
-            "thunder": "0",
-            "ice": "10",
-            "dragon": "0"
-          },
-          {
-            "part": "腳(絲)",
-            "condition": "通常",
-            "cut": "43",
-            "blunt": "43",
-            "ammo": "35",
-            "fire": "0",
-            "water": "0",
-            "thunder": "0",
-            "ice": "5",
-            "dragon": "0"
-          }
-        ]
+        "hitzone_image": "images/monsters/hitzone/rakna-kadaki.png"
       },
       "items": {
         "high_rank": {
@@ -18301,7 +15397,7 @@
         "en": "Almudron"
       },
       "species": "leviathan",
-      "image": "https://www.monsterhunter.com/rise/assets/images/monster/modal/almudron.png",
+      "image": "images/monsters/fullbody/almudron.png",
       "icon": "images/monsters/icons/almudron.png",
       "icon_large": "images/monsters/icons/large/almudron.png",
       "description": "正如其名所示，泥翁龍擅長藏身於泥中，迅速解決行經的獵物。牠會從尾巴分泌出金色的特殊溶解液溶解地面，並透過干擾獵物行動及潛入地底等方式進行狩獵。牠在興奮時，溶解液的分泌量會增加，使泥巴呈現金色。此時的泥翁龍相當危險，必須多加留意。\n泥翁龍會將泥巴附著在尾巴上，藉以強化自己，由於這些泥巴能夠透過攻擊使其剝落，當牠的尾巴附著泥巴時，建議盡早將之除去。另外，若觸碰到閃耀著金色光澤的泥巴會受到傷害，與牠對峙時必須經常注意周遭環境。",
@@ -18482,105 +15578,7 @@
             "dizzy": 0
           }
         ],
-        "hitzone_image": "images/monsters/hitzone/almudron.png",
-        "parts_old": [
-          {
-            "part": "頭",
-            "condition": "通常",
-            "cut": "55",
-            "blunt": "64",
-            "ammo": "55",
-            "fire": "20",
-            "water": "0",
-            "thunder": "10",
-            "ice": "20",
-            "dragon": "5"
-          },
-          {
-            "part": "前腳",
-            "condition": "通常",
-            "cut": "23",
-            "blunt": "24",
-            "ammo": "20",
-            "fire": "30",
-            "water": "0",
-            "thunder": "5",
-            "ice": "25",
-            "dragon": "5"
-          },
-          {
-            "part": "前腳",
-            "condition": "破壞後",
-            "cut": "24",
-            "blunt": "25",
-            "ammo": "21",
-            "fire": "30",
-            "water": "0",
-            "thunder": "5",
-            "ice": "25",
-            "dragon": "5"
-          },
-          {
-            "part": "腹",
-            "condition": "通常",
-            "cut": "40",
-            "blunt": "55",
-            "ammo": "35",
-            "fire": "20",
-            "water": "0",
-            "thunder": "5",
-            "ice": "15",
-            "dragon": "5"
-          },
-          {
-            "part": "背部",
-            "condition": "通常",
-            "cut": "25",
-            "blunt": "30",
-            "ammo": "20",
-            "fire": "15",
-            "water": "0",
-            "thunder": "5",
-            "ice": "10",
-            "dragon": "5"
-          },
-          {
-            "part": "後腳",
-            "condition": "通常",
-            "cut": "25",
-            "blunt": "25",
-            "ammo": "20",
-            "fire": "10",
-            "water": "0",
-            "thunder": "5",
-            "ice": "10",
-            "dragon": "5"
-          },
-          {
-            "part": "尾巴",
-            "condition": "通常",
-            "cut": "55",
-            "blunt": "30",
-            "ammo": "35",
-            "fire": "25",
-            "water": "0",
-            "thunder": "10",
-            "ice": "20",
-            "dragon": "5"
-          },
-          {
-            "part": "尾尖",
-            "condition": "通常",
-            "cut": "65",
-            "blunt": "55",
-            "ammo": "40",
-            "fire": "25",
-            "water": "0",
-            "thunder": "15",
-            "ice": "20",
-            "dragon": "15"
-          }
-        ]
+        "hitzone_image": "images/monsters/hitzone/almudron.png"
       },
       "items": {
         "low_rank": {
@@ -19203,141 +16201,7 @@
             "dizzy": 0
           }
         ],
-        "hitzone_image": "images/monsters/hitzone/nargacuga.png",
-        "parts_old": [
-          {
-            "part": "頭",
-            "condition": "通常",
-            "cut": "65",
-            "blunt": "70",
-            "ammo": "40",
-            "fire": "15",
-            "water": "0",
-            "thunder": "25",
-            "ice": "10",
-            "dragon": "10"
-          },
-          {
-            "part": "頭",
-            "condition": "憤怒時",
-            "cut": "67",
-            "blunt": "72",
-            "ammo": "42",
-            "fire": "20",
-            "water": "0",
-            "thunder": "30",
-            "ice": "15",
-            "dragon": "15"
-          },
-          {
-            "part": "頸・背",
-            "condition": "通常",
-            "cut": "30",
-            "blunt": "30",
-            "ammo": "35",
-            "fire": "10",
-            "water": "0",
-            "thunder": "15",
-            "ice": "5",
-            "dragon": "5"
-          },
-          {
-            "part": "前腳",
-            "condition": "通常",
-            "cut": "43",
-            "blunt": "43",
-            "ammo": "35",
-            "fire": "10",
-            "water": "0",
-            "thunder": "20",
-            "ice": "0",
-            "dragon": "5"
-          },
-          {
-            "part": "刃翼",
-            "condition": "通常",
-            "cut": "21",
-            "blunt": "24",
-            "ammo": "21",
-            "fire": "25",
-            "water": "5",
-            "thunder": "35",
-            "ice": "10",
-            "dragon": "15"
-          },
-          {
-            "part": "腹",
-            "condition": "通常",
-            "cut": "40",
-            "blunt": "40",
-            "ammo": "30",
-            "fire": "10",
-            "water": "0",
-            "thunder": "20",
-            "ice": "5",
-            "dragon": "5"
-          },
-          {
-            "part": "後腳",
-            "condition": "通常",
-            "cut": "30",
-            "blunt": "30",
-            "ammo": "25",
-            "fire": "10",
-            "water": "0",
-            "thunder": "15",
-            "ice": "5",
-            "dragon": "5"
-          },
-          {
-            "part": "尾巴",
-            "condition": "通常",
-            "cut": "46",
-            "blunt": "40",
-            "ammo": "45",
-            "fire": "10",
-            "water": "0",
-            "thunder": "25",
-            "ice": "5",
-            "dragon": "5"
-          },
-          {
-            "part": "尾巴",
-            "condition": "憤怒時",
-            "cut": "55",
-            "blunt": "35",
-            "ammo": "40",
-            "fire": "10",
-            "water": "0",
-            "thunder": "15",
-            "ice": "0",
-            "dragon": "5"
-          },
-          {
-            "part": "尾尖",
-            "condition": "通常",
-            "cut": "40",
-            "blunt": "35",
-            "ammo": "40",
-            "fire": "10",
-            "water": "0",
-            "thunder": "20",
-            "ice": "5",
-            "dragon": "5"
-          },
-          {
-            "part": "尾尖",
-            "condition": "憤怒時",
-            "cut": "45",
-            "blunt": "36",
-            "ammo": "42",
-            "fire": "15",
-            "water": "0",
-            "thunder": "30",
-            "ice": "10",
-            "dragon": "10"
-          }
-        ]
+        "hitzone_image": "images/monsters/hitzone/nargacuga.png"
       },
       "items": {
         "low_rank": {
@@ -20094,201 +16958,7 @@
             "dizzy": 0
           }
         ],
-        "hitzone_image": "images/monsters/hitzone/zinogre.png",
-        "parts_old": [
-          {
-            "part": "頭",
-            "condition": "通常",
-            "cut": "65",
-            "blunt": "65",
-            "ammo": "70",
-            "fire": "10",
-            "water": "10",
-            "thunder": "0",
-            "ice": "15",
-            "dragon": "5"
-          },
-          {
-            "part": "頭",
-            "condition": "超帶電",
-            "cut": "65",
-            "blunt": "65",
-            "ammo": "70",
-            "fire": "10",
-            "water": "10",
-            "thunder": "0",
-            "ice": "15",
-            "dragon": "10"
-          },
-          {
-            "part": "身",
-            "condition": "通常",
-            "cut": "25",
-            "blunt": "25",
-            "ammo": "30",
-            "fire": "5",
-            "water": "5",
-            "thunder": "0",
-            "ice": "5",
-            "dragon": "5"
-          },
-          {
-            "part": "身",
-            "condition": "超帶電",
-            "cut": "30",
-            "blunt": "30",
-            "ammo": "35",
-            "fire": "5",
-            "water": "10",
-            "thunder": "0",
-            "ice": "10",
-            "dragon": "5"
-          },
-          {
-            "part": "背部",
-            "condition": "通常",
-            "cut": "45",
-            "blunt": "40",
-            "ammo": "35",
-            "fire": "10",
-            "water": "20",
-            "thunder": "0",
-            "ice": "25",
-            "dragon": "5"
-          },
-          {
-            "part": "背部",
-            "condition": "超帶電",
-            "cut": "70",
-            "blunt": "65",
-            "ammo": "55",
-            "fire": "15",
-            "water": "25",
-            "thunder": "0",
-            "ice": "30",
-            "dragon": "5"
-          },
-          {
-            "part": "前腳",
-            "condition": "通常",
-            "cut": "25",
-            "blunt": "30",
-            "ammo": "30",
-            "fire": "5",
-            "water": "5",
-            "thunder": "0",
-            "ice": "10",
-            "dragon": "5"
-          },
-          {
-            "part": "前腳",
-            "condition": "超帶電",
-            "cut": "43",
-            "blunt": "46",
-            "ammo": "30",
-            "fire": "5",
-            "water": "5",
-            "thunder": "0",
-            "ice": "15",
-            "dragon": "5"
-          },
-          {
-            "part": "屁股",
-            "condition": "通常",
-            "cut": "44",
-            "blunt": "44",
-            "ammo": "30",
-            "fire": "5",
-            "water": "5",
-            "thunder": "0",
-            "ice": "10",
-            "dragon": "5"
-          },
-          {
-            "part": "屁股",
-            "condition": "超帶電",
-            "cut": "45",
-            "blunt": "45",
-            "ammo": "35",
-            "fire": "10",
-            "water": "10",
-            "thunder": "0",
-            "ice": "15",
-            "dragon": "5"
-          },
-          {
-            "part": "後腳",
-            "condition": "通常",
-            "cut": "45",
-            "blunt": "45",
-            "ammo": "35",
-            "fire": "5",
-            "water": "5",
-            "thunder": "0",
-            "ice": "10",
-            "dragon": "5"
-          },
-          {
-            "part": "後腳",
-            "condition": "超帶電",
-            "cut": "50",
-            "blunt": "50",
-            "ammo": "40",
-            "fire": "10",
-            "water": "10",
-            "thunder": "0",
-            "ice": "15",
-            "dragon": "5"
-          },
-          {
-            "part": "尾巴",
-            "condition": "通常",
-            "cut": "30",
-            "blunt": "25",
-            "ammo": "25",
-            "fire": "5",
-            "water": "5",
-            "thunder": "0",
-            "ice": "5",
-            "dragon": "5"
-          },
-          {
-            "part": "尾巴",
-            "condition": "超帶電",
-            "cut": "30",
-            "blunt": "25",
-            "ammo": "25",
-            "fire": "5",
-            "water": "5",
-            "thunder": "0",
-            "ice": "5",
-            "dragon": "5"
-          },
-          {
-            "part": "尾尖",
-            "condition": "通常",
-            "cut": "21",
-            "blunt": "19",
-            "ammo": "10",
-            "fire": "10",
-            "water": "15",
-            "thunder": "0",
-            "ice": "20",
-            "dragon": "5"
-          },
-          {
-            "part": "尾尖",
-            "condition": "超帶電",
-            "cut": "21",
-            "blunt": "19",
-            "ammo": "10",
-            "fire": "10",
-            "water": "15",
-            "thunder": "0",
-            "ice": "20",
-            "dragon": "5"
-          }
-        ]
+        "hitzone_image": "images/monsters/hitzone/zinogre.png"
       },
       "items": {
         "high_rank": {
@@ -20924,120 +17594,7 @@
             "dizzy": 0
           }
         ],
-        "hitzone_image": "images/monsters/hitzone/wind_serpent_ibushi.png",
-        "parts_old": [
-          {
-            "part": "頭",
-            "cut": "65",
-            "blunt": "70",
-            "ammo": "45",
-            "fire": "20",
-            "water": "10",
-            "thunder": "5",
-            "ice": "10",
-            "dragon": "25"
-          },
-          {
-            "part": "頸",
-            "cut": "35",
-            "blunt": "30",
-            "ammo": "25",
-            "fire": "15",
-            "water": "5",
-            "thunder": "5",
-            "ice": "5",
-            "dragon": "20"
-          },
-          {
-            "part": "身體",
-            "cut": "30",
-            "blunt": "30",
-            "ammo": "25",
-            "fire": "10",
-            "water": "5",
-            "thunder": "5",
-            "ice": "5",
-            "dragon": "10"
-          },
-          {
-            "part": "胸(風袋)",
-            "cut": "80",
-            "blunt": "80",
-            "ammo": "75",
-            "fire": "15",
-            "water": "15",
-            "thunder": "5",
-            "ice": "15",
-            "dragon": "25"
-          },
-          {
-            "part": "翼腕",
-            "cut": "35",
-            "blunt": "30",
-            "ammo": "35",
-            "fire": "5",
-            "water": "5",
-            "thunder": "0",
-            "ice": "5",
-            "dragon": "5"
-          },
-          {
-            "part": "翼腕",
-            "condition": "風袋",
-            "cut": "65",
-            "blunt": "60",
-            "ammo": "40",
-            "fire": "25",
-            "water": "10",
-            "thunder": "5",
-            "ice": "5",
-            "dragon": "25"
-          },
-          {
-            "part": "背部(風袋)",
-            "cut": "60",
-            "blunt": "55",
-            "ammo": "45",
-            "fire": "20",
-            "water": "10",
-            "thunder": "5",
-            "ice": "5",
-            "dragon": "25"
-          },
-          {
-            "part": "腳鰭",
-            "cut": "25",
-            "blunt": "25",
-            "ammo": "15",
-            "fire": "10",
-            "water": "5",
-            "thunder": "5",
-            "ice": "5",
-            "dragon": "10"
-          },
-          {
-            "part": "尾巴",
-            "cut": "30",
-            "blunt": "25",
-            "ammo": "10",
-            "fire": "5",
-            "water": "5",
-            "thunder": "5",
-            "ice": "5",
-            "dragon": "10"
-          },
-          {
-            "part": "尾尖(風袋)",
-            "cut": "50",
-            "blunt": "45",
-            "ammo": "40",
-            "fire": "25",
-            "water": "15",
-            "thunder": "5",
-            "ice": "15",
-            "dragon": "35"
-          }
-        ]
+        "hitzone_image": "images/monsters/hitzone/wind_serpent_ibushi.png"
       },
       "items": {
         "high_rank": {
@@ -21564,191 +18121,7 @@
             "dizzy": 0
           }
         ],
-        "hitzone_image": "images/monsters/hitzone/thunder_serpent_narwa.png",
-        "parts_old": [
-          {
-            "part": "頭",
-            "cut": "55",
-            "blunt": "50",
-            "ammo": "5",
-            "fire": "5",
-            "water": "5",
-            "thunder": "0",
-            "ice": "10",
-            "dragon": "15"
-          },
-          {
-            "part": "頭",
-            "condition": "帶電",
-            "cut": "70",
-            "blunt": "75",
-            "ammo": "45",
-            "fire": "5",
-            "water": "5",
-            "thunder": "0",
-            "ice": "15",
-            "dragon": "20"
-          },
-          {
-            "part": "頸",
-            "cut": "35",
-            "blunt": "30",
-            "ammo": "10",
-            "fire": "0",
-            "water": "0",
-            "thunder": "0",
-            "ice": "5",
-            "dragon": "0"
-          },
-          {
-            "part": "身",
-            "cut": "20",
-            "blunt": "25",
-            "ammo": "5",
-            "fire": "0",
-            "water": "0",
-            "thunder": "0",
-            "ice": "0",
-            "dragon": "5"
-          },
-          {
-            "part": "胸",
-            "cut": "35",
-            "blunt": "35",
-            "ammo": "15",
-            "fire": "0",
-            "water": "0",
-            "thunder": "0",
-            "ice": "5",
-            "dragon": "10"
-          },
-          {
-            "part": "胸",
-            "condition": "帶電",
-            "cut": "55",
-            "blunt": "50",
-            "ammo": "35",
-            "fire": "0",
-            "water": "5",
-            "thunder": "0",
-            "ice": "10",
-            "dragon": "15"
-          },
-          {
-            "part": "翼腕",
-            "cut": "35",
-            "blunt": "30",
-            "ammo": "10",
-            "fire": "0",
-            "water": "5",
-            "thunder": "0",
-            "ice": "5",
-            "dragon": "10"
-          },
-          {
-            "part": "翼腕",
-            "condition": "帶電",
-            "cut": "70",
-            "blunt": "65",
-            "ammo": "45",
-            "fire": "5",
-            "water": "5",
-            "thunder": "0",
-            "ice": "10",
-            "dragon": "20"
-          },
-          {
-            "part": "腹(發電器官)",
-            "cut": "25",
-            "blunt": "25",
-            "ammo": "5",
-            "fire": "0",
-            "water": "0",
-            "thunder": "0",
-            "ice": "0",
-            "dragon": "0"
-          },
-          {
-            "part": "腹(發電器官)",
-            "condition": "帶電",
-            "cut": "90",
-            "blunt": "90",
-            "ammo": "55",
-            "fire": "5",
-            "water": "5",
-            "thunder": "0",
-            "ice": "20",
-            "dragon": "25"
-          },
-          {
-            "part": "背部",
-            "cut": "25",
-            "blunt": "30",
-            "ammo": "15",
-            "fire": "0",
-            "water": "5",
-            "thunder": "0",
-            "ice": "5",
-            "dragon": "10"
-          },
-          {
-            "part": "背部",
-            "condition": "帶電",
-            "cut": "50",
-            "blunt": "45",
-            "ammo": "35",
-            "fire": "5",
-            "water": "5",
-            "thunder": "0",
-            "ice": "10",
-            "dragon": "15"
-          },
-          {
-            "part": "腳鰭",
-            "cut": "20",
-            "blunt": "20",
-            "ammo": "5",
-            "fire": "0",
-            "water": "0",
-            "thunder": "0",
-            "ice": "0",
-            "dragon": "5"
-          },
-          {
-            "part": "尾巴",
-            "cut": "30",
-            "blunt": "30",
-            "ammo": "10",
-            "fire": "0",
-            "water": "0",
-            "thunder": "0",
-            "ice": "5",
-            "dragon": "10"
-          },
-          {
-            "part": "尾尖",
-            "cut": "35",
-            "blunt": "40",
-            "ammo": "15",
-            "fire": "0",
-            "water": "0",
-            "thunder": "0",
-            "ice": "5",
-            "dragon": "10"
-          },
-          {
-            "part": "尾尖",
-            "condition": "帶電",
-            "cut": "70",
-            "blunt": "65",
-            "ammo": "35",
-            "fire": "0",
-            "water": "0",
-            "thunder": "0",
-            "ice": "5",
-            "dragon": "15"
-          }
-        ]
+        "hitzone_image": "images/monsters/hitzone/thunder_serpent_narwa.png"
       },
       "items": {
         "high_rank": {
@@ -22000,9 +18373,7 @@
           ]
         }
       ],
-      "hitdata": {
-        "parts_old": []
-      },
+      "hitdata": {},
       "trait": {
         "roar": "？",
         "wind": "？",
