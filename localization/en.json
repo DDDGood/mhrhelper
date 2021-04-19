@@ -110,6 +110,16 @@
             "part": "Part",
             "state": "State",
             "hitdata": "Hit Data",
+            "partsdata": "Parts Data",
+            "stagger": "Stagger",
+            "break": "Break",
+            "loss": "Sever",
+            "extract": "Extract",
+            "extract_type": {
+                "red": "Red",
+                "orange": "Orange",
+                "white": "White"
+            },
             "materials": "Materials",
             "riding_moves": "Riding Attacks",
             "battlestrategy": "Battle Strategy",

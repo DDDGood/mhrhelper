@@ -110,6 +110,16 @@
             "part": "部位",
             "state": "狀態",
             "hitdata": "詳細肉質",
+            "partsdata": "部位資訊",
+            "stagger": "硬直",
+            "break": "破壞",
+            "loss": "切斷",
+            "extract": "精華",
+            "extract_type": {
+                "red": "紅",
+                "orange": "橙",
+                "white": "白"
+            },
             "materials": "相關素材",
             "riding_moves": "御龍招式",
             "battlestrategy": "對戰要點",

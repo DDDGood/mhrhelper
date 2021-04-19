@@ -432,6 +432,47 @@
             }
           }
         }
+      },
+      "partsdata": {
+        "parts": [
+          {
+            "part": "頭部",
+            "part_color": "#e6194B",
+            "stagger": 180,
+            "extract": "orange",
+            "break": [
+              {
+                "vital": 360,
+                "break_level": 1
+              }
+            ]
+          },
+          {
+            "part": "身體",
+            "part_color": "#3cb44b",
+            "stagger": 200,
+            "extract": "white"
+          },
+          {
+            "part": "前腳",
+            "part_color": "#ffe119",
+            "stagger": 160,
+            "extract": "white"
+          },
+          {
+            "part": "尾巴",
+            "part_color": "#4363d8",
+            "stagger": 160,
+            "extract": "red",
+            "break": [
+              {
+                "vital": 320,
+                "break_level": 1
+              }
+            ]
+          }
+        ],
+        "parts_image": "images/monsters/parts/great_izuchi.png"
       }
     },
     "arzuros": {
@@ -922,6 +963,47 @@
             }
           }
         }
+      },
+      "partsdata": {
+        "parts": [
+          {
+            "part": "頭部",
+            "part_color": "#e6194B",
+            "stagger": 150,
+            "extract": "red"
+          },
+          {
+            "part": "上半身",
+            "part_color": "#3cb44b",
+            "stagger": 210,
+            "extract": "orange"
+          },
+          {
+            "part": "前腳",
+            "part_color": "#ffe119",
+            "stagger": 150,
+            "extract": "red",
+            "break": [
+              {
+                "vital": 150,
+                "break_level": 1
+              }
+            ]
+          },
+          {
+            "part": "臀",
+            "part_color": "#4363d8",
+            "stagger": 170,
+            "extract": "orange"
+          },
+          {
+            "part": "腹・後腳",
+            "part_color": "#f58231",
+            "stagger": 250,
+            "extract": "white"
+          }
+        ],
+        "parts_image": "images/monsters/parts/arzuros.png"
       }
     },
     "apex_arzuros": {
@@ -1572,6 +1654,81 @@
             }
           }
         }
+      },
+      "partsdata": {
+        "parts": [
+          {
+            "part": "頭部",
+            "part_color": "#e6194B",
+            "stagger": 290,
+            "extract": "red",
+            "break": [
+              {
+                "vital": 580,
+                "break_level": 1
+              }
+            ]
+          },
+          {
+            "part": "身體",
+            "part_color": "#3cb44b",
+            "stagger": 360,
+            "extract": "orange",
+            "break": [
+              {
+                "vital": 360,
+                "break_level": 1
+              }
+            ]
+          },
+          {
+            "part": "左翼",
+            "part_color": "#ffe119",
+            "stagger": 220,
+            "extract": "white",
+            "break": [
+              {
+                "vital": 220,
+                "break_level": 1
+              }
+            ]
+          },
+          {
+            "part": "右翼",
+            "part_color": "#4363d8",
+            "stagger": 220,
+            "extract": "white",
+            "break": [
+              {
+                "vital": 220,
+                "break_level": 1
+              }
+            ]
+          },
+          {
+            "part": "左腳",
+            "part_color": "#f58231",
+            "stagger": 250,
+            "extract": "orange"
+          },
+          {
+            "part": "右腳",
+            "part_color": "#911eb4",
+            "stagger": 250,
+            "extract": "orange"
+          },
+          {
+            "part": "尾巴",
+            "part_color": "#42d4f4",
+            "stagger": 240,
+            "extract": "red",
+            "loss": {
+              "vital": 360,
+              "damage_type": "cut"
+            }
+          }
+        ],
+        "parts_image": "images/monsters/parts/rathian.png"
       }
     },
     "apex_rathian": {
@@ -2477,6 +2634,97 @@
             }
           }
         }
+      },
+      "partsdata": {
+        "parts": [
+          {
+            "part": "頭部",
+            "part_color": "#e6194B",
+            "stagger": 270,
+            "extract": "red",
+            "break": [
+              {
+                "vital": 270,
+                "break_level": 1
+              },
+              {
+                "vital": 810,
+                "break_level": 2
+              }
+            ]
+          },
+          {
+            "part": "左前腳",
+            "part_color": "#3cb44b",
+            "stagger": 200,
+            "extract": "orange",
+            "break": [
+              {
+                "vital": 400,
+                "break_level": 1
+              }
+            ]
+          },
+          {
+            "part": "右前腳",
+            "part_color": "#ffe119",
+            "stagger": 200,
+            "extract": "orange",
+            "break": [
+              {
+                "vital": 400,
+                "break_level": 1
+              }
+            ]
+          },
+          {
+            "part": "左後腳",
+            "part_color": "#4363d8",
+            "stagger": 220,
+            "extract": "white"
+          },
+          {
+            "part": "右後腳",
+            "part_color": "#f58231",
+            "stagger": 220,
+            "extract": "white"
+          },
+          {
+            "part": "身體",
+            "part_color": "#911eb4",
+            "stagger": 280,
+            "extract": "orange"
+          },
+          {
+            "part": "尾巴",
+            "part_color": "#42d4f4",
+            "stagger": 300,
+            "extract": "white",
+            "break": [
+              {
+                "vital": 300,
+                "break_level": 1
+              }
+            ],
+            "loss": {
+              "vital": 500,
+              "damage_type": "cut"
+            }
+          },
+          {
+            "part": "背鰭",
+            "part_color": "#f032e6",
+            "stagger": 220,
+            "extract": "red",
+            "break": [
+              {
+                "vital": 220,
+                "break_level": 1
+              }
+            ]
+          }
+        ],
+        "parts_image": "images/monsters/parts/mizutsune.png"
       }
     },
     "apex_mizutsune": {
@@ -3208,6 +3456,81 @@
             }
           }
         }
+      },
+      "partsdata": {
+        "parts": [
+          {
+            "part": "頭部",
+            "part_color": "#e6194B",
+            "stagger": 200,
+            "extract": "red",
+            "break": [
+              {
+                "vital": 800,
+                "break_level": 1
+              }
+            ]
+          },
+          {
+            "part": "身體",
+            "part_color": "#3cb44b",
+            "stagger": 600,
+            "extract": "orange"
+          },
+          {
+            "part": "右臂",
+            "part_color": "#ffe119",
+            "stagger": 250,
+            "extract": "white",
+            "break": [
+              {
+                "vital": 500,
+                "break_level": 1
+              }
+            ]
+          },
+          {
+            "part": "左臂",
+            "part_color": "#4363d8",
+            "stagger": 250,
+            "extract": "white",
+            "break": [
+              {
+                "vital": 500,
+                "break_level": 1
+              }
+            ]
+          },
+          {
+            "part": "背部",
+            "part_color": "#f58231",
+            "stagger": 300,
+            "extract": "red",
+            "break": [
+              {
+                "vital": 300,
+                "break_level": 1
+              }
+            ]
+          },
+          {
+            "part": "尾巴",
+            "part_color": "#911eb4",
+            "stagger": 200,
+            "extract": "white",
+            "loss": {
+              "vital": 300,
+              "damage_type": "cut"
+            }
+          },
+          {
+            "part": "後腳",
+            "part_color": "#42d4f4",
+            "stagger": 220,
+            "extract": "orange"
+          }
+        ],
+        "parts_image": "images/monsters/parts/magnamalo.png"
       }
     },
     "tetranadon": {
@@ -3741,6 +4064,93 @@
             "flashpod": "2"
           }
         ]
+      },
+      "partsdata": {
+        "parts": [
+          {
+            "part": "頭",
+            "part_color": "#e6194B",
+            "stagger": 300,
+            "extract": "red",
+            "break": [
+              {
+                "vital": 300,
+                "break_level": 1
+              },
+              {
+                "vital": 300,
+                "break_level": 2
+              }
+            ]
+          },
+          {
+            "part": "右臂",
+            "part_color": "#3cb44b",
+            "stagger": 350,
+            "extract": "white",
+            "break": [
+              {
+                "vital": 350,
+                "break_level": 1
+              }
+            ]
+          },
+          {
+            "part": "左臂",
+            "part_color": "#ffe119",
+            "stagger": 350,
+            "extract": "white",
+            "break": [
+              {
+                "vital": 350,
+                "break_level": 1
+              }
+            ]
+          },
+          {
+            "part": "右腳",
+            "part_color": "#4363d8",
+            "stagger": 500,
+            "extract": "orange"
+          },
+          {
+            "part": "左腳",
+            "part_color": "#f58231",
+            "stagger": 500,
+            "extract": "orange"
+          },
+          {
+            "part": "甲殼",
+            "part_color": "#911eb4",
+            "stagger": 600,
+            "extract": "orange",
+            "break": [
+              {
+                "vital": 600,
+                "break_level": 1
+              }
+            ]
+          },
+          {
+            "part": "身體",
+            "part_color": "#42d4f4",
+            "stagger": 500,
+            "extract": "orange",
+            "break": [
+              {
+                "vital": 400,
+                "break_level": 1
+              }
+            ]
+          },
+          {
+            "part": "尾巴",
+            "part_color": "#f032e6",
+            "stagger": 500,
+            "extract": "orange"
+          }
+        ],
+        "parts_image": "images/monsters/parts/tetranadon.png"
       }
     },
     "aknosom": {
@@ -4270,6 +4680,81 @@
             "flashpod": "2"
           }
         ]
+      },
+      "partsdata": {
+        "parts": [
+          {
+            "part": "頭・傘",
+            "part_color": "#e6194B",
+            "stagger": 250,
+            "extract": "red",
+            "break": [
+              {
+                "vital": 250,
+                "break_level": 1
+              },
+              {
+                "vital": 250,
+                "break_level": 2
+              }
+            ]
+          },
+          {
+            "part": "頸",
+            "part_color": "#3cb44b",
+            "stagger": 200,
+            "extract": "red"
+          },
+          {
+            "part": "左翼",
+            "part_color": "#ffe119",
+            "stagger": 250,
+            "extract": "white",
+            "break": [
+              {
+                "vital": 500,
+                "break_level": 1
+              }
+            ]
+          },
+          {
+            "part": "右翼",
+            "part_color": "#4363d8",
+            "stagger": 250,
+            "extract": "white",
+            "break": [
+              {
+                "vital": 500,
+                "break_level": 1
+              }
+            ]
+          },
+          {
+            "part": "身體",
+            "part_color": "#f58231",
+            "stagger": 150,
+            "extract": "orange"
+          },
+          {
+            "part": "尾巴",
+            "part_color": "#911eb4",
+            "stagger": 200,
+            "extract": "orange",
+            "break": [
+              {
+                "vital": 400,
+                "break_level": 1
+              }
+            ]
+          },
+          {
+            "part": "腳",
+            "part_color": "#42d4f4",
+            "stagger": 300,
+            "extract": "orange"
+          }
+        ],
+        "parts_image": "images/monsters/parts/aknosom.png"
       }
     },
     "somnacanth": {
@@ -4803,6 +5288,77 @@
             "flashpod": "2"
           }
         ]
+      },
+      "partsdata": {
+        "parts": [
+          {
+            "part": "身體",
+            "part_color": "#e6194B",
+            "stagger": 350,
+            "extract": "red"
+          },
+          {
+            "part": "頭部",
+            "part_color": "#3cb44b",
+            "stagger": 200,
+            "extract": "red",
+            "break": [
+              {
+                "vital": 600,
+                "break_level": 1
+              }
+            ]
+          },
+          {
+            "part": "左手",
+            "part_color": "#4363d8",
+            "stagger": 250,
+            "extract": "white",
+            "break": [
+              {
+                "vital": 250,
+                "break_level": 1
+              }
+            ]
+          },
+          {
+            "part": "右手",
+            "part_color": "#f58231",
+            "stagger": 250,
+            "extract": "white",
+            "break": [
+              {
+                "vital": 250,
+                "break_level": 1
+              }
+            ]
+          },
+          {
+            "part": "左腳",
+            "part_color": "#911eb4",
+            "stagger": 250,
+            "extract": "white"
+          },
+          {
+            "part": "右腳",
+            "part_color": "#42d4f4",
+            "stagger": 250,
+            "extract": "white"
+          },
+          {
+            "part": "尾巴",
+            "part_color": "#f032e6",
+            "stagger": 300,
+            "extract": "orange",
+            "break": [
+              {
+                "vital": 300,
+                "break_level": 1
+              }
+            ]
+          }
+        ],
+        "parts_image": "images/monsters/parts/somnacanth.png"
       }
     },
     "khezu": {
@@ -5385,6 +5941,77 @@
             }
           }
         }
+      },
+      "partsdata": {
+        "parts": [
+          {
+            "part": "頭",
+            "part_color": "#e6194B",
+            "stagger": 200,
+            "extract": "red",
+            "break": [
+              {
+                "vital": 400,
+                "break_level": 1
+              }
+            ]
+          },
+          {
+            "part": "頸",
+            "part_color": "#3cb44b",
+            "stagger": 90,
+            "extract": "red"
+          },
+          {
+            "part": "身體",
+            "part_color": "#ffe119",
+            "stagger": 240,
+            "extract": "orange"
+          },
+          {
+            "part": "左腳",
+            "part_color": "#4363d8",
+            "stagger": 130,
+            "extract": "white",
+            "break": [
+              {
+                "vital": 260,
+                "break_level": 1
+              }
+            ]
+          },
+          {
+            "part": "右腳",
+            "part_color": "#f58231",
+            "stagger": 130,
+            "extract": "white",
+            "break": [
+              {
+                "vital": 260,
+                "break_level": 1
+              }
+            ]
+          },
+          {
+            "part": "左翼",
+            "part_color": "#911eb4",
+            "stagger": 120,
+            "extract": "white"
+          },
+          {
+            "part": "右翼",
+            "part_color": "#42d4f4",
+            "stagger": 120,
+            "extract": "white"
+          },
+          {
+            "part": "尾巴",
+            "part_color": "#f032e6",
+            "stagger": 90,
+            "extract": "orange"
+          }
+        ],
+        "parts_image": "images/monsters/parts/khezu.png"
       }
     },
     "royal_ludroth": {
@@ -5929,6 +6556,63 @@
             }
           }
         }
+      },
+      "partsdata": {
+        "parts": [
+          {
+            "part": "頭部",
+            "part_color": "#e6194B",
+            "stagger": 130,
+            "extract": "red",
+            "break": [
+              {
+                "vital": 390,
+                "break_level": 1
+              }
+            ]
+          },
+          {
+            "part": "海綿體",
+            "part_color": "#3cb44b",
+            "stagger": 200,
+            "extract": "orange",
+            "break": [
+              {
+                "vital": 400,
+                "break_level": 1
+              }
+            ]
+          },
+          {
+            "part": "身體",
+            "part_color": "#ffe119",
+            "stagger": 150,
+            "extract": "orange"
+          },
+          {
+            "part": "左側前後腳",
+            "part_color": "#4363d8",
+            "stagger": 140,
+            "extract": "red"
+          },
+          {
+            "part": "右側前後腳",
+            "part_color": "#f58231",
+            "stagger": 140,
+            "extract": "red"
+          },
+          {
+            "part": "尾巴",
+            "part_color": "#911eb4",
+            "stagger": 150,
+            "extract": "white",
+            "loss": {
+              "vital": 450,
+              "damage_type": "cut"
+            }
+          }
+        ],
+        "parts_image": "images/monsters/parts/royal_ludroth.png"
       }
     },
     "rathalos": {
@@ -6519,6 +7203,81 @@
             }
           }
         }
+      },
+      "partsdata": {
+        "parts": [
+          {
+            "part": "身體",
+            "part_color": "#e6194B",
+            "stagger": 360,
+            "extract": "orange",
+            "break": [
+              {
+                "vital": 360,
+                "break_level": 1
+              }
+            ]
+          },
+          {
+            "part": "左翼",
+            "part_color": "#3cb44b",
+            "stagger": 260,
+            "extract": "white",
+            "break": [
+              {
+                "vital": 260,
+                "break_level": 1
+              }
+            ]
+          },
+          {
+            "part": "右翼",
+            "part_color": "#ffe119",
+            "stagger": 260,
+            "extract": "white",
+            "break": [
+              {
+                "vital": 260,
+                "break_level": 1
+              }
+            ]
+          },
+          {
+            "part": "左腳",
+            "part_color": "#4363d8",
+            "stagger": 230,
+            "extract": "orange"
+          },
+          {
+            "part": "右腳",
+            "part_color": "#f58231",
+            "stagger": 230,
+            "extract": "orange"
+          },
+          {
+            "part": "頸",
+            "part_color": "#911eb4",
+            "stagger": 110,
+            "extract": "red"
+          },
+          {
+            "part": "頭部",
+            "part_color": "#42d4f4",
+            "stagger": 290,
+            "extract": "red"
+          },
+          {
+            "part": "尾巴",
+            "part_color": "#f032e6",
+            "stagger": 290,
+            "extract": "orange",
+            "loss": {
+              "vital": 440,
+              "damage_type": "cut"
+            }
+          }
+        ],
+        "parts_image": "images/monsters/parts/rathalos.png"
       }
     },
     "pukei-pukei": {
@@ -7055,6 +7814,81 @@
             }
           }
         }
+      },
+      "partsdata": {
+        "parts": [
+          {
+            "part": "頭部,舌,頸",
+            "part_color": "#e6194B",
+            "stagger": 250,
+            "extract": "red",
+            "break": [
+              {
+                "vital": 500,
+                "break_level": 1
+              }
+            ]
+          },
+          {
+            "part": "身體",
+            "part_color": "#3cb44b",
+            "stagger": 360,
+            "extract": "orange",
+            "break": [
+              {
+                "vital": 360,
+                "break_level": 1
+              }
+            ]
+          },
+          {
+            "part": "左翼",
+            "part_color": "#ffe119",
+            "stagger": 250,
+            "extract": "white",
+            "break": [
+              {
+                "vital": 250,
+                "break_level": 1
+              }
+            ]
+          },
+          {
+            "part": "右翼",
+            "part_color": "#4363d8",
+            "stagger": 250,
+            "extract": "white",
+            "break": [
+              {
+                "vital": 250,
+                "break_level": 1
+              }
+            ]
+          },
+          {
+            "part": "左腳",
+            "part_color": "#f58231",
+            "stagger": 300,
+            "extract": "orange"
+          },
+          {
+            "part": "右腳",
+            "part_color": "#911eb4",
+            "stagger": 300,
+            "extract": "orange"
+          },
+          {
+            "part": "尾巴",
+            "part_color": "#42d4f4",
+            "stagger": 260,
+            "extract": "orange",
+            "loss": {
+              "vital": 370,
+              "damage_type": "cut"
+            }
+          }
+        ],
+        "parts_image": "images/monsters/parts/pukei-pukei.png"
       }
     },
     "kulu-ya-ku": {
@@ -7497,6 +8331,79 @@
             }
           }
         }
+      },
+      "partsdata": {
+        "parts": [
+          {
+            "part": "頭部",
+            "part_color": "#e6194B",
+            "stagger": 250,
+            "extract": "red",
+            "break": [
+              {
+                "vital": 500,
+                "break_level": 1
+              }
+            ]
+          },
+          {
+            "part": "前腳",
+            "part_color": "#3cb44b",
+            "stagger": 170,
+            "extract": "red",
+            "break": [
+              {
+                "vital": 170,
+                "break_level": 1
+              }
+            ]
+          },
+          {
+            "part": "身體",
+            "part_color": "#ffe119",
+            "stagger": 360,
+            "extract": "white"
+          },
+          {
+            "part": "尾巴",
+            "part_color": "#4363d8",
+            "stagger": 170,
+            "extract": "red"
+          },
+          {
+            "part": "岩石",
+            "part_color": "#f58231",
+            "stagger": 0,
+            "extract": "orange",
+            "break": [
+              {
+                "vital": 12,
+                "break_level": 1
+              },
+              {
+                "vital": 3,
+                "break_level": 2
+              }
+            ]
+          },
+          {
+            "part": "壺",
+            "part_color": "#911eb4",
+            "stagger": 0,
+            "extract": "orange",
+            "break": [
+              {
+                "vital": 30,
+                "break_level": 1
+              },
+              {
+                "vital": 15,
+                "break_level": 2
+              }
+            ]
+          }
+        ],
+        "parts_image": "images/monsters/parts/kulu-ya-ku.png"
       }
     },
     "tobi-kadachi": {
@@ -8021,6 +8928,71 @@
             }
           }
         }
+      },
+      "partsdata": {
+        "parts": [
+          {
+            "part": "頭",
+            "part_color": "#e6194B",
+            "stagger": 280,
+            "extract": "red",
+            "break": [
+              {
+                "vital": 560,
+                "break_level": 1
+              }
+            ]
+          },
+          {
+            "part": "身體",
+            "part_color": "#3cb44b",
+            "stagger": 490,
+            "extract": "orange"
+          },
+          {
+            "part": "背部",
+            "part_color": "#ffe119",
+            "stagger": 200,
+            "extract": "red",
+            "break": [
+              {
+                "vital": 400,
+                "break_level": 1
+              }
+            ]
+          },
+          {
+            "part": "前腳",
+            "part_color": "#4363d8",
+            "stagger": 280,
+            "extract": "white",
+            "break": [
+              {
+                "vital": 560,
+                "break_level": 1
+              }
+            ]
+          },
+          {
+            "part": "後腳",
+            "part_color": "#f58231",
+            "stagger": 280,
+            "extract": "white"
+          },
+          {
+            "part": "尾巴",
+            "part_color": "#911eb4",
+            "stagger": 300,
+            "extract": "red",
+            "break": [
+              {
+                "vital": 900,
+                "break_level": 1
+              }
+            ]
+          }
+        ],
+        "parts_image": "images/monsters/parts/tobi-kadachi.png"
       }
     },
     "anjanath": {
@@ -8623,6 +9595,75 @@
             }
           }
         }
+      },
+      "partsdata": {
+        "parts": [
+          {
+            "part": "頭部",
+            "part_color": "#e6194B",
+            "stagger": 240,
+            "extract": "red",
+            "break": [
+              {
+                "vital": 480,
+                "break_level": 1
+              }
+            ]
+          },
+          {
+            "part": "身體",
+            "part_color": "#3cb44b",
+            "stagger": 300,
+            "extract": "orange"
+          },
+          {
+            "part": "左腳",
+            "part_color": "#ffe119",
+            "stagger": 100,
+            "extract": "white",
+            "break": [
+              {
+                "vital": 100,
+                "break_level": 1
+              }
+            ]
+          },
+          {
+            "part": "右腳",
+            "part_color": "#4363d8",
+            "stagger": 100,
+            "extract": "white",
+            "break": [
+              {
+                "vital": 100,
+                "break_level": 1
+              }
+            ]
+          },
+          {
+            "part": "尾巴",
+            "part_color": "#f58231",
+            "stagger": 200,
+            "extract": "orange",
+            "loss": {
+              "vital": 350,
+              "damage_type": "cut"
+            }
+          },
+          {
+            "part": "左翼",
+            "part_color": "#911eb4",
+            "stagger": 220,
+            "extract": "orange"
+          },
+          {
+            "part": "右翼",
+            "part_color": "#42d4f4",
+            "stagger": 220,
+            "extract": "orange"
+          }
+        ],
+        "parts_image": "images/monsters/parts/anjanath.png"
       }
     },
     "jyuratodus": {
@@ -9179,6 +10220,131 @@
             }
           }
         }
+      },
+      "partsdata": {
+        "parts": [
+          {
+            "part": "頭部",
+            "part_color": "#e6194B",
+            "stagger": 150,
+            "extract": "red",
+            "break": [
+              {
+                "vital": 450,
+                "break_level": 1
+              }
+            ]
+          },
+          {
+            "part": "身體",
+            "part_color": "#3cb44b",
+            "stagger": 390,
+            "extract": "white",
+            "break": [
+              {
+                "vital": 390,
+                "break_level": 1
+              }
+            ]
+          },
+          {
+            "part": "左腳",
+            "part_color": "#ffe119",
+            "stagger": 300,
+            "extract": "white",
+            "break": [
+              {
+                "vital": 600,
+                "break_level": 1
+              }
+            ]
+          },
+          {
+            "part": "右腳",
+            "part_color": "#4363d8",
+            "stagger": 300,
+            "extract": "white",
+            "break": [
+              {
+                "vital": 600,
+                "break_level": 1
+              }
+            ]
+          },
+          {
+            "part": "尾巴",
+            "part_color": "#f58231",
+            "stagger": 130,
+            "extract": "orange",
+            "break": [
+              {
+                "vital": 390,
+                "break_level": 1
+              }
+            ]
+          },
+          {
+            "part": "泥・頭部",
+            "part_color": "#911eb4",
+            "stagger": -1,
+            "extract": "red",
+            "break": [
+              {
+                "vital": 200,
+                "break_level": 1
+              }
+            ]
+          },
+          {
+            "part": "泥・身體",
+            "part_color": "#42d4f4",
+            "stagger": -1,
+            "extract": "white",
+            "break": [
+              {
+                "vital": 300,
+                "break_level": 1
+              }
+            ]
+          },
+          {
+            "part": "泥・左腳",
+            "part_color": "#f032e6",
+            "stagger": -1,
+            "extract": "white",
+            "break": [
+              {
+                "vital": 200,
+                "break_level": 1
+              }
+            ]
+          },
+          {
+            "part": "泥・右腳",
+            "part_color": "#bfef45",
+            "stagger": -1,
+            "extract": "white",
+            "break": [
+              {
+                "vital": 200,
+                "break_level": 1
+              }
+            ]
+          },
+          {
+            "part": "泥・尾巴",
+            "part_color": "#fabed4",
+            "stagger": -1,
+            "extract": "orange",
+            "break": [
+              {
+                "vital": 100,
+                "break_level": 1
+              }
+            ]
+          }
+        ],
+        "parts_image": "images/monsters/parts/jyuratodus.png"
       }
     },
     "great_wroggi": {
@@ -9513,6 +10679,35 @@
             }
           }
         }
+      },
+      "partsdata": {
+        "parts": [
+          {
+            "part": "頭部",
+            "part_color": "#e6194B",
+            "stagger": 300,
+            "extract": "red",
+            "break": [
+              {
+                "vital": 600,
+                "break_level": 1
+              }
+            ]
+          },
+          {
+            "part": "身體",
+            "part_color": "#3cb44b",
+            "stagger": 160,
+            "extract": "white"
+          },
+          {
+            "part": "尾巴",
+            "part_color": "#ffe119",
+            "stagger": 160,
+            "extract": "orange"
+          }
+        ],
+        "parts_image": "images/monsters/parts/great_wroggi.png"
       }
     },
     "bishaten": {
@@ -10026,6 +11221,77 @@
             "flashpod": "2"
           }
         ]
+      },
+      "partsdata": {
+        "parts": [
+          {
+            "part": "頭部",
+            "part_color": "#e6194B",
+            "stagger": 300,
+            "extract": "red",
+            "break": [
+              {
+                "vital": 300,
+                "break_level": 1
+              }
+            ]
+          },
+          {
+            "part": "身體",
+            "part_color": "#3cb44b",
+            "stagger": 250,
+            "extract": "orange"
+          },
+          {
+            "part": "右前腳",
+            "part_color": "#ffe119",
+            "stagger": 280,
+            "extract": "orange",
+            "break": [
+              {
+                "vital": 300,
+                "break_level": 1
+              }
+            ]
+          },
+          {
+            "part": "左前腳",
+            "part_color": "#4363d8",
+            "stagger": 280,
+            "extract": "orange",
+            "break": [
+              {
+                "vital": 300,
+                "break_level": 1
+              }
+            ]
+          },
+          {
+            "part": "右後腳",
+            "part_color": "#f58231",
+            "stagger": 350,
+            "extract": "white"
+          },
+          {
+            "part": "左後腳",
+            "part_color": "#911eb4",
+            "stagger": 350,
+            "extract": "white"
+          },
+          {
+            "part": "尾巴",
+            "part_color": "#42d4f4",
+            "stagger": 240,
+            "extract": "white",
+            "break": [
+              {
+                "vital": 600,
+                "break_level": 1
+              }
+            ]
+          }
+        ],
+        "parts_image": "images/monsters/parts/bishaten.png"
       }
     },
     "goss_harag": {
@@ -10749,6 +12015,109 @@
             "flashpod": "2"
           }
         ]
+      },
+      "partsdata": {
+        "parts": [
+          {
+            "part": "頭部",
+            "part_color": "#e6194B",
+            "stagger": 350,
+            "extract": "white",
+            "break": [
+              {
+                "vital": 350,
+                "break_level": 1
+              }
+            ]
+          },
+          {
+            "part": "背部",
+            "part_color": "#3cb44b",
+            "stagger": 150,
+            "extract": "orange",
+            "break": [
+              {
+                "vital": 300,
+                "break_level": 1
+              }
+            ]
+          },
+          {
+            "part": "左臂",
+            "part_color": "#ffe119",
+            "stagger": 300,
+            "extract": "red",
+            "break": [
+              {
+                "vital": 300,
+                "break_level": 1
+              }
+            ]
+          },
+          {
+            "part": "左冰腕",
+            "part_color": "#4363d8",
+            "stagger": 0,
+            "extract": "red",
+            "break": [
+              {
+                "vital": 144,
+                "break_level": 1
+              },
+              {
+                "vital": 30,
+                "break_level": 2
+              }
+            ]
+          },
+          {
+            "part": "右臂",
+            "part_color": "#f58231",
+            "stagger": 300,
+            "extract": "red",
+            "break": [
+              {
+                "vital": 300,
+                "break_level": 1
+              }
+            ]
+          },
+          {
+            "part": "右冰腕",
+            "part_color": "#911eb4",
+            "stagger": 0,
+            "extract": "red",
+            "break": [
+              {
+                "vital": 144,
+                "break_level": 1
+              },
+              {
+                "vital": 30,
+                "break_level": 2
+              }
+            ]
+          },
+          {
+            "part": "左後腳",
+            "part_color": "#42d4f4",
+            "stagger": 250,
+            "extract": "orange"
+          },
+          {
+            "part": "右後腳",
+            "part_color": "#f032e6",
+            "stagger": 250,
+            "extract": "orange"
+          },
+          {
+            "part": "身體",
+            "part_color": "#bfef45",
+            "stagger": 300,
+            "extract": "orange"
+          }
+        ],
+        "parts_image": "images/monsters/parts/goss_harag.png"
       }
     },
     "great_baggi": {
@@ -11083,6 +12452,35 @@
             }
           }
         }
+      },
+      "partsdata": {
+        "parts": [
+          {
+            "part": "頭部",
+            "part_color": "#e6194B",
+            "stagger": 300,
+            "extract": "red",
+            "break": [
+              {
+                "vital": 300,
+                "break_level": 1
+              }
+            ]
+          },
+          {
+            "part": "身體",
+            "part_color": "#3cb44b",
+            "stagger": 160,
+            "extract": "orange"
+          },
+          {
+            "part": "尾巴",
+            "part_color": "#ffe119",
+            "stagger": 160,
+            "extract": "white"
+          }
+        ],
+        "parts_image": "images/monsters/parts/great_baggi.png"
       }
     },
     "lagombi": {
@@ -11523,6 +12921,47 @@
             }
           }
         }
+      },
+      "partsdata": {
+        "parts": [
+          {
+            "part": "頭部",
+            "part_color": "#e6194B",
+            "stagger": 170,
+            "extract": "red",
+            "break": [
+              {
+                "vital": 340,
+                "break_level": 1
+              }
+            ]
+          },
+          {
+            "part": "上半身",
+            "part_color": "#3cb44b",
+            "stagger": 150,
+            "extract": "red"
+          },
+          {
+            "part": "前腳",
+            "part_color": "#ffe119",
+            "stagger": 120,
+            "extract": "red"
+          },
+          {
+            "part": "臀",
+            "part_color": "#4363d8",
+            "stagger": 200,
+            "extract": "orange"
+          },
+          {
+            "part": "腹部･後腳",
+            "part_color": "#f58231",
+            "stagger": 150,
+            "extract": "white"
+          }
+        ],
+        "parts_image": "images/monsters/parts/lagombi.png"
       }
     },
     "barioth": {
@@ -11535,7 +12974,7 @@
       "image": "https://www.monsterhunter.com/rise/assets/images/monster/modal/barioth.png",
       "icon": "images/monsters/icons/barioth.png",
       "icon_large": "images/monsters/icons/large/barioth.png",
-      "description": "君臨極寒世界的白色飛龍。其特徵為巨大的牙與銳利的棘，人稱「冰牙龍」。會靈活運用前腳與尾巴上的釘狀鱗片，在滑溜的冰面上來回地穿梭自如。只要牠還擁有這一項能力，想必將難以跟上牠的腳步。\n只要破壞其左右翅膀上的釘狀鱗片，就能讓牠難以在冰上站穩。如此便能使其無法自在地行動，動作也會變得遲緩。如果想阻止冰牙龍迅速的動作，不妨先攻擊牠的釘狀鱗片。",
+      "description": "君臨極寒世界的白色飛龍。其特徵為巨大的牙與銳利的棘，人稱「冰牙龍」。會靈活運用前腳與尾巴上的釘狀鱗片，在滑溜的冰面上來回地穿梭自如。只要牠還擁有這一項能力，想必將難以跟上牠的腳步。\n只要破壞其左右翼上的釘狀鱗片，就能讓牠難以在冰上站穩。如此便能使其無法自在地行動，動作也會變得遲緩。如果想阻止冰牙龍迅速的動作，不妨先攻擊牠的釘狀鱗片。",
       "detail": "飛龍種-龍盤目-龍腳亞目（不明）-前翼腳龍上科-ベリオ科\n　　危險度：★5\n　　適應了永久凍土的嚴峻棲息環境，君臨該地域的霸主級別的【四足步行型飛龍】。由於其佇立於冰原之上的身姿據說與某個傳說中登場的騎士十分相似，因此也有著【迅捷騎士】、【零下的白騎士】等別名。其在寒冷地帶棲息的怪物中也具有特別的活動性。不僅僅在廣袤的冰原之上，在洞窟之內有時也能夠看到它們的身影。由於其能夠在戰鬥之中一邊卷起風雪，一邊利用冰壁與其與生俱來的陸戰優勢來進攻敵人，而對於不具備飛行能力的外敵也能通過低空飛行來發起攻擊，總之表示其智力具有相當高度的報告有很多。因為作為主要特徵的劍齒和能夠融入雪原的白銀軀體，所以公會也將其稱為【冰牙龍】，結合其戰鬥能力與其活動性，如果置身於寒冷地區，首先應該考慮的便是來自冰牙龍的威脅。\n　　冰牙龍的甲殼雖然有著驚人的強度，但同時卻擁有著意外的輕分量，而其腹部等部位則被厚實的毛皮覆蓋著，為其腹部提供額外的抗衝擊力與保暖能力。冰牙龍主要依靠其堅韌的腳力奔走於冰原之上，同時使用其銳利的大爪來狩獵獵物。但是在捕獵大型獵物的情況之下，則會使用其大而銳利的劍齒攻擊獵物的要害，使獵物最終失血過多而死。作為冰牙龍的主要特徵，其露出口外並延伸的帶有鋸齒的【琥珀色劍齒】，其牙齒能夠直接刺穿保護獵物和外敵的毛皮與甲殼，是能夠一擊便給予敵人致命傷的極具威脅的武器。在狩獵時就會使用其劍齒直接把獵物的身體撕裂，並且為了在嚴寒之地之中獲取更多的能量，冰牙龍有著優先進食獵物內臟的習性。因為在寒冷地區，像波波那樣擁有著厚長體毛又大量積蓄了脂肪的生物很多，因此在冰牙龍的進化的過程中，用於捕獵的牙齒與大爪都相應的變長了不少 。並且，冰牙龍的牙齒在繁殖期時也是雄性用於吸引雌性的工具，形狀和長度越是優美的個體就越能受到雌性的青睞。\n　　冰牙龍的體內存在著積存了超低溫液體的器官【冰結袋】，這種液體通過冰牙龍的深呼吸來以極大的氣勢從氣道之中噴吐出來，在出口的瞬間將大氣中的水分凝結形成超低溫的冰塊吐息，同時其吐息會因為冰結袋的收縮和其強大的心肺功能，能夠在噴出時形成強烈的螺旋狀氣流，再被擊打至地面的話就會與碎冰與冷氣一併飛揚並形成龍卷狀。對於想要逃跑的獵物冰牙龍就會使用這種吐息來封鎖其行動。\n　　與其他四足步行型的飛龍一樣，除了能夠步行的前腳之外，冰牙龍的全身各處都存在著堅硬的【棘刺】，而根據近年來的研究，這種棘刺被判明是鱗的一種。冰牙龍能夠使用其銳利的大爪和棘刺深深刺入冰壁，來固定自己的身軀便於積蓄力量以產生驚人的【瞬間爆發力】，並且也能夠藉助其在光滑的冰原之上輕快且迅速地進行活動。另外，也由於其硬度，也可以被冰牙龍作為捕捉獵物的武器。但是，反過來說，冰牙龍的機動力與其棘刺和指爪密切相關，特別是在翼側生長的棘刺，是為了牢牢的抓住不穩定的雪原和碎冰從而起到防滑的作用。另外，冰牙龍在四足步行的飛龍之中擁有著頂級的【飛行能力】，不同於同型骨架飛龍的【滑空】。並且，冰牙龍也能夠利用其飛行能力，從高處的懸崖和冰壁上朝著從下方的獵物和外敵進行奇襲。\n　　因為凍土地區有著很長的日照時間，所以在長時間的日照之下冰雪會反射出強烈的光，因此冰牙龍保持了稍微閉上雙目、看似是細眯著眼睛的狀態，這種方式能夠調節其瞳孔捕捉的光線，而在夜晚和洞窟等光線較少的環境之中，就會睜大眼睛以確保視線，但是在那個時候，由於其瞳孔的光反射，原本就呈橘紅 色的眼睛發光會更加強烈。冰牙龍平時雌雄會分開行動，各自在各自的地盤中生活著。但一到了繁殖期，雄性就會進入雌性的領地進行求偶並交尾，據說懷孕的雌性會選擇棲息於洞窟等安全場所，並產下2-3個幼體，同時為了確保生育，冰牙龍能使身體表面肌肉收縮等產生熱量以保持體溫，其幼體體表則覆蓋著大量的毛髮以起到抵禦寒冷的作用。\n　　和棲息在截然不同地區的飛龍【迅龍】屬於近緣物種，能夠在它們在骨骼上看到很多共同點。但是，因為冰牙龍在寒冷地區的生活中進行了特別的進化，所以兩者間的特徵和能力差異很大的部分也很多。\n　　同時存在著棲息於沙漠地帶的冰牙龍亞種。根據後述的特徵也被稱為【風牙龍】。\n　　風牙龍有著超過通常種的飛行能力和瞬發能力，沙漠地區的怪物在凶暴性與機動力上【沒有能出其右者】。風牙龍全身的外殼呈赤銅色。有一個極端性地說法稱，其赤銅色的體色是由被其屠殺的獵物的血液浸染了其全身的甲殼和毛皮後形成的。不過根據觀察報告，風牙龍確實有著在外殼上塗抹獵物血液的習性。利用塗抹的血液使沙塵等逐漸粘黏在甲殼中，從而形成了其色彩和強度。而風牙龍極具特徵性的便是【群青色的銳牙】，其銳利程度連堅固的甲殼都能過輕易穿透，與通常種的最大不同，是風牙龍擁有著被稱為【胸膜】的部位，其胸膜有助於風牙龍輔助進行呼吸運動，加強其心肺能力，因此風牙龍可以產生通常種無法與之比較的強烈氣流。其噴吐出的空氣彈能夠在著彈處卷起沙暴以形成小規模的【砂龍卷】，以其限制外敵和獵物的行動，堵住其退路。此外，風牙龍還會直接躍入龍捲風利用翼部捕捉氣流加速後，徑直俯衝向獵物。\n　　而在風牙龍落地時，其腹部的毛皮由於起到了緩衝器的作用，這種有著驚人氣勢與破壞力的招式對風牙龍幾乎沒有傷害。\n　　雖然目擊報告很少，但在沙原附近龍捲風和沙嵐的發生率急劇上升的情況，有可能是由於風牙龍出現的原因，由於其極高的戰鬥能力和危險度，公會對其狩獵做出了嚴格的限制。",
       "breakables": "牙、爪、尾",
       "threat_level": "5",
@@ -12179,6 +13618,75 @@
             }
           }
         }
+      },
+      "partsdata": {
+        "parts": [
+          {
+            "part": "頭",
+            "part_color": "#e6194B",
+            "stagger": 160,
+            "extract": "red",
+            "break": [
+              {
+                "vital": 320,
+                "break_level": 1
+              }
+            ]
+          },
+          {
+            "part": "身體,頸",
+            "part_color": "#3cb44b",
+            "stagger": 480,
+            "extract": "orange"
+          },
+          {
+            "part": "左棘,左翼",
+            "part_color": "#ffe119",
+            "stagger": 170,
+            "extract": "white",
+            "break": [
+              {
+                "vital": 340,
+                "break_level": 1
+              }
+            ]
+          },
+          {
+            "part": "右棘,右翼",
+            "part_color": "#4363d8",
+            "stagger": 170,
+            "extract": "white",
+            "break": [
+              {
+                "vital": 340,
+                "break_level": 1
+              }
+            ]
+          },
+          {
+            "part": "左後腳",
+            "part_color": "#f58231",
+            "stagger": 270,
+            "extract": "orange"
+          },
+          {
+            "part": "右後腳",
+            "part_color": "#911eb4",
+            "stagger": 270,
+            "extract": "orange"
+          },
+          {
+            "part": "尾巴",
+            "part_color": "#42d4f4",
+            "stagger": 130,
+            "extract": "red",
+            "loss": {
+              "vital": 260,
+              "damage_type": "cut"
+            }
+          }
+        ],
+        "parts_image": "images/monsters/parts/barioth.png"
       }
     },
     "tigrex": {
@@ -12725,6 +14233,75 @@
             }
           }
         }
+      },
+      "partsdata": {
+        "parts": [
+          {
+            "part": "頭",
+            "part_color": "#e6194B",
+            "stagger": 280,
+            "extract": "red",
+            "break": [
+              {
+                "vital": 280,
+                "break_level": 1
+              }
+            ]
+          },
+          {
+            "part": "身體",
+            "part_color": "#3cb44b",
+            "stagger": 480,
+            "extract": "orange"
+          },
+          {
+            "part": "左臂",
+            "part_color": "#ffe119",
+            "stagger": 240,
+            "extract": "white",
+            "break": [
+              {
+                "vital": 480,
+                "break_level": 1
+              }
+            ]
+          },
+          {
+            "part": "右臂",
+            "part_color": "#4363d8",
+            "stagger": 240,
+            "extract": "white",
+            "break": [
+              {
+                "vital": 480,
+                "break_level": 1
+              }
+            ]
+          },
+          {
+            "part": "左腳",
+            "part_color": "#f58231",
+            "stagger": 240,
+            "extract": "orange"
+          },
+          {
+            "part": "右腳",
+            "part_color": "#911eb4",
+            "stagger": 240,
+            "extract": "orange"
+          },
+          {
+            "part": "尾巴",
+            "part_color": "#42d4f4",
+            "stagger": 280,
+            "extract": "white",
+            "loss": {
+              "vital": 560,
+              "damage_type": "cut"
+            }
+          }
+        ],
+        "parts_image": "images/monsters/parts/tigrex.png"
       }
     },
     "barroth": {
@@ -13381,6 +14958,144 @@
             "flashpod": "2"
           }
         ]
+      },
+      "partsdata": {
+        "parts": [
+          {
+            "part": "頭部",
+            "part_color": "#e6194B",
+            "stagger": 300,
+            "extract": "red",
+            "loss": {
+              "vital": 500,
+              "damage_type": "blunt"
+            }
+          },
+          {
+            "part": "身體",
+            "part_color": "#3cb44b",
+            "stagger": 300,
+            "extract": "orange"
+          },
+          {
+            "part": "前腳",
+            "part_color": "#ffe119",
+            "stagger": 190,
+            "extract": "orange",
+            "break": [
+              {
+                "vital": 380,
+                "break_level": 1
+              }
+            ]
+          },
+          {
+            "part": "左腳",
+            "part_color": "#4363d8",
+            "stagger": 190,
+            "extract": "white",
+            "break": [
+              {
+                "vital": 380,
+                "break_level": 1
+              }
+            ]
+          },
+          {
+            "part": "右腳",
+            "part_color": "#f58231",
+            "stagger": 190,
+            "extract": "white",
+            "break": [
+              {
+                "vital": 380,
+                "break_level": 1
+              }
+            ]
+          },
+          {
+            "part": "尾巴",
+            "part_color": "#911eb4",
+            "stagger": 260,
+            "extract": "red",
+            "loss": {
+              "vital": 520,
+              "damage_type": "cut"
+            }
+          },
+          {
+            "part": "泥・頭部",
+            "part_color": "#42d4f4",
+            "stagger": -1,
+            "extract": "red",
+            "break": [
+              {
+                "vital": 75,
+                "break_level": 1
+              }
+            ]
+          },
+          {
+            "part": "泥・身體",
+            "part_color": "#f032e6",
+            "stagger": -1,
+            "extract": "orange",
+            "break": [
+              {
+                "vital": 75,
+                "break_level": 1
+              }
+            ]
+          },
+          {
+            "part": "泥・前腳",
+            "part_color": "#bfef45",
+            "stagger": -1,
+            "extract": "orange",
+            "break": [
+              {
+                "vital": 75,
+                "break_level": 1
+              }
+            ]
+          },
+          {
+            "part": "泥・左腳",
+            "part_color": "#fabed4",
+            "stagger": -1,
+            "extract": "white",
+            "break": [
+              {
+                "vital": 75,
+                "break_level": 1
+              }
+            ]
+          },
+          {
+            "part": "泥・右腳",
+            "part_color": "#469990",
+            "stagger": -1,
+            "extract": "white",
+            "break": [
+              {
+                "vital": 75,
+                "break_level": 1
+              }
+            ]
+          },
+          {
+            "part": "泥・尾巴",
+            "stagger": -1,
+            "extract": "red",
+            "break": [
+              {
+                "vital": 75,
+                "break_level": 1
+              }
+            ]
+          }
+        ],
+        "parts_image": "images/monsters/parts/barroth.png"
       }
     },
     "basarios": {
@@ -14271,6 +15986,81 @@
             }
           }
         }
+      },
+      "partsdata": {
+        "parts": [
+          {
+            "part": "背部,身體",
+            "part_color": "#e6194B",
+            "stagger": 230,
+            "extract": "orange",
+            "break": [
+              {
+                "vital": 230,
+                "break_level": 1
+              }
+            ]
+          },
+          {
+            "part": "左翼",
+            "part_color": "#3cb44b",
+            "stagger": 130,
+            "extract": "white"
+          },
+          {
+            "part": "右翼",
+            "part_color": "#ffe119",
+            "stagger": 130,
+            "extract": "white"
+          },
+          {
+            "part": "左腳",
+            "part_color": "#4363d8",
+            "stagger": 120,
+            "extract": "white"
+          },
+          {
+            "part": "右腳",
+            "part_color": "#f58231",
+            "stagger": 120,
+            "extract": "white"
+          },
+          {
+            "part": "頭部",
+            "part_color": "#911eb4",
+            "stagger": 250,
+            "extract": "red",
+            "break": [
+              {
+                "vital": 250,
+                "break_level": 1
+              }
+            ]
+          },
+          {
+            "part": "腹部",
+            "part_color": "#42d4f4",
+            "stagger": 350,
+            "extract": "orange",
+            "break": [
+              {
+                "vital": 350,
+                "break_level": 1
+              }
+            ]
+          },
+          {
+            "part": "尾巴",
+            "part_color": "#f032e6",
+            "stagger": 220,
+            "extract": "red",
+            "loss": {
+              "vital": 220,
+              "damage_type": "cut"
+            }
+          }
+        ],
+        "parts_image": "images/monsters/parts/basarios.png"
       }
     },
     "volvidon": {
@@ -14406,9 +16196,9 @@
             "dizzy": 0
           },
           {
-            "part": "滾動中",
+            "part": "全身",
             "hitzone_color": "#911eb4",
-            "condition": "通常",
+            "condition": "滾動中",
             "cut": 75,
             "blunt": 75,
             "ammo": 10,
@@ -14771,6 +16561,53 @@
             }
           }
         }
+      },
+      "partsdata": {
+        "parts": [
+          {
+            "part": "上背部",
+            "part_color": "#e6194B",
+            "stagger": 300,
+            "extract": "red",
+            "break": [
+              {
+                "vital": 300,
+                "break_level": 1
+              }
+            ]
+          },
+          {
+            "part": "上半身,頭",
+            "part_color": "#3cb44b",
+            "stagger": 180,
+            "extract": "red"
+          },
+          {
+            "part": "前腳",
+            "part_color": "#ffe119",
+            "stagger": 130,
+            "extract": "white"
+          },
+          {
+            "part": "臀,下背部",
+            "part_color": "#4363d8",
+            "stagger": 110,
+            "extract": "orange"
+          },
+          {
+            "part": "後腳,腹",
+            "part_color": "#f58231",
+            "stagger": 130,
+            "extract": "white"
+          },
+          {
+            "part": "滾動中全身",
+            "part_color": "#911eb4",
+            "stagger": 10,
+            "extract": "red"
+          }
+        ],
+        "parts_image": "images/monsters/parts/volvidon.png"
       }
     },
     "diablos": {
@@ -15364,6 +17201,73 @@
             }
           }
         }
+      },
+      "partsdata": {
+        "parts": [
+          {
+            "part": "頭部",
+            "part_color": "#e6194B",
+            "stagger": 230,
+            "extract": "red",
+            "break": [
+              {
+                "vital": 350,
+                "break_level": 1
+              },
+              {
+                "vital": 350,
+                "break_level": 2
+              }
+            ]
+          },
+          {
+            "part": "身體",
+            "part_color": "#3cb44b",
+            "stagger": 350,
+            "extract": "white",
+            "break": [
+              {
+                "vital": 350,
+                "break_level": 1
+              }
+            ]
+          },
+          {
+            "part": "左翼",
+            "part_color": "#ffe119",
+            "stagger": 170,
+            "extract": "white"
+          },
+          {
+            "part": "右翼",
+            "part_color": "#4363d8",
+            "stagger": 170,
+            "extract": "white"
+          },
+          {
+            "part": "左腳",
+            "part_color": "#f58231",
+            "stagger": 220,
+            "extract": "white"
+          },
+          {
+            "part": "右腳",
+            "part_color": "#911eb4",
+            "stagger": 220,
+            "extract": "white"
+          },
+          {
+            "part": "尾巴",
+            "part_color": "#42d4f4",
+            "stagger": 170,
+            "extract": "orange",
+            "loss": {
+              "vital": 500,
+              "damage_type": "cut"
+            }
+          }
+        ],
+        "parts_image": "images/monsters/parts/diablos.png"
       }
     },
     "rajang": {
@@ -15779,6 +17683,81 @@
             }
           }
         }
+      },
+      "partsdata": {
+        "parts": [
+          {
+            "part": "頭部",
+            "part_color": "#e6194B",
+            "stagger": 540,
+            "extract": "red",
+            "break": [
+              {
+                "vital": 540,
+                "break_level": 1
+              },
+              {
+                "vital": 810,
+                "break_level": 2
+              }
+            ]
+          },
+          {
+            "part": "身體",
+            "part_color": "#3cb44b",
+            "stagger": 470,
+            "extract": "orange"
+          },
+          {
+            "part": "左前腳",
+            "part_color": "#ffe119",
+            "stagger": 340,
+            "extract": "red",
+            "break": [
+              {
+                "vital": 340,
+                "break_level": 1
+              }
+            ]
+          },
+          {
+            "part": "右前腳",
+            "part_color": "#4363d8",
+            "stagger": 340,
+            "extract": "red",
+            "break": [
+              {
+                "vital": 340,
+                "break_level": 1
+              }
+            ]
+          },
+          {
+            "part": "左後腳",
+            "part_color": "#f58231",
+            "stagger": 320,
+            "extract": "white"
+          },
+          {
+            "part": "右後腳",
+            "part_color": "#911eb4",
+            "stagger": 320,
+            "extract": "white"
+          },
+          {
+            "part": "尾巴",
+            "part_color": "#42d4f4",
+            "stagger": 340,
+            "extract": "orange",
+            "break": [
+              {
+                "vital": 1000,
+                "break_level": 1
+              }
+            ]
+          }
+        ],
+        "parts_image": "images/monsters/parts/rajang.png"
       }
     },
     "rakna-kadaki": {
@@ -15885,7 +17864,7 @@
             "dizzy": 0
           },
           {
-            "part": "腳（絲）",
+            "part": "腳(絲)",
             "hitzone_color": "#f58231",
             "condition": "通常",
             "cut": 43,
@@ -15913,7 +17892,7 @@
             "dizzy": 0
           },
           {
-            "part": "腹部（繭化）",
+            "part": "腹部(繭化)",
             "hitzone_color": "#42d4f4",
             "condition": "通常",
             "cut": 50,
@@ -15941,7 +17920,7 @@
             "dizzy": 0
           },
           {
-            "part": "爪（破壊後）",
+            "part": "爪(破壊後)",
             "hitzone_color": "#bfef45",
             "condition": "通常",
             "cut": 30,
@@ -16158,6 +18137,161 @@
             }
           }
         }
+      },
+      "partsdata": {
+        "parts": [
+          {
+            "part": "頭部",
+            "part_color": "#e6194B",
+            "stagger": 180,
+            "extract": "red",
+            "break": [
+              {
+                "vital": 540,
+                "break_level": 1
+              }
+            ]
+          },
+          {
+            "part": "爪",
+            "part_color": "#3cb44b",
+            "stagger": 120,
+            "extract": "red",
+            "break": [
+              {
+                "vital": 120,
+                "break_level": 1
+              }
+            ]
+          },
+          {
+            "part": "左前腳(絲)",
+            "part_color": "#ffe119",
+            "stagger": 0,
+            "extract": "white",
+            "break": [
+              {
+                "vital": 170,
+                "break_level": 1
+              },
+              {
+                "vital": 200,
+                "break_level": 2
+              },
+              {
+                "vital": 350,
+                "break_level": 3
+              }
+            ]
+          },
+          {
+            "part": "右前腳(絲)",
+            "part_color": "#4363d8",
+            "stagger": 0,
+            "extract": "white",
+            "break": [
+              {
+                "vital": 170,
+                "break_level": 1
+              },
+              {
+                "vital": 200,
+                "break_level": 2
+              },
+              {
+                "vital": 350,
+                "break_level": 3
+              }
+            ]
+          },
+          {
+            "part": "左後腳(絲)",
+            "part_color": "#f58231",
+            "stagger": 0,
+            "extract": "white",
+            "break": [
+              {
+                "vital": 170,
+                "break_level": 1
+              },
+              {
+                "vital": 200,
+                "break_level": 2
+              },
+              {
+                "vital": 350,
+                "break_level": 3
+              }
+            ]
+          },
+          {
+            "part": "右後腳(絲)",
+            "part_color": "#911eb4",
+            "stagger": 0,
+            "extract": "white",
+            "break": [
+              {
+                "vital": 170,
+                "break_level": 1
+              },
+              {
+                "vital": 200,
+                "break_level": 2
+              },
+              {
+                "vital": 350,
+                "break_level": 3
+              }
+            ]
+          },
+          {
+            "part": "腹部",
+            "part_color": "#42d4f4",
+            "stagger": 200,
+            "extract": "orange",
+            "break": [
+              {
+                "vital": 200,
+                "break_level": 1
+              }
+            ]
+          },
+          {
+            "part": "左前腳",
+            "part_color": "#f032e6",
+            "stagger": 200,
+            "extract": "white"
+          },
+          {
+            "part": "右前腳",
+            "part_color": "#bfef45",
+            "stagger": 200,
+            "extract": "white"
+          },
+          {
+            "part": "左後腳",
+            "part_color": "#fabed4",
+            "stagger": 200,
+            "extract": "white"
+          },
+          {
+            "part": "右後腳",
+            "part_color": "#469990",
+            "stagger": 200,
+            "extract": "white"
+          },
+          {
+            "part": "腹部(繭化)",
+            "stagger": 250,
+            "extract": "orange"
+          },
+          {
+            "part": "胸部",
+            "stagger": 300,
+            "extract": "white"
+          }
+        ],
+        "parts_image": "images/monsters/parts/rakna-kadaki.png"
       }
     },
     "almudron": {
@@ -16797,6 +18931,105 @@
             }
           }
         }
+      },
+      "partsdata": {
+        "parts": [
+          {
+            "part": "頭",
+            "part_color": "#e6194B",
+            "stagger": 300,
+            "extract": "red",
+            "break": [
+              {
+                "vital": 300,
+                "break_level": 1
+              }
+            ]
+          },
+          {
+            "part": "身體",
+            "part_color": "#3cb44b",
+            "stagger": 450,
+            "extract": "orange",
+            "break": [
+              {
+                "vital": 450,
+                "break_level": 1
+              }
+            ]
+          },
+          {
+            "part": "左前腳",
+            "part_color": "#ffe119",
+            "stagger": 200,
+            "extract": "white",
+            "break": [
+              {
+                "vital": 200,
+                "break_level": 1
+              }
+            ]
+          },
+          {
+            "part": "右前腳",
+            "part_color": "#4363d8",
+            "stagger": 200,
+            "extract": "white",
+            "break": [
+              {
+                "vital": 200,
+                "break_level": 1
+              }
+            ]
+          },
+          {
+            "part": "左後腳",
+            "part_color": "#f58231",
+            "stagger": 300,
+            "extract": "white"
+          },
+          {
+            "part": "右後腳",
+            "part_color": "#911eb4",
+            "stagger": 300,
+            "extract": "white"
+          },
+          {
+            "part": "尾巴",
+            "part_color": "#42d4f4",
+            "stagger": 350,
+            "extract": "red",
+            "break": [
+              {
+                "vital": 350,
+                "break_level": 1
+              }
+            ],
+            "loss": {
+              "vital": 700,
+              "damage_type": "cut"
+            }
+          },
+          {
+            "part": "泥袋",
+            "part_color": "#f032e6",
+            "stagger": 250,
+            "extract": "red",
+            "break": [
+              {
+                "vital": 250,
+                "break_level": 1
+              }
+            ]
+          },
+          {
+            "part": "大泥球",
+            "part_color": "#bfef45",
+            "stagger": 220,
+            "extract": "red"
+          }
+        ],
+        "parts_image": "images/monsters/parts/almudron.png"
       }
     },
     "nargacuga": {
@@ -17483,6 +19716,81 @@
             "flashpod": "2"
           }
         ]
+      },
+      "partsdata": {
+        "parts": [
+          {
+            "part": "頭",
+            "part_color": "#e6194B",
+            "stagger": 300,
+            "extract": "red",
+            "break": [
+              {
+                "vital": 600,
+                "break_level": 1
+              }
+            ]
+          },
+          {
+            "part": "身體",
+            "part_color": "#3cb44b",
+            "stagger": 330,
+            "extract": "orange"
+          },
+          {
+            "part": "左刃翼",
+            "part_color": "#ffe119",
+            "stagger": 170,
+            "extract": "white",
+            "break": [
+              {
+                "vital": 170,
+                "break_level": 1
+              }
+            ]
+          },
+          {
+            "part": "尾巴",
+            "part_color": "#4363d8",
+            "stagger": 220,
+            "extract": "orange",
+            "loss": {
+              "vital": 660,
+              "damage_type": "cut"
+            }
+          },
+          {
+            "part": "左右前腳",
+            "part_color": "#f58231",
+            "stagger": 220,
+            "extract": "white"
+          },
+          {
+            "part": "左後腳",
+            "part_color": "#911eb4",
+            "stagger": 250,
+            "extract": "white"
+          },
+          {
+            "part": "右刃翼",
+            "part_color": "#42d4f4",
+            "stagger": 170,
+            "extract": "white",
+            "break": [
+              {
+                "vital": 170,
+                "break_level": 1
+              }
+            ]
+          },
+          {
+            "part": "右後腳",
+            "part_color": "#f032e6",
+            "stagger": 250,
+            "extract": "white"
+          }
+        ],
+        "parts_image": "images/monsters/parts/nargacuga.png"
       }
     },
     "zinogre": {
@@ -18327,6 +20635,91 @@
             }
           }
         }
+      },
+      "partsdata": {
+        "parts": [
+          {
+            "part": "頭部",
+            "part_color": "#e6194B",
+            "stagger": 300,
+            "extract": "red",
+            "break": [
+              {
+                "vital": 300,
+                "break_level": 1
+              },
+              {
+                "vital": 600,
+                "break_level": 2
+              }
+            ]
+          },
+          {
+            "part": "身體",
+            "part_color": "#3cb44b",
+            "stagger": 300,
+            "extract": "orange"
+          },
+          {
+            "part": "背部",
+            "part_color": "#ffe119",
+            "stagger": 120,
+            "extract": "red",
+            "break": [
+              {
+                "vital": 360,
+                "break_level": 1
+              }
+            ]
+          },
+          {
+            "part": "左前腳",
+            "part_color": "#4363d8",
+            "stagger": 180,
+            "extract": "red",
+            "break": [
+              {
+                "vital": 360,
+                "break_level": 1
+              }
+            ]
+          },
+          {
+            "part": "右前腳",
+            "part_color": "#f58231",
+            "stagger": 180,
+            "extract": "red",
+            "break": [
+              {
+                "vital": 360,
+                "break_level": 1
+              }
+            ]
+          },
+          {
+            "part": "左後腳",
+            "part_color": "#911eb4",
+            "stagger": 250,
+            "extract": "white"
+          },
+          {
+            "part": "右後腳",
+            "part_color": "#42d4f4",
+            "stagger": 250,
+            "extract": "white"
+          },
+          {
+            "part": "尾巴",
+            "part_color": "#f032e6",
+            "stagger": 130,
+            "extract": "orange",
+            "loss": {
+              "vital": 300,
+              "damage_type": "cut"
+            }
+          }
+        ],
+        "parts_image": "images/monsters/parts/zinogre.png"
       }
     },
     "wind_serpent_ibushi": {
@@ -18419,7 +20812,7 @@
             "dizzy": 0
           },
           {
-            "part": "背部（風袋）",
+            "part": "背部(風袋)",
             "hitzone_color": "#ffe119",
             "condition": "通常",
             "cut": 60,
@@ -18461,7 +20854,7 @@
             "dizzy": 0
           },
           {
-            "part": "翼腕（風袋）",
+            "part": "翼腕(風袋)",
             "hitzone_color": "#911eb4",
             "condition": "通常",
             "cut": 65,
@@ -18503,7 +20896,7 @@
             "dizzy": 0
           },
           {
-            "part": "尾尖（風袋）",
+            "part": "尾尖(風袋)",
             "hitzone_color": "#bfef45",
             "condition": "通常",
             "cut": 50,
@@ -18517,7 +20910,7 @@
             "dizzy": 0
           },
           {
-            "part": "胸（風袋）",
+            "part": "胸(風袋)",
             "hitzone_color": "#fabed4",
             "condition": "通常",
             "cut": 80,
@@ -18567,7 +20960,7 @@
             "dragon": "10"
           },
           {
-            "part": "胸（風袋）",
+            "part": "胸(風袋)",
             "cut": "80",
             "blunt": "80",
             "ammo": "75",
@@ -18601,7 +20994,7 @@
             "dragon": "25"
           },
           {
-            "part": "背部（風袋）",
+            "part": "背部(風袋)",
             "cut": "60",
             "blunt": "55",
             "ammo": "45",
@@ -18634,7 +21027,7 @@
             "dragon": "10"
           },
           {
-            "part": "尾尖（風袋）",
+            "part": "尾尖(風袋)",
             "cut": "50",
             "blunt": "45",
             "ammo": "40",
@@ -18777,6 +21170,111 @@
             }
           }
         }
+      },
+      "partsdata": {
+        "parts": [
+          {
+            "part": "頭",
+            "part_color": "#e6194B",
+            "stagger": 340,
+            "extract": "red",
+            "break": [
+              {
+                "vital": 680,
+                "break_level": 1
+              }
+            ]
+          },
+          {
+            "part": "右手",
+            "part_color": "#3cb44b",
+            "stagger": 280,
+            "extract": "white",
+            "break": [
+              {
+                "vital": 560,
+                "break_level": 1
+              }
+            ]
+          },
+          {
+            "part": "左手",
+            "part_color": "#ffe119",
+            "stagger": 280,
+            "extract": "white",
+            "break": [
+              {
+                "vital": 560,
+                "break_level": 1
+              }
+            ]
+          },
+          {
+            "part": "身體,腳鰭",
+            "part_color": "#4363d8",
+            "stagger": 340,
+            "extract": "white",
+            "break": [
+              {
+                "vital": 680,
+                "break_level": 1
+              }
+            ]
+          },
+          {
+            "part": "背部",
+            "part_color": "#f58231",
+            "stagger": 320,
+            "extract": "orange",
+            "break": [
+              {
+                "vital": 640,
+                "break_level": 1
+              }
+            ]
+          },
+          {
+            "part": "尾巴",
+            "part_color": "#911eb4",
+            "stagger": 280,
+            "extract": "orange",
+            "loss": {
+              "vital": 480,
+              "damage_type": "cut"
+            }
+          },
+          {
+            "part": "尾尖(風袋)",
+            "part_color": "#42d4f4",
+            "stagger": 0,
+            "extract": "orange",
+            "break": [
+              {
+                "vital": 0,
+                "break_level": 1
+              }
+            ]
+          },
+          {
+            "part": "胸",
+            "part_color": "#f032e6",
+            "stagger": 0,
+            "extract": "white"
+          },
+          {
+            "part": "背",
+            "part_color": "#bfef45",
+            "stagger": 0,
+            "extract": "orange",
+            "break": [
+              {
+                "vital": 0,
+                "break_level": 1
+              }
+            ]
+          }
+        ],
+        "parts_image": "images/monsters/parts/wind_serpent_ibushi.png"
       }
     },
     "thunder_serpent_narwa": {
@@ -19038,7 +21536,7 @@
             "dizzy": 0
           },
           {
-            "part": "腹（發電器官）",
+            "part": "腹(發電器官)",
             "hitzone_color": "#469990",
             "condition": "通常",
             "cut": 25,
@@ -19052,7 +21550,7 @@
             "dizzy": 0
           },
           {
-            "part": "腹（發電器官）",
+            "part": "腹(發電器官)",
             "hitzone_color": "#469990",
             "condition": "帶電",
             "cut": 90,
@@ -19160,7 +21658,7 @@
             "dragon": "20"
           },
           {
-            "part": "腹（發電器官）",
+            "part": "腹(發電器官)",
             "cut": "25",
             "blunt": "25",
             "ammo": "5",
@@ -19171,7 +21669,7 @@
             "dragon": "0"
           },
           {
-            "part": "腹（發電器官）",
+            "part": "腹(發電器官)",
             "condition": "帶電",
             "cut": "90",
             "blunt": "90",
@@ -19377,6 +21875,99 @@
             }
           }
         }
+      },
+      "partsdata": {
+        "parts": [
+          {
+            "part": "頭",
+            "part_color": "#e6194B",
+            "stagger": 0,
+            "extract": "red",
+            "break": [
+              {
+                "vital": 800,
+                "break_level": 1
+              }
+            ]
+          },
+          {
+            "part": "腳鰭",
+            "part_color": "#3cb44b",
+            "stagger": 0,
+            "extract": "white"
+          },
+          {
+            "part": "右手",
+            "part_color": "#ffe119",
+            "stagger": 0,
+            "extract": "orange",
+            "break": [
+              {
+                "vital": 500,
+                "break_level": 1
+              }
+            ]
+          },
+          {
+            "part": "左手",
+            "part_color": "#4363d8",
+            "stagger": 0,
+            "extract": "orange",
+            "break": [
+              {
+                "vital": 500,
+                "break_level": 1
+              }
+            ]
+          },
+          {
+            "part": "尾巴",
+            "part_color": "#f58231",
+            "stagger": 0,
+            "extract": "white",
+            "loss": {
+              "vital": 480,
+              "damage_type": "cut"
+            }
+          },
+          {
+            "part": "身體",
+            "part_color": "#911eb4",
+            "stagger": 0,
+            "extract": "white"
+          },
+          {
+            "part": "背",
+            "part_color": "#42d4f4",
+            "stagger": 0,
+            "extract": "red",
+            "break": [
+              {
+                "vital": 500,
+                "break_level": 1
+              }
+            ]
+          },
+          {
+            "part": "腹",
+            "part_color": "#f032e6",
+            "stagger": 0,
+            "extract": "white",
+            "break": [
+              {
+                "vital": 2450,
+                "break_level": 1
+              }
+            ]
+          },
+          {
+            "part": "胸",
+            "part_color": "#bfef45",
+            "stagger": 0,
+            "extract": "white"
+          }
+        ],
+        "parts_image": "images/monsters/parts/thunder_serpent_narwa.png"
       }
     },
     "chameleos": {

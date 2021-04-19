@@ -1,0 +1,263 @@
+{
+	"items": {
+		"rathian": {
+			"id": 1,
+			"url": "http://mhrise.mhrice.info/monster/001_00.html",
+			"name": "Rathian",
+			"parts_image": "http://mhrise.mhrice.info/resources/em001_00_parts_group.png",
+			"key": "rathian"
+		},
+		"apex_rathian": {
+			"id": 1,
+			"url": "http://mhrise.mhrice.info/monster/001_07.html",
+			"name": "Apex Rathian",
+			"parts_image": "http://mhrise.mhrice.info/resources/em001_07_parts_group.png",
+			"key": "apex_rathian"
+		},
+		"rathalos": {
+			"id": 2,
+			"url": "http://mhrise.mhrice.info/monster/002_00.html",
+			"name": "Rathalos",
+			"parts_image": "http://mhrise.mhrice.info/resources/em002_00_parts_group.png",
+			"key": "rathalos"
+		},
+		"khezu": {
+			"id": 3,
+			"url": "http://mhrise.mhrice.info/monster/003_00.html",
+			"name": "Khezu",
+			"parts_image": "http://mhrise.mhrice.info/resources/em003_00_parts_group.png",
+			"key": "khezu"
+		},
+		"basarios": {
+			"id": 4,
+			"url": "http://mhrise.mhrice.info/monster/004_00.html",
+			"name": "Basarios",
+			"parts_image": "http://mhrise.mhrice.info/resources/em004_00_parts_group.png",
+			"key": "basarios"
+		},
+		"diablos": {
+			"id": 7,
+			"url": "http://mhrise.mhrice.info/monster/007_00.html",
+			"name": "Diablos",
+			"parts_image": "http://mhrise.mhrice.info/resources/em007_00_parts_group.png",
+			"key": "diablos"
+		},
+		"rajang": {
+			"id": 23,
+			"url": "http://mhrise.mhrice.info/monster/023_00.html",
+			"name": "Rajang",
+			"parts_image": "http://mhrise.mhrice.info/resources/em023_00_parts_group.png",
+			"key": "rajang"
+		},
+		"tigrex": {
+			"id": 32,
+			"url": "http://mhrise.mhrice.info/monster/032_00.html",
+			"name": "Tigrex",
+			"parts_image": "http://mhrise.mhrice.info/resources/em032_00_parts_group.png",
+			"key": "tigrex"
+		},
+		"nargacuga": {
+			"id": 37,
+			"url": "http://mhrise.mhrice.info/monster/037_00.html",
+			"name": "Nargacuga",
+			"parts_image": "http://mhrise.mhrice.info/resources/em037_00_parts_group.png",
+			"key": "nargacuga"
+		},
+		"barioth": {
+			"id": 42,
+			"url": "http://mhrise.mhrice.info/monster/042_00.html",
+			"name": "Barioth",
+			"parts_image": "http://mhrise.mhrice.info/resources/em042_00_parts_group.png",
+			"key": "barioth"
+		},
+		"barroth": {
+			"id": 44,
+			"url": "http://mhrise.mhrice.info/monster/044_00.html",
+			"name": "Barroth",
+			"parts_image": "http://mhrise.mhrice.info/resources/em044_00_parts_group.png",
+			"key": "barroth"
+		},
+		"royal_ludroth": {
+			"id": 47,
+			"url": "http://mhrise.mhrice.info/monster/047_00.html",
+			"name": "Royal Ludroth",
+			"parts_image": "http://mhrise.mhrice.info/resources/em047_00_parts_group.png",
+			"key": "royal_ludroth"
+		},
+		"great_baggi": {
+			"id": 54,
+			"url": "http://mhrise.mhrice.info/monster/054_00.html",
+			"name": "Great Baggi",
+			"parts_image": "http://mhrise.mhrice.info/resources/em054_00_parts_group.png",
+			"key": "great_baggi"
+		},
+		"zinogre": {
+			"id": 57,
+			"url": "http://mhrise.mhrice.info/monster/057_00.html",
+			"name": "Zinogre",
+			"parts_image": "http://mhrise.mhrice.info/resources/em057_00_parts_group.png",
+			"key": "zinogre"
+		},
+		"great_wroggi": {
+			"id": 59,
+			"url": "http://mhrise.mhrice.info/monster/059_00.html",
+			"name": "Great Wroggi",
+			"parts_image": "http://mhrise.mhrice.info/resources/em059_00_parts_group.png",
+			"key": "great_wroggi"
+		},
+		"arzuros": {
+			"id": 60,
+			"url": "http://mhrise.mhrice.info/monster/060_00.html",
+			"name": "Arzuros",
+			"parts_image": "http://mhrise.mhrice.info/resources/em060_00_parts_group.png",
+			"key": "arzuros"
+		},
+		"apex_arzuros": {
+			"id": 60,
+			"url": "http://mhrise.mhrice.info/monster/060_07.html",
+			"name": "Apex Arzuros",
+			"parts_image": "http://mhrise.mhrice.info/resources/em060_07_parts_group.png",
+			"key": "apex_arzuros"
+		},
+		"lagombi": {
+			"id": 61,
+			"url": "http://mhrise.mhrice.info/monster/061_00.html",
+			"name": "Lagombi",
+			"parts_image": "http://mhrise.mhrice.info/resources/em061_00_parts_group.png",
+			"key": "lagombi"
+		},
+		"volvidon": {
+			"id": 62,
+			"url": "http://mhrise.mhrice.info/monster/062_00.html",
+			"name": "Volvidon",
+			"parts_image": "http://mhrise.mhrice.info/resources/em062_00_parts_group.png",
+			"key": "volvidon"
+		},
+		"mizutsune": {
+			"id": 82,
+			"url": "http://mhrise.mhrice.info/monster/082_00.html",
+			"name": "Mizutsune",
+			"parts_image": "http://mhrise.mhrice.info/resources/em082_00_parts_group.png",
+			"key": "mizutsune"
+		},
+		"apex_mizutsune": {
+			"id": 82,
+			"url": "http://mhrise.mhrice.info/monster/082_07.html",
+			"name": "Apex Mizutsune",
+			"parts_image": "http://mhrise.mhrice.info/resources/em082_07_parts_group.png",
+			"key": "apex_mizutsune"
+		},
+		"magnamalo": {
+			"id": 89,
+			"url": "http://mhrise.mhrice.info/monster/089_00.html",
+			"name": "Magnamalo",
+			"parts_image": "http://mhrise.mhrice.info/resources/em089_00_parts_group.png",
+			"key": "magnamalo"
+		},
+		"bishaten": {
+			"id": 90,
+			"url": "http://mhrise.mhrice.info/monster/090_00.html",
+			"name": "Bishaten",
+			"parts_image": "http://mhrise.mhrice.info/resources/em090_00_parts_group.png",
+			"key": "bishaten"
+		},
+		"aknosom": {
+			"id": 91,
+			"url": "http://mhrise.mhrice.info/monster/091_00.html",
+			"name": "Aknosom",
+			"parts_image": "http://mhrise.mhrice.info/resources/em091_00_parts_group.png",
+			"key": "aknosom"
+		},
+		"tetranadon": {
+			"id": 92,
+			"url": "http://mhrise.mhrice.info/monster/092_00.html",
+			"name": "Tetranadon",
+			"parts_image": "http://mhrise.mhrice.info/resources/em092_00_parts_group.png",
+			"key": "tetranadon"
+		},
+		"somnacanth": {
+			"id": 93,
+			"url": "http://mhrise.mhrice.info/monster/093_00.html",
+			"name": "Somnacanth",
+			"parts_image": "http://mhrise.mhrice.info/resources/em093_00_parts_group.png",
+			"key": "somnacanth"
+		},
+		"rakna-kadaki": {
+			"id": 94,
+			"url": "http://mhrise.mhrice.info/monster/094_00.html",
+			"name": "Rakna-Kadaki",
+			"parts_image": "http://mhrise.mhrice.info/resources/em094_00_parts_group.png",
+			"key": "rakna-kadaki"
+		},
+		"almudron": {
+			"id": 95,
+			"url": "http://mhrise.mhrice.info/monster/095_00.html",
+			"name": "Almudron",
+			"parts_image": "http://mhrise.mhrice.info/resources/em095_00_parts_group.png",
+			"key": "almudron"
+		},
+		"wind_serpent_ibushi": {
+			"id": 96,
+			"url": "http://mhrise.mhrice.info/monster/096_00.html",
+			"name": "Wind Serpent Ibushi",
+			"parts_image": "http://mhrise.mhrice.info/resources/em096_00_parts_group.png",
+			"key": "wind_serpent_ibushi"
+		},
+		"goss_harag": {
+			"id": 97,
+			"url": "http://mhrise.mhrice.info/monster/097_00.html",
+			"name": "Goss Harag",
+			"parts_image": "http://mhrise.mhrice.info/resources/em097_00_parts_group.png",
+			"key": "goss_harag"
+		},
+		"great_izuchi": {
+			"id": 98,
+			"url": "http://mhrise.mhrice.info/monster/098_00.html",
+			"name": "Great Izuchi",
+			"parts_image": "http://mhrise.mhrice.info/resources/em098_00_parts_group.png",
+			"key": "great_izuchi"
+		},
+		"thunder_serpent_narwa": {
+			"id": 99,
+			"url": "http://mhrise.mhrice.info/monster/099_00.html",
+			"name": "Thunder Serpent Narwa",
+			"parts_image": "http://mhrise.mhrice.info/resources/em099_00_parts_group.png",
+			"key": "thunder_serpent_narwa"
+		},
+		"anjanath": {
+			"id": 100,
+			"url": "http://mhrise.mhrice.info/monster/100_00.html",
+			"name": "Anjanath",
+			"parts_image": "http://mhrise.mhrice.info/resources/em100_00_parts_group.png",
+			"key": "anjanath"
+		},
+		"pukei-pukei": {
+			"id": 102,
+			"url": "http://mhrise.mhrice.info/monster/102_00.html",
+			"name": "Pukei-Pukei",
+			"parts_image": "http://mhrise.mhrice.info/resources/em102_00_parts_group.png",
+			"key": "pukei-pukei"
+		},
+		"kulu-ya-ku": {
+			"id": 107,
+			"url": "http://mhrise.mhrice.info/monster/107_00.html",
+			"name": "Kulu-Ya-Ku",
+			"parts_image": "http://mhrise.mhrice.info/resources/em107_00_parts_group.png",
+			"key": "kulu-ya-ku"
+		},
+		"jyuratodus": {
+			"id": 108,
+			"url": "http://mhrise.mhrice.info/monster/108_00.html",
+			"name": "Jyuratodus",
+			"parts_image": "http://mhrise.mhrice.info/resources/em108_00_parts_group.png",
+			"key": "jyuratodus"
+		},
+		"tobi-kadachi": {
+			"id": 109,
+			"url": "http://mhrise.mhrice.info/monster/109_00.html",
+			"name": "Tobi-Kadachi",
+			"parts_image": "http://mhrise.mhrice.info/resources/em109_00_parts_group.png",
+			"key": "tobi-kadachi"
+		}
+	}
+}
