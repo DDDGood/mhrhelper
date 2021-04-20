@@ -4676,29 +4676,302 @@
         "rajang": {
             "outline": "(招式素材仍在蒐集中)",
             "reference": {
-                "(twitter)モンスターハンターライズ公式": "https://twitter.com/mh_rise_jp"
+                "(twitter)モンスターハンターライズ公式": "https://twitter.com/mh_rise_jp",
+                "Monster Hunter Rise - Rajang Boss Fight #32": "https://www.youtube.com/watch?v=Vga1SuItjAo",
+                "【怪物猎人崛起】保姆式攻略第三期 金狮子招式解析 萌新看了就懂的金狮子机制": "https://www.bilibili.com/video/BV1aV411H7wP"
             },
             "moves": [
                 {
-                    "name": "陀螺轉",
+                    "name": "見面吼",
                     "preaction": "",
                     "action": "",
                     "recovery": "",
                     "note": "",
+                    "video": "videos/金獅子/金獅子_見面吼.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "小抓",
+                    "preaction": "",
+                    "action": "",
+                    "recovery": "小",
+                    "note": "",
+                    "video": "videos/金獅子/金獅子_小抓.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "反身下砸",
+                    "preaction": "",
+                    "action": "",
+                    "recovery": "小",
+                    "note": "",
+                    "video": "videos/金獅子/金獅子_反身下砸.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "反身上撈",
+                    "preaction": "",
+                    "action": "",
+                    "recovery": "小",
+                    "note": "",
+                    "video": "videos/金獅子/金獅子_反身上撈.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "下壓",
+                    "preaction": "",
+                    "action": "",
+                    "recovery": "小",
+                    "note": "身體周圍有地震判定",
+                    "video": "videos/金獅子/金獅子_下壓.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "陀螺轉",
+                    "preaction": "",
+                    "action": "",
+                    "recovery": "小",
+                    "note": "",
                     "video": "videos/金獅子/金獅子_陀螺轉.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "掀地板",
+                    "preaction": "",
+                    "action": "",
+                    "recovery": "中",
+                    "note": "",
+                    "video": "videos/金獅子/金獅子_掀地板.mp4",
                     "onlyincombo": false
                 },
                 {
                     "name": "連續拳",
                     "preaction": "",
                     "action": "",
-                    "recovery": "",
-                    "note": "",
+                    "recovery": "大",
+                    "note": "結束時身前有地震判定。",
                     "video": "videos/金獅子/金獅子_連續拳.mp4",
                     "onlyincombo": false
+                },
+                {
+                    "name": "激光炮",
+                    "preaction": "",
+                    "action": "",
+                    "recovery": "大",
+                    "note": "",
+                    "video": "videos/金獅子/金獅子_激光炮.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "空中吐痰",
+                    "preaction": "",
+                    "action": "",
+                    "recovery": "中",
+                    "note": "較少使用。",
+                    "video": "videos/金獅子/金獅子_空中吐痰.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "泰山壓頂",
+                    "condition": "鬥氣硬化",
+                    "preaction": "",
+                    "action": "",
+                    "recovery": "大",
+                    "note": "",
+                    "video": "videos/金獅子/金獅子_泰山壓頂.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "捕食",
+                    "preaction": "",
+                    "action": "",
+                    "recovery": "中",
+                    "note": "",
+                    "video": "videos/金獅子/金獅子_捕食.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "發怒",
+                    "preaction": "",
+                    "action": "",
+                    "recovery": "",
+                    "note": "進入憤怒狀態",
+                    "video": "videos/金獅子/金獅子_發怒.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "鬥氣硬化",
+                    "preaction": "",
+                    "action": "",
+                    "recovery": "",
+                    "note": "臀部向上頂到最高時有傷害判定。進入鬥氣硬化狀態。",
+                    "video": "videos/金獅子/金獅子_鬥氣硬化.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "空中溜溜球",
+                    "preaction": "",
+                    "action": "",
+                    "recovery": "",
+                    "note": "",
+                    "video": "videos/金獅子/金獅子_空中溜溜球.mp4",
+                    "onlyincombo": true
+                },
+                {
+                    "name": "後跳",
+                    "preaction": "",
+                    "action": "",
+                    "recovery": "",
+                    "note": "",
+                    "video": "videos/金獅子/金獅子_後跳.mp4",
+                    "onlyincombo": true
+                },
+                {
+                    "name": "左右橫跳",
+                    "preaction": "",
+                    "action": "",
+                    "recovery": "",
+                    "note": "",
+                    "video": "videos/金獅子/金獅子_左右橫跳.mp4",
+                    "onlyincombo": true
+                },
+                {
+                    "name": "大後跳",
+                    "preaction": "",
+                    "action": "",
+                    "recovery": "",
+                    "note": "",
+                    "video": "videos/金獅子/金獅子_大後跳.mp4",
+                    "onlyincombo": true
                 }
             ],
-            "combos": []
+            "combos": [
+                {
+                    "root": 0,
+                    "condition": "",
+                    "nodes": [
+                        {
+                            "move": "大後跳",
+                            "links": [
+                                {
+                                    "node": 1,
+                                    "condition": "非鬥氣硬化"
+                                },
+                                {
+                                    "node": 2,
+                                    "condition": "鬥氣硬化"
+                                }
+                            ]
+                        },
+                        {
+                            "move": "激光炮",
+                            "links": []
+                        },
+                        {
+                            "move": "左右橫跳",
+                            "links": [
+                                {
+                                    "node": 3,
+                                    "condition": ""
+                                }
+                            ]
+                        },
+                        {
+                            "move": "後跳",
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "root": 0,
+                    "condition": "",
+                    "nodes": [
+                        {
+                            "move": "空中溜溜球",
+                            "links": [
+                                {
+                                    "node": 1,
+                                    "condition": "憤怒狀態"
+                                },
+                                {
+                                    "node": 2,
+                                    "condition": "鬥氣硬化"
+                                }
+                            ]
+                        },
+                        {
+                            "move": "捕食",
+                            "links": []
+                        },
+                        {
+                            "move": "激光炮",
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "root": 0,
+                    "condition": "",
+                    "nodes": [
+                        {
+                            "move": "下壓",
+                            "links": [
+                                {
+                                    "node": 1,
+                                    "condition": "一般狀態"
+                                },
+                                {
+                                    "node": 2,
+                                    "condition": "憤怒、鬥氣硬化/身後"
+                                },
+                                {
+                                    "node": 3,
+                                    "condition": "憤怒、鬥氣硬化/身前"
+                                },
+                                {
+                                    "node": 4,
+                                    "condition": "離太遠"
+                                }
+                            ]
+                        },
+                        {
+                            "move": "反身上撈",
+                            "links": []
+                        },
+                        {
+                            "move": "反身下砸",
+                            "links": []
+                        },
+                        {
+                            "move": "掀地板",
+                            "links": []
+                        },
+                        {
+                            "move": "其他招式",
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "root": 0,
+                    "condition": "",
+                    "nodes": [
+                        {
+                            "move": "陀螺轉",
+                            "links": [
+                                {
+                                    "node": 1,
+                                    "condition": "鬥氣硬化"
+                                }
+                            ]
+                        },
+                        {
+                            "move": "後跳",
+                            "links": []
+                        }
+                    ]
+                }
+            ]
         },
         "nargacuga": {
             "outline": "(招式素材仍在蒐集中)",
