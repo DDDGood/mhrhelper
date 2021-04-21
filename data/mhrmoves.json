@@ -3040,7 +3040,7 @@
             ]
         },
         "goss_harag": {
-            "outline": "雪鬼獸在怒後手會變成紅色，並積極凝結雙手的冰刃。此時打破雪鬼獸手上的冰塊可使雪鬼獸倒地。\n冰刃狀態下，雪鬼獸的左手刀(橫掃/下劈)攻擊必會接右手刀攻擊，在右手刀攻擊後會有較長時間的硬直。",
+            "outline": "雪鬼獸在怒後手會變成紅色，並積極凝結雙手的冰刃。此時打破雪鬼獸手上的冰塊可使雪鬼獸倒地。\n冰刃狀態下，雪鬼獸的左手刀(橫掃/下劈)攻擊必會接右手刀攻擊，在右手刀攻擊後會有較長時間的硬直可以反擊。",
             "reference": {
                 "(twitter)モンスターハンターライズ公式": "https://twitter.com/mh_rise_jp",
                 "【MHR】集★7 ゴシャハギチャージアックスソロ / Goss Harag Chargeblade solo 3:35 monster hunter rise": "https://www.youtube.com/watch?v=Vqlg_v6siIM",
@@ -3193,46 +3193,6 @@
                     "onlyincombo": false
                 },
                 {
-                    "name": "左手下劈",
-                    "condition": "冰刃狀態",
-                    "preaction": "左手(面對他的右)冰刃上舉。",
-                    "action": "冰刃下劈。",
-                    "recovery": "小",
-                    "note": "必定會銜接右手的冰刃攻擊。往非攻擊手的方向滾較容易閃避。",
-                    "video": "videos/雪鬼獸/雪鬼獸_左手下劈.mp4",
-                    "onlyincombo": true
-                },
-                {
-                    "name": "右手下劈",
-                    "condition": "冰刃狀態",
-                    "preaction": "右手(面對他的左)冰刃上舉。",
-                    "action": "冰刃下劈，冰刃會卡在地上。",
-                    "recovery": "大",
-                    "note": "往非攻擊手的方向滾較容易閃避。",
-                    "video": "videos/雪鬼獸/雪鬼獸_右手下劈.mp4",
-                    "onlyincombo": false
-                },
-                {
-                    "name": "左手橫掃",
-                    "condition": "冰刃狀態",
-                    "preaction": "通常會有側跳的動作，接著左手冰刃向後側舉。",
-                    "action": "冰刃向目標橫掃。",
-                    "recovery": "小",
-                    "note": "必定會銜接右手的冰刃攻擊。",
-                    "video": "videos/雪鬼獸/雪鬼獸_左手橫掃.mp4",
-                    "onlyincombo": true
-                },
-                {
-                    "name": "右手橫掃",
-                    "condition": "冰刃狀態",
-                    "preaction": "通常會有側跳的動作，接著右手冰刃向後側舉。",
-                    "action": "冰刃向目標橫掃，冰刃會卡在地上。",
-                    "recovery": "大",
-                    "note": "",
-                    "video": "videos/雪鬼獸/雪鬼獸_右手橫掃.mp4",
-                    "onlyincombo": false
-                },
-                {
                     "name": "砸地接三連揮",
                     "condition": "冰刃狀態",
                     "preaction": "側身向後蓄力。",
@@ -3280,6 +3240,46 @@
                     "recovery": "大",
                     "note": "退怒，脫離冰刃狀態。使用這招後通常不是疲勞就是準備要換區。",
                     "video": "videos/雪鬼獸/雪鬼獸_五連冰刃飛刀大放送.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "左手下劈",
+                    "condition": "冰刃狀態",
+                    "preaction": "左手(面對他的右)冰刃上舉。",
+                    "action": "冰刃下劈。",
+                    "recovery": "小",
+                    "note": "必定會銜接右手的冰刃攻擊。往非攻擊手的方向滾較容易閃避。",
+                    "video": "videos/雪鬼獸/雪鬼獸_左手下劈.mp4",
+                    "onlyincombo": true
+                },
+                {
+                    "name": "右手下劈",
+                    "condition": "冰刃狀態",
+                    "preaction": "右手(面對他的左)冰刃上舉。",
+                    "action": "冰刃下劈，冰刃會卡在地上。",
+                    "recovery": "大",
+                    "note": "往非攻擊手的方向滾較容易閃避。",
+                    "video": "videos/雪鬼獸/雪鬼獸_右手下劈.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "左手橫掃",
+                    "condition": "冰刃狀態",
+                    "preaction": "通常會有側跳的動作，接著左手冰刃向後側舉。",
+                    "action": "冰刃向目標橫掃。",
+                    "recovery": "小",
+                    "note": "必定會銜接右手的冰刃攻擊。",
+                    "video": "videos/雪鬼獸/雪鬼獸_左手橫掃.mp4",
+                    "onlyincombo": true
+                },
+                {
+                    "name": "右手橫掃",
+                    "condition": "冰刃狀態",
+                    "preaction": "通常會有側跳的動作，接著右手冰刃向後側舉。",
+                    "action": "冰刃向目標橫掃，冰刃會卡在地上。",
+                    "recovery": "大",
+                    "note": "",
+                    "video": "videos/雪鬼獸/雪鬼獸_右手橫掃.mp4",
                     "onlyincombo": false
                 },
                 {
@@ -5364,6 +5364,177 @@
                             ]
                         }
                     ]
+                }
+            ]
+        },
+        "thunder_serpent_narwa": {
+            "outline": "(招式素材仍在蒐集中)",
+            "reference": {
+                "Monster Hunter Rise - True Final Boss & Ending (Thunder Serpent Narwa)": "https://www.youtube.com/watch?v=CPAOEgUTznY",
+                "【MHRISE】ナルハタタヒメ　狩猟笛ソロ／Thunder Serpent Narwa Hunting Horn Solo 5'55'39": "https://www.youtube.com/watch?v=vXb_6hXopuM&"
+            },
+            "moves": [
+                {
+                    "name": "龍吼",
+                    "preaction": "",
+                    "action": "",
+                    "recovery": "",
+                    "note": "",
+                    "video": "videos/雷神龍/雷神龍_龍吼.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "側身前咬",
+                    "preaction": "",
+                    "action": "",
+                    "recovery": "",
+                    "note": "",
+                    "video": "videos/雷神龍/雷神龍_側身前咬.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "側身吐電球",
+                    "preaction": "",
+                    "action": "",
+                    "recovery": "",
+                    "note": "",
+                    "video": "videos/雷神龍/雷神龍_側身吐電球.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "甩尾",
+                    "preaction": "",
+                    "action": "",
+                    "recovery": "",
+                    "note": "",
+                    "video": "videos/雷神龍/雷神龍_甩尾.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "旋風衝鋒",
+                    "preaction": "",
+                    "action": "",
+                    "recovery": "",
+                    "note": "",
+                    "video": "videos/雷神龍/雷神龍_旋風衝鋒.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "垂直光束",
+                    "preaction": "",
+                    "action": "",
+                    "recovery": "",
+                    "note": "",
+                    "video": "videos/雷神龍/雷神龍_垂直光束.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "單手甜甜圈",
+                    "preaction": "",
+                    "action": "",
+                    "recovery": "",
+                    "note": "",
+                    "video": "videos/雷神龍/雷神龍_單手甜甜圈.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "雙手電環",
+                    "preaction": "",
+                    "action": "",
+                    "recovery": "",
+                    "note": "",
+                    "video": "videos/雷神龍/雷神龍_雙手電環.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "分岔雷電",
+                    "preaction": "",
+                    "action": "",
+                    "recovery": "",
+                    "note": "",
+                    "video": "videos/雷神龍/雷神龍_分岔雷電.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "電球電環",
+                    "preaction": "",
+                    "action": "",
+                    "recovery": "",
+                    "note": "",
+                    "video": "videos/雷神龍/雷神龍_電球電環.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "擴散雷暴",
+                    "preaction": "",
+                    "action": "",
+                    "recovery": "",
+                    "note": "",
+                    "video": "videos/雷神龍/雷神龍_擴散雷暴.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "多重分散電環",
+                    "preaction": "",
+                    "action": "",
+                    "recovery": "",
+                    "note": "",
+                    "video": "videos/雷神龍/雷神龍_多重分散電環.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "多層甜甜圈",
+                    "preaction": "",
+                    "action": "",
+                    "recovery": "",
+                    "note": "",
+                    "video": "videos/雷神龍/雷神龍_多層甜甜圈.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "倒立伏地雷電爆發",
+                    "preaction": "",
+                    "action": "",
+                    "recovery": "",
+                    "note": "",
+                    "video": "videos/雷神龍/雷神龍_倒立伏地雷電爆發.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "轉圈後雷電爆發",
+                    "preaction": "",
+                    "action": "",
+                    "recovery": "",
+                    "note": "",
+                    "video": "videos/雷神龍/雷神龍_轉圈後雷電爆發.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "分岔雷電四散甜甜圈",
+                    "preaction": "",
+                    "action": "",
+                    "recovery": "",
+                    "note": "",
+                    "video": "videos/雷神龍/雷神龍_分岔雷電四散甜甜圈.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "縮成一團白給",
+                    "preaction": "",
+                    "action": "",
+                    "recovery": "",
+                    "note": "",
+                    "video": "videos/雷神龍/雷神龍_縮成一團白給.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "大招",
+                    "preaction": "",
+                    "action": "",
+                    "recovery": "",
+                    "note": "",
+                    "video": "videos/雷神龍/雷神龍_大招.mp4",
+                    "onlyincombo": false
                 }
             ]
         },
