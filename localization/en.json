@@ -216,6 +216,8 @@
                 "temp_buffer": "Temp Buffer",
                 "ensnaring_life": "Ensnaring Life",
                 "crafty_creature": "Crafty Creature",
+                "rare_creature": "Rare Creature",
+                "lucky_life": "Lucky Life",
                 "other": "Other"
             },
             "attribute": {

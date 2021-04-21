@@ -216,6 +216,8 @@
                 "temp_buffer": "瞬間強化生物",
                 "ensnaring_life": "陷阱生物",
                 "crafty_creature": "素材生物",
+                "rare_creature": "稀有生物",
+                "lucky_life": "福運生物",
                 "other": "其他",
                 "unknown": "未分類"
             },

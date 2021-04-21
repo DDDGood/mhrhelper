@@ -418,34 +418,6 @@
       },
       "description": "棲息在各地的小型蜥蜴。同種蜥蜴裡，雖然有背負著石頭和礦石的石守蜥蜴，但牠身上背負的不是礦石，而是魔物的鱗片和爪子。當魔物正在活動的時候，只有成熟的高等個體，才有辦法撿拾魔物掉落在巢穴等處的素材。由於棲息數量稀少，且都棲息在平常獵人不會經過的地點，因此非常難以發現。想必應該有高機率會掉落頗具價值的素材吧。"
     },
-    "great_wirebug": {
-      "name": "大翔蟲",
-      "type": "other",
-      "icon": "images/endemics/icons/大翔蟲.png",
-      "image": "images/endemics/大翔蟲.png",
-      "video": "videos/endemics/大翔蟲.mp4",
-      "attributes": {
-        "effect": "在「勾玉草」地點使用後會有急速飛越的效果，可用來快速攀爬高山地形。"
-      },
-      "locations": {
-        "shrine_ruins": "images/endemics/locations/shrine_ruins/great_wirebug.jpg"
-      },
-      "description": "棲息在神火村周遭的甲蟲。由於雄性翔蟲龐大的體型及巨大的力量，因而又獲此別名。相較於雌性翔蟲力氣較大，故常被用於長距離移動等方面。不過在操作上較為笨重，使用上並不容易。此外，和雌性相比，雄性翔蟲的數量極為稀少。若是將牠抓到勾玉草上，牠便會以該地為住處，不會主動離開。"
-    },
-    "golden_spiribug": {
-      "name": "金靈瓢蟲",
-      "type": "other",
-      "icon": "images/endemics/icons/金靈瓢蟲.png",
-      "image": "images/endemics/金靈瓢蟲.png",
-      "video": "videos/endemics/金靈瓢蟲.mp4",
-      "attributes": {
-        "effect": "拾取後會增加結算點數10pts。"
-      },
-      "locations": {
-        "shrine_ruins": "images/endemics/locations/shrine_ruins/golden_spiribug.jpg"
-      },
-      "description": "會發出閃亮金色光芒的甲蟲。其振翅聲具有讓聽者稍稍紓解疲勞的效果。主要食物為喜愛吸食結花環原料──蒼蒼草蜜汁的蟲類，故有接近穿戴結花環的人的習性。因此那些從狩獵歸來的獵人，身上的結花環聚集了許多金靈瓢蟲，也是常見的事。以此蟲製成的顏料為神火村的特產，且廣受好評。若交貨到村裡的公會，他們應該會很高興吧。"
-    },
     "tricktoad": {
       "name": "檜扇蛙",
       "type": "hunting_helper",
@@ -484,129 +456,157 @@
     },
     "lanternbug": {
       "name": "提燈妖蟲",
-      "type": "",
+      "type": "hunting_helper",
       "image": "images/endemics/提燈妖蟲.png",
       "video": "",
       "description": "特徵是身體會微微發光的毛毛蟲。身體會分泌出具有黏性的體液，並將落葉和枯木附著在身上，讓身體看起來較大。其體液含有容易爆炸的成分，一旦受到衝擊便會爆炸，保護自己免於受外敵傷害。只要將牠裝在身上，就能在受到魔物攻擊時引發爆炸，並抵銷一定程度的傷害。遠遠看過去的樣子，就像是長著一隻眼睛的提燈伸出舌頭在對著你微笑。"
     },
     "aurortle": {
       "name": "塗泥陸龜",
-      "type": "",
+      "type": "hunting_helper",
       "image": "images/endemics/塗泥陸龜.png",
       "video": "",
       "description": "身上背著一個巨大蟻窩的大型陸龜。只要把牠抓起來，就能在受到致命攻擊時，利用蟻窩代為承受傷害。螞蟻跟塗泥陸龜屬於共生關係，塗泥陸龜會在殼上建造蟻窩來保護自己，而螞蟻則會以牠吃剩的東西和糞便作為食物。"
     },
     "prism_spiribird": {
       "name": "七彩鬼火鳥",
-      "type": "",
+      "type": "permabuffer",
       "image": "images/endemics/七彩鬼火鳥.png",
       "video": "",
       "description": "身體會散發出微微七彩光芒的小型鳥類。牠會吸食許多種類的花蜜，而裡頭的花粉互相混合後發生反應，因此發出七彩的光芒。若獵人的結花環沾染到其花粉，空氣中便會充滿具有極佳功效的芳香，並在一段時間內將所有能力提升至最大。"
     },
-    "gilded_spiribug": {
-      "name": "黃金靈瓢蟲",
-      "type": "",
-      "image": "images/endemics/黃金靈瓢蟲.png",
-      "video": "",
-      "description": "會發出閃亮金黃色光芒的甲蟲，與金靈瓢蟲是近親。其振翅聲可使人稍稍紓解疲勞。喜愛補食會吸食結花環原料──蒼蒼草蜜汁的蟲類。因而具有接近穿戴結花環之人的習性。常常可在從狩獵歸來的獵人身上的結花環，看到聚集的黃金靈瓢蟲。以此蟲製成的顏料能賣到非常高的價格，因此被視為能帶來財富的使者，是村裡的幸運物。"
-    },
     "red_lampsquid": {
       "name": "不知火赤烏賊",
-      "type": "",
+      "type": "temp_buffer",
       "image": "images/endemics/不知火赤烏賊.png",
       "video": "",
       "description": "棲息在寒冷群島上的一種烏賊。具有群體游動的習性，有時會吐出墨汁來嚇跑敵人。表皮發出的光會依照個體裡墨汁的成分而變化，因其映照在海面上的光芒，而被稱為不知火烏賊。據說不知火赤烏賊的墨汁具有增加專注力的效果，只要吸入墨汁，便能在一段時間內變得較容易使出會心攻擊。"
     },
     "yellow_lampsquid": {
       "name": "不知火山吹烏賊",
-      "type": "",
+      "type": "temp_buffer",
       "image": "images/endemics/不知火山吹烏賊.png",
       "video": "",
       "description": "棲息在寒冷群島上的一種烏賊。具有群體游動的習性，有時會吐出墨汁來嚇跑敵人。表皮發出的光會依照個體裡墨汁的成分而變化，因其映照在海面上的光芒，而被稱為不知火烏賊。據說不知火山吹烏賊的墨汁具有增加忍耐力的效果，只要吸入墨汁，便能在一段時間內變得不容易後仰且更能承受疼痛。"
     },
     "green_lampsquid": {
       "name": "不知火綠烏賊",
-      "type": "",
+      "type": "temp_buffer",
       "image": "images/endemics/不知火綠烏賊.png",
       "video": "",
       "description": "棲息在寒冷群島上的一種烏賊。具有群體游動的習性，有時會吐出墨汁來嚇跑敵人。表皮發出的光會依照個體裡墨汁的成分而變化，因其映照在海面上的光芒，而被稱為不知火烏賊。據說不知火綠烏賊的墨汁具有治癒效果，只要吸入墨汁，就能稍微治療傷勢。"
     },
     "golden_lampsquid": {
       "name": "不知火金烏賊",
-      "type": "",
+      "type": "temp_buffer",
       "image": "images/endemics/不知火金烏賊.png",
       "video": "",
       "description": "棲息在寒冷群島上的一種烏賊。有別於其他不知火烏賊，牠會單獨行動。因其散發金色光芒的身體與墨汁，而被稱為不知火金烏賊，據說那個墨汁具有不受任何事物困惑的專注力與忍耐力，以及任何傷口都能治癒的醫療效果。由於個體數量稀少，又極難發現，故又有部分的人稱呼牠為「不知火烏賊王」。"
     },
     "pincercrab": {
       "name": "砲彈寄居蟹",
-      "type": "",
+      "type": "ensnaring_life",
       "image": "images/endemics/砲彈寄居蟹.png",
       "video": "",
       "description": "棲息在沙原裡的一種寄居蟹。會數隻群聚在一起並攀附在懸崖邊，靠食用野生植物和土裡的微小生物維生，並會連土一起吃下。吃下去的土在體內凝聚到一定大小後，就會從前端外殼排出。一旦遭遇到危險，便會向群體內部傳達警戒訊息，並在魔物接近時，接連用土塊猛烈地射向敵人與其對抗。"
     },
     "echobat": {
       "name": "回聲蝙蝠",
-      "type": "",
+      "type": "ensnaring_life",
       "image": "images/endemics/回聲蝙蝠.png",
       "video": "",
       "description": "棲息在熔岩洞的一種蝙蝠。牠們為群體生活，以小型翅蟲等為主食。地盤意識極強，當附近有大型魔物肆虐時，便會將身體轉變成紅色來威嚇敵人。若地盤遭到入侵，整個群體則會撒出成分近似火藥的鱗粉，引發爆炸來將入侵者趕走。一旦鱗粉受到刺激或衝擊而產生反應爆炸，即使是大型魔物，也會受到相當嚴重的傷害。"
     },
     "snow-faced_fox": {
       "name": "白面金毛九尾狐",
-      "type": "",
+      "type": "rare_creature",
       "image": "images/endemics/白面金毛九尾狐.png",
       "video": "",
       "description": "棲息在大社遺跡的狐狸，十分罕見。目擊次數非常稀少，但有時候會出現在山頂的入口處，看似在觀察周遭的情況。實際上，牠只有一條尾巴，單純是因為花紋的緣故，導致看起來像是九條尾巴而已。因其有著看起來像是九條巨大的尾巴和雪白完美的外貌，才會擁有這個名字。雖然乍看之下感覺很高貴，但個性相當親人，有時還會配合獵人的動作一起嬉戲。"
     },
     "quetzalcobra": {
       "name": "眼鏡羽蛇",
-      "type": "",
+      "type": "rare_creature",
       "image": "images/endemics/眼鏡羽蛇.png",
       "video": "",
       "description": "棲息在水沒林遺跡內的一種珍稀蛇類。頸部非常發達，且長著一對像是翅膀的構造，在進行威嚇與求偶行為時，會把翅膀張開，向對方展示。嘴裡分泌的液體具有療效。因其效果和外表，過去曾因被視為是神聖的生物而備受尊崇。然而即使時光飛逝，神殿早壞，崇敬者也不復存在，其依然維持著神秘的外觀，存在於該處。"
     },
     "monksnail": {
       "name": "海蛞蝓坊主",
-      "type": "",
+      "type": "rare_creature",
       "image": "images/endemics/海蛞蝓坊主.png",
       "video": "",
       "description": "棲息在寒冷群島周邊的海蛞蝓，數量稀少且體型超級巨大。由於畏懼強光，白天會靜靜地待在海裡，直到入夜後才會浮出水上，聚集在海面尋找烏賊。表皮具有會發出各種色光的器官，巨大的輪廓，以及像是眼球狀的光芒，使得漆黑的海面散發著一股可怕的氣息，故被人冠上海蛞蝓坊主之名。"
     },
     "regitrice": {
       "name": "國王翼龍",
-      "type": "",
+      "type": "rare_creature",
       "image": "images/endemics/國王翼龍.png",
       "video": "",
       "description": "棲息在沙原裡的一種翼龍，非常稀有。平時會在洞窟裡築巢，並以此為家。太陽出來時，有時會為了促進身體代謝，而離開巢穴做起日光浴。擁有像是斗篷般的羽翼與宛如皇冠的頭冠，露出美麗的身體，悠閒地沐浴在陽光下。那威風凜凜的姿態，彷彿亡國之君一般。"
     },
     "hellbill": {
       "name": "獄炎鳥",
-      "type": "",
+      "type": "rare_creature",
       "image": "images/endemics/獄炎鳥.png",
       "video": "",
       "description": "棲息在熔岩洞火山口附近的一種鳥類，數量稀少。全身覆蓋著一種非常特殊的紅色羽毛，能夠不畏熔岩的高溫，將身體泡在熔岩裡，藉以燃燒附著在身上的雜菌和代謝產物，使全身有如脫胎換骨般增加了光澤。據說不知從何時開始，牠因為外觀與能夠自在地泡進熔岩的生態，成為了大家口中代表不死與重生的象徵。"
     },
     "fortune_owl": {
       "name": "招財鴞",
-      "type": "",
+      "type": "lucky_life",
       "image": "images/endemics/招財鴞.png",
       "video": "",
       "description": "被當地視為能帶來好運的貓頭鷹。有著像貓咪的外貌，胸口的羽毛呈金黃色。自古以來就被視為是財富的象徵，但卻極少被人親眼目擊。傳說中有幸摸到牠的人就能獲得大筆財富。"
     },
     "felicicrow": {
       "name": "八坂鴉",
-      "type": "",
+      "type": "lucky_life",
       "image": "images/endemics/八坂鴉.png",
       "video": "",
       "description": "一種大型的烏鴉，特徵是身上藍色和黑色的漂亮羽毛，與頸部華麗的白色羽毛。此外，其尾巴極為發達，能夠宛如第3隻腳一般靈活地運用。自古以來被視為是帶來福氣的使者，傳說能夠取得牠鳥喙裡樹枝的人就能獲得好運。"
     },
     "gustcrab": {
       "name": "一目蟹",
-      "type": "",
+      "type": "hunting_helper",
       "image": "images/endemics/一目蟹.png",
       "video": "",
       "description": "與背上香菇共生的一種陸棲螃蟹。受到外敵攻擊時，會晃動甲殼刺激背上的香菇，使其噴射出孢子來保護自己。此外，螃蟹會捕食危害香菇的蟲類，同時透過香菇來獲得營養和水分。因此，彼此之間都是不可或缺的存在。其背上的香菇外型像是眼球，被稱作眼球菇，味道極為苦澀，不適合拿來食用。"
+    },
+    "great_wirebug": {
+      "name": "大翔蟲",
+      "type": "other",
+      "icon": "images/endemics/icons/大翔蟲.png",
+      "image": "images/endemics/大翔蟲.png",
+      "video": "videos/endemics/大翔蟲.mp4",
+      "attributes": {
+        "effect": "在「勾玉草」地點使用後會有急速飛越的效果，可用來快速攀爬高山地形。"
+      },
+      "locations": {
+        "shrine_ruins": "images/endemics/locations/shrine_ruins/great_wirebug.jpg"
+      },
+      "description": "棲息在神火村周遭的甲蟲。由於雄性翔蟲龐大的體型及巨大的力量，因而又獲此別名。相較於雌性翔蟲力氣較大，故常被用於長距離移動等方面。不過在操作上較為笨重，使用上並不容易。此外，和雌性相比，雄性翔蟲的數量極為稀少。若是將牠抓到勾玉草上，牠便會以該地為住處，不會主動離開。"
+    },
+    "golden_spiribug": {
+      "name": "金靈瓢蟲",
+      "type": "other",
+      "icon": "images/endemics/icons/金靈瓢蟲.png",
+      "image": "images/endemics/金靈瓢蟲.png",
+      "video": "videos/endemics/金靈瓢蟲.mp4",
+      "attributes": {
+        "effect": "拾取後會增加結算點數10pts。"
+      },
+      "locations": {
+        "shrine_ruins": "images/endemics/locations/shrine_ruins/golden_spiribug.jpg"
+      },
+      "description": "會發出閃亮金色光芒的甲蟲。其振翅聲具有讓聽者稍稍紓解疲勞的效果。主要食物為喜愛吸食結花環原料──蒼蒼草蜜汁的蟲類，故有接近穿戴結花環的人的習性。因此那些從狩獵歸來的獵人，身上的結花環聚集了許多金靈瓢蟲，也是常見的事。以此蟲製成的顏料為神火村的特產，且廣受好評。若交貨到村裡的公會，他們應該會很高興吧。"
+    },
+    "gilded_spiribug": {
+      "name": "黃金靈瓢蟲",
+      "type": "other",
+      "image": "images/endemics/黃金靈瓢蟲.png",
+      "video": "",
+      "description": "會發出閃亮金黃色光芒的甲蟲，與金靈瓢蟲是近親。其振翅聲可使人稍稍紓解疲勞。喜愛補食會吸食結花環原料──蒼蒼草蜜汁的蟲類。因而具有接近穿戴結花環之人的習性。常常可在從狩獵歸來的獵人身上的結花環，看到聚集的黃金靈瓢蟲。以此蟲製成的顏料能賣到非常高的價格，因此被視為能帶來財富的使者，是村裡的幸運物。"
     }
   }
 }
