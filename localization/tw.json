@@ -22,8 +22,8 @@
         "all": "全部",
         "rate": "機率",
         "cancel_search": "取消搜尋",
-        "low_rank": "下位",
-        "high_rank": "上位",
+        "low_rank": "初階",
+        "high_rank": "進階",
         "monster": {
             "name": {
                 "great_izuchi": "鐮鼬龍王",
