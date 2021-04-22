@@ -28,13 +28,14 @@ var lastTime = startTime;
 $(document).ready(Initialize);
 
 function Initialize() {
-    LoadData(['data/mhrdex.json', 'data/mhrmoves.json', 'data/endemics.json', "data/small_monster.json", "data/weapons.json", "data/items.json", "data/quests.json", "data/item_source.json", "data/meowcenaries.json"], onDexLoaded);
+    // LoadData(['data/mhrdex.json', 'data/mhrmoves.json', 'data/endemics.json', "data/small_monster.json", "data/weapons.json", "data/items.json", "data/quests.json", "data/item_source.json", "data/meowcenaries.json"], onDexLoaded);
+    LoadData(['data/mhrdex.json', 'data/mhrmoves.json', 'data/endemics.json', "data/small_monster.json", "data/weapons.json", "data/items.json", "data/quests.json", "data/item_source.json", "data/meowcenaries.json", "data/raw/parsedweapon.json", "data/raw/temp.json", "data/raw/item-cn-jp.json", "data/cntokey.json", "data/cntotw.json", "data/jptotw.json"], tryOnDexLoaded);
 }
 
 function tryInitialize() {
     try {
         LoadData(['data/mhrdex.json', 'data/mhrmoves.json', 'data/endemics.json', "data/small_monster.json", "data/weapons.json", "data/items.json", "data/quests.json", "data/item_source.json", "data/meowcenaries.json"], tryOnDexLoaded);
-        // LoadData(['data/mhrdex.json', 'data/mhrmoves.json', 'data/endemics.json', "data/small_monster.json", "data/weapons.json", "data/items.json", "data/quests.json", "data/item_source.json", "data/meowcenaries.json", "data/raw/unpackedmon.json", "data/raw/item-cn-jp.json", "data/cntokey.json", "data/cntotw.json", "data/jptotw.json"], tryOnDexLoaded);
+        // LoadData(['data/mhrdex.json', 'data/mhrmoves.json', 'data/endemics.json', "data/small_monster.json", "data/weapons.json", "data/items.json", "data/quests.json", "data/item_source.json", "data/meowcenaries.json", "data/raw/trade_market.json", "data/raw/item-cn-jp.json", "data/cntokey.json", "data/cntotw.json", "data/jptotw.json"], tryOnDexLoaded);
     } catch (error) {
         console.log(error.message);
         document.getElementById("error").innerHTML = "error:" + error.message;
@@ -254,19 +255,81 @@ function ExportItemSource() {
 function someDataWorks() {
 
 
-    for (let id in data.large_monsters) {
-        let mon = data.large_monsters[id];
-
-        delete mon.hitdata.parts_old;
-
-        if (mon.image.startsWith('http')) {
-            mon.image = "images/monsters/fullbody/" + id + ".png"
-        }
+    let output = {
+        'equip_weapons': {}
     }
-    outputText(JSON.stringify(data.large_monsters));
+    for (let i in data.parsedweapon) {
+
+        let wData = {};
+        const fromData = data.parsedweapon[i];
+        const wID = data.cntokey[fromData.name].key;
+
+        wData = fromData;
+        wData.category = data.cntokey[fromData.category].key;
+        wData.name = data.temp_equip_weapons[wID].name;
+        wData.description = data.temp_equip_weapons[wID].description;
+        wData.cn_id = fromData.id;
+        wData.next = [];
+
+        delete wData.name_en;
+        delete wData.created_at;
+        delete wData.updated_at;
+        delete wData.created_by;
+        delete wData.id;
+        delete wData._read_perm;
+        delete wData._write_perm;
+        delete wData.next;
+        delete wData.previous;
+
+        output.equip_weapons[wID] = wData;
+    }
+
+    for (let i in data.next) {
+        const link = data.next[i];
+        let wData = undefined;
+        for (let j in output.equip_weapons) {
+            if (output.equip_weapons[j].cn_id === link.id) {
+                console.log(output.equip_weapons[j].cn_id)
+                wData = output.equip_weapons[j];
+                break;
+            }
+        }
+        if (wData === undefined) {
+            console.warn(link.name)
+            continue;
+        }
+        if (IsNullOrEmpty(link.next) === false) {
+            if (wData.next === undefined) {
+                wData.next = [];
+            }
+            let trans = []
+            let oirs = link.next.split('|')
+            for (let k in oirs) {
+                for (let l in output.equip_weapons) {
+                    const tmp = output.equip_weapons[l];
+                    if (tmp.cn_id === oirs[k]) {
+                        trans.push(l)
+                        break;
+                    }
+                }
+            }
+            wData.next = trans;
+        }
+        if (IsNullOrEmpty(link.previous) === false)
+            for (let l in output.equip_weapons) {
+                const tmp = output.equip_weapons[l];
+                if (tmp.cn_id === link.previous) {
+                    wData.previous = l
+                    break;
+                }
+            }
+
+
+    }
+
+    outputText(JSON.stringify(output))
 
     return;
-
 }
 
 
