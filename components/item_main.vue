@@ -145,6 +145,26 @@
               </template>
             </tbody>
           </table>
+
+          <table v-if="sourcedata.trade_market !=undefined" class="interval-y-large">
+            <caption class="text-bold margin text-left">{{$t('trade_market.argosy')}}</caption>
+            <tbody>
+              <tr class="card-text text-bold">
+                <th>{{$t('trade_market.market')}}</th>
+                <th>{{$t('item.amount')}}</th>
+              </tr>
+              <tr class="card-text">
+                <td>
+                  <div class="card-text">{{ $t('trade_market.' + sourcedata.trade_market.target)}}</div>
+                </td>
+                <td>
+                  <div
+                    class="card-text"
+                  >{{ sourcedata.trade_market.isBonus === true? $t('trade_market.bonus_item') : sourcedata.trade_market.num}}</div>
+                </td>
+              </tr>
+            </tbody>
+          </table>
         </details>
       </div>
     </div>

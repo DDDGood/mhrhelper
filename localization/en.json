@@ -306,6 +306,14 @@
             "target": "Target",
             "rare": "Rare"
         },
+        "trade_market": {
+            "argosy": "Argosy",
+            "market": "Market",
+            "sunsnug_fruitfair": "Sunsnug Fruitfair",
+            "mushyroom_market": "Mushyroom Market",
+            "icebarb_bazaar": "Icebarb Bazaar",
+            "bonus_item": "Bonus Item"
+        },
         "map": {
             "name": {
                 "shrine_ruins": "Shrine Ruins",

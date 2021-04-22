@@ -309,6 +309,14 @@
             "target": "調查目標",
             "rare": "稀有"
         },
+        "trade_market": {
+            "argosy": "交易船",
+            "market": "市場",
+            "sunsnug_fruitfair": "暖呼呼果實市場",
+            "mushyroom_market": "濕溽溽香菇市場",
+            "icebarb_bazaar": "冷颼颼草魚市場",
+            "bonus_item": "附加產物"
+        },
         "map": {
             "name": {
                 "shrine_ruins": "大社遺跡",

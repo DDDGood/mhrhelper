@@ -335,6 +335,10 @@
                         "rare": false
                     }
                 ]
+            },
+            "trade_market": {
+                "target": "sunsnug_fruitfair",
+                "num": "1"
             }
         },
         "might_seed": {
@@ -393,6 +397,10 @@
                         "rare": false
                     }
                 ]
+            },
+            "trade_market": {
+                "target": "sunsnug_fruitfair",
+                "num": "1"
             }
         },
         "mandragora": {
@@ -435,6 +443,10 @@
                         "rare": false
                     }
                 ]
+            },
+            "trade_market": {
+                "target": "mushyroom_market",
+                "num": "1"
             }
         },
         "godbug": {
@@ -533,6 +545,10 @@
                         "rare": false
                     }
                 ]
+            },
+            "trade_market": {
+                "target": "mushyroom_market",
+                "num": "1"
             }
         },
         "dragonite_ore": {
@@ -920,6 +936,10 @@
                         "rare": false
                     }
                 ]
+            },
+            "trade_market": {
+                "target": "mushyroom_market",
+                "num": "2"
             }
         },
         "herb": {
@@ -1026,6 +1046,10 @@
                         "rare": false
                     }
                 ]
+            },
+            "trade_market": {
+                "target": "icebarb_bazaar",
+                "num": "3"
             }
         },
         "honey": {
@@ -1220,6 +1244,10 @@
                         "rare": false
                     }
                 ]
+            },
+            "trade_market": {
+                "target": "mushyroom_market",
+                "num": "1"
             }
         },
         "parashroom": {
@@ -1310,6 +1338,10 @@
                         "rare": false
                     }
                 ]
+            },
+            "trade_market": {
+                "target": "mushyroom_market",
+                "num": "2"
             }
         },
         "bitterbug": {
@@ -1416,6 +1448,10 @@
                         "rare": false
                     }
                 ]
+            },
+            "trade_market": {
+                "target": "mushyroom_market",
+                "num": "1"
             }
         },
         "iron_ore": {
@@ -2947,6 +2983,10 @@
                         "rare": true
                     }
                 ]
+            },
+            "trade_market": {
+                "target": "icebarb_bazaar",
+                "num": "2"
             }
         },
         "snow_herb": {
@@ -3019,6 +3059,10 @@
                         "rare": true
                     }
                 ]
+            },
+            "trade_market": {
+                "target": "icebarb_bazaar",
+                "num": "2"
             }
         },
         "nulberry": {
@@ -3161,6 +3205,10 @@
                         "rare": true
                     }
                 ]
+            },
+            "trade_market": {
+                "target": "sunsnug_fruitfair",
+                "num": "2"
             }
         },
         "earth_crystal": {
@@ -3379,6 +3427,10 @@
                         "rare": false
                     }
                 ]
+            },
+            "trade_market": {
+                "target": "mushyroom_market",
+                "num": "1"
             }
         },
         "icium": {
@@ -4753,6 +4805,10 @@
                         "rare": false
                     }
                 ]
+            },
+            "trade_market": {
+                "target": "mushyroom_market",
+                "num": "2"
             }
         },
         "flowfern": {
@@ -4809,6 +4865,10 @@
                         "rare": true
                     }
                 ]
+            },
+            "trade_market": {
+                "target": "icebarb_bazaar",
+                "num": "2"
             }
         },
         "smokenut": {
@@ -4865,6 +4925,10 @@
                         "rare": true
                     }
                 ]
+            },
+            "trade_market": {
+                "target": "sunsnug_fruitfair",
+                "num": "2"
             }
         },
         "thunderbug": {
@@ -4939,6 +5003,10 @@
                         "rare": false
                     }
                 ]
+            },
+            "trade_market": {
+                "target": "mushyroom_market",
+                "num": "1"
             }
         },
         "sunscorned_grass": {
@@ -4977,6 +5045,10 @@
                         "rare": false
                     }
                 ]
+            },
+            "trade_market": {
+                "target": "icebarb_bazaar",
+                "num": "2"
             }
         },
         "lightcrystal": {
@@ -5077,6 +5149,10 @@
                         "rare": false
                     }
                 ]
+            },
+            "trade_market": {
+                "target": "mushyroom_market",
+                "num": "1"
             }
         },
         "fire_herb": {
@@ -5123,6 +5199,10 @@
                         "rare": false
                     }
                 ]
+            },
+            "trade_market": {
+                "target": "icebarb_bazaar",
+                "num": "2"
             }
         },
         "adamant_seed": {
@@ -5185,6 +5265,10 @@
                         "rare": false
                     }
                 ]
+            },
+            "trade_market": {
+                "target": "sunsnug_fruitfair",
+                "num": "1"
             }
         },
         "exciteshroom": {
@@ -5247,6 +5331,10 @@
                         "rare": false
                     }
                 ]
+            },
+            "trade_market": {
+                "target": "mushyroom_market",
+                "num": "1"
             }
         },
         "eroded_skeleton": {
@@ -27085,6 +27173,10 @@
                         "rare": false
                     }
                 ]
+            },
+            "trade_market": {
+                "target": "mushyroom_market",
+                "num": "2"
             }
         },
         "insect_scrap": {
@@ -27517,6 +27609,10 @@
                         "rare": false
                     }
                 ]
+            },
+            "trade_market": {
+                "target": "sunsnug_fruitfair",
+                "num": "15"
             }
         },
         "latchberry": {
@@ -27537,6 +27633,10 @@
                         "rare": false
                     }
                 ]
+            },
+            "trade_market": {
+                "target": "sunsnug_fruitfair",
+                "num": "20"
             }
         },
         "antidote_herb": {
@@ -27557,6 +27657,10 @@
                         "rare": false
                     }
                 ]
+            },
+            "trade_market": {
+                "target": "icebarb_bazaar",
+                "num": "2"
             }
         },
         "tetranadon_scrap": {
@@ -27655,6 +27759,10 @@
                         "rare": false
                     }
                 ]
+            },
+            "trade_market": {
+                "target": "icebarb_bazaar",
+                "num": "1"
             }
         },
         "big_combustuna": {
@@ -27691,6 +27799,10 @@
                         "rare": false
                     }
                 ]
+            },
+            "trade_market": {
+                "target": "icebarb_bazaar",
+                "num": "1"
             }
         },
         "combustuna": {
@@ -27727,6 +27839,10 @@
                         "rare": false
                     }
                 ]
+            },
+            "trade_market": {
+                "target": "icebarb_bazaar",
+                "num": "1"
             }
         },
         "arzuros_scrap": {
@@ -28065,6 +28181,10 @@
                         "rare": true
                     }
                 ]
+            },
+            "trade_market": {
+                "target": "sunsnug_fruitfair",
+                "num": "2"
             }
         },
         "huskberry": {
@@ -28099,6 +28219,10 @@
                         "rare": true
                     }
                 ]
+            },
+            "trade_market": {
+                "target": "sunsnug_fruitfair",
+                "num": "30"
             }
         },
         "popfish": {
@@ -28135,6 +28259,10 @@
                         "rare": false
                     }
                 ]
+            },
+            "trade_market": {
+                "target": "icebarb_bazaar",
+                "num": "2"
             }
         },
         "kulu-ya-ku_scrap": {
@@ -28400,6 +28528,10 @@
                         "rare": false
                     }
                 ]
+            },
+            "trade_market": {
+                "target": "sunsnug_fruitfair",
+                "num": "20"
             }
         },
         "needleberry": {
@@ -28420,6 +28552,10 @@
                         "rare": false
                     }
                 ]
+            },
+            "trade_market": {
+                "target": "sunsnug_fruitfair",
+                "num": "20"
             }
         },
         "barroth_scrap": {
@@ -28579,6 +28715,10 @@
                         "rare": true
                     }
                 ]
+            },
+            "trade_market": {
+                "target": "icebarb_bazaar",
+                "num": "1"
             }
         },
         "flamefin": {
@@ -28629,6 +28769,10 @@
                         "rare": true
                     }
                 ]
+            },
+            "trade_market": {
+                "target": "icebarb_bazaar",
+                "num": "1"
             }
         },
         "royal_ludroth_scrap": {
@@ -28868,6 +29012,10 @@
                         "rare": true
                     }
                 ]
+            },
+            "trade_market": {
+                "target": "sunsnug_fruitfair",
+                "num": "5"
             }
         },
         "ivy": {
@@ -28902,6 +29050,10 @@
                         "rare": true
                     }
                 ]
+            },
+            "trade_market": {
+                "target": "icebarb_bazaar",
+                "num": "2"
             }
         },
         "anjanath_scrap": {
@@ -29135,6 +29287,10 @@
                         "rare": false
                     }
                 ]
+            },
+            "trade_market": {
+                "target": "sunsnug_fruitfair",
+                "num": "10"
             }
         },
         "bomberry": {
@@ -29155,6 +29311,10 @@
                         "rare": false
                     }
                 ]
+            },
+            "trade_market": {
+                "target": "sunsnug_fruitfair",
+                "num": "2"
             }
         },
         "gloamgrass_bud": {
@@ -29253,6 +29413,48 @@
                         "rare": false
                     }
                 ]
+            }
+        },
+        "dosbiscus": {
+            "trade_market": {
+                "target": "sunsnug_fruitfair",
+                "isBonus": true
+            }
+        },
+        "springnight_carp": {
+            "trade_market": {
+                "target": "sunsnug_fruitfair",
+                "isBonus": true
+            }
+        },
+        "dreamshell": {
+            "trade_market": {
+                "target": "mushyroom_market",
+                "isBonus": true
+            }
+        },
+        "blossom_cricket": {
+            "trade_market": {
+                "target": "mushyroom_market",
+                "isBonus": true
+            }
+        },
+        "butterfly_beetle": {
+            "trade_market": {
+                "target": "mushyroom_market",
+                "isBonus": true
+            }
+        },
+        "toxic_kumori": {
+            "trade_market": {
+                "target": "icebarb_bazaar",
+                "isBonus": true
+            }
+        },
+        "armored_bream": {
+            "trade_market": {
+                "target": "icebarb_bazaar",
+                "isBonus": true
             }
         }
     }
