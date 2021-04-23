@@ -9,7 +9,7 @@
         @click="selectType(type)"
       >
         <span class="flex1 flex-center">
-          <img src="images/svg/star.svg" class="sorting-star-icon" />
+          <img :src="'images/weapons/icons/' + type + '.png'" class="sorting-star-icon" />
         </span>
         <span class="text-center">{{ $t('weapons.name.' + type)}}</span>
       </div>
@@ -62,7 +62,6 @@ module.exports = {
     }
   }, computed: {
     weaponsTree: function () {
-      console.log('sorting');
       let sorted = {};
 
       for (let id in this.weapons) {

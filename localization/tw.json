@@ -11,7 +11,8 @@
             "large_monsters": "大型魔物",
             "small_monsters": "小型魔物",
             "endemic_lifes": "環境生物",
-            "weapons": "武器",
+            "weapons": "武器類型",
+            "equip_weapons": "全武器列表",
             "items": "道具素材",
             "quests": "任務",
             "meowcenaries": "隨從隱密隊"

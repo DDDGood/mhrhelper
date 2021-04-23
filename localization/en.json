@@ -19,7 +19,8 @@
             "large_monsters": "Large Monsters",
             "small_monsters": "Small Monsters",
             "endemic_lifes": "Endemic Lifes",
-            "weapons": "Weapons",
+            "weapons": "Weapon Types",
+            "equip_weapons": "All Weapons",
             "items": "Items",
             "quests": "Quests",
             "meowcenaries": "Meowcenaries"
