@@ -4771,7 +4771,7 @@
             "previous": "greatsword_ninja_parasol_ii"
         },
         "shortsword_khezu_razor_i": {
-            "category": "sword_&_shield",
+            "category": "sword_and_shield",
             "name": "奇怪龍薙刀Ⅰ",
             "attack": 80,
             "huixin": 10,
@@ -4813,7 +4813,7 @@
             "previous": "shortsword_hunters_knife_ii"
         },
         "shortsword_exorcising_sword_ii": {
-            "category": "sword_&_shield",
+            "category": "sword_and_shield",
             "name": "天具･調伏之劍Ⅱ",
             "attack": 180,
             "huixin": 0,
@@ -4855,7 +4855,7 @@
             "previous": "shortsword_exorcising_sword_i"
         },
         "shortsword_hana_no_nagoriwo_i": {
-            "category": "sword_&_shield",
+            "category": "sword_and_shield",
             "name": "狐扇落花情依依Ⅰ",
             "attack": 110,
             "huixin": 15,
@@ -4897,7 +4897,7 @@
             "previous": "shortsword_kamura_sword_iii"
         },
         "shortsword_hana_no_nagoriwo_ii": {
-            "category": "sword_&_shield",
+            "category": "sword_and_shield",
             "name": "狐扇落花情依依Ⅱ",
             "attack": 170,
             "huixin": 15,
@@ -4939,7 +4939,7 @@
             "previous": "shortsword_hana_no_nagoriwo_i"
         },
         "shortsword_kamura_ninja_sword": {
-            "category": "sword_&_shield",
+            "category": "sword_and_shield",
             "name": "神火忍單刃",
             "attack": 190,
             "huixin": 0,
@@ -4978,7 +4978,7 @@
             "previous": "shortsword_kamura_sword_v"
         },
         "shortsword_kamura_sword_iv": {
-            "category": "sword_&_shield",
+            "category": "sword_and_shield",
             "name": "神火鐵單刃Ⅳ",
             "attack": 140,
             "huixin": 0,
@@ -5020,7 +5020,7 @@
             "previous": "shortsword_kamura_sword_iii"
         },
         "shortsword_frost_edge_ii": {
-            "category": "sword_&_shield",
+            "category": "sword_and_shield",
             "name": "冰霜銳劍Ⅱ",
             "attack": 80,
             "huixin": 0,
@@ -5062,7 +5062,7 @@
             "previous": "shortsword_frost_edge_i"
         },
         "shortsword_kamura_sword_iii": {
-            "category": "sword_&_shield",
+            "category": "sword_and_shield",
             "name": "神火鐵單刃Ⅲ",
             "attack": 90,
             "huixin": 0,
@@ -5107,7 +5107,7 @@
             "previous": "shortsword_kamura_sword_ii"
         },
         "shortsword_kamura_sword_v": {
-            "category": "sword_&_shield",
+            "category": "sword_and_shield",
             "name": "神火鐵單刃Ⅴ",
             "attack": 150,
             "huixin": 0,
@@ -5149,7 +5149,7 @@
             "previous": "shortsword_kamura_sword_iv"
         },
         "shortsword_nardebosche": {
-            "category": "sword_&_shield",
+            "category": "sword_and_shield",
             "name": "冰牙銳爪",
             "attack": 160,
             "huixin": 35,
@@ -5188,7 +5188,7 @@
             "previous": "shortsword_icicle_spike_ii"
         },
         "shortsword_cunning_riposte_i": {
-            "category": "sword_&_shield",
+            "category": "sword_and_shield",
             "name": "頂膝後摔Ⅰ",
             "attack": 100,
             "huixin": 0,
@@ -5230,7 +5230,7 @@
             "previous": "shortsword_hunters_knife_ii"
         },
         "shortsword_guard_breaker": {
-            "category": "sword_&_shield",
+            "category": "sword_and_shield",
             "name": "蛙式･頂膝後摔",
             "attack": 160,
             "huixin": 0,
@@ -5269,7 +5269,7 @@
             "previous": "shortsword_cunning_riposte_ii"
         },
         "shortsword_kamura_sword_i": {
-            "category": "sword_&_shield",
+            "category": "sword_and_shield",
             "name": "神火鐵單刃Ⅰ",
             "attack": 50,
             "huixin": 0,
@@ -5310,7 +5310,7 @@
             ]
         },
         "shortsword_usurpers_firebolt_ii": {
-            "category": "sword_&_shield",
+            "category": "sword_and_shield",
             "name": "王劍疾雷Ⅱ",
             "attack": 180,
             "huixin": 0,
@@ -5352,7 +5352,7 @@
             "previous": "shortsword_usurpers_firebolt_i"
         },
         "shortsword_pukei_sword_i": {
-            "category": "sword_&_shield",
+            "category": "sword_and_shield",
             "name": "毒妖鳥單手劍Ⅰ",
             "attack": 110,
             "huixin": 0,
@@ -5395,7 +5395,7 @@
             "previous": "shortsword_fighter_sword"
         },
         "shortsword_venomedge": {
-            "category": "sword_&_shield",
+            "category": "sword_and_shield",
             "name": "毒妖劍希爾博古姆",
             "attack": 180,
             "huixin": 0,
@@ -5434,7 +5434,7 @@
             "previous": "shortsword_pukei_sword_ii"
         },
         "shortsword_hypnos_knife_i": {
-            "category": "sword_&_shield",
+            "category": "sword_and_shield",
             "name": "淺眠小刀Ⅰ",
             "attack": 80,
             "huixin": 0,
@@ -5476,7 +5476,7 @@
             "previous": "shortsword_hunters_knife_i"
         },
         "shortsword_morpheus_knife": {
-            "category": "sword_&_shield",
+            "category": "sword_and_shield",
             "name": "沉眠小刀",
             "attack": 140,
             "huixin": 0,
@@ -5515,7 +5515,7 @@
             "previous": "shortsword_hypnos_knife_ii"
         },
         "shortsword_grand_barong": {
-            "category": "sword_&_shield",
+            "category": "sword_and_shield",
             "name": "大地巴龍刀",
             "attack": 190,
             "huixin": 0,
@@ -5554,7 +5554,7 @@
             "previous": "shortsword_bone_barong_ii"
         },
         "shortsword_dirty_baron_i": {
-            "category": "sword_&_shield",
+            "category": "sword_and_shield",
             "name": "污濁男爵Ⅰ",
             "attack": 90,
             "huixin": 0,
@@ -5596,7 +5596,7 @@
             "previous": "shortsword_kamura_sword_ii"
         },
         "shortsword_royal_ludroth_claw": {
-            "category": "sword_&_shield",
+            "category": "sword_and_shield",
             "name": "水獸巨爪",
             "attack": 160,
             "huixin": 0,
@@ -5635,7 +5635,7 @@
             "previous": "shortsword_royal_claw_ii"
         },
         "shortsword_soldiers_dagger_ii": {
-            "category": "sword_&_shield",
+            "category": "sword_and_shield",
             "name": "士兵短劍Ⅱ",
             "attack": 200,
             "huixin": 0,
@@ -5677,7 +5677,7 @@
             "previous": "shortsword_soldiers_dagger_i"
         },
         "shortsword_odyssey_blade_i": {
-            "category": "sword_&_shield",
+            "category": "sword_and_shield",
             "name": "奧德賽之刃Ⅰ",
             "attack": 140,
             "huixin": 0,
@@ -5719,7 +5719,7 @@
             "previous": "shortsword_fighter_sword"
         },
         "shortsword_djinn_ii": {
-            "category": "sword_&_shield",
+            "category": "sword_and_shield",
             "name": "灼焰銳劍Ⅱ",
             "attack": 190,
             "huixin": 0,
@@ -5758,7 +5758,7 @@
             "previous": "shortsword_djinn_i"
         },
         "shortsword_khezu_razor_ii": {
-            "category": "sword_&_shield",
+            "category": "sword_and_shield",
             "name": "奇怪龍薙刀Ⅱ",
             "attack": 100,
             "huixin": 10,
@@ -5800,7 +5800,7 @@
             "previous": "shortsword_khezu_razor_i"
         },
         "shortsword_hypnos_knife_ii": {
-            "category": "sword_&_shield",
+            "category": "sword_and_shield",
             "name": "淺眠小刀Ⅱ",
             "attack": 90,
             "huixin": 0,
@@ -5842,7 +5842,7 @@
             "previous": "shortsword_hypnos_knife_i"
         },
         "shortsword_kamura_sword_ii": {
-            "category": "sword_&_shield",
+            "category": "sword_and_shield",
             "name": "神火鐵單刃Ⅱ",
             "attack": 60,
             "huixin": 0,
@@ -5887,7 +5887,7 @@
             "previous": "shortsword_kamura_sword_i"
         },
         "shortsword_flash_in_the_night": {
-            "category": "sword_&_shield",
+            "category": "sword_and_shield",
             "name": "闇夜劍【昏冥】",
             "attack": 180,
             "huixin": 30,
@@ -5926,7 +5926,7 @@
             "previous": "shortsword_hidden_edge_ii"
         },
         "shortsword_dirty_marquis": {
-            "category": "sword_&_shield",
+            "category": "sword_and_shield",
             "name": "污濁連射",
             "attack": 140,
             "huixin": 0,
@@ -5965,7 +5965,7 @@
             "previous": "shortsword_dirty_baron_ii"
         },
         "shortsword_master_odyssey": {
-            "category": "sword_&_shield",
+            "category": "sword_and_shield",
             "name": "大師奧德賽",
             "attack": 170,
             "huixin": 0,
@@ -6004,7 +6004,7 @@
             "previous": "shortsword_odyssey_blade_ii"
         },
         "shortsword_chief_kukri": {
-            "category": "sword_&_shield",
+            "category": "sword_and_shield",
             "name": "酋長曲刀",
             "attack": 130,
             "huixin": 0,
@@ -6047,7 +6047,7 @@
             "previous": "shortsword_bone_kukri_ii"
         },
         "shortsword_iron_beater_i": {
-            "category": "sword_&_shield",
+            "category": "sword_and_shield",
             "name": "初萌鐵劍Ⅰ",
             "attack": 140,
             "huixin": 0,
@@ -6089,7 +6089,7 @@
             "previous": "shortsword_fighter_sword"
         },
         "shortsword_kurenawi_ougi": {
-            "category": "sword_&_shield",
+            "category": "sword_and_shield",
             "name": "深紅扇色之薄重",
             "attack": 190,
             "huixin": 15,
@@ -6128,7 +6128,7 @@
             "previous": "shortsword_hana_no_nagoriwo_ii"
         },
         "shortsword_hunters_knife_i": {
-            "category": "sword_&_shield",
+            "category": "sword_and_shield",
             "name": "獵人小刀Ⅰ",
             "attack": 80,
             "huixin": 0,
@@ -6170,7 +6170,7 @@
             ]
         },
         "shortsword_iron_beater_ii": {
-            "category": "sword_&_shield",
+            "category": "sword_and_shield",
             "name": "初萌鐵劍Ⅱ",
             "attack": 170,
             "huixin": 0,
@@ -6213,7 +6213,7 @@
             "previous": "shortsword_iron_beater_i"
         },
         "shortsword_pukei_sword_ii": {
-            "category": "sword_&_shield",
+            "category": "sword_and_shield",
             "name": "毒妖鳥單手劍Ⅱ",
             "attack": 170,
             "huixin": 0,
@@ -6255,7 +6255,7 @@
             "previous": "shortsword_pukei_sword_i"
         },
         "shortsword_dirty_baron_ii": {
-            "category": "sword_&_shield",
+            "category": "sword_and_shield",
             "name": "污濁男爵Ⅱ",
             "attack": 110,
             "huixin": 0,
@@ -6297,7 +6297,7 @@
             "previous": "shortsword_dirty_baron_i"
         },
         "shortsword_royal_claw_ii": {
-            "category": "sword_&_shield",
+            "category": "sword_and_shield",
             "name": "水獸之爪Ⅱ",
             "attack": 100,
             "huixin": 0,
@@ -6340,7 +6340,7 @@
             "previous": "shortsword_royal_claw_i"
         },
         "shortsword_commanders_dagger": {
-            "category": "sword_&_shield",
+            "category": "sword_and_shield",
             "name": "指揮官短劍",
             "attack": 220,
             "huixin": 0,
@@ -6379,7 +6379,7 @@
             "previous": "shortsword_soldiers_dagger_ii"
         },
         "shortsword_bone_barong_i": {
-            "category": "sword_&_shield",
+            "category": "sword_and_shield",
             "name": "骨製巴龍刀Ⅰ",
             "attack": 150,
             "huixin": 0,
@@ -6422,7 +6422,7 @@
             "previous": "shortsword_chief_kukri"
         },
         "shortsword_exorcising_sword_i": {
-            "category": "sword_&_shield",
+            "category": "sword_and_shield",
             "name": "天具･調伏之劍Ⅰ",
             "attack": 120,
             "huixin": 0,
@@ -6465,7 +6465,7 @@
             "previous": "shortsword_kamura_sword_iii"
         },
         "shortsword_shaucha_pureblade": {
-            "category": "sword_&_shield",
+            "category": "sword_and_shield",
             "name": "大天具･伏劍不動",
             "attack": 190,
             "huixin": 0,
@@ -6504,7 +6504,7 @@
             "previous": "shortsword_exorcising_sword_ii"
         },
         "shortsword_fighter_sword": {
-            "category": "sword_&_shield",
+            "category": "sword_and_shield",
             "name": "鬥士之劍",
             "attack": 110,
             "huixin": 0,
@@ -6549,7 +6549,7 @@
             "previous": "shortsword_hunters_knife_ii"
         },
         "shortsword_smithys_pride": {
-            "category": "sword_&_shield",
+            "category": "sword_and_shield",
             "name": "花開重鐵劍",
             "attack": 200,
             "huixin": 0,
@@ -6588,7 +6588,7 @@
             "previous": "shortsword_iron_beater_ii"
         },
         "shortsword_rex_talon_i": {
-            "category": "sword_&_shield",
+            "category": "sword_and_shield",
             "name": "轟龍爪Ⅰ",
             "attack": 160,
             "huixin": -20,
@@ -6630,7 +6630,7 @@
             "previous": "shortsword_royal_claw_ii"
         },
         "shortsword_djinn_i": {
-            "category": "sword_&_shield",
+            "category": "sword_and_shield",
             "name": "灼焰銳劍Ⅰ",
             "attack": 120,
             "huixin": 0,
@@ -6672,7 +6672,7 @@
             "previous": "shortsword_pukei_sword_i"
         },
         "shortsword_icicle_spike_ii": {
-            "category": "sword_&_shield",
+            "category": "sword_and_shield",
             "name": "冰尖利刃Ⅱ",
             "attack": 120,
             "huixin": 30,
@@ -6714,7 +6714,7 @@
             "previous": "shortsword_icicle_spike_i"
         },
         "shortsword_bone_kukri_ii": {
-            "category": "sword_&_shield",
+            "category": "sword_and_shield",
             "name": "骨製曲刀Ⅱ",
             "attack": 110,
             "huixin": 0,
@@ -6758,7 +6758,7 @@
             "previous": "shortsword_bone_kukri_i"
         },
         "shortsword_hidden_edge_i": {
-            "category": "sword_&_shield",
+            "category": "sword_and_shield",
             "name": "隱密銳劍Ⅰ",
             "attack": 120,
             "huixin": 30,
@@ -6800,7 +6800,7 @@
             "previous": "shortsword_kamura_sword_iii"
         },
         "shortsword_usurpers_firebolt_i": {
-            "category": "sword_&_shield",
+            "category": "sword_and_shield",
             "name": "王劍疾雷Ⅰ",
             "attack": 120,
             "huixin": 0,
@@ -6842,7 +6842,7 @@
             "previous": "shortsword_exorcising_sword_i"
         },
         "shortsword_despots_crookbolt": {
-            "category": "sword_&_shield",
+            "category": "sword_and_shield",
             "name": "王牙劍【折雷】",
             "attack": 200,
             "huixin": 0,
@@ -6881,7 +6881,7 @@
             "previous": "shortsword_usurpers_firebolt_ii"
         },
         "shortsword_painful_razor": {
-            "category": "sword_&_shield",
+            "category": "sword_and_shield",
             "name": "奇怪龍痛苦薙刀",
             "attack": 140,
             "huixin": 15,
@@ -6920,7 +6920,7 @@
             "previous": "shortsword_khezu_razor_ii"
         },
         "shortsword_bone_kukri_i": {
-            "category": "sword_&_shield",
+            "category": "sword_and_shield",
             "name": "骨製曲刀Ⅰ",
             "attack": 90,
             "huixin": 0,
@@ -6962,7 +6962,7 @@
             ]
         },
         "shortsword_bone_barong_ii": {
-            "category": "sword_&_shield",
+            "category": "sword_and_shield",
             "name": "骨製巴龍刀Ⅱ",
             "attack": 180,
             "huixin": 0,
@@ -7004,7 +7004,7 @@
             "previous": "shortsword_bone_barong_i"
         },
         "shortsword_hidden_edge_ii": {
-            "category": "sword_&_shield",
+            "category": "sword_and_shield",
             "name": "隱密銳劍Ⅱ",
             "attack": 170,
             "huixin": 30,
@@ -7046,7 +7046,7 @@
             "previous": "shortsword_hidden_edge_i"
         },
         "shortsword_royal_claw_i": {
-            "category": "sword_&_shield",
+            "category": "sword_and_shield",
             "name": "水獸之爪Ⅰ",
             "attack": 90,
             "huixin": 0,
@@ -7088,7 +7088,7 @@
             "previous": "shortsword_kamura_sword_ii"
         },
         "shortsword_rex_talon_ii": {
-            "category": "sword_&_shield",
+            "category": "sword_and_shield",
             "name": "轟龍爪Ⅱ",
             "attack": 210,
             "huixin": -15,
@@ -7127,7 +7127,7 @@
             "previous": "shortsword_rex_talon_i"
         },
         "shortsword_soldiers_dagger_i": {
-            "category": "sword_&_shield",
+            "category": "sword_and_shield",
             "name": "士兵短劍Ⅰ",
             "attack": 190,
             "huixin": 0,
@@ -7169,7 +7169,7 @@
             "previous": "shortsword_iron_beater_ii"
         },
         "shortsword_icicle_spike_i": {
-            "category": "sword_&_shield",
+            "category": "sword_and_shield",
             "name": "冰尖利刃Ⅰ",
             "attack": 90,
             "huixin": 30,
@@ -7211,7 +7211,7 @@
             "previous": "shortsword_fighter_sword"
         },
         "shortsword_hi_frost_edge": {
-            "category": "sword_&_shield",
+            "category": "sword_and_shield",
             "name": "千年冰霜銳劍",
             "attack": 150,
             "huixin": 0,
@@ -7250,7 +7250,7 @@
             "previous": "shortsword_frost_edge_ii"
         },
         "shortsword_hunters_knife_ii": {
-            "category": "sword_&_shield",
+            "category": "sword_and_shield",
             "name": "獵人小刀Ⅱ",
             "attack": 100,
             "huixin": 0,
@@ -7294,7 +7294,7 @@
             "previous": "shortsword_hunters_knife_i"
         },
         "shortsword_odyssey_blade_ii": {
-            "category": "sword_&_shield",
+            "category": "sword_and_shield",
             "name": "奧德賽之刃Ⅱ",
             "attack": 160,
             "huixin": 0,
@@ -7336,7 +7336,7 @@
             "previous": "shortsword_odyssey_blade_i"
         },
         "shortsword_frost_edge_i": {
-            "category": "sword_&_shield",
+            "category": "sword_and_shield",
             "name": "冰霜銳劍Ⅰ",
             "attack": 80,
             "huixin": 0,
@@ -7378,7 +7378,7 @@
             "previous": "shortsword_kamura_sword_ii"
         },
         "shortsword_cunning_riposte_ii": {
-            "category": "sword_&_shield",
+            "category": "sword_and_shield",
             "name": "頂膝後摔Ⅱ",
             "attack": 150,
             "huixin": 0,
@@ -7420,7 +7420,7 @@
             "previous": "shortsword_cunning_riposte_i"
         },
         "shortsword_spiked_bat": {
-            "category": "sword_&_shield",
+            "category": "sword_and_shield",
             "name": "狼牙棒",
             "attack": 230,
             "huixin": -5,
@@ -7459,7 +7459,7 @@
             "previous": "shortsword_studded_club_ii"
         },
         "shortsword_flammensucher_ii": {
-            "category": "sword_&_shield",
+            "category": "sword_and_shield",
             "name": "蠻顎龍劍Ⅱ",
             "attack": 210,
             "huixin": -20,
@@ -7501,7 +7501,7 @@
             "previous": "shortsword_flammensucher_i"
         },
         "shortsword_barroth_club": {
-            "category": "sword_&_shield",
+            "category": "sword_and_shield",
             "name": "土砂衝擊",
             "attack": 200,
             "huixin": -20,
@@ -7540,7 +7540,7 @@
             "previous": "shortsword_carapace_mace_ii"
         },
         "shortsword_flammensucher_i": {
-            "category": "sword_&_shield",
+            "category": "sword_and_shield",
             "name": "蠻顎龍劍Ⅰ",
             "attack": 200,
             "huixin": -20,
@@ -7582,7 +7582,7 @@
             "previous": "shortsword_cocky_comrades"
         },
         "shortsword_lava_pick_i": {
-            "category": "sword_&_shield",
+            "category": "sword_and_shield",
             "name": "熔岩啄木鳥Ⅰ",
             "attack": 120,
             "huixin": 0,
@@ -7624,7 +7624,7 @@
             "previous": "shortsword_izuchi_sickle_ii"
         },
         "shortsword_secta_nulo_i": {
-            "category": "sword_&_shield",
+            "category": "sword_and_shield",
             "name": "靈魂劍零Ⅰ",
             "attack": 80,
             "huixin": 0,
@@ -7666,7 +7666,7 @@
             ]
         },
         "shortsword_secta_nulo_white_i": {
-            "category": "sword_&_shield",
+            "category": "sword_and_shield",
             "name": "白魂劍零Ⅰ",
             "attack": 110,
             "huixin": 0,
@@ -7709,7 +7709,7 @@
             "previous": "shortsword_secta_unu"
         },
         "shortsword_secta_unu_yellow": {
-            "category": "sword_&_shield",
+            "category": "sword_and_shield",
             "name": "黃魂劍壹",
             "attack": 170,
             "huixin": 0,
@@ -7748,7 +7748,7 @@
             "previous": "shortsword_secta_nulo_yellow_i"
         },
         "shortsword_secta_nulo_red_i": {
-            "category": "sword_&_shield",
+            "category": "sword_and_shield",
             "name": "紅魂劍零Ⅰ",
             "attack": 80,
             "huixin": 0,
@@ -7790,7 +7790,7 @@
             "previous": "shortsword_secta_nulo_i"
         },
         "shortsword_sleepy_shellsword_i": {
-            "category": "sword_&_shield",
+            "category": "sword_and_shield",
             "name": "誘入夢鄉之貝劍Ⅰ",
             "attack": 100,
             "huixin": 0,
@@ -7831,7 +7831,7 @@
             ]
         },
         "shortsword_rampage_sword_i": {
-            "category": "sword_&_shield",
+            "category": "sword_and_shield",
             "name": "百龍劍Ⅰ",
             "attack": 150,
             "huixin": 0,
@@ -7872,7 +7872,7 @@
             ]
         },
         "shortsword_secta_unu_black": {
-            "category": "sword_&_shield",
+            "category": "sword_and_shield",
             "name": "黑魂劍壹",
             "attack": 190,
             "huixin": 0,
@@ -7911,7 +7911,7 @@
             "previous": "shortsword_secta_nulo_black_ii"
         },
         "shortsword_secta_nulo_black_i": {
-            "category": "sword_&_shield",
+            "category": "sword_and_shield",
             "name": "黑魂劍零Ⅰ",
             "attack": 140,
             "huixin": 0,
@@ -7953,7 +7953,7 @@
             "previous": "shortsword_secta_nulo_white_i"
         },
         "shortsword_azure_elder_sword_ii": {
-            "category": "sword_&_shield",
+            "category": "sword_and_shield",
             "name": "暴風神劍Ⅱ",
             "attack": 190,
             "huixin": 0,
@@ -7992,7 +7992,7 @@
             "previous": "shortsword_azure_elder_sword_i"
         },
         "shortsword_rajang_club_ii": {
-            "category": "sword_&_shield",
+            "category": "sword_and_shield",
             "name": "金獸棍Ⅱ",
             "attack": 210,
             "huixin": -15,
@@ -8031,7 +8031,7 @@
             "previous": "shortsword_rajang_club_i"
         },
         "shortsword_gnashing_flammensucher": {
-            "category": "sword_&_shield",
+            "category": "sword_and_shield",
             "name": "蠻顎劍追尋者",
             "attack": 220,
             "huixin": -20,
@@ -8070,7 +8070,7 @@
             "previous": "shortsword_flammensucher_ii"
         },
         "shortsword_bone_tabar_ii": {
-            "category": "sword_&_shield",
+            "category": "sword_and_shield",
             "name": "骨之戰斧Ⅱ",
             "attack": 190,
             "huixin": -25,
@@ -8112,7 +8112,7 @@
             "previous": "shortsword_bone_tabar_i"
         },
         "shortsword_rampage_sword_ii": {
-            "category": "sword_&_shield",
+            "category": "sword_and_shield",
             "name": "百龍劍Ⅱ",
             "attack": 170,
             "huixin": 0,
@@ -8154,7 +8154,7 @@
             "previous": "shortsword_rampage_sword_i"
         },
         "shortsword_burly_beak": {
-            "category": "sword_&_shield",
+            "category": "sword_and_shield",
             "name": "嘴劍巨喙",
             "attack": 190,
             "huixin": 0,
@@ -8193,7 +8193,7 @@
             "previous": "shortsword_lava_pick_ii"
         },
         "shortsword_secta_unu_green": {
-            "category": "sword_&_shield",
+            "category": "sword_and_shield",
             "name": "綠魂劍壹",
             "attack": 160,
             "huixin": 0,
@@ -8232,7 +8232,7 @@
             "previous": "shortsword_secta_nulo_green_i"
         },
         "shortsword_brash_buddies_i": {
-            "category": "sword_&_shield",
+            "category": "sword_and_shield",
             "name": "突進盾劍Ⅰ",
             "attack": 100,
             "huixin": 0,
@@ -8275,7 +8275,7 @@
             "previous": "shortsword_bone_kukri_ii"
         },
         "shortsword_izuchi_sickle_i": {
-            "category": "sword_&_shield",
+            "category": "sword_and_shield",
             "name": "鐮鼬龍之鐮Ⅰ",
             "attack": 60,
             "huixin": 10,
@@ -8317,7 +8317,7 @@
             "previous": "shortsword_bone_kukri_i"
         },
         "shortsword_brash_buddies_ii": {
-            "category": "sword_&_shield",
+            "category": "sword_and_shield",
             "name": "突進盾劍Ⅱ",
             "attack": 150,
             "huixin": 0,
@@ -8359,7 +8359,7 @@
             "previous": "shortsword_brash_buddies_i"
         },
         "shortsword_sinister_sword_i": {
-            "category": "sword_&_shield",
+            "category": "sword_and_shield",
             "name": "禍劍【封】Ⅰ",
             "attack": 130,
             "huixin": 0,
@@ -8400,7 +8400,7 @@
             ]
         },
         "shortsword_catburglar": {
-            "category": "sword_&_shield",
+            "category": "sword_and_shield",
             "name": "喵喵棒",
             "attack": 130,
             "huixin": 0,
@@ -8434,12 +8434,12 @@
             "reload": "",
             "ammo": "",
             "views": 13,
-            "description": "貓拳？的最終強化版\n～喵♪喵喵喵♪～\n　　　出自老大的話",
+            "description": "？貓拳的最終強化版\n～喵♪喵喵喵♪～\n　　　出自老大的話",
             "cn_id": "60643ad42b316f002a860a74",
             "previous": "shortsword_catspaw_ii"
         },
         "shortsword_rampage_sword_iii": {
-            "category": "sword_&_shield",
+            "category": "sword_and_shield",
             "name": "百龍劍Ⅲ",
             "attack": 180,
             "huixin": 0,
@@ -8481,7 +8481,7 @@
             "previous": "shortsword_rampage_sword_ii"
         },
         "shortsword_lava_pick_ii": {
-            "category": "sword_&_shield",
+            "category": "sword_and_shield",
             "name": "熔岩啄木鳥Ⅱ",
             "attack": 150,
             "huixin": 0,
@@ -8523,7 +8523,7 @@
             "previous": "shortsword_lava_pick_i"
         },
         "shortsword_secta_unu_white": {
-            "category": "sword_&_shield",
+            "category": "sword_and_shield",
             "name": "白魂劍壹",
             "attack": 140,
             "huixin": 0,
@@ -8562,7 +8562,7 @@
             "previous": "shortsword_secta_nulo_white_i"
         },
         "shortsword_secta_unu_red": {
-            "category": "sword_&_shield",
+            "category": "sword_and_shield",
             "name": "紅魂劍壹",
             "attack": 140,
             "huixin": 0,
@@ -8601,7 +8601,7 @@
             "previous": "shortsword_secta_nulo_red_ii"
         },
         "shortsword_sinister_sword_ii": {
-            "category": "sword_&_shield",
+            "category": "sword_and_shield",
             "name": "禍劍【封】Ⅱ",
             "attack": 140,
             "huixin": 0,
@@ -8643,7 +8643,7 @@
             "previous": "shortsword_sinister_sword_i"
         },
         "shortsword_carapace_mace_ii": {
-            "category": "sword_&_shield",
+            "category": "sword_and_shield",
             "name": "土砂短錘Ⅱ",
             "attack": 150,
             "huixin": -20,
@@ -8686,7 +8686,7 @@
             "previous": "shortsword_carapace_mace_i"
         },
         "shortsword_studded_club_ii": {
-            "category": "sword_&_shield",
+            "category": "sword_and_shield",
             "name": "角龍棒Ⅱ",
             "attack": 220,
             "huixin": -5,
@@ -8728,7 +8728,7 @@
             "previous": "shortsword_studded_club_i"
         },
         "shortsword_mincing_blade_i": {
-            "category": "sword_&_shield",
+            "category": "sword_and_shield",
             "name": "雪鬼獸菜刀Ⅰ",
             "attack": 170,
             "huixin": -15,
@@ -8770,7 +8770,7 @@
             "previous": "shortsword_brash_buddies_i"
         },
         "shortsword_secta_nulo_yellow_i": {
-            "category": "sword_&_shield",
+            "category": "sword_and_shield",
             "name": "黃魂劍零Ⅰ",
             "attack": 100,
             "huixin": 0,
@@ -8812,7 +8812,7 @@
             "previous": "shortsword_secta_unu"
         },
         "shortsword_sinister_shadekeeper": {
-            "category": "sword_&_shield",
+            "category": "sword_and_shield",
             "name": "禍劍幽鬼阿弗提",
             "attack": 200,
             "huixin": 0,
@@ -8851,7 +8851,7 @@
             "previous": "shortsword_sinister_sword_ii"
         },
         "shortsword_sleepy_shellsword_ii": {
-            "category": "sword_&_shield",
+            "category": "sword_and_shield",
             "name": "誘入夢鄉之貝劍Ⅱ",
             "attack": 150,
             "huixin": 0,
@@ -8893,7 +8893,7 @@
             "previous": "shortsword_sleepy_shellsword_i"
         },
         "shortsword_mincing_blade_ii": {
-            "category": "sword_&_shield",
+            "category": "sword_and_shield",
             "name": "雪鬼獸菜刀Ⅱ",
             "attack": 220,
             "huixin": -15,
@@ -8932,7 +8932,7 @@
             "previous": "shortsword_mincing_blade_i"
         },
         "shortsword_ragdos_tabar": {
-            "category": "sword_&_shield",
+            "category": "sword_and_shield",
             "name": "拉客多斯戰斧",
             "attack": 230,
             "huixin": -25,
@@ -8971,7 +8971,7 @@
             "previous": "shortsword_bone_tabar_ii"
         },
         "shortsword_azure_elder_sword_i": {
-            "category": "sword_&_shield",
+            "category": "sword_and_shield",
             "name": "暴風神劍Ⅰ",
             "attack": 170,
             "huixin": 0,
@@ -9012,7 +9012,7 @@
             ]
         },
         "shortsword_carapace_mace_i": {
-            "category": "sword_&_shield",
+            "category": "sword_and_shield",
             "name": "土砂短錘Ⅰ",
             "attack": 120,
             "huixin": -20,
@@ -9054,7 +9054,7 @@
             "previous": "shortsword_bone_kukri_ii"
         },
         "shortsword_cocky_comrades": {
-            "category": "sword_&_shield",
+            "category": "sword_and_shield",
             "name": "猛進劍【豬突】",
             "attack": 180,
             "huixin": 0,
@@ -9096,7 +9096,7 @@
             "previous": "shortsword_brash_buddies_ii"
         },
         "shortsword_thunderbolt_sword_i": {
-            "category": "sword_&_shield",
+            "category": "sword_and_shield",
             "name": "雷鳴神劍Ⅰ",
             "attack": 180,
             "huixin": 0,
@@ -9134,7 +9134,7 @@
             "cn_id": "60643ad42b316f002a860a6e"
         },
         "shortsword_secta_nulo_black_ii": {
-            "category": "sword_&_shield",
+            "category": "sword_and_shield",
             "name": "黑魂劍零Ⅱ",
             "attack": 160,
             "huixin": 0,
@@ -9176,7 +9176,7 @@
             "previous": "shortsword_secta_nulo_black_i"
         },
         "shortsword_rajang_club_i": {
-            "category": "sword_&_shield",
+            "category": "sword_and_shield",
             "name": "金獸棍Ⅰ",
             "attack": 200,
             "huixin": -20,
@@ -9217,7 +9217,7 @@
             ]
         },
         "shortsword_catspaw_i": {
-            "category": "sword_&_shield",
+            "category": "sword_and_shield",
             "name": "貓拳？Ⅰ",
             "attack": 80,
             "huixin": 0,
@@ -9258,7 +9258,7 @@
             ]
         },
         "shortsword_bone_tabar_i": {
-            "category": "sword_&_shield",
+            "category": "sword_and_shield",
             "name": "骨之戰斧Ⅰ",
             "attack": 160,
             "huixin": -25,
@@ -9300,7 +9300,7 @@
             "previous": "shortsword_chief_kukri"
         },
         "shortsword_princess_rapier_i": {
-            "category": "sword_&_shield",
+            "category": "sword_and_shield",
             "name": "公主細劍Ⅰ",
             "attack": 180,
             "huixin": 10,
@@ -9342,7 +9342,7 @@
             "previous": "shortsword_bone_barong_i"
         },
         "shortsword_studded_club_i": {
-            "category": "sword_&_shield",
+            "category": "sword_and_shield",
             "name": "角龍棒Ⅰ",
             "attack": 160,
             "huixin": -5,
@@ -9384,7 +9384,7 @@
             "previous": "shortsword_carapace_mace_ii"
         },
         "shortsword_secta_unu": {
-            "category": "sword_&_shield",
+            "category": "sword_and_shield",
             "name": "靈魂劍壹",
             "attack": 90,
             "huixin": 0,
@@ -9428,7 +9428,7 @@
             "previous": "shortsword_secta_nulo_i"
         },
         "shortsword_secta_nulo_red_ii": {
-            "category": "sword_&_shield",
+            "category": "sword_and_shield",
             "name": "紅魂劍零Ⅱ",
             "attack": 90,
             "huixin": 0,
@@ -9470,7 +9470,7 @@
             "previous": "shortsword_secta_nulo_red_i"
         },
         "shortsword_izuchi_sickle_ii": {
-            "category": "sword_&_shield",
+            "category": "sword_and_shield",
             "name": "鐮鼬龍之鐮Ⅱ",
             "attack": 80,
             "huixin": 12,
@@ -9513,7 +9513,7 @@
             "previous": "shortsword_izuchi_sickle_i"
         },
         "shortsword_waking_nightmare": {
-            "category": "sword_&_shield",
+            "category": "sword_and_shield",
             "name": "睡貝劍魯德特普斯",
             "attack": 180,
             "huixin": 0,
@@ -9552,7 +9552,7 @@
             "previous": "shortsword_sleepy_shellsword_ii"
         },
         "shortsword_princess_rapier_ii": {
-            "category": "sword_&_shield",
+            "category": "sword_and_shield",
             "name": "公主細劍Ⅱ",
             "attack": 210,
             "huixin": 10,
@@ -9591,7 +9591,7 @@
             "previous": "shortsword_princess_rapier_i"
         },
         "shortsword_snapper_sickle": {
-            "category": "sword_&_shield",
+            "category": "sword_and_shield",
             "name": "鐮鼬龍風鐮",
             "attack": 150,
             "huixin": 15,
@@ -9630,7 +9630,7 @@
             "previous": "shortsword_izuchi_sickle_ii"
         },
         "shortsword_secta_nulo_green_i": {
-            "category": "sword_&_shield",
+            "category": "sword_and_shield",
             "name": "綠魂劍零Ⅰ",
             "attack": 100,
             "huixin": 0,
@@ -9672,7 +9672,7 @@
             "previous": "shortsword_secta_unu"
         },
         "shortsword_catspaw_ii": {
-            "category": "sword_&_shield",
+            "category": "sword_and_shield",
             "name": "貓拳？Ⅱ",
             "attack": 100,
             "huixin": 0,
@@ -9714,7 +9714,7 @@
             "previous": "shortsword_catspaw_i"
         },
         "shortsword_rampage_sword_iv": {
-            "category": "sword_&_shield",
+            "category": "sword_and_shield",
             "name": "百龍劍Ⅳ",
             "attack": 190,
             "huixin": 0,

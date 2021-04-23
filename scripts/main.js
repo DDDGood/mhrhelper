@@ -28,8 +28,8 @@ var lastTime = startTime;
 $(document).ready(Initialize);
 
 function Initialize() {
-    // LoadData(['data/mhrdex.json', 'data/mhrmoves.json', 'data/endemics.json', "data/small_monster.json", "data/weapons.json", "data/items.json", "data/quests.json", "data/item_source.json", "data/meowcenaries.json"], onDexLoaded);
-    LoadData(['data/mhrdex.json', 'data/mhrmoves.json', 'data/endemics.json', "data/small_monster.json", "data/weapons.json", "data/items.json", "data/quests.json", "data/item_source.json", "data/meowcenaries.json", "data/raw/parsedweapon.json", "data/raw/temp.json", "data/raw/item-cn-jp.json", "data/cntokey.json", "data/cntotw.json", "data/jptotw.json"], tryOnDexLoaded);
+    LoadData(['data/mhrdex.json', 'data/mhrmoves.json', 'data/endemics.json', "data/small_monster.json", "data/weapons.json", "data/items.json", "data/quests.json", "data/item_source.json", "data/meowcenaries.json", "data/equip_weapons.json"], onDexLoaded);
+    // LoadData(['data/mhrdex.json', 'data/mhrmoves.json', 'data/endemics.json', "data/small_monster.json", "data/weapons.json", "data/items.json", "data/quests.json", "data/item_source.json", "data/meowcenaries.json", "data/equip_weapons.json", "data/raw/temp.json", "data/raw/item-cn-jp.json", "data/cntokey.json", "data/cntotw.json", "data/jptotw.json"], tryOnDexLoaded);
 }
 
 function tryInitialize() {
@@ -451,6 +451,8 @@ function InitRouter() {
     const QuestComp = httpVueLoader("components/quest_main.vue");
     const MeowcenaryListComp = httpVueLoader("components/meowcenary_browse_all.vue");
     const MeowcenaryComp = httpVueLoader("components/meowcenary_main.vue");
+    const EquipWeaponListComp = httpVueLoader("components/equip_weapon_browse_all.vue");
+    const EquipWeaponComp = httpVueLoader("components/equip_weapon_main.vue");
 
     const router = new VueRouter({
         routes: [
@@ -553,6 +555,18 @@ function InitRouter() {
                 path: '/weapon/:name',
                 component: WeaponComp,
                 props: { weapons: GetData("weapons") }
+            },
+            {
+                name: 'equip_weaponlist',
+                path: '/equip_weapon',
+                component: EquipWeaponListComp,
+                props: { weapons: GetData("equip_weapons") }
+            },
+            {
+                name: 'equip_weapon',
+                path: '/equip_weapon/:name',
+                component: EquipWeaponComp,
+                props: { weapons: GetData("equip_weapons") }
             }
         ]
     });
