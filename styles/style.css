@@ -464,3 +464,6 @@ display: grid;
 }
 
 
+.avoid-pointer {
+  pointer-events: none;
+}
