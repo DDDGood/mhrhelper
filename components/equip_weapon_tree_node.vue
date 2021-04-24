@@ -9,97 +9,265 @@
     <router-link v-bind:to="'/equip_weapon/' + id" custom v-slot="{ navigate }">
       <div @click="navigate" class="weapon-container flex-column mouse-hover" ref="root">
         <div class="flex-row flex-start">
-          <div class="flex-center">
+          <div class="flex-center margin">
             <div class="text-l">{{ weapon.name}}</div>
           </div>
-          <div class="flex-row">
-            <img
-              :src="'images/icons/equipments/hole1.png'"
-              class="card-text-icon"
-              v-for="i in holes[0]"
-              :key="i"
-            />
-            <img
-              :src="'images/icons/equipments/hole2.png'"
-              class="card-text-icon"
-              v-for="i in holes[1]"
-              :key="i"
-            />
-            <img
-              :src="'images/icons/equipments/hole3.png'"
-              class="card-text-icon"
-              v-for="i in holes[2]"
-              :key="i"
-            />
+          <div class="flex-row" v-if="showtype === 0 || showtype === 2">
+            <div class="flex-center">
+              <img
+                :src="'images/icons/equipments/hole1.png'"
+                class="card-text-icon"
+                v-for="i in holes[0]"
+                :key="i"
+              />
+            </div>
+            <div class="flex-center">
+              <img
+                :src="'images/icons/equipments/hole2.png'"
+                class="card-text-icon"
+                v-for="i in holes[1]"
+                :key="i"
+              />
+            </div>
+            <div class="flex-center">
+              <img
+                :src="'images/icons/equipments/hole3.png'"
+                class="card-text-icon"
+                v-for="i in holes[2]"
+                :key="i"
+              />
+            </div>
           </div>
         </div>
-
-        <div class="flex-row flex-start">
-          <div class="flex-row">
-            <img :src="'images/icons/status/attack_up.png'" class="card-text-icon" />
-            <div class="text-m">{{weapon.attack}}</div>
-          </div>
-          <div v-if="weapon.huixin!=0" class="flex-row">
-            <img :src="'images/icons/status/critical_up.png'" class="card-text-icon" />
-            <div class="text-m">{{weapon.huixin}}</div>
-          </div>
-          <div v-if="weapon.defense!=0" class="flex-row">
-            <img :src="'images/icons/status/defense_up.png'" class="card-text-icon" />
-            <div class="text-m">{{weapon.defense}}</div>
-          </div>
-          <div v-if="weapon.fire!=0" class="flex-row">
-            <img :src="'images/icons/status/fire.png'" class="card-text-icon" />
-            <div class="text-m">{{weapon.fire}}</div>
-          </div>
-          <div v-if="weapon.water!=0" class="flex-row">
-            <img :src="'images/icons/status/water.png'" class="card-text-icon" />
-            <div class="text-m">{{weapon.water}}</div>
-          </div>
-          <div v-if="weapon.thunder!=0" class="flex-row">
-            <img :src="'images/icons/status/thunder.png'" class="card-text-icon" />
-            <div class="text-m">{{weapon.thunder}}</div>
-          </div>
-          <div v-if="weapon.ice!=0" class="flex-row">
-            <img :src="'images/icons/status/ice.png'" class="card-text-icon" />
-            <div class="text-m">{{weapon.ice}}</div>
-          </div>
-          <div v-if="weapon.dragon!=0" class="flex-row">
-            <img :src="'images/icons/status/dragon.png'" class="card-text-icon" />
-            <div class="text-m">{{weapon.dragon}}</div>
-          </div>
-        </div>
-        <div class="flex-row" style="justify-content:space-between;">
-          <div class="flex-column">
-            <div v-if="infoType === 'melee'" class="flex-row flex-start">
-              <img :src="'images/weapons/icons/cut.png'" class="card-text-icon" />
-              <div>
-                <div class="flex cut-container">
-                  <div style="background-color:#BE3843;" :style="{'width': cuts0[0] + 'px'}"></div>
-                  <div style="background-color:#D3673D;" :style="{'width': cuts0[1] + 'px'}"></div>
-                  <div style="background-color:#C9B232;" :style="{'width': cuts0[2] + 'px'}"></div>
-                  <div style="background-color:#81B034;" :style="{'width': cuts0[3] + 'px'}"></div>
-                  <div style="background-color:#3A58D7;" :style="{'width': cuts0[4] + 'px'}"></div>
-                  <div style="background-color:#E2E2E2;" :style="{'width': cuts0[5] + 'px'}"></div>
-                  <div style="background-color:#885AEC;" :style="{'width': cuts0[6] + 'px'}"></div>
-                </div>
-                <div class="flex cut-container">
-                  <div style="background-color:#BE3843;" :style="{'width': cuts5[0] + 'px'}"></div>
-                  <div style="background-color:#D3673D;" :style="{'width': cuts5[1] + 'px'}"></div>
-                  <div style="background-color:#C9B232;" :style="{'width': cuts5[2] + 'px'}"></div>
-                  <div style="background-color:#81B034;" :style="{'width': cuts5[3] + 'px'}"></div>
-                  <div style="background-color:#3A58D7;" :style="{'width': cuts5[4] + 'px'}"></div>
-                  <div style="background-color:#E2E2E2;" :style="{'width': cuts5[5] + 'px'}"></div>
-                  <div style="background-color:#885AEC;" :style="{'width': cuts5[6] + 'px'}"></div>
-                </div>
+        <div v-if="showtype === 0|| showtype === 2">
+          <div class="flex-row flex-start trait-line">
+            <div class="flex-row">
+              <div class="flex flex-center">
+                <img :src="'images/icons/status/attack_up.png'" class="card-text-icon" />
+              </div>
+              <div class="flex flex-center">
+                <div class="flex text-m text-center">{{weapon.attack}}</div>
               </div>
             </div>
-            <!-- <div class="text-s text-color-grey">{{ weapons[id].description}}</div> -->
+            <div v-if="weapon.huixin!=0" class="flex-row">
+              <div class="flex flex-center">
+                <img :src="'images/icons/status/critical_up.png'" class="card-text-icon" />
+              </div>
+              <div class="flex flex-center">
+                <div class="text-m text-center">{{weapon.huixin + '%'}}</div>
+              </div>
+            </div>
+            <div v-if="weapon.defense!=0" class="flex-row">
+              <div class="flex flex-center">
+                <img :src="'images/icons/status/defense_up.png'" class="card-text-icon" />
+              </div>
+              <div class="flex flex-center">
+                <div class="text-m">{{weapon.defense}}</div>
+              </div>
+            </div>
+            <div v-if="weapon.fire!=0" class="flex-row">
+              <div class="flex flex-center">
+                <img :src="'images/icons/status/fire.png'" class="card-text-icon" />
+              </div>
+              <div class="flex flex-center">
+                <div class="text-m">{{weapon.fire}}</div>
+              </div>
+            </div>
+            <div v-if="weapon.water!=0" class="flex-row">
+              <div class="flex flex-center">
+                <img :src="'images/icons/status/water.png'" class="card-text-icon" />
+              </div>
+              <div class="flex flex-center">
+                <div class="text-m">{{weapon.water}}</div>
+              </div>
+            </div>
+            <div v-if="weapon.thunder!=0" class="flex-row">
+              <div class="flex flex-center">
+                <img :src="'images/icons/status/thunder.png'" class="card-text-icon" />
+              </div>
+              <div class="flex flex-center">
+                <div class="text-m">{{weapon.thunder}}</div>
+              </div>
+            </div>
+            <div v-if="weapon.ice!=0" class="flex-row">
+              <div class="flex flex-center">
+                <img :src="'images/icons/status/ice.png'" class="card-text-icon" />
+              </div>
+              <div class="flex flex-center">
+                <div class="text-m">{{weapon.ice}}</div>
+              </div>
+            </div>
+            <div v-if="weapon.dragon!=0" class="flex-row">
+              <div class="flex flex-center">
+                <img :src="'images/icons/status/dragon.png'" class="card-text-icon" />
+              </div>
+              <div class="flex flex-center">
+                <div class="text-m">{{weapon.dragon}}</div>
+              </div>
+            </div>
+            <div v-if="weapon.poison!=0" class="flex-row">
+              <div class="flex flex-center">
+                <img :src="'images/icons/status/poison.png'" class="card-text-icon" />
+              </div>
+              <div class="flex flex-center">
+                <div class="text-m">{{weapon.poison}}</div>
+              </div>
+            </div>
+            <div v-if="weapon.sleep!=0" class="flex-row">
+              <div class="flex flex-center">
+                <img :src="'images/icons/status/sleep.png'" class="card-text-icon" />
+              </div>
+              <div class="flex flex-center">
+                <div class="text-m">{{weapon.sleep}}</div>
+              </div>
+            </div>
+            <div v-if="weapon.paralyze!=0" class="flex-row">
+              <div class="flex flex-center">
+                <img :src="'images/icons/status/paralysis.png'" class="card-text-icon" />
+              </div>
+              <div class="flex flex-center">
+                <div class="text-m">{{weapon.paralyze}}</div>
+              </div>
+            </div>
+            <div v-if="weapon.blasting!=0" class="flex-row">
+              <div class="flex flex-center">
+                <img :src="'images/icons/status/blast.png'" class="card-text-icon" />
+              </div>
+              <div class="flex flex-center">
+                <div class="text-m">{{weapon.blasting}}</div>
+              </div>
+            </div>
+            <div
+              v-if="weapon.category==='charge_blade' || weapon.category==='switch_axe'"
+              class="flex-row"
+            >
+              <div class="flex flex-center">
+                <img :src="'images/icons/equipments/phial_full.png'" class="card-text-icon" />
+              </div>
+              <div class="text-m">{{weapon.phial}}</div>
+            </div>
+            <div v-if="weapon.category==='gunlance'" class="flex-row">
+              <div class="flex flex-center">
+                <img :src="'images/icons/equipments/shelling.png'" class="card-text-icon" />
+              </div>
+              <div class="flex text-m">{{weapon.shelling}}</div>
+            </div>
+            <div v-if="weapon.category==='insect_glaive'" class="flex-row">
+              <div class="flex flex-center">
+                <img :src="'images/weapons/icons/kinsect_blunt.png'" class="card-text-icon" />
+              </div>
+              <div class="flex text-m">{{weapon.kinsect}}</div>
+            </div>
+          </div>
+          <div class="flex-row" style="justify-content:space-between;">
+            <div class="flex-column">
+              <div v-if="infoType === 'melee'" class="flex-row flex-start">
+                <img :src="'images/weapons/icons/cut.png'" class="card-text-icon" />
+                <div>
+                  <div class="flex sharpness-container">
+                    <div style="background-color:#BE3843;" :style="{'width': cuts0[0] + 'px'}"></div>
+                    <div style="background-color:#D3673D;" :style="{'width': cuts0[1] + 'px'}"></div>
+                    <div style="background-color:#C9B232;" :style="{'width': cuts0[2] + 'px'}"></div>
+                    <div style="background-color:#81B034;" :style="{'width': cuts0[3] + 'px'}"></div>
+                    <div style="background-color:#3A58D7;" :style="{'width': cuts0[4] + 'px'}"></div>
+                    <div style="background-color:#E2E2E2;" :style="{'width': cuts0[5] + 'px'}"></div>
+                    <div style="background-color:#885AEC;" :style="{'width': cuts0[6] + 'px'}"></div>
+                  </div>
+                  <div class="flex sharpness-container">
+                    <div style="background-color:#BE3843;" :style="{'width': cuts5[0] + 'px'}"></div>
+                    <div style="background-color:#D3673D;" :style="{'width': cuts5[1] + 'px'}"></div>
+                    <div style="background-color:#C9B232;" :style="{'width': cuts5[2] + 'px'}"></div>
+                    <div style="background-color:#81B034;" :style="{'width': cuts5[3] + 'px'}"></div>
+                    <div style="background-color:#3A58D7;" :style="{'width': cuts5[4] + 'px'}"></div>
+                    <div style="background-color:#E2E2E2;" :style="{'width': cuts5[5] + 'px'}"></div>
+                    <div style="background-color:#885AEC;" :style="{'width': cuts5[6] + 'px'}"></div>
+                  </div>
+                </div>
+              </div>
+              <!-- <div class="text-s text-grey">{{ weapons[id].description}}</div> -->
+            </div>
+          </div>
+          <div
+            class="flex-row flex-start trait-line"
+            v-if="weapon.category==='light_bowgun' || weapon.category==='heavy_bowgun'"
+          >
+            <div class="flex-row">
+              <div class="flex flex-center">
+                <!-- <img :src="'images/icons/status/attack_up.png'" class="card-text-icon" /> -->
+              </div>
+              <div class="flex flex-center">
+                <div class="flex text-m text-center">{{weapon.offset + '-'}}</div>
+              </div>
+            </div>
+            <div class="flex-row">
+              <div class="flex flex-center">
+                <!-- <img :src="'images/icons/status/attack_up.png'" class="card-text-icon" /> -->
+              </div>
+              <div class="flex flex-center">
+                <div class="flex text-m text-center">{{ weapon.recoil+ '-'}}</div>
+              </div>
+            </div>
+            <div class="flex-row">
+              <div class="flex flex-center">
+                <!-- <img :src="'images/icons/status/attack_up.png'" class="card-text-icon" /> -->
+              </div>
+              <div class="flex flex-center">
+                <div class="flex text-m text-center">{{weapon.reload}}</div>
+              </div>
+            </div>
+          </div>
+          <div class="flex-row flex-start trait-line" v-if="weapon.category==='bow' ">
+            <div class="flex-row">
+              <div class="flex flex-center">
+                <!-- <img :src="'images/icons/status/attack_up.png'" class="card-text-icon" /> -->
+              </div>
+              <div class="flex flex-center">
+                <span class="text-m text-center">
+                  {{weapon.xuli.replaceAll('Lv','')
+                  + ( weapon.xuli_add === ""? "": ',(' + weapon.xuli_add.replaceAll('Lv','') + ')')
+                  }}
+                </span>
+              </div>
+            </div>
+          </div>
+          <div class="flex-row flex-start trait-line" v-if="weapon.category==='bow' ">
+            <div class="flex-row">
+              <div class="flex flex-center">
+                <!-- <img :src="'images/icons/status/attack_up.png'" class="card-text-icon" /> -->
+              </div>
+              <div class="flex flex-center">
+                <template v-for="value, type in coatings">
+                  <img
+                    v-if="value!==0"
+                    :key="type"
+                    :src="'images/icons/equipments/' + type + (value ===2? '_plus':'') + '.png'"
+                    class="card-text-icon"
+                  />
+                  <!-- <span class="text-m text-center" :key="type" v-if="value!==0">
+                  {{'-'+type.replaceAll('瓶','')
+                  + ( value === 2? '+': '')
+                  }}
+                  </span>-->
+                </template>
+              </div>
+            </div>
+            <!-- <div class="flex-row">
+            <div class="flex flex-center">
+            </div>
+            <div class="flex flex-center"></div>
+            </div>-->
           </div>
         </div>
       </div>
     </router-link>
     <template v-for="(anothernode, index) in weapon.next">
-      <treenode :weapons="weapons" :id="anothernode" :key="index" :ref="id + '_' + anothernode"></treenode>
+      <treenode
+        :weapons="weapons"
+        :id="anothernode"
+        :key="index"
+        :ref="id + '_' + anothernode"
+        :showtype="showtype"
+      ></treenode>
     </template>
   </div>
 </template>
@@ -118,7 +286,7 @@ module.exports = {
       holes: []
     };
   },
-  props: ["weapons", "id", "comp"],
+  props: ["weapons", "id", "comp", "showtype"],
   computed: {
     weapon: function () {
       return this.weapons[this.id];
@@ -136,9 +304,45 @@ module.exports = {
       else if (this.weapon.category === "light_bowgun" || this.weapon.category === "heavy_bowgun")
         type = "bowgun";
       return type;
+    },
+    coatings: function () {
+      let coatings = {
+        '接擊瓶': 0,
+        '強擊瓶': 0,
+        '毒瓶': 0,
+        '麻痺瓶': 0,
+        '睡眠瓶': 0,
+        '爆破瓶': 0,
+        '減氣瓶': 0,
+      }
+      for (let type in coatings) {
+        if (this.weapon.coatings.indexOf(type) > -1) {
+          coatings[type] = 1;
+        } else if (this.weapon.coatings_up.indexOf(type) > -1) {
+          coatings[type] = 2;
+        }
+      }
+      return coatings;
     }
   },
   methods: {
+    refreshLine: function () {
+      this.rootpos = {
+        x: this.$refs.root.offsetLeft,
+        y: this.$refs.root.offsetTop + this.$refs.root.clientHeight / 2,
+      };
+      this.toPositions = [];
+      for (let i in this.weapon.next) {
+        let refLink = this.$refs[this.id + "_" + this.weapon.next[i]][0];
+        if (refLink.$el == undefined)
+          continue;
+        this.toPositions.push({
+          x:
+            refLink.$el.offsetLeft,
+          y: refLink.rootpos.y
+        });
+      }
+    }
   },
   mounted: function () {
     this.cuts0 = this.weapon.cut0.split(",");
@@ -147,19 +351,10 @@ module.exports = {
       return parseInt(item, 10);
     });
     // console.log(this.$refs.root);
-    this.rootpos = {
-      x: this.$refs.root.offsetLeft,
-      y: this.$refs.root.offsetTop + this.$refs.root.clientHeight / 2,
-    };
-    for (let i in this.weapon.next) {
-      let refLink = this.$refs[this.id + "_" + this.weapon.next[i]][0];
-      if (refLink.$el == undefined)
-        continue;
-      this.toPositions.push({
-        x:
-          refLink.$el.offsetLeft,
-        y: refLink.rootpos.y
-      });
+    this.refreshLine();
+  },
+  watch: {
+    showtype: function (newValue, oldValue) {
     }
   },
   components: {
@@ -193,7 +388,7 @@ text {
   text-anchor: middle;
 }
 
-.indent {
+.indent .indent {
   margin-left: 20px;
 }
 
@@ -206,11 +401,20 @@ text {
   padding: 4px;
   justify-content: space-between;
 }
-
-.cut-container {
+.trait-line {
+  color: grey;
+}
+.sharpness-container {
   background-color: rgb(63, 63, 63);
   padding: 1px;
   width: 88px;
   height: 4px;
+}
+
+/* desktops */
+@media (min-width: 1200px) {
+  .weapon-container :hover {
+    background-color: rgb(185, 223, 187);
+  }
 }
 </style>

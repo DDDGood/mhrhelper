@@ -251,7 +251,27 @@
                 "heavy_bowgun": "重弩槍",
                 "bow": "弓"
             },
-            "silkbind_attacks": "鐵蟲絲技能"
+            "silkbind_attacks": "鐵蟲絲技能",
+            "attack": "攻擊",
+            "defense": "防禦",
+            "critical": "會心",
+            "slot": "鑲嵌槽",
+            "sharpness": "銳利度",
+            "sharpness_skill": "匠",
+            "phial": "瓶種類",
+            "shelling": "砲擊類型",
+            "kinsect": "獵蟲Lv",
+            "offset": "偏移",
+            "recoil": "後座力",
+            "reload": "裝填",
+            "arc_shot": "曲射",
+            "charge_shot": "蓄力攻擊",
+            "coatings": "可裝填瓶",
+            "ammos": "彈藥數",
+            "show_type": "顯示",
+            "show_type_full": "詳細資訊",
+            "show_type_name": "僅名稱",
+            "show_type_final": "僅最終階"
         },
         "quest": {
             "village": "村莊",

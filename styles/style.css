@@ -361,6 +361,12 @@ details[open] > summary:after {
 .text-white{
   color:white;
 }
+.text-grey {
+  color: grey;
+}
+.text-lightgrey {
+  color: lightgrey;
+}
 #image {
   display: block;
   margin-left: auto;
@@ -449,6 +455,12 @@ display: grid;
   display: inline-block;
   width: 22px;
   height: 22px;
+}
+
+.content-loader{
+  width: 100%;
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 
 

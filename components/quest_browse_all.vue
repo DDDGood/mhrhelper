@@ -37,7 +37,7 @@
               <div class="text-m">{{ quest.name}}</div>
             </div>
           </div>
-          <div class="text-s text-color-grey">{{ quest.success}}</div>
+          <div class="text-s text-grey">{{ quest.success}}</div>
         </div>
       </router-link>
       <router-view></router-view>
@@ -103,9 +103,6 @@ module.exports = {
 };
 </script>  
 <style scoped>
-.text-color-grey {
-  color: grey;
-}
 .sorting-type-container {
   box-shadow: 0 2px 2px -2px #b1b1b1;
 }

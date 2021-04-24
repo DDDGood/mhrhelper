@@ -1,11 +1,11 @@
 <template>
   <div class="layout-main">
-    <div class="flex-row interval-y-large flex-wrap">
+    <div class="flex-row interval-y-large flex-wrap flex-start">
       <div
-        class="flex-center interval-x flex-row flex-intense sorting-star"
+        class="flex-start flex-row flex-intense sorting-star"
         v-for="(type, i) in weaponTypes"
         :key="i"
-        :class="{'sorting-star-current color0' : type==curType}"
+        :class="{'text-white color0' : type==curType}"
         @click="selectType(type)"
       >
         <span class="flex1 flex-center">
@@ -14,9 +14,42 @@
         <span class="text-center">{{ $t('weapons.name.' + type)}}</span>
       </div>
     </div>
-    <div class="flex-column interval-y-large">
-      <div v-for="(id, i) in weaponsTree[curType]" v-bind:key="id + i">
-        <treenode :key="i" :weapons="weapons" :id="id"></treenode>
+    <div class="flex-row flex-end interval-y-large">
+      <div>{{ $t('weapons.show_type') + "：" }}</div>
+      <div
+        @click="selectShowType(0)"
+        v-bind:class="{'text-bold' : showtype ===0}"
+      >{{$t('weapons.show_type_full')}}</div>
+      <div>｜</div>
+      <div
+        @click="selectShowType(1)"
+        v-bind:class="{'text-bold' : showtype ===1}"
+      >{{$t('weapons.show_type_name')}}</div>
+      <div>｜</div>
+      <div
+        @click="selectShowType(2)"
+        v-bind:class="{'text-bold' : showtype ===2}"
+      >{{$t('weapons.show_type_final')}}</div>
+    </div>
+    <div class="flex-center content-loader" v-show="!rendercontents">
+      <div>Loading...</div>
+    </div>
+    <div
+      class="flex-column interval-y-large"
+      :key="updatekey"
+      v-if="rendercontents && showtype ===2"
+    >
+      <div v-for="(id, i) in weaponsTree[curType].finals" v-bind:key="id + i">
+        <treenode :key="i" :weapons="weapons" :id="id" :showtype="showtype"></treenode>
+      </div>
+    </div>
+    <div
+      class="flex-column interval-y-large"
+      :key="updatekey"
+      v-if="rendercontents&& showtype !==2"
+    >
+      <div v-for="(id, i) in weaponsTree[curType].roots" v-bind:key="id + i">
+        <treenode :key="i" :weapons="weapons" :id="id" :showtype="showtype"></treenode>
       </div>
     </div>
   </div>
@@ -42,16 +75,41 @@ module.exports = {
         "bow",
       ],
       curType: "great_sword",
+      showtype: 0,
+      updatekey: 0,
+      rendercontents: false
     };
   },
   props: ["weapons"],
   created: function () {
   },
   mounted: function () {
+    if (localStorage.getItem("equip_weapons")) {
+      try {
+        let curData = JSON.parse(localStorage.getItem('equip_weapons'));
+        this.curType = curData.curType;
+        this.showtype = curData.showtype;
+      } catch (e) {
+        localStorage.removeItem('equip_weapons');
+      }
+    }
+    this.delayUpdate();
   },
   methods: {
     selectType: function (i) {
       this.curType = i;
+      this.saveState();
+      this.delayUpdate();
+    },
+    selectShowType: function (i) {
+      this.showtype = i;
+      this.saveState();
+      this.updatekey += 1;
+      // this.$router.go()
+    },
+    saveState: function () {
+      const curData = { "curType": this.curType, "showtype": this.showtype };
+      localStorage.setItem("equip_weapons", JSON.stringify(curData));
     },
     extendNode: function (node, fromData) {
       if (fromData.next != undefined) {
@@ -59,25 +117,36 @@ module.exports = {
           node[child]
         }
       }
+    },
+    delayUpdate: function () {
+      this.rendercontents = false;
+      setTimeout(() => this.rendercontents = true, 10);
     }
   }, computed: {
     weaponsTree: function () {
       let sorted = {};
-
       for (let id in this.weapons) {
         const weapon = this.weapons[id];
+        if (sorted[weapon.category] == undefined)
+          sorted[weapon.category] = [];
         if (weapon.previous === undefined || weapon.previous === "") {
           // is root
-          if (sorted[weapon.category] == undefined)
-            sorted[weapon.category] = [];
-          sorted[weapon.category].push(id);
+          if (sorted[weapon.category].roots == undefined)
+            sorted[weapon.category].roots = [];
+          sorted[weapon.category].roots.push(id);
+        }
+        if (weapon.next === undefined || weapon.next.length == 0) {
+          // is final
+          if (sorted[weapon.category].finals == undefined)
+            sorted[weapon.category].finals = [];
+          sorted[weapon.category].finals.push(id);
         }
       }
       return sorted;
-    },
+    }
   },
   components: {
-    treenode: httpVueLoader("components/equip_weapon_tree_node.vue"),
+    treenode: httpVueLoader("components/equip_weapon_tree_node.vue")
   }
 };
 </script>  
@@ -85,7 +154,7 @@ module.exports = {
 .flex-wrap {
   flex-wrap: wrap !important;
 }
-.text-color-grey {
+.text-grey {
   color: grey;
 }
 .sorting-type-container {
@@ -102,10 +171,10 @@ module.exports = {
   border-bottom: 2px solid #4b9aff;
 }
 .sorting-star {
-  padding: 4px;
+  padding: 6px;
   border-radius: 4px;
 }
-.sorting-star-current {
+.type-current {
   color: white;
 }
 .sorting-star-icon {

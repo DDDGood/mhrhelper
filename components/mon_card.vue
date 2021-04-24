@@ -142,35 +142,35 @@
         <div class="flex-row margin">
           <div class="flex1 color2 card-text interval-x rounded">
             <div class="flex-center">
-              <img :class="weaknessIconClass" src="images/icons/element/element_fire.png" />
+              <img :class="weaknessIconClass" src="images/icons/status/fire.png" />
               <div :class="weaknessTextClass">{{$t('element.fire')}}</div>
             </div>
             <div class="card-text" v-html="weakdata.element.values?.fire"></div>
           </div>
           <div class="flex1 color2 card-text interval-x rounded">
             <div class="flex-center">
-              <img :class="weaknessIconClass" src="images/icons/element/element_water.png" />
+              <img :class="weaknessIconClass" src="images/icons/status/water.png" />
               <div :class="weaknessTextClass">{{$t('element.water')}}</div>
             </div>
             <div class="card-text" v-html="weakdata.element.values?.water"></div>
           </div>
           <div class="flex1 color2 card-text interval-x rounded">
             <div class="flex-center">
-              <img :class="weaknessIconClass" src="images/icons/element/element_thunder.png" />
+              <img :class="weaknessIconClass" src="images/icons/status/thunder.png" />
               <div :class="weaknessTextClass">{{$t('element.thunder')}}</div>
             </div>
             <div class="card-text" v-html="weakdata.element.values?.thunder"></div>
           </div>
           <div class="flex1 color2 card-text interval-x rounded">
             <div class="flex-center">
-              <img :class="weaknessIconClass" src="images/icons/element/element_ice.png" />
+              <img :class="weaknessIconClass" src="images/icons/status/ice.png" />
               <div :class="weaknessTextClass">{{$t('element.ice')}}</div>
             </div>
             <div class="card-text" v-html="weakdata.element.values?.ice"></div>
           </div>
           <div class="flex1 color2 card-text interval-x rounded">
             <div class="flex-center">
-              <img :class="weaknessIconClass" src="images/icons/element/element_dragon.png" />
+              <img :class="weaknessIconClass" src="images/icons/status/dragon.png" />
               <div :class="weaknessTextClass">{{$t('element.dragon')}}</div>
             </div>
             <div class="card-text" v-html="weakdata.element.values?.dragon"></div>
@@ -185,35 +185,35 @@
         <div class="flex-row margin">
           <div class="flex1 color2 card-text interval-x rounded">
             <div class="flex-center">
-              <img :class="weaknessIconClass" src="images/icons/state/state_poison.png" />
+              <img :class="weaknessIconClass" src="images/icons/status/poison.png" />
               <div :class="weaknessTextClass">{{$t('aliment.poison')}}</div>
             </div>
             <div class="card-text" v-html="weakdata.aliment.values?.poison"></div>
           </div>
           <div class="flex1 color2 card-text interval-x rounded">
             <div class="flex-center">
-              <img :class="weaknessIconClass" src="images/icons/state/state_sleep.png" />
+              <img :class="weaknessIconClass" src="images/icons/status/sleep.png" />
               <div :class="weaknessTextClass">{{$t('aliment.sleep')}}</div>
             </div>
             <div class="card-text" v-html="weakdata.aliment.values?.sleep"></div>
           </div>
           <div class="flex1 color2 card-text interval-x rounded">
             <div class="flex-center">
-              <img :class="weaknessIconClass" src="images/icons/state/state_paralysis.png" />
+              <img :class="weaknessIconClass" src="images/icons/status/paralysis.png" />
               <div :class="weaknessTextClass">{{$t('aliment.paralysis')}}</div>
             </div>
             <div class="card-text" v-html="weakdata.aliment.values?.paralysis"></div>
           </div>
           <div class="flex1 color2 card-text interval-x rounded">
             <div class="flex-center">
-              <img :class="weaknessIconClass" src="images/icons/state/state_blast.png" />
+              <img :class="weaknessIconClass" src="images/icons/status/blast.png" />
               <div :class="weaknessTextClass">{{$t('aliment.blast')}}</div>
             </div>
             <div class="card-text" v-html="weakdata.aliment.values?.blast"></div>
           </div>
           <div class="flex1 color2 card-text interval-x rounded">
             <div class="flex-center">
-              <img :class="weaknessIconClass" src="images/icons/state/state_stun.png" />
+              <img :class="weaknessIconClass" src="images/icons/status/stun.png" />
               <div :class="weaknessTextClass">{{$t('aliment.stun')}}</div>
             </div>
             <div class="card-text" v-html="weakdata.aliment.values?.stun"></div>
