@@ -92,10 +92,10 @@ module.exports = {
     }
     let minTextWidth = Math.min(maxConditionTextLength, 12) * 12 + 20;
     this.$refs.root.style.marginRight = Math.max(0, minTextWidth) + "px";
-    console.log(this.$refs);
+    // console.log(this.$refs);
     for (let link of this.rootnode.links) {
       let refLink = this.$refs[this.rootnode.move + "_" + link.node][0];
-      console.log(refLink);
+      // console.log(refLink);
       this.toPositions.push({
         x:
           refLink.$el.offsetLeft +

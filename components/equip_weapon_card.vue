@@ -162,7 +162,7 @@
               class="flex2 color2 rounded-right interval-x card-text flex-center"
             >{{weapondata.blasting}}</div>
           </div>
-          <div class="flex-row interval-y">
+          <div class="flex-row interval-y" v-if="(holes[0] + holes[1] + holes[2] )> 0">
             <div
               class="flex1 flex-row flex-intense color2 rounded-left interval-x card-text flex-center"
             >
