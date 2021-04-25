@@ -299,7 +299,7 @@ tfoot {
   width: 8px;
   height: 8px;
   border: 1px solid black;
-  background-color: orange;
+  background-color: red;
 }
 .extract-white {
   width: 8px;
@@ -310,7 +310,7 @@ tfoot {
   width: 8px;
   height: 8px;
   border: 1px solid black;
-  background-color: red;
+  background-color: orange;
 }
 
 /* mobile */
