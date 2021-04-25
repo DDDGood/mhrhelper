@@ -244,19 +244,19 @@
                       :src="'images/icons/equipments/' + type + (value ===2? '_plus':'') + '.png'"
                       class="card-text-icon"
                     />
-                    <!-- <span class="text-m text-center" :key="type" v-if="value!==0">
-                  {{'-'+type.replaceAll('瓶','')
-                  + ( value === 2? '+': '')
-                  }}
-                    </span>-->
                   </template>
                 </div>
               </div>
-              <!-- <div class="flex-row">
-            <div class="flex flex-center">
             </div>
-            <div class="flex flex-center"></div>
-              </div>-->
+            <div class="flex-row flex-start trait-line" v-if="weapon.category==='hunting_horn' ">
+              <div class="flex-row">
+                <div class="flex flex-center">
+                  <!-- <img :src="'images/icons/status/attack_up.png'" class="card-text-icon" /> -->
+                </div>
+                <div class="flex flex-center">
+                  <span class="text-m text-center">{{weapon.notes_desc}}</span>
+                </div>
+              </div>
             </div>
           </div>
         </div>

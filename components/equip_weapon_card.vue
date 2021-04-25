@@ -369,6 +369,19 @@
         </div>
       </div>
     </div>
+    <div class="flex-row interval-y" v-if="weapondata.category==='hunting_horn' ">
+      <div class="flex1 flex-column color1 rounded">
+        <div class="flex1 rounded card-text text-bold">{{$t('weapons.notes_desc')}}</div>
+        <div class="flex1 margin">
+          <div class="flex-row interval-y color2 rounded flex-intense">
+            <div class="flex flex-center"></div>
+            <div class="flex flex-center">
+              <div class="text-m">{{weapondata.notes_desc}}</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
     <!-- 數據有 BUG -->
     <!-- <div
       class="flex-row interval-y"
