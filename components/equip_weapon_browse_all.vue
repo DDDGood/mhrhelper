@@ -120,7 +120,10 @@ module.exports = {
     },
     delayUpdate: function () {
       this.rendercontents = false;
-      setTimeout(() => this.rendercontents = true, 10);
+      setTimeout(this.doRender, 10);
+    },
+    doRender: function () {
+      this.rendercontents = true
     }
   }, computed: {
     weaponsTree: function () {
