@@ -77,7 +77,8 @@ module.exports = {
       curType: "great_sword",
       showtype: 0,
       updatekey: 0,
-      rendercontents: false
+      rendercontents: false,
+      timeoutID: undefined
     };
   },
   props: ["weapons"],
@@ -111,16 +112,11 @@ module.exports = {
       const curData = { "curType": this.curType, "showtype": this.showtype };
       localStorage.setItem("equip_weapons", JSON.stringify(curData));
     },
-    extendNode: function (node, fromData) {
-      if (fromData.next != undefined) {
-        for (let child in fromData.next) {
-          node[child]
-        }
-      }
-    },
     delayUpdate: function () {
       this.rendercontents = false;
-      setTimeout(this.doRender, 10);
+      if (this.timeoutID !== undefined)
+        clearTimeout(this.timeoutID);
+      this.timeoutID = window.setTimeout(this.doRender, 10);
     },
     doRender: function () {
       this.rendercontents = true
