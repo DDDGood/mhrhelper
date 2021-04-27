@@ -18353,7 +18353,7 @@
       "image": "images/monsters/fullbody/chameleos.png",
       "icon": "images/monsters/icons/chameleos.png",
       "icon_large": "images/monsters/icons/large/chameleos.png",
-      "description": "",
+      "description": "目擊數量極為稀少的古龍。\n據說，牠之所以極少被人發現，是因為擁有能自由隱身的能力，因此被稱為「霞龍」。\n現在已確認牠在憤怒時，會吐出霧狀的特殊吐息，其特異的能力與怪異的行動，可說是前所未見。",
       "breakables": "-",
       "parts": [
         {
@@ -18420,6 +18420,58 @@
           }
         ]
       }
+    },
+    "apex_rathalos": {
+      "name": {
+        "tw": "首領火龍",
+        "jp": "",
+        "en": "ApexRathalos"
+      },
+      "species": "flying_wryven",
+      "image": "images/monsters/fullbody/apex_rathalos.png",
+      "icon": "images/monsters/icons/apex_rathalos.png",
+      "icon_large": "images/monsters/icons/large/apex_rathalos.png",
+      "description": "冠以「首領」之名的火龍。\n全身上下都有著像是被捲入暴風後所留下的傷痕，\n這也許是牠一直受到憤怒與恐懼支配的原因。\n喉部比起一般的個體更加發達，從牠咽喉中吐出的烈焰吐息，會將四周化為一片焦土。",
+      "threat_level": "apex"
+    },
+    "apex_diablos": {
+      "name": {
+        "tw": "首領角龍",
+        "jp": "",
+        "en": "ApexDiablos"
+      },
+      "species": "flying_wryven",
+      "image": "images/monsters/fullbody/apex_diablos.png",
+      "icon": "images/monsters/icons/apex_diablos.png",
+      "icon_large": "images/monsters/icons/large/apex_diablos.png",
+      "description": "冠以「首領」之名的角龍。\n全身上下都有著像是被捲入暴風後所留下的傷痕，\n這也許是牠一直受到憤怒與恐懼支配的原因。\n角比起一般的個體更加發達，其突進的破壞力會將對手撞入絕望的深淵。",
+      "threat_level": "apex"
+    },
+    "kushala_daora": {
+      "name": {
+        "tw": "鋼龍",
+        "jp": "",
+        "en": "Kushala Daora"
+      },
+      "species": "elder_dragon",
+      "image": "images/monsters/fullbody/kushala_daora.png",
+      "icon": "images/monsters/icons/kushala_daora.png",
+      "icon_large": "images/monsters/icons/large/kushala_daora.png",
+      "description": "特徵為金屬質外殼的龍，人稱「鋼龍」。\n以風纏身，喚起暴風，不讓任何人接近自己。\n那暴風雨的威力屬災難級。\n只要一出現，那一帶的地域便會陷入崩潰的危機。",
+      "threat_level": ""
+    },
+    "teostra": {
+      "name": {
+        "tw": "炎王龍",
+        "jp": "",
+        "en": "Teostra"
+      },
+      "species": "elder_dragon",
+      "image": "images/monsters/fullbody/teostra.png",
+      "icon": "images/monsters/icons/teostra.png",
+      "icon_large": "images/monsters/icons/large/teostra.png",
+      "description": "口吐灼熱氣息，全身環繞著火焰的凶暴古龍。\n由於擁有這樣的外表，故被人稱為「炎王龍」。\n個性火爆，正面與其對峙者，都將毫無例外地招來烈火焚身。\n由於乃極度危險的魔物，因此公會隨時都在觀察其動向。",
+      "threat_level": ""
     }
   }
 }
