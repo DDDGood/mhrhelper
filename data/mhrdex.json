@@ -18440,8 +18440,9 @@
       "icon_large": "images/monsters/icons/large/chameleos.png",
       "description": "目擊數量極為稀少的古龍。\n據說，牠之所以極少被人發現，是因為擁有能自由隱身的能力，因此被稱為「霞龍」。\n現在已確認牠在憤怒時，會吐出霧狀的特殊吐息，其特異的能力與怪異的行動，可說是前所未見。",
       "breakables": "-",
+      "threat_level": "8",
       "trait": {
-        "roar": "？",
+        "roar": "-",
         "wind": "？",
         "tremor": "？",
         "element": "-",
@@ -18466,20 +18467,20 @@
         ],
         "aliment": [
           {
-            "poison": "",
-            "stun": "",
-            "paralysis": "",
-            "sleep": "",
-            "blast": "",
+            "poison": "0",
+            "stun": "1",
+            "paralysis": "0",
+            "sleep": "0",
+            "blast": "2",
             "riding": ""
           }
         ],
         "item": [
           {
-            "fire_aliment": "",
-            "water_aliment": "",
-            "thunder_aliment": "",
-            "ice_aliment": "",
+            "fire_aliment": "2",
+            "water_aliment": "1",
+            "thunder_aliment": "1",
+            "ice_aliment": "1",
             "shocktrap": "",
             "pitfalltrap": "",
             "flashpod": ""
@@ -18626,7 +18627,7 @@
       "icon": "images/monsters/icons/kushala_daora.png",
       "icon_large": "images/monsters/icons/large/kushala_daora.png",
       "description": "特徵為金屬質外殼的龍，人稱「鋼龍」。\n以風纏身，喚起暴風，不讓任何人接近自己。\n那暴風雨的威力屬災難級。\n只要一出現，那一帶的地域便會陷入崩潰的危機。",
-      "threat_level": "",
+      "threat_level": "8",
       "hitdata": {
         "parts": [
           {
@@ -18726,6 +18727,20 @@
             "ice": 0,
             "dragon": 5,
             "dizzy": 0
+          },
+          {
+            "part": "尾巴",
+            "hitzone_color": "",
+            "condition": "通常",
+            "cut": 35,
+            "blunt": 30,
+            "ammo": 35,
+            "fire": 10,
+            "water": 5,
+            "thunder": 20,
+            "ice": 0,
+            "dragon": 15,
+            "dizzy": 0
           }
         ]
       }
@@ -18755,7 +18770,7 @@
       "icon": "images/monsters/icons/bazelgeuse.png",
       "icon_large": "images/monsters/icons/large/bazelgeuse.png",
       "description": "",
-      "threat_level": "",
+      "threat_level": "8",
       "trait": {
         "roar": "？",
         "wind": "？",
