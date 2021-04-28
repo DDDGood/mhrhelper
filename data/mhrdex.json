@@ -880,7 +880,92 @@
       "icon": "images/monsters/icons/apex_arzuros.png",
       "icon_large": "images/monsters/icons/large/apex_arzuros.png",
       "description": "冠有「首領」之名的青熊獸。全身上下都有著像是被捲入暴風後所留下的傷痕，這也許是牠一直受到憤怒與恐懼支配的原因。前腳比起一般的個體更加發達，凡是阻其去路者，在其怪力之下無一倖存。另外，首領會藉由咆嘯，將自己的憤怒與恐懼散播至周遭，使其他魔物變得活躍起來。\n首領發怒後，會施展最強勁的必殺技。首領青熊獸的必殺技為一邊連續敲擊地面並同時接近，給予障礙物猛烈的一擊。當首領處於憤怒狀態時，記得要持續攻擊，盡早使其膽怯，平息首領的怒火吧。",
-      "threat_level": "apex"
+      "threat_level": "apex",
+      "hitdata": {
+        "parts": [
+          {
+            "part": "頭",
+            "hitzone_color": "",
+            "condition": "通常",
+            "cut": 60,
+            "blunt": 55,
+            "ammo": 35,
+            "fire": 10,
+            "water": 5,
+            "thunder": 15,
+            "ice": 0,
+            "dragon": 10,
+            "dizzy": 100
+          },
+          {
+            "part": "頭",
+            "cut": "50",
+            "blunt": "45",
+            "ammo": "35",
+            "fire": "5",
+            "water": "0",
+            "thunder": "5",
+            "ice": "5",
+            "dragon": "0"
+          },
+          {
+            "part": "上半身",
+            "cut": "38",
+            "blunt": "38",
+            "ammo": "35",
+            "fire": "15",
+            "water": "0",
+            "thunder": "10",
+            "ice": "5",
+            "dragon": "0"
+          },
+          {
+            "part": "前腳",
+            "cut": "45",
+            "blunt": "45",
+            "ammo": "30",
+            "fire": "20",
+            "water": "0",
+            "thunder": "15",
+            "ice": "10",
+            "dragon": "0"
+          },
+          {
+            "part": "前腳",
+            "condition": "破壞後",
+            "cut": "60",
+            "blunt": "60",
+            "ammo": "40",
+            "fire": "33",
+            "water": "0",
+            "thunder": "23",
+            "ice": "15",
+            "dragon": "0"
+          },
+          {
+            "part": "腹・後腳",
+            "cut": "38",
+            "blunt": "24",
+            "ammo": "26",
+            "fire": "5",
+            "water": "0",
+            "thunder": "5",
+            "ice": "16",
+            "dragon": "0"
+          },
+          {
+            "part": "臀部",
+            "cut": "30",
+            "blunt": "40",
+            "ammo": "30",
+            "fire": "12",
+            "water": "0",
+            "thunder": "5",
+            "ice": "20",
+            "dragon": "0"
+          }
+        ]
+      }
     },
     "rathian": {
       "name": {
@@ -18355,25 +18440,6 @@
       "icon_large": "images/monsters/icons/large/chameleos.png",
       "description": "目擊數量極為稀少的古龍。\n據說，牠之所以極少被人發現，是因為擁有能自由隱身的能力，因此被稱為「霞龍」。\n現在已確認牠在憤怒時，會吐出霧狀的特殊吐息，其特異的能力與怪異的行動，可說是前所未見。",
       "breakables": "-",
-      "parts": [
-        {
-          "name": "尚未公布",
-          "state": "-",
-          "extract": "-",
-          "hitData": [
-            -1,
-            -1,
-            -1,
-            -1,
-            -1,
-            -1,
-            -1,
-            -1,
-            -1
-          ]
-        }
-      ],
-      "hitdata": {},
       "trait": {
         "roar": "？",
         "wind": "？",
@@ -18419,6 +18485,108 @@
             "flashpod": ""
           }
         ]
+      },
+      "hitdata": {
+        "parts": [
+          {
+            "part": "頭",
+            "hitzone_color": "",
+            "condition": "通常",
+            "cut": 55,
+            "blunt": 50,
+            "ammo": 45,
+            "fire": 25,
+            "water": 0,
+            "thunder": 10,
+            "ice": 0,
+            "dragon": 20,
+            "dizzy": 100
+          },
+          {
+            "part": "前腳",
+            "hitzone_color": "",
+            "condition": "通常",
+            "cut": 45,
+            "blunt": 45,
+            "ammo": 20,
+            "fire": 20,
+            "water": 0,
+            "thunder": 10,
+            "ice": 0,
+            "dragon": 10,
+            "dizzy": 0
+          },
+          {
+            "part": "腹部",
+            "hitzone_color": "",
+            "condition": "通常",
+            "cut": 25,
+            "blunt": 30,
+            "ammo": 22,
+            "fire": 20,
+            "water": 5,
+            "thunder": 10,
+            "ice": 0,
+            "dragon": 15,
+            "dizzy": 0
+          },
+          {
+            "part": "背部",
+            "hitzone_color": "",
+            "condition": "通常",
+            "cut": 25,
+            "blunt": 22,
+            "ammo": 25,
+            "fire": 25,
+            "water": 0,
+            "thunder": 10,
+            "ice": 0,
+            "dragon": 20,
+            "dizzy": 0
+          },
+          {
+            "part": "翼",
+            "hitzone_color": "",
+            "condition": "通常",
+            "cut": 22,
+            "blunt": 22,
+            "ammo": 20,
+            "fire": 20,
+            "water": 0,
+            "thunder": 10,
+            "ice": 0,
+            "dragon": 15,
+            "dizzy": 0
+          },
+          {
+            "part": "後腳",
+            "hitzone_color": "",
+            "condition": "通常",
+            "cut": 30,
+            "blunt": 25,
+            "ammo": 20,
+            "fire": 25,
+            "water": 0,
+            "thunder": 10,
+            "ice": 0,
+            "dragon": 20,
+            "dizzy": 0
+          },
+          {
+            "part": "尾巴",
+            "hitzone_color": "",
+            "condition": "通常",
+            "cut": 35,
+            "blunt": 22,
+            "ammo": 45,
+            "fire": 10,
+            "water": 0,
+            "thunder": 10,
+            "ice": 0,
+            "dragon": 5,
+            "dizzy": 0
+          }
+        ]
       }
     },
     "apex_rathalos": {
@@ -18458,7 +18626,109 @@
       "icon": "images/monsters/icons/kushala_daora.png",
       "icon_large": "images/monsters/icons/large/kushala_daora.png",
       "description": "特徵為金屬質外殼的龍，人稱「鋼龍」。\n以風纏身，喚起暴風，不讓任何人接近自己。\n那暴風雨的威力屬災難級。\n只要一出現，那一帶的地域便會陷入崩潰的危機。",
-      "threat_level": ""
+      "threat_level": "",
+      "hitdata": {
+        "parts": [
+          {
+            "part": "頭",
+            "hitzone_color": "",
+            "condition": "通常",
+            "cut": 60,
+            "blunt": 55,
+            "ammo": 35,
+            "fire": 10,
+            "water": 5,
+            "thunder": 15,
+            "ice": 0,
+            "dragon": 10,
+            "dizzy": 100
+          },
+          {
+            "part": "頸",
+            "hitzone_color": "",
+            "condition": "通常",
+            "cut": 40,
+            "blunt": 55,
+            "ammo": 25,
+            "fire": 10,
+            "water": 5,
+            "thunder": 15,
+            "ice": 0,
+            "dragon": 5,
+            "dizzy": 100
+          },
+          {
+            "part": "前腳",
+            "hitzone_color": "",
+            "condition": "通常",
+            "cut": 45,
+            "blunt": 50,
+            "ammo": 45,
+            "fire": 10,
+            "water": 5,
+            "thunder": 20,
+            "ice": 0,
+            "dragon": 10,
+            "dizzy": 0
+          },
+          {
+            "part": "腹部",
+            "hitzone_color": "",
+            "condition": "通常",
+            "cut": 35,
+            "blunt": 50,
+            "ammo": 35,
+            "fire": 10,
+            "water": 5,
+            "thunder": 15,
+            "ice": 0,
+            "dragon": 10,
+            "dizzy": 0
+          },
+          {
+            "part": "背部",
+            "hitzone_color": "",
+            "condition": "通常",
+            "cut": 23,
+            "blunt": 25,
+            "ammo": 30,
+            "fire": 10,
+            "water": 5,
+            "thunder": 15,
+            "ice": 0,
+            "dragon": 10,
+            "dizzy": 0
+          },
+          {
+            "part": "翼",
+            "hitzone_color": "",
+            "condition": "通常",
+            "cut": 23,
+            "blunt": 23,
+            "ammo": 20,
+            "fire": 10,
+            "water": 5,
+            "thunder": 20,
+            "ice": 0,
+            "dragon": 15,
+            "dizzy": 0
+          },
+          {
+            "part": "後腳",
+            "hitzone_color": "",
+            "condition": "通常",
+            "cut": 30,
+            "blunt": 30,
+            "ammo": 25,
+            "fire": 10,
+            "water": 5,
+            "thunder": 15,
+            "ice": 0,
+            "dragon": 5,
+            "dizzy": 0
+          }
+        ]
+      }
     },
     "teostra": {
       "name": {
@@ -18471,7 +18741,137 @@
       "icon": "images/monsters/icons/teostra.png",
       "icon_large": "images/monsters/icons/large/teostra.png",
       "description": "口吐灼熱氣息，全身環繞著火焰的凶暴古龍。\n由於擁有這樣的外表，故被人稱為「炎王龍」。\n個性火爆，正面與其對峙者，都將毫無例外地招來烈火焚身。\n由於乃極度危險的魔物，因此公會隨時都在觀察其動向。",
-      "threat_level": ""
+      "threat_level": "",
+      "hitdata": {}
+    },
+    "bazelgeuse": {
+      "name": {
+        "tw": "爆麟龍",
+        "jp": "",
+        "en": "Bazelgeuse"
+      },
+      "species": "flying_wryven",
+      "image": "images/monsters/fullbody/bazelgeuse.png",
+      "icon": "images/monsters/icons/bazelgeuse.png",
+      "icon_large": "images/monsters/icons/large/bazelgeuse.png",
+      "description": "",
+      "threat_level": "",
+      "trait": {
+        "roar": "？",
+        "wind": "？",
+        "tremor": "？",
+        "element": "-",
+        "aliment": "-"
+      },
+      "weakness": {
+        "weapon": [
+          {
+            "cut": "頭/尾",
+            "blunt": "頭>尾",
+            "ammo": "翼"
+          }
+        ],
+        "element": [
+          {
+            "fire": "0",
+            "water": "1",
+            "thunder": "3",
+            "ice": "2",
+            "dragon": "2"
+          }
+        ],
+        "aliment": [
+          {
+            "poison": "1",
+            "stun": "0",
+            "paralysis": "1",
+            "sleep": "1",
+            "blast": "0",
+            "riding": "1"
+          }
+        ],
+        "item": [
+          {
+            "fire_aliment": "1",
+            "water_aliment": "1",
+            "thunder_aliment": "2",
+            "ice_aliment": "1",
+            "shocktrap": "2",
+            "pitfalltrap": "2",
+            "flashpod": "2"
+          }
+        ]
+      },
+      "hitdata": {
+        "parts": [
+          {
+            "part": "頭",
+            "cut": "60",
+            "blunt": "65",
+            "ammo": "25",
+            "fire": "0",
+            "water": "5",
+            "thunder": "15",
+            "ice": "10",
+            "dragon": "10"
+          },
+          {
+            "part": "腹",
+            "cut": "45",
+            "blunt": "45",
+            "ammo": "25",
+            "fire": "0",
+            "water": "5",
+            "thunder": "10",
+            "ice": "10",
+            "dragon": "10"
+          },
+          {
+            "part": "背",
+            "cut": "30",
+            "blunt": "30",
+            "ammo": "10",
+            "fire": "0",
+            "water": "0",
+            "thunder": "5",
+            "ice": "5",
+            "dragon": "5"
+          },
+          {
+            "part": "翼",
+            "cut": "25",
+            "blunt": "25",
+            "ammo": "45",
+            "fire": "0",
+            "water": "5",
+            "thunder": "10",
+            "ice": "10",
+            "dragon": "10"
+          },
+          {
+            "part": "腳",
+            "cut": "30",
+            "blunt": "30",
+            "ammo": "20",
+            "fire": "0",
+            "water": "5",
+            "thunder": "15",
+            "ice": "10",
+            "dragon": "10"
+          },
+          {
+            "part": "尾",
+            "cut": "60",
+            "blunt": "55",
+            "ammo": "35",
+            "fire": "0",
+            "water": "5",
+            "thunder": "15",
+            "ice": "10",
+            "dragon": "10"
+          }
+        ]
+      }
     }
   }
 }
