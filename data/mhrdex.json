@@ -18431,7 +18431,7 @@
     "chameleos": {
       "name": {
         "tw": "霞龍",
-        "jp": "",
+        "jp": "オオナズチ",
         "en": "Chameleos"
       },
       "species": "elder_dragon",
@@ -18446,23 +18446,23 @@
         "wind": "？",
         "tremor": "？",
         "element": "-",
-        "aliment": "-"
+        "aliment": "猛毒"
       },
       "weakness": {
         "weapon": [
           {
-            "cut": "",
-            "blunt": "",
-            "ammo": ""
+            "cut": "頭>前腳",
+            "blunt": "頭>前腳",
+            "ammo": "頭/尾"
           }
         ],
         "element": [
           {
-            "fire": "",
-            "water": "",
-            "thunder": "",
-            "ice": "",
-            "dragon": ""
+            "fire": "3",
+            "water": "0",
+            "thunder": "1",
+            "ice": "0",
+            "dragon": "2"
           }
         ],
         "aliment": [
@@ -18619,7 +18619,7 @@
     "kushala_daora": {
       "name": {
         "tw": "鋼龍",
-        "jp": "",
+        "jp": "クシャルダオラ",
         "en": "Kushala Daora"
       },
       "species": "elder_dragon",
@@ -18628,6 +18628,52 @@
       "icon_large": "images/monsters/icons/large/kushala_daora.png",
       "description": "特徵為金屬質外殼的龍，人稱「鋼龍」。\n以風纏身，喚起暴風，不讓任何人接近自己。\n那暴風雨的威力屬災難級。\n只要一出現，那一帶的地域便會陷入崩潰的危機。",
       "threat_level": "8",
+      "trait": {
+        "roar": "？",
+        "wind": "？",
+        "tremor": "？",
+        "element": "-",
+        "aliment": "冰"
+      },
+      "weakness": {
+        "weapon": [
+          {
+            "cut": "頭>前腳",
+            "blunt": "頭/頸>前腳",
+            "ammo": "前腳"
+          }
+        ],
+        "element": [
+          {
+            "fire": "2",
+            "water": "1",
+            "thunder": "3",
+            "ice": "0",
+            "dragon": "2"
+          }
+        ],
+        "aliment": [
+          {
+            "poison": "",
+            "stun": "",
+            "paralysis": "",
+            "sleep": "",
+            "blast": "",
+            "riding": ""
+          }
+        ],
+        "item": [
+          {
+            "fire_aliment": "",
+            "water_aliment": "",
+            "thunder_aliment": "",
+            "ice_aliment": "",
+            "shocktrap": "",
+            "pitfalltrap": "",
+            "flashpod": ""
+          }
+        ]
+      },
       "hitdata": {
         "parts": [
           {
@@ -18748,7 +18794,7 @@
     "teostra": {
       "name": {
         "tw": "炎王龍",
-        "jp": "",
+        "jp": "テオ・テスカトル",
         "en": "Teostra"
       },
       "species": "elder_dragon",
@@ -18756,8 +18802,138 @@
       "icon": "images/monsters/icons/teostra.png",
       "icon_large": "images/monsters/icons/large/teostra.png",
       "description": "口吐灼熱氣息，全身環繞著火焰的凶暴古龍。\n由於擁有這樣的外表，故被人稱為「炎王龍」。\n個性火爆，正面與其對峙者，都將毫無例外地招來烈火焚身。\n由於乃極度危險的魔物，因此公會隨時都在觀察其動向。",
-      "threat_level": "",
-      "hitdata": {}
+      "threat_level": "8",
+      "weakness": {
+        "weapon": [
+          {
+            "cut": "頭",
+            "blunt": "頭",
+            "ammo": "頭"
+          }
+        ],
+        "element": [
+          {
+            "fire": "0",
+            "water": "3",
+            "thunder": "1",
+            "ice": "2",
+            "dragon": "1"
+          }
+        ],
+        "aliment": [
+          {
+            "poison": "1",
+            "stun": "1",
+            "paralysis": "0",
+            "sleep": "0",
+            "blast": "2",
+            "riding": ""
+          }
+        ],
+        "item": [
+          {
+            "fire_aliment": "1",
+            "water_aliment": "2",
+            "thunder_aliment": "1",
+            "ice_aliment": "1",
+            "shocktrap": "",
+            "pitfalltrap": "",
+            "flashpod": ""
+          }
+        ]
+      },
+      "hitdata": {
+        "parts": [
+          {
+            "part": "頭",
+            "cut": "50",
+            "blunt": "55",
+            "ammo": "45",
+            "fire": "0",
+            "water": "20",
+            "thunder": "10",
+            "ice": "15",
+            "dragon": "10"
+          },
+          {
+            "part": "頸",
+            "cut": "33",
+            "blunt": "38",
+            "ammo": "5",
+            "fire": "0",
+            "water": "10",
+            "thunder": "5",
+            "ice": "10",
+            "dragon": "5"
+          },
+          {
+            "part": "前腳",
+            "cut": "38",
+            "blunt": "38",
+            "ammo": "15",
+            "fire": "0",
+            "water": "25",
+            "thunder": "10",
+            "ice": "20",
+            "dragon": "10"
+          },
+          {
+            "part": "腹部",
+            "cut": "24",
+            "blunt": "24",
+            "ammo": "10",
+            "fire": "0",
+            "water": "5",
+            "thunder": "0",
+            "ice": "5",
+            "dragon": "0"
+          },
+          {
+            "part": "背部",
+            "cut": "24",
+            "blunt": "24",
+            "ammo": "5",
+            "fire": "0",
+            "water": "5",
+            "thunder": "0",
+            "ice": "5",
+            "dragon": "0"
+          },
+          {
+            "part": "翼",
+            "cut": "40",
+            "blunt": "35",
+            "ammo": "15",
+            "fire": "0",
+            "water": "10",
+            "thunder": "0",
+            "ice": "5",
+            "dragon": "0"
+          },
+          {
+            "part": "後腳",
+            "cut": "30",
+            "blunt": "25",
+            "ammo": "20",
+            "fire": "0",
+            "water": "15",
+            "thunder": "5",
+            "ice": "10",
+            "dragon": "5"
+          },
+          {
+            "part": "尾巴",
+            "cut": "43",
+            "blunt": "33",
+            "ammo": "38",
+            "fire": "0",
+            "water": "20",
+            "thunder": "5",
+            "ice": "15",
+            "dragon": "5"
+          }
+        ]
+      }
     },
     "bazelgeuse": {
       "name": {
