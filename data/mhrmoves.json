@@ -5538,6 +5538,429 @@
                 }
             ]
         },
+        "teostra": {
+            "outline": "(招式素材仍在蒐集中)",
+            "reference": {
+                "(twitter)モンスターハンターライズ公式": "https://twitter.com/mh_rise_jp",
+                "【MHRise】炎国の王 テオ・テスカトル チャージアックス ソロ 5'56'33 / Teostra Charge Blade Solo": "https://www.youtube.com/watch?v=LOkmDSIUUWA",
+                "MHRise | Charge Blade Solo 4:57 Teostra": "https://www.youtube.com/watch?v=Kupr0ql7R0c",
+                "炎王龍AI解讀！YJJ太刀-魔物獵人 崛起 MH Rise": "https://youtu.be/MZcn2lbUHXo",
+                "Monster Hunter Rise - Teostra Boss Fight (Hammer / Solo)": "https://www.youtube.com/watch?v=F2a0Zcofq2Y"
+            },
+            "moves": [
+                {
+                    "name": "龍吼",
+                    "preaction": "",
+                    "action": "",
+                    "recovery": "",
+                    "note": "",
+                    "video": "videos/炎王龍/炎王龍_龍吼.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "小咬",
+                    "preaction": "",
+                    "action": "",
+                    "recovery": "",
+                    "note": "",
+                    "video": "videos/炎王龍/炎王龍_小咬.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "小拍",
+                    "preaction": "出手非常快。",
+                    "action": "",
+                    "recovery": "小",
+                    "note": "粉型態時會撒出粉塵，並引爆。",
+                    "video": "videos/炎王龍/炎王龍_小拍.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "巴掌",
+                    "preaction": "",
+                    "action": "",
+                    "recovery": "",
+                    "note": "粉型態時會撒出粉塵，在之後的動作引爆。",
+                    "video": "videos/炎王龍/炎王龍_巴掌.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "甩尾",
+                    "preaction": "",
+                    "action": "",
+                    "recovery": "",
+                    "note": "",
+                    "video": "videos/炎王龍/炎王龍_甩尾.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "前撲",
+                    "preaction": "",
+                    "action": "",
+                    "recovery": "",
+                    "note": "",
+                    "video": "videos/炎王龍/炎王龍_前撲.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "龍車",
+                    "preaction": "",
+                    "action": "",
+                    "recovery": "",
+                    "note": "粉型態時身後會留下粉塵，在之後的動作引爆。",
+                    "video": "videos/炎王龍/炎王龍_龍車.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "頭前甩火",
+                    "preaction": "",
+                    "action": "",
+                    "recovery": "",
+                    "note": "火型態時會立即造成傷害判定，粉型態時則會撒出三個粉塵延遲引爆。",
+                    "video": "videos/炎王龍/炎王龍_頭前甩火.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "扇形噴火",
+                    "preaction": "",
+                    "action": "",
+                    "recovery": "大",
+                    "note": "粉型態時變化為前方扇形範圍的粉塵延遲引爆，外圈三個先爆，接著是內圈三個。",
+                    "video": "videos/炎王龍/炎王龍_扇形噴火.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "向下噴火",
+                    "condition": "火型態",
+                    "preaction": "",
+                    "action": "",
+                    "recovery": "",
+                    "note": "",
+                    "video": "videos/炎王龍/炎王龍_向下噴火.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "空中S形噴火",
+                    "preaction": "",
+                    "action": "",
+                    "recovery": "",
+                    "note": "火型態1時會直接落地，火形態2時結束會飛撲。",
+                    "video": "videos/炎王龍/炎王龍_空中S形噴火.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "周身灑粉塵爆",
+                    "preaction": "",
+                    "action": "",
+                    "recovery": "大",
+                    "note": "有散開、集中兩種。",
+                    "video": "videos/炎王龍/炎王龍_周身灑粉塵爆.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "繞後撲",
+                    "preaction": "",
+                    "action": "",
+                    "recovery": "",
+                    "note": "粉型態時身後會留下粉塵，在之後的動作引爆。",
+                    "video": "videos/炎王龍/炎王龍_繞後撲.mp4",
+                    "onlyincombo": true
+                },
+                {
+                    "name": "引爆粉塵",
+                    "condition": "粉型態",
+                    "preaction": "",
+                    "action": "",
+                    "recovery": "大",
+                    "note": "",
+                    "video": "videos/炎王龍/炎王龍_繞後撲.mp4",
+                    "onlyincombo": true
+                },
+                {
+                    "name": "直線塵爆",
+                    "condition": "粉型態",
+                    "preaction": "",
+                    "action": "",
+                    "recovery": "大",
+                    "note": "",
+                    "video": "videos/炎王龍/炎王龍_直線塵爆.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "後跳",
+                    "condition": "",
+                    "preaction": "",
+                    "action": "",
+                    "recovery": "",
+                    "note": "",
+                    "video": "videos/炎王龍/炎王龍_後跳.mp4",
+                    "onlyincombo": true
+                },
+                {
+                    "name": "空中飛撲",
+                    "condition": "",
+                    "preaction": "",
+                    "action": "",
+                    "recovery": "",
+                    "note": "",
+                    "video": "videos/炎王龍/炎王龍_空中飛撲.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "範圍塵爆",
+                    "condition": "粉型態",
+                    "preaction": "",
+                    "action": "",
+                    "recovery": "大",
+                    "note": "粉型態的第二階段才會使出的招式。",
+                    "video": "videos/炎王龍/炎王龍_範圍塵爆.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "核爆",
+                    "condition": "粉型態",
+                    "preaction": "",
+                    "action": "",
+                    "recovery": "大",
+                    "note": "使用後回到普通形態。",
+                    "video": "videos/炎王龍/炎王龍_核爆.mp4",
+                    "onlyincombo": false
+                }
+            ],
+            "combos": [
+                {
+                    "root": 0,
+                    "condition": "",
+                    "nodes": [
+                        {
+                            "move": "轉頭、位移調整位置",
+                            "links": [
+                                {
+                                    "node": 1,
+                                    "condition": ""
+                                },
+                                {
+                                    "node": 2,
+                                    "condition": ""
+                                }
+                            ]
+                        },
+                        {
+                            "move": "小咬",
+                            "links": []
+                        },
+                        {
+                            "move": "小拍",
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "root": 0,
+                    "condition": "",
+                    "nodes": [
+                        {
+                            "move": "龍車",
+                            "links": [
+                                {
+                                    "node": 1,
+                                    "condition": ""
+                                },
+                                {
+                                    "node": 2,
+                                    "condition": ""
+                                },
+                                {
+                                    "node": 3,
+                                    "condition": "(飛起)"
+                                }
+                            ]
+                        },
+                        {
+                            "move": "扇形噴火",
+                            "links": []
+                        },
+                        {
+                            "move": "前撲",
+                            "links": []
+                        },
+                        {
+                            "move": "空中飛撲",
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "root": 0,
+                    "condition": "",
+                    "nodes": [
+                        {
+                            "move": "後跳",
+                            "links": [
+                                {
+                                    "node": 1,
+                                    "condition": ""
+                                }
+                            ]
+                        },
+                        {
+                            "move": "扇形噴火",
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "root": 0,
+                    "condition": "",
+                    "nodes": [
+                        {
+                            "move": "繞後撲",
+                            "links": [
+                                {
+                                    "node": 1,
+                                    "condition": ""
+                                },
+                                {
+                                    "node": 2,
+                                    "condition": ""
+                                },
+                                {
+                                    "node": 3,
+                                    "condition": "火型態"
+                                },
+                                {
+                                    "node": 4,
+                                    "condition": "粉型態"
+                                }
+                            ]
+                        },
+                        {
+                            "move": "頭前甩火",
+                            "links": []
+                        },
+                        {
+                            "move": "前撲",
+                            "links": []
+                        },
+                        {
+                            "move": "向下噴火",
+                            "links": []
+                        },
+                        {
+                            "move": "小拍",
+                            "links": [
+                                {
+                                    "node": 5,
+                                    "condition": "(撒出粉塵)"
+                                }
+                            ]
+                        },
+                        {
+                            "move": "引爆粉塵",
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "root": 0,
+                    "condition": "火型態",
+                    "nodes": [
+                        {
+                            "move": "空中S形噴火",
+                            "links": [
+                                {
+                                    "node": 1,
+                                    "condition": "(火型態二階段)"
+                                }
+                            ]
+                        },
+                        {
+                            "move": "空中飛撲",
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "root": 0,
+                    "condition": "粉型態",
+                    "nodes": [
+                        {
+                            "move": "小拍",
+                            "links": [
+                                {
+                                    "node": 1,
+                                    "condition": "(撒出粉塵)"
+                                }
+                            ]
+                        },
+                        {
+                            "move": "引爆粉塵",
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "root": 0,
+                    "condition": "粉型態",
+                    "nodes": [
+                        {
+                            "move": "留下粉塵的招式",
+                            "links": [
+                                {
+                                    "node": 1,
+                                    "condition": ""
+                                },
+                                {
+                                    "node": 3,
+                                    "condition": ""
+                                },
+                                {
+                                    "node": 4,
+                                    "condition": ""
+                                },
+                                {
+                                    "node": 5,
+                                    "condition": ""
+                                },
+                                {
+                                    "node": 6,
+                                    "condition": "(粉二階段)"
+                                }
+                            ]
+                        },
+                        {
+                            "move": "小拍",
+                            "links": [
+                                {
+                                    "node": 2,
+                                    "condition": "(撒出粉塵)"
+                                }
+                            ]
+                        },
+                        {
+                            "move": "引爆粉塵",
+                            "links": []
+                        },
+                        {
+                            "move": "頭前甩火",
+                            "links": []
+                        },
+                        {
+                            "move": "前撲",
+                            "links": []
+                        },
+                        {
+                            "move": "直線塵爆",
+                            "links": []
+                        },
+                        {
+                            "move": "範圍塵爆",
+                            "links": []
+                        }
+                    ]
+                }
+            ]
+        },
         "(未定)雷狼龍": {
             "outline": "(招式素材仍在蒐集中)",
             "moves": [

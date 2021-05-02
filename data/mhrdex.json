@@ -18428,6 +18428,135 @@
         "parts_image": "images/monsters/parts/thunder_serpent_narwa.png"
       }
     },
+    "bazelgeuse": {
+      "name": {
+        "tw": "爆鱗龍",
+        "jp": "",
+        "en": "Bazelgeuse"
+      },
+      "species": "flying_wryven",
+      "image": "images/monsters/fullbody/bazelgeuse.png",
+      "icon": "images/monsters/icons/bazelgeuse.png",
+      "icon_large": "images/monsters/icons/large/bazelgeuse.png",
+      "description": "",
+      "threat_level": "8",
+      "trait": {
+        "roar": "？",
+        "wind": "？",
+        "tremor": "？",
+        "element": "-",
+        "aliment": "-"
+      },
+      "weakness": {
+        "weapon": [
+          {
+            "cut": "頭/尾",
+            "blunt": "頭>尾",
+            "ammo": "翼"
+          }
+        ],
+        "element": [
+          {
+            "fire": "0",
+            "water": "1",
+            "thunder": "3",
+            "ice": "2",
+            "dragon": "2"
+          }
+        ],
+        "aliment": [
+          {
+            "poison": "1",
+            "stun": "0",
+            "paralysis": "1",
+            "sleep": "1",
+            "blast": "0",
+            "riding": "1"
+          }
+        ],
+        "item": [
+          {
+            "fire_aliment": "1",
+            "water_aliment": "1",
+            "thunder_aliment": "2",
+            "ice_aliment": "1",
+            "shocktrap": "2",
+            "pitfalltrap": "2",
+            "flashpod": "2"
+          }
+        ]
+      },
+      "hitdata": {
+        "parts": [
+          {
+            "part": "頭",
+            "cut": "60",
+            "blunt": "65",
+            "ammo": "25",
+            "fire": "0",
+            "water": "5",
+            "thunder": "15",
+            "ice": "10",
+            "dragon": "10"
+          },
+          {
+            "part": "腹",
+            "cut": "45",
+            "blunt": "45",
+            "ammo": "25",
+            "fire": "0",
+            "water": "5",
+            "thunder": "10",
+            "ice": "10",
+            "dragon": "10"
+          },
+          {
+            "part": "背",
+            "cut": "30",
+            "blunt": "30",
+            "ammo": "10",
+            "fire": "0",
+            "water": "0",
+            "thunder": "5",
+            "ice": "5",
+            "dragon": "5"
+          },
+          {
+            "part": "翼",
+            "cut": "25",
+            "blunt": "25",
+            "ammo": "45",
+            "fire": "0",
+            "water": "5",
+            "thunder": "10",
+            "ice": "10",
+            "dragon": "10"
+          },
+          {
+            "part": "腳",
+            "cut": "30",
+            "blunt": "30",
+            "ammo": "20",
+            "fire": "0",
+            "water": "5",
+            "thunder": "15",
+            "ice": "10",
+            "dragon": "10"
+          },
+          {
+            "part": "尾",
+            "cut": "60",
+            "blunt": "55",
+            "ammo": "35",
+            "fire": "0",
+            "water": "5",
+            "thunder": "15",
+            "ice": "10",
+            "dragon": "10"
+          }
+        ]
+      }
+    },
     "chameleos": {
       "name": {
         "tw": "霞龍",
@@ -18931,135 +19060,6 @@
             "thunder": "5",
             "ice": "15",
             "dragon": "5"
-          }
-        ]
-      }
-    },
-    "bazelgeuse": {
-      "name": {
-        "tw": "爆麟龍",
-        "jp": "",
-        "en": "Bazelgeuse"
-      },
-      "species": "flying_wryven",
-      "image": "images/monsters/fullbody/bazelgeuse.png",
-      "icon": "images/monsters/icons/bazelgeuse.png",
-      "icon_large": "images/monsters/icons/large/bazelgeuse.png",
-      "description": "",
-      "threat_level": "8",
-      "trait": {
-        "roar": "？",
-        "wind": "？",
-        "tremor": "？",
-        "element": "-",
-        "aliment": "-"
-      },
-      "weakness": {
-        "weapon": [
-          {
-            "cut": "頭/尾",
-            "blunt": "頭>尾",
-            "ammo": "翼"
-          }
-        ],
-        "element": [
-          {
-            "fire": "0",
-            "water": "1",
-            "thunder": "3",
-            "ice": "2",
-            "dragon": "2"
-          }
-        ],
-        "aliment": [
-          {
-            "poison": "1",
-            "stun": "0",
-            "paralysis": "1",
-            "sleep": "1",
-            "blast": "0",
-            "riding": "1"
-          }
-        ],
-        "item": [
-          {
-            "fire_aliment": "1",
-            "water_aliment": "1",
-            "thunder_aliment": "2",
-            "ice_aliment": "1",
-            "shocktrap": "2",
-            "pitfalltrap": "2",
-            "flashpod": "2"
-          }
-        ]
-      },
-      "hitdata": {
-        "parts": [
-          {
-            "part": "頭",
-            "cut": "60",
-            "blunt": "65",
-            "ammo": "25",
-            "fire": "0",
-            "water": "5",
-            "thunder": "15",
-            "ice": "10",
-            "dragon": "10"
-          },
-          {
-            "part": "腹",
-            "cut": "45",
-            "blunt": "45",
-            "ammo": "25",
-            "fire": "0",
-            "water": "5",
-            "thunder": "10",
-            "ice": "10",
-            "dragon": "10"
-          },
-          {
-            "part": "背",
-            "cut": "30",
-            "blunt": "30",
-            "ammo": "10",
-            "fire": "0",
-            "water": "0",
-            "thunder": "5",
-            "ice": "5",
-            "dragon": "5"
-          },
-          {
-            "part": "翼",
-            "cut": "25",
-            "blunt": "25",
-            "ammo": "45",
-            "fire": "0",
-            "water": "5",
-            "thunder": "10",
-            "ice": "10",
-            "dragon": "10"
-          },
-          {
-            "part": "腳",
-            "cut": "30",
-            "blunt": "30",
-            "ammo": "20",
-            "fire": "0",
-            "water": "5",
-            "thunder": "15",
-            "ice": "10",
-            "dragon": "10"
-          },
-          {
-            "part": "尾",
-            "cut": "60",
-            "blunt": "55",
-            "ammo": "35",
-            "fire": "0",
-            "water": "5",
-            "thunder": "15",
-            "ice": "10",
-            "dragon": "10"
           }
         ]
       }
