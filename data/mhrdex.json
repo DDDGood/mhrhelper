@@ -18572,8 +18572,8 @@
       "threat_level": "8",
       "trait": {
         "roar": "-",
-        "wind": "？",
-        "tremor": "？",
+        "wind": "大",
+        "tremor": "-",
         "element": "-",
         "aliment": "猛毒"
       },
@@ -18610,9 +18610,9 @@
             "water_aliment": "1",
             "thunder_aliment": "1",
             "ice_aliment": "1",
-            "shocktrap": "",
-            "pitfalltrap": "",
-            "flashpod": ""
+            "shocktrap": "0",
+            "pitfalltrap": "0",
+            "flashpod": "2"
           }
         ]
       },
@@ -18758,11 +18758,11 @@
       "description": "特徵為金屬質外殼的龍，人稱「鋼龍」。\n以風纏身，喚起暴風，不讓任何人接近自己。\n那暴風雨的威力屬災難級。\n只要一出現，那一帶的地域便會陷入崩潰的危機。",
       "threat_level": "8",
       "trait": {
-        "roar": "？",
-        "wind": "？",
-        "tremor": "？",
-        "element": "-",
-        "aliment": "冰"
+        "roar": "大",
+        "wind": "大",
+        "tremor": "-",
+        "element": "冰、龍",
+        "aliment": "-"
       },
       "weakness": {
         "weapon": [
@@ -18783,23 +18783,23 @@
         ],
         "aliment": [
           {
-            "poison": "",
-            "stun": "",
-            "paralysis": "",
-            "sleep": "",
-            "blast": "",
-            "riding": ""
+            "poison": "1",
+            "stun": "1",
+            "paralysis": "0",
+            "sleep": "0",
+            "blast": "3",
+            "riding": "0"
           }
         ],
         "item": [
           {
-            "fire_aliment": "",
-            "water_aliment": "",
-            "thunder_aliment": "",
-            "ice_aliment": "",
-            "shocktrap": "",
-            "pitfalltrap": "",
-            "flashpod": ""
+            "fire_aliment": "1",
+            "water_aliment": "1",
+            "thunder_aliment": "2",
+            "ice_aliment": "1",
+            "shocktrap": "0",
+            "pitfalltrap": "0",
+            "flashpod": "2"
           }
         ]
       },
@@ -18932,6 +18932,13 @@
       "icon_large": "images/monsters/icons/large/teostra.png",
       "description": "口吐灼熱氣息，全身環繞著火焰的凶暴古龍。\n由於擁有這樣的外表，故被人稱為「炎王龍」。\n個性火爆，正面與其對峙者，都將毫無例外地招來烈火焚身。\n由於乃極度危險的魔物，因此公會隨時都在觀察其動向。",
       "threat_level": "8",
+      "trait": {
+        "roar": "大",
+        "wind": "-",
+        "tremor": "-",
+        "element": "火",
+        "aliment": "爆破"
+      },
       "weakness": {
         "weapon": [
           {
