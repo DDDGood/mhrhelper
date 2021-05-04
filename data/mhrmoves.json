@@ -5613,6 +5613,7 @@
                 },
                 {
                     "name": "頭前甩火",
+                    "condition": "火狀態",
                     "preaction": "",
                     "action": "",
                     "recovery": "",
@@ -5622,6 +5623,7 @@
                 },
                 {
                     "name": "扇形吐息",
+                    "condition": "火狀態",
                     "preaction": "",
                     "action": "",
                     "recovery": "大",
@@ -5635,12 +5637,13 @@
                     "preaction": "",
                     "action": "",
                     "recovery": "",
-                    "note": "",
+                    "note": "火狀態二階段",
                     "video": "videos/炎王龍/炎王龍_向下噴火.mp4",
                     "onlyincombo": false
                 },
                 {
                     "name": "空中S形噴火",
+                    "condition": "火狀態",
                     "preaction": "",
                     "action": "",
                     "recovery": "",
@@ -5863,7 +5866,7 @@
                                 },
                                 {
                                     "node": 2,
-                                    "condition": ""
+                                    "condition": "(粉二階段)"
                                 }
                             ]
                         },
