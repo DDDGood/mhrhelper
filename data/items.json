@@ -4589,6 +4589,286 @@
             "name": "蓄力貫通彈",
             "description": "",
             "image": "images/items/item14.png"
+        },
+        "chameleos_hide_plus": {
+            "name": "霞龍的上皮",
+            "description": "霞龍的優質皮。\n觸感依舊不可思議，\n質地十分堅韌輕巧。"
+        },
+        "chameleos_spike": {
+            "name": "霞龍的尖角",
+            "description": "霞龍的銳利犄角。\n雖然又韌又硬，但是非常\n容易加工，是一種的奇妙素材。"
+        },
+        "chameleos_claw_plus": {
+            "name": "霞龍的尖爪",
+            "description": "霞龍的尖銳爪子。\n因其輕薄銳利且容易加工的特性\n而相當受到重視。"
+        },
+        "chameleos_tail": {
+            "name": "霞龍的尾巴",
+            "description": "形狀相當有特色的霞龍尾巴。\n觸感很不可思議。"
+        },
+        "chameleos_gem": {
+            "name": "霞龍的寶玉",
+            "description": "極少於長壽霞龍\n體內形成的寶玉。\n閃耀著七彩的光芒。"
+        },
+        "daora_carapace": {
+            "name": "鋼龍的堅殼",
+            "description": "在經過長久的歲月後，\n硬度獲得提升的甲殼。\n加工十分困難的素材。"
+        },
+        "daora_dragon_scale_plus": {
+            "name": "鋼的上龍鱗",
+            "description": "鋼龍的優質鱗片。\n其硬度及質感\n早已超越鋼鐵。"
+        },
+        "daora_webbing": {
+            "name": "鋼龍之翼",
+            "description": "鋼龍之翼。\n雖然輕盈，卻如鋼鐵般堅韌。\n研磨後會散發耀眼的銀灰色。"
+        },
+        "daora_horn_plus": {
+            "name": "鋼龍的尖角",
+            "description": "鋼龍粗獷的犄角。\n不小心摸到的話，\n會有瞬間失溫的危險。"
+        },
+        "daora_tail": {
+            "name": "鋼龍的尾巴",
+            "description": "從鋼龍身上切下的尾巴。\n擁有連巨木都能\n一舉掃平的破壞力。"
+        },
+        "daora_claw_plus": {
+            "name": "鋼龍的尖爪",
+            "description": "鋼龍的銳利爪子。\n黑得發亮的爪子\n至今似乎仍帶有活力。"
+        },
+        "daora_gem": {
+            "name": "鋼龍的寶玉",
+            "description": "極少於長壽鋼龍\n體內形成的寶玉。\n細微的光芒十分美麗。"
+        },
+        "teostra_carapace": {
+            "name": "炎王龍的堅殼",
+            "description": "比甲殼更加堅硬的\n炎王龍堅殼。\n赤色鋼鐵般的堅殼相當吸睛。"
+        },
+        "teostra_mane": {
+            "name": "炎王龍的鬃毛",
+            "description": "炎王龍威風凜凜的鬃毛。\n其飄盪威嚴氣息的毛髮\n儼然王者之貌。"
+        },
+        "teostra_tail": {
+            "name": "炎王龍的尾巴",
+            "description": "炎王龍連巨木都能橫掃夷平的\n尾巴。佈滿鮮紅鱗片的尾巴\n十分難切下來。"
+        },
+        "teostra_horn_plus": {
+            "name": "炎王龍的尖角",
+            "description": "積存炎王龍\n憤怒烈火的銳利犄角。\n帶有些微的熱度。"
+        },
+        "fire_dragon_scale_plus": {
+            "name": "獄炎的龍鱗",
+            "description": "仍保持威嚴神態，\n帶有燃燒般熱氣的炎龍鱗片。"
+        },
+        "teostra_claw_plus": {
+            "name": "炎龍的尖爪",
+            "description": "穿過炎龍火焰之人\n將遭受其無情的一擊。\n即使變成素材，仍然帶有餘熱。"
+        },
+        "teostra_webbing": {
+            "name": "炎龍之翼",
+            "description": "炎王龍之翼。\n毫不畏懼任何火焰。\n散發著強大且勇猛的氣場。"
+        },
+        "teostra_powder": {
+            "name": "炎龍的塵粉",
+            "description": "炎龍翅膀所掉落的粉塵。\n據說可使素材性能獲得\n爆發性成長的夢幻之粉。"
+        },
+        "teostra_gem": {
+            "name": "炎龍的寶玉",
+            "description": "極少於長壽炎龍\n體內形成的寶玉。\n搖曳著凶猛的火焰。"
+        },
+        "wroggi_fang": {
+            "name": "毒狗龍的毒牙",
+            "description": "毒狗龍的毒牙。\n持續滲出足以腐蝕\n大型魔物的危險毒液。"
+        },
+        "ez_sonic_bomb": {
+            "name": "補給專用音爆彈",
+            "description": "爆炸後會發出高頻率噪音的\n投擲爆彈。\n（補給品專用）"
+        },
+        "apex_blaze_sac": {
+            "name": "首領的轟炎袋",
+            "description": "火龍首領特有的器官。\n於其轟出的驚人烈焰中，\n蘊藏著無處發洩的憤慨。"
+        },
+        "apex_curlhorn": {
+            "name": "首領的彎曲角",
+            "description": "角龍首領引以為傲的巨角。\n從傷痕累累的角上，\n可窺見其強烈的求生意志。"
+        },
+        "chameleos_wing": {
+            "name": "霞龍之翼",
+            "description": "霞龍之翼。\n材質十分堅韌，表面的\n奇妙觸感更是讓人愛不釋手。"
+        },
+        "bazelgeuse_scale_plus": {
+            "name": "爆鱗龍的上鱗",
+            "description": "爆鱗龍身上的鱗片。\n彷彿像是在抑制肆虐的衝動，\n散發著淡淡的銀光。"
+        },
+        "bazelgeuse_carapace": {
+            "name": "爆鱗龍的堅殼",
+            "description": "爆鱗龍極為堅固的甲殼。\n擁有極為驚人的強度，\n能抵擋自身爆鱗產生的爆炸。"
+        },
+        "bazelgeuse_tail": {
+            "name": "爆鱗龍的尾巴",
+            "description": "爆鱗龍充滿壓迫感的尾巴。\n上面附著大量爆鱗，\n隨便一片鱗片都能炸毀房屋。"
+        },
+        "bazelgeuse_fuse": {
+            "name": "爆鱗龍的爆腺",
+            "description": "爆鱗龍的分泌器官，可分泌帶有\n爆炸力的體液。如果操作不當，\n四周將頓時化為焦土。"
+        },
+        "bazelgeuse_talon": {
+            "name": "爆鱗龍的尖爪",
+            "description": "爆鱗龍的巨大爪子。\n銳利的爪子彷彿就是\n破壞慾的化身。"
+        },
+        "bazelgeuse_wing": {
+            "name": "爆鱗龍之翼",
+            "description": "爆鱗龍的巨大翅膀。\n為了能追捕獵物直到天涯海角，\n發展得極為結實。"
+        },
+        "bazelgeuse_gem": {
+            "name": "爆鱗龍的寶玉",
+            "description": "於爆鱗龍體內形成的罕見寶石。\n受其光輝吸引者，\n頓時便會化為暴徒。"
+        },
+        "bazel_scrap_plus": {
+            "name": "爆鱗龍的上級餘料",
+            "description": "殘缺的優質爆鱗龍素材。\n形狀不規則，若是收集起來，\n就能拿來製作隨從的武具。"
+        },
+        "chameleos_scrap_plus": {
+            "name": "霞龍的上級餘料",
+            "description": "殘缺的優質霞龍素材。\n形狀不規則，若是收集起來，\n就能拿來製作隨從的武具。"
+        },
+        "kushala_daora_scrap_plus": {
+            "name": "鋼龍的上級餘料",
+            "description": "殘缺的優質鋼龍素材。\n形狀不規則，若是收集起來，\n就能拿來製作隨從的武具。"
+        },
+        "teostra_scrap_plus": {
+            "name": "炎王龍的上級餘料",
+            "description": "殘缺的優質炎王龍素材。\n形狀不規則，若是收集起來，\n就能拿來製作隨從的武具。"
+        },
+        "daora_scroll": {
+            "name": "掛軸【鋼龍】",
+            "description": "畫有鋼龍的掛軸。\n展現出公會經紀人風登\n的精湛畫藝。"
+        },
+        "chameleos_scroll": {
+            "name": "掛軸【霞龍】",
+            "description": "畫有霞龍的掛軸。\n展現出公會經紀人風登\n的精湛畫藝。"
+        },
+        "teostra_scroll": {
+            "name": "掛軸【炎王龍】",
+            "description": "畫有炎王龍的掛軸。\n展現出公會經紀人風登\n的精湛畫藝。"
+        },
+        "bazel_scroll": {
+            "name": "掛軸【爆鱗龍】",
+            "description": "畫有爆鱗龍的掛軸。\n展現出公會經紀人風登\n的精湛畫藝。"
+        },
+        "apex_rathalos_scroll": {
+            "name": "掛軸【首領火龍】",
+            "description": "畫有首領火龍的掛軸。\n展現出風登千錘百鍊的\n繪畫絕技。"
+        },
+        "apex_diablos_scroll": {
+            "name": "掛軸【首領角龍】",
+            "description": "畫有首領角龍的掛軸。\n展現出風登千錘百鍊的\n繪畫絕技。"
+        },
+        "outfit_voucher": {
+            "name": "服裝票券",
+            "description": "生產外觀裝備必備的票券。\n對於在狩獵之餘也得講究時髦\n的獵人而言是必需品。"
+        },
+        "defender_ticket_8": {
+            "name": "擊退百龍之證･八",
+            "description": "守護村莊免於百龍夜行侵襲\n的人才可獲得的感謝證明。\n可用於百龍強化。"
+        },
+        "heavy_armor_sphere": {
+            "name": "重鎧玉",
+            "description": "高密度的厚重鎧玉。\n可極大幅度強化防具。"
+        },
+        "lazurite_jewel": {
+            "name": "琉璃原珠",
+            "description": "製作裝飾品時\n不可或缺的珠子。\n是非常難以取得的物品。"
+        },
+        "bazelgeuse_coin": {
+            "name": "爆鱗龍硬幣",
+            "description": "此硬幣僅贈予在鬥技大會\n征服爆鱗龍的勇者。"
+        },
+        "wisdom_crystal": {
+            "name": "知識結晶",
+            "description": "傳說中觸摸到此結晶者將會得到\n睿智。以此結晶製作的眼鏡，\n能使配戴者看起來更加聰明。"
+        },
+        "mudbeetle": {
+            "name": "泥球甲蟲",
+            "description": "會搬運含有水屬性成分泥球的\n小型蟲類。泥球命中時，\n能使目標陷入水屬性狀態異常。"
+        },
+        "paratoad": {
+            "name": "麻痺瓦斯蛙",
+            "description": "體內儲存著速效麻痺瓦斯的\n青蛙。一旦接觸到瓦斯，\n便會瞬間麻痺動彈不得。"
+        },
+        "puppet_spider": {
+            "name": "傀儡蜘蛛",
+            "description": "會吐出具有高黏性蜘蛛絲的\n蜘蛛。若以絲線擊中魔物，\n魔物便會進入待操龍狀態。"
+        },
+        "escuregot": {
+            "name": "落雨蝸牛",
+            "description": "綠色的大型蝸牛。\n將其取出後，便會噴出具有\n回復效果的霧狀液體。"
+        },
+        "aurortle": {
+            "name": "塗泥陸龜",
+            "description": "身上背著巨大蟻窩的烏龜。\n當獵人受到將使自己力竭倒下\n的傷害時，蟻窩會代為承受。"
+        },
+        "stinkmink": {
+            "name": "臭臭鼬鼠",
+            "description": "會放出煙狀特殊費洛蒙的鼬鼠。\n可以引導沾染到費洛蒙的對象。"
+        },
+        "wailnard": {
+            "name": "子泣雉雞",
+            "description": "特徵為擁有紅色鳴袋的雉雞。\n其發出的叫聲具有吸引\n大型魔物前來的功效。"
+        },
+        "firebeetle": {
+            "name": "火石甲蟲",
+            "description": "會搬運含有火屬性成分火石的\n小型蟲類。火石命中時，\n能使目標陷入火屬性狀態異常。"
+        },
+        "thunderbeetle": {
+            "name": "雷毛甲蟲",
+            "description": "會搬運含有雷屬性成分土球的\n小型蟲類。土球命中時，\n能使目標陷入雷屬性狀態異常。"
+        },
+        "snowbeetle": {
+            "name": "雪石甲蟲",
+            "description": "會搬運含有冰屬性成分雪石的\n小型蟲類。雪石命中時，\n能使目標陷入冰屬性狀態異常。"
+        },
+        "trapbugs": {
+            "name": "撒菱蟲",
+            "description": "特徵為有堅硬、尖銳頭部的蟲。\n踩到牠的魔物不僅會感到畏縮，\n也會暫時變得不敢接近。"
+        },
+        "lanternbug": {
+            "name": "提燈妖蟲",
+            "description": "特徵為身體會微微發光的\n毛毛蟲。受到攻擊後體液會\n爆炸，並抵銷一定程度的傷害。"
+        },
+        "brewhare": {
+            "name": "加釀兔",
+            "description": "身體表面充滿了黴菌的兔子。\n能夠使部分道具發酵，\n提升道具的效果。"
+        },
+        "antidobra": {
+            "name": "轆轤蛇",
+            "description": "會射出體內解毒液的蛇類。\n只要吸入便能恢復異常狀態，\n並在一定時間內防止陷入異常。"
+        },
+        "sleeptoad": {
+            "name": "睡眠瓦斯蛙",
+            "description": "體內儲存著速效睡眠瓦斯的\n青蛙。一旦接觸到瓦斯，\n便會瞬間被睡意給侵襲。"
+        },
+        "poisontoad": {
+            "name": "劇毒瓦斯蛙",
+            "description": "體內儲存著速效劇毒瓦斯的\n青蛙。一旦接觸到瓦斯，\n便會瞬間被劇毒侵入身體。"
+        },
+        "blastoad": {
+            "name": "炸彈瓦斯蛙",
+            "description": "體內儲存著具有爆炸性瓦斯\n的青蛙。一旦瓦斯擴散出去，\n便會引發一場大爆炸。"
+        },
+        "spiribird": {
+            "name": "鬼火鳥",
+            "description": "身體會微微發光的小型鳥類。\n附著在牠身上的花粉香氣，\n能夠持續提升獵人的所有能力。"
+        },
+        "golden_spiribug": {
+            "name": "金靈瓢蟲",
+            "description": "會發出金色光芒的蟲類。\n獲得時會恢復少量耐力，\n也可用來當交貨的物品。"
+        },
+        "gilded_spiribug": {
+            "name": "黃金靈瓢蟲",
+            "description": "會發出金黃色光輝的蟲類。\n獲得時會恢復少量耐力，\n也可用來當交貨的物品。"
+        },
+        "gustcrab": {
+            "name": "一目蟹",
+            "description": "與香菇共生的陸棲螃蟹。\n能製造出一陣衝向高空的\n強風，將獵人捲到天上。"
         }
     }
 }
