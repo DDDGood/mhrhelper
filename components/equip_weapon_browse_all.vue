@@ -113,6 +113,10 @@ module.exports = {
       localStorage.setItem("equip_weapons", JSON.stringify(curData));
     },
     delayUpdate: function () {
+      if (window.hasOwnProperty('Android ')) {
+        this.rendercontents = true;
+        return
+      }
       this.rendercontents = false;
       if (this.timeoutID !== undefined)
         clearTimeout(this.timeoutID);
