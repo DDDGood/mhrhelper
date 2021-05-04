@@ -5539,7 +5539,7 @@
             ]
         },
         "teostra": {
-            "outline": "(招式素材仍在蒐集中)",
+            "outline": "炎王龍有三種主要狀態：普通、火狀態、粉狀態，其中火和粉狀態還有細分二個階段。普通狀態下怒吼會進入火或者粉狀態(輪流)，火或粉狀態下怒吼會進入第二階段。火或粉狀態下，受到一定傷害時會炸膛倒地回到普通狀態。各狀態的具體特徵如下：\n\n．普通：身體無特效。\n．火狀態：身體冒火。\n．火狀態二階段：身體冒火，口含藍火。\n．粉狀態：身體冒粉塵。\n．粉狀態二階段：身體冒粉塵，口含藍火。\n\n其中粉狀態時，原先的許多招式會有明顯的變化，初學應對時要特別注意。\n\n粉狀態時，部分招式會留下粉塵，不會立即引爆，而部分招式則會引爆所有粉塵。\n\n留下粉塵的招式：\n．巴掌\n．繞後撲\n．周身灑粉塵爆\n\n引爆粉塵的招式：\n．小拍-引爆\n．頭前甩火\n．飛撲\n．空中飛撲\n．直線塵爆\n．範圍塵爆\n\n引爆粉塵的招式也會單獨使用，而留下粉塵的招式後必定銜接引爆粉塵的招式。",
             "reference": {
                 "(twitter)モンスターハンターライズ公式": "https://twitter.com/mh_rise_jp",
                 "【MHRise】炎国の王 テオ・テスカトル チャージアックス ソロ 5'56'33 / Teostra Charge Blade Solo": "https://www.youtube.com/watch?v=LOkmDSIUUWA",
@@ -5571,7 +5571,7 @@
                     "preaction": "出手非常快。",
                     "action": "",
                     "recovery": "小",
-                    "note": "粉型態時會撒出粉塵，並引爆。",
+                    "note": "粉狀態時會撒出粉塵，並引爆。",
                     "video": "videos/炎王龍/炎王龍_小拍.mp4",
                     "onlyincombo": false
                 },
@@ -5580,7 +5580,7 @@
                     "preaction": "",
                     "action": "",
                     "recovery": "",
-                    "note": "粉型態時會撒出粉塵，在之後的動作引爆。",
+                    "note": "粉狀態時會撒出粉塵，在之後的動作引爆。",
                     "video": "videos/炎王龍/炎王龍_巴掌.mp4",
                     "onlyincombo": false
                 },
@@ -5607,7 +5607,7 @@
                     "preaction": "",
                     "action": "",
                     "recovery": "",
-                    "note": "粉型態時身後會留下粉塵，在之後的動作引爆。",
+                    "note": "粉狀態時身後會留下粉塵，在之後的動作引爆。",
                     "video": "videos/炎王龍/炎王龍_龍車.mp4",
                     "onlyincombo": false
                 },
@@ -5616,22 +5616,22 @@
                     "preaction": "",
                     "action": "",
                     "recovery": "",
-                    "note": "火型態時會立即造成傷害判定，粉型態時則會撒出三個粉塵延遲引爆。",
+                    "note": "火狀態時會立即造成傷害判定，粉狀態時則會撒出三個粉塵延遲引爆。",
                     "video": "videos/炎王龍/炎王龍_頭前甩火.mp4",
                     "onlyincombo": false
                 },
                 {
-                    "name": "扇形噴火",
+                    "name": "扇形吐息",
                     "preaction": "",
                     "action": "",
                     "recovery": "大",
-                    "note": "粉型態時變化為前方扇形範圍的粉塵延遲引爆，外圈三個先爆，接著是內圈三個。",
-                    "video": "videos/炎王龍/炎王龍_扇形噴火.mp4",
+                    "note": "粉狀態時變化為前方扇形範圍的粉塵延遲引爆，外圈三個先爆，接著是內圈三個。",
+                    "video": "videos/炎王龍/炎王龍_扇形吐息.mp4",
                     "onlyincombo": false
                 },
                 {
                     "name": "向下噴火",
-                    "condition": "火型態",
+                    "condition": "火狀態",
                     "preaction": "",
                     "action": "",
                     "recovery": "",
@@ -5644,7 +5644,7 @@
                     "preaction": "",
                     "action": "",
                     "recovery": "",
-                    "note": "火型態1時會直接落地，火形態2時結束會飛撲。",
+                    "note": "火狀態1時會直接落地，火形態2時結束會飛撲。",
                     "video": "videos/炎王龍/炎王龍_空中S形噴火.mp4",
                     "onlyincombo": false
                 },
@@ -5662,29 +5662,19 @@
                     "preaction": "",
                     "action": "",
                     "recovery": "",
-                    "note": "粉型態時身後會留下粉塵，在之後的動作引爆。",
+                    "note": "粉狀態時身後會留下粉塵，在之後的動作引爆。",
                     "video": "videos/炎王龍/炎王龍_繞後撲.mp4",
-                    "onlyincombo": true
+                    "onlyincombo": false
                 },
                 {
                     "name": "引爆粉塵",
-                    "condition": "粉型態",
+                    "condition": "粉狀態",
                     "preaction": "",
                     "action": "",
                     "recovery": "大",
                     "note": "",
                     "video": "videos/炎王龍/炎王龍_繞後撲.mp4",
                     "onlyincombo": true
-                },
-                {
-                    "name": "直線塵爆",
-                    "condition": "粉型態",
-                    "preaction": "",
-                    "action": "",
-                    "recovery": "大",
-                    "note": "",
-                    "video": "videos/炎王龍/炎王龍_直線塵爆.mp4",
-                    "onlyincombo": false
                 },
                 {
                     "name": "後跳",
@@ -5707,18 +5697,88 @@
                     "onlyincombo": false
                 },
                 {
-                    "name": "範圍塵爆",
-                    "condition": "粉型態",
+                    "name": "小拍-粉狀態變化",
+                    "condition": "粉狀態",
+                    "preaction": "出手非常快。",
+                    "action": "快速拍擊並撒出粉塵，接著會引爆。",
+                    "recovery": "小",
+                    "note": "",
+                    "video": "videos/炎王龍/炎王龍_小拍_粉.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "巴掌-粉狀態變化",
+                    "condition": "粉狀態",
+                    "preaction": "",
+                    "action": "揮出巴掌同時撒出粉塵，不會馬上引爆，而是在之後的動作引爆。",
+                    "recovery": "",
+                    "note": "",
+                    "video": "videos/炎王龍/炎王龍_巴掌_粉.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "龍車-粉狀態變化",
+                    "condition": "粉狀態",
+                    "preaction": "",
+                    "action": "",
+                    "recovery": "",
+                    "note": "粉狀態時身後會留下粉塵，在之後的動作引爆。",
+                    "video": "videos/炎王龍/炎王龍_龍車_粉.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "頭前甩火-粉狀態變化",
+                    "condition": "粉狀態",
+                    "preaction": "",
+                    "action": "撒出三個粉塵，順著甩頭的順序引爆。",
+                    "recovery": "",
+                    "note": "",
+                    "video": "videos/炎王龍/炎王龍_頭前甩火_粉.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "扇形吐息-粉狀態變化",
+                    "condition": "粉狀態",
+                    "preaction": "",
+                    "action": "前方扇形範圍的粉塵延遲引爆，爆炸依序為外圈三個左到右，接著是內圈三個右到左。",
+                    "recovery": "大",
+                    "note": "",
+                    "video": "videos/炎王龍/炎王龍_扇形吐息_粉.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "繞後撲-粉狀態變化",
+                    "condition": "粉狀態",
+                    "preaction": "",
+                    "action": "",
+                    "recovery": "",
+                    "note": "身後會留下粉塵，在之後的動作引爆。",
+                    "video": "videos/炎王龍/炎王龍_繞後撲_粉.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "直線塵爆",
+                    "condition": "粉狀態",
                     "preaction": "",
                     "action": "",
                     "recovery": "大",
-                    "note": "粉型態的第二階段才會使出的招式。",
+                    "note": "",
+                    "video": "videos/炎王龍/炎王龍_直線塵爆.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "範圍塵爆",
+                    "condition": "粉狀態",
+                    "preaction": "",
+                    "action": "",
+                    "recovery": "大",
+                    "note": "粉狀態的第二階段才會使出的招式。",
                     "video": "videos/炎王龍/炎王龍_範圍塵爆.mp4",
                     "onlyincombo": false
                 },
                 {
                     "name": "核爆",
-                    "condition": "粉型態",
+                    "condition": "火、粉狀態大招",
                     "preaction": "",
                     "action": "",
                     "recovery": "大",
@@ -5777,11 +5837,38 @@
                             ]
                         },
                         {
-                            "move": "扇形噴火",
+                            "move": "扇形吐息",
                             "links": []
                         },
                         {
                             "move": "前撲",
+                            "links": []
+                        },
+                        {
+                            "move": "空中飛撲",
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "root": 0,
+                    "condition": "粉狀態",
+                    "nodes": [
+                        {
+                            "move": "龍車-粉狀態變化",
+                            "links": [
+                                {
+                                    "node": 1,
+                                    "condition": ""
+                                },
+                                {
+                                    "node": 2,
+                                    "condition": ""
+                                }
+                            ]
+                        },
+                        {
+                            "move": "引爆粉塵",
                             "links": []
                         },
                         {
@@ -5804,7 +5891,7 @@
                             ]
                         },
                         {
-                            "move": "扇形噴火",
+                            "move": "扇形吐息",
                             "links": []
                         }
                     ]
@@ -5826,11 +5913,11 @@
                                 },
                                 {
                                     "node": 3,
-                                    "condition": "火型態"
+                                    "condition": "火狀態"
                                 },
                                 {
                                     "node": 4,
-                                    "condition": "粉型態"
+                                    "condition": "粉狀態"
                                 }
                             ]
                         },
@@ -5863,14 +5950,14 @@
                 },
                 {
                     "root": 0,
-                    "condition": "火型態",
+                    "condition": "火狀態",
                     "nodes": [
                         {
                             "move": "空中S形噴火",
                             "links": [
                                 {
                                     "node": 1,
-                                    "condition": "(火型態二階段)"
+                                    "condition": "(火狀態二階段)"
                                 }
                             ]
                         },
@@ -5882,7 +5969,7 @@
                 },
                 {
                     "root": 0,
-                    "condition": "粉型態",
+                    "condition": "粉狀態",
                     "nodes": [
                         {
                             "move": "小拍",
@@ -5901,7 +5988,7 @@
                 },
                 {
                     "root": 0,
-                    "condition": "粉型態",
+                    "condition": "粉狀態",
                     "nodes": [
                         {
                             "move": "留下粉塵的招式",
@@ -5924,6 +6011,10 @@
                                 },
                                 {
                                     "node": 6,
+                                    "condition": ""
+                                },
+                                {
+                                    "node": 7,
                                     "condition": "(粉二階段)"
                                 }
                             ]
@@ -5947,6 +6038,10 @@
                         },
                         {
                             "move": "前撲",
+                            "links": []
+                        },
+                        {
+                            "move": "空中飛撲",
                             "links": []
                         },
                         {
