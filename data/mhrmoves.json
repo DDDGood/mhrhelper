@@ -5720,6 +5720,16 @@
                     "onlyincombo": true
                 },
                 {
+                    "name": "扇形吐息-粉狀態變化",
+                    "condition": "粉狀態",
+                    "preaction": "頭向斜上方縮，並抬起單手續力。",
+                    "action": "前方扇形範圍的粉塵延遲引爆，爆炸依序為外圈三個左到右，接著是內圈三個右到左。",
+                    "recovery": "大",
+                    "note": "",
+                    "video": "videos/炎王龍/炎王龍_扇形吐息_粉.mp4",
+                    "onlyincombo": false
+                },
+                {
                     "name": "引爆粉塵",
                     "condition": "粉狀態",
                     "preaction": "",
@@ -5777,16 +5787,6 @@
                     "recovery": "大",
                     "note": "火、粉狀態二階段經過一段時間後使用，使用後回到普通形態。",
                     "video": "videos/炎王龍/炎王龍_核爆.mp4",
-                    "onlyincombo": false
-                },
-                {
-                    "name": "扇形吐息-粉狀態變化",
-                    "condition": "粉狀態",
-                    "preaction": "頭向斜上方縮，並抬起單手續力。",
-                    "action": "前方扇形範圍的粉塵延遲引爆，爆炸依序為外圈三個左到右，接著是內圈三個右到左。",
-                    "recovery": "大",
-                    "note": "",
-                    "video": "videos/炎王龍/炎王龍_扇形吐息_粉.mp4",
                     "onlyincombo": false
                 }
             ],
