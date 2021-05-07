@@ -872,7 +872,7 @@
     "apex_arzuros": {
       "name": {
         "tw": "首領青熊獸",
-        "jp": "",
+        "jp": "ヌシアオアシラ",
         "en": "ApexArzuros"
       },
       "species": "fanged_beast",
@@ -2357,7 +2357,7 @@
     "apex_mizutsune": {
       "name": {
         "tw": "首領泡狐龍",
-        "jp": "",
+        "jp": "ヌシ・タマミツネ",
         "en": "ApexMizutsune"
       },
       "species": "leviathan",
@@ -15006,7 +15006,7 @@
     "rakna-kadaki": {
       "name": {
         "tw": "妃蜘蛛",
-        "jp": "",
+        "jp": "ヤツカダキ",
         "en": "Rakna-Kadaki"
       },
       "species": "temnoceran",
@@ -18722,7 +18722,7 @@
     "apex_rathalos": {
       "name": {
         "tw": "首領火龍",
-        "jp": "",
+        "jp": "ヌシ・リオレウス",
         "en": "ApexRathalos"
       },
       "species": "flying_wryven",
@@ -18735,7 +18735,7 @@
     "apex_diablos": {
       "name": {
         "tw": "首領角龍",
-        "jp": "",
+        "jp": "ヌシ・ディアブロス",
         "en": "ApexDiablos"
       },
       "species": "flying_wryven",
