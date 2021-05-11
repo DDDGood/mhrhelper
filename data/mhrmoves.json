@@ -5976,6 +5976,196 @@
             ],
             "ref_id": "608b68b7acd80103b52c118a"
         },
+        "kushala_daora": {
+            "outline": "(招式素材仍在蒐集中)",
+            "reference": {
+                "Monster Hunter Rise - Kushala Daora Boss Fight (Dual Blades/ Solo)": "https://youtu.be/29c2ZtFR7A4"
+            },
+            "moves": [
+                {
+                    "name": "龍吼",
+                    "preaction": "",
+                    "action": "",
+                    "recovery": "",
+                    "note": "",
+                    "video": "videos/鋼龍/鋼龍_龍吼.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "巴掌",
+                    "preaction": "",
+                    "action": "",
+                    "recovery": "",
+                    "note": "",
+                    "video": "videos/鋼龍/鋼龍_巴掌.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "小嘴砲",
+                    "preaction": "",
+                    "action": "",
+                    "recovery": "",
+                    "note": "",
+                    "video": "videos/鋼龍/鋼龍_小嘴砲.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "甩頭風",
+                    "preaction": "",
+                    "action": "",
+                    "recovery": "大",
+                    "note": "",
+                    "video": "videos/鋼龍/鋼龍_甩頭風.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "垂直吐息",
+                    "preaction": "",
+                    "action": "",
+                    "recovery": "",
+                    "note": "",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "左右龍捲風x6",
+                    "preaction": "",
+                    "action": "",
+                    "recovery": "",
+                    "note": "",
+                    "video": "videos/鋼龍/鋼龍_左右龍捲風x6.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "快速後飛龍捲風",
+                    "preaction": "",
+                    "action": "",
+                    "recovery": "",
+                    "note": "",
+                    "video": "videos/鋼龍/鋼龍_快速後飛龍捲風.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "蹬腿後飛龍捲風",
+                    "preaction": "",
+                    "action": "",
+                    "recovery": "",
+                    "note": "",
+                    "video": "videos/鋼龍/鋼龍_蹬腿後飛龍捲風.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "龍氣下壓",
+                    "preaction": "",
+                    "action": "",
+                    "recovery": "",
+                    "note": "",
+                    "video": "videos/鋼龍/鋼龍_龍氣下壓.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "飛撲",
+                    "preaction": "",
+                    "action": "",
+                    "recovery": "",
+                    "note": "",
+                    "video": "videos/鋼龍/鋼龍_飛撲.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "空中飛撲",
+                    "preaction": "",
+                    "action": "",
+                    "recovery": "",
+                    "note": "",
+                    "video": "videos/鋼龍/鋼龍_空中飛撲.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "空中滑行",
+                    "preaction": "",
+                    "action": "",
+                    "recovery": "",
+                    "note": "",
+                    "video": "videos/鋼龍/鋼龍_空中滑行.mp4",
+                    "onlyincombo": true
+                },
+                {
+                    "name": "後跳",
+                    "preaction": "",
+                    "action": "",
+                    "recovery": "",
+                    "note": "",
+                    "video": "videos/鋼龍/鋼龍_後跳.mp4",
+                    "onlyincombo": true
+                },
+                {
+                    "name": "側跳",
+                    "preaction": "",
+                    "action": "",
+                    "recovery": "",
+                    "note": "",
+                    "onlyincombo": true
+                },
+                {
+                    "name": "蹬腿後飛",
+                    "preaction": "",
+                    "action": "",
+                    "recovery": "",
+                    "note": "",
+                    "video": "videos/鋼龍/鋼龍_蹬腿後飛.mp4",
+                    "onlyincombo": true
+                }
+            ],
+            "combos": [
+                {
+                    "root": 0,
+                    "condition": "",
+                    "nodes": [
+                        {
+                            "move": "後跳",
+                            "links": [
+                                {
+                                    "node": 1,
+                                    "condition": ""
+                                },
+                                {
+                                    "node": 2,
+                                    "condition": "黑風"
+                                }
+                            ]
+                        },
+                        {
+                            "move": "小嘴砲",
+                            "links": []
+                        },
+                        {
+                            "move": "垂直吐息",
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "root": 0,
+                    "condition": "",
+                    "nodes": [
+                        {
+                            "move": "巴掌",
+                            "links": [
+                                {
+                                    "node": 1,
+                                    "condition": "白風"
+                                }
+                            ]
+                        },
+                        {
+                            "move": "龍氣下壓",
+                            "links": []
+                        }
+                    ]
+                }
+            ],
+            "ref_id": "608b68b7acd80103b52c1189"
+        },
         "(未定)雷狼龍": {
             "outline": "(招式素材仍在蒐集中)",
             "moves": [
