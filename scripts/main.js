@@ -28,8 +28,8 @@ var lastTime = startTime;
 $(document).ready(Initialize);
 
 function Initialize() {
-    // LoadData(['data/mhrdex.json', 'data/mhrmoves.json', 'data/endemics.json', "data/small_monster.json", "data/weapons.json", "data/items.json", "data/quests.json", "data/item_source.json", "data/meowcenaries.json", "data/equip_weapons.json"], onDexLoaded);
-    LoadData(['data/mhrdex.json', 'data/mhrmoves.json', 'data/endemics.json', "data/small_monster.json", "data/weapons.json", "data/items.json", "data/quests.json", "data/item_source.json", "data/meowcenaries.json", "data/equip_weapons.json", "data/raw/monsters-0507.json", "data/raw/item-cn-jp.json", "data/cntokey.json", "data/cntotw.json", "data/jptotw.json"], tryOnDexLoaded);
+    LoadData(['data/mhrdex.json', 'data/mhrmoves.json', 'data/endemics.json', "data/small_monster.json", "data/weapons.json", "data/items.json", "data/quests.json", "data/item_source.json", "data/meowcenaries.json", "data/equip_weapons.json"], onDexLoaded);
+    // LoadData(['data/mhrdex.json', 'data/mhrmoves.json', 'data/endemics.json', "data/small_monster.json", "data/weapons.json", "data/items.json", "data/quests.json", "data/item_source.json", "data/meowcenaries.json", "data/equip_weapons.json", "data/raw/v2/quests_0511.json", "data/raw/item-cn-jp.json", "data/cntokey.json", "data/cntotw.json", "data/jptotw.json"], tryOnDexLoaded);
 }
 
 function tryInitialize() {
@@ -255,30 +255,42 @@ function ExportItemSource() {
 
 
 function someDataWorks() {
-    let output = {
-        'large_monsters': {},
-        'new': {}
-    }
-    for (let i in data['0507']) {
-        let fromData = data['0507'][i];
-        let foundID = "";
-        for (let mID in data.large_monsters) {
-            let mData = data.large_monsters[mID];
-            if (mData.name.en == fromData.name_en || mData.name.jp == fromData.name_jp) {
-                foundID = mID;
-                break;
-            }
-        }
-        if (foundID === "") {
-            console.log(fromData.name);
-        }
-        if (data.large_monsters[foundID] !== undefined) {
-            data.large_monsters[foundID].ref_id = fromData.id;
-        }
-    }
-    output.large_monsters = data.large_monsters;
 
+    let output = {
+        "new_quests": {}
+    }
+    for (let qID in data['quests_0511']) {
+        var q = data['quests_0511'][qID];
+        if (data.quests[qID] === undefined) {
+            output.new_quests[qID] = q;
+        }
+    }
     outputText(JSON.stringify(output));
+
+    // let output = {
+    //     'large_monsters': {},
+    //     'new': {}
+    // }
+    // for (let i in data['0507']) {
+    //     let fromData = data['0507'][i];
+    //     let foundID = "";
+    //     for (let mID in data.large_monsters) {
+    //         let mData = data.large_monsters[mID];
+    //         if (mData.name.en == fromData.name_en || mData.name.jp == fromData.name_jp) {
+    //             foundID = mID;
+    //             break;
+    //         }
+    //     }
+    //     if (foundID === "") {
+    //         console.log(fromData.name);
+    //     }
+    //     if (data.large_monsters[foundID] !== undefined) {
+    //         data.large_monsters[foundID].ref_id = fromData.id;
+    //     }
+    // }
+    // output.large_monsters = data.large_monsters;
+
+    // outputText(JSON.stringify(output));
 
 
     // let output = {

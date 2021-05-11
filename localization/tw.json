@@ -5613,6 +5613,126 @@
                     "description": "愛徒啊，歡迎來到鬥技大會！\n請使用規定的武具，\n盡情發揮你的實力吧！",
                     "success": "討伐1頭赤甲獸、\n1頭岩龍與1頭爆鱗龍",
                     "fail": "報酬金0（力竭倒下1次）\n時間結束"
+                },
+                "quest_hall_ancient_illusion": {
+                    "name": "上古幻影",
+                    "type": "hall",
+                    "client": "公會經紀人･風登",
+                    "description": "哦～真是太可怕了呱。\n那道上古幻影──\n肉眼看不見的神仙霞龍，\n竟然出現在大社遺跡……！\n不知是受到鎮守神廟的靈氣吸引？\n又或是受到百龍夜行的影響……\n請你盡快討伐牠呱！",
+                    "success": "討伐1頭霞龍",
+                    "fail": "報酬金0\n時間結束"
+                },
+                "quest_hall_the_steely_storm": {
+                    "name": "於暴風中起舞的黑影",
+                    "type": "hall",
+                    "client": "公會經紀人･風登",
+                    "description": "鋼龍……牠是謎團重重的古龍，\n相傳牠在天空翱翔的模樣，\n有如得到神助。\n因為牠降臨在寒冷群島，\n使那一帶颳起了狂烈的黑風，\n瀕臨被摧毀的危機呱。\n這次討伐……就交給你了呱。",
+                    "success": "討伐1頭鋼龍",
+                    "fail": "報酬金0\n時間結束"
+                },
+                "quest_hall_the_emperor_of_flame": {
+                    "name": "炎國之王",
+                    "type": "hall",
+                    "client": "公會經紀人･風登",
+                    "description": "已經確認炎王龍出現在熔岩洞呱。\n相傳在古龍當中，牠的個性也\n格外凶暴……不愧是人稱炎之暴君\n的魔物。如果不盡快討伐牠，\n整個區域都將瞬間化為焦土呱！\n能夠託付這項討伐任務的……\n就只有你了呱！",
+                    "success": "討伐1頭炎王龍",
+                    "fail": "報酬金0\n時間結束"
+                },
+                "quest_hall_a_blaze_among_beasts": {
+                    "name": "烈火與昂首闊步的強者們",
+                    "type": "hall",
+                    "client": "村長傅賢",
+                    "description": "為了讓你能夠鍛鍊身手，\n因應任何情況，\n我準備了困難的任務。\n烈火啊！去狩獵那些強者，\n向我展示你的實力吧！\n當你克服考驗後，我將授予你\n特殊的結花環作為獎賞！",
+                    "success": "狩獵所有目標",
+                    "fail": "報酬金0\n時間結束"
+                },
+                "quest_hall_may_fire_quell_fury": {
+                    "name": "烈火啊，撫平沖天的怒髮吧",
+                    "type": "hall",
+                    "client": "村長傅賢",
+                    "description": "能夠應付任何突發狀況的獵人，\n才是真正的強者！我所準備的\n任務，能夠讓你具備這樣的能力！\n烈火啊！去捕獲狂暴的金獅子，\n邁向更高的境界吧！\n當你克服考驗後，我將授予你\n特殊的結花環作為獎賞！",
+                    "success": "捕獲1頭金獅子",
+                    "fail": "報酬金0、時間結束\n討伐捕獲對象"
+                },
+                "quest_hall_death_from_above": {
+                    "name": "爆鱗如雨",
+                    "type": "hall",
+                    "client": "中堅獵人",
+                    "description": "我到現在還不敢相信自己\n親眼所見……我在狩獵的時候，\n天上突然掉下像是爆彈的東西，\n把附近一帶瞬間化為焦土。\n如果放任那種傢伙胡鬧，生態系統\n肯定會失去平衡。對自己身手\n有自信的人，拜託去狩獵牠吧！",
+                    "success": "狩獵1頭爆鱗龍",
+                    "fail": "報酬金0\n時間結束"
+                },
+                "quest_hall_return_of_the_bazelgeuse": {
+                    "name": "爆鱗龍再次來襲",
+                    "type": "hall",
+                    "client": "附近村莊的巡守隊",
+                    "description": "那頭爆鱗龍又出現了！\n牠會四處移動，並且以\n過度激烈的攻擊手段狩獵，\n因此把各地弄得一團糟！\n由於牠經常在各地移動，\n所以每次的目的地都不見得一樣！\n請千萬要多加注意。",
+                    "success": "狩獵1頭爆鱗龍",
+                    "fail": "報酬金0\n時間結束"
+                },
+                "quest_hall_return_of_the_bazelgeuse_2": {
+                    "name": "爆鱗龍再次來襲",
+                    "type": "hall",
+                    "client": "附近村莊的巡守隊",
+                    "description": "那頭爆鱗龍又出現了！\n牠會四處移動，並且以\n過度激烈的攻擊手段狩獵，\n因此把各地弄得一團糟！\n由於牠經常在各地移動，\n所以每次的目的地都不見得一樣！\n請千萬要多加注意。",
+                    "success": "狩獵1頭爆鱗龍",
+                    "fail": "報酬金0\n時間結束"
+                },
+                "quest_hall_return_of_the_bazelgeuse_3": {
+                    "name": "爆鱗龍再次來襲",
+                    "type": "hall",
+                    "client": "附近村莊的巡守隊",
+                    "description": "那頭爆鱗龍又出現了！\n牠會四處移動，並且以\n過度激烈的攻擊手段狩獵，\n因此把各地弄得一團糟！\n由於牠經常在各地移動，\n所以每次的目的地都不見得一樣！\n請千萬要多加注意。",
+                    "success": "狩獵1頭爆鱗龍",
+                    "fail": "報酬金0\n時間結束"
+                },
+                "quest_hall_return_of_the_bazelgeuse_4": {
+                    "name": "爆鱗龍再次來襲",
+                    "type": "hall",
+                    "client": "附近村莊的巡守隊",
+                    "description": "那頭爆鱗龍又出現了！\n牠會四處移動，並且以\n過度激烈的攻擊手段狩獵，\n因此把各地弄得一團糟！\n由於牠經常在各地移動，\n所以每次的目的地都不見得一樣！\n請千萬要多加注意。",
+                    "success": "狩獵1頭爆鱗龍",
+                    "fail": "報酬金0\n時間結束"
+                },
+                "quest_hall_return_of_the_bazelgeuse_5": {
+                    "name": "爆鱗龍再次來襲",
+                    "type": "hall",
+                    "client": "附近村莊的巡守隊",
+                    "description": "那頭爆鱗龍又出現了！\n牠會四處移動，並且以\n過度激烈的攻擊手段狩獵，\n因此把各地弄得一團糟！\n由於牠經常在各地移動，\n所以每次的目的地都不見得一樣！\n請千萬要多加注意。",
+                    "success": "狩獵1頭爆鱗龍",
+                    "fail": "報酬金0\n時間結束"
+                },
+                "quest_hall_the_avaricious_apex_arzuros": {
+                    "name": "暴飲暴食的首領青熊獸",
+                    "type": "hall",
+                    "client": "喜愛散步的男性",
+                    "description": "我原本以為是青熊獸又出現在\n大社遺跡了，不過樣子不太一樣。\n牠好像格外凶暴，外觀也有點\n不同……啊！難道是首領……！？\n獵人，請去打倒牠！\n相信你應該知道，首領比起一般的\n魔物更為強大，要多加小心啊。",
+                    "success": "討伐1頭首領青熊獸",
+                    "fail": "報酬金0\n時間結束"
+                },
+                "quest_hall_the_graceful_apex_rathian": {
+                    "name": "雍容優雅的首領雌火龍",
+                    "type": "hall",
+                    "client": "目光短淺的獵人",
+                    "description": "我想說牠好像受了傷，應該會\n變得比較弱，結果卻強得誇張……\n比起普通的雌火龍，\n總覺得牠生氣時的攻擊更加猛烈。\n真的會讓人忍不住懷疑\n女王為什麼要發那麼大的脾氣耶？\n麻煩替我擊退牠啦！",
+                    "success": "討伐1頭首領雌火龍",
+                    "fail": "報酬金0\n時間結束"
+                },
+                "quest_hall_the_harlequin_apex_mizutsune": {
+                    "name": "萬紫千紅的首領泡狐龍",
+                    "type": "hall",
+                    "client": "冷靜沉穩的女侍",
+                    "description": "泡狐龍現身了，而且還是隻首領。\n那個地方是主人回家的必經之路，\n如果主人受到牽連，\n要去救人實在太麻……\n呃不，我很擔心主人的安危，\n希望獵人能迅速解決這起事件。",
+                    "success": "討伐1頭首領泡狐龍",
+                    "fail": "報酬金0\n時間結束"
+                },
+                "quest_village_advanced:_the_veterans_gala": {
+                    "name": "高難度：挑戰霸者之列吧",
+                    "type": "village",
+                    "client": "村長傅賢",
+                    "description": "金獅子、爆鱗龍和怨虎龍，\n這些名聞遐邇的強者\n已依序集結在鬥技場。\n希望你能夠成功狩獵牠們，\n使你的實力更上一層樓。\n祝你旗開得勝！",
+                    "success": "狩獵所有目標",
+                    "fail": "報酬金0\n時間結束"
                 }
             }
         }
