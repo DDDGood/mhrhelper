@@ -411,7 +411,8 @@
           }
         ],
         "parts_image": "images/monsters/parts/great_izuchi.png"
-      }
+      },
+      "ref_id": "5ff9e48fd17411307b2639d1"
     },
     "arzuros": {
       "name": {
@@ -867,7 +868,8 @@
           }
         ],
         "parts_image": "images/monsters/parts/arzuros.png"
-      }
+      },
+      "ref_id": "5ff9e48fd17411307b2639cc"
     },
     "apex_arzuros": {
       "name": {
@@ -965,7 +967,8 @@
             "dragon": "0"
           }
         ]
-      }
+      },
+      "ref_id": "60377cd6097b292d4ce8db53"
     },
     "rathian": {
       "name": {
@@ -1587,12 +1590,13 @@
           }
         ],
         "parts_image": "images/monsters/parts/rathian.png"
-      }
+      },
+      "ref_id": "5ff9e48fd17411307b2639db"
     },
     "apex_rathian": {
       "name": {
         "tw": "首領雌火龍",
-        "jp": "",
+        "jp": "ヌシ・リオレイア",
         "en": "ApexRathian"
       },
       "species": "flying_wryven",
@@ -1600,7 +1604,8 @@
       "icon": "images/monsters/icons/apex_rathian.png",
       "icon_large": "images/monsters/icons/large/apex_rathian.png",
       "description": "冠有「首領」之名的雌火龍。全身上下都有著像是被捲入暴風後所留下的傷痕，這也許是牠一直受到憤怒與恐懼支配的原因。尾巴比起一般的個體更加發達，棘上還有著猛烈的劇毒。另外，首領會藉由咆嘯，將自己的憤怒與恐懼散播至周遭，使其他魔物變得活躍起來。\n首領發怒後，會施展最強勁的必殺技。首領雌火龍的必殺技為將具有猛毒的棘射向四周，並以飛散的棘為中心創造出毒素領域。當首領處於憤怒狀態時，記得要持續攻擊，盡早使其膽怯，平息首領的怒火吧。",
-      "threat_level": "apex"
+      "threat_level": "apex",
+      "ref_id": "605a1c18bc331f26a500c996"
     },
     "mizutsune": {
       "name": {
@@ -2352,7 +2357,8 @@
           }
         ],
         "parts_image": "images/monsters/parts/mizutsune.png"
-      }
+      },
+      "ref_id": "5ff9e48fd17411307b2639d8"
     },
     "apex_mizutsune": {
       "name": {
@@ -2365,7 +2371,8 @@
       "icon": "images/monsters/icons/apex_mizutsune.png",
       "icon_large": "images/monsters/icons/large/apex_mizutsune.png",
       "description": "冠有「首領」之名的泡狐龍。全身上下都有著像是被捲入暴風後所留下的傷痕，這也許是牠一直受到憤怒與恐懼支配的原因。尾巴比起一般的個體更加發達，其頑強的攻擊會將目標的希望與鬥志化為泡影。另外，首領會藉由咆嘯，將自己的憤怒與恐懼散播至周遭，使其他魔物變得活躍起來。\n首領發怒後，會施展最強勁的必殺技。首領泡狐龍的必殺技為撒出會爆炸的泡泡，破壞四周的一切。此時不妨使用苦無、彈藥或弩砲等方式來處理泡泡。當首領處於憤怒狀態時，記得要持續攻擊，盡早使其膽怯，平息首領的怒火吧。",
-      "threat_level": "apex"
+      "threat_level": "apex",
+      "ref_id": "60575d7b3f1e3646fb685abd"
     },
     "magnamalo": {
       "name": {
@@ -3004,7 +3011,8 @@
           }
         ],
         "parts_image": "images/monsters/parts/magnamalo.png"
-      }
+      },
+      "ref_id": "5ff9e48fd17411307b2639d7"
     },
     "tetranadon": {
       "name": {
@@ -3526,7 +3534,8 @@
           }
         ],
         "parts_image": "images/monsters/parts/tetranadon.png"
-      }
+      },
+      "ref_id": "5ff9e48fd17411307b2639de"
     },
     "aknosom": {
       "name": {
@@ -4032,7 +4041,8 @@
           }
         ],
         "parts_image": "images/monsters/parts/aknosom.png"
-      }
+      },
+      "ref_id": "5ff9e48fd17411307b2639ca"
     },
     "somnacanth": {
       "name": {
@@ -4538,7 +4548,8 @@
           }
         ],
         "parts_image": "images/monsters/parts/somnacanth.png"
-      }
+      },
+      "ref_id": "5ff9e48fd17411307b2639dd"
     },
     "khezu": {
       "name": {
@@ -5081,7 +5092,8 @@
           }
         ],
         "parts_image": "images/monsters/parts/khezu.png"
-      }
+      },
+      "ref_id": "5ff9e48fd17411307b2639d4"
     },
     "royal_ludroth": {
       "name": {
@@ -5596,7 +5608,8 @@
           }
         ],
         "parts_image": "images/monsters/parts/royal_ludroth.png"
-      }
+      },
+      "ref_id": "5ff9e48fd17411307b2639dc"
     },
     "rathalos": {
       "name": {
@@ -6187,7 +6200,8 @@
           }
         ],
         "parts_image": "images/monsters/parts/rathalos.png"
-      }
+      },
+      "ref_id": "5ff9e48fd17411307b2639da"
     },
     "pukei-pukei": {
       "name": {
@@ -6712,7 +6726,8 @@
           }
         ],
         "parts_image": "images/monsters/parts/pukei-pukei.png"
-      }
+      },
+      "ref_id": "5ff9e48fd17411307b2639d9"
     },
     "kulu-ya-ku": {
       "name": {
@@ -7177,7 +7192,8 @@
           }
         ],
         "parts_image": "images/monsters/parts/kulu-ya-ku.png"
-      }
+      },
+      "ref_id": "5ff9e48fd17411307b2639d5"
     },
     "tobi-kadachi": {
       "name": {
@@ -7680,7 +7696,8 @@
           }
         ],
         "parts_image": "images/monsters/parts/tobi-kadachi.png"
-      }
+      },
+      "ref_id": "5ff9e48fd17411307b2639e0"
     },
     "anjanath": {
       "name": {
@@ -8253,7 +8270,8 @@
           }
         ],
         "parts_image": "images/monsters/parts/anjanath.png"
-      }
+      },
+      "ref_id": "5ff9e48fd17411307b2639cb"
     },
     "jyuratodus": {
       "name": {
@@ -8800,7 +8818,8 @@
           }
         ],
         "parts_image": "images/monsters/parts/jyuratodus.png"
-      }
+      },
+      "ref_id": "5ff9e48fd17411307b2639d3"
     },
     "great_wroggi": {
       "name": {
@@ -9137,7 +9156,8 @@
           }
         ],
         "parts_image": "images/monsters/parts/great_wroggi.png"
-      }
+      },
+      "ref_id": "5ff9e48fd17411307b2639d2"
     },
     "bishaten": {
       "name": {
@@ -9647,7 +9667,8 @@
           }
         ],
         "parts_image": "images/monsters/parts/bishaten.png"
-      }
+      },
+      "ref_id": "5ff9e48fd17411307b2639ce"
     },
     "goss_harag": {
       "name": {
@@ -10327,7 +10348,8 @@
           }
         ],
         "parts_image": "images/monsters/parts/goss_harag.png"
-      }
+      },
+      "ref_id": "5ff9e48fd17411307b2639cf"
     },
     "great_baggi": {
       "name": {
@@ -10664,7 +10686,8 @@
           }
         ],
         "parts_image": "images/monsters/parts/great_baggi.png"
-      }
+      },
+      "ref_id": "5ff9e48fd17411307b2639d0"
     },
     "lagombi": {
       "name": {
@@ -11083,7 +11106,8 @@
           }
         ],
         "parts_image": "images/monsters/parts/lagombi.png"
-      }
+      },
+      "ref_id": "5ff9e48fd17411307b2639d6"
     },
     "barioth": {
       "name": {
@@ -11686,7 +11710,8 @@
           }
         ],
         "parts_image": "images/monsters/parts/barioth.png"
-      }
+      },
+      "ref_id": "5ff9e48fd17411307b2639cd"
     },
     "tigrex": {
       "name": {
@@ -12215,7 +12240,8 @@
           }
         ],
         "parts_image": "images/monsters/parts/tigrex.png"
-      }
+      },
+      "ref_id": "5ff9e48fd17411307b2639df"
     },
     "barroth": {
       "name": {
@@ -12887,7 +12913,8 @@
           }
         ],
         "parts_image": "images/monsters/parts/barroth.png"
-      }
+      },
+      "ref_id": "5ffac889dc972131ee11ceeb"
     },
     "basarios": {
       "name": {
@@ -13586,7 +13613,8 @@
           }
         ],
         "parts_image": "images/monsters/parts/basarios.png"
-      }
+      },
+      "ref_id": "5ffac7bf5e6a272e089371f7"
     },
     "volvidon": {
       "name": {
@@ -14047,7 +14075,8 @@
           }
         ],
         "parts_image": "images/monsters/parts/volvidon.png"
-      }
+      },
+      "ref_id": "5ffac78f2a2b0f359ec5cbb1"
     },
     "diablos": {
       "name": {
@@ -14597,7 +14626,8 @@
           }
         ],
         "parts_image": "images/monsters/parts/diablos.png"
-      }
+      },
+      "ref_id": "602f2feb6b4b8224d207ec82"
     },
     "rajang": {
       "name": {
@@ -15001,7 +15031,8 @@
           }
         ],
         "parts_image": "images/monsters/parts/rajang.png"
-      }
+      },
+      "ref_id": "602f300d3358340f7c7a5499"
     },
     "rakna-kadaki": {
       "name": {
@@ -15473,7 +15504,8 @@
           }
         ],
         "parts_image": "images/monsters/parts/rakna-kadaki.png"
-      }
+      },
+      "ref_id": "5ff9e48fd17411307b2639e1"
     },
     "almudron": {
       "name": {
@@ -16113,7 +16145,8 @@
           }
         ],
         "parts_image": "images/monsters/parts/almudron.png"
-      }
+      },
+      "ref_id": "602f30b3a4bae524d45ad779"
     },
     "nargacuga": {
       "name": {
@@ -16740,7 +16773,8 @@
           }
         ],
         "parts_image": "images/monsters/parts/nargacuga.png"
-      }
+      },
+      "ref_id": "5ffac7fcdc972131ee11ceb0"
     },
     "zinogre": {
       "name": {
@@ -17475,7 +17509,8 @@
           }
         ],
         "parts_image": "images/monsters/parts/zinogre.png"
-      }
+      },
+      "ref_id": "5ffac75a5e6a27366e936c7f"
     },
     "wind_serpent_ibushi": {
       "name": {
@@ -17917,7 +17952,8 @@
           }
         ],
         "parts_image": "images/monsters/parts/wind_serpent_ibushi.png"
-      }
+      },
+      "ref_id": "605a1f52b6e8ed301ea6b457"
     },
     "thunder_serpent_narwa": {
       "name": {
@@ -18426,7 +18462,8 @@
           }
         ],
         "parts_image": "images/monsters/parts/thunder_serpent_narwa.png"
-      }
+      },
+      "ref_id": "605a1f69b6e8ed30ad0d7ce0"
     },
     "bazelgeuse": {
       "name": {
@@ -18555,7 +18592,8 @@
             "dragon": "10"
           }
         ]
-      }
+      },
+      "ref_id": "608b68b7acd80103b52c118b"
     },
     "chameleos": {
       "name": {
@@ -18717,7 +18755,8 @@
             "dizzy": 0
           }
         ]
-      }
+      },
+      "ref_id": "604633f9653da92a20df3a06"
     },
     "apex_rathalos": {
       "name": {
@@ -18730,7 +18769,8 @@
       "icon": "images/monsters/icons/apex_rathalos.png",
       "icon_large": "images/monsters/icons/large/apex_rathalos.png",
       "description": "冠以「首領」之名的火龍。\n全身上下都有著像是被捲入暴風後所留下的傷痕，\n這也許是牠一直受到憤怒與恐懼支配的原因。\n喉部比起一般的個體更加發達，從牠咽喉中吐出的烈焰吐息，會將四周化為一片焦土。",
-      "threat_level": "apex"
+      "threat_level": "apex",
+      "ref_id": "608b68b7acd80103b52c118d"
     },
     "apex_diablos": {
       "name": {
@@ -18743,7 +18783,8 @@
       "icon": "images/monsters/icons/apex_diablos.png",
       "icon_large": "images/monsters/icons/large/apex_diablos.png",
       "description": "冠以「首領」之名的角龍。\n全身上下都有著像是被捲入暴風後所留下的傷痕，\n這也許是牠一直受到憤怒與恐懼支配的原因。\n角比起一般的個體更加發達，其突進的破壞力會將對手撞入絕望的深淵。",
-      "threat_level": "apex"
+      "threat_level": "apex",
+      "ref_id": "608b68b7acd80103b52c118c"
     },
     "kushala_daora": {
       "name": {
@@ -18918,7 +18959,8 @@
             "dizzy": 0
           }
         ]
-      }
+      },
+      "ref_id": "608b68b7acd80103b52c1189"
     },
     "teostra": {
       "name": {
@@ -19069,7 +19111,8 @@
             "dragon": "5"
           }
         ]
-      }
+      },
+      "ref_id": "608b68b7acd80103b52c118a"
     }
   }
 }

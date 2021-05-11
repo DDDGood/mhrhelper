@@ -28,8 +28,8 @@ var lastTime = startTime;
 $(document).ready(Initialize);
 
 function Initialize() {
-    LoadData(['data/mhrdex.json', 'data/mhrmoves.json', 'data/endemics.json', "data/small_monster.json", "data/weapons.json", "data/items.json", "data/quests.json", "data/item_source.json", "data/meowcenaries.json", "data/equip_weapons.json"], onDexLoaded);
-    // LoadData(['data/mhrdex.json', 'data/mhrmoves.json', 'data/endemics.json', "data/small_monster.json", "data/weapons.json", "data/items.json", "data/quests.json", "data/item_source.json", "data/meowcenaries.json", "data/equip_weapons.json", "data/raw/itemlistv2.json", "data/raw/item-cn-jp.json", "data/cntokey.json", "data/cntotw.json", "data/jptotw.json"], tryOnDexLoaded);
+    // LoadData(['data/mhrdex.json', 'data/mhrmoves.json', 'data/endemics.json', "data/small_monster.json", "data/weapons.json", "data/items.json", "data/quests.json", "data/item_source.json", "data/meowcenaries.json", "data/equip_weapons.json"], onDexLoaded);
+    LoadData(['data/mhrdex.json', 'data/mhrmoves.json', 'data/endemics.json', "data/small_monster.json", "data/weapons.json", "data/items.json", "data/quests.json", "data/item_source.json", "data/meowcenaries.json", "data/equip_weapons.json", "data/raw/monsters-0507.json", "data/raw/item-cn-jp.json", "data/cntokey.json", "data/cntotw.json", "data/jptotw.json"], tryOnDexLoaded);
 }
 
 function tryInitialize() {
@@ -143,6 +143,8 @@ function onDexLoaded() {
     // someDataWorks();
 
     // ExportItemSource();
+
+    // SaveMonMovesPost('teostra');
 }
 
 function ExportItemSource() {
@@ -254,17 +256,27 @@ function ExportItemSource() {
 
 function someDataWorks() {
     let output = {
-        'items': {},
+        'large_monsters': {},
         'new': {}
     }
-    for (let iID in data.itemlistv2) {
-        let fromData = data.itemlistv2[iID];
-        if (data.items[iID] === undefined) {
-            data.items[iID] = fromData;
-            output.new[iID] = fromData.name;
+    for (let i in data['0507']) {
+        let fromData = data['0507'][i];
+        let foundID = "";
+        for (let mID in data.large_monsters) {
+            let mData = data.large_monsters[mID];
+            if (mData.name.en == fromData.name_en || mData.name.jp == fromData.name_jp) {
+                foundID = mID;
+                break;
+            }
+        }
+        if (foundID === "") {
+            console.log(fromData.name);
+        }
+        if (data.large_monsters[foundID] !== undefined) {
+            data.large_monsters[foundID].ref_id = fromData.id;
         }
     }
-    output.items = data.items;
+    output.large_monsters = data.large_monsters;
 
     outputText(JSON.stringify(output));
 
@@ -341,7 +353,7 @@ function someDataWorks() {
 
     // }
 
-    outputText(JSON.stringify(output))
+    // outputText(JSON.stringify(output))
 
     return;
 }
