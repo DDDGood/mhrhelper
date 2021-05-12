@@ -18960,6 +18960,63 @@
           }
         ]
       },
+      "partsdata": {
+        "parts": [
+          {
+            "part": "頭",
+            "part_color": "#e6194B",
+            "stagger": 220,
+            "extract": "red",
+            "break": [
+              {
+                "vital": 1320,
+                "break_level": 1
+              }
+            ]
+          },
+          {
+            "part": "身體",
+            "part_color": "#3cb44b",
+            "stagger": 100,
+            "extract": "orange"
+          },
+          {
+            "part": "左腳",
+            "part_color": "#ffe119",
+            "stagger": 120,
+            "extract": "orange"
+          },
+          {
+            "part": "右腳",
+            "part_color": "#4363d8",
+            "stagger": 120,
+            "extract": "orange"
+          },
+          {
+            "part": "翼",
+            "part_color": "#f58231",
+            "stagger": 100,
+            "extract": "white",
+            "break": [
+              {
+                "vital": 200,
+                "break_level": 1
+              }
+            ]
+          },
+          {
+            "part": "尾巴",
+            "part_color": "#911eb4",
+            "stagger": 140,
+            "extract": "red",
+            "loss": {
+              "vital": 400,
+              "damage_type": "cut"
+            }
+          }
+        ],
+        "parts_image": ""
+      },
       "ref_id": "608b68b7acd80103b52c1189"
     },
     "teostra": {
