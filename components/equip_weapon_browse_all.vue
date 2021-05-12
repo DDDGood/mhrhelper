@@ -77,8 +77,7 @@ module.exports = {
       curType: "great_sword",
       showtype: 0,
       updatekey: 0,
-      rendercontents: false,
-      timeoutID: undefined
+      rendercontents: false
     };
   },
   props: ["weapons"],
@@ -118,12 +117,21 @@ module.exports = {
         return
       }
       this.rendercontents = false;
-      if (this.timeoutID !== undefined)
-        clearTimeout(this.timeoutID);
-      this.timeoutID = window.setTimeout(this.doRender, 10);
+      this.fakeTimeout(this.doRender, 50);
     },
     doRender: function () {
       this.rendercontents = true
+    },
+    fakeTimeout: function (caller, time) {
+      let begin = Date.now();
+      window.requestAnimationFrame(function call() {
+        if (Date.now() - begin > time) {
+          caller();
+        } else {
+          window.requestAnimationFrame(call);
+        }
+      });
+      return 0;
     }
   }, computed: {
     weaponsTree: function () {
