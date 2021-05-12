@@ -31,8 +31,11 @@
         v-bind:class="{'text-bold' : showtype ===2}"
       >{{$t('weapons.show_type_final')}}</div>
     </div>
-    <div class="flex-center content-loader" v-show="!rendercontents">
-      <div>Loading...</div>
+    <div class="flex-column flex-center content-loader" v-show="!rendercontents">
+      <div class="flex-center">
+        <div>Loading...</div>
+      </div>
+      <div class="text-">{{debugMsg}}</div>
     </div>
     <div
       class="flex-column interval-y-large"
@@ -77,7 +80,8 @@ module.exports = {
       curType: "great_sword",
       showtype: 0,
       updatekey: 0,
-      rendercontents: false
+      rendercontents: false,
+      debugMsg: ""
     };
   },
   props: ["weapons"],
@@ -120,10 +124,13 @@ module.exports = {
       this.fakeTimeout(this.doRender, 50);
     },
     doRender: function () {
+      this.debugMsg += "doRender()" + "\n";
       this.rendercontents = true
     },
     fakeTimeout: function (caller, time) {
       let begin = Date.now();
+      this.debugMsg += "fakeStart:" + begin + "\n";
+      this.debugMsg += window.toString() + "\n";
       window.requestAnimationFrame(function call() {
         if (Date.now() - begin > time) {
           caller();
