@@ -35,7 +35,7 @@
       <div class="flex-center">
         <div>Loading...</div>
       </div>
-      <div class="text-">{{debugMsg}}</div>
+      <div class="text-white">{{debugMsg}}</div>
     </div>
     <div
       class="flex-column interval-y-large"
@@ -116,6 +116,7 @@ module.exports = {
       localStorage.setItem("equip_weapons", JSON.stringify(curData));
     },
     delayUpdate: function () {
+      this.debugMsg += "delayUpdate()" + "\n";
       if (navigator.userAgent.match('wv')) {
         this.rendercontents = true;
         return
@@ -128,6 +129,7 @@ module.exports = {
       this.rendercontents = true
     },
     fakeTimeout: function (caller, time) {
+      this.debugMsg += "fakeTimeout()" + "\n";
       let begin = Date.now();
       this.debugMsg += "fakeStart:" + begin + "\n";
       this.debugMsg += window.toString() + "\n";
