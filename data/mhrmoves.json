@@ -5979,7 +5979,8 @@
         "kushala_daora": {
             "outline": "(招式素材仍在蒐集中)",
             "reference": {
-                "Monster Hunter Rise - Kushala Daora Boss Fight (Dual Blades/ Solo)": "https://youtu.be/29c2ZtFR7A4"
+                "Monster Hunter Rise - Kushala Daora Boss Fight (Dual Blades/ Solo)": "https://youtu.be/29c2ZtFR7A4",
+                "【怪物猎人崛起】保姆式攻略第六期 钢龙招式解析 钢龙你没注意的细节都在这里": "https://www.bilibili.com/video/BV1Mh411U7Y7"
             },
             "moves": [
                 {
@@ -6010,6 +6011,15 @@
                     "onlyincombo": false
                 },
                 {
+                    "name": "飛撲",
+                    "preaction": "",
+                    "action": "",
+                    "recovery": "",
+                    "note": "",
+                    "video": "videos/鋼龍/鋼龍_飛撲.mp4",
+                    "onlyincombo": false
+                },
+                {
                     "name": "巴掌",
                     "preaction": "",
                     "action": "",
@@ -6031,7 +6041,7 @@
                     "name": "蓄力嘴砲",
                     "preaction": "",
                     "action": "",
-                    "recovery": "",
+                    "recovery": "大",
                     "note": "",
                     "video": "videos/鋼龍/鋼龍_蓄力嘴砲.mp4",
                     "onlyincombo": false
@@ -6043,7 +6053,7 @@
                     "recovery": "",
                     "note": "",
                     "video": "videos/鋼龍/鋼龍_空中嘴砲.mp4",
-                    "onlyincombo": false
+                    "onlyincombo": true
                 },
                 {
                     "name": "甩頭風",
@@ -6059,27 +6069,36 @@
                     "condition": "黑風",
                     "preaction": "",
                     "action": "",
-                    "recovery": "",
+                    "recovery": "大",
                     "note": "",
+                    "video": "videos/鋼龍/鋼龍_垂直吐息.mp4",
                     "onlyincombo": false
                 },
                 {
                     "name": "左右龍捲風x6",
                     "preaction": "",
                     "action": "",
-                    "recovery": "",
+                    "recovery": "大",
                     "note": "",
                     "video": "videos/鋼龍/鋼龍_左右龍捲風x6.mp4",
-                    "onlyincombo": false
+                    "onlyincombo": true
                 },
                 {
-                    "name": "空中龍捲風x7",
-                    "condition": "黑風",
+                    "name": "空中龍捲風x3",
                     "preaction": "",
                     "action": "",
                     "recovery": "",
                     "note": "",
-                    "video": "videos/鋼龍/鋼龍_左右龍捲風x6.mp4",
+                    "video": "videos/鋼龍/鋼龍_空中龍捲風x3.mp4",
+                    "onlyincombo": true
+                },
+                {
+                    "name": "空中龍捲風x7",
+                    "preaction": "",
+                    "action": "",
+                    "recovery": "",
+                    "note": "",
+                    "video": "videos/鋼龍/鋼龍_空中龍捲風x7.mp4",
                     "onlyincombo": true
                 },
                 {
@@ -6087,18 +6106,9 @@
                     "preaction": "",
                     "action": "",
                     "recovery": "",
-                    "note": "",
+                    "note": "黑風狀態下變成三個龍捲風。",
                     "video": "videos/鋼龍/鋼龍_快速後飛龍捲風.mp4",
-                    "onlyincombo": false
-                },
-                {
-                    "name": "蹬腿後飛龍捲風",
-                    "preaction": "",
-                    "action": "",
-                    "recovery": "",
-                    "note": "",
-                    "video": "videos/鋼龍/鋼龍_蹬腿後飛龍捲風.mp4",
-                    "onlyincombo": false
+                    "onlyincombo": true
                 },
                 {
                     "name": "龍氣下壓",
@@ -6110,13 +6120,13 @@
                     "onlyincombo": false
                 },
                 {
-                    "name": "飛撲",
+                    "name": "空中龍車",
                     "preaction": "",
                     "action": "",
                     "recovery": "",
                     "note": "",
-                    "video": "videos/鋼龍/鋼龍_飛撲.mp4",
-                    "onlyincombo": false
+                    "video": "videos/鋼龍/鋼龍_空中龍車.mp4",
+                    "onlyincombo": true
                 },
                 {
                     "name": "空中飛撲",
@@ -6125,11 +6135,12 @@
                     "recovery": "",
                     "note": "",
                     "video": "videos/鋼龍/鋼龍_空中飛撲.mp4",
-                    "onlyincombo": false
+                    "onlyincombo": true
                 },
                 {
                     "name": "暴風雪",
-                    "preaction": "黑風",
+                    "condition": "黑風",
+                    "preaction": "",
                     "action": "",
                     "recovery": "大",
                     "note": "",
@@ -6182,6 +6193,15 @@
                     "onlyincombo": true
                 },
                 {
+                    "name": "側飛",
+                    "preaction": "",
+                    "action": "",
+                    "recovery": "",
+                    "note": "",
+                    "video": "videos/鋼龍/鋼龍_側飛.mp4",
+                    "onlyincombo": true
+                },
+                {
                     "name": "原地起飛",
                     "preaction": "",
                     "action": "",
@@ -6200,6 +6220,15 @@
                     "onlyincombo": true
                 },
                 {
+                    "name": "風壓後飛",
+                    "preaction": "",
+                    "action": "",
+                    "recovery": "",
+                    "note": "",
+                    "video": "videos/鋼龍/鋼龍_風壓後飛.mp4",
+                    "onlyincombo": true
+                },
+                {
                     "name": "向前起飛",
                     "preaction": "",
                     "action": "",
@@ -6215,7 +6244,7 @@
                     "condition": "",
                     "nodes": [
                         {
-                            "move": "後跳/側跳",
+                            "move": "拉開距離的招式(側跳、後跳)",
                             "links": [
                                 {
                                     "node": 1,
@@ -6320,11 +6349,15 @@
                             "links": [
                                 {
                                     "node": 1,
-                                    "condition": ""
+                                    "condition": "無風"
                                 },
                                 {
                                     "node": 2,
                                     "condition": "白風"
+                                },
+                                {
+                                    "node": 3,
+                                    "condition": "黑風"
                                 },
                                 {
                                     "node": 4,
@@ -6337,20 +6370,29 @@
                             "links": []
                         },
                         {
-                            "move": "側飛",
+                            "move": "空中嘴砲",
                             "links": [
                                 {
                                     "node": 3,
+                                    "condition": ""
+                                }
+                            ]
+                        },
+                        {
+                            "move": "空中飛撲",
+                            "links": []
+                        },
+                        {
+                            "move": "側飛",
+                            "links": [
+                                {
+                                    "node": 5,
                                     "condition": "(落地)"
                                 }
                             ]
                         },
                         {
                             "move": "二連咬",
-                            "links": []
-                        },
-                        {
-                            "move": "空中飛撲",
                             "links": []
                         }
                     ]
@@ -6360,16 +6402,16 @@
                     "condition": "",
                     "nodes": [
                         {
-                            "move": "蓄力後飛",
+                            "move": "龍吼",
                             "links": [
                                 {
                                     "node": 1,
-                                    "condition": "黑風"
+                                    "condition": "(進入白風狀態)"
                                 }
                             ]
                         },
                         {
-                            "move": "空中龍捲風x7",
+                            "move": "空中飛撲",
                             "links": [
                                 {
                                     "node": 2,
@@ -6388,15 +6430,131 @@
                     "condition": "",
                     "nodes": [
                         {
+                            "move": "蓄力後飛",
+                            "links": [
+                                {
+                                    "node": 1,
+                                    "condition": "白風"
+                                },
+                                {
+                                    "node": 3,
+                                    "condition": "黑風"
+                                }
+                            ]
+                        },
+                        {
+                            "move": "空中龍車",
+                            "links": [
+                                {
+                                    "node": 2,
+                                    "condition": ""
+                                }
+                            ]
+                        },
+                        {
+                            "move": "空中飛撲",
+                            "links": []
+                        },
+                        {
+                            "move": "空中龍車",
+                            "links": [
+                                {
+                                    "node": 4,
+                                    "condition": ""
+                                }
+                            ]
+                        },
+                        {
+                            "move": "左右龍捲風x6",
+                            "links": [
+                                {
+                                    "node": 5,
+                                    "condition": ""
+                                }
+                            ]
+                        },
+                        {
+                            "move": "直接落地",
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "root": 0,
+                    "condition": "",
+                    "nodes": [
+                        {
+                            "move": "風壓後飛",
+                            "links": [
+                                {
+                                    "node": 1,
+                                    "condition": "白風"
+                                },
+                                {
+                                    "node": 3,
+                                    "condition": "黑風"
+                                }
+                            ]
+                        },
+                        {
+                            "move": "空中龍捲風x3",
+                            "links": [
+                                {
+                                    "node": 2,
+                                    "condition": ""
+                                }
+                            ]
+                        },
+                        {
+                            "move": "直接落地",
+                            "links": []
+                        },
+                        {
+                            "move": "空中龍捲風x7",
+                            "links": [
+                                {
+                                    "node": 4,
+                                    "condition": "(落地)"
+                                }
+                            ]
+                        },
+                        {
+                            "move": "垂直吐息",
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "root": 0,
+                    "condition": "",
+                    "nodes": [
+                        {
                             "move": "原地起飛",
                             "links": [
                                 {
                                     "node": 1,
-                                    "condition": ""
+                                    "condition": "無風"
                                 },
                                 {
                                     "node": 2,
                                     "condition": "白風"
+                                },
+                                {
+                                    "node": 3,
+                                    "condition": "白風"
+                                },
+                                {
+                                    "node": 4,
+                                    "condition": "黑風"
+                                }
+                            ]
+                        },
+                        {
+                            "move": "側飛",
+                            "links": [
+                                {
+                                    "node": 2,
+                                    "condition": ""
                                 }
                             ]
                         },
@@ -6408,7 +6566,16 @@
                             "move": "空中嘴砲",
                             "links": [
                                 {
-                                    "node": 1,
+                                    "node": 2,
+                                    "condition": ""
+                                }
+                            ]
+                        },
+                        {
+                            "move": "側飛",
+                            "links": [
+                                {
+                                    "node": 3,
                                     "condition": ""
                                 }
                             ]
