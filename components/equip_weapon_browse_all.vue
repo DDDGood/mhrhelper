@@ -99,8 +99,8 @@ module.exports = {
   },
   mounted: function () {
     this.debugMsg = "mounted!" + "\n"
-    this.debugMsg += localStorage.toString();
-    if (localStorage.getItem("equip_weapons")) {
+    this.debugMsg += localStorage;
+    if (localStorage != undefined && localStorage.getItem("equip_weapons")) {
       try {
         let curData = JSON.parse(localStorage.getItem('equip_weapons'));
         this.curType = curData.curType;
@@ -128,11 +128,11 @@ module.exports = {
       localStorage.setItem("equip_weapons", JSON.stringify(curData));
     },
     delayUpdate: function () {
-      this.debugMsg = "delayUpdate..." + "\n";
-      if (navigator.userAgent.match('wv')) {
-        this.rendercontents = true;
-        return
-      }
+      // this.debugMsg = "delayUpdate..." + "\n";
+      // if (navigator.userAgent.match('wv')) {
+      //   this.rendercontents = true;
+      //   return
+      // }
       this.rendercontents = false;
       const promise1 = new Promise((resolve, reject) => {
         setTimeout(() => {
