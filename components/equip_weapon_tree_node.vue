@@ -42,7 +42,7 @@
           </div>
           <div v-if="showtype === 0|| showtype === 2">
             <div class="flex-row flex-start trait-line">
-              <div class="flex-row">
+              <div class="flex-row" v-if="weapon.attack !== undefined">
                 <div class="flex flex-center">
                   <img :src="'images/icons/status/attack_up.png'" class="card-text-icon" />
                 </div>
@@ -50,7 +50,7 @@
                   <div class="flex text-m text-center">{{weapon.attack}}</div>
                 </div>
               </div>
-              <div v-if="weapon.huixin!=0" class="flex-row">
+              <div v-if=" weapon.huixin!=undefined && weapon.huixin!=0" class="flex-row">
                 <div class="flex flex-center">
                   <img :src="'images/icons/status/critical_up.png'" class="card-text-icon" />
                 </div>
@@ -58,7 +58,7 @@
                   <div class="text-m text-center">{{weapon.huixin + '%'}}</div>
                 </div>
               </div>
-              <div v-if="weapon.defense!=0" class="flex-row">
+              <div v-if="weapon.defense!=undefined && weapon.defense!=0" class="flex-row">
                 <div class="flex flex-center">
                   <img :src="'images/icons/status/defense_up.png'" class="card-text-icon" />
                 </div>
@@ -66,7 +66,7 @@
                   <div class="text-m">{{weapon.defense}}</div>
                 </div>
               </div>
-              <div v-if="weapon.fire!=0" class="flex-row">
+              <div v-if="weapon.fire!=undefined && weapon.fire!=0" class="flex-row">
                 <div class="flex flex-center">
                   <img :src="'images/icons/status/fire.png'" class="card-text-icon" />
                 </div>
@@ -74,7 +74,7 @@
                   <div class="text-m">{{weapon.fire}}</div>
                 </div>
               </div>
-              <div v-if="weapon.water!=0" class="flex-row">
+              <div v-if="weapon.water!=undefined && weapon.water!=0" class="flex-row">
                 <div class="flex flex-center">
                   <img :src="'images/icons/status/water.png'" class="card-text-icon" />
                 </div>
@@ -82,7 +82,7 @@
                   <div class="text-m">{{weapon.water}}</div>
                 </div>
               </div>
-              <div v-if="weapon.thunder!=0" class="flex-row">
+              <div v-if="weapon.thunder!=undefined &&  weapon.thunder!=0 " class="flex-row">
                 <div class="flex flex-center">
                   <img :src="'images/icons/status/thunder.png'" class="card-text-icon" />
                 </div>
@@ -90,7 +90,7 @@
                   <div class="text-m">{{weapon.thunder}}</div>
                 </div>
               </div>
-              <div v-if="weapon.ice!=0" class="flex-row">
+              <div v-if="weapon.ice!=undefined && weapon.ice!=0" class="flex-row">
                 <div class="flex flex-center">
                   <img :src="'images/icons/status/ice.png'" class="card-text-icon" />
                 </div>
@@ -98,7 +98,7 @@
                   <div class="text-m">{{weapon.ice}}</div>
                 </div>
               </div>
-              <div v-if="weapon.dragon!=0" class="flex-row">
+              <div v-if="weapon.dragon!=undefined && weapon.dragon!=0" class="flex-row">
                 <div class="flex flex-center">
                   <img :src="'images/icons/status/dragon.png'" class="card-text-icon" />
                 </div>
@@ -106,7 +106,7 @@
                   <div class="text-m">{{weapon.dragon}}</div>
                 </div>
               </div>
-              <div v-if="weapon.poison!=0" class="flex-row">
+              <div v-if="weapon.poison!=undefined && weapon.poison!=0" class="flex-row">
                 <div class="flex flex-center">
                   <img :src="'images/icons/status/poison.png'" class="card-text-icon" />
                 </div>
@@ -114,7 +114,7 @@
                   <div class="text-m">{{weapon.poison}}</div>
                 </div>
               </div>
-              <div v-if="weapon.sleep!=0" class="flex-row">
+              <div v-if="weapon.sleep!=undefined && weapon.sleep!=0" class="flex-row">
                 <div class="flex flex-center">
                   <img :src="'images/icons/status/sleep.png'" class="card-text-icon" />
                 </div>
@@ -122,7 +122,7 @@
                   <div class="text-m">{{weapon.sleep}}</div>
                 </div>
               </div>
-              <div v-if="weapon.paralyze!=0" class="flex-row">
+              <div v-if="weapon.paralyze!=undefined && weapon.paralyze!=0" class="flex-row">
                 <div class="flex flex-center">
                   <img :src="'images/icons/status/paralysis.png'" class="card-text-icon" />
                 </div>
@@ -130,7 +130,7 @@
                   <div class="text-m">{{weapon.paralyze}}</div>
                 </div>
               </div>
-              <div v-if="weapon.blasting!=0" class="flex-row">
+              <div v-if="weapon.blasting!=undefined && weapon.blasting!=0" class="flex-row">
                 <div class="flex flex-center">
                   <img :src="'images/icons/status/blast.png'" class="card-text-icon" />
                 </div>
@@ -139,7 +139,7 @@
                 </div>
               </div>
               <div
-                v-if="weapon.category==='charge_blade' || weapon.category==='switch_axe'"
+                v-if="(weapon.category==='charge_blade' || weapon.category==='switch_axe') && weapon.phial != undefined"
                 class="flex-row"
               >
                 <div class="flex flex-center">
@@ -147,13 +147,19 @@
                 </div>
                 <div class="text-m">{{weapon.phial}}</div>
               </div>
-              <div v-if="weapon.category==='gunlance'" class="flex-row">
+              <div
+                v-if="weapon.category==='gunlance' && weapon.shelling!= undefined"
+                class="flex-row"
+              >
                 <div class="flex flex-center">
                   <img :src="'images/icons/equipments/shelling.png'" class="card-text-icon" />
                 </div>
                 <div class="flex text-m">{{weapon.shelling}}</div>
               </div>
-              <div v-if="weapon.category==='insect_glaive'" class="flex-row">
+              <div
+                v-if="weapon.category==='insect_glaive' && weapon.kinsect!= undefined"
+                class="flex-row"
+              >
                 <div class="flex flex-center">
                   <img :src="'images/weapons/icons/kinsect_blunt.png'" class="card-text-icon" />
                 </div>
@@ -165,7 +171,7 @@
                 <div v-if="infoType === 'melee'" class="flex-row flex-start">
                   <img :src="'images/weapons/icons/cut.png'" class="card-text-icon" />
                   <div>
-                    <div class="flex sharpness-container">
+                    <div class="flex sharpness-container" v-if="cuts0.length > 0">
                       <div style="background-color:#BE3843;" :style="{'width': cuts0[0] + 'px'}"></div>
                       <div style="background-color:#D3673D;" :style="{'width': cuts0[1] + 'px'}"></div>
                       <div style="background-color:#C9B232;" :style="{'width': cuts0[2] + 'px'}"></div>
@@ -174,7 +180,7 @@
                       <div style="background-color:#E2E2E2;" :style="{'width': cuts0[5] + 'px'}"></div>
                       <div style="background-color:#885AEC;" :style="{'width': cuts0[6] + 'px'}"></div>
                     </div>
-                    <div class="flex sharpness-container">
+                    <div class="flex sharpness-container" v-if="cuts5.length > 0">
                       <div style="background-color:#BE3843;" :style="{'width': cuts5[0] + 'px'}"></div>
                       <div style="background-color:#D3673D;" :style="{'width': cuts5[1] + 'px'}"></div>
                       <div style="background-color:#C9B232;" :style="{'width': cuts5[2] + 'px'}"></div>
@@ -192,7 +198,7 @@
               class="flex-row flex-start trait-line"
               v-if="weapon.category==='light_bowgun' || weapon.category==='heavy_bowgun'"
             >
-              <div class="flex-row">
+              <div class="flex-row" v-if="weapon.offset != undefined">
                 <div class="flex flex-center">
                   <!-- <img :src="'images/icons/status/attack_up.png'" class="card-text-icon" /> -->
                 </div>
@@ -200,7 +206,7 @@
                   <div class="flex text-m text-center">{{weapon.offset + '-'}}</div>
                 </div>
               </div>
-              <div class="flex-row">
+              <div class="flex-row" v-if="weapon.recoil!= undefined">
                 <div class="flex flex-center">
                   <!-- <img :src="'images/icons/status/attack_up.png'" class="card-text-icon" /> -->
                 </div>
@@ -208,7 +214,7 @@
                   <div class="flex text-m text-center">{{ weapon.recoil+ '-'}}</div>
                 </div>
               </div>
-              <div class="flex-row">
+              <div class="flex-row" v-if="weapon.reload!= undefined">
                 <div class="flex flex-center">
                   <!-- <img :src="'images/icons/status/attack_up.png'" class="card-text-icon" /> -->
                 </div>
@@ -217,7 +223,10 @@
                 </div>
               </div>
             </div>
-            <div class="flex-row flex-start trait-line" v-if="weapon.category==='bow' ">
+            <div
+              class="flex-row flex-start trait-line"
+              v-if="weapon.category==='bow' && weapon.xuli!== undefined "
+            >
               <div class="flex-row">
                 <div class="flex flex-center">
                   <!-- <img :src="'images/icons/status/attack_up.png'" class="card-text-icon" /> -->
@@ -231,13 +240,16 @@
                 </div>
               </div>
             </div>
-            <div class="flex-row flex-start trait-line" v-if="weapon.category==='bow' ">
+            <div
+              class="flex-row flex-start trait-line"
+              v-if="weapon.category==='bow' && weapon.coatings !== undefined"
+            >
               <div class="flex-row">
                 <div class="flex flex-center">
                   <!-- <img :src="'images/icons/status/attack_up.png'" class="card-text-icon" /> -->
                 </div>
                 <div class="flex flex-center">
-                  <template v-for="value, type in coatings">
+                  <template v-for="(value, type) in coatings">
                     <img
                       v-if="value!==0"
                       :key="type"
@@ -248,7 +260,10 @@
                 </div>
               </div>
             </div>
-            <div class="flex-row flex-start trait-line" v-if="weapon.category==='hunting_horn' ">
+            <div
+              class="flex-row flex-start trait-line"
+              v-if="weapon.category==='hunting_horn' && weapon.notes_desc!== undefined "
+            >
               <div class="flex-row">
                 <div class="flex flex-center">
                   <!-- <img :src="'images/icons/status/attack_up.png'" class="card-text-icon" /> -->
@@ -347,12 +362,15 @@ module.exports = {
     }
   },
   mounted: function () {
-    this.cuts0 = this.weapon.cut0.split(",");
-    this.cuts5 = this.weapon.cut5.split(",");
-    this.holes = this.weapon.hole.split('-').map(function (item) {
-      return parseInt(item, 10);
-    });
-    // console.log(this.$refs.root);
+    if (this.weapon.cut0 !== undefined)
+      this.cuts0 = this.weapon.cut0.split(",");
+    if (this.weapon.cut5 !== undefined)
+      this.cuts5 = this.weapon.cut5.split(",");
+    if (this.weapon.holes !== undefined)
+      this.holes = this.weapon.hole.split('-').map(function (item) {
+        return parseInt(item, 10);
+      });
+
     this.refreshLine();
   },
   watch: {

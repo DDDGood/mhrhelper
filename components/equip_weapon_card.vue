@@ -23,14 +23,14 @@
         <div class="flex1 rounded card-text text-bold">{{$t('type')}}</div>
         <div
           class="flex2 color2 rounded card-text margin"
-        >{{$t('weapons.name.' +weapondata.category)}}</div>
+        >{{$t('weapons.name.' + weapondata.category)}}</div>
       </div>
     </div>
     <div class="flex-row interval-y">
       <div class="flex1 flex-column color1 rounded">
         <div class="flex1 card-text text-bold">{{$t('trait')}}</div>
         <div class="flex1 margin">
-          <div class="flex-row interval-y">
+          <div class="flex-row interval-y" v-if="weapondata.attack!=undefined">
             <div
               class="flex1 flex-row flex-intense color2 rounded-left interval-x card-text flex-center"
             >
@@ -41,7 +41,10 @@
               class="flex2 color2 rounded-right interval-x card-text flex-center"
             >{{weapondata.attack}}</div>
           </div>
-          <div class="flex-row interval-y" v-if="weapondata.huixin!=0">
+          <div
+            class="flex-row interval-y"
+            v-if="weapondata.huixin!=undefined && weapondata.huixin!=0"
+          >
             <div
               class="flex1 flex-row flex-intense color2 rounded-left interval-x card-text flex-center"
             >
@@ -52,7 +55,10 @@
               class="flex2 color2 rounded-right interval-x card-text flex-center"
             >{{weapondata.huixin + '%'}}</div>
           </div>
-          <div class="flex-row interval-y" v-if="weapondata.defense!=0">
+          <div
+            class="flex-row interval-y"
+            v-if="weapondata.defense!=undefined && weapondata.defense!=0"
+          >
             <div
               class="flex1 flex-row flex-intense color2 rounded-left interval-x card-text flex-center"
             >
@@ -63,7 +69,7 @@
               class="flex2 color2 rounded-right interval-x card-text flex-center"
             >{{weapondata.defense}}</div>
           </div>
-          <div class="flex-row interval-y" v-if="weapondata.fire!=0">
+          <div class="flex-row interval-y" v-if="weapondata.fire!=undefined && weapondata.fire!=0">
             <div
               class="flex1 flex-row flex-intense color2 rounded-left interval-x card-text flex-center"
             >
@@ -74,7 +80,10 @@
               class="flex2 color2 rounded-right interval-x card-text flex-center"
             >{{weapondata.fire}}</div>
           </div>
-          <div class="flex-row interval-y" v-if="weapondata.water!=0">
+          <div
+            class="flex-row interval-y"
+            v-if="weapondata.water!=undefined && weapondata.water!=0"
+          >
             <div
               class="flex1 flex-row flex-intense color2 rounded-left interval-x card-text flex-center"
             >
@@ -85,7 +94,10 @@
               class="flex2 color2 rounded-right interval-x card-text flex-center"
             >{{weapondata.water}}</div>
           </div>
-          <div class="flex-row interval-y" v-if="weapondata.thunder!=0">
+          <div
+            class="flex-row interval-y"
+            v-if="weapondata.thunder!=undefined && weapondata.thunder!=0"
+          >
             <div
               class="flex1 flex-row flex-intense color2 rounded-left interval-x card-text flex-center"
             >
@@ -96,7 +108,7 @@
               class="flex2 color2 rounded-right interval-x card-text flex-center"
             >{{weapondata.thunder}}</div>
           </div>
-          <div class="flex-row interval-y" v-if="weapondata.ice!=0">
+          <div class="flex-row interval-y" v-if="weapondata.ice!=undefined && weapondata.ice!=0">
             <div
               class="flex1 flex-row flex-intense color2 rounded-left interval-x card-text flex-center"
             >
@@ -107,7 +119,10 @@
               class="flex2 color2 rounded-right interval-x card-text flex-center"
             >{{weapondata.ice}}</div>
           </div>
-          <div class="flex-row interval-y" v-if="weapondata.dragon!=0">
+          <div
+            class="flex-row interval-y"
+            v-if="weapondata.dragon!=undefined && weapondata.dragon!=0"
+          >
             <div
               class="flex1 flex-row flex-intense color2 rounded-left interval-x card-text flex-center"
             >
@@ -118,7 +133,10 @@
               class="flex2 color2 rounded-right interval-x card-text flex-center"
             >{{weapondata.dragon}}</div>
           </div>
-          <div class="flex-row interval-y" v-if="weapondata.poison!=0">
+          <div
+            class="flex-row interval-y"
+            v-if="weapondata.poison!=undefined && weapondata.poison!=0"
+          >
             <div
               class="flex1 flex-row flex-intense color2 rounded-left interval-x card-text flex-center"
             >
@@ -129,7 +147,10 @@
               class="flex2 color2 rounded-right interval-x card-text flex-center"
             >{{weapondata.poison}}</div>
           </div>
-          <div class="flex-row interval-y" v-if="weapondata.sleep!=0">
+          <div
+            class="flex-row interval-y"
+            v-if="weapondata.sleep!=undefined && weapondata.sleep!=0"
+          >
             <div
               class="flex1 flex-row flex-intense color2 rounded-left interval-x card-text flex-center"
             >
@@ -140,7 +161,10 @@
               class="flex2 color2 rounded-right interval-x card-text flex-center"
             >{{weapondata.sleep}}</div>
           </div>
-          <div class="flex-row interval-y" v-if="weapondata.paralyze!=0">
+          <div
+            class="flex-row interval-y"
+            v-if="weapondata.paralyze!=undefined && weapondata.paralyze!=0"
+          >
             <div
               class="flex1 flex-row flex-intense color2 rounded-left interval-x card-text flex-center"
             >
@@ -151,7 +175,10 @@
               class="flex2 color2 rounded-right interval-x card-text flex-center"
             >{{weapondata.paralyze}}</div>
           </div>
-          <div class="flex-row interval-y" v-if="weapondata.blasting!=0">
+          <div
+            class="flex-row interval-y"
+            v-if="weapondata.blasting!=undefined && weapondata.blasting!=0"
+          >
             <div
               class="flex1 flex-row flex-intense color2 rounded-left interval-x card-text flex-center"
             >
@@ -289,7 +316,7 @@
       <div class="flex1 flex-column color1 rounded">
         <div class="flex1 rounded card-text text-bold">{{$t('weapons.sharpness')}}</div>
         <div class="flex1 margin">
-          <div class="flex-row interval-y">
+          <div class="flex-row interval-y" v-if="cuts0.length > 0">
             <div
               class="flex1 flex-row flex-intense color2 rounded-left interval-x card-text flex-center"
             >
@@ -307,7 +334,7 @@
               </div>
             </div>
           </div>
-          <div class="flex-row interval-y">
+          <div class="flex-row interval-y" v-if="cuts5.length > 0">
             <div
               class="flex1 flex-row flex-intense color2 rounded-left interval-x card-text flex-center"
             >
@@ -333,7 +360,7 @@
       <div class="flex1 flex-column color1 rounded">
         <div class="flex1 rounded card-text text-bold">{{$t('weapons.charge_shot')}}</div>
         <div class="flex1 margin">
-          <div class="flex-row interval-y" v-for="shot, i in charge_shot" :key="i">
+          <div class="flex-row interval-y" v-for="(shot, i) in charge_shot" :key="i">
             <div
               class="flex1 flex-row flex-intense color2 rounded-left interval-x card-text flex-center"
             >
@@ -353,7 +380,7 @@
         <div class="flex1 margin">
           <div
             class="flex-row interval-y color2 rounded flex-intense"
-            v-for="value, type in coatings"
+            v-for="(value, type) in coatings"
             :key="type"
           >
             <div class="flex flex-center">
@@ -428,7 +455,7 @@ module.exports = {
   data: function () {
     return {
       animUrl: {
-        background: 'url(images/equip_weapons/' + this.weapondata.cn_id + '-r.png)'
+        background: 'url(images/equip_weapons/' + this.weapondata.ref_id + '-r.png)'
       }
     };
   },
@@ -445,23 +472,34 @@ module.exports = {
       return type;
     },
     holes: function () {
+      if (this.weapondata.hole == undefined)
+        return [];
       return this.weapondata.hole.split('-').map(function (item) {
         return parseInt(item, 10);
       });
     },
     cuts0: function () {
+      if (this.weapondata.cut0 == undefined)
+        return []
       return this.weapondata.cut0.split(",")
     },
     cuts5: function () {
+      if (this.weapondata.cut5 == undefined)
+        return []
       return this.weapondata.cut5.split(",")
     },
     charge_shot: function () {
+      if (this.weapondata.xuli == undefined)
+        return [];
       let shots = this.weapondata.xuli.split(',');
       if (this.weapondata.xuli_add != '')
         shots.push(this.weapondata.xuli_add);
       return shots;
     },
     coatings: function () {
+      if (this.weapondata.coatings == undefined) {
+        return {}
+      }
       let coatings = {
         '接擊瓶': 0,
         '強擊瓶': 0,
