@@ -99,6 +99,7 @@ module.exports = {
   },
   mounted: function () {
     this.debugMsg = "mounted!" + "\n"
+    this.debugMsg += localStorage.toString();
     if (localStorage.getItem("equip_weapons")) {
       try {
         let curData = JSON.parse(localStorage.getItem('equip_weapons'));
