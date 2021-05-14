@@ -86,8 +86,19 @@ module.exports = {
   },
   props: ["weapons"],
   created: function () {
+    this.debugMsg = "creating... " + "\n"
+    window.onerror = function (message, source, lineno, colno, error) {
+      // message：錯誤信息（字符串）。 
+      // source：發生錯誤的腳本URL（字符串） 
+      // lineno：發生錯誤的行號（數字）
+      // colno：發生錯誤的列號（數字）
+      // error：Error對象（對象） 
+      console.log('捕獲到異常：', { message, source, lineno, colno, error });
+      this.debugMsg = 'onError:' + message + ',' + source + ',' + lineno + ',' + colno + ',' + error;
+    }
   },
   mounted: function () {
+    this.debugMsg = "mounted!" + "\n"
     if (localStorage.getItem("equip_weapons")) {
       try {
         let curData = JSON.parse(localStorage.getItem('equip_weapons'));
