@@ -18468,7 +18468,7 @@
     "bazelgeuse": {
       "name": {
         "tw": "爆鱗龍",
-        "jp": "",
+        "jp": "バゼルギウス",
         "en": "Bazelgeuse"
       },
       "species": "flying_wryven",
@@ -18478,10 +18478,10 @@
       "description": "",
       "threat_level": "8",
       "trait": {
-        "roar": "？",
-        "wind": "？",
-        "tremor": "？",
-        "element": "-",
+        "roar": "大",
+        "wind": "小",
+        "tremor": "大",
+        "element": "火",
         "aliment": "-"
       },
       "weakness": {
@@ -18490,6 +18490,12 @@
             "cut": "頭/尾",
             "blunt": "頭>尾",
             "ammo": "翼"
+          },
+          {
+            "condition": "赤熱化",
+            "cut": "頭>尾",
+            "blunt": "頭>尾",
+            "ammo": "尾"
           }
         ],
         "element": [
@@ -18527,6 +18533,7 @@
         "parts": [
           {
             "part": "頭",
+            "hitzone_color": "#e6194B",
             "cut": "60",
             "blunt": "65",
             "ammo": "25",
@@ -18537,7 +18544,21 @@
             "dragon": "10"
           },
           {
+            "part": "頭",
+            "hitzone_color": "#e6194B",
+            "condition": "赤熱化",
+            "cut": "80",
+            "blunt": "85",
+            "ammo": "35",
+            "fire": "0",
+            "water": "10",
+            "thunder": "20",
+            "ice": "15",
+            "dragon": "15"
+          },
+          {
             "part": "腹",
+            "hitzone_color": "#3cb44b",
             "cut": "45",
             "blunt": "45",
             "ammo": "25",
@@ -18549,6 +18570,7 @@
           },
           {
             "part": "背",
+            "hitzone_color": "#ffe119",
             "cut": "30",
             "blunt": "30",
             "ammo": "10",
@@ -18559,18 +18581,8 @@
             "dragon": "5"
           },
           {
-            "part": "翼",
-            "cut": "25",
-            "blunt": "25",
-            "ammo": "45",
-            "fire": "0",
-            "water": "5",
-            "thunder": "10",
-            "ice": "10",
-            "dragon": "10"
-          },
-          {
             "part": "腳",
+            "hitzone_color": "#4363d8",
             "cut": "30",
             "blunt": "30",
             "ammo": "20",
@@ -18581,7 +18593,46 @@
             "dragon": "10"
           },
           {
+            "part": "腳",
+            "hitzone_color": "#4363d8",
+            "condition": "赤熱化",
+            "cut": "36",
+            "blunt": "34",
+            "ammo": "25",
+            "fire": "0",
+            "water": "5",
+            "thunder": "15",
+            "ice": "10",
+            "dragon": "10"
+          },
+          {
+            "part": "翼",
+            "hitzone_color": "#f58231",
+            "cut": "25",
+            "blunt": "25",
+            "ammo": "45",
+            "fire": "0",
+            "water": "5",
+            "thunder": "10",
+            "ice": "10",
+            "dragon": "10"
+          },
+          {
+            "part": "翼",
+            "hitzone_color": "#f58231",
+            "condition": "赤熱化",
+            "cut": "25",
+            "blunt": "25",
+            "ammo": "15",
+            "fire": "0",
+            "water": "0",
+            "thunder": "5",
+            "ice": "5",
+            "dragon": "5"
+          },
+          {
             "part": "尾",
+            "hitzone_color": "#911eb4",
             "cut": "60",
             "blunt": "55",
             "ammo": "35",
@@ -18590,8 +18641,160 @@
             "thunder": "15",
             "ice": "10",
             "dragon": "10"
+          },
+          {
+            "part": "尾",
+            "hitzone_color": "#911eb4",
+            "condition": "赤熱化",
+            "cut": "75",
+            "blunt": "70",
+            "ammo": "45",
+            "fire": "0",
+            "water": "5",
+            "thunder": "15",
+            "ice": "10",
+            "dragon": "10"
           }
-        ]
+        ],
+        "partsdata": {
+          "parts": [
+            {
+              "part": "頭",
+              "part_color": "#e6194B",
+              "stagger": 380,
+              "extract": "red",
+              "break": [
+                {
+                  "vital": 610,
+                  "break_level": 1
+                }
+              ]
+            },
+            {
+              "part": "腹部",
+              "part_color": "#3cb44b",
+              "stagger": 210,
+              "extract": "orange"
+            },
+            {
+              "part": "左前腳",
+              "part_color": "#ffe119",
+              "stagger": 300,
+              "extract": "white"
+            },
+            {
+              "part": "右前腳",
+              "part_color": "#4363d8",
+              "stagger": 300,
+              "extract": "white"
+            },
+            {
+              "part": "左後腳",
+              "part_color": "#f58231",
+              "stagger": 380,
+              "extract": "white"
+            },
+            {
+              "part": "右後腳",
+              "part_color": "#911eb4",
+              "stagger": 380,
+              "extract": "white"
+            },
+            {
+              "part": "尾巴",
+              "part_color": "#42d4f4",
+              "stagger": 500,
+              "extract": "red",
+              "loss": {
+                "vital": 500,
+                "damage_type": "cut"
+              }
+            },
+            {
+              "part": "翼",
+              "part_color": "#f032e6",
+              "stagger": 380,
+              "extract": "orange",
+              "break": [
+                {
+                  "vital": 380,
+                  "break_level": 1
+                }
+              ]
+            }
+          ],
+          "parts_image": "images/monsters/parts/chameleos.png"
+        },
+        "hitzone_image": "images/monsters/hitzone/bazelgeuse.png"
+      },
+      "partsdata": {
+        "parts": [
+          {
+            "part": "頭",
+            "part_color": "#e6194B",
+            "stagger": 270,
+            "extract": "red",
+            "break": [
+              {
+                "vital": 600,
+                "break_level": 1
+              }
+            ]
+          },
+          {
+            "part": "身體",
+            "part_color": "#3cb44b",
+            "stagger": 320,
+            "extract": "orange",
+            "break": [
+              {
+                "vital": 320,
+                "break_level": 1
+              }
+            ]
+          },
+          {
+            "part": "雙腳",
+            "part_color": "#ffe119",
+            "stagger": 240,
+            "extract": "orange"
+          },
+          {
+            "part": "左翼",
+            "part_color": "#4363d8",
+            "stagger": 180,
+            "extract": "white",
+            "break": [
+              {
+                "vital": 180,
+                "break_level": 1
+              }
+            ]
+          },
+          {
+            "part": "右翼",
+            "part_color": "#f58231",
+            "stagger": 180,
+            "extract": "white",
+            "break": [
+              {
+                "vital": 180,
+                "break_level": 1
+              }
+            ]
+          },
+          {
+            "part": "尾巴",
+            "part_color": "#42d4f4",
+            "stagger": 280,
+            "extract": "red",
+            "loss": {
+              "vital": 560,
+              "damage_type": "cut"
+            }
+          }
+        ],
+        "parts_image": "images/monsters/parts/bazelgeuse.png"
       },
       "ref_id": "608b68b7acd80103b52c118b"
     },
@@ -18658,7 +18861,7 @@
         "parts": [
           {
             "part": "頭",
-            "hitzone_color": "",
+            "hitzone_color": "#e6194B",
             "condition": "通常",
             "cut": 55,
             "blunt": 50,
@@ -18671,50 +18874,22 @@
             "dizzy": 100
           },
           {
-            "part": "前腳",
-            "hitzone_color": "",
-            "condition": "通常",
-            "cut": 45,
-            "blunt": 45,
-            "ammo": 20,
-            "fire": 20,
-            "water": 0,
-            "thunder": 10,
-            "ice": 0,
-            "dragon": 10,
-            "dizzy": 0
-          },
-          {
-            "part": "腹部",
-            "hitzone_color": "",
-            "condition": "通常",
-            "cut": 25,
-            "blunt": 30,
-            "ammo": 22,
-            "fire": 20,
-            "water": 5,
-            "thunder": 10,
-            "ice": 0,
-            "dragon": 15,
-            "dizzy": 0
-          },
-          {
-            "part": "背部",
-            "hitzone_color": "",
-            "condition": "通常",
-            "cut": 25,
-            "blunt": 22,
-            "ammo": 25,
+            "part": "頭",
+            "hitzone_color": "#e6194B",
+            "condition": "隱形時",
+            "cut": 55,
+            "blunt": 50,
+            "ammo": 60,
             "fire": 25,
             "water": 0,
             "thunder": 10,
             "ice": 0,
             "dragon": 20,
-            "dizzy": 0
+            "dizzy": 100
           },
           {
             "part": "翼",
-            "hitzone_color": "",
+            "hitzone_color": "#3cb44b",
             "condition": "通常",
             "cut": 22,
             "blunt": 22,
@@ -18727,8 +18902,106 @@
             "dizzy": 0
           },
           {
+            "part": "翼",
+            "hitzone_color": "#3cb44b",
+            "condition": "隱形時",
+            "cut": 22,
+            "blunt": 22,
+            "ammo": 15,
+            "fire": 20,
+            "water": 0,
+            "thunder": 10,
+            "ice": 0,
+            "dragon": 15,
+            "dizzy": 0
+          },
+          {
+            "part": "背部",
+            "hitzone_color": "#ffe119",
+            "condition": "通常",
+            "cut": 25,
+            "blunt": 22,
+            "ammo": 25,
+            "fire": 25,
+            "water": 0,
+            "thunder": 10,
+            "ice": 0,
+            "dragon": 20,
+            "dizzy": 0
+          },
+          {
+            "part": "背部",
+            "hitzone_color": "#ffe119",
+            "condition": "隱形時",
+            "cut": 25,
+            "blunt": 22,
+            "ammo": 15,
+            "fire": 25,
+            "water": 0,
+            "thunder": 10,
+            "ice": 0,
+            "dragon": 20,
+            "dizzy": 0
+          },
+          {
+            "part": "腹部",
+            "hitzone_color": "#4363d8",
+            "condition": "通常",
+            "cut": 25,
+            "blunt": 30,
+            "ammo": 22,
+            "fire": 20,
+            "water": 5,
+            "thunder": 10,
+            "ice": 0,
+            "dragon": 15,
+            "dizzy": 0
+          },
+          {
+            "part": "腹部",
+            "hitzone_color": "#4363d8",
+            "condition": "隱形時",
+            "cut": 45,
+            "blunt": 45,
+            "ammo": 10,
+            "fire": 20,
+            "water": 5,
+            "thunder": 10,
+            "ice": 0,
+            "dragon": 15,
+            "dizzy": 0
+          },
+          {
+            "part": "前腳",
+            "hitzone_color": "#f58231",
+            "condition": "通常",
+            "cut": 45,
+            "blunt": 45,
+            "ammo": 20,
+            "fire": 20,
+            "water": 0,
+            "thunder": 10,
+            "ice": 0,
+            "dragon": 10,
+            "dizzy": 0
+          },
+          {
+            "part": "前腳",
+            "hitzone_color": "#f58231",
+            "condition": "隱形時",
+            "cut": 45,
+            "blunt": 45,
+            "ammo": 10,
+            "fire": 20,
+            "water": 5,
+            "thunder": 10,
+            "ice": 0,
+            "dragon": 15,
+            "dizzy": 0
+          },
+          {
             "part": "後腳",
-            "hitzone_color": "",
+            "hitzone_color": "#911eb4",
             "condition": "通常",
             "cut": 30,
             "blunt": 25,
@@ -18741,8 +19014,22 @@
             "dizzy": 0
           },
           {
+            "part": "後腳",
+            "hitzone_color": "#911eb4",
+            "condition": "隱形時",
+            "cut": 30,
+            "blunt": 25,
+            "ammo": 10,
+            "fire": 25,
+            "water": 0,
+            "thunder": 10,
+            "ice": 0,
+            "dragon": 20,
+            "dizzy": 0
+          },
+          {
             "part": "尾巴",
-            "hitzone_color": "",
+            "hitzone_color": "#42d4f4",
             "condition": "通常",
             "cut": 35,
             "blunt": 22,
@@ -18754,7 +19041,77 @@
             "dragon": 5,
             "dizzy": 0
           }
-        ]
+        ],
+        "hitzone_image": "images/monsters/hitzone/chameleos.png"
+      },
+      "partsdata": {
+        "parts": [
+          {
+            "part": "頭",
+            "part_color": "#e6194B",
+            "stagger": 380,
+            "extract": "red",
+            "break": [
+              {
+                "vital": 610,
+                "break_level": 1
+              }
+            ]
+          },
+          {
+            "part": "腹部",
+            "part_color": "#3cb44b",
+            "stagger": 210,
+            "extract": "orange"
+          },
+          {
+            "part": "左前腳",
+            "part_color": "#ffe119",
+            "stagger": 300,
+            "extract": "white"
+          },
+          {
+            "part": "右前腳",
+            "part_color": "#4363d8",
+            "stagger": 300,
+            "extract": "white"
+          },
+          {
+            "part": "左後腳",
+            "part_color": "#f58231",
+            "stagger": 380,
+            "extract": "white"
+          },
+          {
+            "part": "右後腳",
+            "part_color": "#911eb4",
+            "stagger": 380,
+            "extract": "white"
+          },
+          {
+            "part": "尾巴",
+            "part_color": "#42d4f4",
+            "stagger": 500,
+            "extract": "red",
+            "loss": {
+              "vital": 500,
+              "damage_type": "cut"
+            }
+          },
+          {
+            "part": "翼",
+            "part_color": "#f032e6",
+            "stagger": 380,
+            "extract": "orange",
+            "break": [
+              {
+                "vital": 380,
+                "break_level": 1
+              }
+            ]
+          }
+        ],
+        "parts_image": "images/monsters/parts/chameleos.png"
       },
       "ref_id": "604633f9653da92a20df3a06"
     },
@@ -18848,7 +19205,7 @@
         "parts": [
           {
             "part": "頭",
-            "hitzone_color": "",
+            "hitzone_color": "#e6194B",
             "condition": "通常",
             "cut": 60,
             "blunt": 55,
@@ -18862,7 +19219,7 @@
           },
           {
             "part": "頸",
-            "hitzone_color": "",
+            "hitzone_color": "#3cb44b",
             "condition": "通常",
             "cut": 40,
             "blunt": 55,
@@ -18875,22 +19232,8 @@
             "dizzy": 100
           },
           {
-            "part": "前腳",
-            "hitzone_color": "",
-            "condition": "通常",
-            "cut": 45,
-            "blunt": 50,
-            "ammo": 45,
-            "fire": 10,
-            "water": 5,
-            "thunder": 20,
-            "ice": 0,
-            "dragon": 10,
-            "dizzy": 0
-          },
-          {
             "part": "腹部",
-            "hitzone_color": "",
+            "hitzone_color": "#ffe119",
             "condition": "通常",
             "cut": 35,
             "blunt": 50,
@@ -18904,7 +19247,7 @@
           },
           {
             "part": "背部",
-            "hitzone_color": "",
+            "hitzone_color": "#4363d8",
             "condition": "通常",
             "cut": 23,
             "blunt": 25,
@@ -18917,12 +19260,12 @@
             "dizzy": 0
           },
           {
-            "part": "翼",
-            "hitzone_color": "",
+            "part": "尾巴",
+            "hitzone_color": "#f58231",
             "condition": "通常",
-            "cut": 23,
-            "blunt": 23,
-            "ammo": 20,
+            "cut": 35,
+            "blunt": 30,
+            "ammo": 35,
             "fire": 10,
             "water": 5,
             "thunder": 20,
@@ -18931,8 +19274,22 @@
             "dizzy": 0
           },
           {
+            "part": "前腳",
+            "hitzone_color": "#911eb4",
+            "condition": "通常",
+            "cut": 45,
+            "blunt": 50,
+            "ammo": 45,
+            "fire": 10,
+            "water": 5,
+            "thunder": 20,
+            "ice": 0,
+            "dragon": 10,
+            "dizzy": 0
+          },
+          {
             "part": "後腳",
-            "hitzone_color": "",
+            "hitzone_color": "#42d4f4",
             "condition": "通常",
             "cut": 30,
             "blunt": 30,
@@ -18945,12 +19302,12 @@
             "dizzy": 0
           },
           {
-            "part": "尾巴",
-            "hitzone_color": "",
+            "part": "翼",
+            "hitzone_color": "#f032e6",
             "condition": "通常",
-            "cut": 35,
-            "blunt": 30,
-            "ammo": 35,
+            "cut": 23,
+            "blunt": 23,
+            "ammo": 20,
             "fire": 10,
             "water": 5,
             "thunder": 20,
@@ -18958,7 +19315,8 @@
             "dragon": 15,
             "dizzy": 0
           }
-        ]
+        ],
+        "hitzone_image": "images/monsters/hitzone/kushala_daora.png"
       },
       "partsdata": {
         "parts": [
@@ -19015,7 +19373,7 @@
             }
           }
         ],
-        "parts_image": ""
+        "parts_image": "images/monsters/parts/kushala_daora.png"
       },
       "ref_id": "608b68b7acd80103b52c1189"
     },
@@ -19071,9 +19429,9 @@
             "water_aliment": "2",
             "thunder_aliment": "1",
             "ice_aliment": "1",
-            "shocktrap": "",
-            "pitfalltrap": "",
-            "flashpod": ""
+            "shocktrap": "0",
+            "pitfalltrap": "0",
+            "flashpod": "2"
           }
         ]
       },
@@ -19081,6 +19439,7 @@
         "parts": [
           {
             "part": "頭",
+            "hitzone_color": "#e6194B",
             "cut": "50",
             "blunt": "55",
             "ammo": "45",
@@ -19092,6 +19451,7 @@
           },
           {
             "part": "頸",
+            "hitzone_color": "#3cb44b",
             "cut": "33",
             "blunt": "38",
             "ammo": "5",
@@ -19102,18 +19462,8 @@
             "dragon": "5"
           },
           {
-            "part": "前腳",
-            "cut": "38",
-            "blunt": "38",
-            "ammo": "15",
-            "fire": "0",
-            "water": "25",
-            "thunder": "10",
-            "ice": "20",
-            "dragon": "10"
-          },
-          {
             "part": "腹部",
+            "hitzone_color": "#ffe119",
             "cut": "24",
             "blunt": "24",
             "ammo": "10",
@@ -19125,6 +19475,7 @@
           },
           {
             "part": "背部",
+            "hitzone_color": "#4363d8",
             "cut": "24",
             "blunt": "24",
             "ammo": "5",
@@ -19135,18 +19486,20 @@
             "dragon": "0"
           },
           {
-            "part": "翼",
-            "cut": "40",
-            "blunt": "35",
+            "part": "前腳",
+            "hitzone_color": "#f58231",
+            "cut": "38",
+            "blunt": "38",
             "ammo": "15",
             "fire": "0",
-            "water": "10",
-            "thunder": "0",
-            "ice": "5",
-            "dragon": "0"
+            "water": "25",
+            "thunder": "10",
+            "ice": "20",
+            "dragon": "10"
           },
           {
             "part": "後腳",
+            "hitzone_color": "#911eb4",
             "cut": "30",
             "blunt": "25",
             "ammo": "20",
@@ -19157,7 +19510,20 @@
             "dragon": "5"
           },
           {
+            "part": "翼",
+            "hitzone_color": "#42d4f4",
+            "cut": "40",
+            "blunt": "35",
+            "ammo": "15",
+            "fire": "0",
+            "water": "10",
+            "thunder": "0",
+            "ice": "5",
+            "dragon": "0"
+          },
+          {
             "part": "尾巴",
+            "hitzone_color": "#f032e6",
             "cut": "43",
             "blunt": "33",
             "ammo": "38",
@@ -19167,7 +19533,199 @@
             "ice": "15",
             "dragon": "5"
           }
-        ]
+        ],
+        "hitzone_image": "images/monsters/hitzone/teostra.png"
+      },
+      "partsdata": {
+        "parts": [
+          {
+            "part": "頭",
+            "part_color": "#e6194B",
+            "stagger": 280,
+            "extract": "red",
+            "break": [
+              {
+                "vital": 560,
+                "break_level": 1
+              }
+            ]
+          },
+          {
+            "part": "身體",
+            "part_color": "#3cb44b",
+            "stagger": 400,
+            "extract": "orange"
+          },
+          {
+            "part": "前腳",
+            "part_color": "#ffe119",
+            "stagger": 280,
+            "extract": "orange"
+          },
+          {
+            "part": "後腳",
+            "part_color": "#4363d8",
+            "stagger": 340,
+            "extract": "orange"
+          },
+          {
+            "part": "翼",
+            "part_color": "#f58231",
+            "stagger": 280,
+            "extract": "white",
+            "break": [
+              {
+                "vital": 280,
+                "break_level": 1
+              }
+            ]
+          },
+          {
+            "part": "尾巴",
+            "part_color": "#911eb4",
+            "stagger": 290,
+            "extract": "orange",
+            "loss": {
+              "vital": 290,
+              "damage_type": "cut"
+            }
+          }
+        ],
+        "parts_image": "images/monsters/parts/teostra.png"
+      },
+      "items": {
+        "high_rank": {
+          "teostra_carapace": {
+            "target_rewards": {
+              "num": 1,
+              "rate": 14
+            },
+            "carves": {
+              "num": 1,
+              "rate": 27
+            },
+            "dropped_materials": {
+              "num": 1,
+              "rate": 40
+            }
+          },
+          "fire_dragon_scale_plus": {
+            "target_rewards": {
+              "num": 1,
+              "rate": 26
+            },
+            "carves": {
+              "num": 1,
+              "rate": 21
+            },
+            "dropped_materials": {
+              "num": 1,
+              "rate": 25
+            }
+          },
+          "teostra_mane": {
+            "target_rewards": {
+              "num": 1,
+              "rate": 19
+            },
+            "broken_part_rewards": {
+              "num": 1,
+              "rate": 25
+            },
+            "carves": {
+              "num": 1,
+              "rate": 18
+            }
+          },
+          "teostra_claw_plus": {
+            "target_rewards": {
+              "num": 1,
+              "rate": 16
+            },
+            "broken_part_rewards": {
+              "num": 1,
+              "rate": 18
+            },
+            "carves": {
+              "num": 1,
+              "rate": 14
+            }
+          },
+          "teostra_powder": {
+            "target_rewards": {
+              "num": 1,
+              "rate": 10
+            },
+            "broken_part_rewards": {
+              "num": 1,
+              "rate": 12
+            },
+            "dropped_materials": {
+              "num": 1,
+              "rate": 34
+            }
+          },
+          "teostra_tail": {
+            "target_rewards": {
+              "num": 1,
+              "rate": 12
+            },
+            "carves": {
+              "num": 1,
+              "rate": 80
+            }
+          },
+          "teostra_gem": {
+            "target_rewards": {
+              "num": 1,
+              "rate": 3
+            },
+            "broken_part_rewards": {
+              "num": 1,
+              "rate": 3
+            },
+            "carves": {
+              "num": 1,
+              "rate": 3
+            },
+            "dropped_materials": {
+              "num": 1,
+              "rate": 1
+            }
+          },
+          "teostra_webbing": {
+            "broken_part_rewards": {
+              "num": 1,
+              "rate": 70
+            },
+            "carves": {
+              "num": 1,
+              "rate": 10
+            }
+          },
+          "teostra_horn_plus": {
+            "broken_part_rewards": {
+              "num": 1,
+              "rate": 72
+            },
+            "carves": {
+              "num": 1,
+              "rate": 8
+            }
+          },
+          "elder_dragon_blood": {
+            "dropped_materials": {
+              "num": 1,
+              "rate": 10
+            }
+          },
+          "dragon_treasure": {
+            "dropped_materials": {
+              "num": 1,
+              "rate": 40
+            }
+          }
+        }
       },
       "ref_id": "608b68b7acd80103b52c118a"
     }

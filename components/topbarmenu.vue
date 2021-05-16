@@ -88,7 +88,7 @@ module.exports = {
         case "item":
           items.push({ name: this.$t("dataType.items"), path: "/item" })
           if (pathArr[1] !== undefined)
-            items.push({ name: this.$t("data.items." + pathArr[1] + ".name"), path: "/item/" + pathArr[1] })
+            items.push({ name: GetData('items')[pathArr[1]].name, path: "/item/" + pathArr[1] })
           break;
         case "quest":
           items.push({ name: this.$t("dataType.quests"), path: "/quest" })
