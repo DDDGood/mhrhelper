@@ -93270,13 +93270,7 @@
             "automatic": null,
             "offset": "",
             "notes_desc": null,
-            "coatings": [
-                "接擊瓶",
-                "強擊瓶",
-                "毒瓶",
-                "睡眠瓶",
-                "减氣瓶"
-            ],
+            "coatings": "接擊瓶,強擊瓶,毒瓶,睡眠瓶,减氣瓶",
             "coatings_up": null,
             "recoil": null,
             "reload": null,
@@ -93316,18 +93310,9 @@
             "hole": "2-0-0",
             "notes_desc": null,
             "qushe": null,
-            "xuli": [
-                "連射Lv3",
-                "連射Lv3",
-                "擴散Lv3"
-            ],
+            "xuli": "連射Lv3,連射Lv3,擴散Lv3",
             "xuli_add": null,
-            "coatings": [
-                "接擊瓶",
-                "強擊瓶",
-                "睡眠瓶",
-                "减氣瓶"
-            ],
+            "coatings": "接擊瓶,強擊瓶,睡眠瓶,减氣瓶",
             "coatings_up": null,
             "recoil": null,
             "reload": null,
@@ -93367,17 +93352,9 @@
             "hole": "1-0-0",
             "notes_desc": null,
             "qushe": null,
-            "xuli": [
-                "連射Lv4",
-                "連射Lv4",
-                "擴散Lv4"
-            ],
+            "xuli": "連射Lv4,連射Lv4,擴散Lv4",
             "xuli_add": null,
-            "coatings": [
-                "接擊瓶",
-                "強擊瓶",
-                "麻痹瓶"
-            ],
+            "coatings": "接擊瓶,強擊瓶,麻痹瓶",
             "coatings_up": null,
             "recoil": null,
             "reload": null,
@@ -93422,14 +93399,7 @@
             "automatic": null,
             "offset": "",
             "notes_desc": null,
-            "coatings": [
-                "接擊瓶",
-                "毒瓶",
-                "麻痹瓶",
-                "睡眠瓶",
-                "爆破瓶",
-                "减氣瓶"
-            ],
+            "coatings": "接擊瓶,毒瓶,麻痹瓶,睡眠瓶,爆破瓶,减氣瓶",
             "coatings_up": null,
             "recoil": null,
             "reload": null,
@@ -93473,12 +93443,7 @@
             "automatic": null,
             "offset": "",
             "notes_desc": null,
-            "coatings": [
-                "接擊瓶",
-                "強擊瓶",
-                "毒瓶",
-                "麻痹瓶"
-            ],
+            "coatings": "接擊瓶,強擊瓶,毒瓶,麻痹瓶",
             "coatings_up": null,
             "recoil": null,
             "reload": null,
@@ -93523,11 +93488,7 @@
             "automatic": null,
             "offset": "",
             "notes_desc": null,
-            "coatings": [
-                "接擊瓶",
-                "強擊瓶",
-                "睡眠瓶"
-            ],
+            "coatings": "接擊瓶,強擊瓶,睡眠瓶",
             "coatings_up": null,
             "recoil": null,
             "reload": null,
@@ -93572,11 +93533,7 @@
             "automatic": null,
             "offset": "",
             "notes_desc": null,
-            "coatings": [
-                "接擊瓶",
-                "強擊瓶",
-                "麻痹瓶"
-            ],
+            "coatings": "接擊瓶,強擊瓶,麻痹瓶",
             "coatings_up": null,
             "recoil": null,
             "reload": null,
@@ -93622,9 +93579,7 @@
             "automatic": null,
             "offset": "",
             "notes_desc": null,
-            "coatings": [
-                "接擊瓶"
-            ],
+            "coatings": "接擊瓶",
             "coatings_up": null,
             "recoil": null,
             "reload": null,
