@@ -225,7 +225,7 @@
             </div>
             <div
               class="flex-row flex-start trait-line"
-              v-if="weapon.category==='bow' && weapon.xuli!== undefined "
+              v-if="weapon.category==='bow' && weapon.xuli!= undefined && weapon.xuli_add!= undefined "
             >
               <div class="flex-row">
                 <div class="flex flex-center">
@@ -242,7 +242,7 @@
             </div>
             <div
               class="flex-row flex-start trait-line"
-              v-if="weapon.category==='bow' && weapon.coatings !== undefined"
+              v-if="weapon.category==='bow' && weapon.coatings != undefined && weapon.coatings_up != undefined"
             >
               <div class="flex-row">
                 <div class="flex flex-center">
