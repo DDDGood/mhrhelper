@@ -140,25 +140,9 @@ module.exports = {
         console.log(value);
         this.doRender();
       });
-      // this.fakeTimeout(this.doRender, 50);
     },
     doRender: function () {
-      this.debugMsg += "doRender()" + "\n";
       this.rendercontents = true;
-    },
-    fakeTimeout: function (caller, time) {
-      this.debugMsg += "fakeTimeout()" + "\n";
-      let begin = Date.now();
-      this.debugMsg += "fakeStart:" + begin + "\n";
-      this.debugMsg += window.toString() + "\n";
-      window.requestAnimationFrame(function call() {
-        if (Date.now() - begin > time) {
-          caller();
-        } else {
-          window.requestAnimationFrame(call);
-        }
-      });
-      return 0;
     }
   }, computed: {
     weaponsTree: function () {
