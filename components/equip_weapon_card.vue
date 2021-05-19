@@ -497,7 +497,7 @@ module.exports = {
       return shots;
     },
     coatings: function () {
-      if (this.weapondata.coatings == undefined) {
+      if (this.weapondata.coatings == undefined || this.weapondata.coatings_up == undefined) {
         return {}
       }
       let coatings = {

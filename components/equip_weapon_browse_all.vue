@@ -86,7 +86,6 @@ module.exports = {
   },
   props: ["weapons"],
   created: function () {
-    this.debugMsg = "creating... " + "\n"
     window.onerror = function (message, source, lineno, colno, error) {
       // message：錯誤信息（字符串）。 
       // source：發生錯誤的腳本URL（字符串） 
@@ -98,8 +97,6 @@ module.exports = {
     }
   },
   mounted: function () {
-    this.debugMsg = "mounted!" + "\n"
-    this.debugMsg += localStorage;
     if (localStorage != undefined && localStorage.getItem("equip_weapons")) {
       try {
         let curData = JSON.parse(localStorage.getItem('equip_weapons'));
