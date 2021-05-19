@@ -83664,7 +83664,8 @@
             "defense": 0,
             "hole": "0-0-0",
             "phial": "強屬性瓶",
-            "skills": "攻擊力強化IV,防禦力強化II,鈍刃一擊"
+            "skills": "攻擊力強化IV,防禦力強化II,鈍刃一擊",
+            "ref_id": "608c19d36c444e17adb55422"
         },
         "slashaxe_gnashing_flammenbeil": {
             "name": "蠻顎劍斧",
@@ -83679,7 +83680,8 @@
             "defense": 0,
             "hole": "1-1-0",
             "phial": "強屬性瓶",
-            "skills": "會心率強化II,屬性強化【火】III,悔恨一擊"
+            "skills": "會心率強化II,屬性強化【火】III,悔恨一擊",
+            "ref_id": "608c19d36c444e17adb5541f"
         },
         "slashaxe_parting_slice": {
             "name": "雨落流水斧之雕字",
@@ -83694,7 +83696,8 @@
             "defense": 0,
             "hole": "1-0-0",
             "phial": "強擊瓶",
-            "skills": "攻擊力強化III,會心率強化II,屬性強化【水】II"
+            "skills": "攻擊力強化III,會心率強化II,屬性強化【水】II",
+            "ref_id": "608c19d36c444e17adb5541d"
         },
         "slashaxe_rath_blaze_splitter": {
             "name": "吞噬黑炎斬擊斧",
@@ -83709,7 +83712,8 @@
             "defense": 0,
             "hole": "2-0-0",
             "phial": "強擊瓶",
-            "skills": "攻擊力強化III,屬性強化【火】I,弱點特效【屬性】"
+            "skills": "攻擊力強化III,屬性強化【火】I,弱點特效【屬性】",
+            "ref_id": "608c19d36c444e17adb5541e"
         },
         "slashaxe_rex_gnasher": {
             "name": "轟龍裂擊",
@@ -83723,7 +83727,8 @@
             "defense": 0,
             "hole": "0-0-0",
             "phial": "減氣瓶24",
-            "skills": "攻擊力強化III,會心率強化II,悔恨一擊"
+            "skills": "攻擊力強化III,會心率強化II,悔恨一擊",
+            "ref_id": "608c19d36c444e17adb55420"
         },
         "slashaxe_grand_chaos": {
             "name": "大地混沌",
@@ -83737,7 +83742,8 @@
             "defense": 15,
             "hole": "1-0-0",
             "phial": "減氣瓶16",
-            "skills": "會心率強化III,防禦力強化II,鈍刃一擊"
+            "skills": "會心率強化III,防禦力強化II,鈍刃一擊",
+            "ref_id": "608c19d36c444e17adb55421"
         },
         "slashaxe_daoras_farasa_i": {
             "name": "鋼龍斬擊斧Ⅰ",
@@ -83752,7 +83758,8 @@
             "defense": 0,
             "hole": "1-0-0",
             "phial": "強擊瓶",
-            "skills": "攻擊力強化II,會心率強化II,鋼龍之魂"
+            "skills": "攻擊力強化II,會心率強化II,鋼龍之魂",
+            "ref_id": "608c19d36c444e17adb55426"
         },
         "slashaxe_teostras_arx_i": {
             "name": "炎王劍斧Ⅰ",
@@ -83767,7 +83774,8 @@
             "defense": 0,
             "hole": "0-1-0",
             "phial": "強屬性瓶",
-            "skills": "攻擊力強化II,火異常特效,炎王龍之魂"
+            "skills": "攻擊力強化II,火異常特效,炎王龍之魂",
+            "ref_id": "608c19d36c444e17adb55427"
         },
         "slashaxe_waxglare_wand_i": {
             "name": "凝視法杖Ⅰ",
@@ -83782,17 +83790,20 @@
             "defense": 0,
             "hole": "1-0-1",
             "phial": "強擊瓶",
-            "skills": "攻擊力強化II,防禦力強化III,霞龍之魂"
+            "skills": "攻擊力強化II,防禦力強化III,霞龍之魂",
+            "ref_id": "608c19d36c444e17adb55428"
         },
         "slashaxe_rookslayer_axe_i": {
             "name": "爆鱗重斬擊斧Ⅰ",
             "description": "以爆鱗龍素材打造的斬擊斧。\n外表隨時都散發著爆炎，\n其揮出的一擊灼熱不已。",
-            "category": "switch_axe"
+            "category": "switch_axe",
+            "ref_id": "608c19d36c444e17adb55423"
         },
         "slashaxe_rookslayer_axe_ii": {
             "name": "爆鱗重斬擊斧Ⅱ",
             "description": "以爆鱗龍素材打造的斬擊斧。\n外表隨時都散發著爆炎，\n其揮出的一擊灼熱不已。",
-            "category": "switch_axe"
+            "category": "switch_axe",
+            "ref_id": "608c19d36c444e17adb55424"
         },
         "slashaxe_bazelrush_rookslayer": {
             "name": "爆鱗斬擊斧赤紅神刃",
@@ -83807,7 +83818,8 @@
             "defense": 0,
             "hole": "1-0-0",
             "phial": "強擊瓶",
-            "skills": "防禦力強化II,屬性強化【爆破】III,悔恨一擊"
+            "skills": "防禦力強化II,屬性強化【爆破】III,悔恨一擊",
+            "ref_id": "608c19d36c444e17adb55425"
         },
         "slashaxe_rampage_slicer_v": {
             "name": "百龍斬擊斧Ⅴ",
@@ -83821,12 +83833,14 @@
             "defense": 0,
             "hole": "0-0-0",
             "phial": "",
-            "skills": ""
+            "skills": "",
+            "ref_id": "608c19d36c444e17adb55429"
         },
         "shortsword_ninja_sword_i": {
             "name": "忍者刀Ⅰ",
             "description": "刀刃短且刀身細的小刀，\n但擁有極高的銳利度，\n在飛龍戰中也能大放異彩。",
-            "category": "sword_and_shield"
+            "category": "sword_and_shield",
+            "ref_id": "608c19d36c444e17adb553dd"
         },
         "shortsword_hi_ninja_sword": {
             "name": "上級忍者刀",
@@ -83839,7 +83853,8 @@
             "huixin": 100,
             "defense": 0,
             "hole": "3-0-0",
-            "skills": "鐵蟲絲招式強化,操龍達人,鬼火鳥加倍"
+            "skills": "鐵蟲絲招式強化,操龍達人,鬼火鳥加倍",
+            "ref_id": "608c19d36c444e17adb553de"
         },
         "shortsword_chefs_knife": {
             "name": "雪鬼獸剁刀",
@@ -83853,7 +83868,8 @@
             "huixin": -15,
             "defense": 0,
             "hole": "0-1-0",
-            "skills": "會心率強化I,屬性強化【冰】III,悔恨一擊"
+            "skills": "會心率強化I,屬性強化【冰】III,悔恨一擊",
+            "ref_id": "608c19d36c444e17adb553da"
         },
         "shortsword_queen_rapier": {
             "name": "女王細劍",
@@ -83867,7 +83883,8 @@
             "huixin": 10,
             "defense": 0,
             "hole": "0-0-0",
-            "skills": "攻擊力強化II,屬性強化【毒】II,小型特效"
+            "skills": "攻擊力強化II,屬性強化【毒】II,小型特效",
+            "ref_id": "608c19d36c444e17adb553d9"
         },
         "shortsword_blazing_falchion": {
             "name": "炎靈之葵",
@@ -83881,7 +83898,8 @@
             "huixin": 0,
             "defense": 0,
             "hole": "0-0-0",
-            "skills": "攻擊力強化III,屬性強化【火】I,弱點特效【屬性】"
+            "skills": "攻擊力強化III,屬性強化【火】I,弱點特效【屬性】",
+            "ref_id": "608c19d36c444e17adb553d8"
         },
         "shortsword_tigrex_sword": {
             "name": "轟劍【虎眼】",
@@ -83894,7 +83912,8 @@
             "huixin": -15,
             "defense": 0,
             "hole": "0-0-0",
-            "skills": "攻擊力強化III,會心率強化II,悔恨一擊"
+            "skills": "攻擊力強化III,會心率強化II,悔恨一擊",
+            "ref_id": "608c19d36c444e17adb553d7"
         },
         "shortsword_icesteel_dagger_i": {
             "name": "鋼冰劍Ⅰ",
@@ -83908,7 +83927,8 @@
             "huixin": 5,
             "defense": 0,
             "hole": "1-0-0",
-            "skills": "攻擊力強化II,會心率強化II,鋼龍之魂"
+            "skills": "攻擊力強化II,會心率強化II,鋼龍之魂",
+            "ref_id": "608c19d36c444e17adb553db"
         },
         "shortsword_teostras_spada_i": {
             "name": "炎王之劍Ⅰ",
@@ -83922,7 +83942,8 @@
             "huixin": 0,
             "defense": 0,
             "hole": "0-0-0",
-            "skills": "攻擊力強化II,火異常特效,炎王龍之魂"
+            "skills": "攻擊力強化II,火異常特效,炎王龍之魂",
+            "ref_id": "608c19d36c444e17adb553dc"
         },
         "shortsword_rampage_sword_v": {
             "name": "百龍劍Ⅴ",
@@ -83935,7 +83956,8 @@
             "huixin": 0,
             "defense": 0,
             "hole": "0-0-0",
-            "skills": ""
+            "skills": "",
+            "ref_id": "608c19d36c444e17adb553df"
         },
         "longsword_big_menacing_scythe": {
             "name": "大鐮威太刀",
@@ -83949,7 +83971,8 @@
             "huixin": -10,
             "defense": 0,
             "hole": "0-0-0",
-            "skills": "攻擊力強化I,屬性強化【毒】II,悔恨一擊"
+            "skills": "攻擊力強化I,屬性強化【毒】II,悔恨一擊",
+            "ref_id": "608c19d36c444e17adb553eb"
         },
         "longsword_wyvern_blade_maple": {
             "name": "飛龍刀【楓】",
@@ -83963,7 +83986,8 @@
             "huixin": 0,
             "defense": 0,
             "hole": "0-0-0",
-            "skills": "攻擊力強化III,屬性強化【火】I,弱點特效【屬性】"
+            "skills": "攻擊力強化III,屬性強化【火】I,弱點特效【屬性】",
+            "ref_id": "608c19d36c444e17adb553ea"
         },
         "longsword_tigrine_need": {
             "name": "一虎刀【餓刃】",
@@ -83976,7 +84000,8 @@
             "huixin": -20,
             "defense": 0,
             "hole": "0-0-0",
-            "skills": "攻擊力強化II,會心率強化III,悔恨一擊"
+            "skills": "攻擊力強化II,會心率強化III,悔恨一擊",
+            "ref_id": "608c19d36c444e17adb553e9"
         },
         "longsword_icesteel_blade_i": {
             "name": "鋼冰大刃Ⅰ",
@@ -83990,12 +84015,14 @@
             "huixin": 0,
             "defense": 0,
             "hole": "1-0-0",
-            "skills": "攻擊力強化II,會心率強化II,鋼龍之魂"
+            "skills": "攻擊力強化II,會心率強化II,鋼龍之魂",
+            "ref_id": "608c19d36c444e17adb553ef"
         },
         "longsword_imperial_saber_i": {
             "name": "帝王刀Ⅰ",
             "description": "與帝王之名相稱的火紅之劍。\n為那搖曳的火焰著迷之人，\n轉瞬之間便會被斬殺燃盡。",
-            "category": "long_sword"
+            "category": "long_sword",
+            "ref_id": "608c19d36c444e17adb553f0"
         },
         "longsword_mirage_finsword_i": {
             "name": "海市蜃樓彎刀Ⅰ",
@@ -84008,17 +84035,20 @@
             "huixin": 15,
             "defense": 10,
             "hole": "2-1-0",
-            "skills": "攻擊力強化II,防禦力強化III,霞龍之魂"
+            "skills": "攻擊力強化II,防禦力強化III,霞龍之魂",
+            "ref_id": "608c19d36c444e17adb553f1"
         },
         "longsword_rookslayer_saber_i": {
             "name": "爆鱗大刀Ⅰ",
             "description": "閃閃發亮的銀色鱗片正如同暴徒\n的先鋒一般。爆鱗龍的危險太刀\n將隨著爆擊，放出捨命的一擊。",
-            "category": "long_sword"
+            "category": "long_sword",
+            "ref_id": "608c19d36c444e17adb553ec"
         },
         "longsword_rookslayer_saber_ii": {
             "name": "爆鱗大刀Ⅱ",
             "description": "閃閃發亮的銀色鱗片正如同暴徒\n的先鋒一般。爆鱗龍的危險太刀\n將隨著爆擊，放出捨命的一擊。",
-            "category": "long_sword"
+            "category": "long_sword",
+            "ref_id": "608c19d36c444e17adb553ed"
         },
         "longsword_bazel_varga_rookslayer": {
             "name": "爆鱗刀赤紅利刃",
@@ -84032,7 +84062,8 @@
             "huixin": -10,
             "defense": 0,
             "hole": "1-0-0",
-            "skills": "防禦力強化II,屬性強化【爆破】III,悔恨一擊"
+            "skills": "防禦力強化II,屬性強化【爆破】III,悔恨一擊",
+            "ref_id": "608c19d36c444e17adb553ee"
         },
         "longsword_rampage_blade_v": {
             "name": "百龍刀Ⅴ",
@@ -84045,67 +84076,80 @@
             "huixin": 0,
             "defense": 0,
             "hole": "0-0-0",
-            "skills": ""
+            "skills": "",
+            "ref_id": "608c19d36c444e17adb553f2"
         },
         "lightbowgun_araknabolt": {
             "name": "人面蛛之燈",
             "description": "如同光芒愈強影愈黑的道理，\n經強化後的妃蜘蛛輕弩，在喜宴\n的背後亦染上一層強烈的黑暗。",
-            "category": "light_bowgun"
+            "category": "light_bowgun",
+            "ref_id": "608c19d36c444e17adb5544a"
         },
         "lightbowgun_blizzard_volley": {
             "name": "暴風雹弩",
             "description": "暴風加農的強化型態。\n持此凍寒輕弩者僅需扣下板機，\n便能使獵場瞬間化為冰原。",
-            "category": "light_bowgun"
+            "category": "light_bowgun",
+            "ref_id": "608c19d36c444e17adb5544d"
         },
         "lightbowgun_nifl_mist": {
             "name": "空飛輕弩之水珠",
             "description": "不知露水將逝的無常苦短，\n雅致水槍依舊佇立濛濛細雨中。\n狐水槍滴水映浮生的強化型態。",
-            "category": "light_bowgun"
+            "category": "light_bowgun",
+            "ref_id": "608c19d36c444e17adb5544b"
         },
         "lightbowgun_rathling_phoenix": {
             "name": "鳳仙火龍砲",
             "description": "火龍砲的強化型態。親眼見識到\n那股力量的獵物將會陷入恐懼，\n最後的抵抗亦會化為死前掙扎。",
-            "category": "light_bowgun"
+            "category": "light_bowgun",
+            "ref_id": "608c19d36c444e17adb5544c"
         },
         "lightbowgun_tigrex_tank_ii": {
             "name": "轟龍戰車Ⅱ",
             "description": "使用轟龍素材製作而成，形狀\n特殊的輕弩槍。有著爆炸般的\n火力，是適合實戰的設計。",
-            "category": "light_bowgun"
+            "category": "light_bowgun",
+            "ref_id": "608c19d36c444e17adb5544e"
         },
         "lightbowgun_icesteel_wasp_i": {
             "name": "鋼冰蜂弩Ⅰ",
             "description": "振動鋼鐵之翼的鋼龍輕弩。\n冷冽的槍彈，像是招來寒冬的\n冰雹般滂沱落下。",
-            "category": "light_bowgun"
+            "category": "light_bowgun",
+            "ref_id": "608c19d36c444e17adb55453"
         },
         "lightbowgun_teostras_dart_i": {
             "name": "炎王焰弩Ⅰ",
             "description": "刻有炎帝之魂的紅蓮輕弩。\n其身環繞引以自豪的烈焰，\n射出名為強悍的子彈。",
-            "category": "light_bowgun"
+            "category": "light_bowgun",
+            "ref_id": "608c19d36c444e17adb55452"
         },
         "lightbowgun_blessed_lamp_i": {
             "name": "占卜燈Ⅰ",
             "description": "使用霞龍的素材製成，有著怪異\n外型的輕弩槍。當然，無論怎麼\n摩擦，也不會有東西跑出來的。",
-            "category": "light_bowgun"
+            "category": "light_bowgun",
+            "ref_id": "608c19d36c444e17adb55454"
         },
         "lightbowgun_rookslayer_bowgun_i": {
             "name": "爆鱗銃弩Ⅰ",
             "description": "原封不動地繼承了爆鱗龍\n爆炸力的輕弩。子彈將化為\n猛烈的暴風，擊碎無數生命。",
-            "category": "light_bowgun"
+            "category": "light_bowgun",
+            "ref_id": "608c19d36c444e17adb5544f"
         },
         "lightbowgun_rookslayer_bowgun_ii": {
             "name": "爆鱗銃弩Ⅱ",
             "description": "原封不動地繼承了爆鱗龍\n爆炸力的輕弩。子彈將化為\n猛烈的暴風，擊碎無數生命。",
-            "category": "light_bowgun"
+            "category": "light_bowgun",
+            "ref_id": "608c19d36c444e17adb55450"
         },
         "lightbowgun_bazelfetter_rookslayer": {
             "name": "爆鱗弩赤紅火光",
             "description": "隨澎湃情感而釋放出來的猛烈\n暴風，將毀滅大地，燒毀天際。\n爆鱗龍輕弩的強化版本。",
-            "category": "light_bowgun"
+            "category": "light_bowgun",
+            "ref_id": "608c19d36c444e17adb55451"
         },
         "lightbowgun_rampage_l_bowgun_v": {
             "name": "百龍輕弩Ⅴ",
             "description": "輕弩裡蘊藏著不為人知的能力。\n此武器能不能發揮真正的力量，\n全都取決於使用者的技術。",
-            "category": "light_bowgun"
+            "category": "light_bowgun",
+            "ref_id": "608c19d36c444e17adb55455"
         },
         "lance_elder_babel_spear": {
             "name": "遠古巴別塔",
@@ -84118,7 +84162,8 @@
             "huixin": 0,
             "defense": 20,
             "hole": "0-0-1",
-            "skills": "攻擊力強化IV,防禦力強化III,龍種特效"
+            "skills": "攻擊力強化IV,防禦力強化III,龍種特效",
+            "ref_id": "608c19d36c444e17adb55405"
         },
         "lance_basarios_venom_spear": {
             "name": "劇毒烏賊",
@@ -84132,7 +84177,8 @@
             "huixin": -15,
             "defense": 0,
             "hole": "1-0-0",
-            "skills": "防禦力強化III,屬性強化【毒】II,鈍刃一擊"
+            "skills": "防禦力強化III,屬性強化【毒】II,鈍刃一擊",
+            "ref_id": "608c19d36c444e17adb55406"
         },
         "lance_sabertooth": {
             "name": "冰牙刀鋒",
@@ -84146,7 +84192,8 @@
             "huixin": 40,
             "defense": 0,
             "hole": "1-1-0",
-            "skills": "攻擊力強化IV,會心率強化III,冰異常特效"
+            "skills": "攻擊力強化IV,會心率強化III,冰異常特效",
+            "ref_id": "608c19d36c444e17adb55407"
         },
         "lance_spear_of_prominence": {
             "name": "日珥刺矛",
@@ -84160,7 +84207,8 @@
             "huixin": 0,
             "defense": 0,
             "hole": "1-0-0",
-            "skills": "攻擊力強化III,屬性強化【火】I,弱點特效【屬性】"
+            "skills": "攻擊力強化III,屬性強化【火】I,弱點特效【屬性】",
+            "ref_id": "608c19d36c444e17adb55408"
         },
         "lance_icesteel_spear_i": {
             "name": "鋼冰槍Ⅰ",
@@ -84174,7 +84222,8 @@
             "huixin": 10,
             "defense": 0,
             "hole": "1-0-0",
-            "skills": "攻擊力強化II,會心率強化II,鋼龍之魂"
+            "skills": "攻擊力強化II,會心率強化II,鋼龍之魂",
+            "ref_id": "608c19d36c444e17adb5540c"
         },
         "lance_teostras_howl_i": {
             "name": "炎皇怒吼Ⅰ",
@@ -84188,17 +84237,20 @@
             "huixin": 0,
             "defense": 0,
             "hole": "0-0-0",
-            "skills": "攻擊力強化II,火異常屬性,炎王龍之魂"
+            "skills": "攻擊力強化II,火異常屬性,炎王龍之魂",
+            "ref_id": "608c19d36c444e17adb5540d"
         },
         "lance_rookslayer_lance_i": {
             "name": "爆鱗突擊槍Ⅰ",
             "description": "使用大量爆鱗龍素材所製成，\n極具爆發力的槍。其突刺能夠\n貫穿獵物，將一切都燃燒殆盡。",
-            "category": "lance"
+            "category": "lance",
+            "ref_id": "608c19d36c444e17adb55409"
         },
         "lance_rookslayer_lance_ii": {
             "name": "爆鱗突擊槍Ⅱ",
             "description": "使用大量爆鱗龍素材所製成，\n極具爆發力的槍。其突刺能夠\n貫穿獵物，將一切都燃燒殆盡。",
-            "category": "lance"
+            "category": "lance",
+            "ref_id": "608c19d36c444e17adb5540a"
         },
         "lance_bazel_myniad_lance": {
             "name": "爆鱗槍赤紅巨星",
@@ -84212,7 +84264,8 @@
             "huixin": -10,
             "defense": 0,
             "hole": "1-0-0",
-            "skills": "防禦力強化II,屬性強化【爆破】III,悔恨一擊"
+            "skills": "防禦力強化II,屬性強化【爆破】III,悔恨一擊",
+            "ref_id": "608c19d36c444e17adb5540b"
         },
         "lance_rampage_spear_v": {
             "name": "百龍槍Ⅴ",
@@ -84225,7 +84278,8 @@
             "huixin": 0,
             "defense": 0,
             "hole": "0-0-0",
-            "skills": ""
+            "skills": "",
+            "ref_id": "608c19d36c444e17adb5540e"
         },
         "insectglaive_magia_crescent": {
             "name": "魔法少女月杖",
@@ -84240,7 +84294,8 @@
             "defense": 5,
             "hole": "3-0-0",
             "kinsect": "獵蟲Lv8",
-            "skills": "攻擊力強化IV,防禦力強化III,鐵蟲絲招式強化"
+            "skills": "攻擊力強化IV,防禦力強化III,鐵蟲絲招式強化",
+            "ref_id": "608c19d36c444e17adb55437"
         },
         "insectglaive_full_bolt_chamber": {
             "name": "奇怪龍光膛棍",
@@ -84255,7 +84310,8 @@
             "defense": 0,
             "hole": "1-1-0",
             "kinsect": "獵蟲Lv6",
-            "skills": "攻擊力強化IV,屬性強化【雷】II,雷異常特效"
+            "skills": "攻擊力強化IV,屬性強化【雷】II,雷異常特效",
+            "ref_id": "608c19d36c444e17adb55434"
         },
         "insectglaive_firedance_rathmaul": {
             "name": "火龍棍【炎舞】",
@@ -84270,7 +84326,8 @@
             "defense": 0,
             "hole": "1-0-0",
             "kinsect": "獵蟲Lv7",
-            "skills": "攻擊力強化III,屬性強化【火】I,弱點特效【屬性】"
+            "skills": "攻擊力強化III,屬性強化【火】I,弱點特效【屬性】",
+            "ref_id": "608c19d36c444e17adb55433"
         },
         "insectglaive_tigerclaw_glaive": {
             "name": "轟腕【虎爪】",
@@ -84284,7 +84341,8 @@
             "defense": 0,
             "hole": "1-0-0",
             "kinsect": "獵蟲Lv6",
-            "skills": "攻擊力強化III,會心率強化II,悔恨一擊"
+            "skills": "攻擊力強化III,會心率強化II,悔恨一擊",
+            "ref_id": "608c19d36c444e17adb55432"
         },
         "insectglaive_daoras_entom_i": {
             "name": "靈魂鋼龍棍Ⅰ",
@@ -84299,7 +84357,8 @@
             "defense": 0,
             "hole": "1-0-0",
             "kinsect": "獵蟲Lv6",
-            "skills": "攻擊力強化II,屬性強化【冰】I,鋼龍之魂"
+            "skills": "攻擊力強化II,屬性強化【冰】I,鋼龍之魂",
+            "ref_id": "608c19d36c444e17adb55435"
         },
         "insectglaive_casters_rod_i": {
             "name": "滾輪蟲棍Ⅰ",
@@ -84314,7 +84373,8 @@
             "defense": 0,
             "hole": "2-1-0",
             "kinsect": "獵蟲Lv6",
-            "skills": "攻擊力強化II,防禦力強化III,霞龍之魂"
+            "skills": "攻擊力強化II,防禦力強化III,霞龍之魂",
+            "ref_id": "608c19d36c444e17adb55436"
         },
         "insectglaive_rampage_glaive_v": {
             "name": "百龍刃棍Ⅴ",
@@ -84328,7 +84388,8 @@
             "defense": 0,
             "hole": "0-0-0",
             "kinsect": "",
-            "skills": ""
+            "skills": "",
+            "ref_id": "608c19d36c444e17adb55438"
         },
         "horn_araknahorn": {
             "name": "人面蛛之鐘",
@@ -84343,7 +84404,8 @@
             "defense": 0,
             "hole": "2-1-0",
             "notes_desc": "全屬性異常狀態無效,屬性攻擊力UP,後仰無效",
-            "skills": "攻擊力強化IV,屬性強化【火】II,鐵蟲絲招式強化"
+            "skills": "攻擊力強化IV,屬性強化【火】II,鐵蟲絲招式強化",
+            "ref_id": "608c19d36c444e17adb553fa"
         },
         "horn_cry_in_the_night": {
             "name": "夜笛【逢魔】",
@@ -84357,7 +84419,8 @@
             "defense": 0,
             "hole": "0-1-0",
             "notes_desc": "耐力回復速度UP,攻擊力UP,會心率UP",
-            "skills": "攻擊力強化III,會心率強化II,操龍達人"
+            "skills": "攻擊力強化III,會心率強化II,操龍達人",
+            "ref_id": "608c19d36c444e17adb553fc"
         },
         "horn_rathalos_feroce": {
             "name": "火龍笛展翅高飛",
@@ -84372,7 +84435,8 @@
             "defense": 0,
             "hole": "1-0-0",
             "notes_desc": "屬性攻擊力UP,高頻衝擊波,耐力回復速度UP",
-            "skills": "攻擊力強化III,屬性強化【火】I,弱點特效【屬性】"
+            "skills": "攻擊力強化III,屬性強化【火】I,弱點特效【屬性】",
+            "ref_id": "608c19d36c444e17adb553fd"
         },
         "horn_tigrex_horn": {
             "name": "轟鼓【虎鐘】",
@@ -84386,7 +84450,8 @@
             "defense": 0,
             "hole": "0-0-0",
             "notes_desc": "聽覺保護【小】,攻擊力UP,高頻衝擊波",
-            "skills": "攻擊力強化II,會心率強化III,大音量演奏"
+            "skills": "攻擊力強化II,會心率強化III,大音量演奏",
+            "ref_id": "608c19d36c444e17adb553fb"
         },
         "horn_daoras_taus_i": {
             "name": "鋼龍狩獵笛Ⅰ",
@@ -84401,7 +84466,8 @@
             "defense": 0,
             "hole": "1-0-0",
             "notes_desc": "地形傷害無效,耐力消耗減少,銳利度消耗減少",
-            "skills": "攻擊力強化II,會心率強化II,鋼龍之魂"
+            "skills": "攻擊力強化II,會心率強化II,鋼龍之魂",
+            "ref_id": "608c19d36c444e17adb55401"
         },
         "horn_teostras_tiple_i": {
             "name": "炎王琴Ⅰ",
@@ -84416,7 +84482,8 @@
             "defense": 0,
             "hole": "0-0-0",
             "notes_desc": "體力持續回復,解毒&體力回復【小】,攻擊力&防禦力UP",
-            "skills": "攻擊力強化II,火異常特效,炎王龍之魂"
+            "skills": "攻擊力強化II,火異常特效,炎王龍之魂",
+            "ref_id": "608c19d36c444e17adb55402"
         },
         "horn_blessed_ocarina_i": {
             "name": "占卜陶笛Ⅰ",
@@ -84431,17 +84498,20 @@
             "defense": 0,
             "hole": "2-1-0",
             "notes_desc": "聽覺保護【大】,風壓無效,屬性攻擊力UP",
-            "skills": "攻擊力強化II,防禦力強化III,霞龍之魂"
+            "skills": "攻擊力強化II,防禦力強化III,霞龍之魂",
+            "ref_id": "608c19d36c444e17adb55403"
         },
         "horn_rookslayer_drum_i": {
             "name": "爆鱗太鼓Ⅰ",
             "description": "爆鱗龍太鼓敲出的節奏，\n有如大地的脈動。喚來爆炸，\n將獵場化為野火肆虐的平原。",
-            "category": "hunting_horn"
+            "category": "hunting_horn",
+            "ref_id": "608c19d36c444e17adb553fe"
         },
         "horn_rookslayer_drum_ii": {
             "name": "爆鱗太鼓Ⅱ",
             "description": "爆鱗龍太鼓敲出的節奏，\n有如大地的脈動。喚來爆炸，\n將獵場化為野火肆虐的平原。",
-            "category": "hunting_horn"
+            "category": "hunting_horn",
+            "ref_id": "608c19d36c444e17adb553ff"
         },
         "horn_bazelreid_rookslayer": {
             "name": "爆鱗鼓赤紅星光",
@@ -84456,57 +84526,68 @@
             "defense": 0,
             "hole": "0-0-0",
             "notes_desc": "聽覺保護【小】,攻擊力UP,體力回復【大】",
-            "skills": "防禦力強化II,屬性強化【爆破】III,大音量演奏"
+            "skills": "防禦力強化II,屬性強化【爆破】III,大音量演奏",
+            "ref_id": "608c19d36c444e17adb55400"
         },
         "horn_rampage_agitato_v": {
             "name": "百龍笛Ⅴ",
             "description": "能呼應使用者內心並演奏出不同\n音色的特殊笛子。獵場上響起的\n乃是稍縱即逝的靈魂旋律。",
-            "category": "hunting_horn"
+            "category": "hunting_horn",
+            "ref_id": "608c19d36c444e17adb55404"
         },
         "heavybowgun_araknamortar": {
             "name": "人面蛛之晶",
             "description": "模仿從天而降的光芒所製成的\n重弩，不斷散發著耀眼光輝。\n直到你生命燈火熄滅的那刻……",
-            "category": "heavy_bowgun"
+            "category": "heavy_bowgun",
+            "ref_id": "608c19d36c444e17adb55444"
         },
         "heavybowgun_thorn_cannon": {
             "name": "冰牙龍飛雪加農",
             "description": "冰牙龍加農的強化型態，\n原型為一名傳說級槍手的愛槍。\n他曾於飛雪之中討伐無數敵人。",
-            "category": "heavy_bowgun"
+            "category": "heavy_bowgun",
+            "ref_id": "608c19d36c444e17adb55442"
         },
         "heavybowgun_gnashing_flammenkanone": {
             "name": "蠻顎重弩黑火砲",
             "description": "以進階蠻顎龍素材鍛造而成的\n強化型重弩。火焰之牙將雄渾\n且無情地吞噬掉獵物的生命。",
-            "category": "heavy_bowgun"
+            "category": "heavy_bowgun",
+            "ref_id": "608c19d36c444e17adb55443"
         },
         "heavybowgun_mountainous_roar": {
             "name": "卻步山砲之御車",
             "description": "風雅重砲射出水沫，\n其軌跡延伸至遙遠的明月。\n狐重砲風清雲霧散的強化型態。",
-            "category": "heavy_bowgun"
+            "category": "heavy_bowgun",
+            "ref_id": "608c19d36c444e17adb55441"
         },
         "heavybowgun_diablazooka": {
             "name": "重虎槍",
             "description": "決鬥者的強化型態。\n無法無天的可怕剛砲，\n將無情地擊倒眼前的獵物。",
-            "category": "heavy_bowgun"
+            "category": "heavy_bowgun",
+            "ref_id": "608c19d36c444e17adb55445"
         },
         "heavybowgun_daoras_delphinidae_i": {
             "name": "鋼龍堅弩Ⅰ",
             "description": "以鋼龍的堅固素材打造的\n重弩槍。安裝了旋轉裝置\n等多個實驗性設備。",
-            "category": "heavy_bowgun"
+            "category": "heavy_bowgun",
+            "ref_id": "608c19d36c444e17adb55446"
         },
         "heavybowgun_teostras_artillery_i": {
             "name": "炎王大砲Ⅰ",
             "description": "以陽炎龍的灼熱素材所打造的\n重弩槍。迷人外表之下\n潛藏著閃耀的烈火。",
-            "category": "heavy_bowgun"
+            "category": "heavy_bowgun",
+            "ref_id": "608c19d36c444e17adb55447"
         },
         "heavybowgun_kamaeleon_i": {
             "name": "霞龍濃霧重弩Ⅰ",
             "description": "藏匿於濃霧之中的幻影重弩。\n霞龍的妖媚觸手\n朝可憐的獵物背後伸去。",
-            "category": "heavy_bowgun"
+            "category": "heavy_bowgun",
+            "ref_id": "608c19d36c444e17adb55448"
         },
         "heavybowgun_rampage_h_bowgun_v": {
             "name": "百龍重弩Ⅴ",
             "description": "據說外觀千變萬化的特殊重弩。\n相當忠誠，是一把會陪伴著\n使用者的武器。",
-            "category": "heavy_bowgun"
+            "category": "heavy_bowgun",
+            "ref_id": "608c19d36c444e17adb55449"
         },
         "hammer_huracan_hammer": {
             "name": "火龍碎弗拉岡",
@@ -84520,7 +84601,8 @@
             "huixin": 5,
             "defense": 0,
             "hole": "0-0-0",
-            "skills": "攻擊力強化III,屬性強化【火】I,弱點特效【屬性】"
+            "skills": "攻擊力強化III,屬性強化【火】I,弱點特效【屬性】",
+            "ref_id": "608c19d36c444e17adb553f5"
         },
         "hammer_tigrex_hammer": {
             "name": "轟錘【虎丸】",
@@ -84533,7 +84615,8 @@
             "huixin": -20,
             "defense": 0,
             "hole": "0-0-0",
-            "skills": "攻擊力強化III,會心率強化II,悔恨一擊"
+            "skills": "攻擊力強化III,會心率強化II,悔恨一擊",
+            "ref_id": "608c19d36c444e17adb553f3"
         },
         "hammer_diablos_hammer_ii": {
             "name": "角龍大錘Ⅱ",
@@ -84546,7 +84629,8 @@
             "huixin": -25,
             "defense": 10,
             "hole": "0-0-0",
-            "skills": "會心率強化II,防禦力強化II,悔恨一擊"
+            "skills": "會心率強化II,防禦力強化II,悔恨一擊",
+            "ref_id": "608c19d36c444e17adb553f4"
         },
         "hammer_icesteel_hammer_i": {
             "name": "鋼冰棍Ⅰ",
@@ -84560,7 +84644,8 @@
             "huixin": 10,
             "defense": 0,
             "hole": "1-0-0",
-            "skills": "攻擊力強化II,會心率強化II,鋼龍之魂"
+            "skills": "攻擊力強化II,會心率強化II,鋼龍之魂",
+            "ref_id": "608c19d36c444e17adb553f6"
         },
         "hammer_teostra_cratermaker_i": {
             "name": "炎王火口Ⅰ",
@@ -84574,7 +84659,8 @@
             "huixin": 5,
             "defense": 0,
             "hole": "2-0-0",
-            "skills": "攻擊力強化II,火異常特效,炎王龍之魂"
+            "skills": "攻擊力強化II,火異常特效,炎王龍之魂",
+            "ref_id": "608c19d36c444e17adb553f7"
         },
         "hammer_genies_expanse_i": {
             "name": "魔神錘擴散Ⅰ",
@@ -84588,7 +84674,8 @@
             "huixin": 0,
             "defense": 0,
             "hole": "1-0-0",
-            "skills": "攻擊力強化II,防禦力強化III,霞龍之魂"
+            "skills": "攻擊力強化II,防禦力強化III,霞龍之魂",
+            "ref_id": "608c19d36c444e17adb553f8"
         },
         "hammer_rampage_hammer_v": {
             "name": "百龍錘Ⅴ",
@@ -84601,7 +84688,8 @@
             "huixin": 0,
             "defense": 0,
             "hole": "0-0-0",
-            "skills": ""
+            "skills": "",
+            "ref_id": "608c19d36c444e17adb553f9"
         },
         "gunlance_doombringer_gunlance": {
             "name": "末日毀滅槍",
@@ -84616,7 +84704,8 @@
             "defense": 0,
             "hole": "1-1-0",
             "shelling": "擴散型5",
-            "skills": "攻擊力強化III,屬性強化【水】III,弱點特效【屬性】"
+            "skills": "攻擊力強化III,屬性強化【水】III,弱點特效【屬性】",
+            "ref_id": "608c19d36c444e17adb55413"
         },
         "gunlance_araknalance": {
             "name": "人面蛛之炬",
@@ -84631,7 +84720,8 @@
             "defense": 0,
             "hole": "2-1-0",
             "shelling": "通常型5",
-            "skills": "攻擊力強化IV,屬性強化【火】II,鐵蟲絲招式強化"
+            "skills": "攻擊力強化IV,屬性強化【火】II,鐵蟲絲招式強化",
+            "ref_id": "608c19d36c444e17adb55416"
         },
         "gunlance_datura_gunlance": {
             "name": "毒妖銃槍希爾博哥拉",
@@ -84646,7 +84736,8 @@
             "defense": 0,
             "hole": "1-1-0",
             "shelling": "擴散型4",
-            "skills": "攻擊力強化IV,防禦力強化III,屬性強化【毒】III"
+            "skills": "攻擊力強化IV,防禦力強化III,屬性強化【毒】III",
+            "ref_id": "608c19d36c444e17adb55412"
         },
         "gunlance_ambermarch": {
             "name": "琥珀行軍",
@@ -84661,7 +84752,8 @@
             "defense": 0,
             "hole": "2-0-0",
             "shelling": "擴散型4",
-            "skills": "攻擊力強化IV,會心率強化III,冰異常特效"
+            "skills": "攻擊力強化IV,會心率強化III,冰異常特效",
+            "ref_id": "608c19d36c444e17adb55411"
         },
         "gunlance_fading_night": {
             "name": "夜銃槍【殘月】",
@@ -84675,7 +84767,8 @@
             "defense": 0,
             "hole": "0-1-0",
             "shelling": "放射型4",
-            "skills": "攻擊力強化III,會心率強化II,操龍達人"
+            "skills": "攻擊力強化III,會心率強化II,操龍達人",
+            "ref_id": "608c19d36c444e17adb55414"
         },
         "gunlance_mizumori": {
             "name": "如蠅荒槍之水守",
@@ -84690,7 +84783,8 @@
             "defense": 0,
             "hole": "1-0-0",
             "shelling": "放射型4",
-            "skills": "攻擊力強化III,會心率強化II,屬性強化【水】II"
+            "skills": "攻擊力強化III,會心率強化II,屬性強化【水】II",
+            "ref_id": "608c19d36c444e17adb5540f"
         },
         "gunlance_crimson_rook": {
             "name": "深紅城塔",
@@ -84705,7 +84799,8 @@
             "defense": 0,
             "hole": "0-0-0",
             "shelling": "放射型4",
-            "skills": "攻擊力強化III,屬性強化【火】I,弱點特效【屬性】"
+            "skills": "攻擊力強化III,屬性強化【火】I,弱點特效【屬性】",
+            "ref_id": "608c19d36c444e17adb55410"
         },
         "gunlance_tigrex_gunlance": {
             "name": "轟銃槍【虎砲】",
@@ -84719,7 +84814,8 @@
             "defense": 0,
             "hole": "1-0-0",
             "shelling": "擴散型4",
-            "skills": "攻擊力強化III,會心率強化II,悔恨一擊"
+            "skills": "攻擊力強化III,會心率強化II,悔恨一擊",
+            "ref_id": "608c19d36c444e17adb55415"
         },
         "gunlance_icesteel_gunlance_i": {
             "name": "鋼冰銃槍Ⅰ",
@@ -84734,7 +84830,8 @@
             "defense": 0,
             "hole": "1-0-0",
             "shelling": "放射型5",
-            "skills": "攻擊力強化II,會心率強化II,鋼龍之魂"
+            "skills": "攻擊力強化II,會心率強化II,鋼龍之魂",
+            "ref_id": "608c19d36c444e17adb5541a"
         },
         "gunlance_venomous_cologne_i": {
             "name": "毒物香氣Ⅰ",
@@ -84749,17 +84846,20 @@
             "defense": 0,
             "hole": "0-0-1",
             "shelling": "放射型3",
-            "skills": "攻擊力強化II,防禦力強化III,霞龍之魂"
+            "skills": "攻擊力強化II,防禦力強化III,霞龍之魂",
+            "ref_id": "608c19d36c444e17adb5541b"
         },
         "gunlance_bazel_buster_i": {
             "name": "爆鱗熱砲槍Ⅰ",
             "description": "使用爆鱗龍素材製成的\n危險銃槍。發出的一擊\n會隨著衝擊釋放出爆炎。",
-            "category": "gunlance"
+            "category": "gunlance",
+            "ref_id": "608c19d36c444e17adb55417"
         },
         "gunlance_bazel_buster_ii": {
             "name": "爆鱗熱砲槍Ⅱ",
             "description": "使用爆鱗龍素材製成的\n危險銃槍。發出的一擊\n會隨著衝擊釋放出爆炎。",
-            "category": "gunlance"
+            "category": "gunlance",
+            "ref_id": "608c19d36c444e17adb55418"
         },
         "gunlance_bazel_destroyer": {
             "name": "爆鱗砲槍赤紅神槍",
@@ -84774,7 +84874,8 @@
             "defense": 0,
             "hole": "0-0-0",
             "shelling": "擴散型4",
-            "skills": "防禦力強化III,屬性強化【爆破】III,龍杭砲強化"
+            "skills": "防禦力強化III,屬性強化【爆破】III,龍杭砲強化",
+            "ref_id": "608c19d36c444e17adb55419"
         },
         "gunlance_rampage_gunlance_v": {
             "name": "百龍銃槍Ⅴ",
@@ -84788,7 +84889,8 @@
             "defense": 0,
             "hole": "0-0-0",
             "shelling": "",
-            "skills": ""
+            "skills": "",
+            "ref_id": "608c19d36c444e17adb5541c"
         },
         "greatsword_rathalos_firesword": {
             "name": "火龍大劍",
@@ -84802,7 +84904,8 @@
             "huixin": 0,
             "defense": 0,
             "hole": "1-0-0",
-            "skills": "攻擊力強化III,屬性強化【火】I,弱點特效【屬性】"
+            "skills": "攻擊力強化III,屬性強化【火】I,弱點特效【屬性】",
+            "ref_id": "608c19d36c444e17adb553d2"
         },
         "greatsword_icesteel_edge_i": {
             "name": "鋼冰大劍Ⅰ",
@@ -84816,7 +84919,8 @@
             "huixin": 10,
             "defense": 0,
             "hole": "1-0-0",
-            "skills": "攻擊力強化II,會心率強化II,鋼龍之魂"
+            "skills": "攻擊力強化II,會心率強化II,鋼龍之魂",
+            "ref_id": "608c19d36c444e17adb553d3"
         },
         "greatsword_teostra_blade_i": {
             "name": "炎王之刃Ⅰ",
@@ -84830,7 +84934,8 @@
             "huixin": 0,
             "defense": 0,
             "hole": "0-0-0",
-            "skills": "攻擊力強化II,火異常特效,炎王龍之魂"
+            "skills": "攻擊力強化II,火異常特效,炎王龍之魂",
+            "ref_id": "608c19d36c444e17adb553d4"
         },
         "greatsword_grand_shamshir_i": {
             "name": "獅尾毒彎刀Ⅰ",
@@ -84844,7 +84949,8 @@
             "huixin": 0,
             "defense": 0,
             "hole": "2-1-0",
-            "skills": "攻擊力強化II,防禦力強化III,霞龍之魂"
+            "skills": "攻擊力強化II,防禦力強化III,霞龍之魂",
+            "ref_id": "608c19d36c444e17adb553d5"
         },
         "greatsword_rampage_cleaver_v": {
             "name": "百龍大劍Ⅴ",
@@ -84857,7 +84963,8 @@
             "huixin": 0,
             "defense": 0,
             "hole": "0-0-0",
-            "skills": ""
+            "skills": "",
+            "ref_id": "608c19d36c444e17adb553d6"
         },
         "dualblades_wyvern_lovers": {
             "name": "雌雄雙劍",
@@ -84871,7 +84978,8 @@
             "huixin": 0,
             "defense": 0,
             "hole": "0-0-0",
-            "skills": "攻擊力強化III,屬性強化【火】I,弱點特效【屬性】"
+            "skills": "攻擊力強化III,屬性強化【火】I,弱點特效【屬性】",
+            "ref_id": "608c19d36c444e17adb553e1"
         },
         "dualblades_tigrex_claws": {
             "name": "轟爪【虎血】",
@@ -84884,7 +84992,8 @@
             "huixin": -20,
             "defense": 0,
             "hole": "1-0-0",
-            "skills": "攻擊力強化III,會心率強化II,悔恨一擊"
+            "skills": "攻擊力強化III,會心率強化II,悔恨一擊",
+            "ref_id": "608c19d36c444e17adb553e0"
         },
         "dualblades_icesteel_fang_i": {
             "name": "鋼冰狼牙Ⅰ",
@@ -84898,7 +85007,8 @@
             "huixin": 0,
             "defense": 0,
             "hole": "0-1-0",
-            "skills": "攻擊力強化II,會心率強化II,鋼龍之魂"
+            "skills": "攻擊力強化II,會心率強化II,鋼龍之魂",
+            "ref_id": "608c19d36c444e17adb553e5"
         },
         "dualblades_twin_nails_i": {
             "name": "雙爪刀Ⅰ",
@@ -84913,7 +85023,8 @@
             "huixin": 10,
             "defense": 0,
             "hole": "0-1-0",
-            "skills": "攻擊力強化II,屬性強化【爆破】II,炎王龍之魂"
+            "skills": "攻擊力強化II,屬性強化【爆破】II,炎王龍之魂",
+            "ref_id": "608c19d36c444e17adb553e6"
         },
         "dualblades_rouge_flames_i": {
             "name": "焰形雙劍Ⅰ",
@@ -84927,17 +85038,20 @@
             "huixin": 0,
             "defense": 0,
             "hole": "2-1-0",
-            "skills": "攻擊力強化II,防禦力強化III,霞龍之魂"
+            "skills": "攻擊力強化II,防禦力強化III,霞龍之魂",
+            "ref_id": "608c19d36c444e17adb553e7"
         },
         "dualblades_rookslayer_handaxes_i": {
             "name": "爆鱗手斧Ⅰ",
             "description": "有著斧頭形狀的爆鱗龍雙劍。\n拿在手中便會湧起破壞衝動，\n持此雙劍，隨著爆炎起舞吧。",
-            "category": "dual_blades"
+            "category": "dual_blades",
+            "ref_id": "608c19d36c444e17adb553e2"
         },
         "dualblades_rookslayer_handaxes_ii": {
             "name": "爆鱗手斧Ⅱ",
             "description": "有著斧頭形狀的爆鱗龍雙劍。\n拿在手中便會湧起破壞衝動，\n持此雙劍，隨著爆炎起舞吧。",
-            "category": "dual_blades"
+            "category": "dual_blades",
+            "ref_id": "608c19d36c444e17adb553e3"
         },
         "dualblades_bazelhawk_rookslayer": {
             "name": "爆鱗雙斧赤紅巨星",
@@ -84951,7 +85065,8 @@
             "huixin": -10,
             "defense": 0,
             "hole": "1-0-0",
-            "skills": "防禦力強化II,屬性強畫【爆破】III,悔恨一擊"
+            "skills": "防禦力強化II,屬性強畫【爆破】III,悔恨一擊",
+            "ref_id": "608c19d36c444e17adb553e4"
         },
         "dualblades_rampage_twinblades_v": {
             "name": "百龍雙刃Ⅴ",
@@ -84964,7 +85079,8 @@
             "huixin": 0,
             "defense": 0,
             "hole": "0-0-0",
-            "skills": ""
+            "skills": "",
+            "ref_id": "608c19d36c444e17adb553e8"
         },
         "chargeaxe_araknablade": {
             "name": "人面蛛之門",
@@ -84979,7 +85095,8 @@
             "defense": 0,
             "hole": "2-1-0",
             "phial": "強屬性瓶",
-            "skills": "攻擊力強化IV,屬性強化【火】II,鐵蟲絲招式強化"
+            "skills": "攻擊力強化IV,屬性強化【火】II,鐵蟲絲招式強化",
+            "ref_id": "608c19d36c444e17adb5542a"
         },
         "chargeaxe_final_fieldblade": {
             "name": "潔白衣斧之御帝",
@@ -84994,7 +85111,8 @@
             "defense": 0,
             "hole": "1-0-0",
             "phial": "榴彈瓶",
-            "skills": "攻擊力強化III,會心率強化II,屬性強化【水】II"
+            "skills": "攻擊力強化III,會心率強化II,屬性強化【水】II",
+            "ref_id": "608c19d36c444e17adb5542c"
         },
         "chargeaxe_bardichion_blade": {
             "name": "紅蓮斧魚王",
@@ -85009,7 +85127,8 @@
             "defense": 0,
             "hole": "0-1-0",
             "phial": "榴彈瓶",
-            "skills": "攻擊力強化III,屬性強化【火】I,弱點特效【屬性】"
+            "skills": "攻擊力強化III,屬性強化【火】I,弱點特效【屬性】",
+            "ref_id": "608c19d36c444e17adb5542d"
         },
         "chargeaxe_tigrex_blade": {
             "name": "轟充能斧【騎虎】",
@@ -85023,7 +85142,8 @@
             "defense": 0,
             "hole": "1-0-0",
             "phial": "榴彈瓶",
-            "skills": "攻擊力強化III,會心率強化II,悔恨一擊"
+            "skills": "攻擊力強化III,會心率強化II,悔恨一擊",
+            "ref_id": "608c19d36c444e17adb5542b"
         },
         "chargeaxe_daoras_casca_i": {
             "name": "鋼龍冰盾Ⅰ",
@@ -85038,7 +85158,8 @@
             "defense": 0,
             "hole": "1-0-0",
             "phial": "榴彈瓶",
-            "skills": "攻擊力強化II,會心率強化II,鋼龍之魂"
+            "skills": "攻擊力強化II,會心率強化II,鋼龍之魂",
+            "ref_id": "608c19d36c444e17adb5542e"
         },
         "chargeaxe_teostras_striker_i": {
             "name": "炎王前鋒Ⅰ",
@@ -85053,7 +85174,8 @@
             "defense": 0,
             "hole": "0-0-0",
             "phial": "榴彈瓶",
-            "skills": "攻擊力強化II,火異常特效,炎王龍之魂"
+            "skills": "攻擊力強化II,火異常特效,炎王龍之魂",
+            "ref_id": "608c19d36c444e17adb5542f"
         },
         "chargeaxe_arcane_draw_i": {
             "name": "密儀之指引Ⅰ",
@@ -85068,7 +85190,8 @@
             "defense": 0,
             "hole": "0-0-1",
             "phial": "榴彈瓶",
-            "skills": "攻擊力強化II,防禦力強化III,霞龍之魂"
+            "skills": "攻擊力強化II,防禦力強化III,霞龍之魂",
+            "ref_id": "608c19d36c444e17adb55430"
         },
         "chargeaxe_rampage_c_blade_v": {
             "name": "百龍充能斧Ⅴ",
@@ -85082,7 +85205,8 @@
             "defense": 0,
             "hole": "0-0-0",
             "phial": "",
-            "skills": ""
+            "skills": "",
+            "ref_id": "608c19d36c444e17adb55431"
         },
         "bow_araknatorch": {
             "name": "人面蛛之愛",
@@ -85098,17 +85222,20 @@
             "qushe": "回復型",
             "xuli": "擴散Lv3,貫通Lv4,貫通Lv5,貫通Lv5",
             "xuli_add": "",
-            "skills": "攻擊力強化IV,屬性強化【火】II,鐵蟲絲招式強化"
+            "skills": "攻擊力強化IV,屬性強化【火】II,鐵蟲絲招式強化",
+            "ref_id": "608c19d36c444e17adb55439"
         },
         "bow_edelweiss": {
             "name": "冰牙凜弓",
             "description": "用尖刺當作安定器的寒冰發射者\n強化型態。在狩獵場上\n開出「高貴且純白」的花。",
-            "category": "bow"
+            "category": "bow",
+            "ref_id": "608c19d36c444e17adb5543a"
         },
         "bow_dark_filament": {
             "name": "日珥強弓",
             "description": "寄宿了不祥火炎的強弓，\n日冕強弓的強化版本。箭矢\n會化為業火將目標焚燒殆盡。",
-            "category": "bow"
+            "category": "bow",
+            "ref_id": "608c19d36c444e17adb5543b"
         },
         "bow_tigrex_whisker": {
             "name": "轟弓【虎髯】",
@@ -85123,7 +85250,8 @@
             "qushe": "會心型",
             "xuli": "連射Lv2,連射Lv3,連射Lv5,擴散Lv3",
             "xuli_add": "",
-            "skills": "攻擊力強化III,會心率強化II,悔恨一擊"
+            "skills": "攻擊力強化III,會心率強化II,悔恨一擊",
+            "ref_id": "608c19d36c444e17adb5543c"
         },
         "bow_icesteel_bow_i": {
             "name": "鋼冰馬弓Ⅰ",
@@ -85139,7 +85267,8 @@
             "qushe": "耐衝型",
             "xuli": "連射Lv2,貫通Lv3,貫通Lv4",
             "xuli_add": "貫通Lv5",
-            "skills": "攻擊力強化II,會心率強化II,鋼龍之魂"
+            "skills": "攻擊力強化II,會心率強化II,鋼龍之魂",
+            "ref_id": "608c19d36c444e17adb5543d"
         },
         "bow_bow_of_hope_&_valor_i": {
             "name": "勇氣與希望的淒弓Ⅰ",
@@ -85155,7 +85284,8 @@
             "qushe": "會心型",
             "xuli": "貫通Lv2,貫通Lv3,連射Lv3",
             "xuli_add": "連射Lv4",
-            "skills": "攻擊力強化II,火異常特效,炎王龍之魂"
+            "skills": "攻擊力強化II,火異常特效,炎王龍之魂",
+            "ref_id": "608c19d36c444e17adb5543e"
         },
         "bow_genies_grimoire_i": {
             "name": "魔弓魔導書Ⅰ",
@@ -85170,7 +85300,8 @@
             "qushe": "回復型",
             "xuli": "擴散Lv2,連射Lv2,擴散Lv4",
             "xuli_add": "擴散Lv4",
-            "skills": "攻擊力強化II,防禦力強化III,霞龍之魂"
+            "skills": "攻擊力強化II,防禦力強化III,霞龍之魂",
+            "ref_id": "608c19d36c444e17adb5543f"
         },
         "bow_rampage_bow_v": {
             "name": "百龍弓Ⅴ",
@@ -85185,7 +85316,8 @@
             "qushe": "會心型",
             "xuli": "連射Lv2,連射Lv2,連射Lv3",
             "xuli_add": "連射Lv3",
-            "skills": ""
+            "skills": "",
+            "ref_id": "608c19d36c444e17adb55440"
         }
     }
 }
