@@ -172,7 +172,7 @@
               <tr class="card-text text-bold">
                 <th>{{$t('map.map')}}</th>
                 <th>{{$t('rank')}}</th>
-                <th>{{$t('item.sources')}}</th>
+                <th>{{$t('item.method')}}</th>
                 <th>{{$t('target')}}</th>
               </tr>
               <template v-for="(list, mapID) in sourcedata.map_gathering">
