@@ -968,7 +968,115 @@
           }
         ]
       },
-      "ref_id": "60377cd6097b292d4ce8db53"
+      "ref_id": "60377cd6097b292d4ce8db53",
+      "items": {
+        "high_rank": {
+          "apex_beastclaw": {
+            "target_rewards": {
+              "num": 1,
+              "rate": 7
+            },
+            "carves": {
+              "num": 1,
+              "rate": 8
+            },
+            "broken_part_rewards": {
+              "num": 1,
+              "rate": 80
+            }
+          },
+          "arzuros_carapace": {
+            "target_rewards": {
+              "num": 1,
+              "rate": 36
+            },
+            "carves": {
+              "num": 1,
+              "rate": 28
+            },
+            "dropped_materials": {
+              "num": 1,
+              "rate": 60
+            },
+            "items_obtained_by_palico": {
+              "num": 1,
+              "rate": 21
+            }
+          },
+          "arzuros_pelt_plus": {
+            "target_rewards": {
+              "num": 1,
+              "rate": 27
+            },
+            "carves": {
+              "num": 1,
+              "rate": 47
+            },
+            "broken_part_rewards": {
+              "num": 1,
+              "rate": 20
+            },
+            "dropped_materials": {
+              "num": 1,
+              "rate": 40
+            },
+            "items_obtained_by_palico": {
+              "num": 1,
+              "rate": 25
+            }
+          },
+          "stoutbone": {
+            "target_rewards": {
+              "num": 1,
+              "rate": 14
+            },
+            "carves": {
+              "num": 1,
+              "rate": 13
+            },
+            "items_obtained_by_palico": {
+              "num": 1,
+              "rate": 34
+            }
+          },
+          "honey": {
+            "target_rewards": {
+              "num": 6,
+              "rate": 10
+            },
+            "dropped_materials": {
+              "num": 3,
+              "rate": 100
+            },
+            "items_obtained_by_palico": {
+              "num": 4,
+              "rate": 20
+            }
+          },
+          "beast_gem": {
+            "target_rewards": {
+              "num": 1,
+              "rate": 6
+            },
+            "carves": {
+              "num": 1,
+              "rate": 4
+            }
+          },
+          "sushifish": {
+            "dropped_materials": {
+              "num": 1,
+              "rate": 80
+            }
+          },
+          "goldenfish": {
+            "dropped_materials": {
+              "num": 1,
+              "rate": 20
+            }
+          }
+        }
+      }
     },
     "rathian": {
       "name": {
@@ -1605,7 +1713,161 @@
       "icon_large": "images/monsters/icons/large/apex_rathian.png",
       "description": "冠有「首領」之名的雌火龍。全身上下都有著像是被捲入暴風後所留下的傷痕，這也許是牠一直受到憤怒與恐懼支配的原因。尾巴比起一般的個體更加發達，棘上還有著猛烈的劇毒。另外，首領會藉由咆嘯，將自己的憤怒與恐懼散播至周遭，使其他魔物變得活躍起來。\n首領發怒後，會施展最強勁的必殺技。首領雌火龍的必殺技為將具有猛毒的棘射向四周，並以飛散的棘為中心創造出毒素領域。當首領處於憤怒狀態時，記得要持續攻擊，盡早使其膽怯，平息首領的怒火吧。",
       "threat_level": "apex",
-      "ref_id": "605a1c18bc331f26a500c996"
+      "ref_id": "605a1c18bc331f26a500c996",
+      "items": {
+        "high_rank": {
+          "apex_venom_spike": {
+            "target_rewards": {
+              "num": 1,
+              "rate": 5
+            },
+            "carves": {
+              "num": 1,
+              "rate": 40
+            },
+            "broken_part_rewards": {
+              "num": 1,
+              "rate": 35
+            }
+          },
+          "rathian_scale_plus": {
+            "target_rewards": {
+              "num": 1,
+              "rate": 31
+            },
+            "carves": {
+              "num": 1,
+              "rate": 42
+            },
+            "broken_part_rewards": {
+              "num": 1,
+              "rate": 58
+            },
+            "dropped_materials": {
+              "num": 1,
+              "rate": 60
+            },
+            "items_obtained_by_palico": {
+              "num": 1,
+              "rate": 39
+            }
+          },
+          "rathian_carapace": {
+            "target_rewards": {
+              "num": 1,
+              "rate": 23
+            },
+            "carves": {
+              "num": 1,
+              "rate": 32
+            },
+            "broken_part_rewards": {
+              "num": 1,
+              "rate": 60
+            },
+            "dropped_materials": {
+              "num": 1,
+              "rate": 40
+            },
+            "items_obtained_by_palico": {
+              "num": 1,
+              "rate": 26
+            }
+          },
+          "rathian_webbing": {
+            "target_rewards": {
+              "num": 2,
+              "rate": 8
+            },
+            "broken_part_rewards": {
+              "num": 2,
+              "rate": 20
+            },
+            "items_obtained_by_palico": {
+              "num": 2,
+              "rate": 10
+            }
+          },
+          "inferno_sac": {
+            "target_rewards": {
+              "num": 1,
+              "rate": 14
+            },
+            "carves": {
+              "num": 1,
+              "rate": 17
+            },
+            "items_obtained_by_palico": {
+              "num": 1,
+              "rate": 21
+            }
+          },
+          "monster_keenbone": {
+            "target_rewards": {
+              "num": 1,
+              "rate": 12
+            }
+          },
+          "rathian_plate": {
+            "target_rewards": {
+              "num": 1,
+              "rate": 5
+            },
+            "carves": {
+              "num": 1,
+              "rate": 5
+            },
+            "broken_part_rewards": {
+              "num": 1,
+              "rate": 3
+            },
+            "items_obtained_by_palico": {
+              "num": 1,
+              "rate": 3
+            }
+          },
+          "rathian_ruby": {
+            "target_rewards": {
+              "num": 1,
+              "rate": 2
+            },
+            "carves": {
+              "num": 1,
+              "rate": 5
+            },
+            "broken_part_rewards": {
+              "num": 1,
+              "rate": 2
+            },
+            "dropped_materials": {
+              "num": 1,
+              "rate": 2
+            }
+          },
+          "rathalos_medulla": {
+            "carves": {
+              "num": 1,
+              "rate": 8
+            },
+            "items_obtained_by_palico": {
+              "num": 1,
+              "rate": 1
+            }
+          },
+          "rath_wingtalon_plus": {
+            "broken_part_rewards": {
+              "num": 1,
+              "rate": 80
+            }
+          },
+          "large_wyvern_tear": {
+            "dropped_materials": {
+              "num": 1,
+              "rate": 40
+            }
+          }
+        }
+      }
     },
     "mizutsune": {
       "name": {
@@ -2372,7 +2634,141 @@
       "icon_large": "images/monsters/icons/large/apex_mizutsune.png",
       "description": "冠有「首領」之名的泡狐龍。全身上下都有著像是被捲入暴風後所留下的傷痕，這也許是牠一直受到憤怒與恐懼支配的原因。尾巴比起一般的個體更加發達，其頑強的攻擊會將目標的希望與鬥志化為泡影。另外，首領會藉由咆嘯，將自己的憤怒與恐懼散播至周遭，使其他魔物變得活躍起來。\n首領發怒後，會施展最強勁的必殺技。首領泡狐龍的必殺技為撒出會爆炸的泡泡，破壞四周的一切。此時不妨使用苦無、彈藥或弩砲等方式來處理泡泡。當首領處於憤怒狀態時，記得要持續攻擊，盡早使其膽怯，平息首領的怒火吧。",
       "threat_level": "apex",
-      "ref_id": "60575d7b3f1e3646fb685abd"
+      "ref_id": "60575d7b3f1e3646fb685abd",
+      "items": {
+        "high_rank": {
+          "apex_bubblefoam": {
+            "target_rewards": {
+              "num": 1,
+              "rate": 6
+            },
+            "carves": {
+              "num": 1,
+              "rate": 12
+            },
+            "broken_part_rewards": {
+              "num": 1,
+              "rate": 28
+            }
+          },
+          "mizutsune_scale_plus": {
+            "target_rewards": {
+              "num": 1,
+              "rate": 38
+            },
+            "carves": {
+              "num": 1,
+              "rate": 41
+            },
+            "dropped_materials": {
+              "num": 1,
+              "rate": 60
+            },
+            "items_obtained_by_palico": {
+              "num": 1,
+              "rate": 52
+            }
+          },
+          "mizutsune_purplefur_plus": {
+            "target_rewards": {
+              "num": 1,
+              "rate": 29
+            },
+            "carves": {
+              "num": 1,
+              "rate": 13
+            },
+            "broken_part_rewards": {
+              "num": 1,
+              "rate": 30
+            },
+            "dropped_materials": {
+              "num": 1,
+              "rate": 40
+            },
+            "items_obtained_by_palico": {
+              "num": 1,
+              "rate": 32
+            }
+          },
+          "mizutsune_claw_plus": {
+            "target_rewards": {
+              "num": 1,
+              "rate": 15
+            },
+            "carves": {
+              "num": 1,
+              "rate": 15
+            },
+            "broken_part_rewards": {
+              "num": 1,
+              "rate": 80
+            },
+            "items_obtained_by_palico": {
+              "num": 1,
+              "rate": 14
+            }
+          },
+          "mizutsune_tail": {
+            "target_rewards": {
+              "num": 1,
+              "rate": 5
+            },
+            "carves": {
+              "num": 1,
+              "rate": 75
+            }
+          },
+          "mizutsune_plate": {
+            "target_rewards": {
+              "num": 1,
+              "rate": 5
+            },
+            "carves": {
+              "num": 1,
+              "rate": 7
+            },
+            "broken_part_rewards": {
+              "num": 1,
+              "rate": 5
+            },
+            "items_obtained_by_palico": {
+              "num": 1,
+              "rate": 2
+            }
+          },
+          "mizutsune_water_orb": {
+            "target_rewards": {
+              "num": 1,
+              "rate": 2
+            },
+            "carves": {
+              "num": 1,
+              "rate": 5
+            },
+            "broken_part_rewards": {
+              "num": 1,
+              "rate": 2
+            },
+            "dropped_materials": {
+              "num": 1,
+              "rate": 2
+            }
+          },
+          "mizutsune_fin_plus": {
+            "broken_part_rewards": {
+              "num": 2,
+              "rate": 10
+            }
+          },
+          "large_wyvern_tear": {
+            "dropped_materials": {
+              "num": 1,
+              "rate": 40
+            }
+          }
+        }
+      }
     },
     "magnamalo": {
       "name": {
@@ -19127,7 +19523,163 @@
       "icon_large": "images/monsters/icons/large/apex_rathalos.png",
       "description": "冠以「首領」之名的火龍。\n全身上下都有著像是被捲入暴風後所留下的傷痕，\n這也許是牠一直受到憤怒與恐懼支配的原因。\n喉部比起一般的個體更加發達，從牠咽喉中吐出的烈焰吐息，會將四周化為一片焦土。",
       "threat_level": "apex",
-      "ref_id": "608b68b7acd80103b52c118d"
+      "ref_id": "608b68b7acd80103b52c118d",
+      "items": {
+        "high_rank": {
+          "apex_blaze_sac": {
+            "target_rewards": {
+              "num": 1,
+              "rate": 8
+            },
+            "carves": {
+              "num": 1,
+              "rate": 12
+            },
+            "broken_part_rewards": {
+              "num": 1,
+              "rate": 35
+            }
+          },
+          "rathalos_scale_plus": {
+            "target_rewards": {
+              "num": 1,
+              "rate": 35
+            },
+            "carves": {
+              "num": 1,
+              "rate": 18
+            },
+            "broken_part_rewards": {
+              "num": 1,
+              "rate": 32
+            },
+            "dropped_materials": {
+              "num": 1,
+              "rate": 50
+            },
+            "items_obtained_by_palico": {
+              "num": 1,
+              "rate": 40
+            }
+          },
+          "rathalos_carapace": {
+            "target_rewards": {
+              "num": 1,
+              "rate": 27
+            },
+            "carves": {
+              "num": 1,
+              "rate": 24
+            },
+            "broken_part_rewards": {
+              "num": 1,
+              "rate": 65
+            },
+            "dropped_materials": {
+              "num": 1,
+              "rate": 30
+            },
+            "items_obtained_by_palico": {
+              "num": 1,
+              "rate": 32
+            }
+          },
+          "rathalos_wing": {
+            "target_rewards": {
+              "num": 1,
+              "rate": 15
+            },
+            "carves": {
+              "num": 1,
+              "rate": 19
+            },
+            "broken_part_rewards": {
+              "num": 1,
+              "rate": 30
+            },
+            "items_obtained_by_palico": {
+              "num": 1,
+              "rate": 24
+            }
+          },
+          "rathalos_medulla": {
+            "target_rewards": {
+              "num": 1,
+              "rate": 8
+            },
+            "carves": {
+              "num": 1,
+              "rate": 7
+            },
+            "broken_part_rewards": {
+              "num": 1,
+              "rate": 30
+            },
+            "items_obtained_by_palico": {
+              "num": 1,
+              "rate": 1
+            }
+          },
+          "rathalos_plate": {
+            "target_rewards": {
+              "num": 1,
+              "rate": 5
+            },
+            "carves": {
+              "num": 1,
+              "rate": 5
+            },
+            "broken_part_rewards": {
+              "num": 1,
+              "rate": 4
+            },
+            "items_obtained_by_palico": {
+              "num": 1,
+              "rate": 3
+            }
+          },
+          "rathalos_ruby": {
+            "target_rewards": {
+              "num": 1,
+              "rate": 2
+            },
+            "carves": {
+              "num": 1,
+              "rate": 5
+            },
+            "broken_part_rewards": {
+              "num": 1,
+              "rate": 1
+            },
+            "dropped_materials": {
+              "num": 1,
+              "rate": 2
+            }
+          },
+          "rathalos_tail": {
+            "carves": {
+              "num": 1,
+              "rate": 65
+            }
+          },
+          "rath_wingtalon_plus": {
+            "broken_part_rewards": {
+              "num": 1,
+              "rate": 70
+            },
+            "dropped_materials": {
+              "num": 1,
+              "rate": 20
+            }
+          },
+          "large_wyvern_tear": {
+            "dropped_materials": {
+              "num": 1,
+              "rate": 40
+            }
+          }
+        }
+      }
     },
     "apex_diablos": {
       "name": {
@@ -19141,7 +19693,139 @@
       "icon_large": "images/monsters/icons/large/apex_diablos.png",
       "description": "冠以「首領」之名的角龍。\n全身上下都有著像是被捲入暴風後所留下的傷痕，\n這也許是牠一直受到憤怒與恐懼支配的原因。\n角比起一般的個體更加發達，其突進的破壞力會將對手撞入絕望的深淵。",
       "threat_level": "apex",
-      "ref_id": "608b68b7acd80103b52c118c"
+      "ref_id": "608b68b7acd80103b52c118c",
+      "items": {
+        "high_rank": {
+          "apex_curlhorn": {
+            "target_rewards": {
+              "num": 1,
+              "rate": 5
+            },
+            "carves": {
+              "num": 1,
+              "rate": 7
+            },
+            "broken_part_rewards": {
+              "num": 1,
+              "rate": 100
+            }
+          },
+          "diablos_carapace": {
+            "target_rewards": {
+              "num": 1,
+              "rate": 32
+            },
+            "carves": {
+              "num": 1,
+              "rate": 12
+            },
+            "dropped_materials": {
+              "num": 1,
+              "rate": 70
+            },
+            "items_obtained_by_palico": {
+              "num": 1,
+              "rate": 45
+            }
+          },
+          "diablos_ridge_plus": {
+            "target_rewards": {
+              "num": 1,
+              "rate": 25
+            },
+            "carves": {
+              "num": 1,
+              "rate": 32
+            },
+            "broken_part_rewards": {
+              "num": 1,
+              "rate": 50
+            },
+            "dropped_materials": {
+              "num": 1,
+              "rate": 30
+            },
+            "items_obtained_by_palico": {
+              "num": 1,
+              "rate": 37
+            }
+          },
+          "diablos_fang": {
+            "target_rewards": {
+              "num": 2,
+              "rate": 13
+            },
+            "carves": {
+              "num": 2,
+              "rate": 14
+            },
+            "items_obtained_by_palico": {
+              "num": 2,
+              "rate": 15
+            }
+          },
+          "diablos_tailcase": {
+            "target_rewards": {
+              "num": 1,
+              "rate": 5
+            },
+            "carves": {
+              "num": 1,
+              "rate": 70
+            }
+          },
+          "dash_extract": {
+            "target_rewards": {
+              "num": 2,
+              "rate": 8
+            }
+          },
+          "diablos_medulla": {
+            "target_rewards": {
+              "num": 1,
+              "rate": 8
+            },
+            "carves": {
+              "num": 1,
+              "rate": 12
+            },
+            "broken_part_rewards": {
+              "num": 1,
+              "rate": 20
+            }
+          },
+          "wyvern_gem": {
+            "target_rewards": {
+              "num": 1,
+              "rate": 4
+            },
+            "carves": {
+              "num": 1,
+              "rate": 6
+            },
+            "dropped_materials": {
+              "num": 1,
+              "rate": 2
+            }
+          },
+          "diablos_marrow": {
+            "broken_part_rewards": {
+              "num": 1,
+              "rate": 30
+            },
+            "items_obtained_by_palico": {
+              "num": 1,
+              "rate": 3
+            }
+          },
+          "large_wyvern_tear": {
+            "dropped_materials": {
+              "num": 1,
+              "rate": 40
+            }
+          }
+        }
+      }
     },
     "kushala_daora": {
       "name": {
