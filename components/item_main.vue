@@ -46,7 +46,7 @@
             <tbody>
               <tr class="card-text text-bold">
                 <th>{{$t('item.monster_name')}}</th>
-                <th>{{$t('item.rank')}}</th>
+                <th>{{$t('rank')}}</th>
                 <th>{{$t('item.method')}}</th>
                 <th>{{$t('item.amount')}}</th>
                 <th>{{$t('rate')}}</th>
@@ -82,7 +82,7 @@
             <tbody>
               <tr class="card-text text-bold">
                 <th>{{$t('item.monster_name')}}</th>
-                <th>{{$t('item.rank')}}</th>
+                <th>{{$t('rank')}}</th>
                 <th>{{$t('item.method')}}</th>
                 <th>{{$t('item.amount')}}</th>
                 <th>{{$t('rate')}}</th>
@@ -121,7 +121,7 @@
             <tbody>
               <tr class="card-text text-bold">
                 <th>{{$t('meowcenary.scout_location')}}</th>
-                <th>{{$t('item.rank')}}</th>
+                <th>{{$t('rank')}}</th>
                 <th>{{$t('meowcenary.target')}}</th>
               </tr>
               <template v-for="(list, mID) in sourcedata.meowcenaries">
@@ -163,6 +163,36 @@
                   >{{ sourcedata.trade_market.isBonus === true? $t('trade_market.bonus_item') : sourcedata.trade_market.num}}</div>
                 </td>
               </tr>
+            </tbody>
+          </table>
+          
+          <table v-if="sourcedata.map_gathering !=undefined" class="interval-y-large">
+            <caption class="text-bold margin text-left">{{$t('item.map_gathering')}}</caption>
+            <tbody>
+              <tr class="card-text text-bold">
+                <th>{{$t('map.map')}}</th>
+                <th>{{$t('rank')}}</th>
+                <th>{{$t('item.sources')}}</th>
+                <th>{{$t('target')}}</th>
+              </tr>
+              <template v-for="(list, mapID) in sourcedata.map_gathering">
+                <template v-for="(link, i) in sourcedata.map_gathering[mapID]">
+              <tr class="card-text">
+                <td>
+                  <div class="card-text">{{ $t('map.name.'+ mapID)}}</div>
+                </td>
+                <td>
+                  <div class="card-text">{{ $t('rank')}}</div>
+                </td>
+                <td>
+                  <div class="card-text">{{link.method}}</div>
+                </td>
+                <td>
+                  <div class="card-text">{{link.target}}</div>
+                </td>
+              </tr>
+                </template>
+              </template>
             </tbody>
           </table>
         </details>

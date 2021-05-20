@@ -136,6 +136,22 @@
             "trade_market": {
                 "target": "mushyroom_market",
                 "num": "2"
+            },
+            "map_gathering": {
+                "shrine_ruins": [
+                    {
+                        "rank": "both_rank",
+                        "method": "採集",
+                        "target": "採集"
+                    }
+                ],
+                "frost_islands": [
+                    {
+                        "rank": "both_rank",
+                        "method": "採集",
+                        "target": "採集"
+                    }
+                ]
             }
         },
         "herb": {
@@ -246,6 +262,36 @@
             "trade_market": {
                 "target": "icebarb_bazaar",
                 "num": "3"
+            },
+            "map_gathering": {
+                "shrine_ruins": [
+                    {
+                        "rank": "both_rank",
+                        "method": "採集",
+                        "target": "採集"
+                    }
+                ],
+                "frost_islands": [
+                    {
+                        "rank": "both_rank",
+                        "method": "採集",
+                        "target": "採集"
+                    }
+                ],
+                "flooded_forest": [
+                    {
+                        "rank": "both_rank",
+                        "method": "採集",
+                        "target": "採集"
+                    }
+                ],
+                "sandy_plains": [
+                    {
+                        "rank": "both_rank",
+                        "method": "採集",
+                        "target": "採集"
+                    }
+                ]
             }
         },
         "honey": {
@@ -464,6 +510,43 @@
             "trade_market": {
                 "target": "mushyroom_market",
                 "num": "1"
+            },
+            "map_gathering": {
+                "shrine_ruins": [
+                    {
+                        "rank": "both_rank",
+                        "method": "採集",
+                        "target": "採集"
+                    }
+                ],
+                "frost_islands": [
+                    {
+                        "rank": "both_rank",
+                        "method": "採集",
+                        "target": "採集"
+                    }
+                ],
+                "flooded_forest": [
+                    {
+                        "rank": "both_rank",
+                        "method": "採集",
+                        "target": "採集"
+                    }
+                ],
+                "sandy_plains": [
+                    {
+                        "rank": "both_rank",
+                        "method": "採集",
+                        "target": "採集"
+                    }
+                ],
+                "lava_caverns": [
+                    {
+                        "rank": "both_rank",
+                        "method": "採集",
+                        "target": "採集"
+                    }
+                ]
             }
         },
         "parashroom": {
@@ -558,6 +641,29 @@
             "trade_market": {
                 "target": "mushyroom_market",
                 "num": "2"
+            },
+            "map_gathering": {
+                "shrine_ruins": [
+                    {
+                        "rank": "both_rank",
+                        "method": "採集",
+                        "target": "採集"
+                    }
+                ],
+                "flooded_forest": [
+                    {
+                        "rank": "both_rank",
+                        "method": "採集",
+                        "target": "採集"
+                    }
+                ],
+                "sandy_plains": [
+                    {
+                        "rank": "both_rank",
+                        "method": "採集",
+                        "target": "採集"
+                    }
+                ]
             }
         },
         "iron_ore": {
@@ -683,6 +789,41 @@
                         "rare": false
                     }
                 ]
+            },
+            "map_gathering": {
+                "shrine_ruins": [
+                    {
+                        "rank": "low_rank",
+                        "method": "挖礦",
+                        "target": "礦脈"
+                    },
+                    {
+                        "rank": "high_rank",
+                        "method": "挖礦",
+                        "target": "礦脈"
+                    }
+                ],
+                "frost_islands": [
+                    {
+                        "rank": "low_rank",
+                        "method": "挖礦",
+                        "target": "礦脈"
+                    }
+                ],
+                "sandy_plains": [
+                    {
+                        "rank": "low_rank",
+                        "method": "挖礦",
+                        "target": "礦脈"
+                    }
+                ],
+                "lava_caverns": [
+                    {
+                        "rank": "low_rank",
+                        "method": "挖礦",
+                        "target": "礦脈"
+                    }
+                ]
             }
         },
         "bitterbug": {
@@ -793,6 +934,29 @@
             "trade_market": {
                 "target": "mushyroom_market",
                 "num": "1"
+            },
+            "map_gathering": {
+                "shrine_ruins": [
+                    {
+                        "rank": "both_rank",
+                        "method": "採集",
+                        "target": "採集"
+                    }
+                ],
+                "flooded_forest": [
+                    {
+                        "rank": "both_rank",
+                        "method": "採集",
+                        "target": "採集"
+                    }
+                ],
+                "sandy_plains": [
+                    {
+                        "rank": "both_rank",
+                        "method": "採集",
+                        "target": "採集"
+                    }
+                ]
             }
         },
         "twisted_remains": {
@@ -846,6 +1010,15 @@
                         "target_type": "environment",
                         "num": "1",
                         "rare": false
+                    }
+                ]
+            },
+            "map_gathering": {
+                "shrine_ruins": [
+                    {
+                        "rank": "low_rank",
+                        "method": "骨採集",
+                        "target": "骨冢"
                     }
                 ]
             }
@@ -2127,6 +2300,29 @@
                         "rare": false
                     }
                 ]
+            },
+            "map_gathering": {
+                "frost_islands": [
+                    {
+                        "rank": "low_rank",
+                        "method": "骨採集",
+                        "target": "骨冢"
+                    }
+                ],
+                "flooded_forest": [
+                    {
+                        "rank": "low_rank",
+                        "method": "骨採集",
+                        "target": "骨冢"
+                    }
+                ],
+                "lava_caverns": [
+                    {
+                        "rank": "low_rank",
+                        "method": "骨採集",
+                        "target": "骨冢"
+                    }
+                ]
             }
         },
         "sleep_herb": {
@@ -2203,6 +2399,22 @@
             "trade_market": {
                 "target": "icebarb_bazaar",
                 "num": "2"
+            },
+            "map_gathering": {
+                "shrine_ruins": [
+                    {
+                        "rank": "both_rank",
+                        "method": "採集",
+                        "target": "採集"
+                    }
+                ],
+                "flooded_forest": [
+                    {
+                        "rank": "both_rank",
+                        "method": "採集",
+                        "target": "採集"
+                    }
+                ]
             }
         },
         "snow_herb": {
@@ -2279,6 +2491,22 @@
             "trade_market": {
                 "target": "icebarb_bazaar",
                 "num": "2"
+            },
+            "map_gathering": {
+                "frost_islands": [
+                    {
+                        "rank": "both_rank",
+                        "method": "採集",
+                        "target": "採集"
+                    }
+                ],
+                "flooded_forest": [
+                    {
+                        "rank": "both_rank",
+                        "method": "採集",
+                        "target": "採集"
+                    }
+                ]
             }
         },
         "nulberry": {
@@ -2425,6 +2653,43 @@
             "trade_market": {
                 "target": "sunsnug_fruitfair",
                 "num": "2"
+            },
+            "map_gathering": {
+                "shrine_ruins": [
+                    {
+                        "rank": "both_rank",
+                        "method": "採集",
+                        "target": "採集"
+                    }
+                ],
+                "frost_islands": [
+                    {
+                        "rank": "both_rank",
+                        "method": "採集",
+                        "target": "採集"
+                    }
+                ],
+                "flooded_forest": [
+                    {
+                        "rank": "both_rank",
+                        "method": "採集",
+                        "target": "採集"
+                    }
+                ],
+                "sandy_plains": [
+                    {
+                        "rank": "both_rank",
+                        "method": "採集",
+                        "target": "採集"
+                    }
+                ],
+                "lava_caverns": [
+                    {
+                        "rank": "both_rank",
+                        "method": "採集",
+                        "target": "採集"
+                    }
+                ]
             }
         },
         "earth_crystal": {
@@ -2559,6 +2824,48 @@
                         "rare": false
                     }
                 ]
+            },
+            "map_gathering": {
+                "shrine_ruins": [
+                    {
+                        "rank": "low_rank",
+                        "method": "挖礦",
+                        "target": "礦脈"
+                    },
+                    {
+                        "rank": "high_rank",
+                        "method": "挖礦",
+                        "target": "礦脈"
+                    }
+                ],
+                "frost_islands": [
+                    {
+                        "rank": "low_rank",
+                        "method": "挖礦",
+                        "target": "礦脈"
+                    }
+                ],
+                "flooded_forest": [
+                    {
+                        "rank": "low_rank",
+                        "method": "挖礦",
+                        "target": "礦脈"
+                    }
+                ],
+                "sandy_plains": [
+                    {
+                        "rank": "low_rank",
+                        "method": "挖礦",
+                        "target": "礦脈"
+                    }
+                ],
+                "lava_caverns": [
+                    {
+                        "rank": "low_rank",
+                        "method": "挖礦",
+                        "target": "礦脈"
+                    }
+                ]
             }
         },
         "flashbug": {
@@ -2647,6 +2954,29 @@
             "trade_market": {
                 "target": "mushyroom_market",
                 "num": "1"
+            },
+            "map_gathering": {
+                "shrine_ruins": [
+                    {
+                        "rank": "both_rank",
+                        "method": "採集",
+                        "target": "採集"
+                    }
+                ],
+                "frost_islands": [
+                    {
+                        "rank": "both_rank",
+                        "method": "採集",
+                        "target": "採集"
+                    }
+                ],
+                "flooded_forest": [
+                    {
+                        "rank": "both_rank",
+                        "method": "採集",
+                        "target": "採集"
+                    }
+                ]
             }
         },
         "icium": {
@@ -2695,6 +3025,20 @@
                         "target_type": "environment",
                         "num": "1",
                         "rare": false
+                    }
+                ]
+            },
+            "map_gathering": {
+                "frost_islands": [
+                    {
+                        "rank": "low_rank",
+                        "method": "挖礦",
+                        "target": "礦脈"
+                    },
+                    {
+                        "rank": "high_rank",
+                        "method": "挖礦",
+                        "target": "礦脈"
                     }
                 ]
             }
@@ -2763,6 +3107,29 @@
             "trade_market": {
                 "target": "mushyroom_market",
                 "num": "1"
+            },
+            "map_gathering": {
+                "shrine_ruins": [
+                    {
+                        "rank": "both_rank",
+                        "method": "採集",
+                        "target": "採集"
+                    }
+                ],
+                "sandy_plains": [
+                    {
+                        "rank": "both_rank",
+                        "method": "採集",
+                        "target": "採集"
+                    }
+                ],
+                "lava_caverns": [
+                    {
+                        "rank": "both_rank",
+                        "method": "採集",
+                        "target": "採集"
+                    }
+                ]
             }
         },
         "fire_herb": {
@@ -2813,6 +3180,29 @@
             "trade_market": {
                 "target": "icebarb_bazaar",
                 "num": "2"
+            },
+            "map_gathering": {
+                "shrine_ruins": [
+                    {
+                        "rank": "both_rank",
+                        "method": "採集",
+                        "target": "採集"
+                    }
+                ],
+                "sandy_plains": [
+                    {
+                        "rank": "both_rank",
+                        "method": "採集",
+                        "target": "採集"
+                    }
+                ],
+                "lava_caverns": [
+                    {
+                        "rank": "both_rank",
+                        "method": "採集",
+                        "target": "採集"
+                    }
+                ]
             }
         },
         "adamant_seed": {
@@ -2879,6 +3269,29 @@
             "trade_market": {
                 "target": "sunsnug_fruitfair",
                 "num": "1"
+            },
+            "map_gathering": {
+                "shrine_ruins": [
+                    {
+                        "rank": "both_rank",
+                        "method": "採集",
+                        "target": "採集"
+                    }
+                ],
+                "sandy_plains": [
+                    {
+                        "rank": "both_rank",
+                        "method": "採集",
+                        "target": "採集"
+                    }
+                ],
+                "lava_caverns": [
+                    {
+                        "rank": "both_rank",
+                        "method": "採集",
+                        "target": "採集"
+                    }
+                ]
             }
         },
         "exciteshroom": {
@@ -2945,6 +3358,29 @@
             "trade_market": {
                 "target": "mushyroom_market",
                 "num": "1"
+            },
+            "map_gathering": {
+                "shrine_ruins": [
+                    {
+                        "rank": "both_rank",
+                        "method": "採集",
+                        "target": "採集"
+                    }
+                ],
+                "frost_islands": [
+                    {
+                        "rank": "both_rank",
+                        "method": "採集",
+                        "target": "採集"
+                    }
+                ],
+                "flooded_forest": [
+                    {
+                        "rank": "both_rank",
+                        "method": "採集",
+                        "target": "採集"
+                    }
+                ]
             }
         },
         "machalite_ore": {
@@ -3144,6 +3580,53 @@
                         "rare": false
                     }
                 ]
+            },
+            "map_gathering": {
+                "shrine_ruins": [
+                    {
+                        "rank": "high_rank",
+                        "method": "挖礦",
+                        "target": "礦脈"
+                    }
+                ],
+                "frost_islands": [
+                    {
+                        "rank": "high_rank",
+                        "method": "挖礦",
+                        "target": "礦脈"
+                    }
+                ],
+                "flooded_forest": [
+                    {
+                        "rank": "low_rank",
+                        "method": "挖礦",
+                        "target": "礦脈"
+                    },
+                    {
+                        "rank": "high_rank",
+                        "method": "挖礦",
+                        "target": "礦脈"
+                    }
+                ],
+                "sandy_plains": [
+                    {
+                        "rank": "low_rank",
+                        "method": "挖礦",
+                        "target": "礦脈"
+                    },
+                    {
+                        "rank": "high_rank",
+                        "method": "挖礦",
+                        "target": "礦脈"
+                    }
+                ],
+                "lava_caverns": [
+                    {
+                        "rank": "low_rank",
+                        "method": "挖礦",
+                        "target": "礦脈"
+                    }
+                ]
             }
         },
         "godbug": {
@@ -3246,6 +3729,36 @@
             "trade_market": {
                 "target": "mushyroom_market",
                 "num": "1"
+            },
+            "map_gathering": {
+                "shrine_ruins": [
+                    {
+                        "rank": "both_rank",
+                        "method": "採集",
+                        "target": "採集"
+                    }
+                ],
+                "flooded_forest": [
+                    {
+                        "rank": "both_rank",
+                        "method": "採集",
+                        "target": "採集"
+                    }
+                ],
+                "sandy_plains": [
+                    {
+                        "rank": "both_rank",
+                        "method": "採集",
+                        "target": "採集"
+                    }
+                ],
+                "lava_caverns": [
+                    {
+                        "rank": "both_rank",
+                        "method": "採集",
+                        "target": "採集"
+                    }
+                ]
             }
         },
         "eroded_skeleton": {
@@ -3286,6 +3799,15 @@
                         "target_type": "environment",
                         "num": "1",
                         "rare": true
+                    }
+                ]
+            },
+            "map_gathering": {
+                "sandy_plains": [
+                    {
+                        "rank": "low_rank",
+                        "method": "骨採集",
+                        "target": "骨冢"
                     }
                 ]
             }
@@ -3401,6 +3923,43 @@
                         "target_type": "environment",
                         "num": "1",
                         "rare": false
+                    }
+                ]
+            },
+            "map_gathering": {
+                "shrine_ruins": [
+                    {
+                        "rank": "low_rank",
+                        "method": "骨採集",
+                        "target": "骨冢"
+                    }
+                ],
+                "frost_islands": [
+                    {
+                        "rank": "low_rank",
+                        "method": "骨採集",
+                        "target": "骨冢"
+                    }
+                ],
+                "flooded_forest": [
+                    {
+                        "rank": "low_rank",
+                        "method": "骨採集",
+                        "target": "骨冢"
+                    }
+                ],
+                "sandy_plains": [
+                    {
+                        "rank": "low_rank",
+                        "method": "骨採集",
+                        "target": "骨冢"
+                    }
+                ],
+                "lava_caverns": [
+                    {
+                        "rank": "low_rank",
+                        "method": "骨採集",
+                        "target": "骨冢"
                     }
                 ]
             }
@@ -3713,6 +4272,22 @@
             "trade_market": {
                 "target": "mushyroom_market",
                 "num": "2"
+            },
+            "map_gathering": {
+                "shrine_ruins": [
+                    {
+                        "rank": "both_rank",
+                        "method": "採集",
+                        "target": "採集"
+                    }
+                ],
+                "flooded_forest": [
+                    {
+                        "rank": "both_rank",
+                        "method": "採集",
+                        "target": "採集"
+                    }
+                ]
             }
         },
         "flowfern": {
@@ -3773,6 +4348,36 @@
             "trade_market": {
                 "target": "icebarb_bazaar",
                 "num": "2"
+            },
+            "map_gathering": {
+                "shrine_ruins": [
+                    {
+                        "rank": "both_rank",
+                        "method": "採集",
+                        "target": "採集"
+                    }
+                ],
+                "frost_islands": [
+                    {
+                        "rank": "both_rank",
+                        "method": "採集",
+                        "target": "採集"
+                    }
+                ],
+                "flooded_forest": [
+                    {
+                        "rank": "both_rank",
+                        "method": "採集",
+                        "target": "採集"
+                    }
+                ],
+                "lava_caverns": [
+                    {
+                        "rank": "both_rank",
+                        "method": "採集",
+                        "target": "採集"
+                    }
+                ]
             }
         },
         "smokenut": {
@@ -3833,6 +4438,22 @@
             "trade_market": {
                 "target": "sunsnug_fruitfair",
                 "num": "2"
+            },
+            "map_gathering": {
+                "frost_islands": [
+                    {
+                        "rank": "both_rank",
+                        "method": "採集",
+                        "target": "採集"
+                    }
+                ],
+                "flooded_forest": [
+                    {
+                        "rank": "both_rank",
+                        "method": "採集",
+                        "target": "採集"
+                    }
+                ]
             }
         },
         "thunderbug": {
@@ -3911,6 +4532,36 @@
             "trade_market": {
                 "target": "mushyroom_market",
                 "num": "1"
+            },
+            "map_gathering": {
+                "shrine_ruins": [
+                    {
+                        "rank": "both_rank",
+                        "method": "採集",
+                        "target": "採集"
+                    }
+                ],
+                "frost_islands": [
+                    {
+                        "rank": "both_rank",
+                        "method": "採集",
+                        "target": "採集"
+                    }
+                ],
+                "flooded_forest": [
+                    {
+                        "rank": "both_rank",
+                        "method": "採集",
+                        "target": "採集"
+                    }
+                ],
+                "lava_caverns": [
+                    {
+                        "rank": "both_rank",
+                        "method": "採集",
+                        "target": "採集"
+                    }
+                ]
             }
         },
         "sunscorned_grass": {
@@ -3953,6 +4604,29 @@
             "trade_market": {
                 "target": "icebarb_bazaar",
                 "num": "2"
+            },
+            "map_gathering": {
+                "frost_islands": [
+                    {
+                        "rank": "both_rank",
+                        "method": "採集",
+                        "target": "採集"
+                    }
+                ],
+                "sandy_plains": [
+                    {
+                        "rank": "both_rank",
+                        "method": "採集",
+                        "target": "採集"
+                    }
+                ],
+                "lava_caverns": [
+                    {
+                        "rank": "both_rank",
+                        "method": "採集",
+                        "target": "採集"
+                    }
+                ]
             }
         },
         "lightcrystal": {
@@ -3989,6 +4663,20 @@
                         "target_type": "environment",
                         "num": "1",
                         "rare": false
+                    }
+                ]
+            },
+            "map_gathering": {
+                "flooded_forest": [
+                    {
+                        "rank": "low_rank",
+                        "method": "挖礦",
+                        "target": "礦脈"
+                    },
+                    {
+                        "rank": "high_rank",
+                        "method": "挖礦",
+                        "target": "礦脈"
                     }
                 ]
             }
@@ -4708,6 +5396,48 @@
                         "rare": false
                     }
                 ]
+            },
+            "map_gathering": {
+                "shrine_ruins": [
+                    {
+                        "rank": "high_rank",
+                        "method": "骨採集",
+                        "target": "骨冢"
+                    }
+                ],
+                "frost_islands": [
+                    {
+                        "rank": "high_rank",
+                        "method": "骨採集",
+                        "target": "骨冢"
+                    }
+                ],
+                "flooded_forest": [
+                    {
+                        "rank": "high_rank",
+                        "method": "骨採集",
+                        "target": "骨冢"
+                    }
+                ],
+                "sandy_plains": [
+                    {
+                        "rank": "high_rank",
+                        "method": "骨採集",
+                        "target": "骨冢"
+                    }
+                ],
+                "lava_caverns": [
+                    {
+                        "rank": "low_rank",
+                        "method": "骨採集",
+                        "target": "骨冢"
+                    },
+                    {
+                        "rank": "high_rank",
+                        "method": "骨採集",
+                        "target": "骨冢"
+                    }
+                ]
             }
         },
         "dragonfell_berry": {
@@ -4788,6 +5518,15 @@
             "trade_market": {
                 "target": "sunsnug_fruitfair",
                 "num": "1"
+            },
+            "map_gathering": {
+                "lava_caverns": [
+                    {
+                        "rank": "both_rank",
+                        "method": "採集",
+                        "target": "採集"
+                    }
+                ]
             }
         },
         "might_seed": {
@@ -4850,6 +5589,29 @@
             "trade_market": {
                 "target": "sunsnug_fruitfair",
                 "num": "1"
+            },
+            "map_gathering": {
+                "shrine_ruins": [
+                    {
+                        "rank": "both_rank",
+                        "method": "採集",
+                        "target": "採集"
+                    }
+                ],
+                "sandy_plains": [
+                    {
+                        "rank": "both_rank",
+                        "method": "採集",
+                        "target": "採集"
+                    }
+                ],
+                "lava_caverns": [
+                    {
+                        "rank": "both_rank",
+                        "method": "採集",
+                        "target": "採集"
+                    }
+                ]
             }
         },
         "mandragora": {
@@ -4896,6 +5658,43 @@
             "trade_market": {
                 "target": "mushyroom_market",
                 "num": "1"
+            },
+            "map_gathering": {
+                "shrine_ruins": [
+                    {
+                        "rank": "both_rank",
+                        "method": "採集",
+                        "target": "採集"
+                    }
+                ],
+                "frost_islands": [
+                    {
+                        "rank": "both_rank",
+                        "method": "採集",
+                        "target": "採集"
+                    }
+                ],
+                "flooded_forest": [
+                    {
+                        "rank": "both_rank",
+                        "method": "採集",
+                        "target": "採集"
+                    }
+                ],
+                "sandy_plains": [
+                    {
+                        "rank": "both_rank",
+                        "method": "採集",
+                        "target": "採集"
+                    }
+                ],
+                "lava_caverns": [
+                    {
+                        "rank": "both_rank",
+                        "method": "採集",
+                        "target": "採集"
+                    }
+                ]
             }
         },
         "dragonite_ore": {
@@ -5115,6 +5914,48 @@
                         "rare": false
                     }
                 ]
+            },
+            "map_gathering": {
+                "shrine_ruins": [
+                    {
+                        "rank": "high_rank",
+                        "method": "挖礦",
+                        "target": "礦脈"
+                    }
+                ],
+                "frost_islands": [
+                    {
+                        "rank": "high_rank",
+                        "method": "挖礦",
+                        "target": "礦脈"
+                    }
+                ],
+                "flooded_forest": [
+                    {
+                        "rank": "high_rank",
+                        "method": "挖礦",
+                        "target": "礦脈"
+                    }
+                ],
+                "sandy_plains": [
+                    {
+                        "rank": "high_rank",
+                        "method": "挖礦",
+                        "target": "礦脈"
+                    }
+                ],
+                "lava_caverns": [
+                    {
+                        "rank": "low_rank",
+                        "method": "挖礦",
+                        "target": "礦脈"
+                    },
+                    {
+                        "rank": "high_rank",
+                        "method": "挖礦",
+                        "target": "藍色礦脈"
+                    }
+                ]
             }
         },
         "firestone": {
@@ -5147,6 +5988,25 @@
                         "target_type": "environment",
                         "num": "1",
                         "rare": false
+                    }
+                ]
+            },
+            "map_gathering": {
+                "lava_caverns": [
+                    {
+                        "rank": "low_rank",
+                        "method": "挖礦",
+                        "target": "礦脈"
+                    },
+                    {
+                        "rank": "high_rank",
+                        "method": "挖礦",
+                        "target": "藍色礦脈"
+                    },
+                    {
+                        "rank": "high_rank",
+                        "method": "挖礦",
+                        "target": "白色礦脈"
                     }
                 ]
             }
@@ -5774,6 +6634,15 @@
                         "rare": false
                     }
                 ]
+            },
+            "map_gathering": {
+                "shrine_ruins": [
+                    {
+                        "rank": "high_rank",
+                        "method": "骨採集",
+                        "target": "骨冢"
+                    }
+                ]
             }
         },
         "gracium": {
@@ -5795,6 +6664,15 @@
                         "target_type": "environment",
                         "num": "1",
                         "rare": false
+                    }
+                ]
+            },
+            "map_gathering": {
+                "frost_islands": [
+                    {
+                        "rank": "high_rank",
+                        "method": "挖礦",
+                        "target": "礦脈"
                     }
                 ]
             }
@@ -5852,6 +6730,43 @@
                         "target_type": "environment",
                         "num": "1",
                         "rare": false
+                    }
+                ]
+            },
+            "map_gathering": {
+                "shrine_ruins": [
+                    {
+                        "rank": "high_rank",
+                        "method": "骨採集",
+                        "target": "骨冢"
+                    }
+                ],
+                "frost_islands": [
+                    {
+                        "rank": "high_rank",
+                        "method": "骨採集",
+                        "target": "骨冢"
+                    }
+                ],
+                "flooded_forest": [
+                    {
+                        "rank": "high_rank",
+                        "method": "骨採集",
+                        "target": "骨冢"
+                    }
+                ],
+                "sandy_plains": [
+                    {
+                        "rank": "high_rank",
+                        "method": "骨採集",
+                        "target": "骨冢"
+                    }
+                ],
+                "lava_caverns": [
+                    {
+                        "rank": "high_rank",
+                        "method": "骨採集",
+                        "target": "骨冢"
                     }
                 ]
             }
@@ -7206,6 +8121,43 @@
                         "rare": false
                     }
                 ]
+            },
+            "map_gathering": {
+                "shrine_ruins": [
+                    {
+                        "rank": "high_rank",
+                        "method": "挖礦",
+                        "target": "礦脈"
+                    }
+                ],
+                "frost_islands": [
+                    {
+                        "rank": "high_rank",
+                        "method": "挖礦",
+                        "target": "礦脈"
+                    }
+                ],
+                "flooded_forest": [
+                    {
+                        "rank": "high_rank",
+                        "method": "挖礦",
+                        "target": "礦脈"
+                    }
+                ],
+                "sandy_plains": [
+                    {
+                        "rank": "high_rank",
+                        "method": "挖礦",
+                        "target": "礦脈"
+                    }
+                ],
+                "lava_caverns": [
+                    {
+                        "rank": "high_rank",
+                        "method": "挖礦",
+                        "target": "藍色礦脈"
+                    }
+                ]
             }
         },
         "fucium_ore": {
@@ -7234,6 +8186,34 @@
                         "rare": false
                     }
                 ]
+            },
+            "map_gathering": {
+                "flooded_forest": [
+                    {
+                        "rank": "high_rank",
+                        "method": "挖礦",
+                        "target": "礦脈"
+                    }
+                ],
+                "sandy_plains": [
+                    {
+                        "rank": "high_rank",
+                        "method": "挖礦",
+                        "target": "礦脈"
+                    }
+                ],
+                "lava_caverns": [
+                    {
+                        "rank": "high_rank",
+                        "method": "挖礦",
+                        "target": "藍色礦脈"
+                    },
+                    {
+                        "rank": "high_rank",
+                        "method": "挖礦",
+                        "target": "白色礦脈"
+                    }
+                ]
             }
         },
         "eroded_husk": {
@@ -7260,6 +8240,15 @@
                         "rare": true
                     }
                 ]
+            },
+            "map_gathering": {
+                "sandy_plains": [
+                    {
+                        "rank": "high_rank",
+                        "method": "骨採集",
+                        "target": "骨冢"
+                    }
+                ]
             }
         },
         "novacrystal": {
@@ -7277,6 +8266,15 @@
                         "target_type": "environment",
                         "num": "1",
                         "rare": false
+                    }
+                ]
+            },
+            "map_gathering": {
+                "flooded_forest": [
+                    {
+                        "rank": "high_rank",
+                        "method": "挖礦",
+                        "target": "礦脈"
                     }
                 ]
             }
@@ -7754,6 +8752,29 @@
                         "rare": false
                     }
                 ]
+            },
+            "map_gathering": {
+                "frost_islands": [
+                    {
+                        "rank": "high_rank",
+                        "method": "骨採集",
+                        "target": "骨冢"
+                    }
+                ],
+                "flooded_forest": [
+                    {
+                        "rank": "high_rank",
+                        "method": "骨採集",
+                        "target": "骨冢"
+                    }
+                ],
+                "lava_caverns": [
+                    {
+                        "rank": "high_rank",
+                        "method": "骨採集",
+                        "target": "骨冢"
+                    }
+                ]
             }
         },
         "firecell_stone": {
@@ -7775,6 +8796,20 @@
                         "target_type": "environment",
                         "num": "1",
                         "rare": false
+                    }
+                ]
+            },
+            "map_gathering": {
+                "lava_caverns": [
+                    {
+                        "rank": "high_rank",
+                        "method": "挖礦",
+                        "target": "藍色礦脈"
+                    },
+                    {
+                        "rank": "high_rank",
+                        "method": "挖礦",
+                        "target": "白色礦脈"
                     }
                 ]
             }
@@ -9386,6 +10421,29 @@
                         "rate": 20
                     }
                 ]
+            },
+            "map_gathering": {
+                "shrine_ruins": [
+                    {
+                        "rank": "low_rank",
+                        "method": "垂釣",
+                        "target": "釣魚點[區域6右]"
+                    }
+                ],
+                "flooded_forest": [
+                    {
+                        "rank": "both_rank",
+                        "method": "垂釣",
+                        "target": "釣魚點[區域5]"
+                    }
+                ],
+                "sandy_plains": [
+                    {
+                        "rank": "low_rank",
+                        "method": "垂釣",
+                        "target": "釣魚點[區域1～2之間]"
+                    }
+                ]
             }
         },
         "arzuros_shell": {
@@ -9521,6 +10579,83 @@
                         "target_type": "environment",
                         "num": "1",
                         "rare": false
+                    }
+                ]
+            },
+            "map_gathering": {
+                "shrine_ruins": [
+                    {
+                        "rank": "both_rank",
+                        "method": "垂釣",
+                        "target": "釣魚點[區域6左]"
+                    },
+                    {
+                        "rank": "both_rank",
+                        "method": "垂釣",
+                        "target": "釣魚點[區域6右]"
+                    },
+                    {
+                        "rank": "both_rank",
+                        "method": "垂釣",
+                        "target": "釣魚點[區域13]"
+                    }
+                ],
+                "frost_islands": [
+                    {
+                        "rank": "both_rank",
+                        "method": "垂釣",
+                        "target": "釣魚點[區域3]"
+                    },
+                    {
+                        "rank": "both_rank",
+                        "method": "垂釣",
+                        "target": "釣魚點[區域11]"
+                    }
+                ],
+                "flooded_forest": [
+                    {
+                        "rank": "both_rank",
+                        "method": "垂釣",
+                        "target": "釣魚點[主營地]"
+                    },
+                    {
+                        "rank": "both_rank",
+                        "method": "垂釣",
+                        "target": "釣魚點[區域5]"
+                    }
+                ],
+                "sandy_plains": [
+                    {
+                        "rank": "both_rank",
+                        "method": "垂釣",
+                        "target": "釣魚點[區域1～2之間]"
+                    },
+                    {
+                        "rank": "both_rank",
+                        "method": "垂釣",
+                        "target": "釣魚點[輔助營地2]"
+                    },
+                    {
+                        "rank": "both_rank",
+                        "method": "垂釣",
+                        "target": "釣魚點[區域8下層]"
+                    }
+                ],
+                "lava_caverns": [
+                    {
+                        "rank": "both_rank",
+                        "method": "垂釣",
+                        "target": "釣魚點[區域1]"
+                    },
+                    {
+                        "rank": "both_rank",
+                        "method": "垂釣",
+                        "target": "釣魚點[區域3]"
+                    },
+                    {
+                        "rank": "both_rank",
+                        "method": "垂釣",
+                        "target": "釣魚點[區域10下層]"
                     }
                 ]
             }
@@ -28365,6 +29500,43 @@
             "trade_market": {
                 "target": "mushyroom_market",
                 "num": "2"
+            },
+            "map_gathering": {
+                "shrine_ruins": [
+                    {
+                        "rank": "both_rank",
+                        "method": "採集",
+                        "target": "採集"
+                    }
+                ],
+                "frost_islands": [
+                    {
+                        "rank": "both_rank",
+                        "method": "採集",
+                        "target": "採集"
+                    }
+                ],
+                "flooded_forest": [
+                    {
+                        "rank": "both_rank",
+                        "method": "採集",
+                        "target": "採集"
+                    }
+                ],
+                "sandy_plains": [
+                    {
+                        "rank": "both_rank",
+                        "method": "採集",
+                        "target": "採集"
+                    }
+                ],
+                "lava_caverns": [
+                    {
+                        "rank": "both_rank",
+                        "method": "採集",
+                        "target": "採集"
+                    }
+                ]
             }
         },
         "insect_scrap": {
@@ -28801,6 +29973,36 @@
             "trade_market": {
                 "target": "sunsnug_fruitfair",
                 "num": "15"
+            },
+            "map_gathering": {
+                "shrine_ruins": [
+                    {
+                        "rank": "both_rank",
+                        "method": "採集",
+                        "target": "採集"
+                    }
+                ],
+                "frost_islands": [
+                    {
+                        "rank": "both_rank",
+                        "method": "採集",
+                        "target": "採集"
+                    }
+                ],
+                "sandy_plains": [
+                    {
+                        "rank": "both_rank",
+                        "method": "採集",
+                        "target": "採集"
+                    }
+                ],
+                "lava_caverns": [
+                    {
+                        "rank": "both_rank",
+                        "method": "採集",
+                        "target": "採集"
+                    }
+                ]
             }
         },
         "latchberry": {
@@ -28825,6 +30027,43 @@
             "trade_market": {
                 "target": "sunsnug_fruitfair",
                 "num": "20"
+            },
+            "map_gathering": {
+                "shrine_ruins": [
+                    {
+                        "rank": "both_rank",
+                        "method": "採集",
+                        "target": "採集"
+                    }
+                ],
+                "frost_islands": [
+                    {
+                        "rank": "both_rank",
+                        "method": "採集",
+                        "target": "採集"
+                    }
+                ],
+                "flooded_forest": [
+                    {
+                        "rank": "both_rank",
+                        "method": "採集",
+                        "target": "採集"
+                    }
+                ],
+                "sandy_plains": [
+                    {
+                        "rank": "both_rank",
+                        "method": "採集",
+                        "target": "採集"
+                    }
+                ],
+                "lava_caverns": [
+                    {
+                        "rank": "both_rank",
+                        "method": "採集",
+                        "target": "採集"
+                    }
+                ]
             }
         },
         "antidote_herb": {
@@ -28849,6 +30088,36 @@
             "trade_market": {
                 "target": "icebarb_bazaar",
                 "num": "2"
+            },
+            "map_gathering": {
+                "shrine_ruins": [
+                    {
+                        "rank": "both_rank",
+                        "method": "採集",
+                        "target": "採集"
+                    }
+                ],
+                "flooded_forest": [
+                    {
+                        "rank": "both_rank",
+                        "method": "採集",
+                        "target": "採集"
+                    }
+                ],
+                "sandy_plains": [
+                    {
+                        "rank": "both_rank",
+                        "method": "採集",
+                        "target": "採集"
+                    }
+                ],
+                "lava_caverns": [
+                    {
+                        "rank": "both_rank",
+                        "method": "採集",
+                        "target": "採集"
+                    }
+                ]
             }
         },
         "tetranadon_scrap": {
@@ -28911,6 +30180,36 @@
                         "rare": false
                     }
                 ]
+            },
+            "map_gathering": {
+                "shrine_ruins": [
+                    {
+                        "rank": "both_rank",
+                        "method": "垂釣",
+                        "target": "釣魚點[區域6左]"
+                    }
+                ],
+                "flooded_forest": [
+                    {
+                        "rank": "both_rank",
+                        "method": "垂釣",
+                        "target": "釣魚點[主營地]"
+                    }
+                ],
+                "sandy_plains": [
+                    {
+                        "rank": "both_rank",
+                        "method": "垂釣",
+                        "target": "釣魚點[輔助營地2]"
+                    }
+                ],
+                "lava_caverns": [
+                    {
+                        "rank": "both_rank",
+                        "method": "垂釣",
+                        "target": "釣魚點[區域10下層]"
+                    }
+                ]
             }
         },
         "scatterfish": {
@@ -28951,6 +30250,83 @@
             "trade_market": {
                 "target": "icebarb_bazaar",
                 "num": "1"
+            },
+            "map_gathering": {
+                "shrine_ruins": [
+                    {
+                        "rank": "both_rank",
+                        "method": "垂釣",
+                        "target": "釣魚點[區域6左]"
+                    },
+                    {
+                        "rank": "both_rank",
+                        "method": "垂釣",
+                        "target": "釣魚點[區域6右]"
+                    },
+                    {
+                        "rank": "both_rank",
+                        "method": "垂釣",
+                        "target": "釣魚點[區域13]"
+                    }
+                ],
+                "frost_islands": [
+                    {
+                        "rank": "both_rank",
+                        "method": "垂釣",
+                        "target": "釣魚點[區域3]"
+                    },
+                    {
+                        "rank": "both_rank",
+                        "method": "垂釣",
+                        "target": "釣魚點[區域11]"
+                    }
+                ],
+                "flooded_forest": [
+                    {
+                        "rank": "both_rank",
+                        "method": "垂釣",
+                        "target": "釣魚點[主營地]"
+                    },
+                    {
+                        "rank": "both_rank",
+                        "method": "垂釣",
+                        "target": "釣魚點[區域5]"
+                    }
+                ],
+                "sandy_plains": [
+                    {
+                        "rank": "both_rank",
+                        "method": "垂釣",
+                        "target": "釣魚點[區域1～2之間]"
+                    },
+                    {
+                        "rank": "both_rank",
+                        "method": "垂釣",
+                        "target": "釣魚點[輔助營地2]"
+                    },
+                    {
+                        "rank": "both_rank",
+                        "method": "垂釣",
+                        "target": "釣魚點[區域8下層]"
+                    }
+                ],
+                "lava_caverns": [
+                    {
+                        "rank": "both_rank",
+                        "method": "垂釣",
+                        "target": "釣魚點[區域1]"
+                    },
+                    {
+                        "rank": "both_rank",
+                        "method": "垂釣",
+                        "target": "釣魚點[區域3]"
+                    },
+                    {
+                        "rank": "both_rank",
+                        "method": "垂釣",
+                        "target": "釣魚點[區域10下層]"
+                    }
+                ]
             }
         },
         "big_combustuna": {
@@ -28991,6 +30367,32 @@
             "trade_market": {
                 "target": "icebarb_bazaar",
                 "num": "1"
+            },
+            "map_gathering": {
+                "shrine_ruins": [
+                    {
+                        "rank": "both_rank",
+                        "method": "垂釣",
+                        "target": "釣魚點[區域6左]"
+                    },
+                    {
+                        "rank": "both_rank",
+                        "method": "垂釣",
+                        "target": "釣魚點[區域6右]"
+                    },
+                    {
+                        "rank": "both_rank",
+                        "method": "垂釣",
+                        "target": "釣魚點[區域13]"
+                    }
+                ],
+                "frost_islands": [
+                    {
+                        "rank": "both_rank",
+                        "method": "垂釣",
+                        "target": "釣魚點[區域3]"
+                    }
+                ]
             }
         },
         "combustuna": {
@@ -29031,6 +30433,37 @@
             "trade_market": {
                 "target": "icebarb_bazaar",
                 "num": "1"
+            },
+            "map_gathering": {
+                "shrine_ruins": [
+                    {
+                        "rank": "both_rank",
+                        "method": "垂釣",
+                        "target": "釣魚點[區域6左]"
+                    },
+                    {
+                        "rank": "both_rank",
+                        "method": "垂釣",
+                        "target": "釣魚點[區域6右]"
+                    },
+                    {
+                        "rank": "both_rank",
+                        "method": "垂釣",
+                        "target": "釣魚點[區域13]"
+                    }
+                ],
+                "frost_islands": [
+                    {
+                        "rank": "both_rank",
+                        "method": "垂釣",
+                        "target": "釣魚點[區域3]"
+                    },
+                    {
+                        "rank": "both_rank",
+                        "method": "垂釣",
+                        "target": "釣魚點[區域11]"
+                    }
+                ]
             }
         },
         "arzuros_scrap": {
@@ -29373,6 +30806,22 @@
             "trade_market": {
                 "target": "sunsnug_fruitfair",
                 "num": "2"
+            },
+            "map_gathering": {
+                "shrine_ruins": [
+                    {
+                        "rank": "both_rank",
+                        "method": "採集",
+                        "target": "採集"
+                    }
+                ],
+                "frost_islands": [
+                    {
+                        "rank": "both_rank",
+                        "method": "採集",
+                        "target": "採集"
+                    }
+                ]
             }
         },
         "huskberry": {
@@ -29411,6 +30860,29 @@
             "trade_market": {
                 "target": "sunsnug_fruitfair",
                 "num": "30"
+            },
+            "map_gathering": {
+                "shrine_ruins": [
+                    {
+                        "rank": "both_rank",
+                        "method": "採集",
+                        "target": "採集"
+                    }
+                ],
+                "frost_islands": [
+                    {
+                        "rank": "both_rank",
+                        "method": "採集",
+                        "target": "採集"
+                    }
+                ],
+                "lava_caverns": [
+                    {
+                        "rank": "both_rank",
+                        "method": "採集",
+                        "target": "採集"
+                    }
+                ]
             }
         },
         "popfish": {
@@ -29451,6 +30923,73 @@
             "trade_market": {
                 "target": "icebarb_bazaar",
                 "num": "2"
+            },
+            "map_gathering": {
+                "shrine_ruins": [
+                    {
+                        "rank": "both_rank",
+                        "method": "垂釣",
+                        "target": "釣魚點[區域6左]"
+                    },
+                    {
+                        "rank": "both_rank",
+                        "method": "垂釣",
+                        "target": "釣魚點[區域6右]"
+                    },
+                    {
+                        "rank": "both_rank",
+                        "method": "垂釣",
+                        "target": "釣魚點[區域13]"
+                    }
+                ],
+                "frost_islands": [
+                    {
+                        "rank": "both_rank",
+                        "method": "垂釣",
+                        "target": "釣魚點[區域3]"
+                    },
+                    {
+                        "rank": "both_rank",
+                        "method": "垂釣",
+                        "target": "釣魚點[區域11]"
+                    }
+                ],
+                "flooded_forest": [
+                    {
+                        "rank": "both_rank",
+                        "method": "垂釣",
+                        "target": "釣魚點[主營地]"
+                    },
+                    {
+                        "rank": "both_rank",
+                        "method": "垂釣",
+                        "target": "釣魚點[區域5]"
+                    }
+                ],
+                "sandy_plains": [
+                    {
+                        "rank": "both_rank",
+                        "method": "垂釣",
+                        "target": "釣魚點[區域1～2之間]"
+                    },
+                    {
+                        "rank": "both_rank",
+                        "method": "垂釣",
+                        "target": "釣魚點[輔助營地2]"
+                    },
+                    {
+                        "rank": "both_rank",
+                        "method": "垂釣",
+                        "target": "釣魚點[區域8下層]"
+                    }
+                ],
+                "lava_caverns": [
+                    {
+                        "rank": "both_rank",
+                        "method": "垂釣",
+                        "target": "釣魚點[區域10下層]"
+                    }
+                ]
             }
         },
         "kulu-ya-ku_scrap": {
@@ -29720,6 +31259,36 @@
             "trade_market": {
                 "target": "sunsnug_fruitfair",
                 "num": "20"
+            },
+            "map_gathering": {
+                "shrine_ruins": [
+                    {
+                        "rank": "both_rank",
+                        "method": "採集",
+                        "target": "採集"
+                    }
+                ],
+                "frost_islands": [
+                    {
+                        "rank": "both_rank",
+                        "method": "採集",
+                        "target": "採集"
+                    }
+                ],
+                "flooded_forest": [
+                    {
+                        "rank": "both_rank",
+                        "method": "採集",
+                        "target": "採集"
+                    }
+                ],
+                "sandy_plains": [
+                    {
+                        "rank": "both_rank",
+                        "method": "採集",
+                        "target": "採集"
+                    }
+                ]
             }
         },
         "needleberry": {
@@ -29744,6 +31313,29 @@
             "trade_market": {
                 "target": "sunsnug_fruitfair",
                 "num": "20"
+            },
+            "map_gathering": {
+                "shrine_ruins": [
+                    {
+                        "rank": "both_rank",
+                        "method": "採集",
+                        "target": "採集"
+                    }
+                ],
+                "flooded_forest": [
+                    {
+                        "rank": "both_rank",
+                        "method": "採集",
+                        "target": "採集"
+                    }
+                ],
+                "sandy_plains": [
+                    {
+                        "rank": "both_rank",
+                        "method": "採集",
+                        "target": "採集"
+                    }
+                ]
             }
         },
         "barroth_scrap": {
@@ -29846,6 +31438,83 @@
                         "rare": true
                     }
                 ]
+            },
+            "map_gathering": {
+                "shrine_ruins": [
+                    {
+                        "rank": "both_rank",
+                        "method": "垂釣",
+                        "target": "釣魚點[區域6左]"
+                    },
+                    {
+                        "rank": "both_rank",
+                        "method": "垂釣",
+                        "target": "釣魚點[區域6右]"
+                    },
+                    {
+                        "rank": "both_rank",
+                        "method": "垂釣",
+                        "target": "釣魚點[區域13]"
+                    }
+                ],
+                "frost_islands": [
+                    {
+                        "rank": "both_rank",
+                        "method": "垂釣",
+                        "target": "釣魚點[區域3]"
+                    },
+                    {
+                        "rank": "both_rank",
+                        "method": "垂釣",
+                        "target": "釣魚點[區域11]"
+                    }
+                ],
+                "flooded_forest": [
+                    {
+                        "rank": "both_rank",
+                        "method": "垂釣",
+                        "target": "釣魚點[主營地]"
+                    },
+                    {
+                        "rank": "both_rank",
+                        "method": "垂釣",
+                        "target": "釣魚點[區域5]"
+                    }
+                ],
+                "sandy_plains": [
+                    {
+                        "rank": "both_rank",
+                        "method": "垂釣",
+                        "target": "釣魚點[區域1～2之間]"
+                    },
+                    {
+                        "rank": "both_rank",
+                        "method": "垂釣",
+                        "target": "釣魚點[輔助營地2]"
+                    },
+                    {
+                        "rank": "both_rank",
+                        "method": "垂釣",
+                        "target": "釣魚點[區域8下層]"
+                    }
+                ],
+                "lava_caverns": [
+                    {
+                        "rank": "both_rank",
+                        "method": "垂釣",
+                        "target": "釣魚點[區域1]"
+                    },
+                    {
+                        "rank": "both_rank",
+                        "method": "垂釣",
+                        "target": "釣魚點[區域3]"
+                    },
+                    {
+                        "rank": "both_rank",
+                        "method": "垂釣",
+                        "target": "釣魚點[區域10下層]"
+                    }
+                ]
             }
         },
         "great_flamefin": {
@@ -29907,6 +31576,49 @@
             "trade_market": {
                 "target": "icebarb_bazaar",
                 "num": "1"
+            },
+            "map_gathering": {
+                "flooded_forest": [
+                    {
+                        "rank": "both_rank",
+                        "method": "垂釣",
+                        "target": "釣魚點[主營地]"
+                    },
+                    {
+                        "rank": "both_rank",
+                        "method": "垂釣",
+                        "target": "釣魚點[區域5]"
+                    }
+                ],
+                "sandy_plains": [
+                    {
+                        "rank": "both_rank",
+                        "method": "垂釣",
+                        "target": "釣魚點[區域1～2之間]"
+                    },
+                    {
+                        "rank": "both_rank",
+                        "method": "垂釣",
+                        "target": "釣魚點[輔助營地2]"
+                    }
+                ],
+                "lava_caverns": [
+                    {
+                        "rank": "both_rank",
+                        "method": "垂釣",
+                        "target": "釣魚點[區域1]"
+                    },
+                    {
+                        "rank": "both_rank",
+                        "method": "垂釣",
+                        "target": "釣魚點[區域3]"
+                    },
+                    {
+                        "rank": "both_rank",
+                        "method": "垂釣",
+                        "target": "釣魚點[區域10下層]"
+                    }
+                ]
             }
         },
         "flamefin": {
@@ -29961,6 +31673,49 @@
             "trade_market": {
                 "target": "icebarb_bazaar",
                 "num": "1"
+            },
+            "map_gathering": {
+                "flooded_forest": [
+                    {
+                        "rank": "both_rank",
+                        "method": "垂釣",
+                        "target": "釣魚點[主營地]"
+                    }
+                ],
+                "sandy_plains": [
+                    {
+                        "rank": "both_rank",
+                        "method": "垂釣",
+                        "target": "釣魚點[區域1～2之間]"
+                    },
+                    {
+                        "rank": "both_rank",
+                        "method": "垂釣",
+                        "target": "釣魚點[輔助營地2]"
+                    },
+                    {
+                        "rank": "both_rank",
+                        "method": "垂釣",
+                        "target": "釣魚點[區域8下層]"
+                    }
+                ],
+                "lava_caverns": [
+                    {
+                        "rank": "both_rank",
+                        "method": "垂釣",
+                        "target": "釣魚點[區域1]"
+                    },
+                    {
+                        "rank": "both_rank",
+                        "method": "垂釣",
+                        "target": "釣魚點[區域3]"
+                    },
+                    {
+                        "rank": "both_rank",
+                        "method": "垂釣",
+                        "target": "釣魚點[區域10下層]"
+                    }
+                ]
             }
         },
         "royal_ludroth_scrap": {
@@ -30204,6 +31959,29 @@
             "trade_market": {
                 "target": "sunsnug_fruitfair",
                 "num": "5"
+            },
+            "map_gathering": {
+                "shrine_ruins": [
+                    {
+                        "rank": "both_rank",
+                        "method": "採集",
+                        "target": "採集"
+                    }
+                ],
+                "flooded_forest": [
+                    {
+                        "rank": "both_rank",
+                        "method": "採集",
+                        "target": "採集"
+                    }
+                ],
+                "lava_caverns": [
+                    {
+                        "rank": "both_rank",
+                        "method": "採集",
+                        "target": "採集"
+                    }
+                ]
             }
         },
         "ivy": {
@@ -30242,6 +32020,29 @@
             "trade_market": {
                 "target": "icebarb_bazaar",
                 "num": "2"
+            },
+            "map_gathering": {
+                "shrine_ruins": [
+                    {
+                        "rank": "both_rank",
+                        "method": "採集",
+                        "target": "採集"
+                    }
+                ],
+                "frost_islands": [
+                    {
+                        "rank": "both_rank",
+                        "method": "採集",
+                        "target": "採集"
+                    }
+                ],
+                "flooded_forest": [
+                    {
+                        "rank": "both_rank",
+                        "method": "採集",
+                        "target": "採集"
+                    }
+                ]
             }
         },
         "anjanath_scrap": {
@@ -30300,6 +32101,78 @@
                         "target_type": "environment",
                         "num": "1",
                         "rare": true
+                    }
+                ]
+            },
+            "map_gathering": {
+                "shrine_ruins": [
+                    {
+                        "rank": "both_rank",
+                        "method": "垂釣",
+                        "target": "釣魚點[區域6左]"
+                    },
+                    {
+                        "rank": "both_rank",
+                        "method": "垂釣",
+                        "target": "釣魚點[區域6右]"
+                    },
+                    {
+                        "rank": "both_rank",
+                        "method": "垂釣",
+                        "target": "釣魚點[區域13]"
+                    }
+                ],
+                "frost_islands": [
+                    {
+                        "rank": "both_rank",
+                        "method": "垂釣",
+                        "target": "釣魚點[區域3]"
+                    },
+                    {
+                        "rank": "both_rank",
+                        "method": "垂釣",
+                        "target": "釣魚點[區域11]"
+                    }
+                ],
+                "flooded_forest": [
+                    {
+                        "rank": "both_rank",
+                        "method": "垂釣",
+                        "target": "釣魚點[主營地]"
+                    },
+                    {
+                        "rank": "both_rank",
+                        "method": "垂釣",
+                        "target": "釣魚點[區域5]"
+                    }
+                ],
+                "sandy_plains": [
+                    {
+                        "rank": "both_rank",
+                        "method": "垂釣",
+                        "target": "釣魚點[區域1～2之間]"
+                    },
+                    {
+                        "rank": "both_rank",
+                        "method": "垂釣",
+                        "target": "釣魚點[區域8下層]"
+                    }
+                ],
+                "lava_caverns": [
+                    {
+                        "rank": "both_rank",
+                        "method": "垂釣",
+                        "target": "釣魚點[區域1]"
+                    },
+                    {
+                        "rank": "both_rank",
+                        "method": "垂釣",
+                        "target": "釣魚點[區域3]"
+                    },
+                    {
+                        "rank": "both_rank",
+                        "method": "垂釣",
+                        "target": "釣魚點[區域10下層]"
                     }
                 ]
             }
@@ -30479,6 +32352,29 @@
             "trade_market": {
                 "target": "sunsnug_fruitfair",
                 "num": "10"
+            },
+            "map_gathering": {
+                "flooded_forest": [
+                    {
+                        "rank": "both_rank",
+                        "method": "採集",
+                        "target": "採集"
+                    }
+                ],
+                "sandy_plains": [
+                    {
+                        "rank": "both_rank",
+                        "method": "採集",
+                        "target": "採集"
+                    }
+                ],
+                "lava_caverns": [
+                    {
+                        "rank": "both_rank",
+                        "method": "採集",
+                        "target": "採集"
+                    }
+                ]
             }
         },
         "bomberry": {
@@ -30503,6 +32399,29 @@
             "trade_market": {
                 "target": "sunsnug_fruitfair",
                 "num": "2"
+            },
+            "map_gathering": {
+                "shrine_ruins": [
+                    {
+                        "rank": "both_rank",
+                        "method": "採集",
+                        "target": "採集"
+                    }
+                ],
+                "sandy_plains": [
+                    {
+                        "rank": "both_rank",
+                        "method": "採集",
+                        "target": "採集"
+                    }
+                ],
+                "lava_caverns": [
+                    {
+                        "rank": "both_rank",
+                        "method": "採集",
+                        "target": "採集"
+                    }
+                ]
             }
         },
         "gloamgrass_bud": {
@@ -30521,6 +32440,22 @@
                         "target_type": "environment",
                         "num": "1",
                         "rare": false
+                    }
+                ]
+            },
+            "map_gathering": {
+                "frost_islands": [
+                    {
+                        "rank": "both_rank",
+                        "method": "採集",
+                        "target": "採集"
+                    }
+                ],
+                "sandy_plains": [
+                    {
+                        "rank": "both_rank",
+                        "method": "採集",
+                        "target": "採集"
                     }
                 ]
             }
@@ -30643,6 +32578,1043 @@
             "trade_market": {
                 "target": "icebarb_bazaar",
                 "isBonus": true
+            }
+        },
+        "unique_mushroom": {
+            "map_gathering": {
+                "shrine_ruins": [
+                    {
+                        "rank": "low_rank",
+                        "method": "特產",
+                        "target": "蘑菇的群生地"
+                    }
+                ]
+            }
+        },
+        "choice_mushroom": {
+            "map_gathering": {
+                "shrine_ruins": [
+                    {
+                        "rank": "low_rank",
+                        "method": "特產",
+                        "target": "蘑菇的群生地"
+                    },
+                    {
+                        "rank": "high_rank",
+                        "method": "特產",
+                        "target": "蘑菇的群生地"
+                    }
+                ]
+            }
+        },
+        "pricey_shroom": {
+            "map_gathering": {
+                "shrine_ruins": [
+                    {
+                        "rank": "high_rank",
+                        "method": "特產",
+                        "target": "蘑菇的群生地"
+                    }
+                ]
+            }
+        },
+        "super_shoot": {
+            "map_gathering": {
+                "shrine_ruins": [
+                    {
+                        "rank": "low_rank",
+                        "method": "特產",
+                        "target": "竹筍的群生地"
+                    }
+                ]
+            }
+        },
+        "choice_shoot": {
+            "map_gathering": {
+                "shrine_ruins": [
+                    {
+                        "rank": "low_rank",
+                        "method": "特產",
+                        "target": "竹筍的群生地"
+                    },
+                    {
+                        "rank": "high_rank",
+                        "method": "特產",
+                        "target": "竹筍的群生地"
+                    }
+                ]
+            }
+        },
+        "pricey_shoot": {
+            "map_gathering": {
+                "shrine_ruins": [
+                    {
+                        "rank": "high_rank",
+                        "method": "特產",
+                        "target": "竹筍的群生地"
+                    }
+                ]
+            }
+        },
+        "firelantern": {
+            "map_gathering": {
+                "shrine_ruins": [
+                    {
+                        "rank": "low_rank",
+                        "method": "特產",
+                        "target": "搖曳如火的果實"
+                    }
+                ]
+            }
+        },
+        "wisplantern": {
+            "map_gathering": {
+                "shrine_ruins": [
+                    {
+                        "rank": "low_rank",
+                        "method": "特產",
+                        "target": "搖曳如火的果實"
+                    },
+                    {
+                        "rank": "high_rank",
+                        "method": "特產",
+                        "target": "搖曳如火的果實"
+                    }
+                ]
+            }
+        },
+        "phantolantern": {
+            "map_gathering": {
+                "shrine_ruins": [
+                    {
+                        "rank": "high_rank",
+                        "method": "特產",
+                        "target": "搖曳如火的果實"
+                    }
+                ]
+            }
+        },
+        "crimsonfish": {
+            "map_gathering": {
+                "shrine_ruins": [
+                    {
+                        "rank": "low_rank",
+                        "method": "垂釣",
+                        "target": "釣魚點[區域6右]"
+                    }
+                ],
+                "flooded_forest": [
+                    {
+                        "rank": "both_rank",
+                        "method": "垂釣",
+                        "target": "釣魚點[區域5]"
+                    }
+                ],
+                "sandy_plains": [
+                    {
+                        "rank": "both_rank",
+                        "method": "垂釣",
+                        "target": "釣魚點[區域1～2之間]"
+                    }
+                ]
+            }
+        },
+        "platinumfish": {
+            "map_gathering": {
+                "shrine_ruins": [
+                    {
+                        "rank": "high_rank",
+                        "method": "垂釣",
+                        "target": "釣魚點[區域6右]"
+                    }
+                ],
+                "flooded_forest": [
+                    {
+                        "rank": "high_rank",
+                        "method": "垂釣",
+                        "target": "釣魚點[區域5]"
+                    }
+                ],
+                "sandy_plains": [
+                    {
+                        "rank": "high_rank",
+                        "method": "垂釣",
+                        "target": "釣魚點[區域1～2之間]"
+                    }
+                ]
+            }
+        },
+        "gastronome_tuna": {
+            "map_gathering": {
+                "shrine_ruins": [
+                    {
+                        "rank": "both_rank",
+                        "method": "垂釣",
+                        "target": "釣魚點[區域13]"
+                    }
+                ],
+                "sandy_plains": [
+                    {
+                        "rank": "both_rank",
+                        "method": "垂釣",
+                        "target": "釣魚點[區域8下層]"
+                    }
+                ]
+            }
+        },
+        "great_gastronome_tuna": {
+            "map_gathering": {
+                "shrine_ruins": [
+                    {
+                        "rank": "high_rank",
+                        "method": "垂釣",
+                        "target": "釣魚點[區域13]"
+                    }
+                ],
+                "sandy_plains": [
+                    {
+                        "rank": "high_rank",
+                        "method": "垂釣",
+                        "target": "釣魚點[區域8下層]"
+                    }
+                ]
+            }
+        },
+        "small_barrel": {
+            "map_gathering": {
+                "shrine_ruins": [
+                    {
+                        "rank": "both_rank",
+                        "method": "垃圾堆",
+                        "target": "垃圾堆"
+                    }
+                ],
+                "flooded_forest": [
+                    {
+                        "rank": "both_rank",
+                        "method": "採集",
+                        "target": "採集"
+                    }
+                ],
+                "sandy_plains": [
+                    {
+                        "rank": "both_rank",
+                        "method": "採集",
+                        "target": "採集"
+                    }
+                ]
+            }
+        },
+        "large_barrel": {
+            "map_gathering": {
+                "shrine_ruins": [
+                    {
+                        "rank": "both_rank",
+                        "method": "垃圾堆",
+                        "target": "垃圾堆"
+                    }
+                ],
+                "flooded_forest": [
+                    {
+                        "rank": "both_rank",
+                        "method": "採集",
+                        "target": "採集"
+                    }
+                ],
+                "sandy_plains": [
+                    {
+                        "rank": "both_rank",
+                        "method": "採集",
+                        "target": "採集"
+                    }
+                ]
+            }
+        },
+        "barrel_lid": {
+            "map_gathering": {
+                "shrine_ruins": [
+                    {
+                        "rank": "both_rank",
+                        "method": "垃圾堆",
+                        "target": "垃圾堆"
+                    }
+                ],
+                "frost_islands": [
+                    {
+                        "rank": "both_rank",
+                        "method": "採集",
+                        "target": "採集"
+                    }
+                ],
+                "flooded_forest": [
+                    {
+                        "rank": "both_rank",
+                        "method": "採集",
+                        "target": "採集"
+                    }
+                ],
+                "sandy_plains": [
+                    {
+                        "rank": "both_rank",
+                        "method": "採集",
+                        "target": "採集"
+                    }
+                ],
+                "lava_caverns": [
+                    {
+                        "rank": "both_rank",
+                        "method": "採集",
+                        "target": "採集"
+                    }
+                ]
+            }
+        },
+        "felyne_fur_ruby": {
+            "map_gathering": {
+                "shrine_ruins": [
+                    {
+                        "rank": "high_rank",
+                        "method": "垃圾堆",
+                        "target": "垃圾堆"
+                    }
+                ]
+            }
+        },
+        "wyvern_egg": {
+            "map_gathering": {
+                "shrine_ruins": [
+                    {
+                        "rank": "low_rank",
+                        "method": "龍蛋",
+                        "target": "龍的巢穴"
+                    }
+                ]
+            }
+        },
+        "quality_wyvern_egg": {
+            "map_gathering": {
+                "shrine_ruins": [
+                    {
+                        "rank": "high_rank",
+                        "method": "龍蛋",
+                        "target": "龍的巢穴"
+                    }
+                ]
+            }
+        },
+        "felvine": {
+            "map_gathering": {
+                "shrine_ruins": [
+                    {
+                        "rank": "both_rank",
+                        "method": "採集",
+                        "target": "採集"
+                    }
+                ],
+                "frost_islands": [
+                    {
+                        "rank": "both_rank",
+                        "method": "採集",
+                        "target": "採集"
+                    }
+                ],
+                "flooded_forest": [
+                    {
+                        "rank": "both_rank",
+                        "method": "採集",
+                        "target": "採集"
+                    }
+                ],
+                "sandy_plains": [
+                    {
+                        "rank": "both_rank",
+                        "method": "採集",
+                        "target": "採集"
+                    }
+                ],
+                "lava_caverns": [
+                    {
+                        "rank": "both_rank",
+                        "method": "採集",
+                        "target": "採集"
+                    }
+                ]
+            }
+        },
+        "dung": {
+            "map_gathering": {
+                "shrine_ruins": [
+                    {
+                        "rank": "both_rank",
+                        "method": "採集",
+                        "target": "採集"
+                    }
+                ],
+                "frost_islands": [
+                    {
+                        "rank": "both_rank",
+                        "method": "採集",
+                        "target": "採集"
+                    }
+                ],
+                "flooded_forest": [
+                    {
+                        "rank": "both_rank",
+                        "method": "採集",
+                        "target": "採集"
+                    }
+                ],
+                "sandy_plains": [
+                    {
+                        "rank": "both_rank",
+                        "method": "採集",
+                        "target": "採集"
+                    }
+                ],
+                "lava_caverns": [
+                    {
+                        "rank": "both_rank",
+                        "method": "採集",
+                        "target": "採集"
+                    }
+                ]
+            }
+        },
+        "cool_frostcone": {
+            "map_gathering": {
+                "frost_islands": [
+                    {
+                        "rank": "low_rank",
+                        "method": "特產",
+                        "target": "冰冷樹果"
+                    }
+                ]
+            }
+        },
+        "gelid_frostcone": {
+            "map_gathering": {
+                "frost_islands": [
+                    {
+                        "rank": "low_rank",
+                        "method": "特產",
+                        "target": "冰冷樹果"
+                    },
+                    {
+                        "rank": "high_rank",
+                        "method": "特產",
+                        "target": "冰冷樹果"
+                    }
+                ]
+            }
+        },
+        "bitter_frostcone": {
+            "map_gathering": {
+                "frost_islands": [
+                    {
+                        "rank": "high_rank",
+                        "method": "特產",
+                        "target": "冰冷樹果"
+                    }
+                ]
+            }
+        },
+        "raftshell": {
+            "map_gathering": {
+                "frost_islands": [
+                    {
+                        "rank": "low_rank",
+                        "method": "特產",
+                        "target": "牡蠣的群生地"
+                    }
+                ]
+            }
+        },
+        "boatshell": {
+            "map_gathering": {
+                "frost_islands": [
+                    {
+                        "rank": "low_rank",
+                        "method": "特產",
+                        "target": "牡蠣的群生地"
+                    },
+                    {
+                        "rank": "high_rank",
+                        "method": "特產",
+                        "target": "牡蠣的群生地"
+                    }
+                ]
+            }
+        },
+        "shipshell": {
+            "map_gathering": {
+                "frost_islands": [
+                    {
+                        "rank": "high_rank",
+                        "method": "特產",
+                        "target": "牡蠣的群生地"
+                    }
+                ]
+            }
+        },
+        "foreign_coin": {
+            "map_gathering": {
+                "frost_islands": [
+                    {
+                        "rank": "low_rank",
+                        "method": "特產",
+                        "target": "金幣袋"
+                    }
+                ]
+            }
+        },
+        "royal_mint_coin": {
+            "map_gathering": {
+                "frost_islands": [
+                    {
+                        "rank": "low_rank",
+                        "method": "特產",
+                        "target": "金幣袋"
+                    },
+                    {
+                        "rank": "high_rank",
+                        "method": "特產",
+                        "target": "金幣袋"
+                    }
+                ]
+            }
+        },
+        "mysterious_coin": {
+            "map_gathering": {
+                "frost_islands": [
+                    {
+                        "rank": "high_rank",
+                        "method": "特產",
+                        "target": "金幣袋"
+                    }
+                ]
+            }
+        },
+        "frost_fossil": {
+            "map_gathering": {
+                "frost_islands": [
+                    {
+                        "rank": "low_rank",
+                        "method": "特產",
+                        "target": "冰凍化石"
+                    }
+                ]
+            }
+        },
+        "big_frost_fossil": {
+            "map_gathering": {
+                "frost_islands": [
+                    {
+                        "rank": "high_rank",
+                        "method": "特產",
+                        "target": "冰凍化石"
+                    }
+                ]
+            }
+        },
+        "speartuna": {
+            "map_gathering": {
+                "frost_islands": [
+                    {
+                        "rank": "high_rank",
+                        "method": "垂釣",
+                        "target": "釣魚點[區域3]"
+                    }
+                ],
+                "lava_caverns": [
+                    {
+                        "rank": "high_rank",
+                        "method": "垂釣",
+                        "target": "釣魚點[區域3]"
+                    }
+                ]
+            }
+        },
+        "brocadefish": {
+            "map_gathering": {
+                "frost_islands": [
+                    {
+                        "rank": "both_rank",
+                        "method": "垂釣",
+                        "target": "釣魚點[區域11]"
+                    }
+                ],
+                "lava_caverns": [
+                    {
+                        "rank": "both_rank",
+                        "method": "垂釣",
+                        "target": "釣魚點[區域1]"
+                    }
+                ]
+            }
+        },
+        "king_brocadefish": {
+            "map_gathering": {
+                "frost_islands": [
+                    {
+                        "rank": "both_rank",
+                        "method": "垂釣",
+                        "target": "釣魚點[區域11]"
+                    }
+                ],
+                "lava_caverns": [
+                    {
+                        "rank": "both_rank",
+                        "method": "垂釣",
+                        "target": "釣魚點[區域1]"
+                    }
+                ]
+            }
+        },
+        "supreme_brocadefish": {
+            "map_gathering": {
+                "frost_islands": [
+                    {
+                        "rank": "high_rank",
+                        "method": "垂釣",
+                        "target": "釣魚點[區域11]"
+                    }
+                ],
+                "lava_caverns": [
+                    {
+                        "rank": "high_rank",
+                        "method": "垂釣",
+                        "target": "釣魚點[區域1]"
+                    }
+                ]
+            }
+        },
+        "ez_ration": {
+            "map_gathering": {
+                "frost_islands": [
+                    {
+                        "rank": "both_rank",
+                        "method": "採集",
+                        "target": "採集"
+                    }
+                ],
+                "lava_caverns": [
+                    {
+                        "rank": "both_rank",
+                        "method": "採集",
+                        "target": "採集"
+                    }
+                ]
+            }
+        },
+        "gunpowder": {
+            "map_gathering": {
+                "frost_islands": [
+                    {
+                        "rank": "both_rank",
+                        "method": "採集",
+                        "target": "採集"
+                    }
+                ],
+                "flooded_forest": [
+                    {
+                        "rank": "both_rank",
+                        "method": "採集",
+                        "target": "採集"
+                    }
+                ],
+                "lava_caverns": [
+                    {
+                        "rank": "both_rank",
+                        "method": "採集",
+                        "target": "採集"
+                    }
+                ]
+            }
+        },
+        "simple_prism": {
+            "map_gathering": {
+                "flooded_forest": [
+                    {
+                        "rank": "low_rank",
+                        "method": "特產",
+                        "target": "澄澈水晶"
+                    }
+                ]
+            }
+        },
+        "misty_prism": {
+            "map_gathering": {
+                "flooded_forest": [
+                    {
+                        "rank": "low_rank",
+                        "method": "特產",
+                        "target": "澄澈水晶"
+                    },
+                    {
+                        "rank": "high_rank",
+                        "method": "特產",
+                        "target": "澄澈水晶"
+                    }
+                ]
+            }
+        },
+        "cascade_prism": {
+            "map_gathering": {
+                "flooded_forest": [
+                    {
+                        "rank": "high_rank",
+                        "method": "特產",
+                        "target": "澄澈水晶"
+                    }
+                ]
+            }
+        },
+        "hearty_pitcher": {
+            "map_gathering": {
+                "flooded_forest": [
+                    {
+                        "rank": "low_rank",
+                        "method": "特產",
+                        "target": "豬籠草的群生地"
+                    }
+                ]
+            }
+        },
+        "gourmet_pitcher": {
+            "map_gathering": {
+                "flooded_forest": [
+                    {
+                        "rank": "low_rank",
+                        "method": "特產",
+                        "target": "豬籠草的群生地"
+                    },
+                    {
+                        "rank": "high_rank",
+                        "method": "特產",
+                        "target": "豬籠草的群生地"
+                    }
+                ]
+            }
+        },
+        "tripoint_pitcher": {
+            "map_gathering": {
+                "flooded_forest": [
+                    {
+                        "rank": "high_rank",
+                        "method": "特產",
+                        "target": "豬籠草的群生地"
+                    }
+                ]
+            }
+        },
+        "royal_rhino": {
+            "map_gathering": {
+                "flooded_forest": [
+                    {
+                        "rank": "low_rank",
+                        "method": "特產",
+                        "target": "閃耀獨角仙"
+                    }
+                ]
+            }
+        },
+        "king_rhino": {
+            "map_gathering": {
+                "flooded_forest": [
+                    {
+                        "rank": "low_rank",
+                        "method": "特產",
+                        "target": "閃耀獨角仙"
+                    },
+                    {
+                        "rank": "high_rank",
+                        "method": "特產",
+                        "target": "閃耀獨角仙"
+                    }
+                ]
+            }
+        },
+        "divine_rhino": {
+            "map_gathering": {
+                "flooded_forest": [
+                    {
+                        "rank": "high_rank",
+                        "method": "特產",
+                        "target": "閃耀獨角仙"
+                    }
+                ]
+            }
+        },
+        "laffresia": {
+            "map_gathering": {
+                "flooded_forest": [
+                    {
+                        "rank": "low_rank",
+                        "method": "特產",
+                        "target": "魅人的巨大花"
+                    }
+                ]
+            }
+        },
+        "alaffresia": {
+            "map_gathering": {
+                "flooded_forest": [
+                    {
+                        "rank": "high_rank",
+                        "method": "特產",
+                        "target": "魅人的巨大花"
+                    }
+                ]
+            }
+        },
+        "bauble_cactus": {
+            "map_gathering": {
+                "sandy_plains": [
+                    {
+                        "rank": "low_rank",
+                        "method": "特產",
+                        "target": "圓形仙人掌"
+                    }
+                ]
+            }
+        },
+        "jewel_cactus": {
+            "map_gathering": {
+                "sandy_plains": [
+                    {
+                        "rank": "low_rank",
+                        "method": "特產",
+                        "target": "圓形仙人掌"
+                    },
+                    {
+                        "rank": "high_rank",
+                        "method": "特產",
+                        "target": "圓形仙人掌"
+                    }
+                ]
+            }
+        },
+        "kingly_cactus": {
+            "map_gathering": {
+                "sandy_plains": [
+                    {
+                        "rank": "high_rank",
+                        "method": "特產",
+                        "target": "圓形仙人掌"
+                    }
+                ]
+            }
+        },
+        "tropical_berry": {
+            "map_gathering": {
+                "sandy_plains": [
+                    {
+                        "rank": "low_rank",
+                        "method": "特產",
+                        "target": "香醇的紅色果實"
+                    }
+                ]
+            }
+        },
+        "desert_berry": {
+            "map_gathering": {
+                "sandy_plains": [
+                    {
+                        "rank": "low_rank",
+                        "method": "特產",
+                        "target": "香醇的紅色果實"
+                    },
+                    {
+                        "rank": "high_rank",
+                        "method": "特產",
+                        "target": "香醇的紅色果實"
+                    }
+                ]
+            }
+        },
+        "lava_berry": {
+            "map_gathering": {
+                "sandy_plains": [
+                    {
+                        "rank": "high_rank",
+                        "method": "特產",
+                        "target": "香醇的紅色果實"
+                    }
+                ]
+            }
+        },
+        "sand_rose": {
+            "map_gathering": {
+                "sandy_plains": [
+                    {
+                        "rank": "low_rank",
+                        "method": "特產",
+                        "target": "沙漠薔薇"
+                    }
+                ]
+            }
+        },
+        "rock_rose": {
+            "map_gathering": {
+                "sandy_plains": [
+                    {
+                        "rank": "low_rank",
+                        "method": "特產",
+                        "target": "沙漠薔薇"
+                    },
+                    {
+                        "rank": "high_rank",
+                        "method": "特產",
+                        "target": "沙漠薔薇"
+                    }
+                ]
+            }
+        },
+        "gaia_rose": {
+            "map_gathering": {
+                "sandy_plains": [
+                    {
+                        "rank": "high_rank",
+                        "method": "特產",
+                        "target": "沙漠薔薇"
+                    }
+                ]
+            }
+        },
+        "coal": {
+            "map_gathering": {
+                "lava_caverns": [
+                    {
+                        "rank": "low_rank",
+                        "method": "特產",
+                        "target": "灼熱礦石"
+                    }
+                ]
+            }
+        },
+        "volatile_coal": {
+            "map_gathering": {
+                "lava_caverns": [
+                    {
+                        "rank": "low_rank",
+                        "method": "特產",
+                        "target": "灼熱礦石"
+                    },
+                    {
+                        "rank": "high_rank",
+                        "method": "特產",
+                        "target": "灼熱礦石"
+                    }
+                ]
+            }
+        },
+        "inflammable_coal": {
+            "map_gathering": {
+                "lava_caverns": [
+                    {
+                        "rank": "high_rank",
+                        "method": "特產",
+                        "target": "灼熱礦石"
+                    }
+                ]
+            }
+        },
+        "chalcedony_bone": {
+            "map_gathering": {
+                "lava_caverns": [
+                    {
+                        "rank": "low_rank",
+                        "method": "特產",
+                        "target": "龍骨化石"
+                    }
+                ]
+            }
+        },
+        "chalcedony_greatbone": {
+            "map_gathering": {
+                "lava_caverns": [
+                    {
+                        "rank": "low_rank",
+                        "method": "特產",
+                        "target": "龍骨化石"
+                    },
+                    {
+                        "rank": "high_rank",
+                        "method": "特產",
+                        "target": "龍骨化石"
+                    }
+                ]
+            }
+        },
+        "chalcedony_skull": {
+            "map_gathering": {
+                "lava_caverns": [
+                    {
+                        "rank": "high_rank",
+                        "method": "特產",
+                        "target": "龍骨化石"
+                    }
+                ]
+            }
+        },
+        "bismuth_fragment": {
+            "map_gathering": {
+                "lava_caverns": [
+                    {
+                        "rank": "low_rank",
+                        "method": "特產",
+                        "target": "虹色礦石"
+                    }
+                ]
+            }
+        },
+        "bismuth_prism": {
+            "map_gathering": {
+                "lava_caverns": [
+                    {
+                        "rank": "low_rank",
+                        "method": "特產",
+                        "target": "虹色礦石"
+                    },
+                    {
+                        "rank": "high_rank",
+                        "method": "特產",
+                        "target": "虹色礦石"
+                    }
+                ]
+            }
+        },
+        "bismuth_augite": {
+            "map_gathering": {
+                "lava_caverns": [
+                    {
+                        "rank": "high_rank",
+                        "method": "特產",
+                        "target": "虹色礦石"
+                    }
+                ]
+            }
+        },
+        "bismuth_chunk": {
+            "map_gathering": {
+                "lava_caverns": [
+                    {
+                        "rank": "low_rank",
+                        "method": "特產",
+                        "target": "虹色結晶"
+                    }
+                ]
+            }
+        },
+        "big_bismuth_chunk": {
+            "map_gathering": {
+                "lava_caverns": [
+                    {
+                        "rank": "high_rank",
+                        "method": "特產",
+                        "target": "虹色結晶"
+                    }
+                ]
             }
         }
     }

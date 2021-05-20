@@ -1,0 +1,198 @@
+{
+    "trade_market": {
+        "sunsnug_fruitfair": [
+            {
+                "item": "nulberry",
+                "num": "2"
+            },
+            {
+                "item": "might_seed",
+                "num": "1"
+            },
+            {
+                "item": "adamant_seed",
+                "num": "1"
+            },
+            {
+                "item": "smokenut",
+                "num": "2"
+            },
+            {
+                "item": "dragonfell_berry",
+                "num": "1"
+            },
+            {
+                "item": "huskberry",
+                "num": "30"
+            },
+            {
+                "item": "latchberry",
+                "num": "20"
+            },
+            {
+                "item": "needleberry",
+                "num": "20"
+            },
+            {
+                "item": "bomberry",
+                "num": "2"
+            },
+            {
+                "item": "blastnut",
+                "num": "5"
+            },
+            {
+                "item": "dragonstrike_nut",
+                "num": "2"
+            },
+            {
+                "item": "slashberry",
+                "num": "15"
+            },
+            {
+                "item": "flamenut",
+                "num": "20"
+            },
+            {
+                "item": "blazenut",
+                "num": "10"
+            },
+            {
+                "item": "dosbiscus",
+                "isBonus": true
+            },
+            {
+                "item": "springnight_carp",
+                "isBonus": true
+            }
+        ],
+        "mushyroom_market": [
+            {
+                "item": "spider_web",
+                "num": "2"
+            },
+            {
+                "item": "honey",
+                "num": "1"
+            },
+            {
+                "item": "godbug",
+                "num": "1"
+            },
+            {
+                "item": "bitterbug",
+                "num": "1"
+            },
+            {
+                "item": "thunderbug",
+                "num": "1"
+            },
+            {
+                "item": "flashbug",
+                "num": "1"
+            },
+            {
+                "item": "blue_mushroom",
+                "num": "2"
+            },
+            {
+                "item": "nitroshroom",
+                "num": "1"
+            },
+            {
+                "item": "parashroom",
+                "num": "2"
+            },
+            {
+                "item": "toadstool",
+                "num": "2"
+            },
+            {
+                "item": "exciteshroom",
+                "num": "1"
+            },
+            {
+                "item": "mandragora",
+                "num": "1"
+            },
+            {
+                "item": "dreamshell",
+                "isBonus": true
+            },
+            {
+                "item": "blossom_cricket",
+                "isBonus": true
+            },
+            {
+                "item": "butterfly_beetle",
+                "isBonus": true
+            }
+        ],
+        "icebarb_bazaar": [
+            {
+                "item": "herb",
+                "num": "3"
+            },
+            {
+                "item": "antidote_herb",
+                "num": "2"
+            },
+            {
+                "item": "fire_herb",
+                "num": "2"
+            },
+            {
+                "item": "flowfern",
+                "num": "2"
+            },
+            {
+                "item": "sleep_herb",
+                "num": "2"
+            },
+            {
+                "item": "snow_herb",
+                "num": "2"
+            },
+            {
+                "item": "sunscorned_grass",
+                "num": "2"
+            },
+            {
+                "item": "ivy",
+                "num": "2"
+            },
+            {
+                "item": "popfish",
+                "num": "2"
+            },
+            {
+                "item": "scatterfish",
+                "num": "1"
+            },
+            {
+                "item": "combustuna",
+                "num": "1"
+            },
+            {
+                "item": "big_combustuna",
+                "num": "1"
+            },
+            {
+                "item": "flamefin",
+                "num": "1"
+            },
+            {
+                "item": "great_flamefin",
+                "num": "1"
+            },
+            {
+                "item": "toxic_kumori",
+                "isBonus": true
+            },
+            {
+                "item": "armored_bream",
+                "isBonus": true
+            }
+        ]
+    }
+}

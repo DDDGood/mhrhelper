@@ -1,0 +1,2352 @@
+{
+    "maps": {
+        "shrine_ruins": {
+            "gathering": [
+                {
+                    "item": "iron_ore",
+                    "rank": "low_rank",
+                    "method": "挖礦",
+                    "target": "礦脈"
+                },
+                {
+                    "item": "earth_crystal",
+                    "rank": "low_rank",
+                    "method": "挖礦",
+                    "target": "礦脈"
+                },
+                {
+                    "item": "dragonite_ore",
+                    "rank": "high_rank",
+                    "method": "挖礦",
+                    "target": "礦脈"
+                },
+                {
+                    "item": "iron_ore",
+                    "rank": "high_rank",
+                    "method": "挖礦",
+                    "target": "礦脈"
+                },
+                {
+                    "item": "earth_crystal",
+                    "rank": "high_rank",
+                    "method": "挖礦",
+                    "target": "礦脈"
+                },
+                {
+                    "item": "carbalite_ore",
+                    "rank": "high_rank",
+                    "method": "挖礦",
+                    "target": "礦脈"
+                },
+                {
+                    "item": "machalite_ore",
+                    "rank": "high_rank",
+                    "method": "挖礦",
+                    "target": "礦脈"
+                },
+                {
+                    "item": "twisted_remains",
+                    "rank": "low_rank",
+                    "method": "骨採集",
+                    "target": "骨冢"
+                },
+                {
+                    "item": "monster_bone_s",
+                    "rank": "low_rank",
+                    "method": "骨採集",
+                    "target": "骨冢"
+                },
+                {
+                    "item": "twisted_rockbone",
+                    "rank": "high_rank",
+                    "method": "骨採集",
+                    "target": "骨冢"
+                },
+                {
+                    "item": "sturdy_bone",
+                    "rank": "high_rank",
+                    "method": "骨採集",
+                    "target": "骨冢"
+                },
+                {
+                    "item": "quality_bone",
+                    "rank": "high_rank",
+                    "method": "骨採集",
+                    "target": "骨冢"
+                },
+                {
+                    "item": "unique_mushroom",
+                    "rank": "low_rank",
+                    "method": "特產",
+                    "target": "蘑菇的群生地"
+                },
+                {
+                    "item": "choice_mushroom",
+                    "rank": "low_rank",
+                    "method": "特產",
+                    "target": "蘑菇的群生地"
+                },
+                {
+                    "item": "choice_mushroom",
+                    "rank": "high_rank",
+                    "method": "特產",
+                    "target": "蘑菇的群生地"
+                },
+                {
+                    "item": "pricey_shroom",
+                    "rank": "high_rank",
+                    "method": "特產",
+                    "target": "蘑菇的群生地"
+                },
+                {
+                    "item": "super_shoot",
+                    "rank": "low_rank",
+                    "method": "特產",
+                    "target": "竹筍的群生地"
+                },
+                {
+                    "item": "choice_shoot",
+                    "rank": "low_rank",
+                    "method": "特產",
+                    "target": "竹筍的群生地"
+                },
+                {
+                    "item": "choice_shoot",
+                    "rank": "high_rank",
+                    "method": "特產",
+                    "target": "竹筍的群生地"
+                },
+                {
+                    "item": "pricey_shoot",
+                    "rank": "high_rank",
+                    "method": "特產",
+                    "target": "竹筍的群生地"
+                },
+                {
+                    "item": "firelantern",
+                    "rank": "low_rank",
+                    "method": "特產",
+                    "target": "搖曳如火的果實"
+                },
+                {
+                    "item": "wisplantern",
+                    "rank": "low_rank",
+                    "method": "特產",
+                    "target": "搖曳如火的果實"
+                },
+                {
+                    "item": "wisplantern",
+                    "rank": "high_rank",
+                    "method": "特產",
+                    "target": "搖曳如火的果實"
+                },
+                {
+                    "item": "phantolantern",
+                    "rank": "high_rank",
+                    "method": "特產",
+                    "target": "搖曳如火的果實"
+                },
+                {
+                    "item": "whetfish",
+                    "rank": "both_rank",
+                    "method": "垂釣",
+                    "target": "釣魚點[區域6左]"
+                },
+                {
+                    "item": "great_whetfish",
+                    "rank": "both_rank",
+                    "method": "垂釣",
+                    "target": "釣魚點[區域6左]"
+                },
+                {
+                    "item": "sushifish",
+                    "rank": "both_rank",
+                    "method": "垂釣",
+                    "target": "釣魚點[區域6左]"
+                },
+                {
+                    "item": "combustuna",
+                    "rank": "both_rank",
+                    "method": "垂釣",
+                    "target": "釣魚點[區域6左]"
+                },
+                {
+                    "item": "big_combustuna",
+                    "rank": "both_rank",
+                    "method": "垂釣",
+                    "target": "釣魚點[區域6左]"
+                },
+                {
+                    "item": "popfish",
+                    "rank": "both_rank",
+                    "method": "垂釣",
+                    "target": "釣魚點[區域6左]"
+                },
+                {
+                    "item": "scatterfish",
+                    "rank": "both_rank",
+                    "method": "垂釣",
+                    "target": "釣魚點[區域6左]"
+                },
+                {
+                    "item": "goldenfry",
+                    "rank": "both_rank",
+                    "method": "垂釣",
+                    "target": "釣魚點[區域6左]"
+                },
+                {
+                    "item": "popfish",
+                    "rank": "both_rank",
+                    "method": "垂釣",
+                    "target": "釣魚點[區域6右]"
+                },
+                {
+                    "item": "whetfish",
+                    "rank": "both_rank",
+                    "method": "垂釣",
+                    "target": "釣魚點[區域6右]"
+                },
+                {
+                    "item": "great_whetfish",
+                    "rank": "both_rank",
+                    "method": "垂釣",
+                    "target": "釣魚點[區域6右]"
+                },
+                {
+                    "item": "sushifish",
+                    "rank": "both_rank",
+                    "method": "垂釣",
+                    "target": "釣魚點[區域6右]"
+                },
+                {
+                    "item": "combustuna",
+                    "rank": "both_rank",
+                    "method": "垂釣",
+                    "target": "釣魚點[區域6右]"
+                },
+                {
+                    "item": "scatterfish",
+                    "rank": "both_rank",
+                    "method": "垂釣",
+                    "target": "釣魚點[區域6右]"
+                },
+                {
+                    "item": "big_combustuna",
+                    "rank": "both_rank",
+                    "method": "垂釣",
+                    "target": "釣魚點[區域6右]"
+                },
+                {
+                    "item": "goldenfish",
+                    "rank": "low_rank",
+                    "method": "垂釣",
+                    "target": "釣魚點[區域6右]"
+                },
+                {
+                    "item": "crimsonfish",
+                    "rank": "low_rank",
+                    "method": "垂釣",
+                    "target": "釣魚點[區域6右]"
+                },
+                {
+                    "item": "platinumfish",
+                    "rank": "high_rank",
+                    "method": "垂釣",
+                    "target": "釣魚點[區域6右]"
+                },
+                {
+                    "item": "whetfish",
+                    "rank": "both_rank",
+                    "method": "垂釣",
+                    "target": "釣魚點[區域13]"
+                },
+                {
+                    "item": "great_whetfish",
+                    "rank": "both_rank",
+                    "method": "垂釣",
+                    "target": "釣魚點[區域13]"
+                },
+                {
+                    "item": "sushifish",
+                    "rank": "both_rank",
+                    "method": "垂釣",
+                    "target": "釣魚點[區域13]"
+                },
+                {
+                    "item": "combustuna",
+                    "rank": "both_rank",
+                    "method": "垂釣",
+                    "target": "釣魚點[區域13]"
+                },
+                {
+                    "item": "big_combustuna",
+                    "rank": "both_rank",
+                    "method": "垂釣",
+                    "target": "釣魚點[區域13]"
+                },
+                {
+                    "item": "popfish",
+                    "rank": "both_rank",
+                    "method": "垂釣",
+                    "target": "釣魚點[區域13]"
+                },
+                {
+                    "item": "scatterfish",
+                    "rank": "both_rank",
+                    "method": "垂釣",
+                    "target": "釣魚點[區域13]"
+                },
+                {
+                    "item": "gastronome_tuna",
+                    "rank": "both_rank",
+                    "method": "垂釣",
+                    "target": "釣魚點[區域13]"
+                },
+                {
+                    "item": "great_gastronome_tuna",
+                    "rank": "high_rank",
+                    "method": "垂釣",
+                    "target": "釣魚點[區域13]"
+                },
+                {
+                    "item": "small_barrel",
+                    "rank": "both_rank",
+                    "method": "垃圾堆",
+                    "target": "垃圾堆"
+                },
+                {
+                    "item": "large_barrel",
+                    "rank": "both_rank",
+                    "method": "垃圾堆",
+                    "target": "垃圾堆"
+                },
+                {
+                    "item": "barrel_lid",
+                    "rank": "both_rank",
+                    "method": "垃圾堆",
+                    "target": "垃圾堆"
+                },
+                {
+                    "item": "felyne_fur_ruby",
+                    "rank": "high_rank",
+                    "method": "垃圾堆",
+                    "target": "垃圾堆"
+                },
+                {
+                    "item": "wyvern_egg",
+                    "rank": "low_rank",
+                    "method": "龍蛋",
+                    "target": "龍的巢穴"
+                },
+                {
+                    "item": "quality_wyvern_egg",
+                    "rank": "high_rank",
+                    "method": "龍蛋",
+                    "target": "龍的巢穴"
+                },
+                {
+                    "item": "nulberry",
+                    "rank": "both_rank",
+                    "method": "採集",
+                    "target": "採集"
+                },
+                {
+                    "item": "might_seed",
+                    "rank": "both_rank",
+                    "method": "採集",
+                    "target": "採集"
+                },
+                {
+                    "item": "bomberry",
+                    "rank": "both_rank",
+                    "method": "採集",
+                    "target": "採集"
+                },
+                {
+                    "item": "fire_herb",
+                    "rank": "both_rank",
+                    "method": "採集",
+                    "target": "採集"
+                },
+                {
+                    "item": "huskberry",
+                    "rank": "both_rank",
+                    "method": "採集",
+                    "target": "採集"
+                },
+                {
+                    "item": "antidote_herb",
+                    "rank": "both_rank",
+                    "method": "採集",
+                    "target": "採集"
+                },
+                {
+                    "item": "slashberry",
+                    "rank": "both_rank",
+                    "method": "採集",
+                    "target": "採集"
+                },
+                {
+                    "item": "flamenut",
+                    "rank": "both_rank",
+                    "method": "採集",
+                    "target": "採集"
+                },
+                {
+                    "item": "ivy",
+                    "rank": "both_rank",
+                    "method": "採集",
+                    "target": "採集"
+                },
+                {
+                    "item": "latchberry",
+                    "rank": "both_rank",
+                    "method": "採集",
+                    "target": "採集"
+                },
+                {
+                    "item": "adamant_seed",
+                    "rank": "both_rank",
+                    "method": "採集",
+                    "target": "採集"
+                },
+                {
+                    "item": "sleep_herb",
+                    "rank": "both_rank",
+                    "method": "採集",
+                    "target": "採集"
+                },
+                {
+                    "item": "blastnut",
+                    "rank": "both_rank",
+                    "method": "採集",
+                    "target": "採集"
+                },
+                {
+                    "item": "needleberry",
+                    "rank": "both_rank",
+                    "method": "採集",
+                    "target": "採集"
+                },
+                {
+                    "item": "felvine",
+                    "rank": "both_rank",
+                    "method": "採集",
+                    "target": "採集"
+                },
+                {
+                    "item": "herb",
+                    "rank": "both_rank",
+                    "method": "採集",
+                    "target": "採集"
+                },
+                {
+                    "item": "dragonstrike_nut",
+                    "rank": "both_rank",
+                    "method": "採集",
+                    "target": "採集"
+                },
+                {
+                    "item": "flowfern",
+                    "rank": "both_rank",
+                    "method": "採集",
+                    "target": "採集"
+                },
+                {
+                    "item": "blue_mushroom",
+                    "rank": "both_rank",
+                    "method": "採集",
+                    "target": "採集"
+                },
+                {
+                    "item": "spider_web",
+                    "rank": "both_rank",
+                    "method": "採集",
+                    "target": "採集"
+                },
+                {
+                    "item": "exciteshroom",
+                    "rank": "both_rank",
+                    "method": "採集",
+                    "target": "採集"
+                },
+                {
+                    "item": "toadstool",
+                    "rank": "both_rank",
+                    "method": "採集",
+                    "target": "採集"
+                },
+                {
+                    "item": "bitterbug",
+                    "rank": "both_rank",
+                    "method": "採集",
+                    "target": "採集"
+                },
+                {
+                    "item": "nitroshroom",
+                    "rank": "both_rank",
+                    "method": "採集",
+                    "target": "採集"
+                },
+                {
+                    "item": "honey",
+                    "rank": "both_rank",
+                    "method": "採集",
+                    "target": "採集"
+                },
+                {
+                    "item": "flashbug",
+                    "rank": "both_rank",
+                    "method": "採集",
+                    "target": "採集"
+                },
+                {
+                    "item": "godbug",
+                    "rank": "both_rank",
+                    "method": "採集",
+                    "target": "採集"
+                },
+                {
+                    "item": "parashroom",
+                    "rank": "both_rank",
+                    "method": "採集",
+                    "target": "採集"
+                },
+                {
+                    "item": "mandragora",
+                    "rank": "both_rank",
+                    "method": "採集",
+                    "target": "採集"
+                },
+                {
+                    "item": "dung",
+                    "rank": "both_rank",
+                    "method": "採集",
+                    "target": "採集"
+                },
+                {
+                    "item": "thunderbug",
+                    "rank": "both_rank",
+                    "method": "採集",
+                    "target": "採集"
+                }
+            ]
+        },
+        "frost_islands": {
+            "gathering": [
+                {
+                    "item": "iron_ore",
+                    "rank": "low_rank",
+                    "method": "挖礦",
+                    "target": "礦脈"
+                },
+                {
+                    "item": "earth_crystal",
+                    "rank": "low_rank",
+                    "method": "挖礦",
+                    "target": "礦脈"
+                },
+                {
+                    "item": "icium",
+                    "rank": "low_rank",
+                    "method": "挖礦",
+                    "target": "礦脈"
+                },
+                {
+                    "item": "carbalite_ore",
+                    "rank": "high_rank",
+                    "method": "挖礦",
+                    "target": "礦脈"
+                },
+                {
+                    "item": "dragonite_ore",
+                    "rank": "high_rank",
+                    "method": "挖礦",
+                    "target": "礦脈"
+                },
+                {
+                    "item": "icium",
+                    "rank": "high_rank",
+                    "method": "挖礦",
+                    "target": "礦脈"
+                },
+                {
+                    "item": "machalite_ore",
+                    "rank": "high_rank",
+                    "method": "挖礦",
+                    "target": "礦脈"
+                },
+                {
+                    "item": "gracium",
+                    "rank": "high_rank",
+                    "method": "挖礦",
+                    "target": "礦脈"
+                },
+                {
+                    "item": "monster_bone_s",
+                    "rank": "low_rank",
+                    "method": "骨採集",
+                    "target": "骨冢"
+                },
+                {
+                    "item": "dragonhusk_shard",
+                    "rank": "low_rank",
+                    "method": "骨採集",
+                    "target": "骨冢"
+                },
+                {
+                    "item": "quality_bone",
+                    "rank": "high_rank",
+                    "method": "骨採集",
+                    "target": "骨冢"
+                },
+                {
+                    "item": "sturdy_bone",
+                    "rank": "high_rank",
+                    "method": "骨採集",
+                    "target": "骨冢"
+                },
+                {
+                    "item": "dragonbone_relic",
+                    "rank": "high_rank",
+                    "method": "骨採集",
+                    "target": "骨冢"
+                },
+                {
+                    "item": "cool_frostcone",
+                    "rank": "low_rank",
+                    "method": "特產",
+                    "target": "冰冷樹果"
+                },
+                {
+                    "item": "gelid_frostcone",
+                    "rank": "low_rank",
+                    "method": "特產",
+                    "target": "冰冷樹果"
+                },
+                {
+                    "item": "gelid_frostcone",
+                    "rank": "high_rank",
+                    "method": "特產",
+                    "target": "冰冷樹果"
+                },
+                {
+                    "item": "bitter_frostcone",
+                    "rank": "high_rank",
+                    "method": "特產",
+                    "target": "冰冷樹果"
+                },
+                {
+                    "item": "raftshell",
+                    "rank": "low_rank",
+                    "method": "特產",
+                    "target": "牡蠣的群生地"
+                },
+                {
+                    "item": "boatshell",
+                    "rank": "low_rank",
+                    "method": "特產",
+                    "target": "牡蠣的群生地"
+                },
+                {
+                    "item": "boatshell",
+                    "rank": "high_rank",
+                    "method": "特產",
+                    "target": "牡蠣的群生地"
+                },
+                {
+                    "item": "shipshell",
+                    "rank": "high_rank",
+                    "method": "特產",
+                    "target": "牡蠣的群生地"
+                },
+                {
+                    "item": "foreign_coin",
+                    "rank": "low_rank",
+                    "method": "特產",
+                    "target": "金幣袋"
+                },
+                {
+                    "item": "royal_mint_coin",
+                    "rank": "low_rank",
+                    "method": "特產",
+                    "target": "金幣袋"
+                },
+                {
+                    "item": "royal_mint_coin",
+                    "rank": "high_rank",
+                    "method": "特產",
+                    "target": "金幣袋"
+                },
+                {
+                    "item": "mysterious_coin",
+                    "rank": "high_rank",
+                    "method": "特產",
+                    "target": "金幣袋"
+                },
+                {
+                    "item": "frost_fossil",
+                    "rank": "low_rank",
+                    "method": "特產",
+                    "target": "冰凍化石"
+                },
+                {
+                    "item": "big_frost_fossil",
+                    "rank": "high_rank",
+                    "method": "特產",
+                    "target": "冰凍化石"
+                },
+                {
+                    "item": "popfish",
+                    "rank": "both_rank",
+                    "method": "垂釣",
+                    "target": "釣魚點[區域3]"
+                },
+                {
+                    "item": "whetfish",
+                    "rank": "both_rank",
+                    "method": "垂釣",
+                    "target": "釣魚點[區域3]"
+                },
+                {
+                    "item": "great_whetfish",
+                    "rank": "both_rank",
+                    "method": "垂釣",
+                    "target": "釣魚點[區域3]"
+                },
+                {
+                    "item": "scatterfish",
+                    "rank": "both_rank",
+                    "method": "垂釣",
+                    "target": "釣魚點[區域3]"
+                },
+                {
+                    "item": "sushifish",
+                    "rank": "both_rank",
+                    "method": "垂釣",
+                    "target": "釣魚點[區域3]"
+                },
+                {
+                    "item": "combustuna",
+                    "rank": "both_rank",
+                    "method": "垂釣",
+                    "target": "釣魚點[區域3]"
+                },
+                {
+                    "item": "big_combustuna",
+                    "rank": "both_rank",
+                    "method": "垂釣",
+                    "target": "釣魚點[區域3]"
+                },
+                {
+                    "item": "speartuna",
+                    "rank": "high_rank",
+                    "method": "垂釣",
+                    "target": "釣魚點[區域3]"
+                },
+                {
+                    "item": "popfish",
+                    "rank": "both_rank",
+                    "method": "垂釣",
+                    "target": "釣魚點[區域11]"
+                },
+                {
+                    "item": "sushifish",
+                    "rank": "both_rank",
+                    "method": "垂釣",
+                    "target": "釣魚點[區域11]"
+                },
+                {
+                    "item": "scatterfish",
+                    "rank": "both_rank",
+                    "method": "垂釣",
+                    "target": "釣魚點[區域11]"
+                },
+                {
+                    "item": "whetfish",
+                    "rank": "both_rank",
+                    "method": "垂釣",
+                    "target": "釣魚點[區域11]"
+                },
+                {
+                    "item": "great_whetfish",
+                    "rank": "both_rank",
+                    "method": "垂釣",
+                    "target": "釣魚點[區域11]"
+                },
+                {
+                    "item": "combustuna",
+                    "rank": "both_rank",
+                    "method": "垂釣",
+                    "target": "釣魚點[區域11]"
+                },
+                {
+                    "item": "brocadefish",
+                    "rank": "both_rank",
+                    "method": "垂釣",
+                    "target": "釣魚點[區域11]"
+                },
+                {
+                    "item": "king_brocadefish",
+                    "rank": "both_rank",
+                    "method": "垂釣",
+                    "target": "釣魚點[區域11]"
+                },
+                {
+                    "item": "supreme_brocadefish",
+                    "rank": "high_rank",
+                    "method": "垂釣",
+                    "target": "釣魚點[區域11]"
+                },
+                {
+                    "item": "herb",
+                    "rank": "both_rank",
+                    "method": "採集",
+                    "target": "採集"
+                },
+                {
+                    "item": "ivy",
+                    "rank": "both_rank",
+                    "method": "採集",
+                    "target": "採集"
+                },
+                {
+                    "item": "snow_herb",
+                    "rank": "both_rank",
+                    "method": "採集",
+                    "target": "採集"
+                },
+                {
+                    "item": "felvine",
+                    "rank": "both_rank",
+                    "method": "採集",
+                    "target": "採集"
+                },
+                {
+                    "item": "sunscorned_grass",
+                    "rank": "both_rank",
+                    "method": "採集",
+                    "target": "採集"
+                },
+                {
+                    "item": "gloamgrass_bud",
+                    "rank": "both_rank",
+                    "method": "採集",
+                    "target": "採集"
+                },
+                {
+                    "item": "flowfern",
+                    "rank": "both_rank",
+                    "method": "採集",
+                    "target": "採集"
+                },
+                {
+                    "item": "thunderbug",
+                    "rank": "both_rank",
+                    "method": "採集",
+                    "target": "採集"
+                },
+                {
+                    "item": "flashbug",
+                    "rank": "both_rank",
+                    "method": "採集",
+                    "target": "採集"
+                },
+                {
+                    "item": "slashberry",
+                    "rank": "both_rank",
+                    "method": "採集",
+                    "target": "採集"
+                },
+                {
+                    "item": "latchberry",
+                    "rank": "both_rank",
+                    "method": "採集",
+                    "target": "採集"
+                },
+                {
+                    "item": "smokenut",
+                    "rank": "both_rank",
+                    "method": "採集",
+                    "target": "採集"
+                },
+                {
+                    "item": "flamenut",
+                    "rank": "both_rank",
+                    "method": "採集",
+                    "target": "採集"
+                },
+                {
+                    "item": "nulberry",
+                    "rank": "both_rank",
+                    "method": "採集",
+                    "target": "採集"
+                },
+                {
+                    "item": "huskberry",
+                    "rank": "both_rank",
+                    "method": "採集",
+                    "target": "採集"
+                },
+                {
+                    "item": "dragonstrike_nut",
+                    "rank": "both_rank",
+                    "method": "採集",
+                    "target": "採集"
+                },
+                {
+                    "item": "honey",
+                    "rank": "both_rank",
+                    "method": "採集",
+                    "target": "採集"
+                },
+                {
+                    "item": "mandragora",
+                    "rank": "both_rank",
+                    "method": "採集",
+                    "target": "採集"
+                },
+                {
+                    "item": "exciteshroom",
+                    "rank": "both_rank",
+                    "method": "採集",
+                    "target": "採集"
+                },
+                {
+                    "item": "blue_mushroom",
+                    "rank": "both_rank",
+                    "method": "採集",
+                    "target": "採集"
+                },
+                {
+                    "item": "spider_web",
+                    "rank": "both_rank",
+                    "method": "採集",
+                    "target": "採集"
+                },
+                {
+                    "item": "ez_ration",
+                    "rank": "both_rank",
+                    "method": "採集",
+                    "target": "採集"
+                },
+                {
+                    "item": "barrel_lid",
+                    "rank": "both_rank",
+                    "method": "採集",
+                    "target": "採集"
+                },
+                {
+                    "item": "gunpowder",
+                    "rank": "both_rank",
+                    "method": "採集",
+                    "target": "採集"
+                },
+                {
+                    "item": "dung",
+                    "rank": "both_rank",
+                    "method": "採集",
+                    "target": "採集"
+                }
+            ]
+        },
+        "flooded_forest": {
+            "gathering": [
+                {
+                    "item": "earth_crystal",
+                    "rank": "low_rank",
+                    "method": "挖礦",
+                    "target": "礦脈"
+                },
+                {
+                    "item": "machalite_ore",
+                    "rank": "low_rank",
+                    "method": "挖礦",
+                    "target": "礦脈"
+                },
+                {
+                    "item": "lightcrystal",
+                    "rank": "low_rank",
+                    "method": "挖礦",
+                    "target": "礦脈"
+                },
+                {
+                    "item": "carbalite_ore",
+                    "rank": "high_rank",
+                    "method": "挖礦",
+                    "target": "礦脈"
+                },
+                {
+                    "item": "dragonite_ore",
+                    "rank": "high_rank",
+                    "method": "挖礦",
+                    "target": "礦脈"
+                },
+                {
+                    "item": "fucium_ore",
+                    "rank": "high_rank",
+                    "method": "挖礦",
+                    "target": "礦脈"
+                },
+                {
+                    "item": "lightcrystal",
+                    "rank": "high_rank",
+                    "method": "挖礦",
+                    "target": "礦脈"
+                },
+                {
+                    "item": "novacrystal",
+                    "rank": "high_rank",
+                    "method": "挖礦",
+                    "target": "礦脈"
+                },
+                {
+                    "item": "machalite_ore",
+                    "rank": "high_rank",
+                    "method": "挖礦",
+                    "target": "礦脈"
+                },
+                {
+                    "item": "monster_bone_s",
+                    "rank": "low_rank",
+                    "method": "骨採集",
+                    "target": "骨冢"
+                },
+                {
+                    "item": "dragonhusk_shard",
+                    "rank": "low_rank",
+                    "method": "骨採集",
+                    "target": "骨冢"
+                },
+                {
+                    "item": "quality_bone",
+                    "rank": "high_rank",
+                    "method": "骨採集",
+                    "target": "骨冢"
+                },
+                {
+                    "item": "sturdy_bone",
+                    "rank": "high_rank",
+                    "method": "骨採集",
+                    "target": "骨冢"
+                },
+                {
+                    "item": "dragonbone_relic",
+                    "rank": "high_rank",
+                    "method": "骨採集",
+                    "target": "骨冢"
+                },
+                {
+                    "item": "simple_prism",
+                    "rank": "low_rank",
+                    "method": "特產",
+                    "target": "澄澈水晶"
+                },
+                {
+                    "item": "misty_prism",
+                    "rank": "low_rank",
+                    "method": "特產",
+                    "target": "澄澈水晶"
+                },
+                {
+                    "item": "misty_prism",
+                    "rank": "high_rank",
+                    "method": "特產",
+                    "target": "澄澈水晶"
+                },
+                {
+                    "item": "cascade_prism",
+                    "rank": "high_rank",
+                    "method": "特產",
+                    "target": "澄澈水晶"
+                },
+                {
+                    "item": "hearty_pitcher",
+                    "rank": "low_rank",
+                    "method": "特產",
+                    "target": "豬籠草的群生地"
+                },
+                {
+                    "item": "gourmet_pitcher",
+                    "rank": "low_rank",
+                    "method": "特產",
+                    "target": "豬籠草的群生地"
+                },
+                {
+                    "item": "gourmet_pitcher",
+                    "rank": "high_rank",
+                    "method": "特產",
+                    "target": "豬籠草的群生地"
+                },
+                {
+                    "item": "tripoint_pitcher",
+                    "rank": "high_rank",
+                    "method": "特產",
+                    "target": "豬籠草的群生地"
+                },
+                {
+                    "item": "royal_rhino",
+                    "rank": "low_rank",
+                    "method": "特產",
+                    "target": "閃耀獨角仙"
+                },
+                {
+                    "item": "king_rhino",
+                    "rank": "low_rank",
+                    "method": "特產",
+                    "target": "閃耀獨角仙"
+                },
+                {
+                    "item": "king_rhino",
+                    "rank": "high_rank",
+                    "method": "特產",
+                    "target": "閃耀獨角仙"
+                },
+                {
+                    "item": "divine_rhino",
+                    "rank": "high_rank",
+                    "method": "特產",
+                    "target": "閃耀獨角仙"
+                },
+                {
+                    "item": "laffresia",
+                    "rank": "low_rank",
+                    "method": "特產",
+                    "target": "魅人的巨大花"
+                },
+                {
+                    "item": "alaffresia",
+                    "rank": "high_rank",
+                    "method": "特產",
+                    "target": "魅人的巨大花"
+                },
+                {
+                    "item": "popfish",
+                    "rank": "both_rank",
+                    "method": "垂釣",
+                    "target": "釣魚點[主營地]"
+                },
+                {
+                    "item": "sushifish",
+                    "rank": "both_rank",
+                    "method": "垂釣",
+                    "target": "釣魚點[主營地]"
+                },
+                {
+                    "item": "scatterfish",
+                    "rank": "both_rank",
+                    "method": "垂釣",
+                    "target": "釣魚點[主營地]"
+                },
+                {
+                    "item": "whetfish",
+                    "rank": "both_rank",
+                    "method": "垂釣",
+                    "target": "釣魚點[主營地]"
+                },
+                {
+                    "item": "great_whetfish",
+                    "rank": "both_rank",
+                    "method": "垂釣",
+                    "target": "釣魚點[主營地]"
+                },
+                {
+                    "item": "flamefin",
+                    "rank": "both_rank",
+                    "method": "垂釣",
+                    "target": "釣魚點[主營地]"
+                },
+                {
+                    "item": "great_flamefin",
+                    "rank": "both_rank",
+                    "method": "垂釣",
+                    "target": "釣魚點[主營地]"
+                },
+                {
+                    "item": "goldenfry",
+                    "rank": "both_rank",
+                    "method": "垂釣",
+                    "target": "釣魚點[主營地]"
+                },
+                {
+                    "item": "popfish",
+                    "rank": "both_rank",
+                    "method": "垂釣",
+                    "target": "釣魚點[區域5]"
+                },
+                {
+                    "item": "sushifish",
+                    "rank": "both_rank",
+                    "method": "垂釣",
+                    "target": "釣魚點[區域5]"
+                },
+                {
+                    "item": "scatterfish",
+                    "rank": "both_rank",
+                    "method": "垂釣",
+                    "target": "釣魚點[區域5]"
+                },
+                {
+                    "item": "whetfish",
+                    "rank": "both_rank",
+                    "method": "垂釣",
+                    "target": "釣魚點[區域5]"
+                },
+                {
+                    "item": "great_whetfish",
+                    "rank": "both_rank",
+                    "method": "垂釣",
+                    "target": "釣魚點[區域5]"
+                },
+                {
+                    "item": "great_flamefin",
+                    "rank": "both_rank",
+                    "method": "垂釣",
+                    "target": "釣魚點[區域5]"
+                },
+                {
+                    "item": "crimsonfish",
+                    "rank": "both_rank",
+                    "method": "垂釣",
+                    "target": "釣魚點[區域5]"
+                },
+                {
+                    "item": "goldenfish",
+                    "rank": "both_rank",
+                    "method": "垂釣",
+                    "target": "釣魚點[區域5]"
+                },
+                {
+                    "item": "platinumfish",
+                    "rank": "high_rank",
+                    "method": "垂釣",
+                    "target": "釣魚點[區域5]"
+                },
+                {
+                    "item": "antidote_herb",
+                    "rank": "both_rank",
+                    "method": "採集",
+                    "target": "採集"
+                },
+                {
+                    "item": "snow_herb",
+                    "rank": "both_rank",
+                    "method": "採集",
+                    "target": "採集"
+                },
+                {
+                    "item": "ivy",
+                    "rank": "both_rank",
+                    "method": "採集",
+                    "target": "採集"
+                },
+                {
+                    "item": "sleep_herb",
+                    "rank": "both_rank",
+                    "method": "採集",
+                    "target": "採集"
+                },
+                {
+                    "item": "felvine",
+                    "rank": "both_rank",
+                    "method": "採集",
+                    "target": "採集"
+                },
+                {
+                    "item": "herb",
+                    "rank": "both_rank",
+                    "method": "採集",
+                    "target": "採集"
+                },
+                {
+                    "item": "flowfern",
+                    "rank": "both_rank",
+                    "method": "採集",
+                    "target": "採集"
+                },
+                {
+                    "item": "nulberry",
+                    "rank": "both_rank",
+                    "method": "採集",
+                    "target": "採集"
+                },
+                {
+                    "item": "smokenut",
+                    "rank": "both_rank",
+                    "method": "採集",
+                    "target": "採集"
+                },
+                {
+                    "item": "flamenut",
+                    "rank": "both_rank",
+                    "method": "採集",
+                    "target": "採集"
+                },
+                {
+                    "item": "latchberry",
+                    "rank": "both_rank",
+                    "method": "採集",
+                    "target": "採集"
+                },
+                {
+                    "item": "blastnut",
+                    "rank": "both_rank",
+                    "method": "採集",
+                    "target": "採集"
+                },
+                {
+                    "item": "blazenut",
+                    "rank": "both_rank",
+                    "method": "採集",
+                    "target": "採集"
+                },
+                {
+                    "item": "needleberry",
+                    "rank": "both_rank",
+                    "method": "採集",
+                    "target": "採集"
+                },
+                {
+                    "item": "honey",
+                    "rank": "both_rank",
+                    "method": "採集",
+                    "target": "採集"
+                },
+                {
+                    "item": "exciteshroom",
+                    "rank": "both_rank",
+                    "method": "採集",
+                    "target": "採集"
+                },
+                {
+                    "item": "toadstool",
+                    "rank": "both_rank",
+                    "method": "採集",
+                    "target": "採集"
+                },
+                {
+                    "item": "parashroom",
+                    "rank": "both_rank",
+                    "method": "採集",
+                    "target": "採集"
+                },
+                {
+                    "item": "mandragora",
+                    "rank": "both_rank",
+                    "method": "採集",
+                    "target": "採集"
+                },
+                {
+                    "item": "bitterbug",
+                    "rank": "both_rank",
+                    "method": "採集",
+                    "target": "採集"
+                },
+                {
+                    "item": "flashbug",
+                    "rank": "both_rank",
+                    "method": "採集",
+                    "target": "採集"
+                },
+                {
+                    "item": "godbug",
+                    "rank": "both_rank",
+                    "method": "採集",
+                    "target": "採集"
+                },
+                {
+                    "item": "thunderbug",
+                    "rank": "both_rank",
+                    "method": "採集",
+                    "target": "採集"
+                },
+                {
+                    "item": "large_barrel",
+                    "rank": "both_rank",
+                    "method": "採集",
+                    "target": "採集"
+                },
+                {
+                    "item": "spider_web",
+                    "rank": "both_rank",
+                    "method": "採集",
+                    "target": "採集"
+                },
+                {
+                    "item": "small_barrel",
+                    "rank": "both_rank",
+                    "method": "採集",
+                    "target": "採集"
+                },
+                {
+                    "item": "barrel_lid",
+                    "rank": "both_rank",
+                    "method": "採集",
+                    "target": "採集"
+                },
+                {
+                    "item": "dung",
+                    "rank": "both_rank",
+                    "method": "採集",
+                    "target": "採集"
+                },
+                {
+                    "item": "gunpowder",
+                    "rank": "both_rank",
+                    "method": "採集",
+                    "target": "採集"
+                }
+            ]
+        },
+        "sandy_plains": {
+            "gathering": [
+                {
+                    "item": "iron_ore",
+                    "rank": "low_rank",
+                    "method": "挖礦",
+                    "target": "礦脈"
+                },
+                {
+                    "item": "earth_crystal",
+                    "rank": "low_rank",
+                    "method": "挖礦",
+                    "target": "礦脈"
+                },
+                {
+                    "item": "machalite_ore",
+                    "rank": "low_rank",
+                    "method": "挖礦",
+                    "target": "礦脈"
+                },
+                {
+                    "item": "carbalite_ore",
+                    "rank": "high_rank",
+                    "method": "挖礦",
+                    "target": "礦脈"
+                },
+                {
+                    "item": "dragonite_ore",
+                    "rank": "high_rank",
+                    "method": "挖礦",
+                    "target": "礦脈"
+                },
+                {
+                    "item": "machalite_ore",
+                    "rank": "high_rank",
+                    "method": "挖礦",
+                    "target": "礦脈"
+                },
+                {
+                    "item": "fucium_ore",
+                    "rank": "high_rank",
+                    "method": "挖礦",
+                    "target": "礦脈"
+                },
+                {
+                    "item": "eroded_skeleton",
+                    "rank": "low_rank",
+                    "method": "骨採集",
+                    "target": "骨冢"
+                },
+                {
+                    "item": "monster_bone_s",
+                    "rank": "low_rank",
+                    "method": "骨採集",
+                    "target": "骨冢"
+                },
+                {
+                    "item": "eroded_husk",
+                    "rank": "high_rank",
+                    "method": "骨採集",
+                    "target": "骨冢"
+                },
+                {
+                    "item": "quality_bone",
+                    "rank": "high_rank",
+                    "method": "骨採集",
+                    "target": "骨冢"
+                },
+                {
+                    "item": "sturdy_bone",
+                    "rank": "high_rank",
+                    "method": "骨採集",
+                    "target": "骨冢"
+                },
+                {
+                    "item": "bauble_cactus",
+                    "rank": "low_rank",
+                    "method": "特產",
+                    "target": "圓形仙人掌"
+                },
+                {
+                    "item": "jewel_cactus",
+                    "rank": "low_rank",
+                    "method": "特產",
+                    "target": "圓形仙人掌"
+                },
+                {
+                    "item": "jewel_cactus",
+                    "rank": "high_rank",
+                    "method": "特產",
+                    "target": "圓形仙人掌"
+                },
+                {
+                    "item": "kingly_cactus",
+                    "rank": "high_rank",
+                    "method": "特產",
+                    "target": "圓形仙人掌"
+                },
+                {
+                    "item": "tropical_berry",
+                    "rank": "low_rank",
+                    "method": "特產",
+                    "target": "香醇的紅色果實"
+                },
+                {
+                    "item": "desert_berry",
+                    "rank": "low_rank",
+                    "method": "特產",
+                    "target": "香醇的紅色果實"
+                },
+                {
+                    "item": "desert_berry",
+                    "rank": "high_rank",
+                    "method": "特產",
+                    "target": "香醇的紅色果實"
+                },
+                {
+                    "item": "lava_berry",
+                    "rank": "high_rank",
+                    "method": "特產",
+                    "target": "香醇的紅色果實"
+                },
+                {
+                    "item": "sand_rose",
+                    "rank": "low_rank",
+                    "method": "特產",
+                    "target": "沙漠薔薇"
+                },
+                {
+                    "item": "rock_rose",
+                    "rank": "low_rank",
+                    "method": "特產",
+                    "target": "沙漠薔薇"
+                },
+                {
+                    "item": "rock_rose",
+                    "rank": "high_rank",
+                    "method": "特產",
+                    "target": "沙漠薔薇"
+                },
+                {
+                    "item": "gaia_rose",
+                    "rank": "high_rank",
+                    "method": "特產",
+                    "target": "沙漠薔薇"
+                },
+                {
+                    "item": "popfish",
+                    "rank": "both_rank",
+                    "method": "垂釣",
+                    "target": "釣魚點[區域1～2之間]"
+                },
+                {
+                    "item": "sushifish",
+                    "rank": "both_rank",
+                    "method": "垂釣",
+                    "target": "釣魚點[區域1～2之間]"
+                },
+                {
+                    "item": "whetfish",
+                    "rank": "both_rank",
+                    "method": "垂釣",
+                    "target": "釣魚點[區域1～2之間]"
+                },
+                {
+                    "item": "great_whetfish",
+                    "rank": "both_rank",
+                    "method": "垂釣",
+                    "target": "釣魚點[區域1～2之間]"
+                },
+                {
+                    "item": "scatterfish",
+                    "rank": "both_rank",
+                    "method": "垂釣",
+                    "target": "釣魚點[區域1～2之間]"
+                },
+                {
+                    "item": "flamefin",
+                    "rank": "both_rank",
+                    "method": "垂釣",
+                    "target": "釣魚點[區域1～2之間]"
+                },
+                {
+                    "item": "great_flamefin",
+                    "rank": "both_rank",
+                    "method": "垂釣",
+                    "target": "釣魚點[區域1～2之間]"
+                },
+                {
+                    "item": "crimsonfish",
+                    "rank": "both_rank",
+                    "method": "垂釣",
+                    "target": "釣魚點[區域1～2之間]"
+                },
+                {
+                    "item": "goldenfish",
+                    "rank": "low_rank",
+                    "method": "垂釣",
+                    "target": "釣魚點[區域1～2之間]"
+                },
+                {
+                    "item": "platinumfish",
+                    "rank": "high_rank",
+                    "method": "垂釣",
+                    "target": "釣魚點[區域1～2之間]"
+                },
+                {
+                    "item": "popfish",
+                    "rank": "both_rank",
+                    "method": "垂釣",
+                    "target": "釣魚點[輔助營地2]"
+                },
+                {
+                    "item": "scatterfish",
+                    "rank": "both_rank",
+                    "method": "垂釣",
+                    "target": "釣魚點[輔助營地2]"
+                },
+                {
+                    "item": "whetfish",
+                    "rank": "both_rank",
+                    "method": "垂釣",
+                    "target": "釣魚點[輔助營地2]"
+                },
+                {
+                    "item": "sushifish",
+                    "rank": "both_rank",
+                    "method": "垂釣",
+                    "target": "釣魚點[輔助營地2]"
+                },
+                {
+                    "item": "flamefin",
+                    "rank": "both_rank",
+                    "method": "垂釣",
+                    "target": "釣魚點[輔助營地2]"
+                },
+                {
+                    "item": "great_flamefin",
+                    "rank": "both_rank",
+                    "method": "垂釣",
+                    "target": "釣魚點[輔助營地2]"
+                },
+                {
+                    "item": "goldenfry",
+                    "rank": "both_rank",
+                    "method": "垂釣",
+                    "target": "釣魚點[輔助營地2]"
+                },
+                {
+                    "item": "popfish",
+                    "rank": "both_rank",
+                    "method": "垂釣",
+                    "target": "釣魚點[區域8下層]"
+                },
+                {
+                    "item": "sushifish",
+                    "rank": "both_rank",
+                    "method": "垂釣",
+                    "target": "釣魚點[區域8下層]"
+                },
+                {
+                    "item": "whetfish",
+                    "rank": "both_rank",
+                    "method": "垂釣",
+                    "target": "釣魚點[區域8下層]"
+                },
+                {
+                    "item": "great_whetfish",
+                    "rank": "both_rank",
+                    "method": "垂釣",
+                    "target": "釣魚點[區域8下層]"
+                },
+                {
+                    "item": "flamefin",
+                    "rank": "both_rank",
+                    "method": "垂釣",
+                    "target": "釣魚點[區域8下層]"
+                },
+                {
+                    "item": "scatterfish",
+                    "rank": "both_rank",
+                    "method": "垂釣",
+                    "target": "釣魚點[區域8下層]"
+                },
+                {
+                    "item": "gastronome_tuna",
+                    "rank": "both_rank",
+                    "method": "垂釣",
+                    "target": "釣魚點[區域8下層]"
+                },
+                {
+                    "item": "great_gastronome_tuna",
+                    "rank": "high_rank",
+                    "method": "垂釣",
+                    "target": "釣魚點[區域8下層]"
+                },
+                {
+                    "item": "fire_herb",
+                    "rank": "both_rank",
+                    "method": "採集",
+                    "target": "採集"
+                },
+                {
+                    "item": "sunscorned_grass",
+                    "rank": "both_rank",
+                    "method": "採集",
+                    "target": "採集"
+                },
+                {
+                    "item": "gloamgrass_bud",
+                    "rank": "both_rank",
+                    "method": "採集",
+                    "target": "採集"
+                },
+                {
+                    "item": "antidote_herb",
+                    "rank": "both_rank",
+                    "method": "採集",
+                    "target": "採集"
+                },
+                {
+                    "item": "felvine",
+                    "rank": "both_rank",
+                    "method": "採集",
+                    "target": "採集"
+                },
+                {
+                    "item": "herb",
+                    "rank": "both_rank",
+                    "method": "採集",
+                    "target": "採集"
+                },
+                {
+                    "item": "nitroshroom",
+                    "rank": "both_rank",
+                    "method": "採集",
+                    "target": "採集"
+                },
+                {
+                    "item": "parashroom",
+                    "rank": "both_rank",
+                    "method": "採集",
+                    "target": "採集"
+                },
+                {
+                    "item": "mandragora",
+                    "rank": "both_rank",
+                    "method": "採集",
+                    "target": "採集"
+                },
+                {
+                    "item": "bitterbug",
+                    "rank": "both_rank",
+                    "method": "採集",
+                    "target": "採集"
+                },
+                {
+                    "item": "godbug",
+                    "rank": "both_rank",
+                    "method": "採集",
+                    "target": "採集"
+                },
+                {
+                    "item": "honey",
+                    "rank": "both_rank",
+                    "method": "採集",
+                    "target": "採集"
+                },
+                {
+                    "item": "nulberry",
+                    "rank": "both_rank",
+                    "method": "採集",
+                    "target": "採集"
+                },
+                {
+                    "item": "might_seed",
+                    "rank": "both_rank",
+                    "method": "採集",
+                    "target": "採集"
+                },
+                {
+                    "item": "bomberry",
+                    "rank": "both_rank",
+                    "method": "採集",
+                    "target": "採集"
+                },
+                {
+                    "item": "slashberry",
+                    "rank": "both_rank",
+                    "method": "採集",
+                    "target": "採集"
+                },
+                {
+                    "item": "flamenut",
+                    "rank": "both_rank",
+                    "method": "採集",
+                    "target": "採集"
+                },
+                {
+                    "item": "latchberry",
+                    "rank": "both_rank",
+                    "method": "採集",
+                    "target": "採集"
+                },
+                {
+                    "item": "adamant_seed",
+                    "rank": "both_rank",
+                    "method": "採集",
+                    "target": "採集"
+                },
+                {
+                    "item": "blazenut",
+                    "rank": "both_rank",
+                    "method": "採集",
+                    "target": "採集"
+                },
+                {
+                    "item": "needleberry",
+                    "rank": "both_rank",
+                    "method": "採集",
+                    "target": "採集"
+                },
+                {
+                    "item": "large_barrel",
+                    "rank": "both_rank",
+                    "method": "採集",
+                    "target": "採集"
+                },
+                {
+                    "item": "spider_web",
+                    "rank": "both_rank",
+                    "method": "採集",
+                    "target": "採集"
+                },
+                {
+                    "item": "small_barrel",
+                    "rank": "both_rank",
+                    "method": "採集",
+                    "target": "採集"
+                },
+                {
+                    "item": "barrel_lid",
+                    "rank": "both_rank",
+                    "method": "採集",
+                    "target": "採集"
+                },
+                {
+                    "item": "dung",
+                    "rank": "both_rank",
+                    "method": "採集",
+                    "target": "採集"
+                }
+            ]
+        },
+        "lava_caverns": {
+            "gathering": [
+                {
+                    "item": "iron_ore",
+                    "rank": "low_rank",
+                    "method": "挖礦",
+                    "target": "礦脈"
+                },
+                {
+                    "item": "earth_crystal",
+                    "rank": "low_rank",
+                    "method": "挖礦",
+                    "target": "礦脈"
+                },
+                {
+                    "item": "machalite_ore",
+                    "rank": "low_rank",
+                    "method": "挖礦",
+                    "target": "礦脈"
+                },
+                {
+                    "item": "dragonite_ore",
+                    "rank": "low_rank",
+                    "method": "挖礦",
+                    "target": "礦脈"
+                },
+                {
+                    "item": "firestone",
+                    "rank": "low_rank",
+                    "method": "挖礦",
+                    "target": "礦脈"
+                },
+                {
+                    "item": "dragonite_ore",
+                    "rank": "high_rank",
+                    "method": "挖礦",
+                    "target": "藍色礦脈"
+                },
+                {
+                    "item": "carbalite_ore",
+                    "rank": "high_rank",
+                    "method": "挖礦",
+                    "target": "藍色礦脈"
+                },
+                {
+                    "item": "fucium_ore",
+                    "rank": "high_rank",
+                    "method": "挖礦",
+                    "target": "藍色礦脈"
+                },
+                {
+                    "item": "firestone",
+                    "rank": "high_rank",
+                    "method": "挖礦",
+                    "target": "藍色礦脈"
+                },
+                {
+                    "item": "firecell_stone",
+                    "rank": "high_rank",
+                    "method": "挖礦",
+                    "target": "藍色礦脈"
+                },
+                {
+                    "item": "fucium_ore",
+                    "rank": "high_rank",
+                    "method": "挖礦",
+                    "target": "白色礦脈"
+                },
+                {
+                    "item": "firestone",
+                    "rank": "high_rank",
+                    "method": "挖礦",
+                    "target": "白色礦脈"
+                },
+                {
+                    "item": "firecell_stone",
+                    "rank": "high_rank",
+                    "method": "挖礦",
+                    "target": "白色礦脈"
+                },
+                {
+                    "item": "dragonhusk_shard",
+                    "rank": "low_rank",
+                    "method": "骨採集",
+                    "target": "骨冢"
+                },
+                {
+                    "item": "sturdy_bone",
+                    "rank": "low_rank",
+                    "method": "骨採集",
+                    "target": "骨冢"
+                },
+                {
+                    "item": "monster_bone_s",
+                    "rank": "low_rank",
+                    "method": "骨採集",
+                    "target": "骨冢"
+                },
+                {
+                    "item": "quality_bone",
+                    "rank": "high_rank",
+                    "method": "骨採集",
+                    "target": "骨冢"
+                },
+                {
+                    "item": "sturdy_bone",
+                    "rank": "high_rank",
+                    "method": "骨採集",
+                    "target": "骨冢"
+                },
+                {
+                    "item": "dragonbone_relic",
+                    "rank": "high_rank",
+                    "method": "骨採集",
+                    "target": "骨冢"
+                },
+                {
+                    "item": "coal",
+                    "rank": "low_rank",
+                    "method": "特產",
+                    "target": "灼熱礦石"
+                },
+                {
+                    "item": "volatile_coal",
+                    "rank": "low_rank",
+                    "method": "特產",
+                    "target": "灼熱礦石"
+                },
+                {
+                    "item": "volatile_coal",
+                    "rank": "high_rank",
+                    "method": "特產",
+                    "target": "灼熱礦石"
+                },
+                {
+                    "item": "inflammable_coal",
+                    "rank": "high_rank",
+                    "method": "特產",
+                    "target": "灼熱礦石"
+                },
+                {
+                    "item": "chalcedony_bone",
+                    "rank": "low_rank",
+                    "method": "特產",
+                    "target": "龍骨化石"
+                },
+                {
+                    "item": "chalcedony_greatbone",
+                    "rank": "low_rank",
+                    "method": "特產",
+                    "target": "龍骨化石"
+                },
+                {
+                    "item": "chalcedony_greatbone",
+                    "rank": "high_rank",
+                    "method": "特產",
+                    "target": "龍骨化石"
+                },
+                {
+                    "item": "chalcedony_skull",
+                    "rank": "high_rank",
+                    "method": "特產",
+                    "target": "龍骨化石"
+                },
+                {
+                    "item": "bismuth_fragment",
+                    "rank": "low_rank",
+                    "method": "特產",
+                    "target": "虹色礦石"
+                },
+                {
+                    "item": "bismuth_prism",
+                    "rank": "low_rank",
+                    "method": "特產",
+                    "target": "虹色礦石"
+                },
+                {
+                    "item": "bismuth_prism",
+                    "rank": "high_rank",
+                    "method": "特產",
+                    "target": "虹色礦石"
+                },
+                {
+                    "item": "bismuth_augite",
+                    "rank": "high_rank",
+                    "method": "特產",
+                    "target": "虹色礦石"
+                },
+                {
+                    "item": "bismuth_chunk",
+                    "rank": "low_rank",
+                    "method": "特產",
+                    "target": "虹色結晶"
+                },
+                {
+                    "item": "big_bismuth_chunk",
+                    "rank": "high_rank",
+                    "method": "特產",
+                    "target": "虹色結晶"
+                },
+                {
+                    "item": "sushifish",
+                    "rank": "both_rank",
+                    "method": "垂釣",
+                    "target": "釣魚點[區域1]"
+                },
+                {
+                    "item": "whetfish",
+                    "rank": "both_rank",
+                    "method": "垂釣",
+                    "target": "釣魚點[區域1]"
+                },
+                {
+                    "item": "great_whetfish",
+                    "rank": "both_rank",
+                    "method": "垂釣",
+                    "target": "釣魚點[區域1]"
+                },
+                {
+                    "item": "flamefin",
+                    "rank": "both_rank",
+                    "method": "垂釣",
+                    "target": "釣魚點[區域1]"
+                },
+                {
+                    "item": "great_flamefin",
+                    "rank": "both_rank",
+                    "method": "垂釣",
+                    "target": "釣魚點[區域1]"
+                },
+                {
+                    "item": "scatterfish",
+                    "rank": "both_rank",
+                    "method": "垂釣",
+                    "target": "釣魚點[區域1]"
+                },
+                {
+                    "item": "brocadefish",
+                    "rank": "both_rank",
+                    "method": "垂釣",
+                    "target": "釣魚點[區域1]"
+                },
+                {
+                    "item": "king_brocadefish",
+                    "rank": "both_rank",
+                    "method": "垂釣",
+                    "target": "釣魚點[區域1]"
+                },
+                {
+                    "item": "supreme_brocadefish",
+                    "rank": "high_rank",
+                    "method": "垂釣",
+                    "target": "釣魚點[區域1]"
+                },
+                {
+                    "item": "sushifish",
+                    "rank": "both_rank",
+                    "method": "垂釣",
+                    "target": "釣魚點[區域3]"
+                },
+                {
+                    "item": "whetfish",
+                    "rank": "both_rank",
+                    "method": "垂釣",
+                    "target": "釣魚點[區域3]"
+                },
+                {
+                    "item": "great_whetfish",
+                    "rank": "both_rank",
+                    "method": "垂釣",
+                    "target": "釣魚點[區域3]"
+                },
+                {
+                    "item": "flamefin",
+                    "rank": "both_rank",
+                    "method": "垂釣",
+                    "target": "釣魚點[區域3]"
+                },
+                {
+                    "item": "great_flamefin",
+                    "rank": "both_rank",
+                    "method": "垂釣",
+                    "target": "釣魚點[區域3]"
+                },
+                {
+                    "item": "scatterfish",
+                    "rank": "both_rank",
+                    "method": "垂釣",
+                    "target": "釣魚點[區域3]"
+                },
+                {
+                    "item": "speartuna",
+                    "rank": "high_rank",
+                    "method": "垂釣",
+                    "target": "釣魚點[區域3]"
+                },
+                {
+                    "item": "popfish",
+                    "rank": "both_rank",
+                    "method": "垂釣",
+                    "target": "釣魚點[區域10下層]"
+                },
+                {
+                    "item": "sushifish",
+                    "rank": "both_rank",
+                    "method": "垂釣",
+                    "target": "釣魚點[區域10下層]"
+                },
+                {
+                    "item": "whetfish",
+                    "rank": "both_rank",
+                    "method": "垂釣",
+                    "target": "釣魚點[區域10下層]"
+                },
+                {
+                    "item": "great_whetfish",
+                    "rank": "both_rank",
+                    "method": "垂釣",
+                    "target": "釣魚點[區域10下層]"
+                },
+                {
+                    "item": "flamefin",
+                    "rank": "both_rank",
+                    "method": "垂釣",
+                    "target": "釣魚點[區域10下層]"
+                },
+                {
+                    "item": "great_flamefin",
+                    "rank": "both_rank",
+                    "method": "垂釣",
+                    "target": "釣魚點[區域10下層]"
+                },
+                {
+                    "item": "scatterfish",
+                    "rank": "both_rank",
+                    "method": "垂釣",
+                    "target": "釣魚點[區域10下層]"
+                },
+                {
+                    "item": "goldenfry",
+                    "rank": "both_rank",
+                    "method": "垂釣",
+                    "target": "釣魚點[區域10下層]"
+                },
+                {
+                    "item": "antidote_herb",
+                    "rank": "both_rank",
+                    "method": "採集",
+                    "target": "採集"
+                },
+                {
+                    "item": "fire_herb",
+                    "rank": "both_rank",
+                    "method": "採集",
+                    "target": "採集"
+                },
+                {
+                    "item": "felvine",
+                    "rank": "both_rank",
+                    "method": "採集",
+                    "target": "採集"
+                },
+                {
+                    "item": "sunscorned_grass",
+                    "rank": "both_rank",
+                    "method": "採集",
+                    "target": "採集"
+                },
+                {
+                    "item": "flowfern",
+                    "rank": "both_rank",
+                    "method": "採集",
+                    "target": "採集"
+                },
+                {
+                    "item": "nulberry",
+                    "rank": "both_rank",
+                    "method": "採集",
+                    "target": "採集"
+                },
+                {
+                    "item": "might_seed",
+                    "rank": "both_rank",
+                    "method": "採集",
+                    "target": "採集"
+                },
+                {
+                    "item": "bomberry",
+                    "rank": "both_rank",
+                    "method": "採集",
+                    "target": "採集"
+                },
+                {
+                    "item": "huskberry",
+                    "rank": "both_rank",
+                    "method": "採集",
+                    "target": "採集"
+                },
+                {
+                    "item": "slashberry",
+                    "rank": "both_rank",
+                    "method": "採集",
+                    "target": "採集"
+                },
+                {
+                    "item": "latchberry",
+                    "rank": "both_rank",
+                    "method": "採集",
+                    "target": "採集"
+                },
+                {
+                    "item": "adamant_seed",
+                    "rank": "both_rank",
+                    "method": "採集",
+                    "target": "採集"
+                },
+                {
+                    "item": "blastnut",
+                    "rank": "both_rank",
+                    "method": "採集",
+                    "target": "採集"
+                },
+                {
+                    "item": "blazenut",
+                    "rank": "both_rank",
+                    "method": "採集",
+                    "target": "採集"
+                },
+                {
+                    "item": "dragonfell_berry",
+                    "rank": "both_rank",
+                    "method": "採集",
+                    "target": "採集"
+                },
+                {
+                    "item": "honey",
+                    "rank": "both_rank",
+                    "method": "採集",
+                    "target": "採集"
+                },
+                {
+                    "item": "nitroshroom",
+                    "rank": "both_rank",
+                    "method": "採集",
+                    "target": "採集"
+                },
+                {
+                    "item": "mandragora",
+                    "rank": "both_rank",
+                    "method": "採集",
+                    "target": "採集"
+                },
+                {
+                    "item": "godbug",
+                    "rank": "both_rank",
+                    "method": "採集",
+                    "target": "採集"
+                },
+                {
+                    "item": "thunderbug",
+                    "rank": "both_rank",
+                    "method": "採集",
+                    "target": "採集"
+                },
+                {
+                    "item": "spider_web",
+                    "rank": "both_rank",
+                    "method": "採集",
+                    "target": "採集"
+                },
+                {
+                    "item": "ez_ration",
+                    "rank": "both_rank",
+                    "method": "採集",
+                    "target": "採集"
+                },
+                {
+                    "item": "barrel_lid",
+                    "rank": "both_rank",
+                    "method": "採集",
+                    "target": "採集"
+                },
+                {
+                    "item": "dung",
+                    "rank": "both_rank",
+                    "method": "採集",
+                    "target": "採集"
+                },
+                {
+                    "item": "gunpowder",
+                    "rank": "both_rank",
+                    "method": "採集",
+                    "target": "採集"
+                }
+            ]
+        }
+    }
+}

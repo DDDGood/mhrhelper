@@ -23,8 +23,11 @@
         "all": "全部",
         "rate": "機率",
         "cancel_search": "取消搜尋",
+        "rank": "等級",
         "low_rank": "初階",
         "high_rank": "進階",
+        "both_rank": "共通",
+        "target": "目標",
         "monster": {
             "name": {
                 "great_izuchi": "鐮鼬龍王",
@@ -315,9 +318,9 @@
             "items_obtained_by_palico": "隨從蒐集",
             "quest_name": "任務名稱",
             "monster_name": "魔物名稱",
-            "rank": "等級",
             "method": "途徑",
-            "amount": "數量"
+            "amount": "數量",
+            "map_gathering": "地圖採集"
         },
         "meowcenary": {
             "map": "目的地",
@@ -345,6 +348,7 @@
             "bonus_item": "附加產物"
         },
         "map": {
+            "map": "地圖",
             "name": {
                 "shrine_ruins": "大社遺跡",
                 "sandy_plains": "沙原",

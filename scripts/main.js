@@ -28,19 +28,19 @@ var lastTime = startTime;
 $(document).ready(Initialize);
 
 function Initialize() {
-    LoadData(['data/mhrdex.json', 'data/mhrmoves.json', 'data/endemics.json', "data/small_monster.json", "data/weapons.json", "data/items.json", "data/quests.json", "data/item_source.json", "data/meowcenaries.json", "data/equip_weapons.json"], onDexLoaded);
-    // LoadData(['data/mhrdex.json', 'data/mhrmoves.json', 'data/endemics.json', "data/small_monster.json", "data/weapons.json", "data/items.json", "data/quests.json", "data/item_source.json", "data/meowcenaries.json", "data/equip_weapons.json", "data/raw/v2/quests_0511.json", "data/raw/item-cn-jp.json", "data/cntokey.json", "data/cntotw.json", "data/jptotw.json"], tryOnDexLoaded);
+    LoadData(['data/mhrdex.json', 'data/mhrmoves.json', 'data/endemics.json', "data/small_monster.json", "data/weapons.json", "data/items.json", "data/quests.json", "data/item_source.json", "data/meowcenaries.json", "data/trade_market.json", "data/equip_weapons.json", "data/maps.json"], onDexLoaded);
+    // LoadData(['data/mhrdex.json', 'data/mhrmoves.json', 'data/endemics.json', "data/small_monster.json", "data/weapons.json", "data/items.json", "data/quests.json", "data/item_source.json", "data/meowcenaries.json", "data/trade_market.json", "data/equip_weapons.json", "data/maps.json", "data/raw/trade_market.json", "data/raw/v2/map_item_0520.json", "data/raw/item-cn-jp.json", "data/cntokey.json", "data/cntotw.json", "data/jptotw.json"], tryOnDexLoaded);
 }
 
-function tryInitialize() {
-    try {
-        LoadData(['data/mhrdex.json', 'data/mhrmoves.json', 'data/endemics.json', "data/small_monster.json", "data/weapons.json", "data/items.json", "data/quests.json", "data/item_source.json", "data/meowcenaries.json"], tryOnDexLoaded);
-        // LoadData(['data/mhrdex.json', 'data/mhrmoves.json', 'data/endemics.json', "data/small_monster.json", "data/weapons.json", "data/items.json", "data/quests.json", "data/item_source.json", "data/meowcenaries.json", "data/raw/trade_market.json", "data/raw/item-cn-jp.json", "data/cntokey.json", "data/cntotw.json", "data/jptotw.json"], tryOnDexLoaded);
-    } catch (error) {
-        console.log(error.message);
-        document.getElementById("error").innerHTML = "error:" + error.message;
-    }
-}
+// function tryInitialize() {
+//     try {
+//         LoadData(['data/mhrdex.json', 'data/mhrmoves.json', 'data/endemics.json', "data/small_monster.json", "data/weapons.json", "data/items.json", "data/quests.json", "data/item_source.json", "data/meowcenaries.json"], tryOnDexLoaded);
+//         // LoadData(['data/mhrdex.json', 'data/mhrmoves.json', 'data/endemics.json', "data/small_monster.json", "data/weapons.json", "data/items.json", "data/quests.json", "data/item_source.json", "data/meowcenaries.json", "data/raw/trade_market.json", "data/raw/item-cn-jp.json", "data/cntokey.json", "data/cntotw.json", "data/jptotw.json"], tryOnDexLoaded);
+//     } catch (error) {
+//         console.log(error.message);
+//         document.getElementById("error").innerHTML = "error:" + error.message;
+//     }
+// }
 
 function LoadData(paths, callback) {
     data = {};
@@ -248,6 +248,44 @@ function ExportItemSource() {
             }
         }
     }
+    for (let market in data.trade_market) {
+        const marketData = data.trade_market[market];
+        for (let i in marketData) {
+            let link = marketData[i];
+            const iID = marketData[i].item;
+            if (itemSource[iID] === undefined) {
+                itemSource[iID] = {}
+            }
+            if (itemSource[iID].trade_market === undefined) {
+                itemSource[iID].trade_market = {}
+            }
+            itemSource[iID].trade_market = {
+                'target': market,
+                'num': link.num,
+                'isBonus': link.isBonus
+            }
+        }
+    }
+    for (let mapID in data.maps) {
+        for (let i in data.maps[mapID].gathering) {
+            const link = data.maps[mapID].gathering[i];
+            const iID = link.item;
+            if (itemSource[iID] == undefined) {
+                itemSource[iID] = {}
+            }
+            if (itemSource[iID].map_gathering == undefined) {
+                itemSource[iID].map_gathering = {}
+            }
+            if (itemSource[iID].map_gathering[mapID] == undefined) {
+                itemSource[iID].map_gathering[mapID] = []
+            }
+            itemSource[iID].map_gathering[mapID].push({
+                'rank': link.rank,
+                'method': link.method,
+                'target': link.target
+            });
+        }
+    }
     let outputData = { 'item_source': itemSource }
     outputText(JSON.stringify(outputData));
 }
@@ -257,15 +295,63 @@ function ExportItemSource() {
 function someDataWorks() {
 
     let output = {
-        "new_quests": {}
-    }
-    for (let qID in data['quests_0511']) {
-        var q = data['quests_0511'][qID];
-        if (data.quests[qID] === undefined) {
-            output.new_quests[qID] = q;
+        "maps": {
         }
     }
-    outputText(JSON.stringify(output));
+    for (let i in data.map_item_0520) {
+        let link = data.map_item_0520[i];
+        let map = link.map.id;
+        let method = link.category;
+        let target = link.address;
+        let rank = link.rank;
+        if (output.maps[map] == undefined) output.maps[map] = { 'items': [] };
+        // if (output.maps[map].items[method] == undefined) output.maps[map].items[method] = {};
+        // if (output.maps[map].items[method][target] == undefined) output.maps[map].items[method][target] = {};
+        // if (output.maps[map].items[method][target][rank] == undefined) output.maps[map].items[method][target][rank] = [];
+
+        let iID = Object.keys(data.items).find(key => data.items[key].ref_id == link.sucai.id);
+        console.log(iID);
+        output.maps[map].items.push({
+            'item': iID,
+            'rank': rank,
+            'method': method,
+            'target': target
+        })
+
+    }
+
+    saveTextFile(JSON.stringify(output));
+
+    // for (let i in data.eqwp_0517) {
+    //     let fromData = data.eqwp_0517[i];
+    //     let foundID = "";
+    //     for (let wID in data.eqwp_cn) {
+    //         if (data.eqwp_cn[wID].name == fromData.name) {
+    //             foundID = wID;
+    //         }
+    //     }
+    //     if (foundID == "") {
+    //         console.warn("can't found: " + fromData.name);
+    //         continue;
+    //     }
+    //     let toData = data.equip_weapons[foundID];
+    //     if (toData == undefined) {
+    //         console.warn("can't toData: " + foundID);
+    //         continue;
+    //     }
+    //     delete fromData.image;
+    //     delete fromData.image_full;
+    //     delete fromData.model_id;
+    //     delete fromData.id;
+
+    //     for (let key in fromData) {
+    //         if (toData[key] == undefined) {
+    //             toData[key] = fromData[key];
+    //         }
+    //     }
+
+    // }
+
 
     // let output = {
     //     'large_monsters': {},
@@ -713,6 +799,9 @@ function CheckMobile() {
     return (window.innerWidth < 1200);
 }
 
+function getKeyByValue(object, value) {
+    return Object.keys(object).find(key => object[key] === value);
+}
 Object.deepExtend = function (destination, source) {
     for (var property in source) {
         if (typeof source[property] === "object" &&

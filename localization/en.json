@@ -13,8 +13,11 @@
         "sorting": "Sorting",
         "rate": "Rate",
         "cancel_search": "Clear Search",
+        "rank": "Rank",
         "low_rank": "Low Rank",
         "high_rank": "High Rank",
+        "both_rank": "Both Rank",
+        "target": "Target",
         "dataType": {
             "large_monsters": "Large Monsters",
             "small_monsters": "Small Monsters",
@@ -289,7 +292,8 @@
             "monster_name": "Monster",
             "rank": "Rank",
             "method": "Method",
-            "amount": "Amount"
+            "amount": "Amount",
+            "map_gathering": "Map Gathering"
         },
         "meowcenaries": {
             "map": "Destination",
@@ -316,6 +320,7 @@
             "bonus_item": "Bonus Item"
         },
         "map": {
+            "map": "Map",
             "name": {
                 "shrine_ruins": "Shrine Ruins",
                 "sandy_plains": "Sandy Plains",
