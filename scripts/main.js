@@ -140,6 +140,7 @@ function onDexLoaded() {
 
     console.log('time:' + (Date.now() - lastTime));
 
+
     // someDataWorks();
 
     // ExportItemSource();
@@ -559,9 +560,9 @@ function InitRouter() {
     Vue.use(VueRouter);
     // const Foo = { template: '<div>foo</div>' }
     // const Bar = httpVueLoader("temp.vue");
-    const SpeciesListComp = httpVueLoader("components/mon_browse_species.vue");
-    const MonListComp = httpVueLoader("components/mon_browse_monsters.vue");
-    const newMonList = httpVueLoader("components/mon_browse_all.vue");
+    const MonListComp = httpVueLoader("components/mon_browse_all.vue");
+    const SpeciesComp = httpVueLoader("components/mon_browse_species.vue");
+    // const newMonList = httpVueLoader("components/mon_browse_all.vue");
     const MonComp = httpVueLoader("components/mon_main.vue");
     const SMonListComp = httpVueLoader("components/smon_browse_all.vue");
     const SMonComp = httpVueLoader("components/smon_main.vue");
@@ -588,7 +589,7 @@ function InitRouter() {
             {
                 name: 'monlist',
                 path: '/mon',
-                component: SpeciesListComp,
+                component: MonListComp,
                 props: { dex: GetData("large_monsters"), specieslist: speciesDictionary }
             },
             {
@@ -605,7 +606,7 @@ function InitRouter() {
             {
                 name: 'mon',
                 path: '/mon/species/:species',
-                component: MonListComp,
+                component: SpeciesComp,
                 props: { specieslist: speciesDictionary, mondata: GetData("large_monsters") }
             },
             {
@@ -695,6 +696,27 @@ function InitRouter() {
         ]
     });
     return router;
+}
+
+function AutoDetectLocale() {
+    let userLang = navigator.language || navigator.userLanguage;
+    if (IsNullOrEmpty(userLang) == false) {
+        let langs = ["af", "sq", "ar-SA", "ar-IQ", "ar-EG", "ar-LY", "ar-DZ", "ar-MA", "ar-TN", "ar-OM",
+            "ar-YE", "ar-SY", "ar-JO", "ar-LB", "ar-KW", "ar-AE", "ar-BH", "ar-QA", "eu", "bg",
+            "be", "ca", "hr", "cs", "da", "nl", "nl-BE", "en",
+            "en-US", "en-EG", "en-AU", "en-GB", "en-CA", "en-NZ", "en-IE", "en-ZA", "en-JM",
+            "en-BZ", "en-TT", "et", "fo", "fa", "fi", "fr", "fr-BE", "fr-CA", "fr-CH", "fr-LU",
+            "gd", "gd-IE", "de", "de-CH", "de-AT", "de-LU", "de-LI", "el", "he", "hi", "hu",
+            "is", "id", "it", "it-CH", "ja", "ko", "lv", "lt", "mk", "mt", "no", "pl",
+            "pt-BR", "pt", "rm", "ro", "ro-MO", "ru", "ru-MI", "sz", "sr", "sk", "sl", "sb",
+            "es", "es-AR", "es-GT", "es-CR", "es-PA", "es-DO", "es-MX", "es-VE", "es-CO",
+            "es-PE", "es-EC", "es-CL", "es-UY", "es-PY", "es-BO", "es-SV", "es-HN", "es-NI",
+            "es-PR", "sx", "sv", "sv-FI", "th", "ts", "tn", "tr", "uk", "ur", "ve", "vi", "xh",
+            "ji", "zu"];
+        if (langs.indexOf(userLang) > -1) {
+            SetLocal('en');
+        }
+    }
 }
 
 

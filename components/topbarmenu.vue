@@ -1,14 +1,14 @@
 <template>
   <div id="topbar-root">
     <div id="topbar">
-      <button class="hamburger-button flex-center" @click="ToggleSideMenu">
+      <button class="mouse-hover hamburger-button flex-center" @click="ToggleSideMenu">
         <i class="icon-menu hamburger-icon"></i>
       </button>
       <template v-for="(nav,id) in items">
         <router-link :key="id" :to="nav.path" custom v-slot="{ navigate }">
           <button
             @click="navigate"
-            class="topbarbtn"
+            class="topbarbtn mouse-hover"
             :class="{ 'topbar-highlight': id == items.length-1 }"
           >{{nav.name}}</button>
         </router-link>
@@ -144,7 +144,7 @@ module.exports = {
   background-color: #31363d;
 }
 .topbar-highlight {
-  background-color: #4caf50 !important;
+  background-color: #646464 !important;
 }
 .topbarlink {
   color: white;
@@ -194,13 +194,6 @@ module.exports = {
 
 /* mobile */
 @media (max-width: 1199.98px) {
-  #topbar-root {
-    /* padding-left: 12px; */
-  }
-  #topbar {
-  }
-  .topbarbtn {
-  }
   .topbarlink {
     font-size: 20px;
   }
@@ -213,12 +206,12 @@ module.exports = {
     margin-left: auto;
     margin-right: auto;
   }
-  #topbar {
-  }
-  .topbarbtn {
-  }
   .topbarlink {
     font-size: 20px;
+  }
+  .menu-button:hover {
+    cursor: pointer;
+    background-color: #646464;
   }
 }
 </style>
