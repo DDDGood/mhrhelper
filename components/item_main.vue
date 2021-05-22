@@ -165,7 +165,7 @@
               </tr>
             </tbody>
           </table>
-          
+
           <table v-if="sourcedata.map_gathering !=undefined" class="interval-y-large">
             <caption class="text-bold margin text-left">{{$t('item.map_gathering')}}</caption>
             <tbody>
@@ -177,20 +177,20 @@
               </tr>
               <template v-for="(list, mapID) in sourcedata.map_gathering">
                 <template v-for="(link, i) in sourcedata.map_gathering[mapID]">
-              <tr class="card-text">
-                <td>
-                  <div class="card-text">{{ $t('map.name.'+ mapID)}}</div>
-                </td>
-                <td>
-                  <div class="card-text">{{ $t('rank')}}</div>
-                </td>
-                <td>
-                  <div class="card-text">{{link.method}}</div>
-                </td>
-                <td>
-                  <div class="card-text">{{link.target}}</div>
-                </td>
-              </tr>
+                  <tr class="card-text" :key="mapID + i">
+                    <td>
+                      <div class="card-text">{{ $t('map.name.'+ mapID)}}</div>
+                    </td>
+                    <td>
+                      <div class="card-text">{{ $t(link.rank)}}</div>
+                    </td>
+                    <td>
+                      <div class="card-text">{{link.method}}</div>
+                    </td>
+                    <td>
+                      <div class="card-text">{{link.target}}</div>
+                    </td>
+                  </tr>
                 </template>
               </template>
             </tbody>
