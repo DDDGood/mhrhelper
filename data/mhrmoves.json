@@ -5977,7 +5977,7 @@
             "ref_id": "608b68b7acd80103b52c118a"
         },
         "kushala_daora": {
-            "outline": "(招式素材仍在蒐集中)",
+            "outline": "鋼龍的狀態可簡單分為無風、白風、黑風三種，無風時若使用帶白色風壓的龍吼會進入白風狀態；白風時使用帶黑色風壓的龍吼則會進入黑風狀態。黑風狀態下受到一定的傷害會炸膛倒地並回到無風狀態，若黑風狀態下沒觸發炸膛倒地，則會在一段時間後使用大招暴風雪並回到無風狀態。\n鋼龍的空中連招較複雜，根據不同的起飛動作及當前的帶風狀態會有不同的派生，熟記後可輕鬆應對。",
             "reference": {
                 "Monster Hunter Rise - Kushala Daora Boss Fight (Dual Blades/ Solo)": "https://youtu.be/29c2ZtFR7A4",
                 "【怪物猎人崛起】保姆式攻略第六期 钢龙招式解析 钢龙你没注意的细节都在这里": "https://www.bilibili.com/video/BV1Mh411U7Y7"
@@ -5988,7 +5988,7 @@
                     "preaction": "發動很快，上身立起就吼。",
                     "action": "",
                     "recovery": "",
-                    "note": "",
+                    "note": "伴隨著風壓的吼叫會使鋼龍的帶風狀態產生變化。",
                     "video": "videos/鋼龍/鋼龍_龍吼.mp4",
                     "onlyincombo": false
                 },
@@ -6338,6 +6338,34 @@
                     "condition": "",
                     "nodes": [
                         {
+                            "move": "龍吼",
+                            "links": [
+                                {
+                                    "node": 1,
+                                    "condition": "(進入白風狀態)"
+                                }
+                            ]
+                        },
+                        {
+                            "move": "空中飛撲",
+                            "links": [
+                                {
+                                    "node": 2,
+                                    "condition": ""
+                                }
+                            ]
+                        },
+                        {
+                            "move": "垂直吐息",
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "root": 0,
+                    "condition": "",
+                    "nodes": [
+                        {
                             "move": "快速後飛龍捲風",
                             "links": [
                                 {
@@ -6386,34 +6414,6 @@
                         },
                         {
                             "move": "二連咬",
-                            "links": []
-                        }
-                    ]
-                },
-                {
-                    "root": 0,
-                    "condition": "",
-                    "nodes": [
-                        {
-                            "move": "龍吼",
-                            "links": [
-                                {
-                                    "node": 1,
-                                    "condition": "(進入白風狀態)"
-                                }
-                            ]
-                        },
-                        {
-                            "move": "空中飛撲",
-                            "links": [
-                                {
-                                    "node": 2,
-                                    "condition": ""
-                                }
-                            ]
-                        },
-                        {
-                            "move": "垂直吐息",
                             "links": []
                         }
                     ]
@@ -6663,52 +6663,52 @@
                 {
                     "name": "見面發呆",
                     "preaction": "",
-                    "action": "",
+                    "action": "探頭探腦。",
                     "recovery": "大",
-                    "note": "無吼叫，白給動作。",
+                    "note": "見面無吼叫，萌萌的白給動作。",
                     "video": "videos/霞龍/霞龍_見面發呆.mp4",
                     "onlyincombo": false
                 },
                 {
                     "name": "前撲",
-                    "preaction": "",
-                    "action": "",
+                    "preaction": "俯身蓄力。",
+                    "action": "飛撲向目標。",
                     "recovery": "小",
-                    "note": "",
+                    "note": "若前撲後目標位於身後，有機率使用三連尾砸。",
                     "video": "videos/霞龍/霞龍_前撲.mp4",
                     "onlyincombo": false
                 },
                 {
                     "name": "巴掌",
-                    "preaction": "",
-                    "action": "",
+                    "preaction": "單手手肘抬起。",
+                    "action": "向目標橫掃，並掀起石頭攻擊。",
                     "recovery": "小",
-                    "note": "結束後有個快速轉身的動作，也會有傷害。硬直小後續銜接各種連招。",
+                    "note": "結束後有個快速轉身的動作也會有傷害。硬直小，後續銜接各種連招。",
                     "video": "videos/霞龍/霞龍_巴掌.mp4",
                     "onlyincombo": false
                 },
                 {
                     "name": "三連尾砸",
-                    "preaction": "",
+                    "preaction": "背對目標，高舉尾部。",
                     "action": "連續三次尾砸，第二、第三次會掀起石頭。",
-                    "recovery": "",
+                    "recovery": "中",
                     "note": "若目標很快離開身後只會拍一下。斷尾後不會掀起石頭。",
                     "video": "videos/霞龍/霞龍_三連尾砸.mp4",
                     "onlyincombo": false
                 },
                 {
                     "name": "扇形毒球",
-                    "preaction": "",
-                    "action": "",
+                    "preaction": "身體突然向後立起。",
+                    "action": "向前方扇形吐出三顆毒球。怒後會變為五顆且會扇風將毒球拉近回收。",
                     "recovery": "中",
-                    "note": "怒前三顆，怒後五顆並會回收。",
+                    "note": "",
                     "video": "videos/霞龍/霞龍_扇形毒球.mp4",
                     "onlyincombo": false
                 },
                 {
                     "name": "直線噴毒",
-                    "preaction": "",
-                    "action": "",
+                    "preaction": "脖子快速抬起，發動快。",
+                    "action": "向前方地面噴吐直線毒水。",
                     "recovery": "中",
                     "note": "",
                     "video": "videos/霞龍/霞龍_直線噴毒.mp4",
@@ -6716,17 +6716,17 @@
                 },
                 {
                     "name": "起飛噴毒",
-                    "preaction": "",
-                    "action": "",
+                    "preaction": "上身稍微抬起，脖子後仰。",
+                    "action": "潑出直線毒水的同時向上飛起。",
                     "recovery": "中",
-                    "note": "若不落地隱身飛離則會接著使用直線噴毒。",
+                    "note": "可能會直接落地，或者隱身飛離再落地後使用直線噴毒。",
                     "video": "videos/霞龍/霞龍_起飛噴毒.mp4",
                     "onlyincombo": false
                 },
                 {
                     "name": "二連毒球",
-                    "preaction": "",
-                    "action": "",
+                    "preaction": "上身立起，口中含毒。",
+                    "action": "向目標噴吐毒球。",
                     "recovery": "小",
                     "note": "距離較遠時使用，若目標快速接近則只會吐一顆。",
                     "video": "videos/霞龍/霞龍_二連毒球.mp4",
@@ -6734,17 +6734,17 @@
                 },
                 {
                     "name": "環形擴散毒霧",
-                    "preaction": "",
-                    "action": "",
+                    "preaction": "原地一陣小碎步。",
+                    "action": "起飛隱身後向地面噴吐環形擴散的毒霧，接著若怒前會原地落地，並再次擴散毒霧；怒後會向後飛出毒圈，並收縮毒霧。",
                     "recovery": "大",
-                    "note": "怒前會留在原地，並再次擴散毒霧；怒後會飛出毒圈，並收縮毒霧。",
+                    "note": "注意怒前怒後的差異做出應對。",
                     "video": "videos/霞龍/霞龍_環形擴散毒霧.mp4",
                     "onlyincombo": false
                 },
                 {
                     "name": "鎖定吐舌",
-                    "preaction": "",
-                    "action": "",
+                    "preaction": "原地一個小踱步後看向目標。",
+                    "action": "快速吐出舌頭攻擊。",
                     "recovery": "大",
                     "note": "舌頭擊中會偷取目標的鬼火鳥花粉，並強化自身。",
                     "video": "videos/霞龍/霞龍_鎖定吐舌.mp4",
@@ -6752,8 +6752,8 @@
                 },
                 {
                     "name": "二連吐舌",
-                    "preaction": "",
-                    "action": "",
+                    "preaction": "雙腿一並，抬頭挺胸。",
+                    "action": "向前方扇形範圍左右甩舌。",
                     "recovery": "小",
                     "note": "舌頭擊中會偷取目標的鬼火鳥花粉，並強化自身。",
                     "video": "videos/霞龍/霞龍_二連吐舌.mp4",
@@ -6761,8 +6761,8 @@
                 },
                 {
                     "name": "吐舌龍車",
-                    "preaction": "",
-                    "action": "",
+                    "preaction": "先側頭看向目標。",
+                    "action": "吐舌並向目標方向突進。",
                     "recovery": "小",
                     "note": "舌頭擊中會偷取目標的鬼火鳥花粉，並強化自身。",
                     "video": "videos/霞龍/霞龍_吐舌龍車.mp4",
@@ -6770,35 +6770,35 @@
                 },
                 {
                     "name": "隱身繞後",
-                    "preaction": "",
-                    "action": "",
+                    "preaction": "後退一小步後快速隱身。",
+                    "action": "飛向目標身後。",
                     "recovery": "",
-                    "note": "大概率銜接隱身下壓、隱身甩頭。",
+                    "note": "連招起手，高機率銜接隱身下壓或隱身甩頭。",
                     "video": "videos/霞龍/霞龍_隱身繞後.mp4",
                     "onlyincombo": true
                 },
                 {
                     "name": "隱身下壓",
-                    "preaction": "",
-                    "action": "",
+                    "preaction": "隱身的同時高高抬起身體，轉向目標。",
+                    "action": "向目標下壓後隱身趴在地上。若低血量且處於憤怒狀態，下壓後不會隱身而是快速抬起身再次下壓。",
                     "recovery": "大",
-                    "note": "怒後低血量時會連續下壓兩次，可從第一次下壓沒有隱身來判斷。身上有鐵蟲絲綑綁時不會有大硬直。",
+                    "note": "身上有鐵蟲絲綑綁時此招不會有大硬直。",
                     "video": "videos/霞龍/霞龍_隱身下壓.mp4",
                     "onlyincombo": false
                 },
                 {
                     "name": "隱身甩頭",
-                    "preaction": "",
-                    "action": "",
-                    "recovery": "",
-                    "note": "怒前甩一下，怒後連續甩兩下。",
+                    "preaction": "隱身的同時身體向側後方縮。",
+                    "action": "向目標甩頭橫掃。若處於憤怒狀態，會接著向前反向橫掃第二下。",
+                    "recovery": "中",
+                    "note": "",
                     "video": "videos/霞龍/霞龍_隱身甩頭.mp4",
                     "onlyincombo": false
                 },
                 {
                     "name": "隱身直線噴毒",
-                    "preaction": "",
-                    "action": "",
+                    "preaction": "隱身並朝向目標抬起頭。",
+                    "action": "向前方地面噴吐直線毒水。",
                     "recovery": "中",
                     "note": "",
                     "video": "videos/霞龍/霞龍_隱身直線噴毒.mp4",
@@ -6806,37 +6806,37 @@
                 },
                 {
                     "name": "隱身吐舌龍車",
-                    "preaction": "",
-                    "action": "",
-                    "recovery": "",
+                    "preaction": "隱身的同時身體向後退一步。",
+                    "action": "吐舌並向目標方向突進。",
+                    "recovery": "小",
                     "note": "舌頭擊中會偷取目標的鬼火鳥花粉，並強化自身。",
                     "video": "videos/霞龍/霞龍_隱身吐舌龍車.mp4",
                     "onlyincombo": false
                 },
                 {
                     "name": "硬直反擊",
-                    "preaction": "",
+                    "preaction": "霞龍產生大硬直時，快速隱身。",
                     "action": "隱身後繞到目標側面，甩動身體並噴毒。若為憤怒狀態則不會繞到側面，直接甩身噴毒。",
                     "recovery": "大",
-                    "note": "霞龍被打出大硬直時使用，身體下壓時也有傷害判定。",
+                    "note": "霞龍被打出大硬直時使用，身體下壓也有傷害判定。",
                     "video": "videos/霞龍/霞龍_硬直反擊_怒前.mp4",
                     "onlyincombo": false
                 },
                 {
                     "name": "迷霧噴灑",
-                    "condition": "狀態變化招式",
+                    "condition": "狀態變化",
                     "preaction": "",
-                    "action": "",
+                    "action": "快速轉一圈後抬頭噴灑大量迷霧。",
                     "recovery": "大",
-                    "note": "進入憤怒狀態。",
+                    "note": "進入憤怒狀態。之後可從場地是否布滿迷霧來判斷霞龍的狀態。",
                     "video": "videos/霞龍/霞龍_迷霧噴灑.mp4",
                     "onlyincombo": false
                 },
                 {
                     "name": "退怒大招",
-                    "condition": "狀態變化招式",
-                    "preaction": "",
-                    "action": "",
+                    "condition": "狀態變化",
+                    "preaction": "怒後再次使出迷霧噴灑後隱身。",
+                    "action": "側跳後現身，抬頭噴灑毒球噴泉，之後二連甩身噴毒。",
                     "recovery": "大",
                     "note": "退出憤怒狀態。",
                     "video": "videos/霞龍/霞龍_退怒大招.mp4",
