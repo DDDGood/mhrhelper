@@ -6912,6 +6912,92 @@
             ],
             "ref_id": "604633f9653da92a20df3a06"
         },
+        "crimson_glow_valstrax": {
+            "outline": "(招式素材仍在蒐集中)",
+            "moves": [
+                {
+                    "name": "龍吼",
+                    "condition": "",
+                    "preaction": "",
+                    "action": "",
+                    "recovery": "",
+                    "note": "",
+                    "video": "videos/天彗龍/天彗龍_龍吼.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "集氣",
+                    "condition": "",
+                    "preaction": "",
+                    "action": "",
+                    "recovery": "",
+                    "note": "",
+                    "video": "videos/天彗龍/天彗龍_集氣.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "多重導彈",
+                    "condition": "噴射模式",
+                    "preaction": "",
+                    "action": "",
+                    "recovery": "",
+                    "note": "",
+                    "video": "videos/天彗龍/天彗龍_多重導彈.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "二連翼爪前戳",
+                    "condition": "推進模式",
+                    "preaction": "",
+                    "action": "",
+                    "recovery": "",
+                    "note": "",
+                    "video": "videos/天彗龍/天彗龍_二連翼爪前戳.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "翼爪前戳大迴旋",
+                    "condition": "推進模式",
+                    "preaction": "",
+                    "action": "",
+                    "recovery": "",
+                    "note": "",
+                    "video": "videos/天彗龍/天彗龍_翼爪前戳大迴旋.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "側飛落地開砲",
+                    "condition": "推進模式",
+                    "preaction": "",
+                    "action": "",
+                    "recovery": "",
+                    "note": "",
+                    "video": "videos/天彗龍/天彗龍_側飛落地開砲.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "可愛星星飛天撞",
+                    "condition": "推進模式",
+                    "preaction": "",
+                    "action": "",
+                    "recovery": "大",
+                    "note": "",
+                    "video": "videos/天彗龍/天彗龍_可愛星星飛天撞.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "龜派氣功",
+                    "condition": "狀態轉換？",
+                    "preaction": "",
+                    "action": "",
+                    "recovery": "",
+                    "note": "",
+                    "video": "videos/天彗龍/天彗龍_龜派氣功.mp4",
+                    "onlyincombo": false
+                }
+            ],
+            "combos": []
+        },
         "(未定)雷狼龍": {
             "outline": "(招式素材仍在蒐集中)",
             "moves": [
