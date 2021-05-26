@@ -20411,6 +20411,34 @@
         }
       },
       "ref_id": "608b68b7acd80103b52c118a"
+    },
+    "crimson_glow_valstrax": {
+      "name": {
+        "tw": "秘紅赫耀的天彗龍",
+        "jp": "",
+        "en": "Crimson Glow Valstrax"
+      },
+      "species": "elder_dragon",
+      "image": "images/monsters/fullbody/crimson_glow_valstrax.png",
+      "icon": "images/monsters/icons/crimson_glow_valstrax.png",
+      "icon_large": "images/monsters/icons/large/crimson_glow_valstrax.png",
+      "description": "此個體乃是「天彗龍」之變異體。\n原本是身處秘境，翱翔於高空的古龍，但受自己過剩的龍氣侵擾而變得狂暴，會襲擊所有映入眼簾的對象。\n一旦發現獵物，便會以高速飛來並予以襲擊，以翼腳施展千變萬化的攻擊。",
+      "threat_level": "",
+      "ref_id": ""
+    },
+    "apex_zinogre": {
+      "name": {
+        "tw": "首領雷狼龍",
+        "jp": "",
+        "en": "Apex Zinogre"
+      },
+      "species": "fanged_wyvern",
+      "image": "images/monsters/fullbody/apex_zinogre.png",
+      "icon": "images/monsters/icons/apex_zinogre.png",
+      "icon_large": "images/monsters/icons/large/apex_zinogre.png",
+      "description": "冠有「首領」之名的雷狼龍。\n全身上下都有著像是被捲入暴風後所留下的傷痕，這也許是牠一直受到憤怒與恐懼支配的原因。\n前腳比起一般的個體更加發達，其攻擊能發出萬千雷電，撕裂一切敵人。",
+      "threat_level": "apex",
+      "ref_id": ""
     }
   }
 }
