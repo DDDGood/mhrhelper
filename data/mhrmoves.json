@@ -6913,7 +6913,12 @@
             "ref_id": "604633f9653da92a20df3a06"
         },
         "crimson_glow_valstrax": {
-            "outline": "(招式素材仍在蒐集中)",
+            "outline": "天彗龍的翼爪可以在戰鬥中切換兩種模式，兩種模式的行動有明顯的不同：\n‧噴射口向後的推進模式－有較多的位移招式，常用翼尖攻擊。\n‧噴射口向前的噴射模式－常用各種砲擊與翼爪攻擊。\n\n天彗龍憤怒時胸口會冒紅光，憤怒狀態下，翼爪及翼尖的攻擊動作會有二連派生。而在戰鬥中使用「集氣」的動作後，兩翼也會冒出紅光，在翅膀紅光狀態下會解鎖一些新的招式，若遭受到一定傷害後則會炸膛倒地，翅膀的紅光消失。",
+            "reference": {
+                "Monster Hunter Rise - Crimson Glow Valstrax Boss Fight (Solo / Dualblades)": "https://youtu.be/CDr5i03uC74",
+                "First encounter with Crimson Glow Valstrax (Switch Axe solo) | Monster Hunter Rise": "https://youtu.be/kjYNdk5N30A",
+                "【MHR】太刀 天慧龍 9分台(初見) 奇しき赫耀のバルファルク Crimson Glow Valstrax Longsword solo": "https://www.youtube.com/watch?v=Ri-VJFQGrws"
+            },
             "moves": [
                 {
                     "name": "龍吼",
@@ -6921,58 +6926,98 @@
                     "preaction": "",
                     "action": "",
                     "recovery": "",
-                    "note": "",
+                    "note": "戰鬥中胸口冒紅光龍吼進入憤怒狀態。",
                     "video": "videos/天彗龍/天彗龍_龍吼.mp4",
                     "onlyincombo": false
                 },
                 {
                     "name": "集氣",
-                    "condition": "",
+                    "condition": "狀態變化",
                     "preaction": "",
                     "action": "",
                     "recovery": "",
-                    "note": "",
+                    "note": "集氣後進入翅膀紅光狀態。",
                     "video": "videos/天彗龍/天彗龍_集氣.mp4",
                     "onlyincombo": false
                 },
                 {
-                    "name": "多重導彈",
-                    "condition": "噴射模式",
+                    "name": "前咬",
+                    "condition": "推進模式",
                     "preaction": "",
                     "action": "",
-                    "recovery": "",
+                    "recovery": "小",
                     "note": "",
-                    "video": "videos/天彗龍/天彗龍_多重導彈.mp4",
+                    "video": "videos/天彗龍/天彗龍_前咬.mp4",
                     "onlyincombo": false
                 },
                 {
-                    "name": "二連翼爪前戳",
+                    "name": "二連咬",
+                    "condition": "推進模式",
+                    "preaction": "",
+                    "action": "",
+                    "recovery": "中",
+                    "note": "",
+                    "video": "videos/天彗龍/天彗龍_二連咬.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "突進前頂",
+                    "condition": "推進模式",
+                    "preaction": "",
+                    "action": "",
+                    "recovery": "中",
+                    "note": "",
+                    "video": "videos/天彗龍/天彗龍_突進前頂.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "龍車",
+                    "condition": "推進模式",
+                    "preaction": "",
+                    "action": "",
+                    "recovery": "中",
+                    "note": "怒後有機率二連龍車。",
+                    "video": "videos/天彗龍/天彗龍_龍車.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "拍地後翼尖戳地",
+                    "condition": "推進模式",
+                    "preaction": "",
+                    "action": "",
+                    "recovery": "大",
+                    "note": "普通狀態下戳地一次，怒後會二連戳地。翅膀紅光時兩側地面會有龍氣延遲爆破。",
+                    "video": "videos/天彗龍/天彗龍_拍地後翼尖戳地.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "反身翼尖戳地",
+                    "condition": "推進模式",
+                    "preaction": "",
+                    "action": "",
+                    "recovery": "大",
+                    "note": "普通狀態下戳地一次，怒後會二連戳地。翅膀紅光時兩側地面會有龍氣延遲爆破。",
+                    "video": "videos/天彗龍/天彗龍_反身翼尖戳地.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "二連翼尖前戳",
                     "condition": "推進模式",
                     "preaction": "",
                     "action": "",
                     "recovery": "",
                     "note": "",
-                    "video": "videos/天彗龍/天彗龍_二連翼爪前戳.mp4",
+                    "video": "videos/天彗龍/天彗龍_二連翼尖前戳.mp4",
                     "onlyincombo": false
                 },
                 {
-                    "name": "翼爪前戳大迴旋",
+                    "name": "翼尖前戳大迴旋",
                     "condition": "推進模式",
                     "preaction": "",
                     "action": "",
-                    "recovery": "",
+                    "recovery": "大",
                     "note": "",
-                    "video": "videos/天彗龍/天彗龍_翼爪前戳大迴旋.mp4",
-                    "onlyincombo": false
-                },
-                {
-                    "name": "側飛落地開砲",
-                    "condition": "推進模式",
-                    "preaction": "",
-                    "action": "",
-                    "recovery": "",
-                    "note": "",
-                    "video": "videos/天彗龍/天彗龍_側飛落地開砲.mp4",
+                    "video": "videos/天彗龍/天彗龍_翼尖前戳大迴旋.mp4",
                     "onlyincombo": false
                 },
                 {
@@ -6986,17 +7031,285 @@
                     "onlyincombo": false
                 },
                 {
-                    "name": "龜派氣功",
-                    "condition": "狀態轉換？",
+                    "name": "拍地後翼爪拍地",
+                    "condition": "噴射模式",
+                    "preaction": "",
+                    "action": "",
+                    "recovery": "大",
+                    "note": "普通狀態下一次，怒後會連續兩次。",
+                    "video": "videos/天彗龍/天彗龍_拍地後翼爪拍地.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "翼爪搧巴掌",
+                    "condition": "噴射模式",
+                    "preaction": "",
+                    "action": "",
+                    "recovery": "中",
+                    "note": "貼近身體是盲區。",
+                    "video": "videos/天彗龍/天彗龍_翼爪搧巴掌.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "多重導彈",
+                    "condition": "噴射模式",
+                    "preaction": "",
+                    "action": "",
+                    "recovery": "中",
+                    "note": "",
+                    "video": "videos/天彗龍/天彗龍_多重導彈.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "延遲地雷",
+                    "condition": "噴射模式",
+                    "preaction": "",
+                    "action": "",
+                    "recovery": "小",
+                    "note": "轉為推進模式。",
+                    "video": "videos/天彗龍/天彗龍_延遲地雷.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "向前砲擊後跳",
+                    "condition": "噴射模式",
+                    "preaction": "",
+                    "action": "",
+                    "recovery": "小",
+                    "note": "轉為推進模式。",
+                    "video": "videos/天彗龍/天彗龍_向前砲擊後跳.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "向下砲擊後向前砲擊",
+                    "condition": "噴射模式",
+                    "preaction": "",
+                    "action": "",
+                    "recovery": "大",
+                    "note": "",
+                    "video": "videos/天彗龍/天彗龍_向下砲擊後向前砲擊.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "突進空翻砲擊",
+                    "condition": "噴射模式",
+                    "preaction": "",
+                    "action": "",
+                    "recovery": "小",
+                    "note": "轉為推進模式。怒後會回頭龍車。",
+                    "video": "videos/天彗龍/天彗龍_突進空翻砲擊.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "蓄力龍砲",
+                    "condition": "翅膀紅光",
+                    "preaction": "",
+                    "action": "",
+                    "recovery": "大",
+                    "note": "",
+                    "video": "videos/天彗龍/天彗龍_蓄力龍砲.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "起飛",
+                    "condition": "翅膀紅光",
                     "preaction": "",
                     "action": "",
                     "recovery": "",
-                    "note": "",
-                    "video": "videos/天彗龍/天彗龍_龜派氣功.mp4",
+                    "note": "起飛連招起手，後續可能接落地翼爪爆破、俯衝直線爆破。",
+                    "video": "videos/天彗龍/天彗龍_起飛.mp4",
                     "onlyincombo": false
+                },
+                {
+                    "name": "龍車起飛",
+                    "condition": "翅膀紅光",
+                    "preaction": "",
+                    "action": "",
+                    "recovery": "",
+                    "note": "起飛連招起手，後續可能接落地翼爪爆破、俯衝直線爆破。",
+                    "video": "videos/天彗龍/天彗龍_龍車起飛.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "俯衝直線爆破",
+                    "condition": "翅膀紅光",
+                    "preaction": "",
+                    "action": "",
+                    "recovery": "大",
+                    "note": "",
+                    "video": "videos/天彗龍/天彗龍_俯衝直線爆破.mp4",
+                    "onlyincombo": true
+                },
+                {
+                    "name": "落地翼爪爆破",
+                    "condition": "翅膀紅光",
+                    "preaction": "",
+                    "action": "",
+                    "recovery": "大",
+                    "note": "",
+                    "video": "videos/天彗龍/天彗龍_落地翼爪爆破.mp4",
+                    "onlyincombo": true
+                },
+                {
+                    "name": "空中多重延遲地雷",
+                    "condition": "翅膀紅光",
+                    "preaction": "",
+                    "action": "",
+                    "recovery": "大",
+                    "note": "",
+                    "video": "videos/天彗龍/天彗龍_空中多重延遲地雷.mp4",
+                    "onlyincombo": true
+                },
+                {
+                    "name": "側跳",
+                    "condition": "",
+                    "preaction": "",
+                    "action": "",
+                    "recovery": "",
+                    "note": "連招起手，推進模式派生拍地後翼尖戳地，噴射模式派生翼爪搧巴掌。",
+                    "video": "videos/天彗龍/天彗龍_側跳.mp4",
+                    "onlyincombo": true
+                },
+                {
+                    "name": "跑到身後",
+                    "condition": "",
+                    "preaction": "",
+                    "action": "",
+                    "recovery": "",
+                    "note": "連招起手，派生翼爪大迴旋、反身翼尖戳地。",
+                    "video": "videos/天彗龍/天彗龍_跑到身後.mp4",
+                    "onlyincombo": true
                 }
             ],
-            "combos": []
+            "combos": [
+                {
+                    "root": 0,
+                    "condition": "",
+                    "nodes": [
+                        {
+                            "move": "側跳",
+                            "links": [
+                                {
+                                    "node": 1,
+                                    "condition": "推進模式"
+                                },
+                                {
+                                    "node": 2,
+                                    "condition": "噴射模式"
+                                }
+                            ]
+                        },
+                        {
+                            "move": "拍地後翼尖戳地",
+                            "links": []
+                        },
+                        {
+                            "move": "翼爪搧巴掌",
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "root": 0,
+                    "condition": "推進模式",
+                    "nodes": [
+                        {
+                            "move": "龍車",
+                            "links": [
+                                {
+                                    "node": 1,
+                                    "condition": "怒後機率"
+                                }
+                            ]
+                        },
+                        {
+                            "move": "龍車",
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "root": 0,
+                    "condition": "推進模式",
+                    "nodes": [
+                        {
+                            "move": "跑到身後",
+                            "links": [
+                                {
+                                    "node": 1,
+                                    "condition": ""
+                                },
+                                {
+                                    "node": 2,
+                                    "condition": ""
+                                }
+                            ]
+                        },
+                        {
+                            "move": "翼尖前戳大迴旋",
+                            "links": []
+                        },
+                        {
+                            "move": "反身翼尖戳地",
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "root": 0,
+                    "condition": "噴射模式",
+                    "nodes": [
+                        {
+                            "move": "突進空翻砲擊",
+                            "links": [
+                                {
+                                    "node": 1,
+                                    "condition": "怒後"
+                                }
+                            ]
+                        },
+                        {
+                            "move": "龍車",
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "root": 0,
+                    "condition": "翅膀紅光",
+                    "nodes": [
+                        {
+                            "move": "起飛招式",
+                            "links": [
+                                {
+                                    "node": 1,
+                                    "condition": ""
+                                },
+                                {
+                                    "node": 2,
+                                    "condition": ""
+                                },
+                                {
+                                    "node": 3,
+                                    "condition": ""
+                                }
+                            ]
+                        },
+                        {
+                            "move": "俯衝直線爆破",
+                            "links": []
+                        },
+                        {
+                            "move": "落地翼爪爆破",
+                            "links": []
+                        },
+                        {
+                            "move": "空中多重延遲地雷",
+                            "links": []
+                        }
+                    ]
+                }
+            ]
         },
         "(未定)雷狼龍": {
             "outline": "(招式素材仍在蒐集中)",

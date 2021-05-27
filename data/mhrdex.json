@@ -20424,7 +20424,128 @@
       "icon_large": "images/monsters/icons/large/crimson_glow_valstrax.png",
       "description": "此個體乃是「天彗龍」之變異體。\n原本是身處秘境，翱翔於高空的古龍，但受自己過剩的龍氣侵擾而變得狂暴，會襲擊所有映入眼簾的對象。\n一旦發現獵物，便會以高速飛來並予以襲擊，以翼腳施展千變萬化的攻擊。",
       "threat_level": "",
-      "ref_id": ""
+      "ref_id": "",
+      "hitdata": {
+        "parts": [
+          {
+            "part": "頭",
+            "condition": "通常",
+            "cut": 55,
+            "blunt": 60,
+            "ammo": 35,
+            "fire": 25,
+            "water": 25,
+            "thunder": 25,
+            "ice": 25,
+            "dragon": 0,
+            "dizzy": 100
+          },
+          {
+            "part": "頸",
+            "condition": "通常",
+            "cut": 40,
+            "blunt": 30,
+            "ammo": 15,
+            "fire": 25,
+            "water": 25,
+            "thunder": 25,
+            "ice": 25,
+            "dragon": 0,
+            "dizzy": 100
+          },
+          {
+            "part": "身體",
+            "condition": "通常",
+            "cut": 30,
+            "blunt": 25,
+            "ammo": 10,
+            "fire": 20,
+            "water": 20,
+            "thunder": 20,
+            "ice": 20,
+            "dragon": 0,
+            "dizzy": 100
+          },
+          {
+            "part": "胸部",
+            "condition": "通常",
+            "cut": 30,
+            "blunt": 25,
+            "ammo": 10,
+            "fire": 20,
+            "water": 20,
+            "thunder": 20,
+            "ice": 20,
+            "dragon": 0,
+            "dizzy": 100
+          },
+          {
+            "part": "前腳",
+            "condition": "通常",
+            "cut": 25,
+            "blunt": 24,
+            "ammo": 25,
+            "fire": 25,
+            "water": 25,
+            "thunder": 25,
+            "ice": 25,
+            "dragon": 0,
+            "dizzy": 0
+          },
+          {
+            "part": "翼",
+            "condition": "通常",
+            "cut": 22,
+            "blunt": 45,
+            "ammo": 10,
+            "fire": 25,
+            "water": 25,
+            "thunder": 25,
+            "ice": 25,
+            "dragon": 0,
+            "dizzy": 0
+          },
+          {
+            "part": "後腳",
+            "condition": "通常",
+            "cut": 25,
+            "blunt": 24,
+            "ammo": 20,
+            "fire": 15,
+            "water": 15,
+            "thunder": 15,
+            "ice": 15,
+            "dragon": 0,
+            "dizzy": 0
+          },
+          {
+            "part": "翼根",
+            "condition": "通常",
+            "cut": 45,
+            "blunt": 45,
+            "ammo": 45,
+            "fire": 15,
+            "water": 15,
+            "thunder": 15,
+            "ice": 15,
+            "dragon": 0,
+            "dizzy": 0
+          },
+          {
+            "part": "尾巴",
+            "condition": "通常",
+            "cut": 45,
+            "blunt": 24,
+            "ammo": 20,
+            "fire": 20,
+            "water": 20,
+            "thunder": 20,
+            "ice": 20,
+            "dragon": 0,
+            "dizzy": 100
+          }
+        ]
+      }
     },
     "apex_zinogre": {
       "name": {
