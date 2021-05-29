@@ -7083,8 +7083,8 @@
                 {
                     "name": "突進爆破空翻",
                     "condition": "噴射模式",
-                    "preaction": "",
-                    "action": "",
+                    "preaction": "向前奔跑並跳起。",
+                    "action": "空中雙翼向下產生爆破後，向前空翻。",
                     "recovery": "小",
                     "note": "轉為推進模式。怒後會回頭龍車。",
                     "video": "videos/天彗龍/天彗龍_突進爆破空翻.mp4",
