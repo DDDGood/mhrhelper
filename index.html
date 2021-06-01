@@ -38,8 +38,9 @@
   <div id="wrapper">
     <div id="app">
       <div id="header">
-        <div class="header1" onclick="javascript:location.href='https://dddgood.github.io/mhrhelper/'">
-          {{$t('mhrhelper')}}
+        <div class="flex-row flex-intense" onclick="javascript:location.href='https://dddgood.github.io/mhrhelper/'">
+          <div class="flex-item flex-center"><img :src="'favicon-32x32.png'" class="header-icon" /></div>
+          <div class="flex-item header1">{{$t('mhrhelper')}}</div>
         </div>
         <select id="localization" onchange="SetLocal(this.options[this.options.selectedIndex].value);">
           <option value="tw">中文</option>

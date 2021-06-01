@@ -26,6 +26,11 @@
     margin-top: 10px;
     margin-bottom: 10px;
   }
+  .header-icon{
+    width: 24px;
+    height: 24px;
+    margin-right: 4px;
+  }
 
 
   .description-text{
