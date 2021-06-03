@@ -878,11 +878,63 @@
         "en": "ApexArzuros"
       },
       "species": "fanged_beast",
-      "image": "",
+      "image": "images/monsters/fullbody/apex_arzuros.png",
       "icon": "images/monsters/icons/apex_arzuros.png",
       "icon_large": "images/monsters/icons/large/apex_arzuros.png",
       "description": "冠有「首領」之名的青熊獸。全身上下都有著像是被捲入暴風後所留下的傷痕，這也許是牠一直受到憤怒與恐懼支配的原因。前腳比起一般的個體更加發達，凡是阻其去路者，在其怪力之下無一倖存。另外，首領會藉由咆嘯，將自己的憤怒與恐懼散播至周遭，使其他魔物變得活躍起來。\n首領發怒後，會施展最強勁的必殺技。首領青熊獸的必殺技為一邊連續敲擊地面並同時接近，給予障礙物猛烈的一擊。當首領處於憤怒狀態時，記得要持續攻擊，盡早使其膽怯，平息首領的怒火吧。",
       "threat_level": "apex",
+      "trait": {
+        "roar": "-",
+        "wind": "-",
+        "tremor": "大",
+        "element": "-",
+        "aliment": "-"
+      },
+      "weakness": {
+        "weapon": [
+          {
+            "cut": "頭>前腳",
+            "blunt": "頭/前腳",
+            "ammo": "頭/上半身"
+          },
+          {
+            "condition": "前腳破壞時",
+            "cut": "前腳>頭",
+            "blunt": "前腳>頭",
+            "ammo": "前腳"
+          }
+        ],
+        "element": [
+          {
+            "fire": "3",
+            "water": "0",
+            "thunder": "2",
+            "ice": "2",
+            "dragon": "0"
+          }
+        ],
+        "aliment": [
+          {
+            "poison": "1",
+            "stun": "1",
+            "paralysis": "0",
+            "sleep": "0",
+            "blast": "2",
+            "riding": "0"
+          }
+        ],
+        "item": [
+          {
+            "fire_aliment": "2",
+            "water_aliment": "1",
+            "thunder_aliment": "1",
+            "ice_aliment": "1",
+            "shocktrap": "0",
+            "pitfalltrap": "0",
+            "flashpod": "2"
+          }
+        ]
+      },
       "hitdata": {
         "parts": [
           {
@@ -1708,12 +1760,139 @@
         "en": "ApexRathian"
       },
       "species": "flying_wryven",
-      "image": "",
+      "image": "images/monsters/fullbody/apex_rathian.png",
       "icon": "images/monsters/icons/apex_rathian.png",
       "icon_large": "images/monsters/icons/large/apex_rathian.png",
       "description": "冠有「首領」之名的雌火龍。全身上下都有著像是被捲入暴風後所留下的傷痕，這也許是牠一直受到憤怒與恐懼支配的原因。尾巴比起一般的個體更加發達，棘上還有著猛烈的劇毒。另外，首領會藉由咆嘯，將自己的憤怒與恐懼散播至周遭，使其他魔物變得活躍起來。\n首領發怒後，會施展最強勁的必殺技。首領雌火龍的必殺技為將具有猛毒的棘射向四周，並以飛散的棘為中心創造出毒素領域。當首領處於憤怒狀態時，記得要持續攻擊，盡早使其膽怯，平息首領的怒火吧。",
       "threat_level": "apex",
       "ref_id": "605a1c18bc331f26a500c996",
+      "trait": {
+        "roar": "強",
+        "wind": "大",
+        "tremor": "-",
+        "element": "火",
+        "aliment": "猛毒"
+      },
+      "weakness": {
+        "weapon": [
+          {
+            "cut": "頭",
+            "blunt": "頭",
+            "ammo": "頭"
+          }
+        ],
+        "element": [
+          {
+            "fire": "0",
+            "water": "1",
+            "thunder": "2",
+            "ice": "1",
+            "dragon": "3"
+          }
+        ],
+        "aliment": [
+          {
+            "poison": "0",
+            "stun": "1",
+            "paralysis": "0",
+            "sleep": "0",
+            "blast": "0",
+            "riding": "0"
+          }
+        ],
+        "item": [
+          {
+            "fire_aliment": "1",
+            "water_aliment": "1",
+            "thunder_aliment": "2",
+            "ice_aliment": "1",
+            "shocktrap": "0",
+            "pitfalltrap": "0",
+            "flashpod": "2"
+          }
+        ]
+      },
+      "hitdata": {
+        "parts": [
+          {
+            "part": "頭",
+            "cut": "60",
+            "blunt": "65",
+            "ammo": "50",
+            "fire": "0",
+            "water": "10",
+            "thunder": "10",
+            "ice": "10",
+            "dragon": "20"
+          },
+          {
+            "part": "頸",
+            "cut": "40",
+            "blunt": "40",
+            "ammo": "30",
+            "fire": "5",
+            "water": "10",
+            "thunder": "10",
+            "ice": "10",
+            "dragon": "20"
+          },
+          {
+            "part": "身",
+            "cut": "24",
+            "blunt": "24",
+            "ammo": "20",
+            "fire": "0",
+            "water": "5",
+            "thunder": "15",
+            "ice": "5",
+            "dragon": "15"
+          },
+          {
+            "part": "背",
+            "cut": "20",
+            "blunt": "20",
+            "ammo": "15",
+            "fire": "5",
+            "water": "10",
+            "thunder": "20",
+            "ice": "10",
+            "dragon": "25"
+          },
+          {
+            "part": "翼",
+            "cut": "35",
+            "blunt": "35",
+            "ammo": "30",
+            "fire": "0",
+            "water": "10",
+            "thunder": "20",
+            "ice": "10",
+            "dragon": "25"
+          },
+          {
+            "part": "腳",
+            "cut": "24",
+            "blunt": "24",
+            "ammo": "20",
+            "fire": "0",
+            "water": "5",
+            "thunder": "10",
+            "ice": "5",
+            "dragon": "15"
+          },
+          {
+            "part": "尾",
+            "cut": "40",
+            "blunt": "35",
+            "ammo": "30",
+            "fire": "5",
+            "water": "5",
+            "thunder": "10",
+            "ice": "5",
+            "dragon": "15"
+          }
+        ]
+      },
       "items": {
         "high_rank": {
           "apex_venom_spike": {
@@ -2629,12 +2808,251 @@
         "en": "ApexMizutsune"
       },
       "species": "leviathan",
-      "image": "",
+      "image": "images/monsters/fullbody/apex_mizutsune.png",
       "icon": "images/monsters/icons/apex_mizutsune.png",
       "icon_large": "images/monsters/icons/large/apex_mizutsune.png",
       "description": "冠有「首領」之名的泡狐龍。全身上下都有著像是被捲入暴風後所留下的傷痕，這也許是牠一直受到憤怒與恐懼支配的原因。尾巴比起一般的個體更加發達，其頑強的攻擊會將目標的希望與鬥志化為泡影。另外，首領會藉由咆嘯，將自己的憤怒與恐懼散播至周遭，使其他魔物變得活躍起來。\n首領發怒後，會施展最強勁的必殺技。首領泡狐龍的必殺技為撒出會爆炸的泡泡，破壞四周的一切。此時不妨使用苦無、彈藥或弩砲等方式來處理泡泡。當首領處於憤怒狀態時，記得要持續攻擊，盡早使其膽怯，平息首領的怒火吧。",
       "threat_level": "apex",
       "ref_id": "60575d7b3f1e3646fb685abd",
+      "trait": {
+        "roar": "小",
+        "wind": "-",
+        "tremor": "-",
+        "element": "水",
+        "aliment": "鬼火"
+      },
+      "weakness": {
+        "weapon": [
+          {
+            "cut": "頭",
+            "blunt": "頭",
+            "ammo": "背鰭"
+          },
+          {
+            "condition": "憤怒時",
+            "cut": "尾",
+            "blunt": "尾",
+            "ammo": "背鰭/尾"
+          }
+        ],
+        "element": [
+          {
+            "fire": "1",
+            "water": "0",
+            "thunder": "3",
+            "ice": "1",
+            "dragon": "2"
+          }
+        ],
+        "aliment": [
+          {
+            "poison": "1",
+            "stun": "1",
+            "paralysis": "0",
+            "sleep": "0",
+            "blast": "2",
+            "riding": "0"
+          }
+        ],
+        "item": [
+          {
+            "fire_aliment": "1",
+            "water_aliment": "1",
+            "thunder_aliment": "2",
+            "ice_aliment": "1",
+            "shocktrap": "0",
+            "pitfalltrap": "0",
+            "flashpod": "2"
+          }
+        ]
+      },
+      "hitdata": {
+        "parts": [
+          {
+            "part": "頭",
+            "cut": "60",
+            "blunt": "60",
+            "ammo": "25",
+            "fire": "5",
+            "water": "0",
+            "thunder": "10",
+            "ice": "5",
+            "dragon": "8"
+          },
+          {
+            "condition": "憤怒時",
+            "part": "頭",
+            "cut": "65",
+            "blunt": "65",
+            "ammo": "35",
+            "fire": "10",
+            "water": "0",
+            "thunder": "15",
+            "ice": "5",
+            "dragon": "10"
+          },
+          {
+            "part": "頸",
+            "cut": "43",
+            "blunt": "43",
+            "ammo": "15",
+            "fire": "8",
+            "water": "0",
+            "thunder": "10",
+            "ice": "5",
+            "dragon": "8"
+          },
+          {
+            "condition": "憤怒時",
+            "part": "頸",
+            "cut": "50",
+            "blunt": "50",
+            "ammo": "20",
+            "fire": "8",
+            "water": "0",
+            "thunder": "10",
+            "ice": "5",
+            "dragon": "8"
+          },
+          {
+            "part": "身",
+            "cut": "25",
+            "blunt": "25",
+            "ammo": "15",
+            "fire": "5",
+            "water": "0",
+            "thunder": "10",
+            "ice": "5",
+            "dragon": "5"
+          },
+          {
+            "condition": "憤怒時",
+            "part": "身",
+            "cut": "25",
+            "blunt": "25",
+            "ammo": "20",
+            "fire": "5",
+            "water": "0",
+            "thunder": "15",
+            "ice": "5",
+            "dragon": "5"
+          },
+          {
+            "part": "前腳",
+            "cut": "28",
+            "blunt": "28",
+            "ammo": "10",
+            "fire": "5",
+            "water": "0",
+            "thunder": "25",
+            "ice": "15",
+            "dragon": "30"
+          },
+          {
+            "condition": "憤怒時",
+            "part": "前腳",
+            "cut": "35",
+            "blunt": "35",
+            "ammo": "10",
+            "fire": "5",
+            "water": "0",
+            "thunder": "25",
+            "ice": "15",
+            "dragon": "30"
+          },
+          {
+            "part": "左爪",
+            "cut": "24",
+            "blunt": "24",
+            "ammo": "10",
+            "fire": "5",
+            "water": "0",
+            "thunder": "30",
+            "ice": "15",
+            "dragon": "30"
+          },
+          {
+            "part": "右爪",
+            "cut": "24",
+            "blunt": "24",
+            "ammo": "10",
+            "fire": "5",
+            "water": "0",
+            "thunder": "30",
+            "ice": "15",
+            "dragon": "30"
+          },
+          {
+            "part": "背鰭",
+            "cut": "43",
+            "blunt": "43",
+            "ammo": "45",
+            "fire": "8",
+            "water": "0",
+            "thunder": "15",
+            "ice": "5",
+            "dragon": "10"
+          },
+          {
+            "condition": "憤怒時",
+            "part": "背鰭",
+            "cut": "63",
+            "blunt": "63",
+            "ammo": "45",
+            "fire": "10",
+            "water": "0",
+            "thunder": "20",
+            "ice": "5",
+            "dragon": "15"
+          },
+          {
+            "part": "後腳",
+            "cut": "38",
+            "blunt": "38",
+            "ammo": "20",
+            "fire": "5",
+            "water": "0",
+            "thunder": "10",
+            "ice": "5",
+            "dragon": "5"
+          },
+          {
+            "condition": "憤怒時",
+            "part": "後腳",
+            "cut": "43",
+            "blunt": "43",
+            "ammo": "20",
+            "fire": "10",
+            "water": "0",
+            "thunder": "15",
+            "ice": "5",
+            "dragon": "5"
+          },
+          {
+            "part": "尾巴",
+            "cut": "43",
+            "blunt": "33",
+            "ammo": "10",
+            "fire": "5",
+            "water": "0",
+            "thunder": "10",
+            "ice": "5",
+            "dragon": "5"
+          },
+          {
+            "condition": "憤怒時",
+            "part": "尾巴",
+            "cut": "73",
+            "blunt": "73",
+            "ammo": "45",
+            "fire": "5",
+            "water": "0",
+            "thunder": "15",
+            "ice": "5",
+            "dragon": "5"
+          }
+        ]
+      },
       "items": {
         "high_rank": {
           "apex_bubblefoam": {
@@ -19523,6 +19941,163 @@
       "description": "冠以「首領」之名的火龍。\n全身上下都有著像是被捲入暴風後所留下的傷痕，\n這也許是牠一直受到憤怒與恐懼支配的原因。\n喉部比起一般的個體更加發達，從牠咽喉中吐出的烈焰吐息，會將四周化為一片焦土。",
       "threat_level": "apex",
       "ref_id": "608b68b7acd80103b52c118d",
+      "trait": {
+        "roar": "強",
+        "wind": "小",
+        "tremor": "-",
+        "element": "火",
+        "aliment": "毒"
+      },
+      "weakness": {
+        "weapon": [
+          {
+            "cut": "頭",
+            "blunt": "頭",
+            "ammo": "背"
+          },
+          {
+            "condition": "憤怒時",
+            "cut": "頭>頸>尾",
+            "blunt": "頭>頸>翼",
+            "ammo": "頭/頸/背"
+          }
+        ],
+        "element": [
+          {
+            "fire": "0",
+            "water": "1",
+            "thunder": "2",
+            "ice": "1",
+            "dragon": "3"
+          }
+        ],
+        "aliment": [
+          {
+            "poison": "",
+            "stun": "",
+            "paralysis": "",
+            "sleep": "",
+            "blast": "",
+            "riding": ""
+          }
+        ],
+        "item": [
+          {
+            "fire_aliment": "",
+            "water_aliment": "",
+            "thunder_aliment": "",
+            "ice_aliment": "",
+            "shocktrap": "0",
+            "pitfalltrap": "0",
+            "flashpod": "2"
+          }
+        ]
+      },
+      "hitdata": {
+        "parts": [
+          {
+            "part": "頭",
+            "cut": "55",
+            "blunt": "55",
+            "ammo": "30",
+            "fire": "0",
+            "water": "5",
+            "thunder": "10",
+            "ice": "5",
+            "dragon": "20"
+          },
+          {
+            "condition": "憤怒時",
+            "part": "頭",
+            "cut": "80",
+            "blunt": "80",
+            "ammo": "45",
+            "fire": "0",
+            "water": "10",
+            "thunder": "10",
+            "ice": "10",
+            "dragon": "20"
+          },
+          {
+            "part": "頸",
+            "cut": "38",
+            "blunt": "38",
+            "ammo": "20",
+            "fire": "5",
+            "water": "10",
+            "thunder": "15",
+            "ice": "10",
+            "dragon": "15"
+          },
+          {
+            "condition": "憤怒時",
+            "part": "頸",
+            "cut": "75",
+            "blunt": "75",
+            "ammo": "47",
+            "fire": "5",
+            "water": "10",
+            "thunder": "15",
+            "ice": "10",
+            "dragon": "15"
+          },
+          {
+            "part": "腹",
+            "cut": "24",
+            "blunt": "24",
+            "ammo": "10",
+            "fire": "0",
+            "water": "5",
+            "thunder": "8",
+            "ice": "5",
+            "dragon": "10"
+          },
+          {
+            "part": "背",
+            "cut": "21",
+            "blunt": "21",
+            "ammo": "45",
+            "fire": "0",
+            "water": "5",
+            "thunder": "8",
+            "ice": "5",
+            "dragon": "10"
+          },
+          {
+            "part": "翼",
+            "cut": "30",
+            "blunt": "45",
+            "ammo": "10",
+            "fire": "0",
+            "water": "10",
+            "thunder": "20",
+            "ice": "10",
+            "dragon": "25"
+          },
+          {
+            "part": "腳",
+            "cut": "30",
+            "blunt": "30",
+            "ammo": "20",
+            "fire": "0",
+            "water": "5",
+            "thunder": "10",
+            "ice": "5",
+            "dragon": "15"
+          },
+          {
+            "part": "尾巴",
+            "cut": "45",
+            "blunt": "35",
+            "ammo": "20",
+            "fire": "5",
+            "water": "5",
+            "thunder": "10",
+            "ice": "5",
+            "dragon": "15"
+          }
+        ]
+      },
       "items": {
         "high_rank": {
           "apex_blaze_sac": {
@@ -19693,6 +20268,197 @@
       "description": "冠以「首領」之名的角龍。\n全身上下都有著像是被捲入暴風後所留下的傷痕，\n這也許是牠一直受到憤怒與恐懼支配的原因。\n角比起一般的個體更加發達，其突進的破壞力會將對手撞入絕望的深淵。",
       "threat_level": "apex",
       "ref_id": "608b68b7acd80103b52c118c",
+      "trait": {
+        "roar": "大",
+        "wind": "-",
+        "tremor": "-",
+        "element": "-",
+        "aliment": "-"
+      },
+      "weakness": {
+        "weapon": [
+          {
+            "cut": "尾>頭/尾尖",
+            "blunt": "頭/角/頸",
+            "ammo": "頭"
+          },
+          {
+            "condition": "憤怒時",
+            "cut": "頭>角>頸/尾",
+            "blunt": "頭>角>頸",
+            "ammo": "頭"
+          }
+        ],
+        "element": [
+          {
+            "fire": "0",
+            "water": "2",
+            "thunder": "1",
+            "ice": "3",
+            "dragon": "2"
+          }
+        ],
+        "aliment": [
+          {
+            "poison": "",
+            "stun": "",
+            "paralysis": "",
+            "sleep": "",
+            "blast": "",
+            "riding": ""
+          }
+        ],
+        "item": [
+          {
+            "fire_aliment": "",
+            "water_aliment": "",
+            "thunder_aliment": "",
+            "ice_aliment": "",
+            "shocktrap": "0",
+            "pitfalltrap": "0",
+            "flashpod": "2"
+          }
+        ]
+      },
+      "hitdata": {
+        "parts": [
+          {
+            "part": "頭",
+            "cut": "45",
+            "blunt": "45",
+            "ammo": "45",
+            "fire": "0",
+            "water": "15",
+            "thunder": "10",
+            "ice": "25",
+            "dragon": "15"
+          },
+          {
+            "condition": "憤怒時",
+            "part": "頭",
+            "cut": "63",
+            "blunt": "63",
+            "ammo": "47",
+            "fire": "0",
+            "water": "15",
+            "thunder": "10",
+            "ice": "25",
+            "dragon": "15"
+          },
+          {
+            "part": "角",
+            "cut": "35",
+            "blunt": "45",
+            "ammo": "10",
+            "fire": "0",
+            "water": "15",
+            "thunder": "10",
+            "ice": "25",
+            "dragon": "15"
+          },
+          {
+            "condition": "憤怒時",
+            "part": "角",
+            "cut": "57",
+            "blunt": "57",
+            "ammo": "15",
+            "fire": "0",
+            "water": "15",
+            "thunder": "10",
+            "ice": "25",
+            "dragon": "15"
+          },
+          {
+            "part": "頸",
+            "cut": "40",
+            "blunt": "45",
+            "ammo": "20",
+            "fire": "0",
+            "water": "8",
+            "thunder": "5",
+            "ice": "10",
+            "dragon": "5"
+          },
+          {
+            "condition": "憤怒時",
+            "part": "頸",
+            "cut": "50",
+            "blunt": "50",
+            "ammo": "25",
+            "fire": "0",
+            "water": "8",
+            "thunder": "5",
+            "ice": "10",
+            "dragon": "5"
+          },
+          {
+            "part": "腹",
+            "cut": "38",
+            "blunt": "38",
+            "ammo": "15",
+            "fire": "0",
+            "water": "10",
+            "thunder": "5",
+            "ice": "10",
+            "dragon": "10"
+          },
+          {
+            "part": "背",
+            "cut": "25",
+            "blunt": "25",
+            "ammo": "10",
+            "fire": "0",
+            "water": "5",
+            "thunder": "5",
+            "ice": "10",
+            "dragon": "5"
+          },
+          {
+            "part": "翼",
+            "cut": "30",
+            "blunt": "30",
+            "ammo": "20",
+            "fire": "0",
+            "water": "5",
+            "thunder": "5",
+            "ice": "10",
+            "dragon": "5"
+          },
+          {
+            "part": "腳",
+            "cut": "28",
+            "blunt": "28",
+            "ammo": "25",
+            "fire": "0",
+            "water": "10",
+            "thunder": "5",
+            "ice": "15",
+            "dragon": "10"
+          },
+          {
+            "part": "尾巴",
+            "cut": "50",
+            "blunt": "24",
+            "ammo": "20",
+            "fire": "0",
+            "water": "10",
+            "thunder": "10",
+            "ice": "15",
+            "dragon": "10"
+          },
+          {
+            "part": "尾尖",
+            "cut": "45",
+            "blunt": "24",
+            "ammo": "10",
+            "fire": "0",
+            "water": "25",
+            "thunder": "10",
+            "ice": "30",
+            "dragon": "20"
+          }
+        ]
+      },
       "items": {
         "high_rank": {
           "apex_curlhorn": {
@@ -20415,20 +21181,74 @@
     "crimson_glow_valstrax": {
       "name": {
         "tw": "秘紅赫耀的天彗龍",
-        "jp": "",
+        "jp": "奇しき赫耀のバルファルク",
         "en": "Crimson Glow Valstrax"
+      },
+      "trait": {
+        "roar": "？",
+        "wind": "？",
+        "tremor": "？",
+        "element": "-",
+        "aliment": "-"
+      },
+      "weakness": {
+        "weapon": [
+          {
+            "cut": "頭",
+            "blunt": "頭",
+            "ammo": "翼腕"
+          },
+          {
+            "condition": "翅膀紅光",
+            "cut": "翼>頭",
+            "blunt": "翼>頭",
+            "ammo": "翼/翼腕"
+          }
+        ],
+        "element": [
+          {
+            "fire": "3",
+            "water": "3",
+            "thunder": "3",
+            "ice": "3",
+            "dragon": "0"
+          }
+        ],
+        "aliment": [
+          {
+            "poison": "0",
+            "stun": "0",
+            "paralysis": "0",
+            "sleep": "0",
+            "blast": "2",
+            "riding": "0"
+          }
+        ],
+        "item": [
+          {
+            "fire_aliment": "1",
+            "water_aliment": "1",
+            "thunder_aliment": "1",
+            "ice_aliment": "1",
+            "shocktrap": "",
+            "pitfalltrap": "",
+            "flashpod": ""
+          }
+        ]
       },
       "species": "elder_dragon",
       "image": "images/monsters/fullbody/crimson_glow_valstrax.png",
       "icon": "images/monsters/icons/crimson_glow_valstrax.png",
       "icon_large": "images/monsters/icons/large/crimson_glow_valstrax.png",
       "description": "此個體乃是「天彗龍」之變異體。\n原本是身處秘境，翱翔於高空的古龍，但受自己過剩的龍氣侵擾而變得狂暴，會襲擊所有映入眼簾的對象。\n一旦發現獵物，便會以高速飛來並予以襲擊，以翼腳施展千變萬化的攻擊。",
-      "threat_level": "",
+      "threat_level": "10",
       "ref_id": "",
       "hitdata": {
+        "hitzone_image": "images/monsters/hitzone/crimson_glow_valstrax.png",
         "parts": [
           {
             "part": "頭",
+            "hitzone_color": "#e6194B",
             "condition": "通常",
             "cut": 55,
             "blunt": 60,
@@ -20441,7 +21261,22 @@
             "dizzy": 100
           },
           {
+            "part": "頭",
+            "hitzone_color": "#e6194B",
+            "condition": "憤怒後",
+            "cut": 57,
+            "blunt": 62,
+            "ammo": 35,
+            "fire": 0,
+            "water": 0,
+            "thunder": 0,
+            "ice": 0,
+            "dragon": 0,
+            "dizzy": 100
+          },
+          {
             "part": "頸",
+            "hitzone_color": "#3cb44b",
             "condition": "通常",
             "cut": 40,
             "blunt": 30,
@@ -20454,7 +21289,190 @@
             "dizzy": 100
           },
           {
+            "part": "頸",
+            "hitzone_color": "#3cb44b",
+            "condition": "憤怒後",
+            "cut": 40,
+            "blunt": 30,
+            "ammo": 20,
+            "fire": 0,
+            "water": 0,
+            "thunder": 0,
+            "ice": 0,
+            "dragon": 0,
+            "dizzy": 100
+          },
+          {
             "part": "身體",
+            "hitzone_color": "#ffe119",
+            "condition": "通常",
+            "cut": 30,
+            "blunt": 25,
+            "ammo": 10,
+            "fire": 20,
+            "water": 20,
+            "thunder": 20,
+            "ice": 20,
+            "dragon": 0,
+            "dizzy": 100
+          },
+          {
+            "part": "身體",
+            "hitzone_color": "#ffe119",
+            "condition": "憤怒後",
+            "cut": 30,
+            "blunt": 25,
+            "ammo": 10,
+            "fire": 0,
+            "water": 0,
+            "thunder": 0,
+            "ice": 0,
+            "dragon": 0,
+            "dizzy": 100
+          },
+          {
+            "part": "翼腕",
+            "hitzone_color": "#4363d8",
+            "condition": "通常",
+            "cut": 45,
+            "blunt": 45,
+            "ammo": 45,
+            "fire": 15,
+            "water": 15,
+            "thunder": 15,
+            "ice": 15,
+            "dragon": 0,
+            "dizzy": 0
+          },
+          {
+            "part": "前腳",
+            "hitzone_color": "#f58231",
+            "condition": "通常",
+            "cut": 25,
+            "blunt": 24,
+            "ammo": 25,
+            "fire": 25,
+            "water": 25,
+            "thunder": 25,
+            "ice": 25,
+            "dragon": 0,
+            "dizzy": 0
+          },
+          {
+            "part": "後腳",
+            "hitzone_color": "#911eb4",
+            "condition": "通常",
+            "cut": 25,
+            "blunt": 24,
+            "ammo": 20,
+            "fire": 15,
+            "water": 15,
+            "thunder": 15,
+            "ice": 15,
+            "dragon": 0,
+            "dizzy": 0
+          },
+          {
+            "part": "後腳",
+            "hitzone_color": "#911eb4",
+            "condition": "憤怒後",
+            "cut": 25,
+            "blunt": 24,
+            "ammo": 40,
+            "fire": 0,
+            "water": 0,
+            "thunder": 0,
+            "ice": 0,
+            "dragon": 0,
+            "dizzy": 0
+          },
+          {
+            "part": "翼",
+            "hitzone_color": "#42d4f4",
+            "condition": "通常",
+            "cut": 22,
+            "blunt": 45,
+            "ammo": 10,
+            "fire": 25,
+            "water": 25,
+            "thunder": 25,
+            "ice": 25,
+            "dragon": 0,
+            "dizzy": 0
+          },
+          {
+            "part": "翼",
+            "hitzone_color": "#42d4f4",
+            "condition": "憤怒後",
+            "cut": 22,
+            "blunt": 45,
+            "ammo": 10,
+            "fire": 0,
+            "water": 0,
+            "thunder": 0,
+            "ice": 0,
+            "dragon": 0,
+            "dizzy": 0
+          },
+          {
+            "part": "翼",
+            "hitzone_color": "#42d4f4",
+            "condition": "翅膀紅光",
+            "cut": 64,
+            "blunt": 70,
+            "ammo": 45,
+            "fire": 0,
+            "water": 0,
+            "thunder": 0,
+            "ice": 0,
+            "dragon": 0,
+            "dizzy": 0
+          },
+          {
+            "part": "尾巴",
+            "hitzone_color": "#f032e6",
+            "condition": "通常",
+            "cut": 45,
+            "blunt": 24,
+            "ammo": 20,
+            "fire": 20,
+            "water": 20,
+            "thunder": 20,
+            "ice": 20,
+            "dragon": 0,
+            "dizzy": 100
+          },
+          {
+            "part": "尾巴",
+            "hitzone_color": "#f032e6",
+            "condition": "憤怒後",
+            "cut": 45,
+            "blunt": 24,
+            "ammo": 20,
+            "fire": 0,
+            "water": 0,
+            "thunder": 0,
+            "ice": 0,
+            "dragon": 0,
+            "dizzy": 100
+          },
+          {
+            "part": "胸部(集氣)",
+            "hitzone_color": "#bfef45",
+            "condition": "通常",
+            "cut": 80,
+            "blunt": 90,
+            "ammo": 50,
+            "fire": 15,
+            "water": 25,
+            "thunder": 25,
+            "ice": 20,
+            "dragon": 0,
+            "dizzy": 100
+          },
+          {
+            "part": "胸部",
+            "hitzone_color": "#fabed4",
             "condition": "通常",
             "cut": 30,
             "blunt": 25,
@@ -20468,81 +21486,122 @@
           },
           {
             "part": "胸部",
-            "condition": "通常",
+            "hitzone_color": "#fabed4",
+            "condition": "憤怒後",
             "cut": 30,
             "blunt": 25,
             "ammo": 10,
-            "fire": 20,
-            "water": 20,
-            "thunder": 20,
-            "ice": 20,
+            "fire": 0,
+            "water": 0,
+            "thunder": 0,
+            "ice": 0,
             "dragon": 0,
             "dizzy": 100
+          }
+        ]
+      },
+      "partsdata": {
+        "parts_image": "images/monsters/parts/crimson_glow_valstrax.png",
+        "parts": [
+          {
+            "part": "頭",
+            "part_color": "#e6194B",
+            "stagger": 350,
+            "extract": "red",
+            "break": [
+              {
+                "vital": 700,
+                "break_level": 1
+              }
+            ]
           },
           {
-            "part": "前腳",
-            "condition": "通常",
-            "cut": 25,
-            "blunt": 24,
-            "ammo": 25,
-            "fire": 25,
-            "water": 25,
-            "thunder": 25,
-            "ice": 25,
-            "dragon": 0,
-            "dizzy": 0
+            "part": "身",
+            "part_color": "#3cb44b",
+            "stagger": 200,
+            "extract": "white",
+            "break": [
+              {
+                "vital": 400,
+                "break_level": 1
+              }
+            ]
           },
           {
-            "part": "翼",
-            "condition": "通常",
-            "cut": 22,
-            "blunt": 45,
-            "ammo": 10,
-            "fire": 25,
-            "water": 25,
-            "thunder": 25,
-            "ice": 25,
-            "dragon": 0,
-            "dizzy": 0
+            "part": "左翼",
+            "part_color": "#ffe119",
+            "stagger": 400,
+            "extract": "red",
+            "break": [
+              {
+                "vital": 600,
+                "break_level": 1
+              }
+            ]
           },
           {
-            "part": "後腳",
-            "condition": "通常",
-            "cut": 25,
-            "blunt": 24,
-            "ammo": 20,
-            "fire": 15,
-            "water": 15,
-            "thunder": 15,
-            "ice": 15,
-            "dragon": 0,
-            "dizzy": 0
+            "part": "右翼",
+            "part_color": "#4363d8",
+            "stagger": 400,
+            "extract": "red",
+            "break": [
+              {
+                "vital": 600,
+                "break_level": 1
+              }
+            ]
           },
           {
-            "part": "翼根",
-            "condition": "通常",
-            "cut": 45,
-            "blunt": 45,
-            "ammo": 45,
-            "fire": 15,
-            "water": 15,
-            "thunder": 15,
-            "ice": 15,
-            "dragon": 0,
-            "dizzy": 0
+            "part": "左前腳",
+            "part_color": "#f58231",
+            "stagger": 150,
+            "extract": "orange",
+            "break": [
+              {
+                "vital": 300,
+                "break_level": 1
+              }
+            ]
+          },
+          {
+            "part": "右前腳",
+            "part_color": "#911eb4",
+            "stagger": 150,
+            "extract": "orange",
+            "break": [
+              {
+                "vital": 300,
+                "break_level": 1
+              }
+            ]
           },
           {
             "part": "尾巴",
-            "condition": "通常",
-            "cut": 45,
-            "blunt": 24,
-            "ammo": 20,
-            "fire": 20,
-            "water": 20,
-            "thunder": 20,
-            "ice": 20,
-            "dragon": 0,
-            "dizzy": 100
+            "part_color": "#42d4f4",
+            "stagger": 250,
+            "extract": "white",
+            "loss": {
+              "vital": 300,
+              "damage_type": "cut"
+            }
+          },
+          {
+            "part": "後腳",
+            "part_color": "#f032e6",
+            "stagger": 150,
+            "extract": "orange"
+          },
+          {
+            "part": "胸",
+            "part_color": "#bfef45",
+            "stagger": 250,
+            "extract": "red",
+            "break": [
+              {
+                "vital": 350,
+                "break_level": 1
+              }
+            ]
           }
         ]
       }
@@ -20550,7 +21609,7 @@
     "apex_zinogre": {
       "name": {
         "tw": "首領雷狼龍",
-        "jp": "",
+        "jp": "ヌシ・ジンオウガ",
         "en": "Apex Zinogre"
       },
       "species": "fanged_wyvern",
@@ -20559,7 +21618,513 @@
       "icon_large": "images/monsters/icons/large/apex_zinogre.png",
       "description": "冠有「首領」之名的雷狼龍。\n全身上下都有著像是被捲入暴風後所留下的傷痕，這也許是牠一直受到憤怒與恐懼支配的原因。\n前腳比起一般的個體更加發達，其攻擊能發出萬千雷電，撕裂一切敵人。",
       "threat_level": "apex",
-      "ref_id": ""
+      "ref_id": "",
+      "trait": {
+        "roar": "？",
+        "wind": "？",
+        "tremor": "？",
+        "element": "-",
+        "aliment": "-"
+      },
+      "weakness": {
+        "weapon": [
+          {
+            "cut": "頭",
+            "blunt": "頭",
+            "ammo": "頭"
+          }
+        ],
+        "element": [
+          {
+            "fire": "2",
+            "water": "2",
+            "thunder": "0",
+            "ice": "3",
+            "dragon": "1"
+          }
+        ],
+        "aliment": [
+          {
+            "poison": "1",
+            "stun": "1",
+            "paralysis": "0",
+            "sleep": "0",
+            "blast": "2",
+            "riding": "0"
+          }
+        ],
+        "item": [
+          {
+            "fire_aliment": "1",
+            "water_aliment": "1",
+            "thunder_aliment": "1",
+            "ice_aliment": "2",
+            "shocktrap": "",
+            "pitfalltrap": "",
+            "flashpod": ""
+          }
+        ]
+      },
+      "hitdata": {
+        "parts": [
+          {
+            "part": "頭",
+            "cut": "65",
+            "blunt": "65",
+            "ammo": "45",
+            "fire": "10",
+            "water": "10",
+            "thunder": "0",
+            "ice": "15",
+            "dragon": "5"
+          },
+          {
+            "part": "身",
+            "cut": "25",
+            "blunt": "25",
+            "ammo": "25",
+            "fire": "5",
+            "water": "5",
+            "thunder": "0",
+            "ice": "5",
+            "dragon": "5"
+          },
+          {
+            "part": "腳根部",
+            "cut": "44",
+            "blunt": "44",
+            "ammo": "20",
+            "fire": "5",
+            "water": "5",
+            "thunder": "0",
+            "ice": "10",
+            "dragon": "5"
+          },
+          {
+            "part": "前腳",
+            "cut": "25",
+            "blunt": "30",
+            "ammo": "15",
+            "fire": "5",
+            "water": "5",
+            "thunder": "0",
+            "ice": "10",
+            "dragon": "5"
+          },
+          {
+            "part": "背",
+            "cut": "45",
+            "blunt": "40",
+            "ammo": "35",
+            "fire": "10",
+            "water": "20",
+            "thunder": "0",
+            "ice": "25",
+            "dragon": "5"
+          },
+          {
+            "part": "後腳",
+            "cut": "45",
+            "blunt": "45",
+            "ammo": "15",
+            "fire": "5",
+            "water": "5",
+            "thunder": "0",
+            "ice": "10",
+            "dragon": "5"
+          },
+          {
+            "part": "尾巴",
+            "cut": "30",
+            "blunt": "25",
+            "ammo": "20",
+            "fire": "5",
+            "water": "5",
+            "thunder": "0",
+            "ice": "5",
+            "dragon": "5"
+          },
+          {
+            "part": "尾尖",
+            "cut": "21",
+            "blunt": "19",
+            "ammo": "10",
+            "fire": "10",
+            "water": "15",
+            "thunder": "0",
+            "ice": "20",
+            "dragon": "5"
+          }
+        ]
+      }
+    },
+    "narwa_the_all_mother": {
+      "name": {
+        "tw": "百龍之源雷神龍",
+        "jp": "百竜ノ淵源ナルハタタヒメ",
+        "en": "Narwa The All Mother"
+      },
+      "species": "elder_dragon",
+      "image": "images/monsters/fullbody/narwa_the_all_mother.png",
+      "icon": "images/monsters/icons/narwa_the_all_mother.png",
+      "icon_large": "images/monsters/icons/large/narwa_the_all_mother.png",
+      "description": "進入產卵期的雷神龍會吸收風神龍的養分獲得其力量，並變化成此姿態。此時的牠已經獲得風神龍操縱狂風的能力，並配合本身操縱雷電的能力，徹底排除世間一切對自己不利的存在。\n雷神龍除了原本的攻擊之外，還能使用風神龍的風之力，相當棘手。在牠發動攻擊時，切記要觀察好對方的動作再行動。若能攻擊對方正在蓄力的部位，就能製造良機。因此多把握對方蓄力的時候進攻吧。",
+      "threat_level": "10",
+      "ref_id": "",
+      "trait": {
+        "roar": "？",
+        "wind": "？",
+        "tremor": "？",
+        "element": "-",
+        "aliment": "-"
+      },
+      "weakness": {
+        "weapon": [
+          {
+            "cut": "-",
+            "blunt": "-",
+            "ammo": "-"
+          }
+        ],
+        "element": [
+          {
+            "fire": "1",
+            "water": "1",
+            "thunder": "0",
+            "ice": "2",
+            "dragon": "3"
+          }
+        ],
+        "aliment": [
+          {
+            "poison": "0",
+            "stun": "0",
+            "paralysis": "0",
+            "sleep": "0",
+            "blast": "2",
+            "riding": "0"
+          }
+        ],
+        "item": [
+          {
+            "fire_aliment": "1",
+            "water_aliment": "1",
+            "thunder_aliment": "0",
+            "ice_aliment": "2",
+            "shocktrap": "0",
+            "pitfalltrap": "0",
+            "flashpod": "2"
+          }
+        ]
+      },
+      "hitdata": {
+        "hitzone_image": "images/monsters/hitzone/narwa_the_all_mother.png",
+        "parts": [
+          {
+            "hitzone_color": "#e6194B",
+            "part": "頭",
+            "cut": "40",
+            "blunt": "42",
+            "ammo": "5",
+            "fire": "5",
+            "water": "5",
+            "thunder": "0",
+            "ice": "5",
+            "dragon": "10"
+          },
+          {
+            "hitzone_color": "#e6194B",
+            "condition": "帶電",
+            "part": "頭",
+            "cut": "90",
+            "blunt": "92",
+            "ammo": "43",
+            "fire": "5",
+            "water": "5",
+            "thunder": "0",
+            "ice": "10",
+            "dragon": "15"
+          },
+          {
+            "hitzone_color": "#3cb44b",
+            "part": "頸",
+            "cut": "40",
+            "blunt": "42",
+            "ammo": "3",
+            "fire": "0",
+            "water": "0",
+            "thunder": "0",
+            "ice": "5",
+            "dragon": "0"
+          },
+          {
+            "hitzone_color": "#ffe119",
+            "part": "背部",
+            "cut": "25",
+            "blunt": "30",
+            "ammo": "5",
+            "fire": "0",
+            "water": "5",
+            "thunder": "0",
+            "ice": "5",
+            "dragon": "10"
+          },
+          {
+            "hitzone_color": "#ffe119",
+            "condition": "帶電",
+            "part": "背部",
+            "cut": "60",
+            "blunt": "50",
+            "ammo": "15",
+            "fire": "5",
+            "water": "5",
+            "thunder": "0",
+            "ice": "10",
+            "dragon": "15"
+          },
+          {
+            "hitzone_color": "#4363d8",
+            "part": "身體",
+            "cut": "40",
+            "blunt": "42",
+            "ammo": "5",
+            "fire": "0",
+            "water": "0",
+            "thunder": "0",
+            "ice": "0",
+            "dragon": "5"
+          },
+          {
+            "hitzone_color": "#f58231",
+            "part": "翼腕",
+            "cut": "35",
+            "blunt": "30",
+            "ammo": "5",
+            "fire": "0",
+            "water": "5",
+            "thunder": "0",
+            "ice": "5",
+            "dragon": "10"
+          },
+          {
+            "hitzone_color": "#911eb4",
+            "part": "翼腕（帶電部位）",
+            "cut": "44",
+            "blunt": "40",
+            "ammo": "15",
+            "fire": "0",
+            "water": "0",
+            "thunder": "0",
+            "ice": "5",
+            "dragon": "5"
+          },
+          {
+            "hitzone_color": "#911eb4",
+            "condition": "帶電",
+            "part": "翼腕（帶電部位）",
+            "cut": "92",
+            "blunt": "88",
+            "ammo": "47",
+            "fire": "5",
+            "water": "5",
+            "thunder": "0",
+            "ice": "10",
+            "dragon": "20"
+          },
+          {
+            "hitzone_color": "#42d4f4",
+            "part": "腳鰭",
+            "cut": "30",
+            "blunt": "35",
+            "ammo": "1",
+            "fire": "0",
+            "water": "0",
+            "thunder": "0",
+            "ice": "0",
+            "dragon": "5"
+          },
+          {
+            "hitzone_color": "#f032e6",
+            "part": "尾巴",
+            "cut": "40",
+            "blunt": "35",
+            "ammo": "5",
+            "fire": "0",
+            "water": "0",
+            "thunder": "0",
+            "ice": "5",
+            "dragon": "10"
+          },
+          {
+            "hitzone_color": "#bfef45",
+            "part": "尾尖（帶電部位）",
+            "cut": "35",
+            "blunt": "40",
+            "ammo": "15",
+            "fire": "0",
+            "water": "0",
+            "thunder": "0",
+            "ice": "5",
+            "dragon": "15"
+          },
+          {
+            "hitzone_color": "#bfef45",
+            "condition": "帶電",
+            "part": "尾尖（帶電部位）",
+            "cut": "95",
+            "blunt": "90",
+            "ammo": "45",
+            "fire": "0",
+            "water": "0",
+            "thunder": "0",
+            "ice": "5",
+            "dragon": "15"
+          },
+          {
+            "hitzone_color": "#fabed4",
+            "part": "胸部（帶電部位）",
+            "cut": "35",
+            "blunt": "35",
+            "ammo": "2",
+            "fire": "0",
+            "water": "0",
+            "thunder": "0",
+            "ice": "5",
+            "dragon": "10"
+          },
+          {
+            "hitzone_color": "#fabed4",
+            "condition": "帶電",
+            "part": "胸部（帶電部位）",
+            "cut": "70",
+            "blunt": "65",
+            "ammo": "15",
+            "fire": "0",
+            "water": "5",
+            "thunder": "0",
+            "ice": "10",
+            "dragon": "15"
+          },
+          {
+            "hitzone_color": "#469990",
+            "part": "腹部（發電器官）",
+            "cut": "30",
+            "blunt": "30",
+            "ammo": "5",
+            "fire": "0",
+            "water": "0",
+            "thunder": "0",
+            "ice": "0",
+            "dragon": "0"
+          },
+          {
+            "hitzone_color": "#469990",
+            "condition": "帶電",
+            "part": "腹部（發電器官）",
+            "cut": "100",
+            "blunt": "100",
+            "ammo": "55",
+            "fire": "5",
+            "water": "5",
+            "thunder": "0",
+            "ice": "20",
+            "dragon": "25"
+          }
+        ]
+      },
+      "partsdata": {
+        "parts_image": "images/monsters/parts/narwa_the_all_mother.png",
+        "parts": [
+          {
+            "part": "頭",
+            "part_color": "#e6194B",
+            "stagger": 0,
+            "extract": "red",
+            "break": [
+              {
+                "vital": 900,
+                "break_level": 1
+              }
+            ]
+          },
+          {
+            "part": "腳鰭",
+            "part_color": "#3cb44b",
+            "stagger": 0,
+            "extract": "white"
+          },
+          {
+            "part": "右手",
+            "part_color": "#ffe119",
+            "stagger": 0,
+            "extract": "orange",
+            "break": [
+              {
+                "vital": 650,
+                "break_level": 1
+              }
+            ]
+          },
+          {
+            "part": "左手",
+            "part_color": "#4363d8",
+            "stagger": 0,
+            "extract": "orange",
+            "break": [
+              {
+                "vital": 650,
+                "break_level": 1
+              }
+            ]
+          },
+          {
+            "part": "尾巴",
+            "part_color": "#f58231",
+            "stagger": 0,
+            "extract": "white",
+            "loss": {
+              "vital": 480,
+              "damage_type": "cut"
+            }
+          },
+          {
+            "part": "身體",
+            "part_color": "#911eb4",
+            "stagger": 0,
+            "extract": "white"
+          },
+          {
+            "part": "背部",
+            "part_color": "#42d4f4",
+            "stagger": 0,
+            "extract": "red",
+            "break": [
+              {
+                "vital": 650,
+                "break_level": 1
+              }
+            ]
+          },
+          {
+            "part": "腹部",
+            "part_color": "#f032e6",
+            "stagger": 0,
+            "extract": "white",
+            "break": [
+              {
+                "vital": 1400,
+                "break_level": 1
+              }
+            ]
+          },
+          {
+            "part": "胸部",
+            "part_color": "#bfef45",
+            "stagger": 0,
+            "extract": "white"
+          }
+        ]
+      }
     }
   }
 }
