@@ -6922,9 +6922,9 @@
             "moves": [
                 {
                     "name": "龍吼",
-                    "condition": "頭先微微搖晃一小圈。",
-                    "preaction": "抬頭的同時龍吼。",
-                    "action": "",
+                    "condition": "",
+                    "preaction": "頭先微微搖晃一小圈。",
+                    "action": "抬頭的同時龍吼。",
                     "recovery": "",
                     "note": "戰鬥中胸口冒紅光龍吼進入憤怒狀態。",
                     "video": "videos/天彗龍/天彗龍_龍吼.mp4",
@@ -7191,16 +7191,24 @@
                             "links": [
                                 {
                                     "node": 1,
-                                    "condition": "推進模式(機率)"
+                                    "condition": "推進模式"
                                 },
                                 {
                                     "node": 2,
-                                    "condition": "噴射模式(機率)"
+                                    "condition": "噴射模式"
+                                },
+                                {
+                                    "node": 3,
+                                    "condition": "噴射模式"
                                 }
                             ]
                         },
                         {
                             "move": "拍地後翼尖戳地",
+                            "links": []
+                        },
+                        {
+                            "move": "拍地後翼爪拍地",
                             "links": []
                         },
                         {
