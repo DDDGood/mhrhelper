@@ -3895,7 +3895,7 @@
             "ref_id": "5ff9e48fd17411307b2639e1"
         },
         "almudron": {
-            "outline": "注意小咬/前撲/揮爪等等快速的小招式，常會銜接威力大的重攻擊。\n-泡澡狀態下對泥翁龍造成一定傷害會彈出地面並倒地。\n-尾部集成泥球後，對泥球造成一定傷害會破壞泥球並使泥翁龍倒地。",
+            "outline": "泥翁龍斬擊肉質最好的部位是尾巴，但實戰中尾巴的位置常常難以捉摸。其實泥翁龍許多的招式在結束後尾巴會甩到固定的位置，熟記後可以做出預判攻擊：\n-揮爪：結束後尾巴在揮爪方向的另一側，但這招硬直較小。\n-蓄力拍：結束後尾巴會與最後拍的那隻手同一側。\n-迴旋甩尾：結束後尾巴會與蓄力時頭部的位置同一側。\n-鑽地尾砸：潛地時玩家位置偏向哪一側，結束時尾巴就會停在那一側。\n-二連掃尾：結束後尾巴會來到第二次掃尾起始的方向。\n-反身尾砸：結束後的回身動作，尾巴會與下砸時在同個位置。\n-原地轉圈集泥球：初始蓄力時尾巴在哪一側，動作結束後就會在哪一側。\n-蓄力泥球掃尾：初始蓄力時尾巴在哪一側，動作結束後就會在哪一側。\n-潛水：結束後尾巴會偏向泥翁龍的左側(玩家的右側)。\n\n注意小咬/前撲/揮爪等等快速的小招式，常會銜接威力大的重攻擊。\n泡澡狀態下對泥翁龍造成一定傷害會彈出地面並倒地。\n尾部集成泥球後，對泥球造成一定傷害會破壞泥球並使泥翁龍倒地。",
             "reference": {
                 "(twitter)モンスターハンターライズ公式": "https://twitter.com/mh_rise_jp",
                 "First fight with Almudron (Charge Blade)": "https://www.youtube.com/watch?v=hRbSX9RJDS0",
@@ -3937,7 +3937,7 @@
                     "preaction": "身體微側，向目標抬起單爪。",
                     "action": "單爪向目標揮擊。",
                     "recovery": "小",
-                    "note": "",
+                    "note": "使用後尾巴會在揮爪的另一側。",
                     "video": "videos/泥翁龍/泥翁龍_揮爪.mp4",
                     "onlyincombo": false
                 },
@@ -3948,14 +3948,14 @@
                     "recovery": "小",
                     "note": "",
                     "video": "videos/泥翁龍/泥翁龍_後跳.mp4",
-                    "onlyincombo": false
+                    "onlyincombo": true
                 },
                 {
                     "name": "蓄力拍",
                     "preaction": "抬起上身，高舉單手。",
                     "action": "身體下壓並拍向目標。",
                     "recovery": "中",
-                    "note": "高機率二連拍。",
+                    "note": "高機率二連拍。結束後尾巴會與最後拍的那隻手同一側。",
                     "video": "videos/泥翁龍/泥翁龍_蓄力拍.mp4",
                     "onlyincombo": true
                 },
@@ -3964,7 +3964,7 @@
                     "preaction": "側身面向目標，低頭看向尾部，尾巴後縮蓄力。",
                     "action": "尾巴像拳頭一樣撞向目標。",
                     "recovery": "大",
-                    "note": "靠近頭的這一側是盲區",
+                    "note": "距離越遠越難躲，距離不遠的話，往靠近頭的這一側是盲區",
                     "video": "videos/泥翁龍/泥翁龍_側身尾撞.mp4",
                     "onlyincombo": false
                 },
@@ -3973,7 +3973,7 @@
                     "preaction": "側向目標，身體後縮蓄力。",
                     "action": "迴旋甩尾，並擲出泥球。",
                     "recovery": "中",
-                    "note": "",
+                    "note": "結束後尾巴會與蓄力時頭部的位置同一側。",
                     "video": "videos/泥翁龍/泥翁龍_迴旋甩尾.mp4",
                     "onlyincombo": false
                 },
@@ -3982,7 +3982,7 @@
                     "preaction": "舉起尾巴，身體向後捲。",
                     "action": "尾部砸向目標。",
                     "recovery": "大",
-                    "note": "",
+                    "note": "結束後的回身動作，尾巴會與下砸時在同個位置。",
                     "video": "videos/泥翁龍/泥翁龍_反身尾砸.mp4",
                     "onlyincombo": false
                 },
@@ -3991,7 +3991,7 @@
                     "preaction": "身體原地下潛，留一節尾巴指向天。",
                     "action": "尾巴向前砸後，身體鑽出。",
                     "recovery": "大",
-                    "note": "這招的方向修正很強，不容易走位閃躲。",
+                    "note": "這招的方向修正很強，不容易走位閃躲，建議等到他潛下去擺好姿勢後再翻滾。潛地時玩家位置偏向的那一側，結束時尾巴就會停在那一側。結束時頭部會回到下砸時尾尖的位置。",
                     "video": "videos/泥翁龍/泥翁龍_鑽地尾砸.mp4",
                     "onlyincombo": false
                 },
@@ -4018,7 +4018,7 @@
                     "preaction": "尾巴往側上方舉，另一側後腳抬起",
                     "action": "尾部來回橫掃。第二次會橫向攪動泥漿。",
                     "recovery": "大",
-                    "note": "",
+                    "note": "第二次掃尾起始的方向判定較小，且最後尾巴也會回到這一側。",
                     "video": "videos/泥翁龍/泥翁龍_二連掃尾.mp4",
                     "onlyincombo": false
                 },
@@ -4027,8 +4027,17 @@
                     "preaction": "側身貼近目標。",
                     "action": "躍起翻身至目標身後，同時尾巴向上勾起，地上掀起直線的黃色泥漿。",
                     "recovery": "小",
-                    "note": "",
+                    "note": "在泥翁龍側身貼近時往頭部的方向走位或閃躲可避開判定。",
                     "video": "videos/泥翁龍/泥翁龍_空翻勾尾.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "擲泥",
+                    "preaction": "尾巴向下攪動泥漿。",
+                    "action": "向前撒出泥潭。",
+                    "recovery": "小",
+                    "note": "高機率銜接反身尾砸。",
+                    "video": "videos/泥翁龍/泥翁龍_擲泥.mp4",
                     "onlyincombo": false
                 },
                 {
@@ -4036,9 +4045,9 @@
                     "preaction": "身體後仰潛入地面。",
                     "action": "游向遠方，附近泥土翻攪處升起多處高聳台階，同時空中灑落泥漿。",
                     "recovery": "",
-                    "note": "",
+                    "note": "血量較低時才會使用。看到這招建議收刀快速跟上，結尾根據狀態會有不同的動作，但最後都會進入泡澡狀態，此時若打夠一定的傷害則造成超長倒地。",
                     "video": "videos/泥翁龍/泥翁龍_尖石攻擊造山.mp4",
-                    "onlyincombo": false
+                    "onlyincombo": true
                 },
                 {
                     "name": "泡澡龍吼",
@@ -4066,7 +4075,7 @@
                     "preaction": "頭轉向目標吼叫一聲。",
                     "action": "潛入地面後從目標附近鑽出，躍起後落向遠方再浮出地面。",
                     "recovery": "小",
-                    "note": "",
+                    "note": "結束後尾巴會偏向泥翁龍的左側(玩家的右側)。",
                     "video": "videos/泥翁龍/泥翁龍_潛水.mp4",
                     "onlyincombo": false
                 },
@@ -4105,7 +4114,7 @@
                     "preaction": "身體向後彎曲抬起。",
                     "action": "原地轉圈並攪動身側的泥土，結束後翻身一跳。",
                     "recovery": "大",
-                    "note": "憤怒狀態使用這招後尾部集成泥球。",
+                    "note": "憤怒狀態使用這招後尾部集成泥球。結束後尾巴位置與初始蓄力時同一側。",
                     "video": "videos/泥翁龍/泥翁龍_原地轉圈集泥球.mp4",
                     "onlyincombo": false
                 },
@@ -4115,7 +4124,7 @@
                     "preaction": "身體向後，轉頭看向目標，尾部大幅彎起蓄力。",
                     "action": "尾部向前橫掃。",
                     "recovery": "大",
-                    "note": "貼近尾根處是盲區。",
+                    "note": "貼近尾根處是盲區。結束後泥球位置與蓄力時的位置相同。",
                     "video": "videos/泥翁龍/泥翁龍_蓄力泥球掃尾.mp4",
                     "onlyincombo": false
                 },
@@ -4125,7 +4134,7 @@
                     "preaction": "彎曲身體，尾不停晃動，看向目標吼叫一聲。。",
                     "action": "高高躍起後尾部砸向地面，砸地後泥球會消失。",
                     "recovery": "大",
-                    "note": "尾部產生泥球後一段時間內若沒有被破壞會使用這招。",
+                    "note": "尾部產生泥球後一段時間內若沒有被破壞，或是要換區時會使用這招。這招有較強的位置修正，無GP能力的武器建議收刀飛撲。",
                     "video": "videos/泥翁龍/泥翁龍_蓄力泥球尾砸.mp4",
                     "onlyincombo": false
                 },
@@ -4149,7 +4158,7 @@
                             "links": [
                                 {
                                     "node": 1,
-                                    "condition": "有機率"
+                                    "condition": "血量低高機率"
                                 }
                             ]
                         },
@@ -4215,6 +4224,25 @@
                     "condition": "",
                     "nodes": [
                         {
+                            "move": "擲泥",
+                            "links": [
+                                {
+                                    "node": 1,
+                                    "condition": "高機率"
+                                }
+                            ]
+                        },
+                        {
+                            "move": "反身尾砸",
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "root": 0,
+                    "condition": "",
+                    "nodes": [
+                        {
                             "move": "尖石攻擊造山",
                             "links": [
                                 {
@@ -4232,7 +4260,34 @@
                             "links": []
                         },
                         {
-                            "move": "清尾巴白給動作",
+                            "move": "清尾巴動作(輸出時機)",
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "root": 0,
+                    "condition": "",
+                    "nodes": [
+                        {
+                            "move": "後跳",
+                            "links": [
+                                {
+                                    "node": 1,
+                                    "condition": ""
+                                },
+                                {
+                                    "node": 2,
+                                    "condition": ""
+                                }
+                            ]
+                        },
+                        {
+                            "move": "鑽地尾砸",
+                            "links": []
+                        },
+                        {
+                            "move": "拍地掃尾",
                             "links": []
                         }
                     ]
@@ -7846,6 +7901,242 @@
                     ]
                 }
             ]
+        },
+        "apex_arzuros": {
+            "outline": "首領青熊獸大部分的招式都沒有長時間的硬直，出招較慢的武器只能不斷蹭刀等待機會。\n憤怒狀態下手會變紅，此時累積一定的傷害後會倒地，倒地時若打夠一定的傷害則起身會再度進入憤怒狀態，可以利用這個機制來進行控場。\n需要小心泰山壓頂起身後會快速地使用掀地板，憤怒後起身的速度更快。",
+            "reference": {
+                "(twitter)モンスターハンターライズ公式": "https://twitter.com/mh_rise_jp",
+                "【直播回放】我直接打爆熊人族 2021年5月17日20点场": "https://www.bilibili.com/video/BV1Uh411v7nZ"
+            },
+            "moves": [
+                {
+                    "name": "熊吼",
+                    "preaction": "抬起上身。若即將進入憤怒狀態，手會發紅。",
+                    "action": "向前大吼，若即將進入憤怒狀態，吼完還會做一個較短的威嚇動作。",
+                    "recovery": "",
+                    "note": "",
+                    "video": "videos/首領青熊獸/首領青熊獸_熊吼.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "威嚇",
+                    "preaction": "",
+                    "action": "伸頭向前象徵性地吼一下。",
+                    "recovery": "大",
+                    "note": "偶爾會使用的純粹白給動作，換區前也會使用。",
+                    "video": "videos/首領青熊獸/首領青熊獸_威嚇.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "連環巴掌",
+                    "preaction": "雙手直直上舉。怒後不會舉手，只有簡短的側身蓄力。",
+                    "action": "連續揮動的巴掌攻擊。",
+                    "recovery": "中",
+                    "note": "怒前最高三下，怒後最高五下。後續常派生其他招式。怒後若無後續派生會有較大的硬直。",
+                    "video": "videos/首領青熊獸/首領青熊獸_連環巴掌.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "掀地板",
+                    "preaction": "側身雙手向一邊高舉蓄力。",
+                    "action": "向前上撈並掀起地面。",
+                    "recovery": "中",
+                    "note": "手部與地面共有兩段傷害判定。怒後會連續掀兩次。",
+                    "video": "videos/首領青熊獸/首領青熊獸_掀地板.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "橫掃",
+                    "preaction": "俯身低頭，身體轉向一側，單手向後蓄力。怒後手會舉得更高。",
+                    "action": "",
+                    "recovery": "小",
+                    "note": "怒前有可能會連續使用兩次。怒後只會使用一次，但旋轉的角度更大，且產生風壓。",
+                    "video": "videos/首領青熊獸/首領青熊獸_掃擊.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "熊抱",
+                    "preaction": "雙手開開上舉",
+                    "action": "向前熊抱",
+                    "recovery": "小",
+                    "note": "",
+                    "video": "videos/首領青熊獸/首領青熊獸_熊抱.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "屁股坐",
+                    "preaction": "屁股朝向目標搖晃。",
+                    "action": "向後撞擊並坐倒在地。",
+                    "recovery": "大",
+                    "note": "目標在身後時容易使用。",
+                    "video": "videos/首領青熊獸/首領青熊獸_屁股坐.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "前撲",
+                    "preaction": "雙手伏地。",
+                    "action": "向前撲向目標。",
+                    "recovery": "中",
+                    "note": "",
+                    "video": "videos/首領青熊獸/首領青熊獸_前撲.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "捕食",
+                    "preaction": "搖晃身體並雙手舉起。",
+                    "action": "伏地向前撲向目標，若擊中進入捕食動畫。",
+                    "recovery": "中",
+                    "note": "若目標身上有蜂蜜會偷走並原地開吃。",
+                    "video": "videos/首領青熊獸/首領青熊獸_捕食.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "熊車",
+                    "preaction": "若為站姿先彎下腰，手往一旁甩。若一開始就趴著則無明顯預兆。",
+                    "action": "四肢著地向前奔跑",
+                    "recovery": "",
+                    "note": "連招起手。熊車的途中也有碰撞傷害。",
+                    "video": "videos/首領青熊獸/首領青熊獸_熊車.mp4",
+                    "onlyincombo": true
+                },
+                {
+                    "name": "投石",
+                    "preaction": "雙手上舉後插入一旁的地面。",
+                    "action": "向前拋出巨石。",
+                    "recovery": "大",
+                    "note": "目標在遠方時容易使用。",
+                    "video": "videos/首領青熊獸/首領青熊獸_投石.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "泰山壓頂",
+                    "preaction": "雙手上舉後伏地，全身搖晃。",
+                    "action": "高高躍起向目標位置壓過去。",
+                    "recovery": "中",
+                    "note": "落點附近會有震地效果。憤怒後起身速度快。",
+                    "video": "videos/首領青熊獸/首領青熊獸_泰山壓頂.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "熊車掀地板",
+                    "condition": "憤怒狀態",
+                    "preaction": "雙手扶地，短暫地蓄力。也可能由一般的熊車變招。",
+                    "action": "向前奔跑，接近目標時向前衝撞並掀地板。",
+                    "recovery": "中",
+                    "note": "",
+                    "video": "videos/首領青熊獸/首領青熊獸_熊車掀地板.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "熊車巴掌坐倒",
+                    "condition": "憤怒狀態",
+                    "preaction": "雙手扶地無蓄力。也可能由一般的熊車變招。",
+                    "action": "向前奔跑，接近目標時單手舉起蓄力後向前用力揮出，之後反身坐倒。",
+                    "recovery": "大",
+                    "note": "最後的巴掌有很強的方向修正機制。",
+                    "video": "videos/首領青熊獸/首領青熊獸_熊車巴掌坐倒.mp4",
+                    "onlyincombo": false
+                }
+            ],
+            "combos": [
+                {
+                    "root": 0,
+                    "condition": "",
+                    "nodes": [
+                        {
+                            "move": "連環巴掌",
+                            "links": [
+                                {
+                                    "node": 1,
+                                    "condition": "怒前有機率"
+                                },
+                                {
+                                    "node": 2,
+                                    "condition": ""
+                                },
+                                {
+                                    "node": 3,
+                                    "condition": ""
+                                }
+                            ]
+                        },
+                        {
+                            "move": "熊抱",
+                            "links": []
+                        },
+                        {
+                            "move": "泰山壓頂",
+                            "links": [
+                                {
+                                    "node": 3,
+                                    "condition": "起身後距離近"
+                                }
+                            ]
+                        },
+                        {
+                            "move": "掀地板",
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "root": 0,
+                    "condition": "",
+                    "nodes": [
+                        {
+                            "move": "泰山壓頂",
+                            "links": [
+                                {
+                                    "node": 1,
+                                    "condition": "起身後距離近"
+                                }
+                            ]
+                        },
+                        {
+                            "move": "掀地板",
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "root": 0,
+                    "condition": "",
+                    "nodes": [
+                        {
+                            "move": "熊車",
+                            "links": [
+                                {
+                                    "node": 1,
+                                    "condition": ""
+                                },
+                                {
+                                    "node": 2,
+                                    "condition": ""
+                                }
+                            ]
+                        },
+                        {
+                            "move": "投石",
+                            "links": []
+                        },
+                        {
+                            "move": "泰山壓頂",
+                            "links": [
+                                {
+                                    "node": 3,
+                                    "condition": "起身後距離近"
+                                }
+                            ]
+                        },
+                        {
+                            "move": "掀地板",
+                            "links": []
+                        }
+                    ]
+                }
+            ],
+            "riding_moves": [],
+            "ref_id": "60377cd6097b292d4ce8db53"
         }
     }
 }
