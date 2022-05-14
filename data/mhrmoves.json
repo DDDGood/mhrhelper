@@ -1989,11 +1989,11 @@
                             "links": [
                                 {
                                     "node": 1,
-                                    "condition": ""
+                                    "condition": "手部無火"
                                 },
                                 {
                                     "node": 2,
-                                    "condition": "(上位)"
+                                    "condition": "手部有火"
                                 }
                             ]
                         },
@@ -2160,8 +2160,12 @@
                                     "condition": ""
                                 },
                                 {
+                                    "node": 7,
+                                    "condition": ""
+                                },
+                                {
                                     "node": 3,
-                                    "condition": "需口中有火"
+                                    "condition": "口中有火"
                                 }
                             ]
                         },
@@ -2200,6 +2204,10 @@
                         },
                         {
                             "move": "拍地橫掃",
+                            "links": []
+                        },
+                        {
+                            "move": "二連空翻甩尾",
                             "links": []
                         }
                     ]
@@ -8137,6 +8145,318 @@
             ],
             "riding_moves": [],
             "ref_id": "60377cd6097b292d4ce8db53"
+        },
+        "apex_rathian": {
+            "outline": "",
+            "reference": {
+                "Monster Hunter Rise - Apex Rathian Boss Fight": "https://www.youtube.com/watch?v=DqHHDweyULU",
+                "[MHR]首領雌火龍-充能斧/Apex Rathian-Charge Blade/ヌシ・リオレイア-チャージアックス/3\"41": "https://www.youtube.com/watch?v=5ri_Dq2dDfA",
+                "【MHRise】Apex Rathian Emergency Switch Axes TA wiki 6'57\"13/ヌシ・リオレイア重大事変 スラアク TA wiki 6'57\"13": "https://www.youtube.com/watch?v=gvDfCBO4TOw"
+            },
+            "moves": [
+                {
+                    "name": "見面吼",
+                    "preaction": "",
+                    "action": "",
+                    "recovery": "",
+                    "note": "",
+                    "video": "videos/首領雌火龍/首領雌火龍_見面吼.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "怒吼",
+                    "preaction": "向後退兩步的同時高高抬頭蓄力。",
+                    "action": "",
+                    "recovery": "",
+                    "note": "進入憤怒狀態。",
+                    "video": "videos/首領雌火龍/首領雌火龍_怒吼.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "龍車",
+                    "preaction": "雌火龍會先轉頭看向目標，因此若處於正前方較難發覺。",
+                    "action": "向目標衝鋒，接近時前咬。",
+                    "recovery": "小",
+                    "note": "",
+                    "video": "videos/首領雌火龍/首領雌火龍_龍車.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "迴旋甩尾",
+                    "preaction": "會先轉頭看向尾巴甩來的方向。",
+                    "action": "連續兩次轉身甩尾，各轉半圈回到正面。",
+                    "recovery": "小",
+                    "note": "胯下是盲區。",
+                    "video": "videos/首領雌火龍/首領雌火龍_迴旋甩尾.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "蓄力掃尾",
+                    "preaction": "尾巴先甩向一側蓄力，並先回頭看向尾巴。",
+                    "action": "尾巴從蓄力的另一側向前橫掃，接著尾尖會再發力小掃。",
+                    "recovery": "中",
+                    "note": "有二段傷害判定。",
+                    "video": "videos/首領雌火龍/首領雌火龍_蓄力掃尾.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "側咬",
+                    "preaction": "",
+                    "action": "向側前方走幾步後轉頭側咬。",
+                    "recovery": "小",
+                    "note": "怒後會接著前咬。",
+                    "video": "videos/首領雌火龍/首領雌火龍_側咬.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "前咬",
+                    "preaction": "",
+                    "action": "向前咬向目標。",
+                    "recovery": "小",
+                    "note": "結束後貼近身體有機會引出二連側甩尾。",
+                    "video": "videos/首領雌火龍/首領雌火龍_前咬.mp4",
+                    "onlyincombo": true
+                },
+                {
+                    "name": "前咬甩尾",
+                    "preaction": "側抬頭蓄力。",
+                    "action": "向前側咬後順勢甩尾攻擊。怒後口中會含火爆破。",
+                    "recovery": "小",
+                    "note": "胯下是盲區。",
+                    "video": "videos/首領雌火龍/首領雌火龍_前咬甩尾.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "突進前咬",
+                    "preaction": "向前貼近目標並側抬頭蓄力。",
+                    "action": "向前咬向目標。",
+                    "recovery": "小",
+                    "note": "",
+                    "video": "videos/首領雌火龍/首領雌火龍_突進前咬.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "火球",
+                    "preaction": "大多時候會先小後跳面向目標。若目標距離遠可能不會後跳。",
+                    "action": "怒前向前吐出一顆火球，怒後則依序中、右、左吐出三顆火球。",
+                    "recovery": "中",
+                    "note": "",
+                    "video": "videos/首領雌火龍/首領雌火龍_火球.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "蓄力火球",
+                    "preaction": "後退幾步，抬頭蓄力。",
+                    "action": "向前吐出菱形爆炸火球，爆炸位置依序為中左右前。",
+                    "recovery": "小",
+                    "note": "",
+                    "video": "videos/首領雌火龍/首領雌火龍_蓄力火球.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "後空翻",
+                    "preaction": "稍微後退，短暫俯身蓄力。",
+                    "action": "後空翻起飛的同時尾巴從下往上甩出。",
+                    "recovery": "中",
+                    "note": "會在腳下留下毒刺。",
+                    "video": "videos/首領雌火龍/首領雌火龍_後空翻.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "助跑側甩尾",
+                    "preaction": "衝向目標，接近時側身滑步蓄力。",
+                    "action": "起飛的同時尾巴從側面向上甩出，之後降落。",
+                    "recovery": "大",
+                    "note": "怒前直接降落；怒後接空中撲擊掃尾。",
+                    "video": "videos/首領雌火龍/首領雌火龍_助跑側甩尾.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "二連側甩尾",
+                    "preaction": "後退幾步並側身蓄力。",
+                    "action": "先從右側向左甩尾並起飛，後從左側向右甩尾。結束時會向前威嚇。",
+                    "recovery": "大",
+                    "note": "怒前直接降落；憤怒狀態會往前方地面射出毒刺，且必定會接空中後空翻。",
+                    "video": "videos/首領雌火龍/首領雌火龍_二連側甩尾.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "空中後空翻",
+                    "preaction": "這招前搖很短。有明顯的索敵機制，若目標不在正前方範圍內，會先調整好方向和角度。",
+                    "action": "空中後空翻的同時尾巴從下往上甩出。",
+                    "recovery": "大",
+                    "note": "憤怒狀態會在腳下留下毒刺。",
+                    "video": "videos/首領雌火龍/首領雌火龍_空中後空翻.mp4",
+                    "onlyincombo": true
+                },
+                {
+                    "name": "空中龍車",
+                    "preaction": "空中向後飛蓄力。",
+                    "action": "向前飛衝咬向目標後降落。",
+                    "recovery": "小",
+                    "note": "",
+                    "video": "videos/首領雌火龍/首領雌火龍_空中龍車.mp4",
+                    "onlyincombo": true
+                },
+                {
+                    "name": "空中撲擊掃尾",
+                    "condition": "憤怒狀態",
+                    "preaction": "空中先向上飛，然後向後飛。",
+                    "action": "飛向目標，先用爪撲擊目標，接著甩尾攻擊。",
+                    "recovery": "大",
+                    "note": "結束時頭的位置偏左，會有超長的威嚇動作可以白打。",
+                    "video": "videos/首領雌火龍/首領雌火龍_空中撲擊掃尾.mp4",
+                    "onlyincombo": true
+                }
+            ],
+            "combos": [
+                {
+                    "root": 0,
+                    "condition": "",
+                    "nodes": [
+                        {
+                            "move": "側咬",
+                            "links": [
+                                {
+                                    "node": 1,
+                                    "condition": "怒前距離近容易引出"
+                                },
+                                {
+                                    "node": 2,
+                                    "condition": "怒前距離遠容易引出"
+                                },
+                                {
+                                    "node": 3,
+                                    "condition": "憤怒狀態"
+                                }
+                            ]
+                        },
+                        {
+                            "move": "前咬甩尾",
+                            "links": []
+                        },
+                        {
+                            "move": "助跑側甩尾",
+                            "links": []
+                        },
+                        {
+                            "move": "前咬",
+                            "links": [
+                                {
+                                    "node": 4,
+                                    "condition": "距離近容易引出"
+                                }
+                            ]
+                        },
+                        {
+                            "move": "二連側甩尾",
+                            "links": [
+                                {
+                                    "node": 5,
+                                    "condition": ""
+                                }
+                            ]
+                        },
+                        {
+                            "move": "空中後空翻",
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "root": 0,
+                    "condition": "憤怒狀態",
+                    "nodes": [
+                        {
+                            "move": "火球",
+                            "links": [
+                                {
+                                    "node": 1,
+                                    "condition": "怒後貼近容易引出"
+                                }
+                            ]
+                        },
+                        {
+                            "move": "後空翻",
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "root": 0,
+                    "condition": "憤怒狀態",
+                    "nodes": [
+                        {
+                            "move": "後空翻",
+                            "links": [
+                                {
+                                    "node": 1,
+                                    "condition": ""
+                                },
+                                {
+                                    "node": 2,
+                                    "condition": ""
+                                },
+                                {
+                                    "node": 3,
+                                    "condition": ""
+                                }
+                            ]
+                        },
+                        {
+                            "move": "空中後空翻",
+                            "links": []
+                        },
+                        {
+                            "move": "空中龍車",
+                            "links": []
+                        },
+                        {
+                            "move": "空中撲擊掃尾",
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "root": 0,
+                    "condition": "憤怒狀態",
+                    "nodes": [
+                        {
+                            "move": "二連側甩尾",
+                            "links": [
+                                {
+                                    "node": 1,
+                                    "condition": ""
+                                }
+                            ]
+                        },
+                        {
+                            "move": "空中後空翻",
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "root": 0,
+                    "condition": "憤怒狀態",
+                    "nodes": [
+                        {
+                            "move": "助跑側甩尾",
+                            "links": [
+                                {
+                                    "node": 1,
+                                    "condition": ""
+                                }
+                            ]
+                        },
+                        {
+                            "move": "空中撲擊掃尾",
+                            "links": []
+                        }
+                    ]
+                }
+            ],
+            "ref_id": "605a1c18bc331f26a500c996"
         }
     }
 }
