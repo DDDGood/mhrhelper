@@ -8457,6 +8457,407 @@
                 }
             ],
             "ref_id": "605a1c18bc331f26a500c996"
+        },
+        "apex_rathalos": {
+            "outline": "部分空中招式結束時必定會落地，是可預判造成大量輸出的好機會。",
+            "reference": {},
+            "moves": [
+                {
+                    "name": "見面吼",
+                    "preaction": "",
+                    "action": "",
+                    "recovery": "",
+                    "note": "",
+                    "video": "videos/首領火龍/首領火龍_見面吼.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "怒吼",
+                    "preaction": "一邊揮動翅膀，一邊低著頭向後縮。",
+                    "action": "",
+                    "recovery": "",
+                    "note": "",
+                    "video": "videos/首領火龍/首領火龍_見面吼.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "側咬",
+                    "preaction": "張口轉頭側向目標。",
+                    "action": "從側方向目標咬去。",
+                    "recovery": "小",
+                    "note": "",
+                    "video": "videos/首領火龍/首領火龍_側咬.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "二連咬",
+                    "preaction": "頭往側上方抬起蓄力。",
+                    "action": "向前來回二連咬。",
+                    "recovery": "中",
+                    "note": "疲勞時只會咬一下。偶爾會發生起飛後飛到目標側面馬上落地使用這招。",
+                    "video": "videos/首領火龍/首領火龍_二連咬.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "蓄力側咬",
+                    "preaction": "張開雙翼，抬起上身注視目標。",
+                    "action": "頭部向前橫掃側咬。若憤怒狀態則會同時口火爆破，且接著會再向前吐出爆破火球。",
+                    "recovery": "中",
+                    "note": "",
+                    "video": "videos/首領火龍/首領火龍_蓄力側咬.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "二連迴旋甩尾",
+                    "preaction": "尾巴彎向一旁蓄力，頭會看向尾巴甩出的方向。",
+                    "action": "旋轉身體並甩尾，連續兩次。",
+                    "recovery": "小",
+                    "note": "",
+                    "video": "videos/首領火龍/首領火龍_二連迴旋甩尾.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "泰山壓頂",
+                    "preaction": "原地跳起，空中再次上升蓄力。",
+                    "action": "向目標地面下壓。",
+                    "recovery": "中",
+                    "note": "",
+                    "video": "videos/首領火龍/首領火龍_泰山壓頂.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "龍車",
+                    "preaction": "會先看向目標。",
+                    "action": "向前衝撞並前咬。",
+                    "recovery": "小",
+                    "note": "疲勞時會跌倒。憤怒後會二連龍車。",
+                    "video": "videos/首領火龍/首領火龍_龍車.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "火球",
+                    "preaction": "口中含火，抬頭蓄力。",
+                    "action": "向前吐出一顆火球。",
+                    "recovery": "中",
+                    "note": "疲勞時會啞火。",
+                    "video": "videos/首領火龍/首領火龍_火球.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "空中前咬",
+                    "preaction": "空中頭向後蓄力。",
+                    "action": "向前方咬。",
+                    "recovery": "小",
+                    "note": "",
+                    "video": "videos/首領火龍/首領火龍_空中前咬.mp4",
+                    "onlyincombo": true
+                },
+                {
+                    "name": "空中撲擊",
+                    "preaction": "空中腳爪向後蓄力。",
+                    "action": "腳爪向前，向目標撲擊。",
+                    "recovery": "小",
+                    "note": "",
+                    "video": "videos/首領火龍/首領火龍_空中撲擊.mp4",
+                    "onlyincombo": true
+                },
+                {
+                    "name": "空中橫向掃火",
+                    "preaction": "空中含火，頭部緩慢地旋轉蓄力。",
+                    "action": "向前方掃出橫向火焰。",
+                    "recovery": "",
+                    "note": "",
+                    "video": "videos/首領火龍/首領火龍_空中橫向掃火.mp4",
+                    "onlyincombo": true
+                },
+                {
+                    "name": "空中直線爆炸火球",
+                    "preaction": "空中口中含火，微微側頭，向後抬起蓄力。",
+                    "action": "向前方地面吐出一直線連續爆炸的火球。",
+                    "recovery": "大",
+                    "note": "會連續使用兩次，結束後必定會落地。",
+                    "video": "videos/首領火龍/首領火龍_空中直線爆炸火球.mp4",
+                    "onlyincombo": true
+                },
+                {
+                    "name": "空中火球",
+                    "preaction": "空中口中含火，抬頭蓄力。",
+                    "action": "向前方地面吐出一顆火球。",
+                    "recovery": "小",
+                    "note": "疲勞時會啞火。",
+                    "video": "videos/首領火龍/首領火龍_空中火球.mp4",
+                    "onlyincombo": true
+                },
+                {
+                    "name": "空中直線噴火",
+                    "condition": "空中招式",
+                    "preaction": "空中大角度轉身蓄力，並向下噴火。",
+                    "action": "持續由下往前噴出直線火焰。",
+                    "recovery": "大",
+                    "note": "怒後會連續使用兩次。結束後高機率直接落地，偶爾會接撲擊。",
+                    "video": "videos/首領火龍/首領火龍_空中直線噴火.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "空中三連火球",
+                    "condition": "空中招式",
+                    "preaction": "先伸頭向前威嚇，然後空中口中含火，抬頭蓄力。",
+                    "action": "向前方依序中、左、右吐出三顆火球。",
+                    "recovery": "大",
+                    "note": "結束後必定會落地。疲勞時會啞火。",
+                    "video": "videos/首領火龍/首領火龍_空中三連火球.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "空中掃尾",
+                    "condition": "空中招式",
+                    "preaction": "空中側身舉起尾巴蓄力。",
+                    "action": "尾巴向前橫掃",
+                    "recovery": "中",
+                    "note": "結束後會落地。",
+                    "video": "videos/首領火龍/首領火龍_空中掃尾.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "火球起飛",
+                    "condition": "憤怒狀態",
+                    "preaction": "張開雙翼，口中含火緩慢地旋轉蓄力。",
+                    "action": "向前吐出爆破火球的同時起飛。",
+                    "recovery": "",
+                    "note": "",
+                    "video": "videos/首領火龍/首領火龍_火球起飛.mp4",
+                    "onlyincombo": true
+                },
+                {
+                    "name": "絕招爆炸烈焰",
+                    "condition": "憤怒狀態",
+                    "preaction": "雙翼伏地，向前抬頭怒吼。",
+                    "action": "高高飛起後朝前方地面吐出大火球，短暫時間後大範圍爆破。",
+                    "recovery": "大",
+                    "note": "",
+                    "video": "videos/首領火龍/首領火龍_絕招爆炸烈焰.mp4",
+                    "onlyincombo": false
+                }
+            ],
+            "combos": [
+                {
+                    "root": 0,
+                    "condition": "空中招式",
+                    "nodes": [
+                        {
+                            "move": "空中直線爆炸火球",
+                            "links": [
+                                {
+                                    "node": 1,
+                                    "condition": ""
+                                }
+                            ]
+                        },
+                        {
+                            "move": "空中直線爆炸火球",
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "root": 0,
+                    "condition": "空中招式",
+                    "nodes": [
+                        {
+                            "move": "空中前咬",
+                            "links": [
+                                {
+                                    "node": 1,
+                                    "condition": ""
+                                },
+                                {
+                                    "node": 2,
+                                    "condition": ""
+                                }
+                            ]
+                        },
+                        {
+                            "move": "空中三連火球",
+                            "links": []
+                        },
+                        {
+                            "move": "空中橫向掃火",
+                            "links": [
+                                {
+                                    "node": 3,
+                                    "condition": ""
+                                }
+                            ]
+                        },
+                        {
+                            "move": "空中撲擊",
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "root": 0,
+                    "condition": "空中招式",
+                    "nodes": [
+                        {
+                            "move": "空中橫向掃火",
+                            "links": [
+                                {
+                                    "node": 1,
+                                    "condition": ""
+                                },
+                                {
+                                    "node": 3,
+                                    "condition": ""
+                                },
+                                {
+                                    "node": 5,
+                                    "condition": "若停頓"
+                                },
+                                {
+                                    "node": 6,
+                                    "condition": "若修正方向"
+                                }
+                            ]
+                        },
+                        {
+                            "move": "空中直線爆炸火球",
+                            "links": [
+                                {
+                                    "node": 2,
+                                    "condition": ""
+                                }
+                            ]
+                        },
+                        {
+                            "move": "空中直線爆炸火球",
+                            "links": []
+                        },
+                        {
+                            "move": "空中火球",
+                            "links": [
+                                {
+                                    "node": 4,
+                                    "condition": "落地後高機率"
+                                }
+                            ]
+                        },
+                        {
+                            "move": "龍車",
+                            "links": []
+                        },
+                        {
+                            "move": "空中撲擊",
+                            "links": []
+                        },
+                        {
+                            "move": "空中掃尾",
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "root": 0,
+                    "condition": "空中招式",
+                    "nodes": [
+                        {
+                            "move": "空中撲擊",
+                            "links": [
+                                {
+                                    "node": 1,
+                                    "condition": ""
+                                },
+                                {
+                                    "node": 3,
+                                    "condition": ""
+                                }
+                            ]
+                        },
+                        {
+                            "move": "空中直線爆炸火球",
+                            "links": [
+                                {
+                                    "node": 2,
+                                    "condition": ""
+                                }
+                            ]
+                        },
+                        {
+                            "move": "空中直線爆炸火球",
+                            "links": []
+                        },
+                        {
+                            "move": "空中直線噴火",
+                            "links": [
+                                {
+                                    "node": 4,
+                                    "condition": "憤怒狀態"
+                                }
+                            ]
+                        },
+                        {
+                            "move": "空中直線噴火",
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "root": 0,
+                    "condition": "空中招式",
+                    "nodes": [
+                        {
+                            "move": "空中直線噴火",
+                            "links": [
+                                {
+                                    "node": 1,
+                                    "condition": "憤怒狀態"
+                                },
+                                {
+                                    "node": 2,
+                                    "condition": "低機率"
+                                }
+                            ]
+                        },
+                        {
+                            "move": "空中直線噴火",
+                            "links": []
+                        },
+                        {
+                            "move": "空中撲擊",
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "root": 0,
+                    "condition": "憤怒狀態",
+                    "nodes": [
+                        {
+                            "move": "火球起飛",
+                            "links": [
+                                {
+                                    "node": 1,
+                                    "condition": ""
+                                }
+                            ]
+                        },
+                        {
+                            "move": "空中火球",
+                            "links": [
+                                {
+                                    "node": 2,
+                                    "condition": "落地後高機率"
+                                }
+                            ]
+                        },
+                        {
+                            "move": "龍車",
+                            "links": []
+                        }
+                    ]
+                }
+            ],
+            "ref_id": "608b68b7acd80103b52c118d"
         }
     }
 }
