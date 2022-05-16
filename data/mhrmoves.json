@@ -8487,7 +8487,7 @@
                     "recovery": "小",
                     "note": "",
                     "video": "videos/首領火龍/首領火龍_側咬.mp4",
-                    "onlyincombo": false
+                    "onlyincombo": true
                 },
                 {
                     "name": "二連咬",
@@ -8640,6 +8640,24 @@
                 }
             ],
             "combos": [
+                {
+                    "root": 0,
+                    "nodes": [
+                        {
+                            "move": "側咬",
+                            "links": [
+                                {
+                                    "node": 1,
+                                    "condition": ""
+                                }
+                            ]
+                        },
+                        {
+                            "move": "二連迴旋甩尾",
+                            "links": []
+                        }
+                    ]
+                },
                 {
                     "root": 0,
                     "condition": "空中招式",
