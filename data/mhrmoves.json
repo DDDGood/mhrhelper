@@ -9412,12 +9412,12 @@
             "reference": {},
             "moves": [
                 {
-                    "name": "見面吼",
+                    "name": "龍吼",
                     "preaction": "抬起上身，翅膀擋在身前。",
                     "action": "張開雙翼並怒吼。",
                     "recovery": "中",
-                    "note": "",
-                    "video": "videos/爵銀龍/爵銀龍_見面吼.mp4",
+                    "note": "見面吼與進怒吼基本上是相同的動作。",
+                    "video": "videos/爵銀龍/爵銀龍_龍吼.mp4",
                     "onlyincombo": false
                 },
                 {
