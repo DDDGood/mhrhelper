@@ -8876,6 +8876,1322 @@
                 }
             ],
             "ref_id": "608b68b7acd80103b52c118d"
+        },
+        "apex_zinogre_WIP": {
+            "outline": "",
+            "reference": {},
+            "moves": [
+                {
+                    "name": "超電吼",
+                    "preaction": "身體微微側縮後，頭向上抬起晃一圈。",
+                    "action": "抬頭吼的同時全身發出電光。",
+                    "recovery": "",
+                    "note": "進入超電狀態。",
+                    "video": "videos/首領雷狼龍/首領雷狼龍_超電吼.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "超電怒吼",
+                    "preaction": "眼睛發出電光，先往後跳，單手拍一下地面。",
+                    "action": "抬頭大吼。",
+                    "recovery": "",
+                    "note": "進入超電怒狀態。",
+                    "video": "videos/首領雷狼龍/首領雷狼龍_超電怒吼.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "超電怒進階吼",
+                    "preaction": "左右搖晃頭，全身電光大作。",
+                    "action": "原第一跳，雙腳拍地前頂怒吼，同時爆發電光。",
+                    "recovery": "",
+                    "note": "進入超電怒進階狀態。",
+                    "video": "videos/首領雷狼龍/首領雷狼龍_超電怒進階吼.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "肩撞",
+                    "preaction": "側過身，伏低身體蓄力。",
+                    "action": "向目標肩撞。",
+                    "recovery": "中",
+                    "note": "",
+                    "video": "videos/首領雷狼龍/首領雷狼龍_肩撞.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "前頂",
+                    "preaction": "抬起上身，停頓蓄力。",
+                    "action": "向目標前鼎。",
+                    "recovery": "小",
+                    "note": "",
+                    "video": "videos/首領雷狼龍/首領雷狼龍_前頂.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "側頭前頂",
+                    "preaction": "向側後方抬頭蓄力。",
+                    "action": "向目標前鼎。",
+                    "recovery": "小",
+                    "note": "",
+                    "video": "videos/首領雷狼龍/首領雷狼龍_前頂.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "小拍",
+                    "preaction": "",
+                    "action": "單手向目標地面拍下。",
+                    "recovery": "",
+                    "note": "建議往另一隻手方向躲避。",
+                    "video": "videos/首領雷狼龍/首領雷狼龍_小拍.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "二連拍",
+                    "preaction": "稍微側身，單手向後蓄力。",
+                    "action": "連續兩次向目標地面拍下。",
+                    "recovery": "",
+                    "note": "有時候會快速跑近使用這招。建議都往另一隻手方向躲避。超電狀態速度會變快。疲勞時只有一下。",
+                    "video": "videos/首領雷狼龍/首領雷狼龍_二連拍.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "蓄力拍",
+                    "preaction": "抬起上身，單手挾帶電光高舉。",
+                    "action": "向目標地面拍下。",
+                    "recovery": "中",
+                    "note": "建議往另一隻手方向躲避。",
+                    "video": "videos/首領雷狼龍/首領雷狼龍_蓄力拍.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "飛撲",
+                    "preaction": "後退一步，短暫的停頓。",
+                    "action": "向前飛撲目標。",
+                    "recovery": "中",
+                    "note": "通常距離目標較遠時使用。",
+                    "video": "videos/首領雷狼龍/首領雷狼龍_飛撲.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "龍車",
+                    "preaction": "低頭，身體短暫地向後縮蓄力。",
+                    "action": "朝目標方向奔跑衝撞。",
+                    "recovery": "",
+                    "note": "(?)若距離目標近，會先後跳拉開距離。",
+                    "video": "videos/首領雷狼龍/首領雷狼龍_龍車.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "拍尾",
+                    "preaction": "背向目標時，側頭，舉起尾巴",
+                    "action": "尾巴向目標拍下。",
+                    "recovery": "小",
+                    "note": "",
+                    "video": "videos/首領雷狼龍/首領雷狼龍_拍尾.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "掃尾",
+                    "preaction": "側身向目標，尾巴向後甩蓄力。",
+                    "action": "尾巴橫掃目標，身體順勢轉向前方。",
+                    "recovery": "大",
+                    "note": "",
+                    "video": "videos/首領雷狼龍/首領雷狼龍_掃尾.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "尾砸",
+                    "preaction": "快速轉身背向目標。",
+                    "action": "後空翻後尾巴重重砸落。",
+                    "recovery": "",
+                    "note": "超電怒狀態後會派生連招。",
+                    "video": "videos/首領雷狼龍/首領雷狼龍_尾砸.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "迴旋掃尾",
+                    "preaction": "後退一步且側過身，尾巴舉起。",
+                    "action": "以前方手為軸心，向前旋轉身體掃尾一圈。",
+                    "recovery": "大",
+                    "note": "尾巴來向的另一側為盲區。",
+                    "video": "videos/首領雷狼龍/首領雷狼龍_迴旋掃尾.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "後空翻",
+                    "preaction": "後跳一小步，雙手併攏、俯身抬尾蓄力。",
+                    "action": "跳起後空翻的同時尾巴向前甩出雷電。",
+                    "recovery": "大",
+                    "note": "",
+                    "video": "videos/首領雷狼龍/首領雷狼龍_後空翻.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "昇龍拳",
+                    "preaction": "抬起上身，單手挾帶電光。",
+                    "action": "向前方扇形地面甩出三道電光。",
+                    "recovery": "大",
+                    "note": "",
+                    "video": "videos/首領雷狼龍/首領雷狼龍_昇龍拳.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "連續昇龍拳",
+                    "preaction": "雙手併攏向後側身，前方橫向地面泛起電光。",
+                    "action": "連續兩次昇龍拳，第一次為橫向雷電判定，第二次為縱向雷電判定。若為超電怒進階狀態，最後會多一下X型的閃電。",
+                    "recovery": "大",
+                    "note": "第一下向後躲，第二下向左右躲，第三下避免待在斜前方。",
+                    "video": "videos/首領雷狼龍/首領雷狼龍_二連昇龍拳.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "背砸",
+                    "preaction": "向目標高高躍起。",
+                    "action": "背部向下砸。",
+                    "recovery": "大",
+                    "note": "",
+                    "video": "videos/首領雷狼龍/首領雷狼龍_背砸.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "甩電球",
+                    "preaction": "側身扶地，尾巴向上彎起",
+                    "action": "連續兩次空翻並各甩出三個電球。",
+                    "recovery": "中",
+                    "note": "",
+                    "video": "videos/首領雷狼龍/首領雷狼龍_甩電球.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "絕招連續空翻蓄力拍",
+                    "preaction": "身體附近地面爆發雷電，前頂大吼的同時目標腳下地面也會連續爆發三次雷電",
+                    "condition": "超電怒進階",
+                    "action": "連續兩次使用後空翻、蓄力拍的連招，第二次蓄力拍下會有扇形雷電擴散。",
+                    "recovery": "大",
+                    "note": "超電怒進階狀態下一段時間沒有被打炸膛就會使用。",
+                    "video": "videos/首領雷狼龍/首領雷狼龍_超電怒進階吼.mp4",
+                    "onlyincombo": false
+                }
+            ],
+            "combos": [
+                {
+                    "root": 0,
+                    "nodes": [
+                        {
+                            "move": "尾砸",
+                            "links": [
+                                {
+                                    "node": 1,
+                                    "condition": "超電以上"
+                                },
+                                {
+                                    "node": 2,
+                                    "condition": "超電以上"
+                                }
+                            ]
+                        },
+                        {
+                            "move": "小拍",
+                            "links": []
+                        },
+                        {
+                            "move": "掃尾",
+                            "links": [
+                                {
+                                    "node": 3,
+                                    "condition": "超電怒、身前"
+                                }
+                            ]
+                        },
+                        {
+                            "move": "後空翻",
+                            "links": [
+                                {
+                                    "node": 4,
+                                    "condition": "超電怒"
+                                }
+                            ]
+                        },
+                        {
+                            "move": "蓄力拍",
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "root": 0,
+                    "nodes": [
+                        {
+                            "move": "昇龍拳",
+                            "links": [
+                                {
+                                    "node": 1,
+                                    "condition": "超電怒以上、距離近"
+                                },
+                                {
+                                    "node": 2,
+                                    "condition": "超電怒以上、距離遠"
+                                },
+                                {
+                                    "node": 3,
+                                    "condition": "超電怒進階、低機率"
+                                }
+                            ]
+                        },
+                        {
+                            "move": "蓄力拍",
+                            "links": []
+                        },
+                        {
+                            "move": "背砸",
+                            "links": []
+                        },
+                        {
+                            "move": "後空翻",
+                            "links": [
+                                {
+                                    "node": 1,
+                                    "condition": ""
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "root": 0,
+                    "nodes": [
+                        {
+                            "move": "龍車",
+                            "links": [
+                                {
+                                    "node": 1,
+                                    "condition": ""
+                                },
+                                {
+                                    "node": 2,
+                                    "condition": ""
+                                },
+                                {
+                                    "node": 3,
+                                    "condition": ""
+                                }
+                            ]
+                        },
+                        {
+                            "move": "飛撲",
+                            "links": []
+                        },
+                        {
+                            "move": "甩電球",
+                            "links": []
+                        },
+                        {
+                            "move": "昇龍拳",
+                            "links": [
+                                {
+                                    "node": 4,
+                                    "condition": ""
+                                }
+                            ]
+                        },
+                        {
+                            "move": "昇龍拳後續連招",
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "root": 0,
+                    "nodes": [
+                        {
+                            "move": "後跳動作",
+                            "links": [
+                                {
+                                    "node": 1,
+                                    "condition": ""
+                                },
+                                {
+                                    "node": 2,
+                                    "condition": ""
+                                },
+                                {
+                                    "node": 3,
+                                    "condition": ""
+                                },
+                                {
+                                    "node": 5,
+                                    "condition": ""
+                                }
+                            ]
+                        },
+                        {
+                            "move": "二連拍",
+                            "links": []
+                        },
+                        {
+                            "move": "甩電球",
+                            "links": []
+                        },
+                        {
+                            "move": "昇龍拳",
+                            "links": [
+                                {
+                                    "node": 4,
+                                    "condition": ""
+                                }
+                            ]
+                        },
+                        {
+                            "move": "昇龍拳後續連招",
+                            "links": []
+                        },
+                        {
+                            "move": "龍車",
+                            "links": [
+                                {
+                                    "node": 6,
+                                    "condition": ""
+                                }
+                            ]
+                        },
+                        {
+                            "move": "龍車後續連招",
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "root": 0,
+                    "nodes": [
+                        {
+                            "move": "側頭前頂",
+                            "links": [
+                                {
+                                    "node": 1,
+                                    "condition": "無電"
+                                },
+                                {
+                                    "node": 2,
+                                    "condition": "無電"
+                                },
+                                {
+                                    "node": 3,
+                                    "condition": "超電/超電怒"
+                                },
+                                {
+                                    "node": 4,
+                                    "condition": "超電怒進階"
+                                }
+                            ]
+                        },
+                        {
+                            "move": "二連拍",
+                            "links": []
+                        },
+                        {
+                            "move": "尾砸",
+                            "links": []
+                        },
+                        {
+                            "move": "蓄力拍",
+                            "links": []
+                        },
+                        {
+                            "move": "肩撞",
+                            "links": [
+                                {
+                                    "node": 3,
+                                    "condition": ""
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "root": 0,
+                    "nodes": [
+                        {
+                            "move": "後空翻",
+                            "links": [
+                                {
+                                    "node": 1,
+                                    "condition": "超電怒"
+                                }
+                            ]
+                        },
+                        {
+                            "move": "蓄力拍",
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "root": 0,
+                    "nodes": [
+                        {
+                            "move": "二連拍",
+                            "links": [
+                                {
+                                    "node": 1,
+                                    "condition": "高機率"
+                                }
+                            ]
+                        },
+                        {
+                            "move": "後空翻",
+                            "links": [
+                                {
+                                    "node": 2,
+                                    "condition": "超電怒"
+                                }
+                            ]
+                        },
+                        {
+                            "move": "蓄力拍",
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "root": 0,
+                    "nodes": [
+                        {
+                            "move": "前頂",
+                            "links": [
+                                {
+                                    "node": 1,
+                                    "condition": ""
+                                },
+                                {
+                                    "node": 2,
+                                    "condition": "超電怒進階"
+                                }
+                            ]
+                        },
+                        {
+                            "move": "肩撞",
+                            "links": []
+                        },
+                        {
+                            "move": "後空翻",
+                            "links": [
+                                {
+                                    "node": 3,
+                                    "condition": ""
+                                }
+                            ]
+                        },
+                        {
+                            "move": "蓄力拍",
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "root": 0,
+                    "nodes": [
+                        {
+                            "move": "迴旋掃尾",
+                            "links": [
+                                {
+                                    "node": 1,
+                                    "condition": "身前容易引出"
+                                }
+                            ]
+                        },
+                        {
+                            "move": "連續昇龍拳",
+                            "links": []
+                        }
+                    ]
+                }
+            ],
+            "ref_id": ""
+        },
+        "malzeno": {
+            "outline": "部分空中招式結束時必定會落地，是可預判造成大量輸出的好機會。",
+            "reference": {},
+            "moves": [
+                {
+                    "name": "見面吼",
+                    "preaction": "抬起上身，翅膀擋在身前。",
+                    "action": "張開雙翼並怒吼。",
+                    "recovery": "中",
+                    "note": "",
+                    "video": "videos/爵銀龍/爵銀龍_見面吼.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "前撲",
+                    "preaction": "靠近目標，雙翼稍微張開，極短的蓄力動作。",
+                    "action": "撲向前方目標。",
+                    "recovery": "小",
+                    "note": "",
+                    "video": "videos/爵銀龍/爵銀龍_前撲.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "蓄力前撲",
+                    "preaction": "俯身連續煽動翅膀蓄力。",
+                    "action": "向目標短距離撲擊，並掀起目標位置及兩側的地面。",
+                    "recovery": "小",
+                    "note": "兩側掀地的關係，不能往側方向躲。",
+                    "video": "videos/爵銀龍/爵銀龍_蓄力前撲.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "側咬",
+                    "preaction": "靠近目標，側頭蓄力。",
+                    "action": "由側方向目標咬去",
+                    "recovery": "小",
+                    "note": "",
+                    "video": "videos/爵銀龍/爵銀龍_側咬.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "掃地後側咬",
+                    "preaction": "身體向側後方抬起，單爪拍地。",
+                    "action": "單爪向前方橫掃，接著再往前方目標反向側咬。",
+                    "recovery": "中",
+                    "note": "",
+                    "video": "videos/爵銀龍/爵銀龍_掃地後側咬.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "下壓",
+                    "preaction": "高舉上身，脖子向後縮。",
+                    "action": "向目標下壓。",
+                    "recovery": "大",
+                    "note": "有很強的方向修正，太早閃避可能會躲不開。",
+                    "video": "videos/爵銀龍/爵銀龍_下壓.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "砸地尾刺",
+                    "preaction": "俯身蓄力後快速原地躍起。",
+                    "action": "空中尾巴砸地後向前突刺。",
+                    "recovery": "大",
+                    "note": "劫血狀態下固定會使用兩次，第二次突刺有較強的方向修正。",
+                    "video": "videos/爵銀龍/爵銀龍_砸地尾刺.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "尾刺橫掃",
+                    "preaction": "回頭看向目標，尾部高舉。",
+                    "action": "尾巴向目標突刺後，再橫掃並轉身面向目標。",
+                    "recovery": "大",
+                    "note": "目標在身後時較容易使用。",
+                    "video": "videos/爵銀龍/爵銀龍_尾刺橫掃.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "蓄力掃尾後跳",
+                    "preaction": "回頭看向目標，尾部左右甩動蓄力。",
+                    "action": "尾巴向前橫掃後，向後方跳去。",
+                    "recovery": "小",
+                    "note": "連招起手動作。劫血狀態下會掀起地面，範圍更大。靠近胸前是盲區。",
+                    "video": "videos/爵銀龍/爵銀龍_蓄力掃尾後跳.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "翼尖戳地",
+                    "preaction": "身體後縮，單翼舉起，翼尖向前。",
+                    "action": "用翼尖向前方地面下戳，劫血狀態下會換邊再戳一次。",
+                    "recovery": "大",
+                    "note": "",
+                    "video": "videos/爵銀龍/爵銀龍_翼尖戳地.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "揮翅膀",
+                    "preaction": "抬起上身，單翼舉起擋在胸前。",
+                    "action": "翅膀向前橫掃。",
+                    "recovery": "小",
+                    "note": "",
+                    "video": "videos/爵銀龍/爵銀龍_揮翅膀.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "繞後跳",
+                    "preaction": "",
+                    "action": "跳向目標身後。",
+                    "recovery": "",
+                    "note": "",
+                    "video": "videos/爵銀龍/爵銀龍_繞後跳.mp4",
+                    "onlyincombo": true
+                },
+                {
+                    "name": "扇形爆破",
+                    "preaction": "先跳躍至目標身後，抬起上身，雙翼摀臉。",
+                    "action": "向前方地面吐出血光，接著分四階段扇形爆破。",
+                    "recovery": "中",
+                    "note": "",
+                    "video": "videos/爵銀龍/爵銀龍_扇形爆破.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "血球砸地前推",
+                    "preaction": "向後起飛，向下方吐出一顆血球。",
+                    "action": "血球砸地後，揮動翅膀將血球往目標方向推出。",
+                    "recovery": "中",
+                    "note": "",
+                    "video": "videos/爵銀龍/爵銀龍_血球砸地前推.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "三顆血球",
+                    "preaction": "先快速後跳，接著雙翼舉起，身前出現三顆血球。",
+                    "action": "三顆血球扇形向前推出",
+                    "recovery": "中",
+                    "note": "",
+                    "video": "videos/爵銀龍/爵銀龍_三顆血球.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "三顆追蹤血球",
+                    "preaction": "慢慢抬起上身，身前積蓄三顆血球。",
+                    "action": "三顆血球依序向目標當前位置射出。",
+                    "recovery": "中",
+                    "note": "第三顆球較難躲。",
+                    "video": "videos/爵銀龍/爵銀龍_三顆追蹤血球.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "血霧爆發",
+                    "preaction": "身體向後轉身站起，雙翼闔起擋在身前。",
+                    "action": "張開翅膀怒吼，進入劫血狀態。",
+                    "recovery": "",
+                    "note": "",
+                    "video": "videos/爵銀龍/爵銀龍_血霧爆發.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "順移",
+                    "condition": "劫血狀態",
+                    "preaction": "收起雙翼，旋轉身體。",
+                    "action": "往側方向順移。",
+                    "recovery": "",
+                    "note": "",
+                    "video": "videos/爵銀龍/爵銀龍_順移.mp4",
+                    "onlyincombo": true
+                },
+                {
+                    "name": "扇形血波動",
+                    "condition": "劫血狀態",
+                    "preaction": "短暫抬起上身，雙翼按壓身前地面。",
+                    "action": "向前方扇形三個方向推出血波動。",
+                    "recovery": "中",
+                    "note": "",
+                    "video": "videos/爵銀龍/爵銀龍_扇形血波動.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "分叉血波動",
+                    "condition": "劫血狀態",
+                    "preaction": "單腳扶地，上身冒出血光，身體微縮蓄力。",
+                    "action": "向前方左右推出兩道分叉血波動，接著會在各自分叉成四道。",
+                    "recovery": "中",
+                    "note": "",
+                    "video": "videos/爵銀龍/爵銀龍_分叉血波動.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "大砸地",
+                    "condition": "",
+                    "preaction": "原地較慢地飛起。",
+                    "action": "用力下砸，掀起身下大範圍的地面。",
+                    "recovery": "大",
+                    "note": "普通狀態下只有頭前有判定，劫血狀態下判定範圍極大。",
+                    "video": "videos/爵銀龍/爵銀龍_大砸地.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "前咬",
+                    "condition": "劫血狀態",
+                    "preaction": "身體向後微微抬起蓄力。",
+                    "action": "向前咬向目標。",
+                    "recovery": "大",
+                    "note": "接著會立刻順移接後續連招。",
+                    "video": "videos/爵銀龍/爵銀龍_前咬.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "血霧大招",
+                    "condition": "劫血狀態",
+                    "preaction": "原地向上順移。",
+                    "action": "空中吐息轉一圈，接著向下吐出一顆大血球，血球爆破後向四面八方炸出血波動。",
+                    "recovery": "大",
+                    "note": "劫血狀態一段時間內沒被打炸膛會觸發此招，使用後回到普通狀態。",
+                    "video": "videos/爵銀龍/爵銀龍_血霧大招.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "旋風突進",
+                    "preaction": "身體微側側扭轉，雙翼扶地。",
+                    "action": "向前迴旋突進。",
+                    "recovery": "小",
+                    "note": "快速轉身，注意後續連招。",
+                    "video": "videos/爵銀龍/爵銀龍_旋風突進.mp4",
+                    "onlyincombo": true
+                },
+                {
+                    "name": "直線空氣波",
+                    "preaction": "身體大幅度轉向側後方，單爪扶地蓄力。",
+                    "action": "向前方長距離射出空氣波並掀起地面。",
+                    "recovery": "大",
+                    "note": "劫血狀態下會連續使用兩次。",
+                    "video": "videos/爵銀龍/爵銀龍_直線空氣波.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "揮翼掃尾",
+                    "preaction": "側抬起上身，雙翼舉向同一側，長時間停頓。",
+                    "action": "單翼貼地橫掃後尾巴大範圍橫掃。",
+                    "recovery": "大",
+                    "note": "",
+                    "video": "videos/爵銀龍/爵銀龍_揮翼掃尾.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "揮爪",
+                    "preaction": "單手向另一側抬起。",
+                    "action": "快速向前揮爪",
+                    "recovery": "小",
+                    "note": "",
+                    "video": "videos/爵銀龍/爵銀龍_揮爪.mp4",
+                    "onlyincombo": true
+                },
+                {
+                    "name": "捕食",
+                    "preaction": "側抬起上身，看向目標。",
+                    "action": "撲向目標。",
+                    "recovery": "中",
+                    "note": "",
+                    "video": "videos/爵銀龍/爵銀龍_捕食.mp4",
+                    "onlyincombo": false
+                },
+                {
+                    "name": "製造風壓",
+                    "preaction": "",
+                    "action": "突然飛向目標，產生風壓。",
+                    "recovery": "",
+                    "note": "用來拉近距離的動作。",
+                    "video": "videos/爵銀龍/爵銀龍_製造風壓.mp4",
+                    "onlyincombo": false
+                }
+            ],
+            "combos": [
+                {
+                    "root": 0,
+                    "nodes": [
+                        {
+                            "move": "側咬",
+                            "links": [
+                                {
+                                    "node": 1,
+                                    "condition": ""
+                                },
+                                {
+                                    "node": 2,
+                                    "condition": ""
+                                },
+                                {
+                                    "node": 3,
+                                    "condition": "劫血狀態"
+                                },
+                                {
+                                    "node": 5,
+                                    "condition": "目標在身後"
+                                }
+                            ]
+                        },
+                        {
+                            "move": "下壓",
+                            "links": []
+                        },
+                        {
+                            "move": "三顆血球",
+                            "links": []
+                        },
+                        {
+                            "move": "前咬",
+                            "links": [
+                                {
+                                    "node": 4,
+                                    "condition": ""
+                                }
+                            ]
+                        },
+                        {
+                            "move": "後續連招",
+                            "links": []
+                        },
+                        {
+                            "move": "尾刺橫掃",
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "root": 0,
+                    "nodes": [
+                        {
+                            "move": "繞後跳",
+                            "links": [
+                                {
+                                    "node": 1,
+                                    "condition": "怒前"
+                                },
+                                {
+                                    "node": 2,
+                                    "condition": "怒後"
+                                }
+                            ]
+                        },
+                        {
+                            "move": "扇形爆破",
+                            "links": []
+                        },
+                        {
+                            "move": "翼尖戳地",
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "root": 0,
+                    "nodes": [
+                        {
+                            "move": "前撲",
+                            "links": [
+                                {
+                                    "node": 1,
+                                    "condition": "怒前"
+                                },
+                                {
+                                    "node": 2,
+                                    "condition": "怒後"
+                                },
+                                {
+                                    "node": 5,
+                                    "condition": "怒後"
+                                },
+                                {
+                                    "node": 6,
+                                    "condition": "目標在身後"
+                                }
+                            ]
+                        },
+                        {
+                            "move": "翼尖戳地",
+                            "links": []
+                        },
+                        {
+                            "move": "側咬",
+                            "links": [
+                                {
+                                    "node": 3,
+                                    "condition": ""
+                                },
+                                {
+                                    "node": 4,
+                                    "condition": ""
+                                }
+                            ]
+                        },
+                        {
+                            "move": "直線空氣波",
+                            "links": []
+                        },
+                        {
+                            "move": "揮翼掃尾",
+                            "links": []
+                        },
+                        {
+                            "move": "揮翅膀",
+                            "links": []
+                        },
+                        {
+                            "move": "尾刺橫掃",
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "root": 0,
+                    "nodes": [
+                        {
+                            "move": "三顆血球",
+                            "links": [
+                                {
+                                    "node": 1,
+                                    "condition": ""
+                                }
+                            ]
+                        },
+                        {
+                            "move": "砸地尾刺",
+                            "links": [
+                                {
+                                    "node": 2,
+                                    "condition": ""
+                                }
+                            ]
+                        },
+                        {
+                            "move": "翼尖戳地",
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "root": 0,
+                    "nodes": [
+                        {
+                            "move": "揮爪",
+                            "links": [
+                                {
+                                    "node": 1,
+                                    "condition": "怒前"
+                                },
+                                {
+                                    "node": 2,
+                                    "condition": "怒後"
+                                },
+                                {
+                                    "node": 4,
+                                    "condition": "怒後"
+                                }
+                            ]
+                        },
+                        {
+                            "move": "翼尖戳地",
+                            "links": []
+                        },
+                        {
+                            "move": "揮翅膀",
+                            "links": [
+                                {
+                                    "node": 3,
+                                    "condition": ""
+                                }
+                            ]
+                        },
+                        {
+                            "move": "後續連招",
+                            "links": []
+                        },
+                        {
+                            "move": "側咬",
+                            "links": [
+                                {
+                                    "node": 5,
+                                    "condition": ""
+                                }
+                            ]
+                        },
+                        {
+                            "move": "後續連招",
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "root": 0,
+                    "nodes": [
+                        {
+                            "move": "蓄力掃尾後跳",
+                            "links": [
+                                {
+                                    "node": 1,
+                                    "condition": ""
+                                },
+                                {
+                                    "node": 3,
+                                    "condition": "劫血狀態"
+                                }
+                            ]
+                        },
+                        {
+                            "move": "砸地尾刺",
+                            "links": [
+                                {
+                                    "node": 2,
+                                    "condition": ""
+                                }
+                            ]
+                        },
+                        {
+                            "move": "翼尖戳地",
+                            "links": []
+                        },
+                        {
+                            "move": "分叉血波動",
+                            "links": []
+                        },
+                        {
+                            "move": "砸地血球前推?待觀察",
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "root": 0,
+                    "nodes": [
+                        {
+                            "move": "旋風突進",
+                            "links": [
+                                {
+                                    "node": 1,
+                                    "condition": "怒前"
+                                },
+                                {
+                                    "node": 2,
+                                    "condition": "怒後近距離"
+                                },
+                                {
+                                    "node": 3,
+                                    "condition": "怒後中距離"
+                                },
+                                {
+                                    "node": 6,
+                                    "condition": "劫血狀態"
+                                }
+                            ]
+                        },
+                        {
+                            "move": "直線空氣波",
+                            "links": []
+                        },
+                        {
+                            "move": "蓄力前撲",
+                            "links": []
+                        },
+                        {
+                            "move": "三顆血球",
+                            "links": [
+                                {
+                                    "node": 4,
+                                    "condition": ""
+                                }
+                            ]
+                        },
+                        {
+                            "move": "砸地尾刺",
+                            "links": [
+                                {
+                                    "node": 5,
+                                    "condition": ""
+                                }
+                            ]
+                        },
+                        {
+                            "move": "翼尖戳地",
+                            "links": []
+                        },
+                        {
+                            "move": "順移",
+                            "links": [
+                                {
+                                    "node": 7,
+                                    "condition": ""
+                                }
+                            ]
+                        },
+                        {
+                            "move": "大砸地",
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "root": 0,
+                    "nodes": [
+                        {
+                            "move": "捕食",
+                            "links": [
+                                {
+                                    "node": 1,
+                                    "condition": "若捉到/普通狀態"
+                                },
+                                {
+                                    "node": 2,
+                                    "condition": "若捉到/劫血狀態"
+                                }
+                            ]
+                        },
+                        {
+                            "move": "扇形爆破",
+                            "links": []
+                        },
+                        {
+                            "move": "順移",
+                            "links": [
+                                {
+                                    "node": 3,
+                                    "condition": ""
+                                }
+                            ]
+                        },
+                        {
+                            "move": "大砸地",
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "root": 0,
+                    "condition": "劫血狀態",
+                    "nodes": [
+                        {
+                            "move": "順移",
+                            "links": [
+                                {
+                                    "node": 1,
+                                    "condition": "若向側方"
+                                },
+                                {
+                                    "node": 3,
+                                    "condition": "若向目標"
+                                },
+                                {
+                                    "node": 4,
+                                    "condition": "血量低"
+                                },
+                                {
+                                    "node": 6,
+                                    "condition": "向目標身後/低機率"
+                                }
+                            ]
+                        },
+                        {
+                            "move": "砸地尾刺",
+                            "links": [
+                                {
+                                    "node": 2,
+                                    "condition": ""
+                                }
+                            ]
+                        },
+                        {
+                            "move": "砸地尾刺",
+                            "links": []
+                        },
+                        {
+                            "move": "大砸地",
+                            "links": []
+                        },
+                        {
+                            "move": "翼尖戳地",
+                            "links": [
+                                {
+                                    "node": 5,
+                                    "condition": "血量低"
+                                }
+                            ]
+                        },
+                        {
+                            "move": "翼尖戳地",
+                            "links": []
+                        },
+                        {
+                            "move": "尾刺橫掃",
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "root": 0,
+                    "condition": "劫血狀態",
+                    "nodes": [
+                        {
+                            "move": "前咬",
+                            "links": [
+                                {
+                                    "node": 1,
+                                    "condition": ""
+                                }
+                            ]
+                        },
+                        {
+                            "move": "快速順移",
+                            "links": [
+                                {
+                                    "node": 2,
+                                    "condition": "通常"
+                                },
+                                {
+                                    "node": 3,
+                                    "condition": "低血量"
+                                },
+                                {
+                                    "node": 4,
+                                    "condition": "低血量"
+                                },
+                                {
+                                    "node": 5,
+                                    "condition": "低血量"
+                                }
+                            ]
+                        },
+                        {
+                            "move": "前咬",
+                            "links": []
+                        },
+                        {
+                            "move": "蓄力前撲",
+                            "links": []
+                        },
+                        {
+                            "move": "分叉血波動",
+                            "links": []
+                        },
+                        {
+                            "move": "扇形血波動",
+                            "links": []
+                        }
+                    ]
+                },
+                {
+                    "root": 0,
+                    "condition": "劫血狀態",
+                    "nodes": [
+                        {
+                            "move": "分叉血波動",
+                            "links": [
+                                {
+                                    "node": 1,
+                                    "condition": "怒前/頭前"
+                                },
+                                {
+                                    "node": 2,
+                                    "condition": "怒前/中距離"
+                                }
+                            ]
+                        },
+                        {
+                            "move": "扇形爆破",
+                            "links": []
+                        },
+                        {
+                            "move": "順移",
+                            "links": [
+                                {
+                                    "node": 3,
+                                    "condition": ""
+                                }
+                            ]
+                        },
+                        {
+                            "move": "大砸地",
+                            "links": []
+                        },
+                        {
+                            "move": "?>",
+                            "links": []
+                        }
+                    ]
+                }
+            ]
         }
     }
 }

@@ -22125,6 +22125,27 @@
           }
         ]
       }
+    },
+    "malzeno": {
+      "name": {
+        "tw": "爵銀龍",
+        "jp": "メル・ゼナ",
+        "en": "Malzeno"
+      },
+      "species": "elder_dragon",
+      "image": "images/monsters/fullbody/malzeno.png",
+      "icon": "images/monsters/icons/Malzeno.png",
+      "icon_large": "images/monsters/icons/large/Malzeno.png",
+      "description": "因擁有美麗的白銀甲殼，洋溢高貴氣質而得名「爵銀龍」。\n為了奪取獵物的精氣，會隱身於黑夜中自背後施襲。\n外表凜然優雅，但一旦收集精氣，便會顯露出兇暴的本性。",
+      "threat_level": "10",
+      "ref_id": "",
+      "trait": {
+        "roar": "？",
+        "wind": "？",
+        "tremor": "？",
+        "element": "龍",
+        "aliment": "-"
+      }
     }
   }
 }
